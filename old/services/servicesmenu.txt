@@ -1,0 +1,110 @@
+<div class="col-lg-2 col-md-2 col-sm-3 hidden-xs" id="leftnavmenu" >
+<a type="button" id="borrow" class="btn btn-default find-button2  " href="/services/borrow/"><span class="word-hide">Borrow/Renew</span><span class="word-show">Borrow</span></a> 
+<a type="button" id="CDIL" class="btn btn-default find-button2 " href="http://cdil.lib.uidaho.edu/">CDIL (Digital Scholarship)</a>
+<a type="button" id="copyright" class="btn btn-default find-button2 " href="/copyright/">Copyright</a> 
+<small id="copylist" style="display:none;">
+<ul class="listsidenav datalist">
+<li><a id="copyhome" href="/copyright/">About</a> </li>
+<li><a  href="/copyright/guide.html"><span class="word-hide">Copyright</span> Guide</a>  </li>
+</ul>
+</small>
+<a type="button" id="reserves" class="btn btn-default find-button2" href="/services/reserve/">Course Reserves</a> 
+
+<small id="reservelist" style="display:none;">
+<ul class="listsidenav">
+<li><a href="index.html">Browse</a></li>
+                      <li><a href="policies.html" >Policies</a></li>
+					  <li><a href="request.html"><span class="word-hide">Request form</span><span class="word-show">Request</span></a></li>
+                      <li><a href="howto.html">How To</a></li>
+                     
+											<li><a href="swank.html"><span class="word-hide">Streaming Video</span><span class="word-show">Streaming</span></a></li>
+                      
+                      <li><a href="fairuse.html"><span class="word-hide">Copyright/Fair Use</span><span class="word-show">Fair Use</span></a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                     
+                    </ul>
+</small>
+<a type="button" id="dds" class="btn btn-default find-button2" href="/services/dds.html" >Data &amp; Digital Services</a> 
+<a type="button" id="data" class="btn btn-default find-button2" href="/services/data/">Data Management</a> 
+
+<small id="datalist" style="display:none;">
+<ul class="listsidenav datalist">
+<li><a id="datahome" href="/services/data/">Data <span class="word-hide">Home</span></a> </li>
+<li><a  href="/services/data/data-management/"><span class="word-hide">Data</span> Management</a>  </li>
+<!--<li><a id="training" href="/services/data/education.html">Training &amp; Workshops</a>  </li>-->
+<li><a id="training" href="/services/workshops/">Training &amp; Workshops</a>  </li>
+<li><a  href="/find/geospatial/">Geospatial <span class="word-hide">Resources</span></a>  </li>
+<li><a href="/services/data/dois.html">DOI Service</a></li>
+<li><a href="/services/data/data-management/#contact">Contact <span class="word-hide">/ Help</span></a> </li>
+</ul>
+</small>
+
+<a type="button" id="distance" class="btn btn-default find-button2 "  href="/services/distance.html">Distance Education</a> 
+<a type="button" id="curriculumcenter" class="btn btn-default find-button2 "  href="/services/curriculumcenter.html">Curriculum Center</a> 
+
+<a type="button" id="instruction" class="btn btn-default find-button2 " href="/services/instruction/"><span class="word-hide">Instruction Services</span><span class="word-show">Instruction</span></a> 
+<small id="instructionlist" style="display:none;">
+<ul class="instruction listsidenav">
+
+                      <li><a href="/services/instruction/" >About</a></li>
+                      <li><a href="/services/instruction/instrequest.html" >Request Form</a></li>
+                      
+                      <li><a href="/services/instruction/engl102.html"><span class="word-hide">English 102</span><span class="word-show">Eng. 102</span></a></li>
+										
+                     
+                    </ul>
+</small>
+<a type="button" id="ill" class="btn btn-default find-button2 " href="/services/ill/index.html">Interlibrary Loan</a> 
+<small id="illlist" style="display:none;">
+<ul class="ill listsidenav">
+
+                      <li><a href="/services/ill/index.html" >About</a></li>
+					  <li><a href="/services/ill/summit.html">Summit</a></li>
+					  <li><a href="/services/ill/docdelivery.html">Document Delivery</a></li>
+					  <li><a href="/services/ill/other.html">Other Libraries</a></li>
+										
+                     
+                    </ul>
+</small>
+<a type="button" id="MILL" class="btn btn-default find-button2 " href="http://mill.lib.uidaho.edu/">The MILL</a>
+
+<a type="button" id="oer" class="btn btn-default find-button2" href="https://open.lib.uidaho.edu" >Open Education Resources</a>
+
+<a type="button" id="oapf" class="btn btn-default find-button2" href="/services/oapf/" >OA Publishing Fund</a> 
+<small id="oapflist" style="display:none;">
+<ul class="listsidenav oapflist">
+<li><a id="oapfindex" href="/services/oapf/index.html">About</a></li>
+<li><a id="" href="/services/oapf/eligibility.html">Eligibility</a></li>
+<li><a id="" href="/services/oapf/apply.html">Apply</a></li>
+<li><a id="" href="/services/oapf/faq.html">FAQ</a></li>
+</ul></small>
+
+<a type="button" id="scholarly" class="btn btn-default find-button2 " href="/services/scholarly/index.html">Scholarly Services</a>
+
+<small id="scholarlylist" style="display:none;">
+<ul class="listsidenav scholarlylist">
+<li><a id="scholarlyindex" href="/services/scholarly/">About</a></li>
+<li><a id="repository" href="repository.html">Repository</a></li>
+<li><a id="publishing" href="/services/scholarly/publishing.html">Publishing</a></li>
+<li><a id="openaccess" href="/services/scholarly/openaccess.html">Open Access</a></li>
+<li><a id="resources" href="/services/scholarly/resources.html">More</a></li>
+</ul></small>
+<a type="button" id="workshops" class="btn btn-default find-button2 " href="/services/workshops/index.html">Workshops</a>
+
+<small id="workshoplist" style="display:none;">
+<ul class="listsidenav workshoplist">
+<li><a id="workshopsindex" href="/services/workshops/index.html">Calendar</a></li>
+<li><a id="pastworkshops" href="/services/workshops/resources.html">Resources</a></li>
+</ul></small>
+<br />
+<br />
+
+
+
+
+
+</div>
+
+
+
+<div id="right_content" class="col-lg-9 col-md-9  col-sm-8 col-xs-12"  >
