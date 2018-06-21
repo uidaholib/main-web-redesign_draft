@@ -1,0 +1,7 @@
+<div class="center"  id="marketingdiv">
+  <h4><em><a href="/giving/" class="moss-txt" title="Information regarding donations to the library">Bringing the world to Idaho 
+	<br class="hidden-lg hidden-md hidden-sm visible-xs" /><br class="hidden-lg hidden-md hidden-sm visible-xs" />
+	... and Idaho to the world.</em> 
+	<br class="hidden-lg hidden-md visible-sm visible-xs" /><br class="hidden-lg hidden-md visible-sm visible-xs"/>
+	</a> </h4>
+</div>

@@ -1,0 +1,247 @@
+
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/abiglobal?accountid=14551'>ABI/INFORM Global</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=AONE'>Academic OneFile</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph'>Academic Search Premier</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://dl.acm.org/dl.cfm'>ACM Digital Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=agr'>Agricola (Ebsco)</option>
+<option value='http://agricola.nal.usda.gov/'>Agricola (USDA National Agricultural Library)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/agricenvironm?accountid=14551'>Agricultural & Environmental Science Database</option>
+<option value='http://agris.fao.org/agris-search/index.do'>AGRIS and CARIS</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=awh'>AltHealthWatch</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infoweb.newsbank.com/resources/?p=AMNEWS'>America's News - Historical and Current</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=ahl'>America: History and Life</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://pubs.acs.org/index.html'>American Chemical Society Publications</option>
+<option value='https://www.americangeosciences.org/georef/online-database-products'>American Geological Institute Information Services</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.aihc.amdigital.co.uk/'>American Indian Histories and Cultures</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.americanwest.amdigital.co.uk/'>American West</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.annualreviews.org/'>Annual Reviews</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=asf'>Applied Science and Technology Index</option>
+<option value='http://db.lib.uidaho.edu/aquaculture/'>Aquaculture Database</option>
+<option value='https://beta.worldcat.org/archivegrid/'>ArchiveGrid</option>
+<option value='http://www.lib.uidaho.edu/digital/argonaut/index.html'>Argonaut</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aai&defaultdb=air'>Art Index and Art Index Retrospective</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://firstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;dbname=Article1st;autho=100-214-991;FSIP'>ArticleFirst</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://library.artstor.org/'>ARTstor</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://elibrary.asabe.org/'>ASABE Technical Library</option>
+<option value='http://adsabs.harvard.edu/journals_service.html'>Astronomy Database -- journal query</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=bvh'>Avery Index to Architectural Periodicals</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.bergfashionlibrary.com/'>Berg Fashion Library</option>
+<option value='https://www.digitalconcerthall.com/en/home'>Berliner Philharmoniker Digital Concert Hall</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=BGMI'>Biography and genealogy master index</option>
+<option value='http://infotrac.galegroup.com/itweb/mosc00780?db=BIC1'>Biography in Context</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.bioone.org/'>BioOne Complete</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/BCI'>BIOSIS Citation Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/BIOSIS'>BIOSIS Previews</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://birdsna.org/'>Birds of North America</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.webofknowledge.com/?DestApp=WOS&editions=BSCI,BHCI'>Book Citation Index (Web of Science)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=brd'>Book Review Digest Plus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=brr'>Book Review Digest Retrospective: 1905-1982</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=BRI'>Book Review Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://www.buildinggreen.com/'>BuildingGreen Suite</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=ITBC'>Business Collection – Gale</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=BIG'>Business Insights: Global</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?site=bsi'>Business Source Premier</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://www.cabdirect.org/'>CABDirect</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://cabells.com/'>Cabell's Directory of Publishing Opportunities (Education)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://camio.oclc.org/'>CAMIO - Catalog of Art Museum Images Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.chicagomanualofstyle.org/home.html'>Chicago Manual of Style Online</option>
+<option value='http://www.childwelfare.gov/'>Child Welfare Information Gateway</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=CHLL'>Chilton Library - Automotive Repair Database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://choicereviews.org/'>Choice Reviews</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://chronicle.com/'>Chronicle of Higher Education Online</option>
+<option value='https://www.cia.gov/library/publications/the-world-factbook'>CIA: The World Factbook</option>
+<option value='http://cedb.asce.org/'>Civil Engineering Database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://clmu.alexanderstreet.com'>Classical Music Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.clcd.com/#/advancedsearch'>CLCD: Children's literature comprehensive database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.columbiagazetteer.org/main/Home.html'>Columbia Gazetteer of the World Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.ciaonet.org/'>Columbia International Affairs Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=ufh'>Communication and Mass Media Complete</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=PPCM'>Communications & Mass Media Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://www.engineeringvillage.com/'>Compendex (Engineering Index)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=CDB'>Computer Database – Gale</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=cph'>Computer Source</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/?DestApp=WOS&editions=ISSHP'>Conference Proceedings Citation Index (Science; Social Science & Humanities: Web of Science)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=chc'>Consumer Health Complete</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://library.cqpress.com/cqresearcher/'>CQ Researcher</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=cja'>Criminal Justice Abstracts</option>
+<option value='http://cris.csrees.usda.gov/'>CRIS: Current Research Information System</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/?DestApp=WOS&editions=CCR'>Current Chemical Reactions</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/CCC'>Current Contents Connect</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.webofknowledge.com/DCI'>Data Citation Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/DIIDW'>Derwent Innovations Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.cabi.org/dfb/'>Descriptions  of Fungi and Bacteria</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pqdtglobal/index?accountid=14551'>Dissertations & Theses Full Text (PQDT Global)</option>
+<option value='http://talltimbers.org/fire-ecology-database/'>E.V. Komarek Fire Ecology Database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=buh&defaultdb=bwh&defaultdb=f5h&defaultdb=aph&defaultdb=n5h'>Ebsco Business Search</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost'>Ebsco List of Databases</option>
+<option value='http://www.sec.gov/edgar.shtml'>EDGAR Database of Corporate Information</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=eir'>Education Index Retrospective</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=PROF'>Educator’s Reference Complete</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://ehrafarchaeology.yale.edu/ehrafa/'>eHRAF Archaeology</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://ehrafworldcultures.yale.edu/ehrafe/'>eHRAF World Cultures</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=ECCO'>Eighteenth Century Collections Online - ECCO</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/eisdigests/index?accountid=14551'>EIS: Digests of Environmental Impact Statements</option>
+<option value='http://libguides.uidaho.edu/citing'>Electronic Style Guides</option>
+<option value='http://www.eenews.net/'>Environment & Energy (E&E) Publications</option>
+<option value='http://sis.nlm.nih.gov/enviro.html'>Environmental Health and Toxicology databases</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=eric'>ERIC (Ebsco)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;FSIP;dbname=ERIC'>ERIC (FirstSearch)</option>
+<option value='http://www.europeana.eu/portal'>Europeana</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.everydaylife.amdigital.co.uk/'>Everyday Life & Women in America, c.1800-1920</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?profile=ehed'>Explora Educators Edition</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?profile=ehk5'>Explora Primary</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?profile=src_ic'>Explora Secondary</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ffw'>Fish, Fisheries and Aquatic Biodiversity Worldwide</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=zbh'>Fuente Academica</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=funk'>Funk & Wagnall's New World Encyclopedia</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://find.galegroup.com/gdl/start.do?prodId=GDL'>Gale Directory Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780'>Gale List of Databases</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=GVRL'>Gale Virtual Reference Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=PPGB'>Gender Studies Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=ITOF'>General OneFile</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=geh&defaultdb=guh'>GeoRef</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.geoscienceworld.org/'>GeoScience World</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=GIC'>Global Issues in Context</option>
+<option value='http://globalrangelands.org/'>Global Rangelands</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=8gh'>GreenFILE</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=GRNR'>GREENR (Global Reference on the Environment, Energy, and Natural Resources)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oxfordartonline.com/'>Grove Art Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oxfordmusiconline.com/'>Grove Music Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=HWRC'>Health & Wellness Resource Center & Alternative Health Module</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=HRCA'>Health Reference Center Academic</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=hxh'>Health Source: Consumer Edition</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=hch'>Health Source: Nursing/Academic Edition</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://heinonline.org/HOL/Welcome?collection=journals'>Hein Online</option>
+<option value='http://inspirehep.net/'>High Energy Physics Database</option>
+<option value='https://www.hsdl.org/?home'>Homeland Security Digital Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=22h'>Human Resources Abstracts</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=hsr'>Humanities & Social Science Index Retrospective: 1907-1984</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=hgh'>Humanities International Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://sanborn.umi.com/'>Idaho Digital Sanborn Maps</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://ieeexplore.ieee.org/'>IEEE Xplore</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://digital-library.theiet.org/content/books?order=date'>IET Digital Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://esi.incites.thomsonreuters.com'>InCites Essential Science Indicators</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://jcr.incites.thomsonreuters.com/'>InCites Journal Citation Reports</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/?DestApp=WOS&editions=IC'>Index Chemicus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://gdc.galegroup.com/gdc/artemis?p=INDP&u=mosc00780'>Indigenous Peoples: North America</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=IFME'>Informe Academico</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=stnd'>Infotrac Newsstand</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://inis.iaea.org/search'>INIS</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=inh'>Inspec</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://iopscience.iop.org'>Institute of Physics (IOP) Publications</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oxfordreference.com/view/10.1093/acref/9780191842665.001.0001/acref-9780191842665'>International Studies Encyclopedia</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.itergateway.org/resources'>Iter Bibliography</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://cf.itergateway.org/italicum/'>Iter Italicum</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/'>JSTOR</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://uidaho.kanopy.com/'>Kanopy Streaming Services</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.learningexpresslibrary3.com'>LearningExpress Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.learntechlib.org/'>LearnTechLib - The Learning and Technology Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=lgh'>Legal Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://find.galegroup.com/menu/start?userGroupName=mosc00780&prod=LT'>LegalTrac</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.cabi.org/leisuretourism/'>Leisure Tourism Database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.lexisnexis.com/hottopics/lnacademic/'>Lexis-Nexis Academic</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=lxh'>Library, Information Science & Technology Abstracts (LISTA)</option>
+<option value='http://www.galenet.com/servlet/LitIndex'>Literary Index (for Gale publications)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=LCO'>Literature Criticism Online (Gale)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=LitRC'>Literature Resource Center (Gale)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=LITF'>LitFinder</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://find.galegroup.com/menu/start?userGroupName=mosc00780&prod=MOML'>Making of Modern Law: Legal Treatises, 1800-1926</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://find.galegroup.com/menu/start?userGroupName=mosc00780&prod=MMLT'>Making of Modern Law: Trials, 1600-1926</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=ulh'>MAS Ultra - School Edition</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/materialscienceengineering?accountid=14551'>Materials Science & Engineering Database</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://www.ams.org/mathscinet'>MathSciNet (AMS)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=msn'>MathSciNet (EBSCOhost)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=lth'>MedicLatina</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=cmedm'>Medline (Ebsco)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/dbname=MEDLINE;done=http://db.lib.uidaho.edu/databases/;FSIP'>Medline (FirstSearch)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=mmt'>Mental Measurements Yearbook with Tests in Print</option>
+<option value='http://metalib.gpo.gov/'>MetaLib</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=mih'>Middle Search Plus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=mth'>Military & Government Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=mzh'>MLA Bibliography (Modern Language Association)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://library.morningstar.com/'>Morningstar Investment Research Center</option>
+<option value='http://www.ncdc.noaa.gov/'>National Centers for Environmental Information (NCEI)</option>
+<option value='https://www.ncjrs.gov/'>National Criminal Justice Reference Service</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://idaho.naxosmusiclibrary.com/'>Naxos Music Library</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://Idaho.NaxosMusicLibrary.com/jazz'>Naxos Music Library-Jazz</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://na.capitaliq.com/ip/IDHUNI'>NetAdvantage - Standard and Poors</option>
+<option value='https://www.nytimes.com/'>New York Times</option>
+<option value='http://nytimesineducation.com'>New York Times in Education</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=n5h'>Newspaper Source Plus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.nexisuni.com'>Nexis Uni - formerly Lexis Nexis Academic</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=novpk8'>Novelist K-8 Plus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=novplus'>NoveList Plus</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/autho=100214991:dbname=OAIster:FSIP'>OAIster (FirstSearch)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oecd-ilibrary.org/'>OECD iLibrary</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://ic.galegroup.com/ic/ovic/?userGroupName=mosc00780'>Opposing Viewpoints in Context</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/'>Oxford English Dictionary</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.oxfordreference.com/'>Oxford Reference Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infoweb.newsbank.com/?db=EANX'>Pacific Northwest Historical Newspapers Archive</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;dbname=PapersFirst;FSIP'>PapersFirst</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=phl'>Philosopher's Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/physicaleducationshell?accountid=14551'>Physical Education Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pilots?accountid=14551'>PILOTS (Published International Literature On Traumatic Stress)</option>
+<option value='https://pivot.cos.com/funding_main'>Pivot Funding Insights</option>
+<option value='https://pivot.cos.com/papers_invited/main'>Pivot Papers Invited</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.plantmanagementnetwork.org/about/'>Plant Management Network</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://poll.orspub.com/'>Polling the Nations</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pollution?accountid=14551'>Pollution Abstracts</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=prh'>Primary Search</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;dbname=Proceedings;FSIP'>ProceedingsFirst</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=tfh'>Professional Development Collection (for Educators)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://muse.jhu.edu/'>Project MUSE</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://muse.jhu.edu/'>Project Muse eBooks  (UPCC)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=pdh'>PsycArticles</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=pvh'>PsycCRITIQUES</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=pbh'>Psychology and Behavioral Sciences Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=psyh'>PsycINFO</option>
+<option value='http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=iduuomlib'>PubMed (Medline)</option>
+<option value='https://www.ncbi.nlm.nih.gov/pmc/'>PubMed Central Archive of Life Science Journals</option>
+<option value='http://arc.lib.montana.edu/range-science/index.php'>Range Science Information System (RSIS)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=rgr'>Readers' Guide Retrospective, 1890-1982</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=bwh'>Regional Business News</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=rlh'>Religion and Philosophy Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih'>RILM Abstracts of Music Literature</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.rockandroll.amdigital.co.uk/'>Rock and Roll, Counterculture, Peace and Protest: Pop Culture in Britain and America, 1950-75</option>
+<option value='https://www.safaribooksonline.com/library/view/temporary-access/'>Safari Books Online</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://online.sagepub.com/'>Sage Journals</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://sk.sagepub.com/'>Sage Knowledge</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://methods.sagepub.com/'>SAGE Research Methods</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://isiknowledge.com/?DestApp=WOS&editions=SCI'>Science Citation Index</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.sciencedirect.com'>Science Direct</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=SCIC'>Science in Context</option>
+<option value='https://libguides.uidaho.edu/az.php?q=scifinder'>SciFinder</option>
+<option value='http://www.osti.gov/scitech/'>SciTech Connect</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=sbrc'>Small Business Reference Center</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://isiknowledge.com/?DestApp=WOS&editions=SSCI'>Social Sciences Citation Index</option>
+<option value='http://www.lib.umn.edu/cgi-bin/forestry/index.cgi?page=search_ssif'>Social Sciences in Forestry</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/socialservices?accountid=14551'>Social Services Abstracts</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/socabs?accountid=14551'>Sociological Abstracts</option>
+<option value='https://sora.unm.edu/'>SORA (Searchable Ornithological Research Archive)</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://link.springer.com/'>Springer Link</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://statabs.proquest.com/sa'>Statistical Abstract of the United States</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=SUIC'>Student Resources in Context</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=trh'>Teacher Reference Center</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=tth'>TOPICsearch</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.proquest.com/toxline?accountid=14551'>TOXLINE</option>
+<option value='http://www.lib.umn.edu/cgi-bin/forestry/index.cgi?page=search_trls'>Trail Planning, Construction and Maintenance</option>
+<option value='http://www.treesearch.fs.fed.us/'>Treesearch</option>
+<option value='http://trid.trb.org/'>TRID (Transport Research International Documentation)</option>
+<option value='http://www.lib.umn.edu/cgi-bin/forestry/index.cgi?page=search_trps'>Tropical Forest Conservation and Development</option>
+<option value='http://library.columbia.edu/locations/usgd.html'>U.S. Government Documents Subject Guides & Internet Resources</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=UHIC'>U.S. History in Context</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://find.galegroup.com/menu/start?userGroupName=mosc00780&prod=SCRB'>U.S. Supreme Court Records & Briefs 1832-1978</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://www.ulrichsweb.serialssolutions.com/'>Ulrichsweb Global Serials Directory</option>
+<option value='http://data.un.org/'>UNData</option>
+<option value='http://www.lib.umn.edu/cgi-bin/forestry/index.cgi?page=search_urban'>Urban Forestry</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=23h'>Urban Studies Abstracts</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=voh'>Vocational and Career Collection</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/vogue/index?accountid=14551'>Vogue Archive</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/waterresources/index?accountid=14551'>Water Resources Abstracts</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA'>Web of Science</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=fzh'>Wildlife & Ecology Studies Worldwide</option>
+<option value='http://data.worldbank.org/'>World Bank Open Data</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=WHIC'>World History in Context</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://infotrac.galegroup.com/itweb/mosc00780?db=LAC'>World Scholar-Latin America & the Caribbean</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://newfirstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;dbname=WorldCat;FSIP'>WorldCat</option>
+<option value='http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/ZOOREC'>Zoological Record</option>
