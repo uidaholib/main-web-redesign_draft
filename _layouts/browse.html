@@ -1,0 +1,41 @@
+---
+layout: page 
+---
+{% assign items = site.data[site.metadata] %}
+{% assign raw-dates = site.data[site.metadata] | map: 'date' | compact %}
+{% capture clean-years %}{% for date in raw-dates %}{% if date contains "-" %}{{date | split: "-" | first }}{% elsif date contains "/" %}{{ date | split: "/" | last }}{% else %}{{ date }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{% endcapture %}
+{%- assign years = clean-years | split: ";" | sort -%}
+{%- assign uniqueYears = years | uniq | sort -%}
+
+<h2 class="text-center">
+    <input type="text" id="quicksearch" placeholder=" Filter ... " > 
+    <input class="btn btn-success align-top" title="Search" type="submit" value="Go" alt="Search" id="goButton" onclick="filterItems()"> 
+    <a class="btn btn-secondary align-top filter" href="#" data-filter="">Reset</a>
+    <br class="hidden-md-up">
+    <span class="info2"><span id="numberof">{{ items | size }}</span> of {{ items | size }} items</span>
+</h2>
+
+<div class="row" id="browse-items">
+    {% for item in items %}
+    <div class="item col-xl-6 col-lg-6 col-md-12" >
+        <div class="card mb-2" >
+            <div class="card-body">
+                <h5 class="card-title">{{ item.title }}</h5>
+                <hr>
+                <p class="card-text"><strong>Date:</strong> {{ item.date }}<br>
+                <strong>Subject:</strong>
+                    {% assign subjects = item.subject | split:';' %}
+                    {% for subject in subjects %}{% if subject !=" " %}
+                    <a class="filter" data-filter="{{ subject | strip }}" href="{{ subject | strip | uri_escape | prepend: "/browse/#" | absolute_url }}">{{ subject }}</a>{% unless forloop.last %}; {% endunless %} 
+                    {% endif %}{% endfor %}<br>
+                {% if item.location %}<strong>Location:</strong> {{ item.location }}.<br>{% endif %}
+                <strong>Abstract:</strong> {{ item.description | truncatewords: 25 }}<br>
+                {% if item.series %}<strong>Series:</strong> {{ item.series }}.<br>{% endif %}
+                {% if item.collection %}<strong>Collection:</strong> {{ item.collection }}.<br>{% endif %}
+                </p>
+                <a href="{{ "/docs/" | absolute_url | append: item.resource-identifier | append: ".html" }}" class="btn btn-sm btn-info" title="link to {{ item.title | replace: '"', '' }}">Go to Document</a>
+            </div>
+         </div>
+    </div>
+    {% endfor %}
+</div>
