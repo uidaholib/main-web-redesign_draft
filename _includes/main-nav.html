@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-md navbar-light border-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item {% if page.url contains "/find/" %} active{% endif %}">
+                    <a class="nav-link" href="{{ "/find/" | absolute_url }}"><span class="fas fa-search"></span> Find</a>
+                </li>           
+                <li class="nav-item {% if page.url contains "/services/" %} active{% endif %}">
+                    <a class="nav-link" href="{{ "/services/" | relative_url }}"><span class="fas fa-wrench"></span> Services</a>
+                </li>
+                <li class="nav-item {% if page.url == "/collections/" %} active{% endif %}">
+                    <a class="nav-link" href="{{ "/collections/" | relative_url }}"><span class="fas fa-th-large"></span> Collections</a>
+                </li>                
+                <li class="nav-item {% if page.url == "/about/" %} active{% endif %}">
+                    <a class="nav-link" href="{{ "/about/" | relative_url }}"><span class="fas fa-map-marker-alt"></span> About</a>
+                </li>
+            </ul>
+
+            <!-- ask a librarian button -->
+            <button type="button" class="btn btn-outline-dark mr-2" data-toggle="modal" data-target="#ask">Ask a Librarian</button>
+            <!-- ask a librarian Modal -->
+            <div class="modal fade" id="ask" tabindex="-1" role="dialog" aria-labelledby="askLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="askLabel">Ask A Librarian</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- book a room button -->
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="bookRoom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Book a Room
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bookRoom">
+                    <a class="dropdown-item" href="https://libcal.uidaho.edu/reserve/3dprinters">3D Printers (MILL - First Floor)</a>
+                    <a class="dropdown-item" href="https://libcal.uidaho.edu/reserve/AV">The Studio (A/V Lab - Second Floor)</a>
+                    <a class="dropdown-item" href="https://libcal.uidaho.edu/reserve/first">First Floor Group Study Rooms</a>
+                    <a class="dropdown-item" href="https://libcal.uidaho.edu/reserve/instructionroom">First Floor Instruction Room</a>
+                    <hr>
+                    <a class="dropdown-item" href="https://libcal.uidaho.edu/">Room Policies</a>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+</nav>
