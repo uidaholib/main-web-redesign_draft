@@ -1,10 +1,20 @@
 <div class="container">
-    <div class="d-none d-md-block float-right mt-md-1">
-        <a title="University of Idaho Library" class="btn btn-outline-light" href="{{ site.liburl }}">
-        <img class="img-fluid lib-logo-lg" src="{{ '/assets/images/ui_library_horizontal.png' | relative_url }}" alt="UI Library logo" ></a>
+    <div class="row">
+        <!-- logo -->
+        <div class="col-md-8 my-2">
+            <a title="University of Idaho Library" class="" href="{{ '/' | absolute_url }}">
+            <img class="img-fluid lib-logo-lg" src="{{ '/assets/images/ui_library_horizontal.png' | relative_url }}" alt="University of Idaho Library [logo]" ></a>
+        </div>
+        <!-- hours -->
+        <div class="col-md-2">
+            <p>hours</p>
+        </div>
+
+        <!-- quick nav -->
+        <div class="col-md-2">
+            <p class="float-right">quick nav</p>
+        </div>
+    
     </div>
-    <div id="title" class="" >
-        <h1><a href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-        <p>{{ site.tagline }}</p>
-    </div>
+
 </div>
