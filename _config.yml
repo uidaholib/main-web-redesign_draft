@@ -18,3 +18,5 @@ url: https://uidaholib.github.io
 baseurl: /main-web-redesign_draft
 
 liburl: https://www.lib.uidaho.edu
+
+exclude: [old]
