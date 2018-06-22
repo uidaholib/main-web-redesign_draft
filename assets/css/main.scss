@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 // base variables
-$base-font-family: "Oswald", Verdana, Verdana, Geneva, sans-serif; 
-$base-font-size:   16px;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+$base-font-size:   18px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -14,11 +14,26 @@ $text-color:       #111;
 $background-texture: url(https://www.lib.uidaho.edu/digital/grey_wash_wall.png) repeat scroll;
 $background-color: #fdfdfd;
 $nav-background: #e8e8e8; //#CBCCD0;
-$link-color:      #B06048;
+$link-color:      #191919;
 
-$grey-color:       #828282;
+$grey-color:       #808080;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+
+$pride-gold:  #F1B300;
+$black:  #191919;
+
+
+$garnet: #D22630; 
+$wild-rose: #E10098;
+$palouse-green: #00AF66;
+$clearwater: #00AEC7;
+$clearwater: #00AEC7;
+$clearwater-light: #8BD5E5;
+$payette-blue: #003E51;
+$ponderosa-pine: #004E42;
+
 
 // Width of the content area
 $content-width:    1800px;
