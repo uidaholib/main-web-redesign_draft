@@ -49,38 +49,38 @@
 	if(oneOff.indexOf(dateNumber)==0) 
 	{
 	var libhours = baseOneOff;
-	  document.getElementById("timedisp").innerHTML = libhours;
+	  
 	}
 	else if(twoOff.indexOf(dateNumber)==0) 
 	{
 	var libhours = baseTwoOff;
-	  document.getElementById("timedisp").innerHTML = libhours;
+	  
 	}	
 	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 101 && Number(dateNumber) < 514) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
 				   	var libhours = base;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Friday
 			else if (dayNumber == 5 ){
 				 	var libhours = baseFri;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Saturday		
 			else if (dayNumber == 6 ){
 				   	var libhours = baseSat;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Sunday	
 			else if (dayNumber == 0 ){
 				    var libhours = baseSun;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Error
 			else {
-					var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>" ;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					var libhours = "" ;
+					  
 			}
 		}
 //Fall semester hours
@@ -88,27 +88,27 @@
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
 				   	var libhours = base;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Friday
 			else if (dayNumber == 5 ){
 				 	var libhours = baseFri;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Saturday		
 			else if (dayNumber == 6 ){
 				   	var libhours = baseSat;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Sunday	
 			else if (dayNumber == 0 ){
 				    var libhours = baseSun;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Error
 			else {
-					var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>" ;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					var libhours = "" ;
+					  
 			}
 		}
 //Summer hours
@@ -116,17 +116,17 @@
 	//Summer Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseSummerWkday;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Summer Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
 				   	var libhours = baseSummerWkend;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Error
 			else {
-					var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>" ;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					var libhours = "" ;
+					  
 			}
 		}
 //Thanksgiving/SpringBreak/WinterBreak hours (if not in xmas or closed dates ...)
@@ -134,17 +134,17 @@
 	//Thanksgiving/SpringBreak/WinterBreak Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseTgWkday;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Thanksgiving/SpringBreak/WinterBreak Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
 				   	var libhours = baseTgWkend;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Error
 			else {
-					var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>" ;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					var libhours = "" ;
+					  
 			}
 		}
 //Xmas hours(if not in thanksgiving or closed dates ...)
@@ -152,17 +152,17 @@
 	//Xmas Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseXmasWkday;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Xmas Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
 				   	var libhours = baseXmasWkend;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					  
 			}
 	//Error
 			else {
-					var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>" ;
-					  document.getElementById("timedisp").innerHTML = libhours;
+					var libhours = "" ;
+					  
 			}
 		}		
 
@@ -170,8 +170,10 @@
 		
 		//Closed dates
 	else{
-	var libhours = "<a href='https://www.lib.uidaho.edu/about/hours.html'>Hours</a>: The library is closed today. ";
-	  document.getElementById("timedisp").innerHTML = libhours;
-	}	
+	var libhours = "Closed today.";
+	  
+	}
+	document.getElementById("timedisp").innerHTML = libhours;
+		
 	
 })();
