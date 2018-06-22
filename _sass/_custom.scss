@@ -10,6 +10,7 @@ body {
 a {
     color: $link-color;
     text-decoration: none;
+    font-weight:bold;
     &:hover {
         color: $text-color;
         text-decoration: underline;
@@ -39,11 +40,11 @@ main {
 .lib-logo-sm {
     border: none;
     img { 
-        height: 35px;
+        height: 55px;
     }
 }
 .lib-logo-lg {
-    height: 55px;
+    height: 80px;
 }
 
 /* nav bar */
@@ -59,7 +60,12 @@ main {
     color: darken($link-color, 25%);
     text-decoration: underline;
 }
-nav, footer {
+nav {
     background: $nav-background;
 }
+footer {
+    background: $grey-color-dark;
+}
+
+.idaho-world{color:$payette-blue !important;}
 
