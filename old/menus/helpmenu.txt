@@ -1,0 +1,16 @@
+<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" id="leftnavmenu" >
+	<a type="button" id="helphome" class="btn btn-default find-button2  " href="/help/index.html">Help Home</a> 
+
+<a type="button" id="faq" class="btn btn-default find-button2 " href="http://libanswers.uidaho.edu/">FAQ</a> 
+<a type="button" id="offcampus" class="btn btn-default find-button2 " href="/help/offcampus.html">Off-Campus Access</a> 
+
+<a type="button" id="rap" class="btn btn-default find-button2" href="/help/rap.html">Research Assistance</a>
+<a type="button" id="frap" class="btn btn-default find-button2" href="/help/frap.html">Faculty Assistance</a>  
+<a type="button" id="chat" class="btn btn-default find-button2" href="/help/chat.html">Chat (IM) &amp; Text</a>  
+<a type="button" id="search" class="btn btn-default find-button2" href="/help/search.html">Site Search</a>  
+<br />
+
+
+<br />
+</div>
+	 	 <div id="right_content" class="col-lg-9 col-md-9  col-sm-8 col-xs-12"  >

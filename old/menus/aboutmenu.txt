@@ -1,0 +1,109 @@
+<div class="hidden-lg hidden-md hidden-sm visible-xs center" id="small_menu">
+	<a  id="welcome" class="" href="/about/welcome.html">Welcome</a>  
+<a  id="directions" class="" href="/about/directions.html">Contact/Directions</a>  
+
+<a  id="departments" class=""  href="/about/departments.html">Departments</a> 
+<a  id="directory" class=""  href="/about/directory.html">Directory</a>  
+ 
+<a  id="librarians" class=""  href="/about/librarians.html">Librarians</a>  
+<a  id="overnight" class=""  href="/about/overnight.html">Librarians</a>  
+<a  id="policies" class=" " href="/about/policies.html">Policies</a> 
+<a  id="firstfloor" class="" href="/about/firstfloor.html">Renovation</a> 
+<a  id="stats" class="" href="/about/statistics.html">Reports and Statistics</a>  
+<a  id="liaisons" class="" href="/about/liaisons.html">Subject Liaisons</a>  
+<a  id="stratplan" class="" href="/about/stratplan.html">Strategic Plan</a>  
+
+	<br / >
+
+	<hr />
+	
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-3 hidden-xs" id="leftnavmenu">
+
+
+<a type="button" id="home" class="btn btn-default find-button2" href="/about/index.html">About Home</a>
+<a type="button" id="welcome" class="btn btn-default find-button2" href="/about/welcome.html">Welcome</a>
+<small id="welcomelist" style="display:none;" >
+					  <ul class="welcome listsidenav">
+  <li> <a id="directory2" href="../recognitions/">Recognizing our Faculty </a></li>
+  </ul>
+  </small>
+
+  <a type="button" id="directions" class="btn btn-default find-button2" href="/about/directions.html">Contact/Directions</a>
+                      <a type="button" id="departments" class="btn btn-default find-button2" href="/about/departments.html">Departments</a>
+                    <a type="button" id="firstfloor" class="btn btn-default find-button2 hidden-md" href="firstfloor.html">First Floor Renovation</a>
+                    
+                    <a type="button" id="firstfloor" class="btn btn-default find-button2 hidden-lg hidden-xl hidden-xm hidden-sm" href="firstfloor.html">First Floor</a>
+					  
+                      <a type="button" id="overnight" class="btn btn-default find-button2 hidden-md" href="overnightparking.html">Overnight Parking</a>
+					
+					      <a type="button" id="directory" class="btn btn-default find-button2" href="/about/directory.html">People</a>
+		<small id="stafflist" style="display:none;" >
+					  <ul class="staff listsidenav">
+  <li> <a id="directory2" href="directory.html">Directory</a> </li>
+  <li> <a id="librarians" href="librarians.html">Faculty Librarians</a> </li>
+  </ul>
+  </small>
+
+                    <a type="button" id="policies" class="btn btn-default find-button2" href="/about/policies.html">Policies</a>
+                   <small id="policieslist" style="display:none;" >
+				 
+				   
+<ul class="policies listsidenav " id="my-nav" >
+					
+					  <li> <a href="#circulation">Circulation</a></li>
+	<li> <a href="#fines">Fines</a> </li>
+	<li> <a href="#cellphone">Cell Phone</a> </li>
+	<li> <a href="#foodanddrink">Food and Drink</a> </li>
+	<li> <a href="#reserve">Reserve</a> </li>
+	<li> <a href="#groupstudyrooms">Group Study Rooms</a>
+	<li> <a href="#lockerscarrels">Lockers and Carrels</a>
+	<li> <a href="#scanning">Scanning Requests</a>
+	<li> <a href="#collmanage">Collection Management</a>
+  </ul>
+
+  </small>
+  
+  <a type="button" id="reports" class="btn btn-default find-button2 hidden-md" href="statistics.html">Reports and Statistics</a>
+  <a type="button" id="reports" class="btn btn-default find-button2 hidden-lg hidden-xl hidden-xm hidden-sm" href="statistics.html">Reports and Stats</a>
+    <!--<small id="reportslist" style="display:none;" >
+				 
+				   
+<ul class="reports listsidenav " id="my-nav" >
+					
+					  <li> <a id="dashboard" href="statistics.html">Dashboard</a></li>
+	<li> <a href="2014ProgressReport.pdf">Progress Report ('14)</a> </li>
+	  <li> <a  href="stats.pdf">Statistics</a></li>
+  </ul>
+
+  </small>-->
+                      <a type="button" id="liaisons" class="btn btn-default find-button2" href="/about/liaisons.html">Subject Liaisons</a>
+					
+                      <a type="button" id="stratplan" class="btn btn-default find-button2" href="/about/stratplan.html">Strategic Plan</a>
+                      
+					  
+					   <!--<small id="stratlist" style="display:none;" >
+					  <ul class="stratplan listsidenav">
+  <li> <a id="mission" href="stratplan.html">Vision & Mission</a> </li>
+ 
+  <li> <a  href="stats.pdf">Statistics</a></li>
+  </ul>
+  </small>-->
+  
+					<hr />
+					
+				<p class="center">	  
+				<a class="btn btn-sm menu-bottom btn-default" type="button" href="maps.html"><span class="glyphicon glyphicon-map-marker"> </span> Floor Maps</a><br />
+					  <a class="btn btn-sm menu-bottom btn-default" type="button"  href="../giving/"><span class="glyphicon glyphicon-gift"></span> Giving</a><br />
+					  <a class="btn btn-sm menu-bottom btn-default" type="button"  href="hours.html"><span class="glyphicon glyphicon-time"></span> Hours</a><br />
+                      
+
+
+ </p>
+
+
+<br />
+</div>
+
+<div id="right_content" class="col-lg-9 col-md-9  col-sm-8 col-xs-12"  >

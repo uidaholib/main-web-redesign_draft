@@ -1,0 +1,126 @@
+<script src="/js/jquery-latest.min.js"
+        type="text/javascript"></script>
+
+		<div class="col-md-2 col-sm-3 col-xs-12" id="leftnavmenu" >
+<div  id="specmenu"  >
+<a type="button" id="home" class="btn btn-default find-button2  " href="/special-collections/"><span class="word-hide">Special Collections </span><span class="word-show">Home</span></a> 
+
+<a type="button" id="about" class="btn btn-default find-button2 " href="/special-collections/about.html">About</a> 
+<small id="aboutlist" style="display:none">
+<ul class="listsidenav">
+<li id="about"><a href="/special-collections/about.html"><span class="word-hide">About</span><span class="word-show">About</span></a></li>
+<li id="plan"><a href="/special-collections/plan.html">Plan Your Visit</a></li>
+<li id="rules"><a href="/special-collections/rules.html"><span class="word-hide">Reading Room Rules</span><span class="word-show">Reading Room Rules</span></a></li>
+<li id="arcadia"><a href="/special-collections/arcadia.html">Arcadia Press Book</a></li>
+<!--<li><a href="/special-collections/archives.html"><span class="word-hide">Archives 101</span><span class="word-show">Archives 101</span></a></li>
+<li><a href="/special-collections/forms.html"><span class="word-hide">Forms & Documents</span><span class="word-show">Forms & Documents</span></a></li>
+-->
+</ul>
+</small>
+
+<a type="button" id="collections" class="btn btn-default find-button2" href="/special-collections/description.html">Collections</a> 
+
+<small id="colllist" style="display:none">
+<ul class="listsidenav">
+<li><a href="/special-collections/description.html"><span class="word-hide">Description of Collections</span><span class="word-show">Descriptions</span></a></li>
+                     <li class="hidden" id="mg"><a href="/special-collections/mgfindingaids.html" ><span class="word-hide">Manuscript Groups</span><span class="word-show">Manuscripts</span></a></li>
+					  <li class="hidden" id="pg"><a href="/special-collections/pgfindingaids.html"><span class="word-hide">Photograph Groups</span><span class="word-show">Photographs</span></a></li>
+                      <li class="hidden" id="ug"><a href="/special-collections/unirecords.html"><span class="word-hide">University Archives</span><span class="word-show">UI Archives</span></a></li>
+                     <li><a href="/special-collections/searchall.html">Search All</a></li>
+											
+											<li><a href="/special-collections/forestry.html"><span class="word-hide">Forestry Collections</span><span class="word-show">Forestry</span></a></li>
+											<li><a href="/special-collections/dayfindingaids.html"><span class="word-hide">Mining Collections</span><span class="word-show">Mining</span></a></li>
+											<li><a href="/special-collections/wilderness.html"><span class="word-hide">Wilderness Archive</span><span class="word-show">Wilderness</span></a></li>
+											
+                      <li><a href="/digital/jazz/"><span class="word-hide">International Jazz Collections</span><span class="word-show">IJC</span></a></li>
+                   
+                     
+                    </ul>
+</small>
+<a type="button" id="aids" class="btn btn-default find-button2" href="/special-collections/searchtools.html">Search Tools</a>
+<small id="aidlist" style="display:none">
+<ul class="listsidenav" >
+<li id="tools"><a  href="/special-collections/searchtools.html">Tools Index</a></li>
+
+                                    
+                      <li><a href="/special-collections/histphoto/">Photo Search</a></li>
+                      <li><a href="/find/argonaut.html"><span class="word-hide">Search the Argonaut</span><span class="word-show">Argonaut</span></a></li>
+					  <li id="web"><a  href="/special-collections/search.php?">Search Web Contents</a></li>
+                    </ul>
+</small> 
+<a type="button" id="resources" class="btn btn-default find-button2" href="/special-collections/uitimeline.html">Campus History</a>
+<small id="reslist" style="display:none">
+<ul class="listsidenav">
+<li><a href="/special-collections/uitimeline.html">UI Timeline</a></li>
+
+          
+                      <li><a href="/special-collections/uibuildings.html">UI Buildings</a></li>
+                      <li><a href="/special-collections/uibibliography.html">Bibliography</a></li>
+					  <li><a href="/special-collections/usefullinks.html">Useful Links</a></li>
+
+                    </ul>
+</small>
+
+<a type="button" id="primary" class="btn btn-default find-button2" href="/special-collections/primary.html">Primary Sources</a> 
+<a type="button" id="donations" class="btn btn-default find-button2" href="/special-collections/donations.html">Donations</a> 
+<a type="button" id="contact" class="btn btn-default find-button2" href="/special-collections/contactus.html">Contact Us</a> 
+
+<br />
+<br /><div class="panel panel-default hidden-xs ">
+  <div class="panel-heading stone" style="background-color:#436188">
+    <h3 class="panel-title "><a href="http://uispecialcollections.tumblr.com/" target="_blank">Idaho Harvester</a></h3>
+  </div>
+  
+
+
+  <div class="panel-body" class="center">
+  <p class="center">
+  Recent posts:<br/><br/>
+  
+  <script>
+  $.ajax({
+    url: "https://api.tumblr.com/v2/blog/uispecialcollections.tumblr.com/posts/text?api_key=1UmVP48Lz5cXPHqirig7TRGCyeILUjZgHvpnCPwwBu4rKOTgx8&limit=2",
+    dataType: 'jsonp',
+    success: function(results){
+	 console.log(results);
+	$("#tumblrposttitle-1").html("<a href='"+ results.response.posts["0"].post_url +"'>" + results.response.posts["0"].title + "</a>");
+	$("#tumblrposttitle-2").html("<a href='"+ results.response.posts["1"].post_url +"'>" + results.response.posts["1"].title + "</a>");
+
+       
+    }
+});
+</script>
+  <span id="tumblrposttitle-1"></span><br/><br/>
+  <span id="tumblrposttitle-2"></span><br/><br/>
+   Recent Photos:<br/><br/>
+  
+  <script>
+  $.ajax({
+    url: "https://api.tumblr.com/v2/blog/uispecialcollections.tumblr.com/posts/photo?api_key=1UmVP48Lz5cXPHqirig7TRGCyeILUjZgHvpnCPwwBu4rKOTgx8&limit=2",
+    dataType: 'jsonp',
+    success: function(resultsphotos){
+	 console.log(resultsphotos);
+	$("#tumblrpostphoto-1").html("<a href='"+ resultsphotos.response.posts["0"].post_url +"'><img src='" + resultsphotos.response.posts["0"].photos["0"].alt_sizes[5].url + "'/></a>");
+	$("#tumblrpostphoto-2").html("<a href='"+ resultsphotos.response.posts["1"].post_url +"'><img src='" + resultsphotos.response.posts["1"].photos["0"].alt_sizes[5].url + "'/></a>");
+
+       
+    }
+});
+</script>
+  <span id="tumblrpostphoto-1"></span><br/><br/>
+  <span id="tumblrpostphoto-2"></span>
+  
+ <p>Check out our Tumblr for notes, exhibits, etc. </p<>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+</div>
+<script>    $(document).ready(function() {$(".feed_item_title a").addClass('smalltxt');});</script>
+	 <div id="right_content" class="col-lg-9 col-md-9 col col-sm-8 col-xs-12"  >
