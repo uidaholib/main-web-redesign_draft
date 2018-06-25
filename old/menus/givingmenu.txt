@@ -1,0 +1,19 @@
+<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" id="leftnavmenu" >
+
+           <a type="button" class="btn btn-default find-button2 " title="Give to the Library" id="give" a href="index.html" >Give to the Library</a>
+           <a  type="button" class="btn btn-default find-button2 " title="Why We Give" id="why" href="why.html">Why We Give</a>
+ <a  type="button" class="btn btn-default find-button2 " title="Ways to Give" id="ways" href="ways.html">Ways to Give</a>
+              <a type="button" class="btn btn-default find-button2 "  title="Endowments" id="endowments" href="endowments.html">Endowments</a>
+              <a type="button" class="btn btn-default find-button2 "  title="UI Library Associates" id="associates" href="associates.html">Library Associates</a>
+              <br />
+              <br />
+			  <p class="center">	  
+				<a class="btn btn-sm btn-primary" type="button" href="https://www.sites.uidaho.edu/giving/givingform.aspx?presets=areaid=LI&amp;giftid=MF893"><span class="glyphicon glyphicon-gift"> </span> Make a Gift Online</a><br /><br />
+					  <a class="smalltxt" href="http://www.uidaho.edu/givetoidaho">University of Idaho Foundation</a><br />
+			  
+			
+		
+<br />
+<br />
+</div>
+	 <div id="right_content" class="col-lg-9 col-md-9  col-sm-8 col-xs-12"  >

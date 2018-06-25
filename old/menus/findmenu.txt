@@ -1,0 +1,114 @@
+<div class="hidden-lg hidden-md hidden-sm visible-xs center" id="small_menu">
+	<a  id="articles-button" class="" href="/find/articles.html">Articles</a>  
+<a  id="books" class="" href="/find/books.html">Books &amp; eBooks</a>  
+
+<a  id="dvds" class=""  href="/find/dvds.html">DVDs</a> 
+<a  id="reference" class=""  href="/find/encyclopedias.html">Encyclopedias</a>  
+<a  id="geo" class=" " href="/find/geospatial/">Geospatial Resources</a> 
+<a  id="gov" class="" href="/find/govdocs/">Gov. Documents</a>  
+<a  id="journals" class="" href="/find/journals.html">Journals</a>  
+<a  id="maps" class="" href="/find/maps.html">Maps</a>
+<a  id="news" class=" " href="/find/newspapers.html">Newspapers</a> 
+<a  id="etds" class="" href="/find/etds.html">Theses &amp; Dissertations</a>
+	<br / >
+
+	<hr />
+	
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-3 hidden-xs" id="leftnavmenu">
+<a type="button" id="articles-button" class="btn btn-default find-button2" href="/find/articles.html">Articles</a> 
+<small id="artdblist" style="display:none;">
+<ul class="artdb listsidenav">
+
+					
+					<li><a id="arthome" href="/find/articles.html" >About/Search</a></li>
+					<li><a id="dbsub" href="/find/database_display.html?subject=2&disptype=S" >Databases by Subject</a></li>
+					</ul>
+</small>
+<a type="button" id="books" class="btn btn-default find-button2" href="/find/books.html"><span class="word-hide">Books &amp; eBooks</span><span class="word-show">Books</span></a> 
+<small id="bookslist" style="display:none;">
+<ul class="books listsidenav">
+
+					<li><a id="searchbooks" href="/find/books.html" >Search</a></li>
+					<li><a id="ebooks" href="http://libguides.uidaho.edu/ebooks" >Ebook Guide</a></li>
+					<li><a id="lc" href="/find/lc.html" >Library of Congress Call Numbers</a></li>
+					
+					</ul>
+</small>
+
+
+<a type="button" id="dvds" class="btn btn-default find-button2"  href="/find/dvds.html">DVDs</a> 
+
+<a type="button" id="reference" class="btn btn-default find-button2"  href="/find/encyclopedias.html"><span class="word-hide">Encyclopedias</span><span class="word-show">Reference</span></a> 
+
+<a type="button" id="geo" class="btn btn-default find-button2 " href="/find/geospatial/"><span class="word-hide">Geospatial Resources</span><span class="word-show">Geo.</span></a> 
+<small id="geolist" style="display:none;">
+
+					  <ul class="geo listsidenav">
+                <li><a id="home" href="/find/geospatial/index.html" >Home</a></li>
+<li><a id="esrisof" href="/find/geospatial/esrisoftware.html">Esri Products</a></li>
+<li><a id="esrilic" href="/find/geospatial/esrilicensemanager.html">Esri License Manager</a></li>
+<li><a id="esrivc" href="/find/geospatial/esri-e-learning.html">Esri E-Learning</a></li>
+</ul>
+
+					  </small>
+<a type="button" id="gov" class="btn btn-default find-button2" href="/find/govdocs/"><span class="word-hide">Gov. Documents</span><span class="word-show">Gov Docs</span></a> 
+<small id="govlist" style="display:none;">
+<ul class="gov listsidenav">
+
+                      <li><a id="about" href="/find/govdocs/index.html" >About</a></li>
+                      
+					  <li><a id="search" href="/find/govdocs/search.html">Search Information</a></li>
+					  <li><a id="circ" href="/find/govdocs/circulation.html">Circulation Policies</a></li>
+				<!--<hr />
+					  <li><a id="types" href="/services/govdocs/resources.html">Document Types</a></li>
+					  <li><a href="/services/govdocs/resources.html#cogngressional">Congressional Documents</a></li>
+					   <li><a href="/services/govdocs/resources.html#legal">Legal Documents</a></li>
+					  <li><a href="/services/govdocs/resources.html#patents">Patents</a></li>
+<li><a href="/services/govdocs/resources.html#presidential">Presidential Documents</a></li>					  
+					  <li><a href="/services/govdocs/resources.html#stats">Statistics</a></li>-->
+                 
+											
+                     
+                    </ul>
+</small>
+<a type="button" id="journals" class="btn btn-default find-button2" href="/find/journals.html">Journals</a> 
+<a type="button" id="maps" class="btn btn-default find-button2" href="/find/maps">Maps</a> 
+<small id="maplist" style="display:none;">
+<ul class="map listsidenav">
+
+					<li><a id="about" href="/find/maps/index.html" >About</a></li>
+					<li><a id="paper" href="/find/maps/paper.html" >Print Maps</a></li>
+					<li><a id="digital" href="/find/maps/digital.html" >Digital Maps</a></li>
+					</ul>
+</small>
+
+<a type="button" id="news" class="btn btn-default find-button2 " href="/find/newspapers.html"><span class="word-hide">Newspapers</span><span class="word-show">News</span></a> 
+<small id="newslist" style="display:none;">
+<ul class="news listsidenav">
+
+                      <li><a id="about" href="/find/newspapers.html" >About</a></li>
+                      <li><a id="microfilm" href="/find/microfilm.html">Microfilm List</a></li>
+					  <li><a id="local" href="/find/localnewspapers.html">Local Newspapers</a></li>
+					  <li><a id="arg" href="/find/argonaut.html">Argonaut Index</a></li>
+					  </ul>
+					  </small>
+<a type="button" id="guides" class="btn btn-default find-button2 " href="http://libguides.uidaho.edu/index.php?"><span class="word-hide">Research Guides</span><span class="word-show">Guides</span></a> 
+
+<a type="button" id="etds" class="btn btn-default find-button2" href="/find/etds.html"><span class="word-hide">Theses &amp; Dissertations</span><span class="word-show">Theses/Diss.</span></a> 
+<small id="etdlist" style="display:none;">
+<ul class="etds listsidenav">
+	<li><a id="database" href="/find/etds.html" >Database</a></li>
+	<li><a id="more" href="/find/etdabout.html" >More</a></li>
+	</ul>
+	</small>
+<br />
+<hr />
+<p class="center "><a id="request" href="/find/request.html" >Book Purchase Request</a></p>
+<p class="center smallesttxt"><a id="conditions" href="/find/agreement.html" >Conditions of Use</a>
+<br />(e-resources)</p>
+<br />
+</div>
+
+<div id="right_content" class="col-lg-9 col-md-9  col-sm-8 col-xs-12"  >
