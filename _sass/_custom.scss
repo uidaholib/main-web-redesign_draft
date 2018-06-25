@@ -16,64 +16,49 @@ a {
         text-decoration: underline;
     }
 }
-main {
-   // background: $background-texture;
-    .container {
-      //  background: $background-color;
-    }
+
+/* top bar */
+#ui-home {
+    color: $grey-color;
 }
+
 /* banner */
-#title {
-    a { 
-        font-size: 32px;
-        font-weight: 300;
-        color: $text-color;
-    }
-    h1 {
-        line-height: 1;
-    }
-    p {
-        font-size: 13.5px;
-        line-height: 1;
-    }
-}
-.lib-logo-sm {
-    border: none;
-    img { 
-        height: 55px;
-    }
-}
 .lib-logo-lg {
     height: 80px;
 }
 
-/* nav bar */
-.navbar-light .navbar-nav .nav-link {
-    font-size: 18px;
-    color: $text-color;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    //color: rgba(0,0,0,.7);
-    text-decoration: underline;
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: darken($link-color, 25%);
-    text-decoration: underline;
-}
-nav {
+/* main nav */
+#main-nav {
     background: $nav-background;
+    .nav-link {
+        color: $link-color;
+    }
 }
+
+
+/* marketing */ 
+#marketing {
+    a {
+        color: $payette-blue;
+    }
+}
+
+/* footer */
 footer {
     background: $grey-color-dark;
 }
 
-.idaho-world{color:$payette-blue !important;}
-
-.dropdown-menu .container{
-width:1300px;
-margin-right:-17px;
+/* index */ 
+#index-jumbotron {
+    background-image: $jumbotron-image;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.dropdown-menu .container{
+  width:1300px;
+  margin-right:-17px;
+}
 .projectlink img{
-    width:90%;
+  width:90%;
 }

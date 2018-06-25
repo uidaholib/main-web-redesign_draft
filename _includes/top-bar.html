@@ -1,20 +1,20 @@
 <div id="top-bar" class="container-fluid" >
-    
+
     <!-- link to UI -->
-    <div class="float-left pt-2 d-none d-md-block">
-        <p class="m-0"><a href="https://www.uidaho.edu">University of Idaho</a></p> 
+    <div class="float-left pt-1 d-none d-md-block">
+        <a id="ui-home" href="https://www.uidaho.edu">University of Idaho</a>
     </div>
     
     <!-- lib info section -->
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link" href="{{ '/hours/' | relative_url }}"><span class="fas fa-clock"></span> hours</a> <script src="/js/hours.js"></script>
+            <a class="nav-link pt-1" href="{{ '/hours/' | relative_url }}"><span class="fas fa-clock"></span> Hours: <span id="timedisp"></span></a> <script src="{{ '/assets/js/hours.js' | relative_url }}"></script>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ '/help/' | relative_url }}"><span class="fas fa-question-circle"></span> Help</a>
+            <a class="nav-link pt-1" href="{{ '/help/' | relative_url }}"><span class="fas fa-question-circle"></span> Help</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=UID" title="Link to your Catalog/Primo Account"><span class="fas fa-sign-in-alt"></span> Account</a>
+            <a class="nav-link pt-1" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=UID" title="Link to your Catalog/Primo Account"><span class="fas fa-sign-in-alt"></span> Account</a>
         </li>
     </ul>
 
