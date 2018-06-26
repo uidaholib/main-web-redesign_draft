@@ -1,21 +1,21 @@
-<nav id="main-nav" class="navbar navbar-expand-md navbar-light d-none d-md-block">
-    <div class="container">
+<nav id="main-nav" class="navbar navbar-expand-md navbar-light d-none d-md-block px-4">
+    <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item mx-1 {% if page.url contains "/find/" %} active{% endif %}">
+                <li class="nav-item mr-2 {% if page.url contains "/find/" %} active{% endif %}">
                     <a class="nav-link" href="{{ "/find/" | absolute_url }}"><span class="fas fa-search"></span> Find</a>
                 </li>           
-                <li class="nav-item mx-1 {% if page.url contains "/services/" %} active{% endif %}">
+                <li class="nav-item mx-2 {% if page.url contains "/services/" %} active{% endif %}">
                     <a class="nav-link" href="{{ "/services/" | relative_url }}"><span class="fas fa-wrench"></span> Services</a>
                 </li>
-                <li class="nav-item mx-1 {% if page.url == "/collections/" %} active{% endif %}">
+                <li class="nav-item mx-2 {% if page.url == "/collections/" %} active{% endif %}">
                     <a class="nav-link" href="{{ "/collections/" | relative_url }}"><span class="fas fa-th-large"></span> Collections</a>
                 </li>                
-                <li class="nav-item mx-1 {% if page.url == "/about/" %} active{% endif %} ">
+                <li class="nav-item mx-2 {% if page.url == "/about/" %} active{% endif %} ">
                     <a class="nav-link" href="{{ "/about/" | relative_url }}"><span class="fas fa-map-marker-alt"></span> About</a>
                 </li>
             </ul>
