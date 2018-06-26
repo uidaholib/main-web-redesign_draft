@@ -2,19 +2,26 @@
 title: University of Idaho Library Home
 layout: default
 ---
-<div id="index-jumbotron" class="jumbotron jumbotron-fluid">
-
-    <div class="container-fluid searchcontainer mt-5 p-3 pt-4">
+<div class="container-fluid searchcontainer p-2 text-right">
         <div class="container">
-            <form class="form-inline row mx-auto">
-                <input class="form-control form-control-lg col-md-6 offset-md-2 col-sm-12 p-2 mr-md-2" type="search" placeholder="Search the catalog ..."
+            <form class="form-inline row justify-content-end">
+                <input class="form-control form-control-lg col-md-6 offset-md-3 col-sm-12 p-2 mr-md-2" type="search" placeholder="Search the catalog ..."
                     aria-label="Search">
                 <button class="btn btn-lg my-2 my-sm-1 col-md-1 p-2 btn-pride" type="submit">Go</button>
-                <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-2">Advanced Search</a>
+                <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
             </form>
+        </div>
+    </div>
+<div id="index-jumbotron" class="jumbotron jumbotron-fluid" style="min-height:500px;">
+
+    
+    <div class="container-fluid mt-5 p-3 pt-4">
+        <div class="container">
+            
             <div class="row d-none d-sm-block mt-2">
-                <div class="col-md-8 offset-md-2">
-                    <ul class="nav nav-pills">
+                <div class="col-md-8 offset-md-4 searchcontainer p-2 mt-4">
+                        <h2 class="pb-2">Popular Databases and Research Assistance</h2>
+                    <ul class="nav nav-pills mt-2">
                         <li class="nav-item">
                             <a class="nav-link disabled">Popular:</a>
                         </li>
@@ -34,8 +41,8 @@ layout: default
                     </ul>
                 </div>
             </div>
-            <div class="row d-none d-md-block mt-2">
-                <div class="col-md-8  offset-md-2">
+            <div class="row d-none d-md-block mt-0">
+                <div class="col-md-8 offset-md-4 searchcontainer p-2">
                     <ul class="nav nav-pills ">
                         <li class="nav-item">
                             <a class="nav-link disabled">Find:</a>
