@@ -1,0 +1,46 @@
+---
+title: Acknowledging our Faculty
+layout: page
+---
+
+{% assign years = site.data.recog | map: "year" | uniq %}
+<div class="container pagecontent" id="scrollnav">
+    <div class="row"  >
+        <div class="col-md-3 col-lg-3 ">
+            <div class=" bs-sidebar" data-spy="affix" data-offset-top="230" id="my-nav" style="width:215px;">
+                <ul class="nav bs-sidenav" >
+                    <li><a href="#about">Bookplates for Faculty</a></li>
+                    {% for year in years %}
+                    <li><a href="#{{ year }}">{{ year }}</a></li>
+                    {% endfor %}
+                </ul>    
+            </div>
+        </div>
+                                
+        <div class="col-md-9 col-lg-9 my-content">
+            <section id="about">
+                <br>
+                <h2>Acknowledging our Faculty</h2>
+                <br>
+                <div class="row" >
+                    <img class="col-md-3 " src="../images/bookplate.png" />
+                    <p class="col-md-7"><br>To acknowledge the academic accomplishments of the University of Idaho faculty, the library recognizes faculty promotions and achievement of tenure by inserting a bookplate into a book that has special personal significance.</p>
+                </div>
+            </section>
+            {% for y in years %}
+            <section id="{{ y }}">
+                <div class="audiencerightcol1" style="margin-right: 30px;">
+                    <h2>{{ y }}</h2>
+                    {% assign promos = site.data.recog | where: "year", y %}
+                    {% for p in promos %}{%- if p.book -%}
+                    <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
+                    <ul style="margin-left: 15px;">
+                        <li>{{ p.book }}</li>
+                    </ul>
+                    {% endif %}{% endfor %}
+                </div>
+            </section>
+            {% endfor %}
+        </div>
+    </div>
+</div>									
