@@ -1,22 +1,18 @@
 <div class="container ">
-    <div class="row px-4">
+    <div class="row px-4 ">
         <!-- logo -->
         <div class="col-9 my-2">
             <a title="University of Idaho Library" class="" href="{{ '/' | absolute_url }}">
             <img class="img-fluid lib-logo-lg" src="{{ '/assets/images/ui_library_horizontal.png' | relative_url }}" alt="University of Idaho Library [logo]" ></a>
         </div>
         <!-- quick nav -->
-        <div class="col-3 float-right text-right">
-            <br/>
-            <span class="">
-                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-bars"></i>
-                          </button>
-              
+        <div class="col-3 float-right text-right mt-2 mt-md-4">
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="fas fa-bars"></span>
+                </button>
             {%include bigdropdown.html %}
-            </span>
+            </div>
         </div>
-    
     </div>
-
 </div>
