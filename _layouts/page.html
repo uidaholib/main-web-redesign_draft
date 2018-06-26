@@ -1,8 +1,91 @@
 ---
 layout: default
 ---
-<div class="py-3">
-<div class="container py-3 rounded">
-        {{ content }}
+
+<div class="container-fluid pt-2 pb-1" id="page-title">
+    <div class="container">
+        <h2>{{ page.title }}</h2>
+    </div>
 </div>
+
+<div class="page-wrapper container">
+
+    <!-- page nav / sidebar -->
+    <div id="sidebar" class="py-3 border-right d-none d-lg-block">
+        <nav id="page-nav">
+        
+            <ul class="list-unstyled components">
+                <li class="border" >
+                    <a href="#">About Home</a>
+                </li>
+                <li class="border" >
+                    <a href="#">Welcome</a>
+                </li>
+                <li class="border" >
+                    <a href="#">Contact/Directions</a>
+                </li>
+                <li class="border" >
+                    <a href="#">Departments</a>
+                </li>
+                <li class="border">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">People</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Directory</a>
+                        </li>
+                        <li>
+                            <a href="#">Faculty Librarians</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="border">
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Policies</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="border">
+                    <a href="#">Reports</a>
+                </li>
+                <li class="border">
+                    <a href="#">Strategic Plan</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- page -->
+    <div class="">
+
+        <!-- bread crumbs -->
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="{{ " / " | absolute_url }}"><span class="fas fa-home"></span></a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="{{ " /about/ " | absolute_url }}">About</a>
+            </li>
+            <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
+        </ul>
+
+        <!-- page nav button -->
+        <button class="btn btn-secondary d-lg-none" id="sidebarButton" type="button">
+            <span class="fas fa-align-left"></span>
+            Menu
+        </button>
+
+        <!-- page content -->
+        <main role="main" class="py-3 pl-3">
+            {{ content }}
+        </main>
+
+    </div>
 </div>
