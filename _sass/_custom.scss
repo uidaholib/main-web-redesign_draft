@@ -88,23 +88,7 @@ a{color:white !important;
 &:hover{text-decoration: underline;}
 }
 }
-.btn-pride{
-    color: #fff;
-    background-color: $pride-gold;
-    border-color: $pride-gold;
-    &:hover{
-        background-color: darken($pride-gold, 10%);
-        border-color: $pride-gold;
-    }
-}
 
-.pride{
-    color:$pride-gold !important;
-}
-
-.border-pride{
-    border-color:$pride-gold !important;
-}
 
 footer, footer a {
     color:white !important;

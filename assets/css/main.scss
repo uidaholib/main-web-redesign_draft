@@ -32,7 +32,6 @@ $garnet: #D22630;
 $wild-rose: #E10098;
 $palouse-green: #00AF66;
 $clearwater: #00AEC7;
-$clearwater: #00AEC7;
 $clearwater-light: #8BD5E5;
 $payette-blue: #003E51;
 $ponderosa-pine: #004E42;
@@ -58,6 +57,7 @@ $on-laptop:        800px;
 }
 
 @import "custom";
+@import "buttons";
 
 //@import "base";
 //@import "layout";
