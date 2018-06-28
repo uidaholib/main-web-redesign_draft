@@ -1,7 +1,13 @@
 <div class="container-fluid searchcontainer p-2 text-right">
+    <script>
+        function primo_search() {
+            var query = document.getElementById("primo-search").value;
+            window.open("https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?institution=UID&vid=UID&tab=everything&search_scope=everything&indx=1&bulkSize=10&dym=true&highlight=true&displayField=all&query=any,contains," + encodeURIComponent(query), "_self" );
+        }
+    </script>
     <div class="container">
-        <form class="form-inline row justify-content-end">
-            <input class="form-control form-control-lg col-md-6 offset-md-3 col-sm-12 p-2 mr-md-2" type="search" placeholder="Search the catalog ..."
+        <form class="form-inline row justify-content-end" role="search" onsubmit="primo_search(); return false;">
+            <input id="primo-search" class="form-control form-control-lg col-md-6 offset-md-3 col-sm-12 p-2 mr-md-2" type="search" placeholder="Search the catalog ..."
                 aria-label="Search">
             <button class="btn btn-lg my-2 my-sm-1 col-md-1 p-2 btn-pride-gold" type="submit">Go</button>
             <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
