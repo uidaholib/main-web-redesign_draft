@@ -9,13 +9,22 @@
     .breadcrumb {
         background: $background-color;
     }
-    main {
-        background: $background-color;
-    }
 }
 #sidebar {
     background: $nav-background;
 }
 #page-nav {
-    width: 250px;
+    width: 225px;
+}
+.page-block { 
+    background: $background-color;
+}
+.split-background {
+    background: linear-gradient(
+        to right, 
+        $nav-background 0%,
+        $nav-background 50%,
+        $background-color 50%,
+        $background-color 100%
+    );
 }

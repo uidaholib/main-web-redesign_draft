@@ -7,7 +7,7 @@ layout: default
         <h2>{{ page.title }}</h2>
     </div>
 </div>
-
+<div class="split-background">
 <div class="page-wrapper container">
 
     <!-- page nav / sidebar -->
@@ -63,15 +63,15 @@ layout: default
     </div>
 
     <!-- page -->
-    <div class="">
+    <div class="page-block">
 
         <!-- bread crumbs -->
         <ul class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="{{ " / " | absolute_url }}"><span class="fas fa-home"></span></a>
+                <a href="{{ '/' | absolute_url }}"><span class="fas fa-home"></span></a>
             </li>
             <li class="breadcrumb-item">
-                <a href="{{ " /about/ " | absolute_url }}">About</a>
+                <a href="{{ '/about/' | absolute_url }}">About</a>
             </li>
             <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
         </ul>
@@ -83,9 +83,10 @@ layout: default
         </button>
 
         <!-- page content -->
-        <main role="main" class="py-3 pl-3">
+        <main role="main" class="py-2 pl-md-3">
             {{ content }}
         </main>
 
     </div>
+</div>
 </div>
