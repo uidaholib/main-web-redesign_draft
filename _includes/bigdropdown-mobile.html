@@ -1,58 +1,91 @@
-<div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuLink" style="min-width:370px;">
-    <div class="row text-center">
-        <div class="col-12">
-            <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
-                <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">Academic Search
-                    Premier</a>
+<button type="button" class="btn btn-lg btn-outline-pride-gold mr-2" data-toggle="modal" data-target="#mobilemenu">
+    <span class="fas fa-bars"></span>
+</button>
+<!-- ask a librarian Modal -->
+<div class="modal fade" id="mobilemenu" tabindex="-1" role="dialog" aria-labelledby="askLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
 
-            </button>
-            <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
-                <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
-            </button>
-            <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
-                <a href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
-            </button>
-            <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
-                <a href="https://scholar.google.com">Google Scholar</a>
-            </button>
-            <h6 class="mt-1">
-                <a href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">
-                    <span class="fas fa-file"></span> All Databases</a>
-            </h6>
-            <hr/>
-            <h6>
-                <a href="/help/">
-                    <span class="fas fa-question"></span> Help</a>
-            </h6>
-            <h6 class="mt-3">
-                <a href="#" class="mt-4">
-                    <span class="fas fa-clock"></span> Hours</a>
-            </h6>
-            <h6 class="mt-3">
-                <a href="#">
-                    <span class="fas fa-search"></span> Site Search</a>
-            </h6>
-            <h6 class="mt-3">
-                <a href="#">
-                    <span class="fas fa-door"></span> Book a Room</a>
-            </h6>
-            <hr />
-            <ul class="navbar-nav mr-auto" style="font-size:18px;">
-                <li class="nav-item mr-2 {% if page.url contains "/find/" %} active{% endif %}">
-                    <a class="nav-link" href="{{ "/find/" | absolute_url }}"><span class="fas fa-book-open"></span> Find</a>
-                </li>           
-                <li class="nav-item mx-2 {% if page.url contains "/services/" %} active{% endif %}">
-                    <a class="nav-link" href="{{ "/services/" | relative_url }}"><span class="fas fa-wrench"></span> Services</a>
-                </li>
-                <li class="nav-item mx-2 {% if page.url == "/collections/" %} active{% endif %}">
-                    <a class="nav-link" href="{{ "/collections/" | relative_url }}"><span class="fas fa-th-large"></span> Collections</a>
-                </li>                
-                <li class="nav-item mx-2 {% if page.url == "/about/" %} active{% endif %} ">
-                    <a class="nav-link" href="{{ "/about/" | relative_url }}"><span class="fas fa-map-marker-alt"></span> About</a>
-                </li>
-            </ul>
-            
+            <div class="modal-body">
+                    <div class="fluid-container">
+                <div class="row text-center">
+                    <div class="col-12">
+                            <h6 class="text-center">
+                                    <a href="/help/">
+                                        <span class="fas fa-question"></span> Help</a>
+                                </h6>
+                        <div class=" mt-2">
+                            
+                           
+                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="#">Chat</a>
+                          
+                            
+                                <a class=" btn btn-outline-payette-blue rounded-0 mx-2" href="#">Call</a>
+                         
+                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="#">Email</a>
+                        
+                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="#">Text</a>
+                       
+                          
+                               
+                        </div>
+<hr/>
+<h3>Popular Resource</h3>
+                        <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
+                            <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">Academic Search Premier
+                            </a>
+
+                        </button>
+                        <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
+                            <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
+                        </button>
+                        <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
+                            <a href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
+                        </button>
+                        <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
+                            <a href="https://scholar.google.com">Google Scholar</a>
+                        </button>
+                        <h6 class="mt-1">
+                            <a href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">
+                                <span class="fas fa-file"></span> All Databases</a>
+                        </h6>
+                        <hr/>
+                        <h6 class="mt-3">
+                            <a href="#" class="mt-4">
+                                <span class="fas fa-clock"></span> Hours</a>
+                        </h6>
+                        <h6 class="mt-3">
+                            <a href="#">
+                                <span class="fas fa-search"></span> Site Search</a>
+                        </h6>
+                        <h6 class="mt-3">
+                            <a href="#">
+                                <span class="fas fa-door"></span> Book a Room</a>
+                        </h6>
+                        <hr />
+                        <ul class="navbar-nav mr-auto" style="font-size:18px;">
+                            <li class="nav-item mr-2 {% if page.url contains " /find/ " %} active{% endif %}">
+                                <a class="nav-link" href="{{ " /find/ " | absolute_url }}">
+                                    <span class="fas fa-book-open"></span> Find</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url contains " /services/ " %} active{% endif %}">
+                                <a class="nav-link" href="{{ " /services/ " | relative_url }}">
+                                    <span class="fas fa-wrench"></span> Services</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url == " /collections/ " %} active{% endif %}">
+                                <a class="nav-link" href="{{ " /collections/ " | relative_url }}">
+                                    <span class="fas fa-th-large"></span> Collections</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url == " /about/ " %} active{% endif %} ">
+                                <a class="nav-link" href="{{ " /about/ " | relative_url }}">
+                                    <span class="fas fa-map-marker-alt"></span> About</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-
+    </div>  </div>
 </div>
