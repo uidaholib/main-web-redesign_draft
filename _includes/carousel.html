@@ -1,0 +1,42 @@
+<div id="demo" class="carousel slide row" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  {% for slide in site.data.carousel%}
+  <div class="carousel-item {%if forloop.first%}active{%endif%}">
+    <img src="{{slide.image}}" alt="Chicago">
+    <div class="carousel-caption px-3 mb-3">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-left">{{slide.headline}}</h3>
+        </div>
+      </div>
+        <div class="row">
+        <div class="col-md-9 col-sm-12 text-left">
+
+          <p class="mb-2 text-left">{{slide.paragraph}}</p>
+        </div>
+        <div class="col-md-3 col-sm-12 ">
+          <p>
+            <a class="btn btn-outline-pride-gold" href="{{slide.link}}">{{slide.link-text}}</a>
+            {% if slide.link2 %}
+            <a class="btn btn-outline-clearwater mr-2 mt-2" href="{{slide.link2}}">{{slide.link2-text}}</a>{%endif%}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%endfor%}
+
+  <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+</div>

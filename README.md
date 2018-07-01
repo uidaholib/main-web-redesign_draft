@@ -12,10 +12,10 @@ Bootstrap [components docs](https://getbootstrap.com/docs/4.1/components/alerts/
 
 [fontawesome cheatsheet](https://fontawesome.com/cheatsheet)
 
-add icons in span, `<span class="fas fa-stroopwafel"></span>`
+add icons in span, `<span class="fas fa-stroopwafel"></span>`.
 
-Only a subset of icons is currently loaded: ["regular" & "free" icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free).
-The full sets are in the project, and could be added instead.
+All free icons are currently loaded. 
+["regular" & "free" icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free).
 
 Could be loaded via two methods:
 
@@ -26,7 +26,7 @@ Both methods are add the project, but it is using currently using CSS, check com
 
 [Accessibility info](https://fontawesome.com/how-to-use/accessibility):
 
-- JS + SVG version adds accessibility aria labels automatically. If the icon has semantic meaning, add a `title=` attribute to the fa `<i>`.
+- JS + SVG version adds accessibility aria labels automatically. If the icon has semantic meaning, add a `title=` attribute to the fa `<span>`.
 - CSS + webfonts version, need to add aria labels manually. 
-    - decorative icons: add `aria-hidden` to element, e.g. `<i class="fas fa-camera-retro" aria-hidden></i>`
+    - decorative icons: add `aria-hidden` to element, e.g. `<span class="fas fa-camera-retro" aria-hidden></span>`
     - semantic icons: add `aria-hidden` and a `title` to element, plus add description with `class="sr-only"`.
