@@ -1,39 +1,40 @@
-
 <div id="demo" class="carousel slide row" data-ride="carousel">
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://www.uidaho.edu//-/media/UIdaho-Responsive/Images/News/here-we-have-idaho/2018-spring/hwhi_s18_imax_1450x510.ashx" alt="Los Angeles" >
-        <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>We had such a great time in LA!</p>
-        </div>   
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  {% for slide in site.data.carousel%}
+  <div class="carousel-item {%if forloop.first%}active{%endif%}">
+    <img src="{{slide.image}}" alt="Chicago">
+    <div class="carousel-caption px-3 mb-3">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-left">{{slide.headline}}</h3>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="https://cdil.lib.uidaho.edu/images/summerfellow1.jpg" alt="Chicago" >
-        <div class="carousel-caption">
-          <h3>Center for Digital Inquiry and Learning (CDIL)</h3>
-          <p>The only center of its kind in Idaho, CDIL opens up digital scholarship opportunities on campus. </p>
-          <hr/>
-          <p><a class="btn btn-outline-pride-gold" href="https://cdil.lib.uidaho.edu/">See what we're up to</a> | <a class="btn btn-outline-clearwater" href="https://cdil.lib.uidaho.edu/#fellowships">Fellowship Opportunities</a></p>
-        </div>   
-      </div>
-      <div class="carousel-item">
-        <img src="https://www.uidaho.edu//-/media/UIdaho-Responsive/Images/News/here-we-have-idaho/2018-spring/hwhi_s18_imax_1450x510.ashx" alt="New York" >
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
-        </div>   
+        <div class="row">
+        <div class="col-md-9 col-sm-12 text-left">
+
+          <p class="mb-2 text-left">{{slide.paragraph}}</p>
+        </div>
+        <div class="col-md-3 col-sm-12 ">
+          <p>
+            <a class="btn btn-outline-pride-gold" href="{{slide.link}}">{{slide.link-text}}</a>
+            {% if slide.link2 %}
+            <a class="btn btn-outline-clearwater mr-2 mt-2" href="{{slide.link2}}">{{slide.link2-text}}</a>{%endif%}
+          </p>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
   </div>
+  {%endfor%}
+
+</div>
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+</div>

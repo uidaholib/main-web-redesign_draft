@@ -56,12 +56,25 @@ footer {
 }
 
 .carousel-item img{width:100%; object-fit: cover;max-height:500px;}
-.carousel-caption{ background: rgba(0, 0, 0, 0.7); color:white; width:45%;
+.carousel-caption{ background: rgba(0, 0, 0, 0.7); color:white; min-width:45%;width:auto;
     bottom: 30px;
     left: 40%;
-    margin-bottom:10px;
-    p{width:80%;margin:auto;}
-a{color:white !important;}}
+    hr{border-color: $grey-color-light; width:50%;margin:auto; border-style: dotted;}
+a{color:white !important;}
+
+@include media-query($on-palm) {
+    width: 100%;
+    position: absolute;
+    bottom: -5%;
+    z-index: -1;
+    left: 0;
+}
+}
+
+.carousel{@include media-query($on-palm) {
+  overflow-y: visible;
+  min-height: 500px;
+}}
 .dropdown-menu .container{
   width:1300px;
   margin-right:-17px;
