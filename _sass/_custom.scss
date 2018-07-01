@@ -55,6 +55,13 @@ footer {
     background-repeat: no-repeat;
 }
 
+.carousel-item img{width:100%; object-fit: cover;max-height:500px;}
+.carousel-caption{ background: rgba(0, 0, 0, 0.7); color:white; width:45%;
+    bottom: 30px;
+    left: 40%;
+    margin-bottom:10px;
+    p{width:80%;margin:auto;}
+a{color:white !important;}}
 .dropdown-menu .container{
   width:1300px;
   margin-right:-17px;
