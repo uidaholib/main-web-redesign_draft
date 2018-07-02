@@ -57,7 +57,7 @@ about:
   - section: Giving
     link: /giving/
   - section: Hours
-    link: hours.html
+    link: /about/hours.html
 find:
   - section: Articles
     link: /find/articles.html
