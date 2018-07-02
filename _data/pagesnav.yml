@@ -1,0 +1,248 @@
+about:
+  - section: About Home
+    link: /about/
+  - section: Welcome
+    link: /about/welcome.html
+    pages:
+      - name: Welcome
+        url: /about/welcome.html
+      - name: Recognizing our Faculty
+        url: /recognitions/
+  - section: Contact/Directions
+    link: /about/directions.html
+  - section: Overnight Parking
+    link: /about/overnightparking.html
+  - section: Departments
+    link: /about/departments.html
+  - section: People
+    link: /about/directory.html
+    pages:
+      - name: People
+        url: /about/directory.html
+      - name: Directory 
+        url: /about/directory.html
+      - name: Faculty Librarians 
+        url: /about/librarians.html
+  - section: Policies
+    link: /about/policies.html
+    pages:
+      - name: Policies
+        url: /about/policies.html
+      - name: Circulation
+        url: /about/policies.html#circulation
+      - name: Fines 
+        url: /about/policies.html#fines
+      - name: Cell Phone 
+        url: /about/policies.html#cellphone
+      - name: Food and Drink 
+        url: /about/policies.html#foodanddrink
+      - name: Reserve 
+        url: /about/policies.html#reserve
+      - name: Group Study Rooms
+        url: /about/policies.html#groupstudyrooms
+      - name: Lockers and Carrels
+        url: /about/policies.html#lockerscarrels
+      - name: Scanning Requests
+        url: /about/policies.html#scanning
+      - name: Collection Management
+        url: /about/policies.html#collmanage
+  - section: Reports and Statistics
+    link: /about/statistics.html
+  - section: Subject Liaisons
+    link: /about/liaisons.html
+  - section: Strategic Plan
+    link: /about/stratplan.html
+  - section: Floor Maps
+    link: maps.html
+  - section: Giving
+    link: /giving/
+  - section: Hours
+    link: hours.html
+find:
+  - section: Articles
+    link: /find/articles.html
+  - section: Books & eBooks
+    link: /find/books.html
+    pages:
+      - name: Books & eBooks
+        url: /find/books.html
+      - name: Ebook Guide
+        url: https://libguides.uidaho.edu/ebooks
+      - name: Library of Congress Call Numbers
+        url: /find/lc.html
+  - section: DVDs
+    link: /find/dvds.html
+  - section: Encyclopedias
+    link: /find/encyclopedias.html
+  - section: Gov. Documents
+    link: /find/govdocs/
+    pages:
+      - name: Gov. Documents
+        url: /find/govdocs/
+      - name: Search Information
+        url: /find/govdocs/search.html
+      - name: Circulation Policies
+        url: /find/govdocs/circulation.html
+  - section: Journals
+    link: /find/journals.html
+  - section: Maps
+    link: /find/maps/
+    pages:
+      - name: Maps
+        url: /find/maps/
+      - name: Print Maps
+        url: /find/maps/paper.html
+      - name: Digital Maps
+        url: /find/maps/digital.html
+  - section: Newspapers
+    link: /find/newspapers.html
+    pages:
+      - name: Newspapers
+        url: /find/newspapers.html
+      - name: Microfilm List
+        url: /find/microfilm.html
+      - name: Local Newspapers
+        url: /find/localnewspapers.html
+      - name: Argonaut Index
+        url: /find/argonaut.html
+  - section: Microfilm List
+    link: /find/microfilm.html
+    pages:
+      - name: Newspapers
+        url: /find/newspapers.html
+      - name: Microfilm List
+        url: /find/microfilm.html
+      - name: Local Newspapers
+        url: /find/localnewspapers.html
+      - name: Argonaut Index
+        url: /find/argonaut.html
+  - section: Research Guides
+    link: http://libguides.uidaho.edu/index.php?
+  - section: Theses & Dissertations
+    link: /find/etds.html
+services:
+  - section: Borrow/Renew
+    link: /services/borrow/
+  - section: CDIL (Digital Scholarship)
+    link: https://cdil.lib.uidaho.edu/
+  - section: Copyright
+    link: /copyright/
+    pages: 
+      - name: About
+        url: /copyright/
+      - name: Copyright Guide
+        url: /copyright/guide.html
+  - section: Course Reserves
+    link: /services/reserves/
+    pages:
+      - name: Home
+        url: /services/reserves/
+      - name: Policies
+        url: /services/reserve/policies.html
+      - name: Request form
+        url: /services/reserve/request.html
+      - name: How To
+        url: /services/reserve/howto.html
+      - name: Streaming Video
+        url: /services/reserve/swank.html
+      - name: Copyright/Fair Use
+        url: /services/reserve/fairuse.html
+      - name: FAQs
+        url: /services/reserve/faq.html
+  - section: Data &amp; Digital Services
+    link: /services/dds.html
+  - section: Data Management
+    link: /services/data/
+    pages:
+      - name: Data Home
+        url: /services/data/
+      - name: Data Management
+        url: /services/data/data-management/
+      - name: Training &amp; Workshops
+        url: /services/workshops/
+      - name: Geospatial Resources
+        url: /find/geospatial/
+      - name: DOI Service
+        url: /services/data/dois.html
+      - name: Contact / Help
+        url: /services/data/data-management/#contact
+  - section: Distance Education
+    link: /services/distance.html
+  - section: Curriculum Center
+    link: /services/curriculumcenter.html
+  - section: Instruction Services
+    link: /services/instruction/
+    pages:
+      - name: Instruction Services
+        url: /services/instruction/
+      - name: Request Form
+        url: /services/instruction/instrequest.html
+      - name: English 102
+        url: /services/instruction/engl102.html
+  - section: Interlibrary Loan
+    link: /services/ill/
+    pages:
+      - name: Interlibrary Loan
+        url: /services/ill/
+      - name: Summit
+        url: /services/ill/summit.html
+      - name: Document Delivery
+        url: /services/ill/docdelivery.html
+      - name: Other Libraries
+        url: /services/ill/other.html
+  - section: The MILL
+    link: http://mill.lib.uidaho.edu/
+  - section: Open Education Resources
+    link: https://open.lib.uidaho.edu/
+  - section: OA Publishing Fund
+    link: /services/oapf/
+    pages:
+      - name: OA Publishing Fund
+        url: /services/oapf/
+      - name: Eligibility
+        url: /services/oapf/eligibility.html
+      - name: Apply
+        url: /services/oapf/apply.html
+      - name: FAQ
+        url: /services/oapf/faq.html
+  - section: Scholarly Services
+    link: /services/scholarly/
+    pages:
+      - name: Scholarly Services
+        url: /services/scholarly/
+      - name: Repository
+        url: /services/scholarly/repository.html
+      - name: Publishing
+        url: /services/scholarly/publishing.html
+      - name: Open Access
+        url: /services/scholarly/openaccess.html
+      - name: More
+        url: /services/scholarly/resources.html
+  - section: Workshops
+    link: /services/workshops/
+    pages:
+      - name: Workshops
+        url: /services/workshops/
+      - name: Resources
+        url: /services/workshops/resources.html
+collections:
+  - section: Special Collections & Archives
+    link: /special-collections/
+  - section: Digital Collections
+    link: /digital/
+  - section: Theses & Dissertations
+    link: /find/etds.html
+  - section: Gov. Documents
+    link: /find/govdocs/
+  - section: Gary Strong Curriculum Center
+    link: /services/curriculumcenter.html
+  - section: INSIDE Idaho
+    link: http://inside.uidaho.edu/
+  - section: VIVO - Institutional Repository
+    link: http://vivo.nkn.uidaho.edu/vivo/
+  - section: International Jazz Collections
+    link: http://www.ijc.uidaho.edu/
+  - section: Maps
+    link: /find/maps/
+  - section: Alfred W. Bowers Laboratory of Anthropology
+    link: https://www.uidaho.edu/class/anthrolab

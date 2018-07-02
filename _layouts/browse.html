@@ -33,7 +33,7 @@ layout: page
                 {% if item.series %}<strong>Series:</strong> {{ item.series }}.<br>{% endif %}
                 {% if item.collection %}<strong>Collection:</strong> {{ item.collection }}.<br>{% endif %}
                 </p>
-                <a href="{{ "/docs/" | absolute_url | append: item.resource-identifier | append: ".html" }}" class="btn btn-sm btn-info" title="link to {{ item.title | replace: '"', '' }}">Go to Document</a>
+                <a href="{{ "/docs/" | absolute_url | append: item.resource-identifier | append: ".html" }}" class="btn btn-sm btn-info" title="link to {{ item.title | escape }}">Go to Document</a>
             </div>
          </div>
     </div>
