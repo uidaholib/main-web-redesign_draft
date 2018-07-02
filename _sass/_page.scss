@@ -14,8 +14,17 @@
     background: $nav-background;
 }
 #page-nav {
-    width: 225px;
+    width: 250px;
+    font-size:18px;
+    a{
+    font-weight: 300 !important;
 }
+li{border-color: #d5d5d5 !important;}
+}
+
+.dropdown-toggle::after {
+    margin-left: 20px;}
+
 .page-block { 
     background: $background-color;
 }
