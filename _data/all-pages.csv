@@ -1,5 +1,5 @@
 name,url,section,sub-section,quick-nav,featured
-About Home,/about/index.html,about,,,
+About Home,/about/,about,,,
 Welcome,/about/welcome.html,about,Welcome,,
 Recognizing our Faculty ,/recognitions/,about,Welcome,,
 Contact/Directions,/about/directions.html,about,,,
