@@ -4,19 +4,19 @@
         <ul class="list-unstyled components">
             {% for sub in page-nav[page.section] %}
             {% if sub.pages %}
-            <li class="border">
+            <li class="border py-2">
                 <a href="#{{ sub.section | slugify }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.section }}</a>
                 <ul class="collapse list-unstyled" id="{{ sub.section | slugify }}">
                     {% for page in sub.pages %}
-                    <li>
-                        <a href="{{ page.url }}">{{ page.name }}</a>
+                    <li class="pl-2">
+                        <a href="{{ page.url | relative_url }}">{{ page.name }}</a>
                     </li>
                     {% endfor %}
                 </ul>
             </li>
             {% else %}
-            <li class="border">
-                <a href="{{ sub.link }}">{{ sub.section }}</a>
+            <li class="border py-2">
+                <a href="{{ sub.link | relative_url }}">{{ sub.section }}</a>
             </li>
             {% endif %}
             {% endfor %}
