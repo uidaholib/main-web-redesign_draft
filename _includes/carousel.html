@@ -6,7 +6,7 @@
   </ul>
   {% for slide in site.data.carousel%}
   <div class="carousel-item {%if forloop.first%}active{%endif%}">
-    <img src="{{slide.image}}" alt="Chicago">
+    <img src="{{slide.image}}" alt="{{slide.caption}}">
     <div class="carousel-caption px-3 mb-3">
       <div class="row">
         <div class="col-12">
