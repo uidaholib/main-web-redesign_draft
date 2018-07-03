@@ -17,8 +17,6 @@ about:
   - section: People
     link: /about/directory.html
     pages:
-      - name: People
-        url: /about/directory.html
       - name: Directory 
         url: /about/directory.html
       - name: Faculty Librarians 

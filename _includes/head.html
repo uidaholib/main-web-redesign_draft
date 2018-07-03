@@ -5,6 +5,7 @@
 {% include page-meta.html %}
 
 <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" type="text/css">
+{% if page.table-id %}<link rel="stylesheet" type="text/css" href="{{ "/assets/datatables/datatables.min.css" | relative_url }}">{% endif %}
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" type="text/css">
 
 <!-- load only regular fontawesome via css + webfont -->
