@@ -1,0 +1,53 @@
+---
+title: Local Newspapers
+section: find
+permalink: /find/localnewspapers.html
+
+layout: page
+---
+
+  
+  
+   
+      
+   
+                         
+
+      
+ 
+      <div class="container pagecontent" id="scrollnav">
+		 
+		
+<?php
+	
+    $ititle   = '<h3>Current Idaho & Local Newspapers</h3>' ;
+    $icomment = '(Current issues only; Most back issues are on microfilm -- Reference/Information Desk, First Floor, about specific issues and dates.)' ;
+    $db = new PDO('mysql:host=localhost;dbname=newspapers;charset=utf8','dbuser','data98');
+    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+	try {
+        $results = $db->query("SELECT * FROM newsinfo WHERE (type = 'L') ORDER BY place, name") ;
+    } catch (PDOException $e) {
+        echo "Error accessing database" ;
+    }
+    $num    = $results->rowcount() ;
+    $list = $results->fetchAll(PDO::FETCH_ASSOC);
+		if ($num <> 0) {
+			$count = 0 ;
+			$oldplace = '' ;
+			print "$ititle\n" ;
+			print "$icomment  \n" ;
+			while ($count < $num) {
+				$place    = $list[$count]['place'] ;
+				$name     = $list[$count]['name'] ;
+				$URL      = $list[$count]['URL'] ;
+				$comments = $list[$count]['comments'] ;
+				print "$place <b>$name</b> $comments \n" ;
+				$count++ ;
+			}
+		}
+?>
+                </div>
+    </div>
+	
+	
