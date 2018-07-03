@@ -244,3 +244,18 @@ collections:
     link: /find/maps/
   - section: Alfred W. Bowers Laboratory of Anthropology
     link: https://www.uidaho.edu/class/anthrolab
+help:
+  - section: Help Home
+    link: /help/
+  - section: FAQ
+    link: https://libanswers.uidaho.edu/
+  - section: Off-Campus Access
+    link: /help/offcampus.html
+  - section: Research Assistance
+    link: /help/rap.html
+  - section: Faculty Assistance
+    link: /help/frap.html
+  - section: Chat (IM) & Text
+    link: /help/chat.html
+  - section: Site Search
+    link: /help/search.html
