@@ -5,8 +5,8 @@
             {% for sub in page-nav[page.section] %}
             {% if sub.pages %}
             <li class="border-bottom py-2 pl-1 mr-4">
-                <a href="#{{ sub.section | slugify }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.section }}</a>
-                <ul class="collapse list-unstyled" id="{{ sub.section | slugify }}">
+                <a href="#{{ sub.subsection | slugify }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.subsection }}</a>
+                <ul class="collapse list-unstyled" id="{{ sub.subsection | slugify }}">
                     {% for page in sub.pages %}
                     <li class="pl-3 mt-1">
                         <a href="{{ page.url | relative_url }}">{{ page.name }}</a>
@@ -16,7 +16,7 @@
             </li>
             {% else %}
             <li class="border-bottom py-2 pl-1 mr-4">
-                <a href="{{ sub.link | relative_url }}">{{ sub.section }}</a>
+                <a href="{{ sub.link | relative_url }}">{{ sub.subsection }}</a>
             </li>
             {% endif %}
             {% endfor %}

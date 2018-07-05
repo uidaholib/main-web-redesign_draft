@@ -1,27 +1,27 @@
 about:
-  - section: About Home
+  - subsection: About Home
     link: /about/
-  - section: Welcome
+  - subsection: Welcome
     link: /about/welcome.html
     pages:
       - name: Welcome
         url: /about/welcome.html
       - name: Recognizing our Faculty
         url: /recognitions/
-  - section: Contact/Directions
+  - subsection: Contact/Directions
     link: /about/directions.html
-  - section: Overnight Parking
+  - subsection: Overnight Parking
     link: /about/overnightparking.html
-  - section: Departments
+  - subsection: Departments
     link: /about/departments.html
-  - section: People
+  - subsection: People
     link: /about/directory.html
     pages:
       - name: Directory 
         url: /about/directory.html
       - name: Faculty Librarians 
         url: /about/librarians.html
-  - section: Policies
+  - subsection: Policies
     link: /about/policies.html
     pages:
       - name: Policies
@@ -44,22 +44,22 @@ about:
         url: /about/policies.html#scanning
       - name: Collection Management
         url: /about/policies.html#collmanage
-  - section: Reports and Statistics
+  - subsection: Reports and Statistics
     link: /about/statistics.html
-  - section: Subject Liaisons
+  - subsection: Subject Liaisons
     link: /about/liaisons.html
-  - section: Strategic Plan
+  - subsection: Strategic Plan
     link: /about/stratplan.html
-  - section: Floor Maps
+  - subsection: Floor Maps
     link: maps.html
-  - section: Giving
+  - subsection: Giving
     link: /giving/
-  - section: Hours
+  - subsection: Hours
     link: /about/hours.html
 find:
-  - section: Articles
+  - subsection: Articles
     link: /find/articles.html
-  - section: Books & eBooks
+  - subsection: Books & eBooks
     link: /find/books.html
     pages:
       - name: Books & eBooks
@@ -68,11 +68,11 @@ find:
         url: https://libguides.uidaho.edu/ebooks
       - name: Library of Congress Call Numbers
         url: /find/lc.html
-  - section: DVDs
+  - subsection: DVDs
     link: /find/dvds.html
-  - section: Encyclopedias
+  - subsection: Encyclopedias
     link: /find/encyclopedias.html
-  - section: Gov. Documents
+  - subsection: Gov. Documents
     link: /find/govdocs/
     pages:
       - name: Gov. Documents
@@ -81,9 +81,9 @@ find:
         url: /find/govdocs/search.html
       - name: Circulation Policies
         url: /find/govdocs/circulation.html
-  - section: Journals
+  - subsection: Journals
     link: /find/journals.html
-  - section: Maps
+  - subsection: Maps
     link: /find/maps/
     pages:
       - name: Maps
@@ -92,7 +92,7 @@ find:
         url: /find/maps/paper.html
       - name: Digital Maps
         url: /find/maps/digital.html
-  - section: Newspapers
+  - subsection: Newspapers
     link: /find/newspapers.html
     pages:
       - name: Newspapers
@@ -103,7 +103,7 @@ find:
         url: /find/localnewspapers.html
       - name: Argonaut Index
         url: /find/argonaut.html
-  - section: Microfilm List
+  - subsection: Microfilm List
     link: /find/microfilm.html
     pages:
       - name: Newspapers
@@ -114,23 +114,23 @@ find:
         url: /find/localnewspapers.html
       - name: Argonaut Index
         url: /find/argonaut.html
-  - section: Research Guides
+  - subsection: Research Guides
     link: http://libguides.uidaho.edu/index.php?
-  - section: Theses & Dissertations
+  - subsection: Theses & Dissertations
     link: /find/etds.html
 services:
-  - section: Borrow/Renew
+  - subsection: Borrow/Renew
     link: /services/borrow/
-  - section: CDIL (Digital Scholarship)
+  - subsection: CDIL (Digital Scholarship)
     link: https://cdil.lib.uidaho.edu/
-  - section: Copyright
+  - subsection: Copyright
     link: /copyright/
     pages: 
       - name: About
         url: /copyright/
       - name: Copyright Guide
         url: /copyright/guide.html
-  - section: Course Reserves
+  - subsection: Course Reserves
     link: /services/reserves/
     pages:
       - name: Home
@@ -147,9 +147,9 @@ services:
         url: /services/reserve/fairuse.html
       - name: FAQs
         url: /services/reserve/faq.html
-  - section: Data &amp; Digital Services
+  - subsection: Data &amp; Digital Services
     link: /services/dds.html
-  - section: Data Management
+  - subsection: Data Management
     link: /services/data/
     pages:
       - name: Data Home
@@ -164,11 +164,11 @@ services:
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
-  - section: Distance Education
+  - subsection: Distance Education
     link: /services/distance.html
-  - section: Curriculum Center
+  - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - section: Instruction Services
+  - subsection: Instruction Services
     link: /services/instruction/
     pages:
       - name: Instruction Services
@@ -177,7 +177,7 @@ services:
         url: /services/instruction/instrequest.html
       - name: English 102
         url: /services/instruction/engl102.html
-  - section: Interlibrary Loan
+  - subsection: Interlibrary Loan
     link: /services/ill/
     pages:
       - name: Interlibrary Loan
@@ -188,11 +188,11 @@ services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
-  - section: The MILL
+  - subsection: The MILL
     link: http://mill.lib.uidaho.edu/
-  - section: Open Education Resources
+  - subsection: Open Education Resources
     link: https://open.lib.uidaho.edu/
-  - section: OA Publishing Fund
+  - subsection: OA Publishing Fund
     link: /services/oapf/
     pages:
       - name: OA Publishing Fund
@@ -203,7 +203,7 @@ services:
         url: /services/oapf/apply.html
       - name: FAQ
         url: /services/oapf/faq.html
-  - section: Scholarly Services
+  - subsection: Scholarly Services
     link: /services/scholarly/
     pages:
       - name: Scholarly Services
@@ -216,7 +216,7 @@ services:
         url: /services/scholarly/openaccess.html
       - name: More
         url: /services/scholarly/resources.html
-  - section: Workshops
+  - subsection: Workshops
     link: /services/workshops/
     pages:
       - name: Workshops
@@ -224,38 +224,38 @@ services:
       - name: Resources
         url: /services/workshops/resources.html
 collections:
-  - section: Special Collections & Archives
+  - subsection: Special Collections & Archives
     link: /special-collections/
-  - section: Digital Collections
+  - subsection: Digital Collections
     link: /digital/
-  - section: Theses & Dissertations
+  - subsection: Theses & Dissertations
     link: /find/etds.html
-  - section: Gov. Documents
+  - subsection: Gov. Documents
     link: /find/govdocs/
-  - section: Gary Strong Curriculum Center
+  - subsection: Gary Strong Curriculum Center
     link: /services/curriculumcenter.html
-  - section: INSIDE Idaho
+  - subsection: INSIDE Idaho
     link: http://inside.uidaho.edu/
-  - section: VIVO - Institutional Repository
+  - subsection: VIVO - Institutional Repository
     link: http://vivo.nkn.uidaho.edu/vivo/
-  - section: International Jazz Collections
+  - subsection: International Jazz Collections
     link: http://www.ijc.uidaho.edu/
-  - section: Maps
+  - subsection: Maps
     link: /find/maps/
-  - section: Alfred W. Bowers Laboratory of Anthropology
+  - subsection: Alfred W. Bowers Laboratory of Anthropology
     link: https://www.uidaho.edu/class/anthrolab
 help:
-  - section: Help Home
+  - subsection: Help Home
     link: /help/
-  - section: FAQ
+  - subsection: FAQ
     link: https://libanswers.uidaho.edu/
-  - section: Off-Campus Access
+  - subsection: Off-Campus Access
     link: /help/offcampus.html
-  - section: Research Assistance
+  - subsection: Research Assistance
     link: /help/rap.html
-  - section: Faculty Assistance
+  - subsection: Faculty Assistance
     link: /help/frap.html
-  - section: Chat (IM) & Text
+  - subsection: Chat (IM) & Text
     link: /help/chat.html
-  - section: Site Search
+  - subsection: Site Search
     link: /help/search.html
