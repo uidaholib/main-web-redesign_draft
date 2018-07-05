@@ -103,17 +103,6 @@ find:
         url: /find/localnewspapers.html
       - name: Argonaut Index
         url: /find/argonaut.html
-  - subsection: Microfilm List
-    link: /find/microfilm.html
-    pages:
-      - name: Newspapers
-        url: /find/newspapers.html
-      - name: Microfilm List
-        url: /find/microfilm.html
-      - name: Local Newspapers
-        url: /find/localnewspapers.html
-      - name: Argonaut Index
-        url: /find/argonaut.html
   - subsection: Research Guides
     link: http://libguides.uidaho.edu/index.php?
   - subsection: Theses & Dissertations
