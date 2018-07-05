@@ -93,9 +93,9 @@ a{color:white !important;
 
 }
 .resourcecontainer{
-    background: $grey-color-dark;
-    color:white;
-a{color:white !important;
+    background: $grey-color-light;
+    
+a{
     font-weight: 300;
 &:hover{text-decoration: underline;}
 }
