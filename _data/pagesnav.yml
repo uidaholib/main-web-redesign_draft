@@ -3,7 +3,7 @@ about:
     link: /about/
   - subsection: Welcome
     link: /about/welcome.html
-    pages:
+    subpages:
       - name: Welcome
         url: /about/welcome.html
       - name: Recognizing our Faculty
@@ -16,14 +16,14 @@ about:
     link: /about/departments.html
   - subsection: People
     link: /about/directory.html
-    pages:
+    subpages:
       - name: Directory 
         url: /about/directory.html
       - name: Faculty Librarians 
         url: /about/librarians.html
   - subsection: Policies
     link: /about/policies.html
-    pages:
+    subpages:
       - name: Policies
         url: /about/policies.html
       - name: Circulation
@@ -61,7 +61,7 @@ find:
     link: /find/articles.html
   - subsection: Books & eBooks
     link: /find/books.html
-    pages:
+    subpages:
       - name: Books & eBooks
         url: /find/books.html
       - name: Ebook Guide
@@ -74,7 +74,7 @@ find:
     link: /find/encyclopedias.html
   - subsection: Gov. Documents
     link: /find/govdocs/
-    pages:
+    subpages:
       - name: Gov. Documents
         url: /find/govdocs/
       - name: Search Information
@@ -85,7 +85,7 @@ find:
     link: /find/journals.html
   - subsection: Maps
     link: /find/maps/
-    pages:
+    subpages:
       - name: Maps
         url: /find/maps/
       - name: Print Maps
@@ -94,7 +94,7 @@ find:
         url: /find/maps/digital.html
   - subsection: Newspapers
     link: /find/newspapers.html
-    pages:
+    subpages:
       - name: Newspapers
         url: /find/newspapers.html
       - name: Microfilm List
@@ -114,14 +114,14 @@ services:
     link: https://cdil.lib.uidaho.edu/
   - subsection: Copyright
     link: /copyright/
-    pages: 
+    subpages: 
       - name: About
         url: /copyright/
       - name: Copyright Guide
         url: /copyright/guide.html
   - subsection: Course Reserves
     link: /services/reserve/
-    pages:
+    subpages:
       - name: Home
         url: /services/reserve/
       - name: Policies
@@ -140,13 +140,11 @@ services:
     link: /services/dds.html
   - subsection: Data Management
     link: /services/data/
-    pages:
+    subpages:
       - name: Data Home
         url: /services/data/
       - name: Data Management
         url: /services/data/data-management/
-      - name: Training &amp; Workshops
-        url: /services/workshops/
       - name: Geospatial Resources
         url: /find/geospatial/
       - name: DOI Service
@@ -159,7 +157,7 @@ services:
     link: /services/curriculumcenter.html
   - subsection: Instruction Services
     link: /services/instruction/
-    pages:
+    subpages:
       - name: Instruction Services
         url: /services/instruction/
       - name: Request Form
@@ -168,7 +166,7 @@ services:
         url: /services/instruction/engl102.html
   - subsection: Interlibrary Loan
     link: /services/ill/
-    pages:
+    subpages:
       - name: Interlibrary Loan
         url: /services/ill/
       - name: Summit
@@ -183,7 +181,7 @@ services:
     link: https://open.lib.uidaho.edu/
   - subsection: OA Publishing Fund
     link: /services/oapf/
-    pages:
+    subpages:
       - name: OA Publishing Fund
         url: /services/oapf/
       - name: Eligibility
@@ -194,7 +192,7 @@ services:
         url: /services/oapf/faq.html
   - subsection: Scholarly Services
     link: /services/scholarly/
-    pages:
+    subpages:
       - name: Scholarly Services
         url: /services/scholarly/
       - name: Repository
@@ -207,7 +205,7 @@ services:
         url: /services/scholarly/resources.html
   - subsection: Workshops
     link: /services/workshops/
-    pages:
+    subpages:
       - name: Workshops
         url: /services/workshops/
       - name: Resources

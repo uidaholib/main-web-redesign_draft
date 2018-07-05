@@ -3,11 +3,11 @@
     <nav id="page-nav">
         <ul class="list-unstyled components">
             {% for sub in page-nav[page.section] %}
-            {% if sub.pages %}{% assign urls = sub.pages | map: "url" %}
+            {% if sub.subpages %}{% assign urls = sub.subpages | map: "url" %}
             <li class="border-bottom py-2 pl-1 mr-4">
                 <a href="#{{ sub.subsection | slugify }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.subsection }}</a>
                 <ul class="collapse {% if urls contains page.url %} show{% endif %} list-unstyled" id="{{ sub.subsection | slugify }}">
-                    {% for p in sub.pages %}
+                    {% for p in sub.subpages %}
                     <li class="pl-3 mt-1 {% if p.url == page.url %} active{% endif %}">
                         <a href="{{ p.url | relative_url }}">{{ p.name }}</a>
                     </li>
