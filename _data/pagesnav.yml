@@ -131,10 +131,10 @@ services:
       - name: Copyright Guide
         url: /copyright/guide.html
   - subsection: Course Reserves
-    link: /services/reserves/
+    link: /services/reserve/
     pages:
       - name: Home
-        url: /services/reserves/
+        url: /services/reserve/
       - name: Policies
         url: /services/reserve/policies.html
       - name: Request form
