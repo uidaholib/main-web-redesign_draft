@@ -2,63 +2,42 @@
 title: Resources
 section: services
 permalink: /services/workshops/resources.html
-
+table-id: "#resources"
 layout: page
 ---
+{% assign resources = site.data.workshops-resources %}
 
-  
-  
-    
-            
-            
-      
-	
-    <div class="container pagecontent" id="scrollnav">
-	 
-	
-	
-    
-    <div >
-            <h1 style="font-size:40px"><span style="font-size:smaller" ></span>Workshop Resources</h1>
-            <p>Slides and additional materials from past workshops and events are shared on this page.</p>
-    </div>
-     
+<h1>Workshop Resources</h1>
 
-    <div >
-    
-        <table id="materialsTable" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Materials</th>    
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Title</th>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Materials</th>
-            </tr>
-        </tfoot>
+<p>Slides and additional materials from past workshops and events are shared on this page.</p>
 
-        <!--#include virtual="/services/workshops/workshoptable.txt" -->
+<table id="resources" class="table table-striped">
 
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Materials</th>    
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Materials</th>
+        </tr>
+    </tfoot>
+    {% for r in resources %}
+    <tr>
+        <td>{{ r.title }}</td>
+        <td>{{ r.date }}</td>
+        <td>{{ r.description }}<br>
+            Presenter: {{ r.instructor }}</td>
+        <td>{{ r.materials }}</td>
+    </tr>
+    {% endfor %}
 
-        </table>
-    
-    </div>
-
-</div>
-				
-			 
-			 
-			 
-
-        </div>
-        </div>
-		<div style="clear:both;"></div>
-    </div>													
+</table>													
 			

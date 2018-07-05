@@ -3,7 +3,7 @@ title: Copyright Guide
 layout: page
 ---
 
-# <span class="glyphicon glyphicon-copyright-mark" style="font-size:smaller"></span> Copyright Guide | University of Idaho Library
+# <span class="fas fa-copyright-mark" style="font-size:smaller"></span> Copyright Guide | University of Idaho Library
 
 -----
 

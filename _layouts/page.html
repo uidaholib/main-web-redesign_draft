@@ -17,15 +17,7 @@ layout: default
     <div class="page-block">
 
         <!-- bread crumbs -->
-        <ul class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="{{ '/' | absolute_url }}"><span class="fas fa-home"></span></a>
-            </li>
-            <li class="breadcrumb-item">
-                <a href="{{ '/about/' | absolute_url }}">About</a>
-            </li>
-            <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
-        </ul>
+        {% include breadcrumbs-page.html %}
 
         <!-- page nav button -->
         <button class="btn btn-secondary d-lg-none" id="sidebarButton" type="button">
