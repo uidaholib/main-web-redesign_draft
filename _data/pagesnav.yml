@@ -72,6 +72,8 @@ find:
     link: /find/dvds.html
   - subsection: Encyclopedias
     link: /find/encyclopedias.html
+  - subsection: Geospatial Resources
+    link: /find/geospatial/
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
