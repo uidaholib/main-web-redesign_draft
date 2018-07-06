@@ -7,10 +7,10 @@ layout: page
 <div class="row">
 <p>You can use this page to search and browse for journals and magazines by title and subject.
    <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
-    class="EXLSearchForm row" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()"
+    class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()"
     style="margin: 0 1%;z-index: 1;">
 
-    <div class="col-md-12">
+    
       <label style="margin-right:5px"> Search </label>
       <select id="primoFieldTemp" class="EXLSelectTag fixed">
         <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
@@ -24,7 +24,7 @@ layout: page
           ISSN</option>
       </select>
       <label> for Journals containing: </label>
-    </div>
+
 
     <input type="hidden" name="pfilter" value="pfilter,exact,journals,AND">
     <input type="hidden" name="tab" value="everything">
@@ -33,11 +33,8 @@ layout: page
     <input type="hidden" name="mode" value="advanced">
     <input type="hidden" name="offset" value="0">
     <input id="primoQuery" type="hidden" name="query">
-    <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control form-control-lg col-md-8 col-sm-12"
-      placeholder="Search for journals ...">
-
-
-    <input id="goButton_dash" class="btn btn-pride-gold my-sm-1 col-md-2" title="Search" type="submit" value="Go" alt="Search">
+    <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8" placeholder="Search for journals ...">
+    <input id="goButton_dash" class="btn btn-pride-gold btn-lg my-sm-1 col-md-2" title="Search" type="submit" value="Go" alt="Search">
     <div class="col-md-2 hidden-xs">
       <a id="popover2" class="pull-left " data-container="body" data-toggle="popover" data-placement="top" data-content="This search box searches the library catalog for journals only."
         style="color:#962676;cursor:pointer;font-size:12px;margin-top:-4px; padding-left:6px;" data-original-title="" title="">
@@ -48,9 +45,10 @@ layout: page
     </div>
   </form>
   <hr />
+</div>
 <div class="row">  
     <h4 class="col-md-12">Browse journals by subject</h4>
-      <ul class="col-md-5 offset-md-1">
+      <ul class="col-md-5 offset-md-1 col-sm-10 offset-sm-1">
         <li>
           <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Agriculture,AND&pfilter=pfilter,exact,journals,AND&tab=everything&search_scope=everything&vid=UID&mode=advanced&offset=0">Agriculture</a>
         </li>
@@ -125,7 +123,7 @@ layout: page
 
 
       </ul>
-      <ul class="col-md-5">
+      <ul class="col-md-5 col-sm-10 offset-sm-1">
 
         <li>
           <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Film,AND&pfilter=pfilter,exact,journals,AND&tab=everything&search_scope=everything&vid=UID&mode=advanced&offset=0">Film</a>
@@ -199,10 +197,11 @@ layout: page
       </ul>
 
     </div>
-  </div>
-  <hr />
+    <hr />
+<div class="row">
   <p style="font-style:italic; text-align:center;">
     <strong>Looking for more journals and serials?</strong> Check out
     <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.ulrichsweb.serialssolutions.com/">Ulrichsweb Global Serials Directory</a> for a listing of over 300,000 periodicals.
     <a href="agreement.html" style="color:#666">Conditions of Use and Licensing Restrictions for Electronic Resources</a>
   </p>
+</div>

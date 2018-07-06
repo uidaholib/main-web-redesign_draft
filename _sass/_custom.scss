@@ -17,6 +17,19 @@ a {
     }
 }
 
+
+.container {
+    @media (min-width: 576px){
+    max-width: 100%;
+    padding:inherit 10px;
+    }
+    @media (min-width: 768px){
+        max-width: 95%;
+        }
+}
+
+
+
 /* top bar */
 #ui-home {
     color: $grey-color;

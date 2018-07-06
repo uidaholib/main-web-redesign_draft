@@ -8,23 +8,26 @@ layout: default
     </div>
 </div>
 <div class="split-background">
-<div class="page-wrapper container">
-
+<div class="container">
+<div class="row">
+    <div class="col-md-3 col-xs-12 px-sm-0">
     <!-- page nav / sidebar -->
     {% include page-nav.html %}
-
-    <!-- page -->
-    <div class="page-block">
-
-        <!-- page nav button -->
-        <button class="btn btn-sm btn-secondary d-lg-none" id="sidebarButton" type="button">
+      <!-- page nav button -->
+      <button class="btn btn-secondary d-md-none col-sm-12 px-sm-0" id="sidebarButton" type="button">
             <span class="fas fa-align-left"></span> Menu
         </button>
+    </div>
+    <!-- page -->
+    <div class="page-block col-md-9 col-xs-12">
+
+      
+        <main role="main" class="py-2 pl-md-5">
         <!-- bread crumbs -->
         {% include breadcrumbs-page.html %}
 
         <!-- page content -->
-        <main role="main" class="py-2 pl-md-3">
+        
             {{ content }}
         </main>
 

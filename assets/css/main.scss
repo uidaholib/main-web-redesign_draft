@@ -58,9 +58,10 @@ $theme-colors: (
 // Width of the content area
 $content-width:    1800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
+$on-palm:          576px;
+$on-laptop:        768px;
+$on-desktop:       992px;
+$on-jumbo:        1200px;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -73,6 +74,7 @@ $on-laptop:        800px;
         @content;
     }
 }
+
 
 @import "custom", "page", "buttons","uidahofonts";
 

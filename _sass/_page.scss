@@ -36,4 +36,11 @@ li{border-color: #d5d5d5 !important;}
         $background-color 50%,
         $background-color 100%
     );
+    @include media-query($on-palm) {
+    background: $background-color;
+}
+}
+
+.breadcrumb {
+    background: $background-color;
 }
