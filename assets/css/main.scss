@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 // base variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-$base-font-size:   18px;
+$base-font-family: "Ringside Narrow A", "Ringside Narrow B", Arial, sans-serif;; 
+$base-font-size:   1.25rem;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -37,6 +37,23 @@ $clearwater-light: #8BD5E5;
 $payette-blue: #003E51;
 $ponderosa-pine: #004E42;
 
+// vandal colors translated into bootstrap
+$blue: #003E51;
+$green: #00AF66;
+$cyan: #00AEC7;
+$red: #D22630;
+$yellow: #F1B300;
+$primary: $yellow;
+$gray-800: #191919;
+
+$theme-colors: (
+  primary: $blue,
+   success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  dark: $gray-800
+) !default;
 
 // Width of the content area
 $content-width:    1800px;
@@ -57,7 +74,7 @@ $on-laptop:        800px;
     }
 }
 
-@import "custom", "page", "buttons";
+@import "custom", "page", "buttons","uidahofonts";
 
 //@import "base";
 //@import "layout";
