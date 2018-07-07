@@ -59,6 +59,11 @@ about:
 find:
   - subsection: Articles
     link: /find/articles.html
+    subpages:
+      - name: Search & Browse
+        url: /find/articles.html
+      - name: Database Tools
+        url: /find/articles.html#tools
   - subsection: Books & eBooks
     link: /find/books.html
     subpages:

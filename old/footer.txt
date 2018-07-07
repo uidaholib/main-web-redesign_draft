@@ -2,15 +2,15 @@
 	  <div class=row">
 	    <div class="col-xs-3  col-sm-2 col-md-1 col-md-offset-1">
 	      <div class="pull-right">
-	        <a title="First Floor Map" href="/about/maps.html#first"><img src="/images/stackmaps/stackmap1_sm.png" alt="First Floor Map" style="width: 40px; height: 55px; margin-bottom:5px;" /></a>
+	        <a title="First Floor Map" href="/about/maps.html#first"><img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1_sm.png" alt="First Floor Map" style="width: 40px; height: 55px; margin-bottom:5px;" /></a>
 	        <br />
-	        <a title="Third Floor Map" href="/about/maps.html#third"><img src="/images/stackmaps/stackmap3_sm.png" alt="Third Floor Map" style="width: 40px; height: 55px;"  /></a>
+	        <a title="Third Floor Map" href="/about/maps.html#third"><img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap3_sm.png" alt="Third Floor Map" style="width: 40px; height: 55px;"  /></a>
 	      </div>
 	    </div>
 	  	<div class="col-xs-3 col-md-1">
-	      <a title="Second Floor Map" href="/about/maps.html#second"><img src="/images/stackmaps/stackmap2_sm.png" alt="Second Floor Map" style="width: 40px; height: 55px; margin-bottom:5px;"  /></a>
+	      <a title="Second Floor Map" href="/about/maps.html#second"><img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap2_sm.png" alt="Second Floor Map" style="width: 40px; height: 55px; margin-bottom:5px;"  /></a>
 	      <br />
-        <a title="Fourth Floor Map" href="/about/maps.html#fourth"><img src="/images/stackmaps/stackmap4_sm.png" alt="Fourth Floor Map" style="width: 40px; height: 55px;" /></a>
+        <a title="Fourth Floor Map" href="/about/maps.html#fourth"><img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap4_sm.png" alt="Fourth Floor Map" style="width: 40px; height: 55px;" /></a>
 	    </div>
     	<p class="col-xs-3 col-sm-1 col-md-2 footerlinks" style="margin-top: 0.5%;">
      	<a title="About our library people, policies, etc." href="/about/">About</a> <br />
