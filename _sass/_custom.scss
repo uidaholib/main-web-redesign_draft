@@ -19,15 +19,24 @@ a {
 
 
 .container {
-    @media (min-width: 576px){
+    @media (min-width: 576px) and (max-width: 768px){
     max-width: 100%;
     padding:inherit 10px;
     }
-    @media (min-width: 768px){
-        max-width: 95%;
+    @media (min-width: 768px) and (max-width: 900px){
+        max-width: 740px;
         }
 }
 
+.dropdown-menu .container{
+    width:1300px;
+    margin-right:-17px;
+
+    @media (min-width: 768px) and (max-width: 900px){
+        width:740px !important;
+        }
+
+  }
 
 
 /* top bar */
@@ -88,10 +97,7 @@ left:0;
   height: 500px;
   img{height:280px;}
 }}
-.dropdown-menu .container{
-  width:1300px;
-  margin-right:-17px;
-}
+
 .projectlink img{
   width:90%;
 }

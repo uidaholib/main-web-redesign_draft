@@ -2,175 +2,223 @@
 title: DVDs
 section: find
 permalink: /find/dvds.html
-
 layout: page
 ---
-
-  
-  
-   
-       
-
-      
- 
-      <div class="container pagecontent" id="scrollnav">
-	 
-
-	
-	
-	 <div class="row">
-<div class="col-md-8">		 
-<div class="searchform2 row" >
-   
-
-                 <h1>DVDs</h1>
-                      <h3>Search the catalog for DVDs ...</h3>
-                    <p>Use the search box below to find DVDs in our catalog. You can search by title, creator (director/writer), and subject.     
-
-
-   
-  
- 
-  
-  <div class="col-md-10">
- <form  name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8"  id="searchForm" onsubmit="searchPrimo()"    style="margin: 0 1%;z-index: 1;">
-
-    
-<label style="margin-right:5px"> Search  </label><select id="primoFieldTemp" class="EXLSelectTag fixed">
-<option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
-All Fields</option>
-<option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
-in the title</option>
-
-<option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
-authors</option>
-
-<option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
-in subject</option>
-
-</select>
-<label> for DVDS containing: </label>
-
-<input type="hidden" name="query" value="lsr06,contains,DVD,AND">
-<input type="hidden" name="tab" value="default_tab">
-<input type="hidden" name="search_scope" value="ui_alma">
-<input type="hidden" name="vid" value="UID">
-<input type="hidden" name="mode" value="advanced">
-<input type="hidden" name="offset" value="0">
-<input id="primoQuery" type="hidden" name="query">
-<input id="primoQueryTemp" 
-onkeypress="return searchPrimoEvent(event)" 
-type="text" name="queryTemp"  value="" class="textbox form-control search_field_dash" placeholder="Search the catalog ..."  >
-
+  <div class="row">{% include js/primosearch.js%}
+    <div class="col-md-12">
      
-    <input id="goButton_dash"  class="btn btn-success form-control btn-lg pull-left submit" title="Search" type="submit" value="Go" alt="Search">
-    </form>
-
- 
-</div>
-
-       <div class="col-md-2 hidden-xs" >
- <a id="popover2" class="pull-left " data-container="body" data-toggle="popover" data-placement="top" data-content="This search box searches the library catalog for DVDs held by the University of Idaho only." style="color:#962676;cursor:pointer;font-size:12px;margin-top:-4px; padding-left:6px;" data-original-title="" title="">
-  <span class="fas fa-info-sign"></span>
-</a>
-
-       
-  </div>                                           
+            <h1>DVDs</h1>
+        <h3>Search the catalog for DVDs ...</h3>
+        <p>Use the search box below to find DVDs in our catalog. You can search by title, creator (director/writer), and subject.</p>
   
-
-
-
-      
-</div>
-                                     <p>Browse Theses and Dissertations <b>by subject</b>: </p>
-                                   
-<div class="row">
-                         <ul class="col-md-5 col-md-offset-1">
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Agriculture,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Agriculture</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astronomy,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Astronomy</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astrophysics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Astrophysics</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Archaeology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Archaeology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Architecture,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Architecture</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Anthropology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Anthropology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Art,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Art</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Biology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Biology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Botany,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Botany</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Business,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Business</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Chemistry,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Chemistry</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Communications,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Communications</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Composition,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Composition</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Computer+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Computer Science</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Criminology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Criminology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Dance,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Dance</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Drama,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Drama</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Earth+Sciences,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Earth Sciences</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Economics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Economics</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Environmental,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Environmental</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Education,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Education</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Engineering,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Engineering</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,English,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">English</a></li>
-                                     
-
-                                           
-
-                                          </ul>
-                                          <ul class="col-md-5">
-                                            
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Film,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Film</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Forestry,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Forestry</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Government,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Government</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Health,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Health</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,History,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">History</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Journalism,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Journalism</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Library+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Library Science</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Literature,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Literature</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Law,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Law</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Mathematics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Mathematics</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Medicine,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Medicine</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Music,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Music</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Philosophy,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Philosophy</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Physics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Physics</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Political+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Political Science</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Psychology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Psychology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Reference,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Reference</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Religion,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Religion</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Science</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Social+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Social Science</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Sociology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Sociology</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Statistics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Statistics</a></li>
-<li><a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Technology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Technology</a></li>
-		</ul>			
-
-  </div>
-</div>
-<div class="col-md-4" >   
- 
- 
-<div id="hours_location" class="panel panel-default ">
-  <div class="panel-heading">
-    <h3 class="panel-title">DVD Databases</h3>
-	
-  </div>
-  <div class="panel-body indent">
-						<p class="center">This database is no longer updated, but to search a large list of our DVDs, prior to 2017, you can use our DVD Database</p>
+            <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
+              class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()"
+              style="margin: 0 1%;z-index: 1;">
   
-          <div class="center">
-		 <a class="btn btn-default berry center " type="button" href="dvds-table.html">Search Our DVD Database </a></div>
-		
-</div>
-
-</div>
-</div>
-
-</div>
- 
-
- 
-                     
- 
-  <div style="clear:both"></div>
-                </div>
-                </div>
+  
+              <label style="margin-right:5px"> Search </label>
+              <select id="primoFieldTemp" class="EXLSelectTag fixed">
+                <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
+                  All Fields</option>
+                <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
+                  in the title</option>
+  
+                <option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
+                  authors</option>
+  
+                <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
+                  in subject</option>
+  
+              </select>
+              <label> for DVDS containing: </label>
+  
+              <input type="hidden" name="query" value="lsr06,contains,DVD,AND">
+              <input type="hidden" name="tab" value="default_tab">
+              <input type="hidden" name="search_scope" value="ui_alma">
+              <input type="hidden" name="vid" value="UID">
+              <input type="hidden" name="mode" value="advanced">
+              <input type="hidden" name="offset" value="0">
+              <input id="primoQuery" type="hidden" name="query">
+              <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 "
+                placeholder="Search for DVDs ...">
+              <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit"
+                value="Go" alt="Search">
+            </form>
+  <hr />
+      <p>Browse DVDs
+        <b>by subject</b>: </p>
+  
+      <div class="row">
+        <ul class="col-md-5 col-md-offset-1">
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Agriculture,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Agriculture</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astronomy,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Astronomy</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astrophysics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Astrophysics</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Archaeology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Archaeology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Architecture,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Architecture</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Anthropology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Anthropology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Art,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Art</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Biology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Biology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Botany,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Botany</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Business,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Business</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Chemistry,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Chemistry</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Communications,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Communications</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Composition,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Composition</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Computer+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Computer Science</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Criminology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Criminology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Dance,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Dance</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Drama,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Drama</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Earth+Sciences,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Earth Sciences</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Economics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Economics</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Environmental,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Environmental</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Education,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Education</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Engineering,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Engineering</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,English,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">English</a>
+          </li>
+  
+  
+  
+  
+        </ul>
+        <ul class="col-md-5">
+  
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Film,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Film</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Forestry,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Forestry</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Government,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Government</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Health,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Health</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,History,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">History</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Journalism,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Journalism</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Library+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Library Science</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Literature,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Literature</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Law,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Law</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Mathematics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Mathematics</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Medicine,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Medicine</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Music,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Music</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Philosophy,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Philosophy</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Physics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Physics</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Political+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Political Science</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Psychology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Psychology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Reference,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Reference</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Religion,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Religion</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Science</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Social+Science,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Social Science</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Sociology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Sociology</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Statistics,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Statistics</a>
+          </li>
+          <li>
+            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Technology,AND&query=lsr06,contains,DVD,AND&tab=default_tab&search_scope=ui_alma&vid=UID&mode=advanced&offset=0">Technology</a>
+          </li>
+        </ul>
+  
+      </div>
+    </div>
+    <div class="col-md-12">
+  
+  
+      <div  class="card" >
+        <div class="card-heading">
+          <h3 class="card-title text-center">DVD Databases</h3>
+  
+        </div>
+        <div class="card-body ">
+          <p class="text-center">This database is no longer updated, but to search a large list of our DVDs, prior to 2017, you can use our DVD Database</p>
+  
+          <div class="text-center">
+            <button class="btn btn-clearwater" type="button" role="button"><a href="dvds-table.html">DVD Database </a></button>
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>
+  </div>
             
 											
 											

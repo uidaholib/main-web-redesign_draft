@@ -1,187 +1,64 @@
+--- 
+title: Books & eBooks 
+section: find 
+permalink: /find/books.html 
+layout: page 
 ---
-title: Books & eBooks
-section: find
-permalink: /find/books.html
+<div class="row">{% include js/primosearch.js%}
+  <div class="col-md-9">
+    <h3>Search the catalog for books ...</h3>
+    <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
+      class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
+      <label style="margin-right:5px"> Search </label>
+      <select id="primoFieldTemp" class="EXLSelectTag fixed">
+        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
+          All Fields</option>
+        <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
+          in the title</option>
+        <option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
+          authors</option>
+        <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
+          in subject</option>
 
-layout: page
----
+      </select>
+      <label> for Print Books containing: </label>
 
-  
-  
-   
-       
-
-      
- 
-      <div class="container pagecontent" id="scrollnav">
-	 
-
-	
-	
-	 <div class="row">
-<div class="col-md-9">		 
-	   
-	  	  <h1>Books &amp; eBooks</h1>
-                <h3>Search the catalog for books ...</h3>
-         
-  <div class="searchform2 row" style="background:none; ">
-	  
-	
-
-   
-  
- 
-
-
-
-<!-- taglibsIncludeAll.jspf begin -->
-<!-- taglibsIncludeAll.jspf end --><!-- searchTileBasic.jsp begin -->
-
-
-
-<!-- search_hidden.jspf begin -->
-<!-- taglibsIncludeAll.jspf begin -->
-<!-- taglibsIncludeAll.jspf end --><!--
-		institution = UID - University of Idaho
-		institution code = UID
-	 -->
-	
-  
-  <div class="col-md-10 col-sm-9">
-  <form  name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8"  id="searchForm" onsubmit="searchPrimo()"    style="margin: 0 1%;z-index: 1;">
-
-    
-<label style="margin-right:5px"> Search  </label><select id="primoFieldTemp" class="EXLSelectTag fixed">
-<option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
-All Fields</option>
-<option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
-in the title</option>
-<option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
-authors</option>
-<option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
-in subject</option>
-
-</select>
-<label> for Print Books containing: </label>
-
-<input type="hidden" name="pfilter" value="pfilter,exact,pbooks,AND">
-<input type="hidden" name="tab" value="everything">
-<input type="hidden" name="search_scope" value="everything">
-<input type="hidden" name="vid" value="UID">
-<input type="hidden" name="mode" value="advanced">
-<input type="hidden" name="offset" value="0">
-<input id="primoQuery" type="hidden" name="query">
-<input id="primoQueryTemp" 
-onkeypress="return searchPrimoEvent(event)" 
-type="text" name="queryTemp"  value="" class="textbox form-control search_field_dash" placeholder="Search the catalog ..."  >
-
-     
-    <input id="goButton_dash"  class="btn btn-success form-control btn-lg pull-left submit" title="Search" type="submit" value="Go" alt="Search">
+      <input type="hidden" name="pfilter" value="pfilter,exact,pbooks,AND">
+      <input type="hidden" name="tab" value="everything">
+      <input type="hidden" name="search_scope" value="everything">
+      <input type="hidden" name="vid" value="UID">
+      <input type="hidden" name="mode" value="advanced">
+      <input type="hidden" name="offset" value="0">
+      <input id="primoQuery" type="hidden" name="query">
+      <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 "
+      placeholder="Search for books ...">
+  <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
     </form>
+    <a class="text-right" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced"
+      style="margin:2% 10% 0%">
+      Advanced Search</a>
+      <p class="mt-2">To find where a book is located in the library,
+          <a href="/about/maps.html">consult the floor maps of our library</a>.</p>
+    <p>
+      <small>Note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday
+        to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing
+        <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</small>
+    </p>
+    <hr />
+    <p>For more information on our
+      <b>eBook</b> collections and how to use them: </p>
+    <div class="text-center">
+      <button class="btn btn-clearwater" type="button">
+        <a href="http://libguides.uidaho.edu/eBooks">Visit our eBook Guide</a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <img class="img-fluid" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library"
+    />
 
+
+    <p>Books in the University of Idaho Library are organized by
+      <a href="/find/lc.html">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
+      <a href="http://libguides.uidaho.edu/content.php?pid=433863&sid=3559564">click here</a>.</p>
+    </div>
 </div>
-
-       <div class="col-md-2 col-sm-2 hidden-xs" >
- <a id="popover2" class="pull-left " data-container="body" data-toggle="popover" data-placement="top" data-content="This search box searches the University of Idaho Library's holdings for books only.  " style="color:#962676;cursor:pointer;font-size:12px;margin-top:-4px;" data-original-title="" title="">
-  <span class="fas fa-info-sign"></span>
-</a>
-
-       
-  </div>                                           
- 
-<!--
- 
- 
- 
-
-<div class="col-md-10 col-sm-9">
-<h3>and eBooks</h3>
-<form  name="searchForm" method="get" target="_self" action="http://search.lib.uidaho.edu/primo_library/libweb/action/dlSearch.do" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8"  id="searchForm" onsubmit="searchPrimoe()"    style="margin: 0 1%;z-index: 1;">
-    <input type="hidden" name="institution" value="UID">
-<input type="hidden" name="vid" value="UID">
-<input type="hidden" name="search_scope" value="everything">
-<input type="hidden" name="tab" value="everything">
-<input type="hidden" id="indx" name="indx" value="1"/>
-<input type="hidden" name="fctV" value="ebooks"/>
-<input type="hidden"  name="fctN" value="facet_rtype"/>
-<input type="hidden"  name="ct" value="facet"/>
-
-<input type="hidden" name="highlight" value="true">
-<input type="hidden" name="displayField" value="all">
-
-<label style="margin-right:5px"> Search  </label><select id="primoFieldTemp" class="EXLSelectTag fixed">
-<option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
-All Fields</option>
-<option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
-in the title</option>
-<option class="EXLSelectOption" id="scope_titleall1" value="creator" style="display:block">
-author/creator</option>
-
-
-<option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
-in subject</option>
-
-</select>
-<label> for eBooks containing: </label>
-<input id="primoQuery" type="hidden" name="query">
-<input id="primoQueryTemp" 
-onkeypress="return searchPrimoEvente(event)" 
-type="text" name="queryTemp"  value="" class="textbox form-control search_field_dash" placeholder="Search the catalog ..."  >
-
-   
-    <input id="goButton_dash"  class="btn btn-success form-control btn-lg pull-left submit" title="Search" type="submit" value="Go" alt="Search">
-    </form>
-</div>
-
-       <div class="col-md-2 col-sm-2 hidden-xs" >
- <a id="popover3" class="pull-left " data-container="body" data-toggle="popover" data-placement="top" data-content="This search box searches the University of Idaho Library's holdings for eBooks only.  " style="color:#962676;cursor:pointer;font-size:12px;margin-top:24px;" data-original-title="" title="">
-  <span class="fas fa-info-sign"></span>
-</a>
-
-       
-  </div>  -->
-  
- 
-<a class="pull-right" href="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?mode=Advanced&amp;ct=AdvancedSearch&amp;dscnt=0&amp;dstmp=1370972471585&amp;vid=UID&scp.scps=scope%3A%28NZ%29%2Cscope%3A%28UID%29" style="margin:2% 10% 0%">
-         Advanced Search</a>							
-</div>
-<p>Note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing <A href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</p>
-<hr />
-<p>For more information on our <b>eBook</b> collections and how to use them: </p>
-<div class="center">
-		 <a class="btn btn-default berry center " type="button" href="http://libguides.uidaho.edu/eBooks">Visit our eBook Guide</a></div>
- 
- 
-
-
-									<h3>Browse some of our popular eBooks</h3>
-         <div class="ltfl_bookdisplay_widget" id="ltfl_widget_ult_3170763949"></div>
-			 
-
-
-<h2><a href="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?fn=showBrowse&mode=BrowseSearch&">Browse the Catalog</a></h2>
-<p>Have a title in mind and you'd like to see what else has a similar title? Or better, do you have a call number for a book and you'd like to see what we own around it? Try the catalog's <a href="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?fn=showBrowse&mode=BrowseSearch&">Browse Seach Feature</a> to find related books and other materials. </p>
-
-
-                                           
-
-                 
-													</div><div class="col-md-3">
-														 <img class="hidden-sm hidden-xs" src="/images/girlreading.png" title="Girl reading at University of Idaho Library" /> 
-													 
-													 
-													<p>Books in the University of Idaho Library are organized by <a href="/find/lc.html">Library of Congress Call Numbers</a>. For a primer on how to use these numbers, <a href="http://libguides.uidaho.edu/content.php?pid=433863&sid=3559564">click here</a>.</p>
-													<p>To find where a book is located in the library, <a href="/about/maps.html">consult the floor maps of our library</a>.</p>
-													
-													</div>
-													</div>
-													  
-		
-		  
-                </div>
-                </div>
-            
-											
-											
-											
-											
