@@ -1,8 +1,33 @@
 ---
 layout: default
 ---
-<div class="py-3">
-<div class="container py-3 rounded">
-        {{ content }}
+
+<div class="container-fluid pt-2 pb-1" id="page-title">
+    <div class="container">
+        <h2>{{ page.title }}</h2>
+    </div>
+</div>
+<div class="split-background">
+<div class="page-wrapper container">
+
+    <!-- page nav / sidebar -->
+    {% include page-nav.html %}
+
+    <!-- page -->
+    <div class="page-block">
+
+        <!-- page nav button -->
+        <button class="btn btn-sm btn-secondary d-lg-none" id="sidebarButton" type="button">
+            <span class="fas fa-align-left"></span> Menu
+        </button>
+        <!-- bread crumbs -->
+        {% include breadcrumbs-page.html %}
+
+        <!-- page content -->
+        <main role="main" class="py-2 pl-md-3">
+            {{ content }}
+        </main>
+
+    </div>
 </div>
 </div>

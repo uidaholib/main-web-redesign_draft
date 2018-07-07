@@ -11,7 +11,8 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $text-color:       #111;
-$background-texture: url(https://www.lib.uidaho.edu/digital/grey_wash_wall.png) repeat scroll;
+$light-text-color: #fdfdfd;
+
 $background-color: #fdfdfd;
 $nav-background: #e8e8e8; //#CBCCD0;
 $link-color:      #191919;
@@ -56,8 +57,7 @@ $on-laptop:        800px;
     }
 }
 
-@import "custom";
-@import "buttons";
+@import "custom", "page", "buttons";
 
 //@import "base";
 //@import "layout";

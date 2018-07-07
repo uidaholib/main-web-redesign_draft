@@ -1,0 +1,28 @@
+---
+title: Book a Room
+section: services
+layout: page
+permalink: /services/rooms.html 
+---
+{% assign rooms = site.data.rooms %}
+<h2>Book a Room</h2>
+<div class="row">
+    {% for r in rooms %}
+    <div class="col-md-6 mb-2">
+        <div class="card">
+            <div class="card-header">
+                {{ r.type }}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ r.room }}</h5>
+                <p class="card-text">{{ r.description }}</p>
+                <a href="{{ r.link }}" class="btn btn-primary">Book</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h2>About the rooms</h2>
+
+<a href="https://libcal.uidaho.edu/">Policies</a>

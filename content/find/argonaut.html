@@ -1,0 +1,125 @@
+---
+title: Argonaut Index
+section: find
+permalink: /find/argonaut.html
+layout: page
+---
+
+  
+  
+   
+                            
+
+      
+ 
+      <div class="container pagecontent" id="scrollnav">
+	   
+
+		  
+
+
+<?php
+
+function search_display ($search1,$error) {
+  print "<center>\n" ;
+  switch ($error) {
+    case 1 :
+      print " <table width=\"500\">\n" ;
+      print "<tr><td><center>No records were found please search again</center></td></tr>\n" ;
+      print "</table>\n" ;
+    break ;
+    case 2 :
+      print " <table width=\"500\">\n" ;
+      print "<tr><td><center>Date is not in proper format of MM/DD/YYYY</center></td></tr>\n" ;
+      print "</table>\n" ;
+    break ;
+    default:
+    break ;
+  }
+  $info = '' ;
+  print " <FORM method=\"POST\" action=\"argonaut.html\">\n" ;
+  print " <table width=\"500\" border=\"0\" align=\"center\" cellspacing=\"3\" cellpadding=\"3\">\n" ;
+  print " <tr>\n" ;
+  print "  <td colspan=\"2\" class=\"a3\" height=\"35\"><center><h3>Index to the University of Idaho Argonaut</h3>1898-Nov. 8, 1968; 1981- Dec. 4,1993</center></td>\n" ;
+  print " </tr>\n" ;
+  print " <tr>\n" ;
+  print " <td colspan=\"2\">Only articles about the University of Idaho and its faculty, staff and students are included; International, national, state and local news items are omitted. " ;
+  print "  Bound paper copies may be used in Special Collections. Full " ;
+  print "microfilm back file is located on the second floor.  Search by one keyword at a time.  " ;
+  print "Full text for issues, Fall 2000- may be found at: <a href=\"http://www.uiargonaut.com/\">http://www.uiargonaut.com/</a></td>\n" ;
+  print " </tr>\n" ;
+  print " <tr>\n" ;
+  print "  <td colspan=\"2\" height=\"35\">Search for: <input type=\"text\" maxlength=\"100\" name=\"search1\" size=\"30\" value=\"$search1\"></td>\n" ;
+  print " </tr>\n" ;
+  print " <tr>\n" ;
+  print "  <td width=\"250\"><center><input type=\"submit\" value=\"Search\"></center></td>\n" ;
+  print "  <td width=\"250\"><center><input type=\"reset\" value=\"Reset Form\"></center></td>\n" ;
+  print " </tr>\n" ;
+  print "</table>\n" ;
+  print "</form>\n" ;
+  print "</center\n" ;
+}
+	$months = array (1 => 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec') ;
+	$db = new PDO('mysql:host=localhost;dbname=argonaut;charset=utf8','dbuser','data98');
+	$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+	$db->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+	
+  $search_string  = trim($_REQUEST['search1']) ;
+  if ($search_string == '') {
+    search_display($search_string, $error) ;
+  } else {
+  try {
+		$results = $db->prepare("SELECT * from argindex WHERE (Sub LIKE ? or Description LIKE ?) order by IssueDate") ;
+		$results->bindValue(1,'%' . $search_string . '%',PDO::PARAM_STR) ;
+		$results->bindValue(2,'%' . $search_string . '%',PDO::PARAM_STR) ;
+		$results->execute() ;
+	} catch (PDOException $e) {
+		echo "Error accessing database" ;
+	}
+    $rows    = $results->rowcount() ;
+	$result  = $results->fetchAll(PDO::FETCH_ASSOC);
+    $count  = 0 ;
+	
+    if ($rows > 0) {
+	  print "<table border=\"0\" height=\"650\">\n<tr valign=\"top\">\n<td>" ;
+      print " \n" ;
+      print " <tr>\n" ;
+      print "  <td colspan=\"5\" height=\"35\"><center><h3>Argonaut Index</h3> $rows records found - sorted by issue date</center></td>" ;
+      print " </tr>\n" ;
+      print " <tr>\n" ;
+      print "  <td><b>Subject</b></td><td><b>Description</b></td><td><b>Page #</b></td><td><b>Column #</b></td><td><b>Issue Date<b></td>\n" ;
+      print " </tr>\n" ;
+      while ($count < $rows) {
+        $subject  = $result[$count]['Sub'] ;
+        $descript = $result[$count]['Description'] ;
+        if ($descript == '') {
+          $descript = "&nbsp;" ;
+        }
+        $page     = $result[$count]['Page'] ;
+        $column   = $result[$count]['Col'] ;
+        $date     = $result[$count]['IssueDate'] ;
+        $tempa    = explode (" ", $date) ;
+        $datea    = explode ("-", $tempa[0]) ;
+        if (($datea[1] <> '10') and ($datea[1] <> '11') and ($datea[1] <> '12')) {
+          $month = substr($datea[1], 1, 1) ;
+        } else {
+          $month = $datea[1] ;
+        }
+        $mon      = $months[$month] ;
+        $year     = $datea[0] ;
+        $day      = $datea[2] ;
+        print "<tr>\n<td>$subject</td><td>$descript</td><td>$page</td><td>$column</td><td>$mon $day, $year</td>\n</tr>" ;
+        $count++ ;
+      }
+	  print "\n</table>\n" ;
+    } else {
+      $error = 1 ;
+      search_display($search_string, $error) ;
+    }
+  }
+?>
+</div>
+	
+                </div>
+</div>
+	

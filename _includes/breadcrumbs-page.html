@@ -1,0 +1,9 @@
+<ul class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="{{ '/' | absolute_url }}"><span class="fas fa-home"></span></a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="{{ '/' | append: page.section | append: '/' | absolute_url }}">{{ page.section | capitalize }}</a>
+    </li>    
+    <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
+</ul>

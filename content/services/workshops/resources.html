@@ -1,0 +1,43 @@
+---
+title: Resources
+section: services
+permalink: /services/workshops/resources.html
+table-id: "#resources"
+layout: page
+---
+{% assign resources = site.data.workshops-resources %}
+
+<h1>Workshop Resources</h1>
+
+<p>Slides and additional materials from past workshops and events are shared on this page.</p>
+
+<table id="resources" class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Materials</th>    
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Materials</th>
+        </tr>
+    </tfoot>
+    {% for r in resources %}
+    <tr>
+        <td>{{ r.title }}</td>
+        <td>{{ r.date }}</td>
+        <td>{{ r.description }}<br>
+            Presenter: {{ r.instructor }}</td>
+        <td>{{ r.materials }}</td>
+    </tr>
+    {% endfor %}
+
+</table>													
+			

@@ -1,0 +1,39 @@
+#page-title {
+    background: $black-color;
+    color: $light-text-color;
+}
+.page-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    .breadcrumb {
+        background: $background-color;
+    }
+}
+#sidebar {
+    background: $nav-background;
+}
+#page-nav {
+    width: 250px;
+    font-size:18px;
+    a{
+    font-weight: 300 !important;
+}
+li{border-color: #d5d5d5 !important;}
+}
+
+.dropdown-toggle::after {
+    margin-left: 15px;}
+
+.page-block { 
+    background: $background-color;
+}
+.split-background {
+    background: linear-gradient(
+        to right, 
+        $nav-background 0%,
+        $nav-background 50%,
+        $background-color 50%,
+        $background-color 100%
+    );
+}

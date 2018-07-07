@@ -1,9 +1,38 @@
 ---
 title: Staff Directory
 layout: page
+section: about
+permalink: /about/directory.html
+table-id: "#directory"
 ---
-
+{% assign people = site.data.people-table %}
 <h1>Staff Directory</h1>
 <p>Search and sort the table below to find library staff members. For information about faculty librarians, 
-<a href="librarians.html">click here</a>.</p>										
-											
+<a href="librarians.html">click here</a>.</p>
+
+<table id="directory" class="table table-striped">
+    <thead>
+       <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Department</th>
+          <th>Contact Info</th>
+       </tr>
+    </thead>
+    <tfoot>
+       <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Department</th>
+          <th>Contact Info</th>
+       </tr>
+    </tfoot>
+    {% for p in people %}
+    <tr>
+       <td class="name">{{ p.name }}</td>
+       <td class="title center">{{ p.rank }}<br>{{ p.title }}</td>
+       <td class="department center">{{ p.department }}</td>
+       <td class="contact"><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
+    </tr>
+    {% endfor %}
+</table>				

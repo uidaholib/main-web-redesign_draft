@@ -1,75 +1,40 @@
-name,title,department,email,phone
-"Attebury, Ramirose","Associate Professor
- Head, Technical Services / Gov Docs Librarian",Technical Services / Government Documents,rattebur@uidaho.edu,208-885-2503
-"Baird, Lynn","Dean, University of Idaho Libraries",Administrative Services,lbaird@uidaho.edu,208-885-6534
-"Becker, Devin","Associate Professor
- Head, Data and Digital Services",Data and Digital Services,dbecker@uidaho.edu,208-885-7040
-"Hendrix, Beth","Assistant Professor
- Reference Librarian",User and Research Services,bhendrix@uidaho.edu,208-885-6066
-"Crawford-Evans, Jean",Library Assistant,User and Research Services,bjcraw@uidaho.edu,208-885-6559
-"Dahmen, Theresa","Library Coordinator
- Circulation Manager",User and Research Services,tdahmen@uidaho.edu,208-885-7299
-"Davis, Suzie","Library Technician
- Curriculum Center",User and Research Services,sldavis@uidaho.edu,208-885-0993
-"Denyou, Tad","Library Assistant
- Mail, Marking, and Mending",User and Research Services,denyou@uidaho.edu,208-885-6844
-"Dobbins, Kevin","Library Technician
- Digital Initiatives",Data and Digital Services,kdobbins@uidaho.edu,208-885-9444
-"Doney, Jylisa","Assistant Professor
- Reference Librarian",User and Research Services,jylisadoney@uidaho.edu,208-885-0959
-"Godfrey, Bruce","Assistant Professor
- GIS Librarian",Data and Digital Services,bgodfrey@uidaho.edu,208-292-1407
-"Green, Sammantha",Assistant to the Dean,Administrative Services,samm@uidaho.edu,208-885-0708
-"Haire, Jodi","Library Coordinator
- E-Resources and Serials Coordinator",Technical Services,haire@uidaho.edu,208-885-2531
-"Henrich, Kristin","Associate Professor
- Head, User and Research Services",User and Research Services,khenrich@uidaho.edu,208-885-6514
-"Hunter, Ben","Associate Professor
- Associate Dean of Library Services",Administrative Services,bhunter@uidaho.edu,208-885-5858
-"Johnson, Clinton","Library Technician
- E-Resources and Serials",Technical Services,clintonj@uidaho.edu,208-885-2512
-"Kenyon, Jeremy","Associate
- Research Librarian",Data and Digital Services,jkenyon@uidaho.edu,208-885-7955
-"Kerr, Bill","IT Analyst, Network Specialist",Administrative Services,billk@uidaho.edu,208-885-2530
-"MacNaughton, James","Library Technician
- Reserves Coordinator / Evening Supervisor",Technical Services,macnaughton@uidaho.edu,208-885-6495
-"Marshall, Linnea","Associate Professor
- Catalog Librarian",Technical Services,linneam@uidaho.edu,208-885-2515
-"Martinez, Jessica","Assistant Professor
- Reference Librarian",User and Research Services,jessicamartinez@uidaho.edu,208-885-6248
-"Mayer, Carol","Library Technician
- E-Resources and Serials",Technical Services,cmayer@uidaho.edu,208-885-2512
-"Murta-Bell, Marian","Library Assistant
- Circulation",User and Research Services,murtaugh@uidaho.edu,208-885-1538
-"Mylan, Jennifer",Financial Specialist,Administrative Services,jmylan@uidaho.edu,208-885-5732
-"Nolan, Delaney","Library Technician
- E-Resources and Serials",Technical Services,dnolan@uidaho.edu,208-885-2512
-"Pace, Courtney","Library Technician
-MILL Manager",User and Research Services,cpace@uidaho.edu,208-885-0992
-"Perret, Robert","Associate Professor
- Reference Librarian",User and Research Services,rperret@uidaho.edu,208-885-6631
-"Prorak, Diane","Associate Professor
- Reference Librarian",User and Research Services,prorak@uidaho.edu,208-885-2508
-"Riedner, Darcie","Library Technician
- Archival Assistant",Special Collections and Archives,driedner@uidaho.edu,208-885-0845
-"Slack, Jeff",Library Technician,Technical Services,jslack@uidaho.edu,208-885-6320
-"Smith, Justin","Library Specialist
- Interlibrary Loans Supervisor",User and Research Services,justinsmith@uidaho.edu,208-885-0706
-"Smith, Rochelle","Associate Professor
- Reference Librarian",User and Research Services,rsmith@uidaho.edu,208-885-7850
-"Southworth, Pamela",Library Technician,Technical Services,pams@uidaho.edu,208-885-6320
-"Stoddart, Erin","Associate Professor
- Head, Special Collections and Archives",Special Collections and Archives,estoddart@uidaho.edu,208-885-5813
-"Stoddart, Rick","Associate Professor
- Open Education Librarian",Data and Digital Services,rstoddart@uidaho.edu,208-885-2504
-"Tomchak, Jordan","Library Technician
- Interlibrary Loans Assistant",User and Research Services,jtomchak@uidaho.edu,208-885-6843
-"Thompson, Amy",Library Specialist,Special Collections and Archives,amyjo@uidaho.edu,208-885-0845
-"VanGundy, Sarah","Senior Instructor
- Reference Librarian",User and Research Services,svangundy@uidaho.edu,208-885-7814
-"Velte, Ashlyn","Assistant Professor
- Archivist",Special Collections and Archives,avelte@uidaho.edu,208-885-1545
-"Williamson, Evan","Assistant Professor
- Digital Infrastructure Librarian",Data and Digital Services,ewilliamson@uidaho.edu,208-885-6260
-"Wilson, Thomas","Library Technician
-Overnight Desk Supervisor",User and Research Services,tlwilson@uidaho.edu,208-885-0991
+name,rank,title,department,email,phone,vivo,headshot
+"Attebury, Ramirose",Associate Professor,"Head, Technical Services / Gov Docs Librarian",Technical Services / Government Documents,rattebur@uidaho.edu,208-885-2503,n30988,rami.jpg
+"Becker, Devin",Associate Professor,"Head, Data and Digital Services",Data and Digital Services,dbecker@uidaho.edu,208-885-7040,n8136,devin.jpg
+"Hendrix, Beth",Assistant Professor,Reference Librarian,User and Research Services,bhendrix@uidaho.edu,208-885-6066,n8856066,beth.jpg
+"Crawford-Evans, Jean",,Library Assistant,User and Research Services,bjcraw@uidaho.edu,208-885-6559,,
+"Dahmen, Theresa",Library Coordinator,Circulation Manager,User and Research Services,tdahmen@uidaho.edu,208-885-7299,,
+"Davis, Suzie",Library Technician,Curriculum Center,User and Research Services,sldavis@uidaho.edu,208-885-0993,,
+"Denyou, Tad",Library Assistant,"Mail, Marking, and Mending",User and Research Services,denyou@uidaho.edu,208-885-6844,,
+"Dobbins, Kevin",Library Technician,Digital Initiatives,Data and Digital Services,kdobbins@uidaho.edu,208-885-9444,,
+"Doney, Jylisa",Assistant Professor,Reference Librarian,User and Research Services,jylisadoney@uidaho.edu,208-885-0959,n104190,jylisa.jpg
+"Godfrey, Bruce",Assistant Professor,GIS Librarian,Data and Digital Services,bgodfrey@uidaho.edu,208-292-1407,n1633553470,bruce.jpg
+"Green, Sammantha",,Assistant to the Dean,Administrative Services,samm@uidaho.edu,208-885-0708,,
+"Haire, Jodi",Library Coordinator,E-Resources and Serials Coordinator,Technical Services,haire@uidaho.edu,208-885-2531,,
+"Henrich, Kristin",Associate Professor,"Head, User and Research Services",User and Research Services,khenrich@uidaho.edu,208-885-6514,n1959864580,kristin2017.jpg
+"Hunter, Ben",Associate Professor,"Interim Dean, University of Idaho Libraries",Administrative Services,bhunter@uidaho.edu,208-885-5858,n2610,ben.jpg
+"Johnson, Clinton",Library Technician,E-Resources and Serials,Technical Services,clintonj@uidaho.edu,208-885-2512,,
+"Kenyon, Jeremy",Associate Professor,Research Librarian,Data and Digital Services,jkenyon@uidaho.edu,208-885-7955,n7650,jeremy2017.jpg
+"Kerr, Bill",IT Analyst,Network Specialist,Administrative Services,billk@uidaho.edu,208-885-2530,,
+"MacNaughton, James",Library Technician,Reserves Coordinator / Evening Supervisor,Technical Services,macnaughton@uidaho.edu,208-885-6495,,
+"Marshall, Linnea",Associate Professor,Catalog Librarian,Technical Services,linneam@uidaho.edu,208-885-2515,n8852515,linnea2017.jpg
+"Martinez, Jessica",Assistant Professor,Reference Librarian,User and Research Services,jessicamartinez@uidaho.edu,208-885-6248,n126420,jessica.jpg
+"Mayer, Carol",Library Technician,E-Resources and Serials,Technical Services,cmayer@uidaho.edu,208-885-2512,,
+"Murta-Bell, Marian",Library Assistant,Circulation,User and Research Services,murtaugh@uidaho.edu,208-885-1538,,
+"Mylan, Jennifer",,Financial Specialist,Administrative Services,jmylan@uidaho.edu,208-885-5732,,
+"Nolan, Delaney",Library Technician,E-Resources and Serials,Technical Services,dnolan@uidaho.edu,208-885-2512,,
+"Pace, Courtney",Library Technician,MILL Manager,User and Research Services,cpace@uidaho.edu,208-885-0992,,
+"Perret, Robert",Associate Professor,Reference Librarian,User and Research Services,rperret@uidaho.edu,208-885-6631,n1044275906,robert2017.jpg
+"Prorak, Diane",Associate Professor,Reference Librarian,User and Research Services,prorak@uidaho.edu,208-885-2508,n8852508,diane2017.jpg
+"Riedner, Darcie",Library Technician,Archival Assistant,Special Collections and Archives,driedner@uidaho.edu,208-885-0845,,
+"Slack, Jeff",,Library Technician,Technical Services,jslack@uidaho.edu,208-885-6320,,
+"Smith, Justin",Library Specialist,Interlibrary Loans Supervisor,User and Research Services,justinsmith@uidaho.edu,208-885-0706,,
+"Smith, Rochelle",Associate Professor,Reference Librarian,User and Research Services,rsmith@uidaho.edu,208-885-7850,n8857850,rochelle2017.jpg
+"Southworth, Pamela",,Library Technician,Technical Services,pams@uidaho.edu,208-885-6320,,
+"Stoddart, Erin",Associate Professor,"Head, Special Collections and Archives",Special Collections and Archives,estoddart@uidaho.edu,208-885-5813,n44352,erin.jpg
+"Tomchak, Jordan",Library Technician,Interlibrary Loans Assistant,User and Research Services,jtomchak@uidaho.edu,208-885-6843,,
+"Thompson, Amy",,Library Specialist,Special Collections and Archives,amyjo@uidaho.edu,208-885-0845,,
+"VanGundy, Sarah",Senior Instructor,Reference Librarian,User and Research Services,svangundy@uidaho.edu,208-885-7814,n8857814,sarah.jpg
+"Velte, Ashlyn",Assistant Professor,Archivist,Special Collections and Archives,avelte@uidaho.edu,208-885-1545,n116432,ashlyn.jpg
+"Wikle, Olivia",Assistant Professor,Digital Initiatives Librarian,Data and Digital Services,omwikle@uidaho.edu,208-885-9086,n263285,olivia.jpg
+"Williamson, Evan",Assistant Professor,Digital Infrastructure Librarian,Data and Digital Services,ewilliamson@uidaho.edu,208-885-6260,n43629,evan.jpg

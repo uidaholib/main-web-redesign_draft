@@ -1,0 +1,26 @@
+---
+title: Collections
+layout: default
+permalink: /collections/ 
+--- 
+{% assign collections = site.data.collections-index %}
+<div class="container">
+
+    <h2>Collections</h2>
+
+    <div class="row">
+        {% for c in collections %}
+        <div class="col-md-4 mb-2">
+            <div class="card">
+                <img class="card-img-top" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{ c.collection }}</h5>
+                    <p class="card-text">{{ c.description }}</p>
+                    <a href="{{ c.link | absolute_url }}" class="btn btn-primary">View Collection</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
