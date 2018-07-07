@@ -17,6 +17,19 @@ a {
     }
 }
 
+
+.container {
+    @media (min-width: 576px){
+    max-width: 100%;
+    padding:inherit 10px;
+    }
+    @media (min-width: 768px){
+        max-width: 95%;
+        }
+}
+
+
+
 /* top bar */
 #ui-home {
     color: $grey-color;
@@ -115,3 +128,11 @@ footer, footer a {
     font-weight: 300;
     background-color: $black-color;
 }
+
+.timeline-Header-subtitle{display:none;}
+
+.indexbutton{font-weight: 300 !important;
+    &:hover{text-decoration: none !important;}
+ .card{
+    &:hover{background:$grey-color-light;}
+ }}
