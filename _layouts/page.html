@@ -8,29 +8,35 @@ layout: default
     </div>
 </div>
 <div class="split-background">
-<div class="container">
-<div class="row">
-    <div class="col-md-3 col-xs-12 px-sm-0">
-    <!-- page nav / sidebar -->
-    {% include page-nav.html %}
-      <!-- page nav button -->
-      <button class="btn btn-secondary d-md-none col-sm-12 px-sm-0" id="sidebarButton" type="button">
-            <span class="fas fa-align-left"></span> Menu
-        </button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6 px-0">
+                <!-- page nav button -->
+                <button class="btn btn-secondary d-md-none col-sm-12 px-0 rounded-0" id="sidebarButton" type="button">
+                        MENU
+                </button>
+                <!-- page nav / sidebar -->
+                {% include page-nav.html %}
+            </div>
+            <div class="col-md-3 col-6 px-0 d-md-none d-block">
+                    <!-- ask us button -->
+                    <button class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#ask">
+                            Ask Us                    </button>
+                    <!-- ask us modal -->
+                </div>
+            <!-- page -->
+            <div class="page-block col-md-9 col-xs-12">
+
+
+                <main role="main" class="py-2 pl-md-5">
+                    <!-- bread crumbs -->
+                    {% include breadcrumbs-page.html %}
+
+                    <!-- page content -->
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                </main>
+
+            </div>
+        </div>
     </div>
-    <!-- page -->
-    <div class="page-block col-md-9 col-xs-12">
-
-      
-        <main role="main" class="py-2 pl-md-5">
-        <!-- bread crumbs -->
-        {% include breadcrumbs-page.html %}
-
-        <!-- page content -->
-        <h1>{{ page.title }}</h1>
-            {{ content }}
-        </main>
-
-    </div>
-</div>
-</div>
