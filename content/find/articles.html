@@ -7,6 +7,24 @@ layout: page
 <div class="container">{% include js/primosearch.js%}
     <div class="row">
         <div class="col-md-12">
+            <p>Our databases help you find the articles and other research materials you need. Here are some popular databases
+                to get you started:</p>
+            <p class="text-center">
+                <button type="button" class="btn btn-outline-pride-gold">
+                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh"
+                        id="featured3" style=";margin-left:0px;" target="_blank">Academic Search Premier</a>
+                </button>
+                <button type="button" class="btn btn-outline-pride-gold">
+                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/" id="featured1" target="_blank">JSTOR</a>
+                </button>
+                <button type="button" class="btn btn-outline-pride-gold">
+                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.sciencedirect.com" id="featured2" target="_blank">Science Direct</a>
+                </button>
+                <button type="button" class="btn btn-outline-pride-gold">
+                    <a href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS" id="featured4" target="_blank">Web of Science</a>
+                </button>
+            </p>
+            <p>We have over 200 databases to choose from. Many are discipline specific. Browse them all or select by title or subject below:</p>
             <div class="text-center">
                 <div class="row">
                     <div class="col-md-7 mx-auto ">
@@ -24,30 +42,11 @@ layout: page
                         </form>
                     </div>
                 </div>
-            </div>
-
-            <p>Our databases help you find the articles and other research materials you need. Here are some popular databases
-                to get you started:</p>
-            <p class="text-center">
-                <button type="button" class="btn btn-secondary">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh"
-                        id="featured3" style=";margin-left:0px;" target="_blank">Academic Search Premier</a>
-                </button>
-                <button type="button" class="btn btn-secondary">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/" id="featured1" target="_blank">JSTOR</a>
-                </button>
-                <button type="button" class="btn btn-secondary">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.sciencedirect.com" id="featured2" target="_blank">Science Direct</a>
-                </button>
-                <button type="button" class="btn btn-secondary">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS" id="featured4" target="_blank">Web of Science</a>
-                </button>
-            </p>
-            <p>Search for Articles in the Catalog</p>
+            </div>  <hr />
             <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
                 class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()"
                 style="margin: 0 1%;z-index: 1;">
-                <label style="margin-right:5px"> Search </label>
+                <label style="margin-right:5px"> You can also SEARCH </label>
                 <select id="primoFieldTemp" class="EXLSelectTag fixed">
                     <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
                         All Fields</option>
@@ -59,7 +58,7 @@ layout: page
                     <option class="EXLSelectOption" id="scope_lsr06all1" value="issn" style="display:block">
                         ISSN</option>
                 </select>
-                <label> for Articles containing: </label>
+                <label> in our catalog for Articles containing: </label>
 
 
                 <input type="hidden" name="pfilter" value="pfilter,exact,articles,AND">
@@ -74,6 +73,7 @@ layout: page
                 <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
             </form>
             <hr />
+           
                     <h4>Databases by Subject:</h4>
                     <div class="row indent">
                         <ul class="col-md-4 col-sm-12">
@@ -204,21 +204,21 @@ layout: page
                     <hr class="text-center">
 
                     <h2 id="tools">Database Access Tools</h2>
-                    <div id="offcampus_tools" style="margin-left: 10px;padding-top:10px;">
+                    <div id="offcampus_tools" class="ml-1 pt-1">
                         <h4>UI LIB Log-in Bookmarklet</h4>
                         <p>The log-in bookmarklet allows you to log in through the library from wherever you are on the internet
                             without leaving that page. So, say you find an article via Google that asks for you to sign in
                             to access it, just click on the bookmarklet link in your bookmarks bar and this tool will automatically
                             log you in and grant you access, if the library subscribes to the journal or database in which
                             it's held. </p>
-                        <p style="margin-left: 15px;">
+                        <p class="ml-2">
                             <strong>Installation for web browsers (not mobile)</strong>
                         </p>
-                        <ol style="margin-left: 15px;">
+                        <ol class="ml-2">
                             <li>Add the following link to your bookmarks:
                                 <a href="javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)" class="btn btn-sm stone center">UI LIB Log-in</a>
 
-                                <table style="margin-left: 15px;">
+                                <table class="ml-2">
                                     <tbody>
                                         <tr>
                                             <td>
@@ -245,13 +245,13 @@ layout: page
                                 article!
                             </li>
                         </ol>
-                        <p style="margin-left: 15px;">
+                        <p class="ml-2">
                             <strong>Installation for the iPad</strong>
                         </p>
-                        <ol style="margin-left: 15px;">
+                        <ol class="ml-2">
                             <li>Bookmark this page.</li>
                             <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
-                                <p style=" margin-left: 15px; font-family: Courier New, Courier, monospace; font-size: 10px;"> javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)</p>
+                                <p class="mt-2"><em> javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)</em></p>
                             </li>
                             <li>Try it out. Using an off-campus network, go to this
                                 <a href="http://dx.doi.org/10.1002/jwmg.72">article's website</a>, then click on your new bookmark.</li>
@@ -274,20 +274,20 @@ layout: page
                         <p></p>
 
                         <p></p>
-                        <hr style="width: 70%;color: black" />
+                        <hr />
                         <h4>DOI Finder</h4>
                         <p>The DOI Finder allows you to visit a web resource (e.g. a journal article) based only on its DOI
                             number.
                         </p>
-                        <p style="margin-left: 15px;">
+                        <p class="ml-2">
                             <strong>Installation for web browsers (not mobile)</strong>
                         </p>
-                        <ol style="margin-left: 15px;">
+                        <ol class="ml-2">
                             <li>Add the following link to your bookmarks: &nbsp;&nbsp;
                                 <a href="javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());"
                                     class="btn btn-sm moss center">DOI Finder</a>
 
-                                <table style="margin-left: 15px;">
+                                <table class="ml-2">
                                     <tbody>
                                         <tr>
                                             <td>
@@ -312,13 +312,13 @@ layout: page
                             <li>Click on the DOI Finder in your bookmarks.</li>
                             <li>Paste the DOI number into the box and hit Enter</li>
                         </ol>
-                        <p style="margin-left: 15px;">
+                        <p class="ml-2">
                             <strong>Installation for the iPad</strong>
                         </p>
-                        <ol style="margin-left: 15px;">
+                        <ol class="ml-2">
                             <li>Bookmark this page.</li>
                             <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
-                                <p style=" margin-left: 15px; font-family: Courier New, Courier, monospace; font-size: 10px;"> javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());</p>
+                                <p class="mt-2"><em>javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());</em></p>
                             </li>
                             <li>Try it out. Copy this DOI number (Ctrl-C or right-click, then copy): 10.1002/jwmg.72</li>
                             <li>Click on the DOI Finder in your bookmarks.</li>
