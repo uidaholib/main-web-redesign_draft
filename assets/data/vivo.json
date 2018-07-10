@@ -1,0 +1,19 @@
+---
+# metadata for table ajax
+---
+{%- assign items = site.data.vivo-featured -%}
+{ "researcher": [
+    {%- for item in items -%}
+    {
+        "first-name": {{ item.first-name | jsonify }},
+        "last-name": {{ item.last-name | jsonify }},
+        "profile-link": {{ item.profile-link | jsonify }},
+        "department": {{ item.subject | jsonify }},
+        "rank": {{ item.description | truncatewords: 20 | jsonify }},
+        "publication": {{ item.profile-link | jsonify }},
+        "publication-journal": {{ item.publication-journal | jsonify }},
+        "publication-link": {{ item.publication-link | jsonify }},
+        "image": {{ item.last-name | downcase | prepend: 'https:/www.lib.uidaho.edu/images/vivo-featured/'  | append: '.jpg' | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+] }

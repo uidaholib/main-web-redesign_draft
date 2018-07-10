@@ -13,26 +13,24 @@
                     <div class="fluid-container">
                 <div class="row text-center">
                     <div class="col-12">
-                            <h4 class="text-center">
-                                    <a href="{{ '/help/' | relative_url }}">
-                                        Ask Us</a>
-                                </h4>
-                              
-                        <div class=" mt-3">
-                            
-                           
-                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="{{ '/help/chat.html' | relative_url }}">Chat</a>
-                          
-                            
-                                <a class=" btn btn-outline-payette-blue rounded-0 mx-2" href="tel:208-885-6584">Call</a>
-                         
-                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="mailto:libref@uidaho.edu">Email</a>
-                        
-                                <a class="btn btn-outline-payette-blue rounded-0 mx-2" href="sms:208-449-0841">Text</a>
-                       
-                          
-                               
-                        </div>
+                        <ul class="navbar-nav mr-auto" style="font-size:24px;">
+                            <li class="nav-item mr-2 {% if page.url contains "/find/" %} active{% endif %}">
+                                <a class="nav-link" href="{{ "/find/" | absolute_url }}">
+                                    <span class="fas fa-book-open"></span> Find</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url contains "/services/" %} active{% endif %}">
+                                <a class="nav-link" href="{{ "/services/" | relative_url }}">
+                                    <span class="fas fa-wrench"></span> Services</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url == "/collections/" %} active{% endif %}">
+                                <a class="nav-link" href="{{ "/collections/" | relative_url }}">
+                                    <span class="fas fa-th-large"></span> Collections</a>
+                            </li>
+                            <li class="nav-item mx-2 {% if page.url == "/about/" %} active{% endif %} ">
+                                <a class="nav-link" href="{{ "/about/" | relative_url }}">
+                                    <span class="fas fa-map-marker-alt"></span> About</a>
+                            </li>
+                        </ul>
 <hr/>
 
 <div class="row">
@@ -76,26 +74,7 @@
 
 
                         <hr/>
-                      
-                        <ul class="navbar-nav mr-auto" style="font-size:24px;">
-                            <li class="nav-item mr-2 {% if page.url contains "/find/" %} active{% endif %}">
-                                <a class="nav-link" href="{{ "/find/" | absolute_url }}">
-                                    <span class="fas fa-book-open"></span> Find</a>
-                            </li>
-                            <li class="nav-item mx-2 {% if page.url contains "/services/" %} active{% endif %}">
-                                <a class="nav-link" href="{{ "/services/" | relative_url }}">
-                                    <span class="fas fa-wrench"></span> Services</a>
-                            </li>
-                            <li class="nav-item mx-2 {% if page.url == "/collections/" %} active{% endif %}">
-                                <a class="nav-link" href="{{ "/collections/" | relative_url }}">
-                                    <span class="fas fa-th-large"></span> Collections</a>
-                            </li>
-                            <li class="nav-item mx-2 {% if page.url == "/about/" %} active{% endif %} ">
-                                <a class="nav-link" href="{{ "/about/" | relative_url }}">
-                                    <span class="fas fa-map-marker-alt"></span> About</a>
-                            </li>
-                        </ul>
-                        <hr />
+
                         <h3>Popular Resources</h3>
                                                 <button type="button" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto" style="width:90%">
                                                     <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">Academic Search Premier
