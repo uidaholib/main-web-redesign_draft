@@ -8,6 +8,8 @@ about:
         url: /about/welcome.html
       - name: Recognizing our Faculty
         url: /recognitions/
+      - name: Featured Researchers
+        url: /recognitions/featured-researchers.html  
   - subsection: Contact/Directions
     link: /about/directions.html
   - subsection: Overnight Parking
@@ -309,9 +311,9 @@ copyright guide:
   - subsection: Acknowledgements
     url: /copyright/guide.html#acknowledgements
 
-special-collections:
+special collections:
   - subsection: Special Collections Home
-    url: /special-collections/index.html
+    link: /special-collections/index.html
   - subsection: About
     link: /special-collections/about.html
     subpages:
