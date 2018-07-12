@@ -2,51 +2,62 @@
 title: Local Newspapers
 section: find
 permalink: /find/localnewspapers.html
-
 layout: page
 ---
+<p>If the newspaper title you are interested in isn't listed below, <a href="https://www.lib.uidaho.edu/help/">contact the University of Idaho Library</a> for assistance.<br><br>
 
-  
-  
-   
-      
-   
-                         
-
-      
- 
-      <div class="container pagecontent" id="scrollnav">
-		 
-		
-<?php
-	
-    $ititle   = '<h3>Current Idaho & Local Newspapers</h3>' ;
-    $icomment = '(Current issues only; Most back issues are on microfilm -- Reference/Information Desk, First Floor, about specific issues and dates.)' ;
-    $db = new PDO('mysql:host=localhost;dbname=newspapers;charset=utf8','dbuser','data98');
-    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-	try {
-        $results = $db->query("SELECT * FROM newsinfo WHERE (type = 'L') ORDER BY place, name") ;
-    } catch (PDOException $e) {
-        echo "Error accessing database" ;
-    }
-    $num    = $results->rowcount() ;
-    $list = $results->fetchAll(PDO::FETCH_ASSOC);
-		if ($num <> 0) {
-			$count = 0 ;
-			$oldplace = '' ;
-			print "$ititle\n" ;
-			print "$icomment  \n" ;
-			while ($count < $num) {
-				$place    = $list[$count]['place'] ;
-				$name     = $list[$count]['name'] ;
-				$URL      = $list[$count]['URL'] ;
-				$comments = $list[$count]['comments'] ;
-				print "$place <b>$name</b> $comments \n" ;
-				$count++ ;
-			}
-		}
-?>
+Aberdeen <b>Aberdeen Times</b> <br>
+American Falls <b>Power County Press</b> <br>
+Arco <b>Arco Advertiser</b> <br>
+Blackfoot <b>Morning News</b> <br>
+Boise <b>Arbiter (Boise State University)</b> <br>
+Boise <b>Diversity</b> (located in Special Collections)<br>
+Boise <b>Idaho Catholic Register</b> <br>
+Boise <b>Idaho Statesman</b> <br>
+Bonners Ferry <b>Bonners Ferry Herald</b> <br>
+Buhl <b>Buhl Herald</b> <br>
+Cambridge <b>Upper Country News-Reporter</b> <br>
+Challis <b>Challis Messenger</b> <br>
+Coeur d'Alene <b>Coeur d'Alene Press</b> <br>
+Cottonwood <b>Cottonwood Chronicle</b> <br>
+Council <b>Adams County Record</b> <br>
+Driggs <b>Teton Valley News</b> <br>
+Emmett <b>Messenger Index</b> <br>
+Fort Hall <b>Sho-Ban News</b> (classified as a periodical)<br>
+Grangeville <b>Idaho County Free Press</b> <br>
+Homedale <b>Owyhee Avalanche</b> <br>
+Idaho City <b>Idaho World</b> <br>
+Idaho Falls <b>Post Register</b> <br>
+Island Park <b>Island Park News</b> <br>
+Kamiah <b>Clearwater Progress</b> <br>
+Kellogg <b>Shoshone News-Press</b> <br>
+Ketchum <b>Idaho Mountain Express</b> <br>
+Kuna <b>Kuna Melba News</b> <br>
+Lewiston <b>Lewiston Morning Tribune</b> <br>
+Malad City <b>Idaho Enterprise</b> <br>
+McCall <b>Star-News</b> <br>
+Montpelier <b>News-Examiner</b> <br>
+Moscow <b>Moscow-Pullman Daily News</b> <br>
+Moscow <b>University of Idaho Argonaut</b> <br>
+Mountain Home <b>Mountain Home News</b> <br>
+Nampa <b>Idaho Press-Tribune</b> <br>
+Nez Perce <b>Lewis County Herald</b> <br>
+Oldtown <b>Gem State Miner</b> <br>
+Orofino <b>Clearwater Tribune</b> <br>
+Payette <b>Independent-Enterprise</b> <br>
+Plummer <b>Coeur d'Alene Council Fires</b> (located in Special Collections)<br>
+Pocatello <b>Idaho State Journal</b> <br>
+Preston <b>Preston Citizen</b> <br>
+Priest River <b>Priest River Times</b> <br>
+Rexburg <b>Standard Journal</b> <br>
+Rigby <b>Jefferson Star</b> <br>
+Salmon <b>Recorder Herald</b> <br>
+Sandpoint <b>Bonner County Daily Bee</b> <br>
+Soda Springs <b>Caribou County Sun</b> <br>
+St. Maries <b>St. Maries Gazette Record</b> <br>
+Twin Falls <b>Times-News</b> <br>
+Weiser <b>Weiser Signal American</b> <br>
+</p>
                 </div>
     </div>
 	
