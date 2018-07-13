@@ -15,7 +15,7 @@ permalink: /recognitions/featured-researchers.html
                 <div class="card-body">
                     <h5 class="card-title">{{ researcher.first-name }} {{ researcher.last-name }}</h5>
                     <p class="card-text">{{ researcher.rank }}<br /{{ researcher.department }}</p>
-                    <h4>Recent Publication</h4>
+                    <h4>Recent {{researcher.pub-type | capitalize}}</h4>
                     <p class="card-text"><a href="{{ researcher.pub-link | absolute_url }} ">{{ researcher.publication}}</a><br/> in {{ researcher.publication-journal}}</p>
                     <a href="{{ researcher.profile-link | absolute_url }}" class="btn btn-clearwater">View VIVO Profile</a>
                 </div>
