@@ -14,15 +14,17 @@ layout: page
 {% assign section = site.data.UI-OAPF_FAQ | where: "category", c %}
 {% assign id = forloop.index %}
 {% for q in section %}
-<div class="card my-2">
+<div id="accordion">
+<div class="card">
     <div class="card-header">
         <h6 class="card-title">
-            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }}</a>
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }}</a>
         </h6>
     </div>
     <div id="collapse{{ id }}{{ forloop.index }}" class="collapse">
         <div class="card-body">{{ q.answer }}</div>
     </div>
+</div>
 </div>
 {% endfor %}
 {% endfor %}
