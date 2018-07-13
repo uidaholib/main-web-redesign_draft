@@ -73,7 +73,7 @@ find:
         url: /find/books.html
       - name: Ebook Guide
         url: https://libguides.uidaho.edu/ebooks
-      - name: Library of Congress Call Numbers
+      - name: Library Locations
         url: /find/lc.html
   - subsection: DVDs
     link: /find/dvds.html
