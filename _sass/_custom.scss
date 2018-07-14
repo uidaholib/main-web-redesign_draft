@@ -49,6 +49,9 @@ a {
 /* main nav */
 #main-nav {
     background: $nav-background;
+    ul {
+        font-size: 18px;
+    }
     .nav-link {
         color: $link-color;
     }
