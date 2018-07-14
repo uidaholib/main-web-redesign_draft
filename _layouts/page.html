@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid pt-2 pb-1" id="page-title">
     <div class="container">
-        <h2 style="text-transform:capitalize;">{{ page.section | capitalize }}</h2>
+        <h2>{{ page.section | capitalize }}</h2>
     </div>
 </div>
 <div class="split-background">
@@ -13,20 +13,18 @@ layout: default
             <div class="col-md-3 col-8 px-0">
                 <!-- page nav button -->
                 <button class="btn btn-secondary d-md-none col-sm-12 px-0 rounded-0" id="sidebarButton" type="button">
-                        MENU <span class="fas fa-chevron-down"></span>
+                    MENU <span class="fas fa-chevron-down"></span>
                 </button>
                 <!-- page nav / sidebar -->
                 {% include page-nav.html %}
             </div>
             <div class="col-4 px-0 d-md-none d-block">
-                    <!-- ask us button -->
-                    <button class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#ask">
-                            Ask Us                    </button>
-                    <!-- ask us modal -->
-                </div>
+                <!-- ask us button -->
+                <button class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#ask">
+                    Ask Us</button>
+            </div>
             <!-- page -->
             <div class="page-block col-md-9 col-xs-12">
-
 
                 <main role="main" class="py-2 pl-md-5">
                     <!-- bread crumbs -->
@@ -40,3 +38,4 @@ layout: default
             </div>
         </div>
     </div>
+</div>
