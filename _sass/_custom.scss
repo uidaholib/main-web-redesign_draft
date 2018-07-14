@@ -26,15 +26,6 @@ a {
         max-width: 740px;
     }
 }
-.dropdown-menu .container{
-    width:1300px;
-    margin-right:-17px;
-
-    @media (min-width: 768px) and (max-width: 900px){
-        width:740px !important;
-    }
-
-}
 
 /* top bar */
 #ui-home {
@@ -68,6 +59,22 @@ a {
         font-size: 24px;
     }
 }
+/* big dropdown */
+.dropdown-menu .container {
+    width:1300px;
+    margin-right:-17px;
+
+    @media (min-width: 768px) and (max-width: 900px){
+        width:740px !important;
+    }
+}
+.popular {
+    width: 90%;
+    color: #191919;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* footer */
 footer, footer a {
     color:white !important;
