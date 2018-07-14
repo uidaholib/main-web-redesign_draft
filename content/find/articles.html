@@ -10,39 +10,37 @@ layout: page
             <p>Our databases help you find the articles and other research materials you need. Here are some popular databases
                 to get you started:</p>
             <p class="text-center">
-                <button type="button" class="btn btn-outline-pride-gold">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh"
-                        id="featured3" style=";margin-left:0px;" target="_blank">Academic Search Premier</a>
-                </button>
-                <button type="button" class="btn btn-outline-pride-gold">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/" id="featured1" target="_blank">JSTOR</a>
-                </button>
-                <button type="button" class="btn btn-outline-pride-gold">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?url=http://www.sciencedirect.com" id="featured2" target="_blank">Science Direct</a>
-                </button>
-                <button type="button" class="btn btn-outline-pride-gold">
-                    <a href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS" id="featured4" target="_blank">Web of Science</a>
-                </button>
+                <a class="btn btn-outline-pride-gold" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh"
+                    id="featured3" style=";margin-left:0px;" target="_blank">Academic Search Premier</a>
+                <a class="btn btn-outline-pride-gold" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/" id="featured1"
+                    target="_blank">JSTOR</a>
+                <a class="btn btn-outline-pride-gold" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.sciencedirect.com" id="featured2"
+                    target="_blank">Science Direct</a>
+                <a class="btn btn-outline-pride-gold" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS" id="featured4"
+                    target="_blank">Web of Science</a>
+
             </p>
-            <p>We have over 200 databases to choose from. Many are discipline specific. Browse them all or select by title or subject below:</p>
+            <p>We have over 200 databases to choose from. Many are discipline specific. Browse them all or select by title or
+                subject below:
+            </p>
             <div class="text-center">
                 <div class="row">
                     <div class="col-md-7 mx-auto ">
-                <button class="btn btn-info btn-lg text-center mr-4" type="button">
-                    <a href="http://libguides.uidaho.edu/az.php" target="_blank">View our Databases A-Z List</a>
-                </button>
+                        <a class="btn btn-info btn-lg text-center mr-4" href="http://libguides.uidaho.edu/az.php" target="_blank">View our Databases A-Z List</a>
+                
                     </div>
                     <div class="col-md-5  ">
-                <form id="databasetitle" >
-                        <form class="center databasetitle">
-                            <select onchange="window.location.href=this.value" title="Database title" class="database_select">
-                                <option selected="selected" value="#" id="selected3">Go to a specific database </option>
-                                <!--#include virtual="/database-list.txt" -->
-                            </select>
-                        </form>
+                        <form id="databasetitle">
+                            <form class="center databasetitle">
+                                <select onchange="window.location.href=this.value" title="Database title" class="database_select">
+                                    <option selected="selected" value="#" id="selected3">Go to a specific database </option>
+                                    <!--#include virtual="/database-list.txt" -->
+                                </select>
+                            </form>
                     </div>
                 </div>
-            </div>  <hr />
+            </div>
+            <hr />
             <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
                 class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()"
                 style="margin: 0 1%;z-index: 1;">
@@ -70,276 +68,270 @@ layout: page
                 <input id="primoQuery" type="hidden" name="query">
                 <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 "
                     placeholder="Search for articles ...">
-                <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
+                <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit"
+                    value="Go" alt="Search">
             </form>
             <hr />
-           
-                    <h4>Databases by Subject:</h4>
-                    <div class="row indent">
-                        <ul class="col-md-4 col-sm-12">
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73420" target="_blank">Agriculture/Food Science</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73417" target="_blank">Art & Architecture</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=132333" target="_blank">Biology/Life Sciences</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73423" target="_blank">Business/Economics</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131584" target="_blank">Chemistry</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73428" target="_blank">Citing Sources</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131585" target="_blank">Communication/Mass Media</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131586" target="_blank">Computing/Electronics</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131587" target="_blank">Earth Sciences</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73424" target="_blank">Education</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73427" target="_blank">Engineering</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131588" target="_blank">Environmental Studies</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73421" target="_blank">Family & Consumer Sciences</a>
-                            </li>
-                        </ul>
-                        <ul class="col-md-4 col-sm-12">
 
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131589" target="_blank">Fisheries</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131590" target="_blank">Foreign Language</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131591" target="_blank">Forestry/Rangelands</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73429" target="_blank">Government Information</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131592" target="_blank">History</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73432" target="_blank">How to</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131593" target="_blank">Law</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131594" target="_blank">Literature</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73422" target="_blank">Maps & Geospatial Information</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131595" target="_blank">Mathematics/Statistics</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73425" target="_blank">Medicine</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73430" target="_blank">Music</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73418" target="_blank">Natural Resources</a>
-                            </li>
+            <h4>Databases by Subject:</h4>
+            <div class="row indent">
+                <ul class="col-md-4 col-sm-12">
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73420" target="_blank">Agriculture/Food Science</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73417" target="_blank">Art & Architecture</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=132333" target="_blank">Biology/Life Sciences</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73423" target="_blank">Business/Economics</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131584" target="_blank">Chemistry</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73428" target="_blank">Citing Sources</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131585" target="_blank">Communication/Mass Media</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131586" target="_blank">Computing/Electronics</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131587" target="_blank">Earth Sciences</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73424" target="_blank">Education</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73427" target="_blank">Engineering</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131588" target="_blank">Environmental Studies</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73421" target="_blank">Family & Consumer Sciences</a>
+                    </li>
+                </ul>
+                <ul class="col-md-4 col-sm-12">
+
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131589" target="_blank">Fisheries</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131590" target="_blank">Foreign Language</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131591" target="_blank">Forestry/Rangelands</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73429" target="_blank">Government Information</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131592" target="_blank">History</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73432" target="_blank">How to</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131593" target="_blank">Law</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131594" target="_blank">Literature</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73422" target="_blank">Maps & Geospatial Information</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131595" target="_blank">Mathematics/Statistics</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73425" target="_blank">Medicine</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73430" target="_blank">Music</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73418" target="_blank">Natural Resources</a>
+                    </li>
 
 
-                        </ul>
-                        <ul class="col-md-4 col-sm-12">
+                </ul>
+                <ul class="col-md-4 col-sm-12">
 
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73434" target="_blank">Newspapers</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73433" target="_blank">Open Access</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131602" target="_blank">Philosophy/Religion</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131596" target="_blank">Physics</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131597" target="_blank">Political Science</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131598" target="_blank">Popular</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131599" target="_blank">Psychology/Psychiatry</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131601" target="_blank">Reference</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73426" target="_blank">Science/Technology</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=73419" target="_blank">Social Sciences</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131604" target="_blank">Sociology/Criminology</a>
-                            </li>
-                            <li>
-                                <a href="http://libguides.uidaho.edu/az.php?s=131605" target="_blank">Wildlife</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <hr class="text-center">
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73434" target="_blank">Newspapers</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73433" target="_blank">Open Access</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131602" target="_blank">Philosophy/Religion</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131596" target="_blank">Physics</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131597" target="_blank">Political Science</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131598" target="_blank">Popular</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131599" target="_blank">Psychology/Psychiatry</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131601" target="_blank">Reference</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73426" target="_blank">Science/Technology</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=73419" target="_blank">Social Sciences</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131604" target="_blank">Sociology/Criminology</a>
+                    </li>
+                    <li>
+                        <a href="http://libguides.uidaho.edu/az.php?s=131605" target="_blank">Wildlife</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="text-center">
 
-                    <h2 id="tools">Database Access Tools</h2>
-                    <div id="offcampus_tools" class="ml-1 pt-1">
-                        <h4>UI LIB Log-in Bookmarklet</h4>
-                        <p>The log-in bookmarklet allows you to log in through the library from wherever you are on the internet
-                            without leaving that page. So, say you find an article via Google that asks for you to sign in
-                            to access it, just click on the bookmarklet link in your bookmarks bar and this tool will automatically
-                            log you in and grant you access, if the library subscribes to the journal or database in which
-                            it's held. </p>
-                        <p class="ml-2">
-                            <strong>Installation for web browsers (not mobile)</strong>
-                        </p>
-                        <ol class="ml-2">
-                            <li>Add the following link to your bookmarks:
-                                <a href="javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)" class="btn btn-sm stone center">UI LIB Log-in</a>
+            <h2 id="tools">Database Access Tools</h2>
+            <div id="offcampus_tools" class="ml-1 pt-1">
+                <h4>UI LIB Log-in Bookmarklet</h4>
+                <p>The log-in bookmarklet allows you to log in through the library from wherever you are on the internet without
+                    leaving that page. So, say you find an article via Google that asks for you to sign in to access it,
+                    just click on the bookmarklet link in your bookmarks bar and this tool will automatically log you in
+                    and grant you access, if the library subscribes to the journal or database in which it's held. </p>
+                <p class="ml-2">
+                    <strong>Installation for web browsers (not mobile)</strong>
+                </p>
+                <ol class="ml-2">
+                    <li>Add the following link to your bookmarks:
+                        <a href="javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)" class="btn btn-sm stone center">UI LIB Log-in</a>
 
-                                <table class="ml-2">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <strong>To do this:&nbsp;&nbsp;</strong>
-                                            </td>
-                                            <td>Drag the link your bookmarks</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td>
-                                                <strong>or</strong> Right-click the link and bookmark it</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td>
-                                                <strong>or</strong> Right-click and add to Favorites (for Internet Explorer)</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
-                            <li>Try it out. From off-campus, go to this
-                                <a href="http://dx.doi.org/10.1002/jwmg.72">article's website</a>, then click on the UIdaho Library Log-in bookmarklet.</li>
-                            <li>Enter your UI credentials, then click Submit. You should return to the page with access to the
-                                article!
-                            </li>
-                        </ol>
-                        <p class="ml-2">
-                            <strong>Installation for the iPad</strong>
-                        </p>
-                        <ol class="ml-2">
-                            <li>Bookmark this page.</li>
-                            <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
-                                <pre class="mt-2"><em> javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)</em></pre>
-                            </li>
-                            <li>Try it out. Using an off-campus network, go to this
-                                <a href="http://dx.doi.org/10.1002/jwmg.72">article's website</a>, then click on your new bookmark.</li>
-                            <li>Enter your UI credentials, then click Submit. You should return to the page with access to the
-                                article!
-                            </li>
-                        </ol>
-                        <p>
-                            <strong>Problems?</strong>
-                        </p>
-                        <ul>
-                            <li style="list-style-type: none">If you see an error message, it may be a website we have not enabled through our authentication
-                                server.
-                            </li>
-                            <li style="list-style-type: none">If it works but you still do not have access to the article, it may not be one to which the University
-                                of Idaho currently subscribes.</li>
-                            <li style="list-style-type: none">Please report problems or request assistance by contacting the library Reference Desk,
-                                <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a>.</li>
-                        </ul>
-                        <p></p>
+                        <table class="ml-2">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <strong>To do this:&nbsp;&nbsp;</strong>
+                                    </td>
+                                    <td>Drag the link your bookmarks</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <strong>or</strong> Right-click the link and bookmark it</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <strong>or</strong> Right-click and add to Favorites (for Internet Explorer)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li>Try it out. From off-campus, go to this
+                        <a href="http://dx.doi.org/10.1002/jwmg.72">article's website</a>, then click on the UIdaho Library Log-in bookmarklet.</li>
+                    <li>Enter your UI credentials, then click Submit. You should return to the page with access to the article!
+                    </li>
+                </ol>
+                <p class="ml-2">
+                    <strong>Installation for the iPad</strong>
+                </p>
+                <ol class="ml-2">
+                    <li>Bookmark this page.</li>
+                    <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
+                        <pre class="mt-2"><em> javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)</em></pre>
+                    </li>
+                    <li>Try it out. Using an off-campus network, go to this
+                        <a href="http://dx.doi.org/10.1002/jwmg.72">article's website</a>, then click on your new bookmark.</li>
+                    <li>Enter your UI credentials, then click Submit. You should return to the page with access to the article!
+                    </li>
+                </ol>
+                <p>
+                    <strong>Problems?</strong>
+                </p>
+                <ul>
+                    <li style="list-style-type: none">If you see an error message, it may be a website we have not enabled through our authentication server.
+                    </li>
+                    <li style="list-style-type: none">If it works but you still do not have access to the article, it may not be one to which the University
+                        of Idaho currently subscribes.</li>
+                    <li style="list-style-type: none">Please report problems or request assistance by contacting the library Reference Desk,
+                        <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a>.</li>
+                </ul>
+                <p></p>
 
-                        <p></p>
-                        <hr />
-                        <h4>DOI Finder</h4>
-                        <p>The DOI Finder allows you to visit a web resource (e.g. a journal article) based only on its DOI
-                            number.
-                        </p>
-                        <p class="ml-2">
-                            <strong>Installation for web browsers (not mobile)</strong>
-                        </p>
-                        <ol class="ml-2">
-                            <li>Add the following link to your bookmarks: &nbsp;&nbsp;
-                                <a href="javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());"
-                                    class="btn btn-sm moss center">DOI Finder</a>
+                <p></p>
+                <hr />
+                <h4>DOI Finder</h4>
+                <p>The DOI Finder allows you to visit a web resource (e.g. a journal article) based only on its DOI number.
+                </p>
+                <p class="ml-2">
+                    <strong>Installation for web browsers (not mobile)</strong>
+                </p>
+                <ol class="ml-2">
+                    <li>Add the following link to your bookmarks: &nbsp;&nbsp;
+                        <a href="javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());"
+                            class="btn btn-sm moss center">DOI Finder</a>
 
-                                <table class="ml-2">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <strong>To do this:&nbsp;&nbsp;</strong>
-                                            </td>
-                                            <td>Drag the link your bookmarks</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td>
-                                                <strong>or</strong> Right-click the link and bookmark it</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td>
-                                                <strong>or</strong> Right-click and add to Favorites (for Internet Explorer)</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </li>
-                            <li>Try it out. Copy this DOI number (Ctrl-C or right-click, then copy): 10.1002/jwmg.72</li>
-                            <li>Click on the DOI Finder in your bookmarks.</li>
-                            <li>Paste the DOI number into the box and hit Enter</li>
-                        </ol>
-                        <p class="ml-2">
-                            <strong>Installation for the iPad</strong>
-                        </p>
-                        <ol class="ml-2">
-                            <li>Bookmark this page.</li>
-                            <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
-                                <pre class="mt-2"><em>javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());</em></pre>
-                            </li>
-                            <li>Try it out. Copy this DOI number (Ctrl-C or right-click, then copy): 10.1002/jwmg.72</li>
-                            <li>Click on the DOI Finder in your bookmarks.</li>
-                            <li>Paste the DOI number into the box and hit Enter</li>
-                        </ol>
-                        <p>
-                            <strong>Problems?</strong>
-                        </p>
-                        <ul>
-                            <li style="list-style-type: none">If you see an error message, it may be a invalid DOI.</li>
-                            <li style="list-style-type: none">Please report problems or request assistance by contacting the library Reference Desk,
-                                <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a>.</li>
-                        </ul>
-                        <p></p>
+                        <table class="ml-2">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <strong>To do this:&nbsp;&nbsp;</strong>
+                                    </td>
+                                    <td>Drag the link your bookmarks</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <strong>or</strong> Right-click the link and bookmark it</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <strong>or</strong> Right-click and add to Favorites (for Internet Explorer)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li>Try it out. Copy this DOI number (Ctrl-C or right-click, then copy): 10.1002/jwmg.72</li>
+                    <li>Click on the DOI Finder in your bookmarks.</li>
+                    <li>Paste the DOI number into the box and hit Enter</li>
+                </ol>
+                <p class="ml-2">
+                    <strong>Installation for the iPad</strong>
+                </p>
+                <ol class="ml-2">
+                    <li>Bookmark this page.</li>
+                    <li>Edit the new bookmark with a title of your choosing and add the following text as the URL:
+                        <pre class="mt-2"><em>javascript:(function(){var a = prompt('Enter a DOI:'); if(a===null||a===''){return;}else{location.href='http://dx.doi.org/'+a};}());</em></pre>
+                    </li>
+                    <li>Try it out. Copy this DOI number (Ctrl-C or right-click, then copy): 10.1002/jwmg.72</li>
+                    <li>Click on the DOI Finder in your bookmarks.</li>
+                    <li>Paste the DOI number into the box and hit Enter</li>
+                </ol>
+                <p>
+                    <strong>Problems?</strong>
+                </p>
+                <ul>
+                    <li style="list-style-type: none">If you see an error message, it may be a invalid DOI.</li>
+                    <li style="list-style-type: none">Please report problems or request assistance by contacting the library Reference Desk,
+                        <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a>.</li>
+                </ul>
+                <p></p>
 
 
 
-                    </div>
-                
+            </div>
+
         </div>
     </div>
-</div>
-</div>
 </div>
