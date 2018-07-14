@@ -1,34 +1,39 @@
 <nav id="main-nav" class="navbar navbar-expand-md navbar-light d-none d-md-block px-4">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse " id="main-nav">
-                <ul class="navbar-nav mr-auto" style="font-size:18px;">
-                    <li class="nav-item mr-2 {% if page.url contains "/find/" %} active{% endif %}">
-                        <a class="nav-link" href="{{ "/find/" | absolute_url }}"><span class="fas fa-book-open"></span> Find</a>
-                    </li>           
-                    <li class="nav-item mx-2 {% if page.url contains "/services/" %} active{% endif %}">
-                        <a class="nav-link" href="{{ "/services/" | relative_url }}"><span class="fas fa-wrench"></span> Services</a>
-                    </li>
-                    <li class="nav-item mx-2 {% if page.url == "/collections/" %} active{% endif %}">
-                        <a class="nav-link" href="{{ "/collections/" | relative_url }}"><span class="fas fa-th-large"></span> Collections</a>
-                    </li>                
-                    <li class="nav-item mx-2 {% if page.url == "/about/" %} active{% endif %} ">
-                        <a class="nav-link" href="{{ "/about/" | relative_url }}"><span class="fas fa-map-marker-alt"></span> About</a>
-                    </li>
-                </ul>
-    
-                <div class="dropdown">
-                    <button class="btn btn-outline-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       MENU <span class="fas fa-bars ml-1"></span>
-                    </button>
+    <div class="container">
+
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>-->
+
+        <div class="collapse navbar-collapse ">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-2 {% if page.url contains '/find/' %} active{% endif %}">
+                    <a class="nav-link" href="{{ '/find/' | absolute_url }}">
+                        <span class="fas fa-book-open"></span> Find</a>
+                </li>
+                <li class="nav-item mx-2 {% if page.url contains '/services/' %} active{% endif %}">
+                    <a class="nav-link" href="{{ '/services/' | relative_url }}">
+                        <span class="fas fa-wrench"></span> Services</a>
+                </li>
+                <li class="nav-item mx-2 {% if page.url contains '/collections/' %} active{% endif %}">
+                    <a class="nav-link" href="{{ '/collections/' | relative_url }}">
+                        <span class="fas fa-th-large"></span> Collections</a>
+                </li>
+                <li class="nav-item mx-2 {% if page.url contains '/about/' %} active{% endif %} ">
+                    <a class="nav-link" href="{{ '/about/' | relative_url }}">
+                        <span class="fas fa-map-marker-alt"></span> About</a>
+                </li>
+            </ul>
+
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MENU
+                    <span class="fas fa-bars ml-1"></span>
+                </button>
                 {%include bigdropdown.html %}
-                </div>
-               
-              
-    
             </div>
-        </div>    
-    </nav>
+
+        </div>
+    </div>
+</nav>

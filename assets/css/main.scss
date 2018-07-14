@@ -48,7 +48,7 @@ $gray-800: #191919;
 
 $theme-colors: (
   primary: $blue,
-   success: $green,
+  success: $green,
   info: $cyan,
   warning: $yellow,
   danger: $red,
@@ -76,7 +76,7 @@ $on-jumbo:        1200px;
 }
 
 
-@import "custom", "page", "buttons","uidahofonts";
+@import "uidahofonts", "custom", "buttons", "index", "page";
 
 //@import "base";
 //@import "layout";

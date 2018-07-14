@@ -4,8 +4,6 @@ permalink: /special-collections/index.html
 layout: page
 section: special collections 
 ---
-<div class="container pagecontent" id="scrollnav">
-
   <div class="row">
     <div class="col-md-12 hidden-xs">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -79,14 +77,14 @@ section: special collections
 
 
   <div class="row">
-    <div class="alert alert-info alert-dismissible center" id="" role="alert" id="alerted" style="padding:5px 20px;">
+    <!--<div class="alert alert-info alert-dismissible center" id="" role="alert" id="alerted" style="padding:5px 20px;">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true" style="margin-right:4px;">&times; </span>
       </button>Good news! The Special Collections & Archives Department recently acquired a significant science fiction collection
       from U of I Alumna and longtime Moscow resident Victoria E. Mitchell. A
       <a href="http://www.uidaho.edu/news/news-articles/news-releases/2017-december/120717-sciencefictioncollection">recent news release</a> provides more information. Check our
       <a href="http://uispecialcollections.tumblr.com/tagged/scifidaho">Tumblr</a> for photos of the collection! </p>
-    </div>
+    </div>-->
     <div class="col-md-7">
       <h2 style="margin-top:0px;">Special Collections & Archives</h2>
       <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of research materials
@@ -103,20 +101,23 @@ section: special collections
 
       </p>
     </div>
-    <div class="col-md-5 center">
+    <div class="col-md-5">
 
 
 
 
-      <p class="btn btn-default  paragraph-btn " type="button">
-        <b>Summer hours (May 14th - August 17th)</b> Monday - Friday: 10 AM to 2 PM or by
-        <a href="#" data-toggle="modal" data-target="#myModal">appointment</a>. Closed Weekends
+      <div class="card mb-3">
+          <div class="card-body text-center">
+       <p><b>Summer hours (May 14th - August 17th)</b> Monday - Friday: 10 AM to 2 PM or by
+        <a href="#" data-toggle="modal" data-target="#specModal">appointment</a>. Closed Weekends
         <!--<b>Spring Break Hours (March 12-16):</b>  Monday - Friday 10 am to 2pm -->
         <!--Fall/Winter Break Hours:  Monday - Friday 10 am to 2pm 
 Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
       </p>
+      </div>
+      </div>
 
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal fade" id="specModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -135,11 +136,11 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
       </div>
 
       <p>
-        <a class="btn btn-default  berry  " type="button" style="padding:5px 20%;" href="plan.html">
+        <a class="btn btn-secondary btn-block  " type="button" style="padding:5px 20%;" href="plan.html">
           <span class="fas fa-list"></span> Plan Your Visit</a>
       </p>
       <p>
-        <a href="donations.html" class="btn btn-default spec-btn moss" type="button">
+        <a href="donations.html" class="btn btn-secondary btn-block" type="button">
           <span class="fas fa-gift"></span> Donate to Special Collections</a>
       </p>
 
@@ -149,8 +150,8 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
   </div>
   <div class="row">
     <div class="col-md-12">
-      <div class="panel panel-default">
-        <div class="panel-body center">
+      <div class="card mb-3">
+        <div class="card-body text-center">
 
           <form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search for our finding aids on
             <a id="popover1" class="instructions" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true"
@@ -158,7 +159,7 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
 						<p > Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Nortwest. This search box will take you to their website, searching only our holdings. You may also <a href='/special-collections/search.php?'>search our website</a>, or contact <a href='/special-collections/contactus.html'>our staff</a> for additional assistance</a>. ">
               Archives West</a>:
             <input id="searchValue" name="q" type="text"> &nbsp;&nbsp;
-            <input id="searchSubmit" type="submit" value="Search Archives West">
+            <input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
             <input id="t" name="t" type="hidden" value="k">
             <input id="c" name="c" type="hidden" value="ntd">
           </form>
@@ -176,11 +177,11 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
 
     <div class="col-md-4">
 
-      <div class="panel panel-default ">
-        <div class="panel-heading" style="background-color: #d5dbdc ;">
-          <h3 class="panel-title center">Information</h3>
+      <div class="card">
+        <div class="card-header" >
+          <h3 class="card-title center">Information</h3>
         </div>
-        <div class="panel-body">
+        <div class="card-body">
           <b>
             <a href="/special-collections/about.html">About</a>
           </b>
@@ -200,11 +201,11 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
     </div>
 
     <div class="col-md-4">
-      <div class="panel panel-default ">
-        <div class="panel-heading" style="background-color: #d5dbdc ;">
-          <h3 class="panel-title center">Finding Aids and Collections</h3>
+      <div class="card card-default ">
+        <div class="card-header" >
+          <h3 class="card-title">Finding Aids and Collections</h3>
         </div>
-        <div class="panel-body">
+        <div class="card-body">
           <b>
             <a href="/special-collections/description.html">Collection Descriptions</a>
           </b>
@@ -236,11 +237,11 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
     </div>
 
     <div class="col-md-4">
-      <div class="panel panel-default ">
-        <div class="panel-heading" style="background-color: #d5dbdc ;">
-          <h3 class="panel-title center">Campus History</h3>
+      <div class="card card-default ">
+        <div class="card-header">
+          <h3 class="card-title center">Campus History</h3>
         </div>
-        <div class="panel-body">
+        <div class="card-body">
 
 
           <a href="/special-collections/uitimeline.html">Historical Timeline</a>
@@ -317,14 +318,19 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
       <h3>Featured Collections</h3>
     </div>
     <div class="col-md-6">
-      <a href="http://www.lib.uidaho.edu/digital/uihistorical/index.html">
-        <div type="button" class="btn btn-default find-button ">
-          <h4>Historical Photographs</h4>
-          <img src="../collections/fatmen.jpg" alt="Historical photograph" class="img-responsive" style="">
+     
+        <div class="card">
+            <div class="card-header" >
+                <h3 class="card-title center">Historical Photographs</h3>
+                </div>
+                <div class="card-body">
+                <a href="http://www.lib.uidaho.edu/digital/uihistorical/index.html">  <img src="https://www.lib.uidaho.edu/collections/fatmen.jpg" alt="Historical photograph" class="img-fluid" style="">
           <p class="colltext">This collection consists of historical photographs of the University of Idaho and many activities within the state
-            of Idaho. </p>
+            of Idaho. </p></a>
+          </div>
+          </div>
         </div>
-      </a>
+      
 
       <!--
 	<div type="button" class="btn btn-default find-button "><h4>Potlatch Collection</h4>
@@ -343,12 +349,18 @@ Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
     <div class="col-md-6">
 
       <a href="/digital/jazz/">
-        <div type="button" class="btn btn-default find-button ">
-          <h4>International Jazz Collections</h4>
+        <div class="card">
+          <div class="card-header">
+              <h3 class="card-title center">International Jazz Collections</h3>
+              </div>
+            <div class="card-body"> 
           <img src="../collections/008.jpg" alt="International Jazz Collection" class="img-responsive" style="">
           <p class="colltext">The International Jazz Collection is the premiere jazz archive of the Pacific Northwest and is housed in the University
             of Idaho Library.</p>
         </div>
+        
+          </div>
+          </div>
       </a>
 
       <!--
