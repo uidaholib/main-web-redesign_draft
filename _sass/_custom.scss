@@ -53,7 +53,18 @@ a {
         color: $link-color;
     }
 }
-
+#mobilemenu {
+    .modal-header {
+        border-bottom: none;
+        padding: 1rem 1rem 0 0;
+    }
+    .modal-body {
+        padding: 0 1rem 1rem 1rem;
+    }
+    ul {
+        font-size: 24px;
+    }
+}
 /* footer */
 footer, footer a {
     color:white !important;
