@@ -256,6 +256,49 @@ help:
   - subsection: Site Search
     link: /help/search.html
 
+data management guide:
+  - subsection: Intro and Contents
+    url: /services/data/data-management/index.html#home
+  - subsection: Data Management Planning
+    url: /services/data/data-management/index.html#planning
+    subpages:
+      - name: Why Manage Your Data?
+        url: /services/data/data-management/index.html#why
+      - name: Funding Agency Guidelines
+        url: /services/data/data-management/index.html#guidelines
+      - name: Data Planning Checklist
+        url: /services/data/data-management/index.html#checklists
+      - name: Example DMPs
+        url: /services/data/data-management/index.html#examples
+  - subsection: Data Documentation &amp; Metadata
+    url: /services/data/data-management/index.html#metadata
+    subpages:
+      - name: What is Metadata?
+        url: /services/data/data-management/index.html#whatis
+      - name: Commonly Used Standards
+        url: /services/data/data-management/index.html#standards
+      - name: Best Practices
+        url: /services/data/data-management/index.html#bestpractices
+  - subsection: Data Sharing &amp; Preservation
+    url: /services/data/data-management/index.html#storing
+    subpages:
+      - name: File Formats
+        url: /services/data/data-management/index.html#formats
+      - name: File and Folder Naming
+        url: /services/data/data-management/index.html#naming
+      - name: Storing (Short-Term)
+        url: /services/data/data-management/index.html#storing_short
+      - name: Storing (Long-Term)
+        url: /services/data/data-management/index.html#depositing
+  - subsection: Copyright &amp; Intellectual Property
+    url: /services/data/data-management/index.html#copyright_ip
+  - subsection: Data Citation
+    url: /services/data/data-management/index.html#citation
+  - subsection: Contact Us
+    url: /services/data/data-management/index.html#contact
+  - subsection: Acknowledgements
+    url: /services/data/data-management/index.html#acknowledgements
+
 copyright guide:
   - subsection: UI Copyright Policy
     url: /copyright/guide.html#ui
