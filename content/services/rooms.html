@@ -5,7 +5,13 @@ layout: page
 permalink: /services/rooms.html 
 ---
 {% assign rooms = site.data.rooms %}
-<h2>Book a Room</h2>
+<p>
+    The Library has a variety of reservable spaces from group study rooms to 3D printers.
+    Check the descriptions below to find the space you need. 
+    Reservations are made on our <a href="https://libcal.uidaho.edu/">LibCal</a> system.
+    For complete information, please check our <a href="https://libcal.uidaho.edu/">Policies page</a>.
+</p>
+
 <div class="row">
     {% for r in rooms %}
     <div class="col-md-6 mb-2">
@@ -22,7 +28,3 @@ permalink: /services/rooms.html
     </div>
     {% endfor %}
 </div>
-
-<h2>About the rooms</h2>
-
-<a href="https://libcal.uidaho.edu/">Policies</a>
