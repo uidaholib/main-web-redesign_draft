@@ -315,6 +315,22 @@ giving:
   - subsection: << About
     link: /about/
 
+hours:
+  - subsection: Semester Hours
+    link: /about/hours.html#semester
+  - subsection: Summer Hours
+    link: /about/hours.html#summer
+  - subsection: Reference Desk
+    link: /about/hours.html#reference
+  - subsection: Special Collections
+    link: /about/hours.html#special
+  - subsection: Reduced Hours &amp; Closures
+    link: /about/hours.html#reduced
+  - subsection: Interlibrary Loan
+    link: /about/hours.html#ill
+  - subsection: << About
+    link: /about/
+
 copyright guide:
   - subsection: UI Copyright Policy
     url: /copyright/guide.html#ui
