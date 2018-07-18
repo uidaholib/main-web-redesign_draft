@@ -333,11 +333,11 @@ hours:
 
 copyright guide:
   - subsection: UI Copyright Policy
-    url: /copyright/guide.html#ui
+    link: /copyright/guide.html#ui
   - subsection: Contents
-    url: /copyright/guide.html#contents
+    link: /copyright/guide.html#contents
   - subsection: Copyright Basics
-    url: /copyright/guide.html#basics
+    link: /copyright/guide.html#basics
     subpages:
       - name: What Is Copyright?
         url: /copyright/guide.html#whatis
@@ -348,7 +348,7 @@ copyright guide:
       - name: DMCA
         url: /copyright/guide.html#dmca
   - subsection: Teaching
-    url: /copyright/guide.html#teaching
+    link: /copyright/guide.html#teaching
     subpages:
       - name: Face-to-Face Instruction
         url: /copyright/guide.html#face
@@ -365,7 +365,7 @@ copyright guide:
       - name: Plagiarism
         url: /copyright/guide.html#plagiarism
   - subsection: Research
-    url: /copyright/guide.html#research
+    link: /copyright/guide.html#research
     subpages:
       - name: Authors' Rights
         url: /copyright/guide.html#authors
@@ -382,9 +382,11 @@ copyright guide:
       - name: Sample Permission Letter
         url: /copyright/guide.html#sample
   - subsection: FAQ
-    url: /copyright/guide.html#faq
+    link: /copyright/guide.html#faq
   - subsection: Acknowledgements
-    url: /copyright/guide.html#acknowledgements
+    link: /copyright/guide.html#acknowledgements
+  - subsection: << Services
+    link: /services/
 
 special collections:
   - subsection: Special Collections Home
