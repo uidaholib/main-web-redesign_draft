@@ -1,21 +1,18 @@
 about:
   - subsection: About Home
     link: /about/
-  - subsection: Welcome
-    link: /about/welcome.html
-    subpages:
-      - name: Welcome
-        url: /about/welcome.html
-      - name: Recognizing our Faculty
-        url: /recognitions/
-      - name: Featured Researchers
-        url: /recognitions/featured-researchers.html  
-  - subsection: Contact/Directions
-    link: /about/directions.html
-  - subsection: Overnight Parking
-    link: /about/overnightparking.html
+  - subsection: Contact
+    link: /about/contact.html
   - subsection: Departments
     link: /about/departments.html
+  - subsection: Directions &amp; Parking
+    link: /about/directions.html
+  - subsection: Floor Maps
+    link: maps.html
+  - subsection: Giving
+    link: /giving/
+  - subsection: Hours
+    link: /about/hours.html
   - subsection: People
     link: /about/directory.html
     subpages:
@@ -48,16 +45,20 @@ about:
         url: /about/policies.html#collmanage
   - subsection: Reports and Statistics
     link: /about/statistics.html
-  - subsection: Subject Liaisons
-    link: /about/liaisons.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
-  - subsection: Floor Maps
-    link: maps.html
-  - subsection: Giving
-    link: /giving/
-  - subsection: Hours
-    link: /about/hours.html
+  - subsection: Subject Liaisons
+    link: /about/liaisons.html
+  - subsection: Welcome
+    link: /about/welcome.html
+    subpages:
+      - name: Welcome
+        url: /about/welcome.html
+      - name: Recognizing our Faculty
+        url: /recognitions/
+      - name: Featured Researchers
+        url: /recognitions/featured-researchers.html  
+
 find:
   - subsection: Articles
     link: /find/articles.html
