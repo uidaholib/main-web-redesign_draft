@@ -1,21 +1,18 @@
 about:
   - subsection: About Home
     link: /about/
-  - subsection: Welcome
-    link: /about/welcome.html
-    subpages:
-      - name: Welcome
-        url: /about/welcome.html
-      - name: Recognizing our Faculty
-        url: /recognitions/
-      - name: Featured Researchers
-        url: /recognitions/featured-researchers.html  
-  - subsection: Contact/Directions
-    link: /about/directions.html
-  - subsection: Overnight Parking
-    link: /about/overnightparking.html
+  - subsection: Contact
+    link: /about/contact.html
   - subsection: Departments
     link: /about/departments.html
+  - subsection: Directions &amp; Parking
+    link: /about/directions.html
+  - subsection: Floor Maps
+    link: maps.html
+  - subsection: Giving
+    link: /giving/
+  - subsection: Hours
+    link: /about/hours.html
   - subsection: People
     link: /about/directory.html
     subpages:
@@ -48,16 +45,20 @@ about:
         url: /about/policies.html#collmanage
   - subsection: Reports and Statistics
     link: /about/statistics.html
-  - subsection: Subject Liaisons
-    link: /about/liaisons.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
-  - subsection: Floor Maps
-    link: maps.html
-  - subsection: Giving
-    link: /giving/
-  - subsection: Hours
-    link: /about/hours.html
+  - subsection: Subject Liaisons
+    link: /about/liaisons.html
+  - subsection: Welcome
+    link: /about/welcome.html
+    subpages:
+      - name: Welcome
+        url: /about/welcome.html
+      - name: Recognizing our Faculty
+        url: /recognitions/
+      - name: Featured Researchers
+        url: /recognitions/featured-researchers.html  
+
 find:
   - subsection: Articles
     link: /find/articles.html
@@ -256,13 +257,96 @@ help:
   - subsection: Site Search
     link: /help/search.html
 
+data management guide:
+  - subsection: Intro and Contents
+    link: /services/data/data-management/index.html#home
+  - subsection: Data Management Planning
+    link: /services/data/data-management/index.html#planning
+    subpages:
+      - name: Why Manage Your Data?
+        url: /services/data/data-management/index.html#why
+      - name: Funding Agency Guidelines
+        url: /services/data/data-management/index.html#guidelines
+      - name: Data Planning Checklist
+        url: /services/data/data-management/index.html#checklists
+      - name: Example DMPs
+        url: /services/data/data-management/index.html#examples
+  - subsection: Data Documentation &amp; Metadata
+    link: /services/data/data-management/index.html#metadata
+    subpages:
+      - name: What is Metadata?
+        url: /services/data/data-management/index.html#whatis
+      - name: Commonly Used Standards
+        url: /services/data/data-management/index.html#standards
+      - name: Best Practices
+        url: /services/data/data-management/index.html#bestpractices
+  - subsection: Data Sharing &amp; Preservation
+    link: /services/data/data-management/index.html#storing
+    subpages:
+      - name: File Formats
+        url: /services/data/data-management/index.html#formats
+      - name: File and Folder Naming
+        url: /services/data/data-management/index.html#naming
+      - name: Storing (Short-Term)
+        url: /services/data/data-management/index.html#storing_short
+      - name: Storing (Long-Term)
+        url: /services/data/data-management/index.html#depositing
+  - subsection: Copyright &amp; Intellectual Property
+    link: /services/data/data-management/index.html#copyright_ip
+  - subsection: Data Citation
+    link: /services/data/data-management/index.html#citation
+  - subsection: Contact Us
+    link: /services/data/data-management/index.html#contact
+  - subsection: Acknowledgements
+    link: /services/data/data-management/index.html#acknowledgements
+  - subsection: << Data Services Home
+    link: /services/data/
+
+giving:
+  - subsection: Give to the Library
+    link: /giving/
+  - subsection: Why We Give
+    link: /giving/why.html
+  - subsection: Ways to Give
+    link: /giving/ways.html
+  - subsection: Endowments
+    link: /giving/endowments.html
+  - subsection: Library Associates
+    link: /giving/associates.html
+  - subsection: << About
+    link: /about/
+
+hours:
+  - subsection: Semester Hours
+    link: /about/hours.html#semester
+  - subsection: Summer Hours
+    link: /about/hours.html#summer
+  - subsection: Reference Desk
+    link: /about/hours.html#reference
+  - subsection: Special Collections
+    link: /about/hours.html#special
+  - subsection: Reduced Hours &amp; Closures
+    link: /about/hours.html#reduced
+  - subsection: Interlibrary Loan
+    link: /about/hours.html#ill
+  - subsection: << About
+    link: /about/
+
+floor maps:
+  - subsection: Floor Maps
+    link: /maps.html
+  - subsection: Call Number Information
+    link: /find/lc.html
+  - subsection: << About
+    link: /about/
+  
 copyright guide:
   - subsection: UI Copyright Policy
-    url: /copyright/guide.html#ui
+    link: /copyright/guide.html#ui
   - subsection: Contents
-    url: /copyright/guide.html#contents
+    link: /copyright/guide.html#contents
   - subsection: Copyright Basics
-    url: /copyright/guide.html#basics
+    link: /copyright/guide.html#basics
     subpages:
       - name: What Is Copyright?
         url: /copyright/guide.html#whatis
@@ -273,7 +357,7 @@ copyright guide:
       - name: DMCA
         url: /copyright/guide.html#dmca
   - subsection: Teaching
-    url: /copyright/guide.html#teaching
+    link: /copyright/guide.html#teaching
     subpages:
       - name: Face-to-Face Instruction
         url: /copyright/guide.html#face
@@ -290,7 +374,7 @@ copyright guide:
       - name: Plagiarism
         url: /copyright/guide.html#plagiarism
   - subsection: Research
-    url: /copyright/guide.html#research
+    link: /copyright/guide.html#research
     subpages:
       - name: Authors' Rights
         url: /copyright/guide.html#authors
@@ -307,9 +391,11 @@ copyright guide:
       - name: Sample Permission Letter
         url: /copyright/guide.html#sample
   - subsection: FAQ
-    url: /copyright/guide.html#faq
+    link: /copyright/guide.html#faq
   - subsection: Acknowledgements
-    url: /copyright/guide.html#acknowledgements
+    link: /copyright/guide.html#acknowledgements
+  - subsection: << Services
+    link: /services/
 
 special collections:
   - subsection: Special Collections Home
