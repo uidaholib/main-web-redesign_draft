@@ -17,7 +17,7 @@ layout: page
 <div class="card mt-3 mb-2">
     <div class="card-header">
         <h6 class="card-title">
-            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
+            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }}<span class="fas fa-chevron-down smalltxt"></span></a>
         </h6>
     </div>
     <div id="collapse{{ id }}{{ forloop.index }}" class="collapse">
