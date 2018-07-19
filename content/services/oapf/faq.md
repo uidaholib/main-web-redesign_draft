@@ -28,8 +28,8 @@ layout: page
 {% endfor %}
 
 <div class="text-center align-content-center mt-4">
-    <a class="btn btn-secondary btn-md" role="button" style="margin:4px;" href="/services/oapf/eligibility.html"><span class="fas fa-list"></span> Eligibility</a>
-    <a class="btn btn-secondary btn-md" role="button" style="margin:4px;" href="/services/oapf/apply.html"><span class="fas fa-check"></span> Apply</a>
-	<a class="btn btn-secondary btn-md" role="button" style="margin:4px;" href="mailto:jylisadoney@uidaho.edu"><span class="fas fa-user"></span> Contact</a> 
+    <a href="/services/oapf/eligibility.html" class="btn btn-secondary btn-sm my-2 flex" role="button"><span class="fas fa-list"></span> Eligibility</a>
+    <a href="/services/oapf/apply.html" class="btn btn-secondary btn-sm my-2 flex" role="button"><span class="fas fa-check"></span> Apply</a>
+    <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2 flex" role="button"><span class="fas fa-user"></span> Contact</a> 
 </div>
 <br>
