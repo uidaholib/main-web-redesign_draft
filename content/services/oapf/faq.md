@@ -25,6 +25,7 @@ layout: page
         <div class="card-body">{{ q.answer }}</div>
     </div>
 </div>
+</div>    
 {% endfor %}
 {% endfor %}
 
