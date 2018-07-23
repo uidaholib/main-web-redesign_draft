@@ -117,6 +117,7 @@ find:
     link: http://libguides.uidaho.edu/index.php?
   - subsection: Theses & Dissertations
     link: /find/etds.html
+
 services:
   - subsection: Borrow/Renew
     link: /services/borrow/
@@ -220,6 +221,7 @@ services:
         url: /services/workshops/
       - name: Resources
         url: /services/workshops/resources.html
+
 collections:
   - subsection: Special Collections & Archives
     link: /special-collections/
@@ -241,6 +243,7 @@ collections:
     link: /find/maps/
   - subsection: Alfred W. Bowers Laboratory of Anthropology
     link: https://www.uidaho.edu/class/anthrolab
+
 help:
   - subsection: Help Home
     link: /help/
@@ -323,12 +326,12 @@ hours:
     link: /about/hours.html#summer
   - subsection: Reference Desk
     link: /about/hours.html#reference
+  - subsection: Interlibrary Loan
+    link: /about/hours.html#ill
   - subsection: Special Collections
     link: /about/hours.html#special
   - subsection: Reduced Hours &amp; Closures
     link: /about/hours.html#reduced
-  - subsection: Interlibrary Loan
-    link: /about/hours.html#ill
   - subsection: << About
     link: /about/
 
