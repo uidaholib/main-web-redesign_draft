@@ -254,6 +254,8 @@ help:
     link: /help/frap.html
   - subsection: Chat (IM) & Text
     link: /help/chat.html
+  - subsection: Site Search
+    link: /help/search.html
 
 data management guide:
   - subsection: Intro and Contents
