@@ -446,8 +446,6 @@ special collections:
         url: /special-collections/searchtools.html
       - name: Photo Search
         url: /special-collections/histphoto/
-      - name: Argonaut
-        url: /find/argonaut.html
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
