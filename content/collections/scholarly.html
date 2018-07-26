@@ -7,6 +7,8 @@ permalink: /collections/scholarly.html
 
 {% assign collections = site.data.collections-index %}
 
+{% include collections-sm-nav.html %}
+
     <div class="row justify-content-center">
         {% for c in collections %}
         {% if c.category == 'scholarly' %}
