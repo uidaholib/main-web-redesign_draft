@@ -1,0 +1,27 @@
+---
+title: Idaho Collections
+layout: page
+section: collections
+permalink: /collections/idaho.html 
+--- 
+
+{% assign collections = site.data.collections-index %}
+
+{% include collections-sm-nav.html %}
+
+    <div class="row justify-content-center">
+        {% for c in collections %}
+        {% if c.category == 'idaho' %}
+        <div class="col-md-6">
+            <div class="card my-2">
+                <img class="card-img-top" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image cap">
+                <div class="card-body text-center">
+                    <h5 class="card-title font-weight-bold">{{ c.collection }}</h5>
+                    <p class="card-text">{{ c.description }}</p>
+                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue" target="_blank">View Collection</a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>

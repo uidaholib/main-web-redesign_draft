@@ -319,6 +319,18 @@ giving:
   - subsection: << About
     link: /about/
 
+collections:
+  - subsection: Collections Home
+    link: /collections/
+  - subsection: Campus
+    link: /collections/campus.html
+  - subsection: Digital
+    link: /collections/digital.html
+  - subsection: Scholarly
+    link: /collections/scholarly.html
+  - subsection: Idaho
+    link: /collections/idaho.html
+
 hours:
   - subsection: Semester Hours
     link: /about/hours.html#semester
@@ -412,8 +424,6 @@ special collections:
         url: /special-collections/plan.html
       - name: Reading Room Rules
         url: /special-collections/rules.html
-      - name: Arcadia Press Book
-        url: /special-collections/arcadia.html
   - subsection: Collections
     url: /special-collections/description.html
     subpages:
@@ -436,8 +446,6 @@ special collections:
         url: /special-collections/searchtools.html
       - name: Photo Search
         url: /special-collections/histphoto/
-      - name: Argonaut
-        url: /find/argonaut.html
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
@@ -449,8 +457,6 @@ special collections:
         url: /special-collections/uibibliography.html
       - name: Useful Links
         url: /special-collections/usefullinks.html
-  - subsection: Primary Sources
-    link: /special-collections/primary.html
   - subsection: Donations
     link: /special-collections/donations.html
   - subsection: Contact Us
