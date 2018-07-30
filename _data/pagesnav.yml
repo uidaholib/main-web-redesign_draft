@@ -222,28 +222,6 @@ services:
       - name: Resources
         url: /services/workshops/resources.html
 
-collections:
-  - subsection: Special Collections & Archives
-    link: /special-collections/
-  - subsection: Digital Collections
-    link: /digital/
-  - subsection: Theses & Dissertations
-    link: /find/etds.html
-  - subsection: Gov. Documents
-    link: /find/govdocs/
-  - subsection: Gary Strong Curriculum Center
-    link: /services/curriculumcenter.html
-  - subsection: INSIDE Idaho
-    link: http://inside.uidaho.edu/
-  - subsection: VIVO - Institutional Repository
-    link: http://vivo.nkn.uidaho.edu/vivo/
-  - subsection: International Jazz Collections
-    link: http://www.ijc.uidaho.edu/
-  - subsection: Maps
-    link: /find/maps/
-  - subsection: Alfred W. Bowers Laboratory of Anthropology
-    link: https://www.uidaho.edu/class/anthrolab
-
 help:
   - subsection: Help Home
     link: /help/
@@ -318,6 +296,18 @@ giving:
     link: /giving/associates.html
   - subsection: << About
     link: /about/
+
+collections:
+  - subsection: Collections Home
+    link: /collections/
+  - subsection: Campus
+    link: /collections/campus.html
+  - subsection: Digital
+    link: /collections/digital.html
+  - subsection: Scholarly
+    link: /collections/scholarly.html
+  - subsection: Idaho
+    link: /collections/idaho.html
 
 hours:
   - subsection: Semester Hours
@@ -412,8 +402,6 @@ special collections:
         url: /special-collections/plan.html
       - name: Reading Room Rules
         url: /special-collections/rules.html
-      - name: Arcadia Press Book
-        url: /special-collections/arcadia.html
   - subsection: Collections
     url: /special-collections/description.html
     subpages:
@@ -436,8 +424,6 @@ special collections:
         url: /special-collections/searchtools.html
       - name: Photo Search
         url: /special-collections/histphoto/
-      - name: Argonaut
-        url: /find/argonaut.html
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
@@ -449,8 +435,6 @@ special collections:
         url: /special-collections/uibibliography.html
       - name: Useful Links
         url: /special-collections/usefullinks.html
-  - subsection: Primary Sources
-    link: /special-collections/primary.html
   - subsection: Donations
     link: /special-collections/donations.html
   - subsection: Contact Us
