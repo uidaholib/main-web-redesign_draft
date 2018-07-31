@@ -44,6 +44,7 @@ layout: page
 
 		<p>A 5-station computer lab with one black and white printer is available for all University of Idaho students to use on a first-come, first-serve basis.</p>
 
+		<hr>
 <!-- primo search -->
 <script type="text/javascript">
 	function enterKey(evt) {
@@ -68,14 +69,26 @@ layout: page
 	return true;
 	}
 </script>
-<div id="searchbox_outline" style="height:35px;">
-
-<form  name="searchForm" method="get" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8"  id="searchForm"  onsubmit="searchPrimo()"  style="width: 100%; float: left; font-size:20px;" target="_blank">
+<div class="card">
+<div class="card body">
+<form  name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm"  onsubmit="searchPrimo()"><label style="margin-right:5px"> Search </label>
+              <select id="primoFieldTemp" class="EXLSelectTag fixed">
+                <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
+                  All Fields</option>
+                <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
+                  in the title</option>
+  
+                <option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
+                  authors</option>
+  
+                <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
+                  in subject</option>
+  
+              </select>
+              <label> for items containing: </label>
 
 	<input type="hidden" name="institution" value="UID">
 	<input type="hidden" name="vid" value="IMTC">		 
-
-	<p style="text-align: center;">
 	<input type="hidden" name="tab" value="imtc" >
 	<input type="hidden" name="search_scope" value="everything" id="scopedefiner">
 	<input type="hidden" id="indx" name="indx" value="1"/>
@@ -93,17 +106,16 @@ layout: page
 
 
 	<input id="goButton"  class="btn btn-pride-gold" title="Search" type="submit" value="Go" alt="Search"><br>
-	 Use this search box to look&nbsp;for books in the Curriculum Center. <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a>
+	 Use this search box to look&nbsp;for books in the Curriculum Center.<br> <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a>
 	&nbsp;</p>
 
 	</form>
-
 </div>
-
+</div>
 
 <div class="card my-2">
 	<div class="card-header">
-	  <h3 class="card-title text-center mb-0">For more information about the Curriculum Center:</h3>
+	  <h4 class="card-title text-center mb-0">For more information about the Curriculum Center:</h4>
 	
 
 		   <div class="text-center">
@@ -111,7 +123,7 @@ layout: page
 
 		</div>
 	<div class="card-body">  
-		 <h4>Or skip directly to the section you need:</h4>
+		 <h5>Or skip directly to the section you need:</h5>
 
 		 <ul><li ><a href="http://libguides.uidaho.edu/c.php?g=363138&p=2452980" >
 		Curriculum Center Policies</a></li>
