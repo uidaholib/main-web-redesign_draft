@@ -14,9 +14,9 @@ layout: page
 {% assign section = site.data.UI-OAPF_FAQ | where: "category", c %}
 {% assign id = forloop.index %}
 {% for q in section %}
-<div class="card mt-3 mb-2">
+<div class="card my-2">
     <div class="card-header">
-        <h6 class="card-title">
+        <h6 class="card-title mb-0">
             <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
         </h6>
     </div>
