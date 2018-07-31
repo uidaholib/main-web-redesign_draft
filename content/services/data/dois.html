@@ -10,21 +10,25 @@ layout: page
 	<div class="row">
 		<div class="col-md-12">
 			 
-			<div class="card my-3">
+			<div id="accordion">
+			<div class="card my-2">
     			<div class="card-header">
-					<h4 class="card-title">What is a DOI?</h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">What is a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 				</div>
+				<div id="collapseOne" class="collapse show" data-parent="#accordion">
 				<div class="card-body">
 					<p>A <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifier (DOI)</a> is an unique, alphanumeric string of characters used to persistently identify an electronic object, such as an article, book, or dataset. The standard is managed by the <a href="http://www.doi.org/index.html">International DOI Foundation</a>.</p>
 					<p >A DOI is not a URL, but provides a persistent link to the digital item on the web using a <em>resolver service</em>. Adding a DOI to the resolver's URL will redirect a browser to the current landing page describing the digital object. This helps ensure your citation will not become a broken link.</p> 
 					<p >For example, the DOI <code>10.1002/jwmg.72</code> can be resolved at the URL <a href="http://doi.org/10.1002/jwmg.72">http://doi.org/10.1002/jwmg.72</a></p>
 				</div>
 			</div>
+			</div>
 
-			<div class="card my-3">
+			<div class="card my-2">
 				<div class="card-header">
-					<h4 class="card-title">Why use a DOI?</h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Why use a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 				</div>
+				<div id="collapseTwo" class="collapse show" data-parent="#accordion">
 				<div class="card-body">
 					<p >While the use of DOI is common for academic journal articles, there is a growing demand to issue DOI for datasets. Potential benefits include:
 					<ul>
@@ -35,11 +39,13 @@ layout: page
 					</ul></p>
 				</div>
 			</div>
+			</div>
 
-			<div class="card my-3">
+			<div class="card my-2">
 				<div class="card-header">
-					<h4 class="card-title">Can you issue me a DOI?</h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Can you issue me a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 				</div>
+				<div id="collapseThree" class="collapse show" data-parent="#accordion">
 				<div class="card-body">
 					<p >Yes!</p> 
 					<p >If you have a dataset or other digital object that would benefit from a persistent identifier, University of Idaho's <a href="https://www.northwestknowledge.net/">Northwest Knowledge Network (NKN)</a> is able to issue DOI using the <a href="http://ezid.cdlib.org/learn/">EZID</a> service.</p> 
@@ -52,15 +58,14 @@ layout: page
 					<p >If your dataset is hosted in the NKN data repository, these criteria are met! For questions or other use cases, please contact Jeremy Kenyon (<a href="mailto:jkenyon@uidaho.edu">jkenyon@uidaho.edu</a>) to obtain a DOI.</p>
 				</div>
 			</div>
+			</div>
 
 			<div class="card my-2">
     			<div class="card-header">
-					<h4 class="card-title"><a href="#metadata" data-toggle="collapse">Required metadata » </a></h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">Required metadata <span class="fas fa-chevron-down smalltxt"></span></a></h5>
             	</div>
-				
-				<div id="metadata" class="card-collapse collapse">
-				
-					<div class="card-body">
+				<div id="collapseFour" class="collapse" data-parent="#accordion">
+				<div class="card-body">
 						<p >At minimum DOI require the mandatory fields of the <a href="http://schema.datacite.org/">DataCite Metadata Schema</a>. This includes: 
 						<dl>
 							<dt>Location URL</dt>
@@ -83,11 +88,9 @@ layout: page
 
 			<div class="card my-2">
     			<div class="card-header">
-					<h4 class="card-title"><a href="#citing" data-toggle="collapse">How to cite data with DOI » </a></h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">How to cite data with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 				</div>
-			 
-				<div id="citing" class="card-collapse collapse">
-	
+				<div id="collapseFive" class="collapse" data-parent="#accordion">
 					<div class="card-body">
 						<p >Citing datasets is essential for reproducable research, ensuring sources can be validated, creators get credit, and impact can be measured. DOI help create unambiguous citations to datasets. As with traditional resources, data citations should include the information necessary to identify and locate the source, generally including Creator, Publication Year, Title, Publisher, and Identifier.</p> 
 						<p>For example:</p>
@@ -101,11 +104,9 @@ layout: page
 
 			<div class="card my-2">
 				<div class="card-header">
-					<h4 class="card-title"><a href="#example" data-toggle="collapse">Example dataset with DOI » </a></h4>
+					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">Example dataset with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 				</div>
-						
-				<div id="example" class="card-collapse collapse">
-				
+				<div id="collapseSix" class="collapse" data-parent="#accordion">		
 					<div class="card-body">
 						<p >The basic life cycle for a DOI is outlined below using a dataset from University of Idaho researchers as an example. Most of these steps are completed by the EZID service or repository stewards, but illustrate how a DOI works in the background. 
 						<ol>
@@ -117,6 +118,7 @@ layout: page
 						</p>
 					</div>
             	</div>
+			</div>
 			</div>
 		</div>
 
