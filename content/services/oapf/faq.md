@@ -17,7 +17,7 @@ layout: page
 <div class="card mt-3 mb-2">
     <div class="card-header">
         <h6 class="card-title">
-            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }}<span class="fas fa-chevron-down smalltxt"></span></a>
+            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
         </h6>
     </div>
     <div id="collapse{{ id }}{{ forloop.index }}" class="collapse">
@@ -28,8 +28,8 @@ layout: page
 {% endfor %}
 
 <div class="text-center align-content-center mt-4">
-    <a href="/services/oapf/eligibility.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-list"></span> Eligibility</a>
-    <a href="/services/oapf/apply.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-check"></span> Apply</a>
+    <a href="eligibility.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-list"></span> Eligibility</a>
+    <a href="apply.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-check"></span> Apply</a>
     <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-user"></span> Contact</a> 
 </div>
 <br>
