@@ -6,7 +6,9 @@ layout: page
 ---
 <div class="row">{% include js/primosearch.js%}
   <div class="col-md-9">
-    <h3>Search the catalog for books ...</h3>
+    <h3 class="py-3">Search the catalog for books ...</h3>
+    <div class="card">
+      <div class="card-body">
     <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
       class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
       <label style="margin-right:5px"> Search </label>
@@ -35,10 +37,13 @@ layout: page
   <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
     </form>
     <a class="text-right" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced"
-      style="margin:2% 10% 0%">
+      style="margin:2% 10% 0%" target="_blank">
       Advanced Search</a>
+    </div>
+    </div>
+
       <p class="mt-2">To find where a book is located in the library,
-          <a href="/about/maps.html">consult the floor maps of our library</a>.</p>
+          <a href="{{ 'maps.html' | absolute_url }}">consult the floor maps of our library</a>.</p>
     <p>
       <small>Note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday
         to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing
@@ -51,13 +56,14 @@ layout: page
       <a href="http://libguides.uidaho.edu/eBooks" class="btn btn-clearwater btn-md my-2" role="button" target="_blank">Visit our eBook Guide</a>
     </div>
   </div>
+  
   <div class="col-md-3">
-    <img class="img-fluid" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library"
-    />
-
-
-    <p>Books in the University of Idaho Library are organized by
-      <a href="/find/lc.html">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
-      <a href="http://libguides.uidaho.edu/content.php?pid=433863&sid=3559564">click here</a>.</p>
+    <div class="card">
+        <img class="card-img-top" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library">
+        <div class="card-body text-center">
+            <p class="card-text">Books in the University of Idaho Library are organized by
+                <a href="{{ '/find/lc.html' | absolute_url }}">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
+                <a href="http://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank">click here</a>.</p>
+        </div>
     </div>
 </div>
