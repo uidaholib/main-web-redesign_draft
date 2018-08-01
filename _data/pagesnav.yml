@@ -300,12 +300,8 @@ giving:
 collections:
   - subsection: Collections Home
     link: /collections/
-  - subsection: Campus
-    link: /collections/campus.html
   - subsection: Digital
     link: /collections/digital.html
-  - subsection: Scholarly
-    link: /collections/scholarly.html
   - subsection: Idaho
     link: /collections/idaho.html
 
