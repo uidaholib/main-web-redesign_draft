@@ -1,8 +1,8 @@
 ---
-title: Scholarly Collections
+title: Physical Collections
 layout: page
 section: collections
-permalink: /collections/scholarly.html 
+permalink: /collections/physical.html 
 --- 
 
 {% assign collections = site.data.collections-index %}
@@ -11,7 +11,7 @@ permalink: /collections/scholarly.html
 
 <div class="row justify-content-center">
     {% for c in collections %}
-    {% if c.category == 'scholarly' %}
+    {% if c.category == 'physical' %}
         <div class="col-md-5">
             <div class="card my-2">
                 <div class="card-header text-center">
