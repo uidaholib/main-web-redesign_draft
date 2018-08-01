@@ -9,61 +9,24 @@ permalink: /collections/
 
 {% include collections-sm-nav.html %}
 
-<p class="py-3">The University of Idaho Library facilitates access to many diverse collections. Explore collections that span a variety of topics and formats, including <a href="campus.html">physical</a> and <a href="digital.html">digital</a> resources as well as collections that preserve <a href="scholarly.html">scholarly</a> information and document <a href="idaho.html">Idaho's</a> past.</p>
-
+<p class="py-3">The University of Idaho Library facilitates access to many diverse collections. Explore collections that span a variety of topics and formats, including <a href="physical.html">physical</a> and <a href="digital.html">digital</a> campus resources as well as collections that preserve and document <a href="idaho.html">Idaho's</a> past.</p>
 
 <div class="row justify-content-center">
-    <div class="col-md-5">
-        <a href="{{ '/special-collections/' | absolute_url }}">
+    {% for c in collections %}
+        <div class="col-md-5">
             <div class="card my-2">
                 <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold">Special Collections</h5>
+                    <h5 class="card-title font-weight-bold mb-0">{{ c.collection }}</h5>
                 </div>
                 <div class="card-body text-center">
-                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/oldadmin.jpg" alt="Card image">
+                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image">
+                    <hr>
+                    <p class="card-text">{{ c.description }}</p>
+                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue" target="_blank">View Collection</a>
                 </div>
             </div>
-        </a>
-    </div>
-
-    <div class="col-md-5">
-        <a href="digital.html">
-            <div class="card my-2">
-                <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold">Digital Collections</h5>
-                </div>
-                <div class="card-body text-center">
-                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/fatmen.jpg" alt="Card image">
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-5">
-        <a href="campus.html">
-            <div class="card my-2">
-                <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold">Campus Collections</h5>
-                </div>
-                <div class="card-body text-center">
-                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/stacks.jpg" alt="Card image">
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-5">
-        <a href="idaho.html">
-            <div class="card my-2">
-                <div class="card-header text-center mb-0">
-                    <h5 class="card-title font-weight-bold">Idaho Collections</h5>
-                </div>
-                <div class="card-body text-center">
-                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/congress.jpeg" alt="Card image">
-                </div>
-            </div>
-        </a>
-    </div>
+        </div>
+    {% endfor %}
 </div>
 
 
