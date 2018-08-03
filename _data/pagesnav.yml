@@ -392,7 +392,7 @@ copyright guide:
 
 special collections:
   - subsection: Special Collections Home
-    link: /special-collections/index.html
+    link: /special-collections/
   - subsection: About
     link: /special-collections/about.html
     subpages:
