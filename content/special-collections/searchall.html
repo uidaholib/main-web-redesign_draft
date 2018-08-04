@@ -6,18 +6,13 @@ permalink: /special-collections/searchall.html
 ---
 
     
-    
-            
-            
-      
-
-      <div class="container pagecontent" id="scrollnav">
-	 
-		<div class="row">
-	<div class="col-md-12 hidden-xs mb-4">
-	
-		<img class="img-fluid" src="https://www.lib.uidaho.edu//images/spec_crop2.jpg" alt="image title here">
-	  </div></div>
+<div class="d-none d-sm-none d-md-block">
+	<div class="row">
+		<div class="col-md-12 mb-4">
+			<img class="img-fluid" src="https://www.lib.uidaho.edu//images/spec_crop2.jpg" alt="image title here">
+		</div>
+	</div>
+</div>
 	 
 	
 	
@@ -26,37 +21,50 @@ permalink: /special-collections/searchall.html
 		  <div class="card mb-3">
 			<div class="card-body text-center">
 	
-			  <form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search our finding aids on
-				<a id="popover1" class="instructions" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true"
-				  data-original-title="About the NWDA" data-content="
-							<p > Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also <a href='/special-collections/search.php?'>search our website</a>, or contact <a href='/special-collections/contactus.html'>our staff</a> for additional assistance</a>. ">
-				  Archives West</a>:
-				<input id="searchValue" name="q" type="text"> &nbsp;&nbsp;
-				<input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
-				<input id="t" name="t" type="hidden" value="k">
-				<input id="c" name="c" type="hidden" value="ntd">
-			  </form>
+					<form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search for our finding aids on
+            <a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>:
+            <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h3 class="modal-title">About the NWDA</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!--end modal-header-->
+                  <div class="modal-body text-center">
+                    <p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Nortwest. This search box will take you to their website, searching only our holdings. You may also <a href='/special-collections/search.php?'>search our website</a>, or contact <a href='contactus.html'>our staff</a> for additional assistance</a>.</p>
+                  </div>
+                  <!--end modal-body-->
+                </div>
+                <!--end modal-content-->
+              </div>
+            </div>
+            <!--end modal-->
+
+            <input id="searchValue" name="q" type="text"> &nbsp;&nbsp;
+            <input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
+            <input id="t" name="t" type="hidden" value="k">
+            <input id="c" name="c" type="hidden" value="ntd">
+          </form>
+        </div>
+      </div>
+    </div>
+	</div>
 	
-	
-	
-			</div>
-		  </div>
-		</div>
-	
-	
-	  </div>
 		<div class="row">
 
 				<div class="col-md-6">
 		
 					<div class="card card-default">
-						<div class="card-header" >
+						<div class="card-header text-center">
 							<h3 class="card-title">Understanding Our Collections</h3>
 						</div>
 						<div class="card-body">
 							<p>Below is a searchable and sortable table listing collections by title, group number, and resource links. The links point to a finding aid, which is a description of the collection and what it contains. In cases where that collection has been digitized, a link to a digital collection is also included. You can also use the buttons below to limit the table to display only a specific group of collection (photo, manuscript, or university).</p>
 
-							<p>For further help, contact Special Collections via email at <a href='mailto:libspec@uidaho.edu'>libspec@uidaho.edu</a> or by phone at (208)885-0845</p>
+							<p>For further help, contact Special Collections via email at <a href='mailto:libspec@uidaho.edu'>libspec@uidaho.edu</a> or by phone at <a href="tel:+1-208-885-0845">(208) 885-0845</a></p>
 							
 								
 						</div>
@@ -66,11 +74,11 @@ permalink: /special-collections/searchall.html
 				<div class="col-md-6">
 		
 						<div class="card card-default">
-							<div class="card-header" >
+							<div class="card-header text-center">
 								<h3 class="card-title">How To Use the Table Below</h3>
 							</div>
 							<div class="card-body">
-									<p>Below is a table listing all collections that we currently have available via our website. Some collections are still being processed, so it is always a good idea to <a href='mailto:libspec@uidaho.edu'>contact the Special Collections &amp; Archives Staff</a> for further assistance. </p>
+									<p>Below is a table listing all collections that we currently have available via our website. Some collections are still being processed, so it is always a good idea to <a href='mailto:libspec@uidaho.edu'>contact the Special Collections and Archives Staff</a> for further assistance. </p>
 								
 									
 							</div>
@@ -113,19 +121,7 @@ How To Use the Table Below
           <!--  Table -->   <!--#include virtual="/special-collections/tables/alltable.txt" --> <!-- END Table -->
                    
                
-             
-               
-       				
-    
 
-            </div>
-            </div>
-	  	
-</div>
-
-
-                   
-                </div>
             
              
 											
