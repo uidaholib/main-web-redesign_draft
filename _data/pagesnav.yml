@@ -429,6 +429,8 @@ special collections:
   - subsection: Campus History
     url: /special-collections/uitimeline.html
     subpages:
+      - name: UI Timeline
+        url: /special-collections/uitimeline.html
       - name: UI Buildings
         url: /special-collections/uibuildings.html
       - name: Bibliography
