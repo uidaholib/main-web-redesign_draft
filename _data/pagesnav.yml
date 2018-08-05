@@ -423,7 +423,7 @@ special collections:
       - name: Tools Index
         url: /special-collections/searchtools.html
       - name: Photo Search
-        url: /special-collections/histphoto/
+        url: https://www.lib.uidaho.edu/special-collections/histphoto/
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
