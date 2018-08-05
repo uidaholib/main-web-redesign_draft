@@ -424,6 +424,8 @@ special collections:
         url: /special-collections/searchtools.html
       - name: Photo Search
         url: https://www.lib.uidaho.edu/special-collections/histphoto/
+      - name: Useful Links
+        url: /special-collections/usefullinks.html
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
@@ -435,8 +437,6 @@ special collections:
         url: /special-collections/uibuildings.html
       - name: Bibliography
         url: /special-collections/uibibliography.html
-      - name: Useful Links
-        url: /special-collections/usefullinks.html
   - subsection: Donations
     link: /special-collections/donations.html
   - subsection: Contact Us
