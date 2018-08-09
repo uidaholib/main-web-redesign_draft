@@ -214,6 +214,8 @@ services:
         url: /services/scholarly/openaccess.html
       - name: More
         url: /services/scholarly/resources.html
+  - subsection: Room Reservations
+    link: /services/rooms/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
