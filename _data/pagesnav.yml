@@ -56,8 +56,8 @@ about:
         url: /about/welcome.html
       - name: Recognizing our Faculty
         url: /recognitions/
-      - name: Featured Researchers
-        url: /recognitions/featured-researchers.html  
+      - name: Featured Faculty
+        url: /recognitions/featured-faculty.html  
 
 find:
   - subsection: Articles
