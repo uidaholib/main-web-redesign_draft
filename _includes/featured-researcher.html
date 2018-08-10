@@ -1,13 +1,12 @@
 {% assign researchers = site.data.vivo-featured %}
         {% for researcher in researchers %}
                     <div class="card mx-auto" id="researcher-{{ researcher.last-name | downcase }}" style="display:none;max-width: 16rem;">
-                <img class="card-img-top" src="https://www.lib.uidaho.edu/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">{{ researcher.first-name }} {{ researcher.last-name }}</h5>
+                            <a href="{{ researcher.profile-link | absolute_url }}"><img class="card-img-top" src="https://www.lib.uidaho.edu/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <h4 class="card-title"> <a href="{{ researcher.profile-link | absolute_url }}" style="font-weight:normal"> {{ researcher.first-name }} {{ researcher.last-name }}</a></h4>
                     <p class="card-text">{{ researcher.rank }}
-                        <br /{{ researcher.department }}</p>
-                        <h4>Recent {{researcher.pub-type | capitalize}}</h4>
+                        <br /><a href="{{ researcher.dept-link }}" style="font-weight:normal;font-size:18px;">{{ researcher.department }}</a></p>
+                        <h5>Recent {{researcher.pub-type | capitalize}}</h5>
                         <p class="card-text">
 			{% if research.pub-type == "grant" %}
 			    <a href="{{ researcher.pub-link | absolute_url }} ">{{ researcher.publication}}</a></br> awarded by {{ researcher.publication-journal }}</p>
@@ -16,9 +15,9 @@
 			{% endif %}
                     <a href="{{ researcher.profile-link | absolute_url }} " class="btn btn-clearwater ">View VIVO Profile</a>
                 </div>
-            </div>
+            </div>            
         {% endfor %}
-        
+        <p class="text-center"><small><a href="{{ '/recognitions/featured-faculty.html' | relative_url }}">View All Featured Faculty</a></small></p>
 <script src="{{ "/assets/js/jquery-3.3.1.min.js" | relative_url }}"></script>
 <script>
         var researchers = [{% for researcher in researchers %}{% if forloop.last %}"{{researcher.last-name | downcase}}"{%else%}"{{researcher.last-name | downcase}}",{% endif %}{% endfor %}];

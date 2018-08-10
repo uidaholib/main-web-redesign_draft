@@ -56,8 +56,8 @@ about:
         url: /about/welcome.html
       - name: Recognizing our Faculty
         url: /recognitions/
-      - name: Featured Researchers
-        url: /recognitions/featured-researchers.html  
+      - name: Featured Faculty
+        url: /recognitions/featured-faculty.html  
 
 find:
   - subsection: Articles
@@ -169,7 +169,7 @@ services:
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
-      - name: Instruction Services
+      - name: Instruction Home
         url: /services/instruction/
       - name: Request Form
         url: /services/instruction/instrequest.html
@@ -212,8 +212,8 @@ services:
         url: /services/scholarly/publishing.html
       - name: Open Access
         url: /services/scholarly/openaccess.html
-      - name: More
-        url: /services/scholarly/resources.html
+  - subsection: Room Reservations
+    link: /services/rooms/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -376,7 +376,7 @@ copyright guide:
       - name: Open Access
         url: /copyright/guide.html#openaccess
       - name: Reversion of Rights
-        url: /copyright/guide.html#works
+        url: /copyright/guide.html#reversion
       - name: Works for Hire
         url: /copyright/guide.html#hire
       - name: Theses/Dissertations
@@ -392,7 +392,7 @@ copyright guide:
 
 special collections:
   - subsection: Special Collections Home
-    link: /special-collections/index.html
+    link: /special-collections/
   - subsection: About
     link: /special-collections/about.html
     subpages:
@@ -423,18 +423,20 @@ special collections:
       - name: Tools Index
         url: /special-collections/searchtools.html
       - name: Photo Search
-        url: /special-collections/histphoto/
+        url: https://www.lib.uidaho.edu/special-collections/histphoto/
+      - name: Useful Links
+        url: /special-collections/usefullinks.html
       - name: Site Search
         url: /help/search.html
   - subsection: Campus History
     url: /special-collections/uitimeline.html
     subpages:
+      - name: UI Timeline
+        url: /special-collections/uitimeline.html
       - name: UI Buildings
         url: /special-collections/uibuildings.html
       - name: Bibliography
         url: /special-collections/uibibliography.html
-      - name: Useful Links
-        url: /special-collections/usefullinks.html
   - subsection: Donations
     link: /special-collections/donations.html
   - subsection: Contact Us

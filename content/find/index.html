@@ -12,7 +12,7 @@ permalink: /find/
     <div class="text-center">
 
     <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Databases
         </a>
       
@@ -23,7 +23,8 @@ permalink: /find/
           <a class="dropdown-item" id="featured1" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'JSTOR']);" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
           
           <a class="dropdown-item" id="featured2" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'LexisNexis']);" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.lexisnexis.com/hottopics/lnacademic">Lexis-Nexis</a>
-
+         
+          <a class="dropdown-item" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Web of Science']);" href= http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/">Oxford English Dictionary</a>
           <a class="dropdown-item" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Web of Science']);" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS">Web of Science</a>
 
           <hr>
@@ -34,8 +35,8 @@ permalink: /find/
       </div>
 
 
-      <div class="dropdown show d-inline-flex">
-          <a class="btn btn-secondary dropdown-toggle text-white flex" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journals
+      <!--<div class="dropdown show d-inline-flex">
+          <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Journals
           </a>
         
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -55,10 +56,10 @@ permalink: /find/
             <a class="dropdown-item" href="journals.html">More Databases</a>
   
           </div>
-        </div>
+        </div>-->
 
         <div class="dropdown show d-inline-flex">
-            <a class="btn btn-secondary dropdown-toggle text-white flex" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research Guides
+            <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research Guides
             </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -81,7 +82,7 @@ permalink: /find/
           </div>
 
           <div class="dropdown show d-inline-flex">
-            <a class="btn btn-secondary dropdown-toggle text-white flex" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections
+            <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections
             </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -241,10 +242,10 @@ permalink: /find/
 
 
 <a  href="books.html" class="indexbutton"><div type="button" class="card p-2 my-2"><h5 class="card-title">Books and Ebooks</h5>   <p class="card-text">  Search our catalog for books and ebooks.  </p></div></a>
-<a  href="{{ '/digital/' | absolute_url }}" class="indexbutton"><div type="button" class="card p-2 my-2"><h5 class="card-title">Digital Collections</h5>   <p class="card-text">  Browse and search our digital collections of historical photographs, documents, and other rare and unique materials.  </p></div></a>
+<a  href="https://www.lib.uidaho.edu/digital/" class="indexbutton"><div type="button" class="card p-2 my-2"><h5 class="card-title">Digital Collections</h5>   <p class="card-text">  Browse and search our digital collections of historical photographs, documents, and other rare and unique materials.  </p></div></a>
 
 <a  href="dvds.html" class="indexbutton"><div type="button" class="card p-2 my-2" > <h5 class="card-title">DVDs</h5>   <p class="card-text">  Browse and search our list of over 5000 DVDs.</p></div></a> 
-<a  href="encyclopedias.html" class="indexbutton"><div type="button" class="card p-2 my-2" > <h5 class="card-title">Encyclopedias & Other Reference Resources</h5>   <p class="card-text">  Our reference resources include encyclopedias, dictionaries, gazeteers, glossaries, thesaurusii, indices, guide books, &amp; more.</p></div></a> 
+<a  href="encyclopedias.html" class="indexbutton"><div type="button" class="card p-2 my-2" > <h5 class="card-title">Encyclopedias & Other Reference Resources</h5>   <p class="card-text">  Our reference resources include encyclopedias, dictionaries, gazeteers, glossaries, thesaurusii, indices, guide books, and more.</p></div></a> 
 
 <a  href="geospatial/" class="indexbutton"><div type="button" class="card p-2 my-2"><h5 class="card-title">Geospatial Resources</h5>   <p class="card-text">  Browse and search our GIS and geospatial data and find out more about the software, communities, and learning opportunites available.
 </p></div></a> 
@@ -278,7 +279,7 @@ permalink: /find/
 	<hr style="margin-bottom: 10px;">
 <p style="text-align:center;margin-top:19px;">Not finding what you're looking for? <a id="request" href="request.html" >Suggest a book for us to add to our collections</a></p>
 
-	   <p style="text-align:center;;margin-top:19px;">You can also <a  id="conditions" href="other.html" >check out other libraries nearby</a>.</p>
+	   <p style="text-align:center;;margin-top:19px;">You can also <a  id="conditions" href="{{ '/services/ill/other.html' | absolute_url }}">check out other libraries nearby</a>.</p>
 	   <p style="text-align:center;font-size:smaller;margin-top:19px;"><a style="color:#333;" id="conditions" href="agreement.html" >Conditions of Use and Licensing Restrictions for Electronic Resources</a></p>
 	  	
  
