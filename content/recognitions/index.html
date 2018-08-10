@@ -8,7 +8,7 @@ permalink: /recognitions/
 {% assign years = site.data.recognitions-bookplates | map: "year" | uniq %}
 <div class="container pagecontent" id="scrollnav">
     <div class="row"  >
-        <div class="col-md-3 col-lg-3 ">
+        <!--<div class="col-md-3 col-lg-3 ">
             <div class=" bs-sidebar" data-spy="affix" data-offset-top="230" id="my-nav" style="width:215px;">
                 <ul class="nav bs-sidenav" >
                     <li><a href="#about">Bookplates for Faculty</a></li>
@@ -17,9 +17,9 @@ permalink: /recognitions/
                     {% endfor %}
                 </ul>    
             </div>
-        </div>
+        </div>-->
                                 
-        <div class="col-md-9 col-lg-9 my-content">
+        <div class="col-12">
             <section id="about">
                 <br>
                 <h2>Acknowledging our Faculty</h2>
@@ -30,18 +30,23 @@ permalink: /recognitions/
                 </div>
             </section>
             {% for y in years %}
-            <section id="{{ y }}">
-                <div class="audiencerightcol1" style="margin-right: 30px;">
-                    <h2>{{ y }}</h2>
-                    {% assign promos = site.data.recog | where: "year", y %}
-                    {% for p in promos %}{%- if p.book -%}
-                    <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
-                    <ul style="margin-left: 15px;">
-                        <li>{{ p.book }}</li>
-                    </ul>
-                    {% endif %}{% endfor %}
-                </div>
-            </section>
+            <div class="card my-2">
+                    <div class="card-header">
+                        <h5 class="mb-0"><a class="card-link collapsed" data-toggle="collapse" href="#collapse{{ y }}" aria-expanded="false">
+                                {{ y }} <span class="fas fa-chevron-down smalltxt"></span></a></h5></div>
+                    <div id="collapse{{ y }}" class="collapse" data-parent="#accordion" style="">
+                    <div class="card-body">
+                            {% assign promos = site.data.recognitions-bookplates | where: "year", y %}
+                            {% for p in promos %}{%- if p.book -%}
+                            <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
+                            <ul style="margin-left: 15px;">
+                                <li>{{ p.book }}</li>
+                            </ul>
+                            {% endif %}{% endfor %}
+                    </div>
+                    </div>
+                    </div>
+           
             {% endfor %}
         </div>
     </div>
