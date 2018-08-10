@@ -169,7 +169,7 @@ services:
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
-      - name: Instruction Services
+      - name: Instruction Home
         url: /services/instruction/
       - name: Request Form
         url: /services/instruction/instrequest.html
