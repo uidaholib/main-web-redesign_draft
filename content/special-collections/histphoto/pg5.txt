@@ -1,0 +1,1258 @@
+<tr class="r1"><td>5-001-01</td><td><img style="max-width: 800px;" src="5-001-01.jpg" /></td><td style="display:none">            22-Mar-1999 15:46   29</td></tr> 
+<tr class="r1"><td>5-001-02aa</td><td><img style="max-width: 800px;" src="5-001-02aa.jpg" /></td><td style="display:none">          22-Mar-1999 15:49   22</td></tr> 
+<tr class="r1"><td>5-001-02bb</td><td><img style="max-width: 800px;" src="5-001-02bb.jpg" /></td><td style="display:none">          22-Mar-1999 15:51   29</td></tr> 
+<tr class="r1"><td>5-001-02c</td><td><img style="max-width: 800px;" src="5-001-02c.jpg" /></td><td style="display:none">           22-Mar-1999 15:54   46</td></tr> 
+<tr class="r1"><td>5-001-02d</td><td><img style="max-width: 800px;" src="5-001-02d.jpg" /></td><td style="display:none">           22-Mar-1999 15:56   31</td></tr> 
+
+<tr class="r1"><td>5-001-03a</td><td><img style="max-width: 800px;" src="5-001-03a.jpg" /></td><td style="display:none">           22-Mar-1999 15:59   36</td></tr> 
+<tr class="r1"><td>5-001-03b</td><td><img style="max-width: 800px;" src="5-001-03b.jpg" /></td><td style="display:none">           22-Mar-1999 16:01   35</td></tr> 
+<tr class="r1"><td>5-001-04a</td><td><img style="max-width: 800px;" src="5-001-04a.jpg" /></td><td style="display:none">           22-Mar-1999 16:03   22</td></tr> 
+<tr class="r1"><td>5-001-04b</td><td><img style="max-width: 800px;" src="5-001-04b.jpg" /></td><td style="display:none">           22-Mar-1999 16:06   28</td></tr> 
+<tr class="r1"><td>5-001-04c</td><td><img style="max-width: 800px;" src="5-001-04c.jpg" /></td><td style="display:none">           22-Mar-1999 16:08   38</td></tr> 
+
+<tr class="r1"><td>5-001-04d</td><td><img style="max-width: 800px;" src="5-001-04d.jpg" /></td><td style="display:none">           22-Mar-1999 16:11   37</td></tr> 
+<tr class="r1"><td>5-001-05a</td><td><img style="max-width: 800px;" src="5-001-05a.jpg" /></td><td style="display:none">           22-Mar-1999 16:13   24</td></tr> 
+<tr class="r1"><td>5-001-05b</td><td><img style="max-width: 800px;" src="5-001-05b.jpg" /></td><td style="display:none">           22-Mar-1999 16:16   39</td></tr> 
+<tr class="r1"><td>5-001-05c</td><td><img style="max-width: 800px;" src="5-001-05c.jpg" /></td><td style="display:none">           22-Mar-1999 16:19   30</td></tr> 
+<tr class="r1"><td>5-001-05d</td><td><img style="max-width: 800px;" src="5-001-05d.jpg" /></td><td style="display:none">           22-Mar-1999 16:42   34</td></tr> 
+
+<tr class="r1"><td>5-001-06a</td><td><img style="max-width: 800px;" src="5-001-06a.jpg" /></td><td style="display:none">           22-Mar-1999 16:44   31</td></tr> 
+<tr class="r1"><td>5-001-06b</td><td><img style="max-width: 800px;" src="5-001-06b.jpg" /></td><td style="display:none">           22-Mar-1999 16:46   25</td></tr> 
+<tr class="r1"><td>5-001-06c</td><td><img style="max-width: 800px;" src="5-001-06c.jpg" /></td><td style="display:none">           22-Mar-1999 16:49   15</td></tr> 
+<tr class="r1"><td>5-001-06d</td><td><img style="max-width: 800px;" src="5-001-06d.jpg" /></td><td style="display:none">           22-Mar-1999 16:51   23</td></tr> 
+<tr class="r1"><td>5-001-06e</td><td><img style="max-width: 800px;" src="5-001-06e.jpg" /></td><td style="display:none">           22-Mar-1999 16:54   41</td></tr> 
+
+<tr class="r1"><td>5-001-06f</td><td><img style="max-width: 800px;" src="5-001-06f.jpg" /></td><td style="display:none">           22-Mar-1999 16:53   31</td></tr> 
+<tr class="r1"><td>5-001-07a</td><td><img style="max-width: 800px;" src="5-001-07a.jpg" /></td><td style="display:none">           22-Mar-1999 17:00   23</td></tr> 
+<tr class="r1"><td>5-001-08a</td><td><img style="max-width: 800px;" src="5-001-08a.jpg" /></td><td style="display:none">           22-Mar-1999 17:02   39</td></tr> 
+<tr class="r1"><td>5-001-09a</td><td><img style="max-width: 800px;" src="5-001-09a.jpg" /></td><td style="display:none">           22-Mar-1999 17:04   22</td></tr> 
+<tr class="r1"><td>5-001-10a</td><td><img style="max-width: 800px;" src="5-001-10a.jpg" /></td><td style="display:none">           22-Mar-1999 17:06   26</td></tr> 
+
+<tr class="r1"><td>5-001-11a</td><td><img style="max-width: 800px;" src="5-001-11a.jpg" /></td><td style="display:none">           22-Mar-1999 17:09   28</td></tr> 
+<tr class="r1"><td>5-001-12a</td><td><img style="max-width: 800px;" src="5-001-12a.jpg" /></td><td style="display:none">           22-Mar-1999 17:13   29</td></tr> 
+<tr class="r1"><td>5-001-12b</td><td><img style="max-width: 800px;" src="5-001-12b.jpg" /></td><td style="display:none">           22-Mar-1999 17:15   21</td></tr> 
+<tr class="r1"><td>5-001-12c</td><td><img style="max-width: 800px;" src="5-001-12c.jpg" /></td><td style="display:none">           22-Mar-1999 17:17   22</td></tr> 
+<tr class="r1"><td>5-001-12d</td><td><img style="max-width: 800px;" src="5-001-12d.jpg" /></td><td style="display:none">           22-Mar-1999 17:20   33</td></tr> 
+
+<tr class="r1"><td>5-001-13a</td><td><img style="max-width: 800px;" src="5-001-13a.jpg" /></td><td style="display:none">           23-Mar-1999 10:08   22</td></tr> 
+<tr class="r1"><td>5-001-13b-1</td><td><img style="max-width: 800px;" src="5-001-13b-1.jpg" /></td><td style="display:none">         23-Mar-1999 10:10   33</td></tr> 
+<tr class="r1"><td>5-001-13b-2</td><td><img style="max-width: 800px;" src="5-001-13b-2.jpg" /></td><td style="display:none">         23-Mar-1999 10:13   30</td></tr> 
+<tr class="r1"><td>5-001-13b-3</td><td><img style="max-width: 800px;" src="5-001-13b-3.jpg" /></td><td style="display:none">         23-Mar-1999 10:16   28</td></tr> 
+<tr class="r1"><td>5-001-13b-4</td><td><img style="max-width: 800px;" src="5-001-13b-4.jpg" /></td><td style="display:none">         23-Mar-1999 10:18   30</td></tr> 
+
+<tr class="r1"><td>5-001-13c</td><td><img style="max-width: 800px;" src="5-001-13c.jpg" /></td><td style="display:none">           23-Mar-1999 10:21   30</td></tr> 
+<tr class="r1"><td>5-001-13d</td><td><img style="max-width: 800px;" src="5-001-13d.jpg" /></td><td style="display:none">           23-Mar-1999 10:24   36</td></tr> 
+<tr class="r1"><td>5-001-13e</td><td><img style="max-width: 800px;" src="5-001-13e.jpg" /></td><td style="display:none">           23-Mar-1999 10:31   23</td></tr> 
+<tr class="r1"><td>5-001-13f</td><td><img style="max-width: 800px;" src="5-001-13f.jpg" /></td><td style="display:none">           23-Mar-1999 10:57   26</td></tr> 
+<tr class="r1"><td>5-001-13g</td><td><img style="max-width: 800px;" src="5-001-13g.jpg" /></td><td style="display:none">           23-Mar-1999 11:00   24</td></tr> 
+
+<tr class="r1"><td>5-001-13h</td><td><img style="max-width: 800px;" src="5-001-13h.jpg" /></td><td style="display:none">           23-Mar-1999 11:02   35</td></tr> 
+<tr class="r1"><td>5-001-13i</td><td><img style="max-width: 800px;" src="5-001-13i.jpg" /></td><td style="display:none">           23-Mar-1999 11:04   37</td></tr> 
+<tr class="r1"><td>5-001-13j</td><td><img style="max-width: 800px;" src="5-001-13j.jpg" /></td><td style="display:none">           23-Mar-1999 11:08   31</td></tr> 
+<tr class="r1"><td>5-001-13k</td><td><img style="max-width: 800px;" src="5-001-13k.jpg" /></td><td style="display:none">           23-Mar-1999 11:10   29</td></tr> 
+<tr class="r1"><td>5-001-13l</td><td><img style="max-width: 800px;" src="5-001-13l.jpg" /></td><td style="display:none">           23-Mar-1999 11:13   45</td></tr> 
+
+<tr class="r1"><td>5-001-13m</td><td><img style="max-width: 800px;" src="5-001-13m.jpg" /></td><td style="display:none">           23-Mar-1999 11:16   31</td></tr> 
+<tr class="r1"><td>5-001-13n</td><td><img style="max-width: 800px;" src="5-001-13n.jpg" /></td><td style="display:none">           23-Mar-1999 11:28   22</td></tr> 
+<tr class="r1"><td>5-001-13o</td><td><img style="max-width: 800px;" src="5-001-13o.jpg" /></td><td style="display:none">           23-Mar-1999 11:49   40</td></tr> 
+<tr class="r1"><td>5-001-13p</td><td><img style="max-width: 800px;" src="5-001-13p.jpg" /></td><td style="display:none">           23-Mar-1999 11:53   39</td></tr> 
+<tr class="r1"><td>5-001-13q</td><td><img style="max-width: 800px;" src="5-001-13q.jpg" /></td><td style="display:none">           23-Mar-1999 11:54   25</td></tr> 
+
+<tr class="r1"><td>5-001-13r</td><td><img style="max-width: 800px;" src="5-001-13r.jpg" /></td><td style="display:none">           23-Mar-1999 11:57   23</td></tr> 
+<tr class="r1"><td>5-001-13s</td><td><img style="max-width: 800px;" src="5-001-13s.jpg" /></td><td style="display:none">           23-Mar-1999 11:59   26</td></tr> 
+<tr class="r1"><td>5-001-13t</td><td><img style="max-width: 800px;" src="5-001-13t.jpg" /></td><td style="display:none">           23-Mar-1999 12:01   45</td></tr> 
+<tr class="r1"><td>5-001-13u</td><td><img style="max-width: 800px;" src="5-001-13u.jpg" /></td><td style="display:none">           23-Mar-1999 12:03   22</td></tr> 
+<tr class="r1"><td>5-001-13v</td><td><img style="max-width: 800px;" src="5-001-13v.jpg" /></td><td style="display:none">           23-Mar-1999 12:06   26</td></tr> 
+
+<tr class="r1"><td>5-001-13w</td><td><img style="max-width: 800px;" src="5-001-13w.jpg" /></td><td style="display:none">           23-Mar-1999 12:07   29</td></tr> 
+<tr class="r1"><td>5-001-14L</td><td><img style="max-width: 800px;" src="5-001-14L.jpg" /></td><td style="display:none">           25-Mar-1999 12:07   19</td></tr> 
+<tr class="r1"><td>5-001-14LL</td><td><img style="max-width: 800px;" src="5-001-14LL.jpg" /></td><td style="display:none">          25-Mar-1999 16:29   32</td></tr> 
+<tr class="r1"><td>5-001-14a-1</td><td><img style="max-width: 800px;" src="5-001-14a-1.jpg" /></td><td style="display:none">         25-Mar-1999 11:34   30</td></tr> 
+<tr class="r1"><td>5-001-14a</td><td><img style="max-width: 800px;" src="5-001-14a.jpg" /></td><td style="display:none">           15-Mar-1999 12:21   25</td></tr> 
+
+<tr class="r1"><td>5-001-14aa</td><td><img style="max-width: 800px;" src="5-001-14aa.jpg" /></td><td style="display:none">          25-Mar-1999 14:36   31</td></tr> 
+<tr class="r1"><td>5-001-14ab</td><td><img style="max-width: 800px;" src="5-001-14ab.jpg" /></td><td style="display:none">          25-Mar-1999 14:39   17</td></tr> 
+<tr class="r1"><td>5-001-14ac</td><td><img style="max-width: 800px;" src="5-001-14ac.jpg" /></td><td style="display:none">          25-Mar-1999 14:41   18</td></tr> 
+<tr class="r1"><td>5-001-14ad</td><td><img style="max-width: 800px;" src="5-001-14ad.jpg" /></td><td style="display:none">          25-Mar-1999 15:43   14</td></tr> 
+<tr class="r1"><td>5-001-14ae</td><td><img style="max-width: 800px;" src="5-001-14ae.jpg" /></td><td style="display:none">          25-Mar-1999 15:46   34</td></tr> 
+
+<tr class="r1"><td>5-001-14af</td><td><img style="max-width: 800px;" src="5-001-14af.jpg" /></td><td style="display:none">          25-Mar-1999 15:49   17</td></tr> 
+<tr class="r1"><td>5-001-14ag</td><td><img style="max-width: 800px;" src="5-001-14ag.jpg" /></td><td style="display:none">          25-Mar-1999 15:53   22</td></tr> 
+<tr class="r1"><td>5-001-14ag1</td><td><img style="max-width: 800px;" src="5-001-14ag1.jpg" /></td><td style="display:none">         23-Mar-2000 17:48   21</td></tr> 
+<tr class="r1"><td>5-001-14ag2</td><td><img style="max-width: 800px;" src="5-001-14ag2.jpg" /></td><td style="display:none">         23-Mar-2000 16:31   27</td></tr> 
+<tr class="r1"><td>5-001-14ag3</td><td><img style="max-width: 800px;" src="5-001-14ag3.jpg" /></td><td style="display:none">         23-Mar-2000 17:51   31</td></tr> 
+
+<tr class="r1"><td>5-001-14ag4</td><td><img style="max-width: 800px;" src="5-001-14ag4.jpg" /></td><td style="display:none">         23-Mar-2000 17:53   34</td></tr> 
+<tr class="r1"><td>5-001-14ag5</td><td><img style="max-width: 800px;" src="5-001-14ag5.jpg" /></td><td style="display:none">         23-Mar-2000 17:56   20</td></tr> 
+<tr class="r1"><td>5-001-14ag6</td><td><img style="max-width: 800px;" src="5-001-14ag6.jpg" /></td><td style="display:none">         23-Mar-2000 16:17   30</td></tr> 
+<tr class="r1"><td>5-001-14ah</td><td><img style="max-width: 800px;" src="5-001-14ah.jpg" /></td><td style="display:none">          25-Mar-1999 15:56   26</td></tr> 
+<tr class="r1"><td>5-001-14b</td><td><img style="max-width: 800px;" src="5-001-14b.jpg" /></td><td style="display:none">           31-Mar-1999 14:43   16</td></tr> 
+
+<tr class="r1"><td>5-001-14bb</td><td><img style="max-width: 800px;" src="5-001-14bb.jpg" /></td><td style="display:none">          25-Mar-1999 16:02   42</td></tr> 
+<tr class="r1"><td>5-001-14c</td><td><img style="max-width: 800px;" src="5-001-14c.jpg" /></td><td style="display:none">           25-Mar-1999 11:39   20</td></tr> 
+<tr class="r1"><td>5-001-14cc</td><td><img style="max-width: 800px;" src="5-001-14cc.jpg" /></td><td style="display:none">          25-Mar-1999 16:04   27</td></tr> 
+<tr class="r1"><td>5-001-14d</td><td><img style="max-width: 800px;" src="5-001-14d.jpg" /></td><td style="display:none">           25-Mar-1999 11:42   17</td></tr> 
+<tr class="r1"><td>5-001-14dd</td><td><img style="max-width: 800px;" src="5-001-14dd.jpg" /></td><td style="display:none">          25-Mar-1999 16:07   26</td></tr> 
+
+<tr class="r1"><td>5-001-14e</td><td><img style="max-width: 800px;" src="5-001-14e.jpg" /></td><td style="display:none">           25-Mar-1999 11:44   22</td></tr> 
+<tr class="r1"><td>5-001-14ee</td><td><img style="max-width: 800px;" src="5-001-14ee.jpg" /></td><td style="display:none">          25-Mar-1999 16:09   19</td></tr> 
+<tr class="r1"><td>5-001-14f</td><td><img style="max-width: 800px;" src="5-001-14f.jpg" /></td><td style="display:none">           25-Mar-1999 11:46   17</td></tr> 
+<tr class="r1"><td>5-001-14ff</td><td><img style="max-width: 800px;" src="5-001-14ff.jpg" /></td><td style="display:none">          25-Mar-1999 16:11   36</td></tr> 
+<tr class="r1"><td>5-001-14g</td><td><img style="max-width: 800px;" src="5-001-14g.jpg" /></td><td style="display:none">           25-Mar-1999 11:49   15</td></tr> 
+
+<tr class="r1"><td>5-001-14gg</td><td><img style="max-width: 800px;" src="5-001-14gg.jpg" /></td><td style="display:none">          25-Mar-1999 16:14   20</td></tr> 
+<tr class="r1"><td>5-001-14h</td><td><img style="max-width: 800px;" src="5-001-14h.jpg" /></td><td style="display:none">           25-Mar-1999 11:56   17</td></tr> 
+<tr class="r1"><td>5-001-14hh</td><td><img style="max-width: 800px;" src="5-001-14hh.jpg" /></td><td style="display:none">          25-Mar-1999 16:16   33</td></tr> 
+<tr class="r1"><td>5-001-14i</td><td><img style="max-width: 800px;" src="5-001-14i.jpg" /></td><td style="display:none">           25-Mar-1999 11:59   16</td></tr> 
+<tr class="r1"><td>5-001-14ii</td><td><img style="max-width: 800px;" src="5-001-14ii.jpg" /></td><td style="display:none">          25-Mar-1999 16:18   32</td></tr> 
+
+<tr class="r1"><td>5-001-14j</td><td><img style="max-width: 800px;" src="5-001-14j.jpg" /></td><td style="display:none">           25-Mar-1999 12:02   18</td></tr> 
+<tr class="r1"><td>5-001-14jj</td><td><img style="max-width: 800px;" src="5-001-14jj.jpg" /></td><td style="display:none">          25-Mar-1999 16:20   28</td></tr> 
+<tr class="r1"><td>5-001-14k</td><td><img style="max-width: 800px;" src="5-001-14k.jpg" /></td><td style="display:none">           25-Mar-1999 12:04   22</td></tr> 
+<tr class="r1"><td>5-001-14kk</td><td><img style="max-width: 800px;" src="5-001-14kk.jpg" /></td><td style="display:none">          25-Mar-1999 16:26   20</td></tr> 
+<tr class="r1"><td>5-001-14m</td><td><img style="max-width: 800px;" src="5-001-14m.jpg" /></td><td style="display:none">           25-Mar-1999 12:10  9.2</td></tr> 
+
+<tr class="r1"><td>5-001-14mm</td><td><img style="max-width: 800px;" src="5-001-14mm.jpg" /></td><td style="display:none">          25-Mar-1999 16:30   32</td></tr> 
+<tr class="r1"><td>5-001-14n</td><td><img style="max-width: 800px;" src="5-001-14n.jpg" /></td><td style="display:none">           25-Mar-1999 12:12   25</td></tr> 
+<tr class="r1"><td>5-001-14nn</td><td><img style="max-width: 800px;" src="5-001-14nn.jpg" /></td><td style="display:none">          25-Mar-1999 16:32   36</td></tr> 
+<tr class="r1"><td>5-001-14o</td><td><img style="max-width: 800px;" src="5-001-14o.jpg" /></td><td style="display:none">           25-Mar-1999 13:53   20</td></tr> 
+<tr class="r1"><td>5-001-14oo</td><td><img style="max-width: 800px;" src="5-001-14oo.jpg" /></td><td style="display:none">          25-Mar-1999 17:10   30</td></tr> 
+
+<tr class="r1"><td>5-001-14p</td><td><img style="max-width: 800px;" src="5-001-14p.jpg" /></td><td style="display:none">           25-Mar-1999 13:55   20</td></tr> 
+<tr class="r1"><td>5-001-14pp</td><td><img style="max-width: 800px;" src="5-001-14pp.jpg" /></td><td style="display:none">          25-Mar-1999 17:12   32</td></tr> 
+<tr class="r1"><td>5-001-14q</td><td><img style="max-width: 800px;" src="5-001-14q.jpg" /></td><td style="display:none">           25-Mar-1999 13:57   24</td></tr> 
+<tr class="r1"><td>5-001-14qq</td><td><img style="max-width: 800px;" src="5-001-14qq.jpg" /></td><td style="display:none">          25-Mar-1999 17:14   33</td></tr> 
+<tr class="r1"><td>5-001-14r</td><td><img style="max-width: 800px;" src="5-001-14r.jpg" /></td><td style="display:none">           25-Mar-1999 13:59   22</td></tr> 
+
+<tr class="r1"><td>5-001-14rr</td><td><img style="max-width: 800px;" src="5-001-14rr.jpg" /></td><td style="display:none">          25-Mar-1999 17:17   14</td></tr> 
+<tr class="r1"><td>5-001-14s</td><td><img style="max-width: 800px;" src="5-001-14s.jpg" /></td><td style="display:none">           25-Mar-1999 14:02   20</td></tr> 
+<tr class="r1"><td>5-001-14ss</td><td><img style="max-width: 800px;" src="5-001-14ss.jpg" /></td><td style="display:none">          25-Mar-1999 17:19   29</td></tr> 
+<tr class="r1"><td>5-001-14t</td><td><img style="max-width: 800px;" src="5-001-14t.jpg" /></td><td style="display:none">           25-Mar-1999 14:04   15</td></tr> 
+<tr class="r1"><td>5-001-14tt</td><td><img style="max-width: 800px;" src="5-001-14tt.jpg" /></td><td style="display:none">          25-Mar-1999 17:22   23</td></tr> 
+
+<tr class="r1"><td>5-001-14u</td><td><img style="max-width: 800px;" src="5-001-14u.jpg" /></td><td style="display:none">           25-Mar-1999 14:06   18</td></tr> 
+<tr class="r1"><td>5-001-14uu</td><td><img style="max-width: 800px;" src="5-001-14uu.jpg" /></td><td style="display:none">          25-Mar-1999 17:24   17</td></tr> 
+<tr class="r1"><td>5-001-14v</td><td><img style="max-width: 800px;" src="5-001-14v.jpg" /></td><td style="display:none">           25-Mar-1999 14:10   21</td></tr> 
+<tr class="r1"><td>5-001-14vv</td><td><img style="max-width: 800px;" src="5-001-14vv.jpg" /></td><td style="display:none">          25-Mar-1999 17:26   21</td></tr> 
+<tr class="r1"><td>5-001-14w</td><td><img style="max-width: 800px;" src="5-001-14w.jpg" /></td><td style="display:none">           25-Mar-1999 14:13   17</td></tr> 
+
+<tr class="r1"><td>5-001-14ww</td><td><img style="max-width: 800px;" src="5-001-14ww.jpg" /></td><td style="display:none">          25-Mar-1999 17:29   28</td></tr> 
+<tr class="r1"><td>5-001-14x</td><td><img style="max-width: 800px;" src="5-001-14x.jpg" /></td><td style="display:none">           25-Mar-1999 14:16   18</td></tr> 
+<tr class="r1"><td>5-001-14xx</td><td><img style="max-width: 800px;" src="5-001-14xx.jpg" /></td><td style="display:none">          25-Mar-1999 17:31   39</td></tr> 
+<tr class="r1"><td>5-001-14y</td><td><img style="max-width: 800px;" src="5-001-14y.jpg" /></td><td style="display:none">           25-Mar-1999 14:32   20</td></tr> 
+<tr class="r1"><td>5-001-14yy</td><td><img style="max-width: 800px;" src="5-001-14yy.jpg" /></td><td style="display:none">          25-Mar-1999 17:33   19</td></tr> 
+
+<tr class="r1"><td>5-001-14z</td><td><img style="max-width: 800px;" src="5-001-14z.jpg" /></td><td style="display:none">           25-Mar-1999 14:34   16</td></tr> 
+<tr class="r1"><td>5-001-14zz</td><td><img style="max-width: 800px;" src="5-001-14zz.jpg" /></td><td style="display:none">          25-Mar-1999 17:35   20</td></tr> 
+<tr class="r1"><td>5-001-15L</td><td><img style="max-width: 800px;" src="5-001-15L.jpg" /></td><td style="display:none">           31-Mar-1999 15:13   29</td></tr> 
+<tr class="r1"><td>5-001-15a</td><td><img style="max-width: 800px;" src="5-001-15a.jpg" /></td><td style="display:none">           25-Mar-1999 17:37   23</td></tr> 
+<tr class="r1"><td>5-001-15b</td><td><img style="max-width: 800px;" src="5-001-15b.jpg" /></td><td style="display:none">           25-Mar-1999 17:40   17</td></tr> 
+
+<tr class="r1"><td>5-001-15c</td><td><img style="max-width: 800px;" src="5-001-15c.jpg" /></td><td style="display:none">           25-Mar-1999 17:42   15</td></tr> 
+<tr class="r1"><td>5-001-15d</td><td><img style="max-width: 800px;" src="5-001-15d.jpg" /></td><td style="display:none">           25-Mar-1999 17:44   39</td></tr> 
+<tr class="r1"><td>5-001-15e</td><td><img style="max-width: 800px;" src="5-001-15e.jpg" /></td><td style="display:none">           31-Mar-1999 14:55   28</td></tr> 
+<tr class="r1"><td>5-001-15f</td><td><img style="max-width: 800px;" src="5-001-15f.jpg" /></td><td style="display:none">           31-Mar-1999 14:57   22</td></tr> 
+<tr class="r1"><td>5-001-15g</td><td><img style="max-width: 800px;" src="5-001-15g.jpg" /></td><td style="display:none">           31-Mar-1999 15:00   21</td></tr> 
+
+<tr class="r1"><td>5-001-15h</td><td><img style="max-width: 800px;" src="5-001-15h.jpg" /></td><td style="display:none">           31-Mar-1999 15:02   26</td></tr> 
+<tr class="r1"><td>5-001-15i</td><td><img style="max-width: 800px;" src="5-001-15i.jpg" /></td><td style="display:none">           31-Mar-1999 15:05   26</td></tr> 
+<tr class="r1"><td>5-001-15j</td><td><img style="max-width: 800px;" src="5-001-15j.jpg" /></td><td style="display:none">           31-Mar-1999 15:07   50</td></tr> 
+<tr class="r1"><td>5-001-15k</td><td><img style="max-width: 800px;" src="5-001-15k.jpg" /></td><td style="display:none">           31-Mar-1999 15:10   41</td></tr> 
+<tr class="r1"><td>5-001-15m</td><td><img style="max-width: 800px;" src="5-001-15m.jpg" /></td><td style="display:none">           31-Mar-1999 15:16   15</td></tr> 
+
+<tr class="r1"><td>5-001-16a</td><td><img style="max-width: 800px;" src="5-001-16a.jpg" /></td><td style="display:none">           01-Apr-1999 12:16   31</td></tr> 
+<tr class="r1"><td>5-001-16b</td><td><img style="max-width: 800px;" src="5-001-16b.jpg" /></td><td style="display:none">           01-Apr-1999 12:18   42</td></tr> 
+<tr class="r1"><td>5-001-17a</td><td><img style="max-width: 800px;" src="5-001-17a.jpg" /></td><td style="display:none">           01-Apr-1999 12:21   28</td></tr> 
+<tr class="r1"><td>5-001-18a</td><td><img style="max-width: 800px;" src="5-001-18a.jpg" /></td><td style="display:none">           01-Apr-1999 12:28   20</td></tr> 
+<tr class="r1"><td>5-001-18b</td><td><img style="max-width: 800px;" src="5-001-18b.jpg" /></td><td style="display:none">           01-Apr-1999 12:30   20</td></tr> 
+
+<tr class="r1"><td>5-001-18c</td><td><img style="max-width: 800px;" src="5-001-18c.jpg" /></td><td style="display:none">           01-Apr-1999 13:44   25</td></tr> 
+<tr class="r1"><td>5-001-18d</td><td><img style="max-width: 800px;" src="5-001-18d.jpg" /></td><td style="display:none">           01-Apr-1999 13:46   36</td></tr> 
+<tr class="r1"><td>5-001-18e</td><td><img style="max-width: 800px;" src="5-001-18e.jpg" /></td><td style="display:none">           01-Apr-1999 13:48   26</td></tr> 
+<tr class="r1"><td>5-001-18f</td><td><img style="max-width: 800px;" src="5-001-18f.jpg" /></td><td style="display:none">           01-Apr-1999 13:51   23</td></tr> 
+<tr class="r1"><td>5-001-18g</td><td><img style="max-width: 800px;" src="5-001-18g.jpg" /></td><td style="display:none">           01-Apr-1999 13:54   23</td></tr> 
+
+<tr class="r1"><td>5-001-18h</td><td><img style="max-width: 800px;" src="5-001-18h.jpg" /></td><td style="display:none">           01-Apr-1999 13:56   25</td></tr> 
+<tr class="r1"><td>5-001-18i</td><td><img style="max-width: 800px;" src="5-001-18i.jpg" /></td><td style="display:none">           01-Apr-1999 15:07   29</td></tr> 
+<tr class="r1"><td>5-001-18j</td><td><img style="max-width: 800px;" src="5-001-18j.jpg" /></td><td style="display:none">           01-Apr-1999 15:09   20</td></tr> 
+<tr class="r1"><td>5-001-18k</td><td><img style="max-width: 800px;" src="5-001-18k.jpg" /></td><td style="display:none">           01-Apr-1999 15:12   16</td></tr> 
+<tr class="r1"><td>5-001-19a</td><td><img style="max-width: 800px;" src="5-001-19a.jpg" /></td><td style="display:none">           01-Apr-1999 13:59   29</td></tr> 
+
+<tr class="r1"><td>5-001-20a</td><td><img style="max-width: 800px;" src="5-001-20a.jpg" /></td><td style="display:none">           01-Apr-1999 14:01   34</td></tr> 
+<tr class="r1"><td>5-001-21a</td><td><img style="max-width: 800px;" src="5-001-21a.jpg" /></td><td style="display:none">           01-Apr-1999 14:04   21</td></tr> 
+<tr class="r1"><td>5-001-22a</td><td><img style="max-width: 800px;" src="5-001-22a.jpg" /></td><td style="display:none">           01-Apr-1999 14:06   16</td></tr> 
+<tr class="r1"><td>5-001-23a</td><td><img style="max-width: 800px;" src="5-001-23a.jpg" /></td><td style="display:none">           01-Apr-1999 14:08   17</td></tr> 
+<tr class="r1"><td>5-001-24a</td><td><img style="max-width: 800px;" src="5-001-24a.jpg" /></td><td style="display:none">           01-Apr-1999 14:11   32</td></tr> 
+
+<tr class="r1"><td>5-001-24b</td><td><img style="max-width: 800px;" src="5-001-24b.jpg" /></td><td style="display:none">           01-Apr-1999 14:14   35</td></tr> 
+<tr class="r1"><td>5-001-24c</td><td><img style="max-width: 800px;" src="5-001-24c.jpg" /></td><td style="display:none">           01-Apr-1999 14:16   67</td></tr> 
+<tr class="r1"><td>5-001-24d</td><td><img style="max-width: 800px;" src="5-001-24d.jpg" /></td><td style="display:none">           01-Apr-1999 14:45   23</td></tr> 
+<tr class="r1"><td>5-001-25a</td><td><img style="max-width: 800px;" src="5-001-25a.jpg" /></td><td style="display:none">           01-Apr-1999 14:47   21</td></tr> 
+<tr class="r1"><td>5-001-25b</td><td><img style="max-width: 800px;" src="5-001-25b.jpg" /></td><td style="display:none">           01-Apr-1999 14:49   29</td></tr> 
+
+<tr class="r1"><td>5-001-26a</td><td><img style="max-width: 800px;" src="5-001-26a.jpg" /></td><td style="display:none">           01-Apr-1999 14:51   23</td></tr> 
+<tr class="r1"><td>5-001-27a</td><td><img style="max-width: 800px;" src="5-001-27a.jpg" /></td><td style="display:none">           01-Apr-1999 14:53   42</td></tr> 
+<tr class="r1"><td>5-001-27b</td><td><img style="max-width: 800px;" src="5-001-27b.jpg" /></td><td style="display:none">           01-Apr-1999 14:55   26</td></tr> 
+<tr class="r1"><td>5-001-28a</td><td><img style="max-width: 800px;" src="5-001-28a.jpg" /></td><td style="display:none">           01-Apr-1999 14:57   33</td></tr> 
+<tr class="r1"><td>5-001-29</td><td><img style="max-width: 800px;" src="5-001-29.jpg" /></td><td style="display:none">            01-Apr-1999 14:59   31</td></tr> 
+
+<tr class="r1"><td>5-001-30</td><td><img style="max-width: 800px;" src="5-001-30.jpg" /></td><td style="display:none">            01-Apr-1999 15:02   30</td></tr> 
+<tr class="r1"><td>5-001-31a</td><td><img style="max-width: 800px;" src="5-001-31a.jpg" /></td><td style="display:none">           01-Apr-1999 16:15   23</td></tr> 
+<tr class="r1"><td>5-001-31b</td><td><img style="max-width: 800px;" src="5-001-31b.jpg" /></td><td style="display:none">           01-Apr-1999 16:17   18</td></tr> 
+<tr class="r1"><td>5-001-31c</td><td><img style="max-width: 800px;" src="5-001-31c.jpg" /></td><td style="display:none">           01-Apr-1999 16:19   35</td></tr> 
+<tr class="r1"><td>5-001-32</td><td><img style="max-width: 800px;" src="5-001-32.jpg" /></td><td style="display:none">            01-Apr-1999 16:21   29</td></tr> 
+
+<tr class="r1"><td>5-001-32a</td><td><img style="max-width: 800px;" src="5-001-32a.jpg" /></td><td style="display:none">           01-Apr-1999 16:21   29</td></tr> 
+<tr class="r1"><td>5-001-33</td><td><img style="max-width: 800px;" src="5-001-33.jpg" /></td><td style="display:none">            01-Apr-1999 16:24   19</td></tr> 
+<tr class="r1"><td>5-001-34a</td><td><img style="max-width: 800px;" src="5-001-34a.jpg" /></td><td style="display:none">           01-Apr-1999 16:26   42</td></tr> 
+<tr class="r1"><td>5-001-34b</td><td><img style="max-width: 800px;" src="5-001-34b.jpg" /></td><td style="display:none">           01-Apr-1999 16:28   23</td></tr> 
+<tr class="r1"><td>5-001-34c</td><td><img style="max-width: 800px;" src="5-001-34c.jpg" /></td><td style="display:none">           01-Apr-1999 16:30   24</td></tr> 
+
+<tr class="r1"><td>5-001-34d</td><td><img style="max-width: 800px;" src="5-001-34d.jpg" /></td><td style="display:none">           01-Apr-1999 16:32   21</td></tr> 
+<tr class="r1"><td>5-001-34e</td><td><img style="max-width: 800px;" src="5-001-34e.jpg" /></td><td style="display:none">           01-Apr-1999 16:36   23</td></tr> 
+<tr class="r1"><td>5-001-34f</td><td><img style="max-width: 800px;" src="5-001-34f.jpg" /></td><td style="display:none">           01-Apr-1999 16:39   22</td></tr> 
+<tr class="r1"><td>5-001-34g</td><td><img style="max-width: 800px;" src="5-001-34g.jpg" /></td><td style="display:none">           01-Apr-1999 16:41   22</td></tr> 
+<tr class="r1"><td>5-001-35a</td><td><img style="max-width: 800px;" src="5-001-35a.jpg" /></td><td style="display:none">           02-Apr-1999 09:41   26</td></tr> 
+
+<tr class="r1"><td>5-001-36a</td><td><img style="max-width: 800px;" src="5-001-36a.jpg" /></td><td style="display:none">           02-Apr-1999 09:44   19</td></tr> 
+<tr class="r1"><td>5-001-37b</td><td><img style="max-width: 800px;" src="5-001-37b.jpg" /></td><td style="display:none">           02-Apr-1999 09:46   34</td></tr> 
+<tr class="r1"><td>5-001-37c</td><td><img style="max-width: 800px;" src="5-001-37c.jpg" /></td><td style="display:none">           02-Apr-1999 09:48   37</td></tr> 
+<tr class="r1"><td>5-001-37d</td><td><img style="max-width: 800px;" src="5-001-37d.jpg" /></td><td style="display:none">           02-Apr-1999 09:50   44</td></tr> 
+<tr class="r1"><td>5-001-37e</td><td><img style="max-width: 800px;" src="5-001-37e.jpg" /></td><td style="display:none">           02-Apr-1999 09:57   23</td></tr> 
+
+<tr class="r1"><td>5-001-37f</td><td><img style="max-width: 800px;" src="5-001-37f.jpg" /></td><td style="display:none">           02-Apr-1999 09:59   31</td></tr> 
+<tr class="r1"><td>5-001-37g</td><td><img style="max-width: 800px;" src="5-001-37g.jpg" /></td><td style="display:none">           02-Apr-1999 10:01   34</td></tr> 
+<tr class="r1"><td>5-001-37h</td><td><img style="max-width: 800px;" src="5-001-37h.jpg" /></td><td style="display:none">           02-Apr-1999 10:03   34</td></tr> 
+<tr class="r1"><td>5-001-38a</td><td><img style="max-width: 800px;" src="5-001-38a.jpg" /></td><td style="display:none">           02-Apr-1999 10:06   33</td></tr> 
+<tr class="r1"><td>5-001-38b</td><td><img style="max-width: 800px;" src="5-001-38b.jpg" /></td><td style="display:none">           02-Apr-1999 10:21   33</td></tr> 
+
+<tr class="r1"><td>5-001-39</td><td><img style="max-width: 800px;" src="5-001-39.jpg" /></td><td style="display:none">            02-Apr-1999 10:24   38</td></tr> 
+<tr class="r1"><td>5-001-40a</td><td><img style="max-width: 800px;" src="5-001-40a.jpg" /></td><td style="display:none">           02-Apr-1999 10:27   25</td></tr> 
+<tr class="r1"><td>5-001-40b</td><td><img style="max-width: 800px;" src="5-001-40b.jpg" /></td><td style="display:none">           02-Apr-1999 10:29   26</td></tr> 
+<tr class="r1"><td>5-001-41a</td><td><img style="max-width: 800px;" src="5-001-41a.jpg" /></td><td style="display:none">           02-Apr-1999 10:55   30</td></tr> 
+<tr class="r1"><td>5-001-42a</td><td><img style="max-width: 800px;" src="5-001-42a.jpg" /></td><td style="display:none">           02-Apr-1999 10:58   16</td></tr> 
+
+<tr class="r1"><td>5-001-42b</td><td><img style="max-width: 800px;" src="5-001-42b.jpg" /></td><td style="display:none">           02-Apr-1999 11:00   19</td></tr> 
+<tr class="r1"><td>5-001-43a</td><td><img style="max-width: 800px;" src="5-001-43a.jpg" /></td><td style="display:none">           02-Apr-1999 11:04   54</td></tr> 
+<tr class="r1"><td>5-001-43b</td><td><img style="max-width: 800px;" src="5-001-43b.jpg" /></td><td style="display:none">           02-Apr-1999 11:06   40</td></tr> 
+<tr class="r1"><td>5-001-44L</td><td><img style="max-width: 800px;" src="5-001-44L.jpg" /></td><td style="display:none">           05-Apr-1999 12:02   33</td></tr> 
+<tr class="r1"><td>5-001-44a</td><td><img style="max-width: 800px;" src="5-001-44a.jpg" /></td><td style="display:none">           02-Apr-1999 11:08   43</td></tr> 
+
+<tr class="r1"><td>5-001-44b</td><td><img style="max-width: 800px;" src="5-001-44b.jpg" /></td><td style="display:none">           02-Apr-1999 11:11   25</td></tr> 
+<tr class="r1"><td>5-001-44c</td><td><img style="max-width: 800px;" src="5-001-44c.jpg" /></td><td style="display:none">           05-Apr-1999 10:14   33</td></tr> 
+<tr class="r1"><td>5-001-44d</td><td><img style="max-width: 800px;" src="5-001-44d.jpg" /></td><td style="display:none">           05-Apr-1999 10:16   19</td></tr> 
+<tr class="r1"><td>5-001-44e</td><td><img style="max-width: 800px;" src="5-001-44e.jpg" /></td><td style="display:none">           05-Apr-1999 10:22   42</td></tr> 
+<tr class="r1"><td>5-001-44f</td><td><img style="max-width: 800px;" src="5-001-44f.jpg" /></td><td style="display:none">           05-Apr-1999 10:24   21</td></tr> 
+
+<tr class="r1"><td>5-001-44g</td><td><img style="max-width: 800px;" src="5-001-44g.jpg" /></td><td style="display:none">           05-Apr-1999 10:30   56</td></tr> 
+<tr class="r1"><td>5-001-44h</td><td><img style="max-width: 800px;" src="5-001-44h.jpg" /></td><td style="display:none">           05-Apr-1999 11:54   46</td></tr> 
+<tr class="r1"><td>5-001-44i</td><td><img style="max-width: 800px;" src="5-001-44i.jpg" /></td><td style="display:none">           05-Apr-1999 11:57   42</td></tr> 
+<tr class="r1"><td>5-001-44j</td><td><img style="max-width: 800px;" src="5-001-44j.jpg" /></td><td style="display:none">           05-Apr-1999 11:59   29</td></tr> 
+<tr class="r1"><td>5-001-44k</td><td><img style="max-width: 800px;" src="5-001-44k.jpg" /></td><td style="display:none">           05-Apr-1999 12:00   34</td></tr> 
+
+<tr class="r1"><td>5-001-45a</td><td><img style="max-width: 800px;" src="5-001-45a.jpg" /></td><td style="display:none">           05-Apr-1999 12:04   22</td></tr> 
+<tr class="r1"><td>5-001-45b</td><td><img style="max-width: 800px;" src="5-001-45b.jpg" /></td><td style="display:none">           05-Apr-1999 12:06   27</td></tr> 
+<tr class="r1"><td>5-001-45c</td><td><img style="max-width: 800px;" src="5-001-45c.jpg" /></td><td style="display:none">           05-Apr-1999 12:08   27</td></tr> 
+<tr class="r1"><td>5-001-46a</td><td><img style="max-width: 800px;" src="5-001-46a.jpg" /></td><td style="display:none">           05-Apr-1999 12:10   34</td></tr> 
+<tr class="r1"><td>5-001-47a</td><td><img style="max-width: 800px;" src="5-001-47a.jpg" /></td><td style="display:none">           05-Apr-1999 12:12   27</td></tr> 
+
+<tr class="r1"><td>5-001-47b</td><td><img style="max-width: 800px;" src="5-001-47b.jpg" /></td><td style="display:none">           05-Apr-1999 12:15   22</td></tr> 
+<tr class="r1"><td>5-001-47c</td><td><img style="max-width: 800px;" src="5-001-47c.jpg" /></td><td style="display:none">           05-Apr-1999 12:19   28</td></tr> 
+<tr class="r1"><td>5-001-47d</td><td><img style="max-width: 800px;" src="5-001-47d.jpg" /></td><td style="display:none">           05-Apr-1999 12:21  8.8</td></tr> 
+<tr class="r1"><td>5-001-47e</td><td><img style="max-width: 800px;" src="5-001-47e.jpg" /></td><td style="display:none">           05-Apr-1999 12:23   27</td></tr> 
+<tr class="r1"><td>5-001-47f</td><td><img style="max-width: 800px;" src="5-001-47f.jpg" /></td><td style="display:none">           05-Apr-1999 12:25   26</td></tr> 
+
+<tr class="r1"><td>5-001-47g</td><td><img style="max-width: 800px;" src="5-001-47g.jpg" /></td><td style="display:none">           05-Apr-1999 12:27   25</td></tr> 
+<tr class="r1"><td>5-001-47h</td><td><img style="max-width: 800px;" src="5-001-47h.jpg" /></td><td style="display:none">           05-Apr-1999 13:50   23</td></tr> 
+<tr class="r1"><td>5-001-48</td><td><img style="max-width: 800px;" src="5-001-48.jpg" /></td><td style="display:none">            05-Apr-1999 13:53   26</td></tr> 
+<tr class="r1"><td>5-001-49</td><td><img style="max-width: 800px;" src="5-001-49.jpg" /></td><td style="display:none">            05-Apr-1999 13:57   23</td></tr> 
+<tr class="r1"><td>5-001-49a</td><td><img style="max-width: 800px;" src="5-001-49a.jpg" /></td><td style="display:none">           05-Apr-1999 14:00   21</td></tr> 
+
+<tr class="r1"><td>5-001-50</td><td><img style="max-width: 800px;" src="5-001-50.jpg" /></td><td style="display:none">            05-Apr-1999 14:04   55</td></tr> 
+<tr class="r1"><td>5-001-51a</td><td><img style="max-width: 800px;" src="5-001-51a.jpg" /></td><td style="display:none">           05-Apr-1999 16:08   14</td></tr> 
+<tr class="r1"><td>5-001-52</td><td><img style="max-width: 800px;" src="5-001-52.jpg" /></td><td style="display:none">            15-Mar-1999 11:27   36</td></tr> 
+<tr class="r1"><td>5-001-53</td><td><img style="max-width: 800px;" src="5-001-53.jpg" /></td><td style="display:none">            05-Apr-1999 16:11   38</td></tr> 
+<tr class="r1"><td>5-001-53a</td><td><img style="max-width: 800px;" src="5-001-53a.jpg" /></td><td style="display:none">           05-Apr-1999 16:14   29</td></tr> 
+
+<tr class="r1"><td>5-001-54</td><td><img style="max-width: 800px;" src="5-001-54.jpg" /></td><td style="display:none">            05-Apr-1999 16:17   37</td></tr> 
+<tr class="r1"><td>5-001-75a</td><td><img style="max-width: 800px;" src="5-001-75a.jpg" /></td><td style="display:none">           05-Apr-1999 16:25   27</td></tr> 
+<tr class="r1"><td>5-001-76</td><td><img style="max-width: 800px;" src="5-001-76.jpg" /></td><td style="display:none">            05-Apr-1999 17:17   26</td></tr> 
+<tr class="r1"><td>5-001-77</td><td><img style="max-width: 800px;" src="5-001-77.jpg" /></td><td style="display:none">            05-Apr-1999 17:19   25</td></tr> 
+<tr class="r1"><td>5-001-79</td><td><img style="max-width: 800px;" src="5-001-79.jpg" /></td><td style="display:none">            22-Oct-1999 14:37   34</td></tr> 
+
+<tr class="r1"><td>5-001-501</td><td><img style="max-width: 800px;" src="5-001-501.jpg" /></td><td style="display:none">           05-Apr-1999 16:05   36</td></tr> 
+<tr class="r1"><td>5-002-1a</td><td><img style="max-width: 800px;" src="5-002-1a.jpg" /></td><td style="display:none">            05-Apr-1999 17:22   18</td></tr> 
+<tr class="r1"><td>5-002-1b</td><td><img style="max-width: 800px;" src="5-002-1b.jpg" /></td><td style="display:none">            05-Apr-1999 17:25   17</td></tr> 
+<tr class="r1"><td>5-003-1a</td><td><img style="max-width: 800px;" src="5-003-1a.jpg" /></td><td style="display:none">            05-Apr-1999 17:27   28</td></tr> 
+<tr class="r1"><td>5-003-1b</td><td><img style="max-width: 800px;" src="5-003-1b.jpg" /></td><td style="display:none">            05-Apr-1999 17:30   14</td></tr> 
+
+<tr class="r1"><td>5-003-2a</td><td><img style="max-width: 800px;" src="5-003-2a.jpg" /></td><td style="display:none">            05-Apr-1999 17:32   28</td></tr> 
+<tr class="r1"><td>5-003-2b</td><td><img style="max-width: 800px;" src="5-003-2b.jpg" /></td><td style="display:none">            05-Apr-1999 17:38   38</td></tr> 
+<tr class="r1"><td>5-003-2d</td><td><img style="max-width: 800px;" src="5-003-2d.jpg" /></td><td style="display:none">            05-Apr-1999 17:40   21</td></tr> 
+<tr class="r1"><td>5-003-2e</td><td><img style="max-width: 800px;" src="5-003-2e.jpg" /></td><td style="display:none">            05-Apr-1999 17:42   21</td></tr> 
+<tr class="r1"><td>5-003-2f</td><td><img style="max-width: 800px;" src="5-003-2f.jpg" /></td><td style="display:none">            05-Apr-1999 17:44   25</td></tr> 
+
+<tr class="r1"><td>5-004-1a</td><td><img style="max-width: 800px;" src="5-004-1a.jpg" /></td><td style="display:none">            06-Apr-1999 13:56   28</td></tr> 
+<tr class="r1"><td>5-004-1b1</td><td><img style="max-width: 800px;" src="5-004-1b1.jpg" /></td><td style="display:none">           06-Apr-1999 14:01   58</td></tr> 
+<tr class="r1"><td>5-004-1b2</td><td><img style="max-width: 800px;" src="5-004-1b2.jpg" /></td><td style="display:none">           06-Apr-1999 14:03   31</td></tr> 
+<tr class="r1"><td>5-004-2a</td><td><img style="max-width: 800px;" src="5-004-2a.jpg" /></td><td style="display:none">            06-Apr-1999 14:06   30</td></tr> 
+<tr class="r1"><td>5-004-3a</td><td><img style="max-width: 800px;" src="5-004-3a.jpg" /></td><td style="display:none">            06-Apr-1999 14:09   30</td></tr> 
+
+<tr class="r1"><td>5-004-3b</td><td><img style="max-width: 800px;" src="5-004-3b.jpg" /></td><td style="display:none">            06-Apr-1999 14:11   18</td></tr> 
+<tr class="r1"><td>5-004-3c</td><td><img style="max-width: 800px;" src="5-004-3c.jpg" /></td><td style="display:none">            06-Apr-1999 14:14   58</td></tr> 
+<tr class="r1"><td>5-004-3d</td><td><img style="max-width: 800px;" src="5-004-3d.jpg" /></td><td style="display:none">            06-Apr-1999 14:16   26</td></tr> 
+<tr class="r1"><td>5-004-3e</td><td><img style="max-width: 800px;" src="5-004-3e.jpg" /></td><td style="display:none">            06-Apr-1999 14:18   28</td></tr> 
+<tr class="r1"><td>5-004-3f</td><td><img style="max-width: 800px;" src="5-004-3f.jpg" /></td><td style="display:none">            06-Apr-1999 14:23   24</td></tr> 
+
+<tr class="r1"><td>5-004-3g</td><td><img style="max-width: 800px;" src="5-004-3g.jpg" /></td><td style="display:none">            06-Apr-1999 14:31   27</td></tr> 
+<tr class="r1"><td>5-004-3h</td><td><img style="max-width: 800px;" src="5-004-3h.jpg" /></td><td style="display:none">            06-Apr-1999 14:33   27</td></tr> 
+<tr class="r1"><td>5-004-3i</td><td><img style="max-width: 800px;" src="5-004-3i.jpg" /></td><td style="display:none">            06-Apr-1999 14:36   27</td></tr> 
+<tr class="r1"><td>5-005-1a</td><td><img style="max-width: 800px;" src="5-005-1a.jpg" /></td><td style="display:none">            06-Apr-1999 16:27   24</td></tr> 
+<tr class="r1"><td>5-005-1b</td><td><img style="max-width: 800px;" src="5-005-1b.jpg" /></td><td style="display:none">            06-Apr-1999 16:30   16</td></tr> 
+
+<tr class="r1"><td>5-005-1c</td><td><img style="max-width: 800px;" src="5-005-1c.jpg" /></td><td style="display:none">            06-Apr-1999 16:37   23</td></tr> 
+<tr class="r1"><td>5-005-1d</td><td><img style="max-width: 800px;" src="5-005-1d.jpg" /></td><td style="display:none">            06-Apr-1999 16:39   25</td></tr> 
+<tr class="r1"><td>5-005-1e</td><td><img style="max-width: 800px;" src="5-005-1e.jpg" /></td><td style="display:none">            06-Apr-1999 16:41   22</td></tr> 
+<tr class="r1"><td>5-005-1f</td><td><img style="max-width: 800px;" src="5-005-1f.jpg" /></td><td style="display:none">            06-Apr-1999 16:52   19</td></tr> 
+<tr class="r1"><td>5-005-1g</td><td><img style="max-width: 800px;" src="5-005-1g.jpg" /></td><td style="display:none">            06-Apr-1999 17:18   20</td></tr> 
+
+<tr class="r1"><td>5-005-1h</td><td><img style="max-width: 800px;" src="5-005-1h.jpg" /></td><td style="display:none">            06-Apr-1999 17:02   25</td></tr> 
+<tr class="r1"><td>5-005-1i</td><td><img style="max-width: 800px;" src="5-005-1i.jpg" /></td><td style="display:none">            06-Apr-1999 17:01   12</td></tr> 
+<tr class="r1"><td>5-005-1j</td><td><img style="max-width: 800px;" src="5-005-1j.jpg" /></td><td style="display:none">            06-Apr-1999 17:20   17</td></tr> 
+<tr class="r1"><td>5-005-1k</td><td><img style="max-width: 800px;" src="5-005-1k.jpg" /></td><td style="display:none">            06-Apr-1999 17:22   16</td></tr> 
+<tr class="r1"><td>5-005-1l</td><td><img style="max-width: 800px;" src="5-005-1l.jpg" /></td><td style="display:none">            06-Apr-1999 17:24   21</td></tr> 
+
+<tr class="r1"><td>5-005-1m</td><td><img style="max-width: 800px;" src="5-005-1m.jpg" /></td><td style="display:none">            06-Apr-1999 17:26   17</td></tr> 
+<tr class="r1"><td>5-005-1n</td><td><img style="max-width: 800px;" src="5-005-1n.jpg" /></td><td style="display:none">            06-Apr-1999 17:28   22</td></tr> 
+<tr class="r1"><td>5-005-1o</td><td><img style="max-width: 800px;" src="5-005-1o.jpg" /></td><td style="display:none">            06-Apr-1999 17:31   29</td></tr> 
+<tr class="r1"><td>5-006-1a</td><td><img style="max-width: 800px;" src="5-006-1a.jpg" /></td><td style="display:none">            06-Apr-1999 17:33   22</td></tr> 
+<tr class="r1"><td>5-006-2a</td><td><img style="max-width: 800px;" src="5-006-2a.jpg" /></td><td style="display:none">            06-Apr-1999 17:37   33</td></tr> 
+
+<tr class="r1"><td>5-006-2b</td><td><img style="max-width: 800px;" src="5-006-2b.jpg" /></td><td style="display:none">            06-Apr-1999 17:39   41</td></tr> 
+<tr class="r1"><td>5-007-02i</td><td><img style="max-width: 800px;" src="5-007-02i.jpg" /></td><td style="display:none">           22-Oct-1999 14:39   29</td></tr> 
+<tr class="r1"><td>5-007-02j</td><td><img style="max-width: 800px;" src="5-007-02j.jpg" /></td><td style="display:none">           22-Oct-1999 14:40   49</td></tr> 
+<tr class="r1"><td>5-007-1a</td><td><img style="max-width: 800px;" src="5-007-1a.jpg" /></td><td style="display:none">            07-Apr-1999 11:38   17</td></tr> 
+<tr class="r1"><td>5-007-1b</td><td><img style="max-width: 800px;" src="5-007-1b.jpg" /></td><td style="display:none">            07-Apr-1999 11:40   22</td></tr> 
+
+<tr class="r1"><td>5-007-1c</td><td><img style="max-width: 800px;" src="5-007-1c.jpg" /></td><td style="display:none">            07-Apr-1999 11:43   34</td></tr> 
+<tr class="r1"><td>5-007-1d</td><td><img style="max-width: 800px;" src="5-007-1d.jpg" /></td><td style="display:none">            07-Apr-1999 12:03   26</td></tr> 
+<tr class="r1"><td>5-007-1e</td><td><img style="max-width: 800px;" src="5-007-1e.jpg" /></td><td style="display:none">            07-Apr-1999 12:06   18</td></tr> 
+<tr class="r1"><td>5-007-1f</td><td><img style="max-width: 800px;" src="5-007-1f.jpg" /></td><td style="display:none">            07-Apr-1999 12:17   19</td></tr> 
+<tr class="r1"><td>5-007-1g</td><td><img style="max-width: 800px;" src="5-007-1g.jpg" /></td><td style="display:none">            07-Apr-1999 12:19   21</td></tr> 
+
+<tr class="r1"><td>5-007-1h</td><td><img style="max-width: 800px;" src="5-007-1h.jpg" /></td><td style="display:none">            07-Apr-1999 12:22   25</td></tr> 
+<tr class="r1"><td>5-007-1i</td><td><img style="max-width: 800px;" src="5-007-1i.jpg" /></td><td style="display:none">            07-Apr-1999 12:24   25</td></tr> 
+<tr class="r1"><td>5-007-2a</td><td><img style="max-width: 800px;" src="5-007-2a.jpg" /></td><td style="display:none">            07-Apr-1999 12:24   25</td></tr> 
+<tr class="r1"><td>5-007-2b</td><td><img style="max-width: 800px;" src="5-007-2b.jpg" /></td><td style="display:none">            07-Apr-1999 12:26   20</td></tr> 
+<tr class="r1"><td>5-007-2c</td><td><img style="max-width: 800px;" src="5-007-2c.jpg" /></td><td style="display:none">            07-Apr-1999 12:27   39</td></tr> 
+
+<tr class="r1"><td>5-007-2d</td><td><img style="max-width: 800px;" src="5-007-2d.jpg" /></td><td style="display:none">            07-Apr-1999 12:30   18</td></tr> 
+<tr class="r1"><td>5-007-2e</td><td><img style="max-width: 800px;" src="5-007-2e.jpg" /></td><td style="display:none">            07-Apr-1999 13:42   18</td></tr> 
+<tr class="r1"><td>5-007-2f</td><td><img style="max-width: 800px;" src="5-007-2f.jpg" /></td><td style="display:none">            07-Apr-1999 13:44   17</td></tr> 
+<tr class="r1"><td>5-007-3</td><td><img style="max-width: 800px;" src="5-007-3.jpg" /></td><td style="display:none">             07-Apr-1999 14:02   44</td></tr> 
+<tr class="r1"><td>5-007-3a</td><td><img style="max-width: 800px;" src="5-007-3a.jpg" /></td><td style="display:none">            07-Apr-1999 14:06   34</td></tr> 
+
+<tr class="r1"><td>5-007-3b</td><td><img style="max-width: 800px;" src="5-007-3b.jpg" /></td><td style="display:none">            07-Apr-1999 14:09   29</td></tr> 
+<tr class="r1"><td>5-007-3c</td><td><img style="max-width: 800px;" src="5-007-3c.jpg" /></td><td style="display:none">            07-Apr-1999 15:08   21</td></tr> 
+<tr class="r1"><td>5-007-3d</td><td><img style="max-width: 800px;" src="5-007-3d.jpg" /></td><td style="display:none">            07-Apr-1999 15:10   25</td></tr> 
+<tr class="r1"><td>5-007-3e</td><td><img style="max-width: 800px;" src="5-007-3e.jpg" /></td><td style="display:none">            07-Apr-1999 15:12   37</td></tr> 
+<tr class="r1"><td>5-007-3f</td><td><img style="max-width: 800px;" src="5-007-3f.jpg" /></td><td style="display:none">            07-Apr-1999 15:14   32</td></tr> 
+
+<tr class="r1"><td>5-007-3g</td><td><img style="max-width: 800px;" src="5-007-3g.jpg" /></td><td style="display:none">            07-Apr-1999 15:17   38</td></tr> 
+<tr class="r1"><td>5-007-3h</td><td><img style="max-width: 800px;" src="5-007-3h.jpg" /></td><td style="display:none">            07-Apr-1999 15:20   19</td></tr> 
+<tr class="r1"><td>5-007-3i</td><td><img style="max-width: 800px;" src="5-007-3i.jpg" /></td><td style="display:none">            07-Apr-1999 15:22   29</td></tr> 
+<tr class="r1"><td>5-007-3j</td><td><img style="max-width: 800px;" src="5-007-3j.jpg" /></td><td style="display:none">            07-Apr-1999 15:36   16</td></tr> 
+<tr class="r1"><td>5-007-3k</td><td><img style="max-width: 800px;" src="5-007-3k.jpg" /></td><td style="display:none">            07-Apr-1999 15:38   16</td></tr> 
+
+<tr class="r1"><td>5-007-3l</td><td><img style="max-width: 800px;" src="5-007-3l.jpg" /></td><td style="display:none">            07-Apr-1999 15:41   14</td></tr> 
+<tr class="r1"><td>5-007-3m</td><td><img style="max-width: 800px;" src="5-007-3m.jpg" /></td><td style="display:none">            07-Apr-1999 15:44   34</td></tr> 
+<tr class="r1"><td>5-007-3n</td><td><img style="max-width: 800px;" src="5-007-3n.jpg" /></td><td style="display:none">            07-Apr-1999 15:46   24</td></tr> 
+<tr class="r1"><td>5-007-3o</td><td><img style="max-width: 800px;" src="5-007-3o.jpg" /></td><td style="display:none">            08-Apr-1999 12:20   56</td></tr> 
+<tr class="r1"><td>5-007-4L</td><td><img style="max-width: 800px;" src="5-007-4L.jpg" /></td><td style="display:none">            07-Apr-1999 17:28   33</td></tr> 
+
+<tr class="r1"><td>5-007-4a</td><td><img style="max-width: 800px;" src="5-007-4a.jpg" /></td><td style="display:none">            07-Apr-1999 16:45   26</td></tr> 
+<tr class="r1"><td>5-007-4b</td><td><img style="max-width: 800px;" src="5-007-4b.jpg" /></td><td style="display:none">            07-Apr-1999 16:47   22</td></tr> 
+<tr class="r1"><td>5-007-4d</td><td><img style="max-width: 800px;" src="5-007-4d.jpg" /></td><td style="display:none">            07-Apr-1999 16:53   27</td></tr> 
+<tr class="r1"><td>5-007-4e</td><td><img style="max-width: 800px;" src="5-007-4e.jpg" /></td><td style="display:none">            07-Apr-1999 16:53   29</td></tr> 
+<tr class="r1"><td>5-007-4f</td><td><img style="max-width: 800px;" src="5-007-4f.jpg" /></td><td style="display:none">            07-Apr-1999 16:56   35</td></tr> 
+
+<tr class="r1"><td>5-007-4g</td><td><img style="max-width: 800px;" src="5-007-4g.jpg" /></td><td style="display:none">            07-Apr-1999 16:59   22</td></tr> 
+<tr class="r1"><td>5-007-4h</td><td><img style="max-width: 800px;" src="5-007-4h.jpg" /></td><td style="display:none">            07-Apr-1999 17:02   27</td></tr> 
+<tr class="r1"><td>5-007-4i</td><td><img style="max-width: 800px;" src="5-007-4i.jpg" /></td><td style="display:none">            07-Apr-1999 17:05   39</td></tr> 
+<tr class="r1"><td>5-007-4j</td><td><img style="max-width: 800px;" src="5-007-4j.jpg" /></td><td style="display:none">            31-Mar-1999 16:43   55</td></tr> 
+<tr class="r1"><td>5-007-4k</td><td><img style="max-width: 800px;" src="5-007-4k.jpg" /></td><td style="display:none">            07-Apr-1999 17:08   29</td></tr> 
+
+<tr class="r1"><td>5-007-4m</td><td><img style="max-width: 800px;" src="5-007-4m.jpg" /></td><td style="display:none">            07-Apr-1999 17:30   32</td></tr> 
+<tr class="r1"><td>5-007-4n</td><td><img style="max-width: 800px;" src="5-007-4n.jpg" /></td><td style="display:none">            07-Apr-1999 17:32   28</td></tr> 
+<tr class="r1"><td>5-007-4o</td><td><img style="max-width: 800px;" src="5-007-4o.jpg" /></td><td style="display:none">            07-Apr-1999 17:35   21</td></tr> 
+<tr class="r1"><td>5-007-4p</td><td><img style="max-width: 800px;" src="5-007-4p.jpg" /></td><td style="display:none">            07-Apr-1999 17:37   21</td></tr> 
+<tr class="r1"><td>5-007-4q</td><td><img style="max-width: 800px;" src="5-007-4q.jpg" /></td><td style="display:none">            07-Apr-1999 17:41   33</td></tr> 
+
+<tr class="r1"><td>5-007-4r</td><td><img style="max-width: 800px;" src="5-007-4r.jpg" /></td><td style="display:none">            07-Apr-1999 17:43   31</td></tr> 
+<tr class="r1"><td>5-007-4s</td><td><img style="max-width: 800px;" src="5-007-4s.jpg" /></td><td style="display:none">            07-Apr-1999 17:45   12</td></tr> 
+<tr class="r1"><td>5-007-5a</td><td><img style="max-width: 800px;" src="5-007-5a.jpg" /></td><td style="display:none">            08-Apr-1999 10:26   19</td></tr> 
+<tr class="r1"><td>5-007-5b</td><td><img style="max-width: 800px;" src="5-007-5b.jpg" /></td><td style="display:none">            08-Apr-1999 10:30   25</td></tr> 
+<tr class="r1"><td>5-007-5c</td><td><img style="max-width: 800px;" src="5-007-5c.jpg" /></td><td style="display:none">            08-Apr-1999 10:32   19</td></tr> 
+
+<tr class="r1"><td>5-007-6</td><td><img style="max-width: 800px;" src="5-007-6.jpg" /></td><td style="display:none">             08-Apr-1999 11:27   25</td></tr> 
+<tr class="r1"><td>5-007-7a</td><td><img style="max-width: 800px;" src="5-007-7a.jpg" /></td><td style="display:none">            08-Apr-1999 11:30   39</td></tr> 
+<tr class="r1"><td>5-007-7b</td><td><img style="max-width: 800px;" src="5-007-7b.jpg" /></td><td style="display:none">            08-Apr-1999 11:32   53</td></tr> 
+<tr class="r1"><td>5-007-7c</td><td><img style="max-width: 800px;" src="5-007-7c.jpg" /></td><td style="display:none">            08-Apr-1999 11:34   39</td></tr> 
+<tr class="r1"><td>5-007-8a</td><td><img style="max-width: 800px;" src="5-007-8a.jpg" /></td><td style="display:none">            08-Apr-1999 11:42   15</td></tr> 
+
+<tr class="r1"><td>5-007-8b</td><td><img style="max-width: 800px;" src="5-007-8b.jpg" /></td><td style="display:none">            08-Apr-1999 11:44   20</td></tr> 
+<tr class="r1"><td>5-007-8c</td><td><img style="max-width: 800px;" src="5-007-8c.jpg" /></td><td style="display:none">            08-Apr-1999 11:47   26</td></tr> 
+<tr class="r1"><td>5-007-8d</td><td><img style="max-width: 800px;" src="5-007-8d.jpg" /></td><td style="display:none">            08-Apr-1999 11:49   29</td></tr> 
+<tr class="r1"><td>5-007-8e</td><td><img style="max-width: 800px;" src="5-007-8e.jpg" /></td><td style="display:none">            08-Apr-1999 11:52   32</td></tr> 
+<tr class="r1"><td>5-007-8f</td><td><img style="max-width: 800px;" src="5-007-8f.jpg" /></td><td style="display:none">            08-Apr-1999 11:55   27</td></tr> 
+
+<tr class="r1"><td>5-007-8g</td><td><img style="max-width: 800px;" src="5-007-8g.jpg" /></td><td style="display:none">            08-Apr-1999 11:57   26</td></tr> 
+<tr class="r1"><td>5-007-8h</td><td><img style="max-width: 800px;" src="5-007-8h.jpg" /></td><td style="display:none">            08-Apr-1999 11:59   25</td></tr> 
+<tr class="r1"><td>5-007-8i</td><td><img style="max-width: 800px;" src="5-007-8i.jpg" /></td><td style="display:none">            08-Apr-1999 12:02   33</td></tr> 
+<tr class="r1"><td>5-007-8j</td><td><img style="max-width: 800px;" src="5-007-8j.jpg" /></td><td style="display:none">            08-Apr-1999 12:05   24</td></tr> 
+<tr class="r1"><td>5-007-8k</td><td><img style="max-width: 800px;" src="5-007-8k.jpg" /></td><td style="display:none">            08-Apr-1999 12:08   23</td></tr> 
+
+<tr class="r1"><td>5-007-9a</td><td><img style="max-width: 800px;" src="5-007-9a.jpg" /></td><td style="display:none">            08-Apr-1999 12:13   41</td></tr> 
+<tr class="r1"><td>5-007-10</td><td><img style="max-width: 800px;" src="5-007-10.jpg" /></td><td style="display:none">            08-Apr-1999 12:16   22</td></tr> 
+<tr class="r1"><td>5-008-1</td><td><img style="max-width: 800px;" src="5-008-1.jpg" /></td><td style="display:none">             08-Apr-1999 14:06   39</td></tr> 
+<tr class="r1"><td>5-008-2</td><td><img style="max-width: 800px;" src="5-008-2.jpg" /></td><td style="display:none">             08-Apr-1999 14:59   26</td></tr> 
+<tr class="r1"><td>5-008-2a</td><td><img style="max-width: 800px;" src="5-008-2a.jpg" /></td><td style="display:none">            08-Apr-1999 15:01   23</td></tr> 
+
+<tr class="r1"><td>5-008-3</td><td><img style="max-width: 800px;" src="5-008-3.jpg" /></td><td style="display:none">             08-Apr-1999 15:04   26</td></tr> 
+<tr class="r1"><td>5-008-4a</td><td><img style="max-width: 800px;" src="5-008-4a.jpg" /></td><td style="display:none">            08-Apr-1999 15:06   21</td></tr> 
+<tr class="r1"><td>5-008-4b</td><td><img style="max-width: 800px;" src="5-008-4b.jpg" /></td><td style="display:none">            08-Apr-1999 15:09   18</td></tr> 
+<tr class="r1"><td>5-008-5a</td><td><img style="max-width: 800px;" src="5-008-5a.jpg" /></td><td style="display:none">            08-Apr-1999 15:12   37</td></tr> 
+<tr class="r1"><td>5-008-5b</td><td><img style="max-width: 800px;" src="5-008-5b.jpg" /></td><td style="display:none">            08-Apr-1999 15:14   43</td></tr> 
+
+<tr class="r1"><td>5-008-5c</td><td><img style="max-width: 800px;" src="5-008-5c.jpg" /></td><td style="display:none">            08-Apr-1999 15:16   32</td></tr> 
+<tr class="r1"><td>5-008-5d</td><td><img style="max-width: 800px;" src="5-008-5d.jpg" /></td><td style="display:none">            08-Apr-1999 15:19   37</td></tr> 
+<tr class="r1"><td>5-008-5e</td><td><img style="max-width: 800px;" src="5-008-5e.jpg" /></td><td style="display:none">            08-Apr-1999 15:21   38</td></tr> 
+<tr class="r1"><td>5-008-5f</td><td><img style="max-width: 800px;" src="5-008-5f.jpg" /></td><td style="display:none">            08-Apr-1999 15:24   27</td></tr> 
+<tr class="r1"><td>5-008-5g</td><td><img style="max-width: 800px;" src="5-008-5g.jpg" /></td><td style="display:none">            08-Apr-1999 15:26   42</td></tr> 
+
+<tr class="r1"><td>5-008-5h</td><td><img style="max-width: 800px;" src="5-008-5h.jpg" /></td><td style="display:none">            08-Apr-1999 15:28   15</td></tr> 
+<tr class="r1"><td>5-008-5i</td><td><img style="max-width: 800px;" src="5-008-5i.jpg" /></td><td style="display:none">            08-Apr-1999 15:30   18</td></tr> 
+<tr class="r1"><td>5-008-5j</td><td><img style="max-width: 800px;" src="5-008-5j.jpg" /></td><td style="display:none">            08-Apr-1999 15:32   27</td></tr> 
+<tr class="r1"><td>5-008-5k</td><td><img style="max-width: 800px;" src="5-008-5k.jpg" /></td><td style="display:none">            08-Apr-1999 15:35   30</td></tr> 
+<tr class="r1"><td>5-008-5l</td><td><img style="max-width: 800px;" src="5-008-5l.jpg" /></td><td style="display:none">            08-Apr-1999 15:37   34</td></tr> 
+
+<tr class="r1"><td>5-008-5m</td><td><img style="max-width: 800px;" src="5-008-5m.jpg" /></td><td style="display:none">            08-Apr-1999 16:38   39</td></tr> 
+<tr class="r1"><td>5-008-5n</td><td><img style="max-width: 800px;" src="5-008-5n.jpg" /></td><td style="display:none">            08-Apr-1999 16:40   34</td></tr> 
+<tr class="r1"><td>5-008-5o</td><td><img style="max-width: 800px;" src="5-008-5o.jpg" /></td><td style="display:none">            08-Apr-1999 16:42   45</td></tr> 
+<tr class="r1"><td>5-008-5p</td><td><img style="max-width: 800px;" src="5-008-5p.jpg" /></td><td style="display:none">            08-Apr-1999 16:44   29</td></tr> 
+<tr class="r1"><td>5-008-5q</td><td><img style="max-width: 800px;" src="5-008-5q.jpg" /></td><td style="display:none">            08-Apr-1999 16:52   20</td></tr> 
+
+<tr class="r1"><td>5-008-5r</td><td><img style="max-width: 800px;" src="5-008-5r.jpg" /></td><td style="display:none">            08-Apr-1999 16:52   20</td></tr> 
+<tr class="r1"><td>5-008-5s</td><td><img style="max-width: 800px;" src="5-008-5s.jpg" /></td><td style="display:none">            08-Apr-1999 16:51   20</td></tr> 
+<tr class="r1"><td>5-008-5t</td><td><img style="max-width: 800px;" src="5-008-5t.jpg" /></td><td style="display:none">            08-Apr-1999 16:54   23</td></tr> 
+<tr class="r1"><td>5-008-5u</td><td><img style="max-width: 800px;" src="5-008-5u.jpg" /></td><td style="display:none">            08-Apr-1999 16:56   20</td></tr> 
+<tr class="r1"><td>5-008-5v</td><td><img style="max-width: 800px;" src="5-008-5v.jpg" /></td><td style="display:none">            08-Apr-1999 16:58   37</td></tr> 
+
+<tr class="r1"><td>5-008-5w</td><td><img style="max-width: 800px;" src="5-008-5w.jpg" /></td><td style="display:none">            08-Apr-1999 17:00   22</td></tr> 
+<tr class="r1"><td>5-008-6a</td><td><img style="max-width: 800px;" src="5-008-6a.jpg" /></td><td style="display:none">            08-Apr-1999 17:03   39</td></tr> 
+<tr class="r1"><td>5-008-7a</td><td><img style="max-width: 800px;" src="5-008-7a.jpg" /></td><td style="display:none">            08-Apr-1999 17:34   21</td></tr> 
+<tr class="r1"><td>5-008-7b</td><td><img style="max-width: 800px;" src="5-008-7b.jpg" /></td><td style="display:none">            08-Apr-1999 17:36   30</td></tr> 
+<tr class="r1"><td>5-008-8</td><td><img style="max-width: 800px;" src="5-008-8.jpg" /></td><td style="display:none">             08-Apr-1999 17:39   55</td></tr> 
+
+<tr class="r1"><td>5-008-9</td><td><img style="max-width: 800px;" src="5-008-9.jpg" /></td><td style="display:none">             08-Apr-1999 17:41   25</td></tr> 
+<tr class="r1"><td>5-009-1</td><td><img style="max-width: 800px;" src="5-009-1.jpg" /></td><td style="display:none">             09-Apr-1999 09:59   29</td></tr> 
+<tr class="r1"><td>5-010-1a</td><td><img style="max-width: 800px;" src="5-010-1a.jpg" /></td><td style="display:none">            09-Apr-1999 10:02   26</td></tr> 
+<tr class="r1"><td>5-011-1a</td><td><img style="max-width: 800px;" src="5-011-1a.jpg" /></td><td style="display:none">            09-Apr-1999 10:05   12</td></tr> 
+<tr class="r1"><td>5-011-1b</td><td><img style="max-width: 800px;" src="5-011-1b.jpg" /></td><td style="display:none">            09-Apr-1999 10:07   21</td></tr> 
+
+<tr class="r1"><td>5-011-2</td><td><img style="max-width: 800px;" src="5-011-2.jpg" /></td><td style="display:none">             09-Apr-1999 10:10   16</td></tr> 
+<tr class="r1"><td>5-012-1a</td><td><img style="max-width: 800px;" src="5-012-1a.jpg" /></td><td style="display:none">            09-Apr-1999 10:13   27</td></tr> 
+<tr class="r1"><td>5-012-1b</td><td><img style="max-width: 800px;" src="5-012-1b.jpg" /></td><td style="display:none">            09-Apr-1999 10:15   18</td></tr> 
+<tr class="r1"><td>5-012-2a</td><td><img style="max-width: 800px;" src="5-012-2a.jpg" /></td><td style="display:none">            09-Apr-1999 10:18   33</td></tr> 
+<tr class="r1"><td>5-012-2b</td><td><img style="max-width: 800px;" src="5-012-2b.jpg" /></td><td style="display:none">            09-Apr-1999 10:20   18</td></tr> 
+
+<tr class="r1"><td>5-013-01a</td><td><img style="max-width: 800px;" src="5-013-01a.jpg" /></td><td style="display:none">           15-Mar-1999 12:22   24</td></tr> 
+<tr class="r1"><td>5-013-07o</td><td><img style="max-width: 800px;" src="5-013-07o.jpg" /></td><td style="display:none">           09-Apr-1999 16:08   22</td></tr> 
+<tr class="r1"><td>5-013-07p</td><td><img style="max-width: 800px;" src="5-013-07p.jpg" /></td><td style="display:none">           09-Apr-1999 16:13   15</td></tr> 
+<tr class="r1"><td>5-013-07q</td><td><img style="max-width: 800px;" src="5-013-07q.jpg" /></td><td style="display:none">           09-Apr-1999 16:15   27</td></tr> 
+<tr class="r1"><td>5-013-1b</td><td><img style="max-width: 800px;" src="5-013-1b.jpg" /></td><td style="display:none">            09-Apr-1999 10:25   29</td></tr> 
+
+<tr class="r1"><td>5-013-1c</td><td><img style="max-width: 800px;" src="5-013-1c.jpg" /></td><td style="display:none">            09-Apr-1999 10:35   15</td></tr> 
+<tr class="r1"><td>5-013-1d</td><td><img style="max-width: 800px;" src="5-013-1d.jpg" /></td><td style="display:none">            09-Apr-1999 11:33   33</td></tr> 
+<tr class="r1"><td>5-013-1e</td><td><img style="max-width: 800px;" src="5-013-1e.jpg" /></td><td style="display:none">            09-Apr-1999 11:35   22</td></tr> 
+<tr class="r1"><td>5-013-2a</td><td><img style="max-width: 800px;" src="5-013-2a.jpg" /></td><td style="display:none">            09-Apr-1999 11:37   33</td></tr> 
+<tr class="r1"><td>5-013-2b</td><td><img style="max-width: 800px;" src="5-013-2b.jpg" /></td><td style="display:none">            09-Apr-1999 11:40   13</td></tr> 
+
+<tr class="r1"><td>5-013-3a</td><td><img style="max-width: 800px;" src="5-013-3a.jpg" /></td><td style="display:none">            09-Apr-1999 11:42   31</td></tr> 
+<tr class="r1"><td>5-013-3b</td><td><img style="max-width: 800px;" src="5-013-3b.jpg" /></td><td style="display:none">            09-Apr-1999 11:45   23</td></tr> 
+<tr class="r1"><td>5-013-4a</td><td><img style="max-width: 800px;" src="5-013-4a.jpg" /></td><td style="display:none">            09-Apr-1999 11:56   24</td></tr> 
+<tr class="r1"><td>5-013-5</td><td><img style="max-width: 800px;" src="5-013-5.jpg" /></td><td style="display:none">             09-Apr-1999 12:19   39</td></tr> 
+<tr class="r1"><td>5-013-6</td><td><img style="max-width: 800px;" src="5-013-6.jpg" /></td><td style="display:none">             09-Apr-1999 12:22   26</td></tr> 
+
+<tr class="r1"><td>5-013-7L</td><td><img style="max-width: 800px;" src="5-013-7L.jpg" /></td><td style="display:none">            09-Apr-1999 15:26   24</td></tr> 
+<tr class="r1"><td>5-013-7a</td><td><img style="max-width: 800px;" src="5-013-7a.jpg" /></td><td style="display:none">            09-Apr-1999 12:25   29</td></tr> 
+<tr class="r1"><td>5-013-7b</td><td><img style="max-width: 800px;" src="5-013-7b.jpg" /></td><td style="display:none">            09-Apr-1999 12:27   25</td></tr> 
+<tr class="r1"><td>5-013-7c</td><td><img style="max-width: 800px;" src="5-013-7c.jpg" /></td><td style="display:none">            09-Apr-1999 12:29   23</td></tr> 
+<tr class="r1"><td>5-013-7d</td><td><img style="max-width: 800px;" src="5-013-7d.jpg" /></td><td style="display:none">            09-Apr-1999 13:50   27</td></tr> 
+
+<tr class="r1"><td>5-013-7e</td><td><img style="max-width: 800px;" src="5-013-7e.jpg" /></td><td style="display:none">            09-Apr-1999 13:51   12</td></tr> 
+<tr class="r1"><td>5-013-7f</td><td><img style="max-width: 800px;" src="5-013-7f.jpg" /></td><td style="display:none">            09-Apr-1999 13:53   21</td></tr> 
+<tr class="r1"><td>5-013-7g</td><td><img style="max-width: 800px;" src="5-013-7g.jpg" /></td><td style="display:none">            09-Apr-1999 13:55   23</td></tr> 
+<tr class="r1"><td>5-013-7h</td><td><img style="max-width: 800px;" src="5-013-7h.jpg" /></td><td style="display:none">            09-Apr-1999 13:57   18</td></tr> 
+<tr class="r1"><td>5-013-7i</td><td><img style="max-width: 800px;" src="5-013-7i.jpg" /></td><td style="display:none">            09-Apr-1999 13:59   18</td></tr> 
+
+<tr class="r1"><td>5-013-7j</td><td><img style="max-width: 800px;" src="5-013-7j.jpg" /></td><td style="display:none">            09-Apr-1999 14:02   20</td></tr> 
+<tr class="r1"><td>5-013-7k</td><td><img style="max-width: 800px;" src="5-013-7k.jpg" /></td><td style="display:none">            09-Apr-1999 15:24   14</td></tr> 
+<tr class="r1"><td>5-013-7m</td><td><img style="max-width: 800px;" src="5-013-7m.jpg" /></td><td style="display:none">            09-Apr-1999 16:04   24</td></tr> 
+<tr class="r1"><td>5-013-7n</td><td><img style="max-width: 800px;" src="5-013-7n.jpg" /></td><td style="display:none">            09-Apr-1999 16:06   21</td></tr> 
+<tr class="r1"><td>5-013-8</td><td><img style="max-width: 800px;" src="5-013-8.jpg" /></td><td style="display:none">             09-Apr-1999 16:49   23</td></tr> 
+
+<tr class="r1"><td>5-013-9a</td><td><img style="max-width: 800px;" src="5-013-9a.jpg" /></td><td style="display:none">            09-Apr-1999 16:52   78</td></tr> 
+<tr class="r1"><td>5-013-9b</td><td><img style="max-width: 800px;" src="5-013-9b.jpg" /></td><td style="display:none">            09-Apr-1999 16:54   40</td></tr> 
+<tr class="r1"><td>5-014-1L</td><td><img style="max-width: 800px;" src="5-014-1L.jpg" /></td><td style="display:none">            12-Apr-1999 10:23   37</td></tr> 
+<tr class="r1"><td>5-014-1a</td><td><img style="max-width: 800px;" src="5-014-1a.jpg" /></td><td style="display:none">            09-Apr-1999 16:56   32</td></tr> 
+<tr class="r1"><td>5-014-1b</td><td><img style="max-width: 800px;" src="5-014-1b.jpg" /></td><td style="display:none">            09-Apr-1999 16:58   46</td></tr> 
+
+<tr class="r1"><td>5-014-1c</td><td><img style="max-width: 800px;" src="5-014-1c.jpg" /></td><td style="display:none">            09-Apr-1999 17:04   35</td></tr> 
+<tr class="r1"><td>5-014-1d</td><td><img style="max-width: 800px;" src="5-014-1d.jpg" /></td><td style="display:none">            09-Apr-1999 17:06   37</td></tr> 
+<tr class="r1"><td>5-014-1e</td><td><img style="max-width: 800px;" src="5-014-1e.jpg" /></td><td style="display:none">            12-Apr-1999 10:04   76</td></tr> 
+<tr class="r1"><td>5-014-1f</td><td><img style="max-width: 800px;" src="5-014-1f.jpg" /></td><td style="display:none">            12-Apr-1999 10:10   40</td></tr> 
+<tr class="r1"><td>5-014-1g</td><td><img style="max-width: 800px;" src="5-014-1g.jpg" /></td><td style="display:none">            12-Apr-1999 10:12   35</td></tr> 
+
+<tr class="r1"><td>5-014-1h</td><td><img style="max-width: 800px;" src="5-014-1h.jpg" /></td><td style="display:none">            12-Apr-1999 10:14   34</td></tr> 
+<tr class="r1"><td>5-014-1i</td><td><img style="max-width: 800px;" src="5-014-1i.jpg" /></td><td style="display:none">            12-Apr-1999 10:17   36</td></tr> 
+<tr class="r1"><td>5-014-1j</td><td><img style="max-width: 800px;" src="5-014-1j.jpg" /></td><td style="display:none">            12-Apr-1999 10:19   40</td></tr> 
+<tr class="r1"><td>5-014-1k</td><td><img style="max-width: 800px;" src="5-014-1k.jpg" /></td><td style="display:none">            12-Apr-1999 10:21   44</td></tr> 
+<tr class="r1"><td>5-014-1m</td><td><img style="max-width: 800px;" src="5-014-1m.jpg" /></td><td style="display:none">            12-Apr-1999 10:25   45</td></tr> 
+
+<tr class="r1"><td>5-014-1n</td><td><img style="max-width: 800px;" src="5-014-1n.jpg" /></td><td style="display:none">            12-Apr-1999 10:27   59</td></tr> 
+<tr class="r1"><td>5-014-1o</td><td><img style="max-width: 800px;" src="5-014-1o.jpg" /></td><td style="display:none">            12-Apr-1999 10:29   50</td></tr> 
+<tr class="r1"><td>5-015-1a</td><td><img style="max-width: 800px;" src="5-015-1a.jpg" /></td><td style="display:none">            12-Apr-1999 12:15   14</td></tr> 
+<tr class="r1"><td>5-016-1a</td><td><img style="max-width: 800px;" src="5-016-1a.jpg" /></td><td style="display:none">            12-Apr-1999 12:18   19</td></tr> 
+<tr class="r1"><td>5-016-2a</td><td><img style="max-width: 800px;" src="5-016-2a.jpg" /></td><td style="display:none">            12-Apr-1999 12:20   34</td></tr> 
+
+<tr class="r1"><td>5-016-3a</td><td><img style="max-width: 800px;" src="5-016-3a.jpg" /></td><td style="display:none">            12-Apr-1999 12:22   32</td></tr> 
+<tr class="r1"><td>5-016-3b</td><td><img style="max-width: 800px;" src="5-016-3b.jpg" /></td><td style="display:none">            12-Apr-1999 12:23   36</td></tr> 
+<tr class="r1"><td>5-016-3c</td><td><img style="max-width: 800px;" src="5-016-3c.jpg" /></td><td style="display:none">            12-Apr-1999 12:25   40</td></tr> 
+<tr class="r1"><td>5-016-3d</td><td><img style="max-width: 800px;" src="5-016-3d.jpg" /></td><td style="display:none">            12-Apr-1999 12:27   28</td></tr> 
+<tr class="r1"><td>5-016-3e</td><td><img style="max-width: 800px;" src="5-016-3e.jpg" /></td><td style="display:none">            12-Apr-1999 12:29   15</td></tr> 
+
+<tr class="r1"><td>5-016-3f</td><td><img style="max-width: 800px;" src="5-016-3f.jpg" /></td><td style="display:none">            12-Apr-1999 13:40   20</td></tr> 
+<tr class="r1"><td>5-016-3g</td><td><img style="max-width: 800px;" src="5-016-3g.jpg" /></td><td style="display:none">            12-Apr-1999 13:43   35</td></tr> 
+<tr class="r1"><td>5-017-1a</td><td><img style="max-width: 800px;" src="5-017-1a.jpg" /></td><td style="display:none">            12-Apr-1999 13:45   34</td></tr> 
+<tr class="r1"><td>5-017-1d</td><td><img style="max-width: 800px;" src="5-017-1d.jpg" /></td><td style="display:none">            12-Apr-1999 13:49  6.8</td></tr> 
+<tr class="r1"><td>5-017-1e</td><td><img style="max-width: 800px;" src="5-017-1e.jpg" /></td><td style="display:none">            12-Apr-1999 13:50  5.6</td></tr> 
+
+<tr class="r1"><td>5-017-1f</td><td><img style="max-width: 800px;" src="5-017-1f.jpg" /></td><td style="display:none">            12-Apr-1999 14:51   22</td></tr> 
+<tr class="r1"><td>5-017-1g</td><td><img style="max-width: 800px;" src="5-017-1g.jpg" /></td><td style="display:none">            12-Apr-1999 14:53   15</td></tr> 
+<tr class="r1"><td>5-017-1h</td><td><img style="max-width: 800px;" src="5-017-1h.jpg" /></td><td style="display:none">            12-Apr-1999 14:58   19</td></tr> 
+<tr class="r1"><td>5-017-2</td><td><img style="max-width: 800px;" src="5-017-2.jpg" /></td><td style="display:none">             12-Apr-1999 15:02   18</td></tr> 
+<tr class="r1"><td>5-017-3a</td><td><img style="max-width: 800px;" src="5-017-3a.jpg" /></td><td style="display:none">            12-Apr-1999 15:04   12</td></tr> 
+
+<tr class="r1"><td>5-017-3b</td><td><img style="max-width: 800px;" src="5-017-3b.jpg" /></td><td style="display:none">            12-Apr-1999 15:06   13</td></tr> 
+<tr class="r1"><td>5-017-4a</td><td><img style="max-width: 800px;" src="5-017-4a.jpg" /></td><td style="display:none">            12-Apr-1999 15:15   30</td></tr> 
+<tr class="r1"><td>5-017-4c</td><td><img style="max-width: 800px;" src="5-017-4c.jpg" /></td><td style="display:none">            12-Apr-1999 15:13   19</td></tr> 
+<tr class="r1"><td>5-017-4d</td><td><img style="max-width: 800px;" src="5-017-4d.jpg" /></td><td style="display:none">            12-Apr-1999 15:09   11</td></tr> 
+<tr class="r1"><td>5-017-4e</td><td><img style="max-width: 800px;" src="5-017-4e.jpg" /></td><td style="display:none">            12-Apr-1999 15:10   30</td></tr> 
+
+<tr class="r1"><td>5-018-1a</td><td><img style="max-width: 800px;" src="5-018-1a.jpg" /></td><td style="display:none">            12-Apr-1999 16:04   31</td></tr> 
+<tr class="r1"><td>5-018-1b</td><td><img style="max-width: 800px;" src="5-018-1b.jpg" /></td><td style="display:none">            12-Apr-1999 16:11   16</td></tr> 
+<tr class="r1"><td>5-019-1</td><td><img style="max-width: 800px;" src="5-019-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:13   11</td></tr> 
+<tr class="r1"><td>5-020-1</td><td><img style="max-width: 800px;" src="5-020-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:16   17</td></tr> 
+<tr class="r1"><td>5-021-1</td><td><img style="max-width: 800px;" src="5-021-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:26   19</td></tr> 
+
+<tr class="r1"><td>5-022-1</td><td><img style="max-width: 800px;" src="5-022-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:29   22</td></tr> 
+<tr class="r1"><td>5-023-1</td><td><img style="max-width: 800px;" src="5-023-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:31   19</td></tr> 
+<tr class="r1"><td>5-024-1</td><td><img style="max-width: 800px;" src="5-024-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:33   19</td></tr> 
+<tr class="r1"><td>5-025-1</td><td><img style="max-width: 800px;" src="5-025-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:35   18</td></tr> 
+<tr class="r1"><td>5-025-2</td><td><img style="max-width: 800px;" src="5-025-2.jpg" /></td><td style="display:none">             12-Apr-1999 16:37   21</td></tr> 
+
+<tr class="r1"><td>5-026-1</td><td><img style="max-width: 800px;" src="5-026-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:39   21</td></tr> 
+<tr class="r1"><td>5-027-1</td><td><img style="max-width: 800px;" src="5-027-1.jpg" /></td><td style="display:none">             12-Apr-1999 16:41   21</td></tr> 
+<tr class="r1"><td>5-027-2</td><td><img style="max-width: 800px;" src="5-027-2.jpg" /></td><td style="display:none">             12-Apr-1999 16:42   18</td></tr> 
+<tr class="r1"><td>5-027-3</td><td><img style="max-width: 800px;" src="5-027-3.jpg" /></td><td style="display:none">             12-Apr-1999 16:45   32</td></tr> 
+<tr class="r1"><td>5-028-1</td><td><img style="max-width: 800px;" src="5-028-1.jpg" /></td><td style="display:none">             12-Apr-1999 17:01   28</td></tr> 
+
+<tr class="r1"><td>5-029-1</td><td><img style="max-width: 800px;" src="5-029-1.jpg" /></td><td style="display:none">             12-Apr-1999 17:04   28</td></tr> 
+<tr class="r1"><td>5-030-1</td><td><img style="max-width: 800px;" src="5-030-1.jpg" /></td><td style="display:none">             13-Apr-1999 09:57   20</td></tr> 
+<tr class="r1"><td>5-031-1a</td><td><img style="max-width: 800px;" src="5-031-1a.jpg" /></td><td style="display:none">            13-Apr-1999 10:05   19</td></tr> 
+<tr class="r1"><td>5-031-1b</td><td><img style="max-width: 800px;" src="5-031-1b.jpg" /></td><td style="display:none">            13-Apr-1999 10:06   28</td></tr> 
+<tr class="r1"><td>5-031-1c</td><td><img style="max-width: 800px;" src="5-031-1c.jpg" /></td><td style="display:none">            13-Apr-1999 10:08   22</td></tr> 
+
+<tr class="r1"><td>5-032-1a</td><td><img style="max-width: 800px;" src="5-032-1a.jpg" /></td><td style="display:none">            13-Apr-1999 10:10   14</td></tr> 
+<tr class="r1"><td>5-032-1b</td><td><img style="max-width: 800px;" src="5-032-1b.jpg" /></td><td style="display:none">            13-Apr-1999 10:12   16</td></tr> 
+<tr class="r1"><td>5-033-1a</td><td><img style="max-width: 800px;" src="5-033-1a.jpg" /></td><td style="display:none">            13-Apr-1999 10:14   22</td></tr> 
+<tr class="r1"><td>5-033-1b</td><td><img style="max-width: 800px;" src="5-033-1b.jpg" /></td><td style="display:none">            13-Apr-1999 10:16   27</td></tr> 
+<tr class="r1"><td>5-033-1c</td><td><img style="max-width: 800px;" src="5-033-1c.jpg" /></td><td style="display:none">            13-Apr-1999 10:20   24</td></tr> 
+
+<tr class="r1"><td>5-034-1</td><td><img style="max-width: 800px;" src="5-034-1.jpg" /></td><td style="display:none">             13-Apr-1999 10:22   22</td></tr> 
+<tr class="r1"><td>5-035-1</td><td><img style="max-width: 800px;" src="5-035-1.jpg" /></td><td style="display:none">             13-Apr-1999 10:29   30</td></tr> 
+<tr class="r1"><td>5-036-1</td><td><img style="max-width: 800px;" src="5-036-1.jpg" /></td><td style="display:none">             13-Apr-1999 10:31   22</td></tr> 
+<tr class="r1"><td>5-036-1a</td><td><img style="max-width: 800px;" src="5-036-1a.jpg" /></td><td style="display:none">            13-Apr-1999 10:33   26</td></tr> 
+<tr class="r1"><td>5-036-2</td><td><img style="max-width: 800px;" src="5-036-2.jpg" /></td><td style="display:none">             13-Apr-1999 10:36   44</td></tr> 
+
+<tr class="r1"><td>5-036-3a</td><td><img style="max-width: 800px;" src="5-036-3a.jpg" /></td><td style="display:none">            13-Apr-1999 10:37   49</td></tr> 
+<tr class="r1"><td>5-037-1a</td><td><img style="max-width: 800px;" src="5-037-1a.jpg" /></td><td style="display:none">            13-Apr-1999 12:30   22</td></tr> 
+<tr class="r1"><td>5-037-1b</td><td><img style="max-width: 800px;" src="5-037-1b.jpg" /></td><td style="display:none">            13-Apr-1999 12:32   17</td></tr> 
+<tr class="r1"><td>5-037-1c</td><td><img style="max-width: 800px;" src="5-037-1c.jpg" /></td><td style="display:none">            13-Apr-1999 12:34   20</td></tr> 
+<tr class="r1"><td>5-037-2L</td><td><img style="max-width: 800px;" src="5-037-2L.jpg" /></td><td style="display:none">            13-Apr-1999 14:05   29</td></tr> 
+
+<tr class="r1"><td>5-037-2a</td><td><img style="max-width: 800px;" src="5-037-2a.jpg" /></td><td style="display:none">            13-Apr-1999 13:41   43</td></tr> 
+<tr class="r1"><td>5-037-2b</td><td><img style="max-width: 800px;" src="5-037-2b.jpg" /></td><td style="display:none">            13-Apr-1999 13:43   22</td></tr> 
+<tr class="r1"><td>5-037-2c</td><td><img style="max-width: 800px;" src="5-037-2c.jpg" /></td><td style="display:none">            13-Apr-1999 13:45   25</td></tr> 
+<tr class="r1"><td>5-037-2d</td><td><img style="max-width: 800px;" src="5-037-2d.jpg" /></td><td style="display:none">            13-Apr-1999 13:47   21</td></tr> 
+<tr class="r1"><td>5-037-2e</td><td><img style="max-width: 800px;" src="5-037-2e.jpg" /></td><td style="display:none">            13-Apr-1999 13:49   12</td></tr> 
+
+<tr class="r1"><td>5-037-2f</td><td><img style="max-width: 800px;" src="5-037-2f.jpg" /></td><td style="display:none">            13-Apr-1999 13:52   22</td></tr> 
+<tr class="r1"><td>5-037-2g</td><td><img style="max-width: 800px;" src="5-037-2g.jpg" /></td><td style="display:none">            13-Apr-1999 13:54   30</td></tr> 
+<tr class="r1"><td>5-037-2h</td><td><img style="max-width: 800px;" src="5-037-2h.jpg" /></td><td style="display:none">            13-Apr-1999 13:56   33</td></tr> 
+<tr class="r1"><td>5-037-2i</td><td><img style="max-width: 800px;" src="5-037-2i.jpg" /></td><td style="display:none">            13-Apr-1999 13:58   33</td></tr> 
+<tr class="r1"><td>5-037-2j</td><td><img style="max-width: 800px;" src="5-037-2j.jpg" /></td><td style="display:none">            13-Apr-1999 14:00   29</td></tr> 
+
+<tr class="r1"><td>5-037-2k</td><td><img style="max-width: 800px;" src="5-037-2k.jpg" /></td><td style="display:none">            13-Apr-1999 14:02   19</td></tr> 
+<tr class="r1"><td>5-038-1a</td><td><img style="max-width: 800px;" src="5-038-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:10   13</td></tr> 
+<tr class="r1"><td>5-039-1a</td><td><img style="max-width: 800px;" src="5-039-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:09   14</td></tr> 
+<tr class="r1"><td>5-040-1a</td><td><img style="max-width: 800px;" src="5-040-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:12   15</td></tr> 
+<tr class="r1"><td>5-041-1a</td><td><img style="max-width: 800px;" src="5-041-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:15   24</td></tr> 
+
+<tr class="r1"><td>5-042-1a</td><td><img style="max-width: 800px;" src="5-042-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:17   23</td></tr> 
+<tr class="r1"><td>5-043-1a</td><td><img style="max-width: 800px;" src="5-043-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:36   19</td></tr> 
+<tr class="r1"><td>5-043-2a</td><td><img style="max-width: 800px;" src="5-043-2a.jpg" /></td><td style="display:none">            13-Apr-1999 14:38   27</td></tr> 
+<tr class="r1"><td>5-043-3a</td><td><img style="max-width: 800px;" src="5-043-3a.jpg" /></td><td style="display:none">            13-Apr-1999 14:41   32</td></tr> 
+<tr class="r1"><td>5-043-3b</td><td><img style="max-width: 800px;" src="5-043-3b.jpg" /></td><td style="display:none">            13-Apr-1999 14:43   28</td></tr> 
+
+<tr class="r1"><td>5-044-1a</td><td><img style="max-width: 800px;" src="5-044-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:47   23</td></tr> 
+<tr class="r1"><td>5-044-1b</td><td><img style="max-width: 800px;" src="5-044-1b.jpg" /></td><td style="display:none">            13-Apr-1999 14:53   19</td></tr> 
+<tr class="r1"><td>5-045-1a</td><td><img style="max-width: 800px;" src="5-045-1a.jpg" /></td><td style="display:none">            13-Apr-1999 14:56   36</td></tr> 
+<tr class="r1"><td>5-045-1b</td><td><img style="max-width: 800px;" src="5-045-1b.jpg" /></td><td style="display:none">            13-Apr-1999 14:58   17</td></tr> 
+<tr class="r1"><td>5-046-1a</td><td><img style="max-width: 800px;" src="5-046-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:01   26</td></tr> 
+
+<tr class="r1"><td>5-047-1a</td><td><img style="max-width: 800px;" src="5-047-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:04   20</td></tr> 
+<tr class="r1"><td>5-048-1a</td><td><img style="max-width: 800px;" src="5-048-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:06   30</td></tr> 
+<tr class="r1"><td>5-049-1a</td><td><img style="max-width: 800px;" src="5-049-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:08   16</td></tr> 
+<tr class="r1"><td>5-049-2</td><td><img style="max-width: 800px;" src="5-049-2.jpg" /></td><td style="display:none">             13-Apr-1999 15:11   27</td></tr> 
+<tr class="r1"><td>5-050-1a</td><td><img style="max-width: 800px;" src="5-050-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:13   22</td></tr> 
+
+<tr class="r1"><td>5-051-1a</td><td><img style="max-width: 800px;" src="5-051-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:16   14</td></tr> 
+<tr class="r1"><td>5-052-1a</td><td><img style="max-width: 800px;" src="5-052-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:18   23</td></tr> 
+<tr class="r1"><td>5-053-1a</td><td><img style="max-width: 800px;" src="5-053-1a.jpg" /></td><td style="display:none">            13-Apr-1999 15:21   21</td></tr> 
+<tr class="r1"><td>5-054-1a</td><td><img style="max-width: 800px;" src="5-054-1a.jpg" /></td><td style="display:none">            13-Apr-1999 16:31   15</td></tr> 
+<tr class="r1"><td>5-055-1a</td><td><img style="max-width: 800px;" src="5-055-1a.jpg" /></td><td style="display:none">            13-Apr-1999 16:33   36</td></tr> 
+
+<tr class="r1"><td>5-056-1a</td><td><img style="max-width: 800px;" src="5-056-1a.jpg" /></td><td style="display:none">            13-Apr-1999 16:36   29</td></tr> 
+<tr class="r1"><td>5-056-2a</td><td><img style="max-width: 800px;" src="5-056-2a.jpg" /></td><td style="display:none">            13-Apr-1999 16:42   23</td></tr> 
+<tr class="r1"><td>5-056-2b</td><td><img style="max-width: 800px;" src="5-056-2b.jpg" /></td><td style="display:none">            13-Apr-1999 16:53   27</td></tr> 
+<tr class="r1"><td>5-056-3a</td><td><img style="max-width: 800px;" src="5-056-3a.jpg" /></td><td style="display:none">            13-Apr-1999 16:55   29</td></tr> 
+<tr class="r1"><td>5-056-3b</td><td><img style="max-width: 800px;" src="5-056-3b.jpg" /></td><td style="display:none">            13-Apr-1999 16:57   36</td></tr> 
+
+<tr class="r1"><td>5-056-4a</td><td><img style="max-width: 800px;" src="5-056-4a.jpg" /></td><td style="display:none">            13-Apr-1999 17:00   29</td></tr> 
+<tr class="r1"><td>5-057-1</td><td><img style="max-width: 800px;" src="5-057-1.jpg" /></td><td style="display:none">             13-Apr-1999 17:03   48</td></tr> 
+<tr class="r1"><td>5-058-1a</td><td><img style="max-width: 800px;" src="5-058-1a.jpg" /></td><td style="display:none">            13-Apr-1999 17:05   18</td></tr> 
+<tr class="r1"><td>5-058-1b</td><td><img style="max-width: 800px;" src="5-058-1b.jpg" /></td><td style="display:none">            13-Apr-1999 17:07   56</td></tr> 
+<tr class="r1"><td>5-058-1c</td><td><img style="max-width: 800px;" src="5-058-1c.jpg" /></td><td style="display:none">            13-Apr-1999 17:09   44</td></tr> 
+
+<tr class="r1"><td>5-058-1d</td><td><img style="max-width: 800px;" src="5-058-1d.jpg" /></td><td style="display:none">            13-Apr-1999 17:11   29</td></tr> 
+<tr class="r1"><td>5-058-1e</td><td><img style="max-width: 800px;" src="5-058-1e.jpg" /></td><td style="display:none">            13-Apr-1999 17:13   59</td></tr> 
+<tr class="r1"><td>5-058-1f</td><td><img style="max-width: 800px;" src="5-058-1f.jpg" /></td><td style="display:none">            13-Apr-1999 17:16   27</td></tr> 
+<tr class="r1"><td>5-058-1g</td><td><img style="max-width: 800px;" src="5-058-1g.jpg" /></td><td style="display:none">            13-Apr-1999 17:19   38</td></tr> 
+<tr class="r1"><td>5-058-1h</td><td><img style="max-width: 800px;" src="5-058-1h.jpg" /></td><td style="display:none">            13-Apr-1999 17:22   28</td></tr> 
+
+<tr class="r1"><td>5-058-2</td><td><img style="max-width: 800px;" src="5-058-2.jpg" /></td><td style="display:none">             13-Apr-1999 17:25   46</td></tr> 
+<tr class="r1"><td>5-059-1</td><td><img style="max-width: 800px;" src="5-059-1.jpg" /></td><td style="display:none">             14-Apr-1999 15:02   25</td></tr> 
+<tr class="r1"><td>5-059-2</td><td><img style="max-width: 800px;" src="5-059-2.jpg" /></td><td style="display:none">             14-Apr-1999 15:04   24</td></tr> 
+<tr class="r1"><td>5-059-3</td><td><img style="max-width: 800px;" src="5-059-3.jpg" /></td><td style="display:none">             14-Apr-1999 15:06   36</td></tr> 
+<tr class="r1"><td>5-059-4a</td><td><img style="max-width: 800px;" src="5-059-4a.jpg" /></td><td style="display:none">            14-Apr-1999 15:08   22</td></tr> 
+
+<tr class="r1"><td>5-059-4b</td><td><img style="max-width: 800px;" src="5-059-4b.jpg" /></td><td style="display:none">            14-Apr-1999 15:10   28</td></tr> 
+<tr class="r1"><td>5-059-4c</td><td><img style="max-width: 800px;" src="5-059-4c.jpg" /></td><td style="display:none">            14-Apr-1999 15:12   33</td></tr> 
+<tr class="r1"><td>5-059-4d</td><td><img style="max-width: 800px;" src="5-059-4d.jpg" /></td><td style="display:none">            14-Apr-1999 15:14   19</td></tr> 
+<tr class="r1"><td>5-059-4e</td><td><img style="max-width: 800px;" src="5-059-4e.jpg" /></td><td style="display:none">            14-Apr-1999 15:16   20</td></tr> 
+<tr class="r1"><td>5-059-4f</td><td><img style="max-width: 800px;" src="5-059-4f.jpg" /></td><td style="display:none">            14-Apr-1999 15:18   34</td></tr> 
+
+<tr class="r1"><td>5-059-4g</td><td><img style="max-width: 800px;" src="5-059-4g.jpg" /></td><td style="display:none">            14-Apr-1999 15:21   19</td></tr> 
+<tr class="r1"><td>5-059-4h</td><td><img style="max-width: 800px;" src="5-059-4h.jpg" /></td><td style="display:none">            14-Apr-1999 15:23   27</td></tr> 
+<tr class="r1"><td>5-059-4i</td><td><img style="max-width: 800px;" src="5-059-4i.jpg" /></td><td style="display:none">            14-Apr-1999 15:25   24</td></tr> 
+<tr class="r1"><td>5-059-4j</td><td><img style="max-width: 800px;" src="5-059-4j.jpg" /></td><td style="display:none">            14-Apr-1999 15:28   23</td></tr> 
+<tr class="r1"><td>5-059-5</td><td><img style="max-width: 800px;" src="5-059-5.jpg" /></td><td style="display:none">             14-Apr-1999 15:30   45</td></tr> 
+
+<tr class="r1"><td>5-059-6</td><td><img style="max-width: 800px;" src="5-059-6.jpg" /></td><td style="display:none">             14-Apr-1999 16:07   26</td></tr> 
+<tr class="r1"><td>5-059-7a</td><td><img style="max-width: 800px;" src="5-059-7a.jpg" /></td><td style="display:none">            14-Apr-1999 16:10   41</td></tr> 
+<tr class="r1"><td>5-059-7b</td><td><img style="max-width: 800px;" src="5-059-7b.jpg" /></td><td style="display:none">            14-Apr-1999 16:13   26</td></tr> 
+<tr class="r1"><td>5-059-7c</td><td><img style="max-width: 800px;" src="5-059-7c.jpg" /></td><td style="display:none">            14-Apr-1999 16:15   25</td></tr> 
+<tr class="r1"><td>5-059-7d</td><td><img style="max-width: 800px;" src="5-059-7d.jpg" /></td><td style="display:none">            14-Apr-1999 16:16   28</td></tr> 
+
+<tr class="r1"><td>5-059-7e</td><td><img style="max-width: 800px;" src="5-059-7e.jpg" /></td><td style="display:none">            14-Apr-1999 16:19   18</td></tr> 
+<tr class="r1"><td>5-059-7f</td><td><img style="max-width: 800px;" src="5-059-7f.jpg" /></td><td style="display:none">            14-Apr-1999 16:21   29</td></tr> 
+<tr class="r1"><td>5-059-7g</td><td><img style="max-width: 800px;" src="5-059-7g.jpg" /></td><td style="display:none">            14-Apr-1999 16:22   23</td></tr> 
+<tr class="r1"><td>5-059-7h</td><td><img style="max-width: 800px;" src="5-059-7h.jpg" /></td><td style="display:none">            14-Apr-1999 16:25   22</td></tr> 
+<tr class="r1"><td>5-059-7i</td><td><img style="max-width: 800px;" src="5-059-7i.jpg" /></td><td style="display:none">            14-Apr-1999 16:27   19</td></tr> 
+
+<tr class="r1"><td>5-059-7j</td><td><img style="max-width: 800px;" src="5-059-7j.jpg" /></td><td style="display:none">            14-Apr-1999 16:30   14</td></tr> 
+<tr class="r1"><td>5-059-8a</td><td><img style="max-width: 800px;" src="5-059-8a.jpg" /></td><td style="display:none">            14-Apr-1999 17:11   32</td></tr> 
+<tr class="r1"><td>5-060-01</td><td><img style="max-width: 800px;" src="5-060-01.jpg" /></td><td style="display:none">            14-Apr-1999 17:14   37</td></tr> 
+<tr class="r1"><td>5-060-02</td><td><img style="max-width: 800px;" src="5-060-02.jpg" /></td><td style="display:none">            14-Apr-1999 17:16   26</td></tr> 
+<tr class="r1"><td>5-060-03</td><td><img style="max-width: 800px;" src="5-060-03.jpg" /></td><td style="display:none">            14-Apr-1999 17:17   30</td></tr> 
+
+<tr class="r1"><td>5-060-04</td><td><img style="max-width: 800px;" src="5-060-04.jpg" /></td><td style="display:none">            14-Apr-1999 17:19   33</td></tr> 
+<tr class="r1"><td>5-060-05</td><td><img style="max-width: 800px;" src="5-060-05.jpg" /></td><td style="display:none">            14-Apr-1999 17:21   27</td></tr> 
+<tr class="r1"><td>5-060-06</td><td><img style="max-width: 800px;" src="5-060-06.jpg" /></td><td style="display:none">            14-Apr-1999 17:26   33</td></tr> 
+<tr class="r1"><td>5-060-07</td><td><img style="max-width: 800px;" src="5-060-07.jpg" /></td><td style="display:none">            14-Apr-1999 17:33   24</td></tr> 
+<tr class="r1"><td>5-060-08</td><td><img style="max-width: 800px;" src="5-060-08.jpg" /></td><td style="display:none">            14-Apr-1999 17:36   29</td></tr> 
+
+<tr class="r1"><td>5-060-09</td><td><img style="max-width: 800px;" src="5-060-09.jpg" /></td><td style="display:none">            14-Apr-1999 17:38   42</td></tr> 
+<tr class="r1"><td>5-060-10</td><td><img style="max-width: 800px;" src="5-060-10.jpg" /></td><td style="display:none">            14-Apr-1999 17:39   16</td></tr> 
+<tr class="r1"><td>5-060-11</td><td><img style="max-width: 800px;" src="5-060-11.jpg" /></td><td style="display:none">            14-Apr-1999 17:41   26</td></tr> 
+<tr class="r1"><td>5-060-12</td><td><img style="max-width: 800px;" src="5-060-12.jpg" /></td><td style="display:none">            14-Apr-1999 17:43   22</td></tr> 
+<tr class="r1"><td>5-060-13</td><td><img style="max-width: 800px;" src="5-060-13.jpg" /></td><td style="display:none">            14-Apr-1999 17:45   15</td></tr> 
+
+<tr class="r1"><td>5-060-14</td><td><img style="max-width: 800px;" src="5-060-14.jpg" /></td><td style="display:none">            14-Apr-1999 17:48   35</td></tr> 
+<tr class="r1"><td>5-060-15</td><td><img style="max-width: 800px;" src="5-060-15.jpg" /></td><td style="display:none">            14-Apr-1999 17:50   29</td></tr> 
+<tr class="r1"><td>5-061-01</td><td><img style="max-width: 800px;" src="5-061-01.jpg" /></td><td style="display:none">            15-Apr-1999 10:11   47</td></tr> 
+<tr class="r1"><td>5-061-02</td><td><img style="max-width: 800px;" src="5-061-02.jpg" /></td><td style="display:none">            15-Apr-1999 10:13   30</td></tr> 
+<tr class="r1"><td>5-061-03</td><td><img style="max-width: 800px;" src="5-061-03.jpg" /></td><td style="display:none">            15-Apr-1999 10:16   34</td></tr> 
+
+<tr class="r1"><td>5-061-04</td><td><img style="max-width: 800px;" src="5-061-04.jpg" /></td><td style="display:none">            15-Apr-1999 10:18   23</td></tr> 
+<tr class="r1"><td>5-061-06</td><td><img style="max-width: 800px;" src="5-061-06.jpg" /></td><td style="display:none">            15-Apr-1999 10:23   33</td></tr> 
+<tr class="r1"><td>5-061-07</td><td><img style="max-width: 800px;" src="5-061-07.jpg" /></td><td style="display:none">            15-Apr-1999 10:23   19</td></tr> 
+<tr class="r1"><td>5-061-08</td><td><img style="max-width: 800px;" src="5-061-08.jpg" /></td><td style="display:none">            15-Apr-1999 10:25   26</td></tr> 
+<tr class="r1"><td>5-061-09</td><td><img style="max-width: 800px;" src="5-061-09.jpg" /></td><td style="display:none">            15-Apr-1999 10:27   32</td></tr> 
+
+<tr class="r1"><td>5-061-10</td><td><img style="max-width: 800px;" src="5-061-10.jpg" /></td><td style="display:none">            15-Apr-1999 10:29   26</td></tr> 
+<tr class="r1"><td>5-061-11</td><td><img style="max-width: 800px;" src="5-061-11.jpg" /></td><td style="display:none">            15-Apr-1999 10:32   33</td></tr> 
+<tr class="r1"><td>5-061-12</td><td><img style="max-width: 800px;" src="5-061-12.jpg" /></td><td style="display:none">            15-Apr-1999 10:34   40</td></tr> 
+<tr class="r1"><td>5-061-13</td><td><img style="max-width: 800px;" src="5-061-13.jpg" /></td><td style="display:none">            15-Apr-1999 10:36   39</td></tr> 
+<tr class="r1"><td>5-061-14</td><td><img style="max-width: 800px;" src="5-061-14.jpg" /></td><td style="display:none">            15-Apr-1999 10:39   32</td></tr> 
+
+<tr class="r1"><td>5-061-15</td><td><img style="max-width: 800px;" src="5-061-15.jpg" /></td><td style="display:none">            15-Apr-1999 10:41   35</td></tr> 
+<tr class="r1"><td>5-061-16</td><td><img style="max-width: 800px;" src="5-061-16.jpg" /></td><td style="display:none">            15-Apr-1999 10:42   37</td></tr> 
+<tr class="r1"><td>5-061-17</td><td><img style="max-width: 800px;" src="5-061-17.jpg" /></td><td style="display:none">            15-Apr-1999 10:44   22</td></tr> 
+<tr class="r1"><td>5-061-18</td><td><img style="max-width: 800px;" src="5-061-18.jpg" /></td><td style="display:none">            15-Apr-1999 11:11   32</td></tr> 
+<tr class="r1"><td>5-061-19</td><td><img style="max-width: 800px;" src="5-061-19.jpg" /></td><td style="display:none">            15-Apr-1999 11:12   25</td></tr> 
+
+<tr class="r1"><td>5-061-20</td><td><img style="max-width: 800px;" src="5-061-20.jpg" /></td><td style="display:none">            15-Apr-1999 11:14   26</td></tr> 
+<tr class="r1"><td>5-061-21</td><td><img style="max-width: 800px;" src="5-061-21.jpg" /></td><td style="display:none">            15-Apr-1999 11:32   29</td></tr> 
+<tr class="r1"><td>5-061-22</td><td><img style="max-width: 800px;" src="5-061-22.jpg" /></td><td style="display:none">            15-Apr-1999 11:34   29</td></tr> 
+<tr class="r1"><td>5-061-23a</td><td><img style="max-width: 800px;" src="5-061-23a.jpg" /></td><td style="display:none">           15-Apr-1999 11:36   20</td></tr> 
+<tr class="r1"><td>5-061-24</td><td><img style="max-width: 800px;" src="5-061-24.jpg" /></td><td style="display:none">            15-Apr-1999 11:38   34</td></tr> 
+
+<tr class="r1"><td>5-061-25</td><td><img style="max-width: 800px;" src="5-061-25.jpg" /></td><td style="display:none">            15-Apr-1999 11:40   28</td></tr> 
+<tr class="r1"><td>5-061-26</td><td><img style="max-width: 800px;" src="5-061-26.jpg" /></td><td style="display:none">            15-Apr-1999 11:42   30</td></tr> 
+<tr class="r1"><td>5-061-27</td><td><img style="max-width: 800px;" src="5-061-27.jpg" /></td><td style="display:none">            15-Apr-1999 11:46   31</td></tr> 
+<tr class="r1"><td>5-061-28</td><td><img style="max-width: 800px;" src="5-061-28.jpg" /></td><td style="display:none">            15-Apr-1999 11:58   29</td></tr> 
+<tr class="r1"><td>5-061-29a</td><td><img style="max-width: 800px;" src="5-061-29a.jpg" /></td><td style="display:none">           15-Apr-1999 12:00   32</td></tr> 
+
+<tr class="r1"><td>5-061-30</td><td><img style="max-width: 800px;" src="5-061-30.jpg" /></td><td style="display:none">            15-Apr-1999 12:02   45</td></tr> 
+<tr class="r1"><td>5-061-31</td><td><img style="max-width: 800px;" src="5-061-31.jpg" /></td><td style="display:none">            15-Apr-1999 12:05   32</td></tr> 
+<tr class="r1"><td>5-061-32</td><td><img style="max-width: 800px;" src="5-061-32.jpg" /></td><td style="display:none">            15-Apr-1999 12:07   27</td></tr> 
+<tr class="r1"><td>5-061-33</td><td><img style="max-width: 800px;" src="5-061-33.jpg" /></td><td style="display:none">            15-Apr-1999 12:08   27</td></tr> 
+<tr class="r1"><td>5-061-34</td><td><img style="max-width: 800px;" src="5-061-34.jpg" /></td><td style="display:none">            15-Apr-1999 12:10   31</td></tr> 
+
+<tr class="r1"><td>5-061-35</td><td><img style="max-width: 800px;" src="5-061-35.jpg" /></td><td style="display:none">            15-Apr-1999 12:12   22</td></tr> 
+<tr class="r1"><td>5-061-36</td><td><img style="max-width: 800px;" src="5-061-36.jpg" /></td><td style="display:none">            15-Apr-1999 12:14   32</td></tr> 
+<tr class="r1"><td>5-061-37</td><td><img style="max-width: 800px;" src="5-061-37.jpg" /></td><td style="display:none">            15-Apr-1999 14:06   37</td></tr> 
+<tr class="r1"><td>5-061-38</td><td><img style="max-width: 800px;" src="5-061-38.jpg" /></td><td style="display:none">            15-Apr-1999 14:08   36</td></tr> 
+<tr class="r1"><td>5-061-39</td><td><img style="max-width: 800px;" src="5-061-39.jpg" /></td><td style="display:none">            15-Apr-1999 14:10   32</td></tr> 
+
+<tr class="r1"><td>5-061-40</td><td><img style="max-width: 800px;" src="5-061-40.jpg" /></td><td style="display:none">            15-Apr-1999 14:12   34</td></tr> 
+<tr class="r1"><td>5-061-41</td><td><img style="max-width: 800px;" src="5-061-41.jpg" /></td><td style="display:none">            15-Apr-1999 14:38   19</td></tr> 
+<tr class="r1"><td>5-061-42</td><td><img style="max-width: 800px;" src="5-061-42.jpg" /></td><td style="display:none">            15-Apr-1999 14:40   30</td></tr> 
+<tr class="r1"><td>5-061-43</td><td><img style="max-width: 800px;" src="5-061-43.jpg" /></td><td style="display:none">            31-Mar-2003 17:34   63</td></tr> 
+<tr class="r1"><td>5-061-44</td><td><img style="max-width: 800px;" src="5-061-44.jpg" /></td><td style="display:none">            15-Apr-1999 14:44   29</td></tr> 
+
+<tr class="r1"><td>5-061-45</td><td><img style="max-width: 800px;" src="5-061-45.jpg" /></td><td style="display:none">            15-Apr-1999 14:46   37</td></tr> 
+<tr class="r1"><td>5-061-46</td><td><img style="max-width: 800px;" src="5-061-46.jpg" /></td><td style="display:none">            15-Apr-1999 14:58   26</td></tr> 
+<tr class="r1"><td>5-061-47</td><td><img style="max-width: 800px;" src="5-061-47.jpg" /></td><td style="display:none">            15-Apr-1999 15:00   36</td></tr> 
+<tr class="r1"><td>5-061-48</td><td><img style="max-width: 800px;" src="5-061-48.jpg" /></td><td style="display:none">            15-Apr-1999 15:04   33</td></tr> 
+<tr class="r1"><td>5-061-49</td><td><img style="max-width: 800px;" src="5-061-49.jpg" /></td><td style="display:none">            15-Apr-1999 15:06   25</td></tr> 
+
+<tr class="r1"><td>5-061-50</td><td><img style="max-width: 800px;" src="5-061-50.jpg" /></td><td style="display:none">            15-Apr-1999 15:09   28</td></tr> 
+<tr class="r1"><td>5-061-51</td><td><img style="max-width: 800px;" src="5-061-51.jpg" /></td><td style="display:none">            15-Apr-1999 15:11   30</td></tr> 
+<tr class="r1"><td>5-061-52</td><td><img style="max-width: 800px;" src="5-061-52.jpg" /></td><td style="display:none">            15-Apr-1999 15:13   21</td></tr> 
+<tr class="r1"><td>5-062-03</td><td><img style="max-width: 800px;" src="5-062-03.jpg" /></td><td style="display:none">            31-Mar-2003 17:35   61</td></tr> 
+<tr class="r1"><td>5-062-1</td><td><img style="max-width: 800px;" src="5-062-1.jpg" /></td><td style="display:none">             15-Apr-1999 15:41   19</td></tr> 
+
+<tr class="r1"><td>5-062-2</td><td><img style="max-width: 800px;" src="5-062-2.jpg" /></td><td style="display:none">             15-Apr-1999 15:43   23</td></tr> 
+<tr class="r1"><td>5-062-3</td><td><img style="max-width: 800px;" src="5-062-3.jpg" /></td><td style="display:none">             15-Apr-1999 15:44   27</td></tr> 
+<tr class="r1"><td>5-062-4</td><td><img style="max-width: 800px;" src="5-062-4.jpg" /></td><td style="display:none">             15-Apr-1999 15:46   29</td></tr> 
+<tr class="r1"><td>5-062-5</td><td><img style="max-width: 800px;" src="5-062-5.jpg" /></td><td style="display:none">             15-Apr-1999 15:49   35</td></tr> 
+<tr class="r1"><td>5-062-6</td><td><img style="max-width: 800px;" src="5-062-6.jpg" /></td><td style="display:none">             15-Apr-1999 15:52   22</td></tr> 
+
+<tr class="r1"><td>5-063-1</td><td><img style="max-width: 800px;" src="5-063-1.jpg" /></td><td style="display:none">             15-Apr-1999 15:54   34</td></tr> 
+<tr class="r1"><td>5-064-4</td><td><img style="max-width: 800px;" src="5-064-4.jpg" /></td><td style="display:none">             15-Apr-1999 15:56   36</td></tr> 
+<tr class="r1"><td>5-064-5</td><td><img style="max-width: 800px;" src="5-064-5.jpg" /></td><td style="display:none">             15-Apr-1999 16:06   26</td></tr> 
+<tr class="r1"><td>5-064-6</td><td><img style="max-width: 800px;" src="5-064-6.jpg" /></td><td style="display:none">             15-Apr-1999 16:09   23</td></tr> 
+<tr class="r1"><td>5-065-1a</td><td><img style="max-width: 800px;" src="5-065-1a.jpg" /></td><td style="display:none">            16-Apr-1999 10:19   38</td></tr> 
+
+<tr class="r1"><td>5-065-1b</td><td><img style="max-width: 800px;" src="5-065-1b.jpg" /></td><td style="display:none">            16-Apr-1999 10:22   35</td></tr> 
+<tr class="r1"><td>5-065-1c</td><td><img style="max-width: 800px;" src="5-065-1c.jpg" /></td><td style="display:none">            16-Apr-1999 10:24   35</td></tr> 
+<tr class="r1"><td>5-065-1d</td><td><img style="max-width: 800px;" src="5-065-1d.jpg" /></td><td style="display:none">            16-Apr-1999 10:29   28</td></tr> 
+<tr class="r1"><td>5-065-1e</td><td><img style="max-width: 800px;" src="5-065-1e.jpg" /></td><td style="display:none">            16-Apr-1999 10:31   18</td></tr> 
+<tr class="r1"><td>5-065-1f</td><td><img style="max-width: 800px;" src="5-065-1f.jpg" /></td><td style="display:none">            16-Apr-1999 10:33   22</td></tr> 
+
+<tr class="r1"><td>5-065-2L</td><td><img style="max-width: 800px;" src="5-065-2L.jpg" /></td><td style="display:none">            16-Apr-1999 11:14   29</td></tr> 
+<tr class="r1"><td>5-065-2a</td><td><img style="max-width: 800px;" src="5-065-2a.jpg" /></td><td style="display:none">            16-Apr-1999 10:52   22</td></tr> 
+<tr class="r1"><td>5-065-2b</td><td><img style="max-width: 800px;" src="5-065-2b.jpg" /></td><td style="display:none">            16-Apr-1999 10:54   29</td></tr> 
+<tr class="r1"><td>5-065-2c</td><td><img style="max-width: 800px;" src="5-065-2c.jpg" /></td><td style="display:none">            16-Apr-1999 10:58   22</td></tr> 
+<tr class="r1"><td>5-065-2d</td><td><img style="max-width: 800px;" src="5-065-2d.jpg" /></td><td style="display:none">            16-Apr-1999 10:58   34</td></tr> 
+
+<tr class="r1"><td>5-065-2e</td><td><img style="max-width: 800px;" src="5-065-2e.jpg" /></td><td style="display:none">            16-Apr-1999 11:00   34</td></tr> 
+<tr class="r1"><td>5-065-2f</td><td><img style="max-width: 800px;" src="5-065-2f.jpg" /></td><td style="display:none">            16-Apr-1999 11:02   35</td></tr> 
+<tr class="r1"><td>5-065-2g</td><td><img style="max-width: 800px;" src="5-065-2g.jpg" /></td><td style="display:none">            16-Apr-1999 11:04   25</td></tr> 
+<tr class="r1"><td>5-065-2h</td><td><img style="max-width: 800px;" src="5-065-2h.jpg" /></td><td style="display:none">            16-Apr-1999 11:06   30</td></tr> 
+<tr class="r1"><td>5-065-2i</td><td><img style="max-width: 800px;" src="5-065-2i.jpg" /></td><td style="display:none">            16-Apr-1999 11:09   30</td></tr> 
+
+<tr class="r1"><td>5-065-2k</td><td><img style="max-width: 800px;" src="5-065-2k.jpg" /></td><td style="display:none">            16-Apr-1999 11:11   42</td></tr> 
+<tr class="r1"><td>5-065-2m</td><td><img style="max-width: 800px;" src="5-065-2m.jpg" /></td><td style="display:none">            16-Apr-1999 11:15   22</td></tr> 
+<tr class="r1"><td>5-065-2n</td><td><img style="max-width: 800px;" src="5-065-2n.jpg" /></td><td style="display:none">            16-Apr-1999 11:24   23</td></tr> 
+<tr class="r1"><td>5-065-2o</td><td><img style="max-width: 800px;" src="5-065-2o.jpg" /></td><td style="display:none">            16-Apr-1999 11:26   24</td></tr> 
+<tr class="r1"><td>5-065-3a</td><td><img style="max-width: 800px;" src="5-065-3a.jpg" /></td><td style="display:none">            16-Apr-1999 12:20   17</td></tr> 
+
+<tr class="r1"><td>5-065-3b</td><td><img style="max-width: 800px;" src="5-065-3b.jpg" /></td><td style="display:none">            19-Apr-1999 09:38   17</td></tr> 
+<tr class="r1"><td>5-065-3c</td><td><img style="max-width: 800px;" src="5-065-3c.jpg" /></td><td style="display:none">            19-Apr-1999 09:39   14</td></tr> 
+<tr class="r1"><td>5-065-4a</td><td><img style="max-width: 800px;" src="5-065-4a.jpg" /></td><td style="display:none">            19-Apr-1999 09:43   35</td></tr> 
+<tr class="r1"><td>5-065-4b</td><td><img style="max-width: 800px;" src="5-065-4b.jpg" /></td><td style="display:none">            19-Apr-1999 09:44   24</td></tr> 
+<tr class="r1"><td>5-065-4c</td><td><img style="max-width: 800px;" src="5-065-4c.jpg" /></td><td style="display:none">            19-Apr-1999 09:49   25</td></tr> 
+
+<tr class="r1"><td>5-065-4d</td><td><img style="max-width: 800px;" src="5-065-4d.jpg" /></td><td style="display:none">            19-Apr-1999 09:51   18</td></tr> 
+<tr class="r1"><td>5-065-4e</td><td><img style="max-width: 800px;" src="5-065-4e.jpg" /></td><td style="display:none">            19-Apr-1999 09:52   21</td></tr> 
+<tr class="r1"><td>5-065-5a</td><td><img style="max-width: 800px;" src="5-065-5a.jpg" /></td><td style="display:none">            19-Apr-1999 09:54   19</td></tr> 
+<tr class="r1"><td>5-065-5b</td><td><img style="max-width: 800px;" src="5-065-5b.jpg" /></td><td style="display:none">            19-Apr-1999 09:56   22</td></tr> 
+<tr class="r1"><td>5-065-5c</td><td><img style="max-width: 800px;" src="5-065-5c.jpg" /></td><td style="display:none">            19-Apr-1999 09:57   24</td></tr> 
+
+<tr class="r1"><td>5-067-1</td><td><img style="max-width: 800px;" src="5-067-1.jpg" /></td><td style="display:none">             19-Apr-1999 09:59   23</td></tr> 
+<tr class="r1"><td>5-067-2</td><td><img style="max-width: 800px;" src="5-067-2.jpg" /></td><td style="display:none">             19-Apr-1999 10:01   25</td></tr> 
+<tr class="r1"><td>5-067-3</td><td><img style="max-width: 800px;" src="5-067-3.jpg" /></td><td style="display:none">             19-Apr-1999 10:03   32</td></tr> 
+<tr class="r1"><td>5-067-4</td><td><img style="max-width: 800px;" src="5-067-4.jpg" /></td><td style="display:none">             19-Apr-1999 10:05   24</td></tr> 
+<tr class="r1"><td>5-068-1</td><td><img style="max-width: 800px;" src="5-068-1.jpg" /></td><td style="display:none">             19-Apr-1999 10:06   28</td></tr> 
+
+<tr class="r1"><td>5-069-1</td><td><img style="max-width: 800px;" src="5-069-1.jpg" /></td><td style="display:none">             19-Apr-1999 10:09   20</td></tr> 
+<tr class="r1"><td>5-069-2</td><td><img style="max-width: 800px;" src="5-069-2.jpg" /></td><td style="display:none">             19-Apr-1999 10:13   27</td></tr> 
+<tr class="r1"><td>5-070-1</td><td><img style="max-width: 800px;" src="5-070-1.jpg" /></td><td style="display:none">             19-Apr-1999 11:09   30</td></tr> 
+<tr class="r1"><td>5-070-2</td><td><img style="max-width: 800px;" src="5-070-2.jpg" /></td><td style="display:none">             19-Apr-1999 11:11   26</td></tr> 
+<tr class="r1"><td>5-070-3</td><td><img style="max-width: 800px;" src="5-070-3.jpg" /></td><td style="display:none">             19-Apr-1999 11:27   29</td></tr> 
+
+<tr class="r1"><td>5-070-4</td><td><img style="max-width: 800px;" src="5-070-4.jpg" /></td><td style="display:none">             19-Apr-1999 11:29   58</td></tr> 
+<tr class="r1"><td>5-070-5</td><td><img style="max-width: 800px;" src="5-070-5.jpg" /></td><td style="display:none">             19-Apr-1999 11:31   30</td></tr> 
+<tr class="r1"><td>5-070-6a</td><td><img style="max-width: 800px;" src="5-070-6a.jpg" /></td><td style="display:none">            19-Apr-1999 11:34   29</td></tr> 
+<tr class="r1"><td>5-071-1</td><td><img style="max-width: 800px;" src="5-071-1.jpg" /></td><td style="display:none">             19-Apr-1999 11:37   25</td></tr> 
+<tr class="r1"><td>5-071-2</td><td><img style="max-width: 800px;" src="5-071-2.jpg" /></td><td style="display:none">             19-Apr-1999 11:40   34</td></tr> 
+
+<tr class="r1"><td>5-072-1</td><td><img style="max-width: 800px;" src="5-072-1.jpg" /></td><td style="display:none">             19-Apr-1999 11:42   26</td></tr> 
+<tr class="r1"><td>5-072-2</td><td><img style="max-width: 800px;" src="5-072-2.jpg" /></td><td style="display:none">             19-Apr-1999 11:45   28</td></tr> 
+<tr class="r1"><td>5-073-1a</td><td><img style="max-width: 800px;" src="5-073-1a.jpg" /></td><td style="display:none">            19-Apr-1999 11:48   16</td></tr> 
+<tr class="r1"><td>5-073-1b</td><td><img style="max-width: 800px;" src="5-073-1b.jpg" /></td><td style="display:none">            19-Apr-1999 11:51   30</td></tr> 
+<tr class="r1"><td>5-073-1c</td><td><img style="max-width: 800px;" src="5-073-1c.jpg" /></td><td style="display:none">            19-Apr-1999 11:58   23</td></tr> 
+
+<tr class="r1"><td>5-073-2a</td><td><img style="max-width: 800px;" src="5-073-2a.jpg" /></td><td style="display:none">            19-Apr-1999 12:01   35</td></tr> 
+<tr class="r1"><td>5-073-2b</td><td><img style="max-width: 800px;" src="5-073-2b.jpg" /></td><td style="display:none">            19-Apr-1999 12:03   29</td></tr> 
+<tr class="r1"><td>5-073-2c</td><td><img style="max-width: 800px;" src="5-073-2c.jpg" /></td><td style="display:none">            19-Apr-1999 12:04   28</td></tr> 
+<tr class="r1"><td>5-073-2d</td><td><img style="max-width: 800px;" src="5-073-2d.jpg" /></td><td style="display:none">            19-Apr-1999 12:06   20</td></tr> 
+<tr class="r1"><td>5-074-1</td><td><img style="max-width: 800px;" src="5-074-1.jpg" /></td><td style="display:none">             19-Apr-1999 12:09   23</td></tr> 
+
+<tr class="r1"><td>5-075-2a</td><td><img style="max-width: 800px;" src="5-075-2a.jpg" /></td><td style="display:none">            19-Apr-1999 15:12   31</td></tr> 
+<tr class="r1"><td>5-075-2b</td><td><img style="max-width: 800px;" src="5-075-2b.jpg" /></td><td style="display:none">            19-Apr-1999 15:13   31</td></tr> 
+<tr class="r1"><td>5-075-2c</td><td><img style="max-width: 800px;" src="5-075-2c.jpg" /></td><td style="display:none">            19-Apr-1999 15:16   28</td></tr> 
+<tr class="r1"><td>5-075-3a</td><td><img style="max-width: 800px;" src="5-075-3a.jpg" /></td><td style="display:none">            19-Apr-1999 15:18   28</td></tr> 
+<tr class="r1"><td>5-075-4a</td><td><img style="max-width: 800px;" src="5-075-4a.jpg" /></td><td style="display:none">            19-Apr-1999 15:20   27</td></tr> 
+
+<tr class="r1"><td>5-075-5a</td><td><img style="max-width: 800px;" src="5-075-5a.jpg" /></td><td style="display:none">            19-Apr-1999 15:54   14</td></tr> 
+<tr class="r1"><td>5-076-1</td><td><img style="max-width: 800px;" src="5-076-1.jpg" /></td><td style="display:none">             19-Apr-1999 15:57   29</td></tr> 
+<tr class="r1"><td>5-076-2</td><td><img style="max-width: 800px;" src="5-076-2.jpg" /></td><td style="display:none">             19-Apr-1999 15:59   23</td></tr> 
+<tr class="r1"><td>5-077-01</td><td><img style="max-width: 800px;" src="5-077-01.jpg" /></td><td style="display:none">            19-Apr-1999 16:02   12</td></tr> 
+<tr class="r1"><td>5-077-01b</td><td><img style="max-width: 800px;" src="5-077-01b.jpg" /></td><td style="display:none">           19-Apr-1999 16:04   35</td></tr> 
+
+<tr class="r1"><td>5-077-01c</td><td><img style="max-width: 800px;" src="5-077-01c.jpg" /></td><td style="display:none">           19-Apr-1999 16:06   22</td></tr> 
+<tr class="r1"><td>5-077-01d</td><td><img style="max-width: 800px;" src="5-077-01d.jpg" /></td><td style="display:none">           19-Apr-1999 16:09   40</td></tr> 
+<tr class="r1"><td>5-077-01e</td><td><img style="max-width: 800px;" src="5-077-01e.jpg" /></td><td style="display:none">           19-Apr-1999 16:14   18</td></tr> 
+<tr class="r1"><td>5-077-02a</td><td><img style="max-width: 800px;" src="5-077-02a.jpg" /></td><td style="display:none">           19-Apr-1999 16:16   11</td></tr> 
+<tr class="r1"><td>5-077-03a</td><td><img style="max-width: 800px;" src="5-077-03a.jpg" /></td><td style="display:none">           19-Apr-1999 16:18   25</td></tr> 
+
+<tr class="r1"><td>5-077-04a</td><td><img style="max-width: 800px;" src="5-077-04a.jpg" /></td><td style="display:none">           20-Apr-1999 11:10   30</td></tr> 
+<tr class="r1"><td>5-077-04b</td><td><img style="max-width: 800px;" src="5-077-04b.jpg" /></td><td style="display:none">           20-Apr-1999 11:12   28</td></tr> 
+<tr class="r1"><td>5-077-04c</td><td><img style="max-width: 800px;" src="5-077-04c.jpg" /></td><td style="display:none">           20-Apr-1999 11:15   21</td></tr> 
+<tr class="r1"><td>5-077-05a</td><td><img style="max-width: 800px;" src="5-077-05a.jpg" /></td><td style="display:none">           20-Apr-1999 11:17   23</td></tr> 
+<tr class="r1"><td>5-077-05b</td><td><img style="max-width: 800px;" src="5-077-05b.jpg" /></td><td style="display:none">           20-Apr-1999 11:21   22</td></tr> 
+
+<tr class="r1"><td>5-077-05c</td><td><img style="max-width: 800px;" src="5-077-05c.jpg" /></td><td style="display:none">           20-Apr-1999 11:23   28</td></tr> 
+<tr class="r1"><td>5-077-05d</td><td><img style="max-width: 800px;" src="5-077-05d.jpg" /></td><td style="display:none">           20-Apr-1999 11:25   25</td></tr> 
+<tr class="r1"><td>5-077-05e</td><td><img style="max-width: 800px;" src="5-077-05e.jpg" /></td><td style="display:none">           20-Apr-1999 11:28   19</td></tr> 
+<tr class="r1"><td>5-077-05f</td><td><img style="max-width: 800px;" src="5-077-05f.jpg" /></td><td style="display:none">           20-Apr-1999 11:30   23</td></tr> 
+<tr class="r1"><td>5-077-05g</td><td><img style="max-width: 800px;" src="5-077-05g.jpg" /></td><td style="display:none">           20-Apr-1999 11:32   25</td></tr> 
+
+<tr class="r1"><td>5-077-06a</td><td><img style="max-width: 800px;" src="5-077-06a.jpg" /></td><td style="display:none">           20-Apr-1999 12:03   43</td></tr> 
+<tr class="r1"><td>5-077-07a</td><td><img style="max-width: 800px;" src="5-077-07a.jpg" /></td><td style="display:none">           20-Apr-1999 12:06   25</td></tr> 
+<tr class="r1"><td>5-077-07b</td><td><img style="max-width: 800px;" src="5-077-07b.jpg" /></td><td style="display:none">           20-Apr-1999 12:08   35</td></tr> 
+<tr class="r1"><td>5-077-07c</td><td><img style="max-width: 800px;" src="5-077-07c.jpg" /></td><td style="display:none">           20-Apr-1999 12:11   30</td></tr> 
+<tr class="r1"><td>5-077-07d</td><td><img style="max-width: 800px;" src="5-077-07d.jpg" /></td><td style="display:none">           20-Apr-1999 12:13   39</td></tr> 
+
+<tr class="r1"><td>5-077-08a</td><td><img style="max-width: 800px;" src="5-077-08a.jpg" /></td><td style="display:none">           20-Apr-1999 12:16   35</td></tr> 
+<tr class="r1"><td>5-077-10a</td><td><img style="max-width: 800px;" src="5-077-10a.jpg" /></td><td style="display:none">           20-Apr-1999 12:18   46</td></tr> 
+<tr class="r1"><td>5-077-11</td><td><img style="max-width: 800px;" src="5-077-11.jpg" /></td><td style="display:none">            20-Apr-1999 12:20   27</td></tr> 
+<tr class="r1"><td>5-077-12</td><td><img style="max-width: 800px;" src="5-077-12.jpg" /></td><td style="display:none">            20-Apr-1999 12:22   28</td></tr> 
+<tr class="r1"><td>5-078-1</td><td><img style="max-width: 800px;" src="5-078-1.jpg" /></td><td style="display:none">             20-Apr-1999 15:04   31</td></tr> 
+
+<tr class="r1"><td>5-079-07d</td><td><img style="max-width: 800px;" src="5-079-07d.jpg" /></td><td style="display:none">           22-Oct-1999 14:59   18</td></tr> 
+<tr class="r1"><td>5-079-1a</td><td><img style="max-width: 800px;" src="5-079-1a.jpg" /></td><td style="display:none">            20-Apr-1999 15:07   51</td></tr> 
+<tr class="r1"><td>5-079-1b</td><td><img style="max-width: 800px;" src="5-079-1b.jpg" /></td><td style="display:none">            20-Apr-1999 15:10   23</td></tr> 
+<tr class="r1"><td>5-079-1c</td><td><img style="max-width: 800px;" src="5-079-1c.jpg" /></td><td style="display:none">            20-Apr-1999 15:11   18</td></tr> 
+<tr class="r1"><td>5-079-1d</td><td><img style="max-width: 800px;" src="5-079-1d.jpg" /></td><td style="display:none">            20-Apr-1999 15:14   26</td></tr> 
+
+<tr class="r1"><td>5-079-1e</td><td><img style="max-width: 800px;" src="5-079-1e.jpg" /></td><td style="display:none">            20-Apr-1999 15:17   26</td></tr> 
+<tr class="r1"><td>5-079-1f</td><td><img style="max-width: 800px;" src="5-079-1f.jpg" /></td><td style="display:none">            20-Apr-1999 15:19   27</td></tr> 
+<tr class="r1"><td>5-079-1g</td><td><img style="max-width: 800px;" src="5-079-1g.jpg" /></td><td style="display:none">            20-Apr-1999 15:22   23</td></tr> 
+<tr class="r1"><td>5-079-1h</td><td><img style="max-width: 800px;" src="5-079-1h.jpg" /></td><td style="display:none">            20-Apr-1999 15:24   19</td></tr> 
+<tr class="r1"><td>5-079-1i</td><td><img style="max-width: 800px;" src="5-079-1i.jpg" /></td><td style="display:none">            20-Apr-1999 15:31   28</td></tr> 
+
+<tr class="r1"><td>5-079-1j</td><td><img style="max-width: 800px;" src="5-079-1j.jpg" /></td><td style="display:none">            20-Apr-1999 16:50   18</td></tr> 
+<tr class="r1"><td>5-079-2a</td><td><img style="max-width: 800px;" src="5-079-2a.jpg" /></td><td style="display:none">            20-Apr-1999 16:53   18</td></tr> 
+<tr class="r1"><td>5-079-3L</td><td><img style="max-width: 800px;" src="5-079-3L.jpg" /></td><td style="display:none">            20-Apr-1999 17:37   15</td></tr> 
+<tr class="r1"><td>5-079-3a</td><td><img style="max-width: 800px;" src="5-079-3a.jpg" /></td><td style="display:none">            20-Apr-1999 16:55   20</td></tr> 
+<tr class="r1"><td>5-079-3b</td><td><img style="max-width: 800px;" src="5-079-3b.jpg" /></td><td style="display:none">            20-Apr-1999 16:58   29</td></tr> 
+
+<tr class="r1"><td>5-079-3c</td><td><img style="max-width: 800px;" src="5-079-3c.jpg" /></td><td style="display:none">            20-Apr-1999 17:00   23</td></tr> 
+<tr class="r1"><td>5-079-3d</td><td><img style="max-width: 800px;" src="5-079-3d.jpg" /></td><td style="display:none">            20-Apr-1999 17:02   24</td></tr> 
+<tr class="r1"><td>5-079-3e</td><td><img style="max-width: 800px;" src="5-079-3e.jpg" /></td><td style="display:none">            20-Apr-1999 17:04   20</td></tr> 
+<tr class="r1"><td>5-079-3f</td><td><img style="max-width: 800px;" src="5-079-3f.jpg" /></td><td style="display:none">            20-Apr-1999 17:07   20</td></tr> 
+<tr class="r1"><td>5-079-3g</td><td><img style="max-width: 800px;" src="5-079-3g.jpg" /></td><td style="display:none">            20-Apr-1999 17:10   23</td></tr> 
+
+<tr class="r1"><td>5-079-3h</td><td><img style="max-width: 800px;" src="5-079-3h.jpg" /></td><td style="display:none">            20-Apr-1999 17:13   15</td></tr> 
+<tr class="r1"><td>5-079-3i</td><td><img style="max-width: 800px;" src="5-079-3i.jpg" /></td><td style="display:none">            20-Apr-1999 17:15   38</td></tr> 
+<tr class="r1"><td>5-079-3j</td><td><img style="max-width: 800px;" src="5-079-3j.jpg" /></td><td style="display:none">            20-Apr-1999 17:19   22</td></tr> 
+<tr class="r1"><td>5-079-3k</td><td><img style="max-width: 800px;" src="5-079-3k.jpg" /></td><td style="display:none">            20-Apr-1999 17:21   24</td></tr> 
+<tr class="r1"><td>5-079-3m</td><td><img style="max-width: 800px;" src="5-079-3m.jpg" /></td><td style="display:none">            20-Apr-1999 17:39   23</td></tr> 
+
+<tr class="r1"><td>5-079-4a</td><td><img style="max-width: 800px;" src="5-079-4a.jpg" /></td><td style="display:none">            22-Apr-1999 11:03   22</td></tr> 
+<tr class="r1"><td>5-079-4b</td><td><img style="max-width: 800px;" src="5-079-4b.jpg" /></td><td style="display:none">            22-Apr-1999 11:05   22</td></tr> 
+<tr class="r1"><td>5-079-4c</td><td><img style="max-width: 800px;" src="5-079-4c.jpg" /></td><td style="display:none">            22-Apr-1999 11:08   39</td></tr> 
+<tr class="r1"><td>5-079-4d</td><td><img style="max-width: 800px;" src="5-079-4d.jpg" /></td><td style="display:none">            22-Apr-1999 11:10   25</td></tr> 
+<tr class="r1"><td>5-079-4e</td><td><img style="max-width: 800px;" src="5-079-4e.jpg" /></td><td style="display:none">            22-Apr-1999 11:12   39</td></tr> 
+
+<tr class="r1"><td>5-079-4f</td><td><img style="max-width: 800px;" src="5-079-4f.jpg" /></td><td style="display:none">            22-Apr-1999 11:15   30</td></tr> 
+<tr class="r1"><td>5-079-4g</td><td><img style="max-width: 800px;" src="5-079-4g.jpg" /></td><td style="display:none">            22-Apr-1999 11:18   17</td></tr> 
+<tr class="r1"><td>5-079-4h</td><td><img style="max-width: 800px;" src="5-079-4h.jpg" /></td><td style="display:none">            22-Apr-1999 11:19   21</td></tr> 
+<tr class="r1"><td>5-079-4i</td><td><img style="max-width: 800px;" src="5-079-4i.jpg" /></td><td style="display:none">            22-Apr-1999 11:21   16</td></tr> 
+<tr class="r1"><td>5-079-4j</td><td><img style="max-width: 800px;" src="5-079-4j.jpg" /></td><td style="display:none">            22-Apr-1999 11:25   44</td></tr> 
+
+<tr class="r1"><td>5-079-5a</td><td><img style="max-width: 800px;" src="5-079-5a.jpg" /></td><td style="display:none">            22-Apr-1999 12:19   14</td></tr> 
+<tr class="r1"><td>5-079-5b</td><td><img style="max-width: 800px;" src="5-079-5b.jpg" /></td><td style="display:none">            22-Apr-1999 12:22   19</td></tr> 
+<tr class="r1"><td>5-079-6</td><td><img style="max-width: 800px;" src="5-079-6.jpg" /></td><td style="display:none">             22-Apr-1999 12:25   25</td></tr> 
+<tr class="r1"><td>5-079-7a</td><td><img style="max-width: 800px;" src="5-079-7a.jpg" /></td><td style="display:none">            22-Apr-1999 12:29   31</td></tr> 
+<tr class="r1"><td>5-079-7b</td><td><img style="max-width: 800px;" src="5-079-7b.jpg" /></td><td style="display:none">            22-Apr-1999 14:52   47</td></tr> 
+
+<tr class="r1"><td>5-079-7c</td><td><img style="max-width: 800px;" src="5-079-7c.jpg" /></td><td style="display:none">            22-Apr-1999 14:55   36</td></tr> 
+<tr class="r1"><td>5-079-8a</td><td><img style="max-width: 800px;" src="5-079-8a.jpg" /></td><td style="display:none">            22-Apr-1999 12:31   18</td></tr> 
+<tr class="r1"><td>5-079-8b</td><td><img style="max-width: 800px;" src="5-079-8b.jpg" /></td><td style="display:none">            22-Apr-1999 14:03   21</td></tr> 
+<tr class="r1"><td>5-079-8c</td><td><img style="max-width: 800px;" src="5-079-8c.jpg" /></td><td style="display:none">            22-Apr-1999 14:04   23</td></tr> 
+<tr class="r1"><td>5-079-8d</td><td><img style="max-width: 800px;" src="5-079-8d.jpg" /></td><td style="display:none">            22-Apr-1999 14:57   19</td></tr> 
+
+<tr class="r1"><td>5-079-9a</td><td><img style="max-width: 800px;" src="5-079-9a.jpg" /></td><td style="display:none">            22-Apr-1999 14:08   33</td></tr> 
+<tr class="r1"><td>5-079-10a</td><td><img style="max-width: 800px;" src="5-079-10a.jpg" /></td><td style="display:none">           22-Apr-1999 14:10   28</td></tr> 
+<tr class="r1"><td>5-079-11</td><td><img style="max-width: 800px;" src="5-079-11.jpg" /></td><td style="display:none">            22-Apr-1999 14:49   17</td></tr> 
+<tr class="r1"><td>5-080-1</td><td><img style="max-width: 800px;" src="5-080-1.jpg" /></td><td style="display:none">             22-Apr-1999 14:12   21</td></tr> 
+<tr class="r1"><td>5-080-2</td><td><img style="max-width: 800px;" src="5-080-2.jpg" /></td><td style="display:none">             22-Apr-1999 15:01   16</td></tr> 
+
+<tr class="r1"><td>5-081-1a</td><td><img style="max-width: 800px;" src="5-081-1a.jpg" /></td><td style="display:none">            22-Apr-1999 14:26   15</td></tr> 
+<tr class="r1"><td>5-081-1b</td><td><img style="max-width: 800px;" src="5-081-1b.jpg" /></td><td style="display:none">            22-Apr-1999 14:28   23</td></tr> 
+<tr class="r1"><td>5-081-1c</td><td><img style="max-width: 800px;" src="5-081-1c.jpg" /></td><td style="display:none">            22-Apr-1999 14:29   22</td></tr> 
+<tr class="r1"><td>5-081-1d</td><td><img style="max-width: 800px;" src="5-081-1d.jpg" /></td><td style="display:none">            22-Apr-1999 14:32   24</td></tr> 
+<tr class="r1"><td>5-081-1e</td><td><img style="max-width: 800px;" src="5-081-1e.jpg" /></td><td style="display:none">            22-Apr-1999 14:33   31</td></tr> 
+
+<tr class="r1"><td>5-081-1f</td><td><img style="max-width: 800px;" src="5-081-1f.jpg" /></td><td style="display:none">            22-Apr-1999 14:35   20</td></tr> 
+<tr class="r1"><td>5-081-1g</td><td><img style="max-width: 800px;" src="5-081-1g.jpg" /></td><td style="display:none">            22-Apr-1999 14:37   16</td></tr> 
+<tr class="r1"><td>5-082-1</td><td><img style="max-width: 800px;" src="5-082-1.jpg" /></td><td style="display:none">             22-Apr-1999 14:39   23</td></tr> 
+<tr class="r1"><td>5-082-1a</td><td><img style="max-width: 800px;" src="5-082-1a.jpg" /></td><td style="display:none">            22-Apr-1999 14:42   44</td></tr> 
+<tr class="r1"><td>5-082-1b</td><td><img style="max-width: 800px;" src="5-082-1b.jpg" /></td><td style="display:none">            22-Apr-1999 14:44   27</td></tr> 
+
+<tr class="r1"><td>5-083-1a</td><td><img style="max-width: 800px;" src="5-083-1a.jpg" /></td><td style="display:none">            22-Apr-1999 16:09   31</td></tr> 
+<tr class="r1"><td>5-084-1</td><td><img style="max-width: 800px;" src="5-084-1.jpg" /></td><td style="display:none">             22-Apr-1999 16:11   22</td></tr> 
+<tr class="r1"><td>5-084-1a</td><td><img style="max-width: 800px;" src="5-084-1a.jpg" /></td><td style="display:none">            22-Apr-1999 16:11   22</td></tr> 
+<tr class="r1"><td>5-085-1a</td><td><img style="max-width: 800px;" src="5-085-1a.jpg" /></td><td style="display:none">            22-Apr-1999 16:14   18</td></tr> 
+<tr class="r1"><td>5-085-1b</td><td><img style="max-width: 800px;" src="5-085-1b.jpg" /></td><td style="display:none">            22-Apr-1999 16:16   35</td></tr> 
+
+<tr class="r1"><td>5-085-2</td><td><img style="max-width: 800px;" src="5-085-2.jpg" /></td><td style="display:none">             22-Apr-1999 16:19   21</td></tr> 
+<tr class="r1"><td>5-085-2b</td><td><img style="max-width: 800px;" src="5-085-2b.jpg" /></td><td style="display:none">            22-Apr-1999 16:21   28</td></tr> 
+<tr class="r1"><td>5-085-2c</td><td><img style="max-width: 800px;" src="5-085-2c.jpg" /></td><td style="display:none">            22-Apr-1999 16:23   37</td></tr> 
+<tr class="r1"><td>5-085-3a</td><td><img style="max-width: 800px;" src="5-085-3a.jpg" /></td><td style="display:none">            22-Apr-1999 16:26   28</td></tr> 
+<tr class="r1"><td>5-086-1</td><td><img style="max-width: 800px;" src="5-086-1.jpg" /></td><td style="display:none">             22-Apr-1999 16:28   38</td></tr> 
+
+<tr class="r1"><td>5-086-1b</td><td><img style="max-width: 800px;" src="5-086-1b.jpg" /></td><td style="display:none">            22-Apr-1999 16:31   13</td></tr> 
+<tr class="r1"><td>5-086-2</td><td><img style="max-width: 800px;" src="5-086-2.jpg" /></td><td style="display:none">             22-Apr-1999 16:34   29</td></tr> 
+<tr class="r1"><td>5-086-3a</td><td><img style="max-width: 800px;" src="5-086-3a.jpg" /></td><td style="display:none">            22-Apr-1999 16:36   17</td></tr> 
+<tr class="r1"><td>5-087-1</td><td><img style="max-width: 800px;" src="5-087-1.jpg" /></td><td style="display:none">             22-Apr-1999 17:36   17</td></tr> 
+<tr class="r1"><td>5-088-1</td><td><img style="max-width: 800px;" src="5-088-1.jpg" /></td><td style="display:none">             22-Apr-1999 17:40   44</td></tr> 
+
+<tr class="r1"><td>5-088-2a</td><td><img style="max-width: 800px;" src="5-088-2a.jpg" /></td><td style="display:none">            22-Apr-1999 17:42   33</td></tr> 
+<tr class="r1"><td>5-089-1</td><td><img style="max-width: 800px;" src="5-089-1.jpg" /></td><td style="display:none">             22-Apr-1999 17:46   14</td></tr> 
+<tr class="r1"><td>5-090-1</td><td><img style="max-width: 800px;" src="5-090-1.jpg" /></td><td style="display:none">             23-Apr-1999 10:30   33</td></tr> 
+<tr class="r1"><td>5-090-3</td><td><img style="max-width: 800px;" src="5-090-3.jpg" /></td><td style="display:none">             23-Apr-1999 10:32   36</td></tr> 
+<tr class="r1"><td>5-091-1</td><td><img style="max-width: 800px;" src="5-091-1.jpg" /></td><td style="display:none">             23-Apr-1999 10:33   36</td></tr> 
+
+<tr class="r1"><td>5-091-2</td><td><img style="max-width: 800px;" src="5-091-2.jpg" /></td><td style="display:none">             23-Apr-1999 10:59   42</td></tr> 
+<tr class="r1"><td>5-091-3</td><td><img style="max-width: 800px;" src="5-091-3.jpg" /></td><td style="display:none">             23-Apr-1999 11:01   40</td></tr> 
+<tr class="r1"><td>5-092-1</td><td><img style="max-width: 800px;" src="5-092-1.jpg" /></td><td style="display:none">             23-Apr-1999 11:03   32</td></tr> 
+<tr class="r1"><td>5-093-1</td><td><img style="max-width: 800px;" src="5-093-1.jpg" /></td><td style="display:none">             23-Apr-1999 11:10   34</td></tr> 
+<tr class="r1"><td>5-093-2</td><td><img style="max-width: 800px;" src="5-093-2.jpg" /></td><td style="display:none">             23-Apr-1999 11:21   51</td></tr> 
+
+<tr class="r1"><td>5-093-2b</td><td><img style="max-width: 800px;" src="5-093-2b.jpg" /></td><td style="display:none">            23-Apr-1999 11:24   19</td></tr> 
+<tr class="r1"><td>5-093-3</td><td><img style="max-width: 800px;" src="5-093-3.jpg" /></td><td style="display:none">             23-Apr-1999 11:26   57</td></tr> 
+<tr class="r1"><td>5-094-1</td><td><img style="max-width: 800px;" src="5-094-1.jpg" /></td><td style="display:none">             23-Apr-1999 11:29   64</td></tr> 
+<tr class="r1"><td>5-095-2</td><td><img style="max-width: 800px;" src="5-095-2.jpg" /></td><td style="display:none">             23-Apr-1999 11:31   42</td></tr> 
+<tr class="r1"><td>5-095-3</td><td><img style="max-width: 800px;" src="5-095-3.jpg" /></td><td style="display:none">             23-Apr-1999 11:33   25</td></tr> 
+
+<tr class="r1"><td>5-096-1</td><td><img style="max-width: 800px;" src="5-096-1.jpg" /></td><td style="display:none">             23-Apr-1999 11:36   12</td></tr> 
+<tr class="r1"><td>5-097-01</td><td><img style="max-width: 800px;" src="5-097-01.jpg" /></td><td style="display:none">            23-Apr-1999 11:58   37</td></tr> 
+<tr class="r1"><td>5-097-02</td><td><img style="max-width: 800px;" src="5-097-02.jpg" /></td><td style="display:none">            23-Apr-1999 12:00   23</td></tr> 
+<tr class="r1"><td>5-097-03</td><td><img style="max-width: 800px;" src="5-097-03.jpg" /></td><td style="display:none">            23-Apr-1999 12:03   17</td></tr> 
+<tr class="r1"><td>5-097-04a</td><td><img style="max-width: 800px;" src="5-097-04a.jpg" /></td><td style="display:none">           23-Apr-1999 12:05   17</td></tr> 
+
+<tr class="r1"><td>5-097-04b</td><td><img style="max-width: 800px;" src="5-097-04b.jpg" /></td><td style="display:none">           23-Apr-1999 12:07   12</td></tr> 
+<tr class="r1"><td>5-097-05</td><td><img style="max-width: 800px;" src="5-097-05.jpg" /></td><td style="display:none">            23-Apr-1999 12:10   23</td></tr> 
+<tr class="r1"><td>5-097-06</td><td><img style="max-width: 800px;" src="5-097-06.jpg" /></td><td style="display:none">            23-Apr-1999 12:12   25</td></tr> 
+<tr class="r1"><td>5-097-07</td><td><img style="max-width: 800px;" src="5-097-07.jpg" /></td><td style="display:none">            23-Apr-1999 12:15   33</td></tr> 
+<tr class="r1"><td>5-097-08</td><td><img style="max-width: 800px;" src="5-097-08.jpg" /></td><td style="display:none">            23-Apr-1999 12:23   31</td></tr> 
+
+<tr class="r1"><td>5-097-09</td><td><img style="max-width: 800px;" src="5-097-09.jpg" /></td><td style="display:none">            23-Apr-1999 12:25   29</td></tr> 
+<tr class="r1"><td>5-097-10</td><td><img style="max-width: 800px;" src="5-097-10.jpg" /></td><td style="display:none">            23-Apr-1999 13:44   14</td></tr> 
+<tr class="r1"><td>5-097-11</td><td><img style="max-width: 800px;" src="5-097-11.jpg" /></td><td style="display:none">            23-Apr-1999 13:46   21</td></tr> 
+<tr class="r1"><td>5-097-12</td><td><img style="max-width: 800px;" src="5-097-12.jpg" /></td><td style="display:none">            23-Apr-1999 13:56   18</td></tr> 
+<tr class="r1"><td>5-097-13</td><td><img style="max-width: 800px;" src="5-097-13.jpg" /></td><td style="display:none">            23-Apr-1999 13:53   25</td></tr> 
+
+<tr class="r1"><td>5-097-14</td><td><img style="max-width: 800px;" src="5-097-14.jpg" /></td><td style="display:none">            23-Apr-1999 13:58   15</td></tr> 
+<tr class="r1"><td>5-097-15</td><td><img style="max-width: 800px;" src="5-097-15.jpg" /></td><td style="display:none">            23-Apr-1999 14:00   11</td></tr> 
+<tr class="r1"><td>5-097-16</td><td><img style="max-width: 800px;" src="5-097-16.jpg" /></td><td style="display:none">            23-Apr-1999 14:02   21</td></tr> 
+<tr class="r1"><td>5-097-17</td><td><img style="max-width: 800px;" src="5-097-17.jpg" /></td><td style="display:none">            23-Apr-1999 14:04   43</td></tr> 
+<tr class="r1"><td>5-098-1a</td><td><img style="max-width: 800px;" src="5-098-1a.jpg" /></td><td style="display:none">            23-Apr-1999 14:38   35</td></tr> 
+
+<tr class="r1"><td>5-098-1b</td><td><img style="max-width: 800px;" src="5-098-1b.jpg" /></td><td style="display:none">            23-Apr-1999 14:41   23</td></tr> 
+<tr class="r1"><td>5-098-2a</td><td><img style="max-width: 800px;" src="5-098-2a.jpg" /></td><td style="display:none">            23-Apr-1999 14:43   13</td></tr> 
+<tr class="r1"><td>5-098-2b</td><td><img style="max-width: 800px;" src="5-098-2b.jpg" /></td><td style="display:none">            23-Apr-1999 14:46   18</td></tr> 
+<tr class="r1"><td>5-098-2c</td><td><img style="max-width: 800px;" src="5-098-2c.jpg" /></td><td style="display:none">            23-Apr-1999 14:48   18</td></tr> 
+<tr class="r1"><td>5-098-2d</td><td><img style="max-width: 800px;" src="5-098-2d.jpg" /></td><td style="display:none">            23-Apr-1999 14:51   21</td></tr> 
+
+<tr class="r1"><td>5-098-3a</td><td><img style="max-width: 800px;" src="5-098-3a.jpg" /></td><td style="display:none">            23-Apr-1999 14:54   32</td></tr> 
+<tr class="r1"><td>5-098-3b</td><td><img style="max-width: 800px;" src="5-098-3b.jpg" /></td><td style="display:none">            23-Apr-1999 14:58   30</td></tr> 
+<tr class="r1"><td>5-098-3c</td><td><img style="max-width: 800px;" src="5-098-3c.jpg" /></td><td style="display:none">            23-Apr-1999 15:02   26</td></tr> 
+<tr class="r1"><td>5-099-1a</td><td><img style="max-width: 800px;" src="5-099-1a.jpg" /></td><td style="display:none">            23-Apr-1999 15:05   24</td></tr> 
+<tr class="r1"><td>5-099-1b</td><td><img style="max-width: 800px;" src="5-099-1b.jpg" /></td><td style="display:none">            23-Apr-1999 15:08   31</td></tr> 
+
+<tr class="r1"><td>5-100-1</td><td><img style="max-width: 800px;" src="5-100-1.jpg" /></td><td style="display:none">             23-Apr-1999 15:11   21</td></tr> 
+<tr class="r1"><td>5-100-1b</td><td><img style="max-width: 800px;" src="5-100-1b.jpg" /></td><td style="display:none">            23-Apr-1999 15:13   26</td></tr> 
+<tr class="r1"><td>5-100-2a</td><td><img style="max-width: 800px;" src="5-100-2a.jpg" /></td><td style="display:none">            23-Apr-1999 15:15   32</td></tr> 
+<tr class="r1"><td>5-100-2b</td><td><img style="max-width: 800px;" src="5-100-2b.jpg" /></td><td style="display:none">            23-Apr-1999 15:17   31</td></tr> 
+<tr class="r1"><td>5-100-3</td><td><img style="max-width: 800px;" src="5-100-3.jpg" /></td><td style="display:none">             23-Apr-1999 15:19   19</td></tr> 
+
+<tr class="r1"><td>5-101-1</td><td><img style="max-width: 800px;" src="5-101-1.jpg" /></td><td style="display:none">             23-Apr-1999 16:36   21</td></tr> 
+<tr class="r1"><td>5-101-1a</td><td><img style="max-width: 800px;" src="5-101-1a.jpg" /></td><td style="display:none">            23-Apr-1999 16:38   27</td></tr> 
+<tr class="r1"><td>5-101-1b</td><td><img style="max-width: 800px;" src="5-101-1b.jpg" /></td><td style="display:none">            23-Apr-1999 16:40   24</td></tr> 
+<tr class="r1"><td>5-101-2a</td><td><img style="max-width: 800px;" src="5-101-2a.jpg" /></td><td style="display:none">            23-Apr-1999 17:00   24</td></tr> 
+<tr class="r1"><td>5-101-3a</td><td><img style="max-width: 800px;" src="5-101-3a.jpg" /></td><td style="display:none">            23-Apr-1999 17:02   23</td></tr> 
+
+<tr class="r1"><td>5-101-4a</td><td><img style="max-width: 800px;" src="5-101-4a.jpg" /></td><td style="display:none">            23-Apr-1999 17:03   30</td></tr> 
+<tr class="r1"><td>5-101-5a</td><td><img style="max-width: 800px;" src="5-101-5a.jpg" /></td><td style="display:none">            23-Apr-1999 17:06   26</td></tr> 
+<tr class="r1"><td>5-102-1</td><td><img style="max-width: 800px;" src="5-102-1.jpg" /></td><td style="display:none">             23-Apr-1999 17:08   18</td></tr> 
+<tr class="r1"><td>5-103-1</td><td><img style="max-width: 800px;" src="5-103-1.jpg" /></td><td style="display:none">             23-Apr-1999 17:11   12</td></tr> 
+<tr class="r1"><td>5-103-2a</td><td><img style="max-width: 800px;" src="5-103-2a.jpg" /></td><td style="display:none">            23-Apr-1999 17:14   14</td></tr> 
+
+<tr class="r1"><td>5-104-1a</td><td><img style="max-width: 800px;" src="5-104-1a.jpg" /></td><td style="display:none">            23-Apr-1999 17:16   32</td></tr> 
+<tr class="r1"><td>5-104-1b</td><td><img style="max-width: 800px;" src="5-104-1b.jpg" /></td><td style="display:none">            23-Apr-1999 17:39   40</td></tr> 
+<tr class="r1"><td>5-104-2</td><td><img style="max-width: 800px;" src="5-104-2.jpg" /></td><td style="display:none">             23-Apr-1999 17:19   24</td></tr> 
+<tr class="r1"><td>5-104-2a</td><td><img style="max-width: 800px;" src="5-104-2a.jpg" /></td><td style="display:none">            23-Apr-1999 17:21   23</td></tr> 
+<tr class="r1"><td>5-104-2b</td><td><img style="max-width: 800px;" src="5-104-2b.jpg" /></td><td style="display:none">            23-Apr-1999 17:28   27</td></tr> 
+
+<tr class="r1"><td>5-104-2c</td><td><img style="max-width: 800px;" src="5-104-2c.jpg" /></td><td style="display:none">            23-Apr-1999 17:30   23</td></tr> 
+<tr class="r1"><td>5-104-2d</td><td><img style="max-width: 800px;" src="5-104-2d.jpg" /></td><td style="display:none">            23-Apr-1999 17:32   18</td></tr> 
+<tr class="r1"><td>5-104-2e</td><td><img style="max-width: 800px;" src="5-104-2e.jpg" /></td><td style="display:none">            23-Apr-1999 17:35   22</td></tr> 
+<tr class="r1"><td>5-104-3a</td><td><img style="max-width: 800px;" src="5-104-3a.jpg" /></td><td style="display:none">            26-Apr-1999 10:13   34</td></tr> 
+<tr class="r1"><td>5-104-4a</td><td><img style="max-width: 800px;" src="5-104-4a.jpg" /></td><td style="display:none">            26-Apr-1999 10:15   26</td></tr> 
+
+<tr class="r1"><td>5-104-4b</td><td><img style="max-width: 800px;" src="5-104-4b.jpg" /></td><td style="display:none">            26-Apr-1999 10:17   41</td></tr> 
+<tr class="r1"><td>5-104-5a</td><td><img style="max-width: 800px;" src="5-104-5a.jpg" /></td><td style="display:none">            26-Apr-1999 10:20   34</td></tr> 
+<tr class="r1"><td>5-104-5b</td><td><img style="max-width: 800px;" src="5-104-5b.jpg" /></td><td style="display:none">            26-Apr-1999 10:22   22</td></tr> 
+<tr class="r1"><td>5-104-5c</td><td><img style="max-width: 800px;" src="5-104-5c.jpg" /></td><td style="display:none">            26-Apr-1999 10:24   24</td></tr> 
+<tr class="r1"><td>5-105-1</td><td><img style="max-width: 800px;" src="5-105-1.jpg" /></td><td style="display:none">             26-Apr-1999 10:26   17</td></tr> 
+
+<tr class="r1"><td>5-105-2</td><td><img style="max-width: 800px;" src="5-105-2.jpg" /></td><td style="display:none">             26-Apr-1999 10:29   31</td></tr> 
+<tr class="r1"><td>5-105-3</td><td><img style="max-width: 800px;" src="5-105-3.jpg" /></td><td style="display:none">             26-Apr-1999 10:31   22</td></tr> 
+<tr class="r1"><td>5-106-1</td><td><img style="max-width: 800px;" src="5-106-1.jpg" /></td><td style="display:none">             26-Apr-1999 10:58   22</td></tr> 
+<tr class="r1"><td>5-106-2</td><td><img style="max-width: 800px;" src="5-106-2.jpg" /></td><td style="display:none">             26-Apr-1999 11:00   25</td></tr> 
+<tr class="r1"><td>5-106-3</td><td><img style="max-width: 800px;" src="5-106-3.jpg" /></td><td style="display:none">             26-Apr-1999 11:03   31</td></tr> 
+
+<tr class="r1"><td>5-107-1</td><td><img style="max-width: 800px;" src="5-107-1.jpg" /></td><td style="display:none">             26-Apr-1999 11:06   24</td></tr> 
+<tr class="r1"><td>5-107-2</td><td><img style="max-width: 800px;" src="5-107-2.jpg" /></td><td style="display:none">             26-Apr-1999 11:18   25</td></tr> 
+<tr class="r1"><td>5-108-1</td><td><img style="max-width: 800px;" src="5-108-1.jpg" /></td><td style="display:none">             26-Apr-1999 11:21   14</td></tr> 
+<tr class="r1"><td>5-109-1a</td><td><img style="max-width: 800px;" src="5-109-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:24   29</td></tr> 
+<tr class="r1"><td>5-110-1a</td><td><img style="max-width: 800px;" src="5-110-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:26   55</td></tr> 
+
+<tr class="r1"><td>5-111-1a</td><td><img style="max-width: 800px;" src="5-111-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:28   22</td></tr> 
+<tr class="r1"><td>5-111-1b</td><td><img style="max-width: 800px;" src="5-111-1b.jpg" /></td><td style="display:none">            26-Apr-1999 11:30   30</td></tr> 
+<tr class="r1"><td>5-112-1a</td><td><img style="max-width: 800px;" src="5-112-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:32   24</td></tr> 
+<tr class="r1"><td>5-113-1a</td><td><img style="max-width: 800px;" src="5-113-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:35   28</td></tr> 
+<tr class="r1"><td>5-114-1a</td><td><img style="max-width: 800px;" src="5-114-1a.jpg" /></td><td style="display:none">            26-Apr-1999 11:37   23</td></tr> 
+
+<tr class="r1"><td>5-115-1a</td><td><img style="max-width: 800px;" src="5-115-1a.jpg" /></td><td style="display:none">            26-Apr-1999 12:16   16</td></tr> 
+<tr class="r1"><td>5-115-1b</td><td><img style="max-width: 800px;" src="5-115-1b.jpg" /></td><td style="display:none">            26-Apr-1999 12:18   16</td></tr> 
+<tr class="r1"><td>5-115-1c</td><td><img style="max-width: 800px;" src="5-115-1c.jpg" /></td><td style="display:none">            26-Apr-1999 12:20   16</td></tr> 
+<tr class="r1"><td>5-115-1d</td><td><img style="max-width: 800px;" src="5-115-1d.jpg" /></td><td style="display:none">            26-Apr-1999 12:25   17</td></tr> 
+<tr class="r1"><td>5-115-2a</td><td><img style="max-width: 800px;" src="5-115-2a.jpg" /></td><td style="display:none">            26-Apr-1999 12:27   20</td></tr> 
+
+<tr class="r1"><td>5-115-2b</td><td><img style="max-width: 800px;" src="5-115-2b.jpg" /></td><td style="display:none">            26-Apr-1999 12:29   19</td></tr> 
+<tr class="r1"><td>5-115-2c</td><td><img style="max-width: 800px;" src="5-115-2c.jpg" /></td><td style="display:none">            26-Apr-1999 12:31   17</td></tr> 
+<tr class="r1"><td>5-115-3a</td><td><img style="max-width: 800px;" src="5-115-3a.jpg" /></td><td style="display:none">            26-Apr-1999 14:07   15</td></tr> 
+<tr class="r1"><td>5-115-4a</td><td><img style="max-width: 800px;" src="5-115-4a.jpg" /></td><td style="display:none">            26-Apr-1999 14:09   19</td></tr> 
+<tr class="r1"><td>5-115-4b</td><td><img style="max-width: 800px;" src="5-115-4b.jpg" /></td><td style="display:none">            26-Apr-1999 14:17   23</td></tr> 
+
+<tr class="r1"><td>5-115-5</td><td><img style="max-width: 800px;" src="5-115-5.jpg" /></td><td style="display:none">             26-Apr-1999 14:21   18</td></tr> 
+<tr class="r1"><td>5-115-6L</td><td><img style="max-width: 800px;" src="5-115-6L.jpg" /></td><td style="display:none">            26-Apr-1999 14:55   23</td></tr> 
+<tr class="r1"><td>5-115-6a</td><td><img style="max-width: 800px;" src="5-115-6a.jpg" /></td><td style="display:none">            26-Apr-1999 14:24   17</td></tr> 
+<tr class="r1"><td>5-115-6b</td><td><img style="max-width: 800px;" src="5-115-6b.jpg" /></td><td style="display:none">            26-Apr-1999 14:28   19</td></tr> 
+<tr class="r1"><td>5-115-6c</td><td><img style="max-width: 800px;" src="5-115-6c.jpg" /></td><td style="display:none">            26-Apr-1999 14:31   15</td></tr> 
+
+<tr class="r1"><td>5-115-6d</td><td><img style="max-width: 800px;" src="5-115-6d.jpg" /></td><td style="display:none">            26-Apr-1999 14:34   16</td></tr> 
+<tr class="r1"><td>5-115-6e</td><td><img style="max-width: 800px;" src="5-115-6e.jpg" /></td><td style="display:none">            26-Apr-1999 14:36   19</td></tr> 
+<tr class="r1"><td>5-115-6f</td><td><img style="max-width: 800px;" src="5-115-6f.jpg" /></td><td style="display:none">            26-Apr-1999 14:43   17</td></tr> 
+<tr class="r1"><td>5-115-6g</td><td><img style="max-width: 800px;" src="5-115-6g.jpg" /></td><td style="display:none">            26-Apr-1999 14:45   10</td></tr> 
+<tr class="r1"><td>5-115-6h</td><td><img style="max-width: 800px;" src="5-115-6h.jpg" /></td><td style="display:none">            26-Apr-1999 14:47   11</td></tr> 
+
+<tr class="r1"><td>5-115-6i</td><td><img style="max-width: 800px;" src="5-115-6i.jpg" /></td><td style="display:none">            26-Apr-1999 14:49   16</td></tr> 
+<tr class="r1"><td>5-115-6j</td><td><img style="max-width: 800px;" src="5-115-6j.jpg" /></td><td style="display:none">            26-Apr-1999 14:51   21</td></tr> 
+<tr class="r1"><td>5-115-6k</td><td><img style="max-width: 800px;" src="5-115-6k.jpg" /></td><td style="display:none">            26-Apr-1999 14:53   17</td></tr> 
+<tr class="r1"><td>5-116-1a</td><td><img style="max-width: 800px;" src="5-116-1a.jpg" /></td><td style="display:none">            26-Apr-1999 16:07   24</td></tr> 
+<tr class="r1"><td>5-116-2a</td><td><img style="max-width: 800px;" src="5-116-2a.jpg" /></td><td style="display:none">            26-Apr-1999 16:09   16</td></tr> 
+
+<tr class="r1"><td>5-116-2b</td><td><img style="max-width: 800px;" src="5-116-2b.jpg" /></td><td style="display:none">            26-Apr-1999 16:10   16</td></tr> 
+<tr class="r1"><td>5-116-4a</td><td><img style="max-width: 800px;" src="5-116-4a.jpg" /></td><td style="display:none">            26-Apr-1999 16:31   46</td></tr> 
+<tr class="r1"><td>5-117-01b</td><td><img style="max-width: 800px;" src="5-117-01b.jpg" /></td><td style="display:none">           26-Apr-1999 16:33   25</td></tr> 
+<tr class="r1"><td>5-117-01c</td><td><img style="max-width: 800px;" src="5-117-01c.jpg" /></td><td style="display:none">           26-Apr-1999 16:35   26</td></tr> 
+<tr class="r1"><td>5-117-01d</td><td><img style="max-width: 800px;" src="5-117-01d.jpg" /></td><td style="display:none">           26-Apr-1999 16:37   33</td></tr> 
+
+<tr class="r1"><td>5-117-02a</td><td><img style="max-width: 800px;" src="5-117-02a.jpg" /></td><td style="display:none">           26-Apr-1999 16:39   15</td></tr> 
+<tr class="r1"><td>5-117-02b</td><td><img style="max-width: 800px;" src="5-117-02b.jpg" /></td><td style="display:none">           26-Apr-1999 16:41   22</td></tr> 
+<tr class="r1"><td>5-117-03a</td><td><img style="max-width: 800px;" src="5-117-03a.jpg" /></td><td style="display:none">           26-Apr-1999 16:43   29</td></tr> 
+<tr class="r1"><td>5-117-03b</td><td><img style="max-width: 800px;" src="5-117-03b.jpg" /></td><td style="display:none">           26-Apr-1999 16:52   27</td></tr> 
+<tr class="r1"><td>5-117-03c</td><td><img style="max-width: 800px;" src="5-117-03c.jpg" /></td><td style="display:none">           26-Apr-1999 17:03   23</td></tr> 
+
+<tr class="r1"><td>5-117-04a</td><td><img style="max-width: 800px;" src="5-117-04a.jpg" /></td><td style="display:none">           26-Apr-1999 17:06   32</td></tr> 
+<tr class="r1"><td>5-117-05a</td><td><img style="max-width: 800px;" src="5-117-05a.jpg" /></td><td style="display:none">           26-Apr-1999 17:31   17</td></tr> 
+<tr class="r1"><td>5-117-06a</td><td><img style="max-width: 800px;" src="5-117-06a.jpg" /></td><td style="display:none">           26-Apr-1999 17:33   29</td></tr> 
+<tr class="r1"><td>5-117-06b</td><td><img style="max-width: 800px;" src="5-117-06b.jpg" /></td><td style="display:none">           26-Apr-1999 17:33   27</td></tr> 
+<tr class="r1"><td>5-117-06c</td><td><img style="max-width: 800px;" src="5-117-06c.jpg" /></td><td style="display:none">           26-Apr-1999 17:35   28</td></tr> 
+
+<tr class="r1"><td>5-117-06d</td><td><img style="max-width: 800px;" src="5-117-06d.jpg" /></td><td style="display:none">           26-Apr-1999 17:37   20</td></tr> 
+<tr class="r1"><td>5-117-06e</td><td><img style="max-width: 800px;" src="5-117-06e.jpg" /></td><td style="display:none">           26-Apr-1999 17:39   45</td></tr> 
+<tr class="r1"><td>5-117-06f</td><td><img style="max-width: 800px;" src="5-117-06f.jpg" /></td><td style="display:none">           26-Apr-1999 17:41   54</td></tr> 
+<tr class="r1"><td>5-117-07a</td><td><img style="max-width: 800px;" src="5-117-07a.jpg" /></td><td style="display:none">           27-Apr-1999 09:53   51</td></tr> 
+<tr class="r1"><td>5-117-07b</td><td><img style="max-width: 800px;" src="5-117-07b.jpg" /></td><td style="display:none">           27-Apr-1999 09:55   23</td></tr> 
+
+<tr class="r1"><td>5-117-08a</td><td><img style="max-width: 800px;" src="5-117-08a.jpg" /></td><td style="display:none">           27-Apr-1999 10:02   32</td></tr> 
+<tr class="r1"><td>5-117-08b</td><td><img style="max-width: 800px;" src="5-117-08b.jpg" /></td><td style="display:none">           27-Apr-1999 10:04   24</td></tr> 
+<tr class="r1"><td>5-117-08c</td><td><img style="max-width: 800px;" src="5-117-08c.jpg" /></td><td style="display:none">           27-Apr-1999 10:08   41</td></tr> 
+<tr class="r1"><td>5-117-08d</td><td><img style="max-width: 800px;" src="5-117-08d.jpg" /></td><td style="display:none">           27-Apr-1999 10:10   21</td></tr> 
+<tr class="r1"><td>5-117-08e</td><td><img style="max-width: 800px;" src="5-117-08e.jpg" /></td><td style="display:none">           27-Apr-1999 10:12   34</td></tr> 
+
+<tr class="r1"><td>5-117-08f</td><td><img style="max-width: 800px;" src="5-117-08f.jpg" /></td><td style="display:none">           27-Apr-1999 10:14   28</td></tr> 
+<tr class="r1"><td>5-117-08g</td><td><img style="max-width: 800px;" src="5-117-08g.jpg" /></td><td style="display:none">           27-Apr-1999 10:16   24</td></tr> 
+<tr class="r1"><td>5-117-08h</td><td><img style="max-width: 800px;" src="5-117-08h.jpg" /></td><td style="display:none">           27-Apr-1999 10:24   18</td></tr> 
+<tr class="r1"><td>5-117-08i</td><td><img style="max-width: 800px;" src="5-117-08i.jpg" /></td><td style="display:none">           27-Apr-1999 10:25   21</td></tr> 
+<tr class="r1"><td>5-117-09a</td><td><img style="max-width: 800px;" src="5-117-09a.jpg" /></td><td style="display:none">           27-Apr-1999 10:28   21</td></tr> 
+
+<tr class="r1"><td>5-117-1a</td><td><img style="max-width: 800px;" src="5-117-1a.jpg" /></td><td style="display:none">            26-Apr-1999 16:05   32</td></tr> 
+<tr class="r1"><td>5-117-10</td><td><img style="max-width: 800px;" src="5-117-10.jpg" /></td><td style="display:none">            27-Apr-1999 10:30   30</td></tr> 
+<tr class="r1"><td>5-117-11</td><td><img style="max-width: 800px;" src="5-117-11.jpg" /></td><td style="display:none">            27-Apr-1999 10:32   17</td></tr> 
+<tr class="r1"><td>5-117-12a</td><td><img style="max-width: 800px;" src="5-117-12a.jpg" /></td><td style="display:none">           27-Apr-1999 11:24   26</td></tr> 
+<tr class="r1"><td>5-118-1a</td><td><img style="max-width: 800px;" src="5-118-1a.jpg" /></td><td style="display:none">            27-Apr-1999 11:49   28</td></tr> 
+
+<tr class="r1"><td>5-118-1b</td><td><img style="max-width: 800px;" src="5-118-1b.jpg" /></td><td style="display:none">            27-Apr-1999 11:51   36</td></tr> 
+<tr class="r1"><td>5-118-1c</td><td><img style="max-width: 800px;" src="5-118-1c.jpg" /></td><td style="display:none">            27-Apr-1999 11:54   24</td></tr> 
+<tr class="r1"><td>5-118-1d</td><td><img style="max-width: 800px;" src="5-118-1d.jpg" /></td><td style="display:none">            27-Apr-1999 11:56   23</td></tr> 
+<tr class="r1"><td>5-118-1e</td><td><img style="max-width: 800px;" src="5-118-1e.jpg" /></td><td style="display:none">            27-Apr-1999 11:58   27</td></tr> 
+<tr class="r1"><td>5-118-1f</td><td><img style="max-width: 800px;" src="5-118-1f.jpg" /></td><td style="display:none">            27-Apr-1999 12:01   34</td></tr> 
+
+<tr class="r1"><td>5-119-1a</td><td><img style="max-width: 800px;" src="5-119-1a.jpg" /></td><td style="display:none">            27-Apr-1999 12:03   17</td></tr> 
+<tr class="r1"><td>5-119-1b</td><td><img style="max-width: 800px;" src="5-119-1b.jpg" /></td><td style="display:none">            27-Apr-1999 12:06   15</td></tr> 
+<tr class="r1"><td>5-119-1c</td><td><img style="max-width: 800px;" src="5-119-1c.jpg" /></td><td style="display:none">            27-Apr-1999 12:08   14</td></tr> 
+<tr class="r1"><td>5-119-1d</td><td><img style="max-width: 800px;" src="5-119-1d.jpg" /></td><td style="display:none">            27-Apr-1999 12:10   22</td></tr> 
+<tr class="r1"><td>5-119-2a</td><td><img style="max-width: 800px;" src="5-119-2a.jpg" /></td><td style="display:none">            27-Apr-1999 12:14   17</td></tr> 
+
+<tr class="r1"><td>5-119-2b</td><td><img style="max-width: 800px;" src="5-119-2b.jpg" /></td><td style="display:none">            27-Apr-1999 12:16   20</td></tr> 
+<tr class="r1"><td>5-119-3a</td><td><img style="max-width: 800px;" src="5-119-3a.jpg" /></td><td style="display:none">            27-Apr-1999 12:18   13</td></tr> 
+<tr class="r1"><td>5-119-4a</td><td><img style="max-width: 800px;" src="5-119-4a.jpg" /></td><td style="display:none">            27-Apr-1999 12:26   23</td></tr> 
+<tr class="r1"><td>5-120-1a</td><td><img style="max-width: 800px;" src="5-120-1a.jpg" /></td><td style="display:none">            27-Apr-1999 12:29   15</td></tr> 
+<tr class="r1"><td>5-121-1a</td><td><img style="max-width: 800px;" src="5-121-1a.jpg" /></td><td style="display:none">            27-Apr-1999 13:44   12</td></tr> 
+
+<tr class="r1"><td>5-122-1a</td><td><img style="max-width: 800px;" src="5-122-1a.jpg" /></td><td style="display:none">            27-Apr-1999 13:46   17</td></tr> 
+<tr class="r1"><td>5-123-01a</td><td><img style="max-width: 800px;" src="5-123-01a.jpg" /></td><td style="display:none">           27-Apr-1999 15:00   34</td></tr> 
+<tr class="r1"><td>5-123-01b</td><td><img style="max-width: 800px;" src="5-123-01b.jpg" /></td><td style="display:none">           27-Apr-1999 15:01   26</td></tr> 
+<tr class="r1"><td>5-123-01c</td><td><img style="max-width: 800px;" src="5-123-01c.jpg" /></td><td style="display:none">           27-Apr-1999 15:03   22</td></tr> 
+<tr class="r1"><td>5-123-01d</td><td><img style="max-width: 800px;" src="5-123-01d.jpg" /></td><td style="display:none">           27-Apr-1999 15:05   21</td></tr> 
+
+<tr class="r1"><td>5-123-01e</td><td><img style="max-width: 800px;" src="5-123-01e.jpg" /></td><td style="display:none">           27-Apr-1999 15:07   23</td></tr> 
+<tr class="r1"><td>5-123-01f</td><td><img style="max-width: 800px;" src="5-123-01f.jpg" /></td><td style="display:none">           27-Apr-1999 15:09   30</td></tr> 
+<tr class="r1"><td>5-123-02a</td><td><img style="max-width: 800px;" src="5-123-02a.jpg" /></td><td style="display:none">           27-Apr-1999 15:11   23</td></tr> 
+<tr class="r1"><td>5-123-03a</td><td><img style="max-width: 800px;" src="5-123-03a.jpg" /></td><td style="display:none">           27-Apr-1999 15:13   26</td></tr> 
+<tr class="r1"><td>5-123-04a</td><td><img style="max-width: 800px;" src="5-123-04a.jpg" /></td><td style="display:none">           27-Apr-1999 15:46   22</td></tr> 
+
+<tr class="r1"><td>5-123-05a</td><td><img style="max-width: 800px;" src="5-123-05a.jpg" /></td><td style="display:none">           27-Apr-1999 15:48   30</td></tr> 
+<tr class="r1"><td>5-123-05b</td><td><img style="max-width: 800px;" src="5-123-05b.jpg" /></td><td style="display:none">           27-Apr-1999 15:50   22</td></tr> 
+<tr class="r1"><td>5-123-05c</td><td><img style="max-width: 800px;" src="5-123-05c.jpg" /></td><td style="display:none">           27-Apr-1999 15:52   37</td></tr> 
+<tr class="r1"><td>5-123-06a</td><td><img style="max-width: 800px;" src="5-123-06a.jpg" /></td><td style="display:none">           27-Apr-1999 15:54   29</td></tr> 
+<tr class="r1"><td>5-123-06b</td><td><img style="max-width: 800px;" src="5-123-06b.jpg" /></td><td style="display:none">           27-Apr-1999 15:56   35</td></tr> 
+
+<tr class="r1"><td>5-123-07L</td><td><img style="max-width: 800px;" src="5-123-07L.jpg" /></td><td style="display:none">           27-Apr-1999 16:28   38</td></tr> 
+<tr class="r1"><td>5-123-07a</td><td><img style="max-width: 800px;" src="5-123-07a.jpg" /></td><td style="display:none">           27-Apr-1999 15:58   58</td></tr> 
+<tr class="r1"><td>5-123-07b</td><td><img style="max-width: 800px;" src="5-123-07b.jpg" /></td><td style="display:none">           27-Apr-1999 16:00   23</td></tr> 
+<tr class="r1"><td>5-123-07c</td><td><img style="max-width: 800px;" src="5-123-07c.jpg" /></td><td style="display:none">           27-Apr-1999 16:02   22</td></tr> 
+<tr class="r1"><td>5-123-07d</td><td><img style="max-width: 800px;" src="5-123-07d.jpg" /></td><td style="display:none">           27-Apr-1999 16:04   21</td></tr> 
+
+<tr class="r1"><td>5-123-07e</td><td><img style="max-width: 800px;" src="5-123-07e.jpg" /></td><td style="display:none">           27-Apr-1999 16:06   23</td></tr> 
+<tr class="r1"><td>5-123-07f</td><td><img style="max-width: 800px;" src="5-123-07f.jpg" /></td><td style="display:none">           27-Apr-1999 16:09   34</td></tr> 
+<tr class="r1"><td>5-123-07g</td><td><img style="max-width: 800px;" src="5-123-07g.jpg" /></td><td style="display:none">           27-Apr-1999 16:18   24</td></tr> 
+<tr class="r1"><td>5-123-07h</td><td><img style="max-width: 800px;" src="5-123-07h.jpg" /></td><td style="display:none">           27-Apr-1999 16:20   29</td></tr> 
+<tr class="r1"><td>5-123-07i</td><td><img style="max-width: 800px;" src="5-123-07i.jpg" /></td><td style="display:none">           27-Apr-1999 16:22   32</td></tr> 
+
+<tr class="r1"><td>5-123-07j</td><td><img style="max-width: 800px;" src="5-123-07j.jpg" /></td><td style="display:none">           27-Apr-1999 16:24   36</td></tr> 
+<tr class="r1"><td>5-123-07k</td><td><img style="max-width: 800px;" src="5-123-07k.jpg" /></td><td style="display:none">           27-Apr-1999 16:26   21</td></tr> 
+<tr class="r1"><td>5-123-07m</td><td><img style="max-width: 800px;" src="5-123-07m.jpg" /></td><td style="display:none">           27-Apr-1999 16:30   19</td></tr> 
+<tr class="r1"><td>5-123-08a</td><td><img style="max-width: 800px;" src="5-123-08a.jpg" /></td><td style="display:none">           27-Apr-1999 16:32   28</td></tr> 
+<tr class="r1"><td>5-123-08b</td><td><img style="max-width: 800px;" src="5-123-08b.jpg" /></td><td style="display:none">           27-Apr-1999 16:35   25</td></tr> 
+
+<tr class="r1"><td>5-123-09L</td><td><img style="max-width: 800px;" src="5-123-09L.jpg" /></td><td style="display:none">           28-Apr-1999 12:15   21</td></tr> 
+<tr class="r1"><td>5-123-09a</td><td><img style="max-width: 800px;" src="5-123-09a.jpg" /></td><td style="display:none">           28-Apr-1999 10:54   39</td></tr> 
+<tr class="r1"><td>5-123-09b</td><td><img style="max-width: 800px;" src="5-123-09b.jpg" /></td><td style="display:none">           28-Apr-1999 10:56   21</td></tr> 
+<tr class="r1"><td>5-123-09c</td><td><img style="max-width: 800px;" src="5-123-09c.jpg" /></td><td style="display:none">           28-Apr-1999 10:57   18</td></tr> 
+<tr class="r1"><td>5-123-09d</td><td><img style="max-width: 800px;" src="5-123-09d.jpg" /></td><td style="display:none">           28-Apr-1999 10:59   19</td></tr> 
+
+<tr class="r1"><td>5-123-09e</td><td><img style="max-width: 800px;" src="5-123-09e.jpg" /></td><td style="display:none">           28-Apr-1999 11:01   21</td></tr> 
+<tr class="r1"><td>5-123-09f</td><td><img style="max-width: 800px;" src="5-123-09f.jpg" /></td><td style="display:none">           28-Apr-1999 11:02   22</td></tr> 
+<tr class="r1"><td>5-123-09g</td><td><img style="max-width: 800px;" src="5-123-09g.jpg" /></td><td style="display:none">           28-Apr-1999 11:04   31</td></tr> 
+<tr class="r1"><td>5-123-09h</td><td><img style="max-width: 800px;" src="5-123-09h.jpg" /></td><td style="display:none">           28-Apr-1999 11:42   21</td></tr> 
+<tr class="r1"><td>5-123-09i</td><td><img style="max-width: 800px;" src="5-123-09i.jpg" /></td><td style="display:none">           28-Apr-1999 11:54   28</td></tr> 
+
+<tr class="r1"><td>5-123-09j</td><td><img style="max-width: 800px;" src="5-123-09j.jpg" /></td><td style="display:none">           28-Apr-1999 11:57   26</td></tr> 
+<tr class="r1"><td>5-123-09k</td><td><img style="max-width: 800px;" src="5-123-09k.jpg" /></td><td style="display:none">           28-Apr-1999 11:59   14</td></tr> 
+<tr class="r1"><td>5-123-09m</td><td><img style="max-width: 800px;" src="5-123-09m.jpg" /></td><td style="display:none">           28-Apr-1999 12:17   30</td></tr> 
+<tr class="r1"><td>5-123-09n</td><td><img style="max-width: 800px;" src="5-123-09n.jpg" /></td><td style="display:none">           28-Apr-1999 12:19   48</td></tr> 
+<tr class="r1"><td>5-123-09o</td><td><img style="max-width: 800px;" src="5-123-09o.jpg" /></td><td style="display:none">           28-Apr-1999 12:21   17</td></tr> 
+
+<tr class="r1"><td>5-123-09p</td><td><img style="max-width: 800px;" src="5-123-09p.jpg" /></td><td style="display:none">           28-Apr-1999 12:22   20</td></tr> 
+<tr class="r1"><td>5-123-09q</td><td><img style="max-width: 800px;" src="5-123-09q.jpg" /></td><td style="display:none">           28-Apr-1999 12:24   28</td></tr> 
+<tr class="r1"><td>5-123-09r</td><td><img style="max-width: 800px;" src="5-123-09r.jpg" /></td><td style="display:none">           28-Apr-1999 12:26   22</td></tr> 
+<tr class="r1"><td>5-123-09s</td><td><img style="max-width: 800px;" src="5-123-09s.jpg" /></td><td style="display:none">           28-Apr-1999 12:28  9.1</td></tr> 
+<tr class="r1"><td>5-123-09t</td><td><img style="max-width: 800px;" src="5-123-09t.jpg" /></td><td style="display:none">           28-Apr-1999 12:29   45</td></tr> 
+
+<tr class="r1"><td>5-123-10a</td><td><img style="max-width: 800px;" src="5-123-10a.jpg" /></td><td style="display:none">           28-Apr-1999 13:45   22</td></tr> 
+<tr class="r1"><td>5-123-10b</td><td><img style="max-width: 800px;" src="5-123-10b.jpg" /></td><td style="display:none">           28-Apr-1999 13:47   29</td></tr> 
+<tr class="r1"><td>5-123-10c</td><td><img style="max-width: 800px;" src="5-123-10c.jpg" /></td><td style="display:none">           31-Mar-2003 17:36   52</td></tr> 
+<tr class="r1"><td>5-123-11a</td><td><img style="max-width: 800px;" src="5-123-11a.jpg" /></td><td style="display:none">           28-Apr-1999 13:56   29</td></tr> 
+<tr class="r1"><td>5-123-11b</td><td><img style="max-width: 800px;" src="5-123-11b.jpg" /></td><td style="display:none">           28-Apr-1999 13:59   20</td></tr> 
+
+<tr class="r1"><td>5-123-11c</td><td><img style="max-width: 800px;" src="5-123-11c.jpg" /></td><td style="display:none">           28-Apr-1999 14:01   37</td></tr> 
+<tr class="r1"><td>5-123-11d</td><td><img style="max-width: 800px;" src="5-123-11d.jpg" /></td><td style="display:none">           28-Apr-1999 14:03   23</td></tr> 
+<tr class="r1"><td>5-124-1</td><td><img style="max-width: 800px;" src="5-124-1.jpg" /></td><td style="display:none">             28-Apr-1999 14:05   32</td></tr> 
+<tr class="r1"><td>5-125-1</td><td><img style="max-width: 800px;" src="5-125-1.jpg" /></td><td style="display:none">             28-Apr-1999 15:03   36</td></tr> 
+<tr class="r1"><td>5-126-1a</td><td><img style="max-width: 800px;" src="5-126-1a.jpg" /></td><td style="display:none">            28-Apr-1999 15:06   25</td></tr> 
+
+<tr class="r1"><td>5-126-1b</td><td><img style="max-width: 800px;" src="5-126-1b.jpg" /></td><td style="display:none">            28-Apr-1999 15:08   22</td></tr> 
+<tr class="r1"><td>5-126-1c</td><td><img style="max-width: 800px;" src="5-126-1c.jpg" /></td><td style="display:none">            28-Apr-1999 15:11   26</td></tr> 
+<tr class="r1"><td>5-127-1a</td><td><img style="max-width: 800px;" src="5-127-1a.jpg" /></td><td style="display:none">            28-Apr-1999 15:13   27</td></tr> 
+<tr class="r1"><td>5-128-1</td><td><img style="max-width: 800px;" src="5-128-1.jpg" /></td><td style="display:none">             28-Apr-1999 15:15   29</td></tr> 
+<tr class="r1"><td>5-129-1</td><td><img style="max-width: 800px;" src="5-129-1.jpg" /></td><td style="display:none">             28-Apr-1999 15:18   30</td></tr> 
+
+<tr class="r1"><td>5-130-1a</td><td><img style="max-width: 800px;" src="5-130-1a.jpg" /></td><td style="display:none">            28-Apr-1999 15:20   21</td></tr> 
+<tr class="r1"><td>5-130-2a</td><td><img style="max-width: 800px;" src="5-130-2a.jpg" /></td><td style="display:none">            28-Apr-1999 15:23   30</td></tr> 
+<tr class="r1"><td>5-131-1a</td><td><img style="max-width: 800px;" src="5-131-1a.jpg" /></td><td style="display:none">            28-Apr-1999 15:25   15</td></tr> 
+<tr class="r1"><td>5-131-1b</td><td><img style="max-width: 800px;" src="5-131-1b.jpg" /></td><td style="display:none">            28-Apr-1999 15:27   34</td></tr> 

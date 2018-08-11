@@ -1,0 +1,457 @@
+<tr class="r1"><td>17-01-01</td><td><img style="max-width: 800px;" src="17-01-01.jpg" /></td><td style="display:none">            01-Oct-1998 17:23   12</td></tr> 
+<tr class="r1"><td>17-01-02</td><td><img style="max-width: 800px;" src="17-01-02.jpg" /></td><td style="display:none">            28-Sep-1998 16:39   23</td></tr> 
+<tr class="r1"><td>17-01-03</td><td><img style="max-width: 800px;" src="17-01-03.jpg" /></td><td style="display:none">            28-Apr-1997 16:27   49</td></tr> 
+<tr class="r1"><td>17-01-04</td><td><img style="max-width: 800px;" src="17-01-04.jpg" /></td><td style="display:none">            28-Sep-1998 16:45   13</td></tr> 
+<tr class="r1"><td>17-01-05</td><td><img style="max-width: 800px;" src="17-01-05.jpg" /></td><td style="display:none">            28-Apr-1997 16:29  149</td></tr> 
+
+<tr class="r1"><td>17-01-06</td><td><img style="max-width: 800px;" src="17-01-06.jpg" /></td><td style="display:none">            28-Sep-1998 16:57   21</td></tr> 
+<tr class="r1"><td>17-01-07</td><td><img style="max-width: 800px;" src="17-01-07.jpg" /></td><td style="display:none">            28-Sep-1998 17:05   22</td></tr> 
+<tr class="r1"><td>17-01-08</td><td><img style="max-width: 800px;" src="17-01-08.jpg" /></td><td style="display:none">            28-Apr-1997 16:32  105</td></tr> 
+<tr class="r1"><td>17-01-09</td><td><img style="max-width: 800px;" src="17-01-09.jpg" /></td><td style="display:none">            28-Sep-1998 17:08   19</td></tr> 
+<tr class="r1"><td>17-01-10</td><td><img style="max-width: 800px;" src="17-01-10.jpg" /></td><td style="display:none">            28-Apr-1997 16:35  109</td></tr> 
+
+<tr class="r1"><td>17-01-11</td><td><img style="max-width: 800px;" src="17-01-11.jpg" /></td><td style="display:none">            28-Sep-1998 17:11   13</td></tr> 
+<tr class="r1"><td>17-01-12</td><td><img style="max-width: 800px;" src="17-01-12.jpg" /></td><td style="display:none">            28-Apr-1997 16:38  139</td></tr> 
+<tr class="r1"><td>17-01-13</td><td><img style="max-width: 800px;" src="17-01-13.jpg" /></td><td style="display:none">            28-Sep-1998 17:13   21</td></tr> 
+<tr class="r1"><td>17-01-14</td><td><img style="max-width: 800px;" src="17-01-14.jpg" /></td><td style="display:none">            28-Apr-1997 16:42   85</td></tr> 
+<tr class="r1"><td>17-01-15</td><td><img style="max-width: 800px;" src="17-01-15.jpg" /></td><td style="display:none">            28-Sep-1998 17:18   16</td></tr> 
+
+<tr class="r1"><td>17-01-16</td><td><img style="max-width: 800px;" src="17-01-16.jpg" /></td><td style="display:none">            01-Oct-1998 17:26   24</td></tr> 
+<tr class="r1"><td>17-01-17</td><td><img style="max-width: 800px;" src="17-01-17.jpg" /></td><td style="display:none">            28-Apr-1997 16:44  159</td></tr> 
+<tr class="r1"><td>17-01-18</td><td><img style="max-width: 800px;" src="17-01-18.jpg" /></td><td style="display:none">            28-Sep-1998 17:26   11</td></tr> 
+<tr class="r1"><td>17-01-19</td><td><img style="max-width: 800px;" src="17-01-19.jpg" /></td><td style="display:none">            28-Apr-1997 16:47   84</td></tr> 
+<tr class="r1"><td>17-01-20</td><td><img style="max-width: 800px;" src="17-01-20.jpg" /></td><td style="display:none">            28-Apr-1997 16:50  116</td></tr> 
+
+<tr class="r1"><td>17-01-21</td><td><img style="max-width: 800px;" src="17-01-21.jpg" /></td><td style="display:none">            28-Sep-1998 17:30  9.7</td></tr> 
+<tr class="r1"><td>17-01-22</td><td><img style="max-width: 800px;" src="17-01-22.jpg" /></td><td style="display:none">            28-Sep-1998 17:40   13</td></tr> 
+<tr class="r1"><td>17-01-23</td><td><img style="max-width: 800px;" src="17-01-23.jpg" /></td><td style="display:none">            28-Apr-1997 16:54  146</td></tr> 
+<tr class="r1"><td>17-01-24</td><td><img style="max-width: 800px;" src="17-01-24.jpg" /></td><td style="display:none">            01-Oct-1998 17:28   32</td></tr> 
+<tr class="r1"><td>17-01-25</td><td><img style="max-width: 800px;" src="17-01-25.jpg" /></td><td style="display:none">            28-Sep-1998 17:47   11</td></tr> 
+
+<tr class="r1"><td>17-01-26</td><td><img style="max-width: 800px;" src="17-01-26.jpg" /></td><td style="display:none">            28-Apr-1997 16:56  148</td></tr> 
+<tr class="r1"><td>17-01-27</td><td><img style="max-width: 800px;" src="17-01-27.jpg" /></td><td style="display:none">            28-Sep-1998 17:49   16</td></tr> 
+<tr class="r1"><td>17-01-28</td><td><img style="max-width: 800px;" src="17-01-28.jpg" /></td><td style="display:none">            28-Apr-1997 16:59  170</td></tr> 
+<tr class="r1"><td>17-01-29</td><td><img style="max-width: 800px;" src="17-01-29.jpg" /></td><td style="display:none">            28-Apr-1997 17:05   70</td></tr> 
+<tr class="r1"><td>17-01-30</td><td><img style="max-width: 800px;" src="17-01-30.jpg" /></td><td style="display:none">            29-Sep-1998 10:10   12</td></tr> 
+
+<tr class="r1"><td>17-01-31</td><td><img style="max-width: 800px;" src="17-01-31.jpg" /></td><td style="display:none">            28-Apr-1997 17:08  190</td></tr> 
+<tr class="r1"><td>17-01-32</td><td><img style="max-width: 800px;" src="17-01-32.jpg" /></td><td style="display:none">            28-Apr-1997 17:11  167</td></tr> 
+<tr class="r1"><td>17-01-33</td><td><img style="max-width: 800px;" src="17-01-33.jpg" /></td><td style="display:none">            28-Apr-1997 17:14  125</td></tr> 
+<tr class="r1"><td>17-01-34</td><td><img style="max-width: 800px;" src="17-01-34.jpg" /></td><td style="display:none">            29-Sep-1998 10:12   19</td></tr> 
+<tr class="r1"><td>17-01-35</td><td><img style="max-width: 800px;" src="17-01-35.jpg" /></td><td style="display:none">            28-Apr-1997 17:18  114</td></tr> 
+
+<tr class="r1"><td>17-01-36</td><td><img style="max-width: 800px;" src="17-01-36.jpg" /></td><td style="display:none">            30-Apr-1997 16:05  116</td></tr> 
+<tr class="r1"><td>17-01-37</td><td><img style="max-width: 800px;" src="17-01-37.jpg" /></td><td style="display:none">            28-Apr-1997 17:27  132</td></tr> 
+<tr class="r1"><td>17-01-38</td><td><img style="max-width: 800px;" src="17-01-38.jpg" /></td><td style="display:none">            28-Apr-1997 17:30  115</td></tr> 
+<tr class="r1"><td>17-01-39</td><td><img style="max-width: 800px;" src="17-01-39.jpg" /></td><td style="display:none">            28-Apr-1997 17:33  116</td></tr> 
+<tr class="r1"><td>17-01-40</td><td><img style="max-width: 800px;" src="17-01-40.jpg" /></td><td style="display:none">            29-Sep-1998 10:35   14</td></tr> 
+
+<tr class="r1"><td>17-01-41</td><td><img style="max-width: 800px;" src="17-01-41.jpg" /></td><td style="display:none">            28-Apr-1997 17:35  106</td></tr> 
+<tr class="r1"><td>17-01-42</td><td><img style="max-width: 800px;" src="17-01-42.jpg" /></td><td style="display:none">            28-Apr-1997 17:38  114</td></tr> 
+<tr class="r1"><td>17-01-43</td><td><img style="max-width: 800px;" src="17-01-43.jpg" /></td><td style="display:none">            28-Apr-1997 17:40  194</td></tr> 
+<tr class="r1"><td>17-01-44</td><td><img style="max-width: 800px;" src="17-01-44.jpg" /></td><td style="display:none">            29-Sep-1998 10:39   17</td></tr> 
+<tr class="r1"><td>17-01-45</td><td><img style="max-width: 800px;" src="17-01-45.jpg" /></td><td style="display:none">            29-Sep-1998 10:41  9.9</td></tr> 
+
+<tr class="r1"><td>17-01-46</td><td><img style="max-width: 800px;" src="17-01-46.jpg" /></td><td style="display:none">            29-Sep-1998 10:43  9.3</td></tr> 
+<tr class="r1"><td>17-01-47</td><td><img style="max-width: 800px;" src="17-01-47.jpg" /></td><td style="display:none">            28-Apr-1997 17:43   99</td></tr> 
+<tr class="r1"><td>17-01-48</td><td><img style="max-width: 800px;" src="17-01-48.jpg" /></td><td style="display:none">            29-Sep-1998 10:51   15</td></tr> 
+<tr class="r1"><td>17-01-49</td><td><img style="max-width: 800px;" src="17-01-49.jpg" /></td><td style="display:none">            29-Sep-1998 10:53   18</td></tr> 
+<tr class="r1"><td>17-01-50</td><td><img style="max-width: 800px;" src="17-01-50.jpg" /></td><td style="display:none">            01-Oct-1998 17:36   20</td></tr> 
+
+<tr class="r1"><td>17-01-51</td><td><img style="max-width: 800px;" src="17-01-51.jpg" /></td><td style="display:none">            28-Apr-1997 17:46  105</td></tr> 
+<tr class="r1"><td>17-01-52</td><td><img style="max-width: 800px;" src="17-01-52.jpg" /></td><td style="display:none">            29-Sep-1998 11:19   14</td></tr> 
+<tr class="r1"><td>17-01-53</td><td><img style="max-width: 800px;" src="17-01-53.jpg" /></td><td style="display:none">            29-Sep-1998 11:25   10</td></tr> 
+<tr class="r1"><td>17-01-54</td><td><img style="max-width: 800px;" src="17-01-54.jpg" /></td><td style="display:none">            29-Sep-1998 11:40  8.9</td></tr> 
+<tr class="r1"><td>17-01-55</td><td><img style="max-width: 800px;" src="17-01-55.jpg" /></td><td style="display:none">            28-Apr-1997 17:50   51</td></tr> 
+
+<tr class="r1"><td>17-01-56</td><td><img style="max-width: 800px;" src="17-01-56.jpg" /></td><td style="display:none">            01-Oct-1998 17:39   28</td></tr> 
+<tr class="r1"><td>17-01-57</td><td><img style="max-width: 800px;" src="17-01-57.jpg" /></td><td style="display:none">            29-Sep-1998 12:17  6.3</td></tr> 
+<tr class="r1"><td>17-02-01</td><td><img style="max-width: 800px;" src="17-02-01.jpg" /></td><td style="display:none">            28-Apr-1997 17:54  168</td></tr> 
+<tr class="r1"><td>17-02-02</td><td><img style="max-width: 800px;" src="17-02-02.jpg" /></td><td style="display:none">            30-Sep-1998 15:20  9.4</td></tr> 
+<tr class="r1"><td>17-02-03</td><td><img style="max-width: 800px;" src="17-02-03.jpg" /></td><td style="display:none">            29-Sep-1998 12:37  5.8</td></tr> 
+
+<tr class="r1"><td>17-02-04</td><td><img style="max-width: 800px;" src="17-02-04.jpg" /></td><td style="display:none">            29-Sep-1998 16:48  5.9</td></tr> 
+<tr class="r1"><td>17-02-05</td><td><img style="max-width: 800px;" src="17-02-05.jpg" /></td><td style="display:none">            29-Sep-1998 16:49  7.5</td></tr> 
+<tr class="r1"><td>17-02-06</td><td><img style="max-width: 800px;" src="17-02-06.jpg" /></td><td style="display:none">            29-Sep-1998 16:53  6.1</td></tr> 
+<tr class="r1"><td>17-02-07</td><td><img style="max-width: 800px;" src="17-02-07.jpg" /></td><td style="display:none">            29-Sep-1998 16:58   10</td></tr> 
+<tr class="r1"><td>17-02-08</td><td><img style="max-width: 800px;" src="17-02-08.jpg" /></td><td style="display:none">            29-Sep-1998 17:01  7.3</td></tr> 
+
+<tr class="r1"><td>17-02-09</td><td><img style="max-width: 800px;" src="17-02-09.jpg" /></td><td style="display:none">            01-Oct-1998 17:42   36</td></tr> 
+<tr class="r1"><td>17-02-10</td><td><img style="max-width: 800px;" src="17-02-10.jpg" /></td><td style="display:none">            28-Apr-1997 17:59  103</td></tr> 
+<tr class="r1"><td>17-02-11</td><td><img style="max-width: 800px;" src="17-02-11.jpg" /></td><td style="display:none">            01-Oct-1998 17:49   29</td></tr> 
+<tr class="r1"><td>17-02-12</td><td><img style="max-width: 800px;" src="17-02-12.jpg" /></td><td style="display:none">            28-Apr-1997 18:02  168</td></tr> 
+<tr class="r1"><td>17-02-13</td><td><img style="max-width: 800px;" src="17-02-13.jpg" /></td><td style="display:none">            01-Oct-1998 17:46   27</td></tr> 
+
+<tr class="r1"><td>17-02-14</td><td><img src="17-02-14.JPG" /></td><td style="display:none">            29-Apr-1997 17:00  120</td></tr> 
+<tr class="r1"><td>17-02-15</td><td><img src="17-02-15.JPG" /></td><td style="display:none">            29-Apr-1997 17:06   83</td></tr> 
+<tr class="r1"><td>17-02-16</td><td><img src="17-02-16.JPG" /></td><td style="display:none">            29-Apr-1997 17:09  105</td></tr> 
+<tr class="r1"><td>17-02-17</td><td><img src="17-02-17.JPG" /></td><td style="display:none">            29-Apr-1997 17:11  102</td></tr> 
+<tr class="r1"><td>17-02-18</td><td><img src="17-02-18.JPG" /></td><td style="display:none">            29-Apr-1997 17:14   86</td></tr> 
+
+<tr class="r1"><td>17-02-19</td><td><img style="max-width: 800px;" src="17-02-19.jpg" /></td><td style="display:none">            29-Sep-1998 17:15   11</td></tr> 
+<tr class="r1"><td>17-02-20</td><td><img src="17-02-20.JPG" /></td><td style="display:none">            29-Apr-1997 17:16  104</td></tr> 
+<tr class="r1"><td>17-02-21</td><td><img style="max-width: 800px;" src="17-02-21.jpg" /></td><td style="display:none">            30-Sep-1998 11:49  3.3</td></tr> 
+<tr class="r1"><td>17-02-22</td><td><img src="17-02-22.JPG" /></td><td style="display:none">            29-Apr-1997 17:20  152</td></tr> 
+<tr class="r1"><td>17-02-23</td><td><img src="17-02-23.JPG" /></td><td style="display:none">            29-Apr-1997 17:22   93</td></tr> 
+
+<tr class="r1"><td>17-02-24</td><td><img style="max-width: 800px;" src="17-02-24.jpg" /></td><td style="display:none">            01-Oct-1998 17:15   28</td></tr> 
+<tr class="r1"><td>17-02-25</td><td><img src="17-02-25.JPG" /></td><td style="display:none">            29-Apr-1997 17:25  129</td></tr> 
+<tr class="r1"><td>17-02-26</td><td><img src="17-02-26.JPG" /></td><td style="display:none">            29-Apr-1997 17:28  129</td></tr> 
+<tr class="r1"><td>17-02-27</td><td><img style="max-width: 800px;" src="17-02-27.jpg" /></td><td style="display:none">            30-Sep-1998 11:57  8.0</td></tr> 
+<tr class="r1"><td>17-02-28</td><td><img style="max-width: 800px;" src="17-02-28.jpg" /></td><td style="display:none">            30-Sep-1998 12:00  8.6</td></tr> 
+
+<tr class="r1"><td>17-02-29</td><td><img src="17-02-29.JPG" /></td><td style="display:none">            29-Apr-1997 17:30  121</td></tr> 
+<tr class="r1"><td>17-02-30</td><td><img style="max-width: 800px;" src="17-02-30.jpg" /></td><td style="display:none">            30-Sep-1998 12:03   17</td></tr> 
+<tr class="r1"><td>17-02-31</td><td><img src="17-02-31.JPG" /></td><td style="display:none">            29-Apr-1997 17:33  153</td></tr> 
+<tr class="r1"><td>17-02-32</td><td><img src="17-02-32.JPG" /></td><td style="display:none">            29-Apr-1997 17:36  141</td></tr> 
+<tr class="r1"><td>17-02-33</td><td><img src="17-02-33.JPG" /></td><td style="display:none">            29-Apr-1997 17:39  127</td></tr> 
+
+<tr class="r1"><td>17-02-34</td><td><img style="max-width: 800px;" src="17-02-34.jpg" /></td><td style="display:none">            30-Sep-1998 12:05   15</td></tr> 
+<tr class="r1"><td>17-02-35</td><td><img src="17-02-35.JPG" /></td><td style="display:none">            29-Apr-1997 17:43  117</td></tr> 
+<tr class="r1"><td>17-02-36</td><td><img style="max-width: 800px;" src="17-02-36.jpg" /></td><td style="display:none">            30-Sep-1998 12:25  9.0</td></tr> 
+<tr class="r1"><td>17-02-37</td><td><img style="max-width: 800px;" src="17-02-37.jpg" /></td><td style="display:none">            30-Sep-1998 15:13  7.6</td></tr> 
+<tr class="r1"><td>17-02-38</td><td><img style="max-width: 800px;" src="17-02-38.jpg" /></td><td style="display:none">            30-Sep-1998 15:24  5.9</td></tr> 
+
+<tr class="r1"><td>17-02-39</td><td><img style="max-width: 800px;" src="17-02-39.jpg" /></td><td style="display:none">            01-Oct-1998 17:17   28</td></tr> 
+<tr class="r1"><td>17-02-40</td><td><img style="max-width: 800px;" src="17-02-40.jpg" /></td><td style="display:none">            30-Sep-1998 15:30  7.0</td></tr> 
+<tr class="r1"><td>17-02-41</td><td><img src="17-02-41.JPG" /></td><td style="display:none">            29-Apr-1997 17:45   82</td></tr> 
+<tr class="r1"><td>17-02-42</td><td><img style="max-width: 800px;" src="17-02-42.jpg" /></td><td style="display:none">            30-Sep-1998 15:32  7.0</td></tr> 
+<tr class="r1"><td>17-02-43</td><td><img style="max-width: 800px;" src="17-02-43.jpg" /></td><td style="display:none">            30-Sep-1998 16:06  8.3</td></tr> 
+
+<tr class="r1"><td>17-02-44</td><td><img style="max-width: 800px;" src="17-02-44.jpg" /></td><td style="display:none">            30-Sep-1998 16:09  6.7</td></tr> 
+<tr class="r1"><td>17-02-45</td><td><img style="max-width: 800px;" src="17-02-45.jpg" /></td><td style="display:none">            30-Sep-1998 16:12  9.5</td></tr> 
+<tr class="r1"><td>17-02-46</td><td><img src="17-02-46.JPG" /></td><td style="display:none">            29-Apr-1997 17:48   99</td></tr> 
+<tr class="r1"><td>17-02-47</td><td><img style="max-width: 800px;" src="17-02-47.jpg" /></td><td style="display:none">            30-Sep-1998 16:14   10</td></tr> 
+<tr class="r1"><td>17-02-48</td><td><img style="max-width: 800px;" src="17-02-48.jpg" /></td><td style="display:none">            30-Sep-1998 16:17  8.3</td></tr> 
+
+<tr class="r1"><td>17-02-49</td><td><img style="max-width: 800px;" src="17-02-49.jpg" /></td><td style="display:none">            30-Sep-1998 16:18   11</td></tr> 
+<tr class="r1"><td>17-03-01</td><td><img style="max-width: 800px;" src="17-03-01.jpg" /></td><td style="display:none">            01-Oct-1998 11:05  9.1</td></tr> 
+<tr class="r1"><td>17-03-02</td><td><img style="max-width: 800px;" src="17-03-02.jpg" /></td><td style="display:none">            01-Oct-1998 11:29   17</td></tr> 
+<tr class="r1"><td>17-03-03</td><td><img style="max-width: 800px;" src="17-03-03.jpg" /></td><td style="display:none">            01-Oct-1998 11:34   16</td></tr> 
+<tr class="r1"><td>17-03-04</td><td><img src="17-03-04.JPG" /></td><td style="display:none">            29-Apr-1997 17:51  110</td></tr> 
+
+<tr class="r1"><td>17-03-05</td><td><img style="max-width: 800px;" src="17-03-05.jpg" /></td><td style="display:none">            01-Oct-1998 11:36   15</td></tr> 
+<tr class="r1"><td>17-03-06</td><td><img style="max-width: 800px;" src="17-03-06.jpg" /></td><td style="display:none">            01-Oct-1998 11:42   20</td></tr> 
+<tr class="r1"><td>17-03-07</td><td><img style="max-width: 800px;" src="17-03-07.jpg" /></td><td style="display:none">            02-Oct-1998 17:50   27</td></tr> 
+<tr class="r1"><td>17-03-08</td><td><img style="max-width: 800px;" src="17-03-08.jpg" /></td><td style="display:none">            01-Oct-1998 11:47   40</td></tr> 
+<tr class="r1"><td>17-04-01</td><td><img src="17-04-01.JPG" /></td><td style="display:none">            29-Apr-1997 17:54   79</td></tr> 
+
+<tr class="r1"><td>17-04-02</td><td><img src="17-04-02.JPG" /></td><td style="display:none">            29-Apr-1997 17:57   80</td></tr> 
+<tr class="r1"><td>17-04-03</td><td><img style="max-width: 800px;" src="17-04-03.jpg" /></td><td style="display:none">            01-Oct-1998 14:09   16</td></tr> 
+<tr class="r1"><td>17-04-04</td><td><img style="max-width: 800px;" src="17-04-04.jpg" /></td><td style="display:none">            01-Oct-1998 14:12   22</td></tr> 
+<tr class="r1"><td>17-04-05</td><td><img style="max-width: 800px;" src="17-04-05.jpg" /></td><td style="display:none">            01-Oct-1998 14:15   22</td></tr> 
+<tr class="r1"><td>17-04-06</td><td><img style="max-width: 800px;" src="17-04-06.jpg" /></td><td style="display:none">            01-Oct-1998 14:22   17</td></tr> 
+
+<tr class="r1"><td>17-04-07</td><td><img style="max-width: 800px;" src="17-04-07.jpg" /></td><td style="display:none">            01-Oct-1998 14:24   15</td></tr> 
+<tr class="r1"><td>17-04-08</td><td><img style="max-width: 800px;" src="17-04-08.jpg" /></td><td style="display:none">            01-Oct-1998 14:27   17</td></tr> 
+<tr class="r1"><td>17-05-01</td><td><img style="max-width: 800px;" src="17-05-01.jpg" /></td><td style="display:none">            01-Oct-1998 14:35   10</td></tr> 
+<tr class="r1"><td>17-05-02</td><td><img style="max-width: 800px;" src="17-05-02.jpg" /></td><td style="display:none">            01-Oct-1998 14:44   31</td></tr> 
+<tr class="r1"><td>17-05-03</td><td><img style="max-width: 800px;" src="17-05-03.jpg" /></td><td style="display:none">            01-Oct-1998 14:47   26</td></tr> 
+
+<tr class="r1"><td>17-05-04</td><td><img src="17-05-04.JPG" /></td><td style="display:none">            29-Apr-1997 18:00  114</td></tr> 
+<tr class="r1"><td>17-05-05</td><td><img style="max-width: 800px;" src="17-05-05.jpg" /></td><td style="display:none">            01-Oct-1998 14:51   24</td></tr> 
+<tr class="r1"><td>17-05-06</td><td><img src="17-05-06.JPG" /></td><td style="display:none">            29-Apr-1997 18:02   95</td></tr> 
+<tr class="r1"><td>17-05-07</td><td><img style="max-width: 800px;" src="17-05-07.jpg" /></td><td style="display:none">            01-Oct-1998 14:55   24</td></tr> 
+<tr class="r1"><td>17-05-08</td><td><img style="max-width: 800px;" src="17-05-08.jpg" /></td><td style="display:none">            01-Oct-1998 15:09   30</td></tr> 
+
+<tr class="r1"><td>17-05-09</td><td><img src="17-05-09.JPG" /></td><td style="display:none">            01-Oct-1998 15:26   29</td></tr> 
+<tr class="r1"><td>17-05-10</td><td><img src="17-05-10.JPG" /></td><td style="display:none">            30-Apr-1997 14:25  124</td></tr> 
+<tr class="r1"><td>17-05-11</td><td><img style="max-width: 800px;" src="17-05-11.jpg" /></td><td style="display:none">            01-Oct-1998 15:33   20</td></tr> 
+<tr class="r1"><td>17-05-13</td><td><img src="17-05-13.JPG" /></td><td style="display:none">            30-Apr-1997 14:28  117</td></tr> 
+<tr class="r1"><td>17-06-01</td><td><img style="max-width: 800px;" src="17-06-01.jpg" /></td><td style="display:none">            01-Oct-1998 15:36   17</td></tr> 
+
+<tr class="r1"><td>17-06-02</td><td><img style="max-width: 800px;" src="17-06-02.jpg" /></td><td style="display:none">            01-Oct-1998 15:46   23</td></tr> 
+<tr class="r1"><td>17-06-03</td><td><img style="max-width: 800px;" src="17-06-03.jpg" /></td><td style="display:none">            01-Oct-1998 15:48   32</td></tr> 
+<tr class="r1"><td>17-06-04</td><td><img style="max-width: 800px;" src="17-06-04.jpg" /></td><td style="display:none">            01-Oct-1998 15:51   46</td></tr> 
+<tr class="r1"><td>17-06-05</td><td><img style="max-width: 800px;" src="17-06-05.jpg" /></td><td style="display:none">            01-Oct-1998 16:21   47</td></tr> 
+<tr class="r1"><td>17-06-06</td><td><img style="max-width: 800px;" src="17-06-06.jpg" /></td><td style="display:none">            01-Oct-1998 16:31   32</td></tr> 
+
+<tr class="r1"><td>17-06-07</td><td><img src="17-06-07.JPG" /></td><td style="display:none">            30-Apr-1997 14:30  120</td></tr> 
+<tr class="r1"><td>17-06-08</td><td><img style="max-width: 800px;" src="17-06-08.jpg" /></td><td style="display:none">            01-Oct-1998 16:31   19</td></tr> 
+<tr class="r1"><td>17-06-09</td><td><img style="max-width: 800px;" src="17-06-09.jpg" /></td><td style="display:none">            01-Oct-1998 16:38   30</td></tr> 
+<tr class="r1"><td>17-06-10</td><td><img style="max-width: 800px;" src="17-06-10.jpg" /></td><td style="display:none">            01-Oct-1998 16:50   35</td></tr> 
+<tr class="r1"><td>17-06-11</td><td><img style="max-width: 800px;" src="17-06-11.jpg" /></td><td style="display:none">            01-Oct-1998 16:52   34</td></tr> 
+
+<tr class="r1"><td>17-06-12</td><td><img style="max-width: 800px;" src="17-06-12.jpg" /></td><td style="display:none">            01-Oct-1998 16:57   17</td></tr> 
+<tr class="r1"><td>17-06-13</td><td><img style="max-width: 800px;" src="17-06-13.jpg" /></td><td style="display:none">            01-Oct-1998 16:59   31</td></tr> 
+<tr class="r1"><td>17-06-14</td><td><img style="max-width: 800px;" src="17-06-14.jpg" /></td><td style="display:none">            01-Oct-1998 17:02   33</td></tr> 
+<tr class="r1"><td>17-06-15</td><td><img style="max-width: 800px;" src="17-06-15.jpg" /></td><td style="display:none">            01-Oct-1998 17:05   37</td></tr> 
+<tr class="r1"><td>17-06-17</td><td><img style="max-width: 800px;" src="17-06-17.jpg" /></td><td style="display:none">            01-Oct-1998 17:08   36</td></tr> 
+
+<tr class="r1"><td>17-06-18</td><td><img style="max-width: 800px;" src="17-06-18.jpg" /></td><td style="display:none">            01-Oct-1998 17:10   14</td></tr> 
+<tr class="r1"><td>17-06-19</td><td><img src="17-06-19.JPG" /></td><td style="display:none">            30-Apr-1997 14:33   98</td></tr> 
+<tr class="r1"><td>17-06-20</td><td><img style="max-width: 800px;" src="17-06-20.jpg" /></td><td style="display:none">            02-Oct-1998 10:27   21</td></tr> 
+<tr class="r1"><td>17-06-21</td><td><img style="max-width: 800px;" src="17-06-21.jpg" /></td><td style="display:none">            02-Oct-1998 10:30   43</td></tr> 
+<tr class="r1"><td>17-06-22</td><td><img style="max-width: 800px;" src="17-06-22.jpg" /></td><td style="display:none">            02-Oct-1998 10:33   16</td></tr> 
+
+<tr class="r1"><td>17-06-23</td><td><img src="17-06-23.JPG" /></td><td style="display:none">            30-Apr-1997 14:35  166</td></tr> 
+<tr class="r1"><td>17-06-24</td><td><img src="17-06-24.JPG" /></td><td style="display:none">            30-Apr-1997 14:38  174</td></tr> 
+<tr class="r1"><td>17-06-25</td><td><img style="max-width: 800px;" src="17-06-25.jpg" /></td><td style="display:none">            02-Oct-1998 10:47   21</td></tr> 
+<tr class="r1"><td>17-06-26</td><td><img style="max-width: 800px;" src="17-06-26.jpg" /></td><td style="display:none">            02-Oct-1998 10:49   28</td></tr> 
+<tr class="r1"><td>17-06-27</td><td><img src="17-06-27.JPG" /></td><td style="display:none">            30-Apr-1997 14:40  183</td></tr> 
+
+<tr class="r1"><td>17-06-28</td><td><img style="max-width: 800px;" src="17-06-28.jpg" /></td><td style="display:none">            02-Oct-1998 10:52   37</td></tr> 
+<tr class="r1"><td>17-06-29</td><td><img style="max-width: 800px;" src="17-06-29.jpg" /></td><td style="display:none">            02-Oct-1998 10:38   28</td></tr> 
+<tr class="r1"><td>17-07-01</td><td><img style="max-width: 800px;" src="17-07-01.jpg" /></td><td style="display:none">            02-Oct-1998 10:41   24</td></tr> 
+<tr class="r1"><td>17-07-02</td><td><img style="max-width: 800px;" src="17-07-02.jpg" /></td><td style="display:none">            02-Oct-1998 10:43   49</td></tr> 
+<tr class="r1"><td>17-07-03</td><td><img style="max-width: 800px;" src="17-07-03.jpg" /></td><td style="display:none">            02-Oct-1998 11:48   26</td></tr> 
+
+<tr class="r1"><td>17-07-04</td><td><img style="max-width: 800px;" src="17-07-04.jpg" /></td><td style="display:none">            02-Oct-1998 11:50   24</td></tr> 
+<tr class="r1"><td>17-07-05</td><td><img style="max-width: 800px;" src="17-07-05.jpg" /></td><td style="display:none">            02-Oct-1998 11:52   21</td></tr> 
+<tr class="r1"><td>17-07-06</td><td><img style="max-width: 800px;" src="17-07-06.jpg" /></td><td style="display:none">            02-Oct-1998 12:06   20</td></tr> 
+<tr class="r1"><td>17-07-07</td><td><img style="max-width: 800px;" src="17-07-07.jpg" /></td><td style="display:none">            02-Oct-1998 12:11   15</td></tr> 
+<tr class="r1"><td>17-07-08</td><td><img style="max-width: 800px;" src="17-07-08.jpg" /></td><td style="display:none">            02-Oct-1998 12:14   32</td></tr> 
+
+<tr class="r1"><td>17-07-09</td><td><img style="max-width: 800px;" src="17-07-09.jpg" /></td><td style="display:none">            02-Oct-1998 12:18   27</td></tr> 
+<tr class="r1"><td>17-07-10</td><td><img style="max-width: 800px;" src="17-07-10.jpg" /></td><td style="display:none">            02-Oct-1998 12:19   22</td></tr> 
+<tr class="r1"><td>17-07-11</td><td><img style="max-width: 800px;" src="17-07-11.jpg" /></td><td style="display:none">            02-Oct-1998 12:22   38</td></tr> 
+<tr class="r1"><td>17-07-12</td><td><img style="max-width: 800px;" src="17-07-12.jpg" /></td><td style="display:none">            02-Oct-1998 12:26   47</td></tr> 
+<tr class="r1"><td>17-07-13</td><td><img style="max-width: 800px;" src="17-07-13.jpg" /></td><td style="display:none">            02-Oct-1998 12:30   30</td></tr> 
+
+<tr class="r1"><td>17-07-14</td><td><img src="17-07-14.JPG" /></td><td style="display:none">            30-Apr-1997 14:43  105</td></tr> 
+<tr class="r1"><td>17-07-15</td><td><img style="max-width: 800px;" src="17-07-15.jpg" /></td><td style="display:none">            02-Oct-1998 12:32   38</td></tr> 
+<tr class="r1"><td>17-07-16</td><td><img style="max-width: 800px;" src="17-07-16.jpg" /></td><td style="display:none">            02-Oct-1998 14:59   25</td></tr> 
+<tr class="r1"><td>17-07-17</td><td><img style="max-width: 800px;" src="17-07-17.jpg" /></td><td style="display:none">            02-Oct-1998 15:02   20</td></tr> 
+<tr class="r1"><td>17-07-18</td><td><img style="max-width: 800px;" src="17-07-18.jpg" /></td><td style="display:none">            02-Oct-1998 15:04   28</td></tr> 
+
+<tr class="r1"><td>17-07-19</td><td><img style="max-width: 800px;" src="17-07-19.jpg" /></td><td style="display:none">            02-Oct-1998 15:08   26</td></tr> 
+<tr class="r1"><td>17-07-20</td><td><img style="max-width: 800px;" src="17-07-20.jpg" /></td><td style="display:none">            02-Oct-1998 15:10   27</td></tr> 
+<tr class="r1"><td>17-07-21</td><td><img style="max-width: 800px;" src="17-07-21.jpg" /></td><td style="display:none">            02-Oct-1998 15:11   30</td></tr> 
+<tr class="r1"><td>17-07-22</td><td><img style="max-width: 800px;" src="17-07-22.jpg" /></td><td style="display:none">            02-Oct-1998 15:22   26</td></tr> 
+<tr class="r1"><td>17-07-23</td><td><img style="max-width: 800px;" src="17-07-23.jpg" /></td><td style="display:none">            02-Oct-1998 15:32   32</td></tr> 
+
+<tr class="r1"><td>17-07-24</td><td><img style="max-width: 800px;" src="17-07-24.jpg" /></td><td style="display:none">            02-Oct-1998 15:38   49</td></tr> 
+<tr class="r1"><td>17-07-25</td><td><img style="max-width: 800px;" src="17-07-25.jpg" /></td><td style="display:none">            02-Oct-1998 15:47   47</td></tr> 
+<tr class="r1"><td>17-07-26</td><td><img style="max-width: 800px;" src="17-07-26.jpg" /></td><td style="display:none">            02-Oct-1998 15:49   48</td></tr> 
+<tr class="r1"><td>17-07-27</td><td><img style="max-width: 800px;" src="17-07-27.jpg" /></td><td style="display:none">            02-Oct-1998 15:51   27</td></tr> 
+<tr class="r1"><td>17-07-28</td><td><img style="max-width: 800px;" src="17-07-28.jpg" /></td><td style="display:none">            02-Oct-1998 17:31   29</td></tr> 
+
+<tr class="r1"><td>17-07-29</td><td><img style="max-width: 800px;" src="17-07-29.jpg" /></td><td style="display:none">            02-Oct-1998 17:33   38</td></tr> 
+<tr class="r1"><td>17-07-30</td><td><img style="max-width: 800px;" src="17-07-30.jpg" /></td><td style="display:none">            02-Oct-1998 17:35   32</td></tr> 
+<tr class="r1"><td>17-07-31</td><td><img style="max-width: 800px;" src="17-07-31.jpg" /></td><td style="display:none">            02-Oct-1998 17:43   26</td></tr> 
+<tr class="r1"><td>17-07-32</td><td><img src="17-07-32.JPG" /></td><td style="display:none">            30-Apr-1997 14:50  131</td></tr> 
+<tr class="r1"><td>17-07-33</td><td><img style="max-width: 800px;" src="17-07-33.jpg" /></td><td style="display:none">            02-Oct-1998 17:45   30</td></tr> 
+
+<tr class="r1"><td>17-07-34</td><td><img style="max-width: 800px;" src="17-07-34.jpg" /></td><td style="display:none">            06-Oct-1998 10:10   29</td></tr> 
+<tr class="r1"><td>17-07-35</td><td><img src="17-07-35.JPG" /></td><td style="display:none">            30-Apr-1997 14:52  103</td></tr> 
+<tr class="r1"><td>17-07-36</td><td><img src="17-07-36.JPG" /></td><td style="display:none">            30-Apr-1997 14:54  106</td></tr> 
+<tr class="r1"><td>17-07-37</td><td><img style="max-width: 800px;" src="17-07-37.jpg" /></td><td style="display:none">            06-Oct-1998 10:12   47</td></tr> 
+<tr class="r1"><td>17-07-38</td><td><img style="max-width: 800px;" src="17-07-38.jpg" /></td><td style="display:none">            06-Oct-1998 10:14   42</td></tr> 
+
+<tr class="r1"><td>17-07-39</td><td><img style="max-width: 800px;" src="17-07-39.jpg" /></td><td style="display:none">            06-Oct-1998 10:18   34</td></tr> 
+<tr class="r1"><td>17-07-40</td><td><img style="max-width: 800px;" src="17-07-40.jpg" /></td><td style="display:none">            06-Oct-1998 10:21   31</td></tr> 
+<tr class="r1"><td>17-07-41</td><td><img style="max-width: 800px;" src="17-07-41.jpg" /></td><td style="display:none">            06-Oct-1998 10:23   26</td></tr> 
+<tr class="r1"><td>17-07-42</td><td><img style="max-width: 800px;" src="17-07-42.jpg" /></td><td style="display:none">            06-Oct-1998 10:27   37</td></tr> 
+<tr class="r1"><td>17-07-43</td><td><img style="max-width: 800px;" src="17-07-43.jpg" /></td><td style="display:none">            06-Oct-1998 10:29   27</td></tr> 
+
+<tr class="r1"><td>17-07-44</td><td><img style="max-width: 800px;" src="17-07-44.jpg" /></td><td style="display:none">            06-Oct-1998 10:31   27</td></tr> 
+<tr class="r1"><td>17-07-45</td><td><img style="max-width: 800px;" src="17-07-45.jpg" /></td><td style="display:none">            06-Oct-1998 10:54   31</td></tr> 
+<tr class="r1"><td>17-08-01</td><td><img style="max-width: 800px;" src="17-08-01.jpg" /></td><td style="display:none">            06-Oct-1998 10:56   17</td></tr> 
+<tr class="r1"><td>17-08-02</td><td><img style="max-width: 800px;" src="17-08-02.jpg" /></td><td style="display:none">            06-Oct-1998 17:35   21</td></tr> 
+<tr class="r1"><td>17-08-03</td><td><img style="max-width: 800px;" src="17-08-03.jpg" /></td><td style="display:none">            06-Oct-1998 11:02   24</td></tr> 
+
+<tr class="r1"><td>17-08-04</td><td><img style="max-width: 800px;" src="17-08-04.jpg" /></td><td style="display:none">            06-Oct-1998 11:04   47</td></tr> 
+<tr class="r1"><td>17-08-05</td><td><img style="max-width: 800px;" src="17-08-05.jpg" /></td><td style="display:none">            06-Oct-1998 11:33   26</td></tr> 
+<tr class="r1"><td>17-08-06</td><td><img style="max-width: 800px;" src="17-08-06.jpg" /></td><td style="display:none">            06-Oct-1998 11:40   15</td></tr> 
+<tr class="r1"><td>17-08-07</td><td><img style="max-width: 800px;" src="17-08-07.jpg" /></td><td style="display:none">            06-Oct-1998 11:42   22</td></tr> 
+<tr class="r1"><td>17-09-01</td><td><img style="max-width: 800px;" src="17-09-01.jpg" /></td><td style="display:none">            06-Oct-1998 11:46   22</td></tr> 
+
+<tr class="r1"><td>17-10-01</td><td><img style="max-width: 800px;" src="17-10-01.jpg" /></td><td style="display:none">            06-Oct-1998 12:19   25</td></tr> 
+<tr class="r1"><td>17-10-02</td><td><img src="17-10-02.JPG" /></td><td style="display:none">            30-Apr-1997 14:57  126</td></tr> 
+<tr class="r1"><td>17-10-03</td><td><img src="17-10-03.JPG" /></td><td style="display:none">            30-Apr-1997 14:59   61</td></tr> 
+<tr class="r1"><td>17-10-04</td><td><img src="17-10-04.JPG" /></td><td style="display:none">            30-Apr-1997 15:02  155</td></tr> 
+<tr class="r1"><td>17-10-05</td><td><img src="17-10-05.JPG" /></td><td style="display:none">            30-Apr-1997 15:04  113</td></tr> 
+
+<tr class="r1"><td>17-10-06</td><td><img style="max-width: 800px;" src="17-10-06.jpg" /></td><td style="display:none">            06-Oct-1998 12:21   29</td></tr> 
+<tr class="r1"><td>17-10-07</td><td><img style="max-width: 800px;" src="17-10-07.jpg" /></td><td style="display:none">            06-Oct-1998 12:23   23</td></tr> 
+<tr class="r1"><td>17-10-08</td><td><img src="17-10-08.JPG" /></td><td style="display:none">            30-Apr-1997 15:06  113</td></tr> 
+<tr class="r1"><td>17-10-09</td><td><img style="max-width: 800px;" src="17-10-09.jpg" /></td><td style="display:none">            06-Oct-1998 12:27   32</td></tr> 
+<tr class="r1"><td>17-10-10</td><td><img src="17-10-10.JPG" /></td><td style="display:none">            30-Apr-1997 15:08  134</td></tr> 
+
+<tr class="r1"><td>17-10-11</td><td><img src="17-10-11.JPG" /></td><td style="display:none">            30-Apr-1997 15:11  102</td></tr> 
+<tr class="r1"><td>17-10-12</td><td><img style="max-width: 800px;" src="17-10-12.jpg" /></td><td style="display:none">            06-Oct-1998 16:41   42</td></tr> 
+<tr class="r1"><td>17-10-13</td><td><img style="max-width: 800px;" src="17-10-13.jpg" /></td><td style="display:none">            06-Oct-1998 16:44   26</td></tr> 
+<tr class="r1"><td>17-11-02</td><td><img style="max-width: 800px;" src="17-11-02.jpg" /></td><td style="display:none">            06-Oct-1998 16:50   19</td></tr> 
+<tr class="r1"><td>17-11-03</td><td><img style="max-width: 800px;" src="17-11-03.jpg" /></td><td style="display:none">            06-Oct-1998 16:52   33</td></tr> 
+
+<tr class="r1"><td>17-11-04</td><td><img style="max-width: 800px;" src="17-11-04.jpg" /></td><td style="display:none">            06-Oct-1998 16:54   21</td></tr> 
+<tr class="r1"><td>17-11-05</td><td><img style="max-width: 800px;" src="17-11-05.jpg" /></td><td style="display:none">            06-Oct-1998 17:01   18</td></tr> 
+<tr class="r1"><td>17-11-06</td><td><img style="max-width: 800px;" src="17-11-06.jpg" /></td><td style="display:none">            06-Oct-1998 17:05   16</td></tr> 
+<tr class="r1"><td>17-11-07</td><td><img style="max-width: 800px;" src="17-11-07.jpg" /></td><td style="display:none">            06-Oct-1998 17:08   25</td></tr> 
+<tr class="r1"><td>17-11-08</td><td><img style="max-width: 800px;" src="17-11-08.jpg" /></td><td style="display:none">            06-Oct-1998 17:24   18</td></tr> 
+
+<tr class="r1"><td>17-11-09</td><td><img src="17-11-09.JPG" /></td><td style="display:none">            30-Apr-1997 15:13  129</td></tr> 
+<tr class="r1"><td>17-11-10</td><td><img style="max-width: 800px;" src="17-11-10.jpg" /></td><td style="display:none">            06-Oct-1998 17:27   31</td></tr> 
+<tr class="r1"><td>17-11-11</td><td><img style="max-width: 800px;" src="17-11-11.jpg" /></td><td style="display:none">            06-Oct-1998 17:29   26</td></tr> 
+<tr class="r1"><td>17-11-12</td><td><img style="max-width: 800px;" src="17-11-12.jpg" /></td><td style="display:none">            07-Oct-1998 09:41   36</td></tr> 
+<tr class="r1"><td>17-11-13</td><td><img style="max-width: 800px;" src="17-11-13.jpg" /></td><td style="display:none">            07-Oct-1998 09:43   24</td></tr> 
+
+<tr class="r1"><td>17-11-14</td><td><img style="max-width: 800px;" src="17-11-14.jpg" /></td><td style="display:none">            07-Oct-1998 09:46   20</td></tr> 
+<tr class="r1"><td>17-11-15</td><td><img style="max-width: 800px;" src="17-11-15.jpg" /></td><td style="display:none">            07-Oct-1998 09:51   35</td></tr> 
+<tr class="r1"><td>17-11-16</td><td><img style="max-width: 800px;" src="17-11-16.jpg" /></td><td style="display:none">            07-Oct-1998 09:54   29</td></tr> 
+<tr class="r1"><td>17-11-17</td><td><img style="max-width: 800px;" src="17-11-17.jpg" /></td><td style="display:none">            07-Oct-1998 09:56   37</td></tr> 
+<tr class="r1"><td>17-11-18</td><td><img style="max-width: 800px;" src="17-11-18.jpg" /></td><td style="display:none">            07-Oct-1998 10:15   12</td></tr> 
+
+<tr class="r1"><td>17-11-19</td><td><img style="max-width: 800px;" src="17-11-19.jpg" /></td><td style="display:none">            07-Oct-1998 10:17   38</td></tr> 
+<tr class="r1"><td>17-11-20</td><td><img style="max-width: 800px;" src="17-11-20.jpg" /></td><td style="display:none">            07-Oct-1998 10:22   35</td></tr> 
+<tr class="r1"><td>17-11-21</td><td><img style="max-width: 800px;" src="17-11-21.jpg" /></td><td style="display:none">            07-Oct-1998 10:27   18</td></tr> 
+<tr class="r1"><td>17-11-22</td><td><img style="max-width: 800px;" src="17-11-22.jpg" /></td><td style="display:none">            07-Oct-1998 10:29   24</td></tr> 
+<tr class="r1"><td>17-11.01</td><td><img style="max-width: 800px;" src="17-11.01.jpg" /></td><td style="display:none">            06-Oct-1998 16:46   23</td></tr> 
+
+<tr class="r1"><td>17-12-01</td><td><img src="17-12-01.JPG" /></td><td style="display:none">            30-Apr-1997 15:24   73</td></tr> 
+<tr class="r1"><td>17-12-02</td><td><img style="max-width: 800px;" src="17-12-02.jpg" /></td><td style="display:none">            07-Oct-1998 10:32   32</td></tr> 
+<tr class="r1"><td>17-12-03</td><td><img style="max-width: 800px;" src="17-12-03.jpg" /></td><td style="display:none">            07-Oct-1998 10:37   16</td></tr> 
+<tr class="r1"><td>17-12-04</td><td><img style="max-width: 800px;" src="17-12-04.jpg" /></td><td style="display:none">            07-Oct-1998 10:39   31</td></tr> 
+<tr class="r1"><td>17-12-05</td><td><img style="max-width: 800px;" src="17-12-05.jpg" /></td><td style="display:none">            07-Oct-1998 10:41   51</td></tr> 
+
+<tr class="r1"><td>17-12-06</td><td><img style="max-width: 800px;" src="17-12-06.jpg" /></td><td style="display:none">            07-Oct-1998 11:06   30</td></tr> 
+<tr class="r1"><td>17-12-07</td><td><img style="max-width: 800px;" src="17-12-07.jpg" /></td><td style="display:none">            07-Oct-1998 11:08   34</td></tr> 
+<tr class="r1"><td>17-12-08</td><td><img style="max-width: 800px;" src="17-12-08.jpg" /></td><td style="display:none">            07-Oct-1998 11:10   25</td></tr> 
+<tr class="r1"><td>17-12-09</td><td><img src="17-12-09.JPG" /></td><td style="display:none">            30-Apr-1997 15:26  115</td></tr> 
+<tr class="r1"><td>17-12-10</td><td><img src="17-12-10.JPG" /></td><td style="display:none">            30-Apr-1997 15:29   84</td></tr> 
+
+<tr class="r1"><td>17-12-11</td><td><img style="max-width: 800px;" src="17-12-11.jpg" /></td><td style="display:none">            07-Oct-1998 11:15   33</td></tr> 
+<tr class="r1"><td>17-12-12</td><td><img style="max-width: 800px;" src="17-12-12.jpg" /></td><td style="display:none">            07-Oct-1998 11:19   28</td></tr> 
+<tr class="r1"><td>17-12-13</td><td><img style="max-width: 800px;" src="17-12-13.jpg" /></td><td style="display:none">            07-Oct-1998 11:22   21</td></tr> 
+<tr class="r1"><td>17-12-14</td><td><img src="17-12-14.JPG" /></td><td style="display:none">            30-Apr-1997 15:37   86</td></tr> 
+<tr class="r1"><td>17-13-01</td><td><img style="max-width: 800px;" src="17-13-01.jpg" /></td><td style="display:none">            07-Oct-1998 16:20   27</td></tr> 
+
+<tr class="r1"><td>17-13-02</td><td><img style="max-width: 800px;" src="17-13-02.jpg" /></td><td style="display:none">            07-Oct-1998 16:22   29</td></tr> 
+<tr class="r1"><td>17-14-01</td><td><img style="max-width: 800px;" src="17-14-01.jpg" /></td><td style="display:none">            07-Oct-1998 16:24   16</td></tr> 
+<tr class="r1"><td>17-14-02</td><td><img src="17-14-02.JPG" /></td><td style="display:none">            30-Apr-1997 15:41  116</td></tr> 
+<tr class="r1"><td>17-15-01</td><td><img src="17-15-01.JPG" /></td><td style="display:none">            30-Apr-1997 15:47   99</td></tr> 
+<tr class="r1"><td>17-15-02</td><td><img style="max-width: 800px;" src="17-15-02.jpg" /></td><td style="display:none">            07-Oct-1998 16:28   18</td></tr> 
+
+<tr class="r1"><td>17-15-03</td><td><img style="max-width: 800px;" src="17-15-03.jpg" /></td><td style="display:none">            07-Oct-1998 16:31   40</td></tr> 
+<tr class="r1"><td>17-15-04</td><td><img style="max-width: 800px;" src="17-15-04.jpg" /></td><td style="display:none">            07-Oct-1998 16:33   22</td></tr> 
+<tr class="r1"><td>17-16-01</td><td><img style="max-width: 800px;" src="17-16-01.jpg" /></td><td style="display:none">            07-Oct-1998 16:40   25</td></tr> 
+<tr class="r1"><td>17-16-02</td><td><img src="17-16-02.JPG" /></td><td style="display:none">            30-Apr-1997 15:50   99</td></tr> 
+<tr class="r1"><td>17-16-03</td><td><img src="17-16-03.JPG" /></td><td style="display:none">            30-Apr-1997 15:55   86</td></tr> 
+
+<tr class="r1"><td>17-16-04</td><td><img style="max-width: 800px;" src="17-16-04.jpg" /></td><td style="display:none">            07-Oct-1998 16:54   29</td></tr> 
+<tr class="r1"><td>17-16-05</td><td><img style="max-width: 800px;" src="17-16-05.jpg" /></td><td style="display:none">            07-Oct-1998 16:57   32</td></tr> 
+<tr class="r1"><td>17-16-06</td><td><img src="17-16-06.JPG" /></td><td style="display:none">            30-Apr-1997 15:58  167</td></tr> 
+<tr class="r1"><td>17-17-01</td><td><img style="max-width: 800px;" src="17-17-01.jpg" /></td><td style="display:none">            08-Oct-1998 10:13   23</td></tr> 
+<tr class="r1"><td>17-17-02</td><td><img style="max-width: 800px;" src="17-17-02.jpg" /></td><td style="display:none">            08-Oct-1998 10:15   13</td></tr> 
+
+<tr class="r1"><td>17-17-03</td><td><img style="max-width: 800px;" src="17-17-03.jpg" /></td><td style="display:none">            08-Oct-1998 10:17  6.3</td></tr> 
+<tr class="r1"><td>17-17-04</td><td><img style="max-width: 800px;" src="17-17-04.jpg" /></td><td style="display:none">            08-Oct-1998 10:22   22</td></tr> 
+<tr class="r1"><td>17-17-05</td><td><img style="max-width: 800px;" src="17-17-05.jpg" /></td><td style="display:none">            08-Oct-1998 10:24   33</td></tr> 
+<tr class="r1"><td>17-17-06</td><td><img style="max-width: 800px;" src="17-17-06.jpg" /></td><td style="display:none">            08-Oct-1998 10:27   21</td></tr> 
+<tr class="r1"><td>17-18-01</td><td><img src="17-18-01.JPG" /></td><td style="display:none">            30-Apr-1997 16:00   57</td></tr> 
+
+<tr class="r1"><td>17-18-02</td><td><img style="max-width: 800px;" src="17-18-02.jpg" /></td><td style="display:none">            08-Oct-1998 13:51   21</td></tr> 
+<tr class="r1"><td>17-18-03</td><td><img style="max-width: 800px;" src="17-18-03.jpg" /></td><td style="display:none">            08-Oct-1998 13:57   17</td></tr> 
+<tr class="r1"><td>17-18-04</td><td><img style="max-width: 800px;" src="17-18-04.jpg" /></td><td style="display:none">            08-Oct-1998 11:30   21</td></tr> 
+<tr class="r1"><td>17-18-05</td><td><img style="max-width: 800px;" src="17-18-05.jpg" /></td><td style="display:none">            08-Oct-1998 11:32   21</td></tr> 
+<tr class="r1"><td>17-18-06</td><td><img style="max-width: 800px;" src="17-18-06.jpg" /></td><td style="display:none">            08-Oct-1998 11:37   31</td></tr> 
+
+<tr class="r1"><td>17-18-07</td><td><img src="17-18-07.JPG" /></td><td style="display:none">            30-Apr-1997 16:04  135</td></tr> 
+<tr class="r1"><td>17-18-08</td><td><img style="max-width: 800px;" src="17-18-08.jpg" /></td><td style="display:none">            08-Oct-1998 11:39   30</td></tr> 
+<tr class="r1"><td>17-18-09</td><td><img style="max-width: 800px;" src="17-18-09.jpg" /></td><td style="display:none">            08-Oct-1998 11:43   17</td></tr> 
+<tr class="r1"><td>17-18-10</td><td><img style="max-width: 800px;" src="17-18-10.jpg" /></td><td style="display:none">            08-Oct-1998 11:49   24</td></tr> 
+<tr class="r1"><td>17-18-11</td><td><img style="max-width: 800px;" src="17-18-11.jpg" /></td><td style="display:none">            08-Oct-1998 11:53   14</td></tr> 
+
+<tr class="r1"><td>17-18-12</td><td><img style="max-width: 800px;" src="17-18-12.jpg" /></td><td style="display:none">            08-Oct-1998 11:55   22</td></tr> 
+<tr class="r1"><td>17-18-13</td><td><img style="max-width: 800px;" src="17-18-13.jpg" /></td><td style="display:none">            08-Oct-1998 12:23   15</td></tr> 
+<tr class="r1"><td>17-18-14</td><td><img style="max-width: 800px;" src="17-18-14.jpg" /></td><td style="display:none">            08-Oct-1998 12:25   27</td></tr> 
+<tr class="r1"><td>17-18-15</td><td><img style="max-width: 800px;" src="17-18-15.jpg" /></td><td style="display:none">            08-Oct-1998 12:27   21</td></tr> 
+<tr class="r1"><td>17-19-01</td><td><img style="max-width: 800px;" src="17-19-01.jpg" /></td><td style="display:none">            08-Oct-1998 14:03   50</td></tr> 
+
+<tr class="r1"><td>17-19-02</td><td><img style="max-width: 800px;" src="17-19-02.jpg" /></td><td style="display:none">            08-Oct-1998 14:03   31</td></tr> 
+<tr class="r1"><td>17-19-03</td><td><img style="max-width: 800px;" src="17-19-03.jpg" /></td><td style="display:none">            08-Oct-1998 14:05   27</td></tr> 
+<tr class="r1"><td>17-19-04</td><td><img style="max-width: 800px;" src="17-19-04.jpg" /></td><td style="display:none">            08-Oct-1998 14:08   29</td></tr> 
+<tr class="r1"><td>17-19-05</td><td><img style="max-width: 800px;" src="17-19-05.jpg" /></td><td style="display:none">            08-Oct-1998 14:18   17</td></tr> 
+<tr class="r1"><td>17-19-06</td><td><img style="max-width: 800px;" src="17-19-06.jpg" /></td><td style="display:none">            08-Oct-1998 14:15   33</td></tr> 
+
+<tr class="r1"><td>17-20-01</td><td><img style="max-width: 800px;" src="17-20-01.jpg" /></td><td style="display:none">            08-Oct-1998 14:54   40</td></tr> 
+<tr class="r1"><td>17-20-02</td><td><img style="max-width: 800px;" src="17-20-02.jpg" /></td><td style="display:none">            08-Oct-1998 14:56   18</td></tr> 
+<tr class="r1"><td>17-20-03</td><td><img style="max-width: 800px;" src="17-20-03.jpg" /></td><td style="display:none">            08-Oct-1998 14:57   19</td></tr> 
+<tr class="r1"><td>17-20-04</td><td><img style="max-width: 800px;" src="17-20-04.jpg" /></td><td style="display:none">            09-Oct-1998 12:04   20</td></tr> 
+<tr class="r1"><td>17-20-05</td><td><img style="max-width: 800px;" src="17-20-05.jpg" /></td><td style="display:none">            09-Oct-1998 12:07   26</td></tr> 
+
+<tr class="r1"><td>17-20-07</td><td><img style="max-width: 800px;" src="17-20-07.jpg" /></td><td style="display:none">            09-Oct-1998 12:09   28</td></tr> 
+<tr class="r1"><td>17-20-08</td><td><img style="max-width: 800px;" src="17-20-08.jpg" /></td><td style="display:none">            09-Oct-1998 12:30   24</td></tr> 
+<tr class="r1"><td>17-20-09</td><td><img src="17-20-09.JPG" /></td><td style="display:none">            30-Apr-1997 16:14   85</td></tr> 
+<tr class="r1"><td>17-21-01</td><td><img style="max-width: 800px;" src="17-21-01.jpg" /></td><td style="display:none">            09-Oct-1998 12:24   31</td></tr> 
+<tr class="r1"><td>17-21-02</td><td><img style="max-width: 800px;" src="17-21-02.jpg" /></td><td style="display:none">            09-Oct-1998 12:20   34</td></tr> 
+
+<tr class="r1"><td>17-21-03</td><td><img style="max-width: 800px;" src="17-21-03.jpg" /></td><td style="display:none">            09-Oct-1998 12:19   34</td></tr> 
+<tr class="r1"><td>17-21-04</td><td><img style="max-width: 800px;" src="17-21-04.jpg" /></td><td style="display:none">            09-Oct-1998 12:32   32</td></tr> 
+<tr class="r1"><td>17-21-05</td><td><img style="max-width: 800px;" src="17-21-05.jpg" /></td><td style="display:none">            09-Oct-1998 12:33   43</td></tr> 
+<tr class="r1"><td>17-21-06</td><td><img style="max-width: 800px;" src="17-21-06.jpg" /></td><td style="display:none">            09-Oct-1998 13:57   35</td></tr> 
+<tr class="r1"><td>17-21-07</td><td><img style="max-width: 800px;" src="17-21-07.jpg" /></td><td style="display:none">            09-Oct-1998 14:00   25</td></tr> 
+
+<tr class="r1"><td>17-21-08</td><td><img style="max-width: 800px;" src="17-21-08.jpg" /></td><td style="display:none">            09-Oct-1998 14:02   36</td></tr> 
+<tr class="r1"><td>17-21-09</td><td><img style="max-width: 800px;" src="17-21-09.jpg" /></td><td style="display:none">            09-Oct-1998 14:12   28</td></tr> 
+<tr class="r1"><td>17-22-01</td><td><img style="max-width: 800px;" src="17-22-01.jpg" /></td><td style="display:none">            09-Oct-1998 14:17   23</td></tr> 
+<tr class="r1"><td>17-22-02</td><td><img style="max-width: 800px;" src="17-22-02.jpg" /></td><td style="display:none">            09-Oct-1998 14:19   32</td></tr> 
+<tr class="r1"><td>17-22-03</td><td><img style="max-width: 800px;" src="17-22-03.jpg" /></td><td style="display:none">            09-Oct-1998 14:24   44</td></tr> 
+
+<tr class="r1"><td>17-22-04</td><td><img style="max-width: 800px;" src="17-22-04.jpg" /></td><td style="display:none">            09-Oct-1998 14:26   23</td></tr> 
+<tr class="r1"><td>17-22-05</td><td><img style="max-width: 800px;" src="17-22-05.jpg" /></td><td style="display:none">            09-Oct-1998 14:28   47</td></tr> 
+<tr class="r1"><td>17-22-06</td><td><img style="max-width: 800px;" src="17-22-06.jpg" /></td><td style="display:none">            09-Oct-1998 14:45   23</td></tr> 
+<tr class="r1"><td>17-22-07</td><td><img style="max-width: 800px;" src="17-22-07.jpg" /></td><td style="display:none">            09-Oct-1998 14:47   47</td></tr> 
+<tr class="r1"><td>17-22-08</td><td><img style="max-width: 800px;" src="17-22-08.jpg" /></td><td style="display:none">            09-Oct-1998 14:49   33</td></tr> 
+
+<tr class="r1"><td>17-22-09</td><td><img style="max-width: 800px;" src="17-22-09.jpg" /></td><td style="display:none">            09-Oct-1998 14:53   29</td></tr> 
+<tr class="r1"><td>17-22-10</td><td><img style="max-width: 800px;" src="17-22-10.jpg" /></td><td style="display:none">            09-Oct-1998 14:55   24</td></tr> 
+<tr class="r1"><td>17-22-11</td><td><img style="max-width: 800px;" src="17-22-11.jpg" /></td><td style="display:none">            09-Oct-1998 15:33   18</td></tr> 
+<tr class="r1"><td>17-22-12</td><td><img style="max-width: 800px;" src="17-22-12.jpg" /></td><td style="display:none">            09-Oct-1998 15:34   36</td></tr> 
+<tr class="r1"><td>17-22-13</td><td><img style="max-width: 800px;" src="17-22-13.jpg" /></td><td style="display:none">            09-Oct-1998 15:36   42</td></tr> 
+
+<tr class="r1"><td>17-23-01</td><td><img src="17-23-01.JPG" /></td><td style="display:none">            30-Apr-1997 16:19  132</td></tr> 
+<tr class="r1"><td>17-23-02</td><td><img src="17-23-02.JPG" /></td><td style="display:none">            30-Apr-1997 16:23  117</td></tr> 
+<tr class="r1"><td>17-23-03</td><td><img src="17-23-03.JPG" /></td><td style="display:none">            30-Apr-1997 16:35  128</td></tr> 
+<tr class="r1"><td>17-23-04</td><td><img src="17-23-04.JPG" /></td><td style="display:none">            30-Apr-1997 16:40  133</td></tr> 
+<tr class="r1"><td>17-23-05</td><td><img src="17-23-05.JPG" /></td><td style="display:none">            30-Apr-1997 16:44   93</td></tr> 
+
+<tr class="r1"><td>17-23-06</td><td><img src="17-23-06.JPG" /></td><td style="display:none">            30-Apr-1997 16:46  139</td></tr> 
+<tr class="r1"><td>17-23-07</td><td><img src="17-23-07.JPG" /></td><td style="display:none">            30-Apr-1997 16:49  157</td></tr> 
+<tr class="r1"><td>17-23-08</td><td><img src="17-23-08.JPG" /></td><td style="display:none">            30-Apr-1997 16:52  143</td></tr> 
+<tr class="r1"><td>17-23-09</td><td><img src="17-23-09.JPG" /></td><td style="display:none">            30-Apr-1997 16:55  180</td></tr> 
+<tr class="r1"><td>17-23-10</td><td><img src="17-23-10.JPG" /></td><td style="display:none">            30-Apr-1997 16:57  149</td></tr> 
+
+<tr class="r1"><td>17-23-11</td><td><img src="17-23-11.JPG" /></td><td style="display:none">            30-Apr-1997 16:59  140</td></tr> 
+<tr class="r1"><td>17-23-12</td><td><img src="17-23-12.JPG" /></td><td style="display:none">            30-Apr-1997 17:08  138</td></tr> 
+<tr class="r1"><td>17-23-13</td><td><img src="17-23-13.JPG" /></td><td style="display:none">            30-Apr-1997 17:10  174</td></tr> 
+<tr class="r1"><td>17-24-01</td><td><img src="17-24-01.JPG" /></td><td style="display:none">            30-Apr-1997 17:12  138</td></tr> 
+<tr class="r1"><td>17-24-02</td><td><img src="17-24-02.JPG" /></td><td style="display:none">            30-Apr-1997 17:23   87</td></tr> 
+
+<tr class="r1"><td>17-24-03</td><td><img style="max-width: 800px;" src="17-24-03.jpg" /></td><td style="display:none">            12-Oct-1998 10:08   10</td></tr> 
+<tr class="r1"><td>17-24-04</td><td><img style="max-width: 800px;" src="17-24-04.jpg" /></td><td style="display:none">            12-Oct-1998 10:11   23</td></tr> 
+<tr class="r1"><td>17-24-05</td><td><img style="max-width: 800px;" src="17-24-05.jpg" /></td><td style="display:none">            12-Oct-1998 10:14   23</td></tr> 
+<tr class="r1"><td>17-24-06</td><td><img src="17-24-06.JPG" /></td><td style="display:none">            30-Apr-1997 17:26  114</td></tr> 
+<tr class="r1"><td>17-24-07</td><td><img src="17-24-07.JPG" /></td><td style="display:none">            30-Apr-1997 17:29   85</td></tr> 
+
+<tr class="r1"><td>17-24-08</td><td><img style="max-width: 800px;" src="17-24-08.jpg" /></td><td style="display:none">            12-Oct-1998 10:19   17</td></tr> 
+<tr class="r1"><td>17-25-01</td><td><img style="max-width: 800px;" src="17-25-01.jpg" /></td><td style="display:none">            12-Oct-1998 10:22   35</td></tr> 
+<tr class="r1"><td>17-25-02</td><td><img style="max-width: 800px;" src="17-25-02.jpg" /></td><td style="display:none">            12-Oct-1998 10:24   19</td></tr> 
+<tr class="r1"><td>17-26-01</td><td><img src="17-26-01.JPG" /></td><td style="display:none">            30-Apr-1997 17:34   89</td></tr> 
+<tr class="r1"><td>17-27-01</td><td><img src="17-27-01.JPG" /></td><td style="display:none">            30-Apr-1997 17:37  139</td></tr> 
+
+<tr class="r1"><td>17-28-01</td><td><img src="17-28-01.JPG" /></td><td style="display:none">            30-Apr-1997 17:40  141</td></tr> 
+<tr class="r1"><td>17-28-02</td><td><img src="17-28-02.JPG" /></td><td style="display:none">            30-Apr-1997 17:43  130</td></tr> 
+<tr class="r1"><td>17-29-01</td><td><img src="17-29-01.JPG" /></td><td style="display:none">            30-Apr-1997 17:52  146</td></tr> 
+<tr class="r1"><td>17-29-02</td><td><img style="max-width: 800px;" src="17-29-02.jpg" /></td><td style="display:none">            30-Apr-1997 17:59   97</td></tr> 
+<tr class="r1"><td>17-29-03</td><td><img src="17-29-03.JPG" /></td><td style="display:none">            30-Apr-1997 18:05  122</td></tr> 
+
+<tr class="r1"><td>17-29-04</td><td><img src="17-29-04.JPG" /></td><td style="display:none">            01-May-1997 14:19  146</td></tr> 
+<tr class="r1"><td>17-29-05</td><td><img src="17-29-05.JPG" /></td><td style="display:none">            01-May-1997 14:22  104</td></tr> 
+<tr class="r1"><td>17-30-01</td><td><img src="17-30-01.JPG" /></td><td style="display:none">            01-May-1997 14:25   78</td></tr> 
+<tr class="r1"><td>17-30-02</td><td><img src="17-30-02.JPG" /></td><td style="display:none">            01-May-1997 14:27   59</td></tr> 
+<tr class="r1"><td>17-31-01</td><td><img src="17-31-01.JPG" /></td><td style="display:none">            01-May-1997 14:30   56</td></tr> 
+
+<tr class="r1"><td>17-31-02</td><td><img src="17-31-02.JPG" /></td><td style="display:none">            01-May-1997 14:32   59</td></tr> 
+<tr class="r1"><td>17-31-03</td><td><img src="17-31-03.JPG" /></td><td style="display:none">            01-May-1997 14:35   53</td></tr> 
+<tr class="r1"><td>17-31-04</td><td><img src="17-31-04.JPG" /></td><td style="display:none">            01-May-1997 14:38   50</td></tr> 
+<tr class="r1"><td>17-31-05</td><td><img src="17-31-05.JPG" /></td><td style="display:none">            01-May-1997 14:41   84</td></tr> 
+<tr class="r1"><td>17-31-06</td><td><img src="17-31-06.JPG" /></td><td style="display:none">            01-May-1997 14:43   63</td></tr> 
+
+<tr class="r1"><td>17-31-07</td><td><img src="17-31-07.JPG" /></td><td style="display:none">            01-May-1997 14:45   62</td></tr> 
+<tr class="r1"><td>17-31-08</td><td><img src="17-31-08.JPG" /></td><td style="display:none">            01-May-1997 14:48   70</td></tr> 
+<tr class="r1"><td>17-31-09</td><td><img src="17-31-09.JPG" /></td><td style="display:none">            01-May-1997 14:51   43</td></tr> 
+<tr class="r1"><td>17-31-10</td><td><img src="17-31-10.JPG" /></td><td style="display:none">            01-May-1997 14:53   59</td></tr> 
+<tr class="r1"><td>17-31-11</td><td><img src="17-31-11.JPG" /></td><td style="display:none">            01-May-1997 14:56   57</td></tr> 
+
+<tr class="r1"><td>17-32-01a</td><td><img src="17-32-01a.JPG" /></td><td style="display:none">           01-May-1997 14:58  104</td></tr> 

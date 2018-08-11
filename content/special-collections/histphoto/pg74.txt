@@ -1,0 +1,32 @@
+<tr class="r1"><td>74-01</td><td><img style="max-width: 800px;" src="74-01.jpg" /></td><td style="display:none">               19-Jul-1999 10:31   78</td></tr> 
+<tr class="r1"><td>74-02</td><td><img style="max-width: 800px;" src="74-02.jpg" /></td><td style="display:none">               19-Jul-1999 10:33   83</td></tr> 
+<tr class="r1"><td>74-03</td><td><img style="max-width: 800px;" src="74-03.jpg" /></td><td style="display:none">               19-Jul-1999 10:59   46</td></tr> 
+<tr class="r1"><td>74-04</td><td><img style="max-width: 800px;" src="74-04.jpg" /></td><td style="display:none">               19-Jul-1999 11:00   32</td></tr> 
+<tr class="r1"><td>74-05</td><td><img style="max-width: 800px;" src="74-05.jpg" /></td><td style="display:none">               19-Jul-1999 11:06   45</td></tr> 
+
+<tr class="r1"><td>74-06</td><td><img style="max-width: 800px;" src="74-06.jpg" /></td><td style="display:none">               19-Jul-1999 11:39   39</td></tr> 
+<tr class="r1"><td>74-07</td><td><img style="max-width: 800px;" src="74-07.jpg" /></td><td style="display:none">               19-Jul-1999 11:42   63</td></tr> 
+<tr class="r1"><td>74-08</td><td><img style="max-width: 800px;" src="74-08.jpg" /></td><td style="display:none">               19-Jul-1999 11:43   54</td></tr> 
+<tr class="r1"><td>74-09</td><td><img style="max-width: 800px;" src="74-09.jpg" /></td><td style="display:none">               19-Jul-1999 11:46   32</td></tr> 
+<tr class="r1"><td>74-10</td><td><img style="max-width: 800px;" src="74-10.jpg" /></td><td style="display:none">               19-Jul-1999 11:47   28</td></tr> 
+
+<tr class="r1"><td>74-11</td><td><img style="max-width: 800px;" src="74-11.jpg" /></td><td style="display:none">               19-Jul-1999 11:49   43</td></tr> 
+<tr class="r1"><td>74-12</td><td><img style="max-width: 800px;" src="74-12.jpg" /></td><td style="display:none">               19-Jul-1999 11:51   20</td></tr> 
+<tr class="r1"><td>74-13</td><td><img style="max-width: 800px;" src="74-13.jpg" /></td><td style="display:none">               19-Jul-1999 11:53   66</td></tr> 
+<tr class="r1"><td>74-14</td><td><img style="max-width: 800px;" src="74-14.jpg" /></td><td style="display:none">               19-Jul-1999 11:54   49</td></tr> 
+<tr class="r1"><td>74-15</td><td><img style="max-width: 800px;" src="74-15.jpg" /></td><td style="display:none">               19-Jul-1999 12:10   38</td></tr> 
+
+<tr class="r1"><td>74-16</td><td><img style="max-width: 800px;" src="74-16.jpg" /></td><td style="display:none">               19-Jul-1999 12:12   66</td></tr> 
+<tr class="r1"><td>74-17</td><td><img style="max-width: 800px;" src="74-17.jpg" /></td><td style="display:none">               19-Jul-1999 12:16   50</td></tr> 
+<tr class="r1"><td>74-18</td><td><img style="max-width: 800px;" src="74-18.jpg" /></td><td style="display:none">               19-Jul-1999 12:18   26</td></tr> 
+<tr class="r1"><td>74-19</td><td><img style="max-width: 800px;" src="74-19.jpg" /></td><td style="display:none">               19-Jul-1999 12:21   39</td></tr> 
+<tr class="r1"><td>74-20</td><td><img style="max-width: 800px;" src="74-20.jpg" /></td><td style="display:none">               19-Jul-1999 12:22   44</td></tr> 
+
+<tr class="r1"><td>74-21</td><td><img style="max-width: 800px;" src="74-21.jpg" /></td><td style="display:none">               19-Jul-1999 12:25   45</td></tr> 
+<tr class="r1"><td>74-22</td><td><img style="max-width: 800px;" src="74-22.jpg" /></td><td style="display:none">               19-Jul-1999 12:26   34</td></tr> 
+<tr class="r1"><td>74-23</td><td><img style="max-width: 800px;" src="74-23.jpg" /></td><td style="display:none">               19-Jul-1999 12:28   46</td></tr> 
+<tr class="r1"><td>74-24</td><td><img style="max-width: 800px;" src="74-24.jpg" /></td><td style="display:none">               19-Jul-1999 12:29   28</td></tr> 
+<tr class="r1"><td>74-25</td><td><img style="max-width: 800px;" src="74-25.jpg" /></td><td style="display:none">               19-Jul-1999 12:31   30</td></tr> 
+
+<tr class="r1"><td>74-26</td><td><img style="max-width: 800px;" src="74-26.jpg" /></td><td style="display:none">               19-Jul-1999 12:32   28</td></tr> 
+<tr class="r1"><td>74-27</td><td><img style="max-width: 800px;" src="74-27.jpg" /></td><td style="display:none">               19-Jul-1999 12:34   30</td></tr> 
