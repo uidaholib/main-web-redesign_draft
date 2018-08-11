@@ -1,0 +1,282 @@
+<tr class="r1"><td>13-00646</td><td><img style="max-width: 800px;" src="13-00646.jpg" /></td><td style="display:none">            30-Dec-2002 11:57   53</td></tr> 
+<tr class="r1"><td>13-00900</td><td><img style="max-width: 800px;" src="13-00900.jpg" /></td><td style="display:none">            14-Jan-2003 13:44   46</td></tr> 
+<tr class="r1"><td>13-00991</td><td><img style="max-width: 800px;" src="13-00991.jpg" /></td><td style="display:none">            28-Mar-2001 15:36   32</td></tr> 
+<tr class="r1"><td>13-00992</td><td><img style="max-width: 800px;" src="13-00992.jpg" /></td><td style="display:none">            23-Sep-2003 11:08   13</td></tr> 
+<tr class="r1"><td>13-00993</td><td><img style="max-width: 800px;" src="13-00993.jpg" /></td><td style="display:none">            28-Mar-2001 15:43   52</td></tr> 
+
+<tr class="r1"><td>13-01007</td><td><img style="max-width: 800px;" src="13-01007.jpg" /></td><td style="display:none">            30-Dec-2002 11:54   60</td></tr> 
+<tr class="r1"><td>13-01242-19</td><td><img style="max-width: 800px;" src="13-01242-19.jpg" /></td><td style="display:none">         22-Jan-2003 11:55   48</td></tr> 
+<tr class="r1"><td>13-01242-20</td><td><img style="max-width: 800px;" src="13-01242-20.jpg" /></td><td style="display:none">         22-Jan-2003 11:53   20</td></tr> 
+<tr class="r1"><td>13-01267</td><td><img style="max-width: 800px;" src="13-01267.jpg" /></td><td style="display:none">            22-Jan-2003 11:59   39</td></tr> 
+<tr class="r1"><td>13-01268-4</td><td><img style="max-width: 800px;" src="13-01268-4.jpg" /></td><td style="display:none">          22-Jan-2003 12:00   15</td></tr> 
+
+<tr class="r1"><td>13-01268-5</td><td><img style="max-width: 800px;" src="13-01268-5.jpg" /></td><td style="display:none">          22-Jan-2003 12:01   51</td></tr> 
+<tr class="r1"><td>13-01269</td><td><img style="max-width: 800px;" src="13-01269.jpg" /></td><td style="display:none">            22-Jan-2003 14:12   23</td></tr> 
+<tr class="r1"><td>13-01316</td><td><img style="max-width: 800px;" src="13-01316.jpg" /></td><td style="display:none">            17-Mar-1999 15:36   27</td></tr> 
+<tr class="r1"><td>13-01894</td><td><img style="max-width: 800px;" src="13-01894.jpg" /></td><td style="display:none">            18-Nov-1994 13:31   25</td></tr> 
+<tr class="r1"><td>13-01952</td><td><img style="max-width: 800px;" src="13-01952.jpg" /></td><td style="display:none">            17-Mar-1999 09:41   23</td></tr> 
+
+<tr class="r1"><td>13-01988</td><td><img style="max-width: 800px;" src="13-01988.jpg" /></td><td style="display:none">            14-Jan-2003 13:35   21</td></tr> 
+<tr class="r1"><td>13-01989</td><td><img style="max-width: 800px;" src="13-01989.jpg" /></td><td style="display:none">            16-Jan-2003 15:05   32</td></tr> 
+<tr class="r1"><td>13-02042</td><td><img style="max-width: 800px;" src="13-02042.jpg" /></td><td style="display:none">            18-Nov-1994 13:30   15</td></tr> 
+<tr class="r1"><td>13-02255-13</td><td><img style="max-width: 800px;" src="13-02255-13.jpg" /></td><td style="display:none">         22-Jan-2003 14:22   25</td></tr> 
+<tr class="r1"><td>13-02674</td><td><img style="max-width: 800px;" src="13-02674.jpg" /></td><td style="display:none">            12-Oct-2001 14:31  146</td></tr> 
+
+<tr class="r1"><td>13-04016</td><td><img style="max-width: 800px;" src="13-04016.jpg" /></td><td style="display:none">            26-Feb-2001 11:04   35</td></tr> 
+<tr class="r1"><td>13-04593</td><td><img style="max-width: 800px;" src="13-04593.jpg" /></td><td style="display:none">            30-Dec-2002 11:56   68</td></tr> 
+<tr class="r1"><td>13-05348</td><td><img style="max-width: 800px;" src="13-05348.jpg" /></td><td style="display:none">            15-Feb-2000 09:33   42</td></tr> 
+<tr class="r1"><td>13-05391</td><td><img style="max-width: 800px;" src="13-05391.jpg" /></td><td style="display:none">            12-Oct-2001 14:30  504</td></tr> 
+<tr class="r1"><td>13-05895</td><td><img style="max-width: 800px;" src="13-05895.jpg" /></td><td style="display:none">            14-Jan-2003 13:31   14</td></tr> 
+
+<tr class="r1"><td>13-05902</td><td><img style="max-width: 800px;" src="13-05902.jpg" /></td><td style="display:none">            14-Jan-2003 15:00   28</td></tr> 
+<tr class="r1"><td>13-05964</td><td><img style="max-width: 800px;" src="13-05964.jpg" /></td><td style="display:none">            13-Sep-2002 11:09   38</td></tr> 
+<tr class="r1"><td>13-06091</td><td><img style="max-width: 800px;" src="13-06091.jpg" /></td><td style="display:none">            17-Mar-1999 09:37   34</td></tr> 
+<tr class="r1"><td>13-06202</td><td><img style="max-width: 800px;" src="13-06202.jpg" /></td><td style="display:none">            22-Nov-2002 15:09   13</td></tr> 
+<tr class="r1"><td>13-06215</td><td><img style="max-width: 800px;" src="13-06215.jpg" /></td><td style="display:none">            14-Jan-2003 13:28   25</td></tr> 
+
+<tr class="r1"><td>13-06268</td><td><img style="max-width: 800px;" src="13-06268.jpg" /></td><td style="display:none">            10-Aug-2001 09:51  491</td></tr> 
+<tr class="r1"><td>13-06279</td><td><img style="max-width: 800px;" src="13-06279.jpg" /></td><td style="display:none">            10-Aug-2001 09:48  724</td></tr> 
+<tr class="r1"><td>13-07001</td><td><img style="max-width: 800px;" src="13-07001.jpg" /></td><td style="display:none">            22-Jan-2003 11:56   28</td></tr> 
+<tr class="r1"><td>13-07062</td><td><img style="max-width: 800px;" src="13-07062.jpg" /></td><td style="display:none">            22-Jan-2003 13:11   43</td></tr> 
+<tr class="r1"><td>13-07063-13</td><td><img style="max-width: 800px;" src="13-07063-13.jpg" /></td><td style="display:none">         22-Jan-2003 14:05   18</td></tr> 
+
+<tr class="r1"><td>13-07063-14</td><td><img style="max-width: 800px;" src="13-07063-14.jpg" /></td><td style="display:none">         22-Jan-2003 14:04   19</td></tr> 
+<tr class="r1"><td>13-07063-15</td><td><img style="max-width: 800px;" src="13-07063-15.jpg" /></td><td style="display:none">         22-Jan-2003 14:03   16</td></tr> 
+<tr class="r1"><td>13-07064</td><td><img style="max-width: 800px;" src="13-07064.jpg" /></td><td style="display:none">            22-Jan-2003 14:38   31</td></tr> 
+<tr class="r1"><td>13-07066-2</td><td><img style="max-width: 800px;" src="13-07066-2.jpg" /></td><td style="display:none">          22-Jan-2003 15:03   20</td></tr> 
+<tr class="r1"><td>13-07066-3</td><td><img style="max-width: 800px;" src="13-07066-3.jpg" /></td><td style="display:none">          22-Jan-2003 15:03   32</td></tr> 
+
+<tr class="r1"><td>13-07066-4</td><td><img style="max-width: 800px;" src="13-07066-4.jpg" /></td><td style="display:none">          22-Jan-2003 15:04   29</td></tr> 
+<tr class="r1"><td>13-07066-5</td><td><img style="max-width: 800px;" src="13-07066-5.jpg" /></td><td style="display:none">          22-Jan-2003 15:04   25</td></tr> 
+<tr class="r1"><td>13-07066-6</td><td><img style="max-width: 800px;" src="13-07066-6.jpg" /></td><td style="display:none">          22-Jan-2003 15:06   30</td></tr> 
+<tr class="r1"><td>13-07086</td><td><img style="max-width: 800px;" src="13-07086.jpg" /></td><td style="display:none">            23-Jan-2003 13:46   19</td></tr> 
+<tr class="r1"><td>13-07133</td><td><img style="max-width: 800px;" src="13-07133.jpg" /></td><td style="display:none">            05-Feb-2003 13:03   18</td></tr> 
+
+<tr class="r1"><td>13-07144</td><td><img style="max-width: 800px;" src="13-07144.jpg" /></td><td style="display:none">            06-Feb-2003 14:13   64</td></tr> 
+<tr class="r1"><td>13-07145</td><td><img style="max-width: 800px;" src="13-07145.jpg" /></td><td style="display:none">            06-Feb-2003 14:15   41</td></tr> 
+<tr class="r1"><td>13-07151</td><td><img style="max-width: 800px;" src="13-07151.jpg" /></td><td style="display:none">            07-Feb-2003 11:53   26</td></tr> 
+<tr class="r1"><td>13-07265</td><td><img style="max-width: 800px;" src="13-07265.jpg" /></td><td style="display:none">            15-Apr-2003 15:11   47</td></tr> 
+<tr class="r1"><td>13-07268</td><td><img style="max-width: 800px;" src="13-07268.jpg" /></td><td style="display:none">            15-Apr-2003 16:00   12</td></tr> 
+
+<tr class="r1"><td>13-07271</td><td><img style="max-width: 800px;" src="13-07271.jpg" /></td><td style="display:none">            30-Apr-2003 15:02   44</td></tr> 
+<tr class="r1"><td>13-07293-13</td><td><img style="max-width: 800px;" src="13-07293-13.jpg" /></td><td style="display:none">         30-Apr-2003 14:44  4.0</td></tr> 
+<tr class="r1"><td>13-07293-14</td><td><img style="max-width: 800px;" src="13-07293-14.jpg" /></td><td style="display:none">         30-Apr-2003 14:46  6.1</td></tr> 
+<tr class="r1"><td>13-07293-15</td><td><img style="max-width: 800px;" src="13-07293-15.jpg" /></td><td style="display:none">         30-Apr-2003 14:49  7.2</td></tr> 
+<tr class="r1"><td>13-07293-16</td><td><img style="max-width: 800px;" src="13-07293-16.jpg" /></td><td style="display:none">         30-Apr-2003 14:59  6.7</td></tr> 
+
+<tr class="r1"><td>13-07293-17</td><td><img style="max-width: 800px;" src="13-07293-17.jpg" /></td><td style="display:none">         30-Apr-2003 15:00  7.4</td></tr> 
+<tr class="r1"><td>13-07294-8</td><td><img style="max-width: 800px;" src="13-07294-8.jpg" /></td><td style="display:none">          30-Apr-2003 14:41  8.6</td></tr> 
+<tr class="r1"><td>13-07294-9</td><td><img style="max-width: 800px;" src="13-07294-9.jpg" /></td><td style="display:none">          30-Apr-2003 14:42  8.8</td></tr> 
+<tr class="r1"><td>13-07294-10</td><td><img style="max-width: 800px;" src="13-07294-10.jpg" /></td><td style="display:none">         30-Apr-2003 14:42  8.8</td></tr> 
+<tr class="r1"><td>13-12747</td><td><img style="max-width: 800px;" src="13-12747.jpg" /></td><td style="display:none">            30-Dec-2002 11:55   49</td></tr> 
+
+<tr class="r1"><td>13-12770</td><td><img style="max-width: 800px;" src="13-12770.jpg" /></td><td style="display:none">            30-Dec-2002 11:58   39</td></tr> 
+<tr class="r1"><td>13-12972</td><td><img style="max-width: 800px;" src="13-12972.jpg" /></td><td style="display:none">            30-Dec-2002 11:48   70</td></tr> 
+<tr class="r1"><td>13-12990</td><td><img style="max-width: 800px;" src="13-12990.jpg" /></td><td style="display:none">            30-Dec-2002 15:21   15</td></tr> 
+<tr class="r1"><td>13-A0064</td><td><img style="max-width: 800px;" src="13-A0064.jpg" /></td><td style="display:none">            22-Feb-2001 14:31   18</td></tr> 
+<tr class="r1"><td>13-A0065</td><td><img style="max-width: 800px;" src="13-A0065.jpg" /></td><td style="display:none">            22-Feb-2001 14:31   27</td></tr> 
+
+<tr class="r1"><td>13-A0066</td><td><img style="max-width: 800px;" src="13-A0066.jpg" /></td><td style="display:none">            22-Feb-2001 14:37   29</td></tr> 
+<tr class="r1"><td>13-A0067</td><td><img style="max-width: 800px;" src="13-A0067.jpg" /></td><td style="display:none">            22-Feb-2001 14:41   25</td></tr> 
+<tr class="r1"><td>13-A0076</td><td><img style="max-width: 800px;" src="13-A0076.jpg" /></td><td style="display:none">            22-Feb-2001 14:45   43</td></tr> 
+<tr class="r1"><td>13-A0077</td><td><img style="max-width: 800px;" src="13-A0077.jpg" /></td><td style="display:none">            22-Feb-2001 14:49   34</td></tr> 
+<tr class="r1"><td>13-A0081</td><td><img style="max-width: 800px;" src="13-A0081.jpg" /></td><td style="display:none">            22-Feb-2001 14:53   33</td></tr> 
+
+<tr class="r1"><td>13-A0082</td><td><img style="max-width: 800px;" src="13-A0082.jpg" /></td><td style="display:none">            22-Feb-2001 14:57   34</td></tr> 
+<tr class="r1"><td>13-A0083</td><td><img style="max-width: 800px;" src="13-A0083.jpg" /></td><td style="display:none">            22-Feb-2001 15:01   29</td></tr> 
+<tr class="r1"><td>13-A0084</td><td><img style="max-width: 800px;" src="13-A0084.jpg" /></td><td style="display:none">            22-Feb-2001 15:38   32</td></tr> 
+<tr class="r1"><td>13-A0085</td><td><img style="max-width: 800px;" src="13-A0085.jpg" /></td><td style="display:none">            22-Feb-2001 15:42   33</td></tr> 
+<tr class="r1"><td>13-A0086</td><td><img style="max-width: 800px;" src="13-A0086.jpg" /></td><td style="display:none">            22-Feb-2001 15:45   37</td></tr> 
+
+<tr class="r1"><td>13-A0087</td><td><img style="max-width: 800px;" src="13-A0087.jpg" /></td><td style="display:none">            22-Feb-2001 15:49   38</td></tr> 
+<tr class="r1"><td>13-A0088</td><td><img style="max-width: 800px;" src="13-A0088.jpg" /></td><td style="display:none">            22-Feb-2001 15:53   30</td></tr> 
+<tr class="r1"><td>13-A0090</td><td><img style="max-width: 800px;" src="13-A0090.jpg" /></td><td style="display:none">            22-Feb-2001 15:59   23</td></tr> 
+<tr class="r1"><td>13-A0729</td><td><img style="max-width: 800px;" src="13-A0729.jpg" /></td><td style="display:none">            22-Feb-2001 16:03   24</td></tr> 
+<tr class="r1"><td>13-A0730</td><td><img style="max-width: 800px;" src="13-A0730.jpg" /></td><td style="display:none">            22-Feb-2001 16:08   21</td></tr> 
+
+<tr class="r1"><td>13-A0731</td><td><img style="max-width: 800px;" src="13-A0731.jpg" /></td><td style="display:none">            22-Feb-2001 16:12   27</td></tr> 
+<tr class="r1"><td>13-A0732</td><td><img style="max-width: 800px;" src="13-A0732.jpg" /></td><td style="display:none">            22-Feb-2001 16:16   24</td></tr> 
+<tr class="r1"><td>13-A0733</td><td><img style="max-width: 800px;" src="13-A0733.jpg" /></td><td style="display:none">            22-Feb-2001 16:21   25</td></tr> 
+<tr class="r1"><td>13-A0734</td><td><img style="max-width: 800px;" src="13-A0734.jpg" /></td><td style="display:none">            22-Feb-2001 16:30   37</td></tr> 
+<tr class="r1"><td>13-A0735</td><td><img style="max-width: 800px;" src="13-A0735.jpg" /></td><td style="display:none">            22-Feb-2001 16:34   38</td></tr> 
+
+<tr class="r1"><td>13-A0736</td><td><img style="max-width: 800px;" src="13-A0736.jpg" /></td><td style="display:none">            22-Feb-2001 16:40   22</td></tr> 
+<tr class="r1"><td>13-A0737</td><td><img style="max-width: 800px;" src="13-A0737.jpg" /></td><td style="display:none">            22-Feb-2001 16:43   30</td></tr> 
+<tr class="r1"><td>13-A0738</td><td><img style="max-width: 800px;" src="13-A0738.jpg" /></td><td style="display:none">            22-Feb-2001 16:47   31</td></tr> 
+<tr class="r1"><td>13-A0739</td><td><img style="max-width: 800px;" src="13-A0739.jpg" /></td><td style="display:none">            22-Feb-2001 16:51   34</td></tr> 
+<tr class="r1"><td>13-A0741</td><td><img style="max-width: 800px;" src="13-A0741.jpg" /></td><td style="display:none">            22-Feb-2001 16:55   27</td></tr> 
+
+<tr class="r1"><td>13-A0742</td><td><img style="max-width: 800px;" src="13-A0742.jpg" /></td><td style="display:none">            23-Feb-2001 10:40   41</td></tr> 
+<tr class="r1"><td>13-A0743</td><td><img style="max-width: 800px;" src="13-A0743.jpg" /></td><td style="display:none">            23-Feb-2001 10:44   37</td></tr> 
+<tr class="r1"><td>13-A0744</td><td><img style="max-width: 800px;" src="13-A0744.jpg" /></td><td style="display:none">            23-Feb-2001 10:47   32</td></tr> 
+<tr class="r1"><td>13-A0745</td><td><img style="max-width: 800px;" src="13-A0745.jpg" /></td><td style="display:none">            23-Feb-2001 10:54   30</td></tr> 
+<tr class="r1"><td>13-A0746</td><td><img style="max-width: 800px;" src="13-A0746.jpg" /></td><td style="display:none">            23-Feb-2001 10:57   30</td></tr> 
+
+<tr class="r1"><td>13-A0747</td><td><img style="max-width: 800px;" src="13-A0747.jpg" /></td><td style="display:none">            23-Feb-2001 11:03   37</td></tr> 
+<tr class="r1"><td>13-A0748</td><td><img style="max-width: 800px;" src="13-A0748.jpg" /></td><td style="display:none">            23-Feb-2001 11:07   37</td></tr> 
+<tr class="r1"><td>13-A0749</td><td><img style="max-width: 800px;" src="13-A0749.jpg" /></td><td style="display:none">            23-Feb-2001 11:10   38</td></tr> 
+<tr class="r1"><td>13-A0750</td><td><img style="max-width: 800px;" src="13-A0750.jpg" /></td><td style="display:none">            23-Feb-2001 11:20   38</td></tr> 
+<tr class="r1"><td>13-A0751</td><td><img style="max-width: 800px;" src="13-A0751.jpg" /></td><td style="display:none">            23-Feb-2001 11:25   37</td></tr> 
+
+<tr class="r1"><td>13-A0753</td><td><img style="max-width: 800px;" src="13-A0753.jpg" /></td><td style="display:none">            23-Feb-2001 11:28   35</td></tr> 
+<tr class="r1"><td>13-A0754</td><td><img style="max-width: 800px;" src="13-A0754.jpg" /></td><td style="display:none">            23-Feb-2001 11:32   32</td></tr> 
+<tr class="r1"><td>13-A0762</td><td><img style="max-width: 800px;" src="13-A0762.jpg" /></td><td style="display:none">            23-Feb-2001 13:12   35</td></tr> 
+<tr class="r1"><td>13-A0763</td><td><img style="max-width: 800px;" src="13-A0763.jpg" /></td><td style="display:none">            23-Feb-2001 13:18   39</td></tr> 
+<tr class="r1"><td>13-A0764</td><td><img style="max-width: 800px;" src="13-A0764.jpg" /></td><td style="display:none">            23-Feb-2001 13:22   32</td></tr> 
+
+<tr class="r1"><td>13-A1075</td><td><img style="max-width: 800px;" src="13-A1075.jpg" /></td><td style="display:none">            23-Feb-2001 13:27   39</td></tr> 
+<tr class="r1"><td>13-A1351</td><td><img style="max-width: 800px;" src="13-A1351.jpg" /></td><td style="display:none">            23-Feb-2001 13:32   37</td></tr> 
+<tr class="r1"><td>13-A1352</td><td><img style="max-width: 800px;" src="13-A1352.jpg" /></td><td style="display:none">            23-Feb-2001 13:36   39</td></tr> 
+<tr class="r1"><td>13-A1353</td><td><img style="max-width: 800px;" src="13-A1353.jpg" /></td><td style="display:none">            23-Feb-2001 13:46   43</td></tr> 
+<tr class="r1"><td>13-A1354</td><td><img style="max-width: 800px;" src="13-A1354.jpg" /></td><td style="display:none">            23-Feb-2001 13:52   45</td></tr> 
+
+<tr class="r1"><td>13-A1355</td><td><img style="max-width: 800px;" src="13-A1355.jpg" /></td><td style="display:none">            23-Feb-2001 13:57   43</td></tr> 
+<tr class="r1"><td>13-A1356</td><td><img style="max-width: 800px;" src="13-A1356.jpg" /></td><td style="display:none">            23-Feb-2001 14:01   45</td></tr> 
+<tr class="r1"><td>13-A1358</td><td><img style="max-width: 800px;" src="13-A1358.jpg" /></td><td style="display:none">            14-Dec-1998 13:04  227</td></tr> 
+<tr class="r1"><td>13-A1359</td><td><img style="max-width: 800px;" src="13-A1359.jpg" /></td><td style="display:none">            23-Feb-2001 14:11   41</td></tr> 
+<tr class="r1"><td>13-A1360</td><td><img style="max-width: 800px;" src="13-A1360.jpg" /></td><td style="display:none">            23-Feb-2001 14:15   46</td></tr> 
+
+<tr class="r1"><td>13-A1361</td><td><img style="max-width: 800px;" src="13-A1361.jpg" /></td><td style="display:none">            14-Dec-1998 13:11  166</td></tr> 
+<tr class="r1"><td>13-A1362</td><td><img style="max-width: 800px;" src="13-A1362.jpg" /></td><td style="display:none">            17-Dec-1998 08:13  101</td></tr> 
+<tr class="r1"><td>13-A1364</td><td><img style="max-width: 800px;" src="13-A1364.jpg" /></td><td style="display:none">            23-Feb-2001 14:28   40</td></tr> 
+<tr class="r1"><td>13-A1365</td><td><img style="max-width: 800px;" src="13-A1365.jpg" /></td><td style="display:none">            17-Dec-1998 08:18  128</td></tr> 
+<tr class="r1"><td>13-A1366</td><td><img style="max-width: 800px;" src="13-A1366.jpg" /></td><td style="display:none">            23-Feb-2001 14:42   38</td></tr> 
+
+<tr class="r1"><td>13-A1371</td><td><img style="max-width: 800px;" src="13-A1371.jpg" /></td><td style="display:none">            23-Feb-2001 14:53   34</td></tr> 
+<tr class="r1"><td>13-A1372</td><td><img style="max-width: 800px;" src="13-A1372.jpg" /></td><td style="display:none">            23-Feb-2001 14:57   39</td></tr> 
+<tr class="r1"><td>13-A1401</td><td><img style="max-width: 800px;" src="13-A1401.jpg" /></td><td style="display:none">            23-Feb-2001 16:19   42</td></tr> 
+<tr class="r1"><td>13-A1402</td><td><img style="max-width: 800px;" src="13-A1402.jpg" /></td><td style="display:none">            23-Feb-2001 16:23   43</td></tr> 
+<tr class="r1"><td>13-A1408</td><td><img style="max-width: 800px;" src="13-A1408.jpg" /></td><td style="display:none">            15-Mar-1999 10:06   34</td></tr> 
+
+<tr class="r1"><td>13-A1409</td><td><img style="max-width: 800px;" src="13-A1409.jpg" /></td><td style="display:none">            23-Feb-2001 16:29   45</td></tr> 
+<tr class="r1"><td>13-X001</td><td><img style="max-width: 800px;" src="13-X001.jpg" /></td><td style="display:none">             23-Feb-2001 16:33   15</td></tr> 
+<tr class="r1"><td>13-X002</td><td><img style="max-width: 800px;" src="13-X002.jpg" /></td><td style="display:none">             23-Feb-2001 16:35  9.6</td></tr> 
+<tr class="r1"><td>13-X004</td><td><img style="max-width: 800px;" src="13-X004.jpg" /></td><td style="display:none">             23-Feb-2001 16:38   26</td></tr> 
+<tr class="r1"><td>13-X005</td><td><img style="max-width: 800px;" src="13-X005.jpg" /></td><td style="display:none">             23-Feb-2001 16:46   31</td></tr> 
+
+<tr class="r1"><td>13-X006</td><td><img style="max-width: 800px;" src="13-X006.jpg" /></td><td style="display:none">             23-Feb-2001 16:50   34</td></tr> 
+<tr class="r1"><td>13-X007</td><td><img style="max-width: 800px;" src="13-X007.jpg" /></td><td style="display:none">             26-Feb-2001 08:20   24</td></tr> 
+<tr class="r1"><td>13-X008</td><td><img style="max-width: 800px;" src="13-X008.jpg" /></td><td style="display:none">             26-Feb-2001 08:26   12</td></tr> 
+<tr class="r1"><td>13-X009</td><td><img style="max-width: 800px;" src="13-X009.jpg" /></td><td style="display:none">             26-Feb-2001 08:28   14</td></tr> 
+<tr class="r1"><td>13-X010</td><td><img style="max-width: 800px;" src="13-X010.jpg" /></td><td style="display:none">             26-Feb-2001 08:32   21</td></tr> 
+
+<tr class="r1"><td>13-X011</td><td><img style="max-width: 800px;" src="13-X011.jpg" /></td><td style="display:none">             26-Feb-2001 08:36   22</td></tr> 
+<tr class="r1"><td>13-X012</td><td><img style="max-width: 800px;" src="13-X012.jpg" /></td><td style="display:none">             26-Feb-2001 08:39   23</td></tr> 
+<tr class="r1"><td>13-X013</td><td><img style="max-width: 800px;" src="13-X013.jpg" /></td><td style="display:none">             26-Feb-2001 08:43   12</td></tr> 
+<tr class="r1"><td>13-X014</td><td><img style="max-width: 800px;" src="13-X014.jpg" /></td><td style="display:none">             26-Feb-2001 08:46  9.3</td></tr> 
+<tr class="r1"><td>13-X015</td><td><img style="max-width: 800px;" src="13-X015.jpg" /></td><td style="display:none">             26-Feb-2001 08:49   14</td></tr> 
+
+<tr class="r1"><td>13-X016</td><td><img style="max-width: 800px;" src="13-X016.jpg" /></td><td style="display:none">             26-Feb-2001 08:53  8.5</td></tr> 
+<tr class="r1"><td>13-X017</td><td><img style="max-width: 800px;" src="13-X017.jpg" /></td><td style="display:none">             26-Feb-2001 08:55   16</td></tr> 
+<tr class="r1"><td>13-X018</td><td><img style="max-width: 800px;" src="13-X018.jpg" /></td><td style="display:none">             26-Feb-2001 08:58   13</td></tr> 
+<tr class="r1"><td>13-X019</td><td><img style="max-width: 800px;" src="13-X019.jpg" /></td><td style="display:none">             26-Feb-2001 09:01   25</td></tr> 
+<tr class="r1"><td>13-X020</td><td><img style="max-width: 800px;" src="13-X020.jpg" /></td><td style="display:none">             26-Feb-2001 09:03   17</td></tr> 
+
+<tr class="r1"><td>13-X021</td><td><img style="max-width: 800px;" src="13-X021.jpg" /></td><td style="display:none">             26-Feb-2001 09:22   27</td></tr> 
+<tr class="r1"><td>13-X022</td><td><img style="max-width: 800px;" src="13-X022.jpg" /></td><td style="display:none">             26-Feb-2001 09:27   19</td></tr> 
+<tr class="r1"><td>13-X023</td><td><img style="max-width: 800px;" src="13-X023.jpg" /></td><td style="display:none">             26-Feb-2001 09:30   27</td></tr> 
+<tr class="r1"><td>13-X024</td><td><img style="max-width: 800px;" src="13-X024.jpg" /></td><td style="display:none">             26-Feb-2001 09:34   28</td></tr> 
+<tr class="r1"><td>13-X025</td><td><img style="max-width: 800px;" src="13-X025.jpg" /></td><td style="display:none">             26-Feb-2001 09:38   19</td></tr> 
+
+<tr class="r1"><td>13-X026</td><td><img style="max-width: 800px;" src="13-X026.jpg" /></td><td style="display:none">             26-Feb-2001 09:41   24</td></tr> 
+<tr class="r1"><td>13-X027</td><td><img style="max-width: 800px;" src="13-X027.jpg" /></td><td style="display:none">             26-Feb-2001 09:45   14</td></tr> 
+<tr class="r1"><td>13-X028</td><td><img style="max-width: 800px;" src="13-X028.jpg" /></td><td style="display:none">             26-Feb-2001 09:48   22</td></tr> 
+<tr class="r1"><td>13-X029</td><td><img style="max-width: 800px;" src="13-X029.jpg" /></td><td style="display:none">             26-Feb-2001 09:51   28</td></tr> 
+<tr class="r1"><td>13-X030</td><td><img style="max-width: 800px;" src="13-X030.jpg" /></td><td style="display:none">             26-Feb-2001 09:55   22</td></tr> 
+
+<tr class="r1"><td>13-X031</td><td><img style="max-width: 800px;" src="13-X031.jpg" /></td><td style="display:none">             26-Feb-2001 09:58   21</td></tr> 
+<tr class="r1"><td>13-X033</td><td><img style="max-width: 800px;" src="13-X033.jpg" /></td><td style="display:none">             04-Mar-1999 13:09  238</td></tr> 
+<tr class="r1"><td>13-X034</td><td><img style="max-width: 800px;" src="13-X034.jpg" /></td><td style="display:none">             26-Feb-2001 10:45   24</td></tr> 
+<tr class="r1"><td>13-X035a</td><td><img style="max-width: 800px;" src="13-X035a.jpg" /></td><td style="display:none">            26-Feb-2001 10:48   12</td></tr> 
+<tr class="r1"><td>13-X035b</td><td><img style="max-width: 800px;" src="13-X035b.jpg" /></td><td style="display:none">            26-Feb-2001 10:50   14</td></tr> 
+
+<tr class="r1"><td>13-X036</td><td><img style="max-width: 800px;" src="13-X036.jpg" /></td><td style="display:none">             26-Feb-2001 10:54   30</td></tr> 
+<tr class="r1"><td>13-X037</td><td><img style="max-width: 800px;" src="13-X037.jpg" /></td><td style="display:none">             26-Feb-2001 10:57  5.8</td></tr> 
+<tr class="r1"><td>13-X038</td><td><img style="max-width: 800px;" src="13-X038.jpg" /></td><td style="display:none">             26-Feb-2001 11:00   20</td></tr> 
+<tr class="r1"><td>13-X040</td><td><img style="max-width: 800px;" src="13-X040.jpg" /></td><td style="display:none">             26-Feb-2001 11:08   45</td></tr> 
+<tr class="r1"><td>13-X047a</td><td><img style="max-width: 800px;" src="13-X047a.jpg" /></td><td style="display:none">            26-Feb-2001 11:11   11</td></tr> 
+
+<tr class="r1"><td>13-X049</td><td><img style="max-width: 800px;" src="13-X049.jpg" /></td><td style="display:none">             26-Feb-2001 11:14   34</td></tr> 
+<tr class="r1"><td>13-X050-18</td><td><img style="max-width: 800px;" src="13-X050-18.jpg" /></td><td style="display:none">          26-Feb-2001 11:16  9.9</td></tr> 
+<tr class="r1"><td>13-X051b</td><td><img style="max-width: 800px;" src="13-X051b.jpg" /></td><td style="display:none">            26-Feb-2001 11:19   33</td></tr> 
+<tr class="r1"><td>13-X051h</td><td><img style="max-width: 800px;" src="13-X051h.jpg" /></td><td style="display:none">            26-Feb-2001 11:22   34</td></tr> 
+<tr class="r1"><td>13-X051j</td><td><img style="max-width: 800px;" src="13-X051j.jpg" /></td><td style="display:none">            26-Feb-2001 12:58   30</td></tr> 
+
+<tr class="r1"><td>13-X052</td><td><img style="max-width: 800px;" src="13-X052.jpg" /></td><td style="display:none">             26-Feb-2001 13:01   17</td></tr> 
+<tr class="r1"><td>13-X053</td><td><img style="max-width: 800px;" src="13-X053.jpg" /></td><td style="display:none">             26-Feb-2001 13:03   17</td></tr> 
+<tr class="r1"><td>13-X054a</td><td><img style="max-width: 800px;" src="13-X054a.jpg" /></td><td style="display:none">            26-Feb-2001 13:06   19</td></tr> 
+<tr class="r1"><td>13-X054b</td><td><img style="max-width: 800px;" src="13-X054b.jpg" /></td><td style="display:none">            26-Feb-2001 13:08   15</td></tr> 
+<tr class="r1"><td>13-X056</td><td><img style="max-width: 800px;" src="13-X056.jpg" /></td><td style="display:none">             26-Feb-2001 13:11   17</td></tr> 
+
+<tr class="r1"><td>13-X058</td><td><img style="max-width: 800px;" src="13-X058.jpg" /></td><td style="display:none">             26-Feb-2001 13:13   17</td></tr> 
+<tr class="r1"><td>13-X060</td><td><img style="max-width: 800px;" src="13-X060.jpg" /></td><td style="display:none">             26-Feb-2001 13:15   18</td></tr> 
+<tr class="r1"><td>13-X062a</td><td><img style="max-width: 800px;" src="13-X062a.jpg" /></td><td style="display:none">            26-Feb-2001 13:18  9.7</td></tr> 
+<tr class="r1"><td>13-X063</td><td><img style="max-width: 800px;" src="13-X063.jpg" /></td><td style="display:none">             26-Feb-2001 13:21   20</td></tr> 
+<tr class="r1"><td>13-X065</td><td><img style="max-width: 800px;" src="13-X065.jpg" /></td><td style="display:none">             26-Feb-2001 13:23   22</td></tr> 
+
+<tr class="r1"><td>13-X066</td><td><img style="max-width: 800px;" src="13-X066.jpg" /></td><td style="display:none">             26-Feb-2001 13:26   14</td></tr> 
+<tr class="r1"><td>13-X067</td><td><img style="max-width: 800px;" src="13-X067.jpg" /></td><td style="display:none">             26-Feb-2001 13:28   15</td></tr> 
+<tr class="r1"><td>13-X068a</td><td><img style="max-width: 800px;" src="13-X068a.jpg" /></td><td style="display:none">            26-Feb-2001 13:31   22</td></tr> 
+<tr class="r1"><td>13-X069</td><td><img style="max-width: 800px;" src="13-X069.jpg" /></td><td style="display:none">             26-Feb-2001 13:33   29</td></tr> 
+<tr class="r1"><td>13-X072</td><td><img style="max-width: 800px;" src="13-X072.jpg" /></td><td style="display:none">             26-Feb-2001 13:36   40</td></tr> 
+
+<tr class="r1"><td>13-X073</td><td><img style="max-width: 800px;" src="13-X073.jpg" /></td><td style="display:none">             26-Feb-2001 13:39   37</td></tr> 
+<tr class="r1"><td>13-X074</td><td><img style="max-width: 800px;" src="13-X074.jpg" /></td><td style="display:none">             26-Feb-2001 13:41   29</td></tr> 
+<tr class="r1"><td>13-X075</td><td><img style="max-width: 800px;" src="13-X075.jpg" /></td><td style="display:none">             26-Feb-2001 13:44   21</td></tr> 
+<tr class="r1"><td>13-X076</td><td><img style="max-width: 800px;" src="13-X076.jpg" /></td><td style="display:none">             26-Feb-2001 13:47   15</td></tr> 
+<tr class="r1"><td>13-X077</td><td><img style="max-width: 800px;" src="13-X077.jpg" /></td><td style="display:none">             26-Feb-2001 13:49   18</td></tr> 
+
+<tr class="r1"><td>13-X078-19</td><td><img style="max-width: 800px;" src="13-X078-19.jpg" /></td><td style="display:none">          26-Feb-2001 13:51   20</td></tr> 
+<tr class="r1"><td>13-X079a</td><td><img style="max-width: 800px;" src="13-X079a.jpg" /></td><td style="display:none">            26-Feb-2001 13:54   29</td></tr> 
+<tr class="r1"><td>13-X080</td><td><img style="max-width: 800px;" src="13-X080.jpg" /></td><td style="display:none">             26-Feb-2001 14:42  9.2</td></tr> 
+<tr class="r1"><td>13-X081a</td><td><img style="max-width: 800px;" src="13-X081a.jpg" /></td><td style="display:none">            26-Feb-2001 14:45   25</td></tr> 
+<tr class="r1"><td>13-X082</td><td><img style="max-width: 800px;" src="13-X082.jpg" /></td><td style="display:none">             26-Feb-2001 14:47   27</td></tr> 
+
+<tr class="r1"><td>13-X083</td><td><img style="max-width: 800px;" src="13-X083.jpg" /></td><td style="display:none">             26-Feb-2001 14:50   21</td></tr> 
+<tr class="r1"><td>13-X084</td><td><img style="max-width: 800px;" src="13-X084.jpg" /></td><td style="display:none">             26-Feb-2001 14:52   30</td></tr> 
+<tr class="r1"><td>13-X085a</td><td><img style="max-width: 800px;" src="13-X085a.jpg" /></td><td style="display:none">            26-Feb-2001 14:55   31</td></tr> 
+<tr class="r1"><td>13-X085b</td><td><img style="max-width: 800px;" src="13-X085b.jpg" /></td><td style="display:none">            26-Feb-2001 14:59   29</td></tr> 
+<tr class="r1"><td>13-X085d</td><td><img style="max-width: 800px;" src="13-X085d.jpg" /></td><td style="display:none">            26-Feb-2001 15:02   20</td></tr> 
+
+<tr class="r1"><td>13-X085f</td><td><img style="max-width: 800px;" src="13-X085f.jpg" /></td><td style="display:none">            26-Feb-2001 15:06   18</td></tr> 
+<tr class="r1"><td>13-X085h</td><td><img style="max-width: 800px;" src="13-X085h.jpg" /></td><td style="display:none">            26-Feb-2001 15:09   21</td></tr> 
+<tr class="r1"><td>13-X085j</td><td><img style="max-width: 800px;" src="13-X085j.jpg" /></td><td style="display:none">            26-Feb-2001 15:11   27</td></tr> 
+<tr class="r1"><td>13-X085l</td><td><img style="max-width: 800px;" src="13-X085l.jpg" /></td><td style="display:none">            26-Feb-2001 16:16   32</td></tr> 
+<tr class="r1"><td>13-X087</td><td><img style="max-width: 800px;" src="13-X087.jpg" /></td><td style="display:none">             26-Feb-2001 16:20   30</td></tr> 
+
+<tr class="r1"><td>13-X088a</td><td><img style="max-width: 800px;" src="13-X088a.jpg" /></td><td style="display:none">            26-Feb-2001 16:23   28</td></tr> 
+<tr class="r1"><td>13-X088b</td><td><img style="max-width: 800px;" src="13-X088b.jpg" /></td><td style="display:none">            26-Feb-2001 16:26   29</td></tr> 
+<tr class="r1"><td>13-X089</td><td><img style="max-width: 800px;" src="13-X089.jpg" /></td><td style="display:none">             26-Feb-2001 16:28   25</td></tr> 
+<tr class="r1"><td>13-X090a</td><td><img style="max-width: 800px;" src="13-X090a.jpg" /></td><td style="display:none">            26-Feb-2001 16:31   35</td></tr> 
+<tr class="r1"><td>13-X090b</td><td><img style="max-width: 800px;" src="13-X090b.jpg" /></td><td style="display:none">            26-Feb-2001 16:34   38</td></tr> 
+
+<tr class="r1"><td>13-X090c</td><td><img style="max-width: 800px;" src="13-X090c.jpg" /></td><td style="display:none">            26-Feb-2001 16:37   24</td></tr> 
+<tr class="r1"><td>13-X090d</td><td><img style="max-width: 800px;" src="13-X090d.jpg" /></td><td style="display:none">            26-Feb-2001 16:40   27</td></tr> 
+<tr class="r1"><td>13-X090e</td><td><img style="max-width: 800px;" src="13-X090e.jpg" /></td><td style="display:none">            26-Feb-2001 16:43   35</td></tr> 
+<tr class="r1"><td>13-X090g</td><td><img style="max-width: 800px;" src="13-X090g.jpg" /></td><td style="display:none">            26-Feb-2001 16:46   27</td></tr> 
+<tr class="r1"><td>13-X090h</td><td><img style="max-width: 800px;" src="13-X090h.jpg" /></td><td style="display:none">            26-Feb-2001 16:49   15</td></tr> 
+
+<tr class="r1"><td>13-X090j</td><td><img style="max-width: 800px;" src="13-X090j.jpg" /></td><td style="display:none">            27-Feb-2001 08:51   14</td></tr> 
+<tr class="r1"><td>13-X090k</td><td><img style="max-width: 800px;" src="13-X090k.jpg" /></td><td style="display:none">            27-Feb-2001 08:55   29</td></tr> 
+<tr class="r1"><td>13-X091</td><td><img style="max-width: 800px;" src="13-X091.jpg" /></td><td style="display:none">             27-Feb-2001 08:58   11</td></tr> 
+<tr class="r1"><td>13-X093</td><td><img style="max-width: 800px;" src="13-X093.jpg" /></td><td style="display:none">             27-Feb-2001 09:17   33</td></tr> 
+<tr class="r1"><td>13-X094</td><td><img style="max-width: 800px;" src="13-X094.jpg" /></td><td style="display:none">             27-Feb-2001 09:21   17</td></tr> 
+
+<tr class="r1"><td>13-X095</td><td><img style="max-width: 800px;" src="13-X095.jpg" /></td><td style="display:none">             27-Feb-2001 09:25   19</td></tr> 
+<tr class="r1"><td>13-X096a</td><td><img style="max-width: 800px;" src="13-X096a.jpg" /></td><td style="display:none">            27-Feb-2001 09:28   16</td></tr> 
+<tr class="r1"><td>13-X096b</td><td><img style="max-width: 800px;" src="13-X096b.jpg" /></td><td style="display:none">            27-Feb-2001 09:34   20</td></tr> 
+<tr class="r1"><td>13-X097a</td><td><img style="max-width: 800px;" src="13-X097a.jpg" /></td><td style="display:none">            27-Feb-2001 13:15   28</td></tr> 
+<tr class="r1"><td>13-X098a</td><td><img style="max-width: 800px;" src="13-X098a.jpg" /></td><td style="display:none">            28-Feb-2001 16:12   74</td></tr> 
+
+<tr class="r1"><td>13-X099c</td><td><img style="max-width: 800px;" src="13-X099c.jpg" /></td><td style="display:none">            28-Feb-2001 16:19   50</td></tr> 
+<tr class="r1"><td>13-X099e</td><td><img style="max-width: 800px;" src="13-X099e.jpg" /></td><td style="display:none">            28-Feb-2001 16:23  119</td></tr> 
+<tr class="r1"><td>13-X103</td><td><img style="max-width: 800px;" src="13-X103.jpg" /></td><td style="display:none">             28-Feb-2001 16:30   26</td></tr> 
+<tr class="r1"><td>13-X104</td><td><img style="max-width: 800px;" src="13-X104.jpg" /></td><td style="display:none">             28-Feb-2001 16:32   19</td></tr> 
+<tr class="r1"><td>13-X105</td><td><img style="max-width: 800px;" src="13-X105.jpg" /></td><td style="display:none">             28-Feb-2001 16:34   26</td></tr> 
+
+<tr class="r1"><td>13-x139-11</td><td><img style="max-width: 800px;" src="13-x139-11.jpg" /></td><td style="display:none">          22-Jan-2003 13:39   20</td></tr> 
+<tr class="r1"><td>13-x139a</td><td><img style="max-width: 800px;" src="13-x139a.jpg" /></td><td style="display:none">            22-Jan-2003 14:14   24</td></tr> 
+<tr class="r1"><td>13-x139b</td><td><img style="max-width: 800px;" src="13-x139b.jpg" /></td><td style="display:none">            22-Jan-2003 13:30   18</td></tr> 
+<tr class="r1"><td>13-x139c</td><td><img style="max-width: 800px;" src="13-x139c.jpg" /></td><td style="display:none">            22-Jan-2003 13:33   32</td></tr> 
+<tr class="r1"><td>13-x224</td><td><img style="max-width: 800px;" src="13-x224.jpg" /></td><td style="display:none">             29-Jan-2002 14:18  157</td></tr> 
+

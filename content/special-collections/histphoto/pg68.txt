@@ -1,0 +1,19 @@
+<tr class="r1"><td>68-01</td><td><img style="max-width: 800px;" src="68-01.jpg" /></td><td style="display:none">               09-Apr-1997 15:05   31</td></tr> 
+<tr class="r1"><td>68-02</td><td><img style="max-width: 800px;" src="68-02.jpg" /></td><td style="display:none">               09-Apr-1997 15:14   30</td></tr> 
+<tr class="r1"><td>68-03</td><td><img style="max-width: 800px;" src="68-03.jpg" /></td><td style="display:none">               09-Apr-1997 15:17   38</td></tr> 
+<tr class="r1"><td>68-04</td><td><img style="max-width: 800px;" src="68-04.jpg" /></td><td style="display:none">               09-Apr-1997 15:19   42</td></tr> 
+<tr class="r1"><td>68-05</td><td><img style="max-width: 800px;" src="68-05.jpg" /></td><td style="display:none">               09-Apr-1997 15:22   28</td></tr> 
+
+<tr class="r1"><td>68-06</td><td><img style="max-width: 800px;" src="68-06.jpg" /></td><td style="display:none">               09-Apr-1997 15:25   39</td></tr> 
+<tr class="r1"><td>68-07</td><td><img style="max-width: 800px;" src="68-07.jpg" /></td><td style="display:none">               09-Apr-1997 15:28   31</td></tr> 
+<tr class="r1"><td>68-08</td><td><img style="max-width: 800px;" src="68-08.jpg" /></td><td style="display:none">               09-Apr-1997 15:30   35</td></tr> 
+<tr class="r1"><td>68-09</td><td><img style="max-width: 800px;" src="68-09.jpg" /></td><td style="display:none">               09-Apr-1997 15:33   36</td></tr> 
+<tr class="r1"><td>68-10</td><td><img style="max-width: 800px;" src="68-10.jpg" /></td><td style="display:none">               09-Apr-1997 15:34   28</td></tr> 
+
+<tr class="r1"><td>68-11</td><td><img style="max-width: 800px;" src="68-11.jpg" /></td><td style="display:none">               09-Apr-1997 15:38   34</td></tr> 
+<tr class="r1"><td>68-12</td><td><img style="max-width: 800px;" src="68-12.jpg" /></td><td style="display:none">               09-Apr-1997 15:40   34</td></tr> 
+<tr class="r1"><td>68-13</td><td><img style="max-width: 800px;" src="68-13.jpg" /></td><td style="display:none">               09-Apr-1997 15:46   32</td></tr> 
+<tr class="r1"><td>68-14</td><td><img style="max-width: 800px;" src="68-14.jpg" /></td><td style="display:none">               09-Apr-1997 15:42   31</td></tr> 
+<tr class="r1"><td>68-15</td><td><img style="max-width: 800px;" src="68-15.jpg" /></td><td style="display:none">               09-Apr-1997 15:44   28</td></tr> 
+
+<tr class="r1"><td>68-16</td><td><img style="max-width: 800px;" src="68-16.jpg" /></td><td style="display:none">               09-Apr-1997 15:48   31</td></tr> 
