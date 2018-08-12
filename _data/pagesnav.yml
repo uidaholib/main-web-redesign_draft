@@ -1,4 +1,11 @@
+# data about page organization
+# page side nav is generated from top level sections
+# breadcrumbs are generated from [0] parent and stub of each section
+
+# About Section
 about:
+  - parent: About
+    stub: /about/
   - subsection: About Home
     link: /about/
   - subsection: Contact
@@ -58,8 +65,44 @@ about:
         url: /recognitions/
       - name: Featured Faculty
         url: /recognitions/featured-faculty.html  
+# special subsections of About
+hours:
+  - parent: About
+    stub: /about/
+  - subsection: Semester Hours
+    link: /about/hours.html#semester
+  - subsection: Summer Hours
+    link: /about/hours.html#summer
+  - subsection: Reference Desk
+    link: /about/hours.html#reference
+  - subsection: Interlibrary Loan
+    link: /about/hours.html#ill
+  - subsection: Special Collections
+    link: /about/hours.html#special
+  - subsection: Reduced Hours &amp; Closures
+    link: /about/hours.html#reduced
+  - subsection: << About
+    link: /about/
+giving:
+  - parent: About
+    stub: /about/
+  - subsection: Give to the Library
+    link: /giving/
+  - subsection: Why We Give
+    link: /giving/why.html
+  - subsection: Ways to Give
+    link: /giving/ways.html
+  - subsection: Endowments
+    link: /giving/endowments.html
+  - subsection: Library Associates
+    link: /giving/associates.html
+  - subsection: << About
+    link: /about/
 
+# Find Section
 find:
+  - parent: Find
+    stub: /find/
   - subsection: Articles
     link: /find/articles.html
     subpages:
@@ -116,7 +159,98 @@ find:
   - subsection: Theses & Dissertations
     link: /find/etds.html
 
+# Help Section
+help:
+  - parent: Help
+    stub: /help/
+  - subsection: Help Home
+    link: /help/
+  - subsection: FAQ
+    link: https://libanswers.uidaho.edu/
+  - subsection: Off-Campus Access
+    link: /help/offcampus.html
+  - subsection: Research Assistance
+    link: /help/rap.html
+  - subsection: Faculty Assistance
+    link: /help/frap.html
+  - subsection: Chat (IM) & Text
+    link: /help/chat.html
+  - subsection: Site Search
+    link: /help/search.html
+
+# Collections Section
+collections:
+  - parent: Collections
+    stub: /collections/
+  - subsection: Collections Home
+    link: /collections/
+  - subsection: Special Collections
+    link: /special-collections/
+  - subsection: Digital
+    link: /collections/digital.html
+  - subsection: Physical
+    link: /collections/physical.html
+  - subsection: Idaho
+    link: /collections/idaho.html
+# SPEC section
+special collections:
+  - parent: Special Collections
+    stub: /special-collections/
+  - subsection: Special Collections Home
+    link: /special-collections/
+  - subsection: About
+    link: /special-collections/about.html
+    subpages:
+      - name: About
+        url: /special-collections/about.html
+      - name: Plan Your Visit
+        url: /special-collections/plan.html
+      - name: Reading Room Rules
+        url: /special-collections/rules.html
+  - subsection: Collections
+    url: /special-collections/description.html
+    subpages:
+      - name: Descriptions
+        url: /special-collections/description.html
+      - name: Search All
+        url: /special-collections/searchall.html
+      - name: Forestry
+        url: /special-collections/forestry.html
+      - name: Mining
+        url: /special-collections/dayfindingaids.html
+      - name: Wilderness
+        url: /special-collections/wilderness.html
+      - name: Jazz Collections
+        url: https://www.ijc.uidaho.edu/
+  - subsection: Search Tools
+    url: /special-collections/searchtools.html
+    subpages:
+      - name: Tools Index
+        url: /special-collections/searchtools.html
+      - name: Photo Search
+        url: https://www.lib.uidaho.edu/special-collections/histphoto/
+      - name: Useful Links
+        url: /special-collections/usefullinks.html
+      - name: Site Search
+        url: /help/search.html
+  - subsection: Campus History
+    url: /special-collections/uitimeline.html
+    subpages:
+      - name: UI Timeline
+        url: /special-collections/uitimeline.html
+      - name: UI Buildings
+        url: /special-collections/uibuildings.html
+      - name: Bibliography
+        url: /special-collections/uibibliography.html
+  - subsection: Donations
+    link: /special-collections/donations.html
+  - subsection: Contact Us
+    link: /special-collections/contactus.html
+
+# Services Section
 services:
+  - parent: Services
+    stub: /services/
   - subsection: Borrow/Renew
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
@@ -211,23 +345,10 @@ services:
       - name: Resources
         url: /services/workshops/resources.html
 
-help:
-  - subsection: Help Home
-    link: /help/
-  - subsection: FAQ
-    link: https://libanswers.uidaho.edu/
-  - subsection: Off-Campus Access
-    link: /help/offcampus.html
-  - subsection: Research Assistance
-    link: /help/rap.html
-  - subsection: Faculty Assistance
-    link: /help/frap.html
-  - subsection: Chat (IM) & Text
-    link: /help/chat.html
-  - subsection: Site Search
-    link: /help/search.html
-
+# Guide sections
 data management guide:
+  - parent: Data Managment
+    stub: /services/data/
   - subsection: Intro and Contents
     link: /services/data/data-management/index.html#home
   - subsection: Data Management Planning
@@ -271,50 +392,9 @@ data management guide:
     link: /services/data/data-management/index.html#acknowledgements
   - subsection: << Data Services Home
     link: /services/data/
-
-giving:
-  - subsection: Give to the Library
-    link: /giving/
-  - subsection: Why We Give
-    link: /giving/why.html
-  - subsection: Ways to Give
-    link: /giving/ways.html
-  - subsection: Endowments
-    link: /giving/endowments.html
-  - subsection: Library Associates
-    link: /giving/associates.html
-  - subsection: << About
-    link: /about/
-
-collections:
-  - subsection: Collections Home
-    link: /collections/
-  - subsection: Special Collections
-    link: /special-collections/
-  - subsection: Digital
-    link: /collections/digital.html
-  - subsection: Physical
-    link: /collections/physical.html
-  - subsection: Idaho
-    link: /collections/idaho.html
-
-hours:
-  - subsection: Semester Hours
-    link: /about/hours.html#semester
-  - subsection: Summer Hours
-    link: /about/hours.html#summer
-  - subsection: Reference Desk
-    link: /about/hours.html#reference
-  - subsection: Interlibrary Loan
-    link: /about/hours.html#ill
-  - subsection: Special Collections
-    link: /about/hours.html#special
-  - subsection: Reduced Hours &amp; Closures
-    link: /about/hours.html#reduced
-  - subsection: << About
-    link: /about/
-
 copyright guide:
+  - parent: Copyright
+    stub: /copyright/
   - subsection: UI Copyright Policy
     link: /copyright/guide.html#ui
   - subsection: Contents
@@ -370,55 +450,3 @@ copyright guide:
     link: /copyright/guide.html#acknowledgements
   - subsection: << Services
     link: /services/
-
-special collections:
-  - subsection: Special Collections Home
-    link: /special-collections/
-  - subsection: About
-    link: /special-collections/about.html
-    subpages:
-      - name: About
-        url: /special-collections/about.html
-      - name: Plan Your Visit
-        url: /special-collections/plan.html
-      - name: Reading Room Rules
-        url: /special-collections/rules.html
-  - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Search All
-        url: /special-collections/searchall.html
-      - name: Forestry
-        url: /special-collections/forestry.html
-      - name: Mining
-        url: /special-collections/dayfindingaids.html
-      - name: Wilderness
-        url: /special-collections/wilderness.html
-      - name: Jazz Collections
-        url: https://www.ijc.uidaho.edu/
-  - subsection: Search Tools
-    url: /special-collections/searchtools.html
-    subpages:
-      - name: Tools Index
-        url: /special-collections/searchtools.html
-      - name: Photo Search
-        url: https://www.lib.uidaho.edu/special-collections/histphoto/
-      - name: Useful Links
-        url: /special-collections/usefullinks.html
-      - name: Site Search
-        url: /help/search.html
-  - subsection: Campus History
-    url: /special-collections/uitimeline.html
-    subpages:
-      - name: UI Timeline
-        url: /special-collections/uitimeline.html
-      - name: UI Buildings
-        url: /special-collections/uibuildings.html
-      - name: Bibliography
-        url: /special-collections/uibibliography.html
-  - subsection: Donations
-    link: /special-collections/donations.html
-  - subsection: Contact Us
-    link: /special-collections/contactus.html
