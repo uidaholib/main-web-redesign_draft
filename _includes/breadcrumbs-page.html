@@ -1,9 +1,12 @@
+{% assign parent = site.data.pagesnav[page.section][0].parent %}
+{% assign stub = site.data.pagesnav[page.section][0].stub %}
 <ul class="breadcrumb">
     <li class="breadcrumb-item">
         <a href="{{ '/' | absolute_url }}"><span class="fas fa-home"></span></a>
     </li>
     <li class="breadcrumb-item">
-        <a href="{{ '/' | append: page.section | append: '/' | absolute_url }}">{{ page.section | capitalize }}</a>
+        {% if parent %}<a href="{{ stub | absolute_url }}">{{ parent }}</a>
+        {% else %}<a href="{{ '/' | append: page.section | append: '/' | absolute_url }}">{{ page.section | capitalize }}</a>{% endif %}
     </li>    
     <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
 </ul>
