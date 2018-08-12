@@ -8,7 +8,7 @@ about:
   - subsection: Directions and Parking
     link: /about/directions.html
   - subsection: Floor Maps
-    link: maps.html
+    link: /about/maps.html
   - subsection: Giving
     link: /giving/
   - subsection: Hours
@@ -314,14 +314,6 @@ hours:
   - subsection: << About
     link: /about/
 
-floor maps:
-  - subsection: Floor Maps
-    link: /maps.html
-  - subsection: Call Number Information
-    link: /find/lc.html
-  - subsection: << About
-    link: /about/
-  
 copyright guide:
   - subsection: UI Copyright Policy
     link: /copyright/guide.html#ui
