@@ -72,9 +72,7 @@ find:
     subpages:
       - name: Books & eBooks
         url: /find/books.html
-      - name: Ebook Guide
-        url: https://libguides.uidaho.edu/ebooks
-      - name: Library Locations
+      - name: Library Book Locations
         url: /find/lc.html
   - subsection: DVDs
     link: /find/dvds.html
