@@ -1,0 +1,25 @@
+<tr class="r1"><td>7-02-1</td><td><img style="max-width: 800px;" src="7-02-1.jpg" /></td><td style="display:none">              19-Mar-1999 17:46   28</td></tr> 
+<tr class="r1"><td>7-03-1</td><td><img style="max-width: 800px;" src="7-03-1.jpg" /></td><td style="display:none">              19-Mar-1999 17:48   17</td></tr> 
+<tr class="r1"><td>7-04-1</td><td><img style="max-width: 800px;" src="7-04-1.jpg" /></td><td style="display:none">              19-Mar-1999 17:50   68</td></tr> 
+<tr class="r1"><td>7-05-1</td><td><img style="max-width: 800px;" src="7-05-1.jpg" /></td><td style="display:none">              19-Mar-1999 17:52   45</td></tr> 
+<tr class="r1"><td>7-06-1a</td><td><img style="max-width: 800px;" src="7-06-1a.jpg" /></td><td style="display:none">             22-Mar-1999 09:31   31</td></tr> 
+
+<tr class="r1"><td>7-06-1b</td><td><img style="max-width: 800px;" src="7-06-1b.jpg" /></td><td style="display:none">             22-Mar-1999 09:33   39</td></tr> 
+<tr class="r1"><td>7-07-1</td><td><img style="max-width: 800px;" src="7-07-1.jpg" /></td><td style="display:none">              22-Mar-1999 09:37   45</td></tr> 
+<tr class="r1"><td>7-08-1</td><td><img style="max-width: 800px;" src="7-08-1.jpg" /></td><td style="display:none">              22-Mar-1999 09:42   36</td></tr> 
+<tr class="r1"><td>7-09-1</td><td><img style="max-width: 800px;" src="7-09-1.jpg" /></td><td style="display:none">              22-Mar-1999 09:46   36</td></tr> 
+<tr class="r1"><td>7-10-1</td><td><img style="max-width: 800px;" src="7-10-1.jpg" /></td><td style="display:none">              22-Mar-1999 09:50   43</td></tr> 
+
+<tr class="r1"><td>7-10-2</td><td><img style="max-width: 800px;" src="7-10-2.jpg" /></td><td style="display:none">              22-Mar-1999 09:53   47</td></tr> 
+<tr class="r1"><td>7-11-1</td><td><img style="max-width: 800px;" src="7-11-1.jpg" /></td><td style="display:none">              22-Mar-1999 09:57   29</td></tr> 
+<tr class="r1"><td>7-12-1</td><td><img style="max-width: 800px;" src="7-12-1.jpg" /></td><td style="display:none">              22-Mar-1999 10:00   44</td></tr> 
+<tr class="r1"><td>7-13-1</td><td><img style="max-width: 800px;" src="7-13-1.jpg" /></td><td style="display:none">              22-Mar-1999 10:03   39</td></tr> 
+<tr class="r1"><td>7-14-1</td><td><img style="max-width: 800px;" src="7-14-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:48   50</td></tr> 
+
+<tr class="r1"><td>7-15-1</td><td><img style="max-width: 800px;" src="7-15-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:50   28</td></tr> 
+<tr class="r1"><td>7-16-1</td><td><img style="max-width: 800px;" src="7-16-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:52   43</td></tr> 
+<tr class="r1"><td>7-17-1</td><td><img style="max-width: 800px;" src="7-17-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:54   37</td></tr> 
+<tr class="r1"><td>7-18-1</td><td><img style="max-width: 800px;" src="7-18-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:56   35</td></tr> 
+<tr class="r1"><td>7-19-1</td><td><img style="max-width: 800px;" src="7-19-1.jpg" /></td><td style="display:none">              22-Mar-1999 13:59   29</td></tr> 
+
+<tr class="r1"><td>7-19-2</td><td><img style="max-width: 800px;" src="7-19-2.jpg" /></td><td style="display:none">              22-Mar-1999 14:01   24</td></tr> 

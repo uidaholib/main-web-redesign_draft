@@ -1,0 +1,15 @@
+<tr class="r1"><td>80-01</td><td><img style="max-width: 800px;" src="80-01.jpg" /></td><td style="display:none">               12-Mar-1999 13:56  7.8</td></tr> 
+<tr class="r1"><td>80-02</td><td><img style="max-width: 800px;" src="80-02.jpg" /></td><td style="display:none">               12-Mar-1999 13:57  8.2</td></tr> 
+<tr class="r1"><td>80-03</td><td><img style="max-width: 800px;" src="80-03.jpg" /></td><td style="display:none">               12-Mar-1999 13:59   49</td></tr> 
+<tr class="r1"><td>80-04</td><td><img style="max-width: 800px;" src="80-04.jpg" /></td><td style="display:none">               12-Mar-1999 14:04   22</td></tr> 
+<tr class="r1"><td>80-05</td><td><img style="max-width: 800px;" src="80-05.jpg" /></td><td style="display:none">               12-Mar-1999 14:09   27</td></tr> 
+
+<tr class="r1"><td>80-06</td><td><img style="max-width: 800px;" src="80-06.jpg" /></td><td style="display:none">               12-Mar-1999 14:11   21</td></tr> 
+<tr class="r1"><td>80-07</td><td><img style="max-width: 800px;" src="80-07.jpg" /></td><td style="display:none">               12-Mar-1999 14:12   38</td></tr> 
+<tr class="r1"><td>80-08</td><td><img style="max-width: 800px;" src="80-08.jpg" /></td><td style="display:none">               12-Mar-1999 14:17   20</td></tr> 
+<tr class="r1"><td>80-09</td><td><img style="max-width: 800px;" src="80-09.jpg" /></td><td style="display:none">               24-Jan-2005 16:10   27</td></tr> 
+<tr class="r1"><td>80-10</td><td><img style="max-width: 800px;" src="80-10.jpg" /></td><td style="display:none">               12-Mar-1999 14:34   16</td></tr> 
+
+<tr class="r1"><td>80-11</td><td><img style="max-width: 800px;" src="80-11.jpg" /></td><td style="display:none">               12-Mar-1999 14:36   16</td></tr> 
+<tr class="r1"><td>80-12</td><td><img style="max-width: 800px;" src="80-12.jpg" /></td><td style="display:none">               12-Mar-1999 14:37   21</td></tr> 
+<tr class="r1"><td>80-13</td><td><img style="max-width: 800px;" src="80-13.jpg" /></td><td style="display:none">               12-Mar-1999 14:39   15</td></tr> 
