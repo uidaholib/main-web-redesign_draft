@@ -203,17 +203,6 @@ services:
         url: /services/oapf/apply.html
       - name: FAQ
         url: /services/oapf/faq.html
-  - subsection: Scholarly Services
-    link: /services/scholarly/
-    subpages:
-      - name: Scholarly Services
-        url: /services/scholarly/
-      - name: Repository
-        url: /services/scholarly/repository.html
-      - name: Publishing
-        url: /services/scholarly/publishing.html
-      - name: Open Access
-        url: /services/scholarly/openaccess.html
   - subsection: Room Reservations
     link: /services/rooms/
   - subsection: Workshops
