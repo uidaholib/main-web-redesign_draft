@@ -1,86 +1,154 @@
 ---
-title: Library Floor Maps
+title: Floor Maps
+section: about
+permalink: /about/maps.html
 layout: page
 ---
-<div style="text-align:center;">
-	<h2>
-		<span class="fas fa-th-large" style="font-size:smaller"></span> Library Floor Maps</h2>
-
-	<hr>
-</div>
 
 
+	  <!-- These links aren't working, even on the old website:
+		  <h4>Computer Lab Availability</h4>
+<p>
+<a target="_blank" href="http://deskman-licenser.its.uidaho.edu/LabStats/map-viewer.aspx?map=43" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Computer Lab 1st Floor']);">1st Floor </a>
+|
+<a target="_blank" href="http://deskman-licenser.its.uidaho.edu/LabStats/map-viewer.aspx?map=42" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Computer Lab 4th Floor']);">4th Floor </a>  
+				  </p>-->
+				  
 
-<div class="row">
-	<div class="col-md-3 col-lg-3 ">
-		<div class=" bs-sidebar" data-spy="affix" data-offset-top="230" id="my-nav" style="width:215px;">
-			<!--<a style="margin-left:10%" href="http://www.lib.uidaho.edu/digital/campus/locations/NealeStadium.html"><img src="http://contentdm.lib.uidaho.edu/cgi-bin/thumbnail.exe?CISOROOT=/pg1&CISOPTR=1900" /></a>-->
+<div class="row justify-content-center">
+	<p><a href="/find/lc.html">Library of Congress Call Number Information</a></p>
+	<div class="col-md-6">
+			
+			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorOne">
+				<div class="card my-3" id="first">
+					<div class="card-header text-center">
+						<h3 class="text-center mb-0">First Floor</h3>
+					</div><!--end card-header-->
+					<div class="card-body">
+						<img src="{{ '/assets/images/stackmaps/stackmap1_md.png' | relative_url }}" class="img-fluid">
+					</div>
+				</div><!--end card-->
+			</button>
 
-			<h3 style="margin-left:7px;">
-				<em>Floor Maps</em>
-				<!--<small><a href="#top"> <span class="fas fa-chevron-up" style="font-size:smaller"></span></a></small>-->
-			</h3>
-			<ul class="nav bs-sidenav" style="margin-top: 0px;">
+			<div class="modal fade" id="floorOne" tabindex="-1" role="dialog" aria-labelledby="floorOne">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">First Floor</h3>
+							
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+						</div><!--end modal-header-->
+						<div class="modal-body">
+							<img src="{{ '/assets/images/stackmaps/stackmap1.png' | relative_url }}" class="img-fluid">
+						</div><!--end modal-body-->
 
+					</div><!--end modal-content-->
+				</div>
+			</div><!--end modal-->
+				
+	</div><!--end column-->
 
-				<li>
-					<a href="#first">First Floor</a>
-				</li>
-				<li>
-					<a href="#second">Second Floor</a>
-				</li>
-				<li>
-					<a href="#third">Third Floor</a>
-				</li>
-				<li>
-					<a href="#fourth">Fourth Floor</a>
-				</li>
+	<div class="col-md-6">
+			
+			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorTwo">
+				<div class="card my-3" id="second">
+					<div class="card-header text-center">
+						<h3 class="text-center mb-0">Second Floor</h3>
+					</div><!--end card-header-->
+					<div class="card-body">
+						<img src="{{ '/assets/images/stackmaps/stackmap2_md.png' | relative_url }}" class="img-fluid">
+					</div>
+				</div><!--end card-->
+			</button>
 
+			<div class="modal fade" id="floorTwo" tabindex="-1" role="dialog" aria-labelledby="floorTwo">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<h3 class="modal-title">Second Floor</h3>
+	
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+						</div><!--end modal-header-->
+						<div class="modal-body">
+							<img src="{{ '/assets/images/stackmaps/stackmap2.png' | relative_url }}" class="img-fluid">
+						</div><!--end modal-body-->
 
+					</div><!--end modal-content-->
+				</div>
+			</div><!--end modal-->
+				
+	</div><!--end column-->
 
-			</ul>
-			<p class="smalltxt" style="margin:5px 15px;">
-				<a href="../find/lc.html">Call Number Information</a>
-			</p>
+	<div class="col-md-6">
+			
+			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorThree">
+				<div class="card my-3" id="third">
+					<div class="card-header text-center">
+						<h3 class="text-center mb-0">Third Floor</h3>
+					</div><!--end card-header-->
+					<div class="card-body">
+						<img src="{{ '/assets/images/stackmaps/stackmap3_md.png' | relative_url }}" class="img-fluid">
+					</div>
+				</div><!--end card-->
+			</button>
 
+			<div class="modal fade" id="floorThree" tabindex="-1" role="dialog" aria-labelledby="floorThree">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<h3 class="modal-title">Third Floor</h3>
+	
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+						</div><!--end modal-header-->
+						<div class="modal-body">
+							<img src="{{ '/assets/images/stackmaps/stackmap3.png' | relative_url }}" class="img-fluid">
+						</div><!--end modal-body-->
 
-		</div>
-	</div>
+					</div><!--end modal-content-->
+				</div>
+			</div><!--end modal-->
+				
+	</div><!--end column-->
 
+	<div class="col-md-6">
+			
+			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorFour">
+				<div class="card my-3" id="fourth">
+					<div class="card-header text-center">
+						<h3 class="text-center mb-0">Fourth Floor</h3>
+					</div><!--end card-header-->
+					<div class="card-body">
+						<img src="{{ '/assets/images/stackmaps/stackmap4_md.png' | relative_url }}" class="img-fluid">
+					</div>
+				</div><!--end card-->
+			</button>
 
+			<div class="modal fade" id="floorFour" tabindex="-1" role="dialog" aria-labelledby="floorFour">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<h3 class="modal-title">Fourth Floor</h3>
+	
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+						</div><!--end modal-header-->
+						<div class="modal-body">
+							<img src="{{ '/assets/images/stackmaps/stackmap4.png' | relative_url }}" class="img-fluid">
+						</div><!--end modal-body-->
 
+					</div><!--end modal-content-->
+				</div>
+			</div><!--end modal-->
+				
+	</div><!--end column-->
 
+</div><!--end row-->
 
-	<div class="col-md-8" style="margin-bottom:200px;">
-		<h4>Computer Lab Availability</h4>
-		<p>
-			<a target="_blank" href="http://deskman-licenser.its.uidaho.edu/LabStats/public/MapViewer/MapFull.aspx?MapID=43" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Computer Lab 1st Floor']);">1st Floor </a>
-			|
-			<a target="_blank" href="http://deskman-licenser.its.uidaho.edu/LabStats/public/MapViewer/MapFull.aspx?MapID=42" onclick="_gaq.push(['library._trackEvent', 'Tab Links', 'Click', 'Computer Lab 4th Floor']);">4th Floor </a>
-		</p>
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<section type="button" class="btn btn-default find-button2 " id="first">
-					<h3>First Floor</h3>
-					<img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" class="center"> </section>
-
-				<section type="button" class="btn btn-default find-button2 " id="second">
-					<h3>Second Floor</h3>
-					<img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap2.png" class="center">
-				</section>
-				<section type="button" class="btn btn-default find-button2 " id="third">
-					<h3>Third Floor</h3>
-					<img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap3.png" class="center">
-				</section>
-				<section type="button" class="btn btn-default find-button2 " id="fourth">
-					<h3>Fourth Floor</h3>
-					<img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap4.png" class="center">
-				</section>
-			</div>
-		</div>
-
-
-
-	</div>
-</div>
-										
+											
+											

@@ -15,7 +15,7 @@ about:
   - subsection: Directions and Parking
     link: /about/directions.html
   - subsection: Floor Maps
-    link: maps.html
+    link: /about/maps.html
   - subsection: Giving
     link: /giving/
   - subsection: Hours
@@ -81,15 +81,6 @@ hours:
     link: /about/hours.html#special
   - subsection: Reduced Hours &amp; Closures
     link: /about/hours.html#reduced
-  - subsection: << About
-    link: /about/
-floor maps:
-  - parent: About
-    stub: /about/
-  - subsection: Floor Maps
-    link: /maps.html
-  - subsection: Call Number Information
-    link: /find/lc.html
   - subsection: << About
     link: /about/
 giving:
@@ -457,5 +448,5 @@ copyright guide:
     link: /copyright/guide.html#faq
   - subsection: Acknowledgements
     link: /copyright/guide.html#acknowledgements
-  - subsection: << Services
+  - subsection: Services
     link: /services/
