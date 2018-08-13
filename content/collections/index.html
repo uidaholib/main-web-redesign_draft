@@ -16,45 +16,15 @@ permalink: /collections/
         <div class="col-md-4">
             <div class="card my-2">
                 <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold mb-0"><a href="{{ c.link | absolute_url }}">{{ c.collection }}</a></h5>
+                    <h5 class="card-title font-weight-bold mb-0"><a href="{{ c.link | relative_url }}">{{ c.collection }}</a></h5>
                 </div>
                 <div class="card-body text-center">
-                        <a href="{{ c.link | absolute_url }}"><img class="card-img" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image"></a>
+                        <a href="{{ c.link | relative_url }}"><img class="card-img" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image"></a>
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
-                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue" >View Collection</a>
+                    <a href="{{ c.link | relative_url }}" class="btn btn-payette-blue" >View Collection</a>
                 </div>
             </div>
         </div>
     {% endfor %}
 </div>
-
-
-<!-- original code
----
-title: Collections
-layout: default
-permalink: /collections/ 
---- 
-{% assign collections = site.data.collections-index %}
-<div class="container">
-
-    <h2>Collections</h2>
-
-    <div class="row">
-        {% for c in collections %}
-        <div class="col-md-4 mb-2">
-            <div class="card">
-                <img class="card-img-top" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">{{ c.collection }}</h5>
-                    <p class="card-text">{{ c.description }}</p>
-                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue">View Collection</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-</div>
--->
