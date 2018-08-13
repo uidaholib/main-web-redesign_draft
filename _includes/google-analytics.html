@@ -5,8 +5,9 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  /* load umbrella property with cross domain tracking */
+  /* load umbrella property with enhanced link attribution and cross domain tracking */
   gtag('config', 'UA-76328753-1', {
+    'link_attribution': true,
     'linker': {
       'domains': ['lib.uidaho.edu', 'www.ijc.uidaho.edu', 'vivo.nkn.uidaho.edu', 'inside.uidaho.edu', 'libguides.uidaho.edu', 'digital.lib.uidaho.edu', 'poetry.lib.uidaho.edu', 'journals.lib.uidaho.edu']
     }
