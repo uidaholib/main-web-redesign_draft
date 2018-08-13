@@ -2,7 +2,7 @@
 {% for researcher in researchers %}
 <div class="card mx-auto" id="researcher-{{ researcher.last-name | downcase }}" style="display:none;max-width: 16rem;">
     <a href="{{ researcher.profile-link }}">
-        <img class="card-img-top" src="{{ site.baseurl}}/assets/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg" alt="Card image cap">
     </a>
     <div class="card-body">
         <h4 class="card-title">

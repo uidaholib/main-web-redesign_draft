@@ -158,7 +158,9 @@ find:
     link: http://libguides.uidaho.edu/index.php?
   - subsection: Theses & Dissertations
     link: /find/etds.html
-
+  - subsection: Unique & Archival Material
+    link: /special-collections/searchall.html
+    
 # Help Section
 help:
   - parent: Help
@@ -228,7 +230,7 @@ special collections:
       - name: Tools Index
         url: /special-collections/searchtools.html
       - name: Photo Search
-        url: https://www.lib.uidaho.edu/special-collections/histphoto/
+        url: /special-collections/histphoto/
       - name: Useful Links
         url: /special-collections/usefullinks.html
       - name: Site Search
@@ -337,6 +339,8 @@ services:
         url: /services/oapf/faq.html
   - subsection: Room Reservations
     link: /services/rooms.html
+  - subsection: Special Collections & Archives
+    link: /special-collections/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
