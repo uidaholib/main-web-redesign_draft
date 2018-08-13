@@ -336,7 +336,7 @@ services:
       - name: FAQ
         url: /services/oapf/faq.html
   - subsection: Room Reservations
-    link: /services/rooms/
+    link: /services/rooms.html
   - subsection: Workshops
     link: /services/workshops/
     subpages:
