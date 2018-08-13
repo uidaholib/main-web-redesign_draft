@@ -2,22 +2,17 @@
     <div class="row py-2 align-items-center">
         <!-- logo -->
         <div class="col-9 py-2">
-            <a title="University of Idaho Library" class="" href="{{ '/' | absolute_url }}">
+            <a id="banner-home" title="University of Idaho Library" class="" href="{{ '/' | absolute_url }}">
             <img class="img-fluid lib-logo-lg" src="{{ '/assets/images/ui_library_horizontal.png' | relative_url }}" alt="University of Idaho Library [logo]" ></a>
         </div>
         <!-- quick nav -->
         <div class="col-3 float-right text-right d-none d-md-block">
-             <!-- ask a librarian button -->
-             <button type="button" class="btn btn-lg btn-outline-pride-gold mr-2" data-toggle="modal" data-target="#ask">Ask Us</button>
-
-             
-             
+            <!-- ask a librarian button -->
+            <button type="button" class="btn btn-lg btn-outline-pride-gold mr-2" data-toggle="modal" data-target="#ask">Ask Us</button>
         </div>
         <div class="col-3 float-right text-right d-block d-md-none ">
-                {%include bigdropdown-mobile.html %}
-               
-           </div>
-        
+            {%include bigdropdown-mobile.html %} 
+        </div> 
     </div>
 </div>
 {% include ask-us.html %}
