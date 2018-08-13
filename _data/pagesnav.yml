@@ -356,7 +356,7 @@ services:
 
 # Guide sections
 data management guide:
-  - parent: Data Managment
+  - parent: Data Services
     stub: /services/data/
   - subsection: Intro and Contents
     link: /services/data/data-management/index.html#home
