@@ -1,6 +1,6 @@
 room,type,location,description,img,link
-Lulzbot Mini,3D Printer,MILL,blah blah blah,,https://libcal.uidaho.edu/reserve/3dprinters
-Lulzbot Taz,3D Printer,MILL,blah blah blah,,https://libcal.uidaho.edu/reserve/3dprinters
 First Floor Group Study Rooms,Group Study,First Floor,"The library has several rooms reservable for groups of two to ten people equipped with white boards perfect for your study session.",,https://libcal.uidaho.edu/reserve/first
 First Floor Instruction Room,Group Study,First Floor,"Located on the first floor of the library, the Instruction Room is a space equipped with tables, rolling chairs, and an instructor station with seating for 30 students. This space is perfect for evening workshops, co-curricular groups, and large study groups. This room must be reserved 8 hours in advance.",,https://libcal.uidaho.edu/reserve/instructionroom
 The Studio,A/V Lab,Second Floor,"Located on the 2nd floor of the library, The Studio is UI Library's dedicated audio/video production and editing space. UI students, staff, and faculty can reserve the space between 10 a.m. to 10 p.m. Monday to Friday, and can also check out recording equipment such as video cameras at the Circulation Desk. New users need to make a separate appointment for orientation, to be scheduled between the hours of 8-5 M-F, prior to their first reservation. Visit the <a href='http://libguides.uidaho.edu/thestudio'>Studio Guide</a> for more information",,https://libcal.uidaho.edu/reserve/AV
+Lulzbot Mini,3D Printer,MILL,Reserve the Lulzbot Mini 3-D Printer for smaller jobs.,,https://libcal.uidaho.edu/reserve/3dprinters
+Lulzbot Taz,3D Printer,MILL,Reserve the Lulzbot Taz 3-D Printer for more complex jobs.,,https://libcal.uidaho.edu/reserve/3dprinters

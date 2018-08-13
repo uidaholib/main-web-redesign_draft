@@ -1,0 +1,26 @@
+
+  <div id="banner">
+      <div id="bannertop">
+    <div style="padding-top:10px;">
+	  <div style="float:right;font-family:Georgia, serif;">
+		<a style="font-size:18px;color: #B06048;
+    font-weight: bold;" href="http://www.lib.uidaho.edu/special-collections/index.html">Special Collections & Archives</a>
+		<p style="font-size:12px;margin-top:2px;">For more information, email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>
+          </div>  
+	  <div style="float:left;margin-left:10px;">    
+		
+		  <div style="margin-top:-1px;">
+          <a style="float:left;" href="http://www.lib.uidaho.edu/digital/index.html">  <img style="width:230px;" src="../../bannerlogo_gray_bottom.png" alt="logo"  /></a> <br />
+ <a    href="http://www.lib.uidaho.edu/index.html">           <img style=" margin-left:5px;" src="../../bannerlogo_gray_top.png" alt="logo"  /></a> </div>
+		
+		 </div> 
+		 
+             </div>
+	 </div>
+	 
+     
+      <!-- -->
+	  </div>
+	 <div class="header" style="width:960px; padding:3px 3px;"> 
+	 <h1 style="width:960px; text-align:center; text-decoration:bold;font-family:rockwell;"><a style="color:white;" href="../index.html">HIST PHOTO</a> </h1></div>
+	 <p class="list"><a href=".">List of files</a></p>

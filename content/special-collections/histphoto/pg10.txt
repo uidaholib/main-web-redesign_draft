@@ -1,0 +1,709 @@
+<tr class="r1"><td>10-001</td><td><img style="max-width: 800px;" src="10-001.jpg" /></td><td style="display:none">              31-Aug-2000 10:54   24</td></tr> 
+<tr class="r1"><td>10-002</td><td><img style="max-width: 800px;" src="10-002.jpg" /></td><td style="display:none">              31-Aug-2000 11:07   26</td></tr> 
+<tr class="r1"><td>10-003</td><td><img style="max-width: 800px;" src="10-003.jpg" /></td><td style="display:none">              31-Aug-2000 11:17   50</td></tr> 
+<tr class="r1"><td>10-004</td><td><img style="max-width: 800px;" src="10-004.jpg" /></td><td style="display:none">              31-Aug-2000 11:35   22</td></tr> 
+<tr class="r1"><td>10-006</td><td><img style="max-width: 800px;" src="10-006.jpg" /></td><td style="display:none">              31-Aug-2000 11:41   21</td></tr> 
+
+<tr class="r1"><td>10-007</td><td><img style="max-width: 800px;" src="10-007.jpg" /></td><td style="display:none">              31-Aug-2000 11:54   16</td></tr> 
+<tr class="r1"><td>10-008</td><td><img style="max-width: 800px;" src="10-008.jpg" /></td><td style="display:none">              31-Aug-2000 12:03   20</td></tr> 
+<tr class="r1"><td>10-009</td><td><img style="max-width: 800px;" src="10-009.jpg" /></td><td style="display:none">              31-Aug-2000 12:07   42</td></tr> 
+<tr class="r1"><td>10-010</td><td><img style="max-width: 800px;" src="10-010.jpg" /></td><td style="display:none">              31-Aug-2000 12:11   25</td></tr> 
+<tr class="r1"><td>10-011</td><td><img style="max-width: 800px;" src="10-011.jpg" /></td><td style="display:none">              31-Aug-2000 13:57   38</td></tr> 
+
+<tr class="r1"><td>10-012</td><td><img style="max-width: 800px;" src="10-012.jpg" /></td><td style="display:none">              31-Aug-2000 14:03   25</td></tr> 
+<tr class="r1"><td>10-013</td><td><img style="max-width: 800px;" src="10-013.jpg" /></td><td style="display:none">              31-Aug-2000 14:16   43</td></tr> 
+<tr class="r1"><td>10-015</td><td><img style="max-width: 800px;" src="10-015.jpg" /></td><td style="display:none">              31-Aug-2000 15:02   29</td></tr> 
+<tr class="r1"><td>10-016</td><td><img style="max-width: 800px;" src="10-016.jpg" /></td><td style="display:none">              31-Aug-2000 15:07   28</td></tr> 
+<tr class="r1"><td>10-017</td><td><img style="max-width: 800px;" src="10-017.jpg" /></td><td style="display:none">              31-Aug-2000 15:26   19</td></tr> 
+
+<tr class="r1"><td>10-018</td><td><img style="max-width: 800px;" src="10-018.jpg" /></td><td style="display:none">              31-Aug-2000 15:33   21</td></tr> 
+<tr class="r1"><td>10-019</td><td><img style="max-width: 800px;" src="10-019.jpg" /></td><td style="display:none">              31-Aug-2000 15:37   21</td></tr> 
+<tr class="r1"><td>10-020</td><td><img style="max-width: 800px;" src="10-020.jpg" /></td><td style="display:none">              31-Aug-2000 15:42   23</td></tr> 
+<tr class="r1"><td>10-021</td><td><img style="max-width: 800px;" src="10-021.jpg" /></td><td style="display:none">              31-Aug-2000 15:46   30</td></tr> 
+<tr class="r1"><td>10-022</td><td><img style="max-width: 800px;" src="10-022.jpg" /></td><td style="display:none">              31-Aug-2000 15:50   20</td></tr> 
+
+<tr class="r1"><td>10-023</td><td><img style="max-width: 800px;" src="10-023.jpg" /></td><td style="display:none">              31-Aug-2000 15:54   49</td></tr> 
+<tr class="r1"><td>10-024</td><td><img style="max-width: 800px;" src="10-024.jpg" /></td><td style="display:none">              31-Aug-2000 15:59   54</td></tr> 
+<tr class="r1"><td>10-025</td><td><img style="max-width: 800px;" src="10-025.jpg" /></td><td style="display:none">              31-Aug-2000 16:03   66</td></tr> 
+<tr class="r1"><td>10-026</td><td><img style="max-width: 800px;" src="10-026.jpg" /></td><td style="display:none">              31-Aug-2000 16:06   40</td></tr> 
+<tr class="r1"><td>10-027</td><td><img style="max-width: 800px;" src="10-027.jpg" /></td><td style="display:none">              31-Aug-2000 16:12   33</td></tr> 
+
+<tr class="r1"><td>10-028</td><td><img style="max-width: 800px;" src="10-028.jpg" /></td><td style="display:none">              31-Aug-2000 16:47   29</td></tr> 
+<tr class="r1"><td>10-029</td><td><img style="max-width: 800px;" src="10-029.jpg" /></td><td style="display:none">              31-Aug-2000 16:51   17</td></tr> 
+<tr class="r1"><td>10-030</td><td><img style="max-width: 800px;" src="10-030.jpg" /></td><td style="display:none">              31-Aug-2000 16:55   34</td></tr> 
+<tr class="r1"><td>10-031</td><td><img style="max-width: 800px;" src="10-031.jpg" /></td><td style="display:none">              31-Aug-2000 16:59   43</td></tr> 
+<tr class="r1"><td>10-032</td><td><img style="max-width: 800px;" src="10-032.jpg" /></td><td style="display:none">              31-Aug-2000 17:03   34</td></tr> 
+
+<tr class="r1"><td>10-033</td><td><img style="max-width: 800px;" src="10-033.jpg" /></td><td style="display:none">              31-Aug-2000 17:07   31</td></tr> 
+<tr class="r1"><td>10-034</td><td><img style="max-width: 800px;" src="10-034.jpg" /></td><td style="display:none">              31-Aug-2000 17:10   45</td></tr> 
+<tr class="r1"><td>10-035</td><td><img style="max-width: 800px;" src="10-035.jpg" /></td><td style="display:none">              31-Aug-2000 17:14   34</td></tr> 
+<tr class="r1"><td>10-036</td><td><img style="max-width: 800px;" src="10-036.jpg" /></td><td style="display:none">              31-Aug-2000 17:18   24</td></tr> 
+<tr class="r1"><td>10-037</td><td><img style="max-width: 800px;" src="10-037.jpg" /></td><td style="display:none">              31-Aug-2000 17:21   31</td></tr> 
+
+<tr class="r1"><td>10-038</td><td><img style="max-width: 800px;" src="10-038.jpg" /></td><td style="display:none">              31-Aug-2000 17:26   19</td></tr> 
+<tr class="r1"><td>10-039</td><td><img style="max-width: 800px;" src="10-039.jpg" /></td><td style="display:none">              31-Aug-2000 17:30   24</td></tr> 
+<tr class="r1"><td>10-040</td><td><img style="max-width: 800px;" src="10-040.jpg" /></td><td style="display:none">              31-Aug-2000 17:32   25</td></tr> 
+<tr class="r1"><td>10-042</td><td><img style="max-width: 800px;" src="10-042.jpg" /></td><td style="display:none">              31-Aug-2000 17:36   24</td></tr> 
+<tr class="r1"><td>10-043</td><td><img style="max-width: 800px;" src="10-043.jpg" /></td><td style="display:none">              31-Aug-2000 17:42   30</td></tr> 
+
+<tr class="r1"><td>10-044</td><td><img style="max-width: 800px;" src="10-044.jpg" /></td><td style="display:none">              31-Aug-2000 17:45   30</td></tr> 
+<tr class="r1"><td>10-045</td><td><img style="max-width: 800px;" src="10-045.jpg" /></td><td style="display:none">              31-Aug-2000 17:48   36</td></tr> 
+<tr class="r1"><td>10-046</td><td><img style="max-width: 800px;" src="10-046.jpg" /></td><td style="display:none">              01-Sep-2000 10:07   22</td></tr> 
+<tr class="r1"><td>10-047</td><td><img style="max-width: 800px;" src="10-047.jpg" /></td><td style="display:none">              01-Sep-2000 10:11   21</td></tr> 
+<tr class="r1"><td>10-048</td><td><img style="max-width: 800px;" src="10-048.jpg" /></td><td style="display:none">              01-Sep-2000 10:18   35</td></tr> 
+
+<tr class="r1"><td>10-049</td><td><img style="max-width: 800px;" src="10-049.jpg" /></td><td style="display:none">              01-Sep-2000 10:22   28</td></tr> 
+<tr class="r1"><td>10-050</td><td><img style="max-width: 800px;" src="10-050.jpg" /></td><td style="display:none">              01-Sep-2000 10:58   51</td></tr> 
+<tr class="r1"><td>10-051</td><td><img style="max-width: 800px;" src="10-051.jpg" /></td><td style="display:none">              01-Sep-2000 11:01   38</td></tr> 
+<tr class="r1"><td>10-053</td><td><img style="max-width: 800px;" src="10-053.jpg" /></td><td style="display:none">              01-Sep-2000 11:11   23</td></tr> 
+<tr class="r1"><td>10-054</td><td><img style="max-width: 800px;" src="10-054.jpg" /></td><td style="display:none">              01-Sep-2000 11:15   30</td></tr> 
+
+<tr class="r1"><td>10-055</td><td><img style="max-width: 800px;" src="10-055.jpg" /></td><td style="display:none">              01-Sep-2000 11:19   31</td></tr> 
+<tr class="r1"><td>10-057</td><td><img style="max-width: 800px;" src="10-057.jpg" /></td><td style="display:none">              01-Sep-2000 11:52   15</td></tr> 
+<tr class="r1"><td>10-058</td><td><img style="max-width: 800px;" src="10-058.jpg" /></td><td style="display:none">              01-Sep-2000 11:57   11</td></tr> 
+<tr class="r1"><td>10-059</td><td><img style="max-width: 800px;" src="10-059.jpg" /></td><td style="display:none">              01-Sep-2000 12:00   54</td></tr> 
+<tr class="r1"><td>10-060</td><td><img style="max-width: 800px;" src="10-060.jpg" /></td><td style="display:none">              01-Sep-2000 12:04   33</td></tr> 
+
+<tr class="r1"><td>10-061</td><td><img style="max-width: 800px;" src="10-061.jpg" /></td><td style="display:none">              01-Sep-2000 12:08   30</td></tr> 
+<tr class="r1"><td>10-063</td><td><img style="max-width: 800px;" src="10-063.jpg" /></td><td style="display:none">              01-Sep-2000 12:14   24</td></tr> 
+<tr class="r1"><td>10-065</td><td><img style="max-width: 800px;" src="10-065.jpg" /></td><td style="display:none">              01-Sep-2000 12:20   22</td></tr> 
+<tr class="r1"><td>10-066</td><td><img style="max-width: 800px;" src="10-066.jpg" /></td><td style="display:none">              01-Sep-2000 12:24   16</td></tr> 
+<tr class="r1"><td>10-067</td><td><img style="max-width: 800px;" src="10-067.jpg" /></td><td style="display:none">              01-Sep-2000 12:27   28</td></tr> 
+
+<tr class="r1"><td>10-068</td><td><img style="max-width: 800px;" src="10-068.jpg" /></td><td style="display:none">              01-Sep-2000 12:32   28</td></tr> 
+<tr class="r1"><td>10-069</td><td><img style="max-width: 800px;" src="10-069.jpg" /></td><td style="display:none">              01-Sep-2000 13:54   19</td></tr> 
+<tr class="r1"><td>10-070</td><td><img style="max-width: 800px;" src="10-070.jpg" /></td><td style="display:none">              01-Sep-2000 13:58   30</td></tr> 
+<tr class="r1"><td>10-071</td><td><img style="max-width: 800px;" src="10-071.jpg" /></td><td style="display:none">              01-Sep-2000 14:09   26</td></tr> 
+<tr class="r1"><td>10-072</td><td><img style="max-width: 800px;" src="10-072.jpg" /></td><td style="display:none">              27-Sep-2000 09:37   30</td></tr> 
+
+<tr class="r1"><td>10-073</td><td><img style="max-width: 800px;" src="10-073.jpg" /></td><td style="display:none">              01-Sep-2000 14:17   36</td></tr> 
+<tr class="r1"><td>10-074</td><td><img style="max-width: 800px;" src="10-074.jpg" /></td><td style="display:none">              01-Sep-2000 14:21   29</td></tr> 
+<tr class="r1"><td>10-075</td><td><img style="max-width: 800px;" src="10-075.jpg" /></td><td style="display:none">              01-Sep-2000 14:26   33</td></tr> 
+<tr class="r1"><td>10-076</td><td><img style="max-width: 800px;" src="10-076.jpg" /></td><td style="display:none">              01-Sep-2000 14:32   32</td></tr> 
+<tr class="r1"><td>10-077</td><td><img style="max-width: 800px;" src="10-077.jpg" /></td><td style="display:none">              01-Sep-2000 14:35   27</td></tr> 
+
+<tr class="r1"><td>10-078</td><td><img style="max-width: 800px;" src="10-078.jpg" /></td><td style="display:none">              01-Sep-2000 14:38   32</td></tr> 
+<tr class="r1"><td>10-079</td><td><img style="max-width: 800px;" src="10-079.jpg" /></td><td style="display:none">              01-Sep-2000 14:43   28</td></tr> 
+<tr class="r1"><td>10-080</td><td><img style="max-width: 800px;" src="10-080.jpg" /></td><td style="display:none">              01-Sep-2000 14:47   11</td></tr> 
+<tr class="r1"><td>10-081</td><td><img style="max-width: 800px;" src="10-081.jpg" /></td><td style="display:none">              01-Sep-2000 14:50   32</td></tr> 
+<tr class="r1"><td>10-082</td><td><img style="max-width: 800px;" src="10-082.jpg" /></td><td style="display:none">              01-Sep-2000 14:53   23</td></tr> 
+
+<tr class="r1"><td>10-083</td><td><img style="max-width: 800px;" src="10-083.jpg" /></td><td style="display:none">              01-Sep-2000 16:01   27</td></tr> 
+<tr class="r1"><td>10-085</td><td><img style="max-width: 800px;" src="10-085.jpg" /></td><td style="display:none">              01-Sep-2000 16:07   11</td></tr> 
+<tr class="r1"><td>10-086</td><td><img style="max-width: 800px;" src="10-086.jpg" /></td><td style="display:none">              01-Sep-2000 16:12  7.3</td></tr> 
+<tr class="r1"><td>10-087</td><td><img style="max-width: 800px;" src="10-087.jpg" /></td><td style="display:none">              01-Sep-2000 16:16   24</td></tr> 
+<tr class="r1"><td>10-088</td><td><img style="max-width: 800px;" src="10-088.jpg" /></td><td style="display:none">              01-Sep-2000 16:32   22</td></tr> 
+
+<tr class="r1"><td>10-089</td><td><img style="max-width: 800px;" src="10-089.jpg" /></td><td style="display:none">              01-Sep-2000 16:27   27</td></tr> 
+<tr class="r1"><td>10-090</td><td><img style="max-width: 800px;" src="10-090.jpg" /></td><td style="display:none">              05-Sep-2000 15:24   28</td></tr> 
+<tr class="r1"><td>10-091</td><td><img style="max-width: 800px;" src="10-091.jpg" /></td><td style="display:none">              05-Sep-2000 15:29   26</td></tr> 
+<tr class="r1"><td>10-092</td><td><img style="max-width: 800px;" src="10-092.jpg" /></td><td style="display:none">              05-Sep-2000 15:34   19</td></tr> 
+<tr class="r1"><td>10-093</td><td><img style="max-width: 800px;" src="10-093.jpg" /></td><td style="display:none">              05-Sep-2000 15:42   29</td></tr> 
+
+<tr class="r1"><td>10-094</td><td><img style="max-width: 800px;" src="10-094.jpg" /></td><td style="display:none">              05-Sep-2000 15:48   21</td></tr> 
+<tr class="r1"><td>10-095</td><td><img style="max-width: 800px;" src="10-095.jpg" /></td><td style="display:none">              05-Sep-2000 15:51   12</td></tr> 
+<tr class="r1"><td>10-096</td><td><img style="max-width: 800px;" src="10-096.jpg" /></td><td style="display:none">              05-Sep-2000 15:54   36</td></tr> 
+<tr class="r1"><td>10-097</td><td><img style="max-width: 800px;" src="10-097.jpg" /></td><td style="display:none">              05-Sep-2000 15:58   13</td></tr> 
+<tr class="r1"><td>10-098</td><td><img style="max-width: 800px;" src="10-098.jpg" /></td><td style="display:none">              05-Sep-2000 16:02   52</td></tr> 
+
+<tr class="r1"><td>10-72</td><td><img style="max-width: 800px;" src="10-72.jpg" /></td><td style="display:none">               01-Sep-2000 14:15   23</td></tr> 
+<tr class="r1"><td>10-84</td><td><img style="max-width: 800px;" src="10-84.jpg" /></td><td style="display:none">               01-Sep-2000 16:04  7.2</td></tr> 
+<tr class="r1"><td>10-99</td><td><img style="max-width: 800px;" src="10-99.jpg" /></td><td style="display:none">               05-Sep-2000 16:36   22</td></tr> 
+<tr class="r1"><td>10-100</td><td><img style="max-width: 800px;" src="10-100.jpg" /></td><td style="display:none">              05-Sep-2000 16:39   28</td></tr> 
+<tr class="r1"><td>10-101</td><td><img style="max-width: 800px;" src="10-101.jpg" /></td><td style="display:none">              05-Sep-2000 16:43   13</td></tr> 
+
+<tr class="r1"><td>10-102</td><td><img style="max-width: 800px;" src="10-102.jpg" /></td><td style="display:none">              05-Sep-2000 16:46   13</td></tr> 
+<tr class="r1"><td>10-103</td><td><img style="max-width: 800px;" src="10-103.jpg" /></td><td style="display:none">              05-Sep-2000 16:49   14</td></tr> 
+<tr class="r1"><td>10-104</td><td><img style="max-width: 800px;" src="10-104.jpg" /></td><td style="display:none">              05-Sep-2000 16:52   17</td></tr> 
+<tr class="r1"><td>10-105</td><td><img style="max-width: 800px;" src="10-105.jpg" /></td><td style="display:none">              05-Sep-2000 16:56   30</td></tr> 
+<tr class="r1"><td>10-106</td><td><img style="max-width: 800px;" src="10-106.jpg" /></td><td style="display:none">              05-Sep-2000 16:59   23</td></tr> 
+
+<tr class="r1"><td>10-107</td><td><img style="max-width: 800px;" src="10-107.jpg" /></td><td style="display:none">              05-Sep-2000 17:03   12</td></tr> 
+<tr class="r1"><td>10-108</td><td><img style="max-width: 800px;" src="10-108.jpg" /></td><td style="display:none">              05-Sep-2000 17:05   13</td></tr> 
+<tr class="r1"><td>10-109</td><td><img style="max-width: 800px;" src="10-109.jpg" /></td><td style="display:none">              05-Sep-2000 17:08   17</td></tr> 
+<tr class="r1"><td>10-110</td><td><img style="max-width: 800px;" src="10-110.jpg" /></td><td style="display:none">              05-Sep-2000 17:11   11</td></tr> 
+<tr class="r1"><td>10-111</td><td><img style="max-width: 800px;" src="10-111.jpg" /></td><td style="display:none">              05-Sep-2000 17:15   27</td></tr> 
+
+<tr class="r1"><td>10-112</td><td><img style="max-width: 800px;" src="10-112.jpg" /></td><td style="display:none">              06-Sep-2000 16:56   22</td></tr> 
+<tr class="r1"><td>10-113</td><td><img style="max-width: 800px;" src="10-113.jpg" /></td><td style="display:none">              06-Sep-2000 17:01   24</td></tr> 
+<tr class="r1"><td>10-114</td><td><img style="max-width: 800px;" src="10-114.jpg" /></td><td style="display:none">              06-Sep-2000 17:13   15</td></tr> 
+<tr class="r1"><td>10-115</td><td><img style="max-width: 800px;" src="10-115.jpg" /></td><td style="display:none">              06-Sep-2000 17:16   28</td></tr> 
+<tr class="r1"><td>10-116</td><td><img style="max-width: 800px;" src="10-116.jpg" /></td><td style="display:none">              06-Sep-2000 17:19  9.5</td></tr> 
+
+<tr class="r1"><td>10-117</td><td><img style="max-width: 800px;" src="10-117.jpg" /></td><td style="display:none">              06-Sep-2000 17:22   20</td></tr> 
+<tr class="r1"><td>10-118</td><td><img style="max-width: 800px;" src="10-118.jpg" /></td><td style="display:none">              06-Sep-2000 17:25   35</td></tr> 
+<tr class="r1"><td>10-119</td><td><img style="max-width: 800px;" src="10-119.jpg" /></td><td style="display:none">              06-Sep-2000 17:27   11</td></tr> 
+<tr class="r1"><td>10-120</td><td><img style="max-width: 800px;" src="10-120.jpg" /></td><td style="display:none">              06-Sep-2000 17:30   12</td></tr> 
+<tr class="r1"><td>10-121</td><td><img style="max-width: 800px;" src="10-121.jpg" /></td><td style="display:none">              06-Sep-2000 17:33   17</td></tr> 
+
+<tr class="r1"><td>10-122</td><td><img style="max-width: 800px;" src="10-122.jpg" /></td><td style="display:none">              06-Sep-2000 17:36   29</td></tr> 
+<tr class="r1"><td>10-123</td><td><img style="max-width: 800px;" src="10-123.jpg" /></td><td style="display:none">              06-Sep-2000 17:38   30</td></tr> 
+<tr class="r1"><td>10-124</td><td><img style="max-width: 800px;" src="10-124.jpg" /></td><td style="display:none">              06-Sep-2000 17:40   26</td></tr> 
+<tr class="r1"><td>10-125</td><td><img style="max-width: 800px;" src="10-125.jpg" /></td><td style="display:none">              06-Sep-2000 17:44   21</td></tr> 
+<tr class="r1"><td>10-126</td><td><img style="max-width: 800px;" src="10-126.jpg" /></td><td style="display:none">              06-Sep-2000 17:46   20</td></tr> 
+
+<tr class="r1"><td>10-127</td><td><img style="max-width: 800px;" src="10-127.jpg" /></td><td style="display:none">              06-Sep-2000 17:49   18</td></tr> 
+<tr class="r1"><td>10-128</td><td><img style="max-width: 800px;" src="10-128.jpg" /></td><td style="display:none">              06-Sep-2000 17:52   43</td></tr> 
+<tr class="r1"><td>10-129</td><td><img style="max-width: 800px;" src="10-129.jpg" /></td><td style="display:none">              06-Sep-2000 17:54   29</td></tr> 
+<tr class="r1"><td>10-130</td><td><img style="max-width: 800px;" src="10-130.jpg" /></td><td style="display:none">              07-Sep-2000 14:07   28</td></tr> 
+<tr class="r1"><td>10-131</td><td><img style="max-width: 800px;" src="10-131.jpg" /></td><td style="display:none">              07-Sep-2000 14:10   24</td></tr> 
+
+<tr class="r1"><td>10-132</td><td><img style="max-width: 800px;" src="10-132.jpg" /></td><td style="display:none">              07-Sep-2000 14:13   33</td></tr> 
+<tr class="r1"><td>10-133</td><td><img style="max-width: 800px;" src="10-133.jpg" /></td><td style="display:none">              07-Sep-2000 14:17   49</td></tr> 
+<tr class="r1"><td>10-134</td><td><img style="max-width: 800px;" src="10-134.jpg" /></td><td style="display:none">              07-Sep-2000 14:20   30</td></tr> 
+<tr class="r1"><td>10-135</td><td><img style="max-width: 800px;" src="10-135.jpg" /></td><td style="display:none">              07-Sep-2000 14:23   22</td></tr> 
+<tr class="r1"><td>10-136</td><td><img style="max-width: 800px;" src="10-136.jpg" /></td><td style="display:none">              07-Sep-2000 14:26   19</td></tr> 
+
+<tr class="r1"><td>10-137</td><td><img style="max-width: 800px;" src="10-137.jpg" /></td><td style="display:none">              07-Sep-2000 14:33   61</td></tr> 
+<tr class="r1"><td>10-138</td><td><img style="max-width: 800px;" src="10-138.jpg" /></td><td style="display:none">              07-Sep-2000 14:36   31</td></tr> 
+<tr class="r1"><td>10-139</td><td><img style="max-width: 800px;" src="10-139.jpg" /></td><td style="display:none">              07-Sep-2000 14:38   18</td></tr> 
+<tr class="r1"><td>10-140</td><td><img style="max-width: 800px;" src="10-140.jpg" /></td><td style="display:none">              07-Sep-2000 14:41   20</td></tr> 
+<tr class="r1"><td>10-141</td><td><img style="max-width: 800px;" src="10-141.jpg" /></td><td style="display:none">              07-Sep-2000 14:45   65</td></tr> 
+
+<tr class="r1"><td>10-142</td><td><img style="max-width: 800px;" src="10-142.jpg" /></td><td style="display:none">              07-Sep-2000 14:49   46</td></tr> 
+<tr class="r1"><td>10-143</td><td><img style="max-width: 800px;" src="10-143.jpg" /></td><td style="display:none">              07-Sep-2000 14:52   12</td></tr> 
+<tr class="r1"><td>10-144</td><td><img style="max-width: 800px;" src="10-144.jpg" /></td><td style="display:none">              07-Sep-2000 14:55   49</td></tr> 
+<tr class="r1"><td>10-145</td><td><img style="max-width: 800px;" src="10-145.jpg" /></td><td style="display:none">              07-Sep-2000 14:58   40</td></tr> 
+<tr class="r1"><td>10-146</td><td><img style="max-width: 800px;" src="10-146.jpg" /></td><td style="display:none">              07-Sep-2000 15:06   44</td></tr> 
+
+<tr class="r1"><td>10-147</td><td><img style="max-width: 800px;" src="10-147.jpg" /></td><td style="display:none">              07-Sep-2000 15:11   27</td></tr> 
+<tr class="r1"><td>10-148</td><td><img style="max-width: 800px;" src="10-148.jpg" /></td><td style="display:none">              07-Sep-2000 15:16   33</td></tr> 
+<tr class="r1"><td>10-149</td><td><img style="max-width: 800px;" src="10-149.jpg" /></td><td style="display:none">              07-Sep-2000 15:20   35</td></tr> 
+<tr class="r1"><td>10-150</td><td><img style="max-width: 800px;" src="10-150.jpg" /></td><td style="display:none">              07-Sep-2000 15:24   29</td></tr> 
+<tr class="r1"><td>10-151</td><td><img style="max-width: 800px;" src="10-151.jpg" /></td><td style="display:none">              07-Sep-2000 17:24   56</td></tr> 
+
+<tr class="r1"><td>10-152</td><td><img style="max-width: 800px;" src="10-152.jpg" /></td><td style="display:none">              07-Sep-2000 17:27   24</td></tr> 
+<tr class="r1"><td>10-153</td><td><img style="max-width: 800px;" src="10-153.jpg" /></td><td style="display:none">              07-Sep-2000 17:29   14</td></tr> 
+<tr class="r1"><td>10-154</td><td><img style="max-width: 800px;" src="10-154.jpg" /></td><td style="display:none">              07-Sep-2000 17:32   10</td></tr> 
+<tr class="r1"><td>10-155</td><td><img style="max-width: 800px;" src="10-155.jpg" /></td><td style="display:none">              07-Sep-2000 17:35   15</td></tr> 
+<tr class="r1"><td>10-159</td><td><img style="max-width: 800px;" src="10-159.jpg" /></td><td style="display:none">              07-Sep-2000 17:38   25</td></tr> 
+
+<tr class="r1"><td>10-160</td><td><img style="max-width: 800px;" src="10-160.jpg" /></td><td style="display:none">              07-Sep-2000 17:42   32</td></tr> 
+<tr class="r1"><td>10-161</td><td><img style="max-width: 800px;" src="10-161.jpg" /></td><td style="display:none">              08-Sep-2000 09:49   35</td></tr> 
+<tr class="r1"><td>10-162</td><td><img style="max-width: 800px;" src="10-162.jpg" /></td><td style="display:none">              08-Sep-2000 09:52   16</td></tr> 
+<tr class="r1"><td>10-163</td><td><img style="max-width: 800px;" src="10-163.jpg" /></td><td style="display:none">              08-Sep-2000 09:56   28</td></tr> 
+<tr class="r1"><td>10-164</td><td><img style="max-width: 800px;" src="10-164.jpg" /></td><td style="display:none">              08-Sep-2000 09:59   24</td></tr> 
+
+<tr class="r1"><td>10-165</td><td><img style="max-width: 800px;" src="10-165.jpg" /></td><td style="display:none">              08-Sep-2000 10:03   30</td></tr> 
+<tr class="r1"><td>10-166</td><td><img style="max-width: 800px;" src="10-166.jpg" /></td><td style="display:none">              08-Sep-2000 10:06   35</td></tr> 
+<tr class="r1"><td>10-167</td><td><img style="max-width: 800px;" src="10-167.jpg" /></td><td style="display:none">              08-Sep-2000 10:12   34</td></tr> 
+<tr class="r1"><td>10-168</td><td><img style="max-width: 800px;" src="10-168.jpg" /></td><td style="display:none">              08-Sep-2000 10:15   21</td></tr> 
+<tr class="r1"><td>10-169</td><td><img style="max-width: 800px;" src="10-169.jpg" /></td><td style="display:none">              08-Sep-2000 10:20   14</td></tr> 
+
+<tr class="r1"><td>10-170</td><td><img style="max-width: 800px;" src="10-170.jpg" /></td><td style="display:none">              08-Sep-2000 10:27   32</td></tr> 
+<tr class="r1"><td>10-171</td><td><img style="max-width: 800px;" src="10-171.jpg" /></td><td style="display:none">              08-Sep-2000 10:30   26</td></tr> 
+<tr class="r1"><td>10-172</td><td><img style="max-width: 800px;" src="10-172.jpg" /></td><td style="display:none">              08-Sep-2000 10:34   28</td></tr> 
+<tr class="r1"><td>10-173</td><td><img style="max-width: 800px;" src="10-173.jpg" /></td><td style="display:none">              08-Sep-2000 10:37   24</td></tr> 
+<tr class="r1"><td>10-174</td><td><img style="max-width: 800px;" src="10-174.jpg" /></td><td style="display:none">              08-Sep-2000 10:39   18</td></tr> 
+
+<tr class="r1"><td>10-175</td><td><img style="max-width: 800px;" src="10-175.jpg" /></td><td style="display:none">              08-Sep-2000 10:42   31</td></tr> 
+<tr class="r1"><td>10-176</td><td><img style="max-width: 800px;" src="10-176.jpg" /></td><td style="display:none">              18-Sep-2000 09:33   27</td></tr> 
+<tr class="r1"><td>10-177</td><td><img style="max-width: 800px;" src="10-177.jpg" /></td><td style="display:none">              18-Sep-2000 09:32   28</td></tr> 
+<tr class="r1"><td>10-178</td><td><img style="max-width: 800px;" src="10-178.jpg" /></td><td style="display:none">              18-Sep-2000 09:37   19</td></tr> 
+<tr class="r1"><td>10-179</td><td><img style="max-width: 800px;" src="10-179.jpg" /></td><td style="display:none">              18-Sep-2000 09:41   37</td></tr> 
+
+<tr class="r1"><td>10-180</td><td><img style="max-width: 800px;" src="10-180.jpg" /></td><td style="display:none">              18-Sep-2000 09:44   21</td></tr> 
+<tr class="r1"><td>10-181</td><td><img style="max-width: 800px;" src="10-181.jpg" /></td><td style="display:none">              18-Sep-2000 09:48   23</td></tr> 
+<tr class="r1"><td>10-182</td><td><img style="max-width: 800px;" src="10-182.jpg" /></td><td style="display:none">              18-Sep-2000 09:51   20</td></tr> 
+<tr class="r1"><td>10-183</td><td><img style="max-width: 800px;" src="10-183.jpg" /></td><td style="display:none">              18-Sep-2000 09:55   21</td></tr> 
+<tr class="r1"><td>10-184</td><td><img style="max-width: 800px;" src="10-184.jpg" /></td><td style="display:none">              18-Sep-2000 09:58   21</td></tr> 
+
+<tr class="r1"><td>10-185</td><td><img style="max-width: 800px;" src="10-185.jpg" /></td><td style="display:none">              18-Sep-2000 10:02   50</td></tr> 
+<tr class="r1"><td>10-186</td><td><img style="max-width: 800px;" src="10-186.jpg" /></td><td style="display:none">              18-Sep-2000 10:05   27</td></tr> 
+<tr class="r1"><td>10-187</td><td><img style="max-width: 800px;" src="10-187.jpg" /></td><td style="display:none">              18-Sep-2000 10:08   13</td></tr> 
+<tr class="r1"><td>10-188</td><td><img style="max-width: 800px;" src="10-188.jpg" /></td><td style="display:none">              18-Sep-2000 10:13   29</td></tr> 
+<tr class="r1"><td>10-189</td><td><img style="max-width: 800px;" src="10-189.jpg" /></td><td style="display:none">              18-Sep-2000 10:26   17</td></tr> 
+
+<tr class="r1"><td>10-190</td><td><img style="max-width: 800px;" src="10-190.jpg" /></td><td style="display:none">              18-Sep-2000 10:29   18</td></tr> 
+<tr class="r1"><td>10-191</td><td><img style="max-width: 800px;" src="10-191.jpg" /></td><td style="display:none">              18-Sep-2000 10:33   21</td></tr> 
+<tr class="r1"><td>10-192</td><td><img style="max-width: 800px;" src="10-192.jpg" /></td><td style="display:none">              18-Sep-2000 10:35   53</td></tr> 
+<tr class="r1"><td>10-193</td><td><img style="max-width: 800px;" src="10-193.jpg" /></td><td style="display:none">              18-Sep-2000 10:39   22</td></tr> 
+<tr class="r1"><td>10-194</td><td><img style="max-width: 800px;" src="10-194.jpg" /></td><td style="display:none">              18-Sep-2000 11:00   25</td></tr> 
+
+<tr class="r1"><td>10-195</td><td><img style="max-width: 800px;" src="10-195.jpg" /></td><td style="display:none">              18-Sep-2000 10:57   30</td></tr> 
+<tr class="r1"><td>10-196</td><td><img style="max-width: 800px;" src="10-196.jpg" /></td><td style="display:none">              18-Sep-2000 10:53   53</td></tr> 
+<tr class="r1"><td>10-198</td><td><img style="max-width: 800px;" src="10-198.jpg" /></td><td style="display:none">              18-Sep-2000 11:03   55</td></tr> 
+<tr class="r1"><td>10-199</td><td><img style="max-width: 800px;" src="10-199.jpg" /></td><td style="display:none">              18-Sep-2000 11:08   18</td></tr> 
+<tr class="r1"><td>10-200</td><td><img style="max-width: 800px;" src="10-200.jpg" /></td><td style="display:none">              18-Sep-2000 11:50   25</td></tr> 
+
+<tr class="r1"><td>10-201</td><td><img style="max-width: 800px;" src="10-201.jpg" /></td><td style="display:none">              18-Sep-2000 11:53   12</td></tr> 
+<tr class="r1"><td>10-202</td><td><img style="max-width: 800px;" src="10-202.jpg" /></td><td style="display:none">              18-Sep-2000 11:56   25</td></tr> 
+<tr class="r1"><td>10-203</td><td><img style="max-width: 800px;" src="10-203.jpg" /></td><td style="display:none">              18-Sep-2000 12:01   40</td></tr> 
+<tr class="r1"><td>10-204</td><td><img style="max-width: 800px;" src="10-204.jpg" /></td><td style="display:none">              18-Sep-2000 12:04   13</td></tr> 
+<tr class="r1"><td>10-205</td><td><img style="max-width: 800px;" src="10-205.jpg" /></td><td style="display:none">              18-Sep-2000 12:07   46</td></tr> 
+
+<tr class="r1"><td>10-206</td><td><img style="max-width: 800px;" src="10-206.jpg" /></td><td style="display:none">              18-Sep-2000 12:11   32</td></tr> 
+<tr class="r1"><td>10-207</td><td><img style="max-width: 800px;" src="10-207.jpg" /></td><td style="display:none">              18-Sep-2000 12:14   41</td></tr> 
+<tr class="r1"><td>10-208</td><td><img style="max-width: 800px;" src="10-208.jpg" /></td><td style="display:none">              18-Sep-2000 12:16   32</td></tr> 
+<tr class="r1"><td>10-209</td><td><img style="max-width: 800px;" src="10-209.jpg" /></td><td style="display:none">              18-Sep-2000 12:19   25</td></tr> 
+<tr class="r1"><td>10-210</td><td><img style="max-width: 800px;" src="10-210.jpg" /></td><td style="display:none">              18-Sep-2000 12:22   47</td></tr> 
+
+<tr class="r1"><td>10-211</td><td><img style="max-width: 800px;" src="10-211.jpg" /></td><td style="display:none">              18-Sep-2000 12:25   23</td></tr> 
+<tr class="r1"><td>10-212</td><td><img style="max-width: 800px;" src="10-212.jpg" /></td><td style="display:none">              18-Sep-2000 12:27   14</td></tr> 
+<tr class="r1"><td>10-213</td><td><img style="max-width: 800px;" src="10-213.jpg" /></td><td style="display:none">              18-Sep-2000 12:29   18</td></tr> 
+<tr class="r1"><td>10-214</td><td><img style="max-width: 800px;" src="10-214.jpg" /></td><td style="display:none">              18-Sep-2000 12:32   26</td></tr> 
+<tr class="r1"><td>10-215</td><td><img style="max-width: 800px;" src="10-215.jpg" /></td><td style="display:none">              18-Sep-2000 12:36   37</td></tr> 
+
+<tr class="r1"><td>10-216</td><td><img style="max-width: 800px;" src="10-216.jpg" /></td><td style="display:none">              20-Sep-2000 13:51   42</td></tr> 
+<tr class="r1"><td>10-217</td><td><img style="max-width: 800px;" src="10-217.jpg" /></td><td style="display:none">              20-Sep-2000 13:56   48</td></tr> 
+<tr class="r1"><td>10-218</td><td><img style="max-width: 800px;" src="10-218.jpg" /></td><td style="display:none">              20-Sep-2000 14:00   22</td></tr> 
+<tr class="r1"><td>10-219</td><td><img style="max-width: 800px;" src="10-219.jpg" /></td><td style="display:none">              20-Sep-2000 14:03   30</td></tr> 
+<tr class="r1"><td>10-220</td><td><img style="max-width: 800px;" src="10-220.jpg" /></td><td style="display:none">              20-Sep-2000 14:06   43</td></tr> 
+
+<tr class="r1"><td>10-221</td><td><img style="max-width: 800px;" src="10-221.jpg" /></td><td style="display:none">              20-Sep-2000 14:08   13</td></tr> 
+<tr class="r1"><td>10-222</td><td><img style="max-width: 800px;" src="10-222.jpg" /></td><td style="display:none">              20-Sep-2000 14:11   15</td></tr> 
+<tr class="r1"><td>10-223</td><td><img style="max-width: 800px;" src="10-223.jpg" /></td><td style="display:none">              20-Sep-2000 14:14   29</td></tr> 
+<tr class="r1"><td>10-224</td><td><img style="max-width: 800px;" src="10-224.jpg" /></td><td style="display:none">              20-Sep-2000 14:24   64</td></tr> 
+<tr class="r1"><td>10-225</td><td><img style="max-width: 800px;" src="10-225.jpg" /></td><td style="display:none">              20-Sep-2000 14:36   15</td></tr> 
+
+<tr class="r1"><td>10-226</td><td><img style="max-width: 800px;" src="10-226.jpg" /></td><td style="display:none">              20-Sep-2000 14:40   22</td></tr> 
+<tr class="r1"><td>10-227</td><td><img style="max-width: 800px;" src="10-227.jpg" /></td><td style="display:none">              20-Sep-2000 14:42   14</td></tr> 
+<tr class="r1"><td>10-228</td><td><img style="max-width: 800px;" src="10-228.jpg" /></td><td style="display:none">              20-Sep-2000 14:45   12</td></tr> 
+<tr class="r1"><td>10-229</td><td><img style="max-width: 800px;" src="10-229.jpg" /></td><td style="display:none">              20-Sep-2000 14:52   12</td></tr> 
+<tr class="r1"><td>10-230</td><td><img style="max-width: 800px;" src="10-230.jpg" /></td><td style="display:none">              20-Sep-2000 15:00   15</td></tr> 
+
+<tr class="r1"><td>10-231</td><td><img style="max-width: 800px;" src="10-231.jpg" /></td><td style="display:none">              20-Sep-2000 15:04   16</td></tr> 
+<tr class="r1"><td>10-232</td><td><img style="max-width: 800px;" src="10-232.jpg" /></td><td style="display:none">              20-Sep-2000 15:09   27</td></tr> 
+<tr class="r1"><td>10-233</td><td><img style="max-width: 800px;" src="10-233.jpg" /></td><td style="display:none">              20-Sep-2000 15:11   12</td></tr> 
+<tr class="r1"><td>10-234</td><td><img style="max-width: 800px;" src="10-234.jpg" /></td><td style="display:none">              20-Sep-2000 15:16   64</td></tr> 
+<tr class="r1"><td>10-235</td><td><img style="max-width: 800px;" src="10-235.jpg" /></td><td style="display:none">              20-Sep-2000 15:19   10</td></tr> 
+
+<tr class="r1"><td>10-236</td><td><img style="max-width: 800px;" src="10-236.jpg" /></td><td style="display:none">              20-Sep-2000 15:22   40</td></tr> 
+<tr class="r1"><td>10-237</td><td><img style="max-width: 800px;" src="10-237.jpg" /></td><td style="display:none">              20-Sep-2000 15:25   34</td></tr> 
+<tr class="r1"><td>10-238</td><td><img style="max-width: 800px;" src="10-238.jpg" /></td><td style="display:none">              20-Sep-2000 15:28   18</td></tr> 
+<tr class="r1"><td>10-239</td><td><img style="max-width: 800px;" src="10-239.jpg" /></td><td style="display:none">              20-Sep-2000 15:31   23</td></tr> 
+<tr class="r1"><td>10-240</td><td><img style="max-width: 800px;" src="10-240.jpg" /></td><td style="display:none">              20-Sep-2000 15:35   20</td></tr> 
+
+<tr class="r1"><td>10-241</td><td><img style="max-width: 800px;" src="10-241.jpg" /></td><td style="display:none">              20-Sep-2000 15:39  8.3</td></tr> 
+<tr class="r1"><td>10-242</td><td><img style="max-width: 800px;" src="10-242.jpg" /></td><td style="display:none">              20-Sep-2000 15:43   15</td></tr> 
+<tr class="r1"><td>10-243</td><td><img style="max-width: 800px;" src="10-243.jpg" /></td><td style="display:none">              20-Sep-2000 15:47   13</td></tr> 
+<tr class="r1"><td>10-244</td><td><img style="max-width: 800px;" src="10-244.jpg" /></td><td style="display:none">              20-Sep-2000 15:51   26</td></tr> 
+<tr class="r1"><td>10-245</td><td><img style="max-width: 800px;" src="10-245.jpg" /></td><td style="display:none">              20-Sep-2000 15:54   14</td></tr> 
+
+<tr class="r1"><td>10-246</td><td><img style="max-width: 800px;" src="10-246.jpg" /></td><td style="display:none">              20-Sep-2000 15:59   22</td></tr> 
+<tr class="r1"><td>10-247</td><td><img style="max-width: 800px;" src="10-247.jpg" /></td><td style="display:none">              20-Sep-2000 16:37   21</td></tr> 
+<tr class="r1"><td>10-248</td><td><img style="max-width: 800px;" src="10-248.jpg" /></td><td style="display:none">              20-Sep-2000 16:41   26</td></tr> 
+<tr class="r1"><td>10-249</td><td><img style="max-width: 800px;" src="10-249.jpg" /></td><td style="display:none">              20-Sep-2000 16:43   20</td></tr> 
+<tr class="r1"><td>10-250</td><td><img style="max-width: 800px;" src="10-250.jpg" /></td><td style="display:none">              21-Sep-2000 09:11   28</td></tr> 
+
+<tr class="r1"><td>10-251</td><td><img style="max-width: 800px;" src="10-251.jpg" /></td><td style="display:none">              21-Sep-2000 09:14   15</td></tr> 
+<tr class="r1"><td>10-252</td><td><img style="max-width: 800px;" src="10-252.jpg" /></td><td style="display:none">              21-Sep-2000 09:21   18</td></tr> 
+<tr class="r1"><td>10-253</td><td><img style="max-width: 800px;" src="10-253.jpg" /></td><td style="display:none">              21-Sep-2000 09:28   11</td></tr> 
+<tr class="r1"><td>10-254</td><td><img style="max-width: 800px;" src="10-254.jpg" /></td><td style="display:none">              21-Sep-2000 09:33   20</td></tr> 
+<tr class="r1"><td>10-255</td><td><img style="max-width: 800px;" src="10-255.jpg" /></td><td style="display:none">              21-Sep-2000 09:36   15</td></tr> 
+
+<tr class="r1"><td>10-256</td><td><img style="max-width: 800px;" src="10-256.jpg" /></td><td style="display:none">              21-Sep-2000 09:43   27</td></tr> 
+<tr class="r1"><td>10-257</td><td><img style="max-width: 800px;" src="10-257.jpg" /></td><td style="display:none">              21-Sep-2000 09:47   23</td></tr> 
+<tr class="r1"><td>10-258</td><td><img style="max-width: 800px;" src="10-258.jpg" /></td><td style="display:none">              21-Sep-2000 09:52   21</td></tr> 
+<tr class="r1"><td>10-262</td><td><img style="max-width: 800px;" src="10-262.jpg" /></td><td style="display:none">              21-Sep-2000 09:57   12</td></tr> 
+<tr class="r1"><td>10-263</td><td><img style="max-width: 800px;" src="10-263.jpg" /></td><td style="display:none">              21-Sep-2000 10:00   24</td></tr> 
+
+<tr class="r1"><td>10-264</td><td><img style="max-width: 800px;" src="10-264.jpg" /></td><td style="display:none">              21-Sep-2000 10:04   37</td></tr> 
+<tr class="r1"><td>10-265</td><td><img style="max-width: 800px;" src="10-265.jpg" /></td><td style="display:none">              21-Sep-2000 10:06   20</td></tr> 
+<tr class="r1"><td>10-266</td><td><img style="max-width: 800px;" src="10-266.jpg" /></td><td style="display:none">              21-Sep-2000 10:13   20</td></tr> 
+<tr class="r1"><td>10-267</td><td><img style="max-width: 800px;" src="10-267.jpg" /></td><td style="display:none">              21-Sep-2000 10:21   16</td></tr> 
+<tr class="r1"><td>10-268</td><td><img style="max-width: 800px;" src="10-268.jpg" /></td><td style="display:none">              21-Sep-2000 10:30   15</td></tr> 
+
+<tr class="r1"><td>10-269</td><td><img style="max-width: 800px;" src="10-269.jpg" /></td><td style="display:none">              21-Sep-2000 10:37   14</td></tr> 
+<tr class="r1"><td>10-270</td><td><img style="max-width: 800px;" src="10-270.jpg" /></td><td style="display:none">              21-Sep-2000 10:40   13</td></tr> 
+<tr class="r1"><td>10-271</td><td><img style="max-width: 800px;" src="10-271.jpg" /></td><td style="display:none">              21-Sep-2000 10:42   14</td></tr> 
+<tr class="r1"><td>10-272</td><td><img style="max-width: 800px;" src="10-272.jpg" /></td><td style="display:none">              21-Sep-2000 10:58   23</td></tr> 
+<tr class="r1"><td>10-273</td><td><img style="max-width: 800px;" src="10-273.jpg" /></td><td style="display:none">              21-Sep-2000 11:01   22</td></tr> 
+
+<tr class="r1"><td>10-274</td><td><img style="max-width: 800px;" src="10-274.jpg" /></td><td style="display:none">              21-Sep-2000 11:35   22</td></tr> 
+<tr class="r1"><td>10-275</td><td><img style="max-width: 800px;" src="10-275.jpg" /></td><td style="display:none">              21-Sep-2000 11:38   10</td></tr> 
+<tr class="r1"><td>10-276</td><td><img style="max-width: 800px;" src="10-276.jpg" /></td><td style="display:none">              21-Sep-2000 11:43   13</td></tr> 
+<tr class="r1"><td>10-277</td><td><img style="max-width: 800px;" src="10-277.jpg" /></td><td style="display:none">              21-Sep-2000 11:46   20</td></tr> 
+<tr class="r1"><td>10-278</td><td><img style="max-width: 800px;" src="10-278.jpg" /></td><td style="display:none">              21-Sep-2000 11:52   12</td></tr> 
+
+<tr class="r1"><td>10-279</td><td><img style="max-width: 800px;" src="10-279.jpg" /></td><td style="display:none">              21-Sep-2000 11:55   14</td></tr> 
+<tr class="r1"><td>10-280</td><td><img style="max-width: 800px;" src="10-280.jpg" /></td><td style="display:none">              21-Sep-2000 11:58   23</td></tr> 
+<tr class="r1"><td>10-281</td><td><img style="max-width: 800px;" src="10-281.jpg" /></td><td style="display:none">              21-Sep-2000 12:02   12</td></tr> 
+<tr class="r1"><td>10-282</td><td><img style="max-width: 800px;" src="10-282.jpg" /></td><td style="display:none">              21-Sep-2000 12:05   15</td></tr> 
+<tr class="r1"><td>10-283</td><td><img style="max-width: 800px;" src="10-283.jpg" /></td><td style="display:none">              21-Sep-2000 12:08   35</td></tr> 
+
+<tr class="r1"><td>10-284</td><td><img style="max-width: 800px;" src="10-284.jpg" /></td><td style="display:none">              21-Sep-2000 12:11   31</td></tr> 
+<tr class="r1"><td>10-285</td><td><img style="max-width: 800px;" src="10-285.jpg" /></td><td style="display:none">              21-Sep-2000 12:15   24</td></tr> 
+<tr class="r1"><td>10-286</td><td><img style="max-width: 800px;" src="10-286.jpg" /></td><td style="display:none">              21-Sep-2000 12:18   19</td></tr> 
+<tr class="r1"><td>10-287</td><td><img style="max-width: 800px;" src="10-287.jpg" /></td><td style="display:none">              21-Sep-2000 12:21   23</td></tr> 
+<tr class="r1"><td>10-288</td><td><img style="max-width: 800px;" src="10-288.jpg" /></td><td style="display:none">              21-Sep-2000 12:24   29</td></tr> 
+
+<tr class="r1"><td>10-289</td><td><img style="max-width: 800px;" src="10-289.jpg" /></td><td style="display:none">              21-Sep-2000 12:28   25</td></tr> 
+<tr class="r1"><td>10-290</td><td><img style="max-width: 800px;" src="10-290.jpg" /></td><td style="display:none">              21-Sep-2000 12:31   29</td></tr> 
+<tr class="r1"><td>10-291</td><td><img style="max-width: 800px;" src="10-291.jpg" /></td><td style="display:none">              21-Sep-2000 13:48   19</td></tr> 
+<tr class="r1"><td>10-292</td><td><img style="max-width: 800px;" src="10-292.jpg" /></td><td style="display:none">              21-Sep-2000 13:52   20</td></tr> 
+<tr class="r1"><td>10-293</td><td><img style="max-width: 800px;" src="10-293.jpg" /></td><td style="display:none">              21-Sep-2000 14:04   19</td></tr> 
+
+<tr class="r1"><td>10-294</td><td><img style="max-width: 800px;" src="10-294.jpg" /></td><td style="display:none">              21-Sep-2000 14:06   16</td></tr> 
+<tr class="r1"><td>10-295</td><td><img style="max-width: 800px;" src="10-295.jpg" /></td><td style="display:none">              21-Sep-2000 14:09   22</td></tr> 
+<tr class="r1"><td>10-296</td><td><img style="max-width: 800px;" src="10-296.jpg" /></td><td style="display:none">              21-Sep-2000 14:13   15</td></tr> 
+<tr class="r1"><td>10-297</td><td><img style="max-width: 800px;" src="10-297.jpg" /></td><td style="display:none">              21-Sep-2000 14:18   16</td></tr> 
+<tr class="r1"><td>10-298</td><td><img style="max-width: 800px;" src="10-298.jpg" /></td><td style="display:none">              21-Sep-2000 14:21   17</td></tr> 
+
+<tr class="r1"><td>10-299</td><td><img style="max-width: 800px;" src="10-299.jpg" /></td><td style="display:none">              21-Sep-2000 14:25   16</td></tr> 
+<tr class="r1"><td>10-300</td><td><img style="max-width: 800px;" src="10-300.jpg" /></td><td style="display:none">              21-Sep-2000 15:44   13</td></tr> 
+<tr class="r1"><td>10-301</td><td><img style="max-width: 800px;" src="10-301.jpg" /></td><td style="display:none">              21-Sep-2000 15:47   17</td></tr> 
+<tr class="r1"><td>10-302</td><td><img style="max-width: 800px;" src="10-302.jpg" /></td><td style="display:none">              21-Sep-2000 15:49   11</td></tr> 
+<tr class="r1"><td>10-303</td><td><img style="max-width: 800px;" src="10-303.jpg" /></td><td style="display:none">              21-Sep-2000 15:51   20</td></tr> 
+
+<tr class="r1"><td>10-304</td><td><img style="max-width: 800px;" src="10-304.jpg" /></td><td style="display:none">              21-Sep-2000 15:54   20</td></tr> 
+<tr class="r1"><td>10-305</td><td><img style="max-width: 800px;" src="10-305.jpg" /></td><td style="display:none">              21-Sep-2000 15:56   12</td></tr> 
+<tr class="r1"><td>10-306</td><td><img style="max-width: 800px;" src="10-306.jpg" /></td><td style="display:none">              21-Sep-2000 15:58   15</td></tr> 
+<tr class="r1"><td>10-307</td><td><img style="max-width: 800px;" src="10-307.jpg" /></td><td style="display:none">              21-Sep-2000 16:01   16</td></tr> 
+<tr class="r1"><td>10-308</td><td><img style="max-width: 800px;" src="10-308.jpg" /></td><td style="display:none">              21-Sep-2000 16:04   21</td></tr> 
+
+<tr class="r1"><td>10-309</td><td><img style="max-width: 800px;" src="10-309.jpg" /></td><td style="display:none">              21-Sep-2000 16:08   23</td></tr> 
+<tr class="r1"><td>10-310</td><td><img style="max-width: 800px;" src="10-310.jpg" /></td><td style="display:none">              21-Sep-2000 16:10   14</td></tr> 
+<tr class="r1"><td>10-311</td><td><img style="max-width: 800px;" src="10-311.jpg" /></td><td style="display:none">              21-Sep-2000 16:12   13</td></tr> 
+<tr class="r1"><td>10-312</td><td><img style="max-width: 800px;" src="10-312.jpg" /></td><td style="display:none">              21-Sep-2000 16:15   30</td></tr> 
+<tr class="r1"><td>10-313</td><td><img style="max-width: 800px;" src="10-313.jpg" /></td><td style="display:none">              21-Sep-2000 16:18   15</td></tr> 
+
+<tr class="r1"><td>10-314</td><td><img style="max-width: 800px;" src="10-314.jpg" /></td><td style="display:none">              21-Sep-2000 17:02   35</td></tr> 
+<tr class="r1"><td>10-315</td><td><img style="max-width: 800px;" src="10-315.jpg" /></td><td style="display:none">              21-Sep-2000 17:05   13</td></tr> 
+<tr class="r1"><td>10-316</td><td><img style="max-width: 800px;" src="10-316.jpg" /></td><td style="display:none">              21-Sep-2000 17:07   14</td></tr> 
+<tr class="r1"><td>10-317</td><td><img style="max-width: 800px;" src="10-317.jpg" /></td><td style="display:none">              21-Sep-2000 17:09   20</td></tr> 
+<tr class="r1"><td>10-318</td><td><img style="max-width: 800px;" src="10-318.jpg" /></td><td style="display:none">              21-Sep-2000 17:12   18</td></tr> 
+
+<tr class="r1"><td>10-319</td><td><img style="max-width: 800px;" src="10-319.jpg" /></td><td style="display:none">              21-Sep-2000 17:16   45</td></tr> 
+<tr class="r1"><td>10-320</td><td><img style="max-width: 800px;" src="10-320.jpg" /></td><td style="display:none">              21-Sep-2000 17:20   31</td></tr> 
+<tr class="r1"><td>10-321</td><td><img style="max-width: 800px;" src="10-321.jpg" /></td><td style="display:none">              21-Sep-2000 17:22   21</td></tr> 
+<tr class="r1"><td>10-322</td><td><img style="max-width: 800px;" src="10-322.jpg" /></td><td style="display:none">              21-Sep-2000 17:29   13</td></tr> 
+<tr class="r1"><td>10-323</td><td><img style="max-width: 800px;" src="10-323.jpg" /></td><td style="display:none">              21-Sep-2000 17:29   26</td></tr> 
+
+<tr class="r1"><td>10-324</td><td><img style="max-width: 800px;" src="10-324.jpg" /></td><td style="display:none">              21-Sep-2000 17:32   17</td></tr> 
+<tr class="r1"><td>10-325</td><td><img style="max-width: 800px;" src="10-325.jpg" /></td><td style="display:none">              21-Sep-2000 17:34   19</td></tr> 
+<tr class="r1"><td>10-326</td><td><img style="max-width: 800px;" src="10-326.jpg" /></td><td style="display:none">              21-Sep-2000 17:38   31</td></tr> 
+<tr class="r1"><td>10-327</td><td><img style="max-width: 800px;" src="10-327.jpg" /></td><td style="display:none">              21-Sep-2000 17:41   28</td></tr> 
+<tr class="r1"><td>10-328</td><td><img style="max-width: 800px;" src="10-328.jpg" /></td><td style="display:none">              21-Sep-2000 17:43   39</td></tr> 
+
+<tr class="r1"><td>10-329</td><td><img style="max-width: 800px;" src="10-329.jpg" /></td><td style="display:none">              21-Sep-2000 17:46   20</td></tr> 
+<tr class="r1"><td>10-330</td><td><img style="max-width: 800px;" src="10-330.jpg" /></td><td style="display:none">              27-Sep-2000 09:44   28</td></tr> 
+<tr class="r1"><td>10-331</td><td><img style="max-width: 800px;" src="10-331.jpg" /></td><td style="display:none">              27-Sep-2000 09:58   22</td></tr> 
+<tr class="r1"><td>10-332</td><td><img style="max-width: 800px;" src="10-332.jpg" /></td><td style="display:none">              27-Sep-2000 10:01   14</td></tr> 
+<tr class="r1"><td>10-333</td><td><img style="max-width: 800px;" src="10-333.jpg" /></td><td style="display:none">              27-Sep-2000 10:05   20</td></tr> 
+
+<tr class="r1"><td>10-334</td><td><img style="max-width: 800px;" src="10-334.jpg" /></td><td style="display:none">              27-Sep-2000 10:09   34</td></tr> 
+<tr class="r1"><td>10-335</td><td><img style="max-width: 800px;" src="10-335.jpg" /></td><td style="display:none">              27-Sep-2000 10:13   24</td></tr> 
+<tr class="r1"><td>10-336</td><td><img style="max-width: 800px;" src="10-336.jpg" /></td><td style="display:none">              27-Sep-2000 10:18   29</td></tr> 
+<tr class="r1"><td>10-337</td><td><img style="max-width: 800px;" src="10-337.jpg" /></td><td style="display:none">              27-Sep-2000 10:20   14</td></tr> 
+<tr class="r1"><td>10-338</td><td><img style="max-width: 800px;" src="10-338.jpg" /></td><td style="display:none">              27-Sep-2000 10:24   30</td></tr> 
+
+<tr class="r1"><td>10-339</td><td><img style="max-width: 800px;" src="10-339.jpg" /></td><td style="display:none">              27-Sep-2000 10:29   29</td></tr> 
+<tr class="r1"><td>10-340</td><td><img style="max-width: 800px;" src="10-340.jpg" /></td><td style="display:none">              27-Sep-2000 10:37   32</td></tr> 
+<tr class="r1"><td>10-341</td><td><img style="max-width: 800px;" src="10-341.jpg" /></td><td style="display:none">              27-Sep-2000 10:40   24</td></tr> 
+<tr class="r1"><td>10-342</td><td><img style="max-width: 800px;" src="10-342.jpg" /></td><td style="display:none">              27-Sep-2000 10:43   17</td></tr> 
+<tr class="r1"><td>10-343</td><td><img style="max-width: 800px;" src="10-343.jpg" /></td><td style="display:none">              27-Sep-2000 10:46   13</td></tr> 
+
+<tr class="r1"><td>10-344</td><td><img style="max-width: 800px;" src="10-344.jpg" /></td><td style="display:none">              27-Sep-2000 10:48   12</td></tr> 
+<tr class="r1"><td>10-345</td><td><img style="max-width: 800px;" src="10-345.jpg" /></td><td style="display:none">              27-Sep-2000 10:52   24</td></tr> 
+<tr class="r1"><td>10-346</td><td><img style="max-width: 800px;" src="10-346.jpg" /></td><td style="display:none">              27-Sep-2000 10:58   12</td></tr> 
+<tr class="r1"><td>10-347</td><td><img style="max-width: 800px;" src="10-347.jpg" /></td><td style="display:none">              27-Sep-2000 11:01   30</td></tr> 
+<tr class="r1"><td>10-348</td><td><img style="max-width: 800px;" src="10-348.jpg" /></td><td style="display:none">              27-Sep-2000 11:03   16</td></tr> 
+
+<tr class="r1"><td>10-349</td><td><img style="max-width: 800px;" src="10-349.jpg" /></td><td style="display:none">              27-Sep-2000 11:35   17</td></tr> 
+<tr class="r1"><td>10-350</td><td><img style="max-width: 800px;" src="10-350.jpg" /></td><td style="display:none">              27-Sep-2000 11:39   18</td></tr> 
+<tr class="r1"><td>10-351</td><td><img style="max-width: 800px;" src="10-351.jpg" /></td><td style="display:none">              27-Sep-2000 11:43   24</td></tr> 
+<tr class="r1"><td>10-352</td><td><img style="max-width: 800px;" src="10-352.jpg" /></td><td style="display:none">              27-Sep-2000 11:46   19</td></tr> 
+<tr class="r1"><td>10-353</td><td><img style="max-width: 800px;" src="10-353.jpg" /></td><td style="display:none">              27-Sep-2000 11:49   27</td></tr> 
+
+<tr class="r1"><td>10-354</td><td><img style="max-width: 800px;" src="10-354.jpg" /></td><td style="display:none">              27-Sep-2000 11:55   35</td></tr> 
+<tr class="r1"><td>10-355</td><td><img style="max-width: 800px;" src="10-355.jpg" /></td><td style="display:none">              27-Sep-2000 12:00   11</td></tr> 
+<tr class="r1"><td>10-356</td><td><img style="max-width: 800px;" src="10-356.jpg" /></td><td style="display:none">              27-Sep-2000 12:04   84</td></tr> 
+<tr class="r1"><td>10-357</td><td><img style="max-width: 800px;" src="10-357.jpg" /></td><td style="display:none">              27-Sep-2000 12:11  117</td></tr> 
+<tr class="r1"><td>10-358</td><td><img style="max-width: 800px;" src="10-358.jpg" /></td><td style="display:none">              27-Sep-2000 12:17   12</td></tr> 
+
+<tr class="r1"><td>10-359</td><td><img style="max-width: 800px;" src="10-359.jpg" /></td><td style="display:none">              27-Sep-2000 12:19   18</td></tr> 
+<tr class="r1"><td>10-360</td><td><img style="max-width: 800px;" src="10-360.jpg" /></td><td style="display:none">              27-Sep-2000 12:22   15</td></tr> 
+<tr class="r1"><td>10-361</td><td><img style="max-width: 800px;" src="10-361.jpg" /></td><td style="display:none">              27-Sep-2000 13:50   22</td></tr> 
+<tr class="r1"><td>10-362</td><td><img style="max-width: 800px;" src="10-362.jpg" /></td><td style="display:none">              27-Sep-2000 13:53   14</td></tr> 
+<tr class="r1"><td>10-363</td><td><img style="max-width: 800px;" src="10-363.jpg" /></td><td style="display:none">              27-Sep-2000 13:56   25</td></tr> 
+
+<tr class="r1"><td>10-364</td><td><img style="max-width: 800px;" src="10-364.jpg" /></td><td style="display:none">              27-Sep-2000 14:02   24</td></tr> 
+<tr class="r1"><td>10-365</td><td><img style="max-width: 800px;" src="10-365.jpg" /></td><td style="display:none">              27-Sep-2000 14:07   20</td></tr> 
+<tr class="r1"><td>10-366</td><td><img style="max-width: 800px;" src="10-366.jpg" /></td><td style="display:none">              27-Sep-2000 14:12   32</td></tr> 
+<tr class="r1"><td>10-367</td><td><img style="max-width: 800px;" src="10-367.jpg" /></td><td style="display:none">              27-Sep-2000 14:21   78</td></tr> 
+<tr class="r1"><td>10-368</td><td><img style="max-width: 800px;" src="10-368.jpg" /></td><td style="display:none">              27-Sep-2000 14:26   49</td></tr> 
+
+<tr class="r1"><td>10-369</td><td><img style="max-width: 800px;" src="10-369.jpg" /></td><td style="display:none">              27-Sep-2000 14:32   20</td></tr> 
+<tr class="r1"><td>10-370</td><td><img style="max-width: 800px;" src="10-370.jpg" /></td><td style="display:none">              27-Sep-2000 14:37   17</td></tr> 
+<tr class="r1"><td>10-371</td><td><img style="max-width: 800px;" src="10-371.jpg" /></td><td style="display:none">              27-Sep-2000 14:41   45</td></tr> 
+<tr class="r1"><td>10-372</td><td><img style="max-width: 800px;" src="10-372.jpg" /></td><td style="display:none">              27-Sep-2000 14:53   26</td></tr> 
+<tr class="r1"><td>10-373</td><td><img style="max-width: 800px;" src="10-373.jpg" /></td><td style="display:none">              27-Sep-2000 15:02   34</td></tr> 
+
+<tr class="r1"><td>10-374</td><td><img style="max-width: 800px;" src="10-374.jpg" /></td><td style="display:none">              27-Sep-2000 15:04   31</td></tr> 
+<tr class="r1"><td>10-375</td><td><img style="max-width: 800px;" src="10-375.jpg" /></td><td style="display:none">              27-Sep-2000 15:10   17</td></tr> 
+<tr class="r1"><td>10-376</td><td><img style="max-width: 800px;" src="10-376.jpg" /></td><td style="display:none">              27-Sep-2000 15:15   26</td></tr> 
+<tr class="r1"><td>10-377</td><td><img style="max-width: 800px;" src="10-377.jpg" /></td><td style="display:none">              27-Sep-2000 15:19   49</td></tr> 
+<tr class="r1"><td>10-378</td><td><img style="max-width: 800px;" src="10-378.jpg" /></td><td style="display:none">              27-Sep-2000 15:24   35</td></tr> 
+
+<tr class="r1"><td>10-379</td><td><img style="max-width: 800px;" src="10-379.jpg" /></td><td style="display:none">              27-Sep-2000 15:27   30</td></tr> 
+<tr class="r1"><td>10-380</td><td><img style="max-width: 800px;" src="10-380.jpg" /></td><td style="display:none">              27-Sep-2000 15:43   29</td></tr> 
+<tr class="r1"><td>10-381</td><td><img style="max-width: 800px;" src="10-381.jpg" /></td><td style="display:none">              27-Sep-2000 15:46   23</td></tr> 
+<tr class="r1"><td>10-382</td><td><img style="max-width: 800px;" src="10-382.jpg" /></td><td style="display:none">              27-Sep-2000 15:50   31</td></tr> 
+<tr class="r1"><td>10-383</td><td><img style="max-width: 800px;" src="10-383.jpg" /></td><td style="display:none">              27-Sep-2000 15:52   31</td></tr> 
+
+<tr class="r1"><td>10-384</td><td><img style="max-width: 800px;" src="10-384.jpg" /></td><td style="display:none">              27-Sep-2000 15:55   35</td></tr> 
+<tr class="r1"><td>10-385</td><td><img style="max-width: 800px;" src="10-385.jpg" /></td><td style="display:none">              27-Sep-2000 15:57   21</td></tr> 
+<tr class="r1"><td>10-386</td><td><img style="max-width: 800px;" src="10-386.jpg" /></td><td style="display:none">              27-Sep-2000 16:00   43</td></tr> 
+<tr class="r1"><td>10-387</td><td><img style="max-width: 800px;" src="10-387.jpg" /></td><td style="display:none">              27-Sep-2000 16:02   17</td></tr> 
+<tr class="r1"><td>10-388</td><td><img style="max-width: 800px;" src="10-388.jpg" /></td><td style="display:none">              27-Sep-2000 16:55   43</td></tr> 
+
+<tr class="r1"><td>10-389</td><td><img style="max-width: 800px;" src="10-389.jpg" /></td><td style="display:none">              27-Sep-2000 16:59   23</td></tr> 
+<tr class="r1"><td>10-390</td><td><img style="max-width: 800px;" src="10-390.jpg" /></td><td style="display:none">              27-Sep-2000 17:02   34</td></tr> 
+<tr class="r1"><td>10-391</td><td><img style="max-width: 800px;" src="10-391.jpg" /></td><td style="display:none">              27-Sep-2000 17:04   20</td></tr> 
+<tr class="r1"><td>10-392</td><td><img style="max-width: 800px;" src="10-392.jpg" /></td><td style="display:none">              27-Sep-2000 17:07   24</td></tr> 
+<tr class="r1"><td>10-393</td><td><img style="max-width: 800px;" src="10-393.jpg" /></td><td style="display:none">              27-Sep-2000 17:10   30</td></tr> 
+
+<tr class="r1"><td>10-394</td><td><img style="max-width: 800px;" src="10-394.jpg" /></td><td style="display:none">              27-Sep-2000 17:14   34</td></tr> 
+<tr class="r1"><td>10-395</td><td><img style="max-width: 800px;" src="10-395.jpg" /></td><td style="display:none">              27-Sep-2000 17:19   27</td></tr> 
+<tr class="r1"><td>10-396</td><td><img style="max-width: 800px;" src="10-396.jpg" /></td><td style="display:none">              27-Sep-2000 17:23   35</td></tr> 
+<tr class="r1"><td>10-397</td><td><img style="max-width: 800px;" src="10-397.jpg" /></td><td style="display:none">              27-Sep-2000 17:26   22</td></tr> 
+<tr class="r1"><td>10-398</td><td><img style="max-width: 800px;" src="10-398.jpg" /></td><td style="display:none">              27-Sep-2000 17:29   19</td></tr> 
+
+<tr class="r1"><td>10-399</td><td><img style="max-width: 800px;" src="10-399.jpg" /></td><td style="display:none">              27-Sep-2000 17:31   18</td></tr> 
+<tr class="r1"><td>10-400</td><td><img style="max-width: 800px;" src="10-400.jpg" /></td><td style="display:none">              27-Sep-2000 17:35   27</td></tr> 
+<tr class="r1"><td>10-401</td><td><img style="max-width: 800px;" src="10-401.jpg" /></td><td style="display:none">              27-Sep-2000 17:39   24</td></tr> 
+<tr class="r1"><td>10-402</td><td><img style="max-width: 800px;" src="10-402.jpg" /></td><td style="display:none">              27-Sep-2000 17:41   19</td></tr> 
+<tr class="r1"><td>10-403</td><td><img style="max-width: 800px;" src="10-403.jpg" /></td><td style="display:none">              27-Sep-2000 17:44   22</td></tr> 
+
+<tr class="r1"><td>10-404</td><td><img style="max-width: 800px;" src="10-404.jpg" /></td><td style="display:none">              27-Sep-2000 17:47   11</td></tr> 
+<tr class="r1"><td>10-405</td><td><img style="max-width: 800px;" src="10-405.jpg" /></td><td style="display:none">              27-Sep-2000 17:50   27</td></tr> 
+<tr class="r1"><td>10-406</td><td><img style="max-width: 800px;" src="10-406.jpg" /></td><td style="display:none">              27-Sep-2000 17:52   18</td></tr> 
+<tr class="r1"><td>10-407</td><td><img style="max-width: 800px;" src="10-407.jpg" /></td><td style="display:none">              28-Sep-2000 15:23   14</td></tr> 
+<tr class="r1"><td>10-408</td><td><img style="max-width: 800px;" src="10-408.jpg" /></td><td style="display:none">              28-Sep-2000 15:27   18</td></tr> 
+
+<tr class="r1"><td>10-409</td><td><img style="max-width: 800px;" src="10-409.jpg" /></td><td style="display:none">              28-Sep-2000 15:29   16</td></tr> 
+<tr class="r1"><td>10-410</td><td><img style="max-width: 800px;" src="10-410.jpg" /></td><td style="display:none">              28-Sep-2000 15:32   14</td></tr> 
+<tr class="r1"><td>10-411</td><td><img style="max-width: 800px;" src="10-411.jpg" /></td><td style="display:none">              28-Sep-2000 15:35   23</td></tr> 
+<tr class="r1"><td>10-412</td><td><img style="max-width: 800px;" src="10-412.jpg" /></td><td style="display:none">              28-Sep-2000 15:38   23</td></tr> 
+<tr class="r1"><td>10-413</td><td><img style="max-width: 800px;" src="10-413.jpg" /></td><td style="display:none">              28-Sep-2000 15:41   16</td></tr> 
+
+<tr class="r1"><td>10-414</td><td><img style="max-width: 800px;" src="10-414.jpg" /></td><td style="display:none">              28-Sep-2000 15:44   15</td></tr> 
+<tr class="r1"><td>10-415</td><td><img style="max-width: 800px;" src="10-415.jpg" /></td><td style="display:none">              28-Sep-2000 15:47   13</td></tr> 
+<tr class="r1"><td>10-416</td><td><img style="max-width: 800px;" src="10-416.jpg" /></td><td style="display:none">              28-Sep-2000 15:49   11</td></tr> 
+<tr class="r1"><td>10-417</td><td><img style="max-width: 800px;" src="10-417.jpg" /></td><td style="display:none">              28-Sep-2000 15:52   13</td></tr> 
+<tr class="r1"><td>10-418</td><td><img style="max-width: 800px;" src="10-418.jpg" /></td><td style="display:none">              28-Sep-2000 15:54   16</td></tr> 
+
+<tr class="r1"><td>10-419</td><td><img style="max-width: 800px;" src="10-419.jpg" /></td><td style="display:none">              28-Sep-2000 15:58   16</td></tr> 
+<tr class="r1"><td>10-420</td><td><img style="max-width: 800px;" src="10-420.jpg" /></td><td style="display:none">              28-Sep-2000 16:43   14</td></tr> 
+<tr class="r1"><td>10-421</td><td><img style="max-width: 800px;" src="10-421.jpg" /></td><td style="display:none">              28-Sep-2000 16:46   15</td></tr> 
+<tr class="r1"><td>10-422</td><td><img style="max-width: 800px;" src="10-422.jpg" /></td><td style="display:none">              28-Sep-2000 16:48   15</td></tr> 
+<tr class="r1"><td>10-423</td><td><img style="max-width: 800px;" src="10-423.jpg" /></td><td style="display:none">              28-Sep-2000 16:56   34</td></tr> 
+
+<tr class="r1"><td>10-424</td><td><img style="max-width: 800px;" src="10-424.jpg" /></td><td style="display:none">              28-Sep-2000 16:59   12</td></tr> 
+<tr class="r1"><td>10-425</td><td><img style="max-width: 800px;" src="10-425.jpg" /></td><td style="display:none">              28-Sep-2000 17:02   30</td></tr> 
+<tr class="r1"><td>10-426</td><td><img style="max-width: 800px;" src="10-426.jpg" /></td><td style="display:none">              28-Sep-2000 17:05   31</td></tr> 
+<tr class="r1"><td>10-427</td><td><img style="max-width: 800px;" src="10-427.jpg" /></td><td style="display:none">              28-Sep-2000 17:08   34</td></tr> 
+<tr class="r1"><td>10-428</td><td><img style="max-width: 800px;" src="10-428.jpg" /></td><td style="display:none">              28-Sep-2000 17:12   26</td></tr> 
+
+<tr class="r1"><td>10-429</td><td><img style="max-width: 800px;" src="10-429.jpg" /></td><td style="display:none">              28-Sep-2000 17:14   32</td></tr> 
+<tr class="r1"><td>10-430</td><td><img style="max-width: 800px;" src="10-430.jpg" /></td><td style="display:none">              28-Sep-2000 17:18   20</td></tr> 
+<tr class="r1"><td>10-431</td><td><img style="max-width: 800px;" src="10-431.jpg" /></td><td style="display:none">              28-Sep-2000 17:23   17</td></tr> 
+<tr class="r1"><td>10-432</td><td><img style="max-width: 800px;" src="10-432.jpg" /></td><td style="display:none">              28-Sep-2000 17:25   22</td></tr> 
+<tr class="r1"><td>10-433</td><td><img style="max-width: 800px;" src="10-433.jpg" /></td><td style="display:none">              28-Sep-2000 17:27   57</td></tr> 
+
+<tr class="r1"><td>10-434</td><td><img style="max-width: 800px;" src="10-434.jpg" /></td><td style="display:none">              28-Sep-2000 17:30   34</td></tr> 
+<tr class="r1"><td>10-435</td><td><img style="max-width: 800px;" src="10-435.jpg" /></td><td style="display:none">              28-Sep-2000 17:32   29</td></tr> 
+<tr class="r1"><td>10-436</td><td><img style="max-width: 800px;" src="10-436.jpg" /></td><td style="display:none">              28-Sep-2000 17:35   35</td></tr> 
+<tr class="r1"><td>10-437</td><td><img style="max-width: 800px;" src="10-437.jpg" /></td><td style="display:none">              28-Sep-2000 17:43   41</td></tr> 
+<tr class="r1"><td>10-438</td><td><img style="max-width: 800px;" src="10-438.jpg" /></td><td style="display:none">              28-Sep-2000 17:46   13</td></tr> 
+
+<tr class="r1"><td>10-439</td><td><img style="max-width: 800px;" src="10-439.jpg" /></td><td style="display:none">              28-Sep-2000 17:50   14</td></tr> 
+<tr class="r1"><td>10-440</td><td><img style="max-width: 800px;" src="10-440.jpg" /></td><td style="display:none">              28-Sep-2000 17:54   15</td></tr> 
+<tr class="r1"><td>10-441</td><td><img style="max-width: 800px;" src="10-441.jpg" /></td><td style="display:none">              28-Sep-2000 17:57   22</td></tr> 
+<tr class="r1"><td>10-442</td><td><img style="max-width: 800px;" src="10-442.jpg" /></td><td style="display:none">              05-Oct-2000 11:17   21</td></tr> 
+<tr class="r1"><td>10-443</td><td><img style="max-width: 800px;" src="10-443.jpg" /></td><td style="display:none">              05-Oct-2000 11:20   44</td></tr> 
+
+<tr class="r1"><td>10-444</td><td><img style="max-width: 800px;" src="10-444.jpg" /></td><td style="display:none">              05-Oct-2000 11:23   14</td></tr> 
+<tr class="r1"><td>10-445</td><td><img style="max-width: 800px;" src="10-445.jpg" /></td><td style="display:none">              05-Oct-2000 11:27   28</td></tr> 
+<tr class="r1"><td>10-446</td><td><img style="max-width: 800px;" src="10-446.jpg" /></td><td style="display:none">              05-Oct-2000 11:30   24</td></tr> 
+<tr class="r1"><td>10-447</td><td><img style="max-width: 800px;" src="10-447.jpg" /></td><td style="display:none">              05-Oct-2000 11:33   16</td></tr> 
+<tr class="r1"><td>10-448</td><td><img style="max-width: 800px;" src="10-448.jpg" /></td><td style="display:none">              05-Oct-2000 11:36   25</td></tr> 
+
+<tr class="r1"><td>10-449</td><td><img style="max-width: 800px;" src="10-449.jpg" /></td><td style="display:none">              05-Oct-2000 12:15   21</td></tr> 
+<tr class="r1"><td>10-450</td><td><img style="max-width: 800px;" src="10-450.jpg" /></td><td style="display:none">              07-Jan-2004 11:00   59</td></tr> 
+<tr class="r1"><td>10-451</td><td><img style="max-width: 800px;" src="10-451.jpg" /></td><td style="display:none">              05-Oct-2000 12:24   21</td></tr> 
+<tr class="r1"><td>10-452</td><td><img style="max-width: 800px;" src="10-452.jpg" /></td><td style="display:none">              05-Oct-2000 12:26   38</td></tr> 
+<tr class="r1"><td>10-453</td><td><img style="max-width: 800px;" src="10-453.jpg" /></td><td style="display:none">              05-Oct-2000 12:28   24</td></tr> 
+
+<tr class="r1"><td>10-454</td><td><img style="max-width: 800px;" src="10-454.jpg" /></td><td style="display:none">              05-Oct-2000 12:32   23</td></tr> 
+<tr class="r1"><td>10-455</td><td><img style="max-width: 800px;" src="10-455.jpg" /></td><td style="display:none">              05-Oct-2000 12:35   38</td></tr> 
+<tr class="r1"><td>10-456</td><td><img style="max-width: 800px;" src="10-456.jpg" /></td><td style="display:none">              05-Oct-2000 13:40   26</td></tr> 
+<tr class="r1"><td>10-457</td><td><img style="max-width: 800px;" src="10-457.jpg" /></td><td style="display:none">              05-Oct-2000 13:53   21</td></tr> 
+<tr class="r1"><td>10-458</td><td><img style="max-width: 800px;" src="10-458.jpg" /></td><td style="display:none">              05-Oct-2000 13:53   21</td></tr> 
+
+<tr class="r1"><td>10-460</td><td><img style="max-width: 800px;" src="10-460.jpg" /></td><td style="display:none">              05-Oct-2000 14:06   37</td></tr> 
+<tr class="r1"><td>10-461</td><td><img style="max-width: 800px;" src="10-461.jpg" /></td><td style="display:none">              05-Oct-2000 14:31   26</td></tr> 
+<tr class="r1"><td>10-462</td><td><img style="max-width: 800px;" src="10-462.jpg" /></td><td style="display:none">              05-Oct-2000 14:31   28</td></tr> 
+<tr class="r1"><td>10-463</td><td><img style="max-width: 800px;" src="10-463.jpg" /></td><td style="display:none">              05-Oct-2000 14:35   23</td></tr> 
+<tr class="r1"><td>10-464</td><td><img style="max-width: 800px;" src="10-464.jpg" /></td><td style="display:none">              05-Oct-2000 14:40   30</td></tr> 
+
+<tr class="r1"><td>10-465</td><td><img style="max-width: 800px;" src="10-465.jpg" /></td><td style="display:none">              05-Oct-2000 16:24   27</td></tr> 
+<tr class="r1"><td>10-466</td><td><img style="max-width: 800px;" src="10-466.jpg" /></td><td style="display:none">              05-Oct-2000 16:28   24</td></tr> 
+<tr class="r1"><td>10-468</td><td><img style="max-width: 800px;" src="10-468.jpg" /></td><td style="display:none">              05-Oct-2000 17:47   30</td></tr> 
+<tr class="r1"><td>10-469</td><td><img style="max-width: 800px;" src="10-469.jpg" /></td><td style="display:none">              05-Oct-2000 17:51   29</td></tr> 
+<tr class="r1"><td>10-470</td><td><img style="max-width: 800px;" src="10-470.jpg" /></td><td style="display:none">              05-Oct-2000 17:54   37</td></tr> 
+
+<tr class="r1"><td>10-471</td><td><img style="max-width: 800px;" src="10-471.jpg" /></td><td style="display:none">              05-Oct-2000 17:57   34</td></tr> 
+<tr class="r1"><td>10-472</td><td><img style="max-width: 800px;" src="10-472.jpg" /></td><td style="display:none">              06-Oct-2000 09:19   15</td></tr> 
+<tr class="r1"><td>10-473</td><td><img style="max-width: 800px;" src="10-473.jpg" /></td><td style="display:none">              06-Oct-2000 09:22   12</td></tr> 
+<tr class="r1"><td>10-475</td><td><img style="max-width: 800px;" src="10-475.jpg" /></td><td style="display:none">              06-Oct-2000 09:30   17</td></tr> 
+<tr class="r1"><td>10-476</td><td><img style="max-width: 800px;" src="10-476.jpg" /></td><td style="display:none">              06-Oct-2000 09:34   26</td></tr> 
+
+<tr class="r1"><td>10-477</td><td><img style="max-width: 800px;" src="10-477.jpg" /></td><td style="display:none">              06-Oct-2000 09:37   16</td></tr> 
+<tr class="r1"><td>10-478</td><td><img style="max-width: 800px;" src="10-478.jpg" /></td><td style="display:none">              06-Oct-2000 09:40   28</td></tr> 
+<tr class="r1"><td>10-479</td><td><img style="max-width: 800px;" src="10-479.jpg" /></td><td style="display:none">              06-Oct-2000 09:44   11</td></tr> 
+<tr class="r1"><td>10-480</td><td><img style="max-width: 800px;" src="10-480.jpg" /></td><td style="display:none">              06-Oct-2000 09:48   11</td></tr> 
+<tr class="r1"><td>10-481</td><td><img style="max-width: 800px;" src="10-481.jpg" /></td><td style="display:none">              06-Oct-2000 09:53   13</td></tr> 
+
+<tr class="r1"><td>10-482</td><td><img style="max-width: 800px;" src="10-482.jpg" /></td><td style="display:none">              06-Oct-2000 09:58   42</td></tr> 
+<tr class="r1"><td>10-483</td><td><img style="max-width: 800px;" src="10-483.jpg" /></td><td style="display:none">              06-Oct-2000 10:04   16</td></tr> 
+<tr class="r1"><td>10-484</td><td><img style="max-width: 800px;" src="10-484.jpg" /></td><td style="display:none">              06-Oct-2000 10:12   18</td></tr> 
+<tr class="r1"><td>10-485</td><td><img style="max-width: 800px;" src="10-485.jpg" /></td><td style="display:none">              06-Oct-2000 10:18   47</td></tr> 
+<tr class="r1"><td>10-486</td><td><img style="max-width: 800px;" src="10-486.jpg" /></td><td style="display:none">              06-Oct-2000 10:36   47</td></tr> 
+
+<tr class="r1"><td>10-488</td><td><img style="max-width: 800px;" src="10-488.jpg" /></td><td style="display:none">              06-Oct-2000 10:39   26</td></tr> 
+<tr class="r1"><td>10-489</td><td><img style="max-width: 800px;" src="10-489.jpg" /></td><td style="display:none">              06-Oct-2000 10:43   24</td></tr> 
+<tr class="r1"><td>10-490</td><td><img style="max-width: 800px;" src="10-490.jpg" /></td><td style="display:none">              06-Oct-2000 10:45   19</td></tr> 
+<tr class="r1"><td>10-491</td><td><img style="max-width: 800px;" src="10-491.jpg" /></td><td style="display:none">              06-Oct-2000 10:48   19</td></tr> 
+<tr class="r1"><td>10-492</td><td><img style="max-width: 800px;" src="10-492.jpg" /></td><td style="display:none">              06-Oct-2000 10:50   13</td></tr> 
+
+<tr class="r1"><td>10-493</td><td><img style="max-width: 800px;" src="10-493.jpg" /></td><td style="display:none">              06-Oct-2000 10:53   43</td></tr> 
+<tr class="r1"><td>10-494</td><td><img style="max-width: 800px;" src="10-494.jpg" /></td><td style="display:none">              06-Oct-2000 10:54   24</td></tr> 
+<tr class="r1"><td>10-495</td><td><img style="max-width: 800px;" src="10-495.jpg" /></td><td style="display:none">              06-Oct-2000 10:57   71</td></tr> 
+<tr class="r1"><td>10-496</td><td><img style="max-width: 800px;" src="10-496.jpg" /></td><td style="display:none">              06-Oct-2000 10:59   38</td></tr> 
+<tr class="r1"><td>10-497</td><td><img style="max-width: 800px;" src="10-497.jpg" /></td><td style="display:none">              06-Oct-2000 11:55   46</td></tr> 
+
+<tr class="r1"><td>10-498</td><td><img style="max-width: 800px;" src="10-498.jpg" /></td><td style="display:none">              06-Oct-2000 11:58   13</td></tr> 
+<tr class="r1"><td>10-499</td><td><img style="max-width: 800px;" src="10-499.jpg" /></td><td style="display:none">              06-Oct-2000 12:07   48</td></tr> 
+<tr class="r1"><td>10-500</td><td><img style="max-width: 800px;" src="10-500.jpg" /></td><td style="display:none">              09-Oct-2000 17:20   14</td></tr> 
+<tr class="r1"><td>10-501</td><td><img style="max-width: 800px;" src="10-501.jpg" /></td><td style="display:none">              09-Oct-2000 17:24   26</td></tr> 
+<tr class="r1"><td>10-502</td><td><img style="max-width: 800px;" src="10-502.jpg" /></td><td style="display:none">              09-Oct-2000 17:27   17</td></tr> 
+
+<tr class="r1"><td>10-503</td><td><img style="max-width: 800px;" src="10-503.jpg" /></td><td style="display:none">              09-Oct-2000 17:30   17</td></tr> 
+<tr class="r1"><td>10-504</td><td><img style="max-width: 800px;" src="10-504.jpg" /></td><td style="display:none">              09-Oct-2000 17:32   42</td></tr> 
+<tr class="r1"><td>10-505</td><td><img style="max-width: 800px;" src="10-505.jpg" /></td><td style="display:none">              09-Oct-2000 17:35   18</td></tr> 
+<tr class="r1"><td>10-506</td><td><img style="max-width: 800px;" src="10-506.jpg" /></td><td style="display:none">              09-Oct-2000 17:38   27</td></tr> 
+<tr class="r1"><td>10-507</td><td><img style="max-width: 800px;" src="10-507.jpg" /></td><td style="display:none">              09-Oct-2000 17:41   31</td></tr> 
+
+<tr class="r1"><td>10-508</td><td><img style="max-width: 800px;" src="10-508.jpg" /></td><td style="display:none">              09-Oct-2000 17:43   17</td></tr> 
+<tr class="r1"><td>10-509</td><td><img style="max-width: 800px;" src="10-509.jpg" /></td><td style="display:none">              09-Oct-2000 17:47   36</td></tr> 
+<tr class="r1"><td>10-510</td><td><img style="max-width: 800px;" src="10-510.jpg" /></td><td style="display:none">              09-Oct-2000 17:53   17</td></tr> 
+<tr class="r1"><td>10-511</td><td><img style="max-width: 800px;" src="10-511.jpg" /></td><td style="display:none">              10-Oct-2000 10:09   13</td></tr> 
+<tr class="r1"><td>10-512</td><td><img style="max-width: 800px;" src="10-512.jpg" /></td><td style="display:none">              10-Oct-2000 10:12   54</td></tr> 
+
+<tr class="r1"><td>10-513</td><td><img style="max-width: 800px;" src="10-513.jpg" /></td><td style="display:none">              10-Oct-2000 10:15   24</td></tr> 
+<tr class="r1"><td>10-514</td><td><img style="max-width: 800px;" src="10-514.jpg" /></td><td style="display:none">              10-Oct-2000 10:24   23</td></tr> 
+<tr class="r1"><td>10-515</td><td><img style="max-width: 800px;" src="10-515.jpg" /></td><td style="display:none">              10-Oct-2000 10:28   11</td></tr> 
+<tr class="r1"><td>10-516</td><td><img style="max-width: 800px;" src="10-516.jpg" /></td><td style="display:none">              10-Oct-2000 10:31   36</td></tr> 
+<tr class="r1"><td>10-517</td><td><img style="max-width: 800px;" src="10-517.jpg" /></td><td style="display:none">              10-Oct-2000 10:34   15</td></tr> 
+
+<tr class="r1"><td>10-518</td><td><img style="max-width: 800px;" src="10-518.jpg" /></td><td style="display:none">              10-Oct-2000 10:37   15</td></tr> 
+<tr class="r1"><td>10-519</td><td><img style="max-width: 800px;" src="10-519.jpg" /></td><td style="display:none">              10-Oct-2000 10:39   16</td></tr> 
+<tr class="r1"><td>10-520</td><td><img style="max-width: 800px;" src="10-520.jpg" /></td><td style="display:none">              10-Oct-2000 10:42   16</td></tr> 
+<tr class="r1"><td>10-521</td><td><img style="max-width: 800px;" src="10-521.jpg" /></td><td style="display:none">              10-Oct-2000 10:45   23</td></tr> 
+<tr class="r1"><td>10-522</td><td><img style="max-width: 800px;" src="10-522.jpg" /></td><td style="display:none">              10-Oct-2000 10:47   29</td></tr> 
+
+<tr class="r1"><td>10-523</td><td><img style="max-width: 800px;" src="10-523.jpg" /></td><td style="display:none">              10-Oct-2000 10:50   32</td></tr> 
+<tr class="r1"><td>10-524</td><td><img style="max-width: 800px;" src="10-524.jpg" /></td><td style="display:none">              10-Oct-2000 10:52   26</td></tr> 
+<tr class="r1"><td>10-525</td><td><img style="max-width: 800px;" src="10-525.jpg" /></td><td style="display:none">              10-Oct-2000 10:54   15</td></tr> 
+<tr class="r1"><td>10-526</td><td><img style="max-width: 800px;" src="10-526.jpg" /></td><td style="display:none">              10-Oct-2000 10:57   19</td></tr> 
+<tr class="r1"><td>10-527</td><td><img style="max-width: 800px;" src="10-527.jpg" /></td><td style="display:none">              10-Oct-2000 11:00   21</td></tr> 
+
+<tr class="r1"><td>10-527b</td><td><img style="max-width: 800px;" src="10-527b.jpg" /></td><td style="display:none">             10-Oct-2000 11:06   53</td></tr> 
+<tr class="r1"><td>10-528</td><td><img style="max-width: 800px;" src="10-528.jpg" /></td><td style="display:none">              10-Oct-2000 11:09   11</td></tr> 
+<tr class="r1"><td>10-529</td><td><img style="max-width: 800px;" src="10-529.jpg" /></td><td style="display:none">              10-Oct-2000 11:45   18</td></tr> 
+<tr class="r1"><td>10-530</td><td><img style="max-width: 800px;" src="10-530.jpg" /></td><td style="display:none">              10-Oct-2000 11:47   47</td></tr> 
+<tr class="r1"><td>10-531</td><td><img style="max-width: 800px;" src="10-531.jpg" /></td><td style="display:none">              10-Oct-2000 11:50   15</td></tr> 
+
+<tr class="r1"><td>10-532</td><td><img style="max-width: 800px;" src="10-532.jpg" /></td><td style="display:none">              10-Oct-2000 11:52   20</td></tr> 
+<tr class="r1"><td>10-533</td><td><img style="max-width: 800px;" src="10-533.jpg" /></td><td style="display:none">              10-Oct-2000 11:55   13</td></tr> 
+<tr class="r1"><td>10-534</td><td><img style="max-width: 800px;" src="10-534.jpg" /></td><td style="display:none">              10-Oct-2000 11:57   14</td></tr> 
+<tr class="r1"><td>10-535</td><td><img style="max-width: 800px;" src="10-535.jpg" /></td><td style="display:none">              10-Oct-2000 12:01   27</td></tr> 
+<tr class="r1"><td>10-536</td><td><img style="max-width: 800px;" src="10-536.jpg" /></td><td style="display:none">              10-Oct-2000 12:04   57</td></tr> 
+
+<tr class="r1"><td>10-538</td><td><img style="max-width: 800px;" src="10-538.jpg" /></td><td style="display:none">              10-Oct-2000 12:05   22</td></tr> 
+<tr class="r1"><td>10-539</td><td><img style="max-width: 800px;" src="10-539.jpg" /></td><td style="display:none">              10-Oct-2000 12:07   35</td></tr> 
+<tr class="r1"><td>10-540</td><td><img style="max-width: 800px;" src="10-540.jpg" /></td><td style="display:none">              10-Oct-2000 13:56   19</td></tr> 
+<tr class="r1"><td>10-541</td><td><img style="max-width: 800px;" src="10-541.jpg" /></td><td style="display:none">              10-Oct-2000 14:01   21</td></tr> 
+<tr class="r1"><td>10-542</td><td><img style="max-width: 800px;" src="10-542.jpg" /></td><td style="display:none">              10-Oct-2000 14:04   35</td></tr> 
+
+<tr class="r1"><td>10-543</td><td><img style="max-width: 800px;" src="10-543.jpg" /></td><td style="display:none">              10-Oct-2000 14:06   20</td></tr> 
+<tr class="r1"><td>10-544</td><td><img style="max-width: 800px;" src="10-544.jpg" /></td><td style="display:none">              10-Oct-2000 14:09   16</td></tr> 
+<tr class="r1"><td>10-545</td><td><img style="max-width: 800px;" src="10-545.jpg" /></td><td style="display:none">              10-Oct-2000 14:11   19</td></tr> 
+<tr class="r1"><td>10-546</td><td><img style="max-width: 800px;" src="10-546.jpg" /></td><td style="display:none">              10-Oct-2000 14:19   16</td></tr> 
+<tr class="r1"><td>10-547</td><td><img style="max-width: 800px;" src="10-547.jpg" /></td><td style="display:none">              10-Oct-2000 14:22   19</td></tr> 
+
+<tr class="r1"><td>10-548</td><td><img style="max-width: 800px;" src="10-548.jpg" /></td><td style="display:none">              10-Oct-2000 14:28   18</td></tr> 
+<tr class="r1"><td>10-549</td><td><img style="max-width: 800px;" src="10-549.jpg" /></td><td style="display:none">              10-Oct-2000 14:37   22</td></tr> 
+<tr class="r1"><td>10-550</td><td><img style="max-width: 800px;" src="10-550.jpg" /></td><td style="display:none">              10-Oct-2000 14:40   20</td></tr> 
+<tr class="r1"><td>10-551</td><td><img style="max-width: 800px;" src="10-551.jpg" /></td><td style="display:none">              10-Oct-2000 14:53   14</td></tr> 
+<tr class="r1"><td>10-552</td><td><img style="max-width: 800px;" src="10-552.jpg" /></td><td style="display:none">              10-Oct-2000 15:21   31</td></tr> 
+
+<tr class="r1"><td>10-553</td><td><img style="max-width: 800px;" src="10-553.jpg" /></td><td style="display:none">              10-Oct-2000 15:24   16</td></tr> 
+<tr class="r1"><td>10-554</td><td><img style="max-width: 800px;" src="10-554.jpg" /></td><td style="display:none">              10-Oct-2000 15:24   18</td></tr> 
+<tr class="r1"><td>10-555</td><td><img style="max-width: 800px;" src="10-555.jpg" /></td><td style="display:none">              10-Oct-2000 15:28  5.4</td></tr> 
+<tr class="r1"><td>10-556</td><td><img style="max-width: 800px;" src="10-556.jpg" /></td><td style="display:none">              10-Oct-2000 15:30   15</td></tr> 
+<tr class="r1"><td>10-557</td><td><img style="max-width: 800px;" src="10-557.jpg" /></td><td style="display:none">              10-Oct-2000 15:32   14</td></tr> 
+
+<tr class="r1"><td>10-558</td><td><img style="max-width: 800px;" src="10-558.jpg" /></td><td style="display:none">              10-Oct-2000 15:34   24</td></tr> 
+<tr class="r1"><td>10-559</td><td><img style="max-width: 800px;" src="10-559.jpg" /></td><td style="display:none">              10-Oct-2000 15:39   22</td></tr> 
+<tr class="r1"><td>10-560</td><td><img style="max-width: 800px;" src="10-560.jpg" /></td><td style="display:none">              10-Oct-2000 15:45   16</td></tr> 
+<tr class="r1"><td>10-561</td><td><img style="max-width: 800px;" src="10-561.jpg" /></td><td style="display:none">              10-Oct-2000 15:48   40</td></tr> 
+<tr class="r1"><td>10-562</td><td><img style="max-width: 800px;" src="10-562.jpg" /></td><td style="display:none">              10-Oct-2000 15:51   15</td></tr> 
+
+<tr class="r1"><td>10-564</td><td><img style="max-width: 800px;" src="10-564.jpg" /></td><td style="display:none">              10-Oct-2000 16:39   28</td></tr> 
+<tr class="r1"><td>10-565</td><td><img style="max-width: 800px;" src="10-565.jpg" /></td><td style="display:none">              10-Oct-2000 16:42   18</td></tr> 
+<tr class="r1"><td>10-566</td><td><img style="max-width: 800px;" src="10-566.jpg" /></td><td style="display:none">              10-Oct-2000 16:45   14</td></tr> 
+<tr class="r1"><td>10-567</td><td><img style="max-width: 800px;" src="10-567.jpg" /></td><td style="display:none">              10-Oct-2000 16:50   27</td></tr> 
+<tr class="r1"><td>10-568</td><td><img style="max-width: 800px;" src="10-568.jpg" /></td><td style="display:none">              10-Oct-2000 16:57   30</td></tr> 
+
+<tr class="r1"><td>10-569</td><td><img style="max-width: 800px;" src="10-569.jpg" /></td><td style="display:none">              10-Oct-2000 17:00   24</td></tr> 
+<tr class="r1"><td>10-570</td><td><img style="max-width: 800px;" src="10-570.jpg" /></td><td style="display:none">              10-Oct-2000 17:04   18</td></tr> 
+<tr class="r1"><td>10-571</td><td><img style="max-width: 800px;" src="10-571.jpg" /></td><td style="display:none">              10-Oct-2000 17:07   21</td></tr> 
+<tr class="r1"><td>10-572</td><td><img style="max-width: 800px;" src="10-572.jpg" /></td><td style="display:none">              10-Oct-2000 17:11   17</td></tr> 
+<tr class="r1"><td>10-573</td><td><img style="max-width: 800px;" src="10-573.jpg" /></td><td style="display:none">              10-Oct-2000 17:15   19</td></tr> 
+
+<tr class="r1"><td>10-574</td><td><img style="max-width: 800px;" src="10-574.jpg" /></td><td style="display:none">              10-Oct-2000 17:17   48</td></tr> 
+<tr class="r1"><td>10-575</td><td><img style="max-width: 800px;" src="10-575.jpg" /></td><td style="display:none">              10-Oct-2000 17:20   25</td></tr> 
+<tr class="r1"><td>10-576</td><td><img style="max-width: 800px;" src="10-576.jpg" /></td><td style="display:none">              10-Oct-2000 17:22   15</td></tr> 
+<tr class="r1"><td>10-577</td><td><img style="max-width: 800px;" src="10-577.jpg" /></td><td style="display:none">              10-Oct-2000 17:24   17</td></tr> 
+<tr class="r1"><td>10-578</td><td><img style="max-width: 800px;" src="10-578.jpg" /></td><td style="display:none">              10-Oct-2000 17:26   31</td></tr> 
+
+<tr class="r1"><td>10-579</td><td><img style="max-width: 800px;" src="10-579.jpg" /></td><td style="display:none">              10-Oct-2000 17:28   14</td></tr> 
+<tr class="r1"><td>10-580</td><td><img style="max-width: 800px;" src="10-580.jpg" /></td><td style="display:none">              11-Oct-2000 09:11   40</td></tr> 
+<tr class="r1"><td>10-581</td><td><img style="max-width: 800px;" src="10-581.jpg" /></td><td style="display:none">              11-Oct-2000 09:16   16</td></tr> 
+<tr class="r1"><td>10-582</td><td><img style="max-width: 800px;" src="10-582.jpg" /></td><td style="display:none">              11-Oct-2000 09:19   24</td></tr> 
+<tr class="r1"><td>10-583</td><td><img style="max-width: 800px;" src="10-583.jpg" /></td><td style="display:none">              11-Oct-2000 09:24   30</td></tr> 
+
+<tr class="r1"><td>10-584</td><td><img style="max-width: 800px;" src="10-584.jpg" /></td><td style="display:none">              11-Oct-2000 09:27  7.3</td></tr> 
+<tr class="r1"><td>10-585</td><td><img style="max-width: 800px;" src="10-585.jpg" /></td><td style="display:none">              11-Oct-2000 09:47   13</td></tr> 
+<tr class="r1"><td>10-586</td><td><img style="max-width: 800px;" src="10-586.jpg" /></td><td style="display:none">              11-Oct-2000 09:50   12</td></tr> 
+<tr class="r1"><td>10-587</td><td><img style="max-width: 800px;" src="10-587.jpg" /></td><td style="display:none">              11-Oct-2000 09:52   18</td></tr> 
+<tr class="r1"><td>10-588</td><td><img style="max-width: 800px;" src="10-588.jpg" /></td><td style="display:none">              11-Oct-2000 09:55   22</td></tr> 
+
+<tr class="r1"><td>10-589</td><td><img style="max-width: 800px;" src="10-589.jpg" /></td><td style="display:none">              11-Oct-2000 09:58   22</td></tr> 
+<tr class="r1"><td>10-590</td><td><img style="max-width: 800px;" src="10-590.jpg" /></td><td style="display:none">              11-Oct-2000 10:01   48</td></tr> 
+<tr class="r1"><td>10-591</td><td><img style="max-width: 800px;" src="10-591.jpg" /></td><td style="display:none">              11-Oct-2000 10:04   21</td></tr> 
+<tr class="r1"><td>10-592</td><td><img style="max-width: 800px;" src="10-592.jpg" /></td><td style="display:none">              11-Oct-2000 10:07   24</td></tr> 
+<tr class="r1"><td>10-593</td><td><img style="max-width: 800px;" src="10-593.jpg" /></td><td style="display:none">              11-Oct-2000 10:10   18</td></tr> 
+
+<tr class="r1"><td>10-594</td><td><img style="max-width: 800px;" src="10-594.jpg" /></td><td style="display:none">              11-Oct-2000 10:12   19</td></tr> 
+<tr class="r1"><td>10-595</td><td><img style="max-width: 800px;" src="10-595.jpg" /></td><td style="display:none">              11-Oct-2000 10:15   27</td></tr> 
+<tr class="r1"><td>10-596</td><td><img style="max-width: 800px;" src="10-596.jpg" /></td><td style="display:none">              11-Oct-2000 10:17   11</td></tr> 
+<tr class="r1"><td>10-597</td><td><img style="max-width: 800px;" src="10-597.jpg" /></td><td style="display:none">              11-Oct-2000 10:21   11</td></tr> 
+<tr class="r1"><td>10-598</td><td><img style="max-width: 800px;" src="10-598.jpg" /></td><td style="display:none">              11-Oct-2000 10:23   21</td></tr> 
+
+<tr class="r1"><td>10-599</td><td><img style="max-width: 800px;" src="10-599.jpg" /></td><td style="display:none">              11-Oct-2000 10:27   31</td></tr> 
+<tr class="r1"><td>10-600</td><td><img style="max-width: 800px;" src="10-600.jpg" /></td><td style="display:none">              11-Oct-2000 10:29   45</td></tr> 
+<tr class="r1"><td>10-601</td><td><img style="max-width: 800px;" src="10-601.jpg" /></td><td style="display:none">              11-Oct-2000 10:32   11</td></tr> 
+<tr class="r1"><td>10-602</td><td><img style="max-width: 800px;" src="10-602.jpg" /></td><td style="display:none">              11-Oct-2000 10:34   27</td></tr> 
+<tr class="r1"><td>10-603</td><td><img style="max-width: 800px;" src="10-603.jpg" /></td><td style="display:none">              11-Oct-2000 10:37   23</td></tr> 
+
+<tr class="r1"><td>10-604</td><td><img style="max-width: 800px;" src="10-604.jpg" /></td><td style="display:none">              11-Oct-2000 10:39   12</td></tr> 
+<tr class="r1"><td>10-605</td><td><img style="max-width: 800px;" src="10-605.jpg" /></td><td style="display:none">              11-Oct-2000 10:42   23</td></tr> 
+<tr class="r1"><td>10-606</td><td><img style="max-width: 800px;" src="10-606.jpg" /></td><td style="display:none">              11-Oct-2000 10:45   23</td></tr> 
+<tr class="r1"><td>10.014</td><td><img style="max-width: 800px;" src="10.014.jpg" /></td><td style="display:none">              31-Aug-2000 14:21   29</td></tr> 
+<tr class="r1"><td>MG 2025pleiadesclub</td><td><img style="max-width: 800px;" src="MG 25pleiadesclub.jpg" /></td><td style="display:none">   21-Dec-2000 13:48   32</td></tr> 
+
+<tr class="r1"><td>untitled6</td><td><img style="max-width: 800px;" src="untitled6.jpg" /></td><td style="display:none">           10-Oct-2000 15:18  9.9</td></tr> 

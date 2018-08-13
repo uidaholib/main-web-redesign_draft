@@ -1,0 +1,27 @@
+<tr class="r1"><td>79-01</td><td><img style="max-width: 800px;" src="79-01.jpg" /></td><td style="display:none">               17-Apr-1997 14:15   64</td></tr> 
+<tr class="r1"><td>79-02</td><td><img style="max-width: 800px;" src="79-02.jpg" /></td><td style="display:none">               17-Apr-1997 14:16   85</td></tr> 
+<tr class="r1"><td>79-03</td><td><img style="max-width: 800px;" src="79-03.jpg" /></td><td style="display:none">               17-Apr-1997 14:17   75</td></tr> 
+<tr class="r1"><td>79-04</td><td><img style="max-width: 800px;" src="79-04.jpg" /></td><td style="display:none">               17-Apr-1997 14:20   76</td></tr> 
+<tr class="r1"><td>79-05</td><td><img style="max-width: 800px;" src="79-05.jpg" /></td><td style="display:none">               17-Apr-1997 14:21   63</td></tr> 
+
+<tr class="r1"><td>79-06</td><td><img style="max-width: 800px;" src="79-06.jpg" /></td><td style="display:none">               17-Apr-1997 14:22   65</td></tr> 
+<tr class="r1"><td>79-07</td><td><img style="max-width: 800px;" src="79-07.jpg" /></td><td style="display:none">               17-Apr-1997 14:25   55</td></tr> 
+<tr class="r1"><td>79-08</td><td><img style="max-width: 800px;" src="79-08.jpg" /></td><td style="display:none">               17-Apr-1997 14:26   82</td></tr> 
+<tr class="r1"><td>79-09</td><td><img style="max-width: 800px;" src="79-09.jpg" /></td><td style="display:none">               17-Apr-1997 14:26   63</td></tr> 
+<tr class="r1"><td>79-10</td><td><img style="max-width: 800px;" src="79-10.jpg" /></td><td style="display:none">               17-Apr-1997 14:31   63</td></tr> 
+
+<tr class="r1"><td>79-11</td><td><img style="max-width: 800px;" src="79-11.jpg" /></td><td style="display:none">               17-Apr-1997 14:31   54</td></tr> 
+<tr class="r1"><td>79-12</td><td><img style="max-width: 800px;" src="79-12.jpg" /></td><td style="display:none">               17-Apr-1997 14:32   55</td></tr> 
+<tr class="r1"><td>79-13</td><td><img style="max-width: 800px;" src="79-13.jpg" /></td><td style="display:none">               17-Apr-1997 14:34   52</td></tr> 
+<tr class="r1"><td>79-14</td><td><img style="max-width: 800px;" src="79-14.jpg" /></td><td style="display:none">               17-Apr-1997 14:35   79</td></tr> 
+<tr class="r1"><td>79-15</td><td><img style="max-width: 800px;" src="79-15.jpg" /></td><td style="display:none">               17-Apr-1997 14:36   58</td></tr> 
+
+<tr class="r1"><td>79-16</td><td><img style="max-width: 800px;" src="79-16.jpg" /></td><td style="display:none">               17-Apr-1997 14:39   63</td></tr> 
+<tr class="r1"><td>79-17</td><td><img style="max-width: 800px;" src="79-17.jpg" /></td><td style="display:none">               17-Apr-1997 14:39   67</td></tr> 
+<tr class="r1"><td>79-18</td><td><img style="max-width: 800px;" src="79-18.jpg" /></td><td style="display:none">               17-Apr-1997 14:40   66</td></tr> 
+<tr class="r1"><td>79-19</td><td><img style="max-width: 800px;" src="79-19.jpg" /></td><td style="display:none">               17-Apr-1997 14:43   50</td></tr> 
+<tr class="r1"><td>79-20</td><td><img style="max-width: 800px;" src="79-20.jpg" /></td><td style="display:none">               17-Apr-1997 14:43   62</td></tr> 
+
+<tr class="r1"><td>79-21</td><td><img style="max-width: 800px;" src="79-21.jpg" /></td><td style="display:none">               17-Apr-1997 14:44   60</td></tr> 
+<tr class="r1"><td>79-22</td><td><img style="max-width: 800px;" src="79-22.jpg" /></td><td style="display:none">               17-Apr-1997 14:46   47</td></tr> 
+<tr class="r1"><td>79-23</td><td><img style="max-width: 800px;" src="79-23.jpg" /></td><td style="display:none">               17-Apr-1997 14:47   54</td></tr> 

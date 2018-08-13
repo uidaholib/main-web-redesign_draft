@@ -12,16 +12,16 @@ permalink: /collections/idaho.html
 <div class="row justify-content-center">
     {% for c in collections %}
     {% if c.category == 'idaho' %}
-        <div class="col-md-5">
+    <div class="col-md-5">
             <div class="card my-2">
                 <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold mb-0">{{ c.collection }}</h5>
+                    <h5 class="card-title font-weight-bold mb-0"><a href="{{ c.link | absolute_url }}">{{ c.collection }}</a></h5>
                 </div>
                 <div class="card-body text-center">
-                    <img class="card-img" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image">
+                        <a href="{{ c.link | absolute_url }}"><img class="card-img" src="https://www.lib.uidaho.edu/collections/{{ c.img }}" alt="Card image"></a>
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
-                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue" target="_blank">View Collection</a>
+                    <a href="{{ c.link | absolute_url }}" class="btn btn-payette-blue">View Collection</a>
                 </div>
             </div>
         </div>

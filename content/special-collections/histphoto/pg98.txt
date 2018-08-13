@@ -1,0 +1,118 @@
+<tr class="r1"><td>pg%2098-01</td><td><img style="max-width: 800px;" src="pg 98-01.jpg" /></td><td style="display:none">            01-Oct-1997 13:28   64</td></tr>   
+<tr class="r1"><td>pg%2098-02</td><td><img style="max-width: 800px;" src="pg 98-02.JPG" /></td><td style="display:none">            08-Oct-1997 15:03   78</td></tr>   
+<tr class="r1"><td>pg%2098-03</td><td><img style="max-width: 800px;" src="pg 98-03.JPG" /></td><td style="display:none">            30-Sep-1997 15:45   51</td></tr>   
+
+<tr class="r1"><td>pg%2098-04</td><td><img style="max-width: 800px;" src="pg 98-04.JPG" /></td><td style="display:none">            30-Sep-1997 15:45   63</td></tr>   
+<tr class="r1"><td>pg%2098-05</td><td><img style="max-width: 800px;" src="pg 98-05.jpg" /></td><td style="display:none">            30-Sep-1997 15:46   67</td></tr>   
+<tr class="r1"><td>pg%2098-06</td><td><img style="max-width: 800px;" src="pg 98-06.jpg" /></td><td style="display:none">            01-Oct-1997 13:32   68</td></tr>   
+<tr class="r1"><td>pg%2098-07</td><td><img style="max-width: 800px;" src="pg 98-07.jpg" /></td><td style="display:none">            30-Sep-1997 15:48   32</td></tr>   
+<tr class="r1"><td>pg%2098-08</td><td><img style="max-width: 800px;" src="pg 98-08.jpg" /></td><td style="display:none">            30-Sep-1997 15:49   56</td></tr>   
+
+<tr class="r1"><td>pg%2098-09</td><td><img style="max-width: 800px;" src="pg 98-09.jpg" /></td><td style="display:none">            30-Sep-1997 15:50   56</td></tr>   
+<tr class="r1"><td>pg%2098-10</td><td><img style="max-width: 800px;" src="pg 98-10.jpg" /></td><td style="display:none">            08-Oct-1997 15:04   54</td></tr>   
+<tr class="r1"><td>pg%2098-11</td><td><img style="max-width: 800px;" src="pg 98-11.jpg" /></td><td style="display:none">            30-Sep-1997 15:52   50</td></tr>   
+<tr class="r1"><td>pg%2098-12</td><td><img style="max-width: 800px;" src="pg 98-12.JPG" /></td><td style="display:none">            30-Sep-1997 15:53   80</td></tr>   
+<tr class="r1"><td>pg%2098-13</td><td><img style="max-width: 800px;" src="pg 98-13.jpg" /></td><td style="display:none">            30-Sep-1997 15:53   39</td></tr>   
+
+<tr class="r1"><td>pg%2098-14</td><td><img style="max-width: 800px;" src="pg 98-14.jpg" /></td><td style="display:none">            30-Sep-1997 15:54   44</td></tr>   
+<tr class="r1"><td>pg%2098-15a</td><td><img style="max-width: 800px;" src="pg 98-15a.jpg" /></td><td style="display:none">           30-Sep-1997 15:54   21</td></tr>   
+<tr class="r1"><td>pg%2098-15b</td><td><img style="max-width: 800px;" src="pg 98-15b.JPG" /></td><td style="display:none">           30-Sep-1997 17:47   30</td></tr>   
+<tr class="r1"><td>pg%2098-16</td><td><img style="max-width: 800px;" src="pg 98-16.jpg" /></td><td style="display:none">            30-Sep-1997 15:55   63</td></tr>   
+<tr class="r1"><td>pg%2098-17</td><td><img style="max-width: 800px;" src="pg 98-17.jpg" /></td><td style="display:none">            30-Sep-1997 15:55   58</td></tr>   
+
+<tr class="r1"><td>pg%2098-18</td><td><img style="max-width: 800px;" src="pg 98-18.jpg" /></td><td style="display:none">            30-Sep-1997 15:56   80</td></tr>   
+<tr class="r1"><td>pg%2098-19</td><td><img style="max-width: 800px;" src="pg 98-19.jpg" /></td><td style="display:none">            30-Sep-1997 15:57   66</td></tr>   
+<tr class="r1"><td>pg%2098-20</td><td><img style="max-width: 800px;" src="pg 98-20.JPG" /></td><td style="display:none">            08-Oct-1997 15:04   62</td></tr>   
+<tr class="r1"><td>pg%2098-21</td><td><img style="max-width: 800px;" src="pg 98-21.jpg" /></td><td style="display:none">            08-Oct-1997 14:46   80</td></tr>   
+<tr class="r1"><td>pg%2098-22</td><td><img style="max-width: 800px;" src="pg 98-22.jpg" /></td><td style="display:none">            30-Sep-1997 15:59   56</td></tr>   
+
+<tr class="r1"><td>pg%2098-23</td><td><img style="max-width: 800px;" src="pg 98-23.jpg" /></td><td style="display:none">            30-Sep-1997 16:00   56</td></tr>   
+<tr class="r1"><td>pg%2098-24</td><td><img style="max-width: 800px;" src="pg 98-24.jpg" /></td><td style="display:none">            08-Oct-1997 14:54   53</td></tr>   
+<tr class="r1"><td>pg%2098-25</td><td><img style="max-width: 800px;" src="pg 98-25.jpg" /></td><td style="display:none">            30-Sep-1997 16:01   47</td></tr>   
+<tr class="r1"><td>pg%2098-26</td><td><img style="max-width: 800px;" src="pg 98-26.jpg" /></td><td style="display:none">            08-Oct-1997 15:00   82</td></tr>   
+<tr class="r1"><td>pg%2098-27a</td><td><img style="max-width: 800px;" src="pg 98-27a.jpg" /></td><td style="display:none">           30-Sep-1997 16:02   56</td></tr>   
+
+<tr class="r1"><td>pg%2098-27b</td><td><img style="max-width: 800px;" src="pg 98-27b.JPG" /></td><td style="display:none">           30-Sep-1997 17:47   69</td></tr>   
+<tr class="r1"><td>pg%2098-28a</td><td><img style="max-width: 800px;" src="pg 98-28a.jpg" /></td><td style="display:none">           30-Sep-1997 16:02  101</td></tr>   
+<tr class="r1"><td>pg%2098-28b</td><td><img style="max-width: 800px;" src="pg 98-28b.jpg" /></td><td style="display:none">           30-Sep-1997 17:16   98</td></tr>   
+<tr class="r1"><td>pg%2098-28c</td><td><img style="max-width: 800px;" src="pg 98-28c.jpg" /></td><td style="display:none">           30-Sep-1997 17:18   98</td></tr>   
+<tr class="r1"><td>pg%2098-29a</td><td><img style="max-width: 800px;" src="pg 98-29a.jpg" /></td><td style="display:none">           30-Sep-1997 16:03   96</td></tr>   
+
+<tr class="r1"><td>pg%2098-29b</td><td><img style="max-width: 800px;" src="pg 98-29b.jpg" /></td><td style="display:none">           30-Sep-1997 17:21   66</td></tr>   
+<tr class="r1"><td>pg%2098-30</td><td><img style="max-width: 800px;" src="pg 98-30.JPG" /></td><td style="display:none">            30-Sep-1997 16:05   73</td></tr>   
+<tr class="r1"><td>pg%2098-31a</td><td><img style="max-width: 800px;" src="pg 98-31a.jpg" /></td><td style="display:none">           08-Oct-1997 15:19   57</td></tr>   
+<tr class="r1"><td>pg%2098-31b</td><td><img style="max-width: 800px;" src="pg 98-31b.jpg" /></td><td style="display:none">           30-Sep-1997 17:48   72</td></tr>   
+<tr class="r1"><td>pg%2098-32a</td><td><img style="max-width: 800px;" src="pg 98-32a.jpg" /></td><td style="display:none">           08-Oct-1997 17:09   70</td></tr>   
+
+<tr class="r1"><td>pg%2098-32b</td><td><img style="max-width: 800px;" src="pg 98-32b.jpg" /></td><td style="display:none">           30-Sep-1997 17:34   39</td></tr>   
+<tr class="r1"><td>pg%2098-33</td><td><img style="max-width: 800px;" src="pg 98-33.jpg" /></td><td style="display:none">            07-Oct-1997 16:23   63</td></tr>   
+<tr class="r1"><td>pg%2098-34</td><td><img style="max-width: 800px;" src="pg 98-34.jpg" /></td><td style="display:none">            08-Oct-1997 15:29   60</td></tr>   
+<tr class="r1"><td>pg%2098-35</td><td><img style="max-width: 800px;" src="pg 98-35.jpg" /></td><td style="display:none">            08-Oct-1997 15:31   69</td></tr>   
+<tr class="r1"><td>pg%2098-36</td><td><img style="max-width: 800px;" src="pg 98-36.jpg" /></td><td style="display:none">            30-Sep-1997 16:07   49</td></tr>   
+
+<tr class="r1"><td>pg%2098-37</td><td><img style="max-width: 800px;" src="pg 98-37.JPG" /></td><td style="display:none">            30-Sep-1997 16:08   72</td></tr>   
+<tr class="r1"><td>pg%2098-38</td><td><img style="max-width: 800px;" src="pg 98-38.JPG" /></td><td style="display:none">            08-Oct-1997 15:39   40</td></tr>   
+<tr class="r1"><td>pg%2098-39</td><td><img style="max-width: 800px;" src="pg 98-39.jpg" /></td><td style="display:none">            08-Oct-1997 15:41   43</td></tr>   
+<tr class="r1"><td>pg%2098-40</td><td><img style="max-width: 800px;" src="pg 98-40.jpg" /></td><td style="display:none">            30-Sep-1997 16:09   44</td></tr>   
+<tr class="r1"><td>pg%2098-41</td><td><img style="max-width: 800px;" src="pg 98-41.jpg" /></td><td style="display:none">            08-Oct-1997 17:09   47</td></tr>   
+
+<tr class="r1"><td>pg%2098-42</td><td><img style="max-width: 800px;" src="pg 98-42.jpg" /></td><td style="display:none">            30-Sep-1997 16:10   47</td></tr>   
+<tr class="r1"><td>pg%2098-43</td><td><img style="max-width: 800px;" src="pg 98-43.jpg" /></td><td style="display:none">            30-Sep-1997 16:11   83</td></tr>   
+<tr class="r1"><td>pg%2098-44</td><td><img style="max-width: 800px;" src="pg 98-44.jpg" /></td><td style="display:none">            30-Sep-1997 16:11   92</td></tr>   
+<tr class="r1"><td>pg%2098-45</td><td><img style="max-width: 800px;" src="pg 98-45.jpg" /></td><td style="display:none">            30-Sep-1997 16:12   67</td></tr>   
+<tr class="r1"><td>pg%2098-46</td><td><img style="max-width: 800px;" src="pg 98-46.jpg" /></td><td style="display:none">            30-Sep-1997 16:12   71</td></tr>   
+
+<tr class="r1"><td>pg%2098-47</td><td><img style="max-width: 800px;" src="pg 98-47.JPG" /></td><td style="display:none">            08-Oct-1997 16:01   60</td></tr>   
+<tr class="r1"><td>pg%2098-48</td><td><img style="max-width: 800px;" src="pg 98-48.JPG" /></td><td style="display:none">            30-Sep-1997 16:13   43</td></tr>   
+<tr class="r1"><td>pg%2098-49</td><td><img style="max-width: 800px;" src="pg 98-49.jpg" /></td><td style="display:none">            30-Sep-1997 16:13   51</td></tr>   
+<tr class="r1"><td>pg%2098-50</td><td><img style="max-width: 800px;" src="pg 98-50.jpg" /></td><td style="display:none">            30-Sep-1997 16:14   43</td></tr>   
+<tr class="r1"><td>pg%2098-51</td><td><img style="max-width: 800px;" src="pg 98-51.JPG" /></td><td style="display:none">            30-Sep-1997 16:14   69</td></tr>   
+
+<tr class="r1"><td>pg%2098-52</td><td><img style="max-width: 800px;" src="pg 98-52.JPG" /></td><td style="display:none">            30-Sep-1997 16:15   59</td></tr>   
+<tr class="r1"><td>pg%2098-53</td><td><img style="max-width: 800px;" src="pg 98-53.JPG" /></td><td style="display:none">            30-Sep-1997 16:15   56</td></tr>   
+<tr class="r1"><td>pg%2098-54</td><td><img style="max-width: 800px;" src="pg 98-54.JPG" /></td><td style="display:none">            30-Sep-1997 16:16   69</td></tr>   
+<tr class="r1"><td>pg%2098-55</td><td><img style="max-width: 800px;" src="pg 98-55.JPG" /></td><td style="display:none">            30-Sep-1997 16:16   49</td></tr>   
+<tr class="r1"><td>pg%2098-56</td><td><img style="max-width: 800px;" src="pg 98-56.JPG" /></td><td style="display:none">            30-Sep-1997 16:17   64</td></tr>   
+
+<tr class="r1"><td>pg%2098-57</td><td><img style="max-width: 800px;" src="pg 98-57.jpg" /></td><td style="display:none">            30-Sep-1997 16:17   67</td></tr>   
+<tr class="r1"><td>pg%2098-58</td><td><img style="max-width: 800px;" src="pg 98-58.jpg" /></td><td style="display:none">            28-Aug-2000 11:26   46</td></tr>   
+<tr class="r1"><td>pg%2098-59</td><td><img style="max-width: 800px;" src="pg 98-59.JPG" /></td><td style="display:none">            30-Sep-1997 16:27   50</td></tr>   
+<tr class="r1"><td>pg%2098-60</td><td><img style="max-width: 800px;" src="pg 98-60.JPG" /></td><td style="display:none">            30-Sep-1997 16:27   36</td></tr>   
+<tr class="r1"><td>pg%2098-61</td><td><img style="max-width: 800px;" src="pg 98-61.JPG" /></td><td style="display:none">            30-Sep-1997 16:26   66</td></tr>   
+
+<tr class="r1"><td>pg%2098-62</td><td><img style="max-width: 800px;" src="pg 98-62.jpg" /></td><td style="display:none">            30-Sep-1997 16:26   49</td></tr>   
+<tr class="r1"><td>pg%2098-63</td><td><img style="max-width: 800px;" src="pg 98-63.jpg" /></td><td style="display:none">            30-Sep-1997 16:26   62</td></tr>   
+<tr class="r1"><td>pg%2098-64</td><td><img style="max-width: 800px;" src="pg 98-64.jpg" /></td><td style="display:none">            30-Sep-1997 16:26   47</td></tr>   
+<tr class="r1"><td>pg%2098-65</td><td><img style="max-width: 800px;" src="pg 98-65.jpg" /></td><td style="display:none">            30-Sep-1997 16:25   54</td></tr>   
+<tr class="r1"><td>pg%2098-66</td><td><img style="max-width: 800px;" src="pg 98-66.jpg" /></td><td style="display:none">            30-Sep-1997 16:32   46</td></tr>   
+
+<tr class="r1"><td>pg%2098-67</td><td><img style="max-width: 800px;" src="pg 98-67.jpg" /></td><td style="display:none">            30-Sep-1997 16:32   67</td></tr>   
+<tr class="r1"><td>pg%2098-68</td><td><img style="max-width: 800px;" src="pg 98-68.JPG" /></td><td style="display:none">            08-Oct-1997 17:10   50</td></tr>   
+<tr class="r1"><td>pg%2098-69</td><td><img style="max-width: 800px;" src="pg 98-69.jpg" /></td><td style="display:none">            30-Sep-1997 16:32   56</td></tr>   
+<tr class="r1"><td>pg%2098-70</td><td><img style="max-width: 800px;" src="pg 98-70.jpg" /></td><td style="display:none">            30-Sep-1997 16:31   36</td></tr>   
+<tr class="r1"><td>pg%2098-71</td><td><img style="max-width: 800px;" src="pg 98-71.jpg" /></td><td style="display:none">            30-Sep-1997 16:31   40</td></tr>   
+
+<tr class="r1"><td>pg%2098-72</td><td><img style="max-width: 800px;" src="pg 98-72.jpg" /></td><td style="display:none">            30-Sep-1997 16:31   49</td></tr>   
+<tr class="r1"><td>pg%2098-73</td><td><img style="max-width: 800px;" src="pg 98-73.jpg" /></td><td style="display:none">            30-Sep-1997 16:30   60</td></tr>   
+<tr class="r1"><td>pg%2098-74</td><td><img style="max-width: 800px;" src="pg 98-74.jpg" /></td><td style="display:none">            30-Sep-1997 16:30   60</td></tr>   
+<tr class="r1"><td>pg%2098-75</td><td><img style="max-width: 800px;" src="pg 98-75.jpg" /></td><td style="display:none">            30-Sep-1997 16:30   58</td></tr>   
+<tr class="r1"><td>pg%2098-76</td><td><img style="max-width: 800px;" src="pg 98-76.JPG" /></td><td style="display:none">            30-Sep-1997 16:38   65</td></tr>   
+
+<tr class="r1"><td>pg%2098-77</td><td><img style="max-width: 800px;" src="pg 98-77.JPG" /></td><td style="display:none">            30-Sep-1997 16:38   71</td></tr>   
+<tr class="r1"><td>pg%2098-78</td><td><img style="max-width: 800px;" src="pg 98-78.jpg" /></td><td style="display:none">            30-Sep-1997 16:37   60</td></tr>   
+<tr class="r1"><td>pg%2098-79</td><td><img style="max-width: 800px;" src="pg 98-79.jpg" /></td><td style="display:none">            30-Sep-1997 16:37   40</td></tr>   
+<tr class="r1"><td>pg%2098-80</td><td><img style="max-width: 800px;" src="pg 98-80.jpg" /></td><td style="display:none">            30-Sep-1997 16:37   41</td></tr>   
+<tr class="r1"><td>pg%2098-81</td><td><img style="max-width: 800px;" src="pg 98-81.jpg" /></td><td style="display:none">            30-Sep-1997 16:36   58</td></tr>   
+
+<tr class="r1"><td>pg%2098-82</td><td><img style="max-width: 800px;" src="pg 98-82.jpg" /></td><td style="display:none">            30-Sep-1997 16:36   62</td></tr>   
+<tr class="r1"><td>pg%2098-83</td><td><img style="max-width: 800px;" src="pg 98-83.jpg" /></td><td style="display:none">            30-Sep-1997 16:36   50</td></tr>   
+<tr class="r1"><td>pg%2098-84</td><td><img style="max-width: 800px;" src="pg 98-84.JPG" /></td><td style="display:none">            30-Sep-1997 16:21   54</td></tr>   
+<tr class="r1"><td>pg%2098-85</td><td><img style="max-width: 800px;" src="pg 98-85.jpg" /></td><td style="display:none">            30-Sep-1997 16:21   62</td></tr>   
+<tr class="r1"><td>pg%2098-86</td><td><img style="max-width: 800px;" src="pg 98-86.JPG" /></td><td style="display:none">            30-Sep-1997 16:21   76</td></tr>   
+
+<tr class="r1"><td>pg%2098-87</td><td><img style="max-width: 800px;" src="pg 98-87.JPG" /></td><td style="display:none">            30-Sep-1997 16:22   66</td></tr>   
+<tr class="r1"><td>pg%2098-88</td><td><img style="max-width: 800px;" src="pg 98-88.JPG" /></td><td style="display:none">            30-Sep-1997 16:22   74</td></tr>   
+<tr class="r1"><td>pg%2098-89</td><td><img style="max-width: 800px;" src="pg 98-89.JPG" /></td><td style="display:none">            30-Sep-1997 16:22   41</td></tr>   
+<tr class="r1"><td>pg%2098-90</td><td><img style="max-width: 800px;" src="pg 98-90.JPG" /></td><td style="display:none">            30-Sep-1997 16:23   52</td></tr>   
+<tr class="r1"><td>pg%2098-91</td><td><img style="max-width: 800px;" src="pg 98-91.JPG" /></td><td style="display:none">            30-Sep-1997 16:23   79</td></tr>   
+
