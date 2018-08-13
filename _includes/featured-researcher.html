@@ -14,8 +14,10 @@
         </p>
         <h5>Recent {{researcher.pub-type | capitalize}}</h5>
         <p class="card-text">
-            {% if research.pub-type == "grant" %}
+            {% if researcher.pub-type == "grant" %}
             <a href="{{ researcher.pub-link | absolute_url }} ">{{ researcher.publication}}</a><br> awarded by {{ researcher.publication-journal }}
+            {% elsif researcher.pub-type == "book" %}
+            <a href="{{ researcher.pub-link | absolute_url }} ">{{ researcher.publication}}</a>
             {% else %}
             <a href="{{ researcher.pub-link | absolute_url }} ">{{ researcher.publication}}</a><br> in {{ researcher.publication-journal}}
             {% endif %}
