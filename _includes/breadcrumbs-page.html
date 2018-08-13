@@ -2,10 +2,10 @@
 {% assign stub = site.data.pagesnav[page.section][0].stub %}
 <ul class="breadcrumb">
     <li class="breadcrumb-item">
-        <a href="{{ '/' | absolute_url }}"><span class="fas fa-home"></span></a>
+        <a href="{{ '/' | relative_url }}"><span class="fas fa-home"></span></a>
     </li>
     <li class="breadcrumb-item">
-        <a href="{{ stub | absolute_url }}">{{ parent }}</a>
+        <a href="{{ stub | relative_url }}">{{ parent }}</a>
     </li>    
     <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
 </ul>
