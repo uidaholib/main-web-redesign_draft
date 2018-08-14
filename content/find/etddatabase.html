@@ -1,0 +1,444 @@
+---
+title: Theses and Dissertations Database
+layout: full-width-page
+section: find
+permalink: /find/etddatabase.html
+---
+
+    <div class="row">
+      <div class="col-md-6">
+            <p><a href="http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551">Click here to go to ProQuest's Full-Text Dissertation Database</a></p> </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <p class="mb-0">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true">ETD Database Info 
+                <span class="fas fa-chevron-down smalltxt"></span>
+              </a>
+            </p>
+          </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion" style="">
+            <div class="card-body">
+                    <p>We present below a searchable database of catalog records for over 10,000 theses and dissertations published from 1909 to 2013. This database was most recently updated in June of 2013.</p>
+                    <p>Additional Resources:</p>
+            <ul stlye='padding-left:3%'>
+            <li><a href='http://ida.lib.uidaho.edu:2048/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551'>ProQuest Full-Text Dissertation Database</a></li>
+            <li><a href='https://digital.lib.uidaho.edu/cdm/search/collection/etd'>Recent Dissertation Database, (2007 - present)</a></li>
+            <li><a href='https://www.uidaho.edu/cogs'>College of Graduate Studes</a></li></ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="row" style="margin-left:10px;">
+      <div class="col-md-5">
+        <h4 class="underline">Search Functions</h4>
+
+        <select id="searchMenu">
+                <option value="Search" selected="selected">Keyword</option>
+                <option value="Creator">Author</option>
+                <option value="Title">Title</option>
+                <option value="Date">Date</option>
+                <option value="Subjects">Subject</option>
+                <option value="DeptCollegeProf">Professor</option>
+                <option value="DeptCollegeProf">Department</option>
+                <option value="DeptCollegeProf">College</option>
+            </select>
+            <form name="searchForm" style="display:inline;">
+                <input type="search" id="search2" value="" size="12">  
+                <input type="submit" onclick="javascript: searchTable(document.getElementById('search2').value, document.getElementById('searchMenu')); return false;" value="Search" class="input"><br>
+            </form>
+      </div>
+      <div class="col-md-7">
+                <input type="button" value="Reset" onclick="javascript:resetTable(document.getElementById('team2'), document.getElementById('team3'))" >
+
+          					<a href="#advanced" id="advanced-on">Advanced Search</a>
+
+        </div>
+        <div class="advanced_opt" style="display: none;">
+                <h4 class="underline">Advanced Search Options</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label >Browse By Date:</label>
+                        <select id="team3" onchange="drawTable3(this.value);">
+                             <option value="" selected="selected">Select a year below ... </option>
+                             <option value="1909">1909</option> 
+                             <option value="1910">1910</option> 
+                             <option value="1911">1911</option> 
+                             <option value="1912">1912</option> 
+                             <option value="1913">1913</option> 
+                             <option value="1914">1914</option> 
+                             <option value="1915">1915</option> 
+                             <option value="1916">1916</option> 
+                             <option value="1917">1917</option> 
+                             <option value="1918">1918</option> 
+                             <option value="1919">1919</option> 
+                             <option value="1920">1920</option> 
+                             <option value="1921">1921</option> 
+                             <option value="1922">1922</option> 
+                             <option value="1923">1923</option> 
+                             <option value="1924">1924</option> 
+                             <option value="1925">1925</option> 
+                             <option value="1926">1926</option> 
+                             <option value="1927">1927</option> 
+                             <option value="1928">1928</option> 
+                             <option value="1929">1929</option> 
+                             <option value="1930">1930</option> 
+                             <option value="1931">1931</option> 
+                             <option value="1932">1932</option> 
+                             <option value="1933">1933</option> 
+                             <option value="1934">1934</option> 
+                             <option value="1935">1935</option> 
+                             <option value="1936">1936</option> 
+                             <option value="1937">1937</option> 
+                             <option value="1938">1938</option> 
+                             <option value="1939">1939</option> 
+                             <option value="1940">1940</option> 
+                             <option value="1941">1941</option> 
+                             <option value="1942">1942</option> 
+                             <option value="1943">1943</option> 
+                             <option value="1944">1944</option> 
+                             <option value="1945">1945</option> 
+                             <option value="1946">1946</option> 
+                             <option value="1947">1947</option> 
+                             <option value="1948">1948</option> 
+                             <option value="1949">1949</option> 
+                             <option value="1950">1950</option> 
+                             <option value="1951">1951</option> 
+                             <option value="1952">1952</option> 
+                             <option value="1953">1953</option> 
+                             <option value="1954">1954</option> 
+                             <option value="1955">1955</option> 
+                             <option value="1956">1956</option> 
+                             <option value="1957">1957</option> 
+                             <option value="1958">1958</option> 
+                             <option value="1959">1959</option> 
+                             <option value="1960">1960</option> 
+                             <option value="1961">1961</option> 
+                             <option value="1962">1962</option> 
+                             <option value="1963">1963</option> 
+                             <option value="1964">1964</option> 
+                             <option value="1965">1965</option> 
+                             <option value="1966">1966</option> 
+                             <option value="1967">1967</option> 
+                             <option value="1968">1968</option> 
+                             <option value="1969">1969</option> 
+                             <option value="1970">1970</option> 
+                             <option value="1971">1971</option> 
+                             <option value="1972">1972</option> 
+                             <option value="1973">1973</option> 
+                             <option value="1974">1974</option> 
+                             <option value="1975">1975</option> 
+                             <option value="1976">1976</option> 
+                             <option value="1977">1977</option> 
+                             <option value="1978">1978</option> 
+                             <option value="1979">1979</option> 
+                             <option value="1980">1980</option> 
+                             <option value="1981">1981</option> 
+                             <option value="1982">1982</option> 
+                             <option value="1983">1983</option> 
+                             <option value="1984">1984</option> 
+                             <option value="1985">1985</option> 
+                             <option value="1986">1986</option> 
+                             <option value="1987">1987</option> 
+                             <option value="1988">1988</option> 
+                             <option value="1989">1989</option> 
+                             <option value="1990">1990</option> 
+                             <option value="1991">1991</option> 
+                             <option value="1992">1992</option> 
+                             <option value="1993">1993</option> 
+                             <option value="1994">1994</option> 
+                             <option value="1995">1995</option> 
+                             <option value="1996">1996</option> 
+                             <option value="1997">1997</option> 
+                             <option value="1998">1998</option> 
+                             <option value="1999">1999</option> 
+                             <option value="2000">2000</option> 
+                             <option value="2001">2001</option> 
+                             <option value="2002">2002</option> 
+                             <option value="2003">2003</option> 
+                             <option value="2004">2004</option> 
+                             <option value="2005">2005</option> 
+                             <option value="2006">2006</option> 
+                             <option value="2007">2007</option> 
+                             <option value="2008">2008</option> 
+                             <option value="2009">2009</option> 
+                             <option value="2010">2010</option> 
+                             <option value="2011">2011</option>
+                             <option value="2012">2012</option>
+                             <option value="2013">2013</option>
+                             <option value="2014">2014</option>
+                             <option value="2015">2015</option>
+                             <option value="2016">2016</option>
+                        </select>
+                        <br />
+                    
+                        </div>
+                            
+                    
+                        <div class="col-md-8">
+                        
+                        <label >Browse By Subject:</label>
+                        <select id="team2" onchange="drawTable4();">
+                            <option style="font-style:italic;" value="">Description (Library of Congress Call Number)</option>    
+                            <option value="AS">	Academies and societies	 (AS)	</option>
+                            <option value="BH">	Aesthetics	 (BH)	</option>
+                            <option value="DT">	Africa	 (DT)	</option>
+                            <option value="S">	AGRICULTURE	 (S)	</option>
+                            <option value="KDZ">	America, North America	 (KDZ)	</option>
+                            <option value="PM">	American Indian languages, artificial languages	 (PM)	</option>
+                            <option value="PS">	American literature	 (PS)	</option>
+                            <option value="SF">	Animal culture	 (SF)	</option>
+                            <option value="GN">	Anthropology	 (GN)	</option>
+                            <option value="CC">	Archaeology	 (CC)	</option>
+                            <option value="NA">	Architecture 	 (NA)	</option>
+                            <option value="UA">	Armies	 (UA)	</option>
+                            <option value="UF">	Artillery	 (UF)	</option>
+                            <option value="NX">	Arts in general 	 (NX)	</option>
+                            <option value="QB">	Astronomy	 (QB)	</option>
+                            <option value="DB">	Austria, Hungary, Czechoslovakia	 (DB)	</option>
+                            <option value="C">	AUXILIARY SCIENCES OF HISTORY	 (C)	</option>
+                            <option value="DR">	Balkans, Turkey	 (DR)	</option>
+                            <option value="BS">	Bible	 (BS)	</option>
+                            <option value="Z">	BIBLIOGRAPHY-LIBRARY SCIENCE	 (Z)	</option>
+                            <option value="CT">	Biography	 (CT)	</option>
+                            <option value="Z">	Books, book industries, library science	 (Z)	</option>
+                            <option value="RV">	Botanic, eclectic medicine 	 (RV)	</option>
+                            <option value="QK">	Botany	 (QK)	</option>
+                            <option value="TG">	Bridge construction	 (TG)	</option>
+                            <option value="DA">	British History	 (DA)	</option>
+                            <option value="BQ">	Buddhism	 (BQ)	</option>
+                            <option value="TH">	Building construction	 (TH)	</option>
+                            <option value="KE">	Canada 	 (KE)	</option>
+                            <option value="UE">	Cavalry, armored cavalry	 (UE)	</option>
+                            <option value="PB">	Celtic languages	 (PB)	</option>
+                            <option value="TP">	Chemical technology	 (TP)	</option>
+                            <option value="QD">	Chemistry	 (QD)	</option>
+                            <option value="BX">	Christian denominations 	 (BX)	</option>
+                            <option value="BR">	Christianity	 (BR)	</option>
+                            <option value="BV">	Christianity:  practical theology	 (BV)	</option>
+                            <option value="BT">	Christianity: doctrinal theology	 (BT)	</option>
+                            <option value="PA">	Classical languages and literature	 (PA)	</option>
+                            <option value="AC">	Collections	 (AC)	</option>
+                            <option value="LH">	College publications	 (LH)	</option>
+                            <option value="JV">	Colonies and colonization	 (JV)	</option>
+                            <option value="HF">	Commerce 	 (HF)	</option>
+                            <option value="HX">	Communism, Socialism 	 (HX)	</option>
+                            <option value="HT">	Communities, classes, races	 (HT)	</option>
+                            <option value="PN">	Comparative literature, general literary history, drama	 (PN)	</option>
+                            <option value="JQ">	Constitutional history--Asia, Africa. Australia, Oceania	 (JQ)	</option>
+                            <option value="JK">	Constitutional history--Canada, Latin America	 (JK)	</option>
+                            <option value="JN">	Constitutional history--Europe	 (JN)	</option>
+                            <option value="JF">	Constitutional history--general	 (JF)	</option>
+                            <option value="JL">	Constitutional history--United States	 (JL)	</option>
+                            <option value="NK">	Decorative arts, applied arts	 (NK)	</option>
+                            <option value="RK">	Dentistry	 (RK)	</option>
+                            <option value="RL">	Dermatology	 (RL)	</option>
+                            <option value="AG">	Dictionaries	 (AG)	</option>
+                            <option value="CD">	Diplomatics, archives, seals	 (CD)	</option>
+                            <option value="NC">	Drawing, design	 (NC)	</option>
+                            <option value="PL">	East Asian, Oceanic, African languages and literature	 (PL)	</option>
+                            <option value="DJK">	Eastern Europe	 (DJK)	</option>
+                            <option value="HC">	Economic history	 (HC)	</option>
+                            <option value="HB">	Economics	 (HB)	</option>
+                            <option value="L">	EDUCATION	 (L)	</option>
+                            <option value="TK">	Electrical engineering, electronics, nuclear engineering	 (TK)	</option>
+                            <option value="AE">	Encyclopedias	 (AE)	</option>
+                            <option value="TA">	Engineering--general and civil	 (TA)	</option>
+                            <option value="PE">	English language	 (PE)	</option>
+                            <option value="PR">	English literature	 (PR)	</option>
+                            <option value="TD">	Environmental technology, sanitary engineering	 (TD)	</option>
+                            <option value="BJ">	Ethics, social usages, etiquette	 (BJ)	</option>
+                            <option value="KI-KK">	Europe	 (KI-KK)	</option>
+                            <option value="HQ">	Family, Marriage, Women, Sexuality	 (HQ)	</option>
+                            <option value="HG">	Finance	 (HG)	</option>
+                            <option value="N">	FINE ARTS	 (N)	</option>
+                            <option value="PH">	Finno-Ugrian languages and literature	 (PH)	</option>
+                            <option value="SH">	Fishing, camping	 (SH)	</option>
+                            <option value="GR">	Folklore	 (GR)	</option>
+                            <option value="SD">	Forestry	 (SD)	</option>
+                            <option value="DC">	France 	 (DC)	</option>
+                            <option value="CS">	Genealogy	 (CS)	</option>
+                            <option value="M">	General	 (M)	</option>
+                            <option value="A">	GENERAL WORKS	 (A)	</option>
+                            <option value="G">	GEOGRAPHY	 (G)	</option>
+                            <option value="QE">	Geology	 (QE)	</option>
+                            <option value="PD">	Germanic languages, Scandinavian languages	 (PD)	</option>
+                            <option value="PT">	Germanic literature	 (PT)	</option>
+                            <option value="DD">	Germany	 (DD)	</option>
+                            <option value="DF">	Greece	 (DF)	</option>
+                            <option value="RG">	Gynecology, obstetrics	 (RG)	</option>
+                            <option value="DX">	Gypsies 	 (DX)	</option>
+                            <option value="TT">	Handicrafts, arts and crafts	 (TT)	</option>
+                            <option value="CR">	Heraldry	 (CR)	</option>
+                            <option value="LG">	Higher Ed. institutions--Asia, Africa, Australia, Oceania	 (LG)	</option>
+                            <option value="LF">	Higher Ed. institutions--Europe	 (LF)	</option>
+                            <option value="LE">	Higher Ed. institutions--Other Americas	 (LE)	</option>
+                            <option value="LD">	Higher Ed. institutions--U.S.	 (LD)	</option>
+                            <option value="TE">	Highway engineering	 (TE)	</option>
+                            <option value="D">	HISTORY	 (D)	</option>
+                            <option value="CB">	History of civilization	 (CB)	</option>
+                            <option value="LA">	History of education	 (LA)	</option>
+                            <option value="AZ">	History of scholarship	 (AZ)	</option>
+                            <option value="F">	HISTORY: STATE AND LOCAL, North America	 (F)	</option>
+                            <option value="E">	HISTORY: UNITED STATES	 (E)	</option>
+                            <option value="TX">	Home economics	 (TX)	</option>
+                            <option value="RX">	Homeopathy 	 (RX)	</option>
+                            <option value="QM">	Human Anatomy	 (QM)	</option>
+                            <option value="GF">	Human Ecology, anthropogeography	 (GF)	</option>
+                            <option value="SK">	Hunting  	 (SK)	</option>
+                            <option value="TC">	Hydraulic engineering	 (TC)	</option>
+                            <option value="AI">	Indexes	 (AI)	</option>
+                            <option value="PK">	Indo-Iranian languages and literature	 (PK)	</option>
+                            <option value="UD">	Infantry	 (UD)	</option>
+                            <option value="CN">	Inscriptions, epigraphy	 (CN)	</option>
+                            <option value="RC">	Internal and Sports Medicine	 (RC)	</option>
+                            <option value="JX">	International Relations 	 (JX)	</option>
+                            <option value="BP">	Islam, Bahaism, theosophy	 (BP)	</option>
+                            <option value="DG">	Italy	 (DG)	</option>
+                            <option value="BM">	Judaism	 (BM)	</option>
+                            <option value="PZ">	Juvenile belle lettres	 (PZ)	</option>
+                            <option value="HD">	Land, agriculture, industry, labor	 (HD)	</option>
+                            <option value="Z">	Libraries	 (Z)	</option>
+                            <option value="P">	LANGUAGE-LITERATURE	 (P)	</option>
+                            <option value="KG-KH">	Latin America 	 (KG-KH)	</option>
+                            <option value="K">	LAW	 (K)	</option>
+                            <option value="ML">	Literature of music 	 (ML)	</option>
+                            <option value="JS">	Local government	 (JS)	</option>
+                            <option value="BC">	Logic	 (BC)	</option>
+                            <option value="DH">	Low Countries:  Belgium, Luxembourg	 (DH)	</option>
+                            <option value="UC">	Maintenance and transportation	 (UC)	</option>
+                            <option value="GT">	Manners, customs	 (GT)	</option>
+                            <option value="TS">	Manufactures	 (TS)	</option>
+                            <option value="VE">	Marines	 (VE)	</option>
+                            <option value="GA">	Mathematical geography, cartography	 (GA)	</option>
+                            <option value="QA">	Mathematics	 (QA)	</option>
+                            <option value="TJ">	Mechanical engineering, machinery	 (TJ)	</option>
+                            <option value="R">	MEDICINE	 (R)	</option>
+                            <option value="DE">	Mediterranean region--classical	 (DE)	</option>
+                            <option value="QR">	Microbiology	 (QR)	</option>
+                            <option value="DS">	Middle East and Asia	 (DS)	</option>
+                            <option value="UB">	Military administration	 (UB)	</option>
+                            <option value="U">	MILITARY ARTS &amp; SCIENCES	 (U)	</option>
+                            <option value="UG">	Military engineering, air forces, air warfare	 (UG)	</option>
+                            <option value="TN">	Mining engineering, metallurgy	 (TN)	</option>
+                            <option value="VG">	Minor services of navies	 (VG)	</option>
+                            <option value="TL">	Motor vehicles, aeronautics, astronautics	 (TL)	</option>
+                            <option value="AM">	Museums	 (AM)	</option>
+                            <option value="M">	MUSIC	 (M)	</option>
+                            <option value="MT">	Music instruction 	 (MT)	</option>
+                            <option value="QH">	Natural history, biology	 (QH)	</option>
+                            <option value="VB">	Naval administration	 (VB)	</option>
+                            <option value="VM">	Naval architecture, marine engineering	 (VM)	</option>
+                            <option value="VC">	Naval maintenance	 (VC)	</option>
+                            <option value="VF">	Naval ordinance	 (VF)	</option>
+                            <option value="V">	NAVAL SCIENCES	 (V)	</option>
+                            <option value="VD">	Naval seamen	 (VD)	</option>
+                            <option value="VA">	Navies	 (VA)	</option>
+                            <option value="VK">	Navigation, merchant marine	 (VK)	</option>
+                            <option value="DJ">	Netherlands	 (DJ)	</option>
+                            <option value="AN">	Newspapers	 (AN)	</option>
+                            <option value="DL">	Northern Europe, Scandinavia	 (DL)	</option>
+                            <option value="CJ">	Numismatics	 (CJ)	</option>
+                            <option value="RT">	Nursing	 (RT)	</option>
+                            <option value="DU">	Oceania, Australia, New Zealand	 (DU)	</option>
+                            <option value="GC">	Oceanography	 (GC)	</option>
+                            <option value="RE">	Ophthalmology	 (RE)	</option>
+                            <option value="PJ">	Oriental languages and literature	 (PJ)	</option>
+                            <option value="UH">	Other services	 (UH)	</option>
+                            <option value="RZ">	Other systems of medicine 	 (RZ)	</option>
+                            <option value="RF">	Otorhinolaryngology	 (RF)	</option>
+                            <option value="NE">	Paint media 	 (NE)	</option>
+                            <option value="ND">	Painting 	 (ND)	</option>
+                            <option value="RB">	Pathology	 (RB)	</option>
+                            <option value="RJ">	Pediatrics	 (RJ)	</option>
+                            <option value="AP">	Periodicals	 (AP)	</option>
+                            <option value="RS">	Pharmacy 	 (RS)	</option>
+                            <option value="P">	Philology, linguistics	 (P)	</option>
+                            <option value="B">	PHILOSOPHY	 (B)	</option>
+                            <option value="TR">	Photography	 (TR)	</option>
+                            <option value="GB">	Physical geography	 (GB)	</option>
+                            <option value="QC">	Physics	 (QC)	</option>
+                            <option value="QP">	Physiology	 (QP)	</option>
+                            <option value="SB">	Plant culture	 (SB)	</option>
+                            <option value="J">	POLITICAL SCIENCE	 (J)	</option>
+                            <option value="JA">	Political science--general	 (JA)	</option>
+                            <option value="JC">	Political theory--the state	 (JC)	</option>
+                            <option value="BF">	Psychology	 (BF)	</option>
+                            <option value="HJ">	Public finance	 (HJ)	</option>
+                            <option value="RA">	Public Health	 (RA)	</option>
+                            <option value="TF">	Railroad engineering	 (TF)	</option>
+                            <option value="BL">	Religions, mythology	 (BL)	</option>
+                            <option value="PC">	Romance languages	 (PC)	</option>
+                            <option value="PQ">	Romances literature	 (PQ)	</option>
+                            <option value="Q">	SCIENCE	 (Q)	</option>
+                            <option value="NB">	Sculpture	 (NB)	</option>
+                            <option value="PG">	Slavic, Baltic, Albanian languages and literature	 (PG)	</option>
+                            <option value="HN">	Social History	 (HN)	</option>
+                            <option value="HV">	Social Pathology	 (HV)	</option>
+                            <option value="H">	SOCIAL SCIENCES	 (H)	</option>
+                            <option value="HS">	Societies, clubs	 (HS)	</option>
+                            <option value="HM">	Sociology	 (HM)	</option>
+                            <option value="DK">	Soviet Union, Poland	 (DK)	</option>
+                            <option value="DP">	Spain, Portugal	 (DP)	</option>
+                            <option value="LC">	Special aspects of education	 (LC)	</option>
+                            <option value="BD">	Speculative philosophy	 (BD)	</option>
+                            <option value="GV">	Sports and Recreation 	 (GV)	</option>
+                            <option value="HA">	Statistics	 (HA)	</option>
+                            <option value="LJ">	Student fraternities and sororities	 (LJ)	</option>
+                            <option value="RD">	Surgery	 (RD)	</option>
+                            <option value="DQ">	Switzerland	 (DQ)	</option>
+                            <option value="CE">	Technical chronology, calendar	 (CE)	</option>
+                            <option value="T">	TECHNOLOGY	 (T)	</option>
+                            <option value="LT">	Textbooks 	 (LT)	</option>
+                            <option value="LB">	Theory and practice of education	 (LB)	</option>
+                            <option value="RM">	Therapeutics, pharmacology	 (RM)	</option>
+                            <option value="HE">	Transportation and communications	 (HE)	</option>
+                            <option value="KD">	United Kingdom, Ireland	 (KD)	</option>
+                            <option value="KF">	United States	 (KF)	</option>
+                            <option value="N">	Visual Arts, general	 (N)	</option>
+                            <option value="PF">	West Germanic languages, Dutch, German	 (PF)	</option>
+                            <option value="AY">	Yearbooks, almanacs, directories	 (AY)	</option>
+                            <option value="QL">	Zoology	 (QL)	</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                
+      <div class="row">
+        <div class="col-md-12 center">
+            <div id="visualization" class="p-2 m-0" style="width:100%;"></div>
+          <p class="smalltxt">(Note: the table above will only display 500 records at most. If the final row number above is 500, you may limit
+            your search to view more records.)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	  	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+	
+  <script src="{{ "/assets/js/jquery-3.3.1.min.js" | relative_url }}"></script>
+	  <script type="text/javascript"  src="{{ "/assets/js/etddatabase.js" | relative_url }}"></script>
+	
+	   
+  <script>
+  
+  $("#advanced-on").click(function(){
+$(".advanced_opt").toggle();  
+});</script>
