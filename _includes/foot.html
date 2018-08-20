@@ -5,9 +5,4 @@
 <script src="{{ '/assets/js/hours.js' | relative_url }}"></script>
 {% if page.layout == "page" %}{% include js/page-sidebar.js %}{% endif %}
 {% if page.table-id %}{% include js/table-basic.js %}{% endif %}
-{% if page.section == "home" %}{% include js/home.js %}
-<script src="{{ "/assets/js/ofi.min.js" | relative_url }}"></script>
-<script>
-$(function () { objectFitImages() });
-
-</script>{% endif %}
+{% if page.section == "home" %}{% include js/home.js %}{% endif %}

@@ -1,8 +1,8 @@
 {% assign researchers = site.data.vivo-featured %}
 {% for researcher in researchers %}
-<div class="card mx-auto" id="researcher-{{ researcher.last-name | downcase }}" style="display:none;max-width: 16rem;">
+<div class="card mx-auto researchers">
     <a href="{{ researcher.profile-link }}">
-        <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/vivo-featured/{{ researcher.last-name | downcase }}.jpg" alt="{{ researcher.last-name }} portrait">
     </a>
     <div class="card-body">
         <h4 class="card-title">
@@ -14,15 +14,15 @@
         </p>
         <h5>Recent {{researcher.pub-type | capitalize}}</h5>
         <p class="card-text">
+            <a href="{{ researcher.pub-link }}">{{ researcher.publication}}</a>
             {% if researcher.pub-type == "grant" %}
-            <a href="{{ researcher.pub-link  }} ">{{ researcher.publication}}</a><br> awarded by {{ researcher.publication-journal }}
+            <br>awarded by {{ researcher.publication-journal }}
             {% elsif researcher.pub-type == "book" %}
-            <a href="{{ researcher.pub-link  }} ">{{ researcher.publication}}</a>
             {% else %}
-            <a href="{{ researcher.pub-link  }} ">{{ researcher.publication}}</a><br> in {{ researcher.publication-journal}}
+            <br>in {{ researcher.publication-journal }}
             {% endif %}
         </p>
-        <a href="{{ researcher.profile-link  }} " class="btn btn-clearwater ">View VIVO Profile</a>
+        <a href="{{ researcher.profile-link }}" class="btn btn-clearwater ">View VIVO Profile</a>
     </div>
 </div>            
 {% endfor %}

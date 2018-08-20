@@ -48,6 +48,11 @@
         border-style: dotted;
     }
 }
+/* featured researcher */
+.researchers {
+    display: none;
+    max-width: 16rem;
+}
 /* old stuff? */
 #index-jumbotron {
     background-image: $jumbotron-image;
