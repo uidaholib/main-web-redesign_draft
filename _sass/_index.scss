@@ -1,18 +1,42 @@
-/* index */ 
-#index-jumbotron {
-    background-image: $jumbotron-image;
-    background-size: cover;
-    background-repeat: no-repeat;
+/* new carousel */ 
+.carousel { 
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
+    a {
+        color:white !important;
+    }
 }
-// style="min-height:400px;"
 .carousel-item img {
     width:100%; 
     object-fit: cover;
-    max-height:500px;
+    font-family: 'object-fit: cover;';
+    height:300px;
+    @media (min-width: 768px) {
+        height: 500px;
+    }
 }
+
+/*
+  This mixin can be used to set the object-fit:
+  @include object-fit(contain);
+
+  or object-fit and object-position:
+  @include object-fit(cover, top);
+*/
+@mixin object-fit($fit: fill, $position: null){
+    -o-object-fit: $fit;
+       object-fit: $fit;
+    @if $position {
+        -o-object-position: $position;
+           object-position: $position;
+        font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+    } @else {
+        font-family: 'object-fit: #{$fit}';
+    }
+  }
+  
 .carousel-caption { 
     background: rgba(0, 0, 0, 0.7); 
-    color:white; 
     min-width:450px;
     width:auto;
     bottom: 30px;
@@ -23,28 +47,17 @@
         margin:auto; 
         border-style: dotted;
     }
-    a {
-        color:white !important;
-    }
-    @include media-query($on-palm) {
-        width: 100%;
-        min-width: 100%;
-        height:175px;
-        left:0;
-        z-index: -1;
-    }
 }
-.slide-paragraph {
-    @include media-query($on-palm) {
-        display: none;
-    }
+/* featured researcher */
+.researchers {
+    display: none;
+    max-width: 16rem;
 }
-.carousel {
-    @include media-query($on-palm) {
-        overflow-y: visible;
-        height: 500px;
-        img { height:280px; }
-    }
+/* old stuff? */
+#index-jumbotron {
+    background-image: $jumbotron-image;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .projectlink img {
     width:90%;
@@ -77,7 +90,7 @@
     }
 }
 .timeline-Header-subtitle { display:none; }
-.indexbutton{
+.indexbutton {
     font-weight: 300 !important;
     &:hover{ text-decoration: none !important; }
     .card{

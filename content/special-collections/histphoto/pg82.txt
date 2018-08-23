@@ -1,0 +1,16 @@
+<tr class="r1"><td>82-01</td><td><img style="max-width: 800px;" src="82-01.jpg" /></td><td style="display:none">               13-Feb-2002 10:10  236</td></tr> 
+<tr class="r1"><td>82-02</td><td><img style="max-width: 800px;" src="82-02.jpg" /></td><td style="display:none">               13-Feb-2002 10:14  359</td></tr> 
+<tr class="r1"><td>82-03</td><td><img style="max-width: 800px;" src="82-03.jpg" /></td><td style="display:none">               13-Feb-2002 10:12  337</td></tr> 
+<tr class="r1"><td>82-04</td><td><img style="max-width: 800px;" src="82-04.jpg" /></td><td style="display:none">               15-Feb-2002 13:36  299</td></tr> 
+<tr class="r1"><td>82-05</td><td><img style="max-width: 800px;" src="82-05.jpg" /></td><td style="display:none">               27-Feb-2002 09:39  280</td></tr> 
+
+<tr class="r1"><td>82-06</td><td><img style="max-width: 800px;" src="82-06.jpg" /></td><td style="display:none">               27-Feb-2002 09:42  162</td></tr> 
+<tr class="r1"><td>82-07</td><td><img style="max-width: 800px;" src="82-07.jpg" /></td><td style="display:none">               27-Feb-2002 09:47  251</td></tr> 
+<tr class="r1"><td>82-08</td><td><img style="max-width: 800px;" src="82-08.jpg" /></td><td style="display:none">               27-Feb-2002 09:50  229</td></tr> 
+<tr class="r1"><td>82-09</td><td><img style="max-width: 800px;" src="82-09.jpg" /></td><td style="display:none">               27-Feb-2002 09:52   52</td></tr> 
+<tr class="r1"><td>82-10</td><td><img style="max-width: 800px;" src="82-10.jpg" /></td><td style="display:none">               27-Feb-2002 09:55  208</td></tr> 
+
+<tr class="r1"><td>82-11</td><td><img style="max-width: 800px;" src="82-11.jpg" /></td><td style="display:none">               15-Feb-2002 13:33  136</td></tr> 
+<tr class="r1"><td>82-12</td><td><img style="max-width: 800px;" src="82-12.jpg" /></td><td style="display:none">               27-Feb-2002 09:32  154</td></tr> 
+<tr class="r1"><td>82-13</td><td><img style="max-width: 800px;" src="82-13.jpg" /></td><td style="display:none">               10-Jun-2002 16:37   27</td></tr> 
+<tr class="r1"><td>82-14</td><td><img style="max-width: 800px;" src="82-14.jpg" /></td><td style="display:none">               10-Jun-2002 16:39   39</td></tr> 

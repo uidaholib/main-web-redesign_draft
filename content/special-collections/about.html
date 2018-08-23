@@ -4,74 +4,82 @@ layout: page
 section: special collections
 permalink: /special-collections/about.html
 ---
+
 <div class="row">
 	<div class="col-md-12 hidden-xs">
-	
       <img class="img-fluid" src="https://www.lib.uidaho.edu//images/spec_crop2.jpg" alt="image title here">
-	  </div>
-	  
-					
-	<div class="col-md-8">
-		 
-			  <h2>About Special Collections &amp; Archives</h2>
-			  			  	 
-					
-	  
-	<p>
-	Special Collections and Archives is a department in the University of Idaho Library that specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho, the University of Idaho, and to a lesser degree that of surrounding states. The collections include personal papers of individuals and families; business archives of lumber, railroad, mining, and other companies; Idaho state publications; papers of government officials, educators, authors, and business people; records of organizations such as religious, fraternal, civic, and environmental associations; and similar groups. The collection formats include personal papers and archives, photographs, books, serials, reports, maps, blueprints, oral history interviews, and related items. 
-	 
-
-	</p>
-	<h4 class="center"><a class="btn btn-secondary  " role="button" style="padding:5px 20%;" href="plan.html">Plan Your Visit</a></h4>	</div>
-	
-	    <div class="col-4" "text-center">
-	 
-	<p> <b>Summer hours  (May 14th - August 17th)</b> Monday - Friday: 10 AM to 2 PM 
-	  or by <a href="#" data-toggle="modal" data-target="#myModal">appointment</a>.  
-	  Closed Weekends  
-	    <!--<b>Spring Break Hours (March 12-16):</b>  Monday - Friday 10 am to 2pm -->
-	  <!--Fall/Winter Break Hours:  Monday - Friday 10 am to 2pm 
-Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
-</p>
-      
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Appointment</h4>
-      </div>
-      <div class="modal-body">
-  Patrons can make an appointment via email or phone.   Phone: 208-885-0845    Email: <a href="libspec@uidaho.edu">libspec@uidaho.edu</a>.
-      </div>
-    
-    </div>
-  </div>
+		</div>
 </div>
-					
-					
-					
-					</div>
+	  
+<div class="row pt-4">				
+	<div class="col-md-8">
+		<h2>About Special Collections &amp; Archives</h2>
+		<p>
+		Special Collections and Archives is a department in the University of Idaho Library that specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho, the University of Idaho, and to a lesser degree that of surrounding states. The collections include personal papers of individuals and families; business archives of lumber, railroad, mining, and other companies; Idaho state publications; papers of government officials, educators, authors, and business people; records of organizations such as religious, fraternal, civic, and environmental associations; and similar groups. The collection formats include personal papers and archives, photographs, books, serials, reports, maps, blueprints, oral history interviews, and related items. 
+		</p>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="card my-3">
+			<div class="card-body text-center">
+				<p><b>Summer hours <br>(May 14th - August 17th)<br></b> Monday - Friday: <br>10 AM to 2 PM or by
+					<a href="#appointment" data-toggle="modal" data-target="#appointment">appointment</a>. <p></p>Closed Weekends
+					<!--<b>Spring Break Hours (March 12-16):</b>  Monday - Friday 10 am to 2pm -->
+					<!--Fall/Winter Break Hours:  Monday - Friday 10 am to 2pm 
+			Holiday Closures:  Nov. 23-24, Dec. 22 - Jan. 1, 2018  -->
+				</p>
+			</div>
+		</div>
 
-		  <div class="col-md-8 mt-3">
+	<div class="modal fade appointment" id="appointment" tabindex="-1" role="dialog" aria-labelledby="appointment">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<h3 class="modal-title">Appointment</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<!--end modal-header-->
+				<div class="modal-body text-center">
+					<p>Patrons can make an appointment via email or phone:</p> 
+					<p>Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br>
+					Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</p>
+				</div>
+				<!--end modal-body-->
+			</div>
+			<!--end modal-content-->
+		</div>
+	</div>
+	<!--end modal-->
+
+	<div class="text-center">
+		<p>
+			<a href="plan.html" class="btn btn-secondary" role="button">
+				<span class="fas fa-list"></span> Plan Your Visit</a>
+		</p>
+	</div>
+</div> <!--end column-->
+</div> <!--end row-->	
+
+<div class="row">
+		<div class="col-md-8 mt-3">
 		  <h3>Special Collections Reading Room</h3>
 		  
-		  <p>The Special Collections Reading Room is where researchers may request and make use of materials and texts is located on the first floor of the University of Idaho Library on the University of Idaho Moscow campus. For Reading Room Rules, please click <a href="/special-collections/rules.html">here</a>.</p>
+		  <p>The Special Collections Reading Room is where researchers may request and make use of materials and texts is located on the first floor of the University of Idaho Library on the University of Idaho Moscow campus. For Reading Room Rules, please click <a href="rules.html">here</a>.</p>
 		
-		      <p>For visitors: <a href="http://www.uidaho.edu/about/maps.aspx">maps and directions</a> to campus, information for <a href="http://www.dfa.uidaho.edu/parking/">parking</a> on campus, and <a href="http://www.uidaho.edu/futurestudents/visit/travelandlodging.aspx">accommodation and airport information.</a></p>
+		      <p>For visitors: <a href="{{ '/maps.html' | relative_url }}">maps</a> to campus, <a href="{{ '/about/directions.html' | relative_url }}">directions</a> and information for <a href="{{ '/about/directions.html' | relative_url }}">parking</a> on campus, and <a href="http://www.uidaho.edu/futurestudents/visit/travelandlodging.aspx">accommodation and airport information.</a></p>
 		  
-		  </div>
+		</div> <!--end column-->
 		  
-		  	  <div class="col-md-4 "></br>
+		<div class="col-md-4 ">
+			<a href="{{ '/maps.html' | relative_url }}">
+				<img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" class="img-fluid">
+			</a>
+  	</div> <!--end column-->
+</div> <!--end row-->
 
-	 <a href="http://www.lib.uidaho.edu/about/maps.html">
-		<img class="img-fluid" src="https://www.lib.uidaho.edu//images/readingroom.png"></a>
-  </div>
-</div>
-
-              </div>     
-              </div>     
-              </div>     
+   
                 
                 
                

@@ -44,6 +44,7 @@ layout: page
 
 		<p>A 5-station computer lab with one black and white printer is available for all University of Idaho students to use on a first-come, first-serve basis.</p>
 
+
 		<hr>
 <!-- primo search -->
 <script type="text/javascript">
@@ -69,26 +70,14 @@ layout: page
 	return true;
 	}
 </script>
-<div class="card">
-<div class="card body">
-<form  name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm"  onsubmit="searchPrimo()"><label style="margin-right:5px"> Search </label>
-              <select id="primoFieldTemp" class="EXLSelectTag fixed">
-                <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
-                  All Fields</option>
-                <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
-                  in the title</option>
-  
-                <option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
-                  authors</option>
-  
-                <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
-                  in subject</option>
-  
-              </select>
-              <label> for items containing: </label>
-
-	<input type="hidden" name="institution" value="UID">
+<div class="card my-2">
+      <div class="card-body">
+    <form name="searchForm" method="get" target="_blank" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search"
+      class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
+      <input type="hidden" name="institution" value="UID">
 	<input type="hidden" name="vid" value="IMTC">		 
+
+	<p style="text-align: center;">
 	<input type="hidden" name="tab" value="imtc" >
 	<input type="hidden" name="search_scope" value="everything" id="scopedefiner">
 	<input type="hidden" id="indx" name="indx" value="1"/>
@@ -100,19 +89,14 @@ layout: page
 	<input id="primoQuery" type="hidden" name="query">
 <input id="primoQueryTemp" 
 	onkeypress="return searchPrimoEvent(event)" 
-	type="text" name="queryTemp" title="Search the catalog" value="" class="textbox" size="35" placeholder="Search the Curriculum Center ..."  >
-	
-    <!-- Search Button -->
-
-
-	<input id="goButton"  class="btn btn-pride-gold" title="Search" type="submit" value="Go" alt="Search"><br>
-	 Use this search box to look&nbsp;for books in the Curriculum Center.<br> <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a>
-	&nbsp;</p>
-
-	</form>
-</div>
-</div>
-
+	type="text" name="queryTemp" title="Search the catalog" value="" class="form-control-inline form-control-md col-md-8 mb-sm-1" placeholder="Search the Curriculum Center ..."  >
+  
+  <input id="goButton_dash" class="btn btn-pride-gold btn-md mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search"><br>
+  	 Use this search box to look&nbsp;for books in the Curriculum Center.<br> <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a></p>
+    </form>
+	</div>
+	</div>
+ 
 <div class="card my-2">
 	<div class="card-header">
 	  <h4 class="card-title text-center mb-0">For more information about the Curriculum Center:</h4>
@@ -151,7 +135,7 @@ layout: page
 <div class="col-md-4">
 		<div id="hours_location" class="card my-2" >
 			<div class="card-header">
-				<h3 class="card-title mb-0">Location and Hours</h3>
+				<h4 class="card-title mb-0">Location and Hours</h4>
 			</div>
 		<div class="card-body indent">
 			<p><strong>Location:</strong> College of Education, Room 340</p>
@@ -175,12 +159,12 @@ layout: page
 
 <div id="staff" class="card my-2" >
   <div class="card-header">
-    <h3 class="card-title mb-0">Contact Us</h3>
+    <h4 class="card-title mb-0">Contact Information</h4>
   </div>
   <div class="card-body indent">
-<p style="text-align: left;"><span class="text"><span style="font-size: small; font-family: verdana, geneva;">If you have questions about accessing the library's Curriculum Center, please feel free to contact us: </p>
-	<p><strong>Phone:</strong> (208) 885-7257<br>
-	<strong>Email:</strong> <a href="mailto:curriculumcenter@uidaho.edu">curriculumcenter@uidaho.edu</a></p>
+<p style="text-align: left;">If you have questions about accessing the library's Curriculum Center, please feel free to contact us: </p>
+	<p>Email: <a href="mailto:curriculumcenter@uidaho.edu">curriculumcenter@uidaho.edu</a><br>
+	Phone: (208) 885-7257<br></p>
 
 </div>
 </div>

@@ -1,29 +1,30 @@
 <div class="container-fluid py-3  mt-3 featurebar">
   <div class="row">
     <div class="col-md-4 col-sm-12 ">
-      <h4 class="text-center">Featured Researcher</h4>
+      <h4 class="text-center">Featured Faculty</h4>
      {%include featured-researcher.html %}
 
     </div>
     <div class="col-md-4 col-sm-12 mt-sm-4">
       <h4 class=" text-center">Workshops &amp; Events</h4>
       <div class="card m-2">
-        <div class="card-body">
+        <div class="card-body text-center">
 
           <p class="card-text">
-            <span class="fas fa-time"></span> Workshops are off for the summer. Explore our
-            <a href="https://www.lib.uidaho.edu/services/workshops/resources.html">Resources page</a> for materials from past events and be sure to check back next fall!</p>
-          <p class="card-link">
-            <a href="https://www.lib.uidaho.edu/services/workshops/resources.html" class="btn btn-default plum">
-              <span class="fas fa-file"></span> Workshop Resources</a>
+            <iframe src="https://api3.libcal.com/embed_mini_calendar.php?mode=month&iid=3479&cal_id=4884&l=5&tar=0&h=350&audience=&c=&z=" style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+            <!--<span class="fas fa-time"></span> Workshops are off for the summer. Explore our
+            <a href="{{ '/services/workshops/resources.html' | relative_url }}">Resources page</a> for materials from past events and be sure to check back next fall!</p>-->
+
+            <a href="{{ '/services/workshops/' | relative_url }}" class="btn btn-secondary"><span class="fas fa-calendar-alt"></span> Schedule</a>
+            <a href="{{ '/services/workshops/resources.html' | relative_url }}" class="btn btn-secondary"><span class="fas fa-file"></span> Resources</a>
           </p>
 
         </div>
       </div>
     </div>
-    <div class="col-md-4 d-none d-md-block" style="max-height:650px; overflow:scroll;">
+    <div class="col-md-4 d-none d-md-block" style="max-height:650px; overflow-y:scroll;">
       <div class="card mx-auto" style="max-width: 23rem;">
-        <a class="twitter-timeline" href="https://twitter.com/DCNB/lists/ui-library-tweets?ref_src=twsrc%5Etfw">A Twitter List by DCNB</a>
+        <a class="twitter-timeline" href="https://twitter.com/UofILibrary/lists/ui-library-tweets">A Twitter List by UofILibrary</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>

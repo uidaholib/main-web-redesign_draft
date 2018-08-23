@@ -6,18 +6,66 @@ permalink: /services/borrow/
 layout: page
 ---
 
-<h2 class="mt-5">Library Account</h2>
+
 	
 <div class="row">
-  <div class="col-md-7">	  
-	  <p class="largetxt">To review your loans and/or <b>renew</b> materials:</p>
-    <ol><li>Click the "Your Library Account" button</li><li>Sign in <em>(using your University of Idaho username and password)</em> to check your holdings and renew your loans</li></ol>
-    <p>You can also <a href="https://masternavezp.idm.oclc.org/login?groupNumber=58460&amp;instNumber=58460&amp;renew=true&amp;url=https://masternavezp.idm.oclc.org/userObject?service=getToken&amp;renew=false&amp;returnURL=http%3a%2f%2fsummit.worldcat.org%2fwcpa%2fservlet%2forg.oclc.lac.wcn.WcnPageServlet%3fsource%3dmyrequests">View Your Pending Summit (ILL) Requests</a></p>
+  <div class="col-md-6">	  
+    <div class="card my-3">
+      <div class="card-header text-center">
+        <h2 class="card-title mb-0">Library Account</h2>
+      </div>
+      <div class="card-body">
+          <p>To review your loans and/or <b>renew</b> materials:</p>
+          <ol><li>Click the "Your Library Account" button</li><li>Sign in <em>(using your University of Idaho username and password)</em> to check your holdings and renew your loans</li></ol>
+          <p>You can also <a href="https://illiad.lib.uidaho.edu/illiad/illiad.dll">View Your Pending Summit (ILL) Requests</a></p>
+      </div>
+    </div>
   </div>		
   
-  <div class="col-md-5">	  
-	  <p class="text-center"> <a href="http://search.lib.uidaho.edu/primo_library/libweb/action/login.do?loginFn=signin&vid=UID&targetURL=http://search.lib.uidaho.edu/primo_library/libweb/action/myAccountMenu.do?vid=UID" class="btn btn-pride-gold btn-lg my-2" role="button">Your Library Account</a>  
+  <div class="col-md-6 align-self-center">	
+    <div class="card my-3">
+      <div class="card-body mb-0">
+        <p class="text-center"> <a href="http://search.lib.uidaho.edu/primo_library/libweb/action/login.do?loginFn=signin&vid=UID&targetURL=http://search.lib.uidaho.edu/primo_library/libweb/action/myAccountMenu.do?vid=UID" class="btn btn-pride-gold btn-lg my-2" role="button">Your Library Account</a>    
      
+    <div class="text-center">
+        <a href="#what" data-toggle="modal" data-target="#what">What can I do with it?</a> 
+        
+        <div class="modal fade what" id="what" tabindex="-1" role="dialog" aria-labelledby="what">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header text-center">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <!--end modal-header-->
+                <div class="modal-body text-left">
+                    <p><strong>Online:</strong> Use your University of Idaho username and password to:</p>
+                    
+                    <ul>
+					
+                      <li>Access <a href="{{ '/find/articles.html' | relative_url }}">library databases</a> from anywhere in the world</li>
+                      
+                      <li><a href='http://search.lib.uidaho.edu/primo_library/libweb/action/myAccountMenu.do?vid=UID'>Renew your books</a> online</li>
+                      <li>Use <a href="{{ '/services/ill/index.html' | relative_url }}">Interlibrary Loan</a></li>
+					  <li>View <a href='http://search.lib.uidaho.edu/primo_library/libweb/action/myAccountMenu.do?vid=UID'>loans and fines</a></li>
+                    </ul> 
+					<p><strong>Offline:</strong> Use your Vandal Card to:</p>
+						<ul>
+					<li>Check out and renew Books, DVDs, and other materials from the library</li>
+					</ul>
+                </div>
+                <!--end modal-body-->
+              </div>
+              <!--end modal-content-->
+            </div>
+          </div>
+          <!--end modal-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!--  <a id="popover1" class="center instructions smalltxt" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true"  data-content="
 						
 					
@@ -37,8 +85,7 @@ layout: page
 					</ul>">
   What Can I Do with It?
 </a></p> -->
-  </div>
-</div>	
+	
 	
 
 <div class="row align-content-center">	
@@ -69,7 +116,7 @@ layout: page
               <p>Your Idaho Vandal ID card can be used as your library card to check out materials as well as to access your interlibrary loan account and other online materials. </p>
               
               
-              <p>If you have a valid University of Idaho network username and password, you will also be able to access databases like JSTOR, Web of Science and Academic Search Premier <a href="/offcampus/index.html">from off campus</a> by using your University of Idaho username and password.</p>
+              <p>If you have a valid University of Idaho network username and password, you will also be able to access databases like JSTOR, Web of Science and Academic Search Premier <a href="{{ '/help/offcampus.html' | relative_url }}" target="_blank">from off campus</a> by using your University of Idaho username and password.</p>
               
               <p>For distance education and Independent Study students, and off campus faculty and staff: </p>
               <ul>
@@ -180,7 +227,7 @@ layout: page
         <table class="table table-bordered bg-light">
           <thead>
             <tr>
-              <th colspan="3" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="/services/ill/summit.html">SUMMIT MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
+              <th colspan="3" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="{{ '/services/ill/summit.html' | relative_url }}" target="_blank">SUMMIT MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
             </tr>
           </thead>
           <tbody>
@@ -207,7 +254,7 @@ layout: page
         <table class="table table-bordered bg-light">
           <thead>
             <tr>
-              <th colspan="4" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="https://www.lib.uidaho.edu/services/ill/index.html">INTERLIBRARY LOAN MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
+              <th colspan="4" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="{{ '/services/ill/' | relative_url }}" target="_blank">INTERLIBRARY LOAN MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
             </tr>
           </thead>
           <tbody>

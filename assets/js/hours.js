@@ -84,7 +84,7 @@
 			}
 		}
 //Fall semester hours
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 821 && Number(dateNumber) < 1217) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 820 && Number(dateNumber) < 1217) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
 				   	var libhours = base;
@@ -112,7 +112,7 @@
 			}
 		}
 //Summer hours
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 513 && Number(dateNumber) < 822) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 513 && Number(dateNumber) < 819) {
 	//Summer Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseSummerWkday;

@@ -25,10 +25,13 @@ a {
     @media (min-width: 768px) and (max-width: 900px){
         max-width: 740px;
     }
+    @media (min-width: 1400px){
+        max-width: 1300px;
+    }
 }
 
 /* top bar */
-#ui-home {
+#topbar-ui-home {
     color: $grey-color;
 }
 
@@ -82,3 +85,7 @@ footer, footer a {
     background-color: $black-color;
 }
 
+#page-nav .active{
+    background-color: #fff !important; 
+    border-right: 2px solid;
+border-right-color: #191919 !important}

@@ -2,6 +2,11 @@
 
 https://www.lib.uidaho.edu 
 
+## Sprint issue tracking
+
+- [drive folder](https://drive.google.com/open?id=1NTIBOM0k35Vn7QgKjK3EbGbxg3u2F3LK)
+- [problem sheet](https://docs.google.com/spreadsheets/d/1YfBYW0g12v-_bgvRN9o8TwQSp_L__sEuxyHYISh_RXw/edit?usp=sharing)
+
 ## Assets Notes 
 
 ### Bootstrap 4.1
