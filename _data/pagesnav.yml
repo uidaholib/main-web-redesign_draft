@@ -117,6 +117,8 @@ find:
         url: /find/books.html
       - name: Library Book Locations
         url: /find/lc.html
+      - name: Request a Book
+        url: /find/request.html
   - subsection: DVDs
     link: /find/dvds.html
   - subsection: Encyclopedias
