@@ -27,6 +27,8 @@ about:
         url: /about/directory.html
       - name: Faculty Librarians 
         url: /about/librarians.html
+      - name: Subject Liaisons 
+        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
     subpages:
