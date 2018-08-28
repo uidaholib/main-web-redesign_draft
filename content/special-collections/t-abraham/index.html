@@ -1,0 +1,32 @@
+---
+title: Terry Abraham Web Archive
+layout: page
+section: special collections
+permalink: /special-collections/t-abraham/index.html
+table-id: "#tapapers"
+---
+
+<div class="row">
+	<div class="col-md-12 hidden-xs">
+      <img class="img-fluid" src="https://www.lib.uidaho.edu/images/spec_crop2.jpg" alt="image title here">
+		</div>
+</div>
+
+<div class="row pt-4">				
+	<div class="col">
+
+        <p>Preserving the writing, scholarship, and resources of Terry Abraham that were once hosted at:<br> http://www.uiweb.uidaho.edu/special-collections/papers/</p>
+
+        <table id="tapapers" class="table table-striped">
+            <thead>
+                <th>Title</th>
+                
+            </thead>
+            {% for paper in site.data.tabraham-files %}
+            <tr>
+                <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | absolute_url }}" target="_blank">{{ paper.title }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
