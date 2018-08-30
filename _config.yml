@@ -11,11 +11,14 @@ keywords: Idaho, research library, University of Idaho, Humanities, Science, Soc
 email: ewilliamson@uidaho.edu
 
 # url variables
-# url: https://open.lib.uidaho.edu
+url: https://www.lib.uidaho.edu
+baseurl: 
+# dev urls for testweb
+# url: https://testweb.lib.uidaho.edu
 # baseurl: 
 # dev urls for gh-pages
-url: https://uidaholib.github.io
-baseurl: /main-web-redesign_draft
+#url: https://uidaholib.github.io
+#baseurl: /main-web-redesign_draft
 
 liburl: https://www.lib.uidaho.edu
 
