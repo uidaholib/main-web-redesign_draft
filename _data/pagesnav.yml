@@ -27,6 +27,8 @@ about:
         url: /about/directory.html
       - name: Faculty Librarians 
         url: /about/librarians.html
+      - name: Subject Liaisons 
+        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
     subpages:
@@ -117,6 +119,8 @@ find:
         url: /find/books.html
       - name: Library Book Locations
         url: /find/lc.html
+      - name: Request a Book
+        url: /find/request.html
   - subsection: DVDs
     link: /find/dvds.html
   - subsection: Encyclopedias
