@@ -52,20 +52,22 @@
             </div>
             <div class="col-md-3 d-none d-md-block">
                 <br>
-                <div class="hidden-xs mb-1">
+                <div class="mb-1">
                     <p class="smallesttxt indent">Search the library website:</p>
                     <script>
-                        (function () {
-                            var cx = '003965900948510015874:5tg5vnqskwg';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                        })();
+                        function site_search() {
+                            var query = document.getElementById("site-search").value;
+                            window.open("{{ '/help/search.html' | absolute_url }}?q=" + query, "_self" );
+                        }
                     </script>
-                    <gcse:search></gcse:search>
+                    
+                    <form class="form-inline my-2 my-lg-0" role="search" onsubmit="site_search(); return false;">
+                        <div class="p-2 background-grey-color">
+                            <input id="site-search" class="form-control form-control-sm mr-sm-2" type="text" placeholder="Site Search..." aria-label="Search">
+                            <button class="btn btn-sm btn-payette-blue my-2 my-sm-0 " type="submit"><span class="fas fa-search" aria-hidden></span><span class="sr-only">Search</span></button>
+                        </div>
+                    </form>
+                    
                 </div>
             </div>
         </div>
