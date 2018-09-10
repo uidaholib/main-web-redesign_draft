@@ -22,4 +22,4 @@ baseurl:
 
 liburl: https://www.lib.uidaho.edu
 
-exclude: [old]
+exclude: [old, lib-apps]

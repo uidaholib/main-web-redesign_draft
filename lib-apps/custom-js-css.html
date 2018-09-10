@@ -1,0 +1,51 @@
+<!-- libapps pages already have full meta tags and markup so don't add more here, just style or css and analytics
+and it already loads jquery, font awesome 4.7, Bootstrap v3.3.7 -->
+<!-- Last build date: 2018-09-09 -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76328753-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  /* load umbrella property with enhanced link attribution and cross domain tracking */
+  gtag('config', 'UA-76328753-1', {
+    'link_attribution': true,
+    'linker': {
+      'domains': ['www.lib.uidaho.edu', 'www.ijc.uidaho.edu', 'vivo.nkn.uidaho.edu', 'inside.uidaho.edu', 'libguides.uidaho.edu', 'digital.lib.uidaho.edu', 'poetry.lib.uidaho.edu', 'journals.lib.uidaho.edu']
+    }
+  });
+  /* load legacy tracker */
+  /* gtag('config', 'UA-207648-1'); */
+</script>
+<!-- load fontawesome 5 to match UI style -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<!-- load custom css, includes UI styles, and prefixed bootstrap 4 -->
+<link rel="stylesheet" href="https://www.lib.uidaho.edu/assets/css/libapps-custom.css" type="text/css">
+
+<style>
+/* match container to UI sizes */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+/* fix lib guides odd sizing */
+.s-lib-side-borders {
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+/* fix issues with fontawesome 4.7 to 5 conversion */
+.fa-external-link:before{content:"\f35d";}
+.fa-twitter, .fa-twitter-square, .fa-facebook, .fa-facebook-square {
+    font-family: "Font Awesome 5 Brands";
+}
+</style>
+
