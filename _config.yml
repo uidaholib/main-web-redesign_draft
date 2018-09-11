@@ -22,4 +22,10 @@ baseurl:
 
 liburl: https://www.lib.uidaho.edu
 
+sass:
+  style: compressed
+
+# add liquid profiler to id bottlenecks
+# profile: true
+
 exclude: [old, lib-apps]
