@@ -1,8 +1,8 @@
 <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
-        <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#indexCarousel" data-slide-to="1"></li>
-        <li data-target="#indexCarousel" data-slide-to="2"></li>
+        {% for slide in site.data.carousel %}
+        <li data-target="#indexCarousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+        {% endfor %}
     </ol>
 
     <div class="carousel-inner">
