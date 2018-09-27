@@ -1,27 +1,26 @@
 /* new carousel */ 
-.carousel { 
+#index-carousel {
     background: rgba(0, 0, 0, 0.7); 
     color: white;
     a {
         color:white !important;
     }
-}
-.carousel-item {
-    width: 100%;
-    @media (min-width: 768px) {
-        height: 500px;
-    }
-    img {
-        width:100%; 
-        object-fit: cover;
-        font-family: 'object-fit: cover;';
-        height:300px;
+    .carousel-item {
+        width: 100%;
         @media (min-width: 768px) {
             height: 500px;
         }
+        img {
+            width:100%; 
+            object-fit: cover;
+            font-family: 'object-fit: cover;';
+            height:300px;
+            @media (min-width: 768px) {
+                height: 500px;
+            }
+        }
     }
 }
-
 /*
   This mixin can be used to set the object-fit:
   @include object-fit(contain);
