@@ -21,6 +21,13 @@
         }
     }
 }
+#carousel-pause { 
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
 /*
   This mixin can be used to set the object-fit:
   @include object-fit(contain);

@@ -1,3 +1,7 @@
+<!-- temp styles to avoid cache issues-->
+<style>
+#carousel-pause { position: absolute; bottom: 10px; right: 10px; font-size: 28px; cursor: pointer; }
+</style>
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
         {% for slide in site.data.carousel %}
@@ -58,5 +62,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+    <span id="carousel-pause" class="far fa-pause-circle" title="pause" aria-label="Pause carousel"></span>
   
 </div>
