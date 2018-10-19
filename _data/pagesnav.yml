@@ -328,8 +328,13 @@ services:
         url: /services/ill/other.html
   - subsection: The MILL
     link: http://mill.lib.uidaho.edu/
-  - subsection: Open Education Resources
-    link: https://open.lib.uidaho.edu/
+  - subsection: "Open @ UI Library"
+    link: /open/
+    subpages: 
+      - name: Home
+        url: /open/
+      - name: Open Education Resources
+        url: https://open.lib.uidaho.edu/
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
