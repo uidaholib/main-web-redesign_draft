@@ -125,6 +125,8 @@ find:
     link: /find/dvds.html
   - subsection: Encyclopedias
     link: /find/encyclopedias.html
+  - subsection: Events
+    link: /events/    
   - subsection: Geospatial Resources
     link: /find/geospatial/
   - subsection: Gov. Documents
