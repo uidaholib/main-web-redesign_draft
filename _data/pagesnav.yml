@@ -344,6 +344,8 @@ services:
         url: /services/oapf/
       - name: Eligibility
         url: /services/oapf/eligibility.html
+      - name: Funded Articles
+        url: /services/oapf/funded.html
       - name: Apply
         url: /services/oapf/apply.html
       - name: FAQ
