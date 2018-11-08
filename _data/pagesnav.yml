@@ -34,6 +34,8 @@ about:
     subpages:
       - name: Policies
         url: /about/policies.html
+      - name: Code of Conduct
+        url: /about/policies.html#conduct
       - name: Circulation
         url: /about/policies.html#circulation
       - name: Fines 
