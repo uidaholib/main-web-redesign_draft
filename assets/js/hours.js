@@ -13,7 +13,7 @@
 	var baseSun	= "Open 10am - Friday";
 	var baseSummerWkday = "Open 7am &#8211; 7pm";
 	var baseSummerWkend = "Open 10am &#8211; 6pm";
-	var baseTgWkday = "Open 8am &#8211; 8pm";
+	var baseTgWkday = "Open 8am &#8211; 6pm";
 	var baseTgWkend = "Open 10am &#8211; 6pm";
 	var baseXmasWkday = "Open 8am &#8211; 6pm";
 	var baseXmasWkend = "Open 10am &#8211; 6pm";
@@ -31,11 +31,11 @@
 	var dayNumber = currentDate.getDay();
 	
 	// Special "one off" dates that don't fit other patterns
-	var oneOff = ["1123"];
-	var twoOff = ["1125"];
+	var oneOff = ["1121"];
+	var twoOff = ["1123"];
 	
 	// All dates with different hours, inlcuding winter dates, tg dates,xmas dates, and closed dates
-	var diffHours = ["0529","0704", "0903","1124","1224","1225","1231", "0101","0115","1119","1120","1121","1122","1126","1216","1217","1218","1219","1220","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0109","0110", "0310","0311","0312","0313","0314","0315","0316","0317","0318" ];
+	var diffHours = ["0529","0704", "0903","1124","1224","1225","1231", "0101","0115","1117","1118","1119","1120","1121","1123","1124","1215","1216","1217","1218","1219","1220","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0310","0311","0312","0313","0314","0315","0316","0317","0318" ];
 
 	// All  tg dates and spring break dates with different hours
 	var tgdiff = ["1117","1118","1119","1120","1121","1123","1124","0310","0311","0312","0313","0314","0315","0316","0317","0318" ];
