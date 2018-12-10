@@ -13,12 +13,12 @@
 	var baseSun	= "Open 10am - Friday";
 	var baseSummerWkday = "Open 7am &#8211; 7pm";
 	var baseSummerWkend = "Open 10am &#8211; 6pm";
-	var baseTgWkday = "Open 8am &#8211; 8pm";
+	var baseTgWkday = "Open 8am &#8211; 6pm";
 	var baseTgWkend = "Open 10am &#8211; 6pm";
 	var baseXmasWkday = "Open 8am &#8211; 6pm";
 	var baseXmasWkend = "Open 10am &#8211; 6pm";
 	var baseOneOff = "Open 8am &#8211; 5pm";
-	var baseTwoOff = "Open 8am &#8211; 5pm";
+	var baseTwoOff = "Open 10am &#8211; 6pm";
 
 
 	// Establishing date strings (for inclusion in diffHours array) and day numbers for if/else statements
@@ -31,19 +31,19 @@
 	var dayNumber = currentDate.getDay();
 	
 	// Special "one off" dates that don't fit other patterns
-	var oneOff = ["0511"];
-	var twoOff = ["0512"];
+	var oneOff = ["1121"];
+	var twoOff = ["1123"];
 	
 	// All dates with different hours, inlcuding winter dates, tg dates,xmas dates, and closed dates
-	var diffHours = ["0529","0704", "0903","1124","1224","1225","1231", "0101","0115","1117","1118","1119","1120","1121","1123","1124","1215","1216","1217","1218","1219","1220","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0308","0309","0310","0311","0312","0313","0314","0315","0316","0511","0512" ];
+	var diffHours = ["0529","0704", "0903","1124","1224","1225","1231", "0101","0115","1117","1118","1119","1120","1121","1123","1124","1215","1216","1217","1218","1219","1220","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0310","0311","0312","0313","0314","0315","0316","0317","0318" ];
 
 	// All  tg dates and spring break dates with different hours
-	var tgdiff = ["1117","1118","1119","1120","1121","1123","1124","0308","0309","0310","0311","0312","0313","0314","0315","0316" ];
+	var tgdiff = ["1117","1118","1119","1120","1121","1123","1124","0310","0311","0312","0313","0314","0315","0316","0317","0318" ];
 	// All  xmas dates (and January Winter Break Dates) with different hours
 	var xmasdiff = ["1215","1216","1217","1218","1219","1220","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108" ];
 
 	//All closed dates
-	var closedUp = ["0527","0704", "0903","1122","1224","1225","1231", "0101","0115"];
+	var closedUp = ["0528","0704", "0903","1122","1224","1225","1231", "0101","0115"];
 
 //Spring semester hours
 	if(oneOff.indexOf(dateNumber)==0) 
