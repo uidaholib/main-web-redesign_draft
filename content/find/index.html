@@ -5,84 +5,49 @@ section: find
 permalink: /find/
 ---
 <h3>Popular Resources</h3>
-<div class="row">
-  <div class="col-md-12">
-    <div class="text-center">
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          Databases
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-          <a class="dropdown-item" id="featured3" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
+<div class="text-center dropdown">
 
-          <a class="dropdown-item" id="featured1" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
-
-          <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/">Oxford English Dictionary</a>
-          <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS">Web of Science</a>
-
-          <hr>
-
-          <a class="dropdown-item" href="articles.html">More Databases</a>
-
-        </div>
-      </div>
-
-
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Research Guides
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/engl102" target="_self">English 102</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/citing" target="_self">Citing Sources</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/physics" target="_self">Physics</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/food" target="_self">Food and Nutrition</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/IntlStudies" target="_self">International Studies</a>
-
-          <hr>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/index.php">More Guides</a>
-
-        </div>
-      </div>
-
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Digital Collections
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-          <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/gem/" target="_self">Gem of the Mountains Yearbooks</a>
-
-          <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/campus/" target="_self">Campus Photograph Collection</a</li>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/postcards/" target="_self">Norhtwest Historical Postcards</a>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/maps/" target="_self">The Map Room</a>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/priestlake/" target="_self">Priest Lake Collection</a>
-
-            <hr>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/">More Collections</a>
-
-        </div>
-      </div>
-    </div>
+  <button class="btn btn-secondary dropdown-toggle m-2" type="button" id="databasesMenu" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">Databases</button>
+  <div class="dropdown-menu" aria-labelledby="databasesMenu">
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/">Oxford English Dictionary</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS">Web of Science</a>
+    <hr>
+    <a class="dropdown-item" href="{{ '/find/articles.html' | relative_url }}">More Databases</a>
   </div>
+
+  <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="guidesMenu" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">Research Guides</button>
+  <div class="dropdown-menu" aria-labelledby="guidesMenu">
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/engl102" >English 102</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/citing" >Citing Sources</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/physics" >Physics</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/food" >Food and Nutrition</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/IntlStudies" >International Studies</a>
+    <hr>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/index.php">More Guides</a>
+  </div>
+
+  <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="collectionsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections</button>
+  <div class="dropdown-menu" aria-labelledby="collectionsMenu">
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/gem/" >Gem of the Mountains Yearbooks</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/campus/" >Campus Photograph Collection</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/postcards/" >Northwest Historical Postcards</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/maps/" >The Map Room</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/priestlake/" >Priest Lake Collection</a>
+    <hr>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/">More Collections</a>
+  </div>
+
 </div>
 
 <hr >
-<h3 class="indent">Resource Descriptions</h3>
+
+<h3>Resource Descriptions</h3>
+
 <div class="row">
   <div class="col-md-6">
 
