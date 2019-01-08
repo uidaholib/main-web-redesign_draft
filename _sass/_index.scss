@@ -103,10 +103,3 @@
     }
 }
 .timeline-Header-subtitle { display:none; }
-.indexbutton {
-    font-weight: 300 !important;
-    &:hover{ text-decoration: none !important; }
-    .card{
-        &:hover{ background:$grey-color-light; }
-    }
-}

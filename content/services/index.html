@@ -5,19 +5,26 @@ section: services
 permalink: /services/
 ---
 {% assign services = site.data.services_index %}
-
+<style>
+    /* temp inline to avoid css caching issues */
+    .card-button:hover { text-decoration: none; }
+    .card-button .card:hover { background: #f2f2f2; }
+    .card-button h5:hover { text-decoration: underline; }
+    .card-button p { font-weight: 400; }
+</style>
 <div class="row">
 {% for s in services %}
     <div class="col-md-6">
-        <div class="card my-2">
-            <div class="card-header text-center">
-                <h5 class="card-title font-weight-bold mb-0"><a href="{{ s.link | relative_url }}">{{ s.service }}</a></h5>
+        <a href="{{ s.link | relative_url }}" class="card-button" >
+            <div class="card my-2">
+                <div class="card-header text-center">
+                    <h5 class="card-title font-weight-bold mb-0">{{ s.service }}</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">{{ s.description }}</p>
+                </div>
             </div>
-            <div class="card-body">
-                <p class="card-text">{{ s.description }}</p>
-                <div class="text-center"><a href="{{ s.link | relative_url }}" class="btn btn-sm btn-payette-blue" >More Information</a></div>
-            </div>
-        </div>
+        </a>
     </div>
 {% endfor %}
 </div>
