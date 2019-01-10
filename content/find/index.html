@@ -5,213 +5,82 @@ section: find
 permalink: /find/
 ---
 <h3>Popular Resources</h3>
-<div class="row">
-  <div class="col-md-12">
-    <div class="text-center">
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          Databases
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-          <a class="dropdown-item" id="featured3" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
+<div class="text-center dropdown">
 
-          <a class="dropdown-item" id="featured1" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
-
-          <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/">Oxford English Dictionary</a>
-          <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS">Web of Science</a>
-
-          <hr>
-
-          <a class="dropdown-item" href="articles.html">More Databases</a>
-
-        </div>
-      </div>
-
-
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Research Guides
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/engl102" target="_self">English 102</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/citing" target="_self">Citing Sources</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/physics" target="_self">Physics</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/food" target="_self">Food and Nutrition</a>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/IntlStudies" target="_self">International Studies</a>
-
-          <hr>
-
-          <a class="dropdown-item" href="http://libguides.uidaho.edu/index.php">More Guides</a>
-
-        </div>
-      </div>
-
-      <div class="dropdown show d-inline-flex">
-        <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Digital Collections
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-          <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/gem/" target="_self">Gem of the Mountains Yearbooks</a>
-
-          <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/campus/" target="_self">Campus Photograph Collection</a</li>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/postcards/" target="_self">Norhtwest Historical Postcards</a>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/maps/" target="_self">The Map Room</a>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/priestlake/" target="_self">Priest Lake Collection</a>
-
-            <hr>
-
-            <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/">More Collections</a>
-
-        </div>
-      </div>
-    </div>
+  <button class="btn btn-secondary dropdown-toggle m-2" type="button" id="databasesMenu" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">Databases</button>
+  <div class="dropdown-menu" aria-labelledby="databasesMenu">
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.jstor.org/">JSTOR</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?url=http://www.oed.com/">Oxford English Dictionary</a>
+    <a class="dropdown-item" href="http://ida.lib.uidaho.edu:2048/login?URL=http://isiknowledge.com/WOS">Web of Science</a>
+    <hr>
+    <a class="dropdown-item" href="{{ '/find/articles.html' | relative_url }}">More Databases</a>
   </div>
+
+  <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="guidesMenu" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">Research Guides</button>
+  <div class="dropdown-menu" aria-labelledby="guidesMenu">
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/engl102" >English 102</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/citing" >Citing Sources</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/physics" >Physics</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/food" >Food and Nutrition</a>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/IntlStudies" >International Studies</a>
+    <hr>
+    <a class="dropdown-item" href="http://libguides.uidaho.edu/index.php">More Guides</a>
+  </div>
+
+  <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="collectionsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections</button>
+  <div class="dropdown-menu" aria-labelledby="collectionsMenu">
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/gem/" >Gem of the Mountains Yearbooks</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/campus/" >Campus Photograph Collection</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/postcards/" >Northwest Historical Postcards</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/maps/" >The Map Room</a>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/priestlake/" >Priest Lake Collection</a>
+    <hr>
+    <a class="dropdown-item" href="http://www.lib.uidaho.edu/digital/">More Collections</a>
+  </div>
+
 </div>
 
-<hr >
-<h3 class="indent">Resource Descriptions</h3>
+<hr>
+
+<h3>Resource Descriptions</h3>
+{%- assign resources = site.data.find_index -%} 
+<style>
+  /* temp inline to avoid css caching issues */
+  .card-button:hover { text-decoration: none; }
+  .card-button .card:hover { background: #f2f2f2; }
+  .card-button h5:hover { text-decoration: underline; }
+  .card-button p { font-weight: 400; }
+</style>
 <div class="row">
+{% for r in resources %}
   <div class="col-md-6">
-
-    <a href="articles.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Articles & Research Databases </h5>
-        <p class="card-text"> Search for peer-reviewed articles, popular articles, and other research materials using our databases. </p>
-        </p>
+    <a href="{{ r.link | relative_url }}" class="card-button">
+      <div class="card my-2">
+        <div class="card-header text-center">
+          <h5 class="card-title font-weight-bold mb-0">{{ r.resource }}</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">{{ r.description }}</p>
+        </div>
       </div>
     </a>
-
-
-    <a href="books.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Books and Ebooks</h5>
-        <p class="card-text"> Search our catalog for books and ebooks. </p>
-      </div>
-    </a>
-    <a href="https://www.lib.uidaho.edu/digital/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Digital Collections</h5>
-        <p class="card-text"> Browse and search our digital collections of historical photographs, documents, and other rare and unique materials.
-          </p>
-      </div>
-    </a>
-
-    <a href="dvds.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">DVDs</h5>
-        <p class="card-text"> Browse and search our list of over 5000 DVDs.</p>
-      </div>
-    </a>
-    <a href="encyclopedias.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Encyclopedias & Other Reference Resources</h5>
-        <p class="card-text"> Our reference resources include encyclopedias, dictionaries, gazeteers, glossaries, thesaurusii, indices, guide books,
-          and more.</p>
-      </div>
-    </a>
-
-    <a href="geospatial/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Geospatial Resources</h5>
-        <p class="card-text"> Browse and search our GIS and geospatial data and find out more about the software, communities, and learning opportunites
-          available.
-        </p>
-      </div>
-    </a>
-    <a href="govdocs/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Government Documents</h5>
-        <p class="card-text"> Browse and search U.S. Government Documents for the State of Idaho.
-        </p>
-      </div>
-    </a>
-
-
   </div>
-  <div class="col-md-6">
-
-    <a href="journals.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Journals</h5>
-        <p class="card-text"> Search for journals by title or subject. </p>
-      </div>
-    </a>
-    <a href="maps/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Maps</h5>
-        <p class="card-text"> From the most up-to-date geospatial information to unique historical maps, our Cartographic Collections have you
-          covered. </p>
-      </div>
-    </a>
-    <a href="http://libguides.uidaho.edu/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Research Guides</h5>
-        <p class="card-text"> Browse and search nearly 100 research guides to find research assistance, subject guides, and useful resources compiled
-          by your friendly librarians at the University of Idaho. </p>
-      </div>
-    </a>
-    <a href="etds.html" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Theses &amp; Dissertations</h5>
-        <p class="card-text"> Browse and search over 10,000 records for Theses and Dissertations completed at the University of Idaho. </p>
-      </div>
-    </a>
-    <a href="http://vivo.nkn.uidaho.edu/vivo/" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">University of Idaho Research &amp; Expertise (VIVO)</h5>
-        <p class="card-text"> VIVO is a research-focused discovery tool that enables collaboration across all disciplines at the University of
-          Idaho. </p>
-      </div>
-    </a>
-    <a href="{{'/special-collections/searchall.html' | relative_url }}" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Unique & Archival Material </h5>
-        <p class="card-text"> Find primary sources and archival material housed in the library's Special Collections and Archives. These include
-          personal and organizational records, university archives, rare books, manuscripts, and historical photographs on
-          the history of Idaho and the Pacific Northwest. </p>
-      </div>
-    </a>
-    <a href="{{'/events/' | relative_url }}" class="indexbutton">
-      <div type="button" class="card p-2 my-2">
-        <h5 class="card-title">Events </h5>
-        <p class="card-text">View our calendar to find library events from weekly workshops to annual book readings, from academic conferences to Special Collections exhibits. </p>
-      </div>
-    </a>
-
-  </div>
+{% endfor %}
 </div>
 
+<hr>
 
-<div style="clear:both"></div>
-
-
-<hr style="margin-bottom: 10px;">
-<p style="text-align:center;margin-top:19px;">Not finding what you're looking for?
-  <a id="request" href="request.html">Suggest a book for us to add to our collections</a>
+<p class="text-center" >Not finding what you're looking for?<br>
+  <a href="{{ '/help/' | relative_url }}">Ask a librarian</a>,<br>
+  <a href="{{ '/find/request.html' | relative_url }}">Suggest a book for us to add to our collections</a>,<br>
+  <a href="{{ '/services/ill/other.html' | relative_url }}">Check other nearby libraries</a>.
 </p>
 
-<p style="text-align:center;;margin-top:19px;">You can also
-  <a id="conditions" href="{{ '/services/ill/other.html' | relative_url }}">check out other libraries nearby</a>.</p>
-<p style="text-align:center;font-size:smaller;margin-top:19px;">
-  <a style="color:#333;" id="conditions" href="agreement.html">Conditions of Use and Licensing Restrictions for Electronic Resources</a>
+<p class="text-center">
+  <a class="text-secondary" href="{{ '/find/agreement.html' | relative_url }}">Conditions of Use and Licensing Restrictions for Electronic Resources</a>
 </p>
-
-
-</div>
-											
-											
-											
-											
+								
