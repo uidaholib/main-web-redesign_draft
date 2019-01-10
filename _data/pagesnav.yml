@@ -348,6 +348,8 @@ services:
         url: /services/oapf/eligibility.html
       - name: Apply
         url: /services/oapf/apply.html
+      - name: Funded Articles
+        url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
   - subsection: Room Reservations
