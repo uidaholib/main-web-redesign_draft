@@ -199,11 +199,13 @@ section: special collections
   <div class="col-12 mb-3">
     <div class="card">
       <div class="card-body">
-        <h4>{{ e.title }}</h4>
+        
         <div class="row">
-          <div class="col-sm-8 card-text">{{ e.description }}</div>
-          <div class="col-sm-4">
-            <img src="{{ e.image }}" class="img-fluid">
+          <div class="col-sm-7 card-text">
+              <h4>{{ e.title }}</h4>
+            {{ e.description }}</div>
+          <div class="col-sm-5">
+            <img src="{{ e.image }}" class="card-img">
           </div>
         </div>
       </div>
