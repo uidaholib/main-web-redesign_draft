@@ -7,9 +7,9 @@ section: special collections
 <style>
 .carousel-item { height: 180px; }
 .carousel-item img { height:180px; }
-@media (min-width: 768px){ .carousel-item { height:180px; } .carousel-item img { height:180px;}}
+//@media (min-width: 768px){ .carousel-item { height:180px; } .carousel-item img { height:180px;}}
 </style>
-<div class="d-none d-sm-none d-md-block">
+<div class="">
   <div class="row pt-3">
     <div class="col-md-12">
       <div id="spec-carousel" class="carousel slide row" data-ride="carousel">
@@ -71,53 +71,22 @@ section: special collections
   <!--<div class="alert alert-info alert-dismissible center" id="" role="alert" id="alerted" style="padding:5px 20px;">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true" style="margin-right:4px;">&times; </span>
-      </button>Good news! The Special Collections & Archives Department recently acquired a significant science fiction collection
+      </button>
+      Good news! The Special Collections & Archives Department recently acquired a significant science fiction collection
       from U of I Alumna and longtime Moscow resident Victoria E. Mitchell. A
       <a href="http://www.uidaho.edu/news/news-articles/news-releases/2017-december/120717-sciencefictioncollection">recent news release</a> provides more information. Check our
       <a href="http://uispecialcollections.tumblr.com/tagged/scifidaho">Tumblr</a> for photos of the collection! </p>
     </div>-->
   <div class="col-md-8">
-    <h2>Special Collections &amp; Archives</h2>
-    <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of
-      research materials
-      that document the cultural and environmental history of Idaho, and the University of Idaho. Our physical
-      collections
-      are available to be used throughout the year via our
-      <a href="about.html">Reading Room</a>. Many of our collections can also be viewed online, via the library's
-      <a href="http://www.lib.uidaho.edu/digital/">
-        Digital Collections</a>.</p>
+    <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho, and the University of Idaho. Our physical collections are available to be used throughout the year via our <a href="{{ '/special-collections/about.html' | relative_url }}">Reading Room</a>. Many of our collections can also be viewed online, via the library's <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a>.</p>
 
-    <p>The new Special Collections and Archives Reading Room is in
-      <a href="#floorOne" data-toggle="modal" data-target="#floorOne">Room 121 on the library's first floor</a>.
+    <p>The Special Collections and Archives Reading Room is in <a href="{{ '/about/maps.html#first' | relative_url }}" target="_blank">Room 121 on the library's first floor</a>.</p>
 
-      <div class="modal fade floorOne" id="floorOne" tabindex="-1" role="dialog" aria-labelledby="floorOne">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">First Floor</h3>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <!--end modal-header-->
-            <div class="modal-body">
-              <img src="https://www.lib.uidaho.edu/images/stackmaps/stackmap1.png" class="img-fluid">
-            </div>
-            <!--end modal-body-->
-          </div>
-          <!--end modal-content-->
-        </div>
-      </div>
-      <!--end modal-->
-    </p>
-    <div class="text-center">
-        
-      <a href="plan.html" class="btn btn-secondary m-2" role="button">
+    <div class="text-center">  
+      <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-2" role="button">
         <span class="fas fa-list"></span> Plan Your Visit</a>
-
-      <a href="donations.html" class="btn btn-secondary m-2" role="button">
+      <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-2" role="button">
         <span class="fas fa-gift"></span> Donate to Special Collections</a>
-
     </div>
   </div>
 
@@ -130,9 +99,11 @@ section: special collections
         </p>
         <p>Or by <a href="#appointment" data-toggle="modal" data-target="#appointment">appointment</a>.
         </p>
+        <!--
         <p><strong>Reduced Hours:</strong><br>
           Closed Dec. 24, 2018 to Jan. 1, 2019.
         </p>
+        -->
       </div>
     </div>
     <div class="modal fade appointment" id="appointment" tabindex="-1" role="dialog" aria-labelledby="appointment">
@@ -166,31 +137,34 @@ section: special collections
     <div class="card mb-3">
       <div class="card-body text-center">
 
-        <form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search for our finding
-          aids on <a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>:
-          <!-- modal -->
-          <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header text-center">
-                  <h3 class="modal-title">About Archives West</h3>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-center">
-                  <p><a href="https://archiveswest.orbiscascade.org/" target="_blank">Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also <a href="/special-collections/search.php?">search our website</a>, or contact <a href="contactus.html">our staff</a> for additional assistance.</p>
-                </div>
+        <form class="form-inline justify-content-center" action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">
+          <div class="form-group">
+              <label for="searchValue">Search our finding aids on <strong>Archives West</strong></label>
+            <input id="searchValue" class="form-control ml-2" name="q" type="text"> 
+            <input id="t" name="t" type="hidden" value="k">
+            <input id="c" name="c" type="hidden" value="ntd">
+            <button id="searchSubmit" class="btn btn-pride-gold ml-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
+            <a href="#nwda" data-toggle="modal" data-target="#nwda" class="ml-2"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a>
+          </div>
+        </form>
+
+        <!-- modal -->
+        <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h3 class="modal-title">About Archives West</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p><a href="https://archiveswest.orbiscascade.org/" target="_blank">Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also <a href="/special-collections/search.php?">search our website</a>, or contact <a href="contactus.html">our staff</a> for additional assistance.</p>
               </div>
             </div>
           </div>
-          <!--end modal-->
-
-          <input id="searchValue" name="q" type="text"> 
-          <input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
-          <input id="t" name="t" type="hidden" value="k">
-          <input id="c" name="c" type="hidden" value="ntd">
-        </form>
+        </div>
+        <!--end modal-->
 
       </div>
     </div>
