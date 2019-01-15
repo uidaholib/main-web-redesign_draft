@@ -195,20 +195,21 @@ section: special collections
 <h3 id="exhibits" class="my-4">Current Exhibits</h3>
   
 <div class="row">
-  <div class="col">
+  {% for e in site.data.spec_exhibits %}{% if e.active == 'true' %}
+  <div class="col-12 mb-3">
     <div class="card">
       <div class="card-body">
-        <h4 >At War!</h4>
+        <h4>{{ e.title }}</h4>
         <div class="row">
-        <div class="col-sm-8 card-text">The effect of World War I on the University of Idaho, 100 years after the war, is explored in a new Special Collections and Archives exhibit on the second floor of the U of I Library. Through newspaper clippings, scrapbook pages, photos and other memorabilia, the “At War!” display provides a glimpse of the Great War's impact on the university community. The exhibit will be on display through Dec. 7.</div>
-        <div class="col-sm-4">
-          <img src="/assets/images/spec/at_war.jpg" class="img-fluid">
+          <div class="col-sm-8 card-text">{{ e.description }}</div>
+          <div class="col-sm-4">
+            <img src="{{ e.image }}" class="img-fluid">
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
-</div>
+  {% endif %}{% endfor %}
 </div>
 
 <hr>
