@@ -218,69 +218,17 @@ section: special collections
 <h3 class="my-4">Featured Collections</h3>
 
 <div class="row">
-
-  <div class="col-md-5">
+  {% for fc in site.data.spec_featured_collections %}{% if fc.active == 'true' %}
+  <div class="col-md-6">
     <div class="card text-center my-2">
       <div class="card-header">
-        <h3 class="card-title text-center mb-0"><a href="{{ '/special-collections/t-abraham/' | relative_url }}">Terry
-            Abraham Web Archive</a></h3>
+        <h3 class="card-title text-center mb-0"><a href="{{ fc.link }}">{{ fc.title }}</a></h3>
       </div>
       <div class="card-body">
-        <a href="{{ '/special-collections/t-abraham/' | relative_url }}"><img class="card-img" src="https://www.lib.uidaho.edu/images/Terry+Abraham.png"
-            alt="Historical photograph" style="border: 1px black solid;"> </a>
-        <p class="card-text pt-3">This collection consists of the papers of Terry Abraham, former head of our Special
-          Collections and Archives department. Abraham worked at the library for 21 years and was well-known for his
-          scholarship and service to the profession. He <a href="https://www.northwestanthropology.com/terry-abraham/">passed
-            away</a> in the spring of 2018. </p>
+        <a href="{{ fc.link }}"><img class="card-img" src="{{ fc.image }}" alt="{{ fc.title }}"></a>
+        <p class="card-text pt-3">{{ fc.description }}</p>
       </div>
     </div>
   </div>
-
-
-  <div class="col-md-5">
-    <div class="card text-center my-2">
-      <div class="card-header">
-        <h3 class="card-title text-center mb-0"><a href="https://www.lib.uidaho.edu/digital/jazz/">International Jazz
-            Collections</a></h3>
-      </div>
-      <div class="card-body"><a href="https://www.lib.uidaho.edu/digital/jazz/">
-          <img class="card-img" src="https://www.lib.uidaho.edu/collections/008.jpg" alt="International Jazz Collection"></a>
-        <p class="card-text pt-3">The International Jazz Collection is the premiere jazz archive of the Pacific
-          Northwest and is housed in the University of Idaho Library.</p>
-      </div>
-    </div>
-  </div>
-
+  {% endif %}{% endfor %}
 </div>
-
-
-<!--
-	<div type="button" class="btn btn-default find-button "><h4>Potlatch Collection</h4>
-	<img src="https://www.lib.uidaho.edu//special-collections/potlatch.jpg" alt="Historical photograph" class="img-responsive" style="">
-	<p class="colltext">The records of the Potlatch Lumber Company span the years 1890 to 1949, with the bulk of the material covering the years 1901 to 1932. </p></div>
-	
-
-<div type="button" class="btn btn-default find-button"> 
-<h4>Stonewall Collection</h4>
-<img src="https://www.lib.uidaho.edu//special-collections/stonewall.jpg" alt="Stonewall" class="img-responsive" style="">
-<p class="colltext">A collection of over 200 books of historical significance to the LGBT rights movement, this collection features Stonewall Award-winning works. </p></div>-->
-
-
-<!--
-
-<div type="button" class="btn btn-default find-button">
-<h4>Geneology Resources</h4>
-<img src="https://www.lib.uidaho.edu//special-collections/yearbook.jpg" alt="Geneology" class="img-responsive" style="">
-<p class="colltext">Special Collections has many resources for your geneological search, including our Gem of the Mountains Yearbook Collection.</p></div>
-
-
-<div type="button" class="btn btn-default find-button">
-<h4>Ezra Pound Collection</h4>
-<img src="https://www.lib.uidaho.edu//special-collections/pound.jpg" alt="Ezra Pound" class="img-responsive" style="">
-<p class="colltext">In 1973 the Library began to collect works by and about Ezra Pound, American man of letters who was born in Hailey, Idaho, in 1885. </p></div> 
-
--->
-
-<!-- should this be considered a collection? 
-
-<a href="cheney.html"><div type="button" class="btn btn-default find-button " ><h4>W.C. Cheney Collection</h4> <div class=""></div><div class=""></div><div class=""><img src="../collections/barrels.png" alt="Time capsules in storage" class="img-responsive" style=""></div><div class="">In 1962, W.C. Cheney presented President Theophilus with 17 55-gallon drum barrels on the condition that the barrels be opened in 2010. </div></div></a> -->
