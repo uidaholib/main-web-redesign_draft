@@ -33,15 +33,7 @@ section: special collections
 </div>
 
 <div class="row pt-4">
-  <!--<div class="alert alert-info alert-dismissible center" id="" role="alert" id="alerted" style="padding:5px 20px;">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true" style="margin-right:4px;">&times; </span>
-      </button>
-      Good news! The Special Collections & Archives Department recently acquired a significant science fiction collection
-      from U of I Alumna and longtime Moscow resident Victoria E. Mitchell. A
-      <a href="http://www.uidaho.edu/news/news-articles/news-releases/2017-december/120717-sciencefictioncollection">recent news release</a> provides more information. Check our
-      <a href="http://uispecialcollections.tumblr.com/tagged/scifidaho">Tumblr</a> for photos of the collection! </p>
-    </div>-->
+
   <div class="col-md-8">
     <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho, and the University of Idaho. Our physical collections are available to be used throughout the year via our <a href="{{ '/special-collections/about.html' | relative_url }}">Reading Room</a>. Many of our collections can also be viewed online, via the library's <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a>.</p>
 
@@ -101,16 +93,14 @@ section: special collections
   <div class="col-md-12">
     <div class="card mb-3">
       <div class="card-body text-center">
+        
+        <p class="mb-1">Search our finding aids on Archives West <a href="#nwda" data-toggle="modal" data-target="#nwda"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a></p>
 
         <form class="form-inline justify-content-center" action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">
-          <div class="form-group">
-              <label for="searchValue">Search our finding aids on <strong>Archives West</strong></label>
-            <input id="searchValue" class="form-control ml-2" name="q" type="text"> 
-            <input id="t" name="t" type="hidden" value="k">
-            <input id="c" name="c" type="hidden" value="ntd">
-            <button id="searchSubmit" class="btn btn-pride-gold ml-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
-            <a href="#nwda" data-toggle="modal" data-target="#nwda" class="ml-2"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a>
-          </div>
+          <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
+          <input id="t" name="t" type="hidden" value="k">
+          <input id="c" name="c" type="hidden" value="ntd">
+          <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
         </form>
 
         <!-- modal -->
