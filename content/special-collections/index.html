@@ -93,7 +93,7 @@ section: special collections
   <div class="col-md-12">
     <div class="card mb-3">
       <div class="card-body text-center">
-        
+
         <p class="mb-1">Search our finding aids on Archives West <a href="#nwda" data-toggle="modal" data-target="#nwda"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a></p>
 
         <form class="form-inline justify-content-center" action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">
@@ -126,29 +126,26 @@ section: special collections
   </div>
 </div>
 
+<!-- links cards row -->
 <div class="row">
 
   <div class="col-md-4">
-
     <div class="card card-default">
       <div class="card-header">
         <h3 class="card-title">Information</h3>
       </div>
       <div class="card-body">
-
         <ul class="list-unstyled">
-          <li><a href="about.html">About</a></li>
-          <li><a href="plan.html">Plan Your Visit</a> (<a class="smalltxt" href="rules.html">Rules</a>)</li>
-          <li><a href="findingaids.html">Search Tools</a></li>
-          <li><a href="histphoto/">Search Historical Photos</a></li>
+          <li><a href="{{ '/special-collections/about.html' | relative_url }}">About</a></li>
+          <li><a href="{{ '/special-collections/plan.html' | relative_url }}">Plan Your Visit</a> (<a class="smalltxt" href="{{ '/special-collections/rules.html' | relative_url }}">Rules</a>)</li>
+          <li><a href="{{ '/special-collections/findingaids.html' | relative_url }}">Search Tools</a></li>
+          <li><a href="{{ '/special-collections/histphoto/' | relative_url }}">Search Historical Photos</a></li>
           <li><a href="{{ '/find/argonaut.html' | relative_url }}">Search the Argonaut</a></li>
           <li><a href="/special-collections/search.php?">Search the Site</a></li>
         </ul>
-
       </div>
     </div>
   </div>
-
 
   <div class="col-md-4">
     <div class="card card-default">
@@ -156,34 +153,18 @@ section: special collections
         <h3 class="card-title">Finding Aids and Collections</h3>
       </div>
       <div class="card-body">
-
         <ul class="list-unstyled">
-          <li><a href="description.html">Collection Descriptions</a></li>
-
-          <li><A href="searchall.html">Search/Browse All Collections</a></li>
+          <li><a href="{{ '/special-collections/description.html' | relative_url }}">Collection Descriptions</a></li>
+          <li><A href="{{ '/special-collections/searchall.html' | relative_url }}">Search/Browse All Collections</a></li>
           <!--<a href="/special-collections/mgfindingaids.html" ><span class="word-hide">Manuscript Groups</span><span class="word-show">Manuscripts</span></a> 
 <a href="/special-collections/pgfindingaids.html"><span class="word-hide">Photograph Groups</span><span class="word-show">Photographs</span></a> 
 <a href="/special-collections/unirecords.html"><span class="word-hide">University Archives</span><span class="word-show">UI Archives</span></a> -->
-          <li><a href="forestry.html">
-              <span class="word-hide">Forestry Collections</span>
-              <span class="word-show">Forestry</span>
-            </a></li>
-          <li><a href="dayfindingaids.html">
-              <span class="word-hide">Mining Collections</span>
-              <span class="word-show">Mining</span>
-            </a></li>
+          <li><a href="{{ '/special-collections/forestry.html' | relative_url }}">Forestry Collections</a></li>
+          <li><a href="{{ '/special-collections/dayfindingaids.html' | relative_url }}">Mining Collections</a></li>
           <li><a href="http://www.lib.uidaho.edu/digital/jazz/">International Jazz Collections</a></li>
-          <li><a href="http://www.lib.uidaho.edu/special-collections/GenealogicalResources.pdf">
-              <span class="word-hide">Genealogy Resources</span>
-              <span class="word-show">Genealogy</span>
-            </a></li>
-
-          <li><a href="primary.html">
-              Primary Source Primer
-            </a></li>
+          <li><a href="http://www.lib.uidaho.edu/special-collections/GenealogicalResources.pdf">Genealogy Resources</a></li>
+          <li><a href="{{ '/special-collections/primary.html' | relative_url }}">Primary Source Primer</a></li>
         </ul>
-
-
       </div>
     </div>
   </div>
@@ -194,108 +175,49 @@ section: special collections
         <h3 class="card-title center">Campus History</h3>
       </div>
       <div class="card-body">
-
         <ul class="list-unstyled">
-          <li><a href="uitimeline.html">Historical Timeline</a></li>
-          <li><a href="uibuildings.html">University Buildings</a></li>
+          <li><a href="{{ '/special-collections/uitimeline.html' | relative_url }}">Historical Timeline</a></li>
+          <li><a href="{{ '/special-collections/uibuildings.html' | relative_url }}">University Buildings</a></li>
           <li><a href="http://www.lib.uidaho.edu/digital/campus/">Campus Photographs</a></li>
-          <li><a href="uibibliography.html">Bibliography</a></li>
-          <li><a href="usefullinks.html">Useful Links</a></li>
-          <li><a href="contactus.html">
-              Contact Us for Assistance
-            </a></li>
+          <li><a href="{{ '/special-collections/uibibliography.html' | relative_url }}">Bibliography</a></li>
+          <li><a href="{{ '/special-collections/usefullinks.html' | relative_url }}">Useful Links</a></li>
+          <li><a href="{{ '/special-collections/contactus.html' | relative_url }}">Contact Us for Assistance</a></li>
         </ul>
-
-
       </div>
-
     </div>
   </div>
 
 </div>
 
-<!--
+<hr>
+
+<!-- exhibits cards row -->
+<h3 id="exhibits" class="my-4">Current Exhibits</h3>
+  
 <div class="row">
-
-<div class="col-md-5 col-md-offset-1">
-<a  id="about" class="headmenu" href="/special-collections/about.html">About</a> 
- 
-<ul style="margin-bottom:15px;">
-<li><a href="rules.html">Reading Room Rules</a></li>
-
-</ul>
-
-<a class="headmenu"  href="/special-collections/findingaids.html">Search Tools</a>
-
-<ul >
-                                  
-                      <li><a href="http://www.lib.uidaho.edu/digital/histphoto/">Search Historical Photos</a></li>
-                      <li><a href="/find/argonaut.html">Search the Argonaut</a></li>
-                    
-                    </ul>
-					<a class="headmenu"  href="/special-collections/primary.html">Primary Sources</a> 
-					
-					
-
-</div>
-<div class="col-md-5  ">
-<a class="headmenu" id="collections" href="/special-collections/description.html">Collections</a> 
-
-
-<ul >
-
-                      <li><a href="mgfindingaids.html" >Manuscript Groups</a></li>
-					  <li><a href="pgfindingaids.html">Photograph Groups</a></li>
-                      <li><a href="unirecords.html">University Archives</a></li>
-                     
-											<li><a href="/digital/jazz/">International Jazz Collections</a></li>
-											<li><a href="dayfindingaids.html">Mining Collections</a></li>
-											<li><a href="wilderness.html">Wilderness Archive</a></li>
-											<li><a href="searchall.html">Search All</a></li>
-											</ul>
-
-</div>
-
-</div>-->
-
-<!--
-<div class="center">
- <a href="donations.html" class="btn btn-default spec-btn stone" type="button"><span class="fas fa-gift"></span> Donate to Special Collections!</a>
- </div>-->
- 
-<!--
-<div class="row pt-5">
-  <section id="exhibits">
-    <h3>Current Exhibits</h3>
-  </section>
-</div>
-
-<div class="row">
-  <div class="col-md-8">
+  <div class="col">
     <div class="card">
-      <div class="card-header text-left">
-        <h5 class="mb-0">At War!</h5>
-      </div>
       <div class="card-body">
-        <p>The effect of World War I on the University of Idaho, 100 years after the war, is explored in a new Special
-          Collections and Archives exhibit on the second floor of the U of I Library. Through newspaper clippings,
-          scrapbook pages, photos and other memorabilia, the “At War!” display provides a glimpse of the Great War's
-          impact on the university community. The exhibit will be on display through Dec. 7.</p>
+        <h4 >At War!</h4>
+        <div class="row">
+        <div class="col-sm-8 card-text">The effect of World War I on the University of Idaho, 100 years after the war, is explored in a new Special Collections and Archives exhibit on the second floor of the U of I Library. Through newspaper clippings, scrapbook pages, photos and other memorabilia, the “At War!” display provides a glimpse of the Great War's impact on the university community. The exhibit will be on display through Dec. 7.</div>
+        <div class="col-sm-4">
+          <img src="/assets/images/spec/at_war.jpg" class="img-fluid">
+        </div>
       </div>
     </div>
   </div>
   
-  <div class="col-md-4 align-self-center">
-    <img src="/assets/images/spec/at_war.jpg" class="img-fluid mx-auto d-block">
-  </div>
-  
 </div>
--->
+</div>
 
-<div class="row pt-5 justify-content-center">
-  <div class="col-md-12">
-    <h3>Featured Collections</h3>
-  </div>
+<hr>
+
+<!-- featured collections cards row -->
+<h3 class="my-4">Featured Collections</h3>
+
+<div class="row">
+
   <div class="col-md-5">
     <div class="card text-center my-2">
       <div class="card-header">
@@ -325,7 +247,6 @@ section: special collections
         <p class="card-text pt-3">The International Jazz Collection is the premiere jazz archive of the Pacific
           Northwest and is housed in the University of Idaho Library.</p>
       </div>
-
     </div>
   </div>
 
