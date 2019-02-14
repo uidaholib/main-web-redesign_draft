@@ -1,6 +1,6 @@
 {% comment %} Use this include to add an alert to the home page, add it to index.html above "include searchnav.html" {% endcomment %}
-<div class="alert alert-warning alert-dismissible fade show mb-0 text-center" role="alert">
-  <strong>Closed for weather:</strong> The Library is closed with the rest of campus as of 1:30pm Feb 13th. We will reopen 7:00am Feb 14th.
+<div class="alert alert-{{ include.color | default: 'warning' }} alert-dismissible fade show mb-0 text-center" role="alert">
+  {{ include.text }}
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
