@@ -14,13 +14,11 @@
 </script>
 
 <script>
-    /* featured researchers */
 {%- assign researchers = site.data.vivo-featured -%}
-{%- assign researcher-fields = "id;last;first;dept;rank;pub;publoc;publink;pubtype;deptid" | split: ";" -%}
+{%- assign researcher-fields = 'id;last;first;rank;dept;deptid;pub;publoc;publink;pubtype' | split: ';' -%}
+    /* featured researchers */
     var researchers = [
-        {% for researcher in researchers %}
-        { {% for f in researcher-fields %}"{{ f }}":{{ researcher[f] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %} }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
+        {% for researcher in researchers %}{ {% for f in researcher-fields %}"{{ f }}":{{ researcher[f] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %} }{% unless forloop.last %},{% endunless %}{% endfor %}
     ];
     var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
     var featuredCard = '<a href="http://vivo.nkn.uidaho.edu/individual/' + featuredResearcher.id + '"> <img class="card-img-top" src="https://www.lib.uidaho.edu/media/vivo-featured/' + featuredResearcher.last.toLowerCase() + '.jpg" alt="' + featuredResearcher.last + 'portrait"></a>' +
