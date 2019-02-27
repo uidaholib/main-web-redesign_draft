@@ -5,6 +5,9 @@ permalink: /services/oapf/faq.html
 layout: page
 ---
 
+<div class="alert alert-primary text-center" role="alert">
+    Thank you for your interest in the U of I – Open Access Publishing Fund (OAPF). The OAPF has disbursed its entire allocation for this fiscal year and the application is now closed. You can view funded articles <a href="funded.html">here</a>. <br> Please contact <a href="mailto:jylisadoney@uidaho.edu">Jylisa Doney</a> (OAPF, Fund Manager) if you have any questions.
+</div>
 
 {% assign cats = site.data.UI-OAPF_FAQ | map: "category" | uniq %}
 {% for c in cats %}
