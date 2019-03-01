@@ -9,6 +9,8 @@ tagline: "Bringing the world to Idaho ... and Idaho to the world."
 description: "As Idaho's flagship research library, the University of Idaho Library connects our users with information, ideas, tools, and spaces; enriches formal and informal learning opportunities; supports and advances research, scholarly, and creative activity; builds partnerships through regional and national outreach; and preserves university, state, and regional historical archives." 
 keywords: Idaho, research library, University of Idaho, Humanities, Science, Social Sciences, Engineering
 email: ewilliamson@uidaho.edu
+# for markup 
+featured-image: "/media/carousel/libraryfall-featured.jpg"
 
 # url variables
 url: https://www.lib.uidaho.edu
