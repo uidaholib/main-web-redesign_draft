@@ -68,7 +68,9 @@ about:
       - name: Recognizing our Faculty
         url: /recognitions/
       - name: Featured Faculty
-        url: /recognitions/featured-faculty.html  
+        url: /recognitions/featured-faculty.html
+  - subsection: My Library
+    link: /about/mylibrary.html
 # special subsections of About
 hours:
   - parent: About
