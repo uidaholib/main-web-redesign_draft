@@ -14,21 +14,27 @@ table-id: "#journals"
         <tr>
            <th>Title</th>
            <th>Subject</th>
-           <th>Cost</th>
+           <th>ISSN</th>
+           <th>Publisher</th>
+           <th>Cost per use</th>
         </tr>
      </thead>
      <tfoot>
         <tr>
-            <th>Title</th>
-           <th>Subject</th>
-           <th>Cost</th>
+         <th>Title</th>
+         <th>Subject</th>
+         <th>ISSN</th>
+         <th>Publisher</th>
+         <th>Cost per use</th>
         </tr>
      </tfoot>
      {% for j in journals %}
      <tr>
-         <td ><a href="{{ y.link }}" target="_blank">{{ j.title }}</a></td>
-         <td >{{ j.subject }}</td>
-         <td >{{ j.cost }}</td>
+         <th>{{ j.title }}</th>
+         <th>{{ j.subject }}</th>
+         <th>{{ j.issn }}</th>
+         <th>{{ j.publisher }}</th>
+         <th>{{ j.cost }}</th>
      </tr>
      {% endfor %}
 </table>
