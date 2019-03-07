@@ -46,4 +46,11 @@ layout: page
  </div> <!--end card-->
 </div> <!--end accordion-->
 
+<div class="text-center align-content-center mb-3">
+
+  <a href="(qualtrics form)" class="btn btn-pride-gold btn m-2" role="button"><span class="fas fa-comment-alt"></span> Provide Feedback</a>
+  <a href="{{ '/review/table.html' | relative_url }}" class="btn btn-clearwater btn m-2" role="button"><span class="fas fa-list"></span> Review Items Table</a>
+  <a href="mailto:bhunter@uidaho.edu" class="btn btn-secondary btn m-2" role="button"><span class="fas fa-user"></span> Contact</a> 
+       
+</div>
       
