@@ -2,8 +2,8 @@
 <script>
 $(document).ready(function() {
     $('{{ page.table-id }}').dataTable({
-        //"lengthMenu": [[ -1, 10, 25], [ "All", 10, 25]]
-        "paging": false
+        {% if page.table-paginate == true %}"lengthMenu": [[ 25, 50, -1], [ 25, 50, "All"]], "paging": true{% else %}
+        "paging": false{% endif %}
     });
 } );
 </script>
