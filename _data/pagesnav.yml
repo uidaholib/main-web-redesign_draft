@@ -363,6 +363,8 @@ services:
         url: /services/workshops/
       - name: Resources
         url: /services/workshops/resources.html
+  - subsection: Journal and Database Review Process
+    link: /review/
 
 # Guide sections
 data management guide:
@@ -468,4 +470,17 @@ copyright guide:
   - subsection: Acknowledgements
     link: /copyright/guide.html#acknowledgements
   - subsection: Services
+    link: /services/
+
+# Journal review section
+review:
+  - parent: Services
+    stub: /services/
+  - subsection: Review Process
+    link: /review/
+  - subsection: Review Items
+    link: /review/table.html
+  - subsection: FAQ
+    link: /review/faq.html
+  - subsection: << Services
     link: /services/

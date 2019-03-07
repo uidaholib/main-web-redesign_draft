@@ -1,0 +1,36 @@
+---
+title: Journal Review
+layout: page
+section: review
+permalink: /review/table.html
+table-id: "#journals"
+---
+{% assign journals = site.data.journals-review %}
+
+<p class="pt-3">Search and sort the table below to find </p>
+
+<table id="journals" class="table table-striped">
+    <thead>
+        <tr>
+           <th>Title</th>
+           <th>Subject</th>
+           <th>Cost</th>
+        </tr>
+     </thead>
+     <tfoot>
+        <tr>
+            <th>Title</th>
+           <th>Subject</th>
+           <th>Cost</th>
+        </tr>
+     </tfoot>
+     {% for j in journals %}
+     <tr>
+         <td ><a href="{{ y.link }}" target="_blank">{{ j.title }}</a></td>
+         <td >{{ j.subject }}</td>
+         <td >{{ j.cost }}</td>
+     </tr>
+     {% endfor %}
+</table>
+
+
