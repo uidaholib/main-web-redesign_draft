@@ -28,7 +28,7 @@ layout: page
    
  <div id="collapseOne" class="collapse" data-parent="#accordion">
  <div class="card-body">
-  <p>Journal and database subscriptions rise at a rate around 5-6% per year. Given that the majority of the library’s budget is devoted to resources of these kinds, this has a substantial impact every year. This is a problem that every academic library is dealing with right now, and while there have been discussions about the sustainability of this business model for many years, we’re not yet to a point.</p>
+  <p>Journal and database subscriptions rise at a rate around 5-6% per year. Given that the majority of the library’s budget is devoted to resources of these kinds, this has a substantial impact every year. This is a problem that every academic library is dealing with right now, and while there have been discussions about the sustainability of this business model for many years, we’re not yet to a point [where other business models are entirely feasible for our Library].</p>
  </div> <!--end card-body-->
  </div> <!--end collapse-->
  </div> <!--end card-->
