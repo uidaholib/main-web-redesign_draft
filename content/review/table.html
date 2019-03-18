@@ -8,25 +8,28 @@ table-paginate: true
 ---
 {% assign journals = site.data.journals-review %}
 
-<p class="pt-3">The list of potential journal and database cancellations is below. If you do not see a title that the Library currently subscribes to on this list, it is not in danger of being cancelled this year.</p>
+<p class="pt-3">The list of potential journal and database cancellations is below. This list only includes the current Library subscriptions (journals and databases) that are under review for potential cancellation this year.</p>
 
 <table id="journals" class="table table-striped">
     <thead>
         <tr>
            <th>Title</th>
            <th>Subject</th>
-           <th>ISSN</th>
-           <th>Publisher</th>
-           <th>Cost per use</th>
+            <th>LC Headings</th>
+            <th>ISSN</th>
+            <th>Platform</th>
+            <th>Publisher</th>
+           <th>Cost per average use</th>
         </tr>
      </thead>
      <tfoot>
         <tr>
          <th>Title</th>
-         <th>Subject</th>
-         <th>ISSN</th>
-         <th>Publisher</th>
-         <th>Cost per use</th>
+            <th>Subject</th>
+            <th>ISSN</th>
+            <th>Platform</th>
+            <th>Publisher</th>
+           <th>Cost per average use</th>
         </tr>
      </tfoot>
      {% for j in journals %}
@@ -34,6 +37,7 @@ table-paginate: true
          <th>{{ j.title }}</th>
          <th>{{ j.subject }}</th>
          <th>{{ j.issn }}</th>
+         <th>{{ j.platform }}</th>
          <th>{{ j.publisher }}</th>
          <th>{{ j.cost }}</th>
      </tr>
