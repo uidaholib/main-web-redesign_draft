@@ -65,10 +65,12 @@ about:
     subpages:
       - name: Welcome
         url: /about/welcome.html
+      - name: My Library Campaign
+        url: /mylibrary/        
       - name: Recognizing our Faculty
         url: /recognitions/
       - name: Featured Faculty
-        url: /recognitions/featured-faculty.html  
+        url: /recognitions/featured-faculty.html
 # special subsections of About
 hours:
   - parent: About
@@ -100,6 +102,17 @@ giving:
     link: /giving/endowments.html
   - subsection: Library Associates
     link: /giving/associates.html
+  - subsection: << About
+    link: /about/
+my library: 
+  - parent: About
+    stub: /about/
+  - subsection: My Library Campaign
+    link: /mylibrary/
+  - subsection: Submit Your Story
+    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
+  - subsection: Library Giving
+    link: /giving/    
   - subsection: << About
     link: /about/
 

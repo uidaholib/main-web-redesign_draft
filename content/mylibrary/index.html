@@ -1,0 +1,75 @@
+---
+title: My Library
+section: my library
+permalink: /mylibrary/
+layout: page
+---
+{% assign profiles = site.data.mylibrary_profiles %}
+
+<p class="lead">The <em>My Library</em> campaign features timely, real-life library stories highlighting University of Idaho students and little-known library services by asking, <em>"What does your library look like?"</em> We hope sharing real student experiences will help reveal solutions to your educational needs and expand your perception of the possibilities at the library!</p>
+
+<p>The U of I Library is known mainly for books and studying but that perception is not the whole story. The library is a foundational powerhouse of information, ideas, tools, services, spaces, and more, available to <em>EVERY U of I student</em>. Browse our featured stories, <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9">share your story</a>, or <a href="#mylibrary-services">learn more below</a>.</p>
+
+<style>
+  /* temp inline to avoid css caching issues */
+  .card-button:hover { text-decoration: none; }
+  .card-button .card:hover { background: #f2f2f2; }
+  .card-button h5:hover { text-decoration: underline; }
+  .card-button p { font-weight: 400; }
+  .card-button { cursor: pointer; }
+</style>
+<div class="row">
+    {% for p in profiles %}
+    <div class="col-md-6">
+        <a role="button" class="card-button" data-toggle="modal" data-target="#poster{{ forloop.index }}">
+            <div class="card my-3">
+                <div class="card-body text-center">
+                    <img src="{{ p.img | prepend: '/media/mylibrary/small/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
+                    {{ p.name }}, {{ p.department }}
+                </div>
+            </div><!--end card-->
+        </a>
+        <div class="modal fade" id="poster{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="posterTitle{{ forloop.index }}" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="posterTitle{{ forloop.index }}">{{ p.name }}, {{ p.department }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
+                    </div><!--end modal-body-->
+
+                </div><!--end modal-content-->
+            </div>
+        </div><!--end modal-->
+    </div><!--end column-->
+    {% endfor %}
+</div>
+
+<div class="row" id="mylibrary-services">
+    <div class="col-md-12">
+        <h4>Library perks include beautifully comfortable spaces for groups and resources such as:</h4>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li><a href="https://mill.lib.uidaho.edu/">3D printing</a></li>
+            <li>green screen and lighting</li>
+            <li>virtual reality, an <a href="https://libguides.uidaho.edu/thestudio">audio/visual lab</a></li>
+            <li>electronic textbooks and course materials that add up to great savings</li>
+            <li><a href="https://www.lib.uidaho.edu/help/">helpful librarians</a></li>
+            <li><a href="https://libguides.uidaho.edu/Games">board games</a></li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>immediate access to millions of <a href="https://www.lib.uidaho.edu/find/books.html">physical and electronic books</a> & <a href="https://www.lib.uidaho.edu/find/articles.html">journals</a></li>
+            <li>digital <a href="http://insideidaho.org/index.html">georeferenced aerial imagery</a></li>
+            <li><a href="https://www.lib.uidaho.edu/collections/">historical collections</a></li>
+            <li><a href="https://www.lib.uidaho.edu/about/liaisons.html">topic experts</a></li>
+            <li>tens of thousands of <a href="https://www.lib.uidaho.edu/find/dvds.html">DVDs</a> and <a href="http://ida.lib.uidaho.edu:2048/login?url=https://uidaho.kanopy.com/">streaming movies</a></li>
+            <li><a href="https://www.lib.uidaho.edu/services/workshops/">awesome workshops</a></li>
+        </ul>
+    </div>
+</div>
