@@ -65,12 +65,12 @@ about:
     subpages:
       - name: Welcome
         url: /about/welcome.html
+      - name: My Library Campaign
+        url: /mylibrary/        
       - name: Recognizing our Faculty
         url: /recognitions/
       - name: Featured Faculty
         url: /recognitions/featured-faculty.html
-  - subsection: My Library Campaign
-    link: /mylibrary/
 # special subsections of About
 hours:
   - parent: About
