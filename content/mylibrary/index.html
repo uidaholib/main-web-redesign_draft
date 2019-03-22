@@ -39,6 +39,7 @@ layout: page
                     </div>
                     <div class="modal-body">
                         <img src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
+                        {% if p.text %}<p class="card-text text-center mt-2">{{ p.text }}</p>{% endif %}
                     </div><!--end modal-body-->
 
                 </div><!--end modal-content-->
@@ -49,7 +50,7 @@ layout: page
 </div>
 
 <div class="row" id="mylibrary-services">
-    <div class="col-md-12">
+    <div class="col-12">
         <h4>Library perks include beautifully comfortable spaces for groups and resources such as:</h4>
     </div>
     <div class="col-md-6">
@@ -71,5 +72,9 @@ layout: page
             <li>tens of thousands of <a href="https://www.lib.uidaho.edu/find/dvds.html">DVDs</a> and <a href="http://ida.lib.uidaho.edu:2048/login?url=https://uidaho.kanopy.com/">streaming movies</a></li>
             <li><a href="https://www.lib.uidaho.edu/services/workshops/">awesome workshops</a></li>
         </ul>
+    </div>
+    <div class="col-12 text-center">
+        <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9" class="btn btn-pride-gold btn-lg m-2"><span class="far fa-comment"></span> Submit Your Library Story</a>
+        <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd" class="btn btn-pride-gold btn-lg m-2"><span class="fas fa-check"></span> Subscribe to Library Newsletters</a>
     </div>
 </div>
