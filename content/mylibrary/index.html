@@ -39,7 +39,7 @@ layout: page
                     </div>
                     <div class="modal-body">
                         <img src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
-                        {% if p.text %}<p class="card-text text-center mt-2">{{ p.text }}</p>{% endif %}
+                        {% if p.text %}<blockquote class="blockquote"><p class="card-text mt-2 p-3">{{ p.text }}</p></blockquote>{% endif %}
                     </div><!--end modal-body-->
 
                 </div><!--end modal-content-->
