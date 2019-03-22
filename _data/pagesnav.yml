@@ -20,6 +20,8 @@ about:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
+  - subsection: My Library Stories
+    link: /mylibrary/
   - subsection: People
     link: /about/directory.html
     subpages:
@@ -64,9 +66,7 @@ about:
     link: /about/welcome.html
     subpages:
       - name: Welcome
-        url: /about/welcome.html
-      - name: My Library Campaign
-        url: /mylibrary/        
+        url: /about/welcome.html      
       - name: Recognizing our Faculty
         url: /recognitions/
       - name: Featured Faculty
@@ -107,7 +107,7 @@ giving:
 my library: 
   - parent: About
     stub: /about/
-  - subsection: My Library Campaign
+  - subsection: My Library Stories
     link: /mylibrary/
   - subsection: Submit Your Story
     link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
