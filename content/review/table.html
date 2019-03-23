@@ -10,8 +10,8 @@ table-paginate: true
 
 <p class="pt-3">The list of potential journal and database cancellations is below. This list only includes the current Library subscriptions (journals and databases) that are under review for potential cancellation this year.</p>
 
-<table id="journals" class="table table-striped">
-    <thead>
+<table id="journals" class="table table-striped table-hover">
+    <thead class="thead-dark">
         <tr>
            <th>Title</th>
            <th>Subject</th>
@@ -21,7 +21,7 @@ table-paginate: true
            <th>Cost per use</th>
         </tr>
      </thead>
-     <tfoot>
+     <tfoot class="thead-dark">
         <tr>
          <th>Title</th>
             <th>Subject</th>
@@ -38,7 +38,7 @@ table-paginate: true
          <th>{{ j.issn }}</th>
          <th>{{ j.platform }}</th>
          <th>{{ j.publisher }}</th>
-         <th>{{ j.cost }}</th>
+         <th>${{ j.cost }}</th>
      </tr>
      {% endfor %}
 </table>
