@@ -11,7 +11,7 @@ layout: page
  
  <div class="card my-2">
   <div class="card-header">
-       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">How did you determine which journals and databases to include on the list? <span class=:fas fa-chevron-down smalltxt"></span></a></h5>
+       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">How did you determine which journals and databases to include on the list? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
    </div> <!--end card-header-->
    
  <div id="collapseOne" class="collapse" data-parent="#accordion">
@@ -23,10 +23,10 @@ layout: page
 
  <div class="card my-2">
   <div class="card-header">
-       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">What do you mean by journal inflation? <span class=:fas fa-chevron-down smalltxt"></span></a></h5>
+       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">What do you mean by journal inflation? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
    </div> <!--end card-header-->
    
- <div id="collapseOne" class="collapse" data-parent="#accordion">
+ <div id="collapseTwo" class="collapse" data-parent="#accordion">
  <div class="card-body">
   <p>Journal and database subscriptions rise at a rate around 5-6% per year. Given that the majority of the library’s budget is devoted to resources of these kinds, this has a substantial impact every year. This is a problem that every academic library is dealing with right now, and while there have been discussions about the sustainability of this business model for many years, we’re not yet to a point [where other business models are entirely feasible for our Library].</p>
  </div> <!--end card-body-->
@@ -35,10 +35,10 @@ layout: page
  
   <div class="card my-2">
   <div class="card-header">
-       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Why don’t you just get a better deal on the same content? <span class=:fas fa-chevron-down smalltxt"></span></a></h5>
+       <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Why don’t you just get a better deal on the same content? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
    </div> <!--end card-header-->
    
- <div id="collapseOne" class="collapse" data-parent="#accordion">
+ <div id="collapseThree" class="collapse" data-parent="#accordion">
  <div class="card-body">
   <p>We are members of various library purchasing consortia and negotiate aggressively with publishers and content providers. However, in most cases there is only one source to license specific journals from, creating a monopoly for the providers.</p>
  </div> <!--end card-body-->
