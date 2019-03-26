@@ -20,6 +20,8 @@ about:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
+  - subsection: Journal and Database Review Process
+    link: /review/    
   - subsection: People
     link: /about/directory.html
     subpages:
@@ -363,8 +365,6 @@ services:
         url: /services/workshops/
       - name: Resources
         url: /services/workshops/resources.html
-  - subsection: Journal and Database Review Process
-    link: /review/
 
 # Guide sections
 data management guide:
@@ -474,13 +474,15 @@ copyright guide:
 
 # Journal review section
 review:
-  - parent: Services
-    stub: /services/
+  - parent: About
+    stub: /about/
   - subsection: Review Process
     link: /review/
   - subsection: Review Items
     link: /review/table.html
+  - subsection: Provide Feedback
+    link: (qualtrics)
   - subsection: FAQ
     link: /review/faq.html
-  - subsection: << Services
-    link: /services/
+  - subsection: << About
+    link: /about/
