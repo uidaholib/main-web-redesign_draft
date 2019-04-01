@@ -28,7 +28,7 @@ layout: page
    
  <div id="collapseTwo" class="collapse" data-parent="#accordion">
  <div class="card-body">
-  <p>Journal and database subscriptions rise at a rate around 5-6% per year. Given that the majority of the library’s budget is devoted to resources of these kinds, this has a substantial impact every year. This is a problem that every academic library is dealing with right now, and while there have been discussions about the sustainability of this business model for many years, we’re not yet to a point [where other business models are entirely feasible for our Library].</p>
+  <p>Journal and database subscriptions rise at a rate around 5-6% per year. Given that the majority of the library’s budget is devoted to resources of these kinds, this has a substantial impact every year. This is a problem that every academic library is dealing with right now. There have been discussions about the sustainability of this business model within the academic library community for many years; while new models of funding scholarly publishing are currently being pursued, we have not yet seen a significant change in our financial obligations.</p>
  </div> <!--end card-body-->
  </div> <!--end collapse-->
  </div> <!--end card-->
@@ -48,7 +48,7 @@ layout: page
 
 <div class="text-center my-3">
    <a href="{{ '/review/index.html' | relative_url }}" class="btn btn-clearwater btn m-2" role="button"><span class="fas fa-info-circle"></span> Review Process</a>
-   <a href="(qualtrics form)" class="btn btn-clearwater btn m-2" role="button"><span class="fas fa-comment-alt"></span> Provide Feedback</a>
+   <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_6nTjWGFXy4x7uwR" class="btn btn-clearwater btn m-2" role="button"><span class="fas fa-comment-alt"></span> Provide Feedback</a>
    <a href="{{ '/review/faq.html' | relative_url }}" class="btn btn-clearwater btn m-2" role="button"><span class="fas fa-question"></span> FAQ</a> 
    <a href="mailto:bhunter@uidaho.edu" class="btn btn-secondary btn m-2" role="button"><span class="fas fa-user"></span> Contact</a> 
 </div>
