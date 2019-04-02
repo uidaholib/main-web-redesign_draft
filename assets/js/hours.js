@@ -112,7 +112,7 @@
 			}
 		}
 //Summer hours
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 513 && Number(dateNumber) < 819) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 513 && Number(dateNumber) < 825) {
 	//Summer Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseSummerWkday;

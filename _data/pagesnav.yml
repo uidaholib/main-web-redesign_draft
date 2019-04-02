@@ -21,7 +21,9 @@ about:
   - subsection: Hours
     link: /about/hours.html
   - subsection: Journal and Database Review Process
-    link: /review/    
+    link: /review/
+  - subsection: My Library Stories
+    link: /mylibrary/
   - subsection: People
     link: /about/directory.html
     subpages:
@@ -66,11 +68,11 @@ about:
     link: /about/welcome.html
     subpages:
       - name: Welcome
-        url: /about/welcome.html
+        url: /about/welcome.html      
       - name: Recognizing our Faculty
         url: /recognitions/
       - name: Featured Faculty
-        url: /recognitions/featured-faculty.html  
+        url: /recognitions/featured-faculty.html
 # special subsections of About
 hours:
   - parent: About
@@ -104,6 +106,19 @@ giving:
     link: /giving/associates.html
   - subsection: << About
     link: /about/
+my library: 
+  - parent: About
+    stub: /about/
+  - subsection: My Library Stories
+    link: /mylibrary/
+  - subsection: Submit Your Story
+    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
+  - subsection: Subscribe to Newsletters
+    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
+  - subsection: Library Giving
+    link: /giving/
+  - subsection: << About
+    link: /about/    
 # Journal review section
 review:
   - parent: About
