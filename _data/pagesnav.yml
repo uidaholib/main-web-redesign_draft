@@ -20,6 +20,8 @@ about:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
+  - subsection: Journal and Database Review Process
+    link: /review/
   - subsection: My Library Stories
     link: /mylibrary/
   - subsection: People
@@ -114,7 +116,21 @@ my library:
   - subsection: Subscribe to Newsletters
     link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
   - subsection: Library Giving
-    link: /giving/    
+    link: /giving/
+  - subsection: << About
+    link: /about/    
+# Journal review section
+review:
+  - parent: About
+    stub: /about/
+  - subsection: Review Process
+    link: /review/
+  - subsection: Review Items
+    link: /review/table.html
+  - subsection: Provide Feedback
+    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6nTjWGFXy4x7uwR
+  - subsection: FAQ
+    link: /review/faq.html
   - subsection: << About
     link: /about/
 
