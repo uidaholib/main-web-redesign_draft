@@ -125,10 +125,10 @@ review:
     stub: /about/
   - subsection: Review Process
     link: /review/
-  - subsection: Review Items
-    link: /review/table.html
-  - subsection: Provide Feedback
-    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6nTjWGFXy4x7uwR
+  #- subsection: Review Items
+  #  link: /review/table.html
+  #- subsection: Provide Feedback
+  #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6nTjWGFXy4x7uwR
   - subsection: FAQ
     link: /review/faq.html
   - subsection: << About
