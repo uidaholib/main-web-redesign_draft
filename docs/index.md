@@ -27,3 +27,11 @@ Dimensions that seem to work well:
 - center around 1000px x 600px, canvas 1600px x 900px.
 
 Images are added to the webserver in the `/media/carousel/` directory, not to the github project.
+
+# Foot and custom-foot
+
+All js is loaded at the bottom of the page in "foot.html" include.
+First, jquery and bootstrap bundle are loaded, then any other sections based on page layout or other front matter.
+This ensures js is loaded in order and is optimized for page load.
+If you have a non-standard js that needs to be loaded for the page, use the front matter variable `custom-foot` and provide the filename like you would an include.
+The `foot.html` include will add an include in the foot section to the file.
