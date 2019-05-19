@@ -5,115 +5,108 @@ section: special collections
 permalink: /special-collections/searchall.html
 table-id: "#all-collections"
 ---
-	  <div class="row">
-		<div class="col-md-12">
-		  <div class="card mb-3">
+<div class="row">
+	<div class="col-md-12">
+		<div class="card mb-3">
 			<div class="card-body text-center">
-	
-					<form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search for our finding aids on
-            <a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>: 
-            <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header text-center">
-                    <h3 class="modal-title">About the Northwest Digital Archives</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <!--end modal-header-->
-                  <div class="modal-body text-center">
-                    <p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also <a href='/special-collections/search.php?'>search our website</a>, or contact <a href='contactus.html'>our staff</a> for additional assistance</a>.</p>
-                  </div>
-                  <!--end modal-body-->
-                </div>
-                <!--end modal-content-->
-              </div>
-            </div>
-            <!--end modal-->
 
-            <input id="searchValue" name="q" type="text"> &nbsp;&nbsp;
-            <input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
-            <input id="t" name="t" type="hidden" value="k">
-            <input id="c" name="c" type="hidden" value="ntd">
-          </form>
-        </div>
-      </div>
-    </div>
-	</div>
-	
- 
-			<div class="col-md-12 text-center my-2">
-				<p> <b>Limit Table To:</b> 
-<a id="PG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#PG-type">Photo Groups Only</a> 
-<a id="MG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#MG-type">Manuscript Groups Only</a> 
-<a id="UG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#UG-type">University Groups Only</a> 
-
-<a id="IJC-MG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#IJC-MG-type">International Jazz Collections</a> 
-<a id="VF-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#VF-type">Vertical File</a> 
-<a id="all_btn" class="btn btn-sm btn-secondary btn-pride-gold my-2 mx-1 coll-limiter" href="#all">All Groups</a>    </p>
-</div>          
-					<table id="all-collections" class="table table-striped">
-						<thead>
-							 <tr>
-									<th>Title</th>
-									<th>Group Type</th>
-									<th>Group Number</th>
-									<th>Finding Aid</th>
-									<th>Digital Collection</th>
-							 </tr>
-						</thead>
-						<tfoot>
-							 <tr>
-								<th>Title</th>
-								<th>Group Type</th>
-								<th>Group Number</th>
-								<th>Finding Aid</th>
-								<th>Digital Collection</th>
-							 </tr>
-						</tfoot>
-						
-						{% assign items = site.data.spec_searchall %}
-						{% for item in items %}
-						<tr class="{{item.type}}-type">
-							<td class="title">{{item.title}}</td>
-							<td class="grouptype">{{item.type}}</td>
-							<td class="groupnumber">{{item.number | prepend: '0000' | slice: -4, 4 }}</td>
-							<td class="finding-aid">{% unless item.link == "none" %}<small><a target="_blank" href="{{item.link}}">
-										Finding Aid</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small> </td>
-							<td class="digital-collection">{% unless item.digital-collection == "none" %}<small><a target="_blank" href="{{item.digital-collection}}">
-											Digital Collection</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small>  </td>
-					   </tr>
-					   {%endfor%}
-				 </table>
+				<form action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get" class="form-inline my-3">
+					Search for our finding aids on <a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>:
+					<input id="searchValue" name="q" type="text" class="form-control mx-2">
+					<input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
+					<input id="t" name="t" type="hidden" value="k">
+					<input id="c" name="c" type="hidden" value="ntd">
+				</form>
 			</div>
-			
+		</div>
+	</div>
+</div>
+<!-- modal -->
+<div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h3 class="modal-title">About the Northwest Digital Archives</h3>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<!--end modal-header-->
+			<div class="modal-body text-center">
+				<p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also contact <a href='contactus.html'>our staff</a> for additional assistance</a>.</p>
+			</div>
+			<!--end modal-body-->
+		</div>
+		<!--end modal-content-->
+	</div>
+</div>
+<!--end modal-->
+
+<div class="col-md-12 text-center my-2">
+	<strong>Limit Table To:</strong>
+	<a id="PG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#PG-type">Photo Groups Only</a>
+	<a id="MG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#MG-type">Manuscript Groups Only</a>
+	<a id="UG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#UG-type">University Groups Only</a>
+	<a id="IJC-MG-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#IJC-MG-type">International Jazz Collections</a>
+	<a id="VF-type" class="btn btn-sm btn-secondary my-2 mx-1 coll-limiter" href="#VF-type">Vertical File</a>
+	<a id="all_btn" class="btn btn-sm btn-secondary btn-pride-gold my-2 mx-1 coll-limiter" href="#all">All Groups</a>
+</div>
+
+<table id="all-collections" class="table table-striped">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	{% assign items = site.data.spec_searchall %}
+	{% for item in items %}
+	<tr class="{{item.type}}-type">
+		<td class="title">{{item.title}}</td>
+		<td class="grouptype">{{item.type}}</td>
+		<td class="groupnumber">{{item.number | prepend: '0000' | slice: -4, 4 }}</td>
+		<td class="finding-aid">{% unless item.link == "none" %}<small><a target="_blank" href="{{item.link}}">
+					Finding Aid</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small> </td>
+		<td class="digital-collection">{% unless item.digital-collection == "none" %}<small><a target="_blank" href="{{item.digital-collection}}">
+					Digital Collection</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small> </td>
+	</tr>
+	{%endfor%}
+	</tbody>
+</table>
+</div>
+
 <script src="{{ "/assets/js/jquery-3.3.1.min.js" | relative_url }}"></script>
 <script>
-	$(".coll-limiter").click(function(){
+	$(".coll-limiter").click(function () {
 		$("tr").show();
-	var Group = $(this).attr("id");
-	$(this).addClass('btn-pride-gold');
-	$(".coll-limiter").not(this).removeClass('btn-pride-gold');
-	if (Group == "all_btn" ) {
-    		} else 
-			{$("tbody tr").not('.' + Group).hide();}
-	} );
+		var Group = $(this).attr("id");
+		$(this).addClass('btn-pride-gold');
+		$(".coll-limiter").not(this).removeClass('btn-pride-gold');
+		if (Group == "all_btn") {
+		} else { $("tbody tr").not('.' + Group).hide(); }
+	});
 </script>
 
 <script>
- $(document).ready(function() {
-    var hashVal = window.location.hash.split("#")[1];
-		if (hashVal.toLowerCase().indexOf("type") >= 0)	{
-	$("tbody tr").not('.' + hashVal).hide();
-	$(".coll-limiter").not('.' + hashVal).removeClass('btn-pride-gold');
-	$("#" + hashVal).addClass('btn-pride-gold');}
-});
+	$(document).ready(function () {
+		var hashVal = window.location.hash.split("#")[1];
+		if (hashVal.toLowerCase().indexOf("type") >= 0) {
+			$("tbody tr").not('.' + hashVal).hide();
+			$(".coll-limiter").not('.' + hashVal).removeClass('btn-pride-gold');
+			$("#" + hashVal).addClass('btn-pride-gold');
+		}
+	});
 </script>
-
-            
-             
-											
-											
-											
-										
