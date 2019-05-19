@@ -31,6 +31,7 @@ table-paginate: true
            <th>Cost/use</th>
         </tr>
      </tfoot>
+     <tbody>
      {% for j in journals %}
      <tr>
          <td>{{ j.title }}</td>
@@ -41,6 +42,7 @@ table-paginate: true
          <td>${{ j.cost }}</td>
      </tr>
      {% endfor %}
+     </tbody>
 </table>
 
 <div class="text-center my-3">

@@ -31,6 +31,7 @@ table-id: "#funded"
             <th>Article Title</th>
         </tr>
      </tfoot>
+     <tbody>
      {% for y in years %}
      <tr>
          <td class="fiscal year">{{ y.fiscalyear }}</td>
@@ -41,6 +42,7 @@ table-id: "#funded"
          <td class="article title"><a href="{{ y.articledoi }}" target="_blank">{{ y.articletitle }}</a></td>
      </tr>
      {% endfor %}
+     </tbody>
 </table>
 
 

@@ -10,7 +10,6 @@ layout: page
 <p>Slides and additional materials from past workshops and events are shared on this page.</p>
 
 <table id="resources" class="table table-striped" data-order='[[1,"desc"]]'>
-
     <thead>
         <tr>
             <th>Title</th>
@@ -27,6 +26,7 @@ layout: page
             <th>Materials</th>
         </tr>
     </tfoot>
+    <tbody>
     {% for r in resources %}
     <tr>
         <td>{{ r.title }}</td>
@@ -36,6 +36,6 @@ layout: page
         <td>{{ r.materials }}</td>
     </tr>
     {% endfor %}
-
+    </tbody>
 </table>													
 			

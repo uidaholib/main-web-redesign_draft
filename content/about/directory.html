@@ -26,6 +26,7 @@ table-id: "#directory"
           <th>Contact Info</th>
        </tr>
     </tfoot>
+    <tbody>
     {% for p in people %}
     <tr>
        <td class="name">{{ p.name }}</td>
@@ -34,4 +35,5 @@ table-id: "#directory"
        <td class="contact"><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
     </tr>
     {% endfor %}
+    </tbody>
 </table>				

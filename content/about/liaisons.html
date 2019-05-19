@@ -86,7 +86,7 @@ table-id: "#liaisonsTable"
 			<th scope="col">Librarian</th>
 		</tr>	
 	</tfoot>
-	
+	<tbody>
 	{% for l in liaisons %}
 	<tr>
 		<td>{{ l.college }}</td>
@@ -98,5 +98,5 @@ table-id: "#liaisonsTable"
 		</td>
 	</tr>
 	{% endfor %}
-	
+	</tbody>
 </table>

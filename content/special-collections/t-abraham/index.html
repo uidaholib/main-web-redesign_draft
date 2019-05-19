@@ -24,12 +24,14 @@ table-id: "#tapapers"
                 <th>Title</th>
                 <th>Year</th>
             </thead>
+            <tbody>
             {% for paper in site.data.tabraham-files %}
             <tr>
                 <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | absolute_url }}" target="_blank">{{ paper.title }}</a></td>
                 <td>{{ paper.year }}</td>
             </tr>
             {% endfor %}
+            </tbody>
         </table>
     </div>
 </div>
