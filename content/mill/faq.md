@@ -5,6 +5,8 @@ permalink: /mill/faq.html
 layout: page
 ---
 
+Frequently asked questions at the MILL. Learn more by clicking the questions!
+
 {% for q in site.data.mill_faq %}
 <div class="card my-3">
     <div class="card-header">
