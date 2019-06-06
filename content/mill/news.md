@@ -9,5 +9,5 @@ layout: page
 
 
 {% assign news = site.data.mill_newsletters | reverse %}
-{% for n in news %}- <a href="{{ n.filename }}" target="_blank">{{ n.title }}</a>
+{% for n in news %}- <a href="{{ site.liburl }}/media/mill/{{ n.filename }}" target="_blank">{{ n.title }}</a>, {{ n.date }}.
 {% endfor %}
