@@ -1,1 +1,2 @@
-name,description,image,link
+name,description,image,link,link-text,category
+Luzbot Mini,"UI students, staff, and faculty can 3D print or schedule an orientation to learn more about 3D printing. The Lulzbot Mini has a 6in x 6in x 6.2in (152mm x 152mm x 158mm) print area. Visit the <a href='https://libcal.uidaho.edu/reserve/3dprinters'>LibCal website</a> for bookings.",https://www.lib.uidaho.edu/media/rooms/small-3d.jpg,https://libcal.uidaho.edu/reserve/3dprinters,Reserve,3D Printers
