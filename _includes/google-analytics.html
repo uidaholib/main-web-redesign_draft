@@ -1,8 +1,5 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--#include virtual="/google-analytics.txt" -->
-{% if jekyll.environment == "production" %}
-<!--This is the code for google analytics but it's commented out because we are piping it in using php on the server. It's found in google-analytics.txt on the mainwebserver. It's not on testweb.
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76328753-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76328753-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,7 +11,4 @@
       'domains': ['www.lib.uidaho.edu', 'www.ijc.uidaho.edu', 'vivo.nkn.uidaho.edu', 'inside.uidaho.edu', 'libguides.uidaho.edu', 'digital.lib.uidaho.edu', 'poetry.lib.uidaho.edu', 'journals.lib.uidaho.edu']
     }
   });
-  /* load legacy tracker */
-  /* gtag('config', 'UA-207648-1'); */
-</script>-->
-{% endif %}
+</script>
