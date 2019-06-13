@@ -369,7 +369,7 @@ services:
       - name: Home
         url: /open/
       - name: Open Education Resources
-        url: https://open.lib.uidaho.edu/
+        url: https://libguides.uidaho.edu/THINKOPEN
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
