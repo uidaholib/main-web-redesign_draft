@@ -11,5 +11,8 @@
 <link rel="stylesheet" href="{{ '/assets/fontawesome/css/fontawesome-all.min.css' | relative_url }}" >
 {% if page.table-id %}<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css">
+{% if page.section == "home" %}<style>
+#featuredResearcher { max-width: 16rem; }
+</style>{% endif %}
 
 <!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
