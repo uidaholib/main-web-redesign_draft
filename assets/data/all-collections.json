@@ -1,0 +1,7 @@
+---
+# generate json for all-collections nav for Digital
+---
+{%- assign collections = site.data.digital_all_collections -%}
+{ "collections" : [
+{%- for c in collections -%}[ {{ c.colltitle | jsonify }}, {{ c.website | jsonify }} ]{% unless forloop.last %}, {% endunless %}{% endfor %}
+] }
