@@ -1,0 +1,18 @@
+/* Style sheet  June 2000; Revised June 2001; 11-01; 2-04; 3-05; 3-07; 1-08 ta */
+
+BODY {color:#000033;background: #ffffcc; } 
+P {margin-left:5%;margin-right:.5%;color:#000033;background:  #ffffcc; font-weight:bold }
+P.INDENT {margin-top:12.0pt;margin-right:.5in;margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;line-height:normal;}
+
+H1 {font-size:150%;font-family:Arial;font-weight:Bold;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em; } 
+H2 {font-size:125%;font-family:Arial;font-weight:Bold;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em; } 
+H3 {font-size:100%;font-family:Arial;font-weight:Bold;font-style:Italic;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em;text-transform:uppercase;} 
+H4 {font-size:100%;font-family:Arial;font-weight:Bold;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em; } 
+H5 {font-size:100%;font-family:Arial;font-style:Italic;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em} 
+H6 {font-size:100%;font-family:Arial;color:#990000;background: #ffffcc;  margin-top:1em;margin-bottom:0em} 
+
+HR {color:#990000;background: #FFFFFF;  width:100%;height: 15px;}
+A:LINK{text-decoration:underline; color:#660000;background: #ffff99; }
+A:ACTIVE{color:red;background: #FFFFFF; }
+A:VISITED{text-decoration:none;color:#996600;background: #ffff99; }
+ADDRESS {font-size:75%;font-family:Arial;}

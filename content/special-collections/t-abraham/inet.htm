@@ -1,0 +1,359 @@
+---
+title: inet.htm
+# layout: none
+section: special collections
+permalink: /special-collections/t-abraham/inet.htm
+---
+<!doctype html public "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/css">
+   <meta name="Revision-Date" content="June 12, 2000">
+   <link rel="STYLESHEET" type="text/css" href="ta_st.css">
+
+<title>INTERNET: On (Line) the Road Again</title>
+
+<meta name="AUTHOR" content="TA">
+<meta name="COPYRIGHT" content="Copyright 1995 Terry Abraham">
+</head>
+
+<body>
+
+<h1>INTERNET: On (Line) the Road Again</a>
+</h1>
+
+<p>
+Terry Abraham
+<p>
+April 16, 1990<hr>
+
+<p>
+<i>Note: A rapidly changing environment made this piece obsolete
+in short order. It is offered here merely as a historical curiousity.</i>
+
+<h2>What is the Internet?</h2>
+
+<p>
+The INTERNET is a loosely affiliated network of computer systems
+which include military and commercial research centers and academic
+computer centers; such as are home to big mainframe computers,
+including super-computers. As such, the INTERNET functions something
+like the interstate highway system. As a network, it permits users
+to log on to remote systems across the country. Telecommunications
+and computer technology have established a national and international
+system that empowers all users on the network by providing a thoroughfare
+to remote sites.
+<p>
+For librarians, especially academic librarians with access to
+the campus computer system, the nearly forty academic library
+catalogs available become a major resource for reference, cataloging,
+and collection development. In addition, many libraries provide
+additional local databases which are useful to others.
+<p>
+The first question you might ask is, given the rising costs of
+long-distance telephone service, how much are these cross-country
+connections going to cost. As it turns out, the cost of the long-distance
+connection is zero; the cost is picked up in the overhead (and
+grants) of the respective computer centers. And, since the long-distance
+connection itself uses relatively few local cpu's (computer processing
+units, which are billed at thousands of dollars per hour) the
+total cost is probably less than a buck. And the network itself
+functions to increase cooperation by not billing the remote user
+for access. Accordingly, it is frequently cheaper to check the
+catalog at Berkeley than the dial-up port of the local university
+catalog. In this respect, libraries have not yet attained the
+higher consciousness evidenced by the computer centers in that
+many (billed hard dollars by the computing centers) pass on those
+charges to users. In addition, some special services, such as
+CARL's Uncover, are only available by subscription and the payment
+of licensing fees.
+<h2>Access</h2>
+
+<p>
+Access to the INTERNET is through the institutional mainframe
+(with an INTERNET portal) which usually requires a USER-ID, PASSWORD,
+and ACCOUNT NUMBER. Many universities subsidize student and faculty
+use of the computer by billing against allocations (although considered
+computer funny-money it is essential for allocating cpu resources)
+which makes the cost to the individual user, again, zero.
+<p>
+Once equipped with an ID and PASSWORD and having learned the basics
+of signing on and getting accustomed to extremely awkward user
+interface (at least for those familiar with PC software), the
+first step is to open up the link to the network. One version
+of this command is TCPLNK which probably means something like
+Transfer Command Protocol LiNK.
+<p>
+Next, issue the TELNET command to address the specific remote
+host. The form is TELNET &lt;ADDRESS&gt; where &lt;ADDRESS&gt;
+is one of two forms: the domain name or the ip address. The domain
+name is in the form MELVYL.UCOP.EDU while the ip address is more
+like a zip code: 31.1.0.11 (both examples are for the University
+of California's on-line catalog). Some systems require the &lt;ADDRESS&gt;
+be in the domain form while others need the ip address. The WHOIS
+command (as in WHOIS MELVYL.UCOP.EDU or WHOIS 31.1.0.11) should
+provide the alternate form, although this did not work for me.
+<p>
+This logs you on to a foreign computer which can be accessed just
+as if it was in your own neighborhood; at least if you've managed
+to match your hardware and software with their expectations. Clifford
+Lynch in a recent article on designing library catalogs for INTERNET
+access provided a glimpse of some of the problems that can arise.
+<p>
+First among these is hardware. The variety of hardware devices
+used to access computer systems is quite large in part because
+each technological advance must be evaluated for its effect on
+the existing user base. In the 1950's the television industry
+was considering whether to adopt color technology that was consistent
+with black and white (and thus could be viewed on a black and
+white set) or to change to a technically superior system that
+would disenfranchise all b&amp;w sets or require broadcasters
+to set up two transmitters. The choice was made to maintain backward
+compatibility over better resolution.
+<p>
+The console interface to a mainframe computer has the same problem.
+Some users are still using twenty-year old teleprinters to make
+their connections while others have upgraded to the newest, multi-key,
+super-resolution display technology. Some are using hard-wired
+terminals perfectly matched to the host computer and others are
+dialing in with a PC and generic communications software. As a
+result, it is not a given that your connection with the remote
+computer will appear on your screen with any kind of legibility
+or that you will be able to respond to its prompts.
+<p>
+Some of this is the result of variations in software, particularly
+if you are using one or another form of terminal emulation. A
+hardwired terminal offers the most security in matching terminals
+to systems. Even this is no guarantee if the remote system does
+not support the terminal you are using. Those dialing in from
+a PC with communications software are caught in an even stranger
+circumstance. Not only is the terminal display software dependent,
+the PC keyboard is usually remapped to a specific emulation. If
+prompted to hit the PF-7 key, you must know that in your emulation
+this means to hit ESC-7. Discovering these codes and changes can
+be something like asking for a restroom in Bulgaria equipped only
+with a French-English dictionary.
+<p>
+There are two standard software emulations provided in communications
+programs: ASCII and VT100. ASCII is primarily used for PC-based
+BBS calling at 8-N-1 (8 data bits, no parity, 1 stop bit) while
+VT100 is more common calling mainframes which usually are set
+at 7-E-1 (7 data bits, even parity, 1 stop bit). VT100 is based
+on a Digital Equipment Corporation standard hardwired terminal.
+<p>
+In the common VT100 emulation in PC communication software Procomm
+2.4.2, the terminal function keys (PF1-PF12) have been remapped
+to &lt;ESC 1&gt;-&lt;ESC =&gt; or the top twelve keys. F1 and
+F2, however, work just like &lt;ESC 1&gt; and &lt;ESC 2&gt;. The
+VT100 key command CLEAR is issued as &lt;SHFT F8&gt; but can also
+be replicated in some modes by &lt;ESC .&gt;. This is particularly
+useful when you see the HOLDING message at the bottom right of
+the screen. ENTER, a common mainframe command, is not the keyboard
+Enter or Carriage Return key (at least not always) but &lt;SHFT
+F10&gt; or &lt;ESC O M&gt; (the letter O and not zero). PF4 is
+sometimes used as part of a logoff sequence (such as at Texas
+A&amp;M) and must be entered as &lt;ESC O S&gt;. Little of this
+makes any intuitive sense and much of it is not clearly documented.
+It is also useful to log each session to disk (&lt;ALT-F1&gt;
+in Procomm) for later review.
+<p>
+Another problem with the hardware/software combination is the
+screen display. Aside from garbage characters (&quot;happy faces
+from hell,&quot; according to one wag) I have encountered invisible
+menus (BOOTES.UNM.EDU) as well as the more common screen length
+anomaly. Procomm, as do many communication software programs,
+reserves the bottom screen line for a status display. Many systems
+send 23 of 24 lines, prompt for response, clear screen and print
+one more line, then wait for another response. After twelve screens,
+there is no relationship between what the designer imagined you
+would see and what is visible on the screen. At its best this
+is merely an annoyance; at its worst it becomes impossible to
+coordinate responses with prompts.
+<p>
+Usually a call to the local university mainframe starts with a
+request for terminal type to which the response is almost automatically
+VT100. Using the INTERNET gateway to call another mainframe results
+in another request that you specify terminal type. Entering VT100
+at this point may not be the best choice because of the nature
+of the transmission of signals through the TELNET structure. I
+don't know why this is so, but it is. Some remote systems (and
+probably your local system as well) will list allowable terminal
+types if you enter a &quot;?&quot; or &quot;HELP&quot; at the
+prompt. The choices can range from VT100 to TYPETERM to UNKNOWN
+to TINCAN. Unfortunately, there is no easy way to change it after
+the session has started; although you might try the command SET
+TERMTYPE UNKNOWN. Experimenting to find the best one is frequently
+a matter of signing on, checking how it works, signing off, signing
+on under another form, and so on. Part of the difficulty is that
+different systems have different ground rules for terminal types.
+For example, one system offers a VT100 option as locally modified.
+Accordingly, its responses can be unexpected. Others seem to offer
+no alternative save a perfect match. The University of Oregon's
+JANUS catalog requires users to be either VT100, WYSE or TVI925
+terminals. None of these correspond to Procomm's VT100 emulation.
+<p>
+Connections made through a PC modem using VT100 emulation will
+often find a surprising amount of strange symbols (probably escape
+codes for the visual display) cluttering up the screen if VT100
+is chosen on the remote. In these cases, it is best to choose
+the lowest common denominator terminal mode if possible. Promising
+choices include UNKNOWN, TTY, HARDCOPY, TYPETERM, and sometimes
+IBMPC.
+<p>
+Some of this depends on whether the connection through the INTERNET
+is made in Line Mode or Transparent Mode. Line Mode appears to
+be more common but a few systems connect at Transparent Mode.
+The latter apparently use TN327x terminals which have (as near
+as I can tell) lots of specially marked keys not available on
+your PC. The different modes change the nature of the display.
+They also change TELNET commands which are especially important
+in logging off and exiting the remote system. Some systems, Michigan
+State University, for example, offer two addresses; one for line
+mode and one for transparent mode.
+<h2>Logged On</h2>
+
+<p>
+Once logged on the remote system, it should be a matter of just
+following the prompts, if any. However, the connection might be
+directly to the library catalog or to some sub-computer at the
+university. If it is the first, there are usually helpful screens,
+menus, and clear prompts as most are designed to accommodate undergraduate
+users. However, if it is the latter, it might be necessary to
+wade through a jungle of confusion to reach the relative oasis
+of the library catalog. For instance, the University of Kansas
+sequence is as follows:
+<p>
+At &quot;Username:&quot; enter &quot;RELAY&quot; &lt;CR&gt;
+<p>
+At &quot;System?&quot; enter &quot;OCAT&quot; &lt;CR&gt;
+<p>
+At &quot;Terminal Type?&quot; enter &quot;?&quot; for a list of
+acceptable types.
+<p>
+At &quot;Enter transaction&quot; enter &quot;OCAT&quot; &lt;CR&gt;
+<p>
+Just as it is necessary to step through (or log on to) successive
+layers of the system, it is also important to back out through
+each layer in logging off.
+<p>
+This is not always easy. Logging off of any remote system sometimes
+seems impossible. Although a few systems provide an initial instruction
+or list of commands, some offer you an exit choice at every command.
+Some, however, expect you to not only know how to disconnect but
+when. One system provides an exit code to be issued at its standard
+prompt:_
+<p>
+At &quot;---&gt;&quot; enter &quot;EXIT&quot;
+<p>
+The response is &quot;Thank you for using our system.&quot;
+<p>
+And if you enter EXIT again it will thank you again. You've exited
+but still don't know where in the system you are.
+<p>
+Among the possible exit commands are:
+<p>
+EXIT BYE X QUIT
+<p>
+END STop ESC, ####
+<p>
+% LOGOFF UNDIAL QUIT
+<p>
+Even for vendor supplied systems logoff commands are not necessarily
+the same. If you are searching a NOTIS system, for instance, the
+LOGOFF varies:
+<p>
+QUIT or EXIT DELCAT, University of Delaware
+<p>
+LOGOFF LUIS, Florida State University Systems
+<p>
+&lt;CTRL E&gt;%QUIT MIRLYN, University of Michigan
+<p>
+OFF ELIXIR, SUNY Binghamton
+<p>
+&lt;CTRL Z&gt; Texas A&amp;M Library
+<p>
+&lt;KEYPAD ENTER, PF4&gt; LUIS, University Texas Arlington
+<p>
+% LUIS, Northwestern University Library
+<p>
+In each case, however, this may only exit the library module and
+not the INTERNET connection. Minnesota's NOTIS system, according
+to Art St. George's &quot;Internet-accessible Library Catalogs
+&amp; Databases &quot;...is considered by some to be relatively
+difficult to use, involving complex logoff escape sequences, for
+example. Be prepared to break the connection from your end, or
+just hang up, if necessary.&quot;
+<p>
+Hanging up the remote is more complicated than just disconnecting
+the call. Those systems that have no specific logoff command require
+that you terminate the TELNET connection. This could be relatively
+simple. A TELNET command line can be summoned in line mode by
+hitting a function key other than PF1, PF2 or PF3. A &quot;?&quot;
+will bring up a menu of choices; one of which is &quot;QUIT.&quot;
+Therefore, in some systems, exiting is through a TELNET disconnect:
+PF4, for instance, then QUIT.
+<h2>Additional Resources</h2>
+
+<p>
+While access to multiple library catalogs is a tremendous benefit,
+there are additional advantages to the INTERNET. There are, of
+course, a variety of library-created databases and tools that
+have been established on local systems, although many are restricted
+to local IDs. While Dartmouth and CARL provide access to Grolier's
+encyclopedia, these are not available to remote users. On the
+other hand, Rensselaer offers an index to architectural slides
+and IEEE articles. Carnegie Mellon includes local bibliographies
+and indexes to architectural pictures, ICPSR data tapes, and has
+proposed an index to artificial intelligence literature. Brown
+University's Josiah offers expanded local indexes to its Special
+Collections.
+<p>
+Some of the databases available on the INTERNET are not library
+developed but are useful for special interests. These include
+the Latin America and legal databases at the University of New
+Mexico (connect with BOOTES.UNM.EDU and not LIBROS.UNM.EDU) and
+the agricultural and extension information available from the
+Pennsylvania Cooperative Extension. In addition, both Penn State
+University and the University of Maryland offer informational
+services about academic programs and activities at their campuses
+through an on-line system that can be called through the INTERNET.
+<p>
+Once adept at roaming the INTERNET, it is easy to branch out into
+additional byways of the national electronic system. BITNET is
+primarily an electronic mail service for communications. However,
+it has the capability to send the same message to thousands of
+users. As a result, on-line magazines and forums have been established.
+Of particular interest to librarians are the Public Access Computer
+Systems Forum, chaired by Charles W. Bailey, and the Newsletter
+on Serials Pricing Issues, edited by Marcia Tuttle. There is also
+a wide range of &quot;magazines,&quot; &quot;newsletters,&quot;
+and &quot;informational exchanges&quot; available electronically.
+<p>
+As useful as this broad range of tools might be, the barriers
+to access are clearly quite high. Many mainframe users will find
+the conventions and commands described here commonplace and can
+be almost eloquent about which operating system requires which
+obscure command. Many librarians will find all this daunting but
+will persevere because of the obvious benefits. Others, students
+and faculty, will not persist and will give up at the first blank
+screen or unintelligible prompt.
+<p>
+As our bibliographic tools become larger, more elaborate, more
+sophisticated, and more unfriendly, we will continue to distance
+the user from the information. The librarian must continue to
+mediate the search for knowledge. However, it should be remembered
+that most library users never fully mastered the card catalog
+either. <hr>
+
+<p>Return to <a href="ta.papers.htm">Selected Papers and
+Presentations</a></p>
+<address>
+inet.htm / August 2, 1995 / <a href="mailto:tabraham@uidaho.edu">tabraham@uidaho.edu</a>
+
+</address>
+
+</body>
+
+</html>
