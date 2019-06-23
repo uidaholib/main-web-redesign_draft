@@ -378,7 +378,7 @@
         }, this.s.backdropDuration);
 
         if (this.s.download) {
-            this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" download class="lg-download lg-icon"></a>');
+            this.$outer.find('.lg-toolbar').append('<a id="lg-download" target="_blank" rel="noopener" download class="lg-download lg-icon"></a>');
         }
 
         // Store the current scroll top value to scroll back after closing the gallery..
@@ -3307,10 +3307,10 @@
         var _this = this;
         var shareHtml = '<span id="lg-share" class="lg-icon">' +
             '<ul class="lg-dropdown" style="position: absolute;">';
-        shareHtml += _this.core.s.facebook ? '<li><a id="lg-share-facebook" target="_blank"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.facebookDropdownText + '</span></a></li>' : '';
-        shareHtml += _this.core.s.twitter ? '<li><a id="lg-share-twitter" target="_blank"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.twitterDropdownText + '</span></a></li>' : '';
-        shareHtml += _this.core.s.googlePlus ? '<li><a id="lg-share-googleplus" target="_blank"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.googlePlusDropdownText + '</span></a></li>' : '';
-        shareHtml += _this.core.s.pinterest ? '<li><a id="lg-share-pinterest" target="_blank"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.pinterestDropdownText + '</span></a></li>' : '';
+        shareHtml += _this.core.s.facebook ? '<li><a id="lg-share-facebook" target="_blank" rel="noopener"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.facebookDropdownText + '</span></a></li>' : '';
+        shareHtml += _this.core.s.twitter ? '<li><a id="lg-share-twitter" target="_blank" rel="noopener"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.twitterDropdownText + '</span></a></li>' : '';
+        shareHtml += _this.core.s.googlePlus ? '<li><a id="lg-share-googleplus" target="_blank" rel="noopener"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.googlePlusDropdownText + '</span></a></li>' : '';
+        shareHtml += _this.core.s.pinterest ? '<li><a id="lg-share-pinterest" target="_blank" rel="noopener"><span class="lg-icon"></span><span class="lg-dropdown-text">' + this.core.s.pinterestDropdownText + '</span></a></li>' : '';
         shareHtml += '</ul></span>';
 
         this.core.$outer.find('.lg-toolbar').append(shareHtml);

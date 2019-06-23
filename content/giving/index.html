@@ -45,12 +45,12 @@ layout: page
 
     {% for issue in site.data.tower_news_embed limit: 4 %}
     <div data-configid="{{ issue.issuu_embed_id }}" style="width:180px; height:233px;" class="issuuembed"></div>
-    <p class="text-center"><a href="http://www.lib.uidaho.edu/pdf/towers/{{ issue.filename }}" target="_blank">{{ issue.name }}</a> </p>
+    <p class="text-center"><a href="http://www.lib.uidaho.edu/pdf/towers/{{ issue.filename }}" target="_blank" rel="noopener">{{ issue.name }}</a> </p>
     {% endfor %}
 
     <hr>
 
-    <p class="text-center"><a href="https://issuu.com/uidahodigital/stacks/3c5a1ebf6ec14effa911049a81889b65" target="_blank">View Older Towers Newsletters</a> </p>
+    <p class="text-center"><a href="https://issuu.com/uidahodigital/stacks/3c5a1ebf6ec14effa911049a81889b65" target="_blank" rel="noopener">View Older Towers Newsletters</a> </p>
 
     <p class="text-center"><a href="mailto:librdean@uidaho.edu?subject=Subscription%20to%20Towers">Sign me up to receive <em>Towers</em></a>, the library's quarterly newsletter. </p>
 

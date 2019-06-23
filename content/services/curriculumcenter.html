@@ -14,7 +14,7 @@ layout: page
 
 <!--Search form built for Rick for Libguide -- left here in case want to move it to web page
 <div style="height:35px;" id="searchbox_outline">
-<form onsubmit="searchPrimo()" style="width: 100%; float: left; font-size:20px;" class="EXLSearchForm" target="_blank" id="searchForm" name="searchForm" method="get" action="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?">
+<form onsubmit="searchPrimo()" style="width: 100%; float: left; font-size:20px;" class="EXLSearchForm" target="_blank" rel="noopener" id="searchForm" name="searchForm" method="get" action="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?">
 
 	 	 <select style="display:none" name="scp.scps" type="hidden" id="scope_value">
 <option class="EXLSelectOption EXLSearchInputScopesOptioneverything" value="UID_IMTC" id="UID_IMTC">IMTC</option>
@@ -72,7 +72,7 @@ layout: page
 </script>
 <div class="card my-2">
       <div class="card-body">
-    <form name="searchForm" method="get" target="_blank" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search"
+    <form name="searchForm" method="get" target="_blank" rel="noopener" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search"
       class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
       <input type="hidden" name="institution" value="UID">
 	<input type="hidden" name="vid" value="IMTC">		 
@@ -103,7 +103,7 @@ layout: page
 	
 
 		   <div class="text-center">
-		 <a href="http://libguides.uidaho.edu/c.php?g=363138&p=2453786" class="btn btn-clearwater btn-md my-2" role="button" target="_blank">Curriculum Center Guide </a></div>
+		 <a href="http://libguides.uidaho.edu/c.php?g=363138&p=2453786" class="btn btn-clearwater btn-md my-2" target="_blank" rel="noopener">Curriculum Center Guide </a></div>
 
 		</div>
 	<div class="card-body">  
