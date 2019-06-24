@@ -27,8 +27,8 @@ layout: page
 {% endfor %}
 
 <div class="text-center align-content-center mt-4">
-    <a href="eligibility.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-list"></span> Eligibility</a>
-    <a href="apply.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-check"></span> Apply</a>
-    <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-user"></span> Contact</a> 
+    <a href="eligibility.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-list"></span> Eligibility</a>
+    <a href="apply.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-check"></span> Apply</a>
+    <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a> 
 </div>
 <br>
