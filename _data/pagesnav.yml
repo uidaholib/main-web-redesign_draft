@@ -293,7 +293,9 @@ MILL:
   - parent: MILL
     stub: /mill/
   - subsection: The MILL Home
-    link: /mill/    
+    link: /mill/
+  - subsection: About the MILL
+    link: /mill/about.html 
   - subsection: Tools & Tech
     link: /mill/tools.html
   - subsection: Newsletter
