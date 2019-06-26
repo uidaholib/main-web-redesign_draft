@@ -1,5 +1,14 @@
 # Analytics 
 
+You MUST use an environment variable on build command to include analytics!
+Paste this command into Git Bash or Terminal: 
+
+`JEKYLL_ENV=production jekyll build`
+
+By default, Jekyll is in the development ENV, and analytics will not be added.
+
+## Set up
+
 We use google analytics, using the newest implementation gtag.
 The same code snippet can be used on any library web page. 
 Looks like:
