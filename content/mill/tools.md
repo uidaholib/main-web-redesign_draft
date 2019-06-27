@@ -17,7 +17,7 @@ We have a number of different tools available for use by students, faculty, and 
             {{ t.name }}
         </div>
         <div class="card-body">
-            <img class="img-fluid mb-3" src="{{ t.image }}">
+            <div class="text-center"><img class="img-fluid mb-3" src="{{ t.image | prepend: '/media/mill/' | prepend: site.liburl }}"></div>
             <p class="card-text">{{ t.description }}</p>
             {% if t.link %}<a href="{{ t.link }}" class="btn btn-primary">{{ t.link_text }}</a>{% endif %}
         </div>

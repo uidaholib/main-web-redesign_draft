@@ -12,11 +12,11 @@ In developing and supporting these skills, the MILL ensures that the University 
 ## People
 
 {% assign people = site.data.mill_people %}
-<div class="row mb-2">{% for p in people %}
-<div class="col-md-4">
+<div class="row justify-content-center mb-2">{% for p in people %}
+<div class="col-9 col-md-4">
     <div class="card mb-3">
         <div class="card-body text-center">
-            <img class="img-fluid rounded mb-2" src="{{ p.img | prepend: '/media/mill/' | relative_url }}" alt="headshot of {{ p.name }}">
+            <img class="img-fluid rounded mb-2" src="{{ p.img | prepend: '/media/mill/' | prepend: site.liburl }}" alt="headshot of {{ p.name }}">
             <h5 class="card-title">{{ p.name }}</h5>
             <h6 class="card-subtitle text-muted">{{ p.title }}</h6>
         </div>
