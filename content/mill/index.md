@@ -5,7 +5,7 @@ permalink: /mill/
 layout: page
 ---
 
-<img src="https://mill.lib.uidaho.edu/wp-content/uploads/2016/08/technology-computer-chips-gigabyte-2.jpg" class="img-fluid rounded">
+<img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/media/mill/' | prepend: site.liburl }}" class="img-fluid rounded">
 
 <div class="alert alert-primary text-center" role="alert">
 <h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Summer Hours: Mon - Fri 9:00am - 5:00pm</h4>
