@@ -47,14 +47,7 @@ permalink: /find/
 <hr>
 
 <h3>Resource Descriptions</h3>
-{%- assign resources = site.data.find_index -%} 
-<style>
-  /* temp inline to avoid css caching issues */
-  .card-button:hover { text-decoration: none; }
-  .card-button .card:hover { background: #f2f2f2; }
-  .card-button h5:hover { text-decoration: underline; }
-  .card-button p { font-weight: 400; }
-</style>
+{%- assign resources = site.data.find_index -%}
 <div class="row">
 {% for r in resources %}
   <div class="col-md-6">
