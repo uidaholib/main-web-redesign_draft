@@ -30,4 +30,4 @@ sass:
 # add liquid profiler to id bottlenecks
 # profile: true
 
-exclude: [old, lib-apps]
+exclude: [old, lib-apps, 'Rakefile']
