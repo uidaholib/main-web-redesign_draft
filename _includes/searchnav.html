@@ -6,14 +6,26 @@
         }
     </script>
     <div class="container">
-        <form class="form-inline row justify-content-end" role="search" onsubmit="primo_search(); return false;">
-            
-            <input id="primo-search" class="form-control form-control-lg col-md-6 col-sm-10 col-10 p-2 mr-md-2" type="search" placeholder="Search the catalog ..." aria-label="Search">
-            <button class="btn btn-lg my-2 my-sm-1 col-md-1 col-2 p-2 btn-pride-gold" type="submit">Go</button>
-            <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
-
+        
             <div class="col-12 pt-1">
                 <div class="d-none d-md-block">
+                        <ul class="nav justify-content-end">
+                                <li class="nav-item ">
+                                        <a class="nav-link py-1" href="{{ '/find/' | relative_url }}">Start Here:</a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-1" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph">Academic Search Premier</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-1" href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link py-1" href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Google Scholar</a>
+                                    </li>
+                                <li class="nav-item">
+                                        <a class="nav-link py-1 pr-0" href="#" data-toggle="modal" data-target="#databases" >Databases A-Z</a>
+                                </li>
+                            </ul>
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link py-1" href="{{ '/find/' | relative_url }}">Find:</a>
@@ -37,20 +49,17 @@
                             <a class="nav-link py-1 pr-0" href="{{ '/services/ill/' | relative_url }}" >ILL</a>
                         </li>
                     </ul>
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link py-1" href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph">Academic Search Premier</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1" href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 pr-0" href="#" data-toggle="modal" data-target="#databases" >Databases A-Z</a>
-                        </li>
-                    </ul>
+                 
                 </div>
 
                 <div class="d-md-none">
+                        <form class="form-inline row justify-content-end" role="search" onsubmit="primo_search(); return false;">
+            
+                                <input id="primo-search" class="form-control form-control-lg col-md-9 col-sm-10 col-10 p-2 mr-md-2" type="search" placeholder="Search the catalog ..." aria-label="Search">
+                                <button class="btn btn-lg  p-2 btn-pride-gold" type="submit">Go </button>
+                                <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
+                    </form>
+                
                     <a class="btn btn-secondary dropdown-toggle text-white flex my-2" id="dropdownResearchToolsLink" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">More Research Tools</a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownResearchToolsLink">
@@ -71,6 +80,6 @@
 
             </div>
 
-        </form>
+        
     </div>
 </div>
