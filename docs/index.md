@@ -1,5 +1,7 @@
 # Notes
 
+To build with Analytics use `rake deploy`!
+
 we need to start doc-ing how this works!
 
 # data

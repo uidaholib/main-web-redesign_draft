@@ -30,4 +30,9 @@ sass:
 # add liquid profiler to id bottlenecks
 # profile: true
 
-exclude: [old, lib-apps, 'Rakefile']
+# Build data tables
+histphoto-build: false
+idahobib-build: false
+all-collections: false
+
+exclude: [old, lib-apps, 'Rakefile', docs]
