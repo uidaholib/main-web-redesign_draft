@@ -20,16 +20,22 @@ Or join us for weekly [workshops]({{ '/services/workshops/' | relative_url }})!
 
 Want to learn more? Get in touch with us by stopping by or <a href="mailto:khenrich@uidaho.edu">sending us a message</a>. The MILL is an evolving space, and we’d love to hear from you – please use [our suggestion box](https://uidaho.co1.qualtrics.com/SE/?SID=SV_eJxEYnCmi9c5W2p) to send any requests!
 
-<div class="row justify-content-center mb-3">
-    <div class="col-md-6">
-        <div class="card">
-            <div class="card-body text-center">
-                <p class="card-text">For an appointment or more
-information:</p>
-                <p class="card-text">Courtney Pace<br>
-                <a href="mailto:cpace@uidaho.edu">cpace@uidaho.edu</a><br>
-                208-885-0992</p>
+<div class="card-group">
+    <div class="card">
+        <div class="card-body text-center">
+            <p class="card-text">Find us on social media:</p>
+            <div class="text-center display-4">
+                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank"><span class="fab fa-facebook payette-blue"></span><span class="sr-only">Facebook </span></a>
+                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank"><span class="fab fa-instagram ponderosa-pine"></span><span class="sr-only">Instagram </span></a>
             </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body text-center">
+            <p class="card-text">For an appointment or more information:</p>
+            <p class="card-text">Courtney Pace<br>
+            <a href="mailto:cpace@uidaho.edu">cpace@uidaho.edu</a><br>
+            208-885-0992</p>
         </div>
     </div>
 </div>
