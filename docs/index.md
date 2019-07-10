@@ -52,3 +52,12 @@ For example, `<a class="btn btn-primary" href="https://example.com">Link</a>`.
 If `<a>` tags are used to trigger interactivity on the page, for example opening a modal, then they SHOULD have `role="button"` for accessibility purposes. 
 For example, `<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Link</a>`.
 In these cases it might make more sense to replace the `<a>` with a `<button>` element.
+
+# Lazy load
+
+To lazyload images on a page, add `lazyload: true` to yml front matter. 
+This will add `lazysizes.min.js` to the foot ([lazysizes docs](https://github.com/aFarkas/lazysizes). 
+
+For images that should be lazy loaded, add `class="lazyload"` and replace "src" with `data-src`.
+
+It is a good idea to add lazyload to modal images and other large images that start off screen, since this will greatly speed up page load.
