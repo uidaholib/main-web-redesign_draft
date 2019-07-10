@@ -6,7 +6,7 @@ permalink: /services/oapf/funded.html
 table-id: "#funded"
 ---
 
-{% assign years = site.data.oapf-funded %}
+{% assign articles = site.data.oapf_funded %}
 
 <p class="pt-3">Search and sort the table below to find articles funded by the UI Open Access Publishing Fund.</p>
 
@@ -32,7 +32,7 @@ table-id: "#funded"
         </tr>
      </tfoot>
      <tbody>
-     {% for y in years %}
+     {% for y in articles %}
      <tr>
          <td class="fiscal year">{{ y.fiscalyear }}</td>
          <td class="name">{{ y.applicantlastname }}, {{ y.applicantfirstname }}</td>

@@ -33,7 +33,7 @@ table-id: "#tapapers"
                 <th>Year</th>
             </thead>
             <tbody>
-            {% for paper in site.data.tabraham-files %}
+            {% for paper in site.data.spec_tabraham-files %}
             <tr>
                 <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | relative_url }}" target="_blank" rel="noopener">{{ paper.title }}</a></td>
                 <td>{{ paper.year }}</td>

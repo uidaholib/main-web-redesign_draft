@@ -5,12 +5,12 @@ permalink: /services/oapf/faq.html
 layout: page
 ---
 
-{% assign cats = site.data.UI-OAPF_FAQ | map: "category" | uniq %}
+{% assign cats = site.data.oapf_faq | map: "category" | uniq %}
 {% for c in cats %}
 
 ### {{ c }}
 
-{% assign section = site.data.UI-OAPF_FAQ | where: "category", c %}
+{% assign section = site.data.oapf_faq | where: "category", c %}
 {% assign id = forloop.index %}
 {% for q in section %}
 <div class="card my-3">
