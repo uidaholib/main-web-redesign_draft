@@ -1,5 +1,7 @@
 # Notes
 
+To build with Analytics use `rake deploy`!
+
 we need to start doc-ing how this works!
 
 # data
@@ -35,3 +37,27 @@ First, jquery and bootstrap bundle are loaded, then any other sections based on 
 This ensures js is loaded in order and is optimized for page load.
 If you have a non-standard js that needs to be loaded for the page, use the front matter variable `custom-foot` and provide the filename like you would an include.
 The `foot.html` include will add an include in the foot section to the file.
+
+# Links
+
+For security and performance reasons all links with `target="_blank"` attribute should also have the attribute `rel="noopener"`.
+For example, `<a href="" target="_blank" rel="noopener">link</a>`
+
+See https://web.dev/external-anchors-use-rel-noopener/
+
+We use Bootstrap button classes to style many of our links. 
+If they are actual links, i.e. go to a different page or to an anchor on the page, they should NOT have the attribute `role="button"` since this can trigger odd rendering and unnecessary screen reader interactions. 
+For example, `<a class="btn btn-primary" href="https://example.com">Link</a>`.
+
+If `<a>` tags are used to trigger interactivity on the page, for example opening a modal, then they SHOULD have `role="button"` for accessibility purposes. 
+For example, `<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Link</a>`.
+In these cases it might make more sense to replace the `<a>` with a `<button>` element.
+
+# Lazy load
+
+To lazyload images on a page, add `lazyload: true` to yml front matter. 
+This will add `lazysizes.min.js` to the foot ([lazysizes docs](https://github.com/aFarkas/lazysizes). 
+
+For images that should be lazy loaded, add `class="lazyload"` and replace "src" with `data-src`.
+
+It is a good idea to add lazyload to modal images and other large images that start off screen, since this will greatly speed up page load.

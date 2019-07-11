@@ -3,6 +3,7 @@ title: My Library
 section: My Library
 permalink: /mylibrary/
 layout: page
+lazyload: true
 ---
 {% assign profiles = site.data.mylibrary_profiles %}
 
@@ -10,14 +11,6 @@ layout: page
 
 <p>The U of I Library is known mainly for books and studying but that perception is not the whole story. The library is a foundational powerhouse of information, ideas, tools, services, spaces, and more, available to <em>EVERY U of I student</em>. Browse our featured stories, <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9">share your story</a>, or <a href="#mylibrary-services">learn more below</a>.</p>
 
-<style>
-  /* temp inline to avoid css caching issues */
-  .card-button:hover { text-decoration: none; }
-  .card-button .card:hover { background: #f2f2f2; }
-  .card-button h5:hover { text-decoration: underline; }
-  .card-button p { font-weight: 400; }
-  .card-button { cursor: pointer; }
-</style>
 <div class="row">
     {% for p in profiles %}
     <div class="col-md-6">
@@ -38,7 +31,7 @@ layout: page
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
-                        <img src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
+                        <img data-src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid lazyload" alt="{{ p.name }} My Library Poster">
                         {% if p.text %}<blockquote class="blockquote"><p class="card-text mt-2 p-3">{{ p.text }}</p></blockquote>{% endif %}
                     </div><!--end modal-body-->
 

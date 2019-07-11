@@ -2,7 +2,8 @@
 <script src="{{ '/assets/js/jquery-3.4.1.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <!-- load other js -->
-<script src="{{ '/assets/js/hours.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/hours.js' | relative_url }}" async></script>
+{% if page.lazyload == true %}<script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async></script>{% endif %}
 {% if page.layout == "page" %}{% include js/page-sidebar.js %}{% endif %}
 {% if page.table-id %}{% include js/table-basic.js %}{% endif %}
 {% if page.section == "home" %}{% include js/home.js %}{% endif %}

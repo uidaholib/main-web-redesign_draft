@@ -4,7 +4,7 @@ layout: full-width-page
 section: Special Collections
 permalink: /special-collections/histphoto/index2.html
 custom-foot: "js/spec_histphoto.js"
-# the data necessary for this table is generated in histphoto_source repo
+# the data necessary for this table is generated only if site.histphoto-build is true
 ---
 
 <p>The Historical Photograph Database consists of a table of over 90,000 images held by Special Collections. <a href="{{ '/assets/data/histphoto_full.csv' | relative_url }}" class="btn btn-success m-3">Download Full CSV</a></p>
@@ -13,89 +13,9 @@ custom-foot: "js/spec_histphoto.js"
     <label for="collectionSelect">Photo Group:</label>
     <select id="collectionSelect" class="form-control">
         <option value="all" selected>All</option>
-        <option value="1">1: University of Idaho Campus</option>
-        <option value="2">2: U of I Student Organizations Collection</option>
-        <option value="3">3: U of I Portrait Collection</option>
-        <option value="4">4: U of I Organizations and/or Objects</option>
-        <option value="5">5: Idaho Cities and Towns</option>
-        <option value="6">6: Idaho</option>
-        <option value="7">7: Lee Moorehouse</option>
-        <option value="8">8: Barnard-Stockbridge Collection</option>
-        <option value="9">9: Postcard Collection</option>
-        <option value="10">10: Latah County Pioneer Association</option>
-        <option value="11">11: Roy A. Bell Collection</option>
-        <option value="12">12: John Miller 'Trees Grew Tall'</option>
-        <option value="13">13: A.B. Curtis Collection</option>
-        <option value="14">14: T.B. Keith Collection</option>
-        <option value="15">15: John Fahey 'Hercules' Collection</option>
-        <option value="16">16: R.V. Nixon Collection</option>
-        <option value="17">17: Priest Lake Museum Association</option>
-        <option value="18">18: John B. Wilson Studio Collection</option>
-        <option value="20">20: U of I Publications Dept. Negatives</option>
-        <option value="21">21: Civil Engineering</option>
-        <option value="24">24: U of I Theatre Arts</option>
-        <option value="25">25: Wallace Idaho Scenes</option>
-        <option value="26">26: William Allen Stonebraker Collection</option>
-        <option value="29">29: University of Idaho</option>
-        <option value="30">30: Lewis and Clark Trail</option>
-        <option value="31">31: University of Idaho Homecoming</option>
-        <option value="32">32: Constance Talbott/A.B. Hatch</option>
-        <option value="34">34: University of Idaho Library</option>
-        <option value="35">35: Idaho Scenes</option>
-        <option value="37">37: College of Agriculture</option>
-        <option value="38">38: Stephen Shawley Collection</option>
-        <option value="40">40: U of I Alumni Association</option>
-        <option value="60">60: Union Pacific Railroad Bridges</option>
-        <option value="62">62: Roy A. Bell Collection II</option>
-        <option value="64">64: Francis B. Laney Collection</option>
-        <option value="65">65: John B. Miller</option>
-        <option value="67">67: Moscow Idaho</option>
-        <option value="68">68: University of Idaho Slides</option>
-        <option value="70">70: Idaho Family Album</option>
-        <option value="71">71: Eaton Family Photograph Album</option>
-        <option value="72">72: Earl Elstone Collection</option>
-        <option value="73">73: University of Idaho</option>
-        <option value="74">74: William Henry Thomas</option>
-        <option value="75">75: Sandpoint Research and Extension Center</option>
-        <option value="78">78: Oren A. Fitzgerald Collection</option>
-        <option value="79">79: Paragon Mining Company Scrapbook</option>
-        <option value="80">80: Arthur C. Hope</option>
-        <option value="81">81: C.E. Jacoby</option>
-        <option value="82">82: UI/Theodore Roosevelt</option>
-        <option value="83">83: Tabor Drug Company</option>
-        <option value="89">89: Carleton Watkins Portfolio</option>
-        <option value="90">90: Clifford M. Ott Collection</option>
-        <option value="91">91: Ott-Hodgins Collection</option>
-        <option value="92">92: Hodgins Drug Store Collection</option>
-        <option value="93">93: University of Idaho Glass Negatives</option>
-        <option value="95">95: North Idaho Scenery Collection</option>
-        <option value="96">96: Hess/Barnard Collection</option>
-        <option value="97">97: Albert J. Ohlson Collection</option>
-        <option value="98">98: Bunker Hill Negatives</option>
-        <option value="99">99: Kyle Laughlin</option>
-        <option value="100">100: Nez Perce Photo Album</option>
-        <option value="101">101: Gem of the Mountains</option>
-        <option value="102">102: Wilfrid Waters</option>
-        <option value="103">103: Kooskia Internment Camp Scrapbook</option>
-        <option value="5129">5129: 'Light on the Mountains' Pageant</option>
-        <option value="5388">5388: Theophilus Boxing Collection</option>
-        <option value="5436">5436: Iorwerth 'Ace' Griffiths Collection</option>
-        <option value="6008">6008: George L. Shoup Papers</option>
-        <option value="6010">6010: William E. Borah Scrapbooks</option>
-        <option value="6018">6018: C.J. Brosnan Papers</option>
-        <option value="6036">6036: C.W. Clarke Papers</option>
-        <option value="6049">6049: Beacon for Mountain and Plain</option>
-        <option value="6069">6069: White Pine Papers</option>
-        <option value="6101">6101: Frank B. Robinson Papers</option>
-        <option value="6113">6113: Allen and Eleanor Morrill Papers</option>
-        <option value="6115">6115: Claude and Catherine Simpson Papers</option>
-        <option value="6119">6119: Robert Ewing Hosack Papers</option>
-        <option value="6122">6122: Glen Lockery Papers</option>
-        <option value="6135">6135: Potlatch Lumber Company</option>
-        <option value="6137">6137: North Idaho Children's Home</option>
-        <option value="6171">6171: Leslie E. Eddy Scrapbook</option>
-        <option value="6183">6183: Hal Riegger CPRR Collection</option>
-        <option value="6409">6409: B.F. Ellis Papers</option>
+        {%- assign options = site.data.spec_histphoto_dropdown -%}
+        {% for i in options %}<option value="{{ i.value }}">{{ i.text }}</option>
+        {% endfor %}
     </select>
 </div>
 

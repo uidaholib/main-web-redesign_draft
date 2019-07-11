@@ -3,7 +3,8 @@ title: Floor Maps
 section: About
 permalink: /about/maps.html
 layout: page
----				  
+lazyload: true
+---	
 <p><a href="/find/lc.html">Library of Congress Call Number Information</a></p>
 <div class="row justify-content-center">
 	
@@ -12,7 +13,7 @@ layout: page
 			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorOne">
 				<div class="card my-3" id="first">
 					<div class="card-header text-center">
-						<h3 class="text-center mb-0">First Floor</h3>
+						<h3 class="mb-0">First Floor</h3>
 					</div><!--end card-header-->
 					<div class="card-body">
 						<img src="{{ '/media/stackmaps/stackmap1_md.jpg' | prepend: site.liburl }}" class="img-fluid">
@@ -30,7 +31,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap1.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap1.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -44,7 +45,7 @@ layout: page
 			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorTwo">
 				<div class="card my-3" id="second">
 					<div class="card-header text-center">
-						<h3 class="text-center mb-0">Second Floor</h3>
+						<h3 class="mb-0">Second Floor</h3>
 					</div><!--end card-header-->
 					<div class="card-body">
 						<img src="{{ '/media/stackmaps/stackmap2_md.jpg' | prepend: site.liburl }}" class="img-fluid">
@@ -63,7 +64,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap2.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap2.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -77,7 +78,7 @@ layout: page
 			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorThree">
 				<div class="card my-3" id="third">
 					<div class="card-header text-center">
-						<h3 class="text-center mb-0">Third Floor</h3>
+						<h3 class="mb-0">Third Floor</h3>
 					</div><!--end card-header-->
 					<div class="card-body">
 						<img src="{{ '/media/stackmaps/stackmap3_md.jpg' | prepend: site.liburl }}" class="img-fluid">
@@ -96,7 +97,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap3.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap3.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -110,7 +111,7 @@ layout: page
 			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorFour">
 				<div class="card my-3" id="fourth">
 					<div class="card-header text-center">
-						<h3 class="text-center mb-0">Fourth Floor</h3>
+						<h3 class="mb-0">Fourth Floor</h3>
 					</div><!--end card-header-->
 					<div class="card-body">
 						<img src="{{ '/media/stackmaps/stackmap4_md.jpg' | prepend: site.liburl }}" class="img-fluid">
@@ -129,7 +130,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap4.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap4.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -139,6 +140,4 @@ layout: page
 	</div><!--end column-->
 
 </div><!--end row-->
-
-											
 											

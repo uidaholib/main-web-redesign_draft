@@ -1,6 +1,6 @@
 {% comment %} Use this include to add an alert to the home page, add it to index.html above "include searchnav.html" {% endcomment %}
 <div class="alert alert-{{ include.color | default: 'warning' }} alert-dismissible fade show mb-0 text-center" role="alert">
-  {{ include.text }}
+  <div class='container'>{{ include.text }}</div>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>

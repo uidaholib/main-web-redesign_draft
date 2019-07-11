@@ -5,12 +5,12 @@ permalink: /services/oapf/faq.html
 layout: page
 ---
 
-{% assign cats = site.data.UI-OAPF_FAQ | map: "category" | uniq %}
+{% assign cats = site.data.oapf_faq | map: "category" | uniq %}
 {% for c in cats %}
 
 ### {{ c }}
 
-{% assign section = site.data.UI-OAPF_FAQ | where: "category", c %}
+{% assign section = site.data.oapf_faq | where: "category", c %}
 {% assign id = forloop.index %}
 {% for q in section %}
 <div class="card my-3">
@@ -27,8 +27,8 @@ layout: page
 {% endfor %}
 
 <div class="text-center align-content-center mt-4">
-    <a href="eligibility.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-list"></span> Eligibility</a>
-    <a href="apply.html" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-check"></span> Apply</a>
-    <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2" role="button"><span class="fas fa-user"></span> Contact</a> 
+    <a href="eligibility.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-list"></span> Eligibility</a>
+    <a href="apply.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-check"></span> Apply</a>
+    <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a> 
 </div>
 <br>

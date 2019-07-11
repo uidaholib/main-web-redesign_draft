@@ -6,32 +6,41 @@ permalink: /special-collections/t-abraham/index.html
 table-id: "#tapapers"
 ---
 
-<div class="row">
-	<div class="col-md-12 hidden-xs">
-      <img class="img-fluid" src="https://www.lib.uidaho.edu/images/spec_crop2.jpg" alt="image title here">
-		</div>
-</div>
+<div class="row pt-4">	
 
-<div class="row pt-4">				
-	<div class="col">
+	<div class="col-md-7">
+        <p>The Terry Abraham Web Archive preserves the writing, scholarship, and resources of Terry Abraham that were originally published on University of Idaho's early websites. The original web pages can be browsed in the table below.</p>
+        <p>Terry Abraham served as the head of Special Collections &amp; Archives for over 20 years, retiring in 2005. His work continues to be important to the library and the people that work here. More on Abraham can be found on the <a href="https://www.northwestanthropology.com/terry-abraham/" target="_blank" rel="noopener">Northwest Anthropology website</a>.
+        <p><small>Please note, the archived pages are out of date and may not display as originally intended. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive Wayback Machine.</a></small></p>
+    </div>
 
-        <p>Preserving the writing, scholarship, and resources of Terry Abraham that were once hosted at:<br> http://www.uiweb.uidaho.edu/special-collections/         or         http://webpages.uidaho.edu/special-collections/</p>
+    <div class="col-md-5">
+        <div class="card">
+            <div class="card-body">
+                <p>The collection presents the static HTML as published in 1990's and 2000's, originally hosted at:</p> 
+                <ul>
+                    <li>http://www.uiweb.uidaho.edu/special-collections/</li>
+                    <li>http://webpages.uidaho.edu/special-collections/</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-        <p>Terry Abraham served as the head of Special Collections & Archives for over 20 years, retiring in 2005. His work continues to be important to the library and the librarains that work here. More on Abraham can be found on the <a href="https://www.northwestanthropology.com/terry-abraham/">Northwest Anthropology website<a/>.
-
+    <div class="col-12 mt-2">
         <table id="tapapers" class="table table-striped" data-order='[[1, "desc"]]'>
             <thead>
                 <th>Title</th>
                 <th>Year</th>
             </thead>
             <tbody>
-            {% for paper in site.data.tabraham-files %}
+            {% for paper in site.data.spec_tabraham-files %}
             <tr>
-                <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | absolute_url }}" target="_blank">{{ paper.title }}</a></td>
+                <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | relative_url }}" target="_blank" rel="noopener">{{ paper.title }}</a></td>
                 <td>{{ paper.year }}</td>
             </tr>
             {% endfor %}
             </tbody>
         </table>
     </div>
+    
 </div>

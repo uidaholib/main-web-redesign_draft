@@ -15,14 +15,18 @@ featured-image: "/media/carousel/libraryfall-featured.jpg"
 # url variables
 url: https://www.lib.uidaho.edu
 baseurl: 
-# dev urls for testweb
-# url: https://testweb.lib.uidaho.edu
-# baseurl: 
-# dev urls for gh-pages
-#url: https://uidaholib.github.io
-#baseurl: /main-web-redesign_draft
 
+# directory for all media assets
+lib-media: https://www.lib.uidaho.edu/media
+# main url, used to point at server even when on dev server
 liburl: https://www.lib.uidaho.edu
+
+# Build data tables
+# these tables significantly increase build time 
+# switch to true as necessary to generate the assets
+histphoto-build: false
+idahobib-build: false
+all-collections-build: false
 
 sass:
   style: compressed
@@ -30,4 +34,4 @@ sass:
 # add liquid profiler to id bottlenecks
 # profile: true
 
-exclude: [old, lib-apps]
+exclude: [old, lib-apps, 'Rakefile', docs]

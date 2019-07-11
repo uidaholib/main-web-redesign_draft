@@ -1,0 +1,68 @@
+---
+title: repos.css
+# layout: none
+section: special collections
+permalink: /special-collections/t-abraham/repos.css
+---
+/* repos.css Style sheet  January 2005; 4-8-05; 10-11-05; 12-28-06; ta */
+
+BODY {background-color:#ffffff; }
+P {margin-left:5%;color:#000000;background-color:#ffffff;font-family:Arial,sans-serif;}
+P.Footer { text-align:center; font-family:Arial,sans-serif;font-style:italic ;font-size:75%; margin:0;}
+
+H1 {font-size:150%;font-family:Arial,sans-serif;font-weight:Bold;color:#000000;background-color: silver; margin-top:1em;margin-bottom:0em; } 
+H2 {font-size:140%;font-family:Arial,sans-serif;font-weight:Bold;color:#000000;background-color: silver; margin-top:1em;margin-bottom:0em; } 
+H3 {font-size:125%;font-family:Arial,sans-serif;font-weight:Bold;color:#000000;background-color: silver; margin-top:1em;margin-bottom:0em; margin-left:1em;} 
+
+LI { font-size:100%;font-family:Arial,sans-serif;type:square;margin-left:3%;margin-top:1%;margin-bottom:1%;line-height:100%;}
+HR {align:center;noshade;width:95%;size: 5px;}
+
+A:LINK{text-decoration:none; color:blue;}
+A:ACTIVE{color:red;}
+A:VISITED{text-decoration:none;color:#990000; }
+A:HOVER {color:navy; background-color: white;}
+ADDRESS {font-size:75%;font-family:Arial,sans-serif;}
+
+#page_container
+{
+width: 90%;
+margin: 10px auto;
+line-height: 130%;
+}
+
+#header
+{
+padding: .5em;
+}
+
+#description
+{
+float: left;
+width: 40%;
+margin: 0;
+padding: 1em;
+}
+
+#list
+{
+margin-left: 200px;
+padding: 1em;
+max-width: 100em;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+line-height: 90%;
+border-top: 2px solid red; 
+}
+
+#description p { margin: 0 0 1em 0; margin-left:5%;color:#000000;background-color:#ffffff;font-family:Arial,sans-serif;}
+#list h1 { margin: 0 0 .5em 0; }
+#footer p { text-align:center; font-family:Arial,sans-serif;font-style:italic ;font-size:75%; margin:0;}
+
+/* Float Code based on http://css.maxdesign.com.au/floatutorial/tutorial0816.htm */
+
+/* End Style sheet  */

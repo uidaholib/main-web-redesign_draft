@@ -5,13 +5,11 @@ permalink: /about/librarians.html
 layout: page
 ---
 {% assign people = site.data.people-table %}
-<!--<h1>Faculty Librarians</h1>-->
 <div class="row">
-    {% for p in people %}
-    {% if p.vivo %}
+    {% for p in people %}{% if p.vivo %}
     <div class="col-6 col-md-4 col-lg-3 mb-2">
         <div class="card">
-            <img class="card-img-top img-fluid" src="https://www.lib.uidaho.edu/media/headshots/{{ p.headshot }}" alt="{{ p.name }}">
+            <img class="card-img-top img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ p.name }}">
             <div class="card-body text-center">
                 <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo }}" title="View the profile for {{ p.name }}">{{ p.name }}</a></h5>
                 <p class="card-text">{{ p.title }}</p>
