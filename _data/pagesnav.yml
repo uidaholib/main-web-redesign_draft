@@ -3,7 +3,7 @@
 # breadcrumbs are generated from [0] parent and stub of each section
 
 # About Section
-about:
+About:
   - parent: About
     stub: /about/
   - subsection: About Home
@@ -74,7 +74,7 @@ about:
       - name: Featured Faculty
         url: /recognitions/featured-faculty.html
 # special subsections of About
-hours:
+Hours:
   - parent: About
     stub: /about/
   - subsection: Semester Hours
@@ -91,7 +91,7 @@ hours:
     link: /about/hours.html#reduced
   - subsection: << About
     link: /about/
-giving:
+Giving:
   - parent: About
     stub: /about/
   - subsection: Give to the Library
@@ -106,7 +106,7 @@ giving:
     link: /giving/associates.html
   - subsection: << About
     link: /about/
-my library: 
+My Library: 
   - parent: About
     stub: /about/
   - subsection: My Library Stories
@@ -120,7 +120,7 @@ my library:
   - subsection: << About
     link: /about/    
 # Journal review section
-review:
+Review:
   - parent: About
     stub: /about/
   - subsection: Review Process
@@ -135,7 +135,7 @@ review:
     link: /about/
 
 # Find Section
-find:
+Find:
   - parent: Find
     stub: /find/
   - subsection: Articles
@@ -201,7 +201,7 @@ find:
     link: /special-collections/searchall.html
     
 # Help Section
-help:
+Help:
   - parent: Help
     stub: /help/
   - subsection: Help Home
@@ -220,7 +220,7 @@ help:
     link: /help/search.html
 
 # Collections Section
-collections:
+Collections:
   - parent: Collections
     stub: /collections/
   - subsection: Collections Home
@@ -234,7 +234,7 @@ collections:
   - subsection: Idaho
     link: /collections/idaho.html
 # SPEC section
-special collections:
+Special Collections:
   - parent: Special Collections
     stub: /special-collections/
   - subsection: Special Collections Home
@@ -288,8 +288,23 @@ special collections:
   - subsection: Contact Us
     link: /special-collections/contactus.html
 
+# MILL Section
+MILL:
+  - parent: MILL
+    stub: /mill/
+  - subsection: The MILL Home
+    link: /mill/
+  - subsection: About the MILL
+    link: /mill/about.html 
+  - subsection: Tools & Tech
+    link: /mill/tools.html
+  - subsection: Newsletter
+    link: /mill/news.html
+  - subsection: FAQ
+    link: /mill/faq.html
+
 # Services Section
-services:
+Services:
   - parent: Services
     stub: /services/
   - subsection: Borrow/Renew
@@ -362,7 +377,7 @@ services:
       - name: Other Libraries
         url: /services/ill/other.html
   - subsection: The MILL
-    link: http://mill.lib.uidaho.edu/
+    link: /mill/
   - subsection: "Open @ UI Library"
     link: /open/
     subpages: 
@@ -396,7 +411,7 @@ services:
         url: /services/workshops/resources.html
 
 # Guide sections
-data management guide:
+Data Management Guide:
   - parent: Data Services
     stub: /services/data/
   - subsection: Intro and Contents
@@ -442,7 +457,7 @@ data management guide:
     link: /services/data/data-management/index.html#acknowledgements
   - subsection: << Data Services Home
     link: /services/data/
-copyright guide:
+Copyright Guide:
   - parent: Copyright
     stub: /copyright/
   - subsection: UI Copyright Policy
