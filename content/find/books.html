@@ -4,7 +4,8 @@ section: find
 permalink: /find/books.html 
 layout: page 
 ---
-<div class="row">{% include js/primosearch.js%}
+{% include js/primosearch.js%}
+<div class="row">
   <div class="col-md-9">
     <h3 class="py-3">Search the catalog for books ...</h3>
     <div class="card">
@@ -21,7 +22,6 @@ layout: page
           authors</option>
         <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
           in subject</option>
-
       </select>
       <label> for Print Books containing: </label>
 
@@ -55,7 +55,7 @@ layout: page
     <p>For more information on our
       <b>eBook</b> collections and how to use them: </p>
     <div class="text-center">
-      <a href="http://libguides.uidaho.edu/eBooks" class="btn btn-clearwater btn-md my-2" target="_blank" rel="noopener">Visit our eBook Guide</a>
+      <a href="https://libguides.uidaho.edu/eBooks" class="btn btn-clearwater btn-md my-2" target="_blank" rel="noopener">Visit our eBook Guide</a>
     </div>
   </div>
   
@@ -65,7 +65,7 @@ layout: page
         <div class="card-body text-center">
             <p class="card-text">Books in the University of Idaho Library are organized by
                 <a href="{{ '/find/lc.html' | relative_url }}">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
-                <a href="http://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank" rel="noopener">click here</a>.</p>
+                <a href="https://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank" rel="noopener">click here</a>.</p>
         </div>
     </div>
 </div>
