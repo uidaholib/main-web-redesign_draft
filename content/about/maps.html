@@ -3,7 +3,8 @@ title: Floor Maps
 section: about
 permalink: /about/maps.html
 layout: page
----				  
+lazyload: true
+---	
 <p><a href="/find/lc.html">Library of Congress Call Number Information</a></p>
 <div class="row justify-content-center">
 	
@@ -30,7 +31,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap1.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap1.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -63,7 +64,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap2.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap2.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -96,7 +97,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap3.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap3.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -129,7 +130,7 @@ layout: page
 	
 						</div><!--end modal-header-->
 						<div class="modal-body">
-							<img src="{{ '/media/stackmaps/stackmap4.jpg' | prepend: site.liburl }}" class="img-fluid">
+							<img data-src="{{ '/media/stackmaps/stackmap4.jpg' | prepend: site.liburl }}" class="img-fluid lazyload">
 						</div><!--end modal-body-->
 
 					</div><!--end modal-content-->
@@ -139,6 +140,4 @@ layout: page
 	</div><!--end column-->
 
 </div><!--end row-->
-
-											
 											
