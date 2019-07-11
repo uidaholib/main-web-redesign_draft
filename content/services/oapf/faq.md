@@ -1,6 +1,6 @@
 ---
 title: Open Access Publishing Fund FAQs
-section: services
+section: Services
 permalink: /services/oapf/faq.html
 layout: page
 ---
