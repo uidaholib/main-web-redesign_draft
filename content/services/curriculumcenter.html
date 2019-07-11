@@ -5,33 +5,13 @@ permalink: /services/curriculumcenter.html
 
 layout: page
 ---
+<div class="row">
 
-  
- <div class="row">
- 
 	<div class="col-md-8 align-self-center">
-		
-
-<!--Search form built for Rick for Libguide -- left here in case want to move it to web page
-<div style="height:35px;" id="searchbox_outline">
-<form onsubmit="searchPrimo()" style="width: 100%; float: left; font-size:20px;" class="EXLSearchForm" target="_blank" rel="noopener" id="searchForm" name="searchForm" method="get" action="http://search.lib.uidaho.edu/primo_library/libweb/action/search.do?">
-
-	 	 <select style="display:none" name="scp.scps" type="hidden" id="scope_value">
-<option class="EXLSelectOption EXLSearchInputScopesOptioneverything" value="UID_IMTC" id="UID_IMTC">IMTC</option>
-</select>
-	 <input type="hidden" value="search" name="fn" id="fn"> 
-	 <input type="hidden" value="search" name="ct" id="ct"> 
-	 <input type="hidden" value="Basic" name="mode" id="mode"> 
-	 <input type="hidden" value="imtc" name="tab" id="tab"> 
-	 <input type="hidden" value="1" name="indx" id="indx"> 
-	 <input type="hidden" value="true" name="dum" id="dum"> 
-	 <input type="hidden" id="str" value="rank" name="srt"> 
-	 <input type="hidden" value="IMTC" name="vid" id="vid"> <input type="hidden" value="" name="frbg" id="frbg"> <input type="text" accesskey="g" size="35" id="search_field" value="" class="textbox" name="vl(freeText0)"> <input type="submit" accesskey="g" class="submit darkcolor" value="Search" id="goButton">
-</form></div>-->
 
 		<p>The Gary Strong Curriculum Center, previously known as the IMTC, provides resources and space to meet the academic and instructional objectives of the students and faculty at the College of Education.</p>
 		<p>The Curriculum Center serves as the K-12 curriculum resource library for the University of Idaho's College of Education. In addition to curriculum materials, the center has numerous other resources:</p>
-	
+
 		<ul>
 			<li><a href="http://libguides.uidaho.edu/GSCC/children">Children's and Young Adult Books</a></li>
 			<li>Native American Collection</li>
@@ -39,155 +19,128 @@ layout: page
 			<li>Bilingual Collection</li>
 			<li>Spanish Language Collection</li>
 			<li><a href="http://libguides.uidaho.edu/GSCC/Praxis ">Praxis Study Guides</a></li>
-			<li><a href="http://libguides.uidaho.edu/GSCC/technology">Technology and Equipment</a></li> 
+			<li><a href="http://libguides.uidaho.edu/GSCC/technology">Technology and Equipment</a></li>
 		</ul>
 
 		<p>A 5-station computer lab with one black and white printer is available for all University of Idaho students to use on a first-come, first-serve basis.</p>
 
-
 		<hr>
-<!-- primo search -->
-<script type="text/javascript">
-	function enterKey(evt) {
-	var evt = (evt) ? evt : event
-	var charCode = (evt.which) ? evt.which : evt.keyCode
-	if (charCode == 13) {
-	searchPrimo()
-	}
-	}
-	function searchPrimo() {
-	document.getElementById("primoQuery").value = "any,contains," +
-	document.getElementById("primoQueryTemp").value;
-	document.forms["searchForm"].submit();
-	}
-	function searchPrimoEvent(event) {
-	if (event && event.which == 13) {
-	document.getElementById("primoQuery").value = "any,contains," +
-	document.getElementById("primoQueryTemp").value;
-	document.forms["searchForm"].submit();
-	}
-	else
-	return true;
-	}
-</script>
-<div class="card my-2">
-      <div class="card-body">
-    <form name="searchForm" method="get" target="_blank" rel="noopener" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search"
-      class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
-      <input type="hidden" name="institution" value="UID">
-	<input type="hidden" name="vid" value="IMTC">		 
+		<!-- primo search -->
+		<script type="text/javascript">
+			function enterKey(evt) {
+				var evt = (evt) ? evt : event
+				var charCode = (evt.which) ? evt.which : evt.keyCode
+				if (charCode == 13) {
+					searchPrimo()
+				}
+			}
+			function searchPrimo() {
+				document.getElementById("primoQuery").value = "any,contains," +
+					document.getElementById("primoQueryTemp").value;
+				document.forms["searchForm"].submit();
+			}
+			function searchPrimoEvent(event) {
+				if (event && event.which == 13) {
+					document.getElementById("primoQuery").value = "any,contains," +
+						document.getElementById("primoQueryTemp").value;
+					document.forms["searchForm"].submit();
+				}
+				else
+					return true;
+			}
+		</script>
+		<div class="card my-2">
+			<div class="card-body">
+				<form name="searchForm" method="get" target="_blank" rel="noopener" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
+					<input type="hidden" name="institution" value="UID">
+					<input type="hidden" name="vid" value="IMTC">
 
-	<p style="text-align: center;">
-	<input type="hidden" name="tab" value="imtc" >
-	<input type="hidden" name="search_scope" value="everything" id="scopedefiner">
-	<input type="hidden" id="indx" name="indx" value="1"/>
-<input type="hidden" id="bulkSize" name="bulkSize" value="10"/>
-<input type="hidden" id="dym" name="dym" value="true"/>
-	
-<input type="hidden" name="highlight" value="true">
-	<input type="hidden" name="displayField" value="all">
-	<input id="primoQuery" type="hidden" name="query">
-<input id="primoQueryTemp" 
-	onkeypress="return searchPrimoEvent(event)" 
-	type="text" name="queryTemp" title="Search the catalog" value="" class="form-control-inline form-control-md col-md-8 mb-sm-1" placeholder="Search the Curriculum Center ..."  >
-  
-  <input id="goButton_dash" class="btn btn-pride-gold btn-md mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search"><br>
-  	 Use this search box to look&nbsp;for books in the Curriculum Center.<br> <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a></p>
-    </form>
-	</div>
-	</div>
- 
-<div class="card my-2">
-	<div class="card-header">
-	  <h4 class="card-title text-center mb-0">For more information about the Curriculum Center:</h4>
-	
+					<p style="text-align: center;">
+						<input type="hidden" name="tab" value="imtc">
+						<input type="hidden" name="search_scope" value="everything" id="scopedefiner">
+						<input type="hidden" id="indx" name="indx" value="1" />
+						<input type="hidden" id="bulkSize" name="bulkSize" value="10" />
+						<input type="hidden" id="dym" name="dym" value="true" />
 
-		   <div class="text-center">
-		 <a href="http://libguides.uidaho.edu/c.php?g=363138&p=2453786" class="btn btn-clearwater btn-md my-2" target="_blank" rel="noopener">Curriculum Center Guide </a></div>
+						<input type="hidden" name="highlight" value="true">
+						<input type="hidden" name="displayField" value="all">
+						<input id="primoQuery" type="hidden" name="query">
+						<input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" title="Search the catalog" value="" class="form-control-inline form-control-md col-md-8 mb-sm-1" placeholder="Search the Curriculum Center ...">
 
+						<input id="goButton_dash" class="btn btn-pride-gold btn-md mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search"><br>
+						Use this search box to look&nbsp;for books in the Curriculum Center.<br> <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=imtc&sortby=rank&vid=IMTC">Link to catalog.</a></p>
+				</form>
+			</div>
 		</div>
-	<div class="card-body">  
-		 <h5>Or skip directly to the section you need:</h5>
 
-		 <ul><li ><a href="http://libguides.uidaho.edu/c.php?g=363138&p=2452980" >
-		Curriculum Center Policies</a></li>
-		<li>
-		<a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2385915">Curriculum Center Services</a>
-		</li>
-		<li><a href="https://libguides.uidaho.edu/GSCC/CDP">Collection Development Policy</a></li>
-		
-		<li ><a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382883" >
-		<span>Curriculum Materials</a>
-			</li>
-		<li>
-		<a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382884">Children/YA Materials</a>
-		</li>
-			<li><a href="http://libguides.uidaho.edu/c.php?g=363138&p=2801008">
-		Professional Materials</a></li>
-		<li><a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382924" >
-		<span>A/V Equipment</a></li>
-		</ul>
-	</div>	
-</div>
-</div>
-		 
-		
-<div class="col-md-4">
-		<div id="hours_location" class="card my-2" >
+		<div class="card my-2">
+			<div class="card-header">
+				<h4 class="card-title text-center mb-0">For more information about the Curriculum Center:</h4>
+
+
+				<div class="text-center">
+					<a href="http://libguides.uidaho.edu/c.php?g=363138&p=2453786" class="btn btn-clearwater btn-md my-2" target="_blank" rel="noopener">Curriculum Center Guide </a></div>
+
+			</div>
+			<div class="card-body">
+				<h5>Or skip directly to the section you need:</h5>
+
+				<ul>
+					<li><a href="http://libguides.uidaho.edu/c.php?g=363138&p=2452980">
+							Curriculum Center Policies</a></li>
+					<li>
+						<a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2385915">Curriculum Center Services</a>
+					</li>
+					<li><a href="https://libguides.uidaho.edu/GSCC/CDP">Collection Development Policy</a></li>
+
+					<li><a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382883">
+							<span>Curriculum Materials</a>
+					</li>
+					<li>
+						<a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382884">Children/YA Materials</a>
+					</li>
+					<li><a href="http://libguides.uidaho.edu/c.php?g=363138&p=2801008">
+							Professional Materials</a></li>
+					<li><a href="http://libguides.uidaho.edu/content.php?pid=289950&sid=2382924">
+							<span>A/V Equipment</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-md-4">
+		<div id="hours_location" class="card my-2">
 			<div class="card-header">
 				<h4 class="card-title mb-0">Location and Hours</h4>
 			</div>
-		<div class="card-body indent">
-			<p><strong>Location:</strong> College of Education, Room 340</p>
-			<p><strong>Semester Hours:</strong>   
+			<div class="card-body indent">
+				<p><strong>Location:</strong> College of Education, Room 340</p>
+				<p><strong>Semester Hours:</strong>
 
-			<br>M-Th: 8:00 AM - 5:00 PM 
-			<br> Friday: 8:00 AM - 4:00 PM 
-			<br> Closed Weekends</p>
+					<br>M-Th: 8:00 AM - 5:00 PM
+					<br> Friday: 8:00 AM - 4:00 PM
+					<br> Closed Weekends</p>
 
-				<p><strong> Summer Hours (May 15 - August 18):</strong>   
+				<p><strong> Summer Hours (May 15 - August 18):</strong>
 
-			<br>M-Th: 9:00 AM - 12:00 PM 
-			<br>Closed Weekends
+					<br>M-Th: 9:00 AM - 12:00 PM
+					<br>Closed Weekends
 
 				</p>
-		</div>
-		</div>	
-
-
-
-
-<div id="staff" class="card my-2" >
-  <div class="card-header">
-    <h4 class="card-title mb-0">Contact Information</h4>
-  </div>
-  <div class="card-body indent">
-<p style="text-align: left;">If you have questions about accessing the library's Curriculum Center, please feel free to contact us: </p>
-	<p>Email: <a href="mailto:curriculumcenter@uidaho.edu">curriculumcenter@uidaho.edu</a><br>
-	Phone: (208) 885-7257<br></p>
-
-</div>
-</div>
-</div>
-</div>
-
-
+			</div>
 		</div>
 
+		<div id="staff" class="card my-2">
+			<div class="card-header">
+				<h4 class="card-title mb-0">Contact Information</h4>
+			</div>
+			<div class="card-body indent">
+				<p style="text-align: left;">If you have questions about accessing the library's Curriculum Center, please feel free to contact us: </p>
+				<p>Email: <a href="mailto:curriculumcenter@uidaho.edu">curriculumcenter@uidaho.edu</a><br>
+					Phone: (208) 885-7257<br></p>
 
-          
-                 
-													 
-              
+			</div>
+		</div>
+	</div>
 </div>
-
-
-
-
-
-		
-
-											
-											
-											
-										
