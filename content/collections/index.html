@@ -20,7 +20,7 @@ lazyload: true
                     <h5 class="card-title font-weight-bold mb-0"><a href="{{ c.link | relative_url }}">{{ c.collection }}</a></h5>
                 </div>
                 <div class="card-body text-center">
-                    <a href="{{ c.link | relative_url }}"><img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="https://www.lib.uidaho.edu/media/collections/{{ c.img }}" alt="Card image"></a>
+                    <a href="{{ c.link | relative_url }}"><img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="{{ site.lib-media }}/collections/{{ c.img }}" alt="Card image"></a>
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
                     <a href="{{ c.link | relative_url }}" class="btn btn-payette-blue" >View Collection</a>
