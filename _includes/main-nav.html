@@ -17,21 +17,18 @@
                         <span class="fas fa-th-large"></span> Collections</a>
                 </li>
                 <li class="nav-item mx-2 {% if page.url contains '/about/' %} active{% endif %} ">
-                    <a class="nav-link" href="{{ '/spaces/' | relative_url }}">
-                        <span class="fas fa-map-marker-alt"></span> Spaces</a>
-                </li>
-                <li class="nav-item mx-2 {% if page.url contains '/about/' %} active{% endif %} ">
                     <a class="nav-link" href="{{ '/about/' | relative_url }}">
-                        <span class="fas fa-info-circle"></span> About</a>
+                        <span class="fas fa-map-marker-alt"></span> About</a>
                 </li>
             </ul>
 
-            <form class="form-inline row justify-content-end" role="search" onsubmit="primo_search(); return false;">
-            
-                <input id="primo-search" class="form-control form-control-lg col-md-9 col-sm-10 col-10 p-2 mr-md-2" type="search" placeholder="Search the catalog ..." aria-label="Search">
-                <button class="btn btn-lg  p-2 btn-pride-gold" type="submit">Go </button>
-                <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
-    </form>
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MENU
+                    <span class="fas fa-bars ml-1"></span>
+                </button>
+                {%include bigdropdown.html %}
+            </div>
 
         </div>
     </div>
