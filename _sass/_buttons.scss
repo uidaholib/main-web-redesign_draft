@@ -9,6 +9,18 @@
     }
 }
 
+.btn-ask{
+    //color: $pride-gold;
+    background-color: transparent;
+    background-image: none;
+    border: 4px double $pride-gold;
+    
+    &:hover{
+        background-color: $pride-gold;
+        color:white;
+    }}
+
+
 .btn-outline-pride-gold{
 //color: $pride-gold;
 background-color: transparent;

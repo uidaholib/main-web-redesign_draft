@@ -6,20 +6,23 @@
         }
     </script>
     <div class="container">
-        <form class="form-inline row justify-content-end" role="search" onsubmit="primo_search(); return false;">
+        <form class="form-inline row justify-content-end pt-2" role="search" onsubmit="primo_search(); return false;">
             
             <input id="primo-search" class="form-control form-control-lg col-md-6 col-sm-10 col-10 p-2 mr-md-2" type="search" placeholder="Search the catalog ..." aria-label="Search">
             <button class="btn btn-lg my-2 my-sm-1 col-md-1 col-2 p-2 btn-pride-gold" type="submit">Go</button>
             <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" class="col-md-1 text-right">Advanced Search</a>
 <style>.searchnav-link {
         display: block;
-            padding: .5rem;}</style>
+            padding: .4em .4em .15em;
+            font-size:18px;
+            }
+            .searchnav-break{font-size: 24px !important;
+    margin-top: -5px;}
+            </style>
             <div class="col-12 pt-1">
-                <div class="d-none d-md-block">
-                    <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                    <a class="searchnav-link " href="{{ '/find/' | relative_url }}">Find:</a>
-                                </li>
+                <div class="d-none d-md-block ">
+                    <ul class="nav justify-content-end mt-1 ">
+                           
                         <li class="nav-item">
                             <a class="searchnav-link " href="{{ '/find/articles.html' | relative_url }}">Articles</a>
                         </li>
@@ -30,7 +33,7 @@
                             <a class="searchnav-link " href="{{ '/find/journals.html' | relative_url }}" >Journals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="searchnav-link " href="https://libguides.uidaho.edu/" >LibGuides</a>
+                            <a class="searchnav-link " href="https://libguides.uidaho.edu/" >Research Guides</a>
                         </li>
                         <li class="nav-item">
                             <a class="searchnav-link " href="{{ '/services/reserve/' | relative_url }}" >Reserves</a>
@@ -38,16 +41,17 @@
                         <li class="nav-item">
                             <a class="searchnav-link " href="{{ '/services/ill/' | relative_url }}" >ILL</a>
                         </li>
-                        <li class="nav-item"> <span class="searchnav-link "> | </span> </li>
+                        <li class="nav-item"> <span class="searchnav-link searchnav-break" style="height:110%;"> | </span> </li>
                         <li class="nav-item">
-                            <a class="searchnav-link " href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph">Academic Search Premier</a>
+                                <a class="searchnav-link " href="#" data-toggle="modal" data-target="#databases" > All Databases</a>
+                            </li>                   
+                        <li class="nav-item">
+                            <a class="searchnav-link " href="http://ida.lib.uidaho.edu:2048/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph">Academic Search</a>
                         </li>
                         <li class="nav-item">
-                            <a class="searchnav-link " href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
+                            <a class="searchnav-link pr-0" href="http://ida.lib.uidaho.edu:2048/login?url=http://webofknowledge.com/UA">Web of Science</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="searchnav-link  pr-0" href="#" data-toggle="modal" data-target="#databases" >Databases A-Z</a>
-                        </li>
+                        
                     </ul>
                 </div>
 
