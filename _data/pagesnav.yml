@@ -140,6 +140,7 @@ Find:
     stub: /find/
   - subsection: Articles
     link: /find/articles.html
+    type: direct-link
     subpages:
       - name: Search & Browse
         url: /find/articles.html
