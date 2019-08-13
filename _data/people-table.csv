@@ -1,9 +1,9 @@
 name,rank,title,department,email,phone,vivo,headshot
 "Attebury, Ramirose",Associate Professor,"Head, Technical Services / Gov Docs Librarian",Technical Services / Government Documents,rattebur@uidaho.edu,(208) 885-2503,n30988,rami.jpg
 "Barnhart, Cynthia",Communications & Marketing Manager,,Information Technology and University Library,cbarnhart@uidaho.edu,(208) 885-6355,,
-"Bonner, Lori",Library Technician,Cataloging,Technical Services,lbonner@uidaho.edu,(208) 885-2512,,
 "Becker, Devin",Associate Professor,"Head, Data and Digital Services",Data and Digital Services,dbecker@uidaho.edu,(208) 885-7040,n8136,devin.jpg
 "Berge, Courtney",Library Assistant,Archives and Exhibits Assistant,Special Collections and Archives,cberge@uidaho.edu,(208) 885-0845,,
+"Bonner, Lori",Library Technician,Cataloging,Technical Services,lbonner@uidaho.edu,(208) 885-2512,,
 "Chiquito, Juan",Library Technician,Early Morning Supervisor,User and Research Services,jchiquito@uidaho.edu,(208) 885-0991,,
 "Crawford-Evans, Jean",Library Assistant,Circulation,User and Research Services,bjcraw@uidaho.edu,(208) 885-6559,,
 "Dahmen, Theresa",Library Coordinator,Circulation Manager,User and Research Services,tdahmen@uidaho.edu,(208)885-7299,,
@@ -12,6 +12,7 @@ name,rank,title,department,email,phone,vivo,headshot
 "Doney, Jylisa",Assistant Professor,Social Sciences Librarian,User and Research Services,jylisadoney@uidaho.edu,(208) 885-0959,n104190,jylisa.jpg
 "Godfrey, Bruce",Associate Professor,GIS Librarian,Data and Digital Services,bgodfrey@uidaho.edu,(208) 292-1407,n1633553470,bruce.jpg
 "Green, Sammantha",Assistant to the Dean,,Administrative Services,samm@uidaho.edu,(208) 885-0708,,
+"Gunderson, Brittany",Fiscal Officer,,Administrative Services,brittanyg@uidaho.edu,(208) 885-5732,,
 "Haire, Jodi",Library Coordinator,E-Resources and Serials Coordinator,Technical Services,haire@uidaho.edu,(208) 885-2531,,
 "Henrich, Kristin",Associate Professor,"Associate Dean<br>Head, User and Research Services",User and Research Services,khenrich@uidaho.edu,(208) 885-6514,n1959864580,kristin2017.jpg
 "Hunter, Ben",Full Professor,"Dean, University of Idaho Libraries",Administrative Services,bhunter@uidaho.edu,(208) 885-5858,n2610,ben2019.jpg
@@ -30,7 +31,6 @@ name,rank,title,department,email,phone,vivo,headshot
 "Seiferle-Valencia, Marco",Assistant Professor,Open Education Librarian,Data and Digital Services,marcosv@uidaho.edu,(208) 885-2504,n1005348,marco.jpg
 "Shannon, Michelle",Library Specialist,Archival Assistant,Special Collections and Archives,mshannon@uidaho.edu,(208) 885-0845,,
 "Slack, Jeff",Library Technician,,Technical Services,jslack@uidaho.edu,(208) 885-6320,,
-"Smith, Justin",Library Specialist,Interlibrary Loan Supervisor,User and Research Services,justinsmith@uidaho.edu,(208) 885-0706,,
 "Smith, Rochelle",Associate Professor,Reference Librarian,User and Research Services,rsmith@uidaho.edu,(208) 885-7850,n8857850,rochelle2017.jpg
 "Stokes, Katherine",Library Assistant,"Mail, Marking, and Mending",Technical Services,kstokes@uidaho.edu,(208) 885-6844,,
 "Thompson, Amy",Library Specialist,,Special Collections and Archives,amyjo@uidaho.edu,(208) 885-0845,,
