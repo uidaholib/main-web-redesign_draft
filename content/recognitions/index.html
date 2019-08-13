@@ -34,7 +34,7 @@ permalink: /recognitions/
                     <div class="card-header">
                         <h5 class="mb-0"><a class="card-link collapsed" data-toggle="collapse" href="#collapse{{ y }}" aria-expanded="false">
                                 {{ y }} <span class="fas fa-chevron-down smalltxt"></span></a></h5></div>
-                    <div id="collapse{{ y }}" class="collapse" data-parent="#accordion" style="">
+                    <div id="collapse{{ y }}" class="collapse" aria-labelledby="{{ y }}" style="">
                     <div class="card-body">
                             {% assign promos = site.data.recognitions-bookplates | where: "year", y %}
                             {% for p in promos %}{%- if p.book -%}
