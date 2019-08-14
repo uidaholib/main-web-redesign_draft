@@ -4,8 +4,9 @@ section: Find
 permalink: /find/books.html 
 layout: page 
 ---
-{% include js/primosearch.js%}
+{% include js/primosearch.js %}
 <div class="row">
+
   <div class="col-md-8">
    
     <div class="card">
@@ -46,22 +47,24 @@ layout: page
     <p class="mt-2">To find where a book is located in the library,
           <a href="{{ '/about/maps.html' | relative_url }}">consult the floor maps of our library</a>.</p>
     <p>
-        
       <small>Note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday
         to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing
         <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</small>
     </p>
    
-   
   </div>
   
   <div class="col-md-3">
     <div class="card">
-        <img class="card-img-top" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library">
-        <div class="card-body text-center">
-            <p class="card-text">Books in the University of Idaho Library are organized by
-                <a href="{{ '/find/lc.html' | relative_url }}">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
-                <a href="https://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank" rel="noopener">click here</a>.</p>
-        </div>
+      <img class="card-img-top" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library">
+      <div class="card-body text-center">
+          <p class="card-text">Books in the University of Idaho Library are organized by
+              <a href="{{ '/find/lc.html' | relative_url }}">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
+              <a href="https://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank" rel="noopener">click here</a>.</p>
+      </div>
     </div>
+  </div>
+
 </div>
+
+{% include lib-chat-widget.html %}

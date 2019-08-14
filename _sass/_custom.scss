@@ -90,3 +90,6 @@ footer, footer a {
     border-right: 2px solid;
     border-right-color: #191919 !important;
 }
+
+/* libchat widget floating */
+@media (max-width: 576px) { .s-lch-widget-float{ display: none!important;} }
