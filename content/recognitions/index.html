@@ -4,50 +4,27 @@ layout: page
 section: About
 permalink: /recognitions/
 ---
-
 {% assign years = site.data.recognitions-bookplates | map: "year" | uniq %}
-<div class="container pagecontent" id="scrollnav">
-    <div class="row"  >
-        <!--<div class="col-md-3 col-lg-3 ">
-            <div class=" bs-sidebar" data-spy="affix" data-offset-top="230" id="my-nav" style="width:215px;">
-                <ul class="nav bs-sidenav" >
-                    <li><a href="#about">Bookplates for Faculty</a></li>
-                    {% for year in years %}
-                    <li><a href="#{{ year }}">{{ year }}</a></li>
-                    {% endfor %}
-                </ul>    
-            </div>
-        </div>-->
-                                
-        <div class="col-12">
-            <section id="about">
-                <br>
-                <h2>Acknowledging our Faculty</h2>
-                <br>
-                <div class="row" >
-                    <img class="img-fluid" src="https://www.lib.uidaho.edu/images/bookplate.png" />
-                    <p class="col-md-7"><br>To acknowledge the academic accomplishments of the University of Idaho faculty, the library recognizes faculty promotions and achievement of tenure by inserting a bookplate into a book that has special personal significance.</p>
-                </div>
-            </section>
-            {% for y in years %}
-            <div class="card my-2">
-                    <div class="card-header">
-                        <h5 class="mb-0"><a class="card-link collapsed" data-toggle="collapse" href="#collapse{{ y }}" aria-expanded="false">
-                                {{ y }} <span class="fas fa-chevron-down smalltxt"></span></a></h5></div>
-                    <div id="collapse{{ y }}" class="collapse" aria-labelledby="{{ y }}" style="">
-                    <div class="card-body">
-                            {% assign promos = site.data.recognitions-bookplates | where: "year", y %}
-                            {% for p in promos %}{%- if p.book -%}
-                            <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
-                            <ul style="margin-left: 15px;">
-                                <li>{{ p.book }}</li>
-                            </ul>
-                            {% endif %}{% endfor %}
-                    </div>
-                    </div>
-                    </div>
-           
-            {% endfor %}
+<div class="row align-items-center my-3">
+    <div class="col-md-4 text-center"><img class="img-fluid" src="https://www.lib.uidaho.edu/images/bookplate.png" alt="U of I bookplate"></div>
+    <div class="col-md-8">To acknowledge the academic accomplishments of the University of Idaho faculty, the library recognizes faculty promotions and achievement of tenure by inserting a bookplate into a book that has special personal significance.</div>
+</div>
+
+{% for y in years %}
+<div class="card my-3">
+    <div class="card-header" id="recognitions{{ y }}">
+        <button class="btn btn-link btn-block text-left text-body collapsed" data-toggle="collapse" data-target="#collapse{{ y }}" aria-expanded="false" aria-controls="collapse{{ y }}"><h5 class="mb-0">{{ y }} <span class="fas fa-chevron-down smalltxt"></span></h5></button>
+    </div>
+    <div id="collapse{{ y }}" class="collapse" aria-labelledby="recognitions{{ y }}" >
+        <div class="card-body">
+            {% assign promos = site.data.recognitions-bookplates | where: "year", y %}
+            {% for p in promos %}{%- if p.book -%}
+            <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
+            <ul class="ml-2">
+                <li>{{ p.book }}</li>
+            </ul>
+            {% endif %}{% endfor %}
         </div>
     </div>
-</div>									
+</div>
+{% endfor %}						
