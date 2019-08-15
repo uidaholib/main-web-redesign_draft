@@ -46,8 +46,7 @@
     } @else {
         font-family: 'object-fit: #{$fit}';
     }
-  }
-  
+}
 .carousel-caption { 
     background: rgba(0, 0, 0, 0.7); 
     min-width:450px;
@@ -61,19 +60,7 @@
         border-style: dotted;
     }
 }
-/* featured researcher */
-#featuredResearcher {
-    max-width: 16rem;
-}
-/* old stuff? */
-#index-jumbotron {
-    background-image: $jumbotron-image;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.projectlink img {
-    width:90%;
-}
+/* searchnav */ 
 .searchcontainer {
     background: #191919;
     color:white;
@@ -86,6 +73,12 @@
     }
     .dropdown-item{color:#191919 !important;}
 }
+#quickLinks a { font-size: 18px;}
+/* featured researcher */
+#featuredResearcher {
+    max-width: 16rem;
+}
+/* old stuff? */
 .resourcecontainer {
     background: $grey-color-light;
     a {
