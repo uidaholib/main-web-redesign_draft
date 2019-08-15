@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /old/
+Disallow: /backup/
+Sitemap: https://www.lib.uidaho.edu/sitemap.xml
