@@ -78,21 +78,3 @@
 #featuredResearcher {
     max-width: 16rem;
 }
-/* old stuff? */
-.resourcecontainer {
-    background: $grey-color-light;
-    a {
-        font-weight: 300;
-        &:hover { text-decoration: underline; }
-    }
-}
-.jumbo-ad-container {
-    background: rgba(0, 0, 0, 0.7);
-    color:white;
-    a { 
-        color:white !important;
-        font-weight: 300;
-        &:hover { text-decoration: underline; }
-    }
-}
-.timeline-Header-subtitle { display:none; }
