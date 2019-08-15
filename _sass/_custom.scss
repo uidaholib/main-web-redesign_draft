@@ -39,7 +39,8 @@ a {
 .lib-logo-lg {
     max-height: 80px;
 }
-
+/* lib chat button fix */
+#askus_libchat #libchat_ed1418c47639635236cffc31f9e86e74 button { padding: 0px; width: 100%; border: none; }
 /* main nav */
 #main-nav {
     background: $nav-background;
