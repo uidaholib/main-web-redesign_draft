@@ -12,109 +12,78 @@
             </div>
             <div class="modal-body">
 
-                <div class="fluid-container">
-
-                    <div class="row">
-                        <div class="col-sm-8 text-left">
-                            <h2>Contact Us for Help</h2>
-
-                        </div>
-                        <div class="col-sm-4 text-center mx-auto">
-                            <!-- libanswers chat widget -->
-                            <div id="libchat_269030407f93b3a2d093e02085e48412"></div>
-                            <script type="text/javascript" src="https://v2.libanswers.com/load_chat.php?hash=269030407f93b3a2d093e02085e48412"></script>
-                        </div>
-                        <div class="col-md-12 text-left">
-                            <p class="text-center mb-md-0 my-2">Our reference librarians are here to help you with all your information needs.</p>
-                        </div>
-
-                        <div class="col-md-6 my-2">
-                            <a id="askmodal-tel" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="tel:208-885-6584">
-                            <span class="fas fa-phone"></span> Call</a>
-                            <p class="mt-0 text-center"><small>Reference: 208-885-6584 <br/>24-hour (5 days a week): 208-885-6559</small></p>
-                        </div>
-                        <div class="col-md-6 my-2">
-                            <a id="askmodal-email" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="mailto:libref@uidaho.edu">
-                            <span class="fas fa-envelope"></span> Email</a>
-                            <p class="mt-0 text-center"><small>libref@uidaho.edu</small></p>
-                        </div>
-                        <div class="col-md-6 my-2">
-                            <a id="askmodal-txt" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="sms:208-449-0841">
-                            <span class="fas fa-comments"></span> Text</a>
-                            <p class="mt-0 text-center"><small>208-449-0841</small></p>
-                        </div>
-                        <div class="col-md-6 my-2">
-                            <a id="askmodal-rap" class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="{{ '/help/rap.html' | relative_url }}">
-                            <span class="fas fa-user"></span> Schedule a Meeting</a>
-                            <p class="mt-0 text-center"><small>Set up a research consultation with a librarian.</small></p>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-12 text-left">
+                        <h2>Contact Us for Help</h2>
                     </div>
+                    
+                    <div class="col-md-6" id="askus_libchat">
+                        <!-- "ask-us-chat-button" libanswers widget -->
+                        <div id="libchat_ed1418c47639635236cffc31f9e86e74" class="btn btn-lg btn-outline-pride-gold btn-block rounded-0 mx-auto popular"></div>
+                        <p class="mt-0 text-center"><small>Web chat with a librarian during <a href="{{ '/about/hours.html#reference' | relative_url }}">reference desk hours</a>.</small></p>
+                        <script src="https://v2.libanswers.com/load_chat.php?hash=ed1418c47639635236cffc31f9e86e74" async></script> 
+                    </div>
+                    <div class="col-md-6">
+                        <a id="askmodal-tel" class="btn btn-lg btn-outline-pride-gold btn-block rounded-0 mx-auto popular" href="tel:208-885-6584">
+                        <span class="fas fa-phone"></span> Call</a>
+                        <p class="mt-0 text-center"><small>Reference: 208-885-6584 <br/>24-hour (5 days a week): 208-885-6559</small></p>
+                    </div>
+                    <div class="col-md-6">
+                        <a id="askmodal-email" class="btn btn-lg btn-outline-pride-gold btn-block rounded-0 mx-auto popular" href="mailto:libref@uidaho.edu">
+                        <span class="fas fa-envelope"></span> Email</a>
+                        <p class="mt-0 text-center"><small>libref@uidaho.edu</small></p>
+                    </div>
+                    <div class="col-md-6">
+                        <a id="askmodal-txt" class="btn btn-lg btn-outline-pride-gold btn-block rounded-0 mx-auto popular" href="sms:208-449-0841">
+                        <span class="fas fa-comments"></span> Text</a>
+                        <p class="mt-0 text-center"><small>208-449-0841</small></p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <p class="px-3">Our reference librarians are here to help you with all your information needs, ready to connect via chat, phone, text, or email. You can even set up an in person research consultation with a librarian: <a href="{{ '/help/rap.html' | relative_url }}" class="ml-2"><span class="fas fa-user"></span> Schedule a Meeting</a></p>
+                    </div>
+
                 </div>
+                
                 <hr>
-                <div class="fluid-container">
-                    <div class="row">
-                        <div class="col-md-12 text-left">
-                            <p class="text-center">You can also find assistance and information via our website.</p>
-                        </div>
-                        <div class="col-md-5 offset-1 text-left">
-                            <h5>Online Assistance</h5>
-                            <ul id="askmodal-online">
-                                <li>
-                                    <a href="https://libanswers.uidaho.edu/index.php?">Frequently Asked Questions</a>
-                                </li>
-                                <li>
-                                    <a href="{{ '/help/offcampus.html' | relative_url }}">Off Campus Access</a>
-                                </li>
-                                <li>
-                                    <a href="https://libguides.uidaho.edu/index.php">Research Guides</a>
-                                </li>
-                                <li>
-                                    <a href="{{ '/help/search.html' | relative_url }}">Search the Library Website</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5 offset-1 offset-md-0 text-left">
-                            <h5>Information about the Library</h5>
-                            <ul id="askmodal-info">
-                                <li>
-                                    <a href="{{ '/about/hours.html' | relative_url }}">Hours</a>
-                                </li>
-                                <li>
-                                    <a href="{{ '/maps.html' | relative_url }}">Maps</a>
-                                </li>
-                                <li>
-                                    <a href="{{ '/about/directions.html' | relative_url }}">Directions and Parking</a>
-                                </li>
-                                <li>
-                                    <a href="{{ '/about/directory.html' | relative_url }}">People</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!--<div class="col-md-12 text-center mx-auto">
-                            <ul class="nav nav-pills mt-2 ">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ 'find/' | relative_url }}" >Find:</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link btn btn-outline-clearwater-light mr-2" href="{{ 'find/articles.html' | relative_url }}">Articles</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn btn-outline-clearwater-light mr-2" href="{{ 'find/books.html' | relative_url }}">Books</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn btn-outline-clearwater-light mr-2" href="{{ 'find/journals.html' | relative_url }}">Journals</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn btn-outline-clearwater-light mr-2" href="http://libguides.uidaho.edu/index.php">Research Guides</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn btn-outline-clearwater-light" href="services/reserve/">Course Reserves</a>
-                                </li>
-                             
-                            </ul>
-                        </div>-->
+
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-5">
+                        <h5>Online Assistance</h5>
+                        <ul id="askmodal-online">
+                            <li>
+                                <a href="https://libanswers.uidaho.edu/index.php?">Frequently Asked Questions</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/help/offcampus.html' | relative_url }}">Off Campus Access</a>
+                            </li>
+                            <li>
+                                <a href="https://libguides.uidaho.edu/index.php">Research Guides</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/help/search.html' | relative_url }}">Search the Library Website</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-10 col-md-5">
+                        <h5>Information about the Library</h5>
+                        <ul id="askmodal-info">
+                            <li>
+                                <a href="{{ '/about/hours.html' | relative_url }}">Hours</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/maps.html' | relative_url }}">Maps</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/about/directions.html' | relative_url }}">Directions and Parking</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/about/directory.html' | relative_url }}">People</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
