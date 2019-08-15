@@ -1,0 +1,41 @@
+---
+title: Featured Faculty 2018
+layout: page
+section: about
+permalink: /recognitions/featured-faculty-2018.html
+---
+{% assign researchers = site.data.vivo_featured_researchers | where: "year","2018" %}
+
+<p>These are the researchers we selected to feature for the beginning of the 2018-2019 academic year. They were chosen for the breadth of scholarship they represent, as communicated from their VIVO profile. If you have any questions about VIVO or these profiles, please contact <a href="mailto:jkenyon@uidaho.edu">Jeremy Kenyon</a>.</p>
+
+<p><small>A Note on Selections: The featured faculty will change over the course of the year. If you would like to be featured, or you have a suggestion for us, please send an email to  <a href="mailto:dbecker@uidaho.edu">Devin Becker</a>.</small></p>
+
+<div class="container">
+    <div class="row">
+        {% for researcher in researchers %}
+        <div class="col-md-4 my-1">
+            <div class="card mx-auto" id="researcher-{{ researcher.id }}">
+                <a href="http://vivo.nkn.uidaho.edu/individual/{{ researcher.id }}">
+                    <img class="card-img-top" src="https://www.lib.uidaho.edu/media/vivo-featured/{{ researcher.id }}.jpg" alt="Card image cap">
+                </a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="http://vivo.nkn.uidaho.edu/individual/{{ researcher.id }}"> {{ researcher.first }} {{ researcher.last }}</a>
+                    </h4>
+                    <p class="card-text">
+                        {{ researcher.rank }}
+                        <br><a href="http://vivo.nkn.uidaho.edu/individual/{{ researcher.deptid }}" >{{ researcher.dept }}</a>
+                    </p>
+                    <h5>Recent {{ researcher.pubtype | capitalize }}</h5>
+                    <p class="card-text">
+                        <a href="{{ researcher.publink  }}" target="_blank" rel="noopener">{{ researcher.pub }}</a><br> 
+                        <em>{{ researcher.publoc }}</em>
+                    </p>
+                    <a href="http://vivo.nkn.uidaho.edu/individual/{{ researcher.id  }}" class="btn btn-clearwater" target="_blank" rel="noopener">View VIVO Profile</a>
+                </div>
+            </div>   
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
