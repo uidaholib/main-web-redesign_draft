@@ -10,38 +10,39 @@ custom-foot: "js/spec_searchall.js"
 	<div class="col-md-12">
 		<div class="card mb-3">
 			<div class="card-body text-center">
+	  
+			  <p class="mb-1">Search our finding aids on Archives West <a href="#" data-toggle="modal" data-target="#nwda" role="button"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a></p>
+	  
+			  <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get">
+				<input id="searchValue" class="form-control mt-2" name="q" type="text"> 
+				<input id="t" name="t" type="hidden" value="k">
+				<input id="c" name="c" type="hidden" value="ntd">
+				<button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
+			  </form>
+	  
+			  <!-- modal -->
+			  <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
+				<div class="modal-dialog" role="document">
+				  <div class="modal-content">
+					<div class="modal-header text-center">
+					  <h3 class="modal-title">About Archives West</h3>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div class="modal-body">
+					  <p><a href="https://archiveswest.orbiscascade.org/" target="_blank" rel="noopener">Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. Please contact <a href="contactus.html">our staff</a> for additional assistance.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <!--end modal-->
+			</div>
+		</div>
+	</div>
+</div>
 
-				<form action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get" class="form-inline my-3">
-					Search for our finding aids on <a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>:
-					<input id="searchValue" name="q" type="text" class="form-control mx-2">
-					<input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
-					<input id="t" name="t" type="hidden" value="k">
-					<input id="c" name="c" type="hidden" value="ntd">
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- modal -->
-<div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header text-center">
-				<h3 class="modal-title">About the Northwest Digital Archives</h3>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<!--end modal-header-->
-			<div class="modal-body text-center">
-				<p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. You may also contact <a href='contactus.html'>our staff</a> for additional assistance</a>.</p>
-			</div>
-			<!--end modal-body-->
-		</div>
-		<!--end modal-content-->
-	</div>
-</div>
-<!--end modal-->
+<p>A list of over 1,400 record groups held by SPEC can be browsed in the table below, with basic sort, filter, and search functions. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0" target="_blank" rel="noopener">Archives West</a>.</p>
 
 <div class="form-group col-md-4">
 	<label for="groupSelect">Filter Collections</label>
