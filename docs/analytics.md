@@ -35,12 +35,16 @@ Looks like:
 
 [gtag docs](https://developers.google.com/analytics/devguides/collection/gtagjs/)
 
+test with [Tag Assistant Recording](https://support.google.com/analytics/answer/6277302) or real time view.
+
 ## Cross domain tracking
 
 Fairly easy to set up using gtag. 
 We just have to provide a list of all domains we want to track across, can use same snippet on all pages and domains.  
 
 https://developers.google.com/analytics/devguides/collection/gtagjs/cross-domain
+
+referral exclusion, https://support.google.com/analytics/answer/2795830 
 
 ## Enhanced link attribution 
 
