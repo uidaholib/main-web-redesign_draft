@@ -1,6 +1,8 @@
 <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
 <script src="{{ '/assets/js/jquery-3.4.1.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<!-- analytics events -->
+{% include google-analytics-events.html %}
 <!-- load other js -->
 <script src="{{ '/assets/js/hours.js' | relative_url }}" async></script>
 {% if page.lazyload == true %}<script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async></script>{% endif %}

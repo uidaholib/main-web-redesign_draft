@@ -53,4 +53,34 @@ You can still use the [Page Analytics](https://chrome.google.com/webstore/detail
 When using Page Analytics, you will notice the largest click groups are for the page itself--which is really clicks on modals, dropdowns, and menus. 
 For example, on the index page, for Oct 2019 - June 2019, 44% of clicks are to the index page--these are actually divided up between Ask Us modal, Menu dropdown, mobile Menu modal, mobile dropdown, All Database modal, etc. 
 
+# Event tracking
 
+To get information about clicks on the UI elements of the template, we add Google Analytics event tracking in the foot section. 
+
+[gtag events docs](https://developers.google.com/analytics/devguides/collection/gtagjs/events)
+
+Each event has action, category, and label. 
+To group all interactions with the UI elements on the mainweb together, I set up the category `mainweb_ui`.
+The event action is `ui_click` or `ui_mobile`. 
+The event label is the specific button that is clicked. 
+Thus each event looks like:
+
+`gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'askUsButton' });`
+
+That function has to be tied to the element on a click event. 
+Using jQuery, it looks like:
+
+`$('#askUsButton').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'askUsButton' }); });`
+
+The counts of these clicks can be viewed in Analytics > Behavior > Events.
+
+Buttons with events:
+
+- askUsButton
+- askUsButtonMobile
+- bigMenu
+- mobileMenu
+- mobilePageNav
+- databasesButton
+- databasesButtonNav
+- dropdownResearchToolsLink

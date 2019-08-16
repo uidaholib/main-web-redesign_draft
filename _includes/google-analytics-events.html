@@ -1,0 +1,13 @@
+<!-- gtag events -->
+{% if jekyll.environment == "production" %}
+<script>
+$('#askUsButton').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'askUsButton' }); });
+$('#askUsButtonMobile').click(function() { gtag('event', 'ui_mobile', { 'event_category': 'mainweb_ui', 'event_label': 'askUsButtonMobile' }); });
+$('#bigMenu').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'bigMenu' }); });
+$('#mobileMenu').click(function() { gtag('event', 'ui_mobile', { 'event_category': 'mainweb_ui', 'event_label': 'mobileMenu' }); });
+$('#mobilePageNav').click(function() { gtag('event', 'ui_mobile', { 'event_category': 'mainweb_ui', 'event_label': 'mobilePageNav' }); });
+$('#databasesButton').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'databasesButton' }); });
+$('#databasesButtonNav').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'databasesButtonNav' }); });
+$('#dropdownResearchToolsLink').click(function() { gtag('event', 'ui_mobile', { 'event_category': 'mainweb_ui', 'event_label': 'dropdownResearchToolsLink' }); });
+</script>
+{% endif %}
