@@ -1,6 +1,6 @@
 <script>
     $(document).ready(function () {
-        $('#sidebarButton').on('click', function () {
+        $('#mobilePageNav').on('click', function () {
             $('#sidebar').toggleClass('d-block');
         });
     });
