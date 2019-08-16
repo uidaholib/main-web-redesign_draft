@@ -28,6 +28,7 @@ histphoto-build: false
 idahobio-build: false
 all-collections-build: false
 
+#compress CSS output
 sass:
   style: compressed
 
