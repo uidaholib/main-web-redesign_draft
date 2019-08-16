@@ -1,7 +1,7 @@
 ---
 # metadata for table ajax
 ---
-{%- assign items = site.data.vivo-featured -%}
+{%- assign items = site.data.vivo_featured_researchers -%}
 { "researcher": [
     {%- for item in items -%}
     {

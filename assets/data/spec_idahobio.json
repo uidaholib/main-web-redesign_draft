@@ -3,7 +3,7 @@
 # only builds if idahobio-build is true
 # LNAME,FNAME,BDATE,DDATE,Code,VOL,PAGE,PORT,Author,Title,Publisher,Date,Vol,call_number,name,book
 ---
-{%- if site.idahobio-build == true -%}
+{%- if site.idahobio-build == true or jekyll.environment == "production" -%}
 {%- assign items = site.data.spec_idahobio -%}
 { "objects" : [
 {%- for i in items -%}[{{ i.name | jsonify }},{{ i.BDATE | jsonify }},{{ i.DDATE | jsonify }},{{ i.book | jsonify }},{{ i.call_number | jsonify }}]{% unless forloop.last %},{% endunless %}

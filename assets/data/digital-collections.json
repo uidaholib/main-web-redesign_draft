@@ -2,7 +2,7 @@
 # generate json for digital-collections nav for Digital
 # only builds if all-collections-build is true
 ---
-{%- if site.all-collections-build == true -%}
+{%- if site.all-collections-build == true or jekyll.environment == "production" -%}
 {%- assign digcoll = site.data.digital_all_collections -%}
 { "digcoll" : [ 
     {%- for d in digcoll -%} { "colltitle": {{ d.colltitle | jsonify }} , "shorttitle": {{ d.shorttitle | jsonify }} , "cdmtitle": {{ d.cdmtitle | jsonify }} , "cdmid": {{ d.cdmid | jsonify }} , "website": {{ d.website | jsonify }} , "path": {{ d.path | jsonify }} , "type": {{ d.type | jsonify }} , "alpha": {{ d.alpha | jsonify }} , "short_desc": {{ d.short_desc | jsonify }} , "description": {{ d.description | jsonify }} , "subjects": {{ d.subjects | jsonify }} , "media_type": {{ d.media_type | jsonify }} , "location": {{ d.location | jsonify }} , "lat": {{ d.lat | jsonify }} , "long": {{ d.long | jsonify }} , "time_start": {{ d.time_start | jsonify }} , "time_end": {{ d.time_end | jsonify }} , "image": {{ d.image | jsonify }} , "imagelink": {{ d.imagelink | jsonify }} , "imagetitle": {{ d.imagetitle | jsonify }} , "imageid": {{ d.imageid | jsonify }} , "imagewidth": {{ d.imagewidth | jsonify }} , "imageheight": {{ d.imageheight | jsonify }} } {% unless forloop.last %}, {% endunless %}{% endfor %}

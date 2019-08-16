@@ -2,7 +2,7 @@
 # create histphoto csv for download
 # only builds if histphoto-build is true 
 ---
-{%- if site.histphoto-build == true -%}
+{%- if site.histphoto-build == true or jekyll.environment == "production" -%}
 {%- assign items = site.data.spec_histphoto_full -%}
 serial_number,pg,title,date,thumb,digital_collection,notes,format,donor,item_data
 {%- for i in items -%}"{{ i.serial_number | escape }}","{{ i.pg | escape }}","{{ i.title | escape }}","{{ i.date | escape }}","{{ 'https://www.lib.uidaho.edu/special-collections/histphoto/' | append: i.thumb }}","{{ 'https://www.lib.uidaho.edu/digital/' | append: i.digital_collection }}","{{ i.notes | escape }}","{{ i.format | escape }}","{{ i.donor | escape }}","{{ i.item_data | escape }}"

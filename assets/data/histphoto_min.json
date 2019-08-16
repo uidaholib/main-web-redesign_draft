@@ -2,7 +2,7 @@
 # create optimized histphoto json for table
 # only builds if histphoto-build is true
 ---
-{%- if site.histphoto-build == true -%}
+{%- if site.histphoto-build == true or jekyll.environment == "production" -%}
 {%- assign items = site.data.spec_histphoto_full -%}
 { "objects" : [
 {%- for i in items -%}[{{ i.serial_number | jsonify }},{{ i.pg | jsonify }},{{ i.title | jsonify }},{{ i.date | jsonify }},{{ i.thumb | jsonify }},{{ i.digital_collection | jsonify }}]{% unless forloop.last %},{% endunless %}
