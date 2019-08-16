@@ -12,15 +12,15 @@ layout: default
         <div class="row">
             <div class="col-md-3 col-8 px-0">
                 <!-- page nav button -->
-                <button class="btn btn-secondary d-md-none col-sm-12 px-0 rounded-0" id="sidebarButton" type="button">
+                <button id="mobilePageNav" class="btn btn-secondary d-md-none col-sm-12 px-0 rounded-0" id="sidebarButton" type="button">
                     MENU <span class="fas fa-chevron-down"></span>
                 </button>
                 <!-- page nav / sidebar -->
                 {% include page-nav.html %}
             </div>
-            <div class="col-4 px-0 d-md-none d-block">
+            <div class="col-4 px-0 d-block d-md-none">
                 <!-- ask us button -->
-                <button class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#askUsModal">
+                <button id="askUsButtonMobile" class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#askUsModal">
                 Ask Us</button>
             </div>
             <!-- page -->
