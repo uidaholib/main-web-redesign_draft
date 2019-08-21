@@ -8,7 +8,7 @@ layout: page
 <img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/media/mill/' | prepend: site.liburl }}" class="img-fluid rounded">
 
 <div class="alert alert-primary text-center" role="alert">
-<h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Summer Hours: Mon - Fri 9:00am - 5:00pm</h4>
+<h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Hours: Mon - Thu 9am - 7pm, Fri 9am - 6pm</h4>
 </div>
 
 The **Making, Innovating, Learning Laboratory** (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
