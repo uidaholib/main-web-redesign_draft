@@ -155,6 +155,8 @@ Find:
         url: /find/lc.html
       - name: Request a Book
         url: /find/request.html
+  - subsection: Data
+    link: /find/data.html
   - subsection: DVDs
     link: /find/dvds.html
   - subsection: Encyclopedias
