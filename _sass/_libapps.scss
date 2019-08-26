@@ -42,6 +42,16 @@ body {
     h2 {
         font-size: 32px;
     }
+    .btn-ask{
+        //color: $pride-gold;
+        background-color: transparent;
+        background-image: none;
+        border: 4px double $pride-gold;
+        &:hover{
+            background-color: $pride-gold;
+            color:white;
+        }
+    }
 }
 /* libapps content */
 .breadcrumb {
@@ -75,13 +85,3 @@ a {
 #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, .nav-pills>li.active>button, .nav-pills>li.active>button:focus, .nav-pills>li.active>button:hover, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover  {background-color: #febe10;}
 #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > a:hover , #s-lg-tabs-container .nav-tabs > li > button:hover , #s-lg-tabs-container .nav-pills > li > a:hover , #s-lg-tabs-container .nav-pills > li > button:hover {background-color: #444040;}
 #s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {background-color: #444040;}
-.btn-ask{
-    //color: $pride-gold;
-    background-color: transparent;
-    background-image: none;
-    border: 4px double $pride-gold;
-    &:hover{
-        background-color: $pride-gold;
-        color:white;
-    }
-}
