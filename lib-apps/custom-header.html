@@ -1,25 +1,27 @@
-<!-- Last build date: 2018-09-09 -->
+<!-- Last build date: 2019-08-26 -->
 <div id="libapps-custom">
     
 <div id="top-bar" class="container-fluid">
     <div class="row">
         <!-- link to UI -->
-        <div class="col float-left d-none d-md-block pt-1">
-            <a id="topbar-ui-home" href="https://www.uidaho.edu" target="_blank" rel="noopener">University of Idaho</a>
+        <div class="col d-none d-md-block pt-1">
+            <a id="topbar-ui-home" href="https://www.uidaho.edu" target="_blank">University of Idaho</a>
         </div>
+        <!-- hours -->
         <div class="col text-md-center pt-1 text-sm-left">
-            <a id="topbar-hours" href="https://www.lib.uidaho.edu/about/hours.html">
+            <a id="topbar-hours" href="{{ 'about/hours.html' | relative_url }}">
                 <span class="fas fa-clock"></span>
                 <span id="timedisp"></span>
             </a>
         </div>
-
-        <!-- lib info section -->
+        <!-- lib info -->
         <div class="col text-right pt-1 ">
-            <a id="topbar-rooms" class="d-none d-sm-inline-block mr-3" href="https://www.lib.uidaho.edu/services/rooms.html" class="mr-3">
+            <a id="topbar-rooms" class="d-none d-md-inline-block mr-3" href="{{ '/services/rooms.html' | relative_url }}" >
                 <span class="fas fa-door-open"></span> Book a Room</a>
-            <a id="topbar-account" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=UID" title="Link to your Catalog/Primo Account">
+            <a id="topbar-account" class="d-none d-md-inline-block mr-3" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=UID" title="Link to your Catalog/Primo Account">
                 <span class="fas fa-sign-in-alt"></span> Account</a>
+            <a id="topbar-help" href="{{ '/help/' | relative_url }}">
+                <span class="far fa-question-circle"></span> Help</a>
         </div>
     </div>
 </div>
@@ -34,7 +36,7 @@
         <!-- quick nav -->
         <div class="col-3 float-right text-right d-none d-md-block">
             <!-- ask a librarian button -->
-            <a href="https://www.lib.uidaho.edu/help/" type="button" class="btn btn-lg btn-outline-pride-gold mr-2">Ask Us</a>
+            <a id="askUsButton" href="https://www.lib.uidaho.edu/help/" class="btn btn-lg btn-ask text-body"><strong><span class="far fa-comment-dots"></span> Ask Us</strong></a>
         </div>
     </div>
 </div>
@@ -59,13 +61,9 @@
                 </li>
                 <li class="nav-item mx-2  ">
                     <a class="nav-link" href="https://www.lib.uidaho.edu/about/">
-                        <span class="fas fa-map-marker-alt"></span> About</a>
+                        <span class="fas fa-info-circle"></span> About</a>
                 </li>
             </ul>
-<!--
-            <div class="nav navbar-nav navbar-right d-none d-md-block">
-                <a href="https://libguides.uidaho.edu/" class="btn btn-outline-secondary btn-lg">Research Guides</a>
-            </div>-->
 
         </div>
     </div>
