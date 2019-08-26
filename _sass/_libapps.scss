@@ -47,3 +47,31 @@ body {
 .breadcrumb {
     a { color: #191919; }
 }
+
+/*Color adjustment August 2019*/
+a:focus, a:hover {
+    color: #191919;
+    text-decoration: underline;
+}
+a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-info, .btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover, .label-info {
+    background-color: #00AEC7;
+    border-color: #00AEC7;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #003E51 !important;
+    border-color: #003E51 !important}
+.btn-link {
+     font-weight: 400;
+        color: #00AEC7;
+        border-radius: 0;
+    }
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > button, #s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > button {background-color: #191919;}
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, .nav-pills>li.active>button, .nav-pills>li.active>button:focus, .nav-pills>li.active>button:hover, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover  {background-color: #febe10;}
+#s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > a:hover , #s-lg-tabs-container .nav-tabs > li > button:hover , #s-lg-tabs-container .nav-pills > li > a:hover , #s-lg-tabs-container .nav-pills > li > button:hover {background-color: #444040;}
+#s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {background-color: #444040;}
