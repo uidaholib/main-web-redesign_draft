@@ -331,7 +331,7 @@ Services:
       - name: How To
         url: /services/reserve/howto.html
       - name: Streaming Video
-        url: /services/reserve/swank.html
+        url: /services/reserve/video.html
       - name: Copyright/Fair Use
         url: /services/reserve/fairuse.html
       - name: FAQs
