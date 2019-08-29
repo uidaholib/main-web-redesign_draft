@@ -308,6 +308,25 @@ MILL:
     link: /mill/news.html
   - subsection: FAQ
     link: /mill/faq.html
+  - subsection: The Studio A/V Lab
+    link: /studio/
+
+# The Studio Section
+The Studio:
+  - parent: The Studio
+    stub: /studio/
+  - subsection: The Studio Home
+    link: /studio/
+  - subsection: Field Recording Equipment
+    link: /studio/field_recording_equipment.html
+  - subsection: Audio Equipment and Software
+    link: /studio/audio.html
+  - subsection: Video Equipment and Software
+    link: /studio/video.html
+  - subsection: Terms of Use
+    link: /studio/termsofuse.html
+
+
 
 # Services Section
 Services:
@@ -384,6 +403,8 @@ Services:
         url: /services/ill/other.html
   - subsection: The MILL
     link: /mill/
+  - subsection: The Studio
+    link: /studio/  
   - subsection: "Open @ UI Library"
     link: /open/
     subpages: 
