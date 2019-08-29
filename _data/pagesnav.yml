@@ -155,12 +155,17 @@ Find:
         url: /find/lc.html
       - name: Request a Book
         url: /find/request.html
-  - subsection: DVDs
-    link: /find/dvds.html
   - subsection: Encyclopedias
     link: /find/encyclopedias.html
   - subsection: Events
-    link: /events/    
+    link: /events/
+  - subsection: Films & Video
+    link: /find/video.html
+    subpages: 
+      - name: Films & Video
+        url: /find/video.html
+      - name: DVDs
+        url: /find/dvds.html      
   - subsection: Geospatial Resources
     link: /find/geospatial/
   - subsection: Gov. Documents
