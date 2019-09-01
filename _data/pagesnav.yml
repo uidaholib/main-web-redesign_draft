@@ -155,14 +155,17 @@ Find:
         url: /find/lc.html
       - name: Request a Book
         url: /find/request.html
-  - subsection: Data
-    link: /find/data.html
-  - subsection: DVDs
-    link: /find/dvds.html
+  - subsection: DVDs & Streaming Video
+    link: /find/video.html
+    subpages: 
+      - name: DVDs & Streaming Video
+        url: /find/video.html
+      - name: DVDs
+        url: /find/dvds.html         
   - subsection: Encyclopedias
     link: /find/encyclopedias.html
   - subsection: Events
-    link: /events/    
+    link: /events/     
   - subsection: Geospatial Resources
     link: /find/geospatial/
   - subsection: Gov. Documents
@@ -305,6 +308,25 @@ MILL:
     link: /mill/news.html
   - subsection: FAQ
     link: /mill/faq.html
+  - subsection: The Studio A/V Lab
+    link: /studio/
+
+# The Studio Section
+The Studio:
+  - parent: The Studio
+    stub: /studio/
+  - subsection: The Studio Home
+    link: /studio/
+  - subsection: Field Recording Equipment
+    link: /studio/field_recording_equipment.html
+  - subsection: Audio Equipment and Software
+    link: /studio/audio.html
+  - subsection: Video Equipment and Software
+    link: /studio/video.html
+  - subsection: Terms of Use
+    link: /studio/termsofuse.html
+
+
 
 # Services Section
 Services:
@@ -333,7 +355,7 @@ Services:
       - name: How To
         url: /services/reserve/howto.html
       - name: Streaming Video
-        url: /services/reserve/swank.html
+        url: /services/reserve/video.html
       - name: Copyright/Fair Use
         url: /services/reserve/fairuse.html
       - name: FAQs
@@ -381,6 +403,8 @@ Services:
         url: /services/ill/other.html
   - subsection: The MILL
     link: /mill/
+  - subsection: The Studio
+    link: /studio/  
   - subsection: "Open @ UI Library"
     link: /open/
     subpages: 
