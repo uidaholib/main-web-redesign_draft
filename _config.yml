@@ -25,9 +25,10 @@ liburl: https://www.lib.uidaho.edu
 # these tables significantly increase build time 
 # switch to true as necessary to generate the assets
 histphoto-build: false
-idahobib-build: false
+idahobio-build: false
 all-collections-build: false
 
+#compress CSS output
 sass:
   style: compressed
 

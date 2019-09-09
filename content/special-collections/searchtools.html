@@ -11,94 +11,76 @@ permalink: /special-collections/searchtools.html
 </div>
 
 <div class="row py-2">
-	<div class="col-md-12">
-		<p>We provide researchers with a variety of tools to search and access our collections and collection descriptions (aka, finding aids). Many of our collections have been digitized which you can search using the link to our Digital Collections page linked below. </p>
-	</div>
-</div>
 
-<div class="row">
+	<div class="col-md-12 my-3">
+		<p>We provide researchers with a variety of tools to search and access our collections and collection descriptions (aka, finding aids). Many of our collections have been digitized which you can search using the link to our Digital Collections page below. </p>
+	</div>
+
 	<div class="col-md-12">
 		<div class="card mb-3">
 			<div class="card-body text-center">
-
-				<form action="http://archiveswest.orbiscascade.org/search/results.aspx" method="get">Search for our finding aids on
-					<a href="#nwda" data-toggle="modal" data-target="#nwda">Archives West</a>:
-					<div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header text-center">
-									<h3 class="modal-title">About the Northwest Digital Archives</h3>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								</div>
-								<!--end modal-header-->
-								<div class="modal-body text-center">
-									<p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. Please contact <a href='contactus.html'>our staff</a> for additional assistance</a>.</p>
-								</div>
-								<!--end modal-body-->
-							</div>
-							<!--end modal-content-->
-						</div>
+	  
+			  <p class="mb-1">Search our finding aids on Archives West <a href="#" data-toggle="modal" data-target="#nwda" role="button"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a></p>
+	  
+			  <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get">
+				<input id="searchValue" size="40" class="form-control mt-2" name="q" type="text"> 
+				<input id="t" name="t" type="hidden" value="k">
+				<input id="c" name="c" type="hidden" value="ntd">
+				<button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
+			  </form>
+	  
+			  <!-- modal -->
+			  <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
+				<div class="modal-dialog" role="document">
+				  <div class="modal-content">
+					<div class="modal-header text-center">
+					  <h3 class="modal-title">About Archives West</h3>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
 					</div>
-					<!--end modal-->
+					<div class="modal-body">
+					  <p><a href="https://archiveswest.orbiscascade.org/" target="_blank" rel="noopener">Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. Please contact <a href="contactus.html">our staff</a> for additional assistance.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <!--end modal-->
+	  
+			</div>
+		</div>
+	</div>
 
-					<!--
-										<p>Note: <a href='http://archiveswest.orbiscascade.org/'> Archives West</a> is a collection of finding aids from organizations throughout the Nortwest. This search box will take you to their website, searching only our holdings. You may also <a href=''>search our website</a>, or contact <a href='contactus.html'>our staff</a> for additional assistance</a>./p></div> -->
-					<input id="searchValue" name="q" type="text"> &nbsp;&nbsp;
-					<input id="searchSubmit" class="btn btn-pride-gold" type="submit" value="Search Archives West">
-					<input id="t" name="t" type="hidden" value="k">
-					<input id="c" name="c" type="hidden" value="ntd">
+	<div class="col-md-12 mb-3">
+		<div class="text-center">
+			<a href="https://www.lib.uidaho.edu/special-collections/histphoto/" class="btn btn-secondary btn-md my-2">Search for Individual Photographs</a>
+			<a href="searchall.html" class="btn btn-secondary btn-md my-2">Search our Collection Finding Aids</a>
+		</div>
+	</div>
+
+	<div class="col-md-12 mb-3">
+		<div class="card mb-3">
+			<div class="card-body text-center">
+				<p>Search our <a href=https://www.lib.uidaho.edu/digital/index.html>Digital Collections</a> containing tens of thousands of items digitized from SPEC holdings.</p>
+
+				<form class="form-inline justify-content-center" action="https://digital.lib.uidaho.edu/cdm4/results.php" method="get">
+					<input type="hidden" value="all" name="CISOOP1">
+					<input type="text" name="CISOBOX1" size="40" placeholder=" Search all digital items" class="form-control mt-2" >
+					<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD1">
+					<input type="hidden" value="exact" name="CISOOP2">
+					<input type="hidden" value="" name="CISOBOX2">
+					<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD2">
+					<input type="hidden" value="any" name="CISOOP3">
+					<input type="hidden" value="" name="CISOBOX3">
+					<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD3">
+					<input type="hidden" value="none" name="CISOOP4">
+					<input type="hidden" value="" name="CISOBOX4">
+					<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD4">
+					<input type="hidden" value="all" name="CISOROOT">
+					<button id="searchDigitalSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Digital Collections</button>
 				</form>
-
-
 			</div>
 		</div>
 	</div>
 
-
-</div>
-
-<div class="row">
-	<div class="col-md-12">
-		<div class="text-center">
-			<a href="https://www.lib.uidaho.edu/special-collections/histphoto/" class="btn btn-secondary btn-md my-2"> Search for Individual Photographs</a>
-
-			<a href="searchall.html" class="btn btn-secondary btn-md my-2"> Search our Collection Finding Aids</a>
-		</div>
-	</div>
-</div>
-
-<div class="row pt-2 pb-4">
-	<div class="col-md-12">
-		<hr>
-		<div class="text-center">
-
-
-			<div class="mt-8">
-				<h3 id="diglist"><a href=https://www.lib.uidaho.edu/digital/index.html>Digital Collections</a> </h3> </div> <div id="collectionlist" class="mb-8" style="top: 0px;">
-
-
-						<div style="">
-							<form action="http://digital.lib.uidaho.edu/cdm4/results.php" method="get">
-								<input type="hidden" value="all" name="CISOOP1">
-								<input type="text" size="40" name="CISOBOX1" style="font-size:12px;" placeholder=" Search all digital items">
-								<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD1">
-								<input type="hidden" value="exact" name="CISOOP2">
-								<input type="hidden" value="" name="CISOBOX2">
-								<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD2">
-								<input type="hidden" value="any" name="CISOOP3">
-								<input type="hidden" value="" name="CISOBOX3">
-								<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD3">
-								<input type="hidden" value="none" name="CISOOP4">
-								<input type="hidden" value="" name="CISOBOX4">
-								<input type="hidden" value="CISOSEARCHALL" name="CISOFIELD4">
-								<input type="hidden" value="all" name="CISOROOT">
-								<input class="button-all" type="submit" value="Go" style="font-size:12px;">
-							</form>
-						</div>
-
-			</div>
-		</div>
-	</div>
 </div>
