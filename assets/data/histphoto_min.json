@@ -5,6 +5,6 @@
 {%- if site.histphoto-build == true or jekyll.environment == "production" -%}
 {%- assign items = site.data.spec_histphoto_full -%}
 { "objects" : [
-{%- for i in items -%}[{{ i.serial_number | jsonify }},{{ i.pg | jsonify }},{{ i.title | jsonify }},{{ i.date | jsonify }},{{ i.thumb | jsonify }},{{ i.digital_collection | jsonify }}]{% unless forloop.last %},{% endunless %}
+{%- for i in items -%}[{{ i.serial_number | jsonify }},{{ i.pg | jsonify }},{{ i.title | jsonify }},{{ i.date | jsonify }},{% if i.notes %}{{ i.notes | jsonify }}{% else %}""{% endif %},{% if i.thumb %}{{ i.thumb | jsonify }}{% else %}""{% endif %},{% if i.digital_collection %}{{ i.digital_collection | jsonify }}{% else %}""{% endif %}]{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ] }{% endif %}

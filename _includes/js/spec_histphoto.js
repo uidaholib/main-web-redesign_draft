@@ -18,16 +18,14 @@ $.fn.dataTableExt.afnFiltering.push(
         // defer render to speed up large sets
         "deferRender": true,
         // get the data from the json
-        // Title,Date,Photo Group,ID Number,Image link,Digital Collection link
-        columns: [ { data: '2' }, { data: '3' }, { data: '1' }, { data: '0' }, { data: '4' }, { data: '5' } ],
+        // Title,Date,Notes,Photo Group,ID Number,Image link,Digital Collection link
+        columns: [ { data: '2' }, { data: '3' }, { data: '4' }, { data: '1' }, { data: '0' }, { data: '5' }, { data: '6' } ],
         columnDefs: [ 
             // make Image link
-            { "render": function ( data ) { if (data && data.split(";")[0] !== "cdm" ) { return '<a href="https://www.lib.uidaho.edu/special-collections/histphoto/' + data +'" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 4 },
+            { "render": function ( data ) { if (data && data.split(";")[0] !== "cdm" ) { return '<a href="https://www.lib.uidaho.edu/special-collections/histphoto/' + data +'" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 },
             // make Digital Collection link
-            { "render": function ( data, row ) { if (data) { return '<a href="https://www.lib.uidaho.edu/digital/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 }
+            { "render": function ( data, row ) { if (data) { return '<a href="https://www.lib.uidaho.edu/digital/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 6 }
             //{ "render": function ( data, type, row ) { if (data) { return '<a href="https://digital.lib.uidaho.edu/cdm/search/collection/' + data +'/searchterm/' + encodeURIComponent(row['5']) + '/field/all/mode/all/conn/and/order/title/ad/asc" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 }
-            // hide the link column
-            //{ "visible": false,  "targets": [ 4 ] }
         ],
         paging: true,
         lengthMenu: [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
