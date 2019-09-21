@@ -3,13 +3,22 @@ title: GIS Software
 section: Find
 layout: page
 permalink: /find/geospatial/software.html
+table-id: "#geo"
 ---
+
+{% assign data = site.data.geoapps %}
+
+<style>
+    .table-button {
+        width: 30%;
+    }
+</style>
 
 <div class="row">
     <div class="col-md-12">
         <p>
-            A variety of GIS software tools are available for creating, analyzing, and visulization geospatial data.  University of Idaho students, 
-            faculty, and staff have access for Esri products through a higher education site license but there are also many
+            A variety of GIS software tools are available for creating, analyzing, and visualizing geospatial data.  University of Idaho students, 
+            faculty, and staff have access to Esri products through a higher education site license but there are also many
             open source options.
         </p>
     </div>
@@ -140,256 +149,57 @@ permalink: /find/geospatial/software.html
     </div> <!--end column-->
 </div> <!--end row-->
 
-<div class="row">
-        <div class="col-md-4">
-            <div class="card my-2">
-                <div class="card-header text-center">
-                    <h5 class="mb-0">Apps for Advanced Analytics</h5>
-                </div>
-                <div class="card-body">
-                    <div class="text-center">
-                        <p>         
-                            Conduct analysis in a web app that brings together location analytics, open data science, and business intelligence workflows
-                        </p>
-                        <a href="https://www.esri.com/en-us/arcgis/products/insights-for-arcgis/overview" 
-                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Insights for ArcGIS Overview">
-                        Insights for ArcGIS</a>
-                    </div>
-                </div>
-            </div>
-        </div> <!--end column-->
-    
-        <div class="col-md-4">
-            <div class="card my-2">
-                <div class="card-header text-center">
-                    <h5 class="mb-0">Apps for Collecting Field Data</h5>
-                </div>
-                <div class="card-body">
-                    <div class="text-center">
-                        <p>
-                            Collect data in the field using a map-centric app
-                        </p>
-                        <a href="https://www.esri.com/en-us/arcgis/products/collector-for-arcgis/overview" 
-                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Collector for ArcGIS Overview">
-                        Collector for ArcGIS</a>
-                    </div>
-                    <p></p>
-                    <div class="text-center">
-                        <p>
-                            Collect data in the field using a form-centric app
-                        </p>
-                        <a href="https://www.esri.com/en-us/arcgis/products/survey123/overview" 
-                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Survey123 for ArcGIS Overview">
-                        Survey123 for ArcGIS</a>
-                    </div>
-                </div>
-            </div>
-        </div> <!--end column-->
-    
-        <div class="col-md-4">
-            <div class="card my-2">
-                <div class="card-header text-center">
-                    <h5 class="mb-0">Apps for Collecting Crowdsource Data</h5>
-                </div>
-                <div class="card-body">                  
-                    <div class="text-center">
-                        <p>
-                            Collect problems or observations from the public
-                        </p>
-                        <a href="https://solutions.arcgis.com/local-government/help/crowdsource-reporter/" 
-                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Crowdsource Reporter Overview">
-                        Crowdsource Reporter</a>
-                    </div>
-                    <p></p>
-                    <div class="text-center">
-                        <p>
-                            Collect comments for feedback from the public
-                        </p>
-                        <a href="https://solutions.arcgis.com/local-government/help/crowdsource-polling/" 
-                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Crowdsource Polling Overview">
-                        Crowdsource Polling</a>
-                    </div>
-                </div>
-            </div>
-        </div> <!--end column-->
-    </div> <!--end row-->
-    
-    <div class="row">
-            <div class="col-md-4">
-                    <div class="card my-2">
-                            <div class="card-header text-center">
-                                    <h5 class="mb-0">Apps for Real-time Visualization</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <p>
-                                            Visualize and analyze real-time data from a dynamic dashboard
-                                        </p>
-                                        <a href="https://www.esri.com/en-us/arcgis/products/operations-dashboard/overview"
-                                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Operations Dashboard for ArcGIS Overview">
-                                        Operations Dashboard for ArcGIS</a>
-                                    </div> 
-                                </div>
-                    </div>
-                </div> <!--end column-->        
-            <div class="col-md-4">
-                    <div class="card my-2">
-                        <div class="card-header text-center">
-                            <h5 class="mb-0">Apps for Communicating Research Results</h5>
-                        </div>
-                        <div class="card-body">
-                                <div class="text-center">
-                                    <p>        
-                                        Digital Storytelling using maps, photos, video, charts, and text
-                                    </p>
-                                        <a href="https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview" 
-                                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="ArcGIS StoryMaps Overview">
-                                        ArcGIS StoryMaps</a>
-                                </div> 
-                        </div>
-                    </div>
-                </div> <!--end column-->
-        
-            <div class="col-md-4">
-                <div class="card my-2">
-                    <div class="card-header text-center">
-                        <h5 class="mb-0">Apps for Visualizing Tablular Data</h5>
-                    </div>
-                    <div class="card-body">                  
-                        <div class="text-center">
-                            <p>
-                                Add interactive maps to Excel spreadsheets
-                            </p>
-                            <a href="https://www.esri.com/en-us/arcgis/products/arcgis-maps-for-office/overview" 
-                            class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="ArcGIS Maps for Office Overview">
-                            ArcGIS Maps for Office</a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!--end column-->
-        </div> <!--end row-->
-  
-    <div class="row">
-            <div class="col-md-4">
-                <div class="card my-2">
-                    <div class="card-header text-center">
-                        <h5 class="mb-0">App Builders</h5>
-                    </div>
-                    <div class="card-body">
-                        <div class="text-center">
-                            <p>
-                                Create mapping apps for the web (no coding required)
-                            </p>
-                            <a href="https://www.esri.com/en-us/arcgis/products/web-appbuilder/overview" 
-                            class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="Web AppBuilder for ArcGIS Overview">
-                            Web AppBuilder for ArcGIS</a>
-                        </div>
-                        <p></p>
-                        <!--<img src="https://www.esri.com/content/dam/esrisites/en-us/arcgis/products/arcgis-online/assets/arcgis-online-product-logo-icon.png" class="img-fluid mb-3">-->
-                        <!--<div class="text-center">-->
-                        
-                        <div class="text-center"> 
-                            <p>
-                                Transform you data into compelling web apps (no coding required)
-                            </p>
-                            <a href="https://www.esri.com/en-us/arcgis/products/appstudio-for-arcgis/overview"
-                            class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="ArcGIS Experience Builder Overview">
-                            ArcGIS Experience Builder</a>
-                        </div>
-                        <p></p>
-                    
-                        <div class="text-center">
-                            <p>
-                                Create geoenabled cross-platform apps
-                            </p>
-                            <a href="https://www.esri.com/en-us/arcgis/products/appstudio-for-arcgis/overview"
-                            class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="AppStudio for ArcGIS Overview">
-                            AppStudio for ArcGIS</a>
-                        </div>  
-                    </div>
-                </div>
-            </div> <!--end column-->
-             
-            <div class="col-md-4">
-                    <div class="card my-2">
-                        <div class="card-header text-center">
-                            <h5 class="mb-0">Apps for Demographic Analysis</h5>
-                        </div>
-                        <div class="card-body">
-                                <div class="text-center"> 
-                                    <p>
-                                        Perform demograpic analysis using a tool focused primarily a site selection
-                                    </p>
-                                        <a href="https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/applications/desktop"
-                                        class="btn btn-outline-pride-gold my-2" role="button" target="_blank" rel="noopener" title="ArcGIS Business Analyst Desktop Overview">
-                                        ArcGIS Business Analyst Desktop</a>
-                                        <a href="https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/applications/web-mobile-apps"
-                                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="ArcGIS Business Analyst Web & Mobile Overview">
-                                        ArcGIS Business Analyst Web & Mobile</a>
-                                </div>    
-                                <p></p>
-                                <div class="text-center">
-                                    <p> 
-                                        Perform demographic analysis using a tool focused primarily on policy issues and enabling understanding of commuinities 
-                                        from a "social issues" perspective
-                                    </p>
-                                        <a href="https://www.esri.com/en-us/arcgis/products/arcgis-community-analyst/overview"
-                                        class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="ArcGIS Community Analyst Overview">
-                                        ArcGIS Community Analyst</a>
-                                </div>    
-                        </div>
-                    </div>
-                </div> <!--end column-->
-    
-
-
-           <div class="col-md-4">
-                <div class="card my-2">
-                        <div class="card-header text-center">
-                                <h5 class="mb-0">Apps for Planning</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="text-center"> 
-                                <p>
-                                    Use a web-based tool to design planning scenarios
-                                </p>
-                                    <a href="https://www.esri.com/en-us/arcgis/products/geoplanner-for-arcgis/overview"
-                                    class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="GeoPlanner for ArcGIS Overview">
-                                    GeoPlanner for ArcGIS</a>
-                            </div>    
-                        </div>
-                </div>
-            </div> <!--end column-->
-        </div> <!--end row-->
-
-<p></p>
 <hr>
-<p></p>
+
+<h3 class="my-3" id="reduced"><i class="fa fa-globe"></i> Esri Applications</h3>
+
+<p>Search and sort the table below to find an ArcGIS app that fits your needs:</p>
 
 <div class="row">
-        <div class="col-md-8">
-            <div class="card my-2">
-                <div class="card-header text-left">
-                    <h5 class="mb-0">Open Source GIS Tools</h5>
-                </div>
-                <div class="card-body">
-                    <p>There are numerous desktop GIS software programs such as <a href="https://www.qgis.org/en/site/" target="_blank" rel="noopener" title="QGIS">
-                        QGIS</a>.  There are also many web-based options such as <a href="https://www.mapbox.com/" target="_blank" rel="noopener" title="Mapbox">
-                                    Mapbox</a> and <a href="https://carto.com/" target="_blank" rel="noopener" title="Carto">
-                                        Carto</a>.  Take a look at the <a href="https://www.osgeo.org/choose-a-project/" target="_blank" rel="noopener" title="OSGeo Projects">
-                                            OSGeo projects</a> to help you find an open sounce technology to meet your needs.
+    <div class="col">
+        <div class="card my-2">
+            <div class="card-body">
+
+                <table id="geo" class="table table-hover">
+                        <thead>
+                            <th scope="col" class="table-button">Resource</th>
+                            <th scope="col">Purpose</th>
+                            <th scope="col">Description</th>
+                        </thead>
+
+                        <tbody>
+                        {% for d in data %}
+                        <tr>
+                            <th scope="row">
+                                <a href="{{ d.button }}" 
+                                class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="{{ d.alt }} Overview">{{ d.button_title }}</a><div class="d-none">{{ d.button_title }}</div>
+                            </th>
+                            <td><strong>{{ d.purpose }}</strong></td>
+                            <td>{{ d.description }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row my-5">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Open Source GIS Tools</h5>
+            </div>
+            <div class="card-body">
+                <div class="card-text">
+                    <p>There are numerous desktop GIS software programs such as <a href="https://www.qgis.org/en/site/" target="_blank" rel="noopener" title="QGIS">QGIS</a>. There are also many web-based options such as <a href="https://www.mapbox.com/" target="_blank" rel="noopener" title="Mapbox">Mapbox</a> and <a href="https://carto.com/" target="_blank" rel="noopener" title="Carto">Carto</a>. Take a look at the <a href="https://www.osgeo.org/choose-a-project/" target="_blank" rel="noopener" title="OSGeo Projects">OSGeo projects</a> to help you find an open sounce technology to meet your needs.
                     </p>
-                    <!--
-                    <div class="text-left">
-                        <a href="https://duckduckgo.com/?q=open+source+gis+software&t=h_&ia=web" class="btn btn-outline-pride-gold" role="button"target="_blank" rel="noopener" 
-                        title="Open Source GIS Software Web Search">Open Source GIS Software Web Search</a>
-                    </div>
-                    -->
                 </div>
             </div>
-        </div> <!--end column-->
-        <div class="col-md-4 align-self-center">
-                <img src="{{ 'content/find/geospatial/images/open-tim-mossholder-unsplash.jpg' | relative_url }}" 
-                alt="Photo by Tim Mossholder on Unsplash" class="img-fluid mx-auto d-block">Photo by Tim Mossholder on Unsplash
-        </div> <!--end column-->
-    </div> <!--end row-->
+        </div>
+    </div>
+    <div class="col-md-4 align-self-center">
+        <img src="{{ 'content/find/geospatial/images/open-tim-mossholder-unsplash.jpg' | relative_url }}" alt="Photo by Tim Mossholder on Unsplash" class="img-fluid mx-auto d-block">
+    </div>
+</div>
