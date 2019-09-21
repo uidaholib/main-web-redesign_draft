@@ -5,7 +5,7 @@ $.fn.dataTableExt.afnFiltering.push(
         var collectionFilter = document.getElementById("collectionSelect").value;
         // show everything
         if (collectionFilter == "all") { return true; }
-        else { return aData[2] == collectionFilter; }
+        else { return aData[3] == collectionFilter; }
     }
 );
 </script>
