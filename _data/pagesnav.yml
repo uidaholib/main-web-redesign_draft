@@ -171,7 +171,7 @@ Find:
   - subsection: Events
     link: /events/     
   - subsection: Geospatial Resources
-    link: /find/geospatial/
+    link: /services/geospatial/
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
@@ -364,6 +364,8 @@ Services:
         url: /services/reserve/fairuse.html
       - name: FAQs
         url: /services/reserve/faq.html
+  - subsection: Curriculum Center
+    link: /services/curriculumcenter.html
   - subsection: Data &amp; Digital Services
     link: /services/dds.html
   - subsection: Data Management
@@ -373,16 +375,19 @@ Services:
         url: /services/data/
       - name: Data Management
         url: /services/data/data-management/
-      - name: Geospatial Resources
-        url: /find/geospatial/
       - name: DOI Service
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
   - subsection: Distance Education
     link: /services/distance.html
-  - subsection: Curriculum Center
-    link: /services/curriculumcenter.html
+  - subsection: Geospatial Resources
+    link: /services/geospatial/
+    subpages:
+      - name: Geospatial Home
+        url: /services/geospatial/
+      - name: Software
+        url: /services/geospatial/software.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
