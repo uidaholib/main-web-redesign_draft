@@ -1,6 +1,7 @@
 ---
 # generate sitemap of all html pages
 ---
+{%- if jekyll.environment == "production" -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for p in site.html_pages %}
@@ -21,4 +22,5 @@
       <changefreq>monthly</changefreq>
    </url>
 {% endfor %}
-</urlset> 
+</urlset>
+{%- endif -%}
