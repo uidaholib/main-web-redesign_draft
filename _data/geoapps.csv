@@ -1,0 +1,16 @@
+button,button_title,purpose,description,alt
+https://www.esri.com/en-us/arcgis/products/insights-for-arcgis/overview,Insights for ArcGIS,Advanced Analytics,"Conduct analysis in a web app that brings together location analytics, open data science, and business intelligence workflows",Insights for ArcGIS
+https://www.esri.com/en-us/arcgis/products/collector-for-arcgis/overview,Collector for ArcGIS,Collecting Field Data,Collect data in the field using a map-centric app,Collector for ArcGIS
+https://www.esri.com/en-us/arcgis/products/survey123/overview,Survey123 for ArcGIS,Collecting Field Data,Collect data in the field using a form-centric app,Survey123 for ArcGIS
+https://solutions.arcgis.com/local-government/help/crowdsource-reporter/,Crowdsource Reporter,Collecting Crowdsource Data,Collect problems or observations from the public,Crowdsource Reporter
+https://solutions.arcgis.com/local-government/help/crowdsource-polling/,Crowdsource Polling,Collecting Crowdsource Data,Collect comments for feedback from the public,Crowdsource Polling
+https://www.esri.com/en-us/arcgis/products/operations-dashboard/overview,Operations Dashboard for ArcGIS,Real-time Visualization,Visualize and analyze real-time data from a dynamic dashboard,Operations Dashboard for ArcGIS
+https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview,ArcGIS StoryMaps,Communicating Research Results,"Digital Storytelling using maps, photos, video, charts, and text",ArcGIS StoryMaps
+https://www.esri.com/en-us/arcgis/products/arcgis-maps-for-office/overview,ArcGIS Maps for Office,Visualizing Tablular Data,Add interactive maps to Excel spreadsheets,ArcGIS Maps for Office
+https://www.esri.com/en-us/arcgis/products/web-appbuilder/overview,Web AppBuilder for ArcGIS,App Builder,Create mapping apps for the web (no coding required),Web AppBuilder for ArcGIS
+https://www.esri.com/en-us/arcgis/products/appstudio-for-arcgis/overview,ArcGIS Experience Builder,App Builder,Transform your data into compelling web apps (no coding required),ArcGIS Experience Builder
+https://www.esri.com/en-us/arcgis/products/appstudio-for-arcgis/overview,AppStudio for ArcGIS,App Builder,Create geoenabled cross-platform apps,AppStudio for ArcGIS Overview
+https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/applications/desktop,ArcGIS Business Analyst Desktop,Demographic Analysis,Perform demograpic analysis using a tool focused primarily on site selection,ArcGIS Business Analyst Desktop
+https://www.esri.com/en-us/arcgis/products/arcgis-business-analyst/applications/web-mobile-apps,ArcGIS Business Analyst Web & Mobile,Demographic Analysis,Perform demograpic analysis using a tool focused primarily on site selection,ArcGIS Business Analyst Web & Mobile
+https://www.esri.com/en-us/arcgis/products/arcgis-community-analyst/overview,ArcGIS Community Analyst,Demographic Analysis,"Perform demographic analysis using a tool focused primarily on policy issues and enabling understanding of commuinities from a ""social issues"" perspective",ArcGIS Community Analyst
+https://www.esri.com/en-us/arcgis/products/geoplanner-for-arcgis/overview,GeoPlanner for ArcGIS,Planning,Use a web-based tool to design planning scenarios,GeoPlanner for ArcGIS
