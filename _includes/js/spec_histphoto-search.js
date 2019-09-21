@@ -1,4 +1,4 @@
-{%- assign fields = "pg,title,date,thumb,digital_collection,notes,format,donor,item_data" | split: "," -%}
+{%- assign fields = "title,pg,text" | split: "," -%}
 <script src="{{ '/assets/js/lunr.min.js' | absolute_url }}"></script>
 <script src="{{ '/assets/data/histphoto_lunr-store.js' | absolute_url }}"></script>
 <script>
@@ -48,7 +48,7 @@ function lunr_search () {
     var searchitem =
       '<tr>'+
           '<td class="">' +
-            {% assign display = "title,id,pg,date,thumb,digital_collection,notes,format,donor,item_data" %}
+            {% assign display = fields %}
             {% for d in display %}
             {% if forloop.first %}
             '<p class="h4">' + store[ref].{{ d }}  + '</p>' +

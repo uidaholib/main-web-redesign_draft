@@ -24,7 +24,7 @@ liburl: https://www.lib.uidaho.edu
 # Build data tables
 # these tables significantly increase build time 
 # switch to true as necessary to generate the assets
-histphoto-build: false
+histphoto-build: true
 idahobio-build: false
 all-collections-build: false
 
