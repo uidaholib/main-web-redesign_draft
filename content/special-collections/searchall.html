@@ -82,12 +82,10 @@ custom-foot: "js/spec_searchall.js"
 		<td class="title">{{item.title}}</td>
 		<td class="grouptype">{{item.type}}</td>
 		<td class="groupnumber">{{item.number | prepend: '0000' | slice: -4, 4 }}</td>
-		<td class="finding-aid">{% unless item.link == "none" %}<small><a target="_blank" rel="noopener" href="{{item.link}}">
-					Finding Aid</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small> </td>
-		<td class="digital-collection">{% unless item.digital-collection == "none" %}<small><a target="_blank" rel="noopener" href="{{item.digital-collection}}">
-					Digital Collection</a> <i class="fas fa-external-link-alt"></i>{%endunless%}</small> </td>
+		<td class="finding-aid">{% if item.link %}<small><a target="_blank" rel="noopener" href="{{item.link}}">Finding Aid <i class="fas fa-external-link-alt"></i></a></small>{% endif %}</td>
+		<td class="digital-collection">{% if item.digital-collection %}<small><a target="_blank" rel="noopener" href="{{item.digital-collection}}">Digital Collection <i class="fas fa-external-link-alt"></i></a></small>{% endif %}</td>
 	</tr>
-	{%endfor%}
+	{% endfor %}
 	</tbody>
 </table>
 </div>
