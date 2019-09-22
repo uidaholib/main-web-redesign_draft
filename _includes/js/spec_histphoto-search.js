@@ -1,26 +1,32 @@
-{%- assign fields = "title,pg,text" | split: "," -%}
-<script src="{{ '/assets/js/lunr.min.js' | absolute_url }}"></script>
-<script src="{{ '/assets/data/histphoto_lunr-store.js' | absolute_url }}"></script>
+{% assign fields = "pg,title,text,serial_number" | split: "," %}
+<script src="{{ '/assets/js/lunr.min.js' | relative_url }}"></script>
 <script>
 /* initialize lunr */
-var idx = lunr(function () {
-  /* add index fields from config */
-  this.ref('id')
-  {% for f in fields %}
-  this.field('{{ f }}')
-  {% endfor %}
 
-  //this.pipeline.remove(lunr.trimmer)
+$.getJSON( "{{ '/assets/data/histphoto_lunr-store.json' | relative_url }}", function( data ) {
+  var idx = lunr(function () {
+    /* add index fields from config */
+    this.ref('id')
+    {% for f in fields %}
+    this.field('{{ f }}')
+    {% endfor %}
+  
+    //this.pipeline.remove(lunr.trimmer)
+  
+    for (var item in data.store) {
+      this.add({
+        {% for f in fields %}
+        {{ f }}: item[{{ forloop.index0 }}],
+        {% endfor %}
+        id: item
+      })
+    }
+  });
+  
+  console.log(data.store.length);
+  console.log(idx.length);
 
-  for (var item in store) {
-    this.add({
-      {% for f in fields %}
-      {{ f }}: store[item].{{ f }},
-      {% endfor %}
-      id: item
-    })
-  }
-});
+  
 
 /* search function */
 function lunr_search () {
@@ -69,5 +75,8 @@ $(document).ready(function() {
     $('input#search').val(queryString);
     lunr_search ();
   }
+});
+
+
 });
 </script>
