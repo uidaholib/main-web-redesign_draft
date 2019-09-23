@@ -1,7 +1,7 @@
 <script src="{{ '/assets/datatables/datatables.min.js' | relative_url }}"></script>
 <script>
 (function(){
-    // add a text input to each footer cell
+    // add text input to each footer heading for search
     $('#item-table tfoot th').each( function () {
         var title = $(this).text();
         $(this).html( '<input type="text" placeholder="Search '+title+'" />' );

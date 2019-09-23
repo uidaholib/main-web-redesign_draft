@@ -10,8 +10,13 @@ $.fn.dataTableExt.afnFiltering.push(
 );
 </script>
 <script>
-/* use jquery to initialize DataTables and load collection data */
 (function(){
+    // add text input to each footer heading for search
+    $('#item-table tfoot .col-search').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+    } );
+    // initialize DataTables
     var table = $('#item-table').DataTable( {
         // use DataTables ajax load 
         ajax: { url: '{{ "/assets/data/histphoto_min.json" | relative_url }}', dataSrc: 'objects' },
@@ -28,16 +33,27 @@ $.fn.dataTableExt.afnFiltering.push(
             //{ "render": function ( data, type, row ) { if (data) { return '<a href="https://digital.lib.uidaho.edu/cdm/search/collection/' + data +'/searchterm/' + encodeURIComponent(row['5']) + '/field/all/mode/all/conn/and/order/title/ad/asc" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 }
         ],
         paging: true,
-        lengthMenu: [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
+        lengthMenu: [[ 15, 50, 100, 500], [ 15, 50, 100, 500]],
         // sort based on the date
-        order: [[ 2, "asc" ]]
+        order: [[ 2, "asc" ]],
         // add download features
-        //dom: 'Blfrtip', 
-        //buttons: [ 'excelHtml5', 'csvHtml5' ]
+        dom: 'ilftipB',//'Blfrtip', 
+        buttons: [ 'excelHtml5', 'csvHtml5' ]
     });
     /* Add event listeners to collectionSelect */
     $('#collectionSelect').change( function() {
         table.draw();
-    } );
+    });
+    // Apply column search
+    table.columns().every( function () {
+        var that = this;
+        $( 'input', this.footer() ).on( 'keyup change clear', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        });
+    });
 })();
 </script>
