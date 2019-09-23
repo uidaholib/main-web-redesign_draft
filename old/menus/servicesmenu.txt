@@ -33,7 +33,7 @@
 <li><a  href="/services/data/data-management/"><span class="word-hide">Data</span> Management</a>  </li>
 <!--<li><a id="training" href="/services/data/education.html">Training &amp; Workshops</a>  </li>-->
 <li><a id="training" href="/services/workshops/">Training &amp; Workshops</a>  </li>
-<li><a  href="/services/geospatial/">Geospatial <span class="word-hide">Resources</span></a>  </li>
+<li><a  href="/find/geospatial/">Geospatial <span class="word-hide">Resources</span></a>  </li>
 <li><a href="/services/data/dois.html">DOI Service</a></li>
 <li><a href="/services/data/data-management/#contact">Contact <span class="word-hide">/ Help</span></a> </li>
 </ul>
