@@ -50,7 +50,7 @@
                   <li><a href="/find/books.html">Books</a></li>
 						      <li><a href="/find/dvds.html">DVDs</a></li>
 						      
-                  <li><a href="/find/geospatial/">Geospatial (GIS)</a></li>
+                  <li><a href="/services/geospatial/">Geospatial (GIS)</a></li>
 				  <li><a href="/find/journals.html">Journals</a></li>
 				  <li><a href="/find/maps/">Maps</a></li>
 				  <li><a href="/find/newspapers.html">Newspapers</a></li>

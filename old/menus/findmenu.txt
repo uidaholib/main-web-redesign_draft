@@ -4,7 +4,7 @@
 
 <a  id="dvds" class=""  href="/find/dvds.html">DVDs</a> 
 <a  id="reference" class=""  href="/find/encyclopedias.html">Encyclopedias</a>  
-<a  id="geo" class=" " href="/find/geospatial/">Geospatial Resources</a> 
+<a  id="geo" class=" " href="/services/geospatial/">Geospatial Resources</a> 
 <a  id="gov" class="" href="/find/govdocs/">Gov. Documents</a>  
 <a  id="journals" class="" href="/find/journals.html">Journals</a>  
 <a  id="maps" class="" href="/find/maps.html">Maps</a>
@@ -42,14 +42,14 @@
 
 <a type="button" id="reference" class="btn btn-default find-button2"  href="/find/encyclopedias.html"><span class="word-hide">Encyclopedias</span><span class="word-show">Reference</span></a> 
 
-<a type="button" id="geo" class="btn btn-default find-button2 " href="/find/geospatial/"><span class="word-hide">Geospatial Resources</span><span class="word-show">Geo.</span></a> 
+<a type="button" id="geo" class="btn btn-default find-button2 " href="/services/geospatial/"><span class="word-hide">Geospatial Resources</span><span class="word-show">Geo.</span></a> 
 <small id="geolist" style="display:none;">
 
 					  <ul class="geo listsidenav">
-                <li><a id="home" href="/find/geospatial/index.html" >Home</a></li>
-<li><a id="esrisof" href="/find/geospatial/esrisoftware.html">Esri Products</a></li>
-<li><a id="esrilic" href="/find/geospatial/esrilicensemanager.html">Esri License Manager</a></li>
-<li><a id="esrivc" href="/find/geospatial/esri-e-learning.html">Esri E-Learning</a></li>
+                <li><a id="home" href="/services/geospatial/index.html" >Home</a></li>
+<li><a id="esrisof" href="/services/geospatial/esrisoftware.html">Esri Products</a></li>
+<li><a id="esrilic" href="/services/geospatial/esrilicensemanager.html">Esri License Manager</a></li>
+<li><a id="esrivc" href="/services/geospatial/esri-e-learning.html">Esri E-Learning</a></li>
 </ul>
 
 					  </small>
