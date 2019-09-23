@@ -171,7 +171,12 @@ Find:
   - subsection: Events
     link: /events/     
   - subsection: Geospatial Resources
-    link: /services/geospatial/
+    link: /find/geospatial/
+    subpages:
+      - name: Geospatial Home
+        url: /find/geospatial/
+      - name: Software
+        url: /find/geospatial/software.html
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
@@ -383,13 +388,6 @@ Services:
         url: /services/data/data-management/#contact
   - subsection: Distance Education
     link: /services/distance.html
-  - subsection: Geospatial Resources
-    link: /services/geospatial/
-    subpages:
-      - name: Geospatial Home
-        url: /services/geospatial/
-      - name: Software
-        url: /services/geospatial/software.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
