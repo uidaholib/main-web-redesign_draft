@@ -37,7 +37,7 @@ $.fn.dataTableExt.afnFiltering.push(
         // sort based on the date
         order: [[ 2, "asc" ]],
         // add download features
-        dom: 'ilftipB',//'Blfrtip', 
+        dom: 'i<"row"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>B',//'Blfrtip', 
         buttons: [ 'excelHtml5', 'csvHtml5' ]
     });
     /* Add event listeners to collectionSelect */
