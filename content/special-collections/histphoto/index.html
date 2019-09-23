@@ -7,10 +7,10 @@ custom-foot: "js/spec_histphoto.js"
 # the data necessary for this table is generated only if site.histphoto-build is true
 ---
 
-<p>The Historical Photograph Database consists of a table of over 90,000 images held by Special Collections that can be filtered and sorted below. <a href="{{ '/assets/data/histphoto_full.csv' | relative_url }}" class="btn btn-success m-3">Download Full CSV</a></p>
+<p>The Historical Photograph Database consists of a table of over 90,000 images held by Special Collections that can be filtered, sorted, and exported below.</p>
 
 <div class="form-group col-md-4">
-    <label for="collectionSelect">Photo Group:</label>
+    <label for="collectionSelect">Photo Group (PG):</label>
     <select id="collectionSelect" class="form-control">
         <option value="all" selected>All</option>
         {%- assign options = site.data.spec_histphoto_dropdown -%}
@@ -22,17 +22,32 @@ custom-foot: "js/spec_histphoto.js"
 <link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
 
 <div class="table-responsive-md">
-    <table id="item-table" class="table table-striped">
+    <table id="item-table" class="table table-striped table-sm">
         <thead>
             <tr>
                 <th scope="col">Title</th>
                 <th scope="col">Date</th>
                 <th scope="col">Notes</th>
-                <th scope="col">Photo Group</th>
-                <th scope="col">ID Number</th>
-                <th scope="col">Image link</th>
-                <th scope="col">Digital Collection link</th>
+                <th scope="col">PG</th>
+                <th scope="col">ID</th>
+                <th scope="col">Thumbnail</th>
+                <th scope="col">Digital Collection</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th scope="col" class="col-search">Title</th>
+                <th scope="col" class="col-search">Date</th>
+                <th scope="col" class="col-search">Notes</th>
+                <th scope="col">PG</th>
+                <th scope="col">ID</th>
+                <th scope="col">Thumbnail</th>
+                <th scope="col">Digital Collection</th>
+            </tr>
+        </tfoot>
     </table>
 </div>
+
+<hr> 
+
+<p>The Excel / CSV buttons above will export the current subset of filtered items. For the complete data:<br> <a href="{{ '/assets/data/histphoto_full.csv' | relative_url }}" class="btn btn-success m-3">Download Full CSV</a></p>

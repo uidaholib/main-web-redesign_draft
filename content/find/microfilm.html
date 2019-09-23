@@ -1,131 +1,39 @@
 ---
-title: Microfilm List
+title: Newspaper Microfilm List
 section: Find
 permalink: /find/microfilm.html
 layout: page
+table-id: "#microfilm"
+table-paginate: true
 ---
-<h3>Alphabetical List of Idaho newspapers on Microfilm</h3>
-<p>Note: most microfilm can be discovered in our <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced">main online catalog</a></p>
+{% assign newspapers = site.data.find_microfilm %}
+<p>This page provides an alphabetical list of Idaho newspapers on microfilm in our collections. However, please note that most microfilm can be discovered in our <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced">main online catalog</a> as well.</p>
 
-<!-- 
-<?php
-	$db = new PDO('mysql:host=localhost;dbname=newspapers;charset=utf8','dbuser','data98');
-	$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-	$db->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-	
-	$letter = $_REQUEST['letter'] ;
-	$letter = strip_tags($letter) ;
-		
-if ($letter == '') {
-		print " \n<table width=\"\" border=\"0\" style=\"margin:0% auto\">" ;
-		print "<tr><td  height=\"30\"><center><h3>Alphabetical List of Idaho newspapers on Microfilm</h3></center></td></tr>\n" ;
-		print "<tr><td>Please select the beginning letter of the Idaho city whose newspaper you would like to view</td></tr>\n" ;
-		print "<tr><td><center>" ;
-		for ($i = 65 ; $i < 91 ; $i++) {
-			$char   = chr($i) ;
-			try {
-				$results = $db->prepare('SELECT place FROM microfilm WHERE (place LIKE ?) order by place') ;
-				$results->bindValue(1,$char . '%',PDO::PARAM_STR) ;
-				$results->execute();
-			} catch (PDOException $e) {
-				echo "Error accessing database" ;
-			}
-			$num    = $results->rowcount() ;
-			if ($num == false) {
-				print " $char " ;
-			} else {
-				print " <b><a href=\"microfilm.html?letter=$char\">$char</a></b>" ;
-			}
-			if ($char == "N") {
-				print " \n" ;
-			}
-		}
-		print "<center></td></tr></table>\n" ;
-	} else {
-	$place = $_REQUEST['place'] ;
-	$place = strip_tags($place) ;	
-		if ($place == '') {
-			try {
-				$results = $db->prepare('SELECT DISTINCT place FROM microfilm WHERE (place LIKE ?) order by place') ;
-				$results->bindValue(1,$letter . '%',PDO::PARAM_STR) ;
-				$results->execute();
-			} catch (PDOException $e) {
-				echo "Error accessing database" ;
-			}
-			
-			$num    = $results->rowcount() ;
-			$plist  = $results->fetchAll(PDO::FETCH_ASSOC) ;
-			if ($num <> 0) {
-				$count = 0 ;
-				print " \n<table width=\"\" border=\"0\">" ;
-				print "<tr><td height=\"30\"><h3>Cities starting with $letter</h3></td></tr>\n" ;
-				print "<tr><td>$icomment</td></tr>\n" ;
-				while ($count < $num) {
-					$place    = $plist[$count]['place'] ;
-				
-					print "<tr><td><b><a href=\"microfilm.html?letter=$letter&place=$place\">$place</a></td></tr>\n" ;
-					$count++ ;
-				}
-				print "</table>\n" ;
-			}
-		} else {
-			if (0 < stripos( $place, '</') | 0 < stripos ($place, 'script') | 0 < stripos ($place, http))
-			{
-			   $place = '';
-			   echo 'Place name is not valid' ;
-			   exit(1) ;
-			}
-		
-		
-			$displace  = stripslashes($place) ;
-            try {
-				$results = $db->prepare('SELECT DISTINCT place, name FROM microfilm WHERE (place = ?) order by place, name') ;
-				$results->bindValue(1,$place,PDO::PARAM_STR) ;
-				$results->execute();
-			} catch (PDOException $e) {
-				echo "Error accessing database" ;
-			}
-			$num    = $results->rowcount() ;
-			$plist  = $results->fetchAll(PDO::FETCH_ASSOC) ;
-			print " \n<table width=\"\" border=\"0\">" ;
-			print "<tr><td colspan=\"2\" height=\"30\"><h3>$displace</h3></td></tr>\n" ;
-
-			if ($num <> 0) {
-				$count = 0 ;
-				while ($count < $num) {
-					$place   = $plist[$count]['place'] ;
-					$place   = addslashes($place) ;
-						
-					$name    = $plist[$count]['name'] ;
-					print "<tr><td colspan=\"2\"><b>$name</b></td></tr>\n" ;
-					$name    = addslashes($name) ;
-					try {
-						$results = $db->prepare('SELECT * FROM microfilm WHERE ((place = ?) and (name = ?)) order by place, name') ;
-						$results->bindValue(1,$place,PDO::PARAM_STR) ;
-						$results->bindValue(2,$name,PDO::PARAM_STR) ;
-						$results->execute();
-					} catch (PDOException $e) {
-						echo "Error accessing database" ;
-					}
-					$num2   = $results->rowcount() ;
-					$plist2  = $results->fetchAll(PDO::FETCH_ASSOC) ;
-					
-					if ($num2 <> 0) {
-						$count2 = 0 ;
-						while ($count2 < $num2) {
-							$dates    = $plist2[$count2]['dates'] ;
-							$notes    = $plist2[$count2]['notes'] ;
-							print "<tr><td width=\"20\">&nbsp;</td><td width=\"\">$dates $notes</td></tr>\n" ;
-							$count2++ ;
-						}
-					}
-					$count++ ;
-				}
-					print "</table>\n\n" ;
-
-			}
-		}			
-	}	
-?>
--->											
-										
+<table id="microfilm" class="table table-striped">
+	<thead>
+		<tr>
+			<th>City</th>
+			<th>County</th>
+			<th>Title</th>
+			<th>Dates</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>City</th>
+			<th>County</th>
+			<th>Title</th>
+			<th>Dates</th>
+		</tr>
+	</tfoot>
+	<tbody>
+    {% for n in newspapers %}
+    <tr>
+       <td>{{ n.city }}</td>
+       <td>{{ n.county }}</td>
+       <td>{{ n.title }}</td>
+       <td>{{ n.dates | replace: ';','<br>' }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>	
