@@ -7,6 +7,8 @@ layout: page
 
 Sponsored by the University of Idaho Library
 
+Think Open Fellowships are announced each year in May. Our next application period will open April of 2020. Last year's application follows.
+
 **_Call for Applications:_**
 
 The University of Idaho Library is now accepting applications for the 2019 Think Open Fellowship. These fellowships are designed to support faculty in adopting Open Educational Resources (OERs) in the courses they teach.
@@ -34,8 +36,6 @@ The Think Open fellowship is intended to reduce barriers to student success by s
 *   Perform other necessary duties to support the program
 
 **The application deadline has been extended to April 12th, 2019!**
-
-You can apply via this short application form: [2019 Think Open Fellowship Applications](https://uidaho.co1.qualtrics.com/jfe/form/SV_e9DmRDSTI0pBrXD)
 
 For questions contact Marco Seiferle-Valencia, Open Education Librarian, marcosv@uidaho.edu
 

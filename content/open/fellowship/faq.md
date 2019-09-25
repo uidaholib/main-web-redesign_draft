@@ -7,8 +7,8 @@ layout: page
 
 **What is the time commitment?**
 
-Faculty fellows would be expected to attend about 10 hours of workshops and cohort events. The time needed to convert course materials, syllabi, and course planning is relative to each faculty member, course, and subject area – budget between 5-10 hours. Additional time for bi-weekly or monthly meetings.
+Faculty fellows will work over the course of a semester to find, create, and adapt OER for a current or upcoming University of Idaho course. Fellows meet throughout the semester with the Open Education Librarian, as well as other Library faculty as different kinds of expertise are required. Fellows should expect to spend 10-15 hours a month working on their Think Open Fellowships. There will also be opportunities for the Fellows to network with the total Think Open cohort during group meetings in October and November.
 
 **Which courses are eligible for this project?**
 
-Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply, as reducing the cost of course materials in these courses will have the highest impact.
+Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quailty representation of marginalized identities in their course materials.
