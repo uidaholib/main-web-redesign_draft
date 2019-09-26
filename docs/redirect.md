@@ -8,6 +8,12 @@ On the page to redirect change front matter to `layout: redirect` and add `redir
 Example: 
 
 ```
+---
+title: Example
+permalink: /find/example.html
 layout: redirect
 redirect: /find/dvds.html
+---
 ```
+
+Note: you still need the permalink for the page you want to redirect, because it still needs to be built out and put in that location.
