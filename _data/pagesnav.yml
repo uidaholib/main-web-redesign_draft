@@ -172,6 +172,11 @@ Find:
     link: /events/     
   - subsection: Geospatial Resources
     link: /find/geospatial/
+    subpages:
+      - name: Geospatial Home
+        url: /find/geospatial/
+      - name: Software
+        url: /find/geospatial/software.html
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
@@ -201,7 +206,7 @@ Find:
         url: /find/microfilm.html
       - name: Local Newspapers
         url: /find/localnewspapers.html
-      - name: Argonaut Index
+      - name: The Argonaut
         url: /find/argonaut.html
   - subsection: Research Guides
     link: http://libguides.uidaho.edu/index.php?
@@ -280,6 +285,8 @@ Special Collections:
         url: /special-collections/searchtools.html
       - name: Photo Search
         url: /special-collections/histphoto/
+      - name: Idaho Biographical Index
+        url: /special-collections/idahobio.html       
       - name: Useful Links
         url: /special-collections/usefullinks.html
       - name: Site Search
@@ -392,6 +399,8 @@ Services:
         url: /services/reserve/fairuse.html
       - name: FAQs
         url: /services/reserve/faq.html
+  - subsection: Curriculum Center
+    link: /services/curriculumcenter.html
   - subsection: Data &amp; Digital Services
     link: /services/dds.html
   - subsection: Data Management
@@ -401,16 +410,12 @@ Services:
         url: /services/data/
       - name: Data Management
         url: /services/data/data-management/
-      - name: Geospatial Resources
-        url: /find/geospatial/
       - name: DOI Service
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
   - subsection: Distance Education
     link: /services/distance.html
-  - subsection: Curriculum Center
-    link: /services/curriculumcenter.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:

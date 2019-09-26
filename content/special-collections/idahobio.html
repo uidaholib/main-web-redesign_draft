@@ -1,12 +1,12 @@
 ---
 title: Idaho Biographical Index
-layout: page
+layout: full-width-page
 section: Special Collections
 permalink: /special-collections/idahobio.html
 custom-foot: "js/spec_idahobio.js"
 ---
 
-<p>The Idaho Biographical Index was an Access database compiled by members of SPEC many years ago. While not as extensive as the <a href="https://history.idaho.gov/searchable-indexes/" target="_blank" rel="noopener">Idaho State Archive's index</a>, it provides some unique sources that can be found in the U of I Library. <a href="{{ '/assets/data/spec_idahobio.csv' | relative_url }}" class="btn btn-success m-3">Download Full CSV</a></p>
+<p>The Idaho Biographical Index was an Access database compiled by members of SPEC many years ago. While not as extensive as the <a href="https://history.idaho.gov/searchable-indexes/" target="_blank" rel="noopener">Idaho State Archive's index</a>, it provides some unique sources that can be found in the U of I Library. The index includes over 19,000 biographical references extracted from more than 50 books. The table below includes features to browse, sort, filter, and export the index data.</p>
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
 
@@ -21,5 +21,14 @@ custom-foot: "js/spec_idahobio.js"
                 <th scope="col">Call Num</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Birth</th>
+                <th scope="col">Death</th>
+                <th scope="col">Book</th>
+                <th scope="col">Call Num</th>
+            </tr>
+        </tfoot>
     </table>
 </div>

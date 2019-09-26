@@ -16,7 +16,10 @@ we need to start doc-ing how this works!
 
 # tables
 
-adding `table-id:` to yml front matter will load basic datatables dependencies and init datatable on the id. 
+Adding `table-id:` to yml front matter will load basic datatables dependencies and init datatable on the id. 
+The table should be added to the page content, with the `id` on the `<table>` element.
+By default it is not paginated. 
+Add `table-paginate: true` to yml front matter to add datatables pagination feature.
 
 # Carousel images
 
