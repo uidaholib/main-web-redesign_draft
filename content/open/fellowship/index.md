@@ -1,5 +1,5 @@
 ---
-title: "Think Open Fellowship"
+title: "Think Open Fellowship Program"
 section: Think Open
 permalink: /open/fellowship/
 layout: page

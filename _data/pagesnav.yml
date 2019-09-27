@@ -345,7 +345,7 @@ Think Open:
     stub: /open/
   - subsection: Think Open Home 
     link: /open/
-  - subsection: Fellowships
+  - subsection: Think Open Fellowship Program
     link: /open/fellowship/
     subpages: 
       - name: About
@@ -442,8 +442,6 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/  
-  - subsection: "Open @ UI Library"
-    link: /open/
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
@@ -461,6 +459,8 @@ Services:
     link: /services/rooms.html
   - subsection: Special Collections & Archives
     link: /special-collections/
+  - subsection: "Think OPEN @ UI Library"
+    link: /open/
   - subsection: Workshops
     link: /services/workshops/
     subpages:

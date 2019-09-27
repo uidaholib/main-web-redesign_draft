@@ -4,29 +4,31 @@ section: Think Open
 permalink: /open/
 layout: page
 ---
-<br>
-<h4>At the UofI, we’re supporting Open Education in a number of ways:</h4>
-<ul>
-    <li>Our <a href="https://libguides.uidaho.edu/THINKOPEN">Think Open Fellow program</a> has run for three cohorts, and has saved students over <b>$200,000</b> in textbook costs! Faculty can apply for this program which includes a small stipend and extensive library support to develop OA solutions for courses and research. </li>
-    
-    <li>The <a href="{{ '/services/oapf/' | relative_url }}">Open Access Publishing</a> fund, provided by the University of Idaho Library, Office of the Provost, and Office of Research and Economic Development, helps U of I researchers and scholars publish in fully open and peer-reviewed OA journals by covering article processing charges. </li>
-    
-    <li>The Library works closely with faculty to integrate and implement open educational resources in their classrooms.</li>
-</ul>
-
-<p>University of Idaho Library supports initiatives in Open Access and Open Education to make an impact across campus and the world. Open @ UI Library aims to reduce the costs and barriers associated with accessing educational materials and research. These initiatives benefit Vandals as well as the greater Idaho, national, and international scholarly communities.</p>
-
 {% assign fellows = site.data.openpages %}
+<div class="row">
+    <div class="col-md-12">
+            <!--<p>University of Idaho Library supports initiatives in Open Access and Open Education to make an impact across campus and the world. Open @ UI Library aims to reduce the costs and barriers associated with accessing educational materials and research. These initiatives benefit Vandals as well as the greater Idaho, national, and international scholarly communities.</p>-->
+        <h4>The Library supports Open Education in a number of ways:</h4>
+        <ul>
+            <li class="h4">Our <a href="{{ '/open/fellowship/' | relative_url }}">Think Open Fellow program</a> has run for three cohorts, and has saved students over <b>$200,000</b> in textbook costs! Faculty can apply for this program which includes a small stipend and extensive library support to develop OA solutions for courses and research. </li>
 
-<h3 class="my-2">Think Open Sucess Stories</h3>
-    <div class="row">
-    {% for fellow in fellows %}
-        {% if fellow.year == "2018" and fellow.type == "gradstudent" %}
-        <div class="col-md-4 my-1">
+            <li class="h4">The <a href="{{ '/services/oapf/' | relative_url }}">Open Access Publishing</a> fund, provided by the University of Idaho Library, Office of the Provost, and Office of Research and Economic Development, helps U of I researchers and scholars publish in fully open and peer-reviewed OA journals by covering article processing charges. Now in its second year, the OA Fund has made <b>$60,000</b> available to University of Idaho researchers.</li>
+
+            <li class="h4">The Library works closely with faculty to integrate and implement open educational resources in their classrooms. Contact <a href="mailto:marcosv@uidaho.edu" title="email"> Open Education Librarian Marco Seiferle-Valencia</a> for help implementing OER materials in your classroom!</li>
+        </ul>
+
+      <hr class="m-3" />
+    </div>
+    <div class="col-md-8 offset-md-2">
+        <h3>Think Open Success Story!</h3>
+            {% for fellow in fellows %}
+            {% if fellow.year == "2018" and fellow.type == "gradstudent" %}
+            
+                  
                 <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
-                    {% if fellow.image%}
-                        <img class="card-img-top" src="/assets/ross.jpeg" alt="Card image cap">
-                {%endif%}
+                   
+                    <img class="card-img-top" src="https://www.lib.uidaho.edu/media/carousel/ross_notext2.jpg" alt="Card image cap">
+                   
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html"> {{ fellow.name }}</a>
@@ -37,20 +39,21 @@ layout: page
                         </p>
                         <h5>Project</h5>
                         <p class="card-text">
-                           {{ fellow.topic }}
-                           <br><br>
+                            {{ fellow.topic }}
+                            <br><br>
                             <b>Students Impacted:</b> {{ fellow.impact }}
                         </p>
                         <p class="card-text">
-                             <b>Savings:</b> {{ fellow.savings }}
-                         </p>
-                        <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html" class="btn btn-clearwater" target="_blank" rel="noopener">Interview With Ross</a>
+                            <b>Savings:</b> {{ fellow.savings }}
+                        </p>
+                        <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html" class="btn btn-clearwater" target="_blank" rel="noopener">Read an Interview With Ross</a>
                     </div>
-                </div>   
+                </div>
             </div>
             {%endif%}
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
+
 
 
 <!--
@@ -64,7 +67,7 @@ layout: page
 <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e9DmRDSTI0pBrXD" class="btn btn-sm btn-outline-pride-gold ml-3">Application</a>
 </p>
 -->
-<hr> 
+<hr>
 
 <h2>Open Initiatives</h2>
 
