@@ -1,0 +1,142 @@
+---
+title: "GIS Day @ University of Idaho"
+section: GIS Day
+permalink: /events/gisday.html
+layout: full-width-page
+---
+
+<h3>Novemeber 13, 2019. Idaho Commons, University of Idaho, Moscow, Idaho.</h3>
+
+<p><a href="https://www.gisday.com/">GIS Day</a> at the University of Idaho is a free event that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses.</p>
+
+<p>Admission is free and open to everyone. Coming from off-campus?  Email Bruce Godfrey (bgodfrey@uidaho.edu) for a free 1-day visitor parking permit.</p>
+
+<p>Contact Bruce Godfrey (bgodfrey@uidaho.edu, ph. 208-292-1407) with any questions.</p>
+
+<div id="schedule" class="my-3 border-bottom">
+    <h2>Schedule of Events</h2>
+
+    <!--
+    <table class="table table-striped table-responsive">
+        <thead>
+            <tr>
+                <td>Time</td>
+                <td>Title</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% assign events = site.data.gisday_schedule %}
+            {% for e in events %}
+            <tr>
+                <td>{{ e.time }}</td>
+                <td>
+                    <h4>{{ e.title }}</h4>
+                    {{ e.presenter }}<br>
+                    <strong>{{ e.location }}</strong>
+                </td>
+                <td>{{ e.description }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>-->
+
+
+    {% assign events = site.data.gisday_schedule %}
+    {% for e in events %}
+    <div class="row ">
+        <div class="col-md-2 border">
+            {{ e.time }}<br>
+            {{ e.location }}
+        </div>
+        <div class="col-md-4 border">
+            <h4>{{ e.title }}</h4>
+            {{ e.presenter }}
+        </div>
+        <div class="col-md-6 border">{{ e.description }}</div>
+    </div>
+    {% endfor %}
+
+</div>
+
+<div id="sponsors" class="my-3 border-bottom"> 
+    <h2 class="text-center">Sponsors</h2>
+
+    <p class="text-center">The following entities have generously provided financial contributions to help make this a successful event.</p>
+
+    <div class="row justify-content-center my-4">
+        {% assign sponsors = site.data.gisday_sponsors %}
+        {% for s in sponsors %}
+        <div class="col-5">
+            <a href="{{ s.link }}" title="{{ s.sponsor }}">
+                <img src="{{ s.img }}" alt="{{ s.sponsor }}" class="img-fluid p-3">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <h3>Become a Sponsor</h3>
+    <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please make a donation using one of the options:</p>
+    <ul>
+        <li>Online with a credit card<br>
+            Go to: <a href="https://www.givecampus.com/campaigns/3269/donations/new">https://www.givecampus.com/campaigns/3269/donations/new</a><br>
+            Under "Designation" type in "GIS Day Fund" and fill out the required fields of the form
+        </li>
+        <li>By phone<br>
+            Call the University of Idaho Gift Administration Office at (208) 885-6796 and give with a credit card.<br>
+            Indicate you are giving to the "GIS Day Fund."
+        </li>
+        <li>By mail<br>
+            Checks may be mailed to:<br>
+            University of Idaho Foundation 875 Perimeter Drive MS 3147 Moscow, ID 83843-3147<br>
+            Please have the checks made out to the "University of Idaho Foundation, Inc."<br>
+            Put "GIS Day Fund" on the check memo line or on a note accompanying the check.
+        </li>
+        
+    </ul>
+    
+    <p>Contact Bruce Godfrey (bgodfrey@uidaho.edu, ph. 208-292-1407) if you have any sponsorship questions.</p>
+    
+    <h3>Sponsorship Levels & Entitlements</h3>
+    
+    <p>We welcome any financial contribution but respectfully suggest to following amounts:</p>
+
+    <ul>
+        <li>Friend: $50</li>
+        <li>Professional: $100</li>
+        <li>Corporate: $350 - logo on web page & flyers; banner space; recognition during the event</li>
+    </ul>
+
+    <p>These contributions may be tax deductible.</p>
+
+</div>
+
+<div id="parking" class="my-3 border-bottom text-center">
+    
+    <h2>Parking</h2>
+
+    <p>The <a href="https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/infrastructure/Parking/Maps/2019-20_campus_parking_map.pdf">U of I Campus Parking Map</a> shows all parking lots and their associated permit requirements.</p>
+    <p>For those driving to campus a Visitor Parking Permit is required to park in any of the Gold, Red, or Blue lots. Exempt vehicles do not require a permit.</p>
+    <p>Contact <a href="mailto:bgodfrey@uidaho.edu">Bruce Godfrey</a> prior to the event for a one-day Visitor Parking Permit.</p>
+    <p>GIS Day will take place in the Idaho Commons. Lots 19, 56, and 17 are within a few minutes' walk.</p>
+
+</div>
+
+<div id="committee" class="my-3 border-bottom text-center">
+
+    <h2>Planning Committee Members</h2>
+
+    <ul class="list-unstyled">
+        <li>Bruce Godfrey - Chair (Library)</li>
+        <li>Daniel Cronan (Landscape Architecture)</li>
+        <li>Lisa Jones (Plant Science)</li>
+        <li>Jeremy Kenyon (Library)</li>
+        <li>Jessica Martinez (Library)</li>
+        <li>Perri Moreno - (Library)</li>
+        <li>Skye Swoboda-Colberg (Geography)</li>
+        <li>Emily Thompson (Geography)</li>
+        <li>Evan Williamson (Library)</li>
+        <li>Cindy Barnhart (Communications & Marketing)</li>
+    </ul>
+
+</div>
