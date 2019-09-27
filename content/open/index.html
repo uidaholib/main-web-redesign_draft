@@ -4,24 +4,55 @@ section: Think Open
 permalink: /open/
 layout: page
 ---
-
-<p class="lead">University of Idaho Library supports initiatives in Open Access and Open Education to make an impact across campus and the world. Open @ UI Library aims to reduce the costs and barriers associated with accessing educational materials and research. These initiatives benefit Vandals as well as the greater Idaho, national, and international scholarly communities.</p>
-
-<h4>Open @ UI Library can refer to:</h4>
-<ul>
-    <li>Academic, scholarly, or research articles that are free for the reader, often called Open Access </li>
-    <li>Specific journals or materials published using special licenses that allow for republication or reuse, such as Creative Commons Licenses  </li>
-    <li>The praxis of professors and teachers choosing curriculum that is openly licensed or low cost  </li>
-    <li>Software and hardware that relies on open source code and free or low cost licenses </li>
-    <li>Electronic resources and course management technologies that are free or low cost </li>
-</ul>
-
+<br>
 <h4>At the UofI, we’re supporting Open Education in a number of ways:</h4>
 <ul>
-    <li>Our <a href="https://libguides.uidaho.edu/THINKOPEN">Think Open Fellow program</a> has run for two cohorts, and has already saved students over $150,000 in textbook costs! Faculty can apply for this program which includes a small stipend and extensive library support to develop OA solutions for courses and research. </li>
-        <li>The <a href="{{ '/services/oapf/' | relative_url }}">Open Access Publishing</a> fund, provided by the University of Idaho Library, Office of the Provost, and Office of Research and Economic Development, helps U of I researchers and scholars publish in fully open and peer-reviewed OA journals by covering article processing charges. </li>
-    <li>The Library works closely with faculty to integrate and implement open educational resources in their classrooms</li>
+    <li>Our <a href="https://libguides.uidaho.edu/THINKOPEN">Think Open Fellow program</a> has run for three cohorts, and has saved students over <b>$200,000</b> in textbook costs! Faculty can apply for this program which includes a small stipend and extensive library support to develop OA solutions for courses and research. </li>
+    
+    <li>The <a href="{{ '/services/oapf/' | relative_url }}">Open Access Publishing</a> fund, provided by the University of Idaho Library, Office of the Provost, and Office of Research and Economic Development, helps U of I researchers and scholars publish in fully open and peer-reviewed OA journals by covering article processing charges. </li>
+    
+    <li>The Library works closely with faculty to integrate and implement open educational resources in their classrooms.</li>
 </ul>
+
+<p>University of Idaho Library supports initiatives in Open Access and Open Education to make an impact across campus and the world. Open @ UI Library aims to reduce the costs and barriers associated with accessing educational materials and research. These initiatives benefit Vandals as well as the greater Idaho, national, and international scholarly communities.</p>
+
+{% assign fellows = site.data.openpages %}
+
+<h3 class="my-2">Think Open Sucess Stories</h3>
+    <div class="row">
+    {% for fellow in fellows %}
+        {% if fellow.year == "2018" and fellow.type == "gradstudent" %}
+        <div class="col-md-4 my-1">
+                <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
+                    {% if fellow.image%}
+                        <img class="card-img-top" src="/assets/ross.jpeg" alt="Card image cap">
+                {%endif%}
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html"> {{ fellow.name }}</a>
+                        </h4>
+                        <p class="card-text">
+                            {{ fellow.displaytype | upcase }}
+                            <br>{{ fellow.discipline }}</b>
+                        </p>
+                        <h5>Project</h5>
+                        <p class="card-text">
+                           {{ fellow.topic }}
+                           <br><br>
+                            <b>Students Impacted:</b> {{ fellow.impact }}
+                        </p>
+                        <p class="card-text">
+                             <b>Savings:</b> {{ fellow.savings }}
+                         </p>
+                        <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html" class="btn btn-clearwater" target="_blank" rel="noopener">Interview With Ross</a>
+                    </div>
+                </div>   
+            </div>
+            {%endif%}
+        {% endfor %}
+    </div>
+
+
 <!--
 <hr> 
 <h4>Think Open Fellows Call for Applications!</h4>
@@ -33,14 +64,6 @@ layout: page
 <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e9DmRDSTI0pBrXD" class="btn btn-sm btn-outline-pride-gold ml-3">Application</a>
 </p>
 -->
-<hr> 
-
-<h4>Chatting about OA</h4>
-
-<p>Ross Miller is a physics graduate student by day, an Open Access marvel by night, and a 2018 Think Open Fellow. Thanks to Ross’ efforts, hundreds of Vandals taking Physics saved thousands. Check out our <a href="{{ '/open/thinkopen_ross.html' | relative_url }}">feature interview with Ross</a> about his experience bringing Open Access to UI!
-</p>
-<p class="text-center"><a href="{{ '/open/thinkopen_ross.html' | relative_url }}" class="btn btn-sm btn-outline-clearwater">Read Interview</a></p>
-
 <hr> 
 
 <h2>Open Initiatives</h2>

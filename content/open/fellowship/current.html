@@ -22,19 +22,19 @@ layout: page
             {%endif%}
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.id }}"> {{ fellow.name }}</a>
+                        <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
                     </h4>
                     <p class="card-text">
                         {{ fellow.type | upcase }}
-                        <br><a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.deptid }}" >{{ fellow.discipline }}</a>
+                        <br><b>{{ fellow.discipline }}</b>
                     </p>
                     <h5>Project</h5>
                     <p class="card-text">
                        {{ fellow.topic }}
-                       <br />
+                       <br>
                         <b>Students Impacted:</b> {{ fellow.students-impacted }}
                     </p>
-                    <a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.id  }}" class="btn btn-clearwater" target="_blank" rel="noopener">View VIVO Profile</a>
+                    <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
                 </div>
             </div>   
         </div>{%endif%}
@@ -53,19 +53,18 @@ layout: page
                 {%endif%}
                     <div class="card-body">
                         <h4 class="card-title">
-                            <a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.id }}"> {{ fellow.name }}</a>
+                            <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
                         </h4>
                         <p class="card-text">
                             {{ fellow.type | upcase }}
-                            <br><a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.deptid }}" >{{ fellow.discipline }}</a>
+                            <br><b>{{ fellow.discipline }}</b>
                         </p>
                         <h5>Project</h5>
                         <p class="card-text">
                            {{ fellow.topic }}
-                           <br />
+                           <br>
                             <b>Students Impacted:</b> {{ fellow.students-impacted }}
                         </p>
-                        <a href="http://vivo.nkn.uidaho.edu/individual/{{ fellow.id  }}" class="btn btn-clearwater" target="_blank" rel="noopener">View VIVO Profile</a>
                     </div>
                 </div>   
             </div>
