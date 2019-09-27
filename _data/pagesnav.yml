@@ -339,6 +339,34 @@ The Studio:
 
 
 
+# Think Open Section
+Think Open:
+  - parent: Think Open 
+    stub: /open/
+  - subsection: Think Open Home 
+    link: /open/
+  - subsection: Think Open Fellowship Program
+    link: /open/fellowship/
+    subpages: 
+      - name: About
+        url: /open/fellowship/
+      - name: Call for Fellows
+        url: /open/fellowship/call.html
+      - name: FAQ
+        url: /open/fellowship/faq.html
+      - name: Current Fellows
+        url: /open/fellowship/current.html
+      - name: Past Fellows
+        url: /open/fellowship/past.html
+  - subsection: Why Think Open
+    link: /open/why.html
+  - subsection: OER Resources
+    link: /open/oer_resources.html
+  - subsection: Open Access Publishing Fund
+    link: /services/oapf/ 
+  - subsection: Library Faculty OA Resolution
+    link: https://www.lib.uidaho.edu/media/about/UIdahoLibrary_OpenAccessResolution.pdf
+
 # Services Section
 Services:
   - parent: Services
@@ -414,13 +442,6 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/  
-  - subsection: "Open @ UI Library"
-    link: /open/
-    subpages: 
-      - name: Home
-        url: /open/
-      - name: Open Education Resources
-        url: https://libguides.uidaho.edu/THINKOPEN
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
@@ -438,6 +459,8 @@ Services:
     link: /services/rooms.html
   - subsection: Special Collections & Archives
     link: /special-collections/
+  - subsection: "Think OPEN @ UI Library"
+    link: /open/
   - subsection: Workshops
     link: /services/workshops/
     subpages:

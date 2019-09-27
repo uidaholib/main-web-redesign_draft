@@ -1,0 +1,73 @@
+---
+title: "Think Open Fellowship"
+section: Think Open
+permalink: /open/fellowship/current.html
+layout: page
+---
+{% assign fellows = site.data.thinkopenfellows %}
+<p>Current fellows include: </p>
+
+
+<div class="container">
+        <h3>Faculty</h3>
+    <div class="row">
+            
+        {% for fellow in fellows %}
+        {% if fellow.year == "2019" and fellow.type == "faculty" %}
+        <div class="col-md-4 my-1">
+            <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
+                {% if fellow.image%}
+                
+                    <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/thinkopen/{{ fellow.image }}" alt="Card image cap">
+            {%endif%}
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
+                    </h4>
+                    <p class="card-text">
+                        {{ fellow.type | upcase }}
+                        <br><b>{{ fellow.discipline }}</b>
+                    </p>
+                    <h5>Project</h5>
+                    <p class="card-text">
+                       {{ fellow.topic }}
+                       <br>
+                        <b>Students Impacted:</b> {{ fellow.students-impacted }}
+                    </p>
+                    <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
+                </div>
+            </div>   
+        </div>{%endif%}
+        {% endfor %}
+    </div>
+    <hr/>
+    <h3 class="my-2">Graduate Students</h3>
+    <div class="row">
+    {% for fellow in fellows %}
+        {% if fellow.year == "2019" and fellow.type == "gradstudent" %}
+        <div class="col-md-4 my-1">
+                <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
+                    {% if fellow.image%}
+                    
+                        <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/thinkopen/{{ fellow.image }}" alt="Card image cap">
+                {%endif%}
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
+                        </h4>
+                        <p class="card-text">
+                            {{ fellow.type | upcase }}
+                            <br><b>{{ fellow.discipline }}</b>
+                        </p>
+                        <h5>Project</h5>
+                        <p class="card-text">
+                           {{ fellow.topic }}
+                           <br>
+                            <b>Students Impacted:</b> {{ fellow.students-impacted }}
+                        </p>
+                    </div>
+                </div>   
+            </div>
+            {%endif%}
+        {% endfor %}
+    </div>
