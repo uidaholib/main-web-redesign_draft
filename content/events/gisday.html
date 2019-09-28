@@ -3,6 +3,7 @@ title: "GIS Day @ University of Idaho"
 section: GIS Day
 permalink: /events/gisday.html
 layout: full-width-page
+lazyload: true
 ---
 
 <style>
@@ -19,10 +20,10 @@ layout: full-width-page
             <div class="card">
                 <div class="card-body">
                     <img class="img-fluid" src="/assets/gis-day-logo-black.png">
-                    <h3>November 13, 2019.</h3>
-                    <h4>Idaho Commons.<br>
-                    University of Idaho.<br>
-                    Moscow, Idaho.</h4>
+                    <h3>November 13, 2019</h3>
+                    <h4>Idaho Commons<br>
+                    University of Idaho<br>
+                    Moscow, Idaho</h4>
                 </div>
             </div>
         </div>
@@ -45,57 +46,44 @@ layout: full-width-page
     </div>
 </div>
 
-<div id="schedule" class="my-3 border-bottom">
+<hr class="my-4">
+
+<div id="schedule" class="my-3">
     <h2>Schedule of Events</h2>
 
-    
-    <table class="table table-striped table-responsive">
-        <thead>
-            <tr>
-                <td>Time</td>
-                <td>Title</td>
-                <td>Description</td>
-            </tr>
-        </thead>
-        <tbody>
-            {% assign events = site.data.gisday_schedule %}
-            {% for e in events %}
-            <tr>
-                <td>{{ e.time }}<br>{{ e.location }}</td>
-                <td>
-                    <h4>{{ e.title }}</h4>
-                    {{ e.presenter }}<br>
-                </td>
-                <td>{{ e.description }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-
+    <div class="mr-2">
     {% assign events = site.data.gisday_schedule %}
     {% for e in events %}
-    <div class="row ">
-        <div class="col-md-2 border">
+    <div class="row border rounded py-3 justify-content-end">
+        <div class="col-md-2">
             {{ e.time }}<br>
             {{ e.location }}
         </div>
-        <div class="col-md-4 border">
+        <div class="col-md-4">
             <h4>{{ e.title }}</h4>
             {{ e.presenter }}
         </div>
-        <div class="col-md-6 border">
-            <p>{{ e.description }}</p>
-            {% if e.description_full %}<button class="btn btn-success">More</button>{% endif %}
+        <div class="col-md-6">
+            <p>{{ e.description }}
+            {% if e.description_full %}<button class="btn btn-sm btn-success ml-2" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <i class="fas fa-caret-down"></i></button>{% endif %}</p>
         </div>
+        {% if e.description_full %}<div class="col-md-10 collapse" id="collapse{{ forloop.index }}">
+            <div class="card card-body my-3">
+                {{ e.description_full }}
+            </div>
+        </div>{% endif %}
     </div>
     {% endfor %}
+    </div>
 
 </div>
 
-<div id="sponsors" class="my-3 border-bottom"> 
-    <h2 class="text-center">Sponsors</h2>
+<hr class="my-4">
 
-    <p class="text-center">The following entities have generously provided financial contributions to help make this a successful event.</p>
+<div id="sponsors" class="my-3"> 
+    <h2>Sponsors</h2>
+
+    <p>The following entities have generously provided financial contributions to help make this a successful event.</p>
 
     <div class="row justify-content-center my-4 text-center">
         {% assign sponsors = site.data.gisday_sponsors %}
@@ -108,50 +96,67 @@ layout: full-width-page
         {% endfor %}
     </div>
 
-    <h3>Become a Sponsor</h3>
-    <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please make a donation using one of the options:</p>
-    <ul>
-        <li>Online with a credit card<br>
-            Go to <a href="https://www.givecampus.com/campaigns/3269/donations/new">UIdaho Giving</a><br>
-            Under "Designation" type in "GIS Day Fund" and fill out the required fields of the form
-        </li>
-        <li>By phone<br>
-            Call the University of Idaho Gift Administration Office at (208) 885-6796 and give with a credit card.<br>
-            Indicate you are giving to the "GIS Day Fund."
-        </li>
-        <li>By mail<br>
-            Checks may be mailed to:<br>
-            University of Idaho Foundation 875 Perimeter Drive MS 3147 Moscow, ID 83843-3147<br>
-            Please have the checks made out to the "University of Idaho Foundation, Inc."<br>
-            Put "GIS Day Fund" on the check memo line or on a note accompanying the check.
-        </li>
-        
-    </ul>
-    
-    <p>Contact Bruce Godfrey (bgodfrey@uidaho.edu, ph. 208-292-1407) if you have any sponsorship questions.</p>
-    
-    <h3>Sponsorship Levels & Entitlements</h3>
-    
-    <p>We welcome any financial contribution but respectfully suggest to following amounts:</p>
+    <div class="text-center m-3">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#sponsorDetails">
+            <h3 class="m-2">Become a Sponsor</h3>
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="sponsorDetails" tabindex="-1" role="dialog" aria-labelledby="sponsorLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sponsorLabel">Sponsor GIS Day @ University of Idaho</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please use one of the following options to make a donation:</p>
+                    <ul class="list-group mb-2">
+                        <li class="list-group-item"><strong>Online</strong><br>
+                            Go to <a href="https://www.givecampus.com/campaigns/3269/donations/new">UIdaho Giving</a><br>
+                            Under "Designation" type in "GIS Day Fund" and fill out the required fields of the form
+                        </li>
+                        <li class="list-group-item"><strong>By phone</strong><br>
+                            Call the University of Idaho Gift Administration Office at (208) 885-6796 and give with a credit card.<br>
+                            Indicate you are giving to the "GIS Day Fund."
+                        </li>
+                        <li class="list-group-item"><strong>By mail</strong><br>
+                            Checks may be mailed to:<br>
+                            University of Idaho Foundation 875 Perimeter Drive MS 3147 Moscow, ID 83843-3147<br>
+                            Please have the checks made out to the "University of Idaho Foundation, Inc."<br>
+                            Put "GIS Day Fund" on the check memo line or on a note accompanying the check.
+                        </li>
+                    </ul>
 
-    <ul>
-        <li>Friend: $50</li>
-        <li>Professional: $100</li>
-        <li>Corporate: $350 - logo on web page & flyers; banner space; recognition during the event</li>
-    </ul>
+                    <h4>Sponsorship Levels & Entitlements</h4>
+                    <p>We welcome any financial contribution but respectfully suggest to following amounts:</p>
+                    <ul>
+                        <li>Friend: $50</li>
+                        <li>Professional: $100</li>
+                        <li>Corporate: $350 - logo on web page & flyers; banner space; recognition during the event</li>
+                    </ul>
+                    <p>Please contact Bruce Godfrey (bgodfrey@uidaho.edu, ph. 208-292-1407) if you have any sponsorship questions. These contributions may be tax deductible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <p>These contributions may be tax deductible.</p>
+    <p class="text-center"><small>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please click the button above to learn how to make a donation.</small></p>
 
 </div>
 
-<div class="my-3 pb-3 border-bottom row">
+<hr class="my-4"> 
+
+<div class="my-3 pb-3 row">
     <div class="col-md-6">
         <div class="card">
             <div class="card-header">
-                Location
+                <h2>Location</h2>
             </div>
             <div class="card-body">
-                <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=46.7272,+-117.0124&amp;aq=&amp;sll=45.494576,-114.143261&amp;sspn=9.057441,21.51123&amp;t=m&amp;ie=UTF8&amp;ll=46.7272,-117.0124&amp;spn=0.001081,0.002626&amp;z=16&amp;output=embed"></iframe>
+                <iframe class="lazyload" width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" data-src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=46.7272,+-117.0124&amp;aq=&amp;sll=45.494576,-114.143261&amp;sspn=9.057441,21.51123&amp;t=m&amp;ie=UTF8&amp;ll=46.7272,-117.0124&amp;spn=0.001081,0.002626&amp;z=16&amp;output=embed"></iframe>
                 <p class="card-text">
                     <small>Idaho Commons, University of Idaho, Moscow, ID.
                     (<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=46.7272,+-117.0124&amp;aq=&amp;sll=45.494576,-114.143261&amp;sspn=9.057441,21.51123&amp;t=m&amp;ie=UTF8&amp;ll=46.7272,-117.0124&amp;spn=0.001081,0.002626&amp;z=16">View Larger Map</a>)</small>
@@ -163,7 +168,7 @@ layout: full-width-page
     <div class="col-md-6" id="parking">
         <div class="card">
             <div class="card-header">
-                Parking
+                <h2>Parking</h2>
             </div>
             <div class="card-body">
                 <p class="card-text">The <a href="https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/infrastructure/Parking/Maps/2019-20_campus_parking_map.pdf">U of I Campus Parking Map</a> shows all parking lots and their associated permit requirements.</p>
@@ -176,7 +181,9 @@ layout: full-width-page
 
 </div>
 
-<div id="committee" class="my-3 border-bottom text-center">
+<hr class="my-4"> 
+
+<div id="committee" class="my-3 text-center">
 
     <h2>Planning Committee Members</h2>
 
