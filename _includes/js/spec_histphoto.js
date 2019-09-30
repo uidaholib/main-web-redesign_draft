@@ -1,20 +1,29 @@
 <script src="{{ '/assets/datatables/datatables.min.js' | relative_url }}"></script>
 <script>
-$.fn.dataTableExt.afnFiltering.push(
-    function( oSettings, aData, iDataIndex ) {
-        var collectionFilter = document.getElementById("collectionSelect").value;
-        // show everything
-        if (collectionFilter == "all") { return true; }
-        else { return aData[3] == collectionFilter; }
-    }
-);
-</script>
-<script>
 (function(){
-    // add text input to each footer heading for search
-    $('#item-table tfoot .col-search').each( function () {
+    // set up filter by PG dropdown
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var collectionFilter = document.getElementById("collectionSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[3] == collectionFilter; }
+        }
+    );
+    // add a text input to each header for search
+    $('#item-table thead tr').clone(true).appendTo( '#item-table thead' );
+    $('#item-table thead tr:eq(1) th').each( function (i) {
         var title = $(this).text();
-        $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+        $(this).html( '<input class="form-control form-control-sm" type="text" placeholder="Filter '+title+'" />' );
+ 
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        } );
     } );
     // initialize DataTables
     var table = $('#item-table').DataTable( {
@@ -34,26 +43,16 @@ $.fn.dataTableExt.afnFiltering.push(
         ],
         paging: true,
         lengthMenu: [[ 15, 50, 100, 500], [ 15, 50, 100, 500]],
+        orderCellsTop: true,
         // sort based on the date
         order: [[ 2, "asc" ]],
         // add download features
-        dom: 'i<"row"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>B',//'Blfrtip', 
+        dom: 'i<"row"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>B', 
         buttons: [ 'excelHtml5', 'csvHtml5' ]
     });
     /* Add event listeners to collectionSelect */
     $('#collectionSelect').change( function() {
         table.draw();
-    });
-    // Apply column search
-    table.columns().every( function () {
-        var that = this;
-        $( 'input', this.footer() ).on( 'keyup change clear', function () {
-            if ( that.search() !== this.value ) {
-                that
-                    .search( this.value )
-                    .draw();
-            }
-        });
     });
 })();
 </script>

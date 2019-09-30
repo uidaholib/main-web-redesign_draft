@@ -22,12 +22,12 @@ custom-foot: "js/spec_histphoto.js"
 <link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
 
 <div class="table-responsive-md">
-    <table id="item-table" class="table table-striped table-sm">
+    <table id="item-table" class="table table-striped">
         <thead>
             <tr>
-                <th scope="col">Title</th>
-                <th scope="col">Date</th>
-                <th scope="col">Notes</th>
+                <th scope="col" >Title</th>
+                <th scope="col" >Date</th>
+                <th scope="col" >Notes</th>
                 <th scope="col">PG</th>
                 <th scope="col">ID</th>
                 <th scope="col">Thumbnail</th>
@@ -50,4 +50,5 @@ custom-foot: "js/spec_histphoto.js"
 
 <hr> 
 
-<p>The Excel / CSV buttons above will export the current subset of filtered items. For the complete data:<br> <a href="{{ '/assets/data/histphoto_full.csv' | relative_url }}" class="btn btn-success m-3">Download Full CSV</a></p>
+<p>Clicking the Excel / CSV buttons above will export the current subset of filtered items from the table. For the complete data:</p>
+<p class="text-center"><a href="{{ '/assets/data/histphoto_full.csv' | relative_url }}" class="btn btn-success m-3">Download Full HistPhoto CSV</a></p>
