@@ -1,7 +1,7 @@
 ---
 title: "GIS Day @ University of Idaho"
 section: GIS Day
-permalink: /events/gisday.html
+permalink: /gisday/index.html
 layout: full-width-page
 lazyload: true
 ---
@@ -135,7 +135,7 @@ lazyload: true
         {% for s in sponsors %}
         <div class="col-6 col-md-4 p-3 p-md-5">
             <a href="{{ s.link }}" title="{{ s.sponsor }}">
-                <img src="{{ s.img }}" alt="{{ s.sponsor }}" class="img-fluid p-2">
+                <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid p-2">
             </a>
         </div>
         {% endfor %}
