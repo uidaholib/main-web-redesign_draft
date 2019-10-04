@@ -9,14 +9,16 @@ custom-foot: "js/spec_histphoto.js"
 
 <p>The Historical Photograph Database consists of a table of over 90,000 images held by Special Collections that can be filtered, sorted, and exported below.</p>
 
-<div class="form-group col-md-4">
-    <label for="collectionSelect">Photo Group (PG):</label>
-    <select id="collectionSelect" class="form-control">
-        <option value="all" selected>All</option>
-        {%- assign options = site.data.spec_histphoto_dropdown -%}
-        {% for i in options %}<option value="{{ i.value }}">{{ i.text }}</option>
-        {% endfor %}
-    </select>
+<div class="form-group row justify-content-end">
+    <label for="collectionSelect" class="col-sm-2 col-form-label text-right">Photo Group (PG):</label>
+    <div class="color-sm-3">
+        <select id="collectionSelect" class="custom-select form-control">
+            <option value="all" selected>All</option>
+            {%- assign options = site.data.spec_histphoto_dropdown -%}
+            {% for i in options %}<option value="{{ i.value }}">{{ i.text }}</option>
+            {% endfor %}
+        </select>
+    </div>
 </div>
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
