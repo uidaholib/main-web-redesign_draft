@@ -20,7 +20,7 @@ permalink: /services/rooms.html
                 {{ r.type }}
             </div>
             <div class="card-body">
-                <img class="img-fluid mb-3" src="https://www.lib.uidaho.edu/media/rooms/{{ r.img }}.jpg">
+                <img class="img-fluid mb-3" src="{{ site.lib-media }}/rooms/{{ r.img }}.jpg">
                 <h5 class="card-title">{{ r.room }}</h5>
                 <p class="card-text">{{ r.description }}</p>
                 <a href="{{ r.link }}" class="btn btn-primary">Book</a>

@@ -16,7 +16,7 @@ In developing and supporting these skills, the MILL ensures that the University 
 <div class="col-9 col-md-4">
     <div class="card mb-3">
         <div class="card-body text-center">
-            <img class="img-fluid rounded mb-2" src="{{ p.img | prepend: '/media/mill/' | prepend: site.liburl }}" alt="headshot of {{ p.name }}">
+            <img class="img-fluid rounded mb-2" src="{{ p.img | prepend: '/mill/' | prepend: site.lib-media }}" alt="headshot of {{ p.name }}">
             <h5 class="card-title">{{ p.name }}</h5>
             <p class="card-text">{{ p.title }}<br><a href="mailto:{{ p.email }}">{{ p.email }}</a></p>
         </div>

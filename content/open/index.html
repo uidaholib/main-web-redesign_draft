@@ -27,7 +27,7 @@ layout: page
                   
                 <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
                    
-                    <img class="card-img-top" src="https://www.lib.uidaho.edu/media/carousel/ross_notext2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="{{ '/carousel/ross_notext2.jpg' | prepend: site.lib-media }}" alt="Card image cap">
                    
                     <div class="card-body">
                         <h4 class="card-title">
@@ -104,7 +104,7 @@ layout: page
             </div>
             <div class="card-body">
                 <p class="card-text">The faculty of the University of Idaho Library believes that open access to scholarship positively supports the communication of research and the future of libraries and education. To formally acknowledge our position, library faculty voted to adopt an Open Access Resolution on August 23rd, 2018.</p>
-                <a href="https://www.lib.uidaho.edu/media/about/UIdahoLibrary_OpenAccessResolution.pdf" target="_blank" rel="noopener" class="btn btn-payette-blue">Read Resolution</a>
+                <a href="{{ '/about/UIdahoLibrary_OpenAccessResolution.pdf' | prepend: site.lib-media }}" target="_blank" rel="noopener" class="btn btn-payette-blue">Read Resolution</a>
             </div>
         </div>
     </div>

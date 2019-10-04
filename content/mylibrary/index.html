@@ -17,7 +17,7 @@ lazyload: true
         <a role="button" class="card-button" data-toggle="modal" data-target="#poster{{ forloop.index }}">
             <div class="card my-3">
                 <div class="card-body text-center">
-                    <img src="{{ p.img | prepend: '/media/mylibrary/small/' | prepend: site.liburl }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
+                    <img src="{{ p.img | prepend: '/mylibrary/small/' | prepend: site.lib-media }}" class="img-fluid" alt="{{ p.name }} My Library Poster">
                     {{ p.name }}, {{ p.department }}
                 </div>
             </div><!--end card-->
@@ -31,7 +31,7 @@ lazyload: true
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
-                        <img data-src="{{ p.img | prepend: '/media/mylibrary/' | prepend: site.liburl }}" class="img-fluid lazyload" alt="{{ p.name }} My Library Poster">
+                        <img data-src="{{ p.img | prepend: '/mylibrary/' | prepend: site.lib-media }}" class="img-fluid lazyload" alt="{{ p.name }} My Library Poster">
                         {% if p.text %}<blockquote class="blockquote"><p class="card-text mt-2 p-3">{{ p.text }}</p></blockquote>{% endif %}
                     </div><!--end modal-body-->
 

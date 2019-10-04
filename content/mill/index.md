@@ -5,7 +5,7 @@ permalink: /mill/
 layout: page
 ---
 
-<img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/media/mill/' | prepend: site.liburl }}" class="img-fluid rounded">
+<img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded">
 
 <div class="alert alert-primary text-center" role="alert">
 <h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Hours: Mon - Thu 9am - 7pm, Fri 9am - 6pm</h4>
