@@ -18,7 +18,7 @@ layout: page
             <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
                 {% if fellow.image%}
                 
-                    <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/thinkopen/{{ fellow.image }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="Card image cap">
             {%endif%}
                 <div class="card-body">
                     <h4 class="card-title">
@@ -48,8 +48,7 @@ layout: page
         <div class="col-md-4 my-1">
                 <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
                     {% if fellow.image%}
-                    
-                        <img class="card-img-top" src="https://www.lib.uidaho.edu/assets/images/thinkopen/{{ fellow.image }}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="Card image cap">
                 {%endif%}
                     <div class="card-body">
                         <h4 class="card-title">
