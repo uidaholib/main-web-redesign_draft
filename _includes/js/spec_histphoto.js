@@ -36,7 +36,7 @@
         columns: [ { data: '2' }, { data: '3' }, { data: '4' }, { data: '1' }, { data: '0' }, { data: '5' }, { data: '6' } ],
         columnDefs: [ 
             // make Image link
-            { "render": function ( data ) { if (data) { return '<a href="https://www.lib.uidaho.edu/special-collections/histphoto/' + data +'" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 5 },
+            { "render": function ( data ) { if (data) { return '<a href="https://www.lib.uidaho.edu/media/spec/histphoto/' + data +'" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 5 },
             // make Digital Collection link
             { "render": function ( data, row ) { if (data) { return '<a href="https://www.lib.uidaho.edu/digital/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 6 }
             //{ "render": function ( data, type, row ) { if (data) { return '<a href="https://digital.lib.uidaho.edu/cdm/search/collection/' + data +'/searchterm/' + encodeURIComponent(row['5']) + '/field/all/mode/all/conn/and/order/title/ad/asc" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 }
