@@ -17,7 +17,7 @@ permalink: /recognitions/
     </div>
     <div id="collapse{{ y }}" class="collapse" aria-labelledby="recognitions{{ y }}" >
         <div class="card-body">
-            {% assign promos = site.data.recognitions-bookplates | where: "year", y %}
+            {% assign promos = site.data.recognitions-bookplates | where_exp: "item","item.year == y" %}
             {% for p in promos %}{%- if p.book -%}
             <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
             <ul class="ml-2">

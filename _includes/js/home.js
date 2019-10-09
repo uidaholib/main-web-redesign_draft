@@ -14,7 +14,7 @@
 </script>
 
 <script>
-{%- assign researchers = site.data.vivo_featured_researchers | where: 'year','2019' -%}
+{%- assign researchers = site.data.vivo_featured_researchers | where_exp:"item","item.year == '2019'" -%}
 {%- assign researcher-fields = 'id;last;first;rank;dept;deptid;pub;publoc;publink;pubtype' | split: ';' -%}
     /* featured researchers */
     var researchers = [
