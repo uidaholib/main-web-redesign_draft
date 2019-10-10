@@ -1,0 +1,25 @@
+1. Using GitHub Desktop, change your current repoistory to "main-web-redesign_draft"
+2. Click the Fetch Origin button to make sure the repository is up to date
+3. Open the repository in Visual Studio Code. 
+    (you can do this by clicking 'CTRL Shift A' or via the "Repository" menu at the top of GitHub Desktop -- the penultimate option should be "Open in Visual Studio Code")
+4. Edit the content you'd like to change    
+    All pages are contained in the /content/ folder and listed in folders corresponding to their respective areas
+5. Save your changes. 
+6. Open the terminal and type "jekyll s"
+7. Use the link generated (probably - http://127.0.0.1:4000/) to check your changes 
+8. If you're adding a page and want to adjust a menu to include it, you'll need to edit "pagesnav.yml" which is in the /_data/ directory
+    Use the document to determine where to put your new page listing. Each section with its own menu has a section in this document. 
+    Copy and paste and then replace the information appropriately. 
+9. Save all your work and check the site one last time
+10. Click on the terminal and click 'CTRL C' to stop the server
+11. You should get a prompt in the terminal after doing this. 
+12. Type "rake deploy"
+13. Wait for the site to build. 
+14. Open up the /_site/ directory in the Explorer (or finder) -- note: this will look gray in your VS Code because it does not get tracked by GitHub    
+    This is where Jekyll builds the actual HTML pages
+15. Copy the file(s) that you've added or changed (if there are a lot in one folder, you can just copy that folder. )
+16. Open up the web site in your Explorer (something like: W:\www-lib-uidaho-edu\Content)
+17. Find where your files should be placed, and paste them into that folder.
+18. Replace files if you're editing an existing page. 
+
+
