@@ -5,7 +5,8 @@ permalink: /about/elsevier.html
 layout: page
 ---
 
-The Library is currently reevaluating its contract with journal publisher Elsevier due to cuts to their budget. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
+{:.mt-4 .h5}
+The Library is currently reevaluating its contract with journal publisher Elsevier due to cuts to our budget. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
 
 ***
 
