@@ -21,5 +21,6 @@
 16. Open up the web site in your Explorer (something like: W:\www-lib-uidaho-edu\Content)
 17. Find where your files should be placed, and paste them into that folder.
 18. Replace files if you're editing an existing page. 
+19. Go back to GitHub Desktop and commit and push all your changes!
 
 
