@@ -6,7 +6,7 @@ layout: page
 ---
 
 {:.mt-4 .h5}
-The Library is currently reevaluating its contract with journal publisher Elsevier due to cuts to our budget. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
+The Library is currently reevaluating its contract with journal publisher Elsevier. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
 
 ***
 
@@ -22,15 +22,15 @@ Right now our only viable option appears to be opting out of our current “big 
 
 ## Which journals will we lose?
 
-Until the contract with Elsevier is renegotiated, we do not know which journal subscriptions will continue. Every effort will be made to retain high-use and important journals across a range of disciplines. We will communicate the outcomes of the negotiation with the campus community as soon as possible. When possible, we will solicit and act on input from the university community.
+Until the contract with Elsevier is renegotiated, we do not know which journal subscriptions will continue. Every effort will be made to retain high-use and important journals across a range of disciplines. We will communicate the outcomes of the negotiation with the campus community as soon as possible and we will be open and responsive to the feedback we receive.
 
 ***
 
 ## How is our contract structured?
 
-Currently, the library’s Elsevier subscription takes the form of a “big deal” package. Unlike “a la-carte” subscriptions, which allow libraries to pick and choose individual titles, a big deal subscription consists of a bundled-up assortment of journal titles. While a big deal package allows access to a greater number of titles overall, it means the library has less control over which individual titles are included in the package. Some titles in the package may be heavily used and valued by researchers while others receive low to no use. In a big deal package, the library cannot cancel individual low-use titles without also affecting access to the high-use titles, so we continue to be charged for everything in the package.
+Currently, the library’s Elsevier subscription takes the form of a “big deal” package. Unlike “a la carte” subscriptions, which allow libraries to pick and choose individual titles, a big deal subscription consists of a bundled assortment of journal titles. While a big deal package allows access to a greater number of titles overall, it means the library has less control over which individual titles are included in the package. Some titles in the package may be heavily used and valued by researchers while others receive low to no use. In a big deal package, the library cannot cancel individual low-use titles without also affecting access to the high-use titles, so we continue to be charged for everything in the package.
 
-For the library to have complete control over choosing our Elsevier journal title subscriptions, we need to blow up the big deal package. The result will likely be that prices for each individual journal title that the library selects will increase. However, the library will no longer be forced to pay the ever-increasing big deal price for low-usage titles that are infrequently used. This will allow the library to tailor our subscription choices to meet the needs of the University of Idaho Library community while staying within our budget. 
+For the library to have complete control over choosing our Elsevier journal title subscriptions, we need to dismantle the big deal. The result will likely be that prices for each individual journal title that the library selects will increase. However, the library will no longer be forced to pay the ever-increasing big deal price for titles that are infrequently used. This will allow the library to tailor our subscription choices to meet the needs of the University of Idaho Library community while staying within our budget. 
 
 ***
 
