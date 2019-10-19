@@ -14,16 +14,21 @@ permalink: /services/rooms.html
 
 <div class="row">
     {% for r in rooms %}
-    <div class="col-md-6 mb-2">
-        <div class="card">
+    <div class="col-12 mb-2">
+        <div class="card mb-3">
             <div class="card-header">
-                {{ r.type }}
+                <h4 class="mb-0">{{ r.room }}</h4>
             </div>
-            <div class="card-body">
-                <img class="img-fluid mb-3" src="{{ site.lib-media }}/rooms/{{ r.img }}.jpg">
-                <h5 class="card-title">{{ r.room }}</h5>
-                <p class="card-text">{{ r.description }}</p>
-                <a href="{{ r.link }}" class="btn btn-primary">Book</a>
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <img src="{{ site.lib-media }}/rooms/{{ r.img }}" class="card-img" alt="{{ r.type }}">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <p class="card-text">{{ r.description }}</p>
+                        <a href="{{ r.link }}" class="btn btn-primary">Book {{ r.type }}</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
