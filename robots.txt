@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /old/
 Disallow: /backup/
+Disallow: /secure/
 Sitemap: https://www.lib.uidaho.edu/sitemap.xml
