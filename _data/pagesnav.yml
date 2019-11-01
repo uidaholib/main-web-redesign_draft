@@ -471,6 +471,17 @@ Services:
       - name: Resources
         url: /services/workshops/resources.html
 
+# GIS Day
+GIS Day:
+  - parent: GIS Day 
+    stub: /gisday/
+  - subsection: GIS Day Home 
+    link: /gisday/
+  - subsection: Repository
+    link: /gisday/repository.html
+  - subsection: Geospatial Resources
+    link: /find/geospatial/    
+
 # Guide sections
 Data Management Guide:
   - parent: Data Services
