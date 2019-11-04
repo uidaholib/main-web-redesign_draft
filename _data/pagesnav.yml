@@ -321,8 +321,12 @@ MILL:
     link: /mill/news.html
   - subsection: FAQ
     link: /mill/faq.html
+  - subsection: Reserve 3d Printers
+    link: https://libcal.uidaho.edu/reserve/3dprinters   
   - subsection: The Studio A/V Lab
     link: /studio/
+  - subsection: Workshops
+    link: /services/workshops/    
 
 # The Studio Section
 The Studio:
@@ -338,8 +342,6 @@ The Studio:
     link: /studio/video.html
   - subsection: Terms of Use
     link: /studio/termsofuse.html
-
-
 
 # Think Open Section
 Think Open:
