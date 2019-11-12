@@ -150,6 +150,8 @@ Find:
         url: /find/articles.html
       - name: Database Tools
         url: /find/articles.html#tools
+  - subsection: Board Games
+    link: https://libguides.uidaho.edu/Games
   - subsection: Books & eBooks
     link: /find/books.html
     subpages:
