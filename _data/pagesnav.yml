@@ -170,7 +170,7 @@ Find:
         url: /find/video.html
       - name: DVDs
         url: /find/dvds.html         
-  - subsection: Encyclopedias
+  - subsection: Encyclopedias & Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
     link: /events/     
