@@ -57,7 +57,7 @@ table-id: "#geo"
             </div>
             <div class="card-body text-center">
                 <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview"
-                    target="_blank" rel="noopener" title="Esri GIS Products | ArcGIS Pro">ArcGIS Online</a> is Esri's web-based collaborative platform that enables members to use, create, manage, store, document, and share maps, apps, and data.</p>
+                    target="_blank" rel="noopener" title="Esri GIS Products | ArcGIS Pro">ArcGIS Online</a> is a web-based collaborative platform (hosted by Esri) that enables members to use, create, manage, store, document, and share maps, apps, and data.</p>
                 <div class="text-center">
                     <a href="https://uidaho.maps.arcgis.com/home/signin.html" target="_blank" class="btn btn-outline-pride-gold" 
                     role="button" rel="noopener" title="Sign in to U of I's Research & Teaching Portal">Sign into U of I's Research & Teaching Portal</a>
@@ -68,6 +68,23 @@ table-id: "#geo"
 
     <div class="col-md-6">
         <div class="card my-2 ml-2">
+            <div class="card-header text-center">
+                <h5 class="mb-0">ArcGIS Enterprise</h5>
+            </div>
+            <div class="card-body text-center">
+                <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-enterprise/overview"
+                    target="_blank" rel="noopener" title="Esri GIS Products | ArcGIS Enterprise">ArcGIS Enterprise</a> is an on-premisis depolyment of ArcGIS Online by the U of I Library.</p>
+                <div class="text-center">
+                    Contact <a href="mailto:bgodfrey@uidaho.edu">Bruce Godfrey</a> for more information about, and access to, ArcGIS Enterprise.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row pb-3">
+    <div class="col-md-6">
+        <div class="card my-2 mr-2">
             <div class="card-header text-center">
                 <h5 class="mb-0">ArcGIS Pro</h5>
             </div>
@@ -81,7 +98,26 @@ table-id: "#geo"
             </div>
         </div>
     </div>
+
+    <div class="col-md-6">
+        <div class="card my-2 ml-2">
+            <div class="card-header text-center">
+                <h5 class="mb-0">ArcGIS Desktop</h5>
+            </div>
+            <div class="card-body text-center">
+                <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview" target="_blank" rel="noopener" title="Esri GIS Products | ArcGIS Desktop">ArcGIS Desktop</a> is Esri's legacy Windows-based desktop GIS.</p>
+                <div class="text-center">            
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-desktop/10.7.1/ArcGIS_Desktop_1071_169506.exe" 
+                    class="btn btn-outline-pride-gold my-2 mx-2" role="button">Download ArcGIS Desktop</a>
+                    <a href="{{ '/find/geospatial/esriauth.html#arcgisdesktop' | relative_url }}" class="btn btn-outline-pride-gold" role="button" title="Software authorization information for ArcGIS Desktop">Authorize ArcGIS Desktop</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
 
 <div class="row pb-3">
     <div class="col-md-6">
@@ -105,22 +141,9 @@ table-id: "#geo"
         </div>
     </div>
 
-    <div class="col-md-6">
-        <div class="card my-2 ml-2">
-            <div class="card-header text-center">
-                <h5 class="mb-0">ArcGIS Desktop</h5>
-            </div>
-            <div class="card-body text-center">
-                <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview" target="_blank" rel="noopener" title="Esri GIS Products | ArcGIS Desktop">ArcGIS Desktop</a> is Esri's legacy Windows-based desktop GIS.</p>
-                <div class="text-center">            
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-desktop/10.7.1/ArcGIS_Desktop_1071_169506.exe" 
-                    class="btn btn-outline-pride-gold my-2 mx-2" role="button">Download ArcGIS Desktop</a>
-                    <a href="{{ '/find/geospatial/esriauth.html#arcgisdesktop' | relative_url }}" class="btn btn-outline-pride-gold" role="button" title="Software authorization information for ArcGIS Desktop">Authorize ArcGIS Desktop</a>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+
+
 
 <hr>
 
@@ -171,7 +194,12 @@ table-id: "#geo"
             </div>
             <div class="card-body">
                 <div class="card-text">
-                    <p>There are numerous desktop GIS software programs such as <a href="https://www.qgis.org/en/site/" target="_blank" rel="noopener" title="QGIS">QGIS</a>. There are also many web-based options such as <a href="https://www.mapbox.com/" target="_blank" rel="noopener" title="Mapbox">Mapbox</a> and <a href="https://carto.com/" target="_blank" rel="noopener" title="Carto">Carto</a>. Take a look at the <a href="https://www.osgeo.org/choose-a-project/" target="_blank" rel="noopener" title="OSGeo Projects">OSGeo projects</a> to help you find an open source technology to meet your needs.
+                    <p>There are numerous desktop GIS software programs such as <a href="https://www.qgis.org/en/site/" target="_blank" rel="noopener" title="QGIS">QGIS</a>. 
+                        There are also many web-based options such as <a href="https://www.mapbox.com/" target="_blank" rel="noopener" title="Mapbox">Mapbox</a> and 
+                        <a href="https://carto.com/" target="_blank" rel="noopener" title="Carto">Carto</a>. Take a look at the 
+                        <a href="https://www.osgeo.org/choose-a-project/" target="_blank" rel="noopener" title="OSGeo Projects">OSGeo projects</a> to help you find 
+                        an open source technology to meet your needs or take a look at a list of <a href="https://ischoolonline.syr.edu/blog/gis-data/" target="_blank" 
+                        rel="noopener" title="Working with GIS Data"> Open-Source GIS Software.
                     </p>
                 </div>
             </div>
