@@ -1,4 +1,5 @@
-(function(){// Idaho's Library Hours (April 4, 2016) by Devin Becker based on Today's Library Hours v.1 (March 30, 2011) by Matthew Reidsma, reidsmam@gvsu.edu
+(function(){
+// Idaho's Library Hours (April 4, 2016) by Devin Becker based on Today's Library Hours v.1 (March 30, 2011) by Matthew Reidsma, reidsmam@gvsu.edu
 // Released under the GPL: https://www.gnu.org/licenses/gpl.html
 //
 
@@ -9,8 +10,8 @@
 
 	var base = "Open 24 Hours";
 	var baseFri = "Open 12am &#8211; 8pm ";
-	var baseSat	= "Open 10am &#8211; 6pm";
-	var baseSun	= "Open 10am - Friday";
+	var baseSat	= "Open 9am &#8211; 6pm";
+	var baseSun	= "Open 9am &#8211; Friday";
 	var baseSummerWkday = "Open 7am &#8211; 7pm";
 	var baseSummerWkend = "Open 10am &#8211; 6pm";
 	var baseTgWkday = "Open 8am &#8211; 8pm";
@@ -31,11 +32,11 @@
 	var dayNumber = currentDate.getDay();
 	
 	// Special "one off" dates that don't fit other patterns
-	var oneOff = ["0511"];
-	var twoOff = ["0512"];
+	var oneOff = ["0516"];
+	var twoOff = ["0517"];
 	
-	// All dates with different hours, inlcuding winter dates, tg dates,xmas dates, and closed dates
-	var diffHours = ["0901","1123","1124","1125","1126","1127","1129","1130","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114","0313","0314","0315","0316","0317","0318","0319","0320","0321","0511","0512","0524","0704"];
+	// All dates with different hours, including winter dates, tg dates,xmas dates, and closed dates
+	var diffHours = ["0901","1123","1124","1125","1126","1127","1129","1130","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114","0313","0314","0315","0316","0317","0318","0319","0320","0321","0516","0517","0525","0704"];
 
 	// All  tg dates and spring break dates with different hours
 	var tgdiff = ["1123","1124","1125","1126","1127","1129","1130","0313","0314","0315","0316","0317","0318","0319","0320","0321"];
