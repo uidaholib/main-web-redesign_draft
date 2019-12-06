@@ -265,6 +265,8 @@ Special Collections:
         url: /special-collections/plan.html
       - name: Reading Room Rules
         url: /special-collections/rules.html
+      - name: Reproductions
+        url: /special-collections/reproduction.html
   - subsection: Collections
     url: /special-collections/description.html
     subpages:
