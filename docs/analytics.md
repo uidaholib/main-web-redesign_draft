@@ -25,6 +25,7 @@ Looks like:
   gtag('js', new Date());
   /* load umbrella property with enhanced link attribution and cross domain tracking */
   gtag('config', 'UA-76328753-1', {
+    'anonymize_ip': true,
     'link_attribution': true,
     'linker': {
       'domains': ['www.lib.uidaho.edu', 'www.ijc.uidaho.edu', 'vivo.nkn.uidaho.edu', 'inside.uidaho.edu', 'www.insideidaho.org', 'libguides.uidaho.edu', 'digital.lib.uidaho.edu', 'poetry.lib.uidaho.edu', 'journals.lib.uidaho.edu']
@@ -74,7 +75,7 @@ Thus each event looks like:
 That function has to be tied to the element on a click event. 
 Using jQuery, it looks like:
 
-`$('#askUsButton').click(function() { gtag('event', 'ui_click', { 'event_category': 'mainweb_ui', 'event_label': 'askUsButton' }); });`
+`$('#askUsButton').click(function() { gtag('event', 'ui_click', { 'anonymize_ip': true, 'event_category': 'mainweb_ui', 'event_label': 'askUsButton' }); });`
 
 The counts of these clicks can be viewed in Analytics > Behavior > Events.
 
@@ -88,3 +89,7 @@ Buttons with events:
 - databasesButton
 - databasesButtonNav
 - dropdownResearchToolsLink
+
+# privacy
+
+https://developers.google.com/analytics/devguides/collection/gtagjs/ip-anonymization
