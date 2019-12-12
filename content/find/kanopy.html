@@ -1,0 +1,34 @@
+---
+title: Expiration Dates for Kanopy
+section: Find
+permalink: /find/kanopy.html
+layout: page
+table-id: "#expiring"
+table-paginate: true
+---
+
+<p>Some streaming videos from Kanopy are purchased with a one year license. Access to these PDA titles expire on a rolling basis. If you would like to use the video during the semester, please check this list to ensure the license will not expire.</p>
+
+{% assign videos = site.data.find_kanopy_expiration %}
+<table id="expiring" class="table table-striped" data-order='[[1, "asc"]]'>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Expires</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Title</th>
+            <th>Expires</th>
+        </tr>
+    </tfoot>
+    <tbody>
+    {% for v in videos %}
+    <tr>
+       <td >{{ v.title }}</td>
+       <td data-order="{{ v.expires | date: '%Y-%m-%d' }}">{{ v.expires | date: '%b %d, %Y' }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>	
