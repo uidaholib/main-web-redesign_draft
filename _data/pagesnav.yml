@@ -159,6 +159,8 @@ Find:
         url: /find/request.html
   - subsection: Data
     link: /find/data.html
+  - subsection: Digital Collections
+    link: /digital/
   - subsection: DVDs & Streaming Video
     link: /find/video.html
     subpages: 
@@ -214,6 +216,8 @@ Find:
     link: http://libguides.uidaho.edu/index.php?
   - subsection: Theses & Dissertations
     link: /find/etds.html
+  - subsection: U of I Research & Expertise (VIVO)
+    link: https://vivo.nkn.uidaho.edu/vivo/    
   - subsection: Unique & Archival Material
     link: /special-collections/searchall.html
     
