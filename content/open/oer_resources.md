@@ -11,7 +11,7 @@ layout: page
 
 The MASON OER Metafinder performs a simultaneous search across 21 different sources of open educational materials. This is a great place to start looking!
 
-[Open Textbook Directory](http://open.lib.uidaho.edu/index.php/resources/open-textbook-directory/)
+[Open Textbook Directory](#open-textbook-directory)
 
 A list of established open textbook and open educational resource collections.
 
