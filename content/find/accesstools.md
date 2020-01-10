@@ -5,13 +5,14 @@ permalink: /find/accesstools.html
 layout: page 
 ---
 
-Going beyond the [library catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID) this curated list features tools to help you access academic literature on the web using U of I library subscriptions and open access sources, so that you can get articles in the fastest and simplest way possible. 
-If we don't have access, please put in a request with [Interlibrary Loan]({{ '/services/ill/' | relative_url }}). 
-As always, don't hesitate to contact a [reference librarian]({{ '/help/' | relative_url }}) with any questions!
+Many scholars support [open access](https://sparcopen.org/open-access/) but don’t always know where to start when looking for academic literature on the web. 
+This curated list of search tools goes beyond our [library catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID) to help you find and access resources using U of I library subscriptions *and* open access repositories so that you can get articles in the fastest and simplest way possible. 
+If we don’t have access, please put in a request with [Interlibrary Loan]({{ '/services/ill/' | relative_url }}). 
+As always, don’t hesitate to contact a [reference librarian]({{ '/help/' | relative_url }}) with any questions!
 
 Tools:
 {% for t in site.data.find_access-tools %}
-- <a href="#{{ t.title | slugify }}">{{ t.title }}</a>{% endfor %}
+- <a href="#{{ t.title | slugify }}">{{ t.title }}</a> ({{ t.type }}){% endfor %}
 
 ---------------
 
