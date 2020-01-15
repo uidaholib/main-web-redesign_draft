@@ -140,12 +140,8 @@ Find:
     stub: /find/
   - subsection: Articles
     link: /find/articles.html
-    type: direct-link
-    subpages:
-      - name: Search & Browse
-        url: /find/articles.html
-      - name: Database Tools
-        url: /find/articles.html#tools
+  - subsection: Access Tools
+    link: /find/accesstools.html   
   - subsection: Board Games
     link: https://libguides.uidaho.edu/Games
   - subsection: Books & eBooks
