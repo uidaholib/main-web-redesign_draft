@@ -64,3 +64,7 @@ This will add `lazysizes.min.js` to the foot ([lazysizes docs](https://github.co
 For images that should be lazy loaded, add `class="lazyload"` and replace "src" with `data-src`.
 
 It is a good idea to add lazyload to modal images and other large images that start off screen, since this will greatly speed up page load.
+
+# Robots / noindex
+
+If you need a page to have the `<meta name="robots" content="noindex" />` meta tag, add `noindex: true` to the front matter.

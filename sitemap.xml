@@ -4,7 +4,7 @@
 {%- if jekyll.environment == "production" -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for p in site.html_pages %}{% unless p.robots == false %}
+{% for p in site.html_pages %}{% unless p.noindex == true %}
    <url>
       <loc>{{ p.url | absolute_url }}</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
