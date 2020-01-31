@@ -6,7 +6,7 @@ layout: page
 ---
 
 {:.mt-4 .h5}
-The Library is currently reevaluating its contract with journal publisher Elsevier. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
+The Library has recently renegotiated its contract with journal publisher Elsevier. Below you'll find answers to some questions researchers and students at UI might have regarding this change.
 
 ***
 <div id="faqAccordion">
