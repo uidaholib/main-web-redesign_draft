@@ -8,11 +8,12 @@ lazyload: true
 {% comment %}{% include index-alert.html color="warning" text="<i class='fas fa-exclamation-triangle'></i> The Library’s <strong>Interlibrary Loan system (ILL)</strong> will be <strong>offline</strong> starting <strong>8:00PM July 30th</strong> until <strong>midnight July 31st</strong> for maintenance purposes. Borrowing from ILL will not be available during this time, but requesting items from partner libraries in Summit will be unaffected. <br>Additional downtime may be needed; please check back for updates, and contact libref@uidaho.edu or call 208.885.6559 with questions." %}{%- endcomment -%}
 
 <main id="maincontent" role="main">
-{% include searchnav.html %}
+    <h1 class="sr-only">University of Idaho Library Home</h1>
+    {% include searchnav.html %}
 
-{% include indexcarousel.html %}
+    {% include indexcarousel.html %}
 
-{% include marketing.html %}
+    {% include marketing.html %}
 
-{% include featurebar.html %}
+    {% include featurebar.html %}
 </main>
