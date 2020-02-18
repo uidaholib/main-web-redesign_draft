@@ -5,7 +5,7 @@ permalink: /mill/
 layout: page
 ---
 
-<img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded">
+<img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded" alt="image of circuit board with computer chip">
 
 <div class="alert alert-primary text-center" role="alert">
 <h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Hours: Mon - Thu 9am - 7pm, Fri 9am - 6pm</h4>
@@ -18,7 +18,10 @@ Are you ready to create? [Reserve one of our 3D printers](https://libcal.uidaho.
 If you’re looking for space to record audio or video, [reserve the Studio A/V lab](https://libcal.uidaho.edu/reserve/AV). 
 Or join us for weekly [workshops]({{ '/services/workshops/' | relative_url }})!
 
-Want to learn more? Get in touch with us by stopping by or <a href="mailto:khenrich@uidaho.edu">sending us a message</a>. The MILL is an evolving space, and we’d love to hear from you – please use [our suggestion box](https://uidaho.co1.qualtrics.com/SE/?SID=SV_eJxEYnCmi9c5W2p) to send any requests!
+Want to learn more? Get in touch with us by stopping by or <a href="mailto:khenrich@uidaho.edu">sending us a message</a>. 
+To get our [newsletter]({{ '/mill/news.html' | relative_url }}) delivered to your inbox, sign up for our mailing list by emailing <a href="mailto:library-mill-join@uidaho.edu ">library-mill-join@uidaho.edu</a>.
+
+The MILL is an evolving space, and we’d love to hear from you – please use [our suggestion box](https://uidaho.co1.qualtrics.com/SE/?SID=SV_eJxEYnCmi9c5W2p) to send any requests!
 
 <div class="card-group">
     <div class="card">
