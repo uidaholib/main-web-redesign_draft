@@ -14,16 +14,21 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Elsevier Journals Contract Change
-    link: /about/elsevier.html
+  - subsection: Journal Cancellations
+    link: /about/journalcancellations.html
+    subpages:
+      - name: Overview 
+        url: /about/journalcancellations.html
+      - name: Elsevier Journals Contract Change 
+        url: /about/elsevier.html
+      - name: Journal and Database Review
+        url: /review/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
-  - subsection: Journal and Database Review
-    link: /review/
   - subsection: My Library Stories
     link: /mylibrary/
   - subsection: People
@@ -131,8 +136,8 @@ Review:
   #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6nTjWGFXy4x7uwR
   - subsection: FAQ
     link: /review/faq.html
-  - subsection: << About
-    link: /about/
+  - subsection: << Journal Cancellations
+    link: /about/journalcancellations.html
 
 # Find Section
 Find:
