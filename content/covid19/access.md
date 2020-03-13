@@ -9,7 +9,7 @@ The below lists a variety of ways you can access library resources online from a
 
 ### Get Online Help! 
 
-Need help finding articles, or have other library questions? You can chat with a UI librarian from the dorms, from home, or elsewhere. Just [ask us](https://www.lib.uidaho.edu/help/chat.html)! 
+Need help finding articles, or have other library questions? You can chat with a UI librarian from the dorms, from home, or elsewhere. Just [ask us](https://www.lib.uidaho.edu/help/chat.html)! 
 
 ### Librarian Consultations 
 
@@ -21,18 +21,18 @@ Trying to make sense of library resources can be confusing. To help, we've crea
 
 ### Online Resources 
 
-The library has tons of materials you can access online. Check our [library catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az.php?) for scholarly and scientific articles.  
+The library has tons of materials you can access online. Check our [library catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az.php?) for scholarly and scientific articles.  
 
 ### Interlibrary Loan and Document Delivery 
 
 Even if you're not on campus, we can still help you get electronic access to materials the library doesn't own via [Interlibrary Loan (ILL)](https://www.lib.uidaho.edu/services/ill/). 
 
-Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to UI students, staff, and faculty.  
+Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to UI students, staff, and faculty.  
 
 ### Off-Campus Access 
 
-To use the library off-campus, you'll need to log in to our catalog or databases with your VandalID, the same credentials you use to access email and BBLearn. Stuck? [Ask us for help](https://www.lib.uidaho.edu/help/chat.html) or see if your question is answered in this [guide for off-campus students](https://libguides.uidaho.edu/c.php?g=363086&p=2453098).     
+To use the library off-campus, you'll need to log in to our catalog or databases with your VandalID, the same credentials you use to access email and BBLearn. Stuck? [Ask us for help](https://www.lib.uidaho.edu/help/chat.html) or see if your question is answered in this [guide for off-campus students](https://libguides.uidaho.edu/c.php?g=363086&p=2453098).     
 
 ### Special Collections & Archives  
 
-Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>) or phone (208-885-0845).
+Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>) or phone (208-885-0845).
