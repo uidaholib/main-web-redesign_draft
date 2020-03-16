@@ -13,7 +13,7 @@ The following pages are made available to assist users in using library resource
 
 <div class="list-group col-md-8 offset-md-2 mt-2 mb-4">
   <a href="impact.html" class="list-group-item list-group-item-action text-black">
-    How will the Library Services be Impacted?
+    How will Library Services be Impacted?
   </a>
   <a href="access.html" class="list-group-item list-group-item-action text-black">How can I access library resources from off-campus?</a>
   <a href="information-sources.html" class="list-group-item list-group-item-action text-black">Where can I learn more about Covid-19?</a>
