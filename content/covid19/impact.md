@@ -24,7 +24,9 @@ Beginning on Sunday, March 22nd at 10am, the Library will be reducing our open h
 - Saturday: 9am – 6pm
 - Sunday: 9am – 8pm
 
-[The Studio](/studio/) will be closed until face to face classes resume.
+[The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
+
+The [Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) Reading Room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845).
 
 ### Resource Sharing
 
@@ -36,16 +38,10 @@ Our regional resource sharing consortium, the Orbis Cascade Alliance, has suspen
 
 **Interlibrary Loan**
 
-Due to library closures and limitations across the country, we are currently unable to process printed material. However, patrons can still request digital articles and/or book chapters. Please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. For help, please contact the [ILL office](https://www.lib.uidaho.edu/services/ill/). 
+Due to library closures and limitations across the country, we are currently unable to process printed material. However, patrons can still request digital articles and/or book chapters. Please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }}). 
 
 ### Fines and Fees
 
 The library will be waiving fines for UI or Summit materials accrued after March 9th, so don't worry if you left for spring break with a bunch of books! Please note this doesn't apply to lost or damaged books. 
 
 Have a book from ILL that will be overdue? Please contact the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu) or (208) 885-6843 so we can help you extend your due date. 
-
-### Special Collections & Archives
-
-The Special Collections Collections & Archives reading room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845).
-
-

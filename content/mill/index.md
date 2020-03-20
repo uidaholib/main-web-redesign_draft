@@ -7,8 +7,8 @@ layout: page
 
 <img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded" alt="image of circuit board with computer chip">
 
-<div class="alert alert-primary text-center" role="alert">
-<h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> Hours: Mon - Thu 9am - 7pm, Fri 9am - 6pm</h4>
+<div class="alert alert-warning text-center" role="alert">
+<h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> The MILL is closed until further notice as part of our ongoing <a href="{{ '/covid19/' | relative_url }}">COVID-19 response</a>.</h4>
 </div>
 
 The **Making, Innovating, Learning Laboratory** (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
