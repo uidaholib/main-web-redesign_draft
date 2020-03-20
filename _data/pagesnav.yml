@@ -10,7 +10,7 @@ About:
     link: /about/
   - subsection: Contact
     link: /about/contact.html
-  - subsection: Covid-19 Response
+  - subsection: COVID-19 Response
     link: /covid19/
   - subsection: Departments
     link: /about/departments.html
@@ -141,8 +141,8 @@ Review:
   - subsection: << Journal Cancellations
     link: /about/journalcancellations.html
 # Covid 19 Section
-Covid-19:
-  - parent: Covid-19
+COVID-19:
+  - parent: COVID-19
     stub: /covid19/
   - subsection: Overview
     link: /covid19/index.html
@@ -150,7 +150,7 @@ Covid-19:
     link: /covid19/impact.html
   - subsection: Accessing Library Resources Off-Campus
     link: /covid19/access.html
-  - subsection: Covid-19 Information Sources
+  - subsection: COVID-19 Information Sources
     link: /covid19/information-sources.html
   - subsection: Library Resources to Pass the Time
     link: /covid19/resources.html

@@ -1,7 +1,7 @@
 ---
 title: Accessing Library Resources Off-Campus
 layout: page
-section: Covid-19
+section: COVID-19
 permalink: /covid19/access.html
 ---
 

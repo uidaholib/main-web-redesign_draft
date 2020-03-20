@@ -1,7 +1,7 @@
 ---
 title: Impact on Library Services
 layout: page
-section: Covid-19
+section: COVID-19
 permalink: /covid19/impact.html
 ---
 
