@@ -24,6 +24,8 @@ Beginning on Sunday, March 22nd at 10am, the Library will be reducing our open h
 - Saturday: 9am – 6pm
 - Sunday: 9am – 8pm
 
+The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
+
 [The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
 
 The [Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) Reading Room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845).
