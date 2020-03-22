@@ -1,17 +1,16 @@
 (function(){
 // Idaho's Library Hours (April 4, 2016) by Devin Becker based on Today's Library Hours v.1 (March 30, 2011) by Matthew Reidsma, reidsmam@gvsu.edu
 // Released under the GPL: https://www.gnu.org/licenses/gpl.html
-//
 
 // Configuration:
 // ------------------------------------------------------------------
 
 // Enter base times for your library
 
-	var base = "Open 24 Hours";
-	var baseFri = "Open 12am &#8211; 8pm ";
+	var base = "Open 8am &#8211; 12am";//"Open 24 Hours";
+	var baseFri = "Open 8am &#8211; 8pm";//"Open 12am &#8211; 8pm ";
 	var baseSat	= "Open 9am &#8211; 6pm";
-	var baseSun	= "Open 9am &#8211; Friday";
+	var baseSun	= "Open 9am &#8211; 8pm";//"Open 9am &#8211; Friday";
 	var baseSummerWkday = "Open 7am &#8211; 7pm";
 	var baseSummerWkend = "Open 10am &#8211; 6pm";
 	var baseTgWkday = "Open 8am &#8211; 8pm";
@@ -20,7 +19,6 @@
 	var baseXmasWkend = "Open 10am &#8211; 6pm";
 	var baseOneOff = "Open 8am &#8211; 5pm";
 	var baseTwoOff = "Open 8am &#8211; 5pm";
-
 
 	// Establishing date strings (for inclusion in diffHours array) and day numbers for if/else statements
 	var currentDate = new Date()
@@ -57,7 +55,7 @@
 	var libhours = baseTwoOff;
 	  
 	}	
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 101 && Number(dateNumber) < 514) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 101 && Number(dateNumber) < 515) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
 				   	var libhours = base;
@@ -85,7 +83,7 @@
 			}
 		}
 //Fall semester hours
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 820 && Number(dateNumber) < 1217) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 823 && Number(dateNumber) < 1217) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
 				   	var libhours = base;
@@ -113,7 +111,7 @@
 			}
 		}
 //Summer hours
-	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 513 && Number(dateNumber) < 825) {
+	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 514 && Number(dateNumber) < 824) {
 	//Summer Weekday
 			if (dayNumber > 0 && dayNumber < 6){
 				   	var libhours = baseSummerWkday;
@@ -166,15 +164,12 @@
 					  
 			}
 		}		
-
-		
-		
+	
 		//Closed dates
 	else{
 	var libhours = "Closed today.";
 	  
 	}
-	document.getElementById("timedisp").innerHTML = libhours;
-		
+	document.getElementById("timedisp").innerHTML = libhours;		
 	
 })();
