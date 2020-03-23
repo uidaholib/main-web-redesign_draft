@@ -13,10 +13,9 @@ If you are planning to visit the library, please be sure to follow [World Heal
 ### Hours and Availability 
 
 The Library is reducing its open hours and areas for the remainder of spring semester. 
-
-**The first floor of the library remains open. All other floors are closed.** All group study rooms are closed as well.
-
 Physical materials will not circulate during this time. 
+
+**The first floor of the library remains open. All other floors and group study rooms are closed.** 
 
 Current Hours (these are subject to change based on usage):
 
@@ -28,6 +27,20 @@ Current Hours (these are subject to change based on usage):
 - Saturday: 9am – 6pm
 - Sunday: 9am – 8pm
 
+### Reference Desk
+
+The main reference desk is closed with all [Reference Services]({{ '/help/' | relative_url }}) virtual only.
+However, to help with this transition, reference hours have been **expanded**!
+
+Reference Hours (online):
+
+- Monday - Thursday: 8am - 8pm
+- Friday: 8am - 5pm 
+- Sunday: 2pm - 8pm 
+
+Visit the [Reference Services]({{ '/help/' | relative_url }}) page to ask librarians questions via chat, text, or email. 
+You can also make a research appointment for individualized help via Zoom, tailored to finding relevant resources for your specific information need.
+
 ### Collections and Services
 
 The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
@@ -38,6 +51,7 @@ The [Special Collections Collections & Archives]({{ '/special-collections/' | re
 
 ### Resource Sharing
 
+The Interlibrary Loan office is currently closed to the public, but services are available during normal operating hours online via email. 
 Resource sharing is currently limited to electronic delivery due to library closures across the country. 
 
 **Summit**
@@ -46,7 +60,10 @@ Our regional resource sharing consortium, the Orbis Cascade Alliance, has suspen
 
 **Interlibrary Loan**
 
-Due to library closures and limitations across the country, we are currently unable to process printed material. However, patrons can still request digital articles and/or book chapters. Please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }}). 
+Due to library closures and limitations across the country, we are currently unable to process printed material. 
+However, patrons can still request digital articles and/or book chapters. 
+Please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. 
+For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }}). 
 
 ### Fines and Fees
 
