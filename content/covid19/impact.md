@@ -12,9 +12,8 @@ If you are planning to visit the library, please be sure to follow [World Heal
 
 ### Hours
 
-Currently we are on [spring break hours](https://www.lib.uidaho.edu/about/hours.html#springbreak).
-
-Beginning on Sunday, March 22nd at 10am, the Library will be reducing our open hours. Though these hours are subject to change based on usage, we will begin with the following:
+Beginning on Sunday, March 22nd the Library will be reducing our open hours for the remainder of spring semester.
+Though these hours are subject to change based on usage, we will begin with the following:
 
 - Monday: 8am – midnight
 - Tuesday: 8am – midnight
