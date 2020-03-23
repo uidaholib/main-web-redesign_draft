@@ -10,10 +10,15 @@ permalink: /covid19/impact.html
 {:.alert .alert-warning}
 If you are planning to visit the library, please be sure to follow [World Health Organization guidelines](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) by washing your hands, maintaining social distance, and staying home if you feel unwell or are in a high-risk population.  
 
-### Hours
+### Hours and Availability 
 
-Beginning on Sunday, March 22nd the Library will be reducing our open hours for the remainder of spring semester.
-Though these hours are subject to change based on usage, we will begin with the following:
+The Library is reducing its open hours and areas for the remainder of spring semester. 
+
+**The first floor of the library remains open. All other floors are closed.** All group study rooms are closed as well.
+
+Physical materials will not circulate during this time. 
+
+Current Hours (these are subject to change based on usage):
 
 - Monday: 8am – midnight
 - Tuesday: 8am – midnight
@@ -23,11 +28,13 @@ Though these hours are subject to change based on usage, we will begin with the 
 - Saturday: 9am – 6pm
 - Sunday: 9am – 8pm
 
+### Collections and Services
+
 The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
 
 [The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
 
-The [Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) Reading Room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845).
+The [Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) Reading Room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845). 
 
 ### Resource Sharing
 
