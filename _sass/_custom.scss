@@ -116,3 +116,6 @@ footer, footer a {
 
 /* libchat widget floating */
 @media (max-width: 576px) { .s-lch-widget-float{ display: none!important;} }
+
+/* temp to hide room bookings during covid-19 */
+#topbar-rooms { display: none !important; }
