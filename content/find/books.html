@@ -15,27 +15,29 @@ layout: page
       class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
       <label style="margin-right:5px"> Search </label>
       <select id="primoFieldTemp" class="EXLSelectTag fixed">
-        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
+        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" >
           All Fields</option>
-        <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
+        <option class="EXLSelectOption" id="scope_titleall1" value="title" >
           in the title</option>
-        <option class="EXLSelectOption" id="scope_creatorall1" value="creator" style="display:block">
+        <option class="EXLSelectOption" id="scope_creatorall1" value="creator" >
           authors</option>
-        <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
+        <option class="EXLSelectOption" id="scope_suball1" value="sub" >
           in subject</option>
       </select>
       <label> for Print Books containing: </label>
-
+      
       <input type="hidden" name="pfilter" value="pfilter,exact,pbooks,AND">
-      <input type="hidden" name="tab" value="default_tab">
-      <input type="hidden" name="search_scope" value="everything">
+      <input type="hidden" name="tab" value="ui_summit">
+      <input type="hidden" name="search_scope" value="ui_alma_summit">
       <input type="hidden" name="vid" value="UID">
       <input type="hidden" name="mode" value="advanced">
       <input type="hidden" name="offset" value="0">
       <input id="primoQuery" type="hidden" name="query">
-      <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 "
+
+      <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-lg col-md-8 mb-sm-1"
       placeholder="Search for books & eBooks  ...">
-  <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
+      <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
+ 
     </form>
     <a class="mr-3" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" target="_blank" rel="noopener">
       Advanced Search</a>
