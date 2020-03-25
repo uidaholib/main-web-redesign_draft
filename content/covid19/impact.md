@@ -47,7 +47,10 @@ The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relat
 
 [The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
 
-[Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are closed to the public. Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
+[Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are closed to the public. 
+- Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). 
+- For assistance, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
+- Reproduction requests for items not already digitized will be extremely limited due to staff availability. Permissions to use Special Collections materials will be determined on a case-by-case basis.
 
 ### Resource Sharing
 
