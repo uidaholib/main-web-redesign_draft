@@ -41,13 +41,13 @@ Reference Hours (online):
 Visit the [Reference Services]({{ '/help/' | relative_url }}) page to ask librarians questions via chat, text, or email. 
 You can also make a research appointment for individualized help via Zoom, tailored to finding relevant resources for your specific information need.
 
-### Collections and Services
+### Collections and Services (Closures)
 
 The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
 
 [The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
 
-The [Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) Reading Room will be open by appointment only. For assistance with finding and accessing archival material, please contact our Special Collections staff via email (libspec@uidaho.edu) or phone (208-885-0845). 
+[Special Collections Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are closed to the public. Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
 
 ### Resource Sharing
 
