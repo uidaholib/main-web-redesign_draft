@@ -19,6 +19,7 @@
 	var baseXmasWkend = "Open 10am &#8211; 6pm";
 	var baseOneOff = "Open 8am &#8211; 5pm";
 	var baseTwoOff = "Open 8am &#8211; 5pm";
+	var covid = "The Library is closed."
 
 	// Establishing date strings (for inclusion in diffHours array) and day numbers for if/else statements
 	var currentDate = new Date()
@@ -34,51 +35,58 @@
 	var twoOff = ["0517"];
 	
 	// All dates with different hours, including winter dates, tg dates,xmas dates, and closed dates
-	var diffHours = ["0901","1123","1124","1125","1126","1127","1129","1130","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114","0313","0314","0315","0316","0317","0318","0319","0320","0321","0516","0517","0525","0704"];
+	 var diffHours = ["0901","1123","1124","1125","1126","1127","1129","1130","1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114","0313","0314","0315","0316","0317","0318","0319","0320","0321","0516","0517","0525","0704"];
 
 	// All  tg dates and spring break dates with different hours
-	var tgdiff = ["1123","1124","1125","1126","1127","1129","1130","0313","0314","0315","0316","0317","0318","0319","0320","0321"];
+	 var tgdiff = ["1123","1124","1125","1126","1127","1129","1130","0313","0314","0315","0316","0317","0318","0319","0320","0321"];
 	// All  xmas dates (and January Winter Break Dates) with different hours
-	var xmasdiff = ["1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114"];
+	 var xmasdiff = ["1221","1222","1223","1226","1227","1228","1229","1230","0102","0103","0104","0105","0106","0107","0108","0110","0111","0112","0113","0114"];
 
 	//All closed dates
-	var closedUp = ["0902","1128","1224","1225","1231", "0101","0525","0704"];
+	 var closedUp = ["0902","1128","1224","1225","1231", "0101","0525","0704"];
 
 //Spring semester hours
 	if(oneOff.indexOf(dateNumber)==0) 
 	{
-	var libhours = baseOneOff;
+	// var libhours = baseOneOff;
+	var libhours = covid
 	  
 	}
 	else if(twoOff.indexOf(dateNumber)==0) 
 	{
-	var libhours = baseTwoOff;
+	// var libhours = baseTwoOff;
+       var libhours = covid
 	  
 	}	
 	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 101 && Number(dateNumber) < 515) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
-				   	var libhours = base;
+				   	// var libhours = base;
+       var libhours = covid
 					  
 			}
 	//Friday
 			else if (dayNumber == 5 ){
-				 	var libhours = baseFri;
+				 	// var libhours = baseFri;
+       var libhours = covid
 					  
 			}
 	//Saturday		
 			else if (dayNumber == 6 ){
-				   	var libhours = baseSat;
+				   	// var libhours = baseSat;
+       var libhours = covid
 					  
 			}
 	//Sunday	
 			else if (dayNumber == 0 ){
-				    var libhours = baseSun;
+				    // var libhours = baseSun;
+      var libhours = covid
 					  
 			}
 	//Error
 			else {
-					var libhours = "" ;
+					// var libhours = "" ;
+      var libhours = covid
 					  
 			}
 		}
@@ -86,27 +94,32 @@
 	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 823 && Number(dateNumber) < 1217) {
 	//Mon-Thur
 			if (dayNumber > 0 && dayNumber < 5){
-				   	var libhours = base;
+				   	// var libhours = base;
+      var libhours = covid
 					  
 			}
 	//Friday
 			else if (dayNumber == 5 ){
-				 	var libhours = baseFri;
+				 	// var libhours = baseFri;
+      var libhours = covid
 					  
 			}
 	//Saturday		
 			else if (dayNumber == 6 ){
-				   	var libhours = baseSat;
+				   	// var libhours = baseSat;
+      var libhours = covid
 					  
 			}
 	//Sunday	
 			else if (dayNumber == 0 ){
-				    var libhours = baseSun;
+				    // var libhours = baseSun;
+      var libhours = covid
 					  
 			}
 	//Error
 			else {
-					var libhours = "" ;
+					// var libhours = "" ;
+      var libhours = covid
 					  
 			}
 		}
@@ -114,17 +127,20 @@
 	else if(diffHours.indexOf(dateNumber)==-1 && Number(dateNumber) > 514 && Number(dateNumber) < 824) {
 	//Summer Weekday
 			if (dayNumber > 0 && dayNumber < 6){
-				   	var libhours = baseSummerWkday;
+				   	// var libhours = baseSummerWkday;
+      var libhours = covid
 					  
 			}
 	//Summer Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
-				   	var libhours = baseSummerWkend;
+				   	// var libhours = baseSummerWkend;
+      var libhours = covid
 					  
 			}
 	//Error
 			else {
-					var libhours = "" ;
+					// var libhours = "" ;
+      var libhours = covid
 					  
 			}
 		}
@@ -132,17 +148,20 @@
 	else if(closedUp.indexOf(dateNumber)==-1 && xmasdiff.indexOf(dateNumber)==-1) {
 	//Thanksgiving/SpringBreak/WinterBreak Weekday
 			if (dayNumber > 0 && dayNumber < 6){
-				   	var libhours = baseTgWkday;
+				   	// var libhours = baseTgWkday;
+      var libhours = covid
 					  
 			}
 	//Thanksgiving/SpringBreak/WinterBreak Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
-				   	var libhours = baseTgWkend;
+				   	// var libhours = baseTgWkend;
+      var libhours = covid
 					  
 			}
 	//Error
 			else {
-					var libhours = "" ;
+					// var libhours = "" ;
+      var libhours = covid
 					  
 			}
 		}
@@ -150,24 +169,28 @@
 	else if(closedUp.indexOf(dateNumber)==-1 && tgdiff.indexOf(dateNumber)==-1) {
 	//Xmas Weekday
 			if (dayNumber > 0 && dayNumber < 6){
-				   	var libhours = baseXmasWkday;
+				   	// var libhours = baseXmasWkday;
+      var libhours = covid
 					  
 			}
 	//Xmas Weekend		
 			else if (dayNumber == 6 || dayNumber == 0){
-				   	var libhours = baseXmasWkend;
+				   	// var libhours = baseXmasWkend;
+      var libhours = covid
 					  
 			}
 	//Error
 			else {
-					var libhours = "" ;
+					// var libhours = "" ;
+      var libhours = covid
 					  
 			}
 		}		
 	
 		//Closed dates
 	else{
-	var libhours = "Closed today.";
+	// var libhours = "Closed today.";
+      var libhours = covid
 	  
 	}
 	document.getElementById("timedisp").innerHTML = libhours;		

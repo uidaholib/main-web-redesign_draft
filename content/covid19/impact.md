@@ -12,27 +12,14 @@ If you are planning to visit the library, please be sure to follow [World Heal
 
 ### Hours and Availability 
 
-The Library is reducing its open hours and areas for the remainder of spring semester. 
-Physical materials will not circulate during this time. 
-
-**The first floor of the library remains open. All other floors and group study rooms are closed.** 
-
-Current Hours (these are subject to change based on usage):
-
-- Monday: 8am – midnight
-- Tuesday: 8am – midnight
-- Wednesday: 8am – midnight
-- Thursday: 8am – midnight
-- Friday: 8am – 8pm
-- Saturday: 9am – 6pm
-- Sunday: 9am – 8pm
+The Library is closed until further notice.  
 
 ### Reference Desk
 
-The main reference desk is closed with all [Reference Services]({{ '/help/' | relative_url }}) virtual only.
-However, to help with this transition, reference hours have been **expanded**!
+All [Reference Services]({{ '/help/' | relative_url }}) are virtual only.
+However, to help with this transition, reference hours have been **expanded**.
 
-Reference Hours (online):
+Virtual Reference Hours (online):
 
 - Monday - Thursday: 8am - 8pm
 - Friday: 8am - 5pm 
