@@ -12,7 +12,7 @@ If you are planning to visit the library, please be sure to follow [World Heal
 
 ### Hours and Availability 
 
-The Library is closed until further notice.  
+The Library building is closed until further notice, but we continue to offer [extensive online services]( {{ '/covid19/access.html' | relative_url }} ). 
 
 ### Reference Desk
 
