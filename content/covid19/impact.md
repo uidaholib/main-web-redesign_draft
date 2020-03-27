@@ -30,10 +30,12 @@ You can also make a research appointment for individualized help via Zoom, tailo
 
 ### Tutoring
 
-All tutoring sessions that were being held in the library are now being offered remotely via Zoom.
+All tutoring sessions normally held in the library are now being offered remotely via Zoom.
+Please check the services' web pages for more information:
 
-- Visit the [Online Tutoring page](https://www.uidaho.edu/current-students/academic-support/asp/tcs/tutoring/online-tutoring) for information about Tutoring & College Success drop-in tutoring sessions.
-- The [Writing Center](https://www.uidaho.edu/class/writing-center) provides online consultations and feedback on drafts.
+- Tutoring & College Success is offering drop-in [Online Tutoring](https://www.uidaho.edu/current-students/academic-support/asp/tcs/tutoring/online-tutoring) sessions.
+- Writing Center provides [online consultations and feedback on drafts](https://www.uidaho.edu/class/writing-center).
+- Statistics Assistance Center is offering drop-in [Virtual SAC Tutoring](https://www.uidaho.edu/sci/stat/about/sac/tutoring-schedule).
 
 ### Collections and Services (Closures)
 
