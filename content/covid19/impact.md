@@ -28,6 +28,13 @@ Virtual Reference Hours (online):
 Visit the [Reference Services]({{ '/help/' | relative_url }}) page to ask librarians questions via chat, text, or email. 
 You can also make a research appointment for individualized help via Zoom, tailored to finding relevant resources for your specific information need.
 
+### Tutoring
+
+All tutoring sessions that were being held in the library are now being offered remotely via Zoom.
+
+- Visit the [Online Tutoring page](https://www.uidaho.edu/current-students/academic-support/asp/tcs/tutoring/online-tutoring) for information about Tutoring & College Success drop-in tutoring sessions.
+- The [Writing Center](https://www.uidaho.edu/class/writing-center) provides online consultations and feedback on drafts.
+
 ### Collections and Services (Closures)
 
 The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
