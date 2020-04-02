@@ -454,6 +454,8 @@ Services:
     subpages:
       - name: Instruction Home
         url: /services/instruction/
+      - name: Topics of Instruction
+        url: /services/instruction/topics.html
       - name: Request Form
         url: /services/instruction/instrequest.html
       - name: English 102
