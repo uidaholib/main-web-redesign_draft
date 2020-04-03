@@ -20,14 +20,8 @@ filter: reserve-card
     }
 </style>    
 <p>Search for your course via course name, course title, instructor, or section.</p>
-<div class="row mb-2 pb-2form-inline justify-content-center">
-    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-md-6 col-8">
-    <button class="searchinput mx-2 btn btn-lg btn-pride-gold col-2" title="Search" alt="Search" id="goButton"
-        onclick="filterItems()" type="submit">Go</button>
-    <button class="reset btn btn-secondary ml-2">Reset</button>
-</div>
-<div class="my-4  border-bottom row mx-3">
-        <select class="col-12 mx-2 mt-2 form-control" id="courseList" >
+<div class="my-2 row mx-3">
+        <select class="col-12 mx-2 mt-2 form-control filter" id="courseList" >
             <option value="">Filter by Course</option>
             {% for c in reserves %}
             {% if c.URL %}
@@ -46,9 +40,15 @@ filter: reserve-card
     <select class="col mx-2 mt-2 form-control filter-param mb-3"  id="deptList">
         <option value="">Filter by Department</option>
         {% for dept in dept-unique %}
-        <option value="{{dept}}">{{dept}}</option>
+        <option value="{{dept | remove: ' '}}">{{dept}}</option>
         {% endfor %}
     </select>
+</div>
+<div class="row mb-4 border-bottom pb-2 form-inline justify-content-center">
+    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-md-6 col-8">
+    <button class="searchinput mx-2 btn btn-lg btn-pride-gold col-2" title="Search" alt="Search" id="goButton"
+        onclick="filterItems()" type="submit">Go</button>
+    <button class="reset btn btn-secondary ml-2">Reset</button>
 </div>
 <div class="row" id="contents-container">
 

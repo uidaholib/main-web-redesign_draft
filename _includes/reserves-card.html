@@ -1,7 +1,7 @@
-{%if e.URL%}<div class="reserve-card col-md-4 mt-2 {{e.Department}}">
+{%if e.URL%}<div class="reserve-card col-md-4 mt-2 {{e.Department | remove: ' '}}">
     <div class="card search-contents">
         <div class="card-body bg-dark">
-            <h5 class="card-title text-light">{{e.CourseName}} ({{e.CourseNumber}})</h5>
+            <h5 class="card-title text-light"><a href="{{e.URL}}" target="_blank" class="text-white" >{{e.CourseName}} ({{e.CourseNumber}})</a></h5>
             <p class="card-text text-light">Section {{e.CourseSection}}</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -12,7 +12,7 @@
             <li class="list-group-item"><strong  class="mr-2">Section:</strong> {{e.CourseSection}}</li>
         </ul>
         <div class="card-body text-right">
-            <a href="{{e.URL}}" class="card-link btn btn-outline-pride-gold font-weight-bold text-dark" target="_blank">See Materials on Reserve <span class="fas fa-external-link-alt mx-2"></span>
+            <a href="{{e.URL}}" class="card-link btn btn-outline-pride-gold font-weight-bold text-dark" target="_blank">See Materials on Reserve <span class="fas fa-external-link-alt ml-1"></span>
             </a>
         </div>
     </div>
