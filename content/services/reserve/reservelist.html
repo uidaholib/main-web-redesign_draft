@@ -1,0 +1,66 @@
+---
+title: Available Course Reserves
+section: Services
+permalink: /services/reserve/list.html
+layout: page
+filter: reserve-card
+---
+{% assign reserves = site.data.reserveslist | where_exp: "item","item.URL"  %}
+{% assign peoplemap = reserves | map: "Instructor" | compact | join: ";" %}
+{% assign people-unique = peoplemap | split: ';' | uniq | sort %}
+{% assign deptmap = reserves | map: "Department" | compact | join: ";" %}
+{% assign dept-unique = deptmap | split: ';' | uniq | sort %}
+<style>
+    .hidden {
+        display: none;
+    }
+
+    button {
+        pointer: cursor;
+    }
+</style>    
+<p>Search for your course via course name, course title, instructor, or section.</p>
+<div class="my-2 row mx-3">
+        <select class="col-12 mx-2 mt-2 form-control filter" id="courseList" >
+            <option value="">Filter by Course</option>
+            {% for c in reserves %}
+            {% if c.URL %}
+            <option value="{{c.CourseNumber}}">{{c.CourseNumber}} - {{c.CourseName}} ({{c.Instructor | split: "," | first }})</option>
+            {% endif %}
+            {% endfor %}
+        </select>   
+    <select class="col mx-2 mt-2 form-control filter"  id="instructorList" >
+        <option value="">Filter by Instructor</option>
+        {% for person in people-unique %}
+        {% if person != " " %}
+        <option value="{{person}}">{{person}}</option>
+        {% endif %}
+        {% endfor %}
+    </select>
+    <select class="col mx-2 mt-2 form-control filter-param mb-3"  id="deptList">
+        <option value="">Filter by Department</option>
+        {% for dept in dept-unique %}
+        <option value="{{dept | remove: ' '}}">{{dept}}</option>
+        {% endfor %}
+    </select>
+</div>
+<div class="row mb-4 border-bottom pb-2 form-inline justify-content-center">
+    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-md-6 col-8">
+    <button class="searchinput mx-2 btn btn-lg btn-pride-gold col-2" title="Search" alt="Search" id="goButton"
+        onclick="filterItems()" type="submit">Go</button>
+    <button class="reset btn btn-secondary ml-2">Reset</button>
+</div>
+<div class="row" id="contents-container">
+
+
+    {% for e in reserves %}
+ {% include reserves-card.html color='pride-gold' %}
+        {%endfor%}
+   
+</div>
+
+    <!--<a class="btn btn-clearwater mb-3" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9" target="_blank" rel="noopener">Instruction Request Form</a>
+
+<div class="row" id="qualtrixsurvey">
+    <iframe src='https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9' name='Qualtrics' scrolling='auto' frameborder='no' align='center' height='800px' width='100%'></iframe>
+</div>	-->

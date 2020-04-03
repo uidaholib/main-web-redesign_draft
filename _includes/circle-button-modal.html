@@ -1,0 +1,49 @@
+<div class="button-modal">
+<div class="col-3 mb-2 {{e.catid}} circle-button">
+    <button class="btn btn-lg btn-circle btn-outline-{{include.color}} font-weight-bold" data-toggle="modal" data-target="#{{e.catid}}{{forloop.index}}">
+       <span class="search-contents"> {{e.subject | upcase | truncatewords: 5}}
+        <span class="hidden">{{e.fullsubject}} {{e.description}} {{e.person}}
+        </span></span>
+    </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="{{e.catid}}{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h2" id="exampleModalLabel">{{e.fullsubject}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+               {% if e.description %}
+                <p>{{e.description}}</p>
+                {%else%}
+                {%endif%}
+                {% if e.emails %}
+                <p class="call">The following individual(s) can instruct in this area:</p>
+                <div class="row">
+                    {% for p in site.data.people-table %}
+                    {% if e.emails contains p.email %}
+                    <div class="col-6 col-sm-4  mb-2">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ p.name }}">
+                            <div class="card-body text-center">
+                                <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo }}" title="View the profile for {{ p.name }}">{{ p.name }}</a></h5>
+                                <p class="card-text">{{ p.title }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="modal-footer">
+                <a type="button" target="_blank" class="btn btn-lg btn-pride-gold" href='https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{e.subject | url_encode }}{% if e.emails %}&person={{e.person | url_encode}}&email={{e.emails | url_encode }}{% endif %}'>Request Instruction</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
