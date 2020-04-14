@@ -12,7 +12,7 @@ If you are planning to visit the library, please be sure to follow [World Heal
 
 ### Hours and Availability 
 
-The Library building is closed until further notice, but we continue to offer [extensive online services]( {{ '/covid19/access.html' | relative_url }} ). 
+The Library building is closed until further notice, but we continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}). 
 
 ### Reference Desk
 
@@ -27,6 +27,21 @@ Virtual Reference Hours (online):
 
 Visit the [Reference Services]({{ '/help/' | relative_url }}) page to ask librarians questions via chat, text, or email. 
 You can also make a research appointment for individualized help via Zoom, tailored to finding relevant resources for your specific information need.
+
+### Curriculum Center Virtual Service
+
+The Gary Strong Curriculum Center is offering a new virtual service point via Zoom!
+Get help with technology, zoom, and answers to your basic library questions via a friendly face-to-face interface.
+This service is designed to provide peer-to-peer support on adapting to virtual education settings and using the Library during our COVID-19 closures.
+Please visit the [Curriculum Center guide](https://libguides.uidaho.edu/GSCC) for details.
+
+Hours (online):
+
+- Monday - Wednesday: 9am - 5pm
+- Thursday: 9am - 3pm
+- Friday: 9am - 5pm
+
+*Hours subject to change, based on usage and staff availability.*
 
 ### Tutoring
 
