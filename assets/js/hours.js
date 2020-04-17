@@ -1,5 +1,5 @@
 /* covid closed */
-document.getElementById("timedisp").innerHTML = "The Library is closed.";
+document.getElementById("timedisp").innerHTML = "The Virtual Library is open (the building is closed)";
 /*
 (function () {
 	// Idaho's Library Hours (April 4, 2016) by Devin Becker based on Today's Library Hours v.1 (March 30, 2011) by Matthew Reidsma, reidsmam@gvsu.edu
