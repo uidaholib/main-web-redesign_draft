@@ -17,5 +17,6 @@ The following pages are made available to assist users in using library resource
   </a>
   <a href="access.html" class="list-group-item list-group-item-action text-black">How can I access library resources from off-campus?</a>
   <a href="information-sources.html" class="list-group-item list-group-item-action text-black">Where can I learn more about COVID-19?</a>
+  <a href="books.html" class="list-group-item list-group-item-action text-black">What if I have overdue books?</a>
   <a href="resources.html" class="list-group-item list-group-item-action mb-4">Does the library have any resources to help take my mind off things?</a>
 </div>
