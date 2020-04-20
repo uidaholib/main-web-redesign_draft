@@ -1,0 +1,50 @@
+---
+title: Research Assistance
+section: About
+permalink: /help/research.html
+layout: page
+custom-foot: js/research-assistance.html
+---
+{% assign liaisons = site.data.liaisons_table %}
+{% assign people = site.data.people-table %}
+
+<p>Librarians can help you efficiently and effectively search and use information using library resources as well as the Web and other electronic resources.  
+Each College at U of I has a faculty librarian assigned as a subject liaison who is ready to help one-on-one with all your research and library questions.</p>
+
+<p>To request a Zoom meeting with a librarian, please find your subject liaison below and click the button to get in touch. If you are unsure, get in touch with our <a href="{{ '/help/' | relative_url }}">reference librarians</a> and we will make sure your questions get answered.</p>
+
+<select id="selectCollege" class="custom-select custom-select-lg mb-3">
+    <option selected value="reset">Choose College</option>
+    {% assign colleges = liaisons | map: "college" %}
+    {%- for c in colleges -%}
+    <option value="{{ c | slugify }}">{{ c }}</option>
+    {% endfor %}
+</select>
+
+<div class="row">
+{% for l in liaisons %}
+<div class="col-md-6 mb-2 liaison-card {{ l.college | slugify }}">
+    <div class="card">
+        <div class="card-header">
+            {{ l.college }}
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    {% assign p = people | where: "email",l.email | first %}
+                    <img class="img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
+                </div>
+                <div class="col-8">
+                    <h5>{{ l.librarian }}</h5>
+                    <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
+                    <p class="card-text"><strong>Departments:</strong><br>{{ l.departments }}</p>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-primary">Request Meeting</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
