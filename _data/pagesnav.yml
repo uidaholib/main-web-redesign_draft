@@ -473,6 +473,8 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
+  - subsection: Reference Services
+    link: /help/
   - subsection: The MILL
     link: /mill/
   - subsection: The Studio
