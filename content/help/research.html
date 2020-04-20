@@ -1,8 +1,8 @@
 ---
 title: Research Assistance
-section: About
-permalink: /help/research.html
 layout: page
+section: Help
+permalink: /help/research.html
 custom-foot: js/research-assistance.html
 ---
 {% assign liaisons = site.data.liaisons_table %}
@@ -11,10 +11,16 @@ custom-foot: js/research-assistance.html
 <p>Librarians can help you efficiently and effectively search and use information using library resources as well as the Web and other electronic resources.  
 Each College at U of I has a faculty librarian assigned as a subject liaison who is ready to help one-on-one with all your research and library questions.</p>
 
-<p>To request a Zoom meeting with a librarian, please find your subject liaison below and click the button to get in touch. If you are unsure, get in touch with our <a href="{{ '/help/' | relative_url }}">reference librarians</a> and we will make sure your questions get answered.</p>
+<p>To request a Zoom meeting with a librarian, please find your subject liaison below and click the button to get in touch. If you are unsure, reach out to our <a href="{{ '/help/' | relative_url }}">reference librarians</a> and we will make sure your questions get answered.</p>
+
+<p class="text-center">
+    <a href="{{ '/help/' | relative_url }}" class="btn btn-sm btn-outline-pride-gold m-1">Reference Help</a>
+    <a href="{{ '/help/rap.html' | relative_url }}" class="btn btn-sm btn-outline-pride-gold m-1">Research Assistance Form</a>
+    <a href="{{ '/help/frap.html' | relative_url }}" class="btn btn-sm btn-outline-pride-gold m-1">Faculty Assistance Form</a>
+</p>
 
 <select id="selectCollege" class="custom-select custom-select-lg mb-3">
-    <option selected value="reset">Choose College</option>
+    <option selected value="reset">Select College</option>
     {% assign colleges = liaisons | map: "college" | uniq %}
     {%- for c in colleges -%}
     <option value="{{ c | slugify }}">{{ c }}</option>
@@ -32,7 +38,8 @@ Each College at U of I has a faculty librarian assigned as a subject liaison who
             <div class="row">
                 <div class="col-4">
                     {% assign p = people | where: "email",l.email | first %}
-                    <img class="img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
+                    {% assign headshot = p.headshot | default: "tower_icon_gold.png" %}
+                    <img class="img-fluid" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
                 </div>
                 <div class="col-8">
                     <h5>{{ l.librarian }}</h5>
@@ -41,7 +48,7 @@ Each College at U of I has a faculty librarian assigned as a subject liaison who
                 </div>
             </div>
             <div class="text-center mt-2">
-                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-primary">Request Meeting</a>
+                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
             </div>
         </div>
     </div>
