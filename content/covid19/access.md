@@ -9,7 +9,12 @@ The below lists a variety of ways you can access library resources online from a
 
 ### Get Online Help! 
 
-Need help finding articles, or have other library questions? You can chat with a UI librarian from the dorms, from home, or elsewhere. Just [ask us](https://www.lib.uidaho.edu/help/chat.html)! 
+Need help finding articles or have other library questions? 
+We are online with extended hours, ready to answer questions from anywhere.
+Just [ask us](https://www.lib.uidaho.edu/help/chat.html)! 
+
+Visit the [Reference Services]({{ '/help/' | relative_url }}) page to connect with U of I librarians via chat, text, or email. 
+Or visit the [Gary Strong Curriculum Center guide](https://libguides.uidaho.edu/GSCC) for information about their new virtual service via Zoom. 
 
 ### Librarian Consultations 
 
