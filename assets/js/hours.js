@@ -1,5 +1,5 @@
 /* covid closed */
-document.getElementById("timedisp").innerHTML = "Open online only";
+document.getElementById("timedisp").innerHTML = "Open Online";
 //"The Virtual Library is open (the building is closed)";
 /*
 (function () {
