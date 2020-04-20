@@ -15,7 +15,7 @@ Each College at U of I has a faculty librarian assigned as a subject liaison who
 
 <select id="selectCollege" class="custom-select custom-select-lg mb-3">
     <option selected value="reset">Choose College</option>
-    {% assign colleges = liaisons | map: "college" %}
+    {% assign colleges = liaisons | map: "college" | uniq %}
     {%- for c in colleges -%}
     <option value="{{ c | slugify }}">{{ c }}</option>
     {% endfor %}
