@@ -1,23 +1,22 @@
-<div class="button-modal">
 <div class="col-3 mb-2 {{e.catid}} circle-button">
     <button class="btn btn-lg btn-circle btn-outline-{{include.color}} font-weight-bold" data-toggle="modal" data-target="#{{e.catid}}{{forloop.index}}">
-       <span class="search-contents"> {{e.subject | upcase | truncatewords: 5}}
-        <span class="hidden">{{e.fullsubject}} {{e.description}} {{e.person}}
-        </span></span>
+        <span class="search-contents"> {{e.subject | upcase | truncatewords: 5}}
+            <span class="hidden">{{e.fullsubject}} {{e.description}} {{e.person}}</span>
+        </span>
     </button>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="{{e.catid}}{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="{{e.catid}}{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="{{e.catid}}{{forloop.index}}ModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title h2" id="exampleModalLabel">{{e.fullsubject}}</h5>
+                <h5 class="modal-title h2" id="{{e.catid}}{{forloop.index}}ModalLabel">{{e.fullsubject}}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-               {% if e.description %}
+                {% if e.description %}
                 <p>{{e.description}}</p>
                 {%else%}
                 {%endif%}
@@ -45,5 +44,4 @@
             </div>
         </div>
     </div>
-</div>
 </div>

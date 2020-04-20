@@ -13,17 +13,11 @@ filter: circle-button
     .hidden {
         display: none;
     }
-
-    button {
-        pointer: cursor;
-    }
 </style>
-<p>Library faculty teach class sessions on how to search efficiently and effectively for information -- using library
-    resources as well as the Web and other electronic resources. We provide general orientation to library research in
-    freshman composition classes, but we also tailor class sessions for specific assignments in other courses.</p>
 
-<p>To request a librarian led session, please click the button link to the our survey form, or use the survey embedded
-    below.</p>
+<p>Library faculty teach class sessions on how to search efficiently and effectively for information -- using library resources as well as the Web and other electronic resources. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses.</p>
+
+<p>To request a librarian led session on a specific topic area, please click the button link to the our survey form.</p>
 
 <div class="mt-2  row">
     <p class="col-md-9">Filter:
@@ -49,13 +43,13 @@ filter: circle-button
 <div class="row justify-content-center" id="contents-container">
 
 
-    {% for e in expertise %}
-        {% if e.catid == 'data' %}{% include circle-button-modal.html color='wild-rose' %}
-        {% elsif e.catid == 'find' %}{% include circle-button-modal.html color='palouse-green' %}
-        {% elsif e.catid == 'research' %}{% include circle-button-modal.html color='clearwater' %}
-        {% elsif e.catid == 'writing' %}{% include circle-button-modal.html color='pride-gold' %}
-        {%endif%}
-        {%endfor%}
+{% for e in expertise %}
+    {% if e.catid == 'data' %}{% include circle-button-modal.html color='wild-rose' %}
+    {% elsif e.catid == 'find' %}{% include circle-button-modal.html color='palouse-green' %}
+    {% elsif e.catid == 'research' %}{% include circle-button-modal.html color='clearwater' %}
+    {% elsif e.catid == 'writing' %}{% include circle-button-modal.html color='pride-gold' %}
+    {% endif %}
+{% endfor %}
    
 </div>
 
