@@ -8,16 +8,9 @@ custom-foot: js/research-assistance.html
 {% assign liaisons = site.data.liaisons_table %}
 {% assign people = site.data.people-table %}
 
-<p>Librarians can help you efficiently and effectively search and use information using library resources as well as the Web and other electronic resources.  
-Each College at U of I has a faculty librarian assigned as a subject liaison who is ready to help one-on-one with all your research and library questions.</p>
+<p>Librarians can help you efficiently and effectively search and use library resources and other information sources. Each college at U of I has a designated subject librarian who is ready to help with all your research and library questions.</p>
 
-<p>To request a Zoom meeting with a librarian, please find your subject liaison below and click the button to get in touch. If you are unsure, reach out to our <a href="{{ '/help/' | relative_url }}">reference librarians</a> and we will make sure your questions get answered.</p>
-
-<p class="text-center">
-    <a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-1">Reference Help</a>
-    <a href="{{ '/help/rap.html' | relative_url }}" class="btn btn-outline-pride-gold m-1">Research Assistance Form</a>
-    <a href="{{ '/help/frap.html' | relative_url }}" class="btn btn-outline-pride-gold m-1">Faculty Assistance Form</a>
-</p>
+<p>To request a Zoom consultation with a librarian, please find your subject liaison below and click the "Request Meeting" button to get in touch. If you are unsure or need more immediate assistance, contact our <a href="{{ '/help/' | relative_url }}">Reference Desk</a> and we will make sure your questions get answered.</p>
 
 <select id="selectCollege" class="custom-select custom-select-lg mb-3">
     <option selected value="reset">Select College</option>
@@ -54,4 +47,8 @@ Each College at U of I has a faculty librarian assigned as a subject liaison who
     </div>
 </div>
 {% endfor %}
+</div>
+
+<div class="mt-3">
+    <small>Looking for the older contact forms? Try <a href="{{ '/help/rap.html' | relative_url }}">Research Assistance Program</a> and <a href="{{ '/help/frap.html' | relative_url }}">Faculty Assistance Program</a>.</small>
 </div>
