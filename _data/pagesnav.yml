@@ -475,6 +475,13 @@ Services:
         url: /services/ill/other.html
   - subsection: Reference Services
     link: /help/
+    subpages:
+      - name: Reference Desk
+        url: /help/
+      - name: Research Assistance
+        url: /help/research.html
+      - name: Chat & Text
+        url: /help/chat.html         
   - subsection: The MILL
     link: /mill/
   - subsection: The Studio
