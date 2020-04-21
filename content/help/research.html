@@ -32,7 +32,7 @@ custom-foot: js/research-assistance.html
                 <div class="col-4">
                     {% assign p = people | where: "email",l.email | first %}
                     {% assign headshot = p.headshot | default: "tower_icon_gold.png" %}
-                    <img class="img-fluid" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
+                    <img class="img-fluid rounded" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
                 </div>
                 <div class="col-8">
                     <h5>{{ l.librarian }}</h5>
