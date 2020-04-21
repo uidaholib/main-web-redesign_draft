@@ -18,11 +18,13 @@ Just [ask us]({{ '/help/' | relative_url }})!
 <div class="text-center mb-2">
 <a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Virtual Reference Desk</a>
 <a href="https://libguides.uidaho.edu/GSCC" class="btn btn-outline-pride-gold m-2">Curriculum Center Virtual Service</a>
+<a href="{{ '/help/research.html' | relative_url }}" class="btn btn-outline-pride-gold m-2">Research Consultations</a>
 </div>
 
 ### Librarian Consultations 
 
-Subject librarians with expertise in specific areas are available for remote consultations via a variety of methods, including phone, email, or via Zoom. Contact your [subject librarian](https://www.lib.uidaho.edu/about/liaisons.html) to make an appointment! 
+Subject librarians with expertise in specific areas are available for remote consultations via a variety of methods, including email or via Zoom. 
+Visit our [Research Assistance page]({{ '/help/research.html' | relative_url }}) to make an appointment! 
 
 ### Research Guides 
 
@@ -36,7 +38,7 @@ The library has tons of materials you can access online. Check our [library c
 
 Even if you're not on campus, we can still help you get electronic access to materials the library doesn't own via [Interlibrary Loan (ILL)](https://www.lib.uidaho.edu/services/ill/). 
 
-Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to UI students, staff, and faculty.  
+Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to U of I students, staff, and faculty.  
 
 ### Off-Campus Access 
 
