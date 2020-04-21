@@ -4,12 +4,12 @@ layout: page
 section: Help
 permalink: /help/
 ---
-<div class="text-center">
+<div class="text-center mb-1">
   <!--<a class="btn btn-outline-pride-gold my-2" data-toggle="modal" data-target="#callModal"><span class="fas fa-phone"></span> Call</a>-->
-  <a class="btn btn-outline-pride-gold my-2" href="{{ '/help/chat.html' | relative_url }}"><span class="fas fa-comments"></span> Chat</a>
-  <a class="btn btn-outline-pride-gold my-2" href="mailto:libref@uidaho.edu"><span class="fas fa-envelope"></span> Email</a>
-  <a class="btn btn-outline-pride-gold my-2" href="sms:208-449-0841"><span class="fas fa-mobile-alt"></span> Text 208-449-0841</a>
-  <a class="btn btn-outline-pride-gold my-2" href="{{ '/help/rap.html' | relative_url }}"><span class="fas fa-user"></span> Research Help</a>
+  <a class="btn btn-outline-pride-gold my-1" href="{{ '/help/chat.html' | relative_url }}"><span class="fas fa-comments"></span> Chat</a>
+  <a class="btn btn-outline-pride-gold my-1" href="mailto:libref@uidaho.edu"><span class="fas fa-envelope"></span> Email: libref@uidaho.edu</a>
+  <a class="btn btn-outline-pride-gold my-1" href="sms:208-449-0841"><span class="fas fa-mobile-alt"></span> Text: 208-449-0841</a>
+  <a class="btn btn-outline-pride-gold my-1" href="{{ '/help/research.html' | relative_url }}"><span class="fas fa-user"></span> Research Help</a>
 </div>
 
 <!-- call contact Modal -->
@@ -42,15 +42,16 @@ permalink: /help/
 
 <h3>Reference Services</h3>
 
-<div class="alert alert-primary" role="alert">
-  As part of the ongoing <a href='/covid19/' class='alert-link'>response to COVID-19</a>, Reference Services are virtual only. While the physical desk is closed, reference librarians will still promptly respond to questions via chat, text, or email during our <a href="{{ '/about/hours.html#reference' | relative_url }}" class="alert-link">special extended hours</a>. Please don't hesitate to get in touch!
+<div class="alert alert-info" role="alert">
+  The Virtual Reference Desk is open with <a href="{{ '/about/hours.html#reference' | relative_url }}" class="alert-link">extended hours</a>! As part of the ongoing <a href='/covid19/' class='alert-link'>response to COVID-19</a>, Reference Services are online only. While the physical desk is closed, reference librarians will still promptly respond to questions via chat, text, or email. Please don't hesitate to get in touch!
 </div>
 
-<p>The library can be a confusing place. If you ever need help figuring out how to best use our many resources, feel free to contact our reference librarians by chat, text or email. You can also meet a librarian via Zoom by <a href="{{ '/help/rap.html' | relative_url }}">making an appointment</a>. Our website also offers <a href="https://libguides.uidaho.edu/index.php">research guides</a> for DIY help 24/7.</p>
+<p>The library can be a confusing place. If you ever need help figuring out how to best use our many resources, feel free to contact our reference librarians by chat, text or email. You can also meet a librarian via Zoom by <a href="{{ '/help/rap.html' | relative_url }}">making an appointment</a>. Our website also offers <a href="https://libguides.uidaho.edu/index.php">research guides</a> for DIY help 24/7. Check our <a href="https://libguides.uidaho.edu/gettingstarted" >Getting Started Research Guide</a> for tips!</p>
 <!--
 <p>The library can be a confusing place. If you ever need help figuring out how to best use our many resources, feel free to contact our reference librarians by any of the means above. You can also meet a librarian in person by <a href="{{ '/help/rap.html' | relative_url }}">making an appointment</a> or by visiting the reference desk, located on the first floor of the library.</p>
 -->
 
+<!--
 <p>Below are some regularly used resource pages:
   <ul>
     <li><a href="https://libguides.uidaho.edu/gettingstarted" >Getting Started Research Guide</a></li>
@@ -59,6 +60,7 @@ permalink: /help/
     <li><a href="{{ '/find/lc.html' | relative_url }}" >Library of Congress Call Numbers</a></li>
   </ul>
 </p>
+-->
 
 <div class="row pt-3">
 
@@ -68,17 +70,16 @@ permalink: /help/
         <h4 class="card-title mb-0" id="reference">Reference Desk</h4>
       </div>
       <div class="card-body">
-        <p>The reference desk is the place to ask any questions about using the library and conducting research. We are currently <em>virtual only</em>, but don't hesitate to get in touch via chat, email, or text! The desk is staffed by professional librarians ready and eager to help you with your queries.</p>
+        <p>The reference desk is the place to ask any questions about using the library and conducting research. We are currently <em>virtual only</em>, but don't hesitate to get in touch via <a href="{{ '/help/chat.html' | relative_url }}">Chat</a>, <a href="mailto:libref@uidaho.edu">Email ( libref@uidaho.edu )</a>, or <a href="sms:208-449-0841">Text ( 208-449-0841 )</a>! The desk is staffed by professional librarians ready and eager to help you with your queries.</p>
         <!--<p>Located on the library's first floor, this is where you can ask general and specific questions about using the library and conducting research.</p>
         <p>The desk is staffed by professional librarians ready and eager to help you with your queries.</p>-->
-        <p>Contact information:</p>
-        <ul>
-          <li>Email, <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a></li>
-          <!--<li>Phone, 208-885-6584</li>-->
-          <li><a href="{{ '/help/chat.html' | relative_url }}">Chat</a></li>
-          <li>Text, <a href="sms:208-449-0841">208-449-0841</a></li>
-        </ul>
-        <p>View <a href="{{ '/about/hours.html#reference' | relative_url }}">Reference Desk hours</a>.</p>
+        <p class="text-center">
+          <!--<a class="btn btn-outline-clearwater my-2" data-toggle="modal" data-target="#callModal"><span class="fas fa-phone"></span> Call</a>-->
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="{{ '/help/chat.html' | relative_url }}"><span class="fas fa-comments"></span> Chat</a>
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="mailto:libref@uidaho.edu"><span class="fas fa-envelope"></span> Email: libref@uidaho.edu</a>
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="sms:208-449-0841"><span class="fas fa-mobile-alt"></span> Text: 208-449-0841</a>
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="{{ '/about/hours.html#reference' | relative_url }}"><span class="fas fa-clock"></span> Reference Desk Hours</a>
+        </p>
       </div>
     </div>
   </div>
@@ -86,12 +87,15 @@ permalink: /help/
   <div class="col-md-6">
     <div class="card my-2">
       <div class="card-header">
-        <h4 class="card-title mb-0" id="rap">Research Help</h4>
+        <h4 class="card-title mb-0" id="rap">Research Assistance</h4>
       </div>
       <div class="card-body">
-        <h5><a href="{{ '/help/rap.html' | relative_url }}">Research Assistance Program</h5></a>
-        <p>Undergraduate and graduate students, faculty, and staff can <a href="{{ '/help/rap.html' | relative_url }}">schedule an appointment</a> with a librarian for assistance in finding articles, books, websites, and other information for research papers and projects, creating effective research strategies, and managing citations.</p>
-        <p>Faculty can also get help with integrating information resources into specific courses and designing effective library-based course assignments. If you have questions, please contact Rochelle Smith, 208-885-7850 or <a href="mailto:rsmith@uidaho.edu">rsmith@uidaho.edu</a>.</p>
+        <p>Students, faculty, and staff can <a href="{{ '/help/research.html' | relative_url }}">schedule an appointment</a> with a librarian for assistance in finding articles, books, websites, and other resources for research papers and projects, creating effective research strategies, and managing citations.</p>
+        <p>Faculty can also get help with integrating information resources into specific courses and designing effective library-based course assignments.</p>
+        <p class="text-center">
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="{{ '/help/research.html' | relative_url }}"><span class="fas fa-user"></span> Research Assistance Appointments</a>
+        </p>
+        <p>If you have questions, please contact Rochelle Smith, 208-885-7850 or <a href="mailto:rsmith@uidaho.edu">rsmith@uidaho.edu</a></p>
       </div>
     </div>
   </div>
@@ -103,7 +107,9 @@ permalink: /help/
       </div>
       <div class="card-body">
         <p>Each U of I College has a librarian assigned as a subject liaison. Liaisons perform several functions, including teaching subject-specific classes, working with faculty to create research assignments, conducting one-on-one research sessions, and selecting and purchasing materials for the library.</p>
-        <p><a href="{{ '/about/liaisons.html' | relative_url }}">Who is your Liaison?</a></p>
+        <p class="text-center">
+          <a class="btn btn-sm btn-outline-clearwater my-1" href="{{ '/about/liaisons.html' | relative_url }}"><span class="fas fa-user"></span> Find your Liaison</a>
+        </p>
         </p>
       </div>
     </div>
