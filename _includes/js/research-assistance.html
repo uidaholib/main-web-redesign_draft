@@ -1,0 +1,11 @@
+<script>
+$("#selectCollege").on( "change", function() {
+    var college = "." + $("select option:selected").val();
+    if (college == ".reset") {
+        $(".liaison-card").show();
+    } else {
+        $(".liaison-card").not(college).hide();
+        $(".liaison-card").filter(college).show();
+    }
+});
+</script>

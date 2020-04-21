@@ -152,6 +152,8 @@ COVID-19:
     link: /covid19/access.html
   - subsection: COVID-19 Information Sources
     link: /covid19/information-sources.html
+  - subsection: Checked-out Books
+    link: /covid19/impact.html#checked-out-books
   - subsection: Library Resources to Pass the Time
     link: /covid19/resources.html
   - subsection: University Response and Updates
@@ -255,9 +257,7 @@ Help:
   - subsection: Off-Campus Access
     link: /help/offcampus.html
   - subsection: Research Assistance
-    link: /help/rap.html
-  - subsection: Faculty Assistance
-    link: /help/frap.html
+    link: /help/research.html
   - subsection: Chat (IM) & Text
     link: /help/chat.html
   - subsection: Site Search
@@ -473,6 +473,15 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
+  - subsection: Reference Services
+    link: /help/
+    subpages:
+      - name: Reference Desk
+        url: /help/
+      - name: Research Assistance
+        url: /help/research.html
+      - name: Chat & Text
+        url: /help/chat.html         
   - subsection: The MILL
     link: /mill/
   - subsection: The Studio

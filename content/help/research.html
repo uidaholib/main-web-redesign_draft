@@ -1,0 +1,54 @@
+---
+title: Research Assistance
+layout: page
+section: Help
+permalink: /help/research.html
+custom-foot: js/research-assistance.html
+---
+{% assign liaisons = site.data.liaisons_table %}
+{% assign people = site.data.people-table %}
+
+<p>Librarians can help you efficiently and effectively search and use library resources and other information sources. Each college at U of I has a designated subject librarian who is ready to help with all your research and library questions.</p>
+
+<p>To request a Zoom consultation with a librarian, please find your subject liaison below and click the "Request Meeting" button to get in touch. If you are unsure or need more immediate assistance, contact our <a href="{{ '/help/' | relative_url }}">Reference Desk</a> and we will make sure your questions get answered.</p>
+
+<select id="selectCollege" class="custom-select custom-select-lg mb-3">
+    <option selected value="reset">Select College</option>
+    {% assign colleges = liaisons | map: "college" | uniq %}
+    {%- for c in colleges -%}
+    <option value="{{ c | slugify }}">{{ c }}</option>
+    {% endfor %}
+</select>
+
+<div class="row">
+{% for l in liaisons %}
+<div class="col-md-6 mb-2 liaison-card {{ l.college | slugify }}">
+    <div class="card">
+        <div class="card-header">
+            {{ l.college }}
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    {% assign p = people | where: "email",l.email | first %}
+                    {% assign headshot = p.headshot | default: "tower_icon_gold.png" %}
+                    <img class="img-fluid" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
+                </div>
+                <div class="col-8">
+                    <h5>{{ l.librarian }}</h5>
+                    <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
+                    <p class="card-text"><strong>Departments:</strong><br>{{ l.departments }}</p>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+<div class="mt-3">
+    <small>Looking for the older contact forms? Try <a href="{{ '/help/rap.html' | relative_url }}">Research Assistance Program</a> and <a href="{{ '/help/frap.html' | relative_url }}">Faculty Assistance Program</a>.</small>
+</div>
