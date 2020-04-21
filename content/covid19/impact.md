@@ -26,8 +26,9 @@ Virtual Reference Hours (online):
 - Friday: 8am - 5pm 
 - Sunday: 2pm - 8pm 
 
-Visit the [Reference Services]({{ '/help/' | relative_url }}) page to ask librarians questions via chat, text, or email. 
-You can also make a research appointment for individualized help via Zoom, tailored to finding relevant resources for your specific information need.
+Visit the [Reference Services page]({{ '/help/' | relative_url }}) to ask librarians questions via chat, text, or email. 
+You can also make an appointment for individualized research help via Zoom, tailored to finding relevant resources for your specific information need.
+Visit the [Research Assistance page]({{ '/help/research.html' | relative_url }}) to request a meeting.
 
 #### Curriculum Center Virtual Service
 
