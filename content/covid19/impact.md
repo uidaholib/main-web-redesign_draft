@@ -98,3 +98,5 @@ Have a book from ILL that will be overdue?
 Please contact the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu) so we can help you extend your due date. 
 
 If you have additional questions about any library materials that you have checked out, please contact us at [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu).  
+
+{% include lib-chat-widget.html %}

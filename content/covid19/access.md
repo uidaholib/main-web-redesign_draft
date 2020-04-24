@@ -47,3 +47,5 @@ To use the library off-campus, you'll need to log in to our catalog or databases
 ### Special Collections & Archives  
 
 Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>) or phone (208-885-0845).
+
+{% include lib-chat-widget.html %}
