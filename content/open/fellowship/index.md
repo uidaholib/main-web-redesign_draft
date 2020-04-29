@@ -14,10 +14,16 @@ The Think Open Fellowship Grants are intended to:
 2.  Pilot different approaches in University of Idaho courses for textbook transformation including adopting and adapting existing resources, creating Open Educational Resources (OER), and identifying materials already available from the UI Library.
 3.  Provide support to faculty to implement these approaches.
 
-This fellowship awards up to $1,250 to selected faculty and graduate students, Fellows are expected to:
+This fellowship awards $1,200 to selected faculty and graduate students. Fellows are expected to:
 
-* Commit to using an open textbook or affordable alternative (total cost less than $50) for a course in Fall 2019 or Spring 2020 (faculty teaching high enrollment courses, dual-enrollment courses, and Idaho Gem courses are especially encouraged to apply).
+* Commit to using an open textbook or affordable alternative (total cost less than $30) for an upcoming course(faculty teaching high enrollment courses, dual-enrollment courses, and Idaho Gem courses are especially encouraged to apply).
 
-* Participate in Think Open Group cohort meetings.
+* Meet regularly with the Open Education Librarian.
 
-* Share the resources and content they create on the Think Open OER Commons group.
+* Agree to share the resources and content they create on the Think Open OER Commons group.
+
+* Deliver a final syllabus for their course that uses Open or other low-cost materials (less than $30).
+
+Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quailty representation of marginalized identities in their course materials.
+
+**The application deadline is May 29th, 2020! [Click here to apply!](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)**
