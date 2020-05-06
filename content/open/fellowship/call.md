@@ -7,7 +7,10 @@ layout: page
 
 Sponsored by the University of Idaho Library
 
-Think Open Fellowships are now accepting applications for the 2020-2021 academic year! [Click here to apply!](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)
+Think Open Fellowships are now accepting applications for the 2020-2021 academic year! 
+Click below to apply:
+
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr" class="btn btn-outline-pride-gold">Think Open Application</a>
 
 **_Call for Applications:_**
 
