@@ -21,38 +21,38 @@ layout: page
     </div>
     <div class="col-md-8 offset-md-2">
         <h3>Think Open Success Story!</h3>
-            {% for fellow in fellows %}
-            {% if fellow.year == "2018" and fellow.type == "gradstudent" %}
+        
+        {% for fellow in fellows %}
+        {% if fellow.year == "2018" and fellow.type == "gradstudent" %}
+        <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
             
-                  
-                <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
-                   
-                    <img class="card-img-top" src="{{ '/carousel/ross_notext2.jpg' | prepend: site.lib-media }}" alt="Card image cap">
-                   
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html"> {{ fellow.name }}</a>
-                        </h4>
-                        <p class="card-text">
-                            {{ fellow.displaytype | upcase }}
-                            <br>{{ fellow.discipline }}</b>
-                        </p>
-                        <h5>Project</h5>
-                        <p class="card-text">
-                            {{ fellow.topic }}
-                            <br><br>
-                            <b>Students Impacted:</b> {{ fellow.impact }}
-                        </p>
-                        <p class="card-text">
-                            <b>Savings:</b> {{ fellow.savings }}
-                        </p>
-                        <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html" class="btn btn-clearwater" target="_blank" rel="noopener">Read an Interview With Ross</a>
-                    </div>
-                </div>
+            <img class="card-img-top" src="{{ '/carousel/ross_notext2.jpg' | prepend: site.lib-media }}" alt="{{ fellow.name }} headshot">
+            
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html">{{ fellow.name }}</a>
+                </h4>
+                <p class="card-text">
+                    {{ fellow.displaytype | upcase }}
+                    <br>{{ fellow.discipline }}</b>
+                </p>
+                <h5>Project</h5>
+                <p class="card-text">
+                    {{ fellow.topic }}
+                    <br><br>
+                    <b>Students Impacted:</b> {{ fellow.impact }}
+                </p>
+                <p class="card-text">
+                    <b>Savings:</b> {{ fellow.savings }}
+                </p>
+                <a href="https://www.lib.uidaho.edu/open/thinkopen_ross.html" class="btn btn-clearwater" target="_blank" rel="noopener">Read an Interview With Ross</a>
             </div>
-            {%endif%}
-            {% endfor %}
         </div>
+        {%endif%}
+        {% endfor %}
+    </div>
+    
+</div>
 
 
 

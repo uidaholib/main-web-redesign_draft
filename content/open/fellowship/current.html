@@ -7,66 +7,66 @@ layout: page
 {% assign fellows = site.data.thinkopenfellows %}
 <p>Current fellows include: </p>
 
+<h3>Faculty</h3>
 
-<div class="container">
-        <h3>Faculty</h3>
-    <div class="row">
-            
-        {% for fellow in fellows %}
-        {% if fellow.year == "2019" and fellow.type == "faculty" %}
-        <div class="col-md-4 my-1">
-            <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
-                {% if fellow.image%}
-                
-                    <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="Card image cap">
-            {%endif%}
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
-                    </h4>
-                    <p class="card-text">
-                        {{ fellow.type | upcase }}
-                        <br><b>{{ fellow.discipline }}</b>
-                    </p>
-                    <h5>Project</h5>
-                    <p class="card-text">
-                       {{ fellow.topic }}
-                       <br>
-                        <b>Students Impacted:</b> {{ fellow.students-impacted }}
-                    </p>
-                    <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
-                </div>
-            </div>   
-        </div>{%endif%}
-        {% endfor %}
-    </div>
-    <hr/>
-    <h3 class="my-2">Graduate Students</h3>
-    <div class="row">
+<div class="row">
     {% for fellow in fellows %}
-        {% if fellow.year == "2019" and fellow.type == "gradstudent" %}
-        <div class="col-md-4 my-1">
-                <div class="card mx-auto" id="researcher-{{ fellow.name | remove: ' ' }}">
-                    {% if fellow.image%}
-                        <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="Card image cap">
-                {%endif%}
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
-                        </h4>
-                        <p class="card-text">
-                            {{ fellow.type | upcase }}
-                            <br><b>{{ fellow.discipline }}</b>
-                        </p>
-                        <h5>Project</h5>
-                        <p class="card-text">
-                           {{ fellow.topic }}
-                           <br>
-                            <b>Students Impacted:</b> {{ fellow.students-impacted }}
-                        </p>
-                    </div>
-                </div>   
+    {% if fellow.year == "2019" and fellow.type == "faculty" %}
+    <div class="col-md-6 col-lg-4 my-1">
+        <div class="card" id="researcher-{{ fellow.name | slugify }}">
+            {% if fellow.image%}
+            <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="{{ fellow.name }} headshot">
+        {%endif%}
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
+                </h4>
+                <p class="card-text">
+                    {{ fellow.type | upcase }}
+                    <br><strong>{{ fellow.discipline }}</strong>
+                </p>
+                <h5>Project</h5>
+                <p class="card-text">
+                    {{ fellow.topic }}
+                    <br>
+                    <strong>Students Impacted:</strong> {{ fellow.students-impacted }}
+                </p>
+                <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
             </div>
-            {%endif%}
-        {% endfor %}
+        </div>   
+    </div>{%endif%}
+    {% endfor %}
+</div>
+
+<hr>
+
+<h3 class="my-2">Graduate Students</h3>
+
+<div class="row">
+{% for fellow in fellows %}
+    {% if fellow.year == "2019" and fellow.type == "gradstudent" %}
+    <div class="col-md-6 col-lg-4 my-1">
+        <div class="card" id="researcher-{{ fellow.name | slugify }}">
+        {% if fellow.image%}
+            <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="{{ fellow.name }} headshot">
+        {%endif%}
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
+                </h4>
+                <p class="card-text">
+                    {{ fellow.type | upcase }}
+                    <br><strong>{{ fellow.discipline }}</strong>
+                </p>
+                <h5>Project</h5>
+                <p class="card-text">
+                    {{ fellow.topic }}
+                    <br>
+                    <strong>Students Impacted:</strong> {{ fellow.students-impacted }}
+                </p>
+            </div>
+        </div>   
     </div>
+    {%endif%}
+{% endfor %}
+</div>
