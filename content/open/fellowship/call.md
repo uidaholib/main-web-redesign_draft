@@ -14,7 +14,7 @@ Click below to apply:
 
 **_Call for Applications:_**
 
-Think Open fellowships are designed to support faculty in adopting Open Educational Resources (OERs) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date Think Open Fellows have saved University of Idaho students over $250,000.
+Think Open Fellowships are designed to support faculty in adopting Open Educational Resources (OERs) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date Think Open Fellows have saved University of Idaho students over $250,000.
 
 **_Eligibility_**
 
@@ -32,9 +32,10 @@ Think Open Fellows are required to:
 
 Faculty teaching high enrollment courses are especially encouraged to apply, as well as those hoping to center historically marginalized perspectives in their curriculums. 
 
-**The application deadline is May 29th, 2020! [Click here to apply!](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)**
+<b>The application deadline is May 29th, 2020! Click here to apply:</b> 
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr" class="btn btn-sm btn-outline-pride-gold ml-3">Application</a>
 
-Fellows will be notified in early June. Fellowship work will take place starting August 2020, though exceptions can be made for those who want to complete part of their work during the summer.
+Fellows will be notified in early June. Fellowship work will take place starting August 2020, with a flexible start date for those who need to undertake their work in the summer. 
 
 For questions contact Marco Seiferle-Valencia, Open Education Librarian, marcosv@uidaho.edu
 
