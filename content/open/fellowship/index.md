@@ -3,10 +3,13 @@ title: "Think Open Fellowship Program"
 section: Think Open
 permalink: /open/fellowship/
 layout: page
----
+--- 
 
 The University of Idaho Library’s **Think Open Fellowship** is an opportunity to equalize access to educational materials in your classroom and save your students money by supporting the use of low- or no-cost course materials in place of traditional textbooks. 
+
 **Think Open Fellowships** also allow faculty and graduate students to identify and create openly licensed materials that increase quality representation and inclusion of people from marginalized identities. 
+
+
 
 The Think Open Fellowship Grants are intended to:
 
@@ -26,4 +29,9 @@ This fellowship awards $1,200 to selected faculty and graduate students. Fellows
 
 Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quailty representation of marginalized identities in their course materials.
 
-<b>The application deadline is May 29th, 2020! Click here to apply:</b><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr" class="btn btn-sm btn-outline-pride-gold ml-3">Application</a>
+**The application deadline is May 29th, 2020!**
+
+{:.btn .btn-lg .btn-pride-gold .ml-3}
+[Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)
+
+
