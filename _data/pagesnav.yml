@@ -420,6 +420,8 @@ Services:
     subpages:
       - name: Home
         url: /services/reserve/
+      - name: Course Listings
+        url: /services/reserve/list.html
       - name: Policies
         url: /services/reserve/policies.html
       - name: Request form
