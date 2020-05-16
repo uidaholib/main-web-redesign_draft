@@ -12,12 +12,10 @@ The below lists a variety of ways you can access library resources online from a
 Need help finding articles, starting your research, or have other library questions? 
 We are online with extended hours, ready to answer your questions from anywhere.
 Visit the [Reference Services]({{ '/help/' | relative_url }}) page to connect with U of I librarians via chat, text, or email. 
-Or visit the [Gary Strong Curriculum Center guide](https://libguides.uidaho.edu/GSCC) for information about their new virtual service via Zoom. 
 Just [ask us]({{ '/help/' | relative_url }})!
 
 <div class="text-center mb-2">
 <a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Virtual Reference Desk</a>
-<a href="https://libguides.uidaho.edu/GSCC" class="btn btn-outline-pride-gold m-2">Curriculum Center Virtual Service</a>
 <a href="{{ '/help/research.html' | relative_url }}" class="btn btn-outline-pride-gold m-2">Research Consultations</a>
 </div>
 
@@ -46,6 +44,6 @@ To use the library off-campus, you'll need to log in to our catalog or databases
 
 ### Special Collections & Archives  
 
-Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>) or phone (208-885-0845).
+Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
 
 {% include lib-chat-widget.html %}
