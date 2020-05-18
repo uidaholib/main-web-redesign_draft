@@ -1,4 +1,5 @@
 CourseNumber,Department,CourseSection,CourseName,Instructor,Note,URL
+AOLL507,AOLL,1,Future of Education and Work,"Kroth, Michael",,"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,AOLL507&tab=reserves&search_scope=course_reserves&vid=UID&offset=0"
 FISH540,Fishery Resources,1,Wetland Restoration,"Crandell, Caren",,"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,fish540,AND&tab=reserves&search_scope=course_reserves&vid=UID&mode=advanced&offset=0"
-HIST414,History,2,"History and Film: Oliver Stone, Hollywood, and the World","Graden, Dale T.",,"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,HIST414&tab=reserves&search_scope=course_reserves&vid=UID&offset=0"
+HIST414,History,1,"History & Film: Sayles, Soderbergh, and Spielberg","Graden, Dale T.",,"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,HIST414%20sayles,AND&tab=reserves&search_scope=course_reserves&vid=UID&mode=advanced&offset=0"
 NRS574,Natural Resources,1,Environmental Politics and Policy,"Wilson, Patrick",,"https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,NRS574,AND&tab=reserves&search_scope=course_reserves&vid=UID&mode=advanced&offset=0"
