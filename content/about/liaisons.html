@@ -90,7 +90,7 @@ table-id: "#liaisonsTable"
 	{% for l in liaisons %}
 	<tr>
 		<td>{{ l.college }}</td>
-		<td>{{ l.departments | split: ';' | join: ';<br>' }}
+		<td>{{ l.departments }}
 		</td>
 		<td>{{ l.librarian }}<br>
 			<a href="mailto:{{ l.email }}">{{ l.email }}</a><br>
