@@ -3,6 +3,8 @@
 Has a catalog search box embedded on their home page, 
 https://www.uidaho.edu/law/library
 
+Added to SiteCore as a rich object (?).
+
 ## New
 
 <h2>Search our catalog</h2>
