@@ -86,14 +86,17 @@ a {
     }
 }
 /* big dropdown */
-.dropdown-menu .container {
-    width:1300px;
-    margin-right:-17px;
+.dropdown-menu {
+    .container {
+        width:1300px;
+        margin-right:-17px;
 
-    @media (min-width: 768px) and (max-width: 900px){
-        width:740px !important;
+        @media (min-width: 768px) and (max-width: 900px){
+            width:740px !important;
+        }
     }
 }
+
 .popular {
     width: 90%;
     color: #191919;
