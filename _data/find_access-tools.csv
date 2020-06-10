@@ -18,8 +18,8 @@ So, say you find an article via Google that asks for you to sign in to access it
 
 **Installation**
                 
-- Add the following link to your bookmarks <a href=""javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)"" class=""btn btn-sm btn-success"">UI LIB Log-in</a> by dragging it to your bookmarks *or* right-clicking it and selecting bookmark/add to favorites. 
-- *Alternatively*, if your browser doesn't support creating bookmarks from links (e.g. iPad), bookmark this page, then edit the new bookmark  with a title of your choosing and add the following text as the URL: `javascript:void(location.href=%22http://ida.lib.uidaho.edu:2048/login?url=%22+location.href)`
+- Add the following link to your bookmarks <a href=""javascript:void(location.href=%22https://uidaho.idm.oclc.org/login?url=%22+location.href)"" class=""btn btn-sm btn-success"">UI LIB Log-in</a> by dragging it to your bookmarks *or* right-clicking it and selecting bookmark/add to favorites. 
+- *Alternatively*, if your browser doesn't support creating bookmarks from links (e.g. iPad), bookmark this page, then edit the new bookmark  with a title of your choosing and add the following text as the URL: `javascript:void(location.href=%22https://uidaho.idm.oclc.org/login?url=%22+location.href)`
 
 **Try it out!**
 
