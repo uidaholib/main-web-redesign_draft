@@ -38,6 +38,13 @@ Even if you're not on campus, we can still help you get electronic access to m
 
 Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to U of I students, staff, and faculty.  
 
+### Curbside Delivery
+
+Starting June 15th, patrons will be able to request locally-owned physical items from the UI Library and pick them up curbside. 
+To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
+Then use the "Request Curbside Pick Up" link to place your request; you'll receive an email when your item is ready, with a link to reserve a pick up time slot between 11 a.m. and 1 p.m., Monday to Friday. 
+Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at libcirc@uidaho.edu with questions.
+
 ### Off-Campus Access 
 
 To use the library off-campus, you'll need to log in to our catalog or databases with your VandalID, the same credentials you use to access email and BBLearn. Stuck? [Ask us for help](https://www.lib.uidaho.edu/help/chat.html) or see if your question is answered in this [guide for off-campus students](https://libguides.uidaho.edu/c.php?g=363086&p=2453098).     
