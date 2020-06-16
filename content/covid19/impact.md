@@ -18,7 +18,6 @@ We continue to offer [extensive online services]({{ '/covid19/access.html' | rel
 #### Reference Desk
 
 All [Reference Services]({{ '/help/' | relative_url }}) are virtual only.
-However, to help with this transition, reference hours have been **expanded**.
 
 Virtual Reference Summer Hours (online):
 
