@@ -95,7 +95,7 @@ Audits:
     - Action: home page Alert should move to carousel slide --> Push to Ben and Cindy to figure out content.
     - https://uxdesign.cc/anti-racist-reading-list-for-designers-e51b3ac4bd0
     - https://www.wocintechchat.com/
-    - Action: Follow up on Diversity, Equity, and Inclusion Task Force work. Need review of site, create guidelines? Look for opportunities to do better.
+    - Action: Follow up on Diversity, Equity, and Inclusion Task Force work. Need review of site, create guidelines. Look for opportunities to do better.
 
 Longer term projects: 
 
