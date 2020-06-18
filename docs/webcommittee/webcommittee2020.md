@@ -61,6 +61,7 @@ New content:
 - [Course Reserves](https://www.lib.uidaho.edu/services/reserve/list.html) prototype/test (Devin, Rami. Not going forward)
 - *Many* new/rebuilt digital collections with improved About pages (Devin, Olivia, Evan, Michelle, Courtney, Amy, Kevin, Kit)
 - [Research Assistance](https://www.lib.uidaho.edu/help/research.html) (Liaisons, Evan)
+- *Many* updates, edits, and content suggestions from people across the library.
 
 Newest content:
 
