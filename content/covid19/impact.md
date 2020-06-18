@@ -86,8 +86,8 @@ The library's exterior book drops are open, so please return your materials at y
 Please note that we are alternating use of the two book drops at the library in order to allow the materials to "self-quarantine" for 3+ days based on CDC guidelines.
 Signs are posted to direct visitors to the correct drop.
 
-- Monday - Wednesday: book drop next to the library's front door
-- Thursday - Sunday: book drop located on the east side of the library, near Rayburn St.
+- Monday - Wednesday: return books to the drop located next to the library's front door
+- Thursday - Sunday: return books to drop located on the east side of the library, near Rayburn St.
 
 Have a book from ILL that will be overdue? 
 Please contact the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu) so we can help you extend your due date. 
