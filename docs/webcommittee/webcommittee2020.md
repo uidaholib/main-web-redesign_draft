@@ -53,7 +53,8 @@ New content:
 - [GIS Resources redesign](https://www.lib.uidaho.edu/find/geospatial/) (Bruce)
 - New [GIS day page](https://www.lib.uidaho.edu/gisday/) (Evan)
 - Board Games links (Perri)
-- database review
+- "DVDs" to "DVDs & Streaming Video"
+- accessibility improvements, such as skip-to-content link (try clicking tab)
 - [Journal Cancellations](https://www.lib.uidaho.edu/about/journalcancellations.html) (Liaisons)
 - [Access Tools](https://www.lib.uidaho.edu/find/accesstools.html) (Jeremy, Evan)
 - [Topics of Instruction](https://www.lib.uidaho.edu/services/instruction/topics.html) (Devin, Marco, committee)
