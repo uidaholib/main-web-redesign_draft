@@ -80,9 +80,14 @@ For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }})
 
 The library will be waiving fines for U of I or Summit materials accrued after March 9th, so don’t worry if you still have your library books! 
 Please note this doesn't apply to lost or damaged books, which will still generate fines. 
+The library has extended due dates to July 15th for all materials currently checked out. 
 
-The library has also extended due dates to June 1 for all materials currently checked out. 
-While the library’s exterior book drops are currently available for returning materials, staff are not in the building to process returns, so you are welcome to hold on to checked-out items for the time being.  
+The library's exterior book drops are open, so please return your materials at your convenience.
+Please note that we are alternating use of the two book drops at the library in order to allow the materials to "self-quarantine" for 3+ days based on CDC guidelines.
+Signs are posted to direct visitors to the correct drop.
+
+- Monday - Wednesday: book drop next to the library's front door
+- Thursday - Sunday: book drop located on the east side of the library, near Rayburn St.
 
 Have a book from ILL that will be overdue? 
 Please contact the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu) so we can help you extend your due date. 
