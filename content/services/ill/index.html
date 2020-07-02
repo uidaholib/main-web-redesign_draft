@@ -5,42 +5,43 @@ permalink: /services/ill/
 layout: page
 ---
 
-{% include index-alert.html color="warning" text="The Interlibrary Loan office is currently closed, although some services are available online and via email. Due to library closures and limitations around the world processing requests may be delayed or disrupted. Find <a href='/covid19/impact.html' class='alert-link'>updates</a> and resources on our <a href='/covid19/' class='alert-link'>COVID-19 information page</a>." %}
+{% include feature/alert.html color="info" text="Monday July 6th, Interlibrary Loan will be migrating to Single Sign-On to better serve our users. Users will be need to register a new account which will be merged to old accounts. See <a href='#single-sign-on'>details below</a>." dismiss=true %}
+
+{% include feature/alert.html color="warning" text="The Interlibrary Loan office is currently closed, although some services are available online and via email. Due to library closures and limitations around the world processing requests may be delayed or disrupted. Find <a href='/covid19/impact.html' class='alert-link'>updates</a> and resources on our <a href='/covid19/' class='alert-link'>COVID-19 information page</a>." dismiss=true %}
 
 <div class="row mt-4">
 
 	<div class="col-md-8">
 		<div class="card my-2">
-				<div class="card-header">
-					<h3 class="card-title mb-0">ILLiad Login</h3>
-				</div>
-				<div class="card-body">
-					<!--<a class="btn btn-ponderosa-pine btn-lg" href="">Logon to ILLiad</a>-->
-					<form action="https://uidaho.illiad.oclc.org/illiad/illiad.dll" method="post" name="Logon">
-						<input type="hidden" name="LogonPath" value="c:\inetpub\wwwroot\illiad\NTD\">
-						<input type="hidden" name="NVTGC" value="NTD">
-						<input type="hidden" name="ILLiadForm" value="Logon">
-						
-						<p class="smalltxt">All fields required</p>			
-						<fieldset>			
-							<div class="form-group">
-								<label for="username"> Username</label>
-								<input id="username" name="Username" type="text" class="form-control" tabindex="1" >
-								<small id="usernameHelp" class="form-text text-muted">(your VandalCard barcode)</small>
-							</div>
-							<div class="form-group">
-								<label for="password"> Password</label>
-								<input id="password" name="Password" type="password" class="form-control" tabindex="2" >
-							</div>
-							<input type="submit" name="SubmitButton" value="Logon to ILLiad" class="btn btn-ponderosa-pine btn-sm my-2" tabindex="12" >
-						</fieldset>
-					</form>
+			<div class="card-header">
+				<h3 class="card-title mb-0">ILLiad</h3>
+			</div>
+			<div class="card-body">
+				<!--
+				<form action="https://uidaho.illiad.oclc.org/illiad/illiad.dll" method="post" name="Logon">
+					<input type="hidden" name="LogonPath" value="c:\inetpub\wwwroot\illiad\NTD\">
+					<input type="hidden" name="NVTGC" value="NTD">
+					<input type="hidden" name="ILLiadForm" value="Logon">
 					
-					<p class="mt-4"><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html">First time users click here!</a></p>
-					<p>If you have forgotten your password, visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84">password reset page</a>. If you encounter any issues, please <a href="mailto:libill@uidaho.edu">email ILL office</a> or call at (208) 885-6843.</p> 					
-					<p>Law school students, faculty, and staff please contact the <a href="http://www.uidaho.edu/law/library">Law School Library</a>.</p>
-				</div>
-
+					<p class="smalltxt">All fields required</p>			
+					<fieldset>			
+						<div class="form-group">
+							<label for="username"> Username</label>
+							<input id="username" name="Username" type="text" class="form-control" tabindex="1" >
+							<small id="usernameHelp" class="form-text text-muted">(your VandalCard barcode)</small>
+						</div>
+						<div class="form-group">
+							<label for="password"> Password</label>
+							<input id="password" name="Password" type="password" class="form-control" tabindex="2" >
+						</div>
+						<input type="submit" name="SubmitButton" value="Logon to ILLiad" class="btn btn-ponderosa-pine btn-sm my-2" tabindex="12" >
+					</fieldset>
+				</form>-->
+				<p>Interlibrary Loan requests are managed through the ILLiad platform. Please login to submit and track the status of your requests:</p>
+				<div class="text-center"><a href="https://uidaho.illiad.oclc.org/illiad/" target="_blank" rel="noopener" class="btn btn-lg btn-success">ILLiad Login</a></div>
+				
+				<p class="mt-4"><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">First time users click here!</a> If you have forgotten your password, visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84" target="_blank" rel="noopener">password reset page</a>. If you encounter any issues, please <a href="mailto:libill@uidaho.edu">email ILL office</a> or call at (208) 885-6843. Law school students, faculty, and staff please contact the <a href="http://www.uidaho.edu/law/library">Law School Library</a>.</p>
+			</div>
 		</div>
 	</div>
 
@@ -56,334 +57,303 @@ layout: page
 					<br>Moscow, ID  83844-2357 
 					<br>United States</p>  
 		
-				<p>Email: 	<a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a> 
+				<p>Email: <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a> 
 					<br>Phone: 	(208) 885-6843 
-					<br>Fax: 	(208) 885-6817 
 				</p>			
 			</div>
 		</div>
 	</div>
 
-	<div class="col-md-12 mt-3">
-		<hr>
-	</div>
+</div> 
 
-</div> <!--end first row-->
+<hr> 
 
-<div class="row justify-content-center">
+<p>Interlibrary Loan (ILL) is a resource sharing service that allows UI patrons to request materials that are neither owned by the UI Library, nor available through <a href="summit.html">Summit</a>. ILL is available free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid UI account.</p>
 
-	<div class="col-md-10 my-3">
+<p>Turnaround time for loan requests is typically <strong>7-14 days</strong>, while articles are usually received within <strong>1-2 days</strong>. Patrons are notified by email once their item arrives. Some items are more readily available than others, so, by necessity, we can't guarantee the receipt or delivery time of any requested item.</p>
 
-		<p>Interlibrary Loan (ILL) is a resource sharing service that allows UI patrons to request materials that
-			are neither owned by the UI Library, nor available through <a href="summit.html">Summit</a>. ILL is
-			available free of charge to any currently-enrolled student, staff, or faculty member (current and
-			emeritus) with a valid UI account.</p>
+<div class="text-center py-2">
 
-		<p>Turnaround time for loan requests is typically <b>7-14 days</b>, while articles are usually received
-			within <b>1-2 days</b>. Patrons are notified by email once their item arrives. Some items are more readily
-			available than others, so, by necessity, we can't guarantee the receipt or delivery time of any requested
-			item.</p>
-
-		<div class="text-center py-2">
-
-			<a href="summit.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-globe "></span>
-				Summit</a>
-			<a href="docdelivery.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-paper-plane "></span>
-				Document Delivery</a>
-			<a href="other.html" class="btn btn-secondary btn-sm my-2"><span class="far fa-star"></span>
-				Local/Other Libraries</a>
-
-		</div>
-
-	</div>
-	<div class="col-md-12">
-		<hr>
-	</div>
+	<a href="summit.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-globe"></span> Summit</a>
+	<a href="docdelivery.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-paper-plane"></span> Document Delivery</a>
+	<a href="other.html" class="btn btn-secondary btn-sm my-2"><span class="far fa-star"></span> Local/Other Libraries</a>
 
 </div>
 
-<div class="row">
+<h3 id="single-sign-on">ILLiad Single Sign-on</h3>
 
-	<div class="col-md-10">
+<p>Starting Monday July 6th, 2020 at 9AM, Interlibrary Loan's <a href="https://uidaho.illiad.oclc.org/illiad/" target="_blank" rel="noopener">ILLiad platform</a> will be migrated to a Single Sign-On system to better serve our users. This allows patrons to access all library services with their U of I log in credentials--the same log in used for access to BBLearn, VandalWeb, email, and other University of Idaho services. Users will be required to <a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">register a new account</a> which will be merged with old account information. Once logged in, users can submit new requests and check the status of current items. Feel free to direct questions or concerns to <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a> or call (208) 885-6843.</p>
 
-		<div id="accordion">
+<hr>
 
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">Setting Up Your ILLiad Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseOne" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>Before you can start requesting materials through Interlibrary Loan, you must first register for an ILLiad
-							account. Registration serves three main purposes: </p>
-						<ul>
-							<li>It simplifies the requesting process so that you don't have to re-enter your personal information every time
-								you submit an ILL request.</li>
-							<li>It allows us to notify you promptly and deliver materials accurately once your requested item arrives at the
-								library. </li>
-							<li>It lets you monitor the status of current requests, request renewals of ILL materials online, and view a
-								complete archive of all your previous requests.</li>
-						</ul>
-						<p>During registration you will be asked to enter a username and password. This is what you will use to log in to
-							your ILLiad account. You can choose any password you like, but the username needs to match the 14-digit barcode
-							from the back of your Vandal Card (starting with 20206...). </p>
-						<p>If you do not have a Vandal Card, please contact the Interlibrary Loan office at (208) 885-6843, or by email
-							at <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a>, and we will help you set up your account.</p>
-						<p><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html">First time users click here</a></p>
-					</div>
-				</div>
-			</div>
+<div id="accordion">
 
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Updating Your ILLiad
-							Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseTwo" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>ILL relies heavily on email to let patrons know when their requested materials have arrived. Please keep your
-							email address up-to-date and check it regularly. Depending on your delivery preference, we may also send ILL
-							materials to you through the mail, so it's important that we have your current mailing address as well. </p>
-						<p>To update your personal contact information, log in to your ILLiad account and select the "Change User
-							Information" option.</p>
-						<p>If you have forgotten your ILLiad password, please visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84">password reset page</a>.</p>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Requesting ILL
-							Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseThree" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<h4>Placing Holds on UI Materials</h4>
-						<p>Please do not use ILL to request materials that are owned by the UI Library or held by one of our branch
-							libraries (UI Law Library, Idaho State Law Library, IMTC, Women's Center, and Herbarium). You can request
-							these materials directly through the UI Library's <a href="http://search.lib.uidaho.edu/">online catalog</a>.</p>
-						<p>First locate the item you want, then log in to your library account and place a hold on the item. The
-							circulation desk will contact you once it is ready for checkout.</p>
-						<h4>Information to Include in Your Request</h4>
-						<p>Provide as much citation information as possible when submitting your requests. Include the author, title,
-							and publication date for books; or the journal title, author, article title, volume, date, and page numbers
-							for article requests. Accurate citation information helps us identify the item quickly and locate libraries
-							that may be able to supply it.</p>
-						<p>If you are having trouble locating the item you need, please contact the <a href="{{ '/help/' | relative_url }}"
-							 target="_blank" rel="noopener">Reference Desk</a> for assistance.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">Delivery Estimates
-							<span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseFour" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>ILL requests are generally processed within one working day. Most books arrive within <b>7-14 days</b>,
-							although items coming from other states or countries can take anywhere from <b>2-8 weeks</b>, so please plan
-							accordingly. Articles are sent electronically and usually arrive within <b>1-2 days</b>.</p>
-						<p>If you need to expedite a request, please include any special deadline information in the Notes field on
-							the request form. You can also contact the ILL office directly at (208) 885-6843, or by email at <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a>.
-						</p>
-						<p>Generally speaking, if the item is located geographically nearby and is owned by a large number of
-							libraries, it will arrive relatively quickly. Certain items can take longer, though, depending on their
-							format and local availability status. Some examples include:</p>
-						<ul>
-							<li>Rare, valuable or otherwise unique materials that would be difficult or impossible to replace</li>
-							<li>Bulky or fragile materials that are difficult or expensive to ship</li>
-							<li>Materials in high demand at the lending library</li>
-							<li>Materials with local circulation restrictions, such as Reference or Course Reserve materials</li>
-							<li>Audiovidual materials</li>
-							<li>Musical recordings</li>
-							<li>Computer software</li>
-							<li>Reference materials</li>
-							<li>Bound journals</li>
-						</ul>
-						<p>Sorry, we don't order <b>required textbooks</b> through Interlibrary Loan. Please try requesting these
-							materials through <a href="summit.html">Summit</a> instead, or check to see if they are available on <a href="{{ '/services/reserve/' | relative_url }}"
-							 target="_blank" rel="noopener">Course Reserve</a>. </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">Checking Out ILL
-							Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseFive" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<h4>Books</h4>
-						<p>Patrons will be notified by email once their ILL item arrives. Items for on-campus patrons can be checked
-							out at the circulation desk, unless it is restricted to "in library use only," in which case you will need
-							to use the item on-site.</p>
-						<p>Off-campus patrons will also receive an email notification once their item has been received. We will
-							deliver these materials to you by mail. Please contact the ILL office if the item does not arrive within a
-							reasonable amount of time.</p>
-						<h4>Articles</h4>
-						<p>When your article arrives you will receive an email with instructions on how to access it. Articles are
-							posted to your ILLiad account and can be retrieved under the "Electronically Received Articles" queue.</p>
-						<p>Articles remain accessible for <b>30 days</b> after you receive the email notification and then are
-							automatically deleted. You can also remove articles earlier by using the Delete button.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">Renewing ILL
-							Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseSix" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<h4>Renewals, recalls, and due dates are at the discretion of the lending library</h4>
-						<p>Most ILL items can be renewed. However, if the lending library does not allow renewals, we will include a
-							"No Renewal" note on the bookstrap. </p>
-						<p>Renewal requests can be submitted directly through your ILLiad account. Select the "Checked Out Items"
-							queue from the main menu, open the correct request, and click on the "Renew Item" button. If the lending
-							library approves the renewal, we will update your due date accordingly. If they deny the request, we will
-							send you an email and provide you with additional request options.</p>
-						<p>Because renewal due dates are based on the date that the request is actually submitted to the lending
-							library, and are not just an extension of the original due date, the option to request a renewal only
-							becomes available 10 days prior to the due date. You will not be able to submit a renewal request before
-							that period in order to ensure you have as much time as possible with the material.</p>
-						<p>All Interlibrary Loan materials are subject to being recalled by the lending library. We will notify you
-							by email if your due date suddenly changes.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">Returning ILL
-							Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseSeven" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-
-						<p>ILL items should be returned to the same location where you checked them out. Items need to be returned
-							on or before their due date, with the bookstrap or label still attached.</p>
-						<p>Off-campus patrons can return ILL materials to the library through the mail. However you may want to use
-							a form of delivery that provides tracking, since you are responsible for the item until the library
-							actually receives it. </p>
-						<p>Please use the following address for returning ILL materials:
-							<b>University of Idaho Library
-								Interlibrary Loan
-								875 Perimeter Drive MS 2357
-								Moscow, ID 83844-2357</b>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">Overdue Fines
-							<span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseEight" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>ILL relies heavily on reciprocal agreements with other libraries. Please return your materials in a
-							timely manner so that we can maintain positive relationships with the libraries we borrow from. </p>
-						<p>If you need to keep an item beyond its due date, you can request a renewal through your ILLiad account
-							or by contacting the ILL department directly. If renewals are not allowed, we will be happy to request
-							another copy of the item for you from a different library.</p>
-						<p>ILL materials accrue overdue and lost book charges <b>for all patrons</b> at the following rates:</p>
-						<ul>
-							<li><b>Overdue</b>: $0.50 per day (up to $20.00)</li>
-							<li><b>Recalls</b>: $2.00 per day (up to $50.00)</li>
-							<li><b>Lost ILL item</b>: It varies depending on the lending library's policies and the replacement cost
-								of the item.</li>
-						</ul>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="card my-2">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">Lending
-							Policies <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseNine" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>The UI Library lends materials to all domestic and international libraries. If you are an individual
-							who needs an item owned by the UI Library and cannot visit us in person, please contact your local
-							library to inquire about their interlibrary loan service.</p>
-						<p><a href="https://uidaho.illiad.oclc.org/illiad/lending/lendinglogon.html">Returning Library Login</a>
-							| <a href="https://uidaho.illiad.oclc.org/illiad/lending/LendingFirstTime.html">New Library
-								Registration</a></p>
-						<p><b>We will lend:</b></p>
-						<ul>
-							<li>All General Collection items including books, audiovisual materials, and theses/dissertations</li>
-							<li>Oversize materials (condition permitting)</li>
-							<li>Circulating Government Documents</li>
-							<li>Non-archival microfiche/film, up to four reels at a time</li>
-							<li>Multi-volume works, up to four volumes at a time</li>
-						</ul>
-						<p><b>We will copy/scan:</b></p>
-						<ul>
-							<li>Articles from print periodicals</li>
-							<li>Articles that can be scanned or copied from Special Collections items (condition permitting)</li>
-							<li>Articles from databases (license permitting)</li>
-							<li>Articles from microfiche/film, including newspapers, journals, and ERIC documents</li>
-							<li>We send articles via Odyssey, Article Exchange, email, fax, or postal mail</li>
-						</ul>
-						<p><b>We cannot lend:</b></p>
-						<ul>
-							<li>Reference materials</li>
-							<li>Reserve materials</li>
-							<li>Journals issues/volumes</li>
-							<li>Special Collections materials</li>
-						</ul>
-						<p><b>We cannot copy/scan:</b></p>
-						<ul>
-							<li>Articles exceeding 50 pages in length (exceptions may be made for special requests when staffing
-								time permits)</li>
-							<li>Entire books or issues of journals</li>
-							<li>Frail or archival items that might be damaged by the scanning process</li>
-						</ul>
-						<p><b>Duration of loans</b>: 6 weeks for books; 2 weeks for AV materials</p>
-						<p><b>Renewals</b>: We allow one four-week renewal for books that do not have any active holds or
-							requests from local UI patrons. AV materials cannot be renewed.</p>
-						<p><b>Replacement</b>: If a UI Library item is lost or damaged while on loan to another library, the
-							replacement or repair fees are the responsibility of the borrowing library. Replacement fees will be
-							assessed on a case-by-case basis depending on the extent of the damage and the cost of the book. A
-							$20.00 processing fee is also assessed on all lost or damaged items.</p>
-						<p><b>Consortial Affiliations</b>: The UI Library is a member of both the <b>Orbis Cascade Alliance</b>
-							and the <b>Amigos</b> resource sharing group. We are also an active member of <b>LVIS</b> (Libraries
-							Very Interested in Sharing) and welcome other reciprocal agreements. </p>
-						<p>Additional policy information for the UI Library can be found by searching our symbol (<b>NTD</b>) in
-							the OCLC Policies Directory.</p>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="card mt-2 mb-4">
-				<div class="card-header">
-					<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">Important
-							Copyright Information <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-				</div>
-				<div id="collapseTen" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<p>The copyright law of the United States (Title 17, United States Code) governs the making of
-							photocopies or other reproductions of copyrighted materials.</p>
-						<p>Under certain conditions specified in the law, libraries and archives are authorized to furnish a
-							photocopy or other reproduction. One of these specified conditions is that the photocopy or
-							reproduction is not to be "used for any purpose other than private study, scholarship, or research." If
-							a user makes a request for, or later uses, a photocopy or reproduction for purposes in excess of "fair
-							use," that user may be liable for copyright infringement.</p>
-						<p>This institution reserves the right to refuse to accept a copying order if, in its judgment,
-							fulfillment of the order would involve violation of copyright law.</p>
-					</div>
-				</div>
-			</div>
-
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">Setting Up Your ILLiad Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-	</div><!--end accordion row-->
+		<div id="collapseOne" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>Before you can start requesting materials through Interlibrary Loan, you must first register for an <a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">ILLiad account</a>. Registration serves three main purposes: </p>
+				<ul>
+					<li>It simplifies the requesting process so that you don't have to re-enter your personal information every time you submit an ILL request.</li>
+					<li>It allows us to notify you promptly and deliver materials accurately once your requested item arrives at the library. </li>
+					<li>It lets you monitor the status of current requests, request renewals of ILL materials online, and view a complete archive of all your previous requests.</li>
+				</ul>
+				<p>During registration you will use your U of I NetID log in credentials. You will use this university-wide login to access your ILLiad account after your registration.</p>
+				<p>If you do not know your university-wide log-in credentials, please contact the Interlibrary Loan office at (208) 885-6843, or by email at <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a>.edu, and we will help you set up your account.</p>
+				<p><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html">First time users click here</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Updating Your ILLiad Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseTwo" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>ILL relies heavily on email to let patrons know when their requested materials have arrived. Please keep your
+					email address up-to-date and check it regularly. Depending on your delivery preference, we may also send ILL
+					materials to you through the mail, so it's important that we have your current mailing address as well. </p>
+				<p>To update your personal contact information, log in to your ILLiad account and select the "Change User
+					Information" option.</p>
+				<p>If you have forgotten your ILLiad password, please visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84">password reset page</a>.</p>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Requesting ILL
+					Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseThree" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<h4>Placing Holds on UI Materials</h4>
+				<p>Please do not use ILL to request materials that are owned by the UI Library or held by one of our branch
+					libraries (UI Law Library, Idaho State Law Library, IMTC, Women's Center, and Herbarium). You can request
+					these materials directly through the UI Library's <a href="http://search.lib.uidaho.edu/">online catalog</a>.</p>
+				<p>First locate the item you want, then log in to your library account and place a hold on the item. The
+					circulation desk will contact you once it is ready for checkout.</p>
+				<h4>Information to Include in Your Request</h4>
+				<p>Provide as much citation information as possible when submitting your requests. Include the author, title,
+					and publication date for books; or the journal title, author, article title, volume, date, and page numbers
+					for article requests. Accurate citation information helps us identify the item quickly and locate libraries
+					that may be able to supply it.</p>
+				<p>If you are having trouble locating the item you need, please contact the <a href="{{ '/help/' | relative_url }}"
+						target="_blank" rel="noopener">Reference Desk</a> for assistance.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">Delivery Estimates
+					<span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseFour" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>ILL requests are generally processed within one working day. Most books arrive within <strong>7-14 days</strong>,
+					although items coming from other states or countries can take anywhere from <strong>2-8 weeks</strong>, so please plan
+					accordingly. Articles are sent electronically and usually arrive within <strong>1-2 days</strong>.</p>
+				<p>If you need to expedite a request, please include any special deadline information in the Notes field on
+					the request form. You can also contact the ILL office directly at (208) 885-6843, or by email at <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a>.
+				</p>
+				<p>Generally speaking, if the item is located geographically nearby and is owned by a large number of
+					libraries, it will arrive relatively quickly. Certain items can take longer, though, depending on their
+					format and local availability status. Some examples include:</p>
+				<ul>
+					<li>Rare, valuable or otherwise unique materials that would be difficult or impossible to replace</li>
+					<li>Bulky or fragile materials that are difficult or expensive to ship</li>
+					<li>Materials in high demand at the lending library</li>
+					<li>Materials with local circulation restrictions, such as Reference or Course Reserve materials</li>
+					<li>Audiovidual materials</li>
+					<li>Musical recordings</li>
+					<li>Computer software</li>
+					<li>Reference materials</li>
+					<li>Bound journals</li>
+				</ul>
+				<p>Sorry, we don't order <strong>required textbooks</strong> through Interlibrary Loan. Please try requesting these
+					materials through <a href="summit.html">Summit</a> instead, or check to see if they are available on <a href="{{ '/services/reserve/' | relative_url }}"
+						target="_blank" rel="noopener">Course Reserve</a>. </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">Checking Out ILL
+					Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseFive" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<h4>Books</h4>
+				<p>Patrons will be notified by email once their ILL item arrives. Items for on-campus patrons can be checked
+					out at the circulation desk, unless it is restricted to "in library use only," in which case you will need
+					to use the item on-site.</p>
+				<p>Off-campus patrons will also receive an email notification once their item has been received. We will
+					deliver these materials to you by mail. Please contact the ILL office if the item does not arrive within a
+					reasonable amount of time.</p>
+				<h4>Articles</h4>
+				<p>When your article arrives you will receive an email with instructions on how to access it. Articles are
+					posted to your ILLiad account and can be retrieved under the "Electronically Received Articles" queue.</p>
+				<p>Articles remain accessible for <strong>30 days</strong> after you receive the email notification and then are
+					automatically deleted. You can also remove articles earlier by using the Delete button.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">Renewing ILL
+					Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseSix" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<h4>Renewals, recalls, and due dates are at the discretion of the lending library</h4>
+				<p>Most ILL items can be renewed. However, if the lending library does not allow renewals, we will include a
+					"No Renewal" note on the bookstrap. </p>
+				<p>Renewal requests can be submitted directly through your ILLiad account. Select the "Checked Out Items"
+					queue from the main menu, open the correct request, and click on the "Renew Item" button. If the lending
+					library approves the renewal, we will update your due date accordingly. If they deny the request, we will
+					send you an email and provide you with additional request options.</p>
+				<p>Because renewal due dates are based on the date that the request is actually submitted to the lending
+					library, and are not just an extension of the original due date, the option to request a renewal only
+					becomes available 10 days prior to the due date. You will not be able to submit a renewal request before
+					that period in order to ensure you have as much time as possible with the material.</p>
+				<p>All Interlibrary Loan materials are subject to being recalled by the lending library. We will notify you
+					by email if your due date suddenly changes.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">Returning ILL
+					Materials <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseSeven" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+
+				<p>ILL items should be returned to the same location where you checked them out. Items need to be returned
+					on or before their due date, with the bookstrap or label still attached.</p>
+				<p>Off-campus patrons can return ILL materials to the library through the mail. However you may want to use
+					a form of delivery that provides tracking, since you are responsible for the item until the library
+					actually receives it. </p>
+				<p>Please use the following address for returning ILL materials:
+					<strong>University of Idaho Library
+						Interlibrary Loan
+						875 Perimeter Drive MS 2357
+						Moscow, ID 83844-2357</strong>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">Overdue Fines
+					<span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseEight" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>ILL relies heavily on reciprocal agreements with other libraries. Please return your materials in a
+					timely manner so that we can maintain positive relationships with the libraries we borrow from. </p>
+				<p>If you need to keep an item beyond its due date, you can request a renewal through your ILLiad account
+					or by contacting the ILL department directly. If renewals are not allowed, we will be happy to request
+					another copy of the item for you from a different library.</p>
+				<p>ILL materials accrue overdue and lost book charges <strong>for all patrons</strong> at the following rates:</p>
+				<ul>
+					<li><strong>Overdue</strong>: $0.50 per day (up to $20.00)</li>
+					<li><strong>Recalls</strong>: $2.00 per day (up to $50.00)</li>
+					<li><strong>Lost ILL item</strong>: It varies depending on the lending library's policies and the replacement cost
+						of the item.</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">Lending
+					Policies <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseNine" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>The UI Library lends materials to all domestic and international libraries. If you are an individual
+					who needs an item owned by the UI Library and cannot visit us in person, please contact your local
+					library to inquire about their interlibrary loan service.</p>
+				<p><a href="https://uidaho.illiad.oclc.org/illiad/lending/lendinglogon.html">Returning Library Login</a>
+					| <a href="https://uidaho.illiad.oclc.org/illiad/lending/LendingFirstTime.html">New Library
+						Registration</a></p>
+				<p><strong>We will lend:</strong></p>
+				<ul>
+					<li>All General Collection items including books, audiovisual materials, and theses/dissertations</li>
+					<li>Oversize materials (condition permitting)</li>
+					<li>Circulating Government Documents</li>
+					<li>Non-archival microfiche/film, up to four reels at a time</li>
+					<li>Multi-volume works, up to four volumes at a time</li>
+				</ul>
+				<p><strong>We will copy/scan:</strong></p>
+				<ul>
+					<li>Articles from print periodicals</li>
+					<li>Articles that can be scanned or copied from Special Collections items (condition permitting)</li>
+					<li>Articles from databases (license permitting)</li>
+					<li>Articles from microfiche/film, including newspapers, journals, and ERIC documents</li>
+					<li>We send articles via Odyssey, Article Exchange, email, fax, or postal mail</li>
+				</ul>
+				<p><strong>We cannot lend:</strong></p>
+				<ul>
+					<li>Reference materials</li>
+					<li>Reserve materials</li>
+					<li>Journals issues/volumes</li>
+					<li>Special Collections materials</li>
+				</ul>
+				<p><strong>We cannot copy/scan:</strong></p>
+				<ul>
+					<li>Articles exceeding 50 pages in length (exceptions may be made for special requests when staffing
+						time permits)</li>
+					<li>Entire books or issues of journals</li>
+					<li>Frail or archival items that might be damaged by the scanning process</li>
+				</ul>
+				<p><strong>Duration of loans</strong>: 6 weeks for books; 2 weeks for AV materials</p>
+				<p><strong>Renewals</strong>: We allow one four-week renewal for books that do not have any active holds or
+					requests from local UI patrons. AV materials cannot be renewed.</p>
+				<p><strong>Replacement</strong>: If a UI Library item is lost or damaged while on loan to another library, the
+					replacement or repair fees are the responsibility of the borrowing library. Replacement fees will be
+					assessed on a case-by-case basis depending on the extent of the damage and the cost of the book. A
+					$20.00 processing fee is also assessed on all lost or damaged items.</p>
+				<p><strong>Consortial Affiliations</strong>: The UI Library is a member of both the <strong>Orbis Cascade Alliance</strong>
+					and the <strong>Amigos</strong> resource sharing group. We are also an active member of <strong>LVIS</strong> (Libraries
+					Very Interested in Sharing) and welcome other reciprocal agreements. </p>
+				<p>Additional policy information for the UI Library can be found by searching our symbol (<strong>NTD</strong>) in
+					the OCLC Policies Directory.</p>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="card mt-2 mb-4">
+		<div class="card-header">
+			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">Important
+					Copyright Information <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+		</div>
+		<div id="collapseTen" class="collapse" data-parent="#accordion">
+			<div class="card-body">
+				<p>The copyright law of the United States (Title 17, United States Code) governs the making of
+					photocopies or other reproductions of copyrighted materials.</p>
+				<p>Under certain conditions specified in the law, libraries and archives are authorized to furnish a
+					photocopy or other reproduction. One of these specified conditions is that the photocopy or
+					reproduction is not to be "used for any purpose other than private study, scholarship, or research." If
+					a user makes a request for, or later uses, a photocopy or reproduction for purposes in excess of "fair
+					use," that user may be liable for copyright infringement.</p>
+				<p>This institution reserves the right to refuse to accept a copying order if, in its judgment,
+					fulfillment of the order would involve violation of copyright law.</p>
+			</div>
+		</div>
+	</div>
+
 </div>
