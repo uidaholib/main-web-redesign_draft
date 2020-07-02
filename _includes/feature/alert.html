@@ -1,0 +1,15 @@
+{% comment %}
+    Bootstrap Alert, https://getbootstrap.com/docs/4.5/components/alerts/
+    Options:
+    - "text" = text for alert, can use Markdown formatting.
+    - "color" = a Bootstrap color (primary, secondary, success, danger, warning, info, light, dark)
+    - "align" = text alignment (center, right, left)
+    - "dismiss" = make dismissiable, true
+{%- endcomment -%}
+<div class="alert alert-{{ include.color | default: 'primary' }}{% if include.align %} text-{{ include.align }}{% endif %}{% if include.dismiss == true %} alert-dismissible fade show{% endif %}" role="alert">
+{{ include.text | markdownify }}
+{% if include.dismiss == true %}
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>{% endif %}
+</div>
