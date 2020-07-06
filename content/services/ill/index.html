@@ -5,7 +5,11 @@ permalink: /services/ill/
 layout: page
 ---
 
+{% include feature/alert.html color="danger" text="Interlibrary Loan is currently migrating to Single Sign-On. However, the transition is experiencing technical difficulties. Please do not create new accounts at this time. Contact <a href='mailto:libill@uidaho.edu'>libill@uidaho.edu</a> if you encounter issues." dismiss=true %}
+
+<!--
 {% include feature/alert.html color="info" text="Monday July 6th, Interlibrary Loan will be migrating to Single Sign-On to better serve our users. Users will be need to register a new account which will be merged to old accounts. See <a href='#single-sign-on'>details below</a>." dismiss=true %}
+-->
 
 {% include feature/alert.html color="warning" text="The Interlibrary Loan office is currently closed, although some services are available online and via email. Due to library closures and limitations around the world processing requests may be delayed or disrupted. Find <a href='/covid19/impact.html' class='alert-link'>updates</a> and resources on our <a href='/covid19/' class='alert-link'>COVID-19 information page</a>." dismiss=true %}
 
@@ -40,7 +44,9 @@ layout: page
 				<p>Interlibrary Loan requests are managed through the ILLiad platform. Please login to submit and track the status of your requests:</p>
 				<div class="text-center"><a href="https://uidaho.illiad.oclc.org/illiad/" target="_blank" rel="noopener" class="btn btn-lg btn-success">ILLiad Login</a></div>
 				
-				<p class="mt-4"><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">First time users click here!</a> If you have forgotten your password, visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84" target="_blank" rel="noopener">password reset page</a>. If you encounter any issues, please <a href="mailto:libill@uidaho.edu">email ILL office</a> or call at (208) 885-6843. Law school students, faculty, and staff please contact the <a href="http://www.uidaho.edu/law/library">Law School Library</a>.</p>
+				<p class="mt-4">If you have forgotten your password, visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84" target="_blank" rel="noopener">password reset page</a>. If you encounter any issues, please <a href="mailto:libill@uidaho.edu">email ILL office</a> or call at (208) 885-6843. Law school students, faculty, and staff please contact the <a href="http://www.uidaho.edu/law/library">Law School Library</a>.</p>
+				<!--
+				<p class="mt-4"><a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">First time users click here!</a> If you have forgotten your password, visit the <a href="https://uidaho.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=84" target="_blank" rel="noopener">password reset page</a>. If you encounter any issues, please <a href="mailto:libill@uidaho.edu">email ILL office</a> or call at (208) 885-6843. Law school students, faculty, and staff please contact the <a href="http://www.uidaho.edu/law/library">Law School Library</a>.</p>-->
 			</div>
 		</div>
 	</div>
@@ -82,12 +88,14 @@ layout: page
 
 <h3 id="single-sign-on">ILLiad Single Sign-on</h3>
 
-<p>Starting Monday July 6th, 2020 at 9AM, Interlibrary Loan's <a href="https://uidaho.illiad.oclc.org/illiad/" target="_blank" rel="noopener">ILLiad platform</a> will be migrated to a Single Sign-On system to better serve our users. This allows patrons to access all library services with their U of I log in credentials--the same log in used for access to BBLearn, VandalWeb, email, and other University of Idaho services. Users will be required to <a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">register a new account</a> which will be merged with old account information. Once logged in, users can submit new requests and check the status of current items. Feel free to direct questions or concerns to <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a> or call (208) 885-6843.</p>
+<p>Starting Monday July 6th, 2020 at 9AM, Interlibrary Loan's <a href="https://uidaho.illiad.oclc.org/illiad/" target="_blank" rel="noopener">ILLiad platform</a> will be migrated to a Single Sign-On system to better serve our users. This allows patrons to access all library services with their U of I log in credentials--the same log in used for access to BBLearn, VandalWeb, email, and other University of Idaho services. 
+	<!--Users will be required to <a href="https://uidaho.illiad.oclc.org/illiad/FirstTime.html" target="_blank" rel="noopener">register a new account</a> which will be merged with old account information. Once logged in, users can submit new requests and check the status of current items. -->
+Feel free to direct questions or concerns to <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a> or call (208) 885-6843.</p>
 
 <hr>
 
 <div id="accordion">
-
+<!--
 	<div class="card my-2">
 		<div class="card-header">
 			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">Setting Up Your ILLiad Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
@@ -106,7 +114,7 @@ layout: page
 			</div>
 		</div>
 	</div>
-
+-->
 	<div class="card my-2">
 		<div class="card-header">
 			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Updating Your ILLiad Account <span class="fas fa-chevron-down smalltxt"></span></a></h5>
