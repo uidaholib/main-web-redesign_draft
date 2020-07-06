@@ -14,7 +14,7 @@ If you are planning to visit the library, please be sure to follow [World Heal
 
 The Library is currently open online only, with the building closed to the public.
 We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our reference desk and research help with extended hours.
-The Library building will follow a [phased reopening model]({{ site.lib-media }}/about/LibraryReopeningExternal070120.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, and public health guidance.
+The Library building will follow a [phased reopening model]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, and public health guidance.
 
 #### Reference Desk
 
