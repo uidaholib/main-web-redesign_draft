@@ -16,7 +16,7 @@ Use the links below for more information about the library's response and resour
   <a href="impact.html" class="list-group-item list-group-item-action text-black">
     How will Library Services be Impacted?
   </a>
-  <a href="{{ site.lib-media }}/about/UI_Library_Covid-19_Phased_Reopening_Model.pdf" target="_blank" class="list-group-item list-group-item-action text-black">
+  <a href="{{ site.lib-media }}/about/LibraryReopeningExternal070120.pdf" target="_blank" class="list-group-item list-group-item-action text-black">
     What is the Library's plan for reopening?
   </a>
   <a href="{{ '/covid19/access.html' | relative_url }}" class="list-group-item list-group-item-action text-black">How can I access library resources from off-campus?</a>
