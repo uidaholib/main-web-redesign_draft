@@ -36,7 +36,9 @@ The library has tons of materials you can access online. Check our [library c
 
 Even if you're not on campus, we can still help you get electronic access to materials the library doesn't own via [Interlibrary Loan (ILL)](https://www.lib.uidaho.edu/services/ill/). 
 
-Never used ILL before? You will need to [create a unique account](https://uidaho.illiad.oclc.org/illiad/FirstTime.html) before you can place your requests. Please keep in mind that ILL is limited to U of I students, staff, and faculty.  
+Never used ILL before? 
+You will need to [create a unique account](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll) before you can place your requests. 
+Please keep in mind that ILL is limited to U of I students, staff, and faculty.  
 
 ### Curbside Delivery
 
