@@ -5,6 +5,8 @@ permalink: /find/accesstools.html
 layout: page 
 ---
 
+{% include feature/alert.html dismiss=true color="warning" text="*Please note:* due to a recent system upgrade, the Library's proxy server URL has changed. If you are having difficulty accessing saved resources, you may need to update the links. See <a href='https://www.lib.uidaho.edu/proxy404.html' class='alert-link'>Proxy 404</a> for details." %}
+
 Did you know that many academic articles behind a paywall have a free [open access](https://sparcopen.org/open-access/) version available?
 Did you know that you can connect external tools to your library account for seamless access to our subscriptions?
  
