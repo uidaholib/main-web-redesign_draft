@@ -33,6 +33,7 @@ The MILL is an evolving space, and we’d love to hear from you – please use [
             </div>
         </div>
     </div>
+    <!--
     <div class="card">
         <div class="card-body text-center">
             <p class="card-text">For an appointment or more information:</p>
@@ -41,4 +42,5 @@ The MILL is an evolving space, and we’d love to hear from you – please use [
             208-885-0992</p>
         </div>
     </div>
+    -->
 </div>
