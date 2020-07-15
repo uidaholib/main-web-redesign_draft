@@ -7,14 +7,14 @@ permalink: /covid19/impact.html
 
 *This page will be updated when any changes to our operations or services occur.*
 
-<!--{:.alert .alert-warning}
-If you are planning to visit the library, please be sure to follow [World Health Organization guidelines](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) by washing your hands, maintaining social distance, and staying home if you feel unwell or are in a high-risk population.  -->
+{% include feature/alert.html text="If you are planning to visit the library, please be sure to follow [World Health Organization guidelines](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) by washing your hands, maintaining social distance, and staying home if you feel unwell or are in a high-risk population." color="warning" align="center" %}
 
 ## Hours and Availability 
 
 The Library is currently open online only, with the building closed to the public.
 We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our reference desk and research help with extended hours.
-The Library building will follow a [phased reopening model]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, and public health guidance.
+The Library building will follow a [phased reopening model]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
+Policies and practices will be in place to help protect the health of patrons and staff.
 
 The Library's first floor will reopen to current U of I students, staff, and faculty starting July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm.
 While access will be limited to the first floor, book retrieval will be available for physical resources in the library.
