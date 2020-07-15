@@ -35,11 +35,11 @@ breaks:
   # reopening stage 2
   - start: "2020-07-20"
     end: "2020-08-11"
-    mon: "Open 1pm &#8211; 6pm"
-    tue: "Open 1pm &#8211; 6pm"
-    wed: "Open 1pm &#8211; 6pm"
-    thu: "Open 1pm &#8211; 6pm"
-    fri: "Open 1pm &#8211; 6pm"
+    mon: "Open 12pm &#8211; 6pm"
+    tue: "Open 12pm &#8211; 6pm"
+    wed: "Open 12pm &#8211; 6pm"
+    thu: "Open 12pm &#8211; 6pm"
+    fri: "Open 12pm &#8211; 6pm"
     sat: "Closed"
     sun: "Closed"    
   # thanksgiving 
