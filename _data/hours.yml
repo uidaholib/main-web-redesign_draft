@@ -1,0 +1,105 @@
+####
+#
+# Default open hours
+# must include display messages for mon,tue,wed,thu,fri,sat,sun 
+#
+####
+default: 
+  # reopening phase 3 
+  mon: "Open 8am &#8211; 10pm"
+  tue: "Open 8am &#8211; 10pm"
+  wed: "Open 8am &#8211; 10pm"
+  thu: "Open 8am &#8211; 10pm"
+  fri: "Open 8am &#8211; 8pm"
+  sat: "Open 9am &#8211; 6pm"
+  sun: "Open 9am &#8211; 8pm"
+####
+#
+# Breaks open hours (longer term hours that apply to extended periods)
+# each break is one list item,
+# must include values for start and end (iso date format),
+# and display messages mon,tue,wed,thu,fri,sat,sun
+#
+####
+breaks: 
+  # covid-19 closure
+  - start: "2020-02-23"
+    end: "2020-07-19"
+    mon: "Open Online"
+    tue: "Open Online"
+    wed: "Open Online"
+    thu: "Open Online"
+    fri: "Open Online"
+    sat: "Open Online"
+    sun: "Open Online"
+  # reopening stage 2
+  - start: "2020-07-20"
+    end: "2020-08-11"
+    mon: "Open 1pm &#8211; 6pm"
+    tue: "Open 1pm &#8211; 6pm"
+    wed: "Open 1pm &#8211; 6pm"
+    thu: "Open 1pm &#8211; 6pm"
+    fri: "Open 1pm &#8211; 6pm"
+    sat: "Closed"
+    sun: "Closed"    
+  # thanksgiving 
+  - start: "2020-11-21"
+    end: "2020-11-29"
+    mon: "Open 8am &#8211; 8pm"
+    tue: "Open 8am &#8211; 8pm"
+    wed: "Open 8am &#8211; 8pm"
+    thu: "Open 8am &#8211; 8pm"
+    fri: "Open 8am &#8211; 8pm"
+    sat: "Open 10am &#8211; 6pm"
+    sun: "Open 10am &#8211; 6pm"
+  # winter 
+  - start: "2020-12-21"
+    end: "2021-01-14"
+    mon: "Open 8am &#8211; 6pm"
+    tue: "Open 8am &#8211; 6pm"
+    wed: "Open 8am &#8211; 6pm"
+    thu: "Open 8am &#8211; 6pm"
+    fri: "Open 8am &#8211; 6pm"
+    sat: "Open 10am &#8211; 6pm"
+    sun: "Open 10am &#8211; 6pm"
+  # spring
+#  - start: "2021-03-13"
+#    end: "2021-03-21"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Open 8am &#8211; 6pm"
+#    fri: "Open 8am &#8211; 6pm"
+#    sat: "Open 10am &#8211; 6pm"
+#    sun: "Open 10am &#8211; 6pm" 
+  # summer break
+#  - start: "2021-06-14"
+#    end: "2021-09-24"
+#    mon: "Open 7am &#8211; 7pm"
+#    tue: "Open 7am &#8211; 7pm"
+#    wed: "Open 7am &#8211; 7pm"
+#    thu: "Open 7am &#8211; 7pm"
+#    fri: "Open 7am &#8211; 7pm"
+#    sat: "Open 10am &#8211; 6pm"
+#    sun: "Open 10am &#8211; 6pm"     
+####
+#
+# Special dates (hours that apply to single dates)
+# each specials is a list item, 
+# must include a list of dates (iso date format),
+# plus a display message
+# 
+####
+specials:
+  - dates: ["2020-05-16","2020-05-17"]
+    message: "Open 8am &#8211; 5pm"
+####
+#
+# Closed dates (single dates when closed)
+# must provide a list of dates (iso date format),
+# plus a display message
+# 
+####
+closed:
+  dates: ["2020-05-25","2020-07-04","2020-09-02","2020-11-28","2020-12-24","2020-12-25","2020-12-31","2021-01-01"]
+  message: "Closed"
