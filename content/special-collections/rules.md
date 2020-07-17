@@ -10,7 +10,7 @@ If you have questions, please <a href="mailto:libspec@uidaho.edu">ask for assist
 
 <div class="border border-warning rounded p-4 my-3" markdown="1">
 
-## Reading Room Staged Re-opening 
+## Reading Room Reopening 
 
 In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives will be reopening its Reading Room for those wanting to consult our collections.  
 

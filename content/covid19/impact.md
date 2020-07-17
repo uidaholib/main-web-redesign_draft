@@ -11,14 +11,15 @@ permalink: /covid19/impact.html
 
 ## Hours and Availability 
 
-The Library is currently open online only, with the building closed to the public.
-We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our reference desk and research help with extended hours.
-The Library building will follow a [phased reopening model]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
+The Library is following a [phased reopening plan]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
 Policies and practices will be in place to help protect the health of patrons and staff.
 
-The Library's first floor will reopen to current U of I students, staff, and faculty starting July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm.
+
+{% include feature/alert.html text="As part of Stage 2, the Library's first floor will reopen to current U of I students, staff, and faculty starting **July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm**.
 While access will be limited to the first floor, book retrieval will be available for physical resources in the library.
-Curbside pickup will continue for both U of I and community patrons. 
+Curbside pickup will continue for both U of I and community patrons." color="info" %}
+
+We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our reference desk and research help with extended hours.
 
 #### Reference Desk
 
@@ -52,21 +53,21 @@ Please check the services' web pages for more information:
 
 ----------
 
-## Collections and Services (Closures)
+## Collections and Service
 
-The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will be closed to the public with services available online only.
+The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopened with limited hours, Monday through Thursday 9:00am - 12:00pm.
+
+[Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
+See [Reading Room Rules]({{ '/special-collections/rules.html#reading-room-reopening' | relative_url }}) for details of SPEC reopening. 
+Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
+The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). 
 
 [The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
 
-[Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are closed to the public. 
-
-- Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). 
-- For assistance, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
-- Reproduction requests for items not already digitized will be extremely limited due to staff availability. Permissions to use Special Collections materials will be determined on a case-by-case basis.
-
 #### Resource Sharing
 
-The Interlibrary Loan office is currently closed to the public, but services are available during normal operating hours online via email. 
+The Interlibrary Loan office will be reopened during library hours. 
+Services are also available during normal operating hours online via email. 
 Resource sharing is currently limited to electronic delivery due to library closures across the country. 
 
 **Summit**
