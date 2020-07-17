@@ -15,7 +15,7 @@ The Library is following a [phased reopening plan]({{ site.lib-media }}/about/Li
 Policies and practices will be in place to help protect the health of patrons and staff.
 
 
-{% include feature/alert.html text="As part of Stage 2, the Library's first floor will reopen to current U of I students, staff, and faculty starting **July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm**.
+{% include feature/alert.html text="As part of Stage 2, the Library's first floor will reopen to current U of I students, staff, and faculty starting [July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm](/about/hours.html).
 While access will be limited to the first floor, book retrieval will be available for physical resources in the library.
 Curbside pickup will continue for both U of I and community patrons." color="info" %}
 
