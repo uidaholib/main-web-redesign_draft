@@ -6,13 +6,13 @@
 ####
 default: 
   # reopening phase 3 
-  mon: "Open 8am &#8211; 10pm"
-  tue: "Open 8am &#8211; 10pm"
-  wed: "Open 8am &#8211; 10pm"
-  thu: "Open 8am &#8211; 10pm"
-  fri: "Open 8am &#8211; 8pm"
-  sat: "Open 9am &#8211; 6pm"
-  sun: "Open 9am &#8211; 8pm"
+  mon: "Open 7:45am &#8211; 10pm"
+  tue: "Open 7:45am &#8211; 10pm"
+  wed: "Open 7:45am &#8211; 10pm"
+  thu: "Open 7:45am &#8211; 10pm"
+  fri: "Open 7:45am &#8211; 8pm"
+  sat: "Closed"
+  sun: "Open 12pm &#8211; 10pm"
 ####
 #
 # Breaks open hours (longer term hours that apply to extended periods)
