@@ -1,0 +1,22 @@
+{% comment %}
+    
+    Item figure 
+    This include adds a figure to the page styled using bootstrap, https://getbootstrap.com/docs/4.5/content/figures/
+    It requires a link to the image file used in the "src" attribute
+
+    E.G. --> {% include feature/figure.html img="https://www.lib.uidaho.edu/media/collections/oldadmin.jpg" alt="old admin building" %}
+
+    Options:
+    - "img" = link to image file.  
+    - "alt" = alt text for image
+    - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100"
+    - "caption" = the caption option allows you to manually add a caption
+    - "float" = will use responsive float utility to add float on desktop (will not float on mobile), choose from "left" or "right"
+
+{%- endcomment -%}
+<div class="text-center">
+    <figure class="figure mx-3{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}">
+        <img class="figure-img img-fluid rounded lazyload" alt="{{ figure.alt | escape }}" src="{{ include.img }}" >
+        {% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{% endif %}
+    </figure>
+</div>
