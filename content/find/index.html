@@ -4,55 +4,59 @@ layout: page
 section: Find
 permalink: /find/
 ---
-<h3>Popular Resources</h3>
 
-<div class="text-center">
+<div class="card mb-4">
+  <div class="card-body">
+    
+    <h5 class="card-title">Featured Resources</h5>
+    
+    <div class="card-text text-center">
 
-  <div class="dropdown d-inline-flex">
-    <button class="btn btn-secondary dropdown-toggle m-2" type="button" id="databasesMenu" data-toggle="dropdown" aria-haspopup="true"
-      aria-expanded="false">Databases</button>
-    <div class="dropdown-menu" aria-labelledby="databasesMenu">
-      <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
-      <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://www.jstor.org/">JSTOR</a>
-      <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://www.oed.com/">Oxford English Dictionary</a>
-      <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://isiknowledge.com/WOS">Web of Science</a>
-      <hr>
-      <a class="dropdown-item" href="{{ '/find/articles.html' | relative_url }}">More Databases</a>
+      <div class="dropdown d-inline-flex">
+        <button class="btn btn-secondary dropdown-toggle m-2" type="button" id="databasesMenu" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Databases</button>
+        <div class="dropdown-menu" aria-labelledby="databasesMenu">
+          <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph&amp;defaultdb=f5h&amp;defaultdb=ufh">Academic Search Premier</a>
+          <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://www.jstor.org/">JSTOR</a>
+          <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://www.oed.com/">Oxford English Dictionary</a>
+          <a class="dropdown-item" href="https://uidaho.idm.oclc.org/login?url=http://isiknowledge.com/WOS">Web of Science</a>
+          <hr>
+          <a class="dropdown-item" href="{{ '/find/articles.html' | relative_url }}">More Databases</a>
+        </div>
+      </div>
+
+      <div class="dropdown d-inline-flex">
+        <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="guidesMenu" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Research Guides</button>
+        <div class="dropdown-menu" aria-labelledby="guidesMenu">
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/engl102" >English 102</a>
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/citing" >Citing Sources</a>
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/physics" >Physics</a>
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/food" >Food and Nutrition</a>
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/IntlStudies" >International Studies</a>
+          <hr>
+          <a class="dropdown-item" href="https://libguides.uidaho.edu/index.php">More Guides</a>
+        </div>
+      </div>
+      
+      <div class="dropdown d-inline-flex">
+        <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="collectionsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections</button>
+        <div class="dropdown-menu" aria-labelledby="collectionsMenu">
+          <a class="dropdown-item" href="{{ '/digital/gem/' | relative_url }}" >Gem of the Mountains Yearbooks</a>
+          <a class="dropdown-item" href="{{ '/digital/campus/' | relative_url }}" >Campus Photograph Collection</a>
+          <a class="dropdown-item" href="{{ '/digital/postcards/' | relative_url }}" >Northwest Historical Postcards</a>
+          <a class="dropdown-item" href="https://www.lib.uidaho.edu/digital/cities/" >Idaho Cities & Towns</a>
+          <a class="dropdown-item" href="https://www.lib.uidaho.edu/digital/argonaut/index.html" >The Argonaut Student Newspaper</a>
+          <hr>
+          <a class="dropdown-item" href="{{ '/digital/' | relative_url }}">More Collections</a>
+        </div>
+      </div>
+
     </div>
   </div>
-
-  <div class="dropdown d-inline-flex">
-    <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="guidesMenu" data-toggle="dropdown" aria-haspopup="true"
-      aria-expanded="false">Research Guides</button>
-    <div class="dropdown-menu" aria-labelledby="guidesMenu">
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/engl102" >English 102</a>
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/citing" >Citing Sources</a>
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/physics" >Physics</a>
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/food" >Food and Nutrition</a>
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/IntlStudies" >International Studies</a>
-      <hr>
-      <a class="dropdown-item" href="https://libguides.uidaho.edu/index.php">More Guides</a>
-    </div>
-  </div>
-  
-  <div class="dropdown d-inline-flex">
-    <button type="button" class="btn btn-secondary dropdown-toggle m-2" id="collectionsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Collections</button>
-    <div class="dropdown-menu" aria-labelledby="collectionsMenu">
-      <a class="dropdown-item" href="{{ '/digital/gem/' | relative_url }}" >Gem of the Mountains Yearbooks</a>
-      <a class="dropdown-item" href="{{ '/digital/campus/' | relative_url }}" >Campus Photograph Collection</a>
-      <a class="dropdown-item" href="{{ '/digital/postcards/' | relative_url }}" >Northwest Historical Postcards</a>
-      <a class="dropdown-item" href="{{ '/digital/maps/' | relative_url }}" >The Map Room</a>
-      <a class="dropdown-item" href="{{ '/digital/priestlake/' | relative_url }}" >Priest Lake Collection</a>
-      <hr>
-      <a class="dropdown-item" href="{{ '/digital/' | relative_url }}">More Collections</a>
-    </div>
-  </div>
-
 </div>
 
-<hr>
-
-<h3>Resource Descriptions</h3>
+<h2>Resource Descriptions</h2>
 {%- assign resources = site.data.find_index -%}
 <div class="row">
 {% for r in resources %}
