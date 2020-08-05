@@ -7,7 +7,7 @@ permalink: /covid19/impact.html
 
 *This page will be updated when any changes to our operations or services occur.*
 
-{% include feature/alert.html text="If you are planning to visit the library, please be sure to follow [World Health Organization guidelines](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) by washing your hands, maintaining social distance, and staying home if you feel unwell or are in a high-risk population." color="warning" align="center" %}
+{% include feature/alert.html text="If you are planning to visit the library, please be sure to follow [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) and [U of I guidelines](https://www.uidaho.edu/vandal-health-clinic/coronavirus) by wearing a mask/face covering, washing your hands frequently, maintaining social distance, and staying home if you feel unwell or are in a high risk population." color="warning" align="center" %}
 
 ## Hours and Availability 
 
