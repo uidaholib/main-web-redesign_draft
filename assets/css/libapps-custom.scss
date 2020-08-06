@@ -1,22 +1,17 @@
 ---
+# generate CSS for LibApps 
 ---
 @charset "utf-8";
 
 // base variables
 $base-font-family: "Ringside Narrow A", "Ringside Narrow B", Arial, sans-serif; 
-$base-font-size:   1.25rem;
-$base-font-weight: 300;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
+$base-font-size:   1.2rem;
 $text-color:       #111;
 $light-text-color: #fdfdfd;
 
 $background-color: #fdfdfd;
 $nav-background: #e8e8e8; //#CBCCD0;
 $link-color:      #191919;
-
-$jumbotron-image: url('https://www.lib.uidaho.edu/images/U-Idaho_Library_Oct2_current.jpg');
 
 $grey-color:       #808080;
 $grey-color-light: lighten($grey-color, 40%);
@@ -25,34 +20,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 $black-color:       #191919;
 $black-color-light: lighten($black-color, 40%);
 $black-color-dark:  darken($black-color, 25%);
-
-// vandal colors 
-$pride-gold:  #F1B300;
-$garnet: #D22630; 
-$wild-rose: #E10098;
-$palouse-green: #00AF66;
-$clearwater: #00AEC7;
-$clearwater-light: #8BD5E5;
-$payette-blue: #003E51;
-$ponderosa-pine: #004E42;
-
-// vandal colors translated into bootstrap
-$blue: #003E51;
-$green: #00AF66;
-$cyan: #00AEC7;
-$red: #D22630;
-$yellow: #F1B300;
-$primary: $yellow;
-$gray-800: #191919;
-
-$theme-colors: (
-  primary: $blue,
-  success: $green,
-  info: $cyan,
-  warning: $yellow,
-  danger: $red,
-  dark: $gray-800
-) !default;
 
 // Width of the content area
 $content-width:    1800px;
@@ -74,12 +41,28 @@ $on-jumbo:        1200px;
     }
 }
 
+/* set up theme color variables from config-theme-colors.csv */
+{% assign tcolors = site.data.config-theme-colors | where_exp: "item","item.color != nil" %} 
+{% for tcolor in tcolors %}
+${{ tcolor.color_class }}: {{ tcolor.color }};
+{% endfor %}
+/* add colors to theme with _theme-colors to create btn, btn-outline, text color, bg, and border */
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    {% for tcolor in tcolors %}
+    "{{ tcolor.color_class }}": ${{ tcolor.color_class }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ),
+  $theme-colors
+);
+
 @import "boot4";
 
-@import "uidahofonts", "page", "buttons";
+@import "uidahofonts", "theme-colors", "page";
 
 #libapps-custom {
-    @import "custom";
+    @import "base", "header", "footer", "custom";
 }
 
 @import "libapps";
