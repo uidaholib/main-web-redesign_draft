@@ -11,8 +11,7 @@ Leganto is already embedded in your BBLearn course; you just need to activate it
 
 Follow the steps below to activate Leganto and make your reading lists available from within your BBLearn course, or check our [Leganto FAQ](#leganto-faq) for more information. 
 
-<div class="row justify-content-end">
-<div class="col-md-11" markdown="1">
+<div class="border rounded p-3 mb-3" markdown="1">
 
 ### 1. Let the library know your Course ID number
 
@@ -40,15 +39,14 @@ Follow the steps below to activate Leganto and make your reading lists available
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto5.png" alt="leganto screenshot" %}
 
-</div>
-</div>
-
-Clicking through the Library Resource List will allow you and your students to view library course reserves directly from your BBLearn course. 
+Once set up, clicking the Library Resource List will allow you and your students to view library course reserves directly from your BBLearn course. 
 Here's what the display should look like: 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto6.png" alt="leganto screenshot" %}
 
-Please email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if you run into issues activating Leganto!
+</div>
+
+Please don't hesitate to email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if you run into issues activating Leganto or have other questions!
 
 -----------
 
