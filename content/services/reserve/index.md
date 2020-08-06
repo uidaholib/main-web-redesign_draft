@@ -5,7 +5,7 @@ permalink: /services/reserve/
 layout: page
 ---
 <div class="alert alert-info">
-    <h4 class="alert-heading"><a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">FAQ about Course Reserves for Fall 2020 – For Faculty</a></h4>
+    <h4 class="alert-heading"><a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">FAQ about Course Reserves for Fall 2020 – For Instructors</a></h4>
     <p>Our goal is to make course reserves available to your students regardless of course delivery method this fall and have made some changes to allow for greater flexibility and safety. We know there are many challenges facing you as you get ready for fall semester and have prepared <a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">answers to your frequently asked questions</a>.</p>
 </div>
 
