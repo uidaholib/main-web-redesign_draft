@@ -10,8 +10,9 @@ layout: page
 </div>
 
 <p class="text-center">
-    <a href="{{ '/services/reserve/list.html' | relative_url }}" class="btn btn-outline-pride-gold btn-md my-2 mr-4" rel="noopener">
-    <span class="fas fa-book"></span> Course Reserves Listings</a>
+    <a href="{{ '/services/reserve/list.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
+    <a href="{{ '/services/reserve/list.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="far fa-question-circle"></span> Reserves FAQ</a>
+    <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
 
 Course Reserves are electronic and library-only resources selected by instructors to support student learning. Reserve items generally have shorter loan periods to ensure all users have access to the material.
@@ -20,7 +21,7 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 
 {% capture instr %}
 <p class="text-center">
-    <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue btn-md my-2" target="_blank" rel="noopener">
+    <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
         <span class="fas fa-link"></span> Instructor Reserve Request Form</a>
 </p>
 <ul>
