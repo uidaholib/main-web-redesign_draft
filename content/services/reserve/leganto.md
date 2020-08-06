@@ -31,7 +31,7 @@ Follow the steps below to activate Leganto and make your reading lists available
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto3.png" alt="leganto screenshot" %}
 
-- Next, navigate to the "Tools" dropdown, select "More Tools", and choose "Library Resource List". [will this be named differently if they renamed in the above step, or does it keep the category name Library Resource List?] 
+- Next, navigate to the "Tools" dropdown, select "More Tools", and choose "Library Resource List".
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto4.png" alt="leganto screenshot" %}
 
