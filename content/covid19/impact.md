@@ -7,19 +7,24 @@ permalink: /covid19/impact.html
 
 *This page will be updated when any changes to our operations or services occur.*
 
-{% include feature/alert.html text="If you are planning to visit the library, please be sure to follow [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) and [U of I guidelines](https://www.uidaho.edu/vandal-health-clinic/coronavirus) by wearing a mask/face covering, washing your hands frequently, maintaining social distance, and staying home if you feel unwell or are in a high risk population." color="warning" align="center" %}
+{% include feature/alert.html text="If you are planning to visit the library, please follow [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) and [U of I guidelines](https://www.uidaho.edu/vandal-health-clinic/coronavirus) by wearing a mask/face covering, washing your hands frequently, maintaining social distance, and staying home if you feel unwell or are in a high risk population." color="warning" align="center" %}
 
 ## Hours and Availability 
 
 The Library is following a [phased reopening plan]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
 Policies and practices will be in place to help protect the health of patrons and staff.
+Updated building opening times are listed on our [Hours page](/about/hours.html).
 
+{% include feature/alert.html text="Beginning **August 12th, 2020**, the Library building will open to current U of I students, staff, and faculty with [new hours](/about/hours.html):
 
-{% include feature/alert.html text="As part of Stage 2, the Library's first floor will reopen to current U of I students, staff, and faculty starting [July 20, 2020 with hours Monday through Friday, 12:00pm to 6:00pm](/about/hours.html).
-While access will be limited to the first floor, book retrieval will be available for physical resources in the library.
+- Monday to Thursday, 7:45 am to 10 pm
+- Friday, 7:45 am to 8 pm
+- Saturday, Closed
+- Sunday, 12:00 pm to 10 pm
+
 Curbside pickup will continue for both U of I and community patrons." color="info" %}
 
-We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our reference desk and research help with extended hours.
+We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our [reference desk and research help]({{ '/help/' | relative_url }}) with extended hours.
 
 #### Reference Desk
 
@@ -35,7 +40,7 @@ Visit the [Research Assistance page]({{ '/help/research.html' | relative_url }})
 
 #### Curbside Delivery
 
-Patrons can now request locally-owned physical items from the UI Library and pick them up curbside. 
+Patrons can now request locally-owned physical items from the U of I Library and pick them up curbside. 
 To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
 Then use the "Request Curbside Pick Up" link to place your request. 
 You'll receive an email when your item is ready, with a link to reserve a pick up time slot between 11 a.m. and 1 p.m., Monday to Friday. 
