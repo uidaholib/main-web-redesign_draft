@@ -430,6 +430,8 @@ Services:
         url: /services/reserve/request.html
       - name: How To
         url: /services/reserve/howto.html
+      - name: Leganto
+        url: /services/reserve/leganto.html        
       - name: Streaming Video
         url: /services/reserve/video.html
       - name: Copyright/Fair Use
