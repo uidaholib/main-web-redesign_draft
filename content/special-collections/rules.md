@@ -16,8 +16,6 @@ In accordance with the [library’s staged reopening plans](https://www.lib.uida
 
 In STAGE 2, beginning July 20, we will be welcoming members of the campus community including students, staff, and faculty.  
 
-In STAGE 3, beginning August 12, we will also be welcoming members of the public. 
-
 Access to the Reading Room will require visitors to adhere the following policies until further notice:  
 
 - Reading Room visits will be **by appointment only**.
