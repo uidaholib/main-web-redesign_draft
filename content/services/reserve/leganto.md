@@ -9,7 +9,7 @@ Leganto is a library plug-in that allows students to access library course reser
 It is an additional feature of our existing library systems.
 Leganto is already embedded in your BBLearn course; you just need to activate it. 
 
-Follow these steps to activate Leganto and make your reading lists available from within your BBLearn course: 
+Follow the steps below to activate Leganto and make your reading lists available from within your BBLearn course, or check our [Leganto FAQ](#leganto-faq) for more information. 
 
 <div class="row justify-content-end">
 <div class="col-md-11" markdown="1">
@@ -53,7 +53,7 @@ Please email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if
 -----------
 
 {% assign faq = site.data.services_reserves_faq %}
-{% assign cats = "Leganto" %}
+{% assign cats = "Leganto FAQ" %}
 {% for c in cats %}
 ## Leganto FAQ
 

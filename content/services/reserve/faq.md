@@ -4,7 +4,7 @@ section: Services
 permalink: /services/reserve/faq.html
 layout: page
 ---
-{% assign faq = site.data.services_reserves_faq %}
+{% assign faq = site.data.services_reserves_faq | where_exp: "c", "c.category != 'Leganto FAQ'" %}
 {% assign cats = faq | map: "category" | uniq %}
 
 <div class="text-center py-3">
