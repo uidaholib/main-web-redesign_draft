@@ -20,9 +20,9 @@ Updated building opening times are listed on our [Hours page](/about/hours.html)
 - Monday to Thursday, 7:45 am to 10 pm
 - Friday, 7:45 am to 8 pm
 - Saturday, Closed
-- Sunday, 12:00 pm to 10 pm
+- Sunday, Closed (starting 8/24, 12:00 pm to 10 pm)
 
-Curbside pickup will continue for both U of I and community patrons." color="info" %}
+Curbside delivery will continue for both U of I and community patrons." color="info" %}
 
 We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our [reference desk and research help]({{ '/help/' | relative_url }}) with extended hours.
 
@@ -40,10 +40,10 @@ Visit the [Research Assistance page]({{ '/help/research.html' | relative_url }})
 
 #### Curbside Delivery
 
-Patrons can now request locally-owned physical items from the U of I Library and pick them up curbside. 
+U of I and community Patrons can request locally-owned physical items from the Library and pick them up curbside. 
 To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
 Then use the "Request Curbside Pick Up" link to place your request. 
-You'll receive an email when your item is ready, with a link to reserve a pick up time slot between 11 a.m. and 1 p.m., Monday to Friday. 
+You'll receive an email when your item is ready, with a link to reserve a pick up time slot during our open hours, Monday to Friday. 
 
 Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at libcirc@uidaho.edu with questions. 
 
@@ -71,19 +71,11 @@ The rest of our holdings can be searched via Archives West or the [Special Coll
 
 #### Resource Sharing
 
-The Interlibrary Loan office will be reopened during library hours. 
+The Interlibrary Loan office is open during library hours. 
 Services are also available during normal operating hours online via email. 
-Resource sharing is currently limited to electronic delivery due to library closures across the country. 
 
-**Summit**
-
-Our regional resource sharing consortium, the Orbis Cascade Alliance, has suspended all Summit borrowing effective March 20th. We will be processing remaining requests and will be communicating updates as we learn more from our consortium.   
-
-**Interlibrary Loan**
-
-Due to library closures and limitations across the country, we are currently unable to process printed material. 
-However, patrons can still request digital articles and/or book chapters. 
-Please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. 
+Although summit and ILL physical resource sharing has resumed, not all libraries are lending items at this time.
+As a result, please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. 
 For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }}). 
 
 -----------

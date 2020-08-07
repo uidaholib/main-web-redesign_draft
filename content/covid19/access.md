@@ -44,7 +44,7 @@ Please keep in mind that ILL is limited to U of I students, staff, and faculty.Â
 
 Starting June 15th, patrons will be able to request locally-owned physical items from the UI Library and pick them up curbside. 
 To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
-Then use the "Request Curbside Pick Up" link to place your request; you'll receive an email when your item is ready, with a link to reserve a pick up time slot between 11 a.m. and 1 p.m., Monday to Friday. 
+Then use the "Request Curbside Pick Up" link to place your request; you'll receive an email when your item is ready, with a link to reserve a pick up time slot during open hours, Monday to Friday. 
 Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at libcirc@uidaho.edu with questions.
 
 ### Off-Campus AccessÂ 
