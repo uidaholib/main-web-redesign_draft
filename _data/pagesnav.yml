@@ -194,9 +194,7 @@ Find:
       - name: DVDs & Streaming Video
         url: /find/video.html
       - name: DVDs
-        url: /find/dvds.html
-      - name: Kanopy Expiration Dates
-        url: /find/kanopy.html       
+        url: /find/dvds.html     
   - subsection: Encyclopedias & Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
