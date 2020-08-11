@@ -46,13 +46,13 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 {% include feature/card.html header="Instructor Information" text=instr %}
 
 {% capture student %}
-<p>As a part of a pilot program, the library is now accepting requests from students to place books on reserve. To request materials, fill out this form:</p>
+<p>As a part of our efforts to help reduce student costs, the library accepts requests from students to place required books on reserve. To request materials, please fill out this form:</p>
 <p class="text-center">
     <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_2fAeteEt4JjRHaB" class="btn btn-payette-blue btn-md my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Student Reserves Request Form</a>
 </p>
 <p>Requested books must be designated as required in the course syllabus. Requested titles may not include supplemental readings or books recommended for course research projects or further reading.
-<br>For more information about this pilot, contact <a href="mailto:marcosv@uidaho.edu">Marco Seiferle-Valencia</a>.</p>{% endcapture %}
-{% include feature/card.html header="Student Driven Reserves Pilot" text=student %}
+<br>For more information about this program, contact <a href="mailto:marcosv@uidaho.edu">Marco Seiferle-Valencia</a>.</p>{% endcapture %}
+{% include feature/card.html header="Student Driven Reserves" text=student %}
 
 {% include feature/card.html header="Related Links" text='
 - <a href="https://www.uidaho.edu/schedule/">Course Times/Location</a>
