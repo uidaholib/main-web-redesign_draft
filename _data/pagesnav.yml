@@ -421,7 +421,7 @@ Services:
       - name: Home
         url: /services/reserve/
       - name: Course Listings
-        url: /services/reserve/list.html
+        url: https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists
       - name: Policies
         url: /services/reserve/policies.html
       - name: Request form

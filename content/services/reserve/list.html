@@ -4,6 +4,7 @@ section: Services
 permalink: /services/reserve/list.html
 layout: page
 filter: reserve-card
+noindex: true
 ---
 {% assign reserves = site.data.reserveslist | where_exp: "item","item.URL"  %}
 {% assign peoplemap = reserves | map: "Instructor" | compact | join: ";" %}
