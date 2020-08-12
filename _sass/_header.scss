@@ -3,6 +3,9 @@
 */
 
 /* top bar */
+#top-bar {
+    font-size: 1rem;
+}
 #topbar-ui-home {
     color: $grey-color;
 }
@@ -32,7 +35,7 @@
 #main-nav {
     background: $nav-background;
     ul {
-        font-size: 18px;
+        //font-size: 18px;
     }
     .nav-link {
         color: $link-color;
