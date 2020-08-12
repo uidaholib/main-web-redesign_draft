@@ -15,12 +15,12 @@ The Library is following a [phased reopening plan]({{ site.lib-media }}/about/Li
 Policies and practices will be in place to help protect the health of patrons and staff.
 Updated building opening times are listed on our [Hours page](/about/hours.html).
 
-{% include feature/alert.html text="Beginning **August 12th, 2020**, the Library building will open to current U of I students, staff, and faculty with [new hours](/about/hours.html):
+{% include feature/alert.html text="Beginning **August 12th, 2020**, the Library building will open to current U of I students, staff, and faculty via Vandal card swipe with [new hours](/about/hours.html):
 
 - Monday to Thursday, 7:45 am to 10 pm
 - Friday, 7:45 am to 8 pm
 - Saturday, Closed
-- Sunday, Closed (starting 8/24, 12:00 pm to 10 pm)
+- Sunday, Closed *(starting 8/24, 12:00 pm to 10 pm)*
 
 Curbside delivery will continue for both U of I and community patrons." color="info" %}
 
