@@ -6,10 +6,7 @@
 @media (max-width: 576px) { .s-lch-widget-float{ display: none!important;} }
 
 /* tweak alerts with markdown inside */
-.alert p:last-of-type { margin-bottom: 0; } 
-
-/* temp to hide room bookings during covid-19 */
-#topbar-rooms { display: none !important; }
+.alert p:last-of-type { margin-bottom: 0; }
 
 /* Circle buttons */
 .btn-circle { 
