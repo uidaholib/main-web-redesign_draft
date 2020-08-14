@@ -20,9 +20,9 @@ Do you need help utilizing archives in your class? Do you need help conveying...
 
 ---
 
-> To request Special Collections instruction, please fill out this form:
->
->https://uidaho.co1.qualtrics.com/Q/EditSection/Blocks?SurveyID=SV_d5NQ5VRSqnjOPRj
+To request Special Collections instruction, please fill out this form:
+
+https://uidaho.co1.qualtrics.com/Q/EditSection/Blocks?SurveyID=SV_d5NQ5VRSqnjOPRj
 
 ___
 
