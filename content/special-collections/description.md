@@ -11,7 +11,17 @@ Access to the materials is provided primarily by the [library's catalog](https:/
 
 ## Book Collections
 
-  
+We have around 24,000 rare and unique books and university theses in our book collections, which include:
+
+- Publications regarding the history of Idaho and the Pacific Northwest, and books published by Idaho or other PNW presses
+- Books written by specific authors, such as Ezra Pound, Sir Walter Scott, and Mark Twain
+- University theses and dissertations
+- State of Idaho publications
+- Other rare books
+
+Our oldest bound manuscript book is [Dialogorum libri quattuor]( https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/m1uotc/CP71161030930001451) from 1492. 
+
+{% include feature/button.html text="Search & Browse Our Book Collections" link="https://example.com" color="secondary" %} button needs link
 
 
 ## Manuscripts and Archives
