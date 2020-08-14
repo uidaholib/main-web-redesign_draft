@@ -1,101 +1,139 @@
 ---
-title: Impact on Library Services
+title: Library Fall 2020 Opening Guide
 layout: page
 section: COVID-19
 permalink: /covid19/impact.html
 ---
 
-*This page will be updated when any changes to our operations or services occur.*
+{% include feature/alert.html text="<span class='h5'><strong>The University of Idaho Library building is now open to U of I students, staff, and faculty.</strong></span>
 
-{% include feature/alert.html text="If you are planning to visit the library, please follow [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public) and [U of I guidelines](https://www.uidaho.edu/vandal-health-clinic/coronavirus) by wearing a mask/face covering, washing your hands frequently, maintaining social distance, and staying home if you feel unwell or are in a high risk population." color="warning" align="center" %}
+See our [hours](/about/hours.html) for the most up-to-date information." color="info" align="center" %}
 
-## Hours and Availability 
+The University of Idaho Library is committed to serving the research and learning needs of our campus community while also minimizing the risk of novel coronavirus (COVID-19) for U of I students, staff, faculty, and library personnel.
 
 The Library is following a [phased reopening plan]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
-Policies and practices will be in place to help protect the health of patrons and staff.
-Updated building opening times are listed on our [Hours page](/about/hours.html).
+Information about the larger U of I response to COVID-19 can be found at <https://www.uidaho.edu/vandal-health-clinic/coronavirus>. 
 
-{% include feature/alert.html text="Beginning **August 12th, 2020**, the Library building will open to current U of I students, staff, and faculty via Vandal card swipe with [new hours](/about/hours.html):
+<div class="text-center">
+  <a href="#{{ 'Library Public Space Guidelines' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-1">Public Space Guidelines</a>
+  <a href="#{{ 'Circulation and Collections' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-1">Circulation and Collections</a>
+  <a href="#{{ 'Research Help and Unique Resources' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-1">Research Help and Unique Resources</a>
+  <a href="#{{ 'Community VisitorsNon-UI Affiliated Visitors' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-1">Community Visitors</a>
+</div>
 
-- Monday to Thursday, 7:45 am to 10 pm
-- Friday, 7:45 am to 8 pm
-- Saturday, Closed
-- Sunday, Closed *(starting 8/24, 12:00 pm to 10 pm)*
+## Library Public Space Guidelines
+{: .my-4}
 
-Curbside delivery will continue for both U of I and community patrons." color="info" %}
+### Building Access and Hours 
+{:.h4}
 
-We continue to offer [extensive online services]({{ '/covid19/access.html' | relative_url }}), including our [reference desk and research help]({{ '/help/' | relative_url }}) with extended hours.
+- Library building access is currently limited to University of Idaho students, staff, and faculty.
+- Library users must swipe their Vandal Card at the front door to gain entry to the building. Please contact the [VandalCard Office](https://support.uidaho.edu/TDClient/40/Portal/Requests/ServiceDet?ID=597) if you need help activating your card or getting a new VandalCard.
+- Curbside delivery and select online resources remain available to both U of I and community patrons.
 
-#### Reference Desk
+### Mask Wearing and Social Distancing
+{:.h4}
 
-All [Reference Services]({{ '/help/' | relative_url }}) are virtual only.
+- Masks are required at all times in the library, as with all other campus buildings.
+- If you forget your mask at home, check at the Info Desk—we will happily give you one! Encourage others in the building not wearing masks to stop by and get one, too.
+- Maintain at least six feet of social distancing in the building, including lab spaces.
+- Be aware of your surroundings! Choose study spaces in a way that gives you and other library users at least six feet of space.
+- Library furniture and technology has been moved, blocked off, or rearranged to facilitate social distancing; please do not disrupt!
+- Pay attention to and follow instructions on signs and directional markers when using shared spaces like entry doors, hallways, elevators, and bathrooms. 
 
-Virtual Reference Summer Hours (online):
+### Sanitation and Disinfection
+{:.h4}
 
-- Monday - Friday: 1pm - 4pm
+- Please disinfect study spaces, including computer lab workstations, before and after use. Look for the Sanitation Stations throughout each floor for cleaning materials (spray bottles and paper towel).
+- The library building will be cleaned each night by a cleaning crew from Facilities.
+- Hand sanitizer will be accessible in multiple public locations throughout each floor of the building; look for spray bottles instead of hand pumps.
 
-Visit the [Reference Services page]({{ '/help/' | relative_url }}) to ask librarians questions via chat, text, or email. 
-You can also make an appointment for individualized research help via Zoom, tailored to finding relevant resources for your specific information need.
-Visit the [Research Assistance page]({{ '/help/research.html' | relative_url }}) to request a meeting.
+### Study Rooms, Classrooms, and Events
+{:.h4}
 
-#### Curbside Delivery
+- Group study rooms will be closed for fall semester due to limited ventilation.
+- The MILL, Studio, and CDIL will be closed until the next stage of reopening.
+- Meetings, classes, workshops and events larger than 10 individuals will be postponed until the next stage of reopening, or may take place remotely.
+- Library instruction may take place virtually, in the course instructor's classroom, or if class size allows, in library classrooms.
+- Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space this fall. 
 
-U of I and community Patrons can request locally-owned physical items from the Library and pick them up curbside. 
-To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
-Then use the "Request Curbside Pick Up" link to place your request. 
-You'll receive an email when your item is ready, with a link to reserve a pick up time slot during our open hours, Monday to Friday. 
+## Circulation and Collections
+{: .my-4}
 
-Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at libcirc@uidaho.edu with questions. 
+### Materials Quarantine
+{:.h4}
 
-#### Tutoring
+- Most circulating library items will be quarantined for four days after each use according to professional guidance.
+    - Library items quarantined include print textbooks on reserve, Summit and ILL materials, DVDs, and regularly circulating materials.
+    - Non-circulating library materials such as newspapers, magazines, and other periodicals will not be quarantined or sanitized and may therefore pose a higher risk. Please use hand sanitizer or wash your hands before and after using these materials.
+    - Some items have been removed from circulation altogether due to possible risk, such as board games, microphones, and fabric headphones.
+- Quarantine may affect the delivery or return time for certain materials.
+    - Delivery of Summit and ILL materials will be delayed four days while items are in quarantine.
+    - Items returned through book drops or mail will not be checked in for four days after quarantine.
+- Print books on course reserves will still circulate but will be unavailable for four days after each checkout to effectively quarantine. Visit the [Course Reserves page]({{ '/services/reserve/' | relative_url }}) for more information.
 
-All tutoring sessions normally held in the library are now being offered remotely via Zoom.
-Please check the services' web pages for more information:
+### Curbside Delivery
+{:.h4}
 
-- Tutoring & College Success is offering drop-in [Online Tutoring](https://www.uidaho.edu/current-students/academic-support/asp/tcs/tutoring/online-tutoring) sessions.
-- Writing Center provides [online consultations and feedback on drafts](https://www.uidaho.edu/class/writing-center).
-- Statistics Assistance Center is offering drop-in [Virtual SAC Tutoring](https://www.uidaho.edu/sci/stat/about/sac/tutoring-schedule).
+- Curbside delivery remains available for both UI and community patrons. 
+    - To request an item, navigate to the library's [online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID) and search for a title. Then use the "Request Curbside Pick Up" link to place your request. You'll receive an email when your item is ready, with a link to reserve a pick up time slot during our open hours, Monday to Friday.
+- Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) with questions.
 
-----------
+### Fines and Borrowing Periods
+{:.h4}
 
-## Collections and Service
+- Regular borrowing and lending periods have resumed for locally-owned items.
+- Summit loans will extend from six weeks to one semester [pending]. 
+- We will continue to be flexible with fines; please email [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) if you need help with upcoming or accrued library fines. 
 
-The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopened with limited hours, Monday through Thursday 9:00am - 12:00pm.
+### Resource Sharing
+{:.h4}
 
-[Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
-See [Reading Room Rules]({{ '/special-collections/rules.html#reading-room-reopening' | relative_url }}) for details of SPEC reopening. 
-Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
-The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). 
+- Summit and Interlibrary Loan (ILL) borrowing and lending has resumed.
+- Please keep in mind that delivery may be delayed due to lending library closures, materials quarantine, or shipping issues. 
+- You can always check the status of your requests online at [ILLiad Login](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll) or by contacting the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu). 
 
-[The MILL]({{ '/mill/' | relative_url }}), [The Studio]({{ '/studio/' | relative_url }}), and [CDIL](https://cdil.lib.uidaho.edu/) will be closed until face to face classes resume.
+## Research Help and Unique Resources 
+{: .my-4}
 
-#### Resource Sharing
+### Reference Desk
+{:.h4}
 
-The Interlibrary Loan office is open during library hours. 
-Services are also available during normal operating hours online via email. 
+- Visit the [Reference Services page]({{ '/help/' | relative_url }}) to get immediate research assistance via chat, text, email, or virtual consultation. Follow-up in-person consultations are also available.
+- Beginning August 24th, reference hours for Fall 2020 are:
 
-Although summit and ILL physical resource sharing has resumed, not all libraries are lending items at this time.
-As a result, please be advised standard delivery estimates are not in effect and there are likely to be delays in fulfillment. 
-For help, please contact the [ILL office]({{ '/services/ill/' | relative_url }}). 
+<div class="ml-4 mb-3 border rounded p-3" markdown="1">
 
------------
+<u>Chat and Zoom Consultations</u>
 
-## Checked-out Books 
+- 10:00 a.m. to 7:00 p.m. Monday to Thursday
+- 10:00 a.m. to 4 p.m. Friday
 
-The library will be waiving fines for U of I or Summit materials accrued after March 9th, so don’t worry if you still have your library books! 
-Please note this doesn't apply to lost or damaged books, which will still generate fines. 
-The library has extended due dates to July 15th for all materials currently checked out. 
+<u>In-Person Appointments</u> _(requires 24 hour notice and prior Zoom consult)_
 
-The library's exterior book drops are open, so please return your materials at your convenience.
-Please note that we are alternating use of the two book drops at the library in order to allow the materials to "self-quarantine" for 3+ days based on CDC guidelines.
-Signs are posted to direct visitors to the correct drop.
+- 1:00 p.m. to 4:00 p.m. Tuesday, Wednesday, and Thursday
 
-- Monday - Wednesday: return books to the drop located next to the library's front door
-- Thursday - Sunday: return books to drop located on the east side of the library, near Rayburn St.
+</div>
 
-Have a book from ILL that will be overdue? 
-Please contact the ILL office at [libill@uidaho.edu](mailto:libill@uidaho.edu) so we can help you extend your due date. 
+### Gary Strong Curriculum Center
+{:.h4} 
 
-If you have additional questions about any library materials that you have checked out, please contact us at [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu).  
+- The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopen with limited hours, Monday through Thursday 9:00am - 12:00pm.
+
+### Special Collections & Archives
+{:.h4}
+
+- [Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
+- Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via [Archives West](https://archiveswest.orbiscascade.org/) or the [Special Collections website]({{ '/special-collections/' | relative_url }}).  
+- Please see [Reading Room Rules]({{ '/special-collections/rules.html' | relative_url }}) for additional details of Special Collections & Archives reopening plans and guidelines.
+
+## Community Visitors/Non-UI Affiliated Visitors
+{: .my-4}
+
+- The library remains closed to the public through the next stage of reopening.
+- Field trips and group visits can not be accommodated during this stage of reopening. Please postpone your visit or email [libref@uidaho.edu](mailto:libref@uidaho.edu) for information about virtual consultations and curbside delivery for your class.
+- Community patrons may continue to borrow locally-owned physical items using our curbside delivery service.
+- Electronic resources and databases are not available to alumni or the public at large due to our licensing agreements. The Latah County Public Library in Moscow is open for borrowing, lending, and computer and printing needs.
+- Virtual consultations are available for patrons seeking research assistance. Please email [libref@uidaho.edu](mailto:libref@uidaho.edu) for more information.
 
 {% include lib-chat-widget.html %}

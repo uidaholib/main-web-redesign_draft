@@ -15,7 +15,7 @@ Visit the [Reference Services]({{ '/help/' | relative_url }}) page to connect wi
 Just [ask us]({{ '/help/' | relative_url }})!
 
 <div class="text-center mb-2">
-<a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Virtual Reference Desk</a>
+<a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Reference and Research Help</a>
 <a href="{{ '/help/research.html' | relative_url }}" class="btn btn-outline-pride-gold m-2">Research Consultations</a>
 </div>
 
