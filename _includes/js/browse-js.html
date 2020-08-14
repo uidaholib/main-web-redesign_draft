@@ -11,22 +11,15 @@ function makeCard(obj) {
     card += '<div class="card-body text-center"> <h4 class="card-title"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h4>';
     // other fields
     card += '<p class="card-text">';
-    {% for f in fields %}{% unless f.hidden == 'true' %}
-    if(obj[{{ f.field | jsonify }}]){
-        {% if f.display_name %}card += '<strong>{{ f.display_name }}:</strong> ';{% endif %}
-        {% if f.btn == 'true' %}
-        var btns = obj[{{ f.field | jsonify }}].split(";");
-        for (var i = 0, len = btns.length; i < len; i++) {
-            if(btns[i] != "") {
-                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/searchall.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
-            }
-        }
-        {% else %}
-        card += obj[{{ f.field | jsonify }}];
-        {% endif %}
-        {% unless forloop.last %}card += '<br>';{% endunless %}
+    if(obj.category) {
+    card += '<strong>Category:</strong> ' + obj.category + '<br>';
     }
-    {% endunless %}{% endfor %}
+    var btns = obj.subject.split(";");
+    for (var i = 0, len = btns.length; i < len; i++) {
+        if(btns[i] != "") {
+            card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/searchall.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        }
+    }
     card += '</p>';
     // view button
     card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Finding Aid</a>';
@@ -98,7 +91,7 @@ function filterItems(arr, q) {
 /* add items */
 var items = [
     {% for i in items %}
-    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.finding_aid_link | escape | jsonify }}, {% for f in fields %}{% if i[f.field] %}{{ f.field | escape | jsonify }}:{{ i[f.field] | strip | jsonify }},{% endif %}{% endfor %} "id":{{ i.group | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.finding_aid_link | escape | jsonify }}, "category":{{ i.category | escape | jsonify }}, "subject":{{ i.subject | escape | jsonify }}, "id":{{ i.group | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
 
 ];
 /* init browse page */
