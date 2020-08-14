@@ -56,6 +56,7 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 - Meetings, classes, workshops and events larger than 10 individuals will be postponed until the next stage of reopening, or may take place remotely.
 - Library instruction may take place virtually, in the course instructor's classroom, or if class size allows, in library classrooms.
 - Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space this fall. 
+- The Map Room will be closed until the next stage of reopening. To request help accessing maps, please contact <rattebur@uidaho.edu>. 
 
 ## Circulation and Collections
 {: .my-4}
