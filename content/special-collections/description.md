@@ -11,7 +11,8 @@ Access to the materials is provided primarily by the [library's catalog](https:/
 
 ## Book Collections
 
-{% include feature/card.html text="This comprehensive collection consists of published materials for the study of Idaho and the Pacific Northwest. Included materials relate to persons, places, events, and things in and of the geographical area now known as the State of Idaho. Additional materials deal with Idaho’s place in the region and nation." header="Day-Northwest Collection" %}
+  
+
 
 ## Manuscripts and Archives
 
