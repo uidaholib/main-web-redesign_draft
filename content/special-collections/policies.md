@@ -35,6 +35,7 @@ Offsite requests: scans/files will be delivered electronically through document 
 |Print material over 12”x17”|High|$16.00|
 |Oversized maps or architectural drawings|High|$20.00|
 |Media duplication|N/A|$15.00 (CD and DVD)|
+{: .table .table-striped}
 
 **Idaho sales tax will be added to all requests from patrons in Idaho.**
 
@@ -48,6 +49,7 @@ Requests for permission to use archival material in print media and publications
 |Exhibits and displays|$15.00|$100.00|
 |Television, film, digital, and websites|$75.00|$150.00|
 |Advertising|$125.00|$175.00|
+{: .table .table-striped}
 
 **Fees may be determined based on scope or size of a project and is ultimately at the discretion of the Head of Special Collections.**
 
