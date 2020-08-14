@@ -24,6 +24,7 @@ Do you need help utilizing archives in your class? Do you need help conveying...
 >
 >https://uidaho.co1.qualtrics.com/Q/EditSection/Blocks?SurveyID=SV_d5NQ5VRSqnjOPRj
 
+___
 
 In order to provide the best learning experience, we require a meeting with the instructor to discuss instruction needs and materials for the class assignment. Instructors will be contacted within a week of submitting the form to set up a meeting. 
 
