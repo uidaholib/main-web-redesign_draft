@@ -5,6 +5,8 @@ section: Special Collections
 permalink: /special-collections/policies.html
 ---
 
+{%include feature/nav-menu.html sections="Reproduction Fees & Procedures;Offensive Materials in Archival Collections;Citation Policy" %}
+
 # Reproduction Fees & Procedures
 
 ## Reproduction Requests 
