@@ -8,6 +8,7 @@ permalink: /special-collections/offensivecontent.html
 # Offensive Materials in Archival Collections 
 
 Archival collections can contain language and materials from history that reference beliefs, norms, and values that are no longer (or never were) consistent with those of the University of Idaho. The University of Idaho Library, Special Collections and Archives works to describe our collections in an inclusive way that is respectful to the communities they represent (created by, created for, created about) and warn users about collections containing materials that may be offensive. We do this by: 
+
 - Flagging discriminatory or offensive content included by creators 
 - Removing or changing discriminatory language used by previous archivists in describing collections 
 - Using inclusive, non-discriminatory language in our current descriptive practice 
@@ -19,6 +20,7 @@ Due to the vast amount of material we hold, we will not be able to flag all offe
 We notify users when we are aware that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection’s “About” page.  
 
 We flag content containing: 
+
 - Racial slurs 
 - Derogatory or dehumanizing language 
 - Language regarding violence 
@@ -31,12 +33,14 @@ We flag content containing:
 We recognize a difference between creator-supplied and archivist-supplied language. We do not edit language used by a creator in order to maintain an accurate representation of the historical materials and the voices they represent. However, we do edit offensive and discriminatory language used by past archivists when describing materials. To make this distinction clear, we work to include contextual information in our finding aids and digital collections explaining when such language is creator-supplied versus archivist-supplied.  
 
 When we edit archivist-supplied language, these changes are noted in the “Processing Note” of the finding aid or on a digital collection’s home page.” These notes serve two purposes: 
+
 - to document the history of that individual finding aid or digital collection 
 - to document the broader history of archival descriptive practices and how they may have changed over time 
 
 ## Section 3: Current Descriptive Practices 
 
 We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Back Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to:  
+
 - Using active language to “embed responsibility” in our archival descriptions 
 - Prioritizing the “humanity of an individual before their identity/ies” 
 - Describing records to support usability by all information-seekers, not just academic researchers 
