@@ -2,7 +2,7 @@
 title: Offensive Content Policy
 layout: page
 section: Special Collections
-permalink: /special-collections/offensivecontentpolicy.html
+permalink: /special-collections/offensivecontent.html
 ---
 
 # Offensive Materials in Archival Collections 
