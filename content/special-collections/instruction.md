@@ -27,4 +27,4 @@ Do you need help utilizing archives in your class? Do you need help conveying...
 
 In order to provide the best learning experience, we require a meeting with the instructor to discuss instruction needs and materials for the class assignment. Instructors will be contacted within a week of submitting the form to set up a meeting. 
 
-Please feel free to contact us at <libspec@uidaho.edu.> if we can be of assistance!
+Please feel free to contact us at <libspec@uidaho.edu> if we can be of assistance!
