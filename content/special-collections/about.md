@@ -14,11 +14,11 @@ Special Collections and Archives is a department within the University of Idaho 
 - Organizational and association records (religious, fraternal, civic, environmental, non-profit, etc.)
 - Book collections on local, historical, and literary topics
 
-You can view our physical materials in our [Reading Room](link to Plan Your Visit). You can also view some of our collections on our [Digital Collections](https://www.lib.uidaho.edu/digital/) site.
+You can view our physical materials in our [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). You can also view some of our collections on our [Digital Collections](https://www.lib.uidaho.edu/digital/) site.
 
-# Hours
+# Reading Room Hours
 
-Due to COVID-19, our Reading Room hours and policies have changed. Please see our [what page?]() for current details.
+Due to COVID-19, our Reading Room hours and policies have changed. Please see our [Plan Your Visit](https://www.lib.uidaho.edu/special-collections/plan.html) page for current details.
 
 # Contact
 
