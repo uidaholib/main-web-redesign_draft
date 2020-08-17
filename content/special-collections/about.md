@@ -37,12 +37,9 @@ We’re available between 8am - 5pm Monday-Friday to answer inquiries.
 
 ### Mailing Address
 
-Special Collections and Archives
-
-University of Idaho Library
-
-875 Perimeter Drive MS 2350
-
+Special Collections and Archives<br>
+University of Idaho Library<br>
+875 Perimeter Drive MS 2350<br>
 Moscow, ID 83844-2350 USA
 
 # Policies 
