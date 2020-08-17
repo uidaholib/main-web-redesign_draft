@@ -1,5 +1,5 @@
 ---
-title: SPEC - Frequently Asked Questions
+title: Special Collections - Frequently Asked Questions
 section: Special Collections
 permalink: /special-collections/faq.html
 layout: page
