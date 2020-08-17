@@ -41,9 +41,3 @@ These collections consist of photographs in glass negative, negative, and print 
 University Archives document the broad history of the University of Idaho. They contain administrative records, university programs and activities, departmental histories, faculty publications and papers, student activities, UI publications, UI and private photographs of University people and events, and other records of University events, actions, and evidence of changing lifeways.
 
 {% include feature/button.html text="Search & Browse University Archive Collections" link="https://example.com" color="secondary" %} button needs link
-
-## International Jazz Collections
-
-The International Jazz Collection (IJC) was formally established at the University of Idaho in 2000, and features papers and photographs of the legendary Lionel Hampton. Other important jazz figures included in the IJC are Leonard Feather, Lee Morse, Joe Williams, Dizzy Gillespie, Conte Candoli, and Al Grey. The IJC merged into the Special Collections and Archives Department of the UI Library in 2007, and is now the preeminent jazz archive in the Pacific Northwest. The International Jazz Collections can be viewed from the [IJC home page](https://www.ijc.uidaho.edu/?_ga=2.71009240.996985882.1597081516-461816157.1592333931)
-
-{% include feature/button.html text="Go to the International Jazz Collections Website" link="https://www.ijc.uidaho.edu/?_ga=2.71009240.996985882.1597081516-461816157.1592333931" color="secondary" %}

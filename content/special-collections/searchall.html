@@ -8,7 +8,22 @@ custom-foot: "js/browse-js.html"
 lazyload: true
 ---
 
-<div class="row mb-3 justify-content-center text-center">
+{%- assign cats = site.data.spec_categories -%}
+
+<div class="row mt-3">
+    <div class="col-md-12">
+        <p>The Special Collections Department of the University of Idaho Library includes those materials that, because of subject coverage, rarity, source, condition, or form, are best handled separately from the General Collection. The several “collections” housed in this department are for research use by faculty, students, visiting scholars, and the public. However, the materials are non-circulating; their use is limited to the Special Collections <a hre="https://www.lib.uidaho.edu/special-collections/plan.html">Reading Room</a>.</p>
+        <p>Browse the strengths of our collection (These include etc...). Or search below.</p>
+        <div class="text-center">
+        {% for c in cats %}
+            <a href="{{ c.category | prepend: '/special-collections/searchall.html#' | relative_url }}" class="btn btn-payette-blue btn-md m-1">{{ c.display_name }}</a>
+        {% endfor %}
+        </div>
+        <hr>
+    </div>
+</div>
+
+<div class="row my-3 justify-content-center text-center">
     <div class="col-md-8">
         <div class="input-group input-group-lg">
             <input type="text" class="form-control form-control-lg" id="quickSearch" placeholder="Filter ... " aria-label="Search">
@@ -26,10 +41,6 @@ lazyload: true
             <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
                 <button class="dropdown-item browse-sort-item active" data-filter="random">Random</button>
                 <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
-                {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
-                {% for o in sort_options %}
-                <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
-                {% endfor %}
             </div>
         </div>
     </div>
