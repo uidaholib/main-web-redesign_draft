@@ -18,6 +18,8 @@ You can view our physical materials in our [Reading Room](link to Plan Your Visi
 
 # Hours
 
+Due to COVID-19, our Reading Room hours and policies have changed. Please see our [what page?]() for current details.
+
 # Contact
 
 We’re available between 8am - 5pm Monday-Friday to answer inquiries.

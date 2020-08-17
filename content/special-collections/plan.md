@@ -7,17 +7,17 @@ permalink: /special-collections/plan.html
 
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](https://www.lib.uidaho.edu/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
 
-## Current Hours
+## Hours
 
-[current hours](link to current hours and any changes)
+Due to COVID-19, our Reading Room hours and policies have changed. Please see our [what page?]() for current details.
 
 ## Steps to take before arriving
 
-Browse our collections (link to collection browse)
-Browse our digital collections (link to digital)
-Email us about your research interests and to make an appointment. We may be able to help you digitally!
-Read our Reading Room Rules below
-Upon arrival, fill out a Registration Form, acknowledging you will abide by the Reading Room Rules
+- Browse [our collections](https://www.lib.uidaho.edu/special-collections/searchall.html)
+- Browse our [digital collections](https://www.lib.uidaho.edu/digital/)
+- [Contact us](https://www.lib.uidaho.edu/special-collections/about.html) about your research interests and to make an appointment. We may be able to help you digitally!
+- Read our Reading Room Rules below
+- Upon arrival, fill out a Registration Form, acknowledging you will abide by the Reading Room Rules
 
 ## Reading Room Rules
 
