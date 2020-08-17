@@ -7,17 +7,34 @@ permalink: /special-collections/plan.html
 
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](https://www.lib.uidaho.edu/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
 
-## Hours
+## Current Hours
 
-Due to COVID-19, our Reading Room hours and policies have changed. Please see our [what page?]() for current details.
+Due to COVID-19, our Reading Room hours and policies have changed.
 
-## Steps to take before arriving
+<div class="border border-warning rounded p-4 my-3" markdown="1">
 
-- Browse [our collections](https://www.lib.uidaho.edu/special-collections/searchall.html)
-- Browse our [digital collections](https://www.lib.uidaho.edu/digital/)
-- [Contact us](https://www.lib.uidaho.edu/special-collections/about.html) about your research interests and to make an appointment. We may be able to help you digitally!
-- Read our Reading Room Rules below
-- Upon arrival, fill out a Registration Form, acknowledging you will abide by the Reading Room Rules
+### Reading Room Reopening 
+
+In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives will be reopening its Reading Room for those wanting to consult our collections.  
+
+In STAGE 2, beginning July 20, we will be welcoming members of the campus community including students, staff, and faculty.  
+
+Access to the Reading Room will require visitors to adhere the following policies until further notice:  
+
+- Reading Room visits will be **by appointment only**.
+- Patrons are required to consult with us virtually or by phone prior to their visit, during which time we may determine if the request can be fulfilled digitally.   
+- **Face masks are required** in the Reading Room at all times. 
+- Only two visitors are allowed in the Reading Room at a time. 
+- Visitors are expected to observe established seating arrangements within the Reading Room. 
+
+Appointment hours are between 9am and 4pm Monday through Friday.  
+
+Please contact libspec@uidaho.edu or 208-885-0845 to make an appointment. 
+We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. 
+
+*Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*
+
+</div>
 
 ## Reading Room Rules
 
