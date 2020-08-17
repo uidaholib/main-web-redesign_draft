@@ -5,6 +5,42 @@ section: Special Collections
 permalink: /special-collections/description.html
 ---
 
+{%- assign cats = site.data.spec_categories -%}
+
+Here's some information about the archives. We're going to talk about strengths and types. You can search all of our collections on the [Search All](/special-collections/searchall.html) page.
+
+<div class="row">
+<div class="col-md-12"><h3>Collection Strengths</h3>
+<p>Little paragraph about collection strengths blah blah blah</p>
+</div>
+{% for c in cats %}
+{% if c.type == 'content' %}
+{% capture n %}{{ c.display_name }}{% endcapture %}
+{% capture d %}{{ c.description }}{% endcapture %}
+<div class="col-md-6">
+{% include feature/card.html text=d header=n %}
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col-md-12"><h3>Collection Types</h3>
+<p>Little paragraph about collection types blah blah blah</p>
+</div>
+{% for c in cats %}
+{% if c.type == 'physical' %}
+{% capture n %}{{ c.display_name }}{% endcapture %}
+{% capture d %}{{ c.description }}{% endcapture %}
+<div class="col-md-4">
+{% include feature/card.html text=d header=n %}
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
 The Special Collections Department of the University of Idaho Library includes those materials that, because of subject coverage, rarity, source, condition, or form, are best handled separately from the General Collection. The several “collections” housed in this department are for research use by faculty, students, visiting scholars, and the public. However, the materials are non-circulating; their use is limited to the Special Collections [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html).
 
 Access to the materials is provided primarily by the [library's catalog](https://search.lib.uidaho.edu/primo-explore/search?tab=everything&search_scope=everything&vid=UID) and Archives West (link to Archives West?). A knowledgeable staff and a variety of finding aids are available to assist researchers and retrieve materials for study. [Browse](https://www.lib.uidaho.edu/special-collections/searchall.html) our collections and finding aids to learn more.
