@@ -58,7 +58,7 @@ Reproduction and use fees may be waived for university-sponsored projects, inclu
 ### Payment and Delivery
 
 - **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before pre-payment is made.  
-- An additional $5.00 handling fee is added orders that must be shipped or mailed
+- An additional $5.00 handling fee is added to orders that must be shipped or mailed
 - Payments can be made by credit card or a check made payable to UI Library Special Collections
 - Rush order availability will be determined by staff and may include additional fees 
 
