@@ -4,7 +4,6 @@ layout: page
 section: Special Collections
 permalink: /special-collections/about.html
 ---
-# About
 
 Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and availability of archival research materials that document the history and culture of Idaho and the University of Idaho. We have over 25,000 linear feet of rare, unique, and valuable materials. Our collections include, but are not limited to:
 
@@ -17,33 +16,39 @@ Special Collections and Archives is a department within the University of Idaho 
 
 You can view our physical materials in our [Reading Room](link to Plan Your Visit). You can also view some of our collections on our [Digital Collections](https://www.lib.uidaho.edu/digital/) site.
 
+# Hours
 
 # Contact
 
 We’re available between 8am - 5pm Monday-Friday to answer inquiries.
-Email: <libspec@uidaho.edu>
-Phone: (208)-885-0845
+- Email: <libspec@uidaho.edu>
+- Phone: (208)-885-0845
 
-Amy Thompson, Archives Manager (<amyjo@uidaho.edu> or 208-885-1545)
-Robert Perret, Special Collections & Instruction Librarian (<rperret@uidaho.edu>)
-Courtney Berge, Archives and Exhibits Assistant (<cberge@uidaho.edu> or 208-885-5813)
-Michelle Shannon, Archives Assistant (<mshannon@uidaho.edu> or 208-885-0978)
+|**Name**|**Title**|**Contact**|
+|-------------|----------|-------------------|
+|General Inquiries|Special Collections Staff|<libspec@uidaho.edu> or (208)-885-0845|
+|Amy Thompson|Archives Manager|<amyjo@uidaho.edu> or 208-885-1545|
+|Robert Perret|Special Collections & Instruction Librarian|<rperret@uidaho.edu>|
+|Courtney Berge|Archives and Exhibits Assistant|<cberge@uidaho.edu> or 208-885-5813|
+|Michelle Shannon|Archives Assistant|<mshannon@uidaho.edu> or 208-885-0978|
+{: .table .table-striped}
 
-Mailing Address
+### Mailing Address
 
 Special Collections and Archives
+
 University of Idaho Library
+
 875 Perimeter Drive MS 2350
+
 Moscow, ID 83844-2350 USA
 
 # Policies 
 
-
-
-# Material Donations
+### Material Donations
 Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications. Collections that may be accepted include those relating to the history, culture and environment of Idaho and the Pacific Northwest, University history and memorabilia, and personal papers or memorabilia of jazz musicians and critics. 
 
-# Monetary Support
+### Monetary Support
 
 Archival collections frequently need cash donations to enable timely processing and underwrite the costs of long-term high security storage. Such funds are used to organize, maintain, and care for our collections so that they may be preserved and made available for future generations.
 
