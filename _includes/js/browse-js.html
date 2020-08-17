@@ -1,37 +1,48 @@
-{%- assign items = site.data.spec_collections_master | where_exp: 'item','item.group' -%}
+{%- assign items = site.data.spec_collections_master | where_exp: 'item','item.id' -%}
 {%- assign fields = site.data.config-browse -%}
 <script>
     
 function makeCard(obj) {
     // find item link
+    if(obj.link != "") {
     var itemHref = obj.link;
+    }
     // start card
     var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';
     // title
-    card += '<div class="card-body text-center"> <h4 class="card-title"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h4>';
-    // other fields
-    card += '<p class="card-text">';
-    {% for f in fields %}{% unless f.hidden == 'true' %}
-    if(obj[{{ f.field | jsonify }}]){
-        {% if f.display_name %}card += '<strong>{{ f.display_name }}:</strong> ';{% endif %}
-        {% if f.btn == 'true' %}
-        var btns = obj[{{ f.field | jsonify }}].split(";");
+    card += '<div class="card-body text-center"> <h5 class="card-title">' + obj.title + '</h5>';
+    card += '</h5>';
+    // view finding aid
+    card += '<a href="' + itemHref + '" class="btn btn-outline-clearwater btn-sm my-2 mr-1" title="link to ' + obj.title + '">View Finding Aid</a>';
+    // details button
+    card += '<a href="#' + obj.id + '" id="collapse-' + obj.id + '" data-toggle="collapse" aria-expanded="false" aria-controls="' + obj.id + '" class="btn btn-outline-palouse-green btn-sm my-2 ml-1">Details</a>'
+    // drop-down
+    card += '<div class="collapse" id="' + obj.id + '" aria-labelledby="collapse-' + obj.id + '">'
+    // group number
+    card += '<hr><p class="card-text mt-3">';
+    card += 'Group Number: <strong>' + obj.group + '</strong>';
+    // categories
+    if(obj.category) {
+        var btns = obj.category.split(";");
         for (var i = 0, len = btns.length; i < len; i++) {
             if(btns[i] != "") {
-                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/searchall.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+                card += '<br><a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
             }
         }
-        {% else %}
-        card += obj[{{ f.field | jsonify }}];
-        {% endif %}
-        {% unless forloop.last %}card += '<br>';{% endunless %}
     }
-    {% endunless %}{% endfor %}
+    // subjects
+    if(obj.subject) {
+        card += '<br>'
+        var subs = obj.subject.split(";")
+        for (var i = 0, len = subs.length; i < len; i++) {
+            if(subs[i] != "") {
+                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(subs[i].trim()) + '">' + subs[i].trim() + '</a><br>';
+            }
+        }
+    }
     card += '</p>';
-    // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Finding Aid</a>';
     // close divs
-    card += '</div></div></div>';
+    card += '</div></div></div></div>';
     // send back big string
     return card;
 }
@@ -98,7 +109,7 @@ function filterItems(arr, q) {
 /* add items */
 var items = [
     {% for i in items %}
-    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.finding_aid_link | escape | jsonify }}, {% for f in fields %}{% if i[f.field] %}{{ f.field | escape | jsonify }}:{{ i[f.field] | strip | jsonify }},{% endif %}{% endfor %} "id":{{ i.group | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.finding_aid_link | escape | jsonify }}, "category":{{ i.category | escape | jsonify }}, "subject":{{ i.subject | escape | jsonify }}, "group":{{ i.group | escape | jsonify }}, "id":{{ i.id | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
 
 ];
 /* init browse page */
