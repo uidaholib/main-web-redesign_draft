@@ -301,6 +301,8 @@ Special Collections:
         url: /special-collections/description.html
       - name: Search All
         url: /special-collections/searchall.html
+      - name: Collection Data
+        url: /special-collections/data.html
   - subsection: Search Tools
     link: /special-collections/searchtools.html
   - subsection: Instruction

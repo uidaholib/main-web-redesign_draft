@@ -38,7 +38,7 @@ Here's some information about the archives. We're going to talk about strengths 
 
 <div class="row">
 <div class="col-md-12"><h3>Collection Types</h3>
-<p>The types of collections housed in Special Collections include manuscripts, photographs, and books.</p>
+<p>The items housed in Special Collections typically fall into one of three categories: manuscripts, photographs, and books.</p>
 </div>
 {% for c in cats %}
 {% if c.type == 'physical' %}
