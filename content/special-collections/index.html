@@ -3,9 +3,14 @@ title: Special Collections &amp; Archives
 permalink: /special-collections/
 layout: page
 section: Special Collections 
+lazyload: true
 ---
 
-<div class="row pt-4">
+<style>
+  #index-carousel .carousel-item { height: 450px; }
+</style>
+
+<div class="row py-4">
   <div class="col-md-8">
     <div class="card">
       <div class="card-header"><h3>About Special Collections</h3></div>
@@ -15,15 +20,15 @@ section: Special Collections
         <p>The Special Collections and Archives Reading Room is in <a href="{{ '/about/maps.html#first' | relative_url }}" target="_blank" rel="noopener">Room 121 on the library's first floor</a>.</p>
       </div>
   </div>
+  <div class="text-center mt-2">  
+    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-1">
+      <span class="fas fa-edit"></span> Plan Your Visit</a>
+    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-1">
+      <span class="fas fa-gift"></span> Donate</a>
+  </div>
 </div>
-  <div class="col-md-4 align-self-center">
-    <div class="text-center">  
-      <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-1">
-        <span class="fas fa-edit"></span> Plan Your Visit</a>
-      <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-1">
-        <span class="fas fa-gift"></span> Donate</a>
-    </div>
-    <div class="card mt-4">
+  <div class="col-md-4">
+    <div class="card">
       <div class="card-body text-center">
         <h3>Hours:</h3>
         <!--<p> 10:00 am to 2:00 pm<br>
@@ -47,39 +52,14 @@ section: Special Collections
   </div>
 </div>
 
+{% include indexcarousel.html %}
 
 <hr>
 
-<style>
-    #spec-carousel .carousel-item { height: 180px; }
-    #spec-carousel .carousel-item img { height:180px; }
-</style>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-    <div id="spec-carousel" class="carousel slide row" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-        {% for i in site.data.spec_carousel %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <img src="{{ site.lib-media }}/spec/carousel/{{ i.image-src }}" title="{{ i.image-alt }}" alt="{{ i.image-alt }}" >
-            <!-- {{ i.source }} -->
-        </div>
-        {% endfor %}
-        </div>
-        <!-- Controls -->
-        <a class="carousel-control-prev" href="#spec-carousel" role="button" data-slide="prev">
-        <span class="fas fa-chevron-left"></span>
-        </a>
-        <a class="carousel-control-next" href="#spec-carousel" role="button" data-slide="next">
-        <span class="fas fa-chevron-right"></span>
-        </a>
-    </div>
-    </div>
-</div>
-
 <!-- exhibits cards row -->
-<h3 id="exhibits" class="my-4">Current Exhibits</h3>
+<h3 id="exhibits" class="my-4">Current Physical Exhibits</h3>
+
+<p>Our physical exhibits are located on the second floor blah blah blah</p>
   
 <div class="row">
   {% for e in site.data.spec_exhibits %}{% if e.active == 'true' %}
@@ -103,21 +83,16 @@ section: Special Collections
 
 <hr>
 
-<!-- featured collections cards row -->
-<h3 class="my-4">Featured Collections</h3>
-
-<div class="row">
-  {% for fc in site.data.spec_featured_collections %}{% if fc.active == 'true' %}
-  <div class="col-md-6">
-    <div class="card text-center my-2">
-      <div class="card-header">
-        <h3 class="card-title text-center mb-0"><a href="{{ fc.link }}">{{ fc.title }}</a></h3>
-      </div>
-      <div class="card-body">
-        <a href="{{ fc.link }}"><img class="card-img" src="{{ fc.image }}" alt="{{ fc.title }}"></a>
-        <p class="card-text pt-3">{{ fc.description }}</p>
-      </div>
-    </div>
-  </div>
-  {% endif %}{% endfor %}
-</div>
+<script>
+  $(function () { objectFitImages() });
+  /* carousel pause button */
+  $("#carousel-pause").click(function () {
+      if($("#carousel-pause").hasClass("fa-pause-circle")){
+          $("#index-carousel").carousel("pause");
+          $("#carousel-pause").removeClass("fa-pause-circle").addClass("fa-play-circle");
+      } else {
+          $("#index-carousel").carousel("cycle");
+          $("#carousel-pause").removeClass("fa-play-circle").addClass("fa-pause-circle");
+      }
+  });
+</script>
