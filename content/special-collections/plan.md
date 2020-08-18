@@ -55,12 +55,10 @@ We ask for at least two business days of notice so we may do any preparatory sea
 
 ## Getting Here
 
-### Where are you located?
-
-We are located on the [first floor](https://www.lib.uidaho.edu/about/maps.html) of the University of Idaho Library. For directions to the library, see our [directions page](https://www.lib.uidaho.edu/about/directions.html). For a wider campus map, see [campus maps](https://www.uidaho.edu/infrastructure/facilities/aes/campus-maps).
-
-### Where can I park? 
+We are located on the [first floor](https://www.lib.uidaho.edu/about/maps.html) of the University of Idaho Library. For directions to the library, see our [directions page](https://www.lib.uidaho.edu/about/directions.html). For a wider campus map, see [campus maps](https://www.uidaho.edu/infrastructure/facilities/aes/campus-maps). 
 
 You can find information about parking on the [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors) of [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/infrastructure/parking).
 
-## More questions? Head over to our [FAQ page](link to FAQ page) or [contact us](link to About page)!
+## More questions? 
+
+Head over to our [FAQ page](https://www.lib.uidaho.edu/special-collections/faq.html) or [contact us](https://www.lib.uidaho.edu//special-collections/about.html)!
