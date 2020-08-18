@@ -1,0 +1,58 @@
+---
+title: Collection Data
+layout: page
+section: Special Collections
+permalink: /special-collections/data.html
+table-id: "#all-collections"
+table-paginate: true
+# custom-foot: "js/spec_searchall.js"
+---
+
+<p>A list of over 1,400 record groups held by SPEC can be browsed in the table below, with basic sort, filter, and search functions. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0" target="_blank" rel="noopener">Archives West</a>.</p>
+
+<!--
+<div class="form-group col-md-4">
+	<label for="groupSelect">Filter Collections</label>
+	<select id="groupSelect" class="form-control">
+		<option value="all">All Groups</option>
+		<option value="PG">Photo Groups Only</option>
+		<option value="MG">Manuscript Groups Only</option>
+		<option value="UG">University Groups Only</option>
+		<option value="IJC-MG">International Jazz Collections</option>
+		<option value="VF">Vertical File</option>
+	</select>
+</div>
+-->
+
+<table id="all-collections" class="table table-striped">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	{%- assign items = site.data.spec_collections_master -%}
+	{%- for item in items -%}
+	<tr>
+		<td class="title">{{ item.title }}</td>
+		<td class="grouptype">{{ item.type }}</td>
+		<td class="groupnumber">{{ item.number | prepend: '0000' | slice: -4, 4 }}</td>
+		<td class="finding-aid">{% if item.finding_aid_link %}<small><a target="_blank" rel="noopener" href="{{ item.finding_aid_link }}">Finding Aid <span class="fas fa-external-link-alt"></span></a></small>{% endif %}</td>
+		<td class="digital-collection">{% if item.digital_collection %}<small><a target="_blank" rel="noopener" href="{{ item.digital_collection }}">Digital Collection <span class="fas fa-external-link-alt"></span></a></small>{% endif %}</td>
+	</tr>
+	{%- endfor -%}
+	</tbody>
+</table>
