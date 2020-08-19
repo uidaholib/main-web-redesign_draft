@@ -2,7 +2,7 @@
 title: Browse Collections
 layout: full-width-page
 section: Special Collections
-permalink: /special-collections/searchall.html
+permalink: /special-collections/browse.html
 # table-id: "#all-collections"
 custom-foot: "js/browse-js.html"
 lazyload: true
@@ -13,7 +13,7 @@ lazyload: true
 <div class="row mt-3">
     <div class="col-md-12">
         <p>Because of rarity, source, condition, or form, Special Collections material is stored and handled separately from the General Collection. Browse the collection titles below and <a href="mailto:libspec@uidaho.edu">contact us</a> if you'd like to view them.</p>
-        <p class="text-center h4"><strong>Sort by Collection Strengths: </strong>{% for c in cats %}<a href="{{ c.category | prepend: '/special-collections/searchall.html#' | relative_url }}" class="btn btn-payette-blue m-1">{{ c.display_name }}</a>{% endfor %}</p>
+        <p class="text-center h4"><strong>Sort by Collection Strengths: </strong>{% for c in cats %}<a href="{{ c.category | prepend: '/special-collections/browse.html#' | relative_url }}" class="btn btn-payette-blue m-1">{{ c.display_name }}</a>{% endfor %}</p>
         <hr>
     </div>
 </div>

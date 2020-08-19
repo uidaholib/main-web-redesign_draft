@@ -299,8 +299,8 @@ Special Collections:
     subpages:
       - name: Descriptions
         url: /special-collections/description.html
-      - name: Search All
-        url: /special-collections/searchall.html
+      - name: Browse
+        url: /special-collections/browse.html
       - name: Collection Data
         url: /special-collections/data.html
   - subsection: Search Tools

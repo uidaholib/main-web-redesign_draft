@@ -25,7 +25,7 @@ function makeCard(obj) {
         var btns = obj.category.split(";");
         for (var i = 0, len = btns.length; i < len; i++) {
             if(btns[i] != "") {
-                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/browse.html" | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
             }
         }
     }
@@ -34,13 +34,13 @@ function makeCard(obj) {
         var subs = obj.subject.split(";")
         for (var i = 0, len = subs.length; i < len; i++) {
             if(subs[i] != "") {
-                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(subs[i].trim()) + '">' + subs[i].trim() + '</a>';
+                card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ "/special-collections/browse.html" | relative_url }}#' + encodeURIComponent(subs[i].trim()) + '">' + subs[i].trim() + '</a>';
             }
         }
     }
     // media type
     if(obj.type != "") {
-        card += '<a class="btn btn-sm btn-outline-secondary mx-1" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
+        card += '<a class="btn btn-sm btn-outline-secondary mx-1" href="{{ "/special-collections/browse.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
         obj.type.toUpperCase() + ' <span class="';
         if(obj.type.includes('PG')){
         card += 'far fa-image';

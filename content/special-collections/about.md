@@ -21,7 +21,7 @@ You can view our physical materials by visiting our [Reading Room](https://www.l
 Many items have been digitized and can be discovered in [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/).
 
 <div class="py-3 text-center">
-    <a href="{{ '/special-collections/searchall.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
+    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
     <span class="fas fa-search"></span> Browse Collections</a>
     <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
     <span class="fas fa-edit"></span> Plan Your Visit</a>
