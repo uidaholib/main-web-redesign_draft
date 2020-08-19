@@ -42,6 +42,10 @@
 .breadcrumb {
     background: $background-color;
 }
+/* narrow text block for page-narrow layout */
+.page-narrow {
+    max-width: 700px;
+}
 .card-button {
     cursor: pointer;
     &:hover { text-decoration: none; }
