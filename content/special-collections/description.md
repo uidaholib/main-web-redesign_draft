@@ -28,7 +28,12 @@ Although our collections cover a wide variety of histories and topics from all o
 {% assign content = cats | where: 'type','content' %}
 {% for c in content %}
 <div class="col-md-6">
-{% include feature/card.html text=c.description header=c.display_name %}
+{% capture text %}{{ c.description }} 
+
+<a href="/special-collections/searchall.html#{{ c.category }}" class="btn btn-outline-payette-blue">Browse {{ c.display_name }} Collections</a>
+
+{% endcapture %}
+{% include feature/card.html header=c.display_name text=text %}
 </div>
 {% endfor %}
 </div>
@@ -43,7 +48,12 @@ Materials housed in Special Collections & Archives typically fall into one of th
 {% assign physical = cats | where: 'type','physical' %}
 {% for c in physical %}
 <div class="col-md-4">
-{% include feature/card.html text=c.description header=c.display_name %}
+{% capture text %}{{ c.description }} 
+
+<a href="/special-collections/searchall.html#{{ c.category }}" class="btn btn-outline-payette-blue">Browse {{ c.display_name }} Collections</a>
+
+{% endcapture %}
+{% include feature/card.html header=c.display_name text=text %}
 </div>
 {% endfor %}
 </div>
