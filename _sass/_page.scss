@@ -39,6 +39,9 @@
 /* narrow text block for page-narrow layout */
 .page-narrow {
     max-width: 700px;
+    @media (min-width: 1500px) {
+        max-width: 800px;
+    }
 }
 /* card-button class for section index pages to avoid display issues */
 .card-button {
