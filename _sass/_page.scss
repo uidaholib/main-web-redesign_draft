@@ -24,7 +24,7 @@
     background: $nav-background;
 }
 #page-nav {
-    //font-size:18px;
+    font-size: $base-font-size * 1.15;
     a {
         font-weight: 300 !important;
     }
