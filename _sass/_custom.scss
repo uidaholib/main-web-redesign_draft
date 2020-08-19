@@ -8,6 +8,11 @@
 /* tweak alerts with markdown inside */
 .alert p:last-of-type { margin-bottom: 0; }
 
+/* tweak spacing of dropdown triangle thing */
+.dropdown-toggle::after {
+    margin-left: 15px;
+}
+
 /* Circle buttons */
 .btn-circle { 
     width: 180px; 
