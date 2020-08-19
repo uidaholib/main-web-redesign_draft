@@ -10,22 +10,17 @@ function makeCard(obj) {
     // start card
     var card = '<div class="item col-lg-3 col-md-6 col-sm-12 mb-3"><div class="card">';
     // title
-    card += '<div class="card-body text-center"> <h5 class="card-title"><strong>' + obj.title + '</strong></h5>';
-    card += '</h5>';
+    card += '<div class="card-body text-center"><h5 class="card-title"><strong>' + obj.title + '</strong></h5>';
+    // group number
+    card += '<strong>Group Number: </strong>' + obj.group + '<br>';
     // view finding aid
-    card += '<a href="' + itemHref + '" class="btn btn-outline-clearwater btn-sm m-1" title="link to ' + obj.title + '" target="_blank" rel="noopener">View Finding Aid</a>';
-    // details button
-    // card += '<a href="#' + obj.id + '" id="collapse-' + obj.id + '" data-toggle="collapse" aria-expanded="false" aria-controls="' + obj.id + '" class="btn btn-outline-palouse-green btn-sm my-2 ml-1">Details</a>'
+    card += '<a href="' + itemHref + '" class="btn btn-outline-clearwater btn-sm m-1 mt-2" title="link to ' + obj.title + '" target="_blank" rel="noopener">View Finding Aid</a>';
     // digital collection
     if(obj.digital) {
         card += '<a href="' + obj.digital + '" class="btn btn-outline-wild-rose btn-sm m-1" title="link to ' + obj.title + ' digital collection" target="_blank" rel="noopener">Digital Collection</a>';
     }
-    // drop-down
-    // card += '<div class="collapse" id="' + obj.id + '" aria-labelledby="collapse-' + obj.id + '">'
-    // group number
-    card += '<hr><p class="card-text mt-3">';
-    card += '<strong>Group Number: </strong>' + obj.group + '<br>';
     // categories
+    card += '<hr><p class="card-text mt-3">';
     if(obj.category) {
         var btns = obj.category.split(";");
         for (var i = 0, len = btns.length; i < len; i++) {
@@ -43,10 +38,9 @@ function makeCard(obj) {
             }
         }
     }
-    card += '</p>';
     // media type
     if(obj.type != "") {
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
+        card += '<a class="btn btn-sm btn-outline-secondary mx-1" href="{{ "/special-collections/searchall.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
         obj.type.toUpperCase() + ' <span class="';
         if(obj.type.includes('PG')){
         card += 'far fa-image';
@@ -59,7 +53,7 @@ function makeCard(obj) {
         } else {
         card += 'far fa-file';
         }
-        card += '"></span></a></small></p>';
+        card += '"></span></a></p>';
     }
     // close divs
     card += '</div></div></div>';
