@@ -19,7 +19,6 @@ $.fn.dataTableExt.afnFiltering.push(
 		lengthMenu: [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
 		// sort based on the type
 		order: [[ 1, "asc" ]]
-		
 	});
 	/* Add event listeners to collectionSelect */
 	$('#groupSelect').change( function() {
