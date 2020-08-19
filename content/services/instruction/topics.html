@@ -26,7 +26,7 @@ filter: circle-button
         <button id="research" class="filter m-2 btn  btn-outline-clearwater font-weight-bold">Research</button>
         <button id="writing" class="filter m-2 btn  btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
     </p>
-    <select class="col-md-3 mt-2 btn btn-secondary" onchange="$('#quicksearch').val(this.value);$('#goButton').click();"  id="instructorList" style="height:35px">
+    <select class="col-10 mx-auto col-md-3 my-2 btn btn-secondary" onchange="$('#quicksearch').val(this.value);$('#goButton').click();"  id="instructorList" style="height:35px">
         <option value="">Filter by Instructor</option>
         {% for person in people-unique %}
         <option value="{{person}}">{{person}}</option>
