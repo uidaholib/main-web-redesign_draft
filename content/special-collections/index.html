@@ -20,69 +20,50 @@ lazyload: true
         <p>The Special Collections and Archives Reading Room is in <a href="{{ '/about/maps.html#first' | relative_url }}" target="_blank" rel="noopener">Room 121 on the library's first floor</a>.</p>
       </div>
   </div>
-  <div class="text-center mt-2">  
-    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-1">
-      <span class="fas fa-edit"></span> Plan Your Visit</a>
-    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-1">
-      <span class="fas fa-gift"></span> Donate</a>
-  </div>
 </div>
   <div class="col-md-4">
     <div class="card">
       <div class="card-body text-center">
         <h3>Hours:</h3>
-        <!--<p> 10:00 am to 2:00 pm<br>
-					Monday - Friday
-				</p>-->
-				<p>By appointment only, with limitations as part of the <a href="{{ '/covid19/impact.html' | relative_url }}">Library's Covid-19 response</a>. Please see <a href="rules.html">Reading Room Rules</a> for full details.</p>
-        <!--
-        <p><strong>Reduced Hours:</strong><br>
-          Closed Dec. 24, 2018 to Jan. 1, 2019.
-        </p>
-        -->
+				<p><a href="{{ '/special-collections/plan.html' | relative_url }}">Reading Room</a> by appointment only</p>
       </div>
     </div>
-    <div class="card mt-4">
+    <div class="card my-3">
       <div class="card-body text-center">
         <h3>Contact Us:</h3>
         <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
         Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a></p>
       </div>
     </div>
+    <div class="text-center">  
+      <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-1">
+        <span class="fas fa-edit"></span> Plan Your Visit</a>
+      <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-1">
+        <span class="fas fa-gift"></span> Donate</a>
+    </div>
   </div>
 </div>
+
+<hr>
+
+<h1 class="mb-3">Explore the Collections</h1>
 
 {% include indexcarousel.html %}
 
-<hr>
-
-<!-- exhibits cards row -->
-<h3 id="exhibits" class="my-4">Current Physical Exhibits</h3>
-
-<p>Our physical exhibits are located on the second floor blah blah blah</p>
-  
+<h2 class="my-4 pt-3">Featured Public Exhibit</h2>
 <div class="row">
-  {% for e in site.data.spec_exhibits %}{% if e.active == 'true' %}
-  <div class="col-12 mb-3">
-    <div class="card">
-      <div class="card-body">
-        
-        <div class="row">
-          <div class="col-sm-7 card-text">
-              <h4>{{ e.title }}</h4>
-            {{ e.description }}</div>
-          <div class="col-sm-5">
-            <img src="{{ e.image }}" class="card-img">
-          </div>
-        </div>
-      </div>
-    </div>
+  {%- for e in site.data.spec_exhibits -%}{%- if e.active == 'true' -%}
+  <div class="col-md-6">
+    <img src="{{ e.image }}" class="card-img">
   </div>
-  {% endif %}{% endfor %}
+  <div class="col-md-6 text-center">
+    <h4><strong>{{ e.title }}</strong></h4>
+    <p class="mx-4">{{ e.description }}</p>
+  </div>
+  {%- endif -%}{%- endfor -%}
 </div>
 
-<hr>
-
+<!--js needs to go somewhere else? right now just in home.js, could be broken out to carousel components-->
 <script>
   $(function () { objectFitImages() });
   /* carousel pause button */
