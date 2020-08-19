@@ -42,7 +42,14 @@ University of Idaho Library<br>
 875 Perimeter Drive MS 2350<br>
 Moscow, ID 83844-2350 USA
 
-# Policies 
+### Policies 
+We have several policies guiding the access and use of our materials. They cover:
+
+- [Reproduction and Use](/special-collections/reproductions.html)
+- [Citations](/special-collections/citation.html)
+- [Offensive Content](/special-collections/offensivecontent.html)
+- [Donations](/special-collections/donations.html)
+
 
 ### Material Donations
 Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications. Collections that may be accepted include those relating to the history, culture and environment of Idaho and the Pacific Northwest, University history and memorabilia, and personal papers or memorabilia of jazz musicians and critics. 
