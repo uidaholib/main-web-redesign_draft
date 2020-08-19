@@ -13,15 +13,15 @@ permalink: /special-collections/description.html
 
 {%- assign cats = site.data.spec_categories -%}
 
-Special Collections and Archives specializes in the acquisition, preservation, and availability of archival research materials that document the history and culture of Idaho and the University of Idaho. We have over 25,000 linear feet of rare, unique, and valuable materials. Many of these collections are related and put into broad categorical groupings, which you will find below. These are not all of our collections, just areas of particular strength and prominence.
+Special Collections and Archives specializes in archival materials that document the history and culture of Idaho and the University of Idaho. 
+Our holdings contain over 25,000 linear feet of rare, unique, and valuable materials. 
 
-The collections housed in this department are for research use by faculty, students, visiting scholars, and the public. 
-However, the materials are non-circulating; their use is limited to the Special Collections [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). 
-You can search all of our collections on the [Search All](/special-collections/searchall.html) page.
+These materials are available for research use by faculty, staff, students, visiting scholars, and the public in the Special Collections [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). 
+You can explore a list of all our collections on the [Browse Collections](/special-collections/searchall.html) page.
 
 ### Collection Strengths
 
-Although our collections cover a wide variety of histories and topics from all over Idaho and the broader Pacific Northwest, our collections offer exceptional coverage of four main subjects: 
+Although our collections cover a wide variety of subjects from across Idaho and the broader Pacific Northwest, the holdings have exceptional coverage of four main collecting areas: 
 [jazz](https://www.lib.uidaho.edu/special-collections/searchall.html#jazz), [forestry](https://www.lib.uidaho.edu/special-collections/searchall.html#forestry), [mining](https://www.lib.uidaho.edu/special-collections/searchall.html#mining), and the [University of Idaho](https://www.lib.uidaho.edu/special-collections/searchall.html#university).
 
 <div class="row">
