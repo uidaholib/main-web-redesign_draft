@@ -7,7 +7,7 @@ permalink: /special-collections/plan.html
 
 <div class="row">
 <div class="col-md-6 align-self-center">
-<p>The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the <a href="{{ '/about/maps.html' | relative_url }}">first floor</a> of the library. If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.</p>
+<p>The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the <a href="{{ '/about/maps.html' | relative_url }}">first floor</a> of the library. If you are unable to come to the Reading Room in person, please <a href="mailto:libspec@uidaho.edu">contact us</a> to discuss options for digital reproductions of materials.</p>
 <div class="text-center">
   <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue m-1">Hours</a>
   <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue m-1">Reading Room</a>
@@ -15,7 +15,7 @@ permalink: /special-collections/plan.html
 </div>
 </div>
 <div class="col-md-6">
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/collections/readingroom.jpg" alt="reading room tables" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/readingroom.jpg" alt="reading room tables" %}
 </div>
 </div>
 
@@ -128,7 +128,7 @@ Access to the Reading Room will require visitors to adhere the following policie
 
 Appointment hours are between 9am and 4pm Monday through Friday.  
 
-Please contact libspec@uidaho.edu or 208-885-0845 to make an appointment. 
+Please contact libspec@uidaho.edu or (208) 885-0845 to make an appointment. 
 We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. 
 
 *Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*

@@ -5,9 +5,9 @@ section: Special Collections
 permalink: /special-collections/about.html
 ---
 
-Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and use of archival research materials that document the history and culture of Idaho and the University of Idaho. 
-We have over 25,000 linear feet of rare, unique, and valuable materials. 
-Our collections include, but are not limited to:
+<div class="row pt-3">
+<div class="col-md-6" markdown="1">
+Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and use of archival research materials that document the history and culture of Idaho and the University of Idaho. We have over 25,000 linear feet of rare, unique, and valuable materials. Our collections include, but are not limited to:
 
 - Personal papers of individuals and families
 - Business records (lumber, railroad, mining, etc.)
@@ -15,6 +15,11 @@ Our collections include, but are not limited to:
 - Papers of government officials, educators, authors, artists, etc.
 - Organizational and association records (religious, fraternal, civic, environmental, non-profit, etc.)
 - Book collections on local, historical, and literary topics
+</div>
+<div class="col-md-6 align-self-center">
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/boxes.jpg" alt="archival boxes" %}
+</div>
+</div>
 
 Learn more about the strengths and focus of our holdings on the [Description of Collections](/special-collections/description.html) page.
 You can view our physical materials by visiting our [Reading Room](/special-collections/plan.html). 
@@ -33,6 +38,8 @@ and finding aids can be searched on [Archives West](https://archiveswest.orbisca
     <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
     <span class="fas fa-question"></span> FAQ</a>
 </div>
+
+---
 
 ## Contact
 
@@ -55,6 +62,8 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phon
         </div>
     </div>
 </div>
+
+---
 
 ## Staff
 
