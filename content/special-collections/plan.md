@@ -8,13 +8,10 @@ permalink: /special-collections/plan.html
 <div class="row">
 <div class="col-md-6 align-self-center">
 <p>The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the <a href="{{ '/about/maps.html' | relative_url }}">first floor</a> of the library. If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.</p>
-<div class="text-center mb-3">
-    <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
-     Hours</a>
-    <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
-     Reading Room</a>
-     <a href="{{ '/special-collections/plan#directions' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
-     Directions</a>
+<div class="text-center">
+  <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue m-1">Hours</a>
+  <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue m-1">Reading Room</a>
+  <a href="{{ '/special-collections/plan#directions' | relative_url }}" class="btn btn-outline-payette-blue m-1">Directions</a>
 </div>
 </div>
 <div class="col-md-6">
@@ -168,6 +165,8 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 
 - We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues.
 - Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collections does not surrender its own right to publish such material or grant permission to others to do so.
+
+---
 
 {:#directions}
 ## Getting Here
