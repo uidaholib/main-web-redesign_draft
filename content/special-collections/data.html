@@ -3,26 +3,26 @@ title: Collection Data
 layout: full-width-page
 section: Special Collections
 permalink: /special-collections/data.html
-# table-id: "#all-collections"
-table-paginate: true
-custom-foot: "js/spec_searchall.js"
+custom-foot: "js/spec_collection_data.html"
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
 
 <p>A list of over 1,400 record groups held by Special Collections can be browsed in the table below, with basic sort, filter, and search functions. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0" target="_blank" rel="noopener">Archives West</a>.<br>
-To download the data in the table as a CSV: <a href="{{ '/assets/data/spec_collections.csv' | relative_url }}" class="btn btn-success m-3">Download Full SPEC Collections CSV</a></p>
+To download the filtered data click the Excel / CSV button below, or <a href="{{ '/assets/data/spec_collections.csv' | relative_url }}">download Full SPEC Collections CSV</a></p>
 
-<div class="form-group col-md-4">
-	<label for="groupSelect">Filter Collections</label>
-	<select id="groupSelect" class="form-control">
-		<option value="all">All Groups</option>
-		<option value="PG">Photo Groups Only</option>
-		<option value="MG">Manuscript Groups Only</option>
-		<option value="UG">University Groups Only</option>
-		<option value="IJC-MG">International Jazz Collections</option>
-		<option value="VF">Vertical File</option>
-	</select>
+<div class="form-group row justify-content-end">
+	<label for="groupSelect" class="col-sm-2 col-form-label text-right">Filter Collections:</label>
+	<div class="">
+		<select id="groupSelect" class="custom-select form-control">
+			<option value="all">All Groups</option>
+			<option value="PG">Photo Groups Only</option>
+			<option value="MG">Manuscript Groups Only</option>
+			<option value="UG">University Groups Only</option>
+			<option value="IJC-MG">International Jazz Collections</option>
+			<option value="VF">Vertical File</option>
+		</select>
+	</div>
 </div>
 
 <table id="all-collections" class="table table-striped">
