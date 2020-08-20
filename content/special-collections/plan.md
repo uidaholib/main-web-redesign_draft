@@ -70,7 +70,7 @@ permalink: /special-collections/plan.html
             </a>
           </h5>
         </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p> Please see our Reading Room Reopening plans below for current information on services available during the COVID-19 pandemic. While appointments are not absolutely necessary, we do appreciate advanced notice of what you would like to view, so we can have the materials ready for you when you arrive. Simply email this information to
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> prior to your visit. We may also be able to help you digitally! </p>
@@ -88,7 +88,7 @@ permalink: /special-collections/plan.html
             </a>
           </h5>
         </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
               understand and will abide by the Reading Room Rules (see below) for using Special Collections and Archives materials. </p>
