@@ -21,7 +21,7 @@ permalink: /special-collections/plan.html
 
 <div class="row">
   <div class="col-md-8 my-4">
-    <h4>Three Steps to Take before Arriving:</h4>
+    <h4>Steps to Take before Arriving:</h4>
     <div id="accordion">
       <div class="card mt-3 mb-2">
         <div class="card-header">
