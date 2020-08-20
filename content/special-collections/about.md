@@ -3,7 +3,6 @@ title: About Special Collections and Archives
 layout: page
 section: Special Collections
 permalink: /special-collections/about.html
-table-id: "#spec-directory"
 ---
 
 Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and use of archival research materials that document the history and culture of Idaho and the University of Idaho. 
@@ -63,7 +62,7 @@ We're typically available 8am - 5pm, Monday - Friday to answer inquiries via ema
 {% assign extra = site.data.people-table | where: 'name','Perret, Robert' %}
 {% assign all = people | concat: extra %}
 
-<table id="spec-directory" class="table table-striped">
+<table class="table table-striped">
     <thead>
        <tr>
           <th>Name</th>
