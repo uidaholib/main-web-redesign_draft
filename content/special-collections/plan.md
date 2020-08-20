@@ -5,10 +5,25 @@ section: Special Collections
 permalink: /special-collections/plan.html
 ---
 
-The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
+<div class="row">
+<div class="col-md-6 align-self-center">
+<p>The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the <a href="{{ '/about/maps.html' | relative_url }}">first floor</a> of the library. If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.</p>
+<div class="text-center mb-3">
+    <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
+     Hours</a>
+    <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
+     Reading Room</a>
+     <a href="{{ '/special-collections/plan#directions' | relative_url }}" class="btn btn-outline-payette-blue mx-1">
+     Directions</a>
+</div>
+</div>
+<div class="col-md-6">
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/collections/readingroom.jpg" alt="reading room tables" %}
+</div>
+</div>
 
 <div class="row">
-  <div class="col-md-8 my-3">
+  <div class="col-md-8 my-4">
     <h4>Three Steps to Take before Arriving:</h4>
     <div id="accordion">
       <div class="card mt-3 mb-2">
@@ -76,6 +91,9 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
   </div>
 </div>
 
+ ---
+
+{:#hours}
 ## Current Hours
 
 As part of the Library's [2020 opening plan](/covid10/impact.html), our Reading Room hours and policies have changed.
@@ -105,6 +123,9 @@ We ask for at least two business days of notice so we may do any preparatory sea
 
 </div>
 
+---
+
+{:#rules}
 ## Reading Room Rules
 
 The Reading Room is reserved for the use of Special Collections and Archives materials. We ask that you please adhere to the following guidelines when visiting:
@@ -133,6 +154,7 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 - We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues.
 - Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collections does not surrender its own right to publish such material or grant permission to others to do so.
 
+{:#directions}
 ## Getting Here
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
