@@ -61,4 +61,4 @@ You can find information about parking on the [Visitors Page](https://www.uidaho
 
 ## More questions? 
 
-Head over to our [FAQ page](https://www.lib.uidaho.edu/special-collections/faq.html) or [contact us](https://www.lib.uidaho.edu//special-collections/about.html)!
+Head over to our [FAQ page](https://www.lib.uidaho.edu/special-collections/faq.html) or [contact us]({{ '/special-collections/about.html' | relative_url }})!
