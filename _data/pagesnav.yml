@@ -308,8 +308,10 @@ Special Collections:
   - subsection: Instruction
     link: /special-collections/instruction.html
   - subsection: Research Resources
-    url: /special-collections/faq.html
+    url:
     subpages:
+      - name: Finding Aids
+        url: /special-collections/findingaids.html
       - name: Idaho Biographical Index
         url: /special-collections/idahobio.html
       - name: Bibliography of UI History
