@@ -7,6 +7,73 @@ permalink: /special-collections/plan.html
 
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](https://www.lib.uidaho.edu/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
 
+<div class="my-3">
+    <h4>Three Steps to Take before Arriving:</h4>
+    <div id="accordion">
+      <div class="card mt-3 mb-2">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Browse Our Collection Descriptions Online
+              <span class="fas fa-chevron-down smalltxt"></span>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p> Before you arrive, please take a moment to peruse our
+              <a href="description.html">collections</a>. Published materials can be found using the Library's
+              <a href="{{ '/index.html' | relative_url }}">general catalog</a>, and Finding Aids for archival collections can be searched using
+              <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0">Archives West</a>. If you have any questions or would like help locating U of I Library Special Collections &amp;
+              Archives materials, please contact us at
+              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or 208-885-0845. </p>
+          </div>
+          <!--end card-body-->
+        </div>
+        <!--end collapse-->
+      </div>
+      <!--end card-->
+      <div class="card mt-3 mb-2">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Email Us Information about Your Interests
+              <span class="fas fa-chevron-down smalltxt"></span>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p> While appointments are not absolutely necessary, we do appreciate advanced notice of when you will be arriving
+              and the call numbers (including the prefix!) or Group numbers (either MG ###, UG ### or PG ###) including which
+              box numbers you would like to see. Simply email this information to
+              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> prior to your visit.</p>
+          </div>
+          <!--end card-body-->
+        </div>
+        <!--end collapse-->
+      </div>
+      <!--end card-->
+      <div class="card mt-3 mb-2">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Fill Out a Registration Form
+              <span class="fas fa-chevron-down smalltxt"></span>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>Upon arrival to the Reading Room, you will be asked to fill out a Registration Form, acknowledging that all researchers
+              understand and will abide by protocols (see below) for using Special Collections and Archives materials. </p>
+          </div>
+          <!--end card-body-->
+        </div>
+        <!--end collapse-->
+      </div>
+      <!--end card-->
+    </div>
+    <!--end accordion-->
+</div>
+
 ## Current Hours
 
 Due to COVID-19, our Reading Room hours and policies have changed.
