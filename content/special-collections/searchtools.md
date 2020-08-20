@@ -18,7 +18,7 @@ Use these tools to discover finding aids, collections, and items in Special Coll
 {{ t.description }}
 
 {% if t.link %}
-<a href="{{ t.link }}" class="btn btn-outline-pride-gold">Go to {{ t.title }}</a>
+<a href="{{ t.link }}" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Go to {{ t.title }}</a>
 {% endif %}
 
 {% endcapture %}

@@ -9,6 +9,6 @@ We have several policies guiding the access and use of our materials.
 They cover:
 
 - [Reproduction & Use](/special-collections/reproductions.html)
-- [Citations](/special-collections/citation.html)
+- [Citations](/special-collections/citations.html)
 - [Offensive Content](/special-collections/offensivecontent.html)
 - [Donations](/special-collections/donations.html)

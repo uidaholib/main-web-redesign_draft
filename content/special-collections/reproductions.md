@@ -5,6 +5,7 @@ section: Special Collections
 permalink: /special-collections/reproductions.html
 ---
 
+{:.pt-4}
 ## Reproduction Requests 
 
 We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues, or due to the condition, size, or format of the materials.
@@ -26,9 +27,9 @@ Offsite requests: scans/files will be delivered electronically through document 
 
 |**Material Type**|**Resolution**|**Price per item/page**|
 |-------------|:----------:|-------------------:|
-|Print materials up to 12”x17”|Low|$1.00|
+|Print materials up to 12"x17"|Low|$1.00|
 |Photographs and negative|High|$8.00|
-|Print material over 12”x17”|High|$16.00|
+|Print material over 12"x17"|High|$16.00|
 |Oversized maps or architectural drawings|High|$20.00|
 |Media duplication|N/A|$15.00 (CD and DVD)|
 {: .table .table-striped}
@@ -37,7 +38,7 @@ Offsite requests: scans/files will be delivered electronically through document 
 
 ### Use Fees:
 
-Requests for permission to use archival material in print media and publications, film/video productions, digital works, and other uses must be granted by the Head of Special Collections through the Application for Permission to Use Form. You may request the form by emailing <libspec@uidaho.edu.>
+Requests for permission to use archival material in print media and publications, film/video productions, digital works, and other uses must be granted by the Head of Special Collections through the Application for Permission to Use Form. You may request the form by emailing <libspec@uidaho.edu>.
 
 |**Type of Use**|**Non-Commercial**|**Commercial**|
 |-------------|:----------:|:-------------------:|
@@ -60,4 +61,4 @@ Reproduction and use fees may be waived for university-sponsored projects, inclu
 
 ## Copyright Restrictions
 
-The copyright law of the United States (Title 17, USC) governs the making of photocopies or other reproductions of copyrighted materials. Under certain conditions specified in the law, archives and libraries are authorized to furnish a photocopy or reproduction. One of these specified conditions is that the photocopy or reproduction is not to be “used for any purpose other than private study, scholarship or research.” If a user later uses a photocopy or reproduction for purposes in excess of “fair use,” they may be liable for copyright infringement. This institution reserves the right to refuse a copying order if, in its judgment, fulfillment of the order would involve violation of copyright law.
+The copyright law of the United States (Title 17, USC) governs the making of photocopies or other reproductions of copyrighted materials. Under certain conditions specified in the law, archives and libraries are authorized to furnish a photocopy or reproduction. One of these specified conditions is that the photocopy or reproduction is not to be "used for any purpose other than private study, scholarship or research." If a user later uses a photocopy or reproduction for purposes in excess of "fair use," they may be liable for copyright infringement. This institution reserves the right to refuse a copying order if, in its judgment, fulfillment of the order would involve violation of copyright law.

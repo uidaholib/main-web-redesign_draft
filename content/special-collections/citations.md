@@ -2,9 +2,10 @@
 title: Citation Policy
 layout: page
 section: Special Collections
-permalink: /special-collections/citation.html
+permalink: /special-collections/citations.html
 ---
 
+{:.pt-4}
 ## Do I need to cite materials I found in the archive?
 
 Yes. Primary sources and other archival materials are still subject to the same intellectual property rights, copyright, and trademark laws in the United States. The best way to avoid plagiarism is to use your own words and cite all of your sources! 
@@ -35,4 +36,4 @@ Users are solely responsible for ensuring that they are observing Fair Use as de
 
 ## Still have questions?
 
-Feel free to review our [Reproductions & Use Policy](/special-collections/reproductions.html) or [contact us](/special-collections/plan.html) and we can help!
+Feel free to review our [Reproductions & Use Policy](/special-collections/reproductions.html) or [contact us](/special-collections/about.html) and we can help!

@@ -36,7 +36,7 @@ and finding aids can be searched on [Archives West](https://archiveswest.orbisca
 
 ## Contact
 
-We're typically available 8am - 5pm, Monday - Friday to answer inquiries via email or phone.
+We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phone.
 
 <div class="card-deck my-4">
     <div class="card">

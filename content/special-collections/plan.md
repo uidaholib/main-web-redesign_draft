@@ -5,9 +5,9 @@ section: Special Collections
 permalink: /special-collections/plan.html
 ---
 
-The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](https://www.lib.uidaho.edu/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
+The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating (meaning, you cannot check them out like circulating library books), you can only view our materials in our Reading Room, located on the [first floor of the library](/about/maps.html). If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.
 
-<div class="my-3">
+<div class="col-md-8 my-3">
     <h4>Three Steps to Take before Arriving:</h4>
     <div id="accordion">
       <div class="card mt-3 mb-2">
@@ -25,7 +25,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
               <a href="{{ '/index.html' | relative_url }}">general catalog</a>, and Finding Aids for archival collections can be searched using
               <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0">Archives West</a>. If you have any questions or would like help locating U of I Library Special Collections &amp;
               Archives materials, please contact us at
-              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or 208-885-0845. </p>
+              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->
         </div>
@@ -132,7 +132,7 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. For directions to the library, see our [directions page](/about/directions.html). For a wider campus map, see [campus maps](https://www.uidaho.edu/infrastructure/facilities/aes/campus-maps). 
 
-You can find information about parking on the [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors) of [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/infrastructure/parking).
+You can find information about parking on the University of Idaho Parking and Transportation Services [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors).
 
 ## More questions? 
 

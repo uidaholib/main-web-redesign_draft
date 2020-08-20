@@ -11,19 +11,27 @@ permalink: /special-collections/description.html
   </div>
 </div>
 
+<div class="py-3 text-center">
+    <a href="{{ '/special-collections/description#strengths' | relative_url }}" class="btn btn-outline-payette-blue m-1">
+     Collection Strengths</a>
+    <a href="{{ '/special-collections/description#types' | relative_url }}" class="btn btn-outline-payette-blue m-1">
+     Collection Types</a>
+</div>
+
 {%- assign cats = site.data.spec_categories -%}
 
 Special Collections and Archives specializes in archival materials that document the history and culture of Idaho and the University of Idaho. 
 Our holdings contain over 25,000 linear feet of rare, unique, and valuable materials. 
 
-These materials are available for research use by faculty, staff, students, visiting scholars, and the public in the Special Collections [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). 
+These materials are available for research use by faculty, staff, students, visiting scholars, and the public in the Special Collections [Reading Room](/special-collections/plan.html). 
 Most collections are described by finding aids hosted on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0), a searchable repository of archival finding aids from throughout the Northwest.
 You can explore a list of all our collections on the [Browse Collections](/special-collections/browse.html) page.
 
+{:#strengths}
 ### Collection Strengths
 
 Although our collections cover a wide variety of subjects from across Idaho and the broader Pacific Northwest, the holdings have exceptional coverage of four main collecting areas: 
-[jazz](https://www.lib.uidaho.edu/special-collections/browse.html#jazz), [forestry](https://www.lib.uidaho.edu/special-collections/browse.html#forestry), [mining](https://www.lib.uidaho.edu/special-collections/browse.html#mining), and the [University of Idaho](https://www.lib.uidaho.edu/special-collections/browse.html#university).
+[jazz](/special-collections/browse.html#jazz), [forestry](/special-collections/browse.html#forestry), [mining](/special-collections/browse.html#mining), and the [University of Idaho](/special-collections/browse.html#university).
 
 <div class="row">
 {% assign content = cats | where: 'type','content' %}
@@ -41,9 +49,10 @@ Although our collections cover a wide variety of subjects from across Idaho and 
 
 -------
 
+{:#types}
 ### Collection Types
 
-Materials housed in Special Collections & Archives typically fall into one of three categories, based on the format of the physical items: [manuscript collections](https://www.lib.uidaho.edu/special-collections/browse.html#mg), [photograph collections](https://www.lib.uidaho.edu/special-collections/browse.html#pg), and [book collections](https://www.lib.uidaho.edu/special-collections/browse.html#books).
+Materials housed in Special Collections & Archives typically fall into one of three categories, based on the format of the physical items: [manuscript collections](/special-collections/browse.html#mg), [photograph collections](/special-collections/browse.html#pg), and [book collections](/special-collections/browse.html#books).
 
 <div class="row">
 {% assign physical = cats | where: 'type','physical' %}
