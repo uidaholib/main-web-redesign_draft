@@ -12,7 +12,7 @@ We reserve the right to deny a reproduction request because of copyright regulat
 
 Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collection does not surrender its own right to publish such material or grant permission to others to do so. Application for permission to use images is available upon request.
 
-Please check with staff before scanning or photographing any materials. Staff will assist to ensure proper handling of materials. We provide two computers, two flatbed scanners, and digital camera stands for patron use. Cell phones with cameras and digital cameras are welcome to use under existing lighting (no flash). Personal scanners are permitted with staff approval.
+Please check with staff before scanning or photographing any materials. Staff will assist to ensure proper handling of materials. We provide two computers, two flatbed scanners, and a digital camera stand for patron use. Cell phones with cameras and digital cameras are welcome to use under existing lighting (no flash). Personal scanners are permitted with staff approval.
 
 Proper citation of all Special Collections materials is required. Preferred wording:
 
@@ -54,8 +54,8 @@ Reproduction and use fees may be waived for university-sponsored projects, inclu
 
 ### Payment and Delivery
 
-- **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before pre-payment is made.  
-- An additional $5.00 handling fee is added orders that must be shipped or mailed
+- **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before payment is made.  
+- An additional $5.00 handling fee is added to orders that must be shipped or mailed
 - Payments can be made by credit card or a check made payable to UI Library Special Collections
 - Rush order availability will be determined by staff and may include additional fees 
 
