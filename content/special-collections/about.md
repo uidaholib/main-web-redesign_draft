@@ -3,6 +3,7 @@ title: About Special Collections and Archives
 layout: page
 section: Special Collections
 permalink: /special-collections/about.html
+table-id: "#spec-directory"
 ---
 
 Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and use of archival research materials that document the history and culture of Idaho and the University of Idaho. 
@@ -17,7 +18,7 @@ Our collections include, but are not limited to:
 - Book collections on local, historical, and literary topics
 
 Learn more about the strengths and focus of our holdings on the [Description of Collections](/special-collections/description.html) page.
-You can view our physical materials by visiting our [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). 
+You can view our physical materials by visiting our [Reading Room](/special-collections/plan.html). 
 Many items have been digitized and can be discovered in [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0).
 
@@ -36,33 +37,47 @@ and finding aids can be searched on [Archives West](https://archiveswest.orbisca
 
 ## Contact
 
-We're typically available between 8am - 5pm, Monday - Friday to answer inquiries via email or phone.
+We're typically available 8am - 5pm, Monday - Friday to answer inquiries via email or phone.
 
 <div class="card-deck my-4">
     <div class="card">
         <div class="card-body text-center">
-            <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-            Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a></p>
-            <p>Visit: <a href="{{ '/about/maps.html#first' | relative_url }}">Reading Room, Library room 121</a>.</p>
+            Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
+            Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
+            Visit: <a href="{{ '/about/maps.html#first' | relative_url }}">Reading Room, Library room 121</a>
         </div>
     </div>
     <div class="card">
         <div class="card-body text-center">
-        <strong>Mail:</strong><br>
         Special Collections and Archives<br>
-        University of Idaho Library<br>
-        875 Perimeter Drive MS 2350<br>
-        Moscow, ID 83844-2350 USA
+        <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=university+of+idaho+library+83844&amp;ie=UTF8&amp;ll=46.735272,-117.014952&amp;spn=0.024177,0.055275&amp;z=14&amp;iwloc=A">University of Idaho Library</a><br>
+        875 Perimeter Drive MS 2350 <br>
+        Moscow, ID 83844-2350
         </div>
     </div>
 </div>
 
 ## Staff
 
-| Name | Title | Contact |
-| --- | --- | --- |
-| Amy Thompson | Archives Manager | <amyjo@uidaho.edu> or (208) 885-1545 |
-| Robert Perret | Special Collections & Instruction Librarian | <rperret@uidaho.edu> |
-| Courtney Berge | Archives and Exhibits Assistant | <cberge@uidaho.edu> or 208-885-5813 |
-| Michelle Shannon | Archives Assistant | <mshannon@uidaho.edu> or 208-885-0978 |
-{: .table .table-striped .mb-4}
+{% assign people = site.data.people-table | where: 'department','Special Collections and Archives' %}
+{% assign extra = site.data.people-table | where: 'name','Perret, Robert' %}
+{% assign all = people | concat: extra %}
+
+<table id="spec-directory" class="table table-striped">
+    <thead>
+       <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Contact Info</th>
+       </tr>
+    </thead>
+    <tbody>
+    {% for a in all %}
+    <tr>
+       <td class="name">{{ a.name }}</td>
+       <td class="title center">{{ a.rank }}<br>{{ a.title }}</td>
+       <td class="contact"><a href="mailto:{{ p.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
