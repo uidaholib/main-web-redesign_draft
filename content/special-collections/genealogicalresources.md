@@ -67,8 +67,8 @@ Index (soundex) to the population schedules of the tenth census of the United St
 
 ## See Also:
 
-- [Latah County Historical Society](http://users.moscow.com/lchs/)
-- [Latah County Clerk/Recorder](http://www.latah.id.us/clerk/)
+- [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/)
+- [Latah County Clerk/Recorder](https://www.latah.id.us/auditor/)
 - Your local public library. Many public libraries have subscriptions to HeritageQuest and Ancestry Library Edition.  
 - [Where to Write for Vital Records](http://www.cdc.gov/nchs/w2w.htm)
 - [Idaho State Archives Genealogy page](http://history.idaho.gov/idaho-state-archives-genealogy)
@@ -79,3 +79,4 @@ Index (soundex) to the population schedules of the tenth census of the United St
 - Cemetery listings online:  [Find a Grave](http://www.findagrave.com/) [Interment](http://www.interment.net/)
 - [Federal Land Records](http://www.glorecords.blm.gov/)
 - [Cyndi's List](http://www.cyndislist.com/#History)  
+
