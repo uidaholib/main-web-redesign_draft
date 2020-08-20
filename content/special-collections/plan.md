@@ -26,7 +26,7 @@ permalink: /special-collections/plan.html
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Browse Our Collection Descriptions Online
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Browse Our Collection Descriptions
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
@@ -34,9 +34,8 @@ permalink: /special-collections/plan.html
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p> Before you arrive, please take a moment to peruse our
-              <a href="description.html">collections</a>. Published materials can be found using the Library's
-              <a href="{{ '/index.html' | relative_url }}">general catalog</a>, and Finding Aids for archival collections can be searched using
-              <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0">Archives West</a>. If you have any questions or would like help locating U of I Library Special Collections &amp;
+              <a href="description.html">collection strengths and types</a> or 
+              <a href="browse.html">browse</a> our collections. If you have any questions or would like help locating U of I Library Special Collections &amp;
               Archives materials, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
@@ -48,17 +47,15 @@ permalink: /special-collections/plan.html
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Email Us Information about Your Interests
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Browse Our Digital Collections
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
         </div>
         <div id="collapseTwo" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> While appointments are not absolutely necessary, we do appreciate advanced notice of when you will be arriving
-              and the call numbers (including the prefix!) or Group numbers (either MG ###, UG ### or PG ###) including which
-              box numbers you would like to see. Simply email this information to
-              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> prior to your visit.</p>
+            <p> Our 
+              <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online. </p>
           </div>
           <!--end card-body-->
         </div>
@@ -68,15 +65,33 @@ permalink: /special-collections/plan.html
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Fill Out a Registration Form
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Email Us About Your Research Interests
+              <span class="fas fa-chevron-down smalltxt"></span>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p> Please see our Reading Room Reopening plans below for current information on services available during the COVID-19 pandemic. While appointments are not absolutely necessary, we do appreciate advanced notice of what you would like to view, so we can have the materials ready for you when you arrive. Simply email this information to
+              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> prior to your visit. We may also be able to help you digitally! </p>
+          </div>
+          <!--end card-body-->
+        </div>
+        <!--end collapse-->
+      </div>
+      <!--end card-->
+      <div class="card mt-3 mb-2">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour"> 4. Upon Arrival Fill Out a Registration Form
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p>Upon arrival to the Reading Room, you will be asked to fill out a Registration Form, acknowledging that all researchers
-              understand and will abide by protocols (see below) for using Special Collections and Archives materials. </p>
+            <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
+              understand and will abide by the Reading Room Rules (see below) for using Special Collections and Archives materials. </p>
           </div>
           <!--end card-body-->
         </div>
@@ -150,6 +165,8 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 
 - We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues.
 - Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collections does not surrender its own right to publish such material or grant permission to others to do so.
+
+---
 
 {:#directions}
 ## Getting Here
