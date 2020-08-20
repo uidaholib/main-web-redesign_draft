@@ -18,7 +18,8 @@ Our collections include, but are not limited to:
 
 Learn more about the strengths and focus of our holdings on the [Description of Collections](/special-collections/description.html) page.
 You can view our physical materials by visiting our [Reading Room](https://www.lib.uidaho.edu/special-collections/plan.html). 
-Many items have been digitized and can be discovered in [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/).
+Many items have been digitized and can be discovered in [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/),
+and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0).
 
 <div class="py-3 text-center">
     <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
