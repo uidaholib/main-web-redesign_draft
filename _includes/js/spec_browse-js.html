@@ -13,7 +13,9 @@ function makeCard(obj) {
     // group number
     card += '<strong>Group Number: </strong>' + obj.group + '<br>';
     // view finding aid
+    if(obj.link) {
     card += '<a href="' + itemHref + '" class="btn btn-outline-clearwater btn-sm m-1 mt-2" title="link to ' + obj.title + '" target="_blank" rel="noopener">View Finding Aid</a>';
+    }
     // digital collection
     if(obj.digital) {
         card += '<a href="' + obj.digital + '" class="btn btn-outline-wild-rose btn-sm m-1" title="link to ' + obj.title + ' digital collection" target="_blank" rel="noopener">Digital Collection</a>';
@@ -39,7 +41,7 @@ function makeCard(obj) {
     }
     // media type
     if(obj.type != "") {
-        card += '<a class="btn btn-sm btn-outline-secondary mx-1" href="{{ "/special-collections/browse.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
+        card += '<a class="btn btn-sm btn-outline-secondary m-1" href="{{ "/special-collections/browse.html" | relative_url }}#' + encodeURIComponent(obj.type) + '">' + 
         obj.type.toUpperCase() + ' <span class="';
         if(obj.type.includes('PG')){
         card += 'far fa-image';
