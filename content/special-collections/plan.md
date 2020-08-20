@@ -8,7 +8,7 @@ permalink: /special-collections/plan.html
 <div class="row">
 <div class="col-md-6 align-self-center">
 <p>The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the <a href="{{ '/about/maps.html' | relative_url }}">first floor</a> of the library. If you are unable to come to the Reading Room in person, please contact us to discuss options for digital reproductions of materials.</p>
-<div class="text-center mb-3">
+<div class="text-center">
   <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue m-1">Hours</a>
   <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue m-1">Reading Room</a>
   <a href="{{ '/special-collections/plan#directions' | relative_url }}" class="btn btn-outline-payette-blue m-1">Directions</a>

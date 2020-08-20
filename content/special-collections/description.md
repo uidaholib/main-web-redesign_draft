@@ -5,13 +5,10 @@ section: Special Collections
 permalink: /special-collections/description.html
 ---
 
-<div class="row mb-3">
-  <div class="col-md-12">
-    <img class="img-fluid" src="{{ site.lib-media }}/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus">
-  </div>
-</div>
 
-<div class="py-3 text-center">
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
+
+<div class="pb-3 text-center">
     <a href="{{ '/special-collections/description#strengths' | relative_url }}" class="btn btn-outline-payette-blue m-1">
      Collection Strengths</a>
     <a href="{{ '/special-collections/description#types' | relative_url }}" class="btn btn-outline-payette-blue m-1">
