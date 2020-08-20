@@ -6,38 +6,42 @@ layout: page
 ---
 <p>Print, microfilm, and digital theses and dissertations in our collections can be discovered in the main library catalog (see search and browse options below). To find the most recently submitted Thesis and Dissertations from UI <em>and</em> around the world in digital full-text, use <a href="https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551" target="_blank" rel="noopener">ProQuest's Dissertations & Theses Global</a> database. If you are looking for more information about submitting your own ETD at UI, please see <a href="https://www.uidaho.edu/cogs/resources/student-resources/thesis-dissertation" target="_blank" rel="noopener">COGS Thesis and Dissertation Resources</a></p>
 
-<div class=" row">
-    {% include js/primosearch.js%}
-    <div class="col-md-8">
-        
-        <h3>Search the catalog for theses and dissertations:</h3>
+<h3>Search the catalog for theses and dissertations:</h3>
 
-        <p>Use the search box below to find Dissertations and Theses in our catalog. You can search by title, author, and subject. </p>
-        <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
-            <label> Search </label>
-            <select id="primoFieldTemp" class="EXLSelectTag fixed">
-                <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" >
-                    All Fields</option>
-                <option class="EXLSelectOption" id="scope_titleall1" value="title">
-                    in the title</option>
+<p>Use the search box below to find Dissertations and Theses in our catalog. You can search by title, author, and subject. </p>
 
-                <option class="EXLSelectOption" id="scope_creatorall1" value="creator" >
-                    authors</option>
+{% include js/primosearch.js%}
+<form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
+    <label> Search </label>
+    <select id="primoFieldTemp" class="EXLSelectTag fixed">
+        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" >
+            All Fields</option>
+        <option class="EXLSelectOption" id="scope_titleall1" value="title">
+            in the title</option>
 
-                <option class="EXLSelectOption" id="scope_suball1" value="sub">
-                    in subject</option>
-            </select>
-            <label> for Theses and Dissertations containing: </label>
-            <input type="hidden" name="pfilter" value="pfilter,exact,dissertations,AND">
-            <input type="hidden" name="tab" value="default_tab">
-            <input type="hidden" name="search_scope" value="ui_alma">
-            <input type="hidden" name="vid" value="UID">
-            <input type="hidden" name="mode" value="advanced">
-            <input type="hidden" name="offset" value="0">
-            <input id="primoQuery" type="hidden" name="query">
-            <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 " placeholder="Search for theses/dissertations ...">
-            <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
-        </form>
+        <option class="EXLSelectOption" id="scope_creatorall1" value="creator" >
+            authors</option>
+
+        <option class="EXLSelectOption" id="scope_suball1" value="sub">
+            in subject</option>
+    </select>
+    <label> for Theses and Dissertations containing: </label>
+    <input type="hidden" name="pfilter" value="pfilter,exact,dissertations,AND">
+    <input type="hidden" name="tab" value="default_tab">
+    <input type="hidden" name="search_scope" value="ui_alma">
+    <input type="hidden" name="vid" value="UID">
+    <input type="hidden" name="mode" value="advanced">
+    <input type="hidden" name="offset" value="0">
+    <input id="primoQuery" type="hidden" name="query">
+    <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 " placeholder="Search for theses/dissertations ...">
+    <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
+</form>
+
+<hr> 
+
+<div class="mt-3 row">
+
+    <div class="col-md-6">
 
         <h3 class="mt-3">Browse Theses and Dissertations by subject:</h3>
 
@@ -97,22 +101,20 @@ layout: page
         </div>
 
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
 
         <div class="card my-2">
             <div class="card-header text-center mb-0">
-                <h3 class="card-title">Theses &amp; Dissertation Databases</h3>
+                <h3 class="card-title">ETD Databases</h3>
             </div>
             <div class="card-body text-center">
                 
                 <a href="https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/pqdtft/advanced?accountid=14551" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">ProQuest's Dissertations &amp; Theses</a>
                 
                 <hr >
-                <!--
-    <p class="text-center">Would you like to search for theses and dissertations from a particular UI college or department? Or find those guided by a certain UI professor? Click the button below and search over 12,000 theses and dissertations completed by UI students. </p>
-    <div class="text-center">
-      <a href="{{'/find/etddatabase.html' | relative_url }}" class="btn btn-secondary btn-md my-2" target="_blank" rel="noopener">UI Theses &amp; Dissertations</a>
-    </div>-->
+
+                <a href="https://digital.lib.uidaho.edu/digital/collection/etd/search" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">U of I ETD Digital Collection</a>
+                
             </div>
         </div>
 
