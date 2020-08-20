@@ -4,11 +4,8 @@ permalink: /special-collections/
 layout: page
 section: Special Collections 
 lazyload: true
+custom-foot: "js/spec_home.html"
 ---
-
-<style>
-  #index-carousel .carousel-item { height: 450px; }
-</style>
 
 <div class="row py-4">
   <div class="col-md-8">
@@ -50,18 +47,3 @@ lazyload: true
   <h2 class="mb-3">Explore the Collections</h2>
   {% include indexcarousel.html %}
 </div>
-
-<!--carousel js needs to go somewhere else? right now just in home.js, could be broken out to carousel components-->
-<script>
-  $(function () { objectFitImages() });
-  /* carousel pause button */
-  $("#carousel-pause").click(function () {
-      if($("#carousel-pause").hasClass("fa-pause-circle")){
-          $("#index-carousel").carousel("pause");
-          $("#carousel-pause").removeClass("fa-pause-circle").addClass("fa-play-circle");
-      } else {
-          $("#index-carousel").carousel("cycle");
-          $("#carousel-pause").removeClass("fa-play-circle").addClass("fa-pause-circle");
-      }
-  });
-</script>
