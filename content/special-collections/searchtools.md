@@ -9,7 +9,7 @@ Use these tools to discover finding aids, collections, and items in Special Coll
 
 {% assign tools = site.data.spec_searchtools %}
 
-<div class="row py-3">
+<div class="row py-3 justify-content-center">
 {% for t in tools %}
 <div class="col-md-6 text-center">
 {% capture text %}
