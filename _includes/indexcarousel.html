@@ -1,7 +1,7 @@
 {%- if page.section == 'home' -%}
 {%- assign slides = site.data.carousel -%}
 {%- elsif page.section == 'Special Collections' %}
-{%- assign slides = site.data.spec_featured_collections %}
+{%- assign slides = site.data.spec_carousel %}
 {%- endif -%}
 
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
