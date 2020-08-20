@@ -14,6 +14,7 @@ Yes. Primary sources and other archival materials are still subject to the same 
 If your professor or publisher does not require a specific citation style, here is a [general guide](https://libguides.uidaho.edu/citing).
 
 Citations should lead your readers directly to the original sources you have consulted and should include as much identifying information as possible. Citations should include:
+
 - author or creator's name
 - title of the work or specific item
 - date
@@ -24,7 +25,7 @@ Citations should lead your readers directly to the original sources you have con
 
 Here’s an example from one of our [collections](https://archiveswest.orbiscascade.org/ark:/80444/xv119445/op=fstyle.aspx?t=k&q=): 
 
-“Three men and loaded gun rack inside tent,” undated. Priest Lake Museum Association Photographs, photo #17-01-26. University of Idaho Library, Special Collections and Archives, Moscow, Idaho. 
+"Three men and loaded gun rack inside tent," undated. Priest Lake Museum Association Photographs, photo #17-01-26. University of Idaho Library, Special Collections and Archives, Moscow, Idaho. 
 
 ## Do I need to obtain permission to publish materials from your collections?
 
@@ -34,4 +35,4 @@ Users are solely responsible for ensuring that they are observing Fair Use as de
 
 ## Still have questions?
 
-Feel free to review our [Reproductions & Use Policy](https://www.lib.uidaho.edu/special-collections/special-collections/reproductions.html) or [contact us](https://www.lib.uidaho.edu/special-collections/special-collections/plan.html) and we can help!
+Feel free to review our [Reproductions & Use Policy](/special-collections/reproductions.html) or [contact us](/special-collections/plan.html) and we can help!

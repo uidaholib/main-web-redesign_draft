@@ -5,8 +5,6 @@ permalink: /special-collections/genealogicalresources.html
 layout: page
 ---
 
-# Genealogical Resources
-
 A bibliography of genealogical sources at the University of Idaho Library. For more questions about these sources or where to find them, please [contact](https://www.lib.uidaho.edu/special-collections/about/contact) Special Collections. 
 
 {% include feature/figure.html img="https://digital.lib.uidaho.edu/digital/api/singleitem/image/ott/597/default.jpg" alt="Genesee Pioneer Niels J. Visby and Family" %}
@@ -27,7 +25,7 @@ A bibliography of genealogical sources at the University of Idaho Library. For m
 - University of Idaho General Catalog – **Also sometimes called the Bulletin**.  This is the Course Catalog, which also lists general information about the University and all of the Colleges, Professors, and in the earliest editions, Students, Degrees Granted, and Alumni. There is a complete set for patrons to browse in the Reading Room. [Idaho LB2342.86.I2U5](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/m1uotc/CP71136052900001451)
 - Commencement programs, also available for various University branches [Idaho LD2317.U55](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/175rl2u/CP71131054610001451)
 
-### A Few Local and Regional Sources
+## A Few Local and Regional Sources
 
 - Family maps of Latah County, Idaho: with homesteads, roads, waterways, towns, cemeteries, railroads, and more. [Day-NW F752.L3B69 2009](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/175rl2u/CP71151920010001451)
 - Latah County, Idaho, birth records, 1907-1911. [Day-NW HB935.I22S3 1907-1911](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/175rl2u/CP71131251400001451)
@@ -68,6 +66,7 @@ Index (soundex) to the population schedules of the tenth census of the United St
 
 
 ## See Also:
+
 - [Latah County Historical Society](http://users.moscow.com/lchs/)
 - [Latah County Clerk/Recorder](http://www.latah.id.us/clerk/)
 - Your local public library. Many public libraries have subscriptions to HeritageQuest and Ancestry Library Edition.  

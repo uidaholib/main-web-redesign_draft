@@ -39,7 +39,7 @@ When we edit archivist-supplied language, these changes are noted in the “Proc
 
 ## Section 3: Current Descriptive Practices 
 
-We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Back Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to:  
+We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Black Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to:  
 
 - Using active language to “embed responsibility” in our archival descriptions 
 - Prioritizing the “humanity of an individual before their identity/ies” 
