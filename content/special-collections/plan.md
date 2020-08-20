@@ -151,6 +151,8 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 - We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues.
 - Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collections does not surrender its own right to publish such material or grant permission to others to do so.
 
+---
+
 {:#directions}
 ## Getting Here
 
