@@ -1,127 +1,28 @@
-/* base */
-body {
-    font-family: $base-font-family;
-    //font-size: $base-font-size;
-   // font-weight: $base-font-weight;
-   // line-height: $base-line-height;
-    color: $text-color;
-   // background: $background-color;
-}
-a {
-    color: $link-color;
-    text-decoration: none;
-    font-weight:bold;
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
-
-.container {
-    @media (min-width: 576px) and (max-width: 768px){
-        max-width: 100%;
-        padding:inherit 10px;
-    }
-    @media (min-width: 768px) and (max-width: 900px){
-        max-width: 740px;
-    }
-    @media (min-width: 1400px){
-        max-width: 1300px;
-    }
-}
-/* skip nav for accessibility */
-#skip-to-content a {
-	padding:6px;
-	position: absolute;
-	top:-40px;
-	left:0px;
-	color:white;
-	border-right:1px solid white;
-	border-bottom:1px solid white;
-	border-bottom-right-radius:8px;
-	background:#BF1722;
-	-webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 100;
-}
-#skip-to-content a:focus {
-	position:absolute;
-	left:0px;
-	top:0px;
-	outline-color:transparent;	
-	-webkit-transition: top .1s ease-in;
-    transition: top .1s ease-in;
-}
-/* top bar */
-#topbar-ui-home {
-    color: $grey-color;
-}
-
-/* banner */
-.lib-logo-lg {
-    max-height: 80px;
-}
-/* lib chat button fix */
-#askus_libchat #libchat_ed1418c47639635236cffc31f9e86e74 button { padding: 0px; width: 100%; border: none; }
-/* main nav */
-#main-nav {
-    background: $nav-background;
-    ul {
-        font-size: 18px;
-    }
-    .nav-link {
-        color: $link-color;
-    }
-}
-#mobilemenu {
-    .modal-header {
-        border-bottom: none;
-        padding: 1rem 1rem 0 0;
-    }
-    .modal-body {
-        padding: 0 1rem 1rem 1rem;
-    }
-    ul {
-        font-size: 24px;
-    }
-}
-/* big dropdown */
-.dropdown-menu {
-    .container {
-        width:1300px;
-        margin-right:-17px;
-
-        @media (min-width: 768px) and (max-width: 900px){
-            width:740px !important;
-        }
-    }
-}
-
-.popular {
-    width: 90%;
-    color: #191919;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* footer */
-footer, footer a {
-    color:white !important;
-    font-weight: 300;
-    background-color: $black-color;
-}
-
-#page-nav .active {
-    background-color: #fff !important; 
-    border-right: 2px solid;
-    border-right-color: #191919 !important;
-}
+/* 
+    other random CSS 
+*/
 
 /* libchat widget floating */
 @media (max-width: 576px) { .s-lch-widget-float{ display: none!important;} }
 
 /* tweak alerts with markdown inside */
-.alert p:last-of-type { margin-bottom: 0; } 
+.alert p:last-of-type { margin-bottom: 0; }
 
-/* temp to hide room bookings during covid-19 */
-#topbar-rooms { display: none !important; }
+/* tweak spacing of dropdown triangle thing */
+.dropdown-toggle::after {
+    margin-left: 15px;
+}
+
+/* Circle buttons */
+.btn-circle { 
+    width: 180px; 
+    height: 180px; 
+    padding: 10px; 
+    border-radius: 90px; 
+    font-size: 18px; 
+    text-align: center; 
+    overflow: hidden;
+    &:hover{
+        color:white !important;
+    }
+} 

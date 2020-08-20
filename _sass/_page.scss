@@ -1,32 +1,13 @@
+/* 
+    styles for content pages, 
+    providing split background look for sidebar nav
+*/
+// section title 
 #page-title {
     background: $black-color;
     color: $light-text-color;
 }
-.page-wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-    .breadcrumb {
-        background: $background-color;
-    }
-}
-#sidebar {
-    background: $nav-background;
-}
-#page-nav {
-    //width: 250px;
-    font-size:18px;
-    a {
-        font-weight: 300 !important;
-    }
-    li { border-color: #d5d5d5 !important; }
-}
-.dropdown-toggle::after {
-    margin-left: 15px;
-}
-.page-block { 
-    background: $background-color;
-}
+// page nav
 .split-background {
     background: linear-gradient(
         to right, 
@@ -39,14 +20,34 @@
         background: $background-color;
     }
 }
+#sidebar {
+    background: $nav-background;
+}
+#page-nav {
+    font-size: $base-font-size * 1.05;
+    a {
+        font-weight: 300 !important;
+    }
+    li { border-color: #d5d5d5 !important; }
+}
+.page-block { 
+    background: $background-color;
+}
 .breadcrumb {
     background: $background-color;
 }
+/* narrow text block for page-narrow layout */
+.page-narrow {
+    max-width: 700px;
+    @media (min-width: 1500px) {
+        max-width: 750px;
+    }
+}
+/* card-button class for section index pages to avoid display issues */
 .card-button {
     cursor: pointer;
     &:hover { text-decoration: none; }
     .card:hover { background: #f2f2f2; }
     h5:hover { text-decoration: underline; }
     p { font-weight: 400; }
-
 }

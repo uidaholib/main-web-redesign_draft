@@ -1,4 +1,8 @@
-/* new carousel */ 
+/* 
+    styles for home page
+*/
+
+/* carousel */ 
 #index-carousel {
     background: rgba(0, 0, 0, 0.7); 
     color: white;
@@ -60,6 +64,7 @@
         border-style: dotted;
     }
 }
+
 /* searchnav */ 
 .searchcontainer {
     background: #191919;
@@ -74,6 +79,7 @@
     .dropdown-item{color:#191919 !important;}
 }
 #quickLinks a { font-size: 18px;}
+
 /* featured researcher */
 #featuredResearcher {
     max-width: 16rem;
