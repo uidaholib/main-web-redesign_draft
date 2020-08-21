@@ -126,7 +126,7 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 
 - [Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
 - Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via [Archives West](https://archiveswest.orbiscascade.org/) or the [Special Collections website]({{ '/special-collections/' | relative_url }}).  
-- Please see [Reading Room Rules]({{ '/special-collections/rules.html' | relative_url }}) for additional details of Special Collections & Archives reopening plans and guidelines.
+- Please see [Reading Room Rules]({{ '/special-collections/plan.html' | relative_url }}) for additional details of Special Collections & Archives reopening plans and guidelines.
 
 ## Community Visitors/Non-UI Affiliated Visitors
 {: .my-4}
