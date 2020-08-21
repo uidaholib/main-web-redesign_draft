@@ -1,6 +1,6 @@
 ---
 title: Special Collections Policies
-layout: page
+layout: page-narrow
 section: Special Collections
 permalink: /special-collections/policies.html
 ---

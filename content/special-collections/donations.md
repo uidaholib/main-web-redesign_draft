@@ -1,12 +1,14 @@
 ---
 title: Donations
-layout: page
+layout: page-narrow
 section: Special Collections
 permalink: /special-collections/donations.html
 ---
 
 Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications to Special Collections in the University of Idaho Library. 
 Collections that may be accepted include those relating to the history, culture, and environment of Idaho and the Pacific Northwest, University history and memorabilia, and personal papers or memorabilia of jazz musicians and critics.
+
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
 
 ## Monetary Support
 
