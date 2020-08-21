@@ -5,7 +5,6 @@ section: Special Collections
 permalink: /special-collections/description.html
 ---
 
-
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
 
 <div class="pb-3 text-center">
