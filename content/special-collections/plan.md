@@ -19,7 +19,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 </div>
 </div>
 
-<div class="row">
+<div class="row justify-content-center">
   <div class="col-md-8 my-4">
     <h4>Steps to Take before Arriving:</h4>
     <div id="accordion">
