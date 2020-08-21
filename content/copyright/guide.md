@@ -353,7 +353,7 @@ The University of Idaho Library supports instruction with course reserves and ot
 
 - [Borrowing Policies](http://www.lib.uidaho.edu/services/ill/index.html)
 
-#### [Special Collections](http://www.lib.uidaho.edu/special-collections)
+#### [Special Collections](http://www.lib.uidaho.edu/special-collections/)
 
 - [Digital Collections](http://www.lib.uidaho.edu/digital)
 - [International Jazz Collections](http://www.ijc.uidaho.edu/)
