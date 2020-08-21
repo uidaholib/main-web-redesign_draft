@@ -1,25 +1,27 @@
 <script src="{{ '/assets/datatables/datatables.min.js' | relative_url }}"></script>
 <script>
-$.fn.dataTableExt.afnFiltering.push(
-	function( oSettings, aData, iDataIndex ) {
-		var collectionFilter = document.getElementById("groupSelect").value;
-		// show everything
-		if (collectionFilter == "all") { return true; }
-		else { return aData[1] == collectionFilter; }
-	}
-);
-</script>
-<script>
-/* use jquery to initialize DataTables and load collection data */
 (function(){
+    // set up filter by dropdown
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var collectionFilter = document.getElementById("groupSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[1] == collectionFilter; }
+        }
+    );
+
+    /* use jquery to initialize DataTables and load collection data */
 	var table = $('#all-collections').dataTable({
 		// defer render to speed up large sets
 		"deferRender": true,
 		paging: true,
 		lengthMenu: [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
 		// sort based on the type
-		order: [[ 1, "asc" ]]
-		
+        order: [[ 1, "asc" ]],
+        // add download features
+        dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>',
+        buttons: [ 'excelHtml5', 'csvHtml5' ]
 	});
 	/* Add event listeners to collectionSelect */
 	$('#groupSelect').change( function() {

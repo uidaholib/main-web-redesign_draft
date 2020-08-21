@@ -3,219 +3,47 @@ title: Special Collections &amp; Archives
 permalink: /special-collections/
 layout: page
 section: Special Collections 
+lazyload: true
+custom-foot: "js/spec_home.html"
 ---
-<style>
-#spec-carousel .carousel-item { height: 180px; }
-#spec-carousel .carousel-item img { height:180px; }
-</style>
 
-<div class="row pt-3">
-  <div class="col-md-12">
-    <div id="spec-carousel" class="carousel slide row" data-ride="carousel">
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        {% for i in site.data.spec_carousel %}
-        <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <img src="{{ site.lib-media }}/spec/carousel/{{ i.image-src }}" title="{{ i.image-alt }}" alt="{{ i.image-alt }}" >
-          <!-- {{ i.source }} -->
-        </div>
-        {% endfor %}
-      </div>
-      <!-- Controls -->
-      <a class="carousel-control-prev" href="#spec-carousel" role="button" data-slide="prev">
-        <span class="fas fa-chevron-left"></span>
-      </a>
-      <a class="carousel-control-next" href="#spec-carousel" role="button" data-slide="next">
-        <span class="fas fa-chevron-right"></span>
-      </a>
-    </div>
-  </div>
-</div>
-
-{% include feature/alert.html color="warning" text="At this time the Reading Room is only available by appointment, for details please see our <a href='rules.html' class='alert-link'>Reading Room Rules</a>." dismiss=true %}
-
-<div class="row pt-4">
-  
+<div class="row py-4">
   <div class="col-md-8">
-    <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho, and the University of Idaho. Our physical collections are available to be used throughout the year via our <a href="{{ '/special-collections/about.html' | relative_url }}">Reading Room</a>. Many of our collections can also be viewed online, via the library's <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a>.</p>
-
-    <p>The Special Collections and Archives Reading Room is in <a href="{{ '/about/maps.html#first' | relative_url }}" target="_blank" rel="noopener">Room 121 on the library's first floor</a>.</p>
-
-    <div class="text-center">  
-      <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary m-2">
-        <span class="fas fa-list"></span> Plan Your Visit</a>
-      <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary m-2">
-        <span class="fas fa-gift"></span> Donate to Special Collections</a>
+    <p>The Special Collections and Archives department specializes in the acquisition, preservation, and use of research materials that document the cultural and environmental history of Idaho and the University of Idaho.</p>
+    <p>Our physical material is available for use throughout the year via our <a href="{{ '/special-collections/plan.html' | relative_url }}">Reading Room</a>. Many of our collections can also be viewed online through the Library's <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and finding aids can be discovered in <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0">Archives West</a>.</p>
+    <div class="text-center mb-2">
+      <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-outline-pride-gold btn-lg mb-2">
+        <span class="fas fa-search"></span> Browse the Collections</a><br>
+      <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">
+        <span class="fas fa-edit"></span> Plan Your Visit</a>
+      <a href="{{ '/special-collections/searchtools.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">
+        <span class="far fa-image"></span> Search Tools</a>
+      <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">
+        <span class="fas fa-question"></span> FAQ</a>
+      <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">
+        <span class="fas fa-gift"></span> Donate</a>
     </div>
   </div>
-
-  <div class="col-md-4 ">
-    <div class="card my-3">
+  <div class="col-md-4 align-self-center">
+    <div class="card">
       <div class="card-body text-center">
         <h3>Hours:</h3>
-       <!--<p> 10:00 am to 2:00 pm<br>
-					Monday - Friday
-				</p>-->
-				<p>
-          By appointment only with limitations as part of the <a href="{{ '/covid19/impact.html' | relative_url }}">Library's Covid-19 response</a>. Please see <a href="rules.html">Reading Room Rules</a> for full details.
-        </p>
-        <p>Contact us by email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or by phone <a href="tel:+1-208-885-0845">(208) 885-0845</a> for help.</p>
-        <!--
-        <p><strong>Reduced Hours:</strong><br>
-          Closed Dec. 24, 2018 to Jan. 1, 2019.
-        </p>
-        -->
+        <p>By appointment only</p>
       </div>
     </div>
-    
-  </div>
-
-</div>
-
-<div class="row">
-  <div class="col-md-12">
-    <div class="card mb-3">
+    <div class="card my-3">
       <div class="card-body text-center">
-
-        <p class="mb-1">Search our finding aids on Archives West <a href="#" data-toggle="modal" data-target="#nwda" role="button"><i class="fas fa-info-circle"></i><span class="sr-only">more info</span></a></p>
-
-        <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get">
-          <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
-          <input id="t" name="t" type="hidden" value="k">
-          <input id="c" name="c" type="hidden" value="ntd">
-          <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
-        </form>
-
-        <!-- modal -->
-        <div class="modal fade nwda" id="nwda" tabindex="-1" role="dialog" aria-labelledby="nwda">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <h3 class="modal-title">About Archives West</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p><a href="https://archiveswest.orbiscascade.org/" target="_blank" rel="noopener">Archives West</a> is a collection of finding aids from organizations throughout the Northwest. This search box will take you to their website, searching only our holdings. Please contact <a href="contactus.html">our staff</a> for additional assistance.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--end modal-->
-
+        <h3>Contact Us:</h3>
+        <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
+          Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a></p>
       </div>
     </div>
   </div>
-</div>
-
-<!-- links cards row -->
-<div class="row">
-
-  <div class="col-md-4">
-    <div class="card card-default">
-      <div class="card-header">
-        <h3 class="card-title">Information</h3>
-      </div>
-      <div class="card-body">
-        <ul class="list-unstyled">
-          <li><a href="{{ '/special-collections/about.html' | relative_url }}">About</a></li>
-          <li><a href="{{ '/special-collections/plan.html' | relative_url }}">Plan Your Visit</a> (<a class="smalltxt" href="{{ '/special-collections/rules.html' | relative_url }}">Rules</a>)</li>
-          <li><a href="{{ '/special-collections/reproduction.html' | relative_url }}">Reproduction Procedures</a></li>
-          <li><a href="{{ '/special-collections/findingaids.html' | relative_url }}">Search Tools</a></li>
-          <li><a href="{{ '/special-collections/histphoto/' | relative_url }}">Search Historical Photos</a></li>
-          <li><a href="{{ '/find/argonaut.html' | relative_url }}">Search the Argonaut</a></li>
-          <li><a href="{{ '/help/search.html' | relative_url }}">Search the Site</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="card card-default">
-      <div class="card-header">
-        <h3 class="card-title">Finding Aids and Collections</h3>
-      </div>
-      <div class="card-body">
-        <ul class="list-unstyled">
-          <li><a href="{{ '/special-collections/description.html' | relative_url }}">Collection Descriptions</a></li>
-          <li><A href="{{ '/special-collections/searchall.html' | relative_url }}">Search/Browse All Collections</a></li>
-          <!--<a href="/special-collections/mgfindingaids.html" ><span class="word-hide">Manuscript Groups</span><span class="word-show">Manuscripts</span></a> 
-<a href="/special-collections/pgfindingaids.html"><span class="word-hide">Photograph Groups</span><span class="word-show">Photographs</span></a> 
-<a href="/special-collections/unirecords.html"><span class="word-hide">University Archives</span><span class="word-show">UI Archives</span></a> -->
-          <li><a href="{{ '/special-collections/forestry.html' | relative_url }}">Forestry Collections</a></li>
-          <li><a href="{{ '/special-collections/dayfindingaids.html' | relative_url }}">Mining Collections</a></li>
-          <li><a href="https://www.ijc.uidaho.edu/">International Jazz Collections</a></li>
-          <li><a href="{{ '/media/spec/GenealogicalResources.pdf' | relative_url }}">Genealogy Resources</a></li>
-          <li><a href="{{ '/special-collections/primary.html' | relative_url }}">Primary Source Primer</a></li>
-          <li><a href="{{ '/media/spec/idaho_community_telephone_and_business_directories.pdf' | relative_url }}">Idaho Community Telephone and Business Directories</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="card card-default">
-      <div class="card-header">
-        <h3 class="card-title center">Campus History</h3>
-      </div>
-      <div class="card-body">
-        <ul class="list-unstyled">
-          <li><a href="{{ '/special-collections/uitimeline.html' | relative_url }}">Historical Timeline</a></li>
-          <li><a href="{{ '/special-collections/uibuildings.html' | relative_url }}">University Buildings</a></li>
-          <li><a href="http://www.lib.uidaho.edu/digital/campus/">Campus Photographs</a></li>
-          <li><a href="{{ '/special-collections/uibibliography.html' | relative_url }}">Bibliography</a></li>
-          <li><a href="{{ '/special-collections/usefullinks.html' | relative_url }}">Useful Links</a></li>
-          <li><a href="{{ '/special-collections/contactus.html' | relative_url }}">Contact Us for Assistance</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
 </div>
 
 <hr>
 
-<!-- exhibits cards row -->
-<h3 id="exhibits" class="my-4">Current Exhibits</h3>
-  
-<div class="row">
-  {% for e in site.data.spec_exhibits %}{% if e.active == 'true' %}
-  <div class="col-12 mb-3">
-    <div class="card">
-      <div class="card-body">
-        
-        <div class="row">
-          <div class="col-sm-7 card-text">
-              <h4>{{ e.title }}</h4>
-            {{ e.description }}</div>
-          <div class="col-sm-5">
-            <img src="{{ e.image }}" class="card-img">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}{% endfor %}
-</div>
-
-<hr>
-
-<!-- featured collections cards row -->
-<h3 class="my-4">Featured Collections</h3>
-
-<div class="row">
-  {% for fc in site.data.spec_featured_collections %}{% if fc.active == 'true' %}
-  <div class="col-md-6">
-    <div class="card text-center my-2">
-      <div class="card-header">
-        <h3 class="card-title text-center mb-0"><a href="{{ fc.link }}">{{ fc.title }}</a></h3>
-      </div>
-      <div class="card-body">
-        <a href="{{ fc.link }}"><img class="card-img" src="{{ fc.image }}" alt="{{ fc.title }}"></a>
-        <p class="card-text pt-3">{{ fc.description }}</p>
-      </div>
-    </div>
-  </div>
-  {% endif %}{% endfor %}
+<div class="row mb-5">
+  <h2 class="mb-3">Explore the Collections</h2>
+  {% include indexcarousel.html %}
 </div>

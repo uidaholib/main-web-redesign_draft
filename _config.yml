@@ -28,6 +28,7 @@ liburl: https://www.lib.uidaho.edu
 histphoto-build: false
 idahobio-build: false
 all-collections-build: false
+speccoll-build: false
 
 #compress CSS output
 sass:

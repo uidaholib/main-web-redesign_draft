@@ -1,0 +1,59 @@
+---
+title: Collection Data
+layout: full-width-page
+section: Special Collections
+permalink: /special-collections/data.html
+custom-foot: "js/spec_collection_data.html"
+---
+
+<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
+
+<p>A list of over 1,400 record groups held by Special Collections can be browsed in the table below, with basic sort, filter, and search functions. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0" target="_blank" rel="noopener">Archives West</a>.<br>
+To download the filtered data click the Excel / CSV button below, or <a href="{{ '/assets/data/spec_collections.csv' | relative_url }}">download Full SPEC Collections CSV</a></p>
+
+<div class="form-group row justify-content-end">
+	<label for="groupSelect" class="col-sm-2 col-form-label text-right">Filter Collections:</label>
+	<div class="">
+		<select id="groupSelect" class="custom-select form-control">
+			<option value="all">All Groups</option>
+			<option value="PG">Photo Groups Only</option>
+			<option value="MG">Manuscript Groups Only</option>
+			<option value="UG">University Groups Only</option>
+			<option value="IJC-MG">International Jazz Collections</option>
+			<option value="VF">Vertical File</option>
+		</select>
+	</div>
+</div>
+
+<table id="all-collections" class="table table-striped">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Title</th>
+			<th>Group Type</th>
+			<th>Group Number</th>
+			<th>Finding Aid</th>
+			<th>Digital Collection</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	{%- assign items = site.data.spec_collections_master -%}
+	{%- for item in items -%}
+	<tr>
+		<td class="title">{{ item.title }}</td>
+		<td class="grouptype">{{ item.type }}</td>
+		<td class="groupnumber">{{ item.number | prepend: '0000' | slice: -4, 4 }}</td>
+		<td class="finding-aid">{% if item.finding_aid_link %}<small><a target="_blank" rel="noopener" href="{{ item.finding_aid_link }}">Finding Aid <span class="fas fa-external-link-alt"></span></a></small>{% endif %}</td>
+		<td class="digital-collection">{% if item.digital_collection %}<small><a target="_blank" rel="noopener" href="{{ item.digital_collection }}">Digital Collection <span class="fas fa-external-link-alt"></span></a></small>{% endif %}</td>
+	</tr>
+	{%- endfor -%}
+	</tbody>
+</table>

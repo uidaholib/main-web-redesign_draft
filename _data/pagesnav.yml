@@ -281,58 +281,45 @@ Special Collections:
     stub: /special-collections/
   - subsection: Special Collections Home
     link: /special-collections/
+  - subsection: Plan Your Visit
+    link: /special-collections/plan.html
   - subsection: About
     link: /special-collections/about.html
     subpages:
       - name: About
         url: /special-collections/about.html
-      - name: Plan Your Visit
-        url: /special-collections/plan.html
-      - name: Reading Room Rules
-        url: /special-collections/rules.html
-      - name: Reproductions
-        url: /special-collections/reproduction.html
+      - name: Policies
+        url: /special-collections/policies.html
+      - name: Donations
+        url: /special-collections/donations.html
   - subsection: Collections
     url: /special-collections/description.html
     subpages:
       - name: Descriptions
         url: /special-collections/description.html
-      - name: Search All
-        url: /special-collections/searchall.html
-      - name: Forestry
-        url: /special-collections/forestry.html
-      - name: Mining
-        url: /special-collections/dayfindingaids.html
-      - name: Wilderness
-        url: /special-collections/wilderness.html
-      - name: Jazz Collections
-        url: https://www.ijc.uidaho.edu/
+      - name: Browse
+        url: /special-collections/browse.html
+      - name: Collection Data
+        url: /special-collections/data.html
   - subsection: Search Tools
-    url: /special-collections/searchtools.html
+    link: /special-collections/searchtools.html
+  - subsection: Instruction
+    link: /special-collections/instruction.html
+  - subsection: Research Resources
+    url:
     subpages:
-      - name: Tools Index
-        url: /special-collections/searchtools.html
-      - name: Photo Search
-        url: /special-collections/histphoto/
+      - name: Finding Aids
+        url: /special-collections/findingaids.html
       - name: Idaho Biographical Index
-        url: /special-collections/idahobio.html       
-      - name: Useful Links
-        url: /special-collections/usefullinks.html
-      - name: Site Search
-        url: /help/search.html
-  - subsection: Campus History
-    url: /special-collections/uitimeline.html
-    subpages:
-      - name: UI Timeline
-        url: /special-collections/uitimeline.html
-      - name: UI Buildings
-        url: /special-collections/uibuildings.html
-      - name: Bibliography
+        url: /special-collections/idahobio.html
+      - name: Bibliography of UI History
         url: /special-collections/uibibliography.html
-  - subsection: Donations
-    link: /special-collections/donations.html
-  - subsection: Contact Us
-    link: /special-collections/contactus.html
+      - name: Genealogical Resources
+        url: /special-collections/genealogicalresources.html
+      - name: Telephone and Business Directories
+        url: /special-collections/directories.html        
+  - subsection: FAQ
+    link: /special-collections/faq.html
 
 # MILL Section
 MILL:

@@ -1,9 +1,4 @@
-image-src,image-alt,source
-spec_crop2.jpg,"1917 panoramic photograph of the University of Idaho campus",http://digital.lib.uidaho.edu/cdm/ref/collection/pg1/id/1039
-spec_crop3.jpg,"1936 photograph of University of Idaho students with sheep at the Little International",http://digital.lib.uidaho.edu/cdm/ref/collection/pg1/id/1033
-spec_crop4.jpg,"Panorama of Wallace, Idaho from the Barnard-Stockbridge Collection",http://digital.lib.uidaho.edu/cdm/ref/collection/bar-stock/id/282
-spec_crop5.jpg,"1925 photograph of The Idaho Wholesale Co., Inc.",http://digital.lib.uidaho.edu/cdm/ref/collection/bar-stock/id/808
-spec_crop6.jpg,"1916 photograph of soldiers in Wallace, Idaho leaving for War",http://digital.lib.uidaho.edu/cdm/ref/collection/bar-stock/id/485
-spec_crop7.jpg,"1912 photograph of veterans of the Civil War marching through Moscow, Idaho",http://digital.lib.uidaho.edu/cdm/ref/collection/ott/id/61
-spec_crop8.jpg,"1897 hand-drawn birds-eye map of Moscow, Idaho",http://digital.lib.uidaho.edu/cdm/ref/collection/ott/id/0
-spec_crop9.jpg,"1949 photograph of the construction of the Soap Lake Siphon, part of the Columbia Basin Project",http://digital.lib.uidaho.edu/cdm/ref/collection/crbproj/id/1046
+image-src,image-alt,headline,paragraph,link,link-text,link2,link2-text
+/media/spec/collections/ijcag_443_full.jpg,jazz artifacts,International Jazz Collections,"The premier jazz archive of the Pacific Northwest",https://www.ijc.uidaho.edu/,Learn more,
+/media/spec/collections/books.jpg,Terry Abraham Web Archive,Terry Abraham Web Archive,"The papers of Terry Abraham, former head of Special Collections and Archives",https://www.lib.uidaho.edu/special-collections/t-abraham/,View archive,
+/media/spec/collections/ott_766_full.jpg,,Potlatch Collection,"Records of the Potlatch Lumber Company, spanning 1890 to 1949",https://www.lib.uidaho.edu/digital/plcphotos/,Learn more,

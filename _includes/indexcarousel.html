@@ -1,13 +1,19 @@
+{%- if page.section == 'home' -%}
+{%- assign slides = site.data.carousel -%}
+{%- elsif page.section == 'Special Collections' %}
+{%- assign slides = site.data.spec_carousel %}
+{%- endif -%}
+
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
-        {% for slide in site.data.carousel %}
+        {% for slide in slides %}
         <li data-target="#index-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
         {% endfor %}
     </ol>
 
     <div class="carousel-inner">
         
-    {% for slide in site.data.carousel %}
+    {% for slide in slides %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
         <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{{ slide.image-src | prepend: site.liburl }}" alt="{{ slide.image-alt }}">
         <div class="carousel-caption d-none d-md-block px-3 mb-3">
