@@ -23,7 +23,7 @@ We are happy to work with you to support your class and their original research 
 <div class="card my-3">
     <div class="card-body text-center">
         <p>To request Special Collections instruction, please fill out:</p>
-        <p><a href="https://uidaho.co1.qualtrics.com/Q/EditSection/Blocks?SurveyID=SV_d5NQ5VRSqnjOPRj" target="_blank" rel="noopener" class="btn btn-outline-pride-gold"><span class="far fa-file-alt"></span> SPEC Instruction Request Form</a></p>
+        <p><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d5NQ5VRSqnjOPRj" target="_blank" rel="noopener" class="btn btn-outline-pride-gold"><span class="far fa-file-alt"></span> SPEC Instruction Request Form</a></p>
     </div>
 </div>
 
