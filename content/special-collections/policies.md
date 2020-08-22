@@ -106,7 +106,7 @@ Users are solely responsible for ensuring that they are observing Fair Use as de
 
 ### Still have questions?
 
-Feel free to review our [Reproductions & Use Policy](/special-collections/reproductions.html) or [contact us](/special-collections/about.html) and we can help!
+Feel free to review our [Reproductions & Use Policy](/special-collections/policies.html#reproduction-requests) or [contact us](/special-collections/about.html) and we can help!
 
 -----------------
 
