@@ -119,7 +119,7 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 ### Gary Strong Curriculum Center
 {:.h4} 
 
-- The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopen with limited hours, Monday through Thursday 9:00am - 12:00pm.
+- The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopen with limited hours, Monday through Friday 10:00am - 3:00pm.
 
 ### Special Collections & Archives
 {:.h4}
