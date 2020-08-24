@@ -112,15 +112,13 @@ Feel free to review our [Reproductions & Use Policy](/special-collections/polici
 
 ## Offensive Material in Archival Collections 
 
-Archival collections can contain language and materials from history that reference beliefs, norms, and values that are no longer (or never were) consistent with those of the University of Idaho. The University of Idaho Library, Special Collections and Archives works to describe our collections in an inclusive way that is respectful to the communities they represent (created by, created for, created about) and warn users about collections containing materials that may be offensive. We do this by: 
+Archival collections can contain language and materials from history that reference beliefs, norms, and values that are no longer (or never were) consistent with those of the University of Idaho. The University of Idaho Library, Special Collections and Archives Department works to describe our collections in an inclusive way that is respectful to the communities they represent (created by, created for, created about) and warn users about collections containing materials that may be offensive. We do this by: 
 
 - Flagging discriminatory or offensive content included by creators 
 - Removing or changing discriminatory language used by previous archivists in describing collections 
 - Using inclusive, non-discriminatory language in our current descriptive practice 
 - Committing to a culture of ongoing discussion and continued learning 
 - Aligning our efforts with Library diversity, equity, and inclusion initiatives 
-
-Due to the vast amount of material we hold, we will not be able to flag all offensive content in our collections. If you find something that you think should be flagged or changed, please contact us at <libspec@uidaho.edu> and we will review the material and address it according to our policy. 
 
 We notify users when we are aware that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection’s "About" page.  
 
@@ -132,6 +130,8 @@ We flag content containing:
 - Language regarding non-consensual activity (e.g., rape) 
 - Sexually explicit images 
 - Images depicting gore, violence, or other graphic or offensive content 
+
+Due to the vast amount of material we hold, we will not be able to flag all offensive content in our collections. If you find something that you think should be flagged or changed, please contact us at <libspec@uidaho.edu> and we will review the material and address it according to our policy. 
 
 ### Non-Discriminatory Language 
 
