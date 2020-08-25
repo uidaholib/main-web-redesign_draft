@@ -7,7 +7,7 @@ permalink: /special-collections/about.html
 
 <div class="row pt-3">
 <div class="col-md-6" markdown="1">
-Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and use of archival research materials that document the history and culture of Idaho and the University of Idaho. We have over 25,000 linear feet of rare, unique, and valuable materials. Our collections include, but are not limited to:
+Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and accessibility of archival research materials that document the history and culture of Idaho and the University of Idaho. We have over 25,000 linear feet of rare, unique, and valuable materials. Our collections include, but are not limited to:
 
 - Personal papers of individuals and families
 - Business records (lumber, railroad, mining, etc.)
