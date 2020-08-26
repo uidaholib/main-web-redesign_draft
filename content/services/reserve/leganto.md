@@ -3,6 +3,7 @@ title: Leganto
 section: Services
 permalink: /services/reserve/leganto.html
 layout: page
+lazyload: true
 ---
 
 Leganto is a library plug-in that allows students to access library course reserves directly from your BBLearn course. 
@@ -11,13 +12,20 @@ Leganto is already embedded in your BBLearn course; you just need to activate it
 
 Follow the steps below to activate Leganto and make your reading lists available from within your BBLearn course, or check our [Leganto FAQ](#leganto-faq) for more information. 
 
-<div class="border rounded p-3 mb-3" markdown="1">
+<div class="card my-3">
+    <div class="card-header">
+        <h6 class="card-title mb-0">
+            <a data-toggle="collapse" href="#collapseHowToSteps">How to Activate Leganto <span class="fas fa-chevron-down smalltxt"></span></a>
+        </h6>
+    </div>
+    <div id="collapseHowToSteps" class="collapse">
+        <div class="card-body" markdown="1">
 
 ### 1. Let the library know your Course ID number
 
 - From within your BBLearn course, scroll to the Course Management->Content Collection dropdown. Your course ID# will be found in this section.
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto1.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto1.png" alt="leganto screenshot" %}
 
 - Copy and paste the Course ID (in the example above, isi_libs415-515-1_4882) and email it to <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>.
 
@@ -25,29 +33,31 @@ Follow the steps below to activate Leganto and make your reading lists available
 
 - From within your BBLearn course, add new content by clicking the "+" sign in the upper left corner and then select "Content Area"
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto2.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto2.png" alt="leganto screenshot" %}
 
 - Once you've clicked "Content Area", you will see a pop-up where you can rename your Library Resource List. Be sure to check the box marked "Available to Users" so your students can access the list.
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto3.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto3.png" alt="leganto screenshot" %}
 
 - Next, while working in a Content Area other than Announcements, navigate to the "Tools" dropdown, select "More Tools", and choose "Library Resource List".
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto4.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto4.png" alt="leganto screenshot" %}
 
 - Congratulations! You should now see the Library Resource List link. 
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto5.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto5.png" alt="leganto screenshot" %}
 
 Once set up, clicking the Library Resource List will allow you and your students to view library course reserves directly from your BBLearn course. 
 Here's what the display should look like: 
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto6.png" alt="leganto screenshot" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto6.png" alt="leganto screenshot" %}
 
 *Note:* When instructors enter BBLearn's "Student Preview" mode, reading lists will not display correctly.
 To view your list as a student would see it, please visit the [public reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) on the library's website.
 
 </div>
+</div>
+</div> 
 
 Please don't hesitate to email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if you run into issues activating Leganto or have other questions!
 
