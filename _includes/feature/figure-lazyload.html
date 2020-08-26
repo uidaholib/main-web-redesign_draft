@@ -1,8 +1,9 @@
 {% comment %}
     
-    Item figure 
+    Lazyloaded item figure 
     This include adds a figure to the page styled using bootstrap, https://getbootstrap.com/docs/4.5/content/figures/
-    It requires a link to the image file used in the "src" attribute
+    It requires a link to the image file used in the "data-src" attribute
+    It requires the page to have Lazyload added (put lazyload: true in front matter)
 
     E.G. --> {% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/collections/oldadmin.jpg" alt="old admin building" %}
 
@@ -16,7 +17,7 @@
 {%- endcomment -%}
 <div class="text-center">
     <figure class="figure mx-3{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}">
-        <img class="figure-img img-fluid rounded" alt="{{ figure.alt | escape }}" src="{{ include.img }}" >
+        <img class="figure-img img-fluid rounded lazyload" alt="{{ figure.alt | escape }}" data-src="{{ include.img }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E">
         {% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{% endif %}
     </figure>
 </div>
