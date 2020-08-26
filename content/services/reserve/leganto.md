@@ -44,6 +44,9 @@ Here's what the display should look like:
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/reserves/leganto6.png" alt="leganto screenshot" %}
 
+*Note:* When instructors enter BBLearn's "Student Preview" mode, reading lists will not display correctly.
+To view your list as a student would see it, please visit the [public reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) on the library's website.
+
 </div>
 
 Please don't hesitate to email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if you run into issues activating Leganto or have other questions!
