@@ -4,10 +4,8 @@ section: Services
 permalink: /services/reserve/
 layout: page
 ---
-<div class="alert alert-info">
-    <h4 class="alert-heading"><a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">FAQ about Course Reserves for Fall 2020 – For Instructors</a></h4>
-    <p>Our goal is to make course reserves available to your students regardless of course delivery method this fall and have made some changes to allow for greater flexibility and safety. We know there are many challenges facing you as you get ready for fall semester and have prepared <a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">answers to your frequently asked questions</a>.</p>
-</div>
+
+{% include feature/alert.html color="warning" dismiss=true align="center" text="The library's course reserves provider is experiencing a global disruption. Some links to reserves will not display today. A fix is anticipated by 9/9/20. If you need to access a reserve reading, but do not see a link, please email us at <a href='mailto:libreserve@uidaho.edu'>libreserve@uidaho.edu</a> and we will send you the reserve reading(s)." %}
 
 <p class="text-center">
     <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
@@ -20,6 +18,9 @@ Course Reserves are electronic and library-only resources selected by instructor
 Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>, phone (208) 885-7299, or ask at the Circulation desk.
 
 {% capture instr %}
+<div class="alert alert-info text-center">
+    <h4 class="alert-heading">Instructors please check our <a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">FAQ about Course Reserves for Fall 2020</a></h4>
+</div>
 <p class="text-center">
     <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
         <span class="fas fa-link"></span> Instructor Reserve Request Form</a>
