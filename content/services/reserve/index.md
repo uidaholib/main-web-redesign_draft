@@ -5,8 +5,6 @@ permalink: /services/reserve/
 layout: page
 ---
 
-{% include feature/alert.html color="warning" dismiss=true align="center" text="The library's course reserves provider is experiencing a global disruption. Some links to reserves will not display today. A fix is anticipated by 9/9/20. If you need to access a reserve reading, but do not see a link, please email us at <a href='mailto:libreserve@uidaho.edu'>libreserve@uidaho.edu</a> and we will send you the reserve reading(s)." %}
-
 <p class="text-center">
     <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
     <a href="{{ '/services/reserve/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="far fa-question-circle"></span> Reserves FAQ</a>
