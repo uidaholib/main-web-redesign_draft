@@ -115,8 +115,7 @@ As part of the Library's [2020 opening plan](/covid10/impact.html), our Reading 
 ### Reading Room Reopening 
 
 In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives will be reopening its Reading Room for those wanting to consult our collections.  
-
-In STAGE 2, beginning July 20, we will be welcoming members of the campus community including students, staff, and faculty.  
+We are currently welcoming U of I students, staff, and faculty. 
 
 Access to the Reading Room will require visitors to adhere the following policies until further notice:  
 
@@ -128,7 +127,7 @@ Access to the Reading Room will require visitors to adhere the following policie
 
 Appointment hours are between 9am and 4pm Monday through Friday.  
 
-Please contact libspec@uidaho.edu or (208) 885-0845 to make an appointment. 
+Please contact <libspec@uidaho.edu> or (208) 885-0845 to make an appointment. 
 We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. 
 
 *Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*
