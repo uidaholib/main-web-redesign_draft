@@ -9,9 +9,9 @@ permalink: /special-collections/plan.html
 <div class="col-md-6 align-self-center" markdown="1">
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the [first floor](/about/maps.html) of the library. If you are unable to come to the Reading Room in person, please [contact us](mailto:libspec@uidaho.edu) to discuss options for digital reproductions of materials.
 <div class="text-center">
-  <a href="{{ '/special-collections/plan#hours' | relative_url }}" class="btn btn-outline-payette-blue m-1">Hours</a>
-  <a href="{{ '/special-collections/plan#rules' | relative_url }}" class="btn btn-outline-payette-blue m-1">Reading Room</a>
-  <a href="{{ '/special-collections/plan#directions' | relative_url }}" class="btn btn-outline-payette-blue m-1">Directions</a>
+  <a href="{{ '/special-collections/plan.html#hours' | relative_url }}" class="btn btn-outline-payette-blue m-1">Hours</a>
+  <a href="{{ '/special-collections/plan.html#rules' | relative_url }}" class="btn btn-outline-payette-blue m-1">Reading Room</a>
+  <a href="{{ '/special-collections/plan.html#directions' | relative_url }}" class="btn btn-outline-payette-blue m-1">Directions</a>
 </div>
 </div>
 <div class="col-md-6">
