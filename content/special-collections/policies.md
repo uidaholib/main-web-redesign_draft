@@ -63,7 +63,7 @@ Reproduction and use fees may be waived for university-sponsored projects, inclu
 
 #### Payment and Delivery
 
-- **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before payment is made.  
+- **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before payment is made. 
 - An additional $5.00 handling fee is added to orders that must be shipped or mailed
 - Payments can be made by credit card or a check made payable to UI Library Special Collections
 - Rush order availability will be determined by staff and may include additional fees 
@@ -120,7 +120,7 @@ Archival collections can contain language and materials from history that refere
 - Committing to a culture of ongoing discussion and continued learning 
 - Aligning our efforts with Library diversity, equity, and inclusion initiatives 
 
-We notify users when we are aware that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection’s "About" page.  
+We notify users when we are aware that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection’s "About" page. 
 
 We flag content containing: 
 
@@ -135,7 +135,7 @@ Due to the vast amount of material we hold, we will not be able to flag all offe
 
 ### Non-Discriminatory Language 
 
-We recognize a difference between creator-supplied and archivist-supplied language. We do not edit language used by a creator in order to maintain an accurate representation of the historical materials and the voices they represent. However, we do edit offensive and discriminatory language used by past archivists when describing materials. To make this distinction clear, we work to include contextual information in our finding aids and digital collections explaining when such language is creator-supplied versus archivist-supplied.  
+We recognize a difference between creator-supplied and archivist-supplied language. We do not edit language used by a creator in order to maintain an accurate representation of the historical materials and the voices they represent. However, we do edit offensive and discriminatory language used by past archivists when describing materials. To make this distinction clear, we work to include contextual information in our finding aids and digital collections explaining when such language is creator-supplied versus archivist-supplied. 
 
 When we edit archivist-supplied language, these changes are noted in the "Processing Note" of the finding aid or on a digital collection’s home page. These notes serve two purposes: 
 
@@ -144,7 +144,7 @@ When we edit archivist-supplied language, these changes are noted in the "Proces
 
 ### Current Descriptive Practices 
 
-We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Black Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to:  
+We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Black Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to: 
 
 - Using active language to "embed responsibility" in our archival descriptions 
 - Prioritizing the "humanity of an individual before their identity/ies" 

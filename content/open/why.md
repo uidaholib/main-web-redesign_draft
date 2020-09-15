@@ -46,15 +46,15 @@ An open textbook is a textbook licensed under an open copyright license and made
 
 Some open textbooks:
 
-*   [Introduction to Probability ](https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=21) (open textbook at the Open Textbook Library)
-*   [Project Management for Instructional Designers](https://pm4id.pressbooks.com/) (open textbook created and hosted on PressBooks)
-*   [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php) (in use in select Statistics courses at UI)
-*   [OpenStax Psychology](https://openstax.org/details/books/psychology) (in use in select Psychology courses at UI)
+* [Introduction to Probability ](https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=21) (open textbook at the Open Textbook Library)
+* [Project Management for Instructional Designers](https://pm4id.pressbooks.com/) (open textbook created and hosted on PressBooks)
+* [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php) (in use in select Statistics courses at UI)
+* [OpenStax Psychology](https://openstax.org/details/books/psychology) (in use in select Psychology courses at UI)
 
 Open textbooks are one type of **open educational resource** (OER). Examples of other OER can include media such as video or audio, courseware, quizes, or syllabi. OER are defined as “teaching, learning, and research resources that reside in the public domain or have been released under an intellectual property license that permits their free use and re-purposing by others” ([Hewlett Foundation](http://www.hewlett.org/programs/education/open-educational-resources)).
 
 Open educational resources created collaboratively with students & faculty:
 
-*   [The Open Anthology of Earlier American Literature](https://openamlit.pressbooks.com/)
-*   [Murder Madness and Mayhem](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Murder_Madness_and_Mayhem)
-*   [Project Management for Instructional Designers](https://pm4id.pressbooks.com/)
+* [The Open Anthology of Earlier American Literature](https://openamlit.pressbooks.com/)
+* [Murder Madness and Mayhem](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Murder_Madness_and_Mayhem)
+* [Project Management for Instructional Designers](https://pm4id.pressbooks.com/)

@@ -26,7 +26,7 @@ Information about COVID-19 moves rapidly in our online environment. Here are tip
 {% for e in site.data.covid19_infosources %}
 {% if e.type == "info" %}
 {:.ml-4}
-#####  [{{e.title}}]({{e.link}})
+##### [{{e.title}}]({{e.link}})
 
 {:.ml-4}
 {{e.description}}

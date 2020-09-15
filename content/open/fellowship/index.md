@@ -9,13 +9,11 @@ The University of Idaho Library’s **Think Open Fellowship** is an opportunit
 
 **Think Open Fellowships** also allow faculty and graduate students to identify and create openly licensed materials that increase quality representation and inclusion of people from marginalized identities. 
 
-
-
 The Think Open Fellowship Grants are intended to:
 
-1.  Lower the cost of college for students and contribute to their retention, progression, and graduation.
-2.  Pilot different approaches in University of Idaho courses for textbook transformation including adopting and adapting existing resources, creating Open Educational Resources (OER), and identifying materials already available from the UI Library.
-3.  Provide support to faculty to implement these approaches.
+1. Lower the cost of college for students and contribute to their retention, progression, and graduation.
+2. Pilot different approaches in University of Idaho courses for textbook transformation including adopting and adapting existing resources, creating Open Educational Resources (OER), and identifying materials already available from the UI Library.
+3. Provide support to faculty to implement these approaches.
 
 This fellowship awards $1,200 to selected faculty and graduate students. Fellows are expected to:
 
@@ -33,5 +31,3 @@ Faculty can apply to transform _any_ course in this fellowship program. Facult
 
 {:.btn .btn-lg .btn-pride-gold .ml-3}
 [Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)
-
-

@@ -22,13 +22,13 @@ Faculty and Graduate Students with teaching appointments are eligible for awards
 
 Think Open Fellows are required to:
 
-*   Commit to using an open textbook or affordable alternative (total costs less than $30) for a course happening in Fall 2020, Spring 2020, or Fall 2021 that currently uses a traditional publisher's textbook.
+* Commit to using an open textbook or affordable alternative (total costs less than $30) for a course happening in Fall 2020, Spring 2020, or Fall 2021 that currently uses a traditional publisher's textbook.
 
-*   Agree to share the resources and content they create on the Think Open OER Commons group.
+* Agree to share the resources and content they create on the Think Open OER Commons group.
 
-*   Work closely with the Open Education Librarian to identify and create open educational resources.
+* Work closely with the Open Education Librarian to identify and create open educational resources.
 
-*   Deliver a syllabus that uses only open or other low-cost materials (less than $30 total).
+* Deliver a syllabus that uses only open or other low-cost materials (less than $30 total).
 
 Faculty teaching high enrollment courses are especially encouraged to apply, as well as those hoping to center historically marginalized perspectives in their curriculums. 
 

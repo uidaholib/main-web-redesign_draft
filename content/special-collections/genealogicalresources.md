@@ -76,7 +76,7 @@ Index (soundex) to the population schedules of the tenth census of the United St
 - [National Archives](http://www.archives.gov/)
 - [U.S. Gen Web Project](http://usgenweb.org/)
 - [Family Search](https://www.familysearch.org/)
-- Cemetery listings online:  [Find a Grave](http://www.findagrave.com/) [Interment](http://www.interment.net/)
+- Cemetery listings online: [Find a Grave](http://www.findagrave.com/) [Interment](http://www.interment.net/)
 - [Federal Land Records](http://www.glorecords.blm.gov/)
-- [Cyndi's List](http://www.cyndislist.com/#History)  
+- [Cyndi's List](http://www.cyndislist.com/#History) 
 

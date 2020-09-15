@@ -777,10 +777,10 @@ For transfers of copyright that have been made by authors *prior* to January 1, 
 
 #### Process
 
-1.  Review your contract.
-2.  Determine the appropriate termination timeline.
-3.  Notify publisher/copyright holder.
-4.  Record termination with the U.S. Copyright Office. \[$95.00 for one title and $25.00 for each additional title\]
+1. Review your contract.
+2. Determine the appropriate termination timeline.
+3. Notify publisher/copyright holder.
+4. Record termination with the U.S. Copyright Office. \[$95.00 for one title and $25.00 for each additional title\]
 
 #### Additional Resources
 
