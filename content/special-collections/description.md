@@ -8,9 +8,9 @@ permalink: /special-collections/description.html
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
 
 <div class="pb-3 text-center">
-    <a href="{{ '/special-collections/description#strengths' | relative_url }}" class="btn btn-outline-payette-blue m-1">
+    <a href="#strengths" class="btn btn-outline-payette-blue m-1">
      Collection Strengths</a>
-    <a href="{{ '/special-collections/description#types' | relative_url }}" class="btn btn-outline-payette-blue m-1">
+    <a href="#types" class="btn btn-outline-payette-blue m-1">
      Collection Types</a>
 </div>
 
