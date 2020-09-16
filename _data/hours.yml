@@ -93,6 +93,8 @@ breaks:
 specials:
   - dates: ["2020-05-16","2020-05-17"]
     message: "Open 8am &#8211; 5pm"
+  - dates: ["2020-09-17","2020-09-18"]
+    message: "Open 9am &#8211; 7pm"    
 ####
 #
 # Closed dates (single dates when closed)
