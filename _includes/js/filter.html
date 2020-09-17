@@ -6,8 +6,8 @@ $("button.filter").on('click', function() {
   // make others small
   $("button.filter").not(this).addClass("btn-sm");
   var myClass = this.id;
-  $(".circle-button").addClass("hidden");
-  $('.'+myClass).removeClass("hidden");
+  $(".circle-button").addClass("d-none");
+  $('.'+myClass).removeClass("d-none");
   console.log("filter");
   $("input#quicksearch").val("");
 
@@ -21,7 +21,7 @@ $("button.filter").on('click', function() {
 
 $("#reset").click(function() {
     $("button.filter").removeClass("btn-sm").removeClass("btn-lg");
-  $(".circle-button").removeClass("hidden");
+  $(".circle-button").removeClass("d-none");
     $("input#quicksearch").val("");
     $('#goButton').click();
     $("select").val($("select option:first").val());
@@ -43,8 +43,8 @@ $("select.filter-param").on('change', function() {
     var s = $(this).val();
     $('select').not(this).val('option[first]');
     var myClass = s;
-    $(".{{page.filter}}").addClass("hidden");
-    $('.'+myClass).removeClass("hidden");
+    $(".{{page.filter}}").addClass("d-none");
+    $('.'+myClass).removeClass("d-none");
     console.log("filter");
     $("input#quicksearch").val("");
 //   var numberofint = $('tr.featured').length;
@@ -78,10 +78,10 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
        if (itemcontents) {
          if (itemcontents.innerHTML.toUpperCase().indexOf(filter) > -1) {
       item[i].classList.add("featured");
-           item[i].classList.remove("hidden");
+           item[i].classList.remove("d-none");
          } else {
       item[i].classList.remove("featured");
-           item[i].classList.add("hidden");
+           item[i].classList.add("d-none");
          }
        }
      }

@@ -9,9 +9,6 @@ filter: circle-button
 {% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
 
 <style>
-    .hidden {
-        display: none;
-    }
     #instructorList { width: initial; }
 </style>
 
@@ -47,13 +44,54 @@ filter: circle-button
 
 <div class="row justify-content-center" id="contents-container">
 
-
-{% for e in expertise %}
-    {% if e.catid == 'data' %}{% include circle-button-modal.html color='wild-rose' %}
-    {% elsif e.catid == 'find' %}{% include circle-button-modal.html color='palouse-green' %}
-    {% elsif e.catid == 'research' %}{% include circle-button-modal.html color='clearwater' %}
-    {% elsif e.catid == 'writing' %}{% include circle-button-modal.html color='pride-gold' %}
-    {% endif %}
-{% endfor %}
+    {% for e in expertise %}
+    <div class="col-6 col-md-3 mb-2 circle-button {{ e.catid }}">
+        <button class="font-weight-bold btn btn-lg btn-circle btn-outline-{% case e.catid %}{% when 'data' %}wild-rose{% when 'find' %}palouse-green{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-toggle="modal" data-target="#{{ e.catid }}{{ forloop.index }}">
+            <span class="search-contents">{{ e.subject | upcase | truncatewords: 5 }}
+                <span class="d-none">{{ e.fullsubject }} {{ e.description }} {{ e.person }}</span>
+            </span>
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="{{ e.catid }}{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="{{ e.catid }}{{ forloop.index }}ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title h2" id="{  e.catid }}{{ forloop.index }}ModalLabel">{{ e.fullsubject }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        {% if e.description %}
+                        <p>{{ e.description }}</p>
+                        {% endif %}
+                        {% if e.emails %}
+                        <p class="call">The following individual(s) can instruct in this area:</p>
+                        <div class="row">
+                            {% for p in site.data.people-table %}
+                            {% if e.emails contains p.email %}
+                            <div class="col-6 col-sm-4  mb-2">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ p.name }}">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo }}" title="View the profile for {{ p.name }}">{{ p.name }}</a></h5>
+                                        <p class="card-text">{{ p.title }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="modal-footer">
+                        <a type="button" target="_blank" class="btn btn-lg btn-pride-gold" href='https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{e.subject | url_encode }}{% if e.emails %}&person={{e.person | url_encode}}&email={{e.emails | url_encode }}{% endif %}'>Request Instruction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
    
 </div>
