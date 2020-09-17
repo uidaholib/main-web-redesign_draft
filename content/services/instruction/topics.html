@@ -3,7 +3,7 @@ title: Instruction by Topic
 section: Services
 permalink: /services/instruction/topics.html
 layout: full-width-page
-filter: circle-button
+custom-foot: js/topics-filter.html
 ---
 {% assign expertise = site.data.services_instruction_topics | sort: "subject" %}
 {% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
