@@ -43,10 +43,10 @@ custom-foot: js/topics-filter.html
     </div>
 </div>
 
-<div class="row justify-content-center" id="contents-container">
+<div class="text-center d-flex flex-wrap justify-content-center" id="contents-container">
 
     {% for e in expertise %}
-    <div class="col-6 col-md-3 col-xl-2 mb-3 mx-1 circle-button {{ e.catid }}">
+    <div class="mx-1 mx-md-2 mb-3 circle-button {{ e.catid }}">
         <button class="font-weight-bold btn btn-circle btn-outline-{% case e.catid %}{% when 'data' %}wild-rose{% when 'find' %}palouse-green{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-toggle="modal" data-target="#{{ e.catid }}{{ forloop.index }}">
             <span class="search-contents">{{ e.subject | upcase | truncatewords: 5 }}
                 <span class="d-none">{{ e.fullsubject }} {{ e.description }} {{ e.person }}</span>
