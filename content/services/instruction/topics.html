@@ -23,7 +23,7 @@ filter: circle-button
     <button id="research" class="filter m-2 btn btn-outline-clearwater font-weight-bold">Research</button>
     <button id="writing" class="filter m-2 btn btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
     
-    <select id="instructorList" class="custom-select m-2" onchange="$('#quicksearch').val(this.value);$('#goButton').click();">
+    <select id="instructorList" class="custom-select m-2" >
         <option value="">Filter by Instructor</option>
         {% for person in people %}
         <option value="{{ person }}">{{ person }}</option>{% endfor %}
@@ -36,7 +36,7 @@ filter: circle-button
         <div class="input-group input-group-lg">
             <input type="text" class="form-control form-control-lg" id="quicksearch" placeholder="Search ... " aria-label="Search"> 
             <div class="input-group-append">
-                <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton" onclick="filterItems()">Search</button>
+                <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton">Search</button>
                 <button id="reset" class="btn btn-outline-secondary">Reset</button>
             </div>
         </div>
