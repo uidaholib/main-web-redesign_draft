@@ -36,6 +36,11 @@
 .breadcrumb {
     background: $background-color;
 }
+/* full width page */
+.full-background {
+    background: $nav-background;
+}
+
 /* narrow text block for page-narrow layout */
 .page-narrow {
     max-width: 700px;
