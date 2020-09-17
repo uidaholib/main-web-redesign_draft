@@ -13,7 +13,7 @@ custom-foot: js/topics-filter.html
     #instructorList { width: initial; }
 </style>
 
-<p>Library faculty teach class sessions on how to search efficiently and effectively for information. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses. To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to the our form.</p>
+<p>Library faculty teach class sessions on how to search efficiently and effectively for information. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses. To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to our form.</p>
 
 <div class="text-center mb-3">
     
@@ -46,7 +46,7 @@ custom-foot: js/topics-filter.html
 <div class="row justify-content-center" id="contents-container">
 
     {% for e in expertise %}
-    <div class="col-6 col-md-3 col-xl-2 mb-2 circle-button {{ e.catid }}">
+    <div class="col-6 col-md-3 col-xl-2 m-2 circle-button {{ e.catid }}">
         <button class="font-weight-bold btn btn-circle btn-outline-{% case e.catid %}{% when 'data' %}wild-rose{% when 'find' %}palouse-green{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-toggle="modal" data-target="#{{ e.catid }}{{ forloop.index }}">
             <span class="search-contents">{{ e.subject | upcase | truncatewords: 5 }}
                 <span class="d-none">{{ e.fullsubject }} {{ e.description }} {{ e.person }}</span>
