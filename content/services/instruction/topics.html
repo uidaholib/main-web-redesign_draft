@@ -2,59 +2,95 @@
 title: Instruction by Topic
 section: Services
 permalink: /services/instruction/topics.html
-layout: page
-filter: circle-button
+layout: full-width-page
+custom-foot: js/topics-filter.html
 ---
-{% assign expertise = site.data.expertise | sort: "subject" %}
-{% assign peoplemap = site.data.expertise | map: "person" | compact | join: "," %}
-{% assign people-unique = peoplemap | split: ',' | uniq | sort %}
+{% assign expertise = site.data.services_instruction_topics | sort: "subject" %}
+{% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
+{% assign people-table = site.data.people-table %}
 
 <style>
-    .hidden {
-        display: none;
-    }
+    #instructorList { width: initial; }
 </style>
 
-<p>Library faculty teach class sessions on how to search efficiently and effectively for information -- using library resources as well as the Web and other electronic resources. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses.</p>
+<p>Library faculty teach class sessions on how to search efficiently and effectively for information. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses. To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to our form.</p>
 
-<p>To request a librarian led session on a specific topic area, please click the button link to the our survey form.</p>
-
-<div class="mt-2  row">
-    <p class="col-md-9">Filter:
-        <button id="data" class="filter m-2 btn btn-outline-wild-rose font-weight-bold" >Data & Computing</button>
-        <button id="find" class="filter m-2 btn btn-outline-palouse-green font-weight-bold">Finding Information</button>
-        <button id="research" class="filter m-2 btn  btn-outline-clearwater font-weight-bold">Research</button>
-        <button id="writing" class="filter m-2 btn  btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
-    </p>
-    <select class="col-10 mx-auto col-md-3 my-2 btn btn-secondary" onchange="$('#quicksearch').val(this.value);$('#goButton').click();"  id="instructorList" style="height:35px">
+<div class="text-center mb-3">
+    
+    Filter: 
+    <button id="data" class="filter m-2 btn btn-outline-wild-rose font-weight-bold" >Data & Computing</button>
+    <button id="find" class="filter m-2 btn btn-outline-palouse-green font-weight-bold">Finding Information</button>
+    <button id="research" class="filter m-2 btn btn-outline-clearwater font-weight-bold">Research</button>
+    <button id="writing" class="filter m-2 btn btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
+    
+    <select id="instructorList" class="custom-select m-2" >
         <option value="">Filter by Instructor</option>
-        {% for person in people-unique %}
-        <option value="{{person}}">{{person}}</option>
-        {% endfor %}
+        {% for person in people %}
+        <option value="{{ person }}">{{ person }}</option>{% endfor %}
     </select>
-</div>
-<div class="row mb-4 pb-2 border-bottom form-inline justify-content-center">
-    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-md-6 col-8">
-    <button class="searchinput mx-2 btn btn-lg btn-pride-gold col-2" title="Search" alt="Search" id="goButton"
-        onclick="filterItems()" type="submit">Go</button>
-    <button class="reset btn btn-secondary ml-2">Reset</button>
+
 </div>
 
-<div class="row justify-content-center" id="contents-container">
+<div class="row mb-4 justify-content-center">
+    <div class="col-md-8 text-center">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control form-control-lg" id="quicksearch" placeholder="Search ... " aria-label="Search"> 
+            <div class="input-group-append">
+                <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton">Search</button>
+                <button id="reset" class="btn btn-outline-secondary">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="d-flex flex-wrap justify-content-center" id="contents-container">
 
-{% for e in expertise %}
-    {% if e.catid == 'data' %}{% include circle-button-modal.html color='wild-rose' %}
-    {% elsif e.catid == 'find' %}{% include circle-button-modal.html color='palouse-green' %}
-    {% elsif e.catid == 'research' %}{% include circle-button-modal.html color='clearwater' %}
-    {% elsif e.catid == 'writing' %}{% include circle-button-modal.html color='pride-gold' %}
-    {% endif %}
-{% endfor %}
+    {% for e in expertise %}
+    <div class="mx-1 mx-md-2 mb-3 circle-button {{ e.catid }}">
+        <button class="font-weight-bold btn btn-circle btn-outline-{% case e.catid %}{% when 'data' %}wild-rose{% when 'find' %}palouse-green{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-toggle="modal" data-target="#{{ e.catid }}{{ forloop.index }}">
+            <span class="search-contents">{{ e.subject | upcase | truncatewords: 5 }}
+                <span class="d-none">{{ e.fullsubject }} {{ e.description }} {{ e.person }}</span>
+            </span>
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="{{ e.catid }}{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="{{ e.catid }}{{ forloop.index }}ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title h2" id="{{ e.catid }}{{ forloop.index }}ModalLabel">{{ e.fullsubject }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        {% if e.description %}<p>{{ e.description }}</p>{% endif %}
+                        {% if e.emails %}
+                        <p>The following individual(s) can instruct in this area:</p>
+                        <div class="row justify-content-center">
+                            {% assign emails = e.emails | split: ";" %}
+                            {% for i in emails %}
+                            {% assign p = people-table | where: 'email',i | first %}
+                            <div class="col-6 col-sm-4 mb-2">
+                                <div class="card">
+                                    <img class="card-img-top img-fluid" src="{{ p.headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ p.name }}">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title"><a target="_blank" rel="noopener" href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo }}" title="View the profile for {{ p.name }}">{{ p.name }}</a></h5>
+                                        <p class="card-text">{{ p.title }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="modal-footer">
+                        <a target="_blank" rel="noopener" class="btn btn-lg btn-pride-gold" href='https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ e.subject | url_encode }}{% if e.emails %}&person={{ e.person | url_encode }}&email={{ e.emails | url_encode }}{% endif %}'>Request Instruction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
    
 </div>
-
-    <!--<a class="btn btn-clearwater mb-3" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9" target="_blank" rel="noopener">Instruction Request Form</a>
-
-<div class="row" id="qualtrixsurvey">
-    <iframe src='https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9' name='Qualtrics' scrolling='auto' frameborder='no' align='center' height='800px' width='100%'></iframe>
-</div>	-->
