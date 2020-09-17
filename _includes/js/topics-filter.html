@@ -3,16 +3,20 @@
 // Filter function 
 var input = document.getElementById("quicksearch");
 var itemcontainer = document.getElementById("contents-container");
-var itemClass = "circle-button"
+var itemClass = "circle-button";
 
 function filterItems() {
   var i;
+  // reset filter buttons
+  $("button.filter").removeClass("btn-sm").removeClass("btn-lg");
+  // set URL query strings
   let url = new URL(window.location);
   let params = url.searchParams;
   params.set('q', input.value);
   params.delete('filter');
   var p = params.toString();
   window.history.replaceState({}, '', location.pathname + '?' + p );
+  // filter circles
   var filter = input.value.toUpperCase();
   var item = itemcontainer.getElementsByClassName(itemClass);
   for (i = 0; i < item.length; i++) {
@@ -33,10 +37,13 @@ $("button.filter").on('click', function() {
   $(this).removeClass("btn-sm").addClass("btn-lg");
   // make others small
   $("button.filter").not(this).addClass("btn-sm");
+  // reset instructor list
+  $("#instructorList").val($("#instructorList option:first").val());
+  // reset search
+  $("#quicksearch").val("");
   var myClass = this.id;
   $("." + itemClass).addClass("d-none");
   $('.'+ myClass).removeClass("d-none");
-  $("input#quicksearch").val("");
   let url = new URL(window.location);
   let params = url.searchParams;
   params.set('filter', myClass);
@@ -47,19 +54,27 @@ $("button.filter").on('click', function() {
 
 // filter by instructor selection
 $("#instructorList").on('change', function() {
+  // add to search box
   $('#quicksearch').val(this.value);
+  // filter
   filterItems();
 });
 
 // search if return pressed in search box
 $('#quicksearch').keypress(function(e){
   if(e.which == 13){ //Enter key pressed
+    // reset instructor list
+    $("#instructorList").val($("#instructorList option:first").val());
+    // filter
     filterItems();
   }
 });
 
 // search button 
 $("#goButton").on('click', function() {
+  // reset instructor list
+  $("#instructorList").val($("#instructorList option:first").val());
+  // filter
   filterItems();
 });
 
@@ -67,8 +82,8 @@ $("#goButton").on('click', function() {
 $("#reset").click(function() {
   $("button.filter").removeClass("btn-sm").removeClass("btn-lg");
   $(".circle-button").removeClass("d-none");
-  $("input#quicksearch").val("");
-  $("select").val($("select option:first").val());
+  $("#quicksearch").val("");
+  $("#instructorList").val($("#instructorList option:first").val());
   let url = new URL(window.location);
   let params = url.searchParams;
   params.delete('q');
