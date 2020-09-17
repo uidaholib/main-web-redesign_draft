@@ -2,41 +2,47 @@
 title: Instruction by Topic
 section: Services
 permalink: /services/instruction/topics.html
-layout: page
+layout: full-width-page
 filter: circle-button
 ---
 {% assign expertise = site.data.services_instruction_topics | sort: "subject" %}
-{% assign people-unique = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
+{% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
 
 <style>
     .hidden {
         display: none;
     }
+    #instructorList { width: initial; }
 </style>
 
-<p>Library faculty teach class sessions on how to search efficiently and effectively for information -- using library resources as well as the Web and other electronic resources. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses.</p>
+<p>Library faculty teach class sessions on how to search efficiently and effectively for information -- using library resources as well as the Web and other electronic resources. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses. To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to the our form.</p>
 
-<p>To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to the our survey form.</p>
-
-<div class="mt-2  row">
-    <p class="col-md-9">Filter:
-        <button id="data" class="filter m-2 btn btn-outline-wild-rose font-weight-bold" >Data & Computing</button>
-        <button id="find" class="filter m-2 btn btn-outline-palouse-green font-weight-bold">Finding Information</button>
-        <button id="research" class="filter m-2 btn  btn-outline-clearwater font-weight-bold">Research</button>
-        <button id="writing" class="filter m-2 btn  btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
-    </p>
-    <select class="col-10 mx-auto col-md-3 my-2 btn btn-secondary" onchange="$('#quicksearch').val(this.value);$('#goButton').click();"  id="instructorList" style="height:35px">
+<div class="text-center mb-3">
+    
+    Filter: 
+    <button id="data" class="filter m-2 btn btn-outline-wild-rose font-weight-bold" >Data & Computing</button>
+    <button id="find" class="filter m-2 btn btn-outline-palouse-green font-weight-bold">Finding Information</button>
+    <button id="research" class="filter m-2 btn btn-outline-clearwater font-weight-bold">Research</button>
+    <button id="writing" class="filter m-2 btn btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
+    
+    <select id="instructorList" class="custom-select m-2" onchange="$('#quicksearch').val(this.value);$('#goButton').click();">
         <option value="">Filter by Instructor</option>
-        {% for person in people-unique %}
-        <option value="{{person}}">{{person}}</option>
-        {% endfor %}
+        {% for person in people %}
+        <option value="{{ person }}">{{ person }}</option>{% endfor %}
     </select>
+
 </div>
-<div class="row mb-4 pb-2 border-bottom form-inline justify-content-center">
-    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-md-6 col-8">
-    <button class="searchinput mx-2 btn btn-lg btn-pride-gold col-2" title="Search" alt="Search" id="goButton"
-        onclick="filterItems()" type="submit">Go</button>
-    <button class="reset btn btn-secondary ml-2">Reset</button>
+
+<div class="row mb-4 justify-content-center">
+    <div class="col-md-8 text-center">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control form-control-lg" id="quicksearch" placeholder="Search ... " aria-label="Search"> 
+            <div class="input-group-append">
+                <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton" onclick="filterItems()">Search</button>
+                <button id="reset" class="btn btn-outline-secondary">Reset</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row justify-content-center" id="contents-container">
@@ -51,9 +57,3 @@ filter: circle-button
 {% endfor %}
    
 </div>
-
-    <!--<a class="btn btn-clearwater mb-3" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9" target="_blank" rel="noopener">Instruction Request Form</a>
-
-<div class="row" id="qualtrixsurvey">
-    <iframe src='https://uidaho.co1.qualtrics.com/jfe/form/SV_d7rjJxMWvBBNyO9' name='Qualtrics' scrolling='auto' frameborder='no' align='center' height='800px' width='100%'></iframe>
-</div>	-->

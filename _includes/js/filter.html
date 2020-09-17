@@ -1,24 +1,25 @@
-<script type="text/javascript">
-  $("button.filter").on('click', function() {
-    $(this).removeClass("btn-sm").addClass("btn-lg");
-    $("button.filter").not(this).addClass("btn-sm");
-    var myClass = this.id;
-    $(".circle-button").addClass("hidden");
-    $('.'+myClass).removeClass("hidden");
-    console.log("filter");
-    $("input#quicksearch").val("");
-//   var numberofint = $('tr.featured').length;
-//   $("#numberof").html(numberofint);
+<script>
+
+$("button.filter").on('click', function() {
+  // make btn big
+  $(this).removeClass("btn-sm").addClass("btn-lg");
+  // make others small
+  $("button.filter").not(this).addClass("btn-sm");
+  var myClass = this.id;
+  $(".circle-button").addClass("hidden");
+  $('.'+myClass).removeClass("hidden");
+  console.log("filter");
+  $("input#quicksearch").val("");
+
   let url = new URL(window.location);
   let params = url.searchParams;
   params.set('filter', myClass);
   params.delete('q');
-  console.log(params.toString() + 'kiaa');
   var p = params.toString();
   window.history.replaceState({}, '', location.pathname + '?' + p );
- });
+});
 
-$("button.reset").click(function() {
+$("#reset").click(function() {
     $("button.filter").removeClass("btn-sm").removeClass("btn-lg");
   $(".circle-button").removeClass("hidden");
     $("input#quicksearch").val("");
@@ -31,6 +32,7 @@ $("button.reset").click(function() {
    var p = params.toString();
 window.history.replaceState({}, '', location.pathname + '?' + p );
  });
+
 $("select.filter").on('change', function() {
     var s = $(this).val();
     $('select').not(this).val('option[first]');
