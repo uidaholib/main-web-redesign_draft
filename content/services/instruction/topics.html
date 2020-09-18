@@ -7,7 +7,7 @@ custom-foot: js/topics-filter.html
 ---
 {% assign expertise = site.data.services_instruction_topics | sort: "subject" %}
 {% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
-{% assign people-table = site.data.people-table %}
+{% assign people-table = site.data.about_directory %}
 
 <style>
     #instructorList { width: initial; }

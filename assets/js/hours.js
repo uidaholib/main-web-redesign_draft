@@ -1,7 +1,7 @@
 ---
 # generate hours js from _data/hours.yml 
 ---
-{%- assign hours = site.data.hours -%}
+{%- assign hours = site.data.config_hours -%}
 {%- assign days = "sun;mon;tue;wed;thu;fri;sat" | split: ";" -%}
 (function () {
 	var display = document.getElementById("timedisp");

@@ -7,7 +7,7 @@
 5. Save your changes. 
 6. Open the terminal and type "jekyll s"
 7. Use the link generated (probably - http://127.0.0.1:4000/) to check your changes 
-8. If you're adding a page and want to adjust a menu to include it, you'll need to edit "pagesnav.yml" which is in the /_data/ directory
+8. If you're adding a page and want to adjust a menu to include it, you'll need to edit "config_pagesnav.yml" which is in the /_data/ directory
     Use the document to determine where to put your new page listing. Each section with its own menu has a section in this document. 
     Copy and paste and then replace the information appropriately. 
 9. Save all your work and check the site one last time

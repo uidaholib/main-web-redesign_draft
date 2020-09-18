@@ -41,8 +41,8 @@ $on-jumbo:        1200px;
     }
 }
 
-/* set up theme color variables from config-theme-colors.csv */
-{% assign tcolors = site.data.config-theme-colors | where_exp: "item","item.color != nil" %} 
+/* set up theme color variables from config_theme-colors.csv */
+{% assign tcolors = site.data.config_theme-colors | where_exp: "item","item.color != nil" %} 
 {% for tcolor in tcolors %}
 ${{ tcolor.color_class }}: {{ tcolor.color }};
 {% endfor %}
