@@ -310,6 +310,8 @@ Special Collections:
   - subsection: Research Resources
     url:
     subpages:
+      - name: Accessions List
+        url: /special-collections/accessions.html
       - name: Finding Aids
         url: /special-collections/findingaids.html
       - name: Idaho Biographical Index
