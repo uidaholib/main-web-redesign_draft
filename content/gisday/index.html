@@ -45,7 +45,7 @@ lazyload: true
         <div class="btn-group-vertical w-100">
             <a class="btn btn-outline-payette-blue" href="#schedule">Schedule</a>
             <a class="btn btn-outline-payette-blue" href="#register">Register</a>
-            <!--<a class="btn btn-outline-payette-blue" href="#sponsors">Sponsors</a>-->
+            <a class="btn btn-outline-payette-blue" href="#sponsors">Sponsors</a>
             <a class="btn btn-outline-payette-blue" href="#committee">Committee</a>
         </div>
     </div>
@@ -101,25 +101,23 @@ lazyload: true
 
     <p>To participate in GIS Day 2020, please register in advance to receive information about connecting to our live Zoom sessions. Visit the event registration page linked below and fill in the form with your details. Registration is free and open to all. Recordings will be available following the event.</p>
     <!--<p class="text-center"><a class="btn btn-lg btn-success" href="registrationlink" target="_blank" rel="noopener">Registration Form</a></p>-->
-    <p class="text-center"><button type="button" class="btn btn-lg btn-info" disabled>Coming Soon! Please check back later.</button></p>
+    <p class="text-center"><button type="button" class="btn btn-lg btn-primary" disabled>Coming Soon! Please check back later.</button></p>
 
 </div>
 
 <hr class="my-4">
 
-<!--
 <div id="sponsors" class="my-3"> 
     <h2>Sponsors</h2>
 
-    <p>Each year a variety of entities generously provide financial contributions to help make this a successful event.</p>
+    <p>Each year a variety of entities generously provide financial contributions to help make this a successful event. Since 2020 has moved to a virtual event, we are not actively seeking sponsors this year. This list recognizes our 2019 supporters.</p>
 
-    
     <div class="row justify-content-center mx-md-4 my-4 text-center">
         {% assign sponsors = site.data.gisday_sponsors %}
         {% for s in sponsors %}
         <div class="col-6 col-md-4 p-3 p-md-5">
             <a href="{{ s.link }}" title="{{ s.sponsor }}">
-                <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid p-2">
+                <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid">
             </a>
         </div>
         {% endfor %}
@@ -130,9 +128,8 @@ lazyload: true
             <h3 class="m-2">Become a Sponsor</h3>
         </button>
     </div>
--->
+
     <!-- Modal -->
-<!--
     <div class="modal fade" id="sponsorDetails" tabindex="-1" role="dialog" aria-labelledby="sponsorLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -178,8 +175,7 @@ lazyload: true
 
 </div>
 
-<hr class="my-4"> 
--->
+<hr class="my-4">
 
 <div id="committee" class="my-3 text-center">
 
