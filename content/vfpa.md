@@ -36,6 +36,6 @@ The Vandal Family Photo Album will help the Library preserve the history of our 
 Questions? Please contact <librdean@uidaho.edu>
 
 <div class="row">
-<div class="col">{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/ben_homecoming.jpg" caption="Homecoming parade" alt="boat float in homecoming parade" %}</div>
-<div class="col">{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/ben_skiing.jpg" caption="U of I Skiers" alt="skiers standing with poles" %}</div>
+<div class="col">{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/ben_homecoming.jpg" caption="<a href='https://www.lib.uidaho.edu/digital/pg2/items/pg2456.html'>Homecoming Parade 1969</a>" alt="boat float in homecoming parade" %}</div>
+<div class="col">{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/ben_skiing.jpg" caption="<a href='https://www.lib.uidaho.edu/digital/pg2/items/pg21506.html'>U of I Skiers 1965</a>" alt="skiers standing with poles" %}</div>
 </div>
