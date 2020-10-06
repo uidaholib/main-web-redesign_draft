@@ -5,8 +5,6 @@ section: Special Collections
 permalink: /special-collections/berry-ijc-fellowship.html
 ---
 
-{% include feature/alert.html color="success" align="center" text="Apply by September 28th for the <a href='#202021-fellowship-project' class='alert-link'>2020/21 Berry IJC Fellowship</a>!" %}
-
 The Berry International Jazz Collections Fellowship funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific project.
 The University of Idaho Library invites students from any discipline at the University of Idaho to apply for the Berry International Jazz Collections Fellowship.
 
