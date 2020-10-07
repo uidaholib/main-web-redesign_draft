@@ -69,9 +69,7 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phon
 
 ## Staff
 
-{% assign people = site.data.about_directory | where: 'department','Special Collections and Archives' %}
-{% assign extra = site.data.about_directory | where: 'name','Perret, Robert' %}
-{% assign all = people | concat: extra %}
+{% assign people = site.data.about_directory | where: 'department','Special Collections and Archives'| sort: 'rank' %}
 
 <table class="table table-striped">
     <thead>
@@ -82,7 +80,7 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phon
        </tr>
     </thead>
     <tbody>
-    {% for a in all %}
+    {% for a in people %}
     <tr>
        <td class="name">{{ a.name }}</td>
        <td class="title center">{{ a.rank }}<br>{{ a.title }}</td>
