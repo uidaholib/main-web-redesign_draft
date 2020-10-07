@@ -3,6 +3,7 @@ title: Book Locations - Library of Congress Call Numbers
 section: Find
 permalink: /find/lc.html
 layout: page
+lazyload: true
 ---
 <div class="row">
   <div class="col-md-12">
@@ -847,10 +848,10 @@ layout: page
 
         <div>
           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#floorOne">
-            <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" alt="first floor map" class="img-fluid"></a>
+            <img src="{{ '/stackmaps/stackmap1_md.jpg' | prepend: site.lib-media }}" alt="first floor map" class="img-fluid">
           </button>
           <div class="modal fade" id="floorOne" tabindex="-1" role="dialog" aria-labelledby="floorOne">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h3 class="modal-title">First Floor</h3>
@@ -858,7 +859,7 @@ layout: page
                 </div>
                 <!--end modal-header-->
                 <div class="modal-body">
-                  <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" class="img-fluid">
+                  <img data-src="{{ '/stackmaps/stackmap1.jpg' | prepend: site.lib-media }}" alt="map of first floor" class="img-fluid lazyload">
                 </div>
                 <!--end modal-body-->
               </div>
@@ -873,10 +874,10 @@ layout: page
 
         <div>
           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#floorTwo">
-            <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap2.png" alt="second floor map" class="img-fluid"></a>
+            <img src="{{ '/stackmaps/stackmap2_md.jpg' | prepend: site.lib-media }}" alt="map of second floor" class="img-fluid">
           </button>
           <div class="modal fade" id="floorTwo" tabindex="-1" role="dialog" aria-labelledby="floorTwo">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h3 class="modal-title">Second Floor</h3>
@@ -884,7 +885,7 @@ layout: page
                 </div>
                 <!--end modal-header-->
                 <div class="modal-body">
-                  <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap2.png" class="img-fluid">
+                  <img data-src="{{ '/stackmaps/stackmap2.jpg' | prepend: site.lib-media }}" alt="map of second floor" class="img-fluid lazyload">
                 </div>
                 <!--end modal-body-->
               </div>
@@ -899,10 +900,10 @@ layout: page
 
         <div>
           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#floorThree">
-            <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap3.png" alt="third floor map" class="img-fluid"></a>
+            <img src="{{ '/stackmaps/stackmap3_md.jpg' | prepend: site.lib-media }}" alt="map of third floor" class="img-fluid">
           </button>
           <div class="modal fade" id="floorThree" tabindex="-1" role="dialog" aria-labelledby="floorThree">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h3 class="modal-title">Third Floor</h3>
@@ -910,7 +911,7 @@ layout: page
                 </div>
                 <!--end modal-header-->
                 <div class="modal-body">
-                  <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap3.png" class="img-fluid">
+                  <img data-src="{{ '/stackmaps/stackmap3.jpg' | prepend: site.lib-media }}" alt="map of third floor" class="img-fluid lazyload">
                 </div>
                 <!--end modal-body-->
               </div>
@@ -925,10 +926,10 @@ layout: page
 
         <div>
           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#floorFour">
-            <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap4.png" alt="fourth floor map" class="img-fluid"></a>
+            <img src="{{ '/stackmaps/stackmap4_md.jpg' | prepend: site.lib-media }}" alt="map of fourth floor" class="img-fluid">
           </button>
           <div class="modal fade" id="floorFour" tabindex="-1" role="dialog" aria-labelledby="floorFour">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h3 class="modal-title">Fourth Floor</h3>
@@ -936,7 +937,7 @@ layout: page
                 </div>
                 <!--end modal-header-->
                 <div class="modal-body">
-                  <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap4.png" class="img-fluid">
+                  <img data-src="{{ '/stackmaps/stackmap4.jpg' | prepend: site.lib-media }}" alt="map of fourth floor" class="img-fluid lazyload">
                 </div>
                 <!--end modal-body-->
               </div>
