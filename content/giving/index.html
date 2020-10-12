@@ -32,7 +32,8 @@ layout: page
       <li>Explore <a href="ways.html">ways to give</a>.</li>
       <li>Discover how you can <a href="endowments.html">target your giving.</a></li>
     </ul>
-    <p>Or simply <a href="https://www.sites.uidaho.edu/giving/givingform.aspx?presets=areaid=LI&giftid=MF893">make a gift online</a>.</p>
+    
+    <p>Or simply make a gift online using <a href="https://www.givecampus.com/campaigns/3269/donations/new" target="_blank" rel="noopener">U of I Giving</a> and select the designation "Library Dean's Excellence Fund".</p>
     <p>We thank you for your interest and for your support of the University of Idaho Library.</p>
 
   </div>
@@ -40,11 +41,11 @@ layout: page
 
     <h4 class="center">Library Newsletter</h4>
 
-    <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+    <script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>
 
     {% for issue in site.data.tower_news_embed limit: 4 %}
     <div data-configid="{{ issue.issuu_embed_id }}" style="width:180px; height:233px;" class="issuuembed"></div>
-    <p class="text-center"><a href="http://www.lib.uidaho.edu/pdf/towers/{{ issue.filename }}" target="_blank" rel="noopener">{{ issue.name }}</a> </p>
+    <p class="text-center"><a href="https://www.lib.uidaho.edu/pdf/towers/{{ issue.filename }}" target="_blank" rel="noopener">{{ issue.name }}</a> </p>
     {% endfor %}
 
     <hr>
