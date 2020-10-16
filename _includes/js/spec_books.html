@@ -1,0 +1,51 @@
+<script src="{{ '/assets/datatables/datatables.min.js' | relative_url }}"></script>
+<script>
+(function(){
+    // set up filter by PG dropdown
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var collectionFilter = document.getElementById("collectionSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[3] == collectionFilter; }
+        }
+    );
+    // add a text input to each header for search
+    $('#item-table thead tr').clone(true).appendTo( '#item-table thead' );
+    $('#item-table thead tr:eq(1) th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input class="form-control form-control-sm" type="text" placeholder="Filter '+title+'" />' );
+ 
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
+    // initialize DataTables
+    var table = $('#item-table').DataTable( {
+        // use DataTables ajax load 
+        ajax: { url: '{{ "/assets/data/spec_books.min.json" | relative_url }}', dataSrc: 'objects' },
+        // defer render to speed up large sets
+        "deferRender": true,
+        // get the data from the json
+        // title,author,call_number,group,date
+        columns: [ { data: '0' }, { data: '1' }, { data: '2' }, { data: '3' }, { data: '4' } ],
+        paging: true,
+        lengthMenu: [[ 15, 50, 100, 500], [ 15, 50, 100, 500]],
+        orderCellsTop: true,
+        // sort based on the date
+        order: [[ 2, "asc" ]],
+        // add download features
+        dom: 'i<"row"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>B', 
+        buttons: [ 'excelHtml5', 'csvHtml5' ]
+    });
+    /* Add event listeners to collectionSelect */
+    $('#collectionSelect').change( function() {
+        table.draw();
+    });
+})();
+</script>
