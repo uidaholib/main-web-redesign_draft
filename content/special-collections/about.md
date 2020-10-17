@@ -52,7 +52,7 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phon
         <div class="card-body text-center">
             Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
             Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-            Visit: <a href="{{ '/about/maps.html#first' | relative_url }}">Reading Room, Library room 121</a>
+            Visit: <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room, Library room 121</a>
         </div>
     </div>
     <div class="card">
