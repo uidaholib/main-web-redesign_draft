@@ -4,140 +4,32 @@ section: About
 permalink: /about/maps.html
 layout: page
 lazyload: true
+gallery: true
 ---	
-<p><a href="/find/lc.html">Library of Congress Call Number Information</a></p>
-<div class="row justify-content-center">
-	
-	<div class="col-md-6">
-			
-			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorOne">
-				<div class="card my-3" id="first">
-					<div class="card-header text-center">
-						<h3 class="mb-0">First Floor</h3>
-					</div><!--end card-header-->
-					<div class="card-body">
-						<img src="{{ '/stackmaps/stackmap1_md.jpg' | prepend: site.lib-media }}" alt="map of first floor" class="img-fluid">
-					</div>
-				</div><!--end card-->
-			</button>
 
-			<div class="modal fade" id="floorOne" tabindex="-1" role="dialog" aria-labelledby="floorOne">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h3 class="modal-title">First Floor</h3>
-							
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	
-						</div><!--end modal-header-->
-						<div class="modal-body">
-							<img data-src="{{ '/stackmaps/stackmap1.jpg' | prepend: site.lib-media }}" alt="map of first floor" class="img-fluid lazyload">
-						</div><!--end modal-body-->
+<div class="text-center align-content-center mb-3">
+	<a href="/find/lc.html" class="btn btn-payette-blue btn-sm my-2"><span class="fas fa-list"></span> Library of Congress Call Numbers</a>
+	<a href="tour.html" class="btn btn-payette-blue btn-sm my-2"><span class="far fa-play-circle"></span> Virtual Tour</a>
+	<a href="{{ site.lib-media }}/about/library_virtual_tour.pdf" class="btn btn-payette-blue btn-sm my-2"><span class="far fa-file-alt"></span> Virtual Tour PDF</a>
+</div>
 
-					</div><!--end modal-content-->
+<div id="lightgallery">
+	{% assign maps = site.data.about_floor_maps %}
+	{% for m in maps %}
+	<div class="card mb-3">
+		<div class="row no-gutter">
+			<div class="col-md-8">
+				<div class="card-body">
+					<h3 id="{{ m.name | slugify }}" class="h2 card-title">{{ m.name }}</h3>
+					<p class="card-text">{{ m.description }}</p>
 				</div>
-			</div><!--end modal-->
-				
-	</div><!--end column-->
-
-	<div class="col-md-6">
-			
-			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorTwo">
-				<div class="card my-3" id="second">
-					<div class="card-header text-center">
-						<h3 class="mb-0">Second Floor</h3>
-					</div><!--end card-header-->
-					<div class="card-body">
-						<img src="{{ '/stackmaps/stackmap2_md.jpg' | prepend: site.lib-media }}" alt="map of second floor" class="img-fluid">
-					</div>
-				</div><!--end card-->
-			</button>
-
-			<div class="modal fade" id="floorTwo" tabindex="-1" role="dialog" aria-labelledby="floorTwo">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						
-						<div class="modal-header">
-							<h3 class="modal-title">Second Floor</h3>
-	
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	
-						</div><!--end modal-header-->
-						<div class="modal-body">
-							<img data-src="{{ '/stackmaps/stackmap2.jpg' | prepend: site.lib-media }}" alt="map of second floor" class="img-fluid lazyload">
-						</div><!--end modal-body-->
-
-					</div><!--end modal-content-->
-				</div>
-			</div><!--end modal-->
-				
-	</div><!--end column-->
-
-	<div class="col-md-6">
-			
-			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorThree">
-				<div class="card my-3" id="third">
-					<div class="card-header text-center">
-						<h3 class="mb-0">Third Floor</h3>
-					</div><!--end card-header-->
-					<div class="card-body">
-						<img src="{{ '/stackmaps/stackmap3_md.jpg' | prepend: site.lib-media }}" alt="map of third floor" class="img-fluid">
-					</div>
-				</div><!--end card-->
-			</button>
-
-			<div class="modal fade" id="floorThree" tabindex="-1" role="dialog" aria-labelledby="floorThree">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						
-						<div class="modal-header">
-							<h3 class="modal-title">Third Floor</h3>
-	
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	
-						</div><!--end modal-header-->
-						<div class="modal-body">
-							<img data-src="{{ '/stackmaps/stackmap3.jpg' | prepend: site.lib-media }}" alt="map of third floor" class="img-fluid lazyload">
-						</div><!--end modal-body-->
-
-					</div><!--end modal-content-->
-				</div>
-			</div><!--end modal-->
-				
-	</div><!--end column-->
-
-	<div class="col-md-6">
-			
-			<button type="button" class="btn btn-light" data-toggle="modal" data-target="#floorFour">
-				<div class="card my-3" id="fourth">
-					<div class="card-header text-center">
-						<h3 class="mb-0">Fourth Floor</h3>
-					</div><!--end card-header-->
-					<div class="card-body">
-						<img src="{{ '/stackmaps/stackmap4_md.jpg' | prepend: site.lib-media }}" alt="map of fourth floor" class="img-fluid">
-					</div>
-				</div><!--end card-->
-			</button>
-
-			<div class="modal fade" id="floorFour" tabindex="-1" role="dialog" aria-labelledby="floorFour">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						
-						<div class="modal-header">
-							<h3 class="modal-title">Fourth Floor</h3>
-	
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	
-						</div><!--end modal-header-->
-						<div class="modal-body">
-							<img data-src="{{ '/stackmaps/stackmap4.jpg' | prepend: site.lib-media }}" alt="map of fourth floor" class="img-fluid lazyload">
-						</div><!--end modal-body-->
-
-					</div><!--end modal-content-->
-				</div>
-			</div><!--end modal-->
-				
-	</div><!--end column-->
-
-</div><!--end row-->
-											
+			</div>
+			<div class="col-md-4">
+				<a href="{{ site.lib-media }}{{ m.img }}" title="view full screen" class="gallery-img">
+					<img src="{{ site.lib-media }}{{ m.img_md }}" class="card-img p-2" alt="map of {{ m.name }}">
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
