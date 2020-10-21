@@ -21,37 +21,17 @@ default:
 # and display messages mon,tue,wed,thu,fri,sat,sun
 #
 ####
-breaks: 
-  # covid-19 closure
-  - start: "2020-02-23"
-    end: "2020-07-19"
-    mon: "Open Online"
-    tue: "Open Online"
-    wed: "Open Online"
-    thu: "Open Online"
-    fri: "Open Online"
-    sat: "Open Online"
-    sun: "Open Online"
-  # reopening stage 2
-  - start: "2020-07-20"
-    end: "2020-08-11"
-    mon: "Open 12pm &#8211; 6pm"
-    tue: "Open 12pm &#8211; 6pm"
-    wed: "Open 12pm &#8211; 6pm"
-    thu: "Open 12pm &#8211; 6pm"
-    fri: "Open 12pm &#8211; 6pm"
-    sat: "Closed"
-    sun: "Closed"    
+breaks:   
   # thanksgiving 
-  - start: "2020-11-21"
+  - start: "2020-11-22"
     end: "2020-11-29"
-    mon: "Open 8am &#8211; 8pm"
-    tue: "Open 8am &#8211; 8pm"
-    wed: "Open 8am &#8211; 8pm"
-    thu: "Open 8am &#8211; 8pm"
-    fri: "Open 8am &#8211; 8pm"
-    sat: "Open 10am &#8211; 6pm"
-    sun: "Open 10am &#8211; 6pm"
+    mon: "Open 8am &#8211; 6pm"
+    tue: "Open 8am &#8211; 6pm"
+    wed: "Open 8am &#8211; 6pm"
+    thu: "Closed"
+    fri: "Closed"
+    sat: "Closed"
+    sun: "Open 12pm &#8211; 6pm"
   # winter 
   - start: "2020-12-21"
     end: "2021-01-14"
