@@ -26,3 +26,22 @@
         color:white !important;
     }
 } 
+
+/* my library */ 
+#mylibrary-carousel { 
+    .carousel-caption { 
+        background: rgba(0, 0, 0, 0.7); 
+        min-width:450px;
+        width:auto;
+        bottom: 30px;
+    }
+    .carousel-indicators {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
+    a {
+        color:white !important;
+    }
+}

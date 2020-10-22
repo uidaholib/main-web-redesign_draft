@@ -4,7 +4,10 @@
     $(document).ready(function() {
         $("#lightgallery").lightGallery({
             selector: '.gallery-img',
-            thumbnail:true
+            thumbnail: false
         }); 
+    });
+    $("#viewGalleryBtn").on("click", () => {
+        $("#lightgallery .gallery-img:first-child").trigger("click");
     });
 </script>

@@ -24,6 +24,19 @@
             }
         }
     }
+    .carousel-caption { 
+        background: rgba(0, 0, 0, 0.7); 
+        min-width:450px;
+        width:auto;
+        bottom: 30px;
+        left: 40%;
+        hr {
+            border-color: $grey-color-light; 
+            width:50%;
+            margin:auto; 
+            border-style: dotted;
+        }
+    }
 }
 #carousel-pause { 
     position: absolute;
@@ -49,19 +62,6 @@
         font-family: 'object-fit: #{$fit}; object-position: #{$position}';
     } @else {
         font-family: 'object-fit: #{$fit}';
-    }
-}
-.carousel-caption { 
-    background: rgba(0, 0, 0, 0.7); 
-    min-width:450px;
-    width:auto;
-    bottom: 30px;
-    left: 40%;
-    hr {
-        border-color: $grey-color-light; 
-        width:50%;
-        margin:auto; 
-        border-style: dotted;
     }
 }
 
