@@ -3,6 +3,8 @@ title: University of Idaho Library Home
 section: home
 layout: default
 lazyload: true
+carousel: true
+custom-foot: "js/home.html"
 ---
 
 {% include index-alert.html color="info" text="<p>
@@ -19,7 +21,7 @@ The Library has new <a href='/about/hours.html' class='alert-link'>hours</a>, pl
     <h1 class="sr-only">University of Idaho Library Home</h1>
     {% include searchnav.html %}
 
-    {% include indexcarousel.html %}
+    {% include feature/carousel.html slides=site.data.carousel %}
 
     {% include marketing.html %}
 

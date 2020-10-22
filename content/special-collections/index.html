@@ -4,7 +4,7 @@ permalink: /special-collections/
 layout: page
 section: Special Collections 
 lazyload: true
-custom-foot: "js/spec_home.html"
+carousel: true
 ---
 
 <div class="row py-4">
@@ -47,5 +47,6 @@ custom-foot: "js/spec_home.html"
 
 <div class="mb-5">
   <h2 class="mb-3">Explore the Collections</h2>
-  {% include indexcarousel.html %}
+  {% assign page.carousel = true %}
+  {% include feature/carousel.html slides=site.data.spec_carousel %}
 </div>
