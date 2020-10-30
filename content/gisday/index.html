@@ -82,7 +82,7 @@ lazyload: true
             </div>
             {% if e.description_full %}<div class="col-md-10 collapse" id="collapse{{ forloop.index }}">
                 <div class="card card-body ">
-                    {{ e.description_full }}
+                    {{ e.description_full | markdownify }}
                 </div>
             </div>{% endif %}
         </div>
