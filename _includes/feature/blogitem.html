@@ -1,0 +1,70 @@
+{% comment %}
+This feature grabs an item from a JSON Feed object. 
+Uses 1.1 spec at this point, with an additional "thumbnail" item.
+https://jsonfeed.org/version/1.1
+
+Set up for the Harvester at the moment. Can be abstracted more for lib-static type application (if we think it's ok)
+
+{%- endcomment -%}
+<div class="row">
+
+    <div class="col-md text-center">
+        <figure
+            class="figure mx-3">
+            <a id="blog-link" href="">
+                <img id="blog-image" class="figure-img img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
+                    data-src="">
+            </a>
+            {% unless include.caption == false %}<figcaption class="figure-caption">
+                {% if include.caption %}{{ include.caption }}{% else %}<span id="caption-cover"></span>{% endif %}
+            </figcaption>{% endunless %}
+        </figure>
+    </div>
+    <div class="col-md text-center">
+   <div id="post-content">
+</div>
+<div class="my-3">
+    <a id="blog-link-button" class="btn btn-lg btn-outline-info" href="">Go to Post</a>
+    <a  class="btn btn-lg btn-outline-primary" href="https://lumber.onrender.com/">Go to Blog</a></div>
+    </div>
+</div>
+
+<script>
+
+    var proxyurl = "https://cors-anywhere.herokuapp.com/";
+    var url = 'https://lumber.onrender.com/feed.json';; // site that doesn’t send Access-Control-*
+
+    fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            append(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
+    function append(data) {
+        var obj = JSON.parse(data);
+        var fig = document.getElementById("blog-image");
+        var cap = document.getElementById("caption-cover");
+        var figlink = document.getElementById("blog-link");
+        var bloglink = document.getElementById("blog-link-button");
+
+        var content = document.getElementById("post-content");
+
+        fig.src = obj.items[0].thumbnail;
+        cap.innerHTML = obj.items[0].title;
+        figlink.href = obj.items[0].url;
+        bloglink.href = obj.items[0].url;
+        content.innerHTML = obj.items[0].content_html;
+        console.log(figlink)
+    };
+
+
+
+
+
+
+</script>
