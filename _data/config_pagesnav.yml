@@ -204,6 +204,8 @@ Find:
         url: /find/geospatial/
       - name: Software
         url: /find/geospatial/software.html
+      - name: GIS Day
+        url: /gisday/
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
