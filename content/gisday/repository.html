@@ -37,7 +37,7 @@ layout: page
         <th scope="row">{{ r.title }}</th>
         <td>{{ r.presenter }}{% if r.department %}<br><small>{{ r.department }}</small>{% endif %}</td>
         <td>{{ r.year }}<br>{{ r.type }}</td>
-        <td>{{ r.description }}</td>
+        <td><small>{{ r.description }}</small></td>
         <td>
             {% if r.file %}<a href="{{ '/media/gisday/' | append: r.file | absolute_url }}" target="_blank" rel="noopener" class="d-block"><span class="fas fa-file"></span> PDF</a>{% endif %}
             {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" class="d-block"><span class="fas fa-link"></span> Website</a>{% endif %}

@@ -23,15 +23,15 @@ default:
 ####
 breaks:   
   # thanksgiving 
-  - start: "2020-11-23"
+  - start: "2020-11-22"
     end: "2020-11-29"
     mon: "Open 8am &#8211; 6pm"
     tue: "Open 8am &#8211; 6pm"
     wed: "Open 8am &#8211; 6pm"
     thu: "Closed"
-    fri: "Closed"
+    fri: "Open 12pm &#8211; 6pm"
     sat: "Closed"
-    sun: "Open 10am &#8211; 6pm"
+    sun: "Open 12pm &#8211; 6pm"
   # winter 
   - start: "2020-12-21"
     end: "2021-01-14"
