@@ -1,5 +1,5 @@
 {% comment %}
-This feature grabs an item from a JSON Feed object. 
+This feature grabs an item from a JSON Feed object.
 Uses 1.1 spec at this point, with an additional "thumbnail" item.
 https://jsonfeed.org/version/1.1
 
@@ -9,8 +9,7 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
 <div class="row">
 
     <div class="col-md text-center">
-        <figure
-            class="figure mx-3">
+        <figure class="figure mx-3">
             <a id="blog-link" href="">
                 <img id="blog-image" class="figure-img img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
                     src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
@@ -20,13 +19,25 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
                 {% if include.caption %}{{ include.caption }}{% else %}<span id="caption-cover"></span>{% endif %}
             </figcaption>{% endunless %}
         </figure>
+        <a id="blog-link-button" class="btn btn-outline-secondary d-none" href="">Go to Post</a>
     </div>
     <div class="col-md text-center">
-   <div id="post-content">
-</div>
-<div class="my-3">
-    <a id="blog-link-button" class="btn btn-lg btn-outline-info" href="">Go to Post</a>
-    <a  class="btn btn-lg btn-outline-primary" href="https://lumber.onrender.com/">Go to Blog</a></div>
+        <figure class="figure mx-3">
+            <a id="blog-link-two" href="">
+                <img id="blog-image-two" class="figure-img img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
+                    data-src="">
+            </a>
+            {% unless include.caption == false %}<figcaption class="figure-caption">
+                {% if include.caption %}{{ include.caption }}{% else %}<span id="caption-cover-two"></span>{% endif %}
+            </figcaption>{% endunless %}
+        </figure>
+        <a id="blog-link-button-two" class="btn btn-outline-secondary d-none" href="">Go to Post</a>
+    </div>
+    <div class="col-12 text-center">
+        <div class="my-3">
+            
+            <a class="btn btn-lg btn-outline-primary" href="https://lumber.onrender.com/">Go to Blog</a></div>
     </div>
 </div>
 
@@ -51,14 +62,28 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
         var cap = document.getElementById("caption-cover");
         var figlink = document.getElementById("blog-link");
         var bloglink = document.getElementById("blog-link-button");
-        var content = document.getElementById("post-content");
-
+        
         fig.src = obj.items[0].thumbnail;
         cap.innerHTML = obj.items[0].title;
         figlink.href = obj.items[0].url;
         bloglink.href = obj.items[0].url;
-        content.innerHTML = obj.items[0].content_html;
-        console.log(obj.items[0])
+       
+
+
+        var figtwo = document.getElementById("blog-image-two");
+        var captwo = document.getElementById("caption-cover-two");
+        var figlinktwo = document.getElementById("blog-link-two");
+        var bloglinktwo = document.getElementById("blog-link-button-two");
+        
+
+
+        figtwo.src = obj.items[1].thumbnail;
+        captwo.innerHTML = obj.items[1].title;
+        figlinktwo.href = obj.items[1].url;
+        bloglinktwo.href = obj.items[1].url;
+
+        
+
     };
 
 
