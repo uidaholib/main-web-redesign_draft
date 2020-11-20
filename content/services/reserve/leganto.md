@@ -6,7 +6,7 @@ layout: page
 lazyload: true
 ---
 
-{% include bootstrap/alert.md color="warning" text="Learn more about Leganto by attending one of our upcoming Leganto Office Hours! Drop in for a few minutes to view a brief demo and participate in Q&A on: 
+{% include bootstrap/alert.md color="info" text="Learn more about Leganto by attending one of our upcoming Leganto Office Hours! Drop in for a few minutes to view a brief demo and participate in Q&A on: 
 
 - [Monday, December 7th at 10 a.m. Pacific](https://uidaho.zoom.us/meeting/register/tZIvcuuupzosGNbr4SCbXTAYJI_OPvwTgOg3) 
 - [Tuesday, December 8th at 1 p.m. Pacific](https://uidaho.zoom.us/meeting/register/tZMuceyhrjkrHNHQuxhbxLwv20GdU6GUPzAy) 
