@@ -39,7 +39,7 @@ These benefits include:
 Leganto is intuitive and easy to use, with a very low barrier to entry. 
 To get started using Leganto, we need to activate your BBLearn course and then you can begin adding, editing, saving, and customizing your reading lists.  
 
-Follow the instructions in the steps below to get activate Leganto, learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.  
+Follow the instructions in the steps below to activate Leganto, learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.  
 
 <div class="card my-3">
     <div class="card-header">
