@@ -17,7 +17,7 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 
 {% capture instr %}
 <div class="alert alert-info text-center">
-    <h4 class="alert-heading">Instructors please check our <a class="alert-link" href="{{ '/services/reserve/faq.html#fall-2020' | relative_url }}">FAQ about Course Reserves for Fall 2020</a></h4>
+    <h4 class="alert-heading">Instructors please check our <a class="alert-link" href="{{ '/services/reserve/faq.html#spring-2021' | relative_url }}">FAQ about Course Reserves for Spring 2021</a></h4>
 </div>
 <p class="text-center">
     <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
