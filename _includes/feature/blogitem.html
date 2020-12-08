@@ -11,7 +11,7 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
     <div class="col-md text-center">
         <figure class="figure mx-3">
             <a id="blog-link" href="">
-                <img id="blog-image" class="figure-img img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
+                <img id="blog-image" class="img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
                     src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
                     data-src="">
             </a>
@@ -37,14 +37,14 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
     <div class="col-12 text-center">
         <div class="my-3">
             
-            <a class="btn btn-lg btn-outline-primary" href="https://lumber.onrender.com/">Go to Blog</a></div>
+            <a class="btn btn-lg btn-outline-primary" href="https://harvestser.lib.uidaho.edu/">Go to Blog</a></div>
     </div>
 </div>
 
 <script>
 
     var proxyurl = "https://cors-anywhere.herokuapp.com/";
-    var url = 'https://lumber.onrender.com/feed.json';; // site that doesn’t send Access-Control-*
+    var url = 'https://harvester.lib.uidaho.edu/feed.json';; // site that doesn’t send Access-Control-*
 
     fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
         .then(function (response) {
