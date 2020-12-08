@@ -36,6 +36,7 @@ Fill out online <a href="request.html">Request Form</a> or come to the library's
 - Book chapter (single chapter or 10 percent, whichever is LESS)
 - Test files, lecture notes, solution files as created by instructor
 - Student papers, with written permission of student author
+- DVDs
 
 #### Inappropriate
 
@@ -77,6 +78,7 @@ Fill out online <a href="request.html">Request Form</a> or come to the library's
 - Journal article
 - Student papers with written permission of the student author
 - Links to websites with materials that are covered under copyright law
+- [Streaming video]({{ '/find/video.html' | relative_url }}) licensed by the Library
 
 #### Inappropriate
 
@@ -113,6 +115,6 @@ Materials can be used for one semester under provisions of the Fair Use sections
 
 - Typically, first come, first served; may, at the discretion of the library, be arranged to serve the largest number of students for the least effort.
 - Plan for two weeks, particularly if you expect the library to scan and/or pull materials.
-- Remember that everyone needs to have his materials available for the first day of the semester. Do not expect this to happen if you have not submitted your material two weeks before the first day of the semester.
+- Remember that everyone needs to have their materials available for the first day of the semester. Do not expect this to happen if you have not submitted your material two weeks before the first day of the semester.
 - You will be notified by email when your material is available. At this time, you will be given the password for your students to use to gain access to scanned documents.
 - If you would like to check on the availability of your class, please visit the <a href="index.html">Reserve page</a> on our website.

@@ -148,7 +148,7 @@ COVID-19:
     stub: /covid19/
   - subsection: Overview
     link: /covid19/index.html
-  - subsection: Fall 2020 Opening Guide
+  - subsection: Opening Guide
     link: /covid19/impact.html
   - subsection: Accessing Library Resources Off-Campus
     link: /covid19/access.html
@@ -424,9 +424,7 @@ Services:
       - name: How To
         url: /services/reserve/howto.html
       - name: Leganto
-        url: /services/reserve/leganto.html        
-      - name: Streaming Video
-        url: /services/reserve/video.html
+        url: /services/reserve/leganto.html
       - name: Copyright/Fair Use
         url: /services/reserve/fairuse.html
       - name: FAQs

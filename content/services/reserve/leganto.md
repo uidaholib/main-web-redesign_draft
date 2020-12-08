@@ -6,13 +6,42 @@ layout: page
 lazyload: true
 ---
 
-Leganto is a library plug-in that allows students to access library course reserves directly from your BBLearn course. 
-It is an additional feature of our existing library systems.
-Leganto is already embedded in your BBLearn course; you just need to activate it. 
+{% include bootstrap/alert.md color="info" text="Learn more about Leganto by attending one of our upcoming Leganto Office Hours! Drop in for a few minutes to view a brief demo and participate in Q&A on: 
 
-Follow the steps below to activate Leganto and make your reading lists available from within your BBLearn course, or check our [Leganto FAQ](#leganto-faq) for more information. 
+- [Monday, December 7th at 10 a.m. Pacific](https://uidaho.zoom.us/meeting/register/tZIvcuuupzosGNbr4SCbXTAYJI_OPvwTgOg3) 
+- [Tuesday, December 8th at 1 p.m. Pacific](https://uidaho.zoom.us/meeting/register/tZMuceyhrjkrHNHQuxhbxLwv20GdU6GUPzAy) 
+- [Thursday, December 10th at 12 noon Pacific](https://uidaho.zoom.us/meeting/register/tZUsfuugqTkoGdA88Ad9VZqxskTBlo12FY9S)" %}
 
-<div class="card my-3">
+Leganto is a new product from the UI Library that simplifies and improves course reading lists. 
+It integrates with BBLearn to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.  
+
+Feedback from instructors shows that Leganto is easy to use, and has significant benefits for teaching and learning.   
+
+These benefits include: 
+
+- Reduced workload for instructors 
+    - Reading lists can be saved and reused across semesters 
+    - Ability to create multiple reading lists in draft form allows instructors to work at their own pace 
+    - Autonomy in developing, changing, updating, and saving course lists 
+
+- Improved student experience 
+    - Centrally located course materials 
+    - Affordable, equitable access to library-purchased materials 
+    - Interactive platform increases student engagement 
+
+- Seamless library integration and support 
+    - Add library subscriptions, open education resources, popular media, and multimedia 
+    - Get expert support for help with copyright, accessibility, and other questions 
+    - "Cite It" feature allows direct import for readings wherever, whenever 
+
+## Getting Started
+
+Leganto is intuitive and easy to use, with a very low barrier to entry. 
+To get started using Leganto, we need to activate your BBLearn course and then you can begin adding, editing, saving, and customizing your reading lists.  
+
+Follow the instructions in the steps below to [activate Leganto](#leganto-activate), learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.  
+
+<div class="card my-3" id="leganto-activate">
     <div class="card-header">
         <h6 class="card-title mb-0">
             <a data-toggle="collapse" href="#collapseHowToSteps">How to Activate Leganto <span class="fas fa-chevron-down smalltxt"></span></a>
@@ -58,8 +87,6 @@ To view your list as a student would see it, please visit the [public reserves p
 </div>
 </div>
 </div> 
-
-Please don't hesitate to email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a> if you run into issues activating Leganto or have other questions!
 
 -----------
 

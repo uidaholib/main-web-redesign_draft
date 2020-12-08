@@ -27,18 +27,12 @@ Many items have been digitized and can be discovered in [U of I Library Digital 
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0).
 
 <div class="py-3 text-center">
-    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-search"></span> Browse Collections</a>
-    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-edit"></span> Plan Your Visit</a>
-    <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-question"></span> Policies</a>
-    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-gift"></span> Donate</a>
-    <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-question"></span> FAQ</a>
-    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU3fn1ZT2uFVAhbeq68ZolZtUQ0FVNEdKVEIyVFhaUFFWTlgxN1pUVjE3Qy4u" class="btn btn-outline-payette-blue m-1">
-    <span class="fas fa-comments"></span> Give Us Feedback</a>
+    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-outline-payette-blue m-1"><span class="fas fa-search"></span> Browse Collections</a>
+    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-outline-payette-blue m-1"><span class="fas fa-edit"></span> Plan Your Visit</a>
+    <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-outline-payette-blue m-1"><span class="fas fa-question"></span> Policies</a>
+    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-outline-payette-blue m-1"><span class="fas fa-gift"></span> Donate</a>
+    <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-outline-payette-blue m-1"><span class="fas fa-question"></span> FAQ</a>
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU3fn1ZT2uFVAhbeq68ZolZtUQ0FVNEdKVEIyVFhaUFFWTlgxN1pUVjE3Qy4u" class="btn btn-outline-payette-blue m-1"><span class="fas fa-comments"></span> Give Us Feedback</a>
 </div>
 
 ---

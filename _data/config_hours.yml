@@ -23,25 +23,45 @@ default:
 ####
 breaks:   
   # thanksgiving 
-  - start: "2020-11-22"
-    end: "2020-11-29"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Closed"
-    fri: "Open 12pm &#8211; 6pm"
-    sat: "Closed"
-    sun: "Open 12pm &#8211; 6pm"
-  # winter 
-  - start: "2020-12-21"
-    end: "2021-01-14"
+#  - start: "2020-11-22"
+#    end: "2020-11-29"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Closed"
+#    fri: "Open 12pm &#8211; 6pm"
+#    sat: "Closed"
+#    sun: "Open 12pm &#8211; 6pm"
+  # winter 1
+  - start: "2020-12-19"
+    end: "2020-12-23"
     mon: "Open 8am &#8211; 6pm"
     tue: "Open 8am &#8211; 6pm"
     wed: "Open 8am &#8211; 6pm"
     thu: "Open 8am &#8211; 6pm"
     fri: "Open 8am &#8211; 6pm"
-    sat: "Open 10am &#8211; 6pm"
-    sun: "Open 10am &#8211; 6pm"
+    sat: "Closed"
+    sun: "Open 12pm &#8211; 6pm"
+  # winter 2
+  - start: "2020-12-24"
+    end: "2021-01-02"
+    mon: "Closed"
+    tue: "Closed"
+    wed: "Closed"
+    thu: "Closed"
+    fri: "Closed"
+    sat: "Closed"
+    sun: "Closed"
+  # winter 3
+  - start: "2021-01-03"
+    end: "2020-01-10"
+    mon: "Open 8am &#8211; 6pm"
+    tue: "Open 8am &#8211; 6pm"
+    wed: "Open 8am &#8211; 6pm"
+    thu: "Open 8am &#8211; 6pm"
+    fri: "Open 8am &#8211; 6pm"
+    sat: "Closed"
+    sun: "Open 10am &#8211; 6pm"      
   # spring
 #  - start: "2021-03-13"
 #    end: "2021-03-21"
@@ -83,5 +103,5 @@ specials:
 # 
 ####
 closed:
-  dates: [ "2020-09-14","2020-08-16","2020-08-23","2020-09-07","2020-11-26","2020-12-24","2020-12-25","2020-12-31","2021-01-01","2021-05-31","2021-07-05"]
+  dates: [ "2020-09-14","2020-08-16","2020-08-23","2020-09-07","2021-05-31","2021-07-04"]
   message: "Closed"

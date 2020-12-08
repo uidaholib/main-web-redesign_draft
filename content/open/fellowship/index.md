@@ -27,7 +27,9 @@ This fellowship awards $1,200 to selected faculty and graduate students. Fellows
 
 Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quailty representation of marginalized identities in their course materials.
 
+<!--
 **The application deadline is May 29th, 2020!**
 
 {:.btn .btn-lg .btn-pride-gold .ml-3}
 [Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_9ts4qDf4pTXifpr)
+-->
