@@ -8,35 +8,23 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
 {%- endcomment -%}
 <div class="row">
 
-    <div class="col-md text-center">
+    <div class="col-md-8 text-center">
         <figure class="figure mx-3">
             <a id="blog-link" href="">
                 <img id="blog-image" class="img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
                     src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
                     data-src="">
             </a>
-            {% unless include.caption == false %}<figcaption class="figure-caption">
-                {% if include.caption %}{{ include.caption }}{% else %}<span id="caption-cover"></span>{% endif %}
-            </figcaption>{% endunless %}
         </figure>
-        <a id="blog-link-button" class="btn btn-outline-secondary d-none" href="">Go to Post</a>
     </div>
-    <div class="col-md text-center">
-        <figure class="figure mx-3">
-            <a id="blog-link-two" href="">
-                <img id="blog-image-two" class="figure-img img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
-                    data-src="">
-            </a>
-            {% unless include.caption == false %}<figcaption class="figure-caption">
-                {% if include.caption %}{{ include.caption }}{% else %}<span id="caption-cover-two"></span>{% endif %}
-            </figcaption>{% endunless %}
-        </figure>
-        <a id="blog-link-button-two" class="btn btn-outline-secondary d-none" href="">Go to Post</a>
+    <div class="col-md-4">
+        <a class="h4 mt-3" id="caption-cover" href=""></a>
+        <p id="content" class="mt-3"></p>
     </div>
+
     <div class="col-12 text-center">
         <div class="my-3">
-            
+
             <a class="btn btn-lg btn-outline-primary" href="https://harvestser.lib.uidaho.edu/">Go to Blog</a></div>
     </div>
 </div>
@@ -61,28 +49,12 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
         var fig = document.getElementById("blog-image");
         var cap = document.getElementById("caption-cover");
         var figlink = document.getElementById("blog-link");
-        var bloglink = document.getElementById("blog-link-button");
-        
+        var content = document.getElementById("content");
+
         fig.src = obj.items[0].thumbnail;
         cap.innerHTML = obj.items[0].title;
-        figlink.href = obj.items[0].url;
-        bloglink.href = obj.items[0].url;
-       
-
-
-        var figtwo = document.getElementById("blog-image-two");
-        var captwo = document.getElementById("caption-cover-two");
-        var figlinktwo = document.getElementById("blog-link-two");
-        var bloglinktwo = document.getElementById("blog-link-button-two");
-        
-
-
-        figtwo.src = obj.items[1].thumbnail;
-        captwo.innerHTML = obj.items[1].title;
-        figlinktwo.href = obj.items[1].url;
-        bloglinktwo.href = obj.items[1].url;
-
-        
+        cap.href = obj.items[0].url;
+        content.innerHTML = obj.items[6].content_html;
 
     };
 
