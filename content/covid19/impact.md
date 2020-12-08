@@ -1,5 +1,5 @@
 ---
-title: Library Fall 2020 Opening Guide
+title: Library Opening Guide
 layout: page
 section: COVID-19
 permalink: /covid19/impact.html
@@ -51,11 +51,11 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 ### Study Rooms, Classrooms, and Events
 {:.h4}
 
-- Group study rooms will be closed for fall semester due to limited ventilation.
+- Group study rooms will be closed due to limited ventilation.
 - The MILL, Studio, and CDIL will be closed until the next stage of reopening.
 - Meetings, classes, workshops and events larger than 10 individuals will be postponed until the next stage of reopening, or may take place remotely.
 - Library instruction may take place virtually, in the course instructor's classroom, or if class size allows, in library classrooms.
-- Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space this fall. 
+- Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space. 
 - The Map Room will be closed until the next stage of reopening. To request help accessing maps, please contact <rattebur@uidaho.edu>. 
 
 ## Circulation and Collections
@@ -84,7 +84,6 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 {:.h4}
 
 - Regular borrowing and lending periods have resumed for locally-owned items.
-- Summit loans will extend from six weeks to one semester [pending]. 
 - We will continue to be flexible with fines; please email [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) if you need help with upcoming or accrued library fines. 
 
 ### Resource Sharing
@@ -101,7 +100,7 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 {:.h4}
 
 - Visit the [Reference Services page]({{ '/help/' | relative_url }}) to get immediate research assistance via chat, text, email, or virtual consultation. Follow-up in-person consultations are also available.
-- Beginning August 24th, reference hours for Fall 2020 are:
+- Semester reference hours are:
 
 <div class="ml-4 mb-3 border rounded p-3" markdown="1">
 
