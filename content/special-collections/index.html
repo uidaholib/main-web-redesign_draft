@@ -27,8 +27,13 @@ carousel: true
         <span class="fas fa-comments"></span> Give Us Feedback</a>
     </div>
   </div>
-  <div class="col-md-4 align-self-center">
+  <div class="col-md-4 align-self-center mt-n5">
     <div class="card">
+      <div class="card-body text-center">
+        {% include feature/figure.html img="https://lumber.onrender.com/assets/img/babyjoe.jpg" link="https://lumber.onrender.com/" caption="Our Blog and Working Collection - Idaho Harvester" %}
+      </div>
+    </div>
+    <div class="card my-3">
       <div class="card-body text-center">
         <h3>Hours:</h3>
         <p>By appointment only</p>
@@ -43,7 +48,12 @@ carousel: true
     </div>
   </div>
 </div>
+<hr>
 
+<div class="mb-5">
+  <h2 class="mb-5">Latest Blog Posts from our <a href="https://lumber.onrender.com/" target="_blank">Idaho Harvester</a></h2>
+  {% include feature/blogitem.html %}
+</div>
 <hr>
 
 <div class="mb-5">

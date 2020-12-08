@@ -7,7 +7,8 @@
     E.G. --> {% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/collections/oldadmin.jpg" alt="old admin building" %}
 
     Options:
-    - "img" = link to image file.  
+    - "img" = link to image file. 
+    - "link" = link to another web page.  
     - "alt" = alt text for image
     - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100"
     - "caption" = the caption option allows you to manually add a caption
@@ -16,7 +17,9 @@
 {%- endcomment -%}
 <div class="text-center">
     <figure class="figure mx-3{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}">
+        {% if include.link %}<a class="stretched-link" href="{{ include.link }}">{% endif %}
         <img class="figure-img img-fluid rounded" alt="{{ figure.alt | escape }}" src="{{ include.img }}" >
+        {% if include.link%}</a>{% endif %}
         {% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{% endif %}
     </figure>
 </div>
