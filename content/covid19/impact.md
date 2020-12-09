@@ -11,8 +11,8 @@ See our [hours](/about/hours.html) for the most up-to-date information." color="
 
 The University of Idaho Library is committed to serving the research and learning needs of our campus community while also minimizing the risk of novel coronavirus (COVID-19) for U of I students, staff, faculty, and library personnel.
 
-The Library is following a [phased reopening plan]({{ site.lib-media }}/about/LibraryReopeningExternal070620.pdf){:target="_blank"} guided by Idaho Rebounds, university plans, library best practices, and public health guidance.
-Information about the larger U of I response to COVID-19 can be found at <https://www.uidaho.edu/vandal-health-clinic/coronavirus>. 
+The Library is following guidance by Idaho Rebounds, university plans, library best practices, and public health guidelines.
+For the most up-to-date information about the University's response, please visit [U of I Coronavirus page](https://www.uidaho.edu/vandal-health-clinic/coronavirus). 
 
 <div class="text-center">
   <a href="#{{ 'Library Public Space Guidelines' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-1">Public Space Guidelines</a>
@@ -56,7 +56,7 @@ Information about the larger U of I response to COVID-19 can be found at <https:
 - Meetings, classes, workshops and events larger than 10 individuals will be postponed until the next stage of reopening, or may take place remotely.
 - Library instruction may take place virtually, in the course instructor's classroom, or if class size allows, in library classrooms.
 - Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space. 
-- The Map Room will be closed until the next stage of reopening. To request help accessing maps, please contact <rattebur@uidaho.edu>. 
+- The Map Room will is currently open from 8am – 5pm, and is only meant for individuals or pairs, NOT large groups. To request help accessing maps, please contact <rattebur@uidaho.edu>. 
 
 ## Circulation and Collections
 {: .my-4}
@@ -69,7 +69,6 @@ Information about the larger U of I response to COVID-19 can be found at <https:
     - Non-circulating library materials such as newspapers, magazines, and other periodicals will not be quarantined or sanitized and may therefore pose a higher risk. Please use hand sanitizer or wash your hands before and after using these materials.
     - Some items have been removed from circulation altogether due to possible risk, such as board games, microphones, and fabric headphones.
 - Quarantine may affect the delivery or return time for certain materials.
-    - Delivery of Summit and ILL materials will be delayed four days while items are in quarantine.
     - Items returned through book drops or mail will not be checked in for four days after quarantine.
 - Print books on course reserves will still circulate but will be unavailable for four days after each checkout to effectively quarantine. Visit the [Course Reserves page]({{ '/services/reserve/' | relative_url }}) for more information.
 
