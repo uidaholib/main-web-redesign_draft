@@ -51,6 +51,7 @@ Under the hood updates:
 > Meeting 2020-12-14
 
 - Semester review (see above)
+- DEI committee work update (Olivia)
 - Home page Alerts 
 - Any Spring semester needs?
 - General feedback, issues, ideas, discussion
