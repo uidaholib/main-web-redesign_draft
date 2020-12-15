@@ -56,7 +56,7 @@ Under the hood updates:
 
 > Meeting 2020-12-14
 >
-> Present: Dobbins, Thompson, Berge, Prorak, Doney, Shannon, Moreno, Perret, Smith, Martinez, Williamson.
+> Present: Dobbins, Thompson, Berge, Prorak, Doney, Shannon, Moreno, Perret, Smith, Martinez, Wikle, Williamson.
 
 - Semester review (see above)
     - [XKCD comic University Website](https://xkcd.com/773/)
