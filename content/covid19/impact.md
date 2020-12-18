@@ -3,6 +3,7 @@ title: Library Opening Guide
 layout: page
 section: COVID-19
 permalink: /covid19/impact.html
+chat-widget: true
 ---
 
 {% include feature/alert.html text="<span class='h5'><strong>The University of Idaho Library building is now open to U of I students, staff, and faculty.</strong></span>
@@ -134,5 +135,3 @@ For the most up-to-date information about the University's response, please visi
 - Community patrons may continue to borrow locally-owned physical items using our curbside delivery service.
 - Electronic resources and databases are not available to alumni or the public at large due to our licensing agreements. The Latah County Public Library in Moscow is open for borrowing, lending, and computer and printing needs.
 - Virtual consultations are available for patrons seeking research assistance. Please email [libref@uidaho.edu](mailto:libref@uidaho.edu) for more information.
-
-{% include lib-chat-widget.html %}

@@ -14,5 +14,5 @@ They are each a bit different use case, but most of the text updates should appl
 
 "ask-us-chat-button" is a bit more modified than the others (for example, when offline it just becomes a link to the help page), so be careful changing anything there. 
 
-To add proactive chat to a page, use the include:
-`{% include lib-chat-widget.html %}`
+To add proactive chat to a page, use the the front matter: 
+`chat-widget: true`
