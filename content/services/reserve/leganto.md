@@ -6,12 +6,6 @@ layout: page
 lazyload: true
 ---
 
-{% include bootstrap/alert.md color="info" text="Learn more about Leganto by attending one of our upcoming Leganto Office Hours! Drop in for a few minutes to view a brief demo and participate in Q&A on: 
-
-- [Monday, December 7th at 10 a.m. Pacific](https://uidaho.zoom.us/meeting/register/tZIvcuuupzosGNbr4SCbXTAYJI_OPvwTgOg3) 
-- [Tuesday, December 8th at 1 p.m. Pacific](https://uidaho.zoom.us/meeting/register/tZMuceyhrjkrHNHQuxhbxLwv20GdU6GUPzAy) 
-- [Thursday, December 10th at 12 noon Pacific](https://uidaho.zoom.us/meeting/register/tZUsfuugqTkoGdA88Ad9VZqxskTBlo12FY9S)" %}
-
 Leganto is a new product from the UI Library that simplifies and improves course reading lists. 
 It integrates with BBLearn to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.  
 
