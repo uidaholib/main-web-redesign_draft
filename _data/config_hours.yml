@@ -54,7 +54,7 @@ breaks:
     sun: "Closed"
   # winter 3
   - start: "2021-01-03"
-    end: "2020-01-10"
+    end: "2021-01-10"
     mon: "Open 8am &#8211; 6pm"
     tue: "Open 8am &#8211; 6pm"
     wed: "Open 8am &#8211; 6pm"
