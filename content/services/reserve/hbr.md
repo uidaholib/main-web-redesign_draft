@@ -18,8 +18,8 @@ Navigate to the database title by using the "copyrightDatabases A-Z" link under 
 1. Follow the library link to [Business Source Premier](https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?site=bsi) to ensure you are logged in with U of I credentials. 
 2. Search for you article. 
 
-{% include figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/hbr1.jpg" alt="image of database search box" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/hbr1.jpg" alt="image of database search box" %}
 
 3. If the library has access to your article, you should see it in the results list. 
 
-{% include figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/hbr2.jpg" alt="image of results list" %}
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/hbr2.jpg" alt="image of results list" %}
