@@ -219,13 +219,6 @@ Find:
     link: /find/journals.html
   - subsection: Maps
     link: /find/maps/
-    subpages:
-      - name: Maps
-        url: /find/maps/
-      - name: Print Maps
-        url: /find/maps/paper.html
-      - name: Digital Maps
-        url: /find/maps/digital.html
   - subsection: Newspapers
     link: /find/newspapers.html
     subpages:
