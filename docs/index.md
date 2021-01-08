@@ -21,18 +21,6 @@ The table should be added to the page content, with the `id` on the `<table>` el
 By default it is not paginated. 
 Add `table-paginate: true` to yml front matter to add datatables pagination feature.
 
-# Carousel images
-
-The carousel images are set to "cover" so the edges will be cropped off depending on the size of the page in the browser window. 
-The height is set to 500px on desktop, on larger screens as you stretch out towards or beyond the actual px width of the image you will only see the middle 500px. 
-Thus, it seems keep the main content centered in the image around 500px high.
-Dimensions that seem to work well:
-
-- center around 1200px x 550px, canvas 2000px x 1300px.
-- center around 1000px x 600px, canvas 1600px x 900px.
-
-Images are added to the webserver in the `/media/carousel/` directory, not to the github project.
-
 # Foot and custom-foot
 
 All js is loaded at the bottom of the page in "foot.html" include.
