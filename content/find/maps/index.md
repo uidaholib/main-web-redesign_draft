@@ -12,6 +12,7 @@ Whether you are looking for the most up-to-date [geospatial information]({{ '/fi
 The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107 on the Library's first floor</a>, open Monday through Friday 8 am to 5 pm, with weekend hours available by appointment.
 
 <div class="text-center">
+    <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://libguides.uidaho.edu/Map_Resources">Map Resources Guide</a>
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.insideidaho.org/">INSIDE Idaho</a>
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/historicalmaps/">Idaho Historical Maps Collection</a>
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/aerial/">Idaho Historical Aerial Photographs</a>
