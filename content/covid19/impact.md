@@ -12,7 +12,7 @@ See our [hours](/about/hours.html) for the most up-to-date information." color="
 
 The University of Idaho Library is committed to serving the research and learning needs of our campus community while also minimizing the risk of novel coronavirus (COVID-19) for U of I students, staff, faculty, and library personnel.
 
-The Library is following guidance by Idaho Rebounds, university plans, library best practices, and public health guidelines.
+The Library is following guidance by Idaho Rebounds, university plans, library best practices, and public health guidelines--and the [Healthy Vandal Pledge](https://www.uidaho.edu/vandal-health-clinic/coronavirus/healthy-vandal-pledge).
 For the most up-to-date information about the University's response, please visit [U of I Coronavirus page](https://www.uidaho.edu/vandal-health-clinic/coronavirus). 
 
 <div class="text-center">
