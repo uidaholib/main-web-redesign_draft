@@ -29,7 +29,7 @@ table-id: "#directory"
     {% for p in people %}
     <tr>
        <td class="name">{{ p.name }}</td>
-       <td class="title center">{{ p.rank }}<br>{{ p.title }}</td>
+       <td class="title center">{{ p.title }}<br>{{ p.rank }}</td>
        <td class="department center">{{ p.department }}</td>
        <td class="contact"><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
     </tr>
