@@ -6,13 +6,13 @@
 ####
 default: 
   # reopening phase 3 
-  mon: "Open 7:45am &#8211; 10pm"
-  tue: "Open 7:45am &#8211; 10pm"
-  wed: "Open 7:45am &#8211; 10pm"
-  thu: "Open 7:45am &#8211; 10pm"
+  mon: "Open 7:45am &#8211; 1am"
+  tue: "Open 7:45am &#8211; 1am"
+  wed: "Open 7:45am &#8211; 1am"
+  thu: "Open 7:45am &#8211; 1am"
   fri: "Open 7:45am &#8211; 8pm"
   sat: "Closed"
-  sun: "Open 12pm &#8211; 10pm"
+  sun: "Open 12pm &#8211; 1am"
 ####
 #
 # Breaks open hours (longer term hours that apply to extended periods)
@@ -33,35 +33,15 @@ breaks:
 #    sat: "Closed"
 #    sun: "Open 12pm &#8211; 6pm"
   # winter 1
-  - start: "2020-12-19"
-    end: "2020-12-23"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Closed"
-    sun: "Open 12pm &#8211; 6pm"
-  # winter 2
-  - start: "2020-12-24"
-    end: "2021-01-02"
-    mon: "Closed"
-    tue: "Closed"
-    wed: "Closed"
-    thu: "Closed"
-    fri: "Closed"
-    sat: "Closed"
-    sun: "Closed"
-  # winter 3
-  - start: "2021-01-03"
-    end: "2021-01-10"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Closed"
-    sun: "Open 10am &#8211; 6pm"      
+#  - start: "2020-12-19"
+#    end: "2020-12-23"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Open 8am &#8211; 6pm"
+#    fri: "Open 8am &#8211; 6pm"
+#    sat: "Closed"
+#    sun: "Open 12pm &#8211; 6pm"   
   # spring break
   - start: "2021-03-14"
     end: "2021-03-20"
@@ -91,10 +71,8 @@ breaks:
 # 
 ####
 specials:
-  - dates: ["2020-05-16","2020-05-17"]
-    message: "Open 8am &#8211; 5pm"
-  - dates: ["2020-11-22"]
-    message: "Open 12pm &#8211; 6pm"    
+  - dates: ["2021-01-11","2021-01-12"]
+    message: "Open 7:45am &#8211; 10pm"  
 ####
 #
 # Closed dates (single dates when closed)
