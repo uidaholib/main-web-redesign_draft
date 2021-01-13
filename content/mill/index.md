@@ -7,8 +7,20 @@ layout: page
 
 <img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded" alt="image of circuit board with computer chip">
 
-<div class="alert alert-warning text-center" role="alert">
-<h4 class="alert-heading mb-0"><span class="fas fa-clock"></span> The MILL is closed until further notice as part of our ongoing <a href="{{ '/covid19/' | relative_url }}">COVID-19 response</a>.</h4>
+<div class="alert alert-info text-center" role="alert">
+<h4 class="alert-heading"><span class="fas fa-clock"></span> Spring 2021 Hours</h4>
+<p class="h5">Mon, Wed, Fri: 8am - 11am<br> Tue, Thu: 8am - 12pm</p>
+</div>
+<div class="alert alert-warning" role="alert" markdown="1">
+
+For everyone's safety:
+
+- Masks are Required in the MILL.
+- Please keep visits brief.
+- Limit of two patrons in the MILL at a time practicing social distancing.
+- Virtual consultations and appointments are suggested, please email <edie@uidaho.edu>.
+- Email <edie@uidaho.edu> to set up a virtual consultation for 3D printing or to schedule a print.
+
 </div>
 
 The **Making, Innovating, Learning Laboratory** (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 

@@ -53,7 +53,7 @@ For the most up-to-date information about the University's response, please visi
 {:.h4}
 
 - Group study rooms will be closed due to limited ventilation.
-- The MILL, Studio, and CDIL will be closed until the next stage of reopening.
+- The Studio and CDIL will be closed until the next stage of reopening.
 - Meetings, classes, workshops and events larger than 10 individuals will be postponed until the next stage of reopening, or may take place remotely.
 - Library instruction may take place virtually, in the course instructor's classroom, or if class size allows, in library classrooms.
 - Individuals who have already been assigned a graduate study carrel may continue to use their dedicated space. 
