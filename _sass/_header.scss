@@ -14,7 +14,7 @@
 .lib-logo-lg {
     max-height: 80px;
 }
-.btn-ask{
+.btn-ask {
     background-color: transparent;
     background-image: none;
     border: 4px double $pride-gold;
@@ -22,13 +22,6 @@
         background-color: $pride-gold;
         color:white;
     }
-}
-
-/* lib chat button fix */
-#askus_libchat #libchat_ed1418c47639635236cffc31f9e86e74 button { 
-    padding: 0px; 
-    width: 100%; 
-    border: none; 
 }
 
 /* main nav */
