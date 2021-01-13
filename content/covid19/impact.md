@@ -6,9 +6,7 @@ permalink: /covid19/impact.html
 chat-widget: true
 ---
 
-{% include feature/alert.html text="<span class='h5'><strong>The University of Idaho Library building is now open to U of I students, staff, and faculty.</strong></span>
-
-See our [hours](/about/hours.html) for the most up-to-date information." color="info" align="center" %}
+{% include feature/alert.html text="<span class='h5'><strong>The University of Idaho Library building is now open to U of I students, staff, and faculty.</strong></span>" color="info" align="center" %}
 
 The University of Idaho Library is committed to serving the research and learning needs of our campus community while also minimizing the risk of novel coronavirus (COVID-19) for U of I students, staff, faculty, and library personnel.
 
@@ -31,6 +29,7 @@ For the most up-to-date information about the University's response, please visi
 - Library building access is currently limited to University of Idaho students, staff, and faculty.
 - Library users must swipe their Vandal Card at the front door to gain entry to the building. Please contact the [VandalCard Office](https://support.uidaho.edu/TDClient/40/Portal/Requests/ServiceDet?ID=597) if you need help activating your card or getting a new VandalCard.
 - Curbside delivery and select online resources remain available to both U of I and community patrons.
+- Please check our [hours](/about/hours.html) for the most up-to-date opening times.
 
 ### Mask Wearing and Social Distancing
 {:.h4}
