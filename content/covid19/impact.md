@@ -99,21 +99,9 @@ For the most up-to-date information about the University's response, please visi
 ### Reference Desk
 {:.h4}
 
-- Visit the [Reference Services page]({{ '/help/' | relative_url }}) to get immediate research assistance via chat, text, email, or virtual consultation. Follow-up in-person consultations are also available.
-- Semester reference hours are:
-
-<div class="ml-4 mb-3 border rounded p-3" markdown="1">
-
-<u>Chat and Zoom Consultations</u>
-
-- 10:00 a.m. to 7:00 p.m. Monday to Thursday
-- 10:00 a.m. to 4 p.m. Friday
-
-<u>In-Person Appointments</u> _(requires 24 hour notice and prior Zoom consult)_
-
-- 1:00 p.m. to 4:00 p.m. Tuesday, Wednesday, and Thursday
-
-</div>
+- Connect via our new our [24/7 Chat service]({{ '/help/chat.html' | relative_url }}) anytime for immediate library help and research assistance!
+- U of I librarians are [available via Chat, email, and text]({{ '/help/' | relative_url }}) 9am - 5pm Monday to Friday.
+- Zoom consultations with a librarian are available during normal hours by appointment, please email <libref@uidaho.edu> to set up a time.
 
 ### Gary Strong Curriculum Center
 {:.h4} 
