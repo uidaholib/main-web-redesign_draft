@@ -9,7 +9,7 @@ function makeCard(obj) {
     // start card
     var card = '<div class="item col-lg-3 col-md-6 col-sm-12 mb-3"><div class="card">';
     // title
-    card += '<div class="card-body text-center"><h5 class="card-title"><strong>' + obj.title + '</strong></h5>';
+    card += '<div class="card-body text-center"><h5 class="card-title"><a href="' + itemHref + '" class="text-dark" title="link to ' + obj.title + '" target="_blank"><strong>' + obj.title + '</strong></a></h5>';
     // group number
     card += '<strong>Group Number: </strong>' + obj.group + '<br>';
     // dates
