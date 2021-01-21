@@ -7,7 +7,7 @@ layout: page
 <div class="row mt-3">
 
   <div class="col-md-8">
-    <p>Our reference resources &#8212; encyclopedias, dictionaries, gazeteers, glossaries, thesauruses, indexes, guide books,
+    <p>Our reference resources &#8212; encyclopedias, dictionaries, gazetteers, glossaries, thesauruses, indexes, guide books,
       etc. &#8212; can help you define and understand the fundamental terms and ideas of a discipline.</p>
     <p>
       <a href="https://www.wikipedia.org/">Wikipedia</a> is always a good place to start, but our reference resources can help you find more specialized information
@@ -69,34 +69,12 @@ layout: page
         <h3 class="card-title mb-0">Print Reference</h3>
       </div>
       <div class="card-body">
-        <p>Our print reference resources can be found on the first floor of the library, behind the <a href="../help/">reference desk</a>. </p>
+        <p>Our print reference resources can be found on the first floor of the library, behind the <a href="{{ '/help/' | relative_url }}">reference desk</a>. </p>
         <div>
-          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#floorOne">
-            <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" alt="first floor map" class="img-fluid"></a>
-          </button>
-          <div class="modal fade" id="floorOne" tabindex="-1" role="dialog" aria-labelledby="floorOne">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title">First Floor</h3>
-
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-                </div>
-                <!--end modal-header-->
-                <div class="modal-body">
-                  <img src="https://www.lib.uidaho.edu//images/stackmaps/stackmap1.png" class="img-fluid">
-                </div>
-                <!--end modal-body-->
-
-              </div>
-              <!--end modal-content-->
-            </div>
-          </div>
-          <!--end modal-->
-        </div>
-
-
+					<a title="First Floor Map" href="{{ '/about/maps.html#first-floor' | relative_url }}">
+						<img src="{{ '/stackmaps/stackmap1_md.jpg' | prepend: site.lib-media }}/stackmaps/stackmap1_md.jpg" alt="first floor map" class="img-fluid">
+					</a>
+				</div>
       </div>
     </div>
 
