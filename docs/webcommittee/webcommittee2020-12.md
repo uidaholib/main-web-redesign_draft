@@ -41,7 +41,7 @@ New content:
 - [Vandal Family Photo Album](https://www.lib.uidaho.edu/vfpa/)
 - Updated [My Library Stories](https://www.lib.uidaho.edu/mylibrary/)
 - [Floor map updates](https://www.lib.uidaho.edu/about/maps.html) and [Virtual Tour](https://www.lib.uidaho.edu/about/tour.html) (H5P Hanwen, Perri)
-- Forms updates (including book request, [draft list](https://github.com/uidaholib/main-web-redesign_draft/blob/master/docs/forms-surveys.md))
+- Forms updates (including book request, [draft list](https://github.com/uidaholib/main-web-redesign_draft/blob/main/docs/forms-surveys.md))
 
 Under the hood updates:
 
