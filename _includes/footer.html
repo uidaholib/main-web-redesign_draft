@@ -1,37 +1,41 @@
 <footer class="border-top">
     <div class="container-fluid py-3">
-        <div class="row align-items-center">
+        <div class="row justify-content-center">
 
-            <div class="col-md-3 text-center d-none d-md-block pr-5">
-                <a title="University of Idaho Library" class="" href="{{ '/' | relative_url }}">
-                <img class="img-fluid w-75" src="{{ '/images/ui_library_stacked.png' | prepend: site.lib-media }}" alt="University of Idaho Library [logo]" ></a>
-                <br>
-                <!--<a type="button" class="btn btn-sm btn-outline-pride-gold mt-4" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a>-->
-            </div>
-            
-            <div class="col-md-3">
-                <ul id="footer-links" class="list-unstyled mt-3 border-left border-pride-gold pl-3">
-                    <li><a href="{{ '/' | relative_url }}">Library Home</a></li>
-                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-                    <li><a href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
-                    <li><a href="{{ '/help/search.html' | relative_url }}">Search the Library Website</a></li>
-                    <li><a href="{{ '/about/directions.html' | relative_url }}">Directions</a></li>
-                    <li><a href="{{ '/help/' | relative_url }}">Help</a></li>
-                    <li><a href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
-                    <li><a href="https://www.uidaho.edu/privacy">U of I Privacy Standard</a></li>
-                    <li><a href="https://www.uidaho.edu/brand-resource-center/support-teams/web-and-digital/web-accessibility">U of I Web Accessibility</a></li>
+            <div class="col-12 mb-3">
+                <ul id="footer-links" class="nav text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Library Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/search.html' | relative_url }}">Site Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/' | relative_url }}">Help</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
-                <p class="mt-4 border-left border-pride-gold pl-3">
-                    <a id="footer-gmap" href="https://goo.gl/maps/uxfqGrtoTN82">University of Idaho Library
-                        <br> 850 S Rayburn Street
-                        <br> Moscow, ID 83844-2350</a>
-                    <br> (208) 885-6559
+
+            <div class="col-4 col-md-1 px-3 py-2 text-right">
+                <a title="University of Idaho Library" class="" href="{{ '/' | relative_url }}">
+                <img class="img-fluid" src="{{ '/images/tower_icon_gold.png' | prepend: site.lib-media }}" alt="University of Idaho Library [logo]" ></a>
+            </div>
+            
+            <div class="col-8 col-md-3">
+                <p class="border-left border-pride-gold pl-3 mb-3">
+                    University of Idaho Library<br>
+                    <a id="footer-gmap" href="https://goo.gl/maps/uxfqGrtoTN82">850 S Rayburn Street<br>
+                    Moscow, ID 83844-2350</a><br>
+                    (208) 885-6559<br>
+                    <a href="{{ '/about/directions.html' | relative_url }}"><span class="fas fa-location-arrow"></span> Directions</a>
                 </p>
             </div>
-            <div class="col-md-3 d-none d-md-block">
-                <p class="pr-5 my-3"><small>U of I Moscow is located on the homelands of the Nimiipu (Nez Perce). We extend gratitude to the indigenous people that call this place home, since time immemorial. U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.</small></p>
+            <div class="col-md-6">
+                <p class="mb-3 border border-pride-gold rounded p-3"><small>U of I Moscow is located on the homelands of the Nimiipu (Nez Perce). We extend gratitude to the indigenous people that call this place home, since time immemorial. U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.</small></p>
+            </div>
+            <div class="col-12">
+                <p class="text-center mt-4"><small>
+                    © 2021 University of Idaho Library | 
+                    <a href="https://www.uidaho.edu/privacy">U of I Privacy Standard</a> | 
+                    <a href="https://www.uidaho.edu/brand-resource-center/support-teams/web-and-digital/web-accessibility">Web Accessibility</a>
+                </small></p>
             </div>
         </div>
     </div>
