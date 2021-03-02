@@ -1,35 +1,20 @@
 <footer class="border-top">
     <div class="container-fluid py-3">
-        <div class="row">
-            <div class="col-md-2 offset-md-1 d-none d-md-block">
-                <h6>Floor Maps</h6>
-                <div id="footer-maps" class="row">
-                    <div class="col-6 p-2">
-                        <a title="First Floor Map" href="{{ '/about/maps.html#first-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap1_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Second Floor Map" href="{{ '/about/maps.html#second-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap2_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Third Floor Map" href="{{ '/about/maps.html#third-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap3_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Fourth Floor Map" href="{{ '/about/maps.html#fourth-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap4_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                </div>
+        <div class="row align-items-center">
+
+            <div class="col-md-3 text-center d-none d-md-block pr-5">
+                <a title="University of Idaho Library" class="" href="{{ '/' | relative_url }}">
+                <img class="img-fluid w-75" src="{{ '/images/ui_library_stacked.png' | prepend: site.lib-media }}" alt="University of Idaho Library [logo]" ></a>
+                <br>
+                <!--<a type="button" class="btn btn-sm btn-outline-pride-gold mt-4" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a>-->
             </div>
-            <div class="col-md-2">
-                <ul id="footer-links" class="list-unstyled mt-4 border-left border-pride-gold pl-3">
+            
+            <div class="col-md-3">
+                <ul id="footer-links" class="list-unstyled mt-3 border-left border-pride-gold pl-3">
                     <li><a title="Library Homepage" href="{{ '/' | relative_url }}">Library Home</a></li>
                     <li><a title="About our library people, policies, etc." href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a title="Library floor maps" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
+                    <li><a title="Search the Library website" href="{{ '/help/search.html' | relative_url }}">Search the Library Website</a></li>
                     <li><a title="Directions to the library" href="{{ '/about/directions.html' | relative_url }}">Directions</a></li>
                     <li><a title="Main help page for using library resources" href="{{ '/help/' | relative_url }}">Help</a></li>
                     <li><a title="Hours information for the library and departments" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
@@ -37,7 +22,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <p class="mt-5 border-left border-pride-gold pl-3">
+                <p class="mt-4 border-left border-pride-gold pl-3">
                     <a id="footer-gmap" href="https://goo.gl/maps/uxfqGrtoTN82">University of Idaho Library
                         <br> 850 S Rayburn Street
                         <br> Moscow, ID 83844-2350</a>
@@ -45,24 +30,7 @@
                 </p>
             </div>
             <div class="col-md-3 d-none d-md-block">
-                <br>
-                <div class="mb-1">
-                    <p class="smallesttxt indent">Search the library website:</p>
-                    <script>
-                        function site_search() {
-                            var query = document.getElementById("site-search").value;
-                            window.open("{{ '/help/search.html' | absolute_url }}?q=" + encodeURIComponent(query), "_self" );
-                        }
-                    </script>
-                    
-                    <form class="form-inline my-2 my-lg-0" role="search" onsubmit="site_search(); return false;">
-                        <div class="p-2 background-grey-color">
-                            <input id="site-search" class="form-control form-control-sm mr-sm-2" type="text" placeholder="Site Search..." aria-label="Search">
-                            <button class="btn btn-sm btn-payette-blue my-2 my-sm-0 " type="submit"><span class="fas fa-search" aria-hidden="true"></span><span class="sr-only">Search</span></button>
-                        </div>
-                    </form>
-                    
-                </div>
+                <p class="pr-5 my-3"><small>U of I Moscow is located on the homelands of the Nimiipu (Nez Perce). We extend gratitude to the indigenous people that call this place home, since time immemorial. U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.</small></p>
             </div>
         </div>
     </div>
