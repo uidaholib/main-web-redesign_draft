@@ -14,6 +14,8 @@ About:
     link: /about/contact.html
   - subsection: COVID-19 Response
     link: /covid19/
+  - subsection: Diversity, Equity, and Inclusion
+    link: /dei/
   - subsection: Departments
     link: /about/departments.html
   - subsection: Directions and Parking
@@ -127,7 +129,20 @@ My Library:
   - subsection: Library Giving
     link: /giving/
   - subsection: << About
-    link: /about/    
+    link: /about/
+Diversity, Equity, and Inclusion (DEI):
+  - parent: About
+    stub: /about/
+  - subsection: DEI at U of I Library
+    link: /dei/
+  - subsection: Against Racism
+    link: /dei/commitment-to-act-against-racism.html
+  - subsection: Land Acknowledgment Information
+    link: /dei/landacknowledgment.html
+  - subsection: Resources
+    link: /dei/resources.html
+  - subsection: << About
+    link: /about/  
 # Journal review section
 Review:
   - parent: About
