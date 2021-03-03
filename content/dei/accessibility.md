@@ -8,7 +8,7 @@ permalink: /dei/webaccessibility.html
 The University of Idaho Library strives to make all of its online content accessible to all users. 
 We carry out accessibility audits as part of our regular design process, using [Lighthouse](https://web.dev/measure) and other accessibility and performance audit services to assess our site in an ongoing manner. 
 
-We are informed by the philosophy that accessibility is part of better useability. 
+We are informed by the philosophy that accessibility is essential to useability which impacts the core mission of libraries to provide access to information. 
 Any improvements we make to better structure and markup information are intended to positively impact access for all users, on all devices, and to enable preservation for future users. 
 
 We develop our website and platforms using modern static web technologies (JAMStack, Jekyll, open APIs) and following the [lib-STATIC](https://lib-static.github.io/)  methodology. 
