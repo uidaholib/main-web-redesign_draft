@@ -141,7 +141,9 @@ Diversity, Equity, and Inclusion (DEI):
     link: /dei/landacknowledgment.html
   - subsection: Resources
     link: /dei/resources.html
-  - subsection: << About
+  - subsection: Web Accessibility
+    link: /dei/webaccessibility.html
+    - subsection: << About
     link: /about/  
 # Journal review section
 Review:
