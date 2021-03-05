@@ -317,7 +317,7 @@ Special Collections:
         url: /special-collections/idahobio.html
       - name: Terry Abraham Web Archive
         url: /special-collections/t-abraham/
-      - name: Bibliography of UI History
+      - name: Bibliography of U of I History
         url: /special-collections/uibibliography.html
       - name: Genealogical Resources
         url: /special-collections/genealogicalresources.html
@@ -495,7 +495,7 @@ Services:
     link: /services/rooms.html
   - subsection: Special Collections & Archives
     link: /special-collections/
-  - subsection: "Think OPEN @ UI Library"
+  - subsection: "Think Open"
     link: /open/
   - subsection: Workshops
     link: /services/workshops/
@@ -566,7 +566,7 @@ Data Management Guide:
 Copyright Guide:
   - parent: Copyright
     stub: /copyright/
-  - subsection: UI Copyright Policy
+  - subsection: U of I Copyright Policy
     link: /copyright/guide.html#ui
   - subsection: Contents
     link: /copyright/guide.html#contents
