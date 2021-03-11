@@ -1,6 +1,6 @@
 ---
 title: Berry IJC Fellowship
-layout: page
+layout: page-narrow
 section: Special Collections
 permalink: /special-collections/berry-ijc-fellowship.html
 ---
