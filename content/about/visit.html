@@ -13,6 +13,9 @@ lazyload: true
         display: block;
         margin: 0 auto;
     }
+    #visitHighlights .card {
+        border-width: 2px;
+    }
 </style>
 <div id="visitCarousel" class="carousel slide my-4 bg-pride-gold rounded" data-ride="carousel" data-interval="false">
     <ol class="carousel-indicators">
@@ -77,16 +80,16 @@ lazyload: true
 
 <p>We invite you to visit us and discover:</p>
 
-<div class="row mt-3">
+<div id="visitHighlights" class="row mt-3">
 
     <div class="col-md-6 mb-3">
-        <div class="card border-pride-gold">
+        <div class="card border-palouse-green">
             <div class="card-body">
                 <h5 class="card-title">Information Resources</h5>
                 <p class="card-text">
                     <ul>
                         <li>Immediate access to millions of <a href="{{ '/find/books.html' | relative_url }}">physical and electronic books</a> and <a href="{{ '/find/articles.html' | relative_url }}">journals</a></li>
-                        <li>Online scholarly databases and journals</li>
+                        <li>Online <a href="{{ '/find/articles.html' | relative_url }}">scholarly databases and journals</a></li>
                         <li>Electronic textbooks and course materials that can save you money</li>
                         <li>Tens of thousands of <a href="{{ '/find/video.html'  | relative_url }}">DVDs and streaming videos</a></li>
                         <li><a href="{{ '/collections/' | relative_url }}">Historical collections</a></li>
@@ -98,15 +101,15 @@ lazyload: true
     </div>
 
     <div class="col-md-6 mb-3">
-        <div class="card border-palouse-green">
+        <div class="card border-wild-rose">
             <div class="card-body">
                 <h5 class="card-title">People</h5>
                 <p class="card-text">
                     <ul>
                         <li><a href="{{ '/help/' | relative_url }}">Helpful librarians</a></li>
                         <li><a href="{{ '/about/liaisons.html' | relative_url }}">Topic experts and a librarian for every college</a></li>
-                        <li>Tutoring</li>
-                        <li><a href="{{ '/services/workshops/'  | relative_url }}">Awesome workshops</a></li>
+                        <li><a href="https://www.uidaho.edu/current-students/academic-support/asp/tcs/tutoring" target="_blank" rel="noopener">Tutoring</a></li>
+                        <li><a href="{{ '/services/workshops/' | relative_url }}">Awesome workshops</a></li>
                         <li><a href="https://libguides.uidaho.edu/Games">Board games</a></li>
                     </ul>
                 </p>
@@ -120,7 +123,7 @@ lazyload: true
                 <h5 class="card-title">Facilities</h5>
                 <p class="card-text">
                     <ul>
-                        <li>Open long hours during the semester</li>
+                        <li>Open <a href="{{ '/about/hours.html' | relative_url }}">long hours</a> during the semester</li>
                         <li>Comfortable and flexible study and meeting spaces</li>
                         <li>Computers, printers, scanners, and wireless access</li>
                         <li>Areas for individual quiet study as well as group study areas </li>
@@ -131,15 +134,15 @@ lazyload: true
     </div>
 
     <div class="col-md-6 mb-3">
-        <div class="card border-wild-rose">
+        <div class="card border-ponderosa-pine">
             <div class="card-body">
                 <h5 class="card-title">Spaces</h5>
                 <p class="card-text">
                     <ul>
                         
-                        <li><a href="{{ '/mill/'  | relative_url }}">Makerspace with 3D printing</a></li>
-                        <li><a href="{{ '/studio/'  | relative_url }}">Audio/visual lab</a> with editing & sound equipment as well as a greenscreen and lighting</li>
-                        <li>Group Study Rooms equipped with technology like large format monitors for practicing presentations or holding group meetings</li>
+                        <li><a href="{{ '/mill/' | relative_url }}">Makerspace with 3D printing</a></li>
+                        <li><a href="{{ '/studio/' | relative_url }}">Audio/visual lab</a> with editing & sound equipment as well as a greenscreen and lighting</li>
+                        <li><a href="{{ '/services/rooms.html' | relative_url }}">Group Study Rooms</a> equipped with technology like large format monitors for practicing presentations or holding group meetings</li>
                     </ul>
                 </p>
             </div>
