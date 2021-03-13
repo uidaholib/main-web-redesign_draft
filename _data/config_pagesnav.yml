@@ -71,8 +71,6 @@ About:
     link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
-  - subsection: Subject Liaisons
-    link: /about/liaisons.html
   - subsection: Welcome
     link: /about/welcome.html
     subpages:
@@ -82,6 +80,9 @@ About:
         url: /recognitions/
       - name: Featured Faculty
         url: /recognitions/featured-faculty.html
+  - subsection: Visit
+    link: /about/visit.html
+
 # special subsections of About
 Hours:
   - parent: About
