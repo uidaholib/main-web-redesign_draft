@@ -10,6 +10,7 @@ layout: page
 <div class="alert alert-info text-center" role="alert">
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Spring 2021 Hours</h4>
 <p class="h5">Mon, Tue, Fri: 8am - 5pm<br> Wed, Thu: 8am - 7pm</p>
+<p>Closed Spring Break March 13 - 21</p>
 </div>
 <div class="alert alert-warning" role="alert" markdown="1">
 
