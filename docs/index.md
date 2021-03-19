@@ -44,6 +44,13 @@ If `<a>` tags are used to trigger interactivity on the page, for example opening
 For example, `<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Link</a>`.
 In these cases it might make more sense to replace the `<a>` with a `<button>` element.
 
+# www.lib.uidaho.edu vs. lib.uidaho.edu
+
+The *official* url of the library is "www.lib.uidaho.edu". 
+I asked ITS to get "lib.uidaho.edu" to work and redirect--which it does now. 
+However, do not use "lib.uidaho.edu" anywhere in code--the redirect seems to have some issues, so you will end up with insecure content warnings or cross origin blocks. 
+It seems that if you try to load an image using "lib.uidaho.edu" it loads insecure, giving a mixed content warning.
+
 # Lazy load
 
 To lazyload images on a page, add `lazyload: true` to yml front matter. 
