@@ -274,7 +274,7 @@ Many materials are available to use free of charge. If you want to use digital m
 - materials that are in the [public domain](#public), either because the creator has waived their exclusive rights, they were created by the [federal government](#docs), or because they are [sufficiently old](http://copyright.cornell.edu/resources/publicdomain.cfm) and so their rights have now lapsed;
 - materials that have been made available by the creator under a license that allows for the kind of use you want to make (for example, a [Creative Commons license](#openaccess));
 - materials that are publicly available on the Internet, to which you may link (as opposed to copying the files and reposting them elsewhere); or
-- content found on one of the UI Libraries' many licensed [electronic databases](#licensed) (e.g. EBSCO, JSTOR, HeinOnline, Web of Science, etc.)
+- content found on one of the U of I Libraries' many licensed [electronic databases](#licensed) (e.g. EBSCO, JSTOR, HeinOnline, Web of Science, etc.)
 
 #### Additional Resources
 
@@ -368,7 +368,7 @@ The University of Idaho Library supports instruction with course reserves and ot
 
 ### Licensed Electronic Resources
 
-Contractual license agreements and copyright law govern the access, use, and reproduction of most of the UI Libraries' electronic databases. Users of library-licensed resources must comply with the terms of these agreements by a) limiting their uses to non-commercial, educational, or personal research purposes; and b) not facilitating unauthorized access by others outside of the University community.
+Contractual license agreements and copyright law govern the access, use, and reproduction of most of the U of I Libraries' electronic databases. Users of library-licensed resources must comply with the terms of these agreements by a) limiting their uses to non-commercial, educational, or personal research purposes; and b) not facilitating unauthorized access by others outside of the University community.
 
 For a more comprehensive list of policies regarding electronic database licenses at the University of Idaho Library, see their [Conditions of Use and Licensing Restrictions for Electronic Resources](http://www.lib.uidaho.edu/find/agreement.html).
 
@@ -512,7 +512,7 @@ The University of Idaho negotiates site licenses with software vendors whenever 
 
 Software products that are not licensed to the University may also be used. However, copying is strictly limited except for backup purposes. Whether the software is transferred from the original to a detachable hard-drive or to an archival diskette, the backup copy is not to be used at all so long as the other copy is functional.
 
-To view the University's full policy relating to software use, see the UI Faculty-Staff Handbook, [FSH 6580, Section J](http://www.webs.uidaho.edu/fsh/6580.html#J.).
+To view the University's full policy relating to software use, see the U of I Faculty-Staff Handbook, [FSH 6580, Section J](http://www.webs.uidaho.edu/fsh/6580.html#J.).
 
 #### Additional Resources
 
@@ -634,7 +634,7 @@ If your proposed use does not fit within the criteria for one of the exemptions 
 - Number of performances to be made
 - Description of how the work will be displayed
 
-It is recommended that you include a stamped, self-addressed envelope to facilitate the owner's reply, and provide your complete contact information should there be any questions. A sample letter can be found below, plus several other sample letters have also been included as part of the UI Faculty-Staff Handbook [(FSH 6580, Section L)](http://www.webs.uidaho.edu/fsh/6580.html#L.).
+It is recommended that you include a stamped, self-addressed envelope to facilitate the owner's reply, and provide your complete contact information should there be any questions. A sample letter can be found below, plus several other sample letters have also been included as part of the U of I Faculty-Staff Handbook [(FSH 6580, Section L)](http://www.webs.uidaho.edu/fsh/6580.html#L.).
 
 ### Sample Permission Letter
 
@@ -794,7 +794,7 @@ To read the actual wording of this law see the U.S. Copyright Law, [Section 203(
 
 Generally speaking, the person who creates a work is the author, and therefore the copyright owner of that work. However, there is an exception to this principle in [Section 110](http://www.copyright.gov/title17/92chap1.pdf) of the U.S. Copyright Act. The copyright law specifically designates a special category of works called "works made for hire." If a work is made for hire — i.e. it was prepared by an employee within the scope of his or her employment — then the employer, and not the employee, is considered the author. In such cases the employer may be a firm, an organization, or even a university.
 
-More information regarding works for hire, and specifically the University of Idaho's policy thereof, can be found in the following two sections of the UI Faculty-Staff Handbook: [FHS 5300](http://www.webs.uidaho.edu/fsh/5300.html) (Copyrights, Protectable Discoveries, and Other Intellectual Property Rights) and [FHS 5400](http://www.webs.uidaho.edu/fsh/5400.html) (Employment Agreement Concerning Patents and Copyrights).
+More information regarding works for hire, and specifically the University of Idaho's policy thereof, can be found in the following two sections of the U of I Faculty-Staff Handbook: [FHS 5300](http://www.webs.uidaho.edu/fsh/5300.html) (Copyrights, Protectable Discoveries, and Other Intellectual Property Rights) and [FHS 5400](http://www.webs.uidaho.edu/fsh/5400.html) (Employment Agreement Concerning Patents and Copyrights).
 
 #### Additional Resources
 
@@ -812,7 +812,7 @@ When you use other people's works or incorporate third-party content into your w
 
 As an author of a dissertation, and many times of a thesis as well, you will be required to submit your work to ProQuest, a company who collects, organizes and disseminates dissertations from universities across the country. In order for ProQuest to accept your work, you will have to sign an agreement with them. This agreement is a non-exclusive license which authorizes them to use your work as described in the agreement. With a non-exclusive license, you retain the copyright to your work. You do not assign it to them. ProQuest has a [document](http://media2.proquest.com/documents/copyright_dissthesis_ownership.pdf) written by a copyright expert from Columbia University, Kenneth D. Crews, that explains copyright in detail and discusses, specifically, "Copyright Decisions and Your Dissertation" (Part III).
 
-For more information on thesis/dissertation requirements at the University of Idaho, contact the [UI College of Graduate Studies](http://www.uidaho.edu/cogs/) office at 208-885-6243.
+For more information on thesis/dissertation requirements at the University of Idaho, contact the [U of I College of Graduate Studies](http://www.uidaho.edu/cogs/) office at 208-885-6243.
 
 #### Additional Resources
 

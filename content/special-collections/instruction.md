@@ -15,7 +15,7 @@ Do you need help utilizing archives in your class? Do you need help conveying...
 - Why do primary documents matter?
 - The University of Idaho Archives and Special Collections offers several instruction options including:
 - Hands-on activities in the Library
-- Virtual orientations to primary source research and the UI collections
+- Virtual orientations to primary source research and the U of I collections
 - Customized on-line guides for your class
 
 We are happy to work with you to support your class and their original research in our collections!

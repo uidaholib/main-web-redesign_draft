@@ -14,7 +14,7 @@ Open textbooks and open educational resources can significantly reduce student t
 
 ## The Cost
 
-(Note: These quotes are comments from UI students made publicly on a Change.org petition created by the Associated Students of the University of Idaho. The petition and comments can be viewed here.)
+(Note: These quotes are comments from U of I students made publicly on a Change.org petition created by the Associated Students of the University of Idaho. The petition and comments can be viewed here.)
 
 >### "I can’t afford both books and food. I have to choose to either eat or pass my classes right now." 
 

@@ -29,7 +29,7 @@ Please get in touch with <a href="mailto:khenrich@uidaho.edu">Kristin Henrich</a
 
 ## Ready to Create?
 
-We’re here to help you learn innovative skills while you’re here at UI and beyond, using technology to create, tinker, and play, on your own or with others. 
+We’re here to help you learn innovative skills while you’re here at U of I and beyond, using technology to create, tinker, and play, on your own or with others. 
 Located on the first floor of the library, the MILL features 3D printing, large-format scanning, an audio and video production and editing suite including lighting and green screen, and a variety of other technology for you to explore, including Arduino, Raspberry Pi, Makey Makey, Ozobot, and View-Master. 
 Not sure what any of those words mean? That’s okay–we’re here to help. 
 Take one of our [workshops]({{ '/services/workshops/' | relative_url }}), make an appointment for a one-on-one introduction, check out some of our tutorials, or just drop by to get an overview of what you can do in the space.

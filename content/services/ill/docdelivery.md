@@ -8,7 +8,7 @@ layout: page
 Document Delivery provides electronic access to journal articles and book chapters from the U of I Library's print collection. 
 This service is available free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
 
-Please check the UI Library's <a href="https://search.lib.uidaho.edu/">online catalog</a> for access to electronic journals and e-book collections prior to submitting a Document Delivery request. 
+Please check the U of I Library's <a href="https://search.lib.uidaho.edu/">online catalog</a> for access to electronic journals and e-book collections prior to submitting a Document Delivery request. 
 We may already have electronic access to the materials you need.
 
 Document Delivery requests can be submitted through your <a href="https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll">ILLiad account</a>, just as you would any other article or book chapter request. 

@@ -6,7 +6,7 @@ layout: page
 lazyload: true
 ---
 
-Leganto is a new product from the UI Library that simplifies and improves course reading lists. 
+Leganto is a new product from the U of I Library that simplifies and improves course reading lists. 
 It integrates with BBLearn to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.  
 
 Feedback from instructors shows that Leganto is easy to use, and has significant benefits for teaching and learning.   
