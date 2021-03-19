@@ -17,13 +17,15 @@ lazyload: true
         <div class="col-md-4">
             <div class="card my-2">
                 <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold mb-0"><a href="{{ c.link | relative_url }}">{{ c.collection }}</a></h5>
+                    <h5 class="card-title font-weight-bold mb-0">{% if c.link %}<a href="{{ c.link | relative_url }}">{{ c.collection }}</a>{% else %}{{ c.collection }}{% endif %}</h5>
                 </div>
                 <div class="card-body text-center">
-                    <a href="{{ c.link | relative_url }}"><img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="{{ site.lib-media }}/collections/{{ c.img }}" alt="Card image"></a>
+                    {% if c.link %}<a href="{{ c.link | relative_url }}">{% endif %}
+                        <img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="{{ site.lib-media }}/collections/{{ c.img }}" alt="Card image">
+                    {% if c.link %}</a>{% endif %}
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
-                    <a href="{{ c.link | relative_url }}" class="btn btn-payette-blue" >View Collection</a>
+                    {% if c.link %}<a href="{{ c.link | relative_url }}" class="btn btn-payette-blue" >View Collection</a>{% endif %}
                 </div>
             </div>
         </div>
