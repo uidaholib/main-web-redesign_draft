@@ -13,9 +13,11 @@ This accession list includes the title of collections that have been added to ou
 <table id="accessions" class="table table-striped">
     <thead>
         <tr>
-            <th>Accession Number</th>
+            <th>Accession</th>
             <th>Title</th>
             <th>Extent</th>
+            <th>Description</th>
+            <th>Date</th>
         </tr>
     </thead>
     <tbody>
@@ -24,14 +26,18 @@ This accession list includes the title of collections that have been added to ou
             <td>{{ a.accession_number }}</td>
             <td>{{ a.title }}</td>
             <td>{{ a.extent }}</td>
+            <td>{{ a.description }}</td>
+            <td>{{ a.date }}</td>
         </tr>
     {% endfor %}
     </tbody>
     <thead>
         <tr>
-            <th>Accession Number</th>
+            <th>Accession</th>
             <th>Title</th>
             <th>Extent</th>
+            <th>Description</th>
+            <th>Date</th>
         </tr>
     </thead>
 </table>
