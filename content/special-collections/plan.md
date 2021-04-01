@@ -119,7 +119,7 @@ We are currently welcoming U of I students, staff, and faculty.
 
 Access to the Reading Room will require visitors to adhere the following policies until further notice: 
 
-- Reading Room visits will be **by appointment only**.
+- Reading Room visits will be **by appointment only**. We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
 - Patrons are required to consult with us virtually or by phone prior to their visit, during which time we may determine if the request can be fulfilled digitally. 
 - **Face masks are required** in the Reading Room at all times. 
 - Only two visitors are allowed in the Reading Room at a time. 
@@ -128,7 +128,7 @@ Access to the Reading Room will require visitors to adhere the following policie
 Appointment hours are between 9am and 4pm Monday through Friday. 
 
 Please contact <libspec@uidaho.edu> or (208) 885-0845 to make an appointment. 
-We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. 
+We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
 
 *Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*
 
