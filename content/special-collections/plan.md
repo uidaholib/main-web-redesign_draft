@@ -21,22 +21,19 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 
 <div class="row justify-content-center">
   <div class="col-md-8 my-4">
-    <h4>Steps to Take before Arriving:</h4>
+    <h4>How to Request Materials:</h4>
     <div id="accordion">
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Browse Our Collection Descriptions
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Search Our Collections
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> Before you arrive, please take a moment to peruse our
-              <a href="description.html">collection strengths and types</a> or 
-              <a href="browse.html">browse</a> our collections. If you have any questions or would like help locating U of I Library Special Collections &amp;
-              Archives materials, please contact us at
+            <p> To request materials for viewing, please visit our <a href="https://www.lib.uidaho.edu/special-collections/searchtools.html">Search Tools</a> or <a href="https://www.lib.uidaho.edu/special-collections/browse.html">browse our collections</a> to find materials you want to view.  If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->
@@ -47,7 +44,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Browse Our Digital Collections
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Search Our Digital Collections
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
@@ -72,8 +69,8 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> Please see our Reading Room Reopening plans below for current information on services available during the COVID-19 pandemic. While appointments are not absolutely necessary, we do appreciate advanced notice of what you would like to view, so we can have the materials ready for you when you arrive. Simply email this information to
-              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> prior to your visit. We may also be able to help you digitally! </p>
+            <p> Please see our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Reading Room Reopening plan</a> below for current information on services available during the COVID-19 pandemic. While appointments are not strictly required, we highly appreciate <b>at least two business days of notice</b> of what you would like to view, so we may do any preparatory searching and retrieving and have materials ready for your visit. Simply email us at
+              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> to schedule your visit and tell us what you want to view. In some cases, we can digitize your request remotely! </p>
           </div>
           <!--end card-body-->
         </div>
@@ -91,7 +88,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div id="collapseFour" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
-              understand and will abide by the Reading Room Rules (see below) for using Special Collections and Archives materials. </p>
+              understand and will abide by the <a href="https://www.lib.uidaho.edu/special-collections/plan.html#rules">Reading Room Rules</a> (see below) for using Special Collections and Archives materials. </p>
           </div>
           <!--end card-body-->
         </div>
