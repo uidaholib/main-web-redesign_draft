@@ -69,7 +69,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> Please see our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Reading Room Reopening plan</a> below for current information on services available during the COVID-19 pandemic. While appointments are not strictly required, we highly appreciate <b>at least two business days of notice</b> of what you would like to view, so we may do any preparatory searching and retrieving and have materials ready for your visit. Simply email us at
+            <p> Please see our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Reading Room Reopening plan</a> below for current information on services available during the COVID-19 pandemic. While appointments are not strictly required, we highly appreciate <strong>at least two business days of notice</strong> of what you would like to view, so we may do any preparatory searching and retrieving and have materials ready for your visit. Simply email us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> to schedule your visit and tell us what you want to view. In some cases, we can digitize your request remotely! </p>
           </div>
           <!--end card-body-->
