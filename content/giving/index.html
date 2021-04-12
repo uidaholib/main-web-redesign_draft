@@ -43,7 +43,7 @@ layout: page
 
     <script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>
 
-    {% for issue in site.data.tower_news_embed limit: 4 %}
+    {% for issue in site.data.giving_tower_news_embed limit: 4 %}
     <div data-configid="{{ issue.issuu_embed_id }}" style="width:180px; height:233px;" class="issuuembed"></div>
     <p class="text-center"><a href="https://www.lib.uidaho.edu/pdf/towers/{{ issue.filename }}" target="_blank" rel="noopener">{{ issue.name }}</a> </p>
     {% endfor %}
