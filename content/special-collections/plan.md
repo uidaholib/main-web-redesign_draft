@@ -107,20 +107,21 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 
 <div class="border border-warning rounded p-4 my-3" markdown="1">
 
-In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives is open to <strong>appointments Monday-Friday 9am-4pm</strong>.
+In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives is open to **appointments Monday-Friday 9am-4pm**.
 
 Access to the Reading Room will require visitors to adhere the following policies until further notice: 
 
-- Reading Room visits will be **by appointment only**. We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
-- Patrons are required to consult with us virtually or by phone prior to their visit, during which time we may determine if the request can be fulfilled digitally. 
+- Reading Room visits will be **by appointment only**. 
+- We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
+- Patrons are required to **consult with us by phone or email prior to their visit**, during which time we may determine if the request can be fulfilled digitally. 
 - **Face masks are required** in the Reading Room at all times. 
 - Only two visitors are allowed in the Reading Room at a time. 
 - Visitors are expected to observe established seating arrangements within the Reading Room. 
 
-Appointment hours are between 9am and 4pm Monday through Friday. 
+### Make an Appointment
 
 Please contact <libspec@uidaho.edu> or (208) 885-0845 to make an appointment. 
-We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
+We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. We are open to appointments **Monday-Friday 9am-4pm**.
 
 *Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*
 
