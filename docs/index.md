@@ -6,13 +6,9 @@ we need to start doc-ing how this works!
 
 # data
 
-`config_pagesnav.yml` contains all the info to create side nav for sections of the site
+`config_pagesnav.yml` contains all the info to create side nav for sections of the site.
 
-`about_directory.csv` is directory table
-
-`recognitions-bookplates.csv` is faculty bookplate list
-
-`UI-OAPF_FAQ.csv` is faq for OAPF
+See "docs/site_data.md" for information about various data used to generate features on the site.
 
 # tables
 
