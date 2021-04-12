@@ -105,14 +105,9 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 {:#hours}
 ## Current Hours
 
-As part of the Library's [2020 opening plan](/covid10/impact.html), our Reading Room hours and policies have changed.
-
 <div class="border border-warning rounded p-4 my-3" markdown="1">
 
-### Reading Room Reopening 
-
-In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives will be reopening its Reading Room for those wanting to consult our collections.
-We are currently welcoming U of I students, staff, and faculty. 
+In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives is open to <strong>appointments Monday-Friday 9am-4pm</strong>.
 
 Access to the Reading Room will require visitors to adhere the following policies until further notice: 
 
