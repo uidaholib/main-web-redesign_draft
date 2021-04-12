@@ -21,6 +21,8 @@ Individual Sheets in the folder can be shared to other relevant collaborators sp
 Some Sheets correspond directly to one CSV (with filename matching the web project version), while others contain multiple related sheets that each correspond to a CSV in the web project (with filename matching the specific section).
 
 Please keep the Sheet version and the CSV in "_data" in sync! 
+When updating data please first check both versions to make sure they haven't gotten out of sync since it is easy to forget.
+
 If doing updates in the main-web repository version, please upload the changed data to the Sheet in Google Drive--follow the "Import" option documented in the tips below.
 Using the "Import" option to create a new individual sheet in a Sheet file helps avoid issues with corruption and data loss (pasting in data from other spreadsheets can sometimes create odd issues).
 
