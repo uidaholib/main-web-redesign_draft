@@ -7,8 +7,7 @@ layout: page
 
 {% include feature/alert.html text="<span class='h5'>New space opening Fall 2021!</span>" color="success" align="center" %}
 
-The U of I Library Data Hub is a new location and service providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management. 
-{:.lead}
+The U of I Library Data Hub is a new location and service providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
 
 Building on the Library’s long history of curating and disseminating data under programs such as INSIDE Idaho, The Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for using data in transformative ways. 
 It will be located in the Map Room, where specialized equipment, staff, and space will be available to U of I Library patrons. 
