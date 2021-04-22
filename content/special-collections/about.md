@@ -3,6 +3,7 @@ title: About Special Collections and Archives
 layout: page
 section: Special Collections
 permalink: /special-collections/about.html
+chat-widget-spec: true
 ---
 
 <div class="row pt-3">
