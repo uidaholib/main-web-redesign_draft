@@ -2,14 +2,15 @@
 title: "Think Open Fellowship"
 section: Think Open
 permalink: /open/fellowship/call.html
-layout: page
+layout: page-narrow
 ---
 
-Sponsored by the University of Idaho Library
+<small>Sponsored by the University of Idaho Library</small>
 
-Think Open Fellowships are now accepting applications for the 2021-2022 academic year! 
+Think Open Fellowships are now accepting applications for the 2021-2022 academic year!
 Click below to apply:
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e3x9ETiYwrBQI06" class="btn btn-outline-pride-gold">Think Open Application</a>
+
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e3x9ETiYwrBQI06" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
 
 ## Call for Applications
 
@@ -31,12 +32,16 @@ Think Open Fellows are required to:
 
 Faculty teaching high enrollment courses are especially encouraged to apply, as well as those hoping to center historically marginalized perspectives in their curriculums. 
 
+## Apply
 
-<b>The application deadline is Friday May 28th, 2021! Click here to apply:</b> 
+**The application deadline is Friday May 28th, 2021!**
 
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e3x9ETiYwrBQI06" class="btn btn-sm btn-outline-pride-gold ml-3">Application</a>
+Follow the link below to fill out the short application form.
+We ask a few questions about which course(s) you would like to use OER and your ideas for the fellowship experience--and look forward to hearing from you!
+
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e3x9ETiYwrBQI06" class="btn btn-outline-pride-gold ml-3" target="_blank" rel="noopener">Think Open Application</a>
 
 Applicants will be notified by or on June 11th, 2021. Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by June of 2022.
 
-For questions contact Marco Seiferle-Valencia, Open Education Librarian, marcosv@uidaho.edu
+For questions contact Marco Seiferle-Valencia, Open Education Librarian, <marcosv@uidaho.edu>
 
