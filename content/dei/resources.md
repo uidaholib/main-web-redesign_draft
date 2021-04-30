@@ -11,10 +11,17 @@ table-id: "#dei-database"
 Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
 
 ## Special Collections
+
+Archival collections created by or related to underrepresented communities in Idaho and the Pacific Northwest.
+
 {% include feature/carousel.html slides=site.data.dei_collections %}
 
 {:.pt-5}
 ## Books:
+
+The books listed below include and recognize all diverse experiences, including (but not limited to) LGBTQ2IA+, Native American/Indigenous, people of color, gender diversity, people with disabilities, and ethnic, cultural, and religious minorities. 
+This includes authors, artists, characters in fiction, and related subjects.
+
 {% assign items = site.data.dei_new_resources %}
 
 <div class="row">
@@ -34,6 +41,10 @@ Whether you're looking for archival resources, books, or databases, the Library 
 
 {:.pt-5}
 ## Databases:
+
+The University of Idaho Library subscribes to the following databases on diverse groups, cultures, and viewpoints. 
+We chose to feature these databases as we believe that they challenge our existing beliefs, inspire us with new perspectives, and educate us to be better world citizens given the diverse world we live in. 
+
 {% assign resources = site.data.dei_databases | sort: 'name' %}
 
 <table id="dei-database" class="table table-hover">
