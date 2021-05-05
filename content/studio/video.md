@@ -1,0 +1,93 @@
+---
+title: Video Equipment and Software
+section: The Studio
+permalink: /studio/video.html
+layout: page
+---
+
+## Video Recording in the Studio
+
+The Studio is currently optimized with light sound paneling to record podcasts, short films, and interviews. 
+A green screen and 3 lights are available at all times when you reserve the room.
+
+**Be warned that there is a noticeable hum in the room, and the elevator and door adjacent to the room will be picked up by most microphone setups.**
+See iZotope RX 6 software to deal with these issues.
+
+<div class="accordion mb-4" id="accordionExample">
+  <div class="card" id="headingOne">
+    <div class="card-header h4">
+      <button class="btn btn-link dropdown-toggle text-dark" type="button" data-toggle="collapse" data-target="#collapseOne"
+        aria-expanded="true" aria-controls="collapseOne">
+        Video Equipment Available in the Studio 
+      </button>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>We have many options available to record audio in the Studio. Already set up for easy use are two SM58
+          microphones, MPK Mini MIDI keyboard,&nbsp;AKAI Soundcraft mixing board with XLR and 1/4" input, and a
+          MOTU&nbsp;audio interface with 1/4" input. These options should suffice for podcasts, single track
+          recordings, simple MIDI input, and simple video voiceover.</p>
+        <p>When you check out the room, you will have the option to get a key for the locked cabinet containing more
+          microphones. If you do get this key, expect a longer wait time at the end of your reservation for us to
+          check inventory. Here's a quick list of what the&nbsp;cabinet contains for audio:</p>
+        <ul>
+          <li>Rode NT1A&nbsp;microphone&nbsp;</li>
+          <li>CAJ Isomax microphone (small pin-on microphone for video dialogue)&nbsp;</li>
+          <li>XLR cables</li>
+          <li>1/4" phone cables</li>
+        </ul>
+        <p>These options are best suited for audio professionals looking to multitrack. The room is not soundproofed,
+          so please do not expect isolation, recording booth audio recordings (although we do have software to help
+          with these issues).</p>
+      </div>
+    </div>
+  </div>
+  <div class="card" id="headingTwo">
+    <div class="card-header h4">
+      <button class="btn btn-link dropdown-toggle text-dark" type="button" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        Video Equipment Available to Check Out
+      </button>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          <p>We currently have the following video equipment available for checkout at the circulation desk:</p>
+          <ul>
+            <li>Canon case (see full kit description above)</li>
+            <li>Portable Green Screen</li>
+            <li>GoPro Hero kit with USB transfer cord and small tripod</li>
+          </ul>
+          <p>These are available for 24 hours. To check them out, request at the circulation desk and fill out a Technology Loan Agreement form. Expect this process to take some time, so please be patient.&nbsp;You will receive a copy of this form which details fines and fees for lost or damaged equipment.&nbsp;</p>
+          <a class="btn btn-small btn-clearwater" href="{{'/studio/field_recording_equipment.html' | relative_url}}">All Recording Equipment Available for Checkout</a>
+      </div>
+    </div>
+  </div>
+  <div class="card" id="headingThree">
+    <div class="card-header h4">
+      <button class="btn btn-link dropdown-toggle text-dark" type="button" data-toggle="collapse" data-target="#collapseThree"
+        aria-expanded="true" aria-controls="collapseThree">
+        Video Software in the Studio
+      </button>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+                <p>We have the following software available on the Mac in The Studio:</p>
+        <ul>
+          <li>Adobe Premiere - Professional video editing.</li>
+          <li>Final Cut Pro - Professional video editing.</li>
+          <li>iMovie - Basic video editing.</li>
+        </ul>
+        <p>We also have Adobe Photoshop for still editing.</p>
+        <p>Audio editing software is also available to improve audio. Read that tab for more information. If you would like to request more audio software, please do so in the questionnaire at the end of your reservation.</p>
+        <p>Expect detailed guides on how to use this software soon. Here are some quick how-to guides and tutorials:</p>
+        <ul>
+          <li><a href="https://helpx.adobe.com/premiere-pro/tutorials.html">Adobe Premiere</a></li>
+          <li><a href="https://www.apple.com/final-cut-pro/resources/">Final Cut Pro</a></li>
+          <li><a href="https://help.apple.com/imovie/mac/10.1/">iMovie</a></li>
+          <li><a href="https://helpx.adobe.com/photoshop/tutorials.html">Adobe Photoshop</a></li>
+        </ul>
+        <p>Note: <strong>All saved data on the iMac will be deleted periodically. Back up your saves via Google Drive, personal flash drive, or other external solution!</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
