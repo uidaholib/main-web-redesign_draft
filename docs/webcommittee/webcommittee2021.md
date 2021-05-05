@@ -24,3 +24,4 @@ Sprint topic ideas:
 - [create Data Hub pages](https://github.com/uidaholib/main-web-redesign_draft/issues/467)
 - "Guide" page updates (create new template for Copyright and [Data management](https://github.com/uidaholib/main-web-redesign_draft/issues/468))
 - [topics of instruction suggest something new](https://github.com/uidaholib/main-web-redesign_draft/issues/469)
+- [update Studio pages](https://github.com/uidaholib/main-web-redesign_draft/issues/470)
