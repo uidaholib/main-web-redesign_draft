@@ -11,5 +11,11 @@
 {% if page.chat-widget == true %}{% include lib-chat-widget.html %}{% endif %}
 {% if page.chat-widget-spec == true %}{% include lib-chat-widget-spec.html %}{% endif %}
 {% if page.table-id %}{% include js/table-basic.js %}{% endif %}
-{% if page.custom-foot %}{% include {{ page.custom-foot }} %}{% endif %}
 {% if page.carousel == true %}{% include js/carousel.html %}{% endif %}
+{% if page.custom-foot or layout.custom-foot %}
+{%- assign page_feet = page.custom-foot | split: ";" -%}
+{%- assign layout_feet = layout.custom-foot | split: ";" -%}
+{%- assign feet = page_feet | concat: layout_feet -%}
+{% for f in feet %}{% include {{ f }} %}
+{% endfor %}
+{%- endif -%}

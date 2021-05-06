@@ -22,8 +22,9 @@ Add `table-paginate: true` to yml front matter to add datatables pagination feat
 All js is loaded at the bottom of the page in "foot.html" include.
 First, jquery and bootstrap bundle are loaded, then any other sections based on page layout or other front matter.
 This ensures js is loaded in order and is optimized for page load.
-If you have a non-standard js that needs to be loaded for the page, use the front matter variable `custom-foot` and provide the filename like you would an include.
-The `foot.html` include will add an include in the foot section to the file.
+
+If you have a non-standard js that needs to be loaded for the page, use the front matter variable `custom-foot` and provide the filename(s) like you would an include (separate multiple includes using a `;` semicolon).
+The "foot.html" include will add an include in the foot section to the page.
 
 # Links
 
