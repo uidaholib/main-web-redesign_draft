@@ -78,6 +78,7 @@ You can import UTF-8 CSVs without corruption if you follow the import data metho
 - This should pop open an "Import" options menu similar to the one described above for LibreOffice Calc--choose similar options. In "File origin" be sure to choose "Unicode (UTF-8)" or the parsing will have errors. (Excel 365 flashes some notices like "connecting" and "loading" data, as if you are setting up a live database connection--you can ignore this mysticism, its just importing data like normal).
 
 Excel can **not** export a correctly formatted CSV.
+Save the file in .xlsx, and use a different program to create the CSV (such as OpenRefine or Sheets).
 
 --------------------------
 
@@ -153,7 +154,9 @@ oapf_faq.csv
 
 oapf_funded.csv
 
-openpages.csv
+open_pages.csv
+
+open_thinkopenfellows.csv
 
 services_index.csv
 
@@ -188,7 +191,5 @@ spec_searchtools.csv
 spec_tabraham-files.csv
 
 studio_fines.csv
-
-thinkopenfellows.csv
 
 vivo_featured_researchers.csv
