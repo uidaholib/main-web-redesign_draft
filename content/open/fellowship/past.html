@@ -7,9 +7,16 @@ layout: page
 
 {% assign fellows = site.data.open_thinkopenfellows %}
 {% assign years = fellows | map: 'year' | uniq | sort | reverse %}
+<div class="">
+    {% for y in years %}
+    <a href="#{{ y }}-fellows" class="btn btn-sm btn-outline-pride-gold m-2" >{{ y }}</a>
+    {% endfor %}
+</div>
+
+<hr> 
 
 {% for y in years %}
-<h2>{{ y }} Fellows</h2>
+<h2 id="{{ y }}-fellows">{{ y }} Fellows</h2>
 {% assign cohort = fellows | where: 'year',y %}
 <div class="row">        
     {% for f in cohort %}
