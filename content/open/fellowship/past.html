@@ -5,62 +5,35 @@ permalink: /open/fellowship/past.html
 layout: page
 ---
 
-{% assign fellows = site.data.thinkopenfellows %}
+{% assign fellows = site.data.open_thinkopenfellows %}
+{% assign years = fellows | map: 'year' | uniq | sort | reverse %}
 
-<h3>2018 Fellows</h3>
-
+{% for y in years %}
+<h2>{{ y }} Fellows</h2>
+{% assign cohort = fellows | where: 'year',y %}
 <div class="row">        
-    {% for fellow in fellows %}
-    {% if fellow.year == "2018" %}
+    {% for f in cohort %}
     <div class="col-md-4 my-1">
         <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
             <div class="card-body">
                 <h4 class="card-title">
-                    <b>{{ fellow.name }}</b>
+                    {% if f.id %}<a href="{{ f.id }}" target="_blank" rel="noopener">{% endif %}
+                        <strong>{{ f.name }}</strong>
+                    {% if f.id %}</a>{% endif %}
                 </h4>
                 <p class="card-text">
-                    {{ fellow.displaytype | upcase }}
-                    <br><b>Course Title:</b>{{ fellow.course}}
+                    {{ f.displaytype | upcase }}<br>
+                    {% if f.discipline %}{{ f.discipline }}<br>{% endif %}
+                    {% if f.course %}<strong>Course Title:</strong> {{ f.course }}<br>{% endif %}
+                    {% if f.students-impacted %}<strong>Students Impacted:</strong> {{ f.students-impacted }}<br>{% endif %}
+                    {% if f.impact %}<strong>Estimated Minimum Savings:</strong> {{ f.impact }}{% endif %}
                 </p>
-                <p class="card-text">
-                    <br>
-                    <b>Students Impacted:</b> {{ fellow.students-impacted }}
-                    <b>Estimated Minimum Savings:</b> {{ fellow.impact }}
-                </p>
-                <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">Learn More</a>
             </div>
         </div>   
-    </div>{%endif%}
+    </div>
     {% endfor %}
 </div>
 
 <hr>
 
-<h3>2017 Fellows</h3>
-
-<div class="row">        
-    {% for fellow in fellows %}
-    {% if fellow.year == "2017" %}
-    <div class="col-md-4 my-1">
-        <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
-            <div class="card-body">
-                <h4 class="card-title">
-                    <b>{{ fellow.name }}</b>
-                </h4>
-                <p class="card-text">
-                    {{ fellow.displaytype | upcase }}
-                    <br><b>Course Title:</b>{{ fellow.course}}
-                </p>
-                <p class="card-text">
-                   <br>
-                    <b>Students Impacted:</b> {{ fellow.students-impacted }}
-                    <b>Estimated Minimum Savings:</b> {{ fellow.impact }}
-                </p>
-                <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">Learn More</a>
-            </div>
-        </div>   
-    </div>{%endif%}
-    {% endfor %}
-</div>
-
-<hr>
+{% endfor %}

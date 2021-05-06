@@ -11,7 +11,7 @@ layout: page
 
 <div class="row">
     {% for fellow in fellows %}
-    {% if fellow.year == "2019" and fellow.type == "faculty" %}
+    {% if fellow.year == "2020" and fellow.type == "faculty" %}
     <div class="col-md-6 col-lg-4 my-1">
         <div class="card" id="researcher-{{ fellow.name | slugify }}">
             {% if fellow.image%}
@@ -44,7 +44,7 @@ layout: page
 
 <div class="row">
 {% for fellow in fellows %}
-    {% if fellow.year == "2019" and fellow.type == "gradstudent" %}
+    {% if fellow.year == "2020" and fellow.type == "gradstudent" %}
     <div class="col-md-6 col-lg-4 my-1">
         <div class="card" id="researcher-{{ fellow.name | slugify }}">
         {% if fellow.image%}
