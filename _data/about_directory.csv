@@ -1,6 +1,6 @@
 name,rank,title,department,email,phone,vivo,headshot
 "Attebury, Ramirose",Associate Professor,"Head, Technical Services / Gov Docs Librarian",Technical Services / Government Documents,rattebur@uidaho.edu,(208) 885-2503,n30988,rami.jpg
-"Barnhart, Cynthia",Communications & Marketing Manager,,Information Technology and University Library,cbarnhart@uidaho.edu,(208) 885-6355,,
+"Barnhart, Cynthia",,Communications & Marketing Manager,Information Technology and University Library,cbarnhart@uidaho.edu,(208) 885-6355,,
 "Becker, Devin",Associate Professor,"Head, Data and Digital Services",Data and Digital Services,dbecker@uidaho.edu,(208) 885-7040,n8136,devin.jpg
 "Berge, Courtney",Library Assistant,Archives and Exhibits Assistant,Special Collections and Archives,cberge@uidaho.edu,(208) 885-0845,,
 "Campbell, Todd",Library Specialist,Interlibrary Loan Supervisor,User and Research Services,tcampbell@uidaho.edu,(208) 885-6843,,
@@ -30,11 +30,11 @@ name,rank,title,department,email,phone,vivo,headshot
 "Prorak, Diane",Associate Professor,First Year Experience Librarian,User and Research Services,prorak@uidaho.edu,(208) 885-2508,n8852508,prorak2019.jpg
 "Seiferle-Valencia, Marco",Assistant Professor,Open Education Librarian,Data and Digital Services,marcosv@uidaho.edu,(208) 885-2504,n1005348,marco.jpg
 "Shannon, Michelle",Library Specialist,Archival Assistant,Special Collections and Archives,mshannon@uidaho.edu,(208) 885-0845,,
-"Smith, Rochelle",Associate Professor,Reference Librarian,User and Research Services,rsmith@uidaho.edu,(208) 885-7850,n8857850,smith2018.jpg
+"Smith, Rochelle",Associate Professor,Humanities Librarian,User and Research Services,rsmith@uidaho.edu,(208) 885-7850,n8857850,smith2018.jpg
 "Stokes, Katherine",Library Technician,"Digital Projects Manager",Data and Digital Services,kstokes@uidaho.edu,(208) 885-9444,,
 "Thompson, Amy",Library Specialist,Archives Manager,Special Collections and Archives,amyjo@uidaho.edu,(208) 885-0845,,
 "VanGundy, Sarah",Senior Instructor,First Year Experience Librarian,User and Research Services,svangundy@uidaho.edu,(208) 885-7814,n8857814,vangundy2018.jpg
 "Wikle, Olivia",Assistant Professor,Digital Initiatives Librarian,Data and Digital Services,omwikle@uidaho.edu,(208) 885-9086,n263285,olivia.jpg
 "Willett, Dakota",Library Technician,Interlibrary Loan Assistant,User and Research Services,dwillett@uidaho.edu,(208) 885-6843,,
-"Williamson, Evan",Assistant Professor,Digital Infrastructure Librarian,Data and Digital Services,ewilliamson@uidaho.edu,(208) 885-6260,n43629,williamson2018.jpg
-"ITS",Technology Solutions Partner,,Information Technology Services,support@uidaho.edu,,
+"Williamson, Evan",Associate Professor,Digital Infrastructure Librarian,Data and Digital Services,ewilliamson@uidaho.edu,(208) 885-6260,n43629,williamson2018.jpg
+"ITS",,Technology Solutions Partner,Information Technology Services,support@uidaho.edu,,
