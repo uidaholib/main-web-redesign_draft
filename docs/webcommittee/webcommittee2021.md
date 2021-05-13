@@ -1,4 +1,4 @@
-# Web Committee 2020
+# Web Committee 2021
 
 ## May Meeting
 
@@ -25,3 +25,4 @@ Sprint topic ideas:
 - "Guide" page updates (create new template for Copyright and [Data management](https://github.com/uidaholib/main-web-redesign_draft/issues/468))
 - [topics of instruction suggest something new](https://github.com/uidaholib/main-web-redesign_draft/issues/469)
 - [update Studio pages](https://github.com/uidaholib/main-web-redesign_draft/issues/470)
+- [clarify use of librarian titles / streamline directory pages](https://github.com/uidaholib/main-web-redesign_draft/issues/472)
