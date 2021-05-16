@@ -15,14 +15,17 @@
     - Tech updates
 - Discussion, Ideas, Feedback
 - Summer project plans
-    - "sprint" day meetings
+    - "sprint" day meetings through out summer. Less than 1 hour sessions with focused discussion to move topic forward. 
 
 Sprint topic ideas:
 
 - [enhance workshop resources page](https://github.com/uidaholib/main-web-redesign_draft/issues/455), + link with "topics of instruction"
 - [name pronunciation helpers](https://github.com/uidaholib/main-web-redesign_draft/issues/466), + clean up directory data across all pages
 - [create Data Hub pages](https://github.com/uidaholib/main-web-redesign_draft/issues/467)
-- "Guide" page updates (create new template for Copyright and [Data management](https://github.com/uidaholib/main-web-redesign_draft/issues/468))
+- "Guide" page updates (create new template) 
+    - Copyright?
+    - [Data management](https://github.com/uidaholib/main-web-redesign_draft/issues/468))
 - [topics of instruction suggest something new](https://github.com/uidaholib/main-web-redesign_draft/issues/469)
 - [update Studio pages](https://github.com/uidaholib/main-web-redesign_draft/issues/470)
 - [clarify use of librarian titles / streamline directory pages](https://github.com/uidaholib/main-web-redesign_draft/issues/472)
+- [clean up Opening Guide?](https://github.com/uidaholib/main-web-redesign_draft/issues/474)
