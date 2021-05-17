@@ -63,3 +63,14 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+/* inline fontawesome icons */
+.nav-icon { 
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom; 
+    //vertical-align: -0.1em;
+    overflow: hidden;
+    width: 1.1em;
+    height: 1.1em;
+}
