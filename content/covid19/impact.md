@@ -34,8 +34,7 @@ For the most up-to-date information about the University's response, please visi
 ### Mask Wearing and Social Distancing
 {:.h4}
 
-- Masks are required at all times in the library, as with all other campus buildings.
-- If you forget your mask at home, check at the Info Desk—we will happily give you one! Encourage others in the building not wearing masks to stop by and get one, too.
+- Masks are no longer required. Following CDC guidance, we strongly encourage all who are not vaccinated to continue wearing face coverings.
 - Maintain at least six feet of social distancing in the building, including lab spaces.
 - Be aware of your surroundings! Choose study spaces in a way that gives you and other library users at least six feet of space.
 - Library furniture and technology has been moved, blocked off, or rearranged to facilitate social distancing; please do not disrupt!
