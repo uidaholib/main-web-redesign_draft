@@ -33,6 +33,15 @@ Under the hood updates:
 - Cleaning up data files and Google Drive Sheets
 - More content cleaned and moved to Markdown 
 
+Analytics notes:
+
+- 04-01-2020 - 04-01-2021 vs 04-01-2019 - 04-01-2020: slight increase in views (+8%, 1,170,190) and larger increase in users (+35%, 238,317).
+    - multiple year trend since redesign sees large increase in users paired with slight decrease in views, pages/session, and session duration.
+- Fun stuff:
+    - Apr 21 - May 1 2021 --> 270,866% increase in Android users from Indonesia...
+    - Jan 31 2021 --> "bottraffic" hit everyone around the world, sends us 10,000 views... 
+    - T. Abraham [Repositories of Primary Sources](https://www.lib.uidaho.edu/special-collections/t-abraham/Other.Repositories.html) continues to be a top page, spiking in fall semester. Why???
+
 Web archive:
 
 - [2020-05](https://web.archive.org/web/20200504165550/https://www.lib.uidaho.edu/)
