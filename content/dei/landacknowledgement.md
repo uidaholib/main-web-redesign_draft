@@ -32,7 +32,6 @@ U of I recognizes that it is our academic responsibility to build relationships 
 {:.pt-3}
 #### Native Land Digital
 [Native Land Digital](https://native-land.ca/) is a Canadian not-for-profit organization that is Indigenous-led, with an Indigenous Executive Director and Board of Directors who oversee and direct the organization. 
-They strive to create and foster conversations about the history of colonialism, Indigenous ways of knowing, and settler-Indigenous relations, through educational resources such as the map and [Territory Acknowledgement Guide](https://native-land.ca/resources/territory-acknowledgement/). 
-Check out their map below!
+They strive to create and foster conversations about the history of colonialism, Indigenous ways of knowing, and settler-Indigenous relations, through educational resources such as the map and [Territory Acknowledgement Guide](https://native-land.ca/resources/territory-acknowledgement/).
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/dei/nativeland.jpg" alt="Native Land Digital website screenshot" caption="Native Land Digital map" %}
