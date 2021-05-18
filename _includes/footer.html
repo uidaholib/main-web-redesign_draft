@@ -1,17 +1,7 @@
 <footer class="border-top">
     <div class="container-fluid py-3">
-        <div class="row">
+        <div class="row pt-3">
 
-            <div class="col-12 mb-3">
-                <ul id="footer-links" class="nav text-uppercase pb-3">
-                    <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Library Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/about/' | relative_url }}">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/help/search.html' | relative_url }}">Site Search</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/help/' | relative_url }}">Help</a></li>
-                </ul>
-            </div>
             <div class="col-12 col-lg-4">
                 <div class="row align-items-center">
                     <div class="col-4 text-right">
@@ -32,16 +22,30 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-12 col-lg-8">
-                <p class="mb-3 border rounded border-secondary p-4 mr-4"><small>U of I Moscow is located on the homelands of the Nimiipu (Nez Perce). We extend gratitude to the indigenous people that call this place home, since time immemorial. U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.</small></p>
-                <p class="text-md-center text-lg-right mt-5 mr-4"><small>
+                <ul id="footer-links" class="nav d-flex justify-content-end text-uppercase pb-3 mr-3">
+                    <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Library Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/search.html' | relative_url }}">Site Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/' | relative_url }}">Help</a></li>
+                </ul>
+                <p class="text-md-center text-lg-right mr-4"><small>
                     © 2021 University of Idaho Library <span class="px-3">|</span> 
                     <a href="https://www.uidaho.edu/privacy">U of I Privacy Standard</a> <span class="px-3">|</span> 
                     <a href="https://www.uidaho.edu/brand-resource-center/support-teams/web-and-digital/web-accessibility">Web Accessibility</a> <span class="px-3">|</span>
                     <a href="">Website Feedback</a>
                 </small></p>
             </div>
-            
+
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-6">
+                <p class="mb-3 p-4 mr-4"><small>U of I Moscow is located on the homelands of the Nimiipu (Nez Perce). We extend gratitude to the indigenous people that call this place home, since time immemorial. U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.</small></p>
+            </div>
         </div>
     </div>
 </footer>
