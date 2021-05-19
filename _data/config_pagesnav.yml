@@ -14,12 +14,12 @@ About:
     link: /about/contact.html
   - subsection: COVID-19 Response
     link: /covid19/
-  - subsection: Diversity, Equity, and Inclusion
-    link: /dei/
   - subsection: Departments
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
+  - subsection: Diversity, Equity, and Inclusion
+    link: /about/dei.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
     subpages:
@@ -35,6 +35,8 @@ About:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
+  - subsection: Land Acknowledgment Information
+    link: /about/landacknowledgment.html
   - subsection: My Library Stories
     link: /mylibrary/
   - subsection: People
@@ -129,22 +131,7 @@ My Library:
   - subsection: Library Giving
     link: /giving/
   - subsection: << About
-    link: /about/
-Diversity, Equity, and Inclusion (DEI):
-  - parent: About
-    stub: /about/
-  - subsection: DEI at U of I Library
-    link: /dei/
-  - subsection: Against Racism
-    link: /dei/commitment-to-act-against-racism.html
-  - subsection: Land Acknowledgment Information
-    link: /dei/landacknowledgment.html
-  - subsection: Resources
-    link: /dei/resources.html
-  - subsection: Web Accessibility
-    link: /dei/webaccessibility.html
-  - subsection: << About
-    link: /about/  
+    link: /about/ 
 # Journal review section
 Review:
   - parent: About
@@ -203,6 +190,8 @@ Find:
     link: /find/data.html
   - subsection: Digital Collections
     link: /digital/
+  - subsection: Diversity, Equity, and Inclusion Resources
+    link: /find/dei-resources.html
   - subsection: DVDs & Streaming Video
     link: /find/video.html
     subpages: 

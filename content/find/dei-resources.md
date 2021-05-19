@@ -1,18 +1,19 @@
 ---
-title: DEI Resources
+title: Diversity, Equity, and Inclusion Resources
 layout: page
-section: Diversity, Equity, and Inclusion (DEI)
-permalink: /dei/resources.html
+section: Find
+permalink: /find/dei-resources.html
 lazyload: true
 carousel: true
 table-id: "#dei-database"
 ---
 
-Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
+Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. 
+Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
 
 <div class="text-center mb-2">
 <a href="#spec" class="btn btn-secondary my-2 mx-1">Special Collections</a>
-<a href="#books" class="btn btn-secondary my-2 mx-1">Books</a>
+<!--<a href="#books" class="btn btn-secondary my-2 mx-1">Books</a>-->
 <a href="#databases" class="btn btn-secondary my-2 mx-1">Databases</a>
 </div>
 
@@ -23,6 +24,7 @@ Archival collections created by or related to underrepresented communities in Id
 
 {% include feature/carousel.html slides=site.data.dei_collections %}
 
+{% comment %}
 {:.pt-5 #books}
 ## Books:
 
@@ -45,6 +47,7 @@ This includes authors, artists, characters in fiction, and related subjects.
         </div>
     {% endfor %}
 </div>
+{% endcomment %}
 
 {:.pt-5 #databases}
 ## Databases:

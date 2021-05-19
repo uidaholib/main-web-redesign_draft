@@ -1,8 +1,8 @@
 ---
 title: Land Acknowledgment Information
+section: About
+permalink: /about/landacknowledgment.html
 layout: page-narrow
-section: Diversity, Equity, and Inclusion (DEI)
-permalink: /dei/landacknowledgment.html
 ---
 
 The Library's land acknowledgement statement comes from the [U of I Office of Tribal Relations](https://www.uidaho.edu/president/direct-reports/tribal-relations):
@@ -12,13 +12,7 @@ U of I Moscow is located on the homelands of the Nimiipu (Nez Perce).
 We extend gratitude to the indigenous people that call this place home, since time immemorial. 
 U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.
 
-{% include feature/figure.html img="https://cdm17254.contentdm.oclc.org/digital/iiif/cities/121/full/pct:70/0/default.jpg" alt="image of Moscow, Idaho" caption="View of Moscow, Idaho from Picnic Point above the Tamarack Ski Lodge east of Moscow Mountain" %}
-
----
-
-## Resources for Writing Land Acknowledgement Statements
-
-[Resources here]
+{% include feature/figure.html img="https://cdm17254.contentdm.oclc.org/digital/iiif/cities/121/full/pct:70/0/default.jpg" alt="Image of Moscow, Idaho" caption="View of Moscow, Idaho from Picnic Point above the Tamarack Ski Lodge east of Moscow Mountain" %}
 
 ---
 
