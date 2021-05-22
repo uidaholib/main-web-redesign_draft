@@ -21,7 +21,13 @@ U of I recognizes that it is our academic responsibility to build relationships 
 {:.pt-3}
 #### U of I Special Collections
 [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) has several collections relating to tribal relations in Idaho: 
-- Register of Indian Families at the Nez Perce Agency, 1884-1909 (MG 221)
+
+{%- assign collections = site.data.dei_collections -%}
+{% for c in collections %}
+{% if c.category == "Native American/Indigenous" %}
+- [{{ c.headline }}]({{ c.link }}){:target="_blank" rel="noopener"}
+{% endif %}
+{% endfor %}
 
 {:.pt-3}
 #### Native Land Digital

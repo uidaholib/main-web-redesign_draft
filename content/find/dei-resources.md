@@ -21,8 +21,10 @@ Browse featured items below, or contact [Reference Services](mailto:libref@uidah
 ## Special Collections
 
 Archival collections created by or related to underrepresented communities in Idaho and the Pacific Northwest.
+Interested in seeing more? 
+Browse all [DEI-related special collections]().
 
-{% include feature/carousel.html slides=site.data.dei_collections %}
+{% include feature/carousel.html slides="dei" %}
 
 {% comment %}
 {:.pt-5 #books}

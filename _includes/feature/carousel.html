@@ -1,4 +1,8 @@
+{%- if include.slides == "dei" -%}
+{%- assign slides = site.data.dei_collections | where: "carousel", "visible" %}
+{%- else -%}
 {%- assign slides = include.slides -%}
+{%- endif -%}
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
         {% for slide in slides %}
