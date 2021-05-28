@@ -3,11 +3,25 @@ title: Newspaper Microfilm List
 section: Find
 permalink: /find/microfilm.html
 layout: page
-table-id: "#microfilm"
-table-paginate: true
+custom-foot: "js/find_microfilm.html"
 ---
 {% assign newspapers = site.data.find_microfilm %}
-<p>This page provides an alphabetical list of Idaho newspapers on microfilm in our collections. However, please note that most microfilm can be discovered in our <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced">main online catalog</a> as well.</p>
+<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
+
+<p>This page provides an alphabetical list of Idaho newspapers on microfilm in our collections. However, please note that most microfilm can be discovered in our <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced">main online catalog</a>. To download the filtered data click the Excel / CSV button.</p>
+
+<div class="form-group row justify-content-end">
+	<label for="groupSelect" class="col-sm-2 col-form-label text-right">Filter by County:</label>
+	<div class="">
+		<select id="groupSelect" class="custom-select form-control">
+			<option value="all">All</option>
+			{% assign counties = newspapers | map: 'county' | uniq %}
+			{% for c in counties %}
+			<option value="{{ c }}">{{ c }}</option>
+			{% endfor %}
+		</select>
+	</div>
+</div>
 
 <table id="microfilm" class="table table-striped">
 	<thead>
