@@ -5,14 +5,14 @@
 #
 ####
 default: 
-  # reopening phase 3 
-  mon: "Open 7:45am &#8211; 1am"
-  tue: "Open 7:45am &#8211; 1am"
-  wed: "Open 7:45am &#8211; 1am"
-  thu: "Open 7:45am &#8211; 1am"
-  fri: "Open 7:45am &#8211; 8pm"
-  sat: "Closed"
-  sun: "Open 12pm &#8211; 1am"
+  # fall 2021
+  mon: "Open 6am &#8211; 2am"
+  tue: "Open 6am &#8211; 2am"
+  wed: "Open 6am &#8211; 2am"
+  thu: "Open 6am &#8211; 2am"
+  fri: "Open 6am &#8211; 2am"
+  sat: "Open 12pm &#8211; 6pm"
+  sun: "Open 12pm &#8211; 2am"
 ####
 #
 # Breaks open hours (longer term hours that apply to extended periods)
