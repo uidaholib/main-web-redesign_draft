@@ -35,9 +35,7 @@ For the most up-to-date information about the University's response, please visi
 {:.h4}
 
 - Masks are no longer required. Following CDC guidance, we strongly encourage all who are not vaccinated to continue wearing face coverings.
-- Maintain at least six feet of social distancing in the building, including lab spaces.
-- Be aware of your surroundings! Choose study spaces in a way that gives you and other library users at least six feet of space.
-- Library furniture and technology has been moved, blocked off, or rearranged to facilitate social distancing; please do not disrupt!
+- While furniture has been moved back into normal orientations, social distancing is still recommended.
 - Pay attention to and follow instructions on signs and directional markers when using shared spaces like entry doors, hallways, elevators, and bathrooms. 
 
 ### Sanitation and Disinfection
@@ -63,13 +61,7 @@ For the most up-to-date information about the University's response, please visi
 ### Materials Quarantine
 {:.h4}
 
-- Most circulating library items will be quarantined for four days after each use according to professional guidance.
-    - Library items quarantined include print textbooks on reserve, Summit and ILL materials, DVDs, and regularly circulating materials.
-    - Non-circulating library materials such as newspapers, magazines, and other periodicals will not be quarantined or sanitized and may therefore pose a higher risk. Please use hand sanitizer or wash your hands before and after using these materials.
-    - Some items have been removed from circulation altogether due to possible risk, such as board games, microphones, and fabric headphones.
-- Quarantine may affect the delivery or return time for certain materials.
-    - Items returned through book drops or mail will not be checked in for four days after quarantine.
-- Print books on course reserves will still circulate but will be unavailable for four days after each checkout to effectively quarantine. Visit the [Course Reserves page]({{ '/services/reserve/' | relative_url }}) for more information.
+- The library has ceased quarantining physical items due to CDC guidance suggested low rate of transmission on surfaces. 
 
 ### Curbside Delivery
 {:.h4}
