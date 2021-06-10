@@ -468,6 +468,8 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
+  - subsection: Publishing Agreements
+    link: /services/agreements/        
   - subsection: Reference Services
     link: /help/
     subpages:
