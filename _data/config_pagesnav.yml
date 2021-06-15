@@ -8,8 +8,6 @@ About:
     stub: /about/
   - subsection: About Home
     link: /about/
-  - subsection: Against Racism
-    link: /about/commitment-to-act-against-racism.html
   - subsection: Contact
     link: /about/contact.html
   - subsection: COVID-19 Response
@@ -20,6 +18,15 @@ About:
     link: /about/directions.html
   - subsection: Diversity, Equity, and Inclusion
     link: /about/dei.html
+    subpages:
+      - name: DEI at U of I Library 
+        url: /about/dei.html
+      - name: Against Racism
+        url: /about/commitment-to-act-against-racism.html
+      - name: Land Acknowledgment Information
+        url: /about/landacknowledgment.html
+      - name: DEI Resources 
+        url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
     subpages:
@@ -35,8 +42,6 @@ About:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
-  - subsection: Land Acknowledgment Information
-    link: /about/landacknowledgment.html
   - subsection: My Library Stories
     link: /mylibrary/
   - subsection: People

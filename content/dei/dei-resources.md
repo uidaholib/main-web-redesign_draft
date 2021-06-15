@@ -1,8 +1,8 @@
 ---
-title: Diversity, Equity, and Inclusion Resources
+title: Diversity, Equity, and Inclusion (DEI) Resources
 layout: page
-section: Find
-permalink: /find/dei-resources.html
+section: About
+permalink: /about/dei-resources.html
 lazyload: true
 carousel: true
 table-id: "#dei-database"
@@ -13,7 +13,7 @@ Browse featured items below, or contact [Reference Services](mailto:libref@uidah
 
 <div class="text-center mb-2">
 <a href="#spec" class="btn btn-secondary my-2 mx-1">Special Collections</a>
-<!--<a href="#books" class="btn btn-secondary my-2 mx-1">Books</a>-->
+<a href="#exhibits" class="btn btn-secondary my-2 mx-1">Featured Exhibits</a>
 <a href="#databases" class="btn btn-secondary my-2 mx-1">Databases</a>
 </div>
 
@@ -26,30 +26,16 @@ Browse all [DEI-related special collections]({{ "diversity, equity, and inclusio
 
 {% include feature/carousel.html slides="dei" %}
 
-{% comment %}
-{:.pt-5 #books}
-## Books:
+{:.pt-5 #exhibits}
+## Featured Library Exhibit:
 
-The books listed below include and recognize all diverse experiences, including (but not limited to) LGBTQ2IA+, Native American/Indigenous, people of color, gender diversity, people with disabilities, and ethnic, cultural, and religious minorities. 
-This includes authors, artists, characters in fiction, and related subjects.
+{:.pt-3}
+### 2021 Pride Month Display
 
-{% assign items = site.data.dei_new_resources %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/dei/exhibit-pride.jpg" alt="library exhibit featuring pride resources" %}
 
-<div class="row">
-    {% for i in items %}
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header"><strong>{{ i.title }}</strong></div>
-                <div class="card-body">
-                    <p><strong>Author:</strong> {{ i.author }}</p>
-                    <p>Short description??</p>
-                    <div class="text-center"><a type="button" class="btn btn-secondary btn-sm" href="#">Link to resource</a></div>
-                </div>
-            </div>
-        </div>
-    {% endfor %}
-</div>
-{% endcomment %}
+The U of I Library is showcasing a Pride Month display that highlights the voices and lived experiences of LGBTQ2IA+ peoples through memoirs, fiction, art, history, graphic novels, DVDs, and infographics. 
+Swing by the library's first floor to check out the exhibit in person!
 
 {:.pt-5 #databases}
 ## Databases:
