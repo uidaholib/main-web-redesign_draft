@@ -32,7 +32,7 @@ U of I recognizes that it is our academic responsibility to build relationships 
 {%- assign collections = site.data.spec_collections_master -%}
 {% for c in collections %}
 {% if c.dei_category == "Native American/Indigenous" %}
-- [{{ c.title }}]({{ c.link }}){:target="_blank" rel="noopener"}
+- [{{ c.title }}]({{ c.finding_aid_link }}){:target="_blank" rel="noopener"}
 {% endif %}
 {% endfor %}
 
