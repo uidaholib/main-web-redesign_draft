@@ -22,7 +22,7 @@ Browse featured items below, or contact [Reference Services](mailto:libref@uidah
 
 Archival collections created by or related to underrepresented communities in Idaho and the Pacific Northwest.
 Interested in seeing more? 
-Browse all [DEI-related special collections]().
+Browse all [DEI-related special collections]({{ "diversity, equity, and inclusion (dei)" | escape | prepend: "/special-collections/browse.html#" | relative_url }}).
 
 {% include feature/carousel.html slides="dei" %}
 

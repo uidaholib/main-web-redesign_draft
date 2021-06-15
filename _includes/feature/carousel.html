@@ -1,8 +1,9 @@
 {%- if include.slides == "dei" -%}
-{%- assign slides = site.data.dei_collections | where: "carousel", "visible" %}
+{%- assign slides = site.data.spec_collections_master | where: "dei_carousel", "visible" %}
 {%- else -%}
 {%- assign slides = include.slides -%}
 {%- endif -%}
+
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
         {% for slide in slides %}
@@ -18,12 +19,12 @@
         <div class="carousel-caption d-none d-md-block px-3 mb-3">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-left">{{ slide.headline }}</h2>
+                    <h2 class="text-left">{{ slide.title }}</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8 text-left">
-                    <p class="mb-2 text-left slide-paragraph">{{ slide.paragraph }}</p>
+                    <p class="mb-2 text-left slide-paragraph">{{ slide.paragraph | truncate: 125 }}</p>
                 </div>
                 <div class="col-md-4 ">
                     <p>
