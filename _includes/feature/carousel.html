@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-4 ">
                     <p>
-                    <a class="btn btn-outline-pride-gold" href="{{ slide.link }}">{{ slide.link-text }}</a>
+                    <a class="btn btn-outline-pride-gold" href="{% if slide.digital_collection %}{{ slide.digital_collection }}{% elsif slide.finding_aid_link %}{{ slide.finding_aid_link }}{% else %}{{ slide.link }}{% endif %}">{{ slide.link-text }}</a>
                     {% if slide.link2 %}
                     <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 }}">{{ slide.link2-text }}</a>{% endif %}
                     </p>

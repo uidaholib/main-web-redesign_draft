@@ -141,7 +141,7 @@ function filterItems(arr, q) {
 /* add items */
 var items = [
     {% for i in items %}
-    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.link | escape | jsonify }}, "category":{{ i.category | escape | jsonify }}, "digital":{{ i.digital_collection | escape | jsonify }}, "dei":{{ i.dei_category | escape | jsonify }}, "description":{{ i.paragraph | escape | jsonify }}, "subject":{{ i.subject | escape | jsonify }}, "startdate": {{ i.startdate | escape | jsonify }},"enddate": {{ i.enddate | escape | jsonify }},"group":{{ i.group | escape | jsonify }}, "id":{{ i.id | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+    { "title":{{ i.title | strip | escape | jsonify }}, "type":{{ i.type | escape | jsonify }}, "link":{{ i.finding_aid_link | escape | jsonify }}, "category":{{ i.category | escape | jsonify }}, "digital":{{ i.digital_collection | escape | jsonify }}, "dei":{{ i.dei_category | escape | jsonify }}, "description":{{ i.paragraph | escape | jsonify }}, "subject":{{ i.subject | escape | jsonify }}, "startdate": {{ i.startdate | escape | jsonify }},"enddate": {{ i.enddate | escape | jsonify }},"group":{{ i.group | escape | jsonify }}, "id":{{ i.id | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}
 
 ];
 /* init browse page */
