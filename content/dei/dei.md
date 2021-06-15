@@ -9,11 +9,14 @@ The University of Idaho "welcomes and respects all people. Diversity and inclusi
 
 The University of Idaho Library affirms these values and is committed to actively welcoming, centering, and prioritizing diverse perspectives and experiences - including those from historically marginalized backgrounds - in our services, programs, spaces, and workforce. 
 
-<div class="text-center mb-4">
+<div class="text-center mb-2">
 <a href="{{ '/about/dei-resources.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">DEI Resources</a>
-<a href="{{ '/about/landacknowledgement.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">Land Acknowledgement</a>
-<a href="#committee" class="btn btn-secondary my-2 mx-1">DEI Committee</a>
-<a href="{{ '/about/commitment-to-act-against-racism.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">Against Racism</a>
+<a href="{{ '/about/landacknowledgement.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">U of I Land Acknowledgement</a>
+</div>
+<div class="text-center mb-4">
+<a href="#committee" class="btn btn-secondary my-2 mx-1">U of I Library DEI Committee</a>
+<a href="{{ '/about/commitment-to-act-against-racism.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">Commitment to Act Against Racism</a>
+<a href="#feedback" class="btn btn-secondary my-2 mx-1">Feedback</a>
 </div>
 
 {% include feature/figure.html img="https://digital.lib.uidaho.edu/digital/iiif/pg2/1002/full/pct:70/0/default.jpg" alt="Photograph of University of Idaho Class of 1899" caption="University of Idaho Class of 1899, including first African American student to graduate from the U of I, Jennie Eva Hughes Smith" %}
