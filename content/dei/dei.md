@@ -11,7 +11,7 @@ The University of Idaho Library affirms these values and is committed to activel
 
 <div class="text-center mb-2">
 <a href="{{ '/about/dei-resources.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">DEI Resources</a>
-<a href="{{ '/about/landacknowledgement.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">U of I Land Acknowledgement</a>
+<a href="{{ '/about/landacknowledgment.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">U of I Land Acknowledgement</a>
 </div>
 <div class="text-center mb-4">
 <a href="#committee" class="btn btn-secondary my-2 mx-1">U of I Library DEI Committee</a>
