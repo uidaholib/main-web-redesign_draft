@@ -8,6 +8,8 @@ carousel: true
 table-id: "#dei-database"
 ---
 
+{%- assign exhibits = site.data.dei_exhibits | where: "current", "true" -%}
+
 Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. 
 Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
 
@@ -31,13 +33,16 @@ Browse all [DEI-related special collections]({{ "diversity, equity, and inclusio
 {:.pt-4 #exhibits}
 ## Featured Library Exhibit:
 
+{% for e in exhibits %}
+
 {:.pt-3}
-### 2021 Pride Month Display
+### {{ e.title }}
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/dei/exhibit-pride.jpg" alt="library exhibit featuring pride resources" %}
+{% include feature/figure.html img=e.image_src alt=e.image_alt %}
 
-The U of I Library is showcasing a Pride Month display that highlights the voices and lived experiences of LGBTQ2IA+ peoples through memoirs, fiction, art, history, graphic novels, DVDs, and infographics. 
-Swing by the library's first floor to check out the exhibit in person!
+{{ e.description }}
+
+{% endfor %}
 
 ---
 
