@@ -9,6 +9,9 @@ custom-foot: "js/home.html"
 
 <main id="maincontent" role="main">
     <h1 class="sr-only">University of Idaho Library Home</h1>
+    
+    {% include index-alert.html text="The Library will be closed Monday, June 21, in honor of Juneteenth." color="danger" %}
+
     {% include searchnav.html %}
 
     {% include feature/carousel.html slides=site.data.index_carousel %}
