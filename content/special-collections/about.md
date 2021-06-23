@@ -24,7 +24,7 @@ Special Collections and Archives is a department within the University of Idaho 
 
 Learn more about the strengths and focus of our holdings on the [Description of Collections](/special-collections/description.html) page.
 You can view our physical materials by visiting our [Reading Room](/special-collections/plan.html). 
-Many items have been digitized and can be discovered in [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/),
+Many items have been digitized and can be discovered in the [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/) and the [Idaho Harvester](https://harvester.lib.uidaho.edu/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0).
 
 <div class="py-3 text-center">
@@ -40,14 +40,15 @@ and finding aids can be searched on [Archives West](https://archiveswest.orbisca
 
 ## Contact
 
-We're available 8am - 5pm, Monday - Friday to answer inquiries via email or phone.
+We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, or phone.
 
 <div class="card-deck my-4">
     <div class="card">
         <div class="card-body text-center">
             Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
             Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-            Visit: <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room, Library room 121</a>
+            Chat: <a href="https://www.lib.uidaho.edu/special-collections/">Spec Home Page</a><br>
+            Visit: <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room</a> during <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Open Hours</a>
         </div>
     </div>
     <div class="card">

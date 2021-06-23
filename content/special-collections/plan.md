@@ -34,7 +34,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> To request materials for viewing, please visit our <a href="https://www.lib.uidaho.edu/special-collections/searchtools.html">Search Tools</a> or <a href="https://www.lib.uidaho.edu/special-collections/browse.html">browse our collections</a> to find materials you want to view.  If you have questions or need help using our websites, please contact us at
+            <p> To request materials for viewing, please visit our <a href="https://www.lib.uidaho.edu/special-collections/searchtools.html">Search Tools</a> or <a href="https://www.lib.uidaho.edu/special-collections/browse.html">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->
@@ -63,15 +63,15 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Make an Appointment
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Make an Appointment or Visit Open Hours
               <span class="fas fa-chevron-down smalltxt"></span>
             </a>
           </h5>
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> Please see our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">current hours</a> below to make an appointment. While appointments are not strictly required, we highly appreciate <strong>at least two business days of notice</strong> of what you would like to view, so we may have materials ready for your visit (in some cases, we may be able to digitize your request remotely!). Contact us at
-              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845 to request materials and schedule your visit.</p>
+            <p>To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for <strong>at least two business days of notice</strong> so we may do any preparatory searching and retrieving in advance. We are open to appointments <strong>Monday-Friday 9am-4pm</strong> depending on staff availability.</p>
+            <p>Check our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Open Hours</a> for walk-in availability!</p>
           </div>
           <!--end card-body-->
         </div>
@@ -106,27 +106,15 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 {:#hours}
 ## Current Hours
 
-<div class="border border-warning rounded p-4 my-3" markdown="1">
+Our materials and our Reading Room are available to everyone! There are two ways to visit us in-person:
 
-In accordance with the [library’s staged reopening plans](https://www.lib.uidaho.edu/media/about/LibraryReopeningExternal070620.pdf), Special Collections & Archives is open to **appointments Monday-Friday 9am-4pm**.
+### Open Hours
 
-Access to the Reading Room will require visitors to adhere the following policies until further notice: 
-
-- Reading Room visits will be **by appointment only**. 
-- We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. 
-- Patrons are required to **consult with us by phone or email prior to their visit**, during which time we may determine if the request can be fulfilled digitally. 
-- **Face masks are required** in the Reading Room at all times. 
-- Only two visitors are allowed in the Reading Room at a time. 
-- Visitors are expected to observe established seating arrangements within the Reading Room. 
+From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the Reading Room (located on the [first floor](https://www.lib.uidaho.edu/about/maps.html) of the Library). Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
 
 ### Make an Appointment
 
-Please contact <libspec@uidaho.edu> or (208) 885-0845 to make an appointment. 
-We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. We are open to appointments **Monday-Friday 9am-4pm**.
-
-*Note: Library staff reserve the right to close the Reading Room or make alternative accommodations for health and safety reasons even if an appointment has been made.*
-
-</div>
+To schedule an appointment, fill out our [Appointment Request Form](https://forms.office.com/r/SjqtcHZ3Kn). We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. We are open to appointments **Monday-Friday 9am-4pm** depending on staff availability.
 
 ---
 
