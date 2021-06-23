@@ -34,7 +34,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> To request materials for viewing, please visit our <a href="https://www.lib.uidaho.edu/special-collections/searchtools.html">Search Tools</a> or <a href="https://www.lib.uidaho.edu/special-collections/browse.html">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
+            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Search Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->
@@ -71,7 +71,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p>To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for <strong>at least two business days of notice</strong> so we may do any preparatory searching and retrieving in advance. We are open to appointments <strong>Monday-Friday 9am-4pm</strong> depending on staff availability.</p>
-            <p>Check our <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Open Hours</a> for walk-in availability!</p>
+            <p>Check our <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">Open Hours</a> for walk-in availability!</p>
           </div>
           <!--end card-body-->
         </div>
@@ -89,7 +89,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div id="collapseFour" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
-              understand and will abide by the <a href="https://www.lib.uidaho.edu/special-collections/plan.html#rules">Reading Room Rules</a> (see below) for using Special Collections and Archives materials. </p>
+              understand and will abide by the <a href="{{ '/special-collections/plan.html#rules' | relative_url }}">Reading Room Rules</a> (see below) for using Special Collections and Archives materials. </p>
           </div>
           <!--end card-body-->
         </div>
@@ -110,7 +110,7 @@ Our materials and our Reading Room are available to everyone! There are two ways
 
 ### Open Hours
 
-From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the Reading Room (located on the [first floor](https://www.lib.uidaho.edu/about/maps.html) of the Library). Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
+From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the Reading Room (located on the [first floor]({{ '/about/maps.html' | relative_url }}) of the Library). Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
 
 ### Make an Appointment
 

@@ -47,8 +47,8 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, 
         <div class="card-body text-center">
             Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
             Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-            Chat: <a href="https://www.lib.uidaho.edu/special-collections/">Spec Home Page</a><br>
-            Visit: <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room</a> during <a href="https://www.lib.uidaho.edu/special-collections/plan.html#hours">Open Hours</a>
+            Chat: <a href="{{ '/special-collections/' | relative_url }}">Spec Home Page</a><br>
+            Visit: <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room</a> during <a href="{{ 'special-collections/plan.html#hours' | relative_url }}">Open Hours</a>
         </div>
     </div>
     <div class="card">
