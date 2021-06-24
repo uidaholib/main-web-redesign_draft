@@ -17,3 +17,8 @@ redirect: /find/dvds.html
 ```
 
 Note: you still need the permalink for the page you want to redirect, because it still needs to be built out and put in that location.
+
+Optionally, provide a `refresh` value as number of seconds. 
+By default it is set to `1`, which will make the redirect very quickly visible to the user. 
+If you would like to ensure they see the redirect, add a longer time, e.g. `refresh: 10`.
+If you want to redirect immediately, use `refresh: 0`.
