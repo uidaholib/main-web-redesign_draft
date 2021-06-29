@@ -71,8 +71,8 @@ breaks:
 # 
 ####
 specials:
-  - dates: ["2021-01-11","2021-01-12"]
-    message: "Open 7:45am &#8211; 10pm"  
+  - dates: ["2021-07-05"]
+    message: "Open 12pm &#8211; 5pm"  
 ####
 #
 # Closed dates (single dates when closed)
