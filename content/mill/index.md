@@ -13,7 +13,7 @@ layout: page
 </div>
 
 The **Making, Innovating, Learning Laboratory** (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
-Located on the floor of the library and open to everyone on campus, the MILL is creative and inclusive, and we strive to facilitate the free and open exchange of ideas and knowledge between disciplines.
+Located on the first floor of the library and open to everyone on campus, the MILL is creative and inclusive, and we strive to facilitate the free and open exchange of ideas and knowledge between disciplines.
 
 Are you ready to create? Reserve one of our 3D printers, the Lulzbot Mini 3D Printer and TAZ 3D Printer (email <edie@uidaho.edu>). 
 <!--
