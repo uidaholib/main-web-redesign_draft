@@ -10,6 +10,8 @@ custom-foot: "js/home.html"
 <main id="maincontent" role="main">
     <h1 class="sr-only">University of Idaho Library Home</h1>
 
+    {% include index-alert.html text="The Library will be closed on Sunday, July 4th and open from 12:00pm-5:00pm on Monday, July 5th. <br>Regular summer hours will resume on Tuesday, July 6th." %}
+
     {% include searchnav.html %}
 
     {% include feature/carousel.html slides=site.data.index_carousel %}
