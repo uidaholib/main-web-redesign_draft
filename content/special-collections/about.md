@@ -61,10 +61,6 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, 
     </div>
 </div>
 
----
-
-## Staff
-
 {% assign people = site.data.about_directory | where: 'department','Special Collections and Archives'| sort: 'rank' %}
 
 <table class="table table-striped">

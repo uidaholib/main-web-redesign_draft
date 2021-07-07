@@ -16,7 +16,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 </div>
 </div>
 <div class="col-md-6">
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/readingroom.jpg" alt="reading room tables" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/lumber189.jpg" alt="reading room tables" %}
 </div>
 </div>
 
@@ -53,7 +53,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div id="collapseTwo" class="collapse" data-parent="#accordion">
           <div class="card-body">
             <p> Our 
-              <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online. </p>
+              <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and <a href="https://harvester.lib.uidaho.edu/">Idaho Harvester Blog</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online.</p>
           </div>
           <!--end card-body-->
         </div>
@@ -108,13 +108,20 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 
 Our materials and our Reading Room are available to everyone! There are two ways to visit us in-person:
 
-### Open Hours
-
-From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the Reading Room (located on the [first floor]({{ '/about/maps.html' | relative_url }}) of the Library). Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
-
-### Make an Appointment
-
-To schedule an appointment, fill out our [Appointment Request Form](https://forms.office.com/r/SjqtcHZ3Kn). We ask for **at least two business days of notice** so we may do any preparatory searching and retrieving in advance. We are open to appointments **Monday-Friday 9am-4pm** depending on staff availability.
+<div class="card-deck my-4">
+    <div class="card">
+        <div class="card-body">
+          <h3>Open Hours</h3>
+            From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the <a href="https://www.lib.uidaho.edu/about/maps.html">Reading Room</a>. Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+          <h3>Make an Appointment</h3>
+            To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.
+        </div>
+    </div>
+</div>
 
 ---
 
