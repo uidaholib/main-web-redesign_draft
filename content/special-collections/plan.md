@@ -112,7 +112,7 @@ Our materials and our Reading Room are available to everyone! There are two ways
     <div class="card">
         <div class="card-body">
           <h3>Open Hours</h3>
-            From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the <a href="https://www.lib.uidaho.edu/about/maps.html">Reading Room</a>. Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
+            From July 1, 2021 - August 23, 2021 we will be open to the public Monday-Friday between 1:00pm-3:00pm in the <a href=" {{ '/about/maps.html' | relative_url }}">Reading Room</a>. Everyone is welcome to come in and view materials! Please check back on August 23, 2021 for updated hours for the academic year. 
         </div>
     </div>
     <div class="card">
