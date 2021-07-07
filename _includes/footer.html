@@ -1,69 +1,52 @@
 <footer class="border-top">
     <div class="container-fluid py-3">
-        <div class="row">
-            <div class="col-md-2 offset-md-1 d-none d-md-block">
-                <h6>Floor Maps</h6>
-                <div id="footer-maps" class="row">
-                    <div class="col-6 p-2">
-                        <a title="First Floor Map" href="{{ '/about/maps.html#first-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap1_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Second Floor Map" href="{{ '/about/maps.html#second-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap2_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Third Floor Map" href="{{ '/about/maps.html#third-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap3_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                    <div class="col-6 p-2">
-                        <a title="Fourth Floor Map" href="{{ '/about/maps.html#fourth-floor' | relative_url }}">
-                            <img src="{{ '/stackmaps/stackmap4_sm.png' | prepend: site.lib-media }}" alt="First Floor Map">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <ul id="footer-links" class="list-unstyled mt-4 border-left border-pride-gold pl-3">
-                    <li><a title="Library Homepage" href="{{ '/' | relative_url }}">Library Home</a></li>
-                    <li><a title="About our library people, policies, etc." href="{{ '/about/' | relative_url }}">About</a></li>
-                    <li><a title="Directions to the library" href="{{ '/about/directions.html' | relative_url }}">Directions</a></li>
-                    <li><a title="Main help page for using library resources" href="{{ '/help/' | relative_url }}">Help</a></li>
-                    <li><a title="Hours information for the library and departments" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
-                    <li><a title="UI Privacy Standard" href="https://www.uidaho.edu/privacy">UI Privacy Standard</a></li>
+        <div class="row pt-3">
+
+            <div class="col-12">
+                <ul id="footer-links" class="nav text-uppercase pb-3 mr-3 text-right">
+                    <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Library Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/maps.html' | relative_url }}">Floor Maps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/search.html' | relative_url }}">Site Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/about/hours.html' | relative_url }}">Hours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/help/' | relative_url }}">Help</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
-                <p class="mt-5 border-left border-pride-gold pl-3">
-                    <a id="footer-gmap" href="https://goo.gl/maps/uxfqGrtoTN82">University of Idaho Library
-                        <br> 850 S Rayburn Street
-                        <br> Moscow, ID 83844-2350</a>
-                    <br> (208) 885-6559
-                </p>
-            </div>
-            <div class="col-md-3 d-none d-md-block">
-                <br>
-                <div class="mb-1">
-                    <p class="smallesttxt indent">Search the library website:</p>
-                    <script>
-                        function site_search() {
-                            var query = document.getElementById("site-search").value;
-                            window.open("{{ '/help/search.html' | absolute_url }}?q=" + encodeURIComponent(query), "_self" );
-                        }
-                    </script>
-                    
-                    <form class="form-inline my-2 my-lg-0" role="search" onsubmit="site_search(); return false;">
-                        <div class="p-2 background-grey-color">
-                            <input id="site-search" class="form-control form-control-sm mr-sm-2" type="text" placeholder="Site Search..." aria-label="Search">
-                            <button class="btn btn-sm btn-payette-blue my-2 my-sm-0 " type="submit"><span class="fas fa-search" aria-hidden="true"></span><span class="sr-only">Search</span></button>
+
+            <div class="col-12 col-lg-4">
+                <div class="row align-items-center">
+                    <div class="col-4 text-right">
+                        <div class="px-3 py-2 mb-3">
+                            <a title="University of Idaho Library" href="{{ '/' | relative_url }}">
+                                <img id="footer-logo" class="img-fluid" src="{{ '/images/tower_icon_gold.png' | prepend: site.lib-media }}" alt="Gold U of I Library Tower logo" >
+                            </a>
                         </div>
-                    </form>
-                    
+                    </div>
+                    <div class="col-8">
+                        <p class="border-left border-pride-gold pl-3 mb-3">
+                            University of Idaho Library<br>
+                            <a href="{{ '/about/directions.html' | relative_url }}">850 S Rayburn Street<br>
+                            Moscow, ID 83844</a><br>
+                            (208) 885-6559<br>
+                            <a href="{{ '/about/landacknowledgment.html' | relative_url }}"><span class="fas fa-map-marker-alt"></span> On Nimiipu lands</a>
+                        </p>
+                    </div>
                 </div>
             </div>
+
+            <div class="col-12 col-lg-8">
+                <div class="text-right mr-5">
+                    <p><small><em>Bringing the world to Idaho ... and Idaho to the world.</em><br>
+                        <a href="https://www.uidaho.edu/privacy">U of I Privacy Standard</a> | 
+                        <a href="https://www.uidaho.edu/brand-resource-center/support-teams/web-and-digital/web-accessibility">Web Accessibility</a> |
+                        <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_eqZdsQyel8sKBAG?source_link={{ page.url | absolute_url }}">Website Feedback</a>
+                        <br>
+                        © 2021 University of Idaho Library
+                    </small></p>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </footer>
