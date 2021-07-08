@@ -33,11 +33,11 @@ spec_books-build: false
 
 # cb page gen
 page_gen:
-  - data: 'metadata'
+  - data: 'about_people'
     template: 'profile'
     name: 'id'
     dir: 'people'
-    extension: 'html'
+    filter: 'id'
 
 #compress CSS output
 sass:
