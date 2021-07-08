@@ -48,7 +48,7 @@ layout: default
                             <div class="col-md-8">
                                 <p class="h3">{{ page.title }}</p>
                                 {% if page.liaison_title %}<p class="h4">{{ page.liaison_title }}</p>{% endif %}
-                                <p class="h4">{{ page.rank }}{{ page.faculty_rank }}</p>
+                                <p class="h4">{{ page.rank }}</p>
                                 <hr>
                                 <table class="table table-borderless">
                                     <tbody>
@@ -78,8 +78,8 @@ layout: default
                                 <p class="text-center">
                                     {% if page.vivo_id %}<a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ page.vivo_id }}" class="btn btn-outline-pride-gold">View VIVO profile</a>{% endif %}
                             </div>
-                            <div class="col-md-4">
-                                <img src="{{ site.lib-media }}/headshots/{{ l.image_small | default: 'tower_icon_gold.png' }}" class="img-fluid" alt="">
+                            <div class="col-md-3 p-4">
+                                <img src="{{ site.lib-media }}/headshots/{{ l.image_small | default: 'tower_icon_gold.png' }}" class="img-fluid" alt="portrait of {{ full_name }}">
                             </div>
 
                         </div>
