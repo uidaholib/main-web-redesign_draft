@@ -31,6 +31,14 @@ all-collections-build: false
 speccoll-build: false
 spec_books-build: false
 
+# cb page gen
+page_gen:
+  - data: 'metadata'
+    template: 'profile'
+    name: 'id'
+    dir: 'people'
+    extension: 'html'
+
 #compress CSS output
 sass:
   style: compressed
