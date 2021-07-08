@@ -28,7 +28,7 @@ table-id: "#directory"
     <tbody>
     {% for p in people %}
     <tr>
-       <td class="name">{{ p.last_name }}, {{ p.first_name }}</td>
+       <td class="name"><a href="{{ '/about/people/' | append: p.id | relative_url }}">{{ p.last_name }}, {{ p.first_name }}</a></td>
        <td class="title center">{{ p.title }}</td>
        <td class="department center">{{ p.department }}</td>
        <td class="contact"><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
