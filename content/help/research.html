@@ -5,8 +5,8 @@ section: Help
 permalink: /help/research.html
 custom-foot: js/research-assistance.html
 ---
-{% assign liaisons = site.data.about_liaisons %}
-{% assign people = site.data.about_directory %}
+{% assign people = site.data.about_people | where_exp: "p", "p.liaison_college" %}
+{% assign general_contact = people | where: "id","rsmith" | first %}
 
 <p>Librarians can help you efficiently and effectively search and use library resources and other information sources. Each college at U of I has a designated subject librarian who is ready to help with all your research and library questions.</p>
 
@@ -15,38 +15,61 @@ custom-foot: js/research-assistance.html
 <label for="selectCollege">Select College:</label>
 <select id="selectCollege" class="custom-select custom-select-lg mb-3">
     <option selected value="reset">All</option>
-    {% assign colleges = liaisons | map: "college" | uniq %}
+    <option value="{{ 'General / Unsure' | slugify }}">General / Unsure</option>
+    {% assign colleges = people | map: "liaison_college" | uniq %}
     {%- for c in colleges -%}
     <option value="{{ c | slugify }}">{{ c }}</option>
     {% endfor %}
 </select>
 
 <div class="row">
-{% for l in liaisons %}
-<div class="col-md-6 mb-2 liaison-card {{ l.college | slugify }}">
-    <div class="card">
-        <div class="card-header">
-            {{ l.college }}
-        </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-4">
-                    {% assign p = people | where: "email",l.email | first %}
-                    {% assign headshot = p.headshot | default: "tower_icon_gold.png" %}
-                    <img class="img-fluid rounded" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
-                </div>
-                <div class="col-8">
-                    <h5>{{ l.librarian }}</h5>
-                    <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
-                    <p class="card-text"><strong>Departments:</strong><br>{{ l.departments }}</p>
-                </div>
+
+    {% capture full_name %}{{ general_contact.first_name }} {{ general_contact.last_name }}{% endcapture %}
+    <div class="col-md-6 mb-2 liaison-card {{ 'General / Unsure' | slugify }}">
+        <div class="card">
+            <div class="card-header">
+                General / Unsure
             </div>
-            <div class="text-center mt-2">
-                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid rounded" src="{{ site.lib-media }}/headshots/{{ general_contact.image_small | default: 'tower_icon_gold.png' }}" alt="portrait of {{ full_name }}">
+                    </div>
+                    <div class="col-8">
+                        <h5>{{ full_name }}</h5>
+                        <div><a href="mailto:{{ general_contact.email }}">{{ general_contact.email }}</a></div>
+                        <p class="card-text">Unsure of where to start, uncertain of your college, or have general questions about this service? {{ general_contact.first_name }} would be happy to help you get started!</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ 'general' | url_encode }}&person={{ full_name | url_encode }}&email={{ general_contact.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+{% for l in people %}{% capture full_name %}{{ l.first_name }} {{ l.last_name }}{% endcapture %}
+    <div class="col-md-6 mb-2 liaison-card {{ l.liaison_college | slugify }}">
+        <div class="card">
+            <div class="card-header">
+                {{ l.liaison_college }}
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid rounded" src="{{ site.lib-media }}/headshots/{{ l.image_small | default: 'tower_icon_gold.png' }}" alt="portrait of {{ full_name }}">
+                    </div>
+                    <div class="col-8">
+                        <h5>{{ full_name }}</h5>
+                        <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
+                        <p class="card-text"><strong>Departments:</strong><br>{{ l.liaison_departments }}</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ l.liaison_college | url_encode }}&person={{ full_name | url_encode }}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endfor %}
 </div>
 

@@ -65,7 +65,7 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, 
 
 ## Staff
 
-{% assign people = site.data.about_directory | where: 'department','Special Collections and Archives'| sort: 'rank' %}
+{% assign people = site.data.about_people | where: 'department','Special Collections and Archives'| sort: 'first_name' %}
 
 <table class="table table-striped">
     <thead>
@@ -78,9 +78,9 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, 
     <tbody>
     {% for a in people %}
     <tr>
-       <td class="name">{{ a.name }}</td>
-       <td class="title center">{{ a.rank }}<br>{{ a.title }}</td>
-       <td class="contact"><a href="mailto:{{ p.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
+       <td class="name">{{ a.first_name }} {{ a.last_name }}</td>
+       <td class="title center">{{ a.title }}</td>
+       <td class="contact"><a href="mailto:{{ a.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
     </tr>
     {% endfor %}
     </tbody>

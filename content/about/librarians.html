@@ -4,15 +4,15 @@ section: About
 permalink: /about/librarians.html
 layout: page
 ---
-{% assign people = site.data.about_directory | where_exp: 'p', 'p.vivo' %}
+{% assign people = site.data.about_people | where_exp: 'p', 'p.vivo_id' %}
 <div class="row">
-    {% for p in people %}
+    {% for p in people %}{% capture full_name %}{{ p.first_name }} {{ p.last_name }}{% endcapture %}
     <div class="col-6 col-md-4 col-lg-3 mb-2">
         <div class="card">
-            <img class="card-img-top img-fluid" src="{{ p.headshot | default: 'tower_icon_gold_sq.png' | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ p.name }}">
+            <img class="card-img-top img-fluid" src="{{ site.lib-media }}/headshots/{{ p.image_small | default: 'tower_icon_gold_sq.png' }}" alt="portrait of {{ full_name }}">
             <div class="card-body text-center">
-                <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo }}" title="View the profile for {{ p.name }}">{{ p.name }}</a></h5>
-                <p class="card-text">{{ p.title }}</p>
+                <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo_id }}">{{ full_name }}</a></h5>
+                <p class="card-text">{{ p.title }}<br>{{ p.liaison_title }}</p>
             </div>
         </div>
     </div>
