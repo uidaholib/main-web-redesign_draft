@@ -4,6 +4,18 @@
 <div id="sidebar" class="py-3 border-right d-none d-md-block pl-3">
     <nav id="page-nav">
         <ul class="list-unstyled components">
+
+            <li class="border-bottom py-2 pl-1 pr-4">
+                <a href="#directories" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >Directories</a>
+                <ul class="collapse list-unstyled" id="directories">
+                    <li class="pl-3 mt-1">
+                        <a href="{{ '/about/directory.html' | relative_url }}">Main Directory</a>
+                    </li>
+                    <li class="pl-3 mt-1">
+                        <a href="{{ '/about/liaisons.html' | relative_url }}">Subject Liaisons</a>
+                    </li>
+                </ul>
+            </li>
             
             <li class="border-bottom py-2 pl-1 pr-4">
                 <a href="#faculty" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >Faculty</a>
