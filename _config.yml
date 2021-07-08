@@ -36,7 +36,7 @@ page_gen:
   - data: 'about_people'
     template: 'profile'
     name: 'id'
-    dir: 'people'
+    dir: 'about/people'
     filter: 'id'
 
 #compress CSS output
