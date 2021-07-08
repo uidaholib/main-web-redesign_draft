@@ -1,0 +1,31 @@
+{% assign people = site.data.about_people | sort: 'last_name' %}
+{% assign faculty = people | where_exp: "p","p.faculty_rank" %}
+{% assign staff = people | where_exp: "p","p.faculty_rank == nil" %}
+<div id="sidebar" class="py-3 border-right d-none d-md-block pl-3">
+    <nav id="page-nav">
+        <ul class="list-unstyled components">
+            
+            <li class="border-bottom py-2 pl-1 pr-4">
+                <a href="#faculty" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >Faculty</a>
+                <ul class="list-unstyled collapse {% if page.faculty_rank %}show{% endif %}" id="faculty">
+                    {% for f in faculty %}
+                    <li class="pl-3 mt-1 {% if f.id == page.id %} active{% endif %}">
+                        <a href="{{ '/about/people/' | relative_url }}{{ f.id }}.html">{{ f.last_name }}, {{ f.first_name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li class="border-bottom py-2 pl-1 pr-4">
+                <a href="#staff" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >Staff</a>
+                <ul class="list-unstyled collapse {% unless page.faculty_rank %}show{% endunless %}" id="staff">
+                    {% for s in staff %}
+                    <li class="pl-3 mt-1 {% if s.id == page.id %} active{% endif %}">
+                        <a href="{{ '/about/people/' | relative_url }}{{ s.id }}.html">{{ s.last_name }}, {{ s.first_name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+              
+        </ul>
+    </nav>
+</div>
