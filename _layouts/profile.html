@@ -76,10 +76,10 @@ layout: default
                                     </tbody>
                                 </table>
                                 <p class="text-center">
-                                    {% if page.vivo_id %}<a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ page.vivo_id }}" class="btn btn-outline-pride-gold">View VIVO profile</a>{% endif %}
+                                    {% if page.vivo_id %}<a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ page.vivo_id }}" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">View VIVO profile</a>{% endif %}
                             </div>
                             <div class="col-md-3 p-4">
-                                <img src="{{ site.lib-media }}/headshots/{{ l.image_small | default: 'tower_icon_gold.png' }}" class="img-fluid" alt="portrait of {{ full_name }}">
+                                <img src="{{ site.lib-media }}/headshots/{{ page.headshot | default: 'tower_icon_gold.png' }}" class="img-fluid" alt="portrait of {{ full_name }}">
                             </div>
 
                         </div>
