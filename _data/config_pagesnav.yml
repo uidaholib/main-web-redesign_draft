@@ -453,7 +453,7 @@ Services:
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
-  - subsection: Distance Education
+  - subsection: Accessing Library Resources Off-Campus
     link: /services/distance.html
   - subsection: Instruction Services
     link: /services/instruction/
