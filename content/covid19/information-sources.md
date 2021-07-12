@@ -3,6 +3,7 @@ title: COVID-19 Information Sources
 layout: page
 section: COVID-19
 permalink: /covid19/information-sources.html
+noindex: true
 ---
 
 A vast and ever-changing amount of information exists about the Novel Coronavirus/COVID-19 Disease. The resources below are intended to help you discover, research, and navigate many of the most reliable sources. 

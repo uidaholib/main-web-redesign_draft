@@ -3,6 +3,7 @@ title: COVID-19 Information
 layout: page
 section: COVID-19
 permalink: /covid19/index.html
+noindex: true
 ---
 
 For the most up-to-date information on the University of Idaho's response to COVID-19, please visit the link below: 

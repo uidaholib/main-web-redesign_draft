@@ -4,6 +4,7 @@ layout: page
 section: COVID-19
 permalink: /covid19/impact.html
 chat-widget: true
+noindex: true
 ---
 
 {% include feature/alert.html text="<span class='h5'><strong>The University of Idaho Library building is now open to U of I students, staff, and faculty.</strong></span>" color="info" align="center" %}

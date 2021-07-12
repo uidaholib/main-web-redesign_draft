@@ -4,6 +4,7 @@ layout: page
 section: COVID-19
 permalink: /covid19/access.html
 chat-widget: true
+noindex: true
 ---
 
 The below lists a variety of ways you can access library resources online from anywhere. 
