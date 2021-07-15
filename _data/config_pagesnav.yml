@@ -407,7 +407,7 @@ Think Open:
 # Services Section
 Services:
   - parent: Services
-    stub: /services/
+    stub: /services/  
   - subsection: Borrow/Renew
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
@@ -453,8 +453,6 @@ Services:
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
-  - subsection: Accessing Library Resources Off-Campus
-    link: /services/distance.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -479,6 +477,8 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
+  - subsection: Off-Campus Access
+    link: /services/distance.html  
   - subsection: Publishing Agreements
     link: /services/agreements/        
   - subsection: Reference Services
