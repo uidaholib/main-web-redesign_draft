@@ -258,7 +258,7 @@ Help:
   - subsection: FAQ
     link: https://libanswers.uidaho.edu/
   - subsection: Off-Campus Access
-    link: /help/offcampus.html
+    link: /services/distance.html
   - subsection: Research Assistance
     link: /help/research.html
   - subsection: Chat & Text
@@ -405,7 +405,7 @@ Think Open:
 # Services Section
 Services:
   - parent: Services
-    stub: /services/
+    stub: /services/  
   - subsection: Borrow/Renew
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
@@ -451,8 +451,6 @@ Services:
         url: /services/data/dois.html
       - name: Contact / Help
         url: /services/data/data-management/#contact
-  - subsection: Distance Education
-    link: /services/distance.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -477,6 +475,8 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
+  - subsection: Off-Campus Access
+    link: /services/distance.html  
   - subsection: Publishing Agreements
     link: /services/agreements/        
   - subsection: Reference Services
