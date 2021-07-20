@@ -1,8 +1,17 @@
-# data about page organization
+##########
+#
+# Configuration for page navigation
+#
+# this file contains data about page organization
 # page side nav is generated from top level sections
 # breadcrumbs are generated from [0] parent and stub of each section
+# the main sections are About, Find, Help, Collections, Services
+#
+##########
 
+##########
 # About Section
+#
 About:
   - parent: About
     stub: /about/
@@ -170,8 +179,9 @@ COVID-19:
     link: /about/    
 
 
-
+###########
 # Find Section
+#
 Find:
   - parent: Find
     stub: /find/
@@ -248,8 +258,11 @@ Find:
     link: https://vivo.nkn.uidaho.edu/vivo/    
   - subsection: Unique & Archival Material
     link: /special-collections/
-    
+
+
+##########
 # Help Section
+#
 Help:
   - parent: Help
     stub: /help/
@@ -266,7 +279,10 @@ Help:
   - subsection: Site Search
     link: /help/search.html
 
+
+##########
 # Collections Section
+#
 Collections:
   - parent: Collections
     stub: /collections/
@@ -280,129 +296,11 @@ Collections:
     link: /collections/physical.html
   - subsection: Idaho
     link: /collections/idaho.html
-# SPEC section
-Special Collections:
-  - parent: Special Collections
-    stub: /special-collections/
-  - subsection: Special Collections Home
-    link: /special-collections/
-  - subsection: Plan Your Visit
-    link: /special-collections/plan.html
-  - subsection: About
-    link: /special-collections/about.html
-    subpages:
-      - name: About
-        url: /special-collections/about.html
-      - name: Policies
-        url: /special-collections/policies.html
-      - name: Donations
-        url: /special-collections/donations.html
-      - name: Berry IJC Fellowship
-        url: /special-collections/berry-ijc-fellowship.html
-      - name: Strong Spec Fellowship
-        url: /special-collections/strong-fellowship.html
-  - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
-      - name: Collection Data
-        url: /special-collections/data.html
-  - subsection: Search Tools
-    link: /special-collections/searchtools.html
-  - subsection: Instruction
-    link: /special-collections/instruction.html
-  - subsection: Idaho Harvester Blog
-    link: "https://harvester.lib.uidaho.edu/"
-  - subsection: Research Resources
-    url:
-    subpages:
-      - name: Accessions List
-        url: /special-collections/accessions.html
-      - name: Book Collections List
-        url: /special-collections/books.html       
-      - name: Finding Aids
-        url: /special-collections/findingaids.html
-      - name: Idaho Biographical Index
-        url: /special-collections/idahobio.html
-      - name: Terry Abraham Web Archive
-        url: /special-collections/t-abraham/
-      - name: Bibliography of U of I History
-        url: /special-collections/uibibliography.html
-      - name: Genealogical Resources
-        url: /special-collections/genealogicalresources.html
-      - name: Telephone and Business Directories
-        url: /special-collections/directories.html        
-  - subsection: FAQ
-    link: /special-collections/faq.html
 
-# MILL Section
-MILL:
-  - parent: MILL
-    stub: /mill/
-  - subsection: The MILL Home
-    link: /mill/
-  - subsection: About the MILL
-    link: /mill/about.html 
-  - subsection: Tools & Tech
-    link: /mill/tools.html
-  - subsection: Newsletter
-    link: /mill/news.html
-  - subsection: FAQ
-    link: /mill/faq.html
-#  - subsection: Reserve 3d Printers
-#    link: https://libcal.uidaho.edu/reserve/3dprinters   
-  - subsection: The Studio A/V Lab
-    link: /studio/
-  - subsection: Workshops
-    link: /services/workshops/    
 
-# The Studio Section
-The Studio:
-  - parent: The Studio
-    stub: /studio/
-  - subsection: The Studio Home
-    link: /studio/
-  - subsection: Field Recording Equipment
-    link: /studio/field_recording_equipment.html
-  - subsection: Audio Equipment and Software
-    link: /studio/audio.html
-  - subsection: Video Equipment and Software
-    link: /studio/video.html
-  - subsection: Terms of Use
-    link: /studio/termsofuse.html
-
-# Think Open Section
-Think Open:
-  - parent: Think Open 
-    stub: /open/
-  - subsection: Think Open Home 
-    link: /open/
-  - subsection: Think Open Fellowship Program
-    link: /open/fellowship/
-    subpages: 
-      - name: About
-        url: /open/fellowship/
-      - name: Call for Fellows
-        url: /open/fellowship/call.html
-      - name: FAQ
-        url: /open/fellowship/faq.html
-      - name: Current Fellows
-        url: /open/fellowship/current.html
-      - name: Past Fellows
-        url: /open/fellowship/past.html
-  - subsection: Why Think Open
-    link: /open/why.html
-  - subsection: OER Resources
-    link: /open/oer_resources.html
-  - subsection: Open Access Publishing Fund
-    link: /services/oapf/ 
-  - subsection: Library Faculty OA Resolution
-    link: https://www.lib.uidaho.edu/media/about/UIdahoLibrary_OpenAccessResolution.pdf
-
+##########
 # Services Section
+#
 Services:
   - parent: Services
     stub: /services/  
@@ -440,6 +338,8 @@ Services:
     link: /services/curriculumcenter.html
   - subsection: Data &amp; Digital Services
     link: /services/dds.html
+  - subsection: "Data Hub: Geospatial and Data Sciences Support"
+    link: /datahub/    
   - subsection: Data Management
     link: /services/data/
     subpages:
@@ -518,6 +418,157 @@ Services:
         url: /services/workshops/
       - name: Resources
         url: /services/workshops/resources.html
+
+
+##########
+# SPEC section
+#
+Special Collections:
+  - parent: Special Collections
+    stub: /special-collections/
+  - subsection: Special Collections Home
+    link: /special-collections/
+  - subsection: Plan Your Visit
+    link: /special-collections/plan.html
+  - subsection: About
+    link: /special-collections/about.html
+    subpages:
+      - name: About
+        url: /special-collections/about.html
+      - name: Policies
+        url: /special-collections/policies.html
+      - name: Donations
+        url: /special-collections/donations.html
+      - name: Berry IJC Fellowship
+        url: /special-collections/berry-ijc-fellowship.html
+      - name: Strong Spec Fellowship
+        url: /special-collections/strong-fellowship.html
+  - subsection: Collections
+    url: /special-collections/description.html
+    subpages:
+      - name: Descriptions
+        url: /special-collections/description.html
+      - name: Browse
+        url: /special-collections/browse.html
+      - name: Collection Data
+        url: /special-collections/data.html
+  - subsection: Search Tools
+    link: /special-collections/searchtools.html
+  - subsection: Instruction
+    link: /special-collections/instruction.html
+  - subsection: Idaho Harvester Blog
+    link: "https://harvester.lib.uidaho.edu/"
+  - subsection: Research Resources
+    url:
+    subpages:
+      - name: Accessions List
+        url: /special-collections/accessions.html
+      - name: Book Collections List
+        url: /special-collections/books.html       
+      - name: Finding Aids
+        url: /special-collections/findingaids.html
+      - name: Idaho Biographical Index
+        url: /special-collections/idahobio.html
+      - name: Terry Abraham Web Archive
+        url: /special-collections/t-abraham/
+      - name: Bibliography of U of I History
+        url: /special-collections/uibibliography.html
+      - name: Genealogical Resources
+        url: /special-collections/genealogicalresources.html
+      - name: Telephone and Business Directories
+        url: /special-collections/directories.html        
+  - subsection: FAQ
+    link: /special-collections/faq.html
+
+
+##########
+# Independent sections
+#
+
+# Data Hub Section
+Data Hub:
+  - parent: Data Hub
+    stub: /datahub/
+  - subsection: Data Hub
+    link: /datahub/
+  - subsection: <i class='fas fa-share-square'></i> Data Services
+    link: /services/data/
+  - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
+    link: /find/geospatial/
+  - subsection: <i class="fas fa-share-square"></i> Find Data
+    link: /find/data.html
+#  - subsection: About the Data Hub
+#    link: /datahub/about.html
+#  - subsection: Tools & Tech
+#    link: /datahub/tools.html
+#  - subsection: News
+#    link: /datahub/news.html
+#  - subsection: FAQ
+#    link: /datahub/faq.html
+
+# MILL Section
+MILL:
+  - parent: MILL
+    stub: /mill/
+  - subsection: The MILL Home
+    link: /mill/
+  - subsection: About the MILL
+    link: /mill/about.html 
+  - subsection: Tools & Tech
+    link: /mill/tools.html
+  - subsection: Newsletter
+    link: /mill/news.html
+  - subsection: FAQ
+    link: /mill/faq.html
+#  - subsection: Reserve 3d Printers
+#    link: https://libcal.uidaho.edu/reserve/3dprinters   
+  - subsection: The Studio A/V Lab
+    link: /studio/
+  - subsection: Workshops
+    link: /services/workshops/    
+
+# The Studio Section
+The Studio:
+  - parent: The Studio
+    stub: /studio/
+  - subsection: The Studio Home
+    link: /studio/
+  - subsection: Field Recording Equipment
+    link: /studio/field_recording_equipment.html
+  - subsection: Audio Equipment and Software
+    link: /studio/audio.html
+  - subsection: Video Equipment and Software
+    link: /studio/video.html
+  - subsection: Terms of Use
+    link: /studio/termsofuse.html
+
+# Think Open Section
+Think Open:
+  - parent: Think Open 
+    stub: /open/
+  - subsection: Think Open Home 
+    link: /open/
+  - subsection: Think Open Fellowship Program
+    link: /open/fellowship/
+    subpages: 
+      - name: About
+        url: /open/fellowship/
+      - name: Call for Fellows
+        url: /open/fellowship/call.html
+      - name: FAQ
+        url: /open/fellowship/faq.html
+      - name: Current Fellows
+        url: /open/fellowship/current.html
+      - name: Past Fellows
+        url: /open/fellowship/past.html
+  - subsection: Why Think Open
+    link: /open/why.html
+  - subsection: OER Resources
+    link: /open/oer_resources.html
+  - subsection: Open Access Publishing Fund
+    link: /services/oapf/ 
+  - subsection: Library Faculty OA Resolution
+    link: https://www.lib.uidaho.edu/media/about/UIdahoLibrary_OpenAccessResolution.pdf
 
 # GIS Day
 GIS Day:
