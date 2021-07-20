@@ -338,6 +338,8 @@ Services:
     link: /services/curriculumcenter.html
   - subsection: Data &amp; Digital Services
     link: /services/dds.html
+  - subsection: "Data Hub: Geospatial and Data Sciences Support"
+    link: /datahub/    
   - subsection: Data Management
     link: /services/data/
     subpages:
@@ -489,14 +491,20 @@ Data Hub:
     stub: /datahub/
   - subsection: Data Hub
     link: /datahub/
-  - subsection: About the Data Hub
-    link: /datahub/about.html 
-  - subsection: Tools & Tech
-    link: /datahub/tools.html
-  - subsection: News
-    link: /datahub/news.html
-  - subsection: FAQ
-    link: /datahub/faq.html
+  - subsection: <i class='fas fa-share-square'></i> Data Services
+    link: /services/data/
+  - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
+    link: /find/geospatial/
+  - subsection: <i class="fas fa-share-square"></i> Find Data
+    link: /find/data.html
+#  - subsection: About the Data Hub
+#    link: /datahub/about.html
+#  - subsection: Tools & Tech
+#    link: /datahub/tools.html
+#  - subsection: News
+#    link: /datahub/news.html
+#  - subsection: FAQ
+#    link: /datahub/faq.html
 
 # MILL Section
 MILL:
