@@ -338,6 +338,21 @@ Special Collections:
   - subsection: FAQ
     link: /special-collections/faq.html
 
+# Data Hub Section
+Data Hub:
+  - parent: Data Hub
+    stub: /datahub/
+  - subsection: Data Hub
+    link: /datahub/
+  - subsection: About the Data Hub
+    link: /datahub/about.html 
+  - subsection: Tools & Tech
+    link: /datahub/tools.html
+  - subsection: News
+    link: /datahub/news.html
+  - subsection: FAQ
+    link: /datahub/faq.html
+
 # MILL Section
 MILL:
   - parent: MILL
