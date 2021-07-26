@@ -10,6 +10,8 @@ custom-foot: "js/home.html"
 <main id="maincontent" role="main">
     <h1 class="sr-only">University of Idaho Library Home</h1>
 
+    {% include index-alert.html text="Please note overdue fines are now being charged! Please check <a href='https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/login?vid=UID' class='alert-link'>your account</a> or contact the library to renew overdue items." color="info" %}
+
     {% include searchnav.html %}
 
     {% include feature/carousel.html slides=site.data.index_carousel %}
