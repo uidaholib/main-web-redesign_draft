@@ -1,5 +1,5 @@
 ---
-title: Telephone and Business Directories
+title: Idaho Telephone and Business Directories
 layout: page
 section: Special Collections
 permalink: /special-collections/directories.html
@@ -7,7 +7,7 @@ table-id: "#directories"
 table-paginate: true
 ---
 
-*Updated 7/5/2016*
+*Updated 2016-07-05*
 
 <table id="directories" class="table table-striped">
 <thead>

@@ -475,8 +475,10 @@ Special Collections:
         url: /special-collections/uibibliography.html
       - name: Genealogical Resources
         url: /special-collections/genealogicalresources.html
-      - name: Telephone and Business Directories
+      - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html        
+      - name: Non-Idaho Telephone and Business Directories
+        url: /special-collections/non-idaho-directories.html
   - subsection: FAQ
     link: /special-collections/faq.html
 
