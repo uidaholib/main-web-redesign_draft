@@ -1,22 +1,21 @@
 ---
-title: "Multimedia lending: Terms of Use and Price List"
+title: Studio Terms of Use
 section: The Studio
 permalink: /studio/termsofuse.html
 layout: page
 ---
+ 
+ Any patron who wishes to use the Studio must agree to the Terms of Use. 
+- No food and drinks are allowed in the Studio.
+- DO NOT disconnect, rewire, or turn off any equipment (including the computer). 
+- DO NOT take any equipment out of the room. 
+- Bring your own storage device or use a cloud storage service such as <a href="https://onedrive.uidaho.edu/" target="_blank" rel="noopener">OneDrive</a> for file saving. Any files saved on the computer will be erased periodically. 
+- You will be charged a replacement fee if any piece of equipment is lost, stolen, or damaged during your reservation time. 
+- When you are finished using the space, log off the computer and return the key to the circulation desk by handing it to a staff member or a student employee. DO NOT leave the key on the counter or in the book return slot.
+- Abide by our policies, including <a href="https://www.lib.uidaho.edu/about/policies.html#conduct" target="_blank" rel="noopener">Library Code of Conduct</a>, <a href="https://www.webpages.uidaho.edu/fsh/2300.html" target="_blank" rel="noopener">University of Idaho Student Code of Conduct</a>, and <a href="https://www.uidaho.edu/governance/policy/policies/apm/30/12" target="_blank" rel="noopener">University of Idaho’s Acceptable Use of Technology Resources Policy</a>.  
+- Please cancel your reservation if you can no longer make it to your appointment. Use the cancellation link in your confirmation email or call the library at 208-885-6559.
 
-The Library also offers multimedia equipment that can be used outside of the building for those interested in field recording. 
-These items are available on a first come, first serve basis at the Circulation Desk on the 1st floor of the Library:
-
-- Canon Camera Kit: Contains HD Camera, Tripod, Camera Remote, Attachable microphone, AC adapters, USB transfer cord, and 8 GB SD card. Great for recording with a green screen indoors or outdoors. Camera memory and SD card will be reformatted when camera is returned.
-- Equipment must be returned directly to a library employee at the UI Library Circulation Desk (do not use the drop box or return to any other library location).
-- It is your responsibility to ensure that the staff on duty has properly checked and verified all equipment during the check out and return/check in process.
-- The same person that checks out equipment must return it; equipment returned by a friend, family member, or other party will not be accepted for return.
-- Fines will accrue by the hour, will be capped at $100, and will enter lost status after 21 days, at which time full replacement value will be assessed.
-- You will be charged a replacement fee if the equipment and/or peripherals (included, but not limited to: case, SD card, USB cable, battery, etc.) are lost, stolen, or damaged during the lending period. The replacement cost will be determined by the cost of the items lost, stolen, or damaged.
-- The library will not accept for return or check-in any equipment that is missing parts, tags, peripherals, etc.
-- You understand that any media, data, and/or documents that you create or save to the equipment during the lending period will be permanently erased when the equipment is returned to the library.
-- Faculty and Staff will be assessed fines and replacement fees for late, missing, or lost multimedia equipment.
+Failure to follow the Terms of Use may result in a written warning or, if repeated pattern in behavior, revoked Studio access privileges (for one month, one semester, etc.) at staff’s discretion.
 
 ## Fines and Fees
             
@@ -30,7 +29,7 @@ These items are available on a first come, first serve basis at the Circulation 
     </tr>
 </thead>
 <tbody>
-    {% for item in site.data.studio_fines %}
+    {% for item in site.data.equipment_fines %}
     <tr>
     <td><b>{{ item.item }}</b></td>
     <td>{{ item.loan }}</td>
@@ -40,3 +39,5 @@ These items are available on a first come, first serve basis at the Circulation 
     {% endfor %}
 </tbody>
 </table>
+
+

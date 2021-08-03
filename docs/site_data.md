@@ -113,6 +113,8 @@ digital_all_collections.csv - see "docs/all-collections.md"
 
 elsevier_contract.csv
 
+equipment_fines.csv - studio and circulation equipment fines
+
 find_access-tools.csv
 
 find_geoapps.csv
@@ -138,6 +140,8 @@ index_carousel_oldersaved.csv
 journals-review.csv
 
 journals-review-faq.csv
+
+loanable_equipment.csv - equipment that the library is circulating
 
 mill_faq.csv
 
@@ -187,7 +191,9 @@ spec_searchtools.csv
 
 spec_tabraham-files.csv
 
-studio_fines.csv
+studio_equipment.csv - equipment currently in the Studio
+
+studio_faq.csv - Studio-related FAQs
 
 thinkopenfellows.csv
 
