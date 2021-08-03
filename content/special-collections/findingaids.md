@@ -14,21 +14,14 @@ If you find a collection that you'd like to view in person, please [send us](mai
 In some cases, digital reproductions of materials are available or can become available. 
 For more on what a finding aid is, please see our [FAQ](/special-collections/faq.html) page.
 
-
-<div class="row">
-<div class="col-md-12">
-<div class="card mb-3 mt-2">
+<div class="card my-3">
 <div class="card-body text-center">
 <p class="mb-1">Search our finding aids on Archives West</p>
-
 <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get">
     <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
     <input id="t" name="t" type="hidden" value="k">
     <input id="c" name="c" type="hidden" value="ntd">
     <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
 </form>
-
-</div>
-</div>
 </div>
 </div>
