@@ -4,8 +4,7 @@ section: The Studio
 permalink: /studio/
 layout: page
 ---
-<div class="row">
-<div class="col-md-8" markdown="1">
+<div markdown="1">
 
 Located on the second floor of the Library, **the Studio** offers dedicated space to UI-affiliated students, staff, and faculty to record, edit, or digitize audiovisual content. Faculty and staff can capture high-quality video lectures and instructional videos using the eGlass, One Button Studio, and other equipment. Any students, staff, and faculty can use the Studio to support their teaching, learning, and creative pursuit at the University of Idaho. 
 
