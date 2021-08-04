@@ -15,7 +15,7 @@ Frequently asked questions at the Studio. Learn more by clicking the questions!
         </h6>
     </div>
     <div id="collapse{{ forloop.index }}" class="collapse">
-        <div class="card-body">{{ q.answer }}</div>
+        <div class="card-body">{{ q.answer | markdownify }}</div>
     </div>
 </div> 
 {% endfor %}
