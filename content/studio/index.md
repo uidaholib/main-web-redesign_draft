@@ -14,10 +14,3 @@ To use the Studio, please access the booking calendar below to reserve a time. T
 <center><a class="btn btn-primary" href="https://libcal.uidaho.edu/booking/AV" role="button">Reserve the Studio</a></center>
 <img class="img-fluid my-3" src="{{ '/rooms/studio.jpg' | prepend: site.lib-media }}">
 
-text 
-
- </div>
-            <div class="card-body">
-                <a class="btn btn-lg btn-clearwater" href="https://libcal.uidaho.edu/booking/AV">Reserve the Studio</a>
-        <img class="img-fluid my-3" src="{{ '/rooms/studio.jpg' | prepend: site.lib-media }}">
-    </div>
