@@ -14,8 +14,5 @@ To use the Studio, please access the booking calendar below to reserve a time. T
  </div>
             <div class="card-body">
                 <a class="btn btn-lg btn-clearwater" href="https://libcal.uidaho.edu/booking/AV">Reserve the Studio</a>
-            </div>
-<div class="row">
-    <div class="col-md-8">
         <img class="img-fluid my-3" src="{{ '/rooms/studio.jpg' | prepend: site.lib-media }}">
     </div>
