@@ -1,5 +1,23 @@
 item,loan,fine,replacement_cost
-Studio Key,2 hours,$5/hour,
+Studio Key,2 hours,$5/hour,$50
+Portable Green Screen,24 hours,$5/hour,$110
+Portable Light Kit,24 hours,$5/hour,$140
+Video Camera (circulating),24 hours,$5/hour,$700
+Video Camera (permanent hold),3 hours in-library,$5/hour,$700
+GoPro Hero,24 hours,$5/hour,$300
+Tripod,24 hours,$5/hour,$25
+Field Recorder,24 hours,$5/hour,$200
+External Hard Drive,24 hours,$5/hour,$60
+Miscellaneous Accessories,24 hours,$5/hour,Priced individually
+Cellphone Tripod,24 hours,$5/hour,$20
+Canon DSLR Camera Kit,24 hours,$5/hour,$500.00
+Computer Headsets with Microphone,24 hours,$5/hour,$25
+Ring Light Kit,24 hours,$5/hour,$35
+USB Microphone Kit,24 hours,$5/hour,$130
+4-Track Portable Recorder,24 hours,$5/hour,$230
+Wireless Presenter,24 hours,$5/hour,$50
+Portable Speaker,24 hours,$5/hour,$20
+Digital Graphic Drawing Tablet Kit,24 hours,$5/hour,$550
 iMac,,,"$2,300"
 Monitor,,,$250
 Audio Interface,,,"$1,500"
@@ -16,30 +34,11 @@ Pop Filter,,,$30
 "Microphone Stands, Table",,,$20
 "Microphone Stands, Floor",,,$20
 Studio Headphones,,,$110
-DVD/VHS Player,,,
 Green Screen & Lights,,,$250
-Portable Green Screen,24 hours,$5/hour,$110
-Portable Light Kit,24 hours,$5/hour,$140
-Video Camera (circulating),24 hours,$5/hour,$700
-Video Camera (permanent hold),3 hours in-library,$5/hour,$700
-GoPro Hero,24 hours,$5/hour,$300
-Tripod,24 hours,,$25
-Field Recorder,24 hours,$5/hour,$200
-External Hard Drive,24 hours,$5/hour,$60
-Miscellaneous accessories,24 hours,$5/hour,Priced individually
-Cellphone Tripod,24 hours,$5/hour,$20
-Canon DSLR Camera Kit,24 hours,$5/hour,$500.00
-Computer Headsets with Microphone,24 hours,$5/hour,$180
-Ring Light,24 hours,$5/hour,$35
-"50"" eGlass",,,"$3,000"
-"24"" Touch Screen Monitor",,,$450
+50-inch eGlass,,,"$3,000"
+24-inch Touch Screen Monitor,,,$450
 Webcam,,,$200
 Webcam Light  ,,,$40
 Document Holder,,,$40
 Wireless Trackball Mouse,,,$100
-USB Microphone,24 hours,$5/hour,$200
-4-Track Portable Recorder,24 hours,$5/hour,$230
-Wireless Presenter,24 hours,,$50
-Portable Speaker,24 hours,$5/hour,$20
-Digital Graphic Drawing Tablet,24 hours,$5/hour,$550
 Lavalier Recorder,,,$200
