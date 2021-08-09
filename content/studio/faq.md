@@ -5,7 +5,8 @@ permalink: /studio/faq.html
 layout: page
 ---
 
-Frequently asked questions at the Studio. Learn more by clicking the questions!
+Frequently asked questions at the Studio. 
+Learn more by clicking the questions!
 
 {% for q in site.data.studio_faq %}
 <div class="card my-3">
