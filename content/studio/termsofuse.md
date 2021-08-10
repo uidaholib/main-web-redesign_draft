@@ -29,10 +29,10 @@ Failure to follow the Terms of Use may result in a written warning or, if repeat
     <th scope="col">REPLACEMENT COST</th>
     </tr>
 </thead>
-<tbody>
-    {% for item in site.data.equipment_fines %}
+<tbody>{% assign items = site.data.find_equipment | where_exp: 'i','i.loan' %}
+    {% for item in items %}
     <tr>
-    <td><b>{{ item.item }}</b></td>
+    <td><strong>{{ item.item }}</strong></td>
     <td>{{ item.loan }}</td>
     <td>{{ item.fine }}</td>
     <td>{{ item.replacement_cost }}</td>
