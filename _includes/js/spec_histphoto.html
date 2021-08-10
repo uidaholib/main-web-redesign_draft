@@ -32,14 +32,16 @@
         // defer render to speed up large sets
         "deferRender": true,
         // get the data from the json
-        // Title,Date,Notes,Photo Group,ID Number,Image link,Digital Collection link
-        columns: [ { data: '2' }, { data: '3' }, { data: '4' }, { data: '1' }, { data: '0' }, { data: '5' }, { data: '6' } ],
+        // Title,Date,Notes,Photo Group,ID Number,Image link,Digital Collection link, Finding aid link
+        columns: [ { data: '2' }, { data: '3' }, { data: '4' }, { data: '1' }, { data: '0' }, { data: '5' }, { data: '6' }, { data: '7' } ],
         columnDefs: [ 
             // make Image link
-            { "render": function ( data ) { if (data) { return '<a href="https://www.lib.uidaho.edu/media/spec/histphoto/' + data +'" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 5 },
+            { "render": function ( data ) { if (data.includes('.jpg')) { return '<a href="https://www.lib.uidaho.edu/media/spec/histphoto/' + data +'" target="_blank" rel="noopener">Legacy Thumb</a>'; } else if (data.includes('.html')) { return '<a href="https://www.lib.uidaho.edu/digital/' + data +'" target="_blank" rel="noopener">Item Link</a>'; } else { return '' } },"targets": 5 },
             // make Digital Collection link
-            { "render": function ( data, row ) { if (data) { return '<a href="https://www.lib.uidaho.edu/digital/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 6 }
-            //{ "render": function ( data, type, row ) { if (data) { return '<a href="https://digital.lib.uidaho.edu/cdm/search/collection/' + data +'/searchterm/' + encodeURIComponent(row['5']) + '/field/all/mode/all/conn/and/order/title/ad/asc" target="_blank" rel="noopener">'+ data +'</a>'; } else { return 'N/A' } },"targets": 5 }
+            { "render": function ( data ) { if (data) { return '<a href="https://www.lib.uidaho.edu/digital/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 6 },
+            // make finding aid link
+            { "render": function ( data ) { if (data) { return '<a href="https://archiveswest.orbiscascade.org/ark:/' + data + '" target="_blank" rel="noopener">'+ data +'</a>'; } else { return '' } },"targets": 7 }
+            
         ],
         paging: true,
         lengthMenu: [[ 15, 50, 100, 500], [ 15, 50, 100, 500]],

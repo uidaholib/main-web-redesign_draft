@@ -4,6 +4,6 @@
 ---
 {%- if site.histphoto-build == true or jekyll.environment == "production" -%}
 {%- assign items = site.data.spec_histphoto_full -%}
-serial_number,pg,title,date,thumb,digital_collection,notes,format,donor,item_data
-{%- for i in items -%}"{{ i.serial_number | escape }}","{{ i.pg | escape }}","{{ i.title | escape }}","{{ i.date | escape }}","{% if i.thumb %}{% if i.thumb contains 'cdm;' %}{{ i.thumb }}{% else %}{{ 'https://www.lib.uidaho.edu/media/spec/histphoto/' | append: i.thumb }}{% endif %}{% endif %}","{% if i.digital_collection %}{{ 'https://www.lib.uidaho.edu/digital/' | append: i.digital_collection }}{% endif %}","{{ i.notes | escape }}","{{ i.format | escape }}","{{ i.donor | escape }}","{{ i.item_data | escape }}"
+serial_number,pg,title,date,date is approximate,thumb,digital_collection,digital_item,finding_aid,notes,format,donor,item_data
+{%- for i in items -%}"{{ i.serial_number | escape }}","{{ i.pg | escape }}","{{ i.title | escape }}","{{ i.date | escape }}","{{ i['date is approximate'] }}","{% if i.thumb %}{% if i.thumb contains 'cdm;' %}{{ i.thumb }}{% else %}{{ 'https://www.lib.uidaho.edu/media/spec/histphoto/' | append: i.thumb }}{% endif %}{% endif %}","{% if i.digital_collection %}{{ 'https://www.lib.uidaho.edu/digital/' | append: i.digital_collection }}{% endif %}","{{ i.digital_item }}","{{ i.finding_aid }}","{{ i.notes | escape }}","{{ i.format | escape }}","{{ i.donor | escape }}","{{ i.item_data | escape }}"
 {% endfor %}{% endif %}
