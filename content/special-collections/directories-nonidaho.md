@@ -8,7 +8,7 @@ table-paginate: true
 ---
 {% assign directories = site.data.spec_directories_non_idaho %}
 
-This is a list of the Telephone and Business Directories from neighboring states! 
+A list of telephone and business directories from neighboring states held in Spec. 
 
 *Updated 2021-07-28*
 
