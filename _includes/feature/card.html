@@ -19,7 +19,7 @@
 {% if include.img %}
 <img class="card-img-top" src="{{ include.img }}" alt="{{ include.alt | default: 'card image' }}">
 {%- endif -%}
-{% if include.header %}<h3 class="card-header">{{ include.header }}</h3>{% endif %}
+{% if include.header %}<h3 class="card-header" id="{{ include.header | slugify }}">{{ include.header }}</h3>{% endif %}
 <div class="card-body">
 {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
 <div class="card-text">

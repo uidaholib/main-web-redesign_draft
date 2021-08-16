@@ -56,6 +56,7 @@ Patrons can request locally-owned physical items from the U of I Library and pic
 To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
 Then use the "request" link to place your "Curbside Pick Up". 
 You'll receive an email when your item is ready, with a link to reserve a pick up time slot during open hours, Monday to Friday. 
+
 Please note that it may take two or more business days from the time you place your request to receive your items! 
 Contact us at <libcirc@uidaho.edu> with questions.
 
