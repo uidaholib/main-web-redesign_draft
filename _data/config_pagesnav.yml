@@ -87,6 +87,8 @@ About:
     link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
+  - subsection: Updates & News
+    link: /about/updates.html    
   - subsection: Welcome
     link: /about/welcome.html
     subpages:
