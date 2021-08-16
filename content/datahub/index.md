@@ -20,5 +20,5 @@ It will be located in the Map Room, where specialized equipment, staff, and spac
 - Dedicated space located in the Library's Map Room (First Floor, Rm 107) 
 - Collaborative work areas focused on supporting data sciences analysis and visualization 
 - Service desk staffed by U of I Data and GIS Librarians 
-- Other Campus Units encouraged to collocate in the Data Hub, including NKN and Statistical Consulting 
+- Other Campus Units encouraged to collocate in the Data Hub, including [RCDS](https://www.iids.uidaho.edu/rcds.php) and [Statistical Consulting](https://www.uidaho.edu/sci/mathstat/centers/scc)
 - More information coming soon! 
