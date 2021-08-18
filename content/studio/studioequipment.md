@@ -3,6 +3,7 @@ title: "Studio Equipment"
 section: The Studio
 permalink: /studio/equipment.html
 layout: page
+lazyload: true
 ---
 
 The Studio has dedicated equipment that stays in the space, as well as loanable equipment that can be checked out. 
@@ -16,7 +17,7 @@ Some equipment is locked in the cabinet: please contact [Hanwen Dong](hanwendong
 </div>
 {% for c in categories %}
 <div class="col-12">
-<h2 id="{{ c | slugify }}">{{ c }}</h2>
+<h2 id="{{ c | slugify }}" class="my-4">{{ c }}</h2>
 </div>
 {% assign set = tools | where: 'category', c %}
 {% for t in set %}
@@ -26,7 +27,7 @@ Some equipment is locked in the cabinet: please contact [Hanwen Dong](hanwendong
             {{ t.item }}
         </div>
         <div class="card-body">
-            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3" src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
+            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3 lazyload" data-src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
             <p class="card-text">{{ t.description }}</p>
         </div>
     </div>
