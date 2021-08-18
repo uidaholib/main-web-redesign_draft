@@ -196,8 +196,10 @@ Find:
     subpages:
       - name: Books & eBooks
         url: /find/books.html
-      - name: Library Book Locations
+      - name: Print Book Locations
         url: /find/lc.html
+      - name: Finding eBooks
+        url: /find/ebooks.html
       - name: Request a Book
         url: /find/request.html
   - subsection: Data
