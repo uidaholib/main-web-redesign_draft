@@ -3,6 +3,7 @@ title: Loanable Equipment
 section: The Studio
 permalink: /studio/loanable.html
 layout: page
+lazyload: true
 ---
 
 The library offers various equipment for students, faculty, and staff to use in or outside of the library building. 
@@ -26,7 +27,7 @@ To check out any piece of equipment, please bring your Vandal card to the Circul
             {{ t.item }}
         </div>
         <div class="card-body">
-            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3" src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
+            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3 lazyload" data-src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
             <p class="card-text">{{ t.description }}</p>
             {% if t.booking_link %}{% assign links = t.booking_link | split: ';' %}
             {% for l in links %}
