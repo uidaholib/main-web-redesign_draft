@@ -207,6 +207,8 @@ Find:
         url: /find/geospatial/software.html
       - name: GIS Day
         url: /gisday/
+  - subsection: Equipment Loans
+    link: /studio/loanable.html 
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
