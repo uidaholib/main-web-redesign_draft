@@ -9,8 +9,17 @@ The Studio has dedicated equipment that stays in the space, as well as loanable 
 Some equipment is locked in the cabinet: please contact [Hanwen Dong](hanwendong@uidaho.edu) for access.
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.location contains 'studio'" %}
+{% assign categories = tools | map: 'category' | uniq %}
 <div class="row">
-{% for t in tools %}
+<div class="col-12 mb-3 text-center">
+{% for c in categories %}<a href="#{{ c | slugify }}" class="btn btn-sm btn-outline-pride-gold m-2">{{ c }}</a>{% endfor %}
+</div>
+{% for c in categories %}
+<div class="col-12">
+<h2 id="{{ c | slugify }}">{{ c }}</h2>
+</div>
+{% assign set = tools | where: 'category', c %}
+{% for t in set %}
 <div class="col-md-6 mb-2">
     <div class="card">
         <div class="card-header">
@@ -22,5 +31,6 @@ Some equipment is locked in the cabinet: please contact [Hanwen Dong](hanwendong
         </div>
     </div>
 </div>
+{% endfor %}
 {% endfor %}
 </div>
