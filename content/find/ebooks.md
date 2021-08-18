@@ -28,6 +28,13 @@ Some subscriptions allow only a limited number of users to access the resource a
 Many downloaded ebooks have Digital Rights Management software (DRM) that prevents users from sharing files with others and may impose a time limit for use.
 These ebooks may require using the free [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) software to download the file.
 
+{% capture instructions %}
+1. Start your search in the library's catalog ![catalog search box](https://libapps.s3.amazonaws.com/accounts/64754/images/Catalog19.png){:.img-fluid .mb-3}
+2. Limit to ebooks using "Resource Type" filter on the right side of search page ![filter results](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks19.png){:.img-fluid .mb-3}
+3. Click on the title for more information about each ebook, or go straight to the full text with the "Full Text Available" or "Online Access" links. ![ebook records](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks219.png){:.img-fluid .mb-3}
+{% endcapture %}
+{% include feature/card.html text=instructions header="Step by step instructions" %}
+
 ## Open Access eBooks
 
 There are many sources of freely available ebooks on the web. 
