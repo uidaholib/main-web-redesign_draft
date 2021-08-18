@@ -29,11 +29,8 @@ To check out any piece of equipment, please bring your Vandal card to the Circul
         <div class="card-body">
             {% if t.image %}<div class="text-center"><img class="img-fluid mb-3 lazyload" data-src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
             <p class="card-text">{{ t.description }}</p>
-            {% if t.booking_link %}{% assign links = t.booking_link | split: ';' %}
-            {% for l in links %}
-            <a href="{{ l }}" class="btn btn-primary btn-sm m-2" target="_blank" rel="noopener">Reserve Item</a>
-            {% endfor %}
-            {% endif %}
+            <!--
+            {% if t.booking_link %}<a href="{{ l }}" class="btn btn-primary btn-sm m-2" target="_blank" rel="noopener">Reserve</a>{% endif %}-->
         </div>
     </div>
 </div>
