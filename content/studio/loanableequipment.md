@@ -9,8 +9,17 @@ The library offers various equipment for students, faculty, and staff to use in 
 To check out any piece of equipment, please bring your Vandal card to the Circulation Desk on the library's first floor and sign the U of I Library Multimedia Lending User Agreement form.
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.loan" %}
+{% assign categories = tools | map: 'category' | uniq | sort %}
 <div class="row">
-{% for t in tools %}
+<div class="col-12 mb-3 text-center">
+{% for c in categories %}<a href="#{{ c | slugify }}" class="btn btn-sm btn-outline-pride-gold m-2">{{ c }}</a>{% endfor %}
+</div>
+{% for c in categories %}
+<div class="col-12">
+<h2 id="{{ c | slugify }}" class="my-4">{{ c }}</h2>
+</div>
+{% assign set = tools | where: 'category', c %}
+{% for t in set %}
 <div class="col-md-6 mb-2">
     <div class="card">
         <div class="card-header">
@@ -27,5 +36,6 @@ To check out any piece of equipment, please bring your Vandal card to the Circul
         </div>
     </div>
 </div>
+{% endfor %}
 {% endfor %}
 </div>
