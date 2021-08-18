@@ -8,62 +8,59 @@ chat-widget: true
 {% include js/primosearch.js %}
 <div class="row">
 
-  <div class="col-md-8">
+  <div class="col-12">
    
-    <div class="card">
+    <div class="card mb-4">
       <div class="card-body">
-    <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
-      class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
-      <label style="margin-right:5px"> Search </label>
-      <select id="primoFieldTemp" class="EXLSelectTag fixed">
-        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" >
-          All Fields</option>
-        <option class="EXLSelectOption" id="scope_titleall1" value="title" >
-          in the title</option>
-        <option class="EXLSelectOption" id="scope_creatorall1" value="creator" >
-          authors</option>
-        <option class="EXLSelectOption" id="scope_suball1" value="sub" >
-          in subject</option>
-      </select>
-      <label> for Print Books containing: </label>
-      
-      <input type="hidden" name="pfilter" value="pfilter,exact,pbooks,AND">
-      <input type="hidden" name="tab" value="ui_summit">
-      <input type="hidden" name="search_scope" value="ui_alma_summit">
-      <input type="hidden" name="vid" value="UID">
-      <input type="hidden" name="mode" value="advanced">
-      <input type="hidden" name="offset" value="0">
-      <input id="primoQuery" type="hidden" name="query">
+      <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?"
+        class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()">
+        <label style="margin-right:5px"> Search </label>
+        <select id="primoFieldTemp" class="EXLSelectTag fixed">
+          <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" >
+            All Fields</option>
+          <option class="EXLSelectOption" id="scope_titleall1" value="title" >
+            in the title</option>
+          <option class="EXLSelectOption" id="scope_creatorall1" value="creator" >
+            authors</option>
+          <option class="EXLSelectOption" id="scope_suball1" value="sub" >
+            in subject</option>
+        </select>
+        <label> for Print Books containing: </label>
+        
+        <input type="hidden" name="pfilter" value="pfilter,exact,pbooks,AND">
+        <input type="hidden" name="tab" value="ui_summit">
+        <input type="hidden" name="search_scope" value="ui_alma_summit">
+        <input type="hidden" name="vid" value="UID">
+        <input type="hidden" name="mode" value="advanced">
+        <input type="hidden" name="offset" value="0">
+        <input id="primoQuery" type="hidden" name="query">
 
-      <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-lg col-md-8 mb-sm-1"
-      placeholder="Search for books & eBooks  ...">
-      <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
- 
-    </form>
-    <a class="mr-3" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" target="_blank" rel="noopener">
-      Advanced Search</a>
+        <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-lg col-md-8 mb-sm-1"
+        placeholder="Search for books & eBooks  ...">
+        <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
+  
+      </form>
+      <a class="mr-3" href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced" target="_blank" rel="noopener">
+        Advanced Search</a>
+      </div>
     </div>
-    </div>
-    <p class="mt-2">Not finding what you're looking for?
-        <a id="request" href="request.html">Suggest a book for us to add to our collections</a>
-      </p>
-    <p class="mt-2">To find where a book is located in the library,
-          <a href="{{ '/about/maps.html' | relative_url }}">consult the floor maps of our library</a>.</p>
-    <p>
-      <small>Note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday
-        to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing
-        <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</small>
-    </p>
+
+  </div>
+
+  <div class="col-md-8">
+
+    <p>University of Idaho Library's collections include millions of books and ebooks. All of these resources are discoverable in our <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID">online catalog</a> as part of any search.</p>
+    <p>Print books can be found in the library arranged by their Library of Congress call numbers. Consult our <a href="{{ '/about/maps.html' | relative_url }}">floor maps</a> and <a href="{{ '/find/lc.html' | relative_url }}">LOC reference</a> to find where they are located.</p>
+    <p>Ebooks can be accessed through our catalog from anywhere in the world using your U of I login. Check our <a href="">Finding eBooks page</a> for more details about access.</p> 
+    <p>Not finding what you're looking for? Suggest a book for us to add to our collections using our <a href="{{ '/find/request.html' | relative_url }}">Request Form</a>.</p>
+    <p>Please note: Certain call numbers in book storage will be temporarily inaccessible outside the hours of 9 a.m. to 5 p.m. Monday to Friday. Please request volumes located in Book Storage Call Range TJ-Z in advance by emailing  <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>.</p>
    
   </div>
   
-  <div class="col-md-3">
+  <div class="col-md-4">
     <div class="card">
-      <img class="card-img-top" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library">
       <div class="card-body text-center">
-          <p class="card-text">Books in the University of Idaho Library are organized by
-              <a href="{{ '/find/lc.html' | relative_url }}">Library of Congress Call Numbers</a>. For a primer on how to use these numbers,
-              <a href="https://libguides.uidaho.edu/content.php?pid=433863&sid=3559564" target="_blank" rel="noopener">click here</a>.</p>
+        <img class="img-fluid" src="https://www.lib.uidaho.edu/images/girlreading.png" title="Girl reading at University of Idaho Library">
       </div>
     </div>
   </div>
