@@ -7,7 +7,7 @@ lazyload: true
 ---
 
 The library offers various equipment for students, faculty, and staff to use in or outside of the library building. 
-To check out any piece of equipment, please bring your Vandal card to the Circulation Desk on the library's first floor and sign the UI Library Loanable Equipment Lending User Agreement form.
+To check out any piece of equipment, please bring your Vandal card to the Circulation Desk on the library's first floor and sign the U of I Library Loanable Equipment Lending User Agreement form.
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.loan" %}
 {% assign categories = tools | map: 'category' | uniq | sort %}
