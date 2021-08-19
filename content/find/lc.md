@@ -6,17 +6,21 @@ layout: page
 lazyload: true
 ---
 
-<p>The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress system. This means you will find books on our shelves organized by their LOC call numbers. Below is a chart providing an overview of where the LOC classes are located on the library floors.</p>
-<p>For more information check our <a href="https://libguides.uidaho.edu/c.php?g=363237&p=2453519">Book Research Guide</a>, our <a href="{{ '/about/maps.html' | relative_url }}">Floor maps</a>, or the full <a href="https://www.loc.gov/catdir/cpso/lcco/">Library of Congress classification outlines</a>.</p>
+The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress system. 
+This means you will find books on our shelves organized by their LOC call numbers. 
+Below is a chart providing an overview of where the LOC classes are located on the library floors.
+They start with class "A" on the fourth floor and winding through the shelves all the way down to class "Z" on the second floor.
+
+For more information check our [Book Research Guide](https://libguides.uidaho.edu/c.php?g=363237&p=2453519), our [Floor maps]({{ '/about/maps.html' | relative_url }}), or the full [Library of Congress classification outlines](https://www.loc.gov/catdir/cpso/lcco/).
+
+-------------------
+
+## Fourth Floor (A - G) 
+
+<a href="{{ '/about/maps.html#fourth-floor' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 4th Floor Map</a>
 
 <table>
   <tbody>
-    <tr>
-      <td colspan="4">
-        <h2>Fourth Floor (A - G, <small><a href="{{ '/about/maps.html#fourth-floor' | relative_url }}" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> view map</a></small>)</h2> 
-        
-      </td>
-    </tr>
     <tr>
       <td width="36" height="12">
         <b>
@@ -222,11 +226,17 @@ lazyload: true
       <td width="400" height="12">&nbsp;</td>
       <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
-    <tr>
-      <td colspan="5">
-        <h2>Third Floor (H - S, <small><a href="{{ '/about/maps.html#third-floor' | relative_url }}" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> view map</a></small>)</h2>
-      </td>
-    </tr>
+  </tbody>
+</table>
+
+---------------------
+
+## Third Floor (H - S)
+
+<a href="{{ '/about/maps.html#third-floor' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 3th Floor Map</a>
+
+<table>
+  <tbody>
     <tr>
       <td width="36" height="12">
         <b>
@@ -711,11 +721,17 @@ lazyload: true
       <td width="400" height="12">Hunting, Wildlife Management</td>
       <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
-    <tr>
-      <td colspan="5">
-        <h2>Second Floor (T - Z, <small><a href="{{ '/about/maps.html#second-floor' | relative_url }}" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> view map</a></small>)</h2>
-      </td>
-    </tr>
+  </tbody>
+</table>
+
+---------------------
+
+## Second Floor (T - Z) 
+
+<a href="{{ '/about/maps.html#second-floor' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 2th Floor Map</a>
+
+<table>
+  <tbody>
     <tr>
       <td width="36" height="12">
         <b>
