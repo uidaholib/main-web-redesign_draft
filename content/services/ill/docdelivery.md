@@ -2,7 +2,7 @@
 title: Document Delivery
 section: Services
 permalink: /services/ill/docdelivery.html
-layout: page
+layout: page-narrow
 ---
 
 Document Delivery provides electronic access to journal articles and book chapters from the U of I Library's print collection. 
