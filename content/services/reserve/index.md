@@ -16,9 +16,6 @@ Course Reserves are electronic and library-only resources selected by instructor
 Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>, phone (208) 885-7299, or ask at the Circulation desk.
 
 {% capture instr %}
-<div class="alert alert-info text-center">
-    <h4 class="alert-heading">Instructors please check our <a class="alert-link" href="{{ '/services/reserve/faq.html#spring-2021' | relative_url }}">FAQ about Course Reserves for Spring 2021</a></h4>
-</div>
 <p class="text-center">
     <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
         <span class="fas fa-link"></span> Instructor Reserve Request Form</a>
