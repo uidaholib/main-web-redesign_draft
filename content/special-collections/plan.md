@@ -7,7 +7,7 @@ chat-widget-spec: true
 ---
 
 <div class="row">
-<div class="col-md-6 align-self-center" markdown="1">
+<div class="col-md-6" markdown="1">
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the [first floor](/about/maps.html) of the library. If you are unable to come to the Reading Room in person, please [contact us](mailto:libspec@uidaho.edu) to discuss options for digital reproductions of materials.
 <div class="text-center">
   <a href="#hours" class="btn btn-outline-payette-blue m-1">Hours</a>
@@ -28,7 +28,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div class="card-header">
           <h5 class="mb-0">
             <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Search Our Collections
-              <span class="fas fa-chevron-down smalltxt"></span>
+              <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
@@ -46,7 +46,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div class="card-header">
           <h5 class="mb-0">
             <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Search Our Digital Collections
-              <span class="fas fa-chevron-down smalltxt"></span>
+              <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
@@ -64,7 +64,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div class="card-header">
           <h5 class="mb-0">
             <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Make an Appointment or Visit Open Hours
-              <span class="fas fa-chevron-down smalltxt"></span>
+              <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
@@ -82,7 +82,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         <div class="card-header">
           <h5 class="mb-0">
             <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour"> 4. Fill Out a Registration Form Upon Arrival
-              <span class="fas fa-chevron-down smalltxt"></span>
+              <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
