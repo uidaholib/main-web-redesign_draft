@@ -228,6 +228,8 @@ Find:
         url: /find/geospatial/software.html
       - name: GIS Day
         url: /gisday/
+  - subsection: Equipment Loans
+    link: /studio/loanable.html 
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
@@ -537,14 +539,14 @@ The Studio:
     stub: /studio/
   - subsection: The Studio Home
     link: /studio/
-  - subsection: Field Recording Equipment
-    link: /studio/field_recording_equipment.html
-  - subsection: Audio Equipment and Software
-    link: /studio/audio.html
-  - subsection: Video Equipment and Software
-    link: /studio/video.html
+  - subsection: Studio Equipment
+    link: /studio/equipment.html
+  - subsection: Loanable Equipment
+    link: /studio/loanable.html
   - subsection: Terms of Use
     link: /studio/termsofuse.html
+  - subsection: Studio FAQ
+    link: /studio/faq.html
 
 # Think Open Section
 Think Open:
