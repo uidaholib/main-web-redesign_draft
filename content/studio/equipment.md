@@ -7,7 +7,7 @@ lazyload: true
 ---
 
 The Studio has dedicated equipment that stays in the space, as well as loanable equipment that can be checked out. 
-Some equipment is locked in the cabinet: please contact [Hanwen Dong](hanwendong@uidaho.edu) for access.
+Some equipment is locked in the cabinet: please contact [Hanwen Dong](mailto:hanwendong@uidaho.edu) for access.
 More details about available software and AV setup can be found in our [FAQs]({{ '/studio/faq.html' | relative_url }}) and be sure to check our [terms of use]({{ '/studio/termsofuse.html' | relative_url }})
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.location contains 'studio'" %}
