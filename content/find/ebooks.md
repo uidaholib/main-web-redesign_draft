@@ -33,7 +33,7 @@ These ebooks may require using the free [Adobe Digital Editions](https://www.ado
 2. Limit to ebooks using "Resource Type" filter on the right side of search page ![filter results](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks19.png){:.img-fluid .mb-3}
 3. Click on the title for more information about each ebook, or go straight to the full text with the "Full Text Available" or "Online Access" links. ![ebook records](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks219.png){:.img-fluid .mb-3}
 {% endcapture %}
-{% include feature/card.html text=instructions header="Step by step instructions" %}
+{% include feature/card.html text=instructions header="Step by Step Instructions" %}
 
 ## Open Access eBooks
 
