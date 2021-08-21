@@ -29,9 +29,9 @@ Many downloaded ebooks have Digital Rights Management software (DRM) that preven
 These ebooks may require using the free [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) software to download the file.
 
 {% capture instructions %}
-1. Start your search in the library's catalog ![catalog search box](https://libapps.s3.amazonaws.com/accounts/64754/images/Catalog19.png){:.img-fluid .mb-3}
-2. Limit to ebooks using "Resource Type" filter on the right side of search page ![filter results](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks19.png){:.img-fluid .mb-3}
-3. Click on the title for more information about each ebook, or go straight to the full text with the "Full Text Available" or "Online Access" links. ![ebook records](https://libapps.s3.amazonaws.com/accounts/64754/images/Ebooks219.png){:.img-fluid .mb-3}
+1. Start your search in the library's catalog ![catalog search box]({{ site.lib-media }}/find/Catalog19.png){:.img-fluid .mb-3}
+2. Limit to ebooks using "Resource Type" filter on the right side of search page ![filter results]({{ site.lib-media }}/find/Ebooks19.png){:.img-fluid .mb-3}
+3. Click on the title for more information about each ebook, or go straight to the full text with the "Full Text Available" or "Online Access" links. ![ebook records]({{ site.lib-media }}/find/Ebooks219.png){:.img-fluid .mb-3}
 {% endcapture %}
 {% include feature/card.html text=instructions header="Step by Step Instructions" %}
 
@@ -42,6 +42,6 @@ These range from open access scholarly books to free copies of popular classics.
 
 {% assign freebooks = site.data.find_ebooks | where: 'type','oa' %}
 {% for b in freebooks %}
-| ![{{ b.title }} logo]({{ b.img }}){:.img-fluid} | [{{ b.title }}]({{ b.link }}){:.h4} | {{ b.description }} |{% endfor %}
+| ![{{ b.title }} logo]({{ site.lib-media }}/find/{{ b.img }}){:.img-fluid} | [{{ b.title }}]({{ b.link }}){:.h4} | {{ b.description }} |{% endfor %}
 {:.table }
 
