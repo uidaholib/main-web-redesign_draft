@@ -9,7 +9,7 @@ chat-widget-spec: true
 ---
 
 <div class="row py-4">
-  <div class="col-md-8">
+  <div class="col-md-12 pr-5">
     <p>Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and accessibility of archival research materials that document the history and culture of Idaho and the University of Idaho.</p>
     
     <p>Our materials are available to everyone! Here's how to find materials: </p>
@@ -33,6 +33,14 @@ chat-widget-spec: true
             </ul>
           </div>
       </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>Contact Us:</h3>
+          <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
+            Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br>
+            Chat: <a href="{{ '/special-collections/' | relative_url }}">Spec Home Page</a></p>
+        </div>
+    </div>
   </div>
     
     <div class="text-center mb-2">
@@ -49,29 +57,27 @@ chat-widget-spec: true
       <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU3fn1ZT2uFVAhbeq68ZolZtUQ0FVNEdKVEIyVFhaUFFWTlgxN1pUVjE3Qy4u" class="btn btn-secondary my-2 mx-1">
         <span class="fas fa-comments"></span> Give Us Feedback</a>
     </div>
+    <hr>
 
     <div class="embed-responsive embed-responsive-16by9">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/vDINh_iOMag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="col-md-4 align-self-center mt-0">
-    <div class="card">
-      <div class="card-body text-center">
-        {% include feature/figure.html img="https://harvester.lib.uidaho.edu/assets/img/babyjoe.jpg" link="https://harvester.lib.uidaho.edu/" caption="Interested in Idaho or U of I history? Check out our blog, the Idaho Harvester!" %}
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card-deck my-4">
+      <div class="card">
+          <div class="card-body text-center">
+            <h3>Semester Hours:</h3>
+            <p>Tuesday - Friday<br> 10:00am to 2:00pm<br> and by appointment</p>
+          </div>
       </div>
-    </div>
-    <div class="card my-3">
-      <div class="card-body text-center">
-        <h3>Semester Hours:</h3>
-        <p>Tuesday - Friday<br> 10:00am to 2:00pm<br> and by appointment</p>
-      </div>
-    </div>
-    <div class="card my-3">
-      <div class="card-body text-center">
-        <h3>Contact Us:</h3>
-        <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-          Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br>
-          Chat: <a href="{{ '/special-collections/' | relative_url }}">Spec Home Page</a></p>
+      <div class="card">
+        <div class="card-body text-center">
+          {% include feature/figure.html img="https://harvester.lib.uidaho.edu/assets/img/babyjoe.jpg" link="https://harvester.lib.uidaho.edu/" caption="Interested in Idaho or U of I history? Check out our blog, the Idaho Harvester!" %}
+        </div>
       </div>
     </div>
   </div>
@@ -79,13 +85,6 @@ chat-widget-spec: true
 <hr>
 
 <div class="mb-5">
-  <h2 class="mb-5">Latest blog posts from the <a href="https://harvestser.lib.uidaho.edu/" target="_blank">Idaho Harvester</a></h2>
+  <h2 class="mb-5 text-center">Latest blog posts from the <a href="https://harvestser.lib.uidaho.edu/" target="_blank">Idaho Harvester</a></h2>
   {% include feature/blogitem.html %}
-</div>
-<hr>
-
-<div class="mb-5">
-  <h2 class="mb-3">Explore the Collections</h2>
-  {% assign page.carousel = true %}
-  {% include feature/carousel.html slides=site.data.spec_carousel %}
 </div>
