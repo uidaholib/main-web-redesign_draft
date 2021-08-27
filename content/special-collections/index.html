@@ -16,7 +16,7 @@ chat-widget-spec: true
     <div class="card-deck my-4">
       <div class="card">
           <div class="card-body">
-            <h3>Find Materials Remotely</h3>
+            <h2 class="h4">Find Materials Remotely</h2>
             <ul>
               <li><a href="{{ '/special-collections/searchtools.html' | relative_url }}">Search Tools</a></li>
               <li><a href="{{ '/special-collections/about.html#contact' | relative_url }}">Ask Us!</a></li>
@@ -25,7 +25,7 @@ chat-widget-spec: true
       </div>
       <div class="card">
           <div class="card-body">
-            <h3>Visit Us In-Person</h3>
+            <h2 class="h4">Visit Us In-Person</h2>
             <ul>
               <li><a href="{{ '/special-collections/plan.html#hours' | relative_url }}">Reading Room Open Hours</a></li>
               <li><a href="https://forms.office.com/r/SjqtcHZ3Kn">Schedule an Appointment</a></li>
@@ -34,7 +34,7 @@ chat-widget-spec: true
       </div>
       <div class="card">
         <div class="card-body">
-          <h3>Contact Us:</h3>
+          <h2 class="h4">Contact Us:</h2>
           <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
             Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br>
             Chat: <a href="{{ '/special-collections/' | relative_url }}">Spec Home Page</a></p>
@@ -69,13 +69,13 @@ chat-widget-spec: true
     <div class="card-deck my-4">
       <div class="card">
           <div class="card-body text-center">
-            <h3>Semester Hours:</h3>
+            <h2 class="h4">Semester Hours:</h2>
             <p>Tuesday - Friday<br> 10:00am to 2:00pm<br> and by appointment</p>
           </div>
       </div>
       <div class="card">
         <div class="card-body text-center">
-          {% include feature/figure.html img="https://harvester.lib.uidaho.edu/assets/img/babyjoe.jpg" link="https://harvester.lib.uidaho.edu/" caption="Interested in Idaho or U of I history? Check out our blog, the Idaho Harvester!" %}
+          {% include feature/figure.html img="https://harvester.lib.uidaho.edu/assets/img/babyjoe.jpg" alt="baby joe vandal" link="https://harvester.lib.uidaho.edu/" caption="Interested in Idaho or U of I history? Check out our blog, the Idaho Harvester!" %}
         </div>
       </div>
     </div>
@@ -84,6 +84,6 @@ chat-widget-spec: true
 <hr>
 
 <div class="mb-5">
-  <h2 class="mb-5 text-center">Latest blog posts from the <a href="https://harvestser.lib.uidaho.edu/" target="_blank">Idaho Harvester</a></h2>
+  <h2 class="mb-5 text-center">Latest blog posts from the <a href="https://harvestser.lib.uidaho.edu/" target="_blank" rel="noopener">Idaho Harvester</a></h2>
   {% include feature/blogitem.html %}
 </div>
