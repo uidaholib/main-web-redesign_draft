@@ -70,8 +70,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p>To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for <strong>at least two business days of notice</strong> so we may do any preparatory searching and retrieving in advance. We are open to appointments <strong>Monday-Friday 9am-4pm</strong> depending on staff availability.</p>
-            <p>Check our <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">Open Hours</a> for walk-in availability!</p>
+            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment using our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for <strong>at least two business days of notice</strong> so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
           </div>
           <!--end card-body-->
         </div>
@@ -112,14 +111,15 @@ Our materials and our Reading Room are available to everyone! There are two ways
     <div class="card">
         <div class="card-body">
           <h3>Open Hours</h3>
-          Tuesday - Friday between 10:00am to 2:00pm in the Reading Room on the Library's <a href=" {{ '/about/maps.html#lg=1&slide=0' | relative_url }}">first floor</a>.
-          Everyone is welcome to come in and view materials! 
+          <p>Tuesday - Friday between 10:00am to 2:00pm in the Reading Room on the Library's <a href=" {{ '/about/maps.html#lg=1&slide=0' | relative_url }}">first floor</a>.</p>
+          <p>Everyone is welcome to come in and view materials! </p>
         </div>
     </div>
     <div class="card">
         <div class="card-body">
           <h3>Make an Appointment</h3>
-            To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.
+            <p>To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>.</p> 
+            <p>We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
         </div>
     </div>
 </div>
