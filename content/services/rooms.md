@@ -6,12 +6,10 @@ permalink: /services/rooms.html
 ---
 {% assign rooms = site.data.services_rooms %}
 
-<p>
-    The Library has a variety of reservable spaces from group study rooms to 3D printers.
-    Check the descriptions below to find the space you need. 
-    Reservations are made on our <a href="https://libcal.uidaho.edu/">LibCal</a> system.
-    For complete information, please check our <a href="https://libcal.uidaho.edu/">Policies page</a>.
-</p>
+The Library has a variety of reservable spaces from group study rooms to 3D printers.
+Check the descriptions below to find the space you need. 
+Reservations are made on our <a href="https://libcal.uidaho.edu/">LibCal</a> system.
+For complete information, please check our <a href="https://libcal.uidaho.edu/">Policies page</a>.
 
 <div class="row">
     {% for r in rooms %}
@@ -28,7 +26,7 @@ permalink: /services/rooms.html
                 </div>
                 <div class="col-md-9">
                     <div class="card-body">
-                        <p class="card-text">{{ r.description }}</p>
+                        <p class="card-text">{{ r.description | markdownify }}</p>
                         {% if r.link %}<a href="{{ r.link }}" class="btn btn-primary">Book {{ r.type }}</a>{% endif %}
                     </div>
                 </div>
