@@ -9,7 +9,9 @@ layout: page
 
 <div class="alert alert-info text-center" role="alert">
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Fall Hours</h4>
-<p class="h5">Mon - Fri, 9:00am - 5:30pm</p>
+<p class="h5">Mon and Wed, 8:00am - 8:00pm<br>
+Tue, Thurs, and Fri, 8:00am - 5:00pm
+</p>
 </div>
 
 The **Making, Innovating, Learning Laboratory** (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
