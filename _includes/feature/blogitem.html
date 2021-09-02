@@ -7,13 +7,10 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
 
 {%- endcomment -%}
 <div class="row">
-
     <div class="col-md-8 text-center">
         <figure class="figure mx-3">
             <a id="blog-link" href="https://harvester.lib.uidaho.edu/">
-                <img id="blog-image" class="img-fluid rounded lazyload" alt="{{ figure.title | escape }}"
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
-                    data-src="">
+                <img id="blog-image" class="img-fluid rounded" alt="{{ figure.title | escape }}" src="">
             </a>
         </figure>
     </div>
@@ -22,10 +19,10 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
         <p id="content" class="mt-3"></p>
     </div>
 
-    <div class="col-12 text-center">
-        <div class="my-3">
+    <div class="col-12">
+        <div class="my-3 text-center">
             <a class="btn btn-lg btn-outline-primary" href="https://harvester.lib.uidaho.edu/">Go to Blog</a>
-      </div>
+        </div>
     </div>
 </div>
 
@@ -57,10 +54,5 @@ Set up for the Harvester at the moment. Can be abstracted more for lib-static ty
         content.innerHTML = obj.items[0].content_html;
 
     };
-
-
-
-
-
 
 </script>
