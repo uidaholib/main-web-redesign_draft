@@ -11,7 +11,7 @@ permalink: /special-collections/berry-ijc-fellowship.html
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#collections" class="btn btn-secondary btn-sm my-2 mx-1">IJC Collections</a>
     <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5sFwZAyOSK7FuHY" class="btn btn-info my-2 mx-1">
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-clearwater my-2 mx-1">
     <span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
@@ -27,11 +27,14 @@ permalink: /special-collections/berry-ijc-fellowship.html
 ### Call for Applications
 The University of Idaho Library invites students from any discipline at the University of Idaho to apply for the Berry International Jazz Collections Fellowship. 
 This program funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific research project. 
-The project may use one of the collections [highlighted below](#collections), or utilize an [IJC collection](https://www.ijc.uidaho.edu/) of the applicant's choosing.
+Research should focus on the primary sources in the IJC, and applicants are encouraged to think creatively about the format of their research output. 
+[Past projects](#past) have taken the form of digital collections, oral histories, and digital essays created with guidance of Library staff.
 
-The fellowship begins in the fall 2021 semester and will conclude with an exhibition of the student’s work at the 2022 Lionel Hampton Jazz Festival as part of the Library’s International Jazz Collection exhibits. 
+The applicant may base their research on any [IJC collection](https://www.ijc.uidaho.edu/). 
+Not sure where to begin? 
+See the the abbreviated [list of collections](#collections) below for project ideas.
 
-In addition to the Lionel Hampton Jazz Festival exhibition of the student's work, the project outputs may also take the form of a Library digital collection or multi-modal essay (see [Past Projects](#past) for examples).
+The fellowship begins in the fall 2021 semester and will conclude with an exhibition of the student’s work at the Lionel Hampton Jazz Festival in February 2022 as part of the Library’s International Jazz Collection exhibits. 
 
 The fellow should plan to spend approximately 10-15 hours per week between October and February in order to accomplish the goals of the project. 
 This award includes a $4,000 student fellowship given as a stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc.
@@ -47,7 +50,7 @@ Applicants must submit:
 3. A letter of support from a U of I faculty member. (The faculty member may assist the student in preparing the application, but the application must be the student's own work.)
 
 {:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
+{% include feature/button.html color="clearwater" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
 **Applications are due Sunday, October 3rd** by the midnight and a decision will be announced within two weeks of the deadline.
 
@@ -65,12 +68,12 @@ Applicants must submit:
 ---
 
 {:#collections}
-### IJC Collections
+### IJC Sample Collections
 
-**Note: The following collections are suggested opportunities for research. Applicants may choose tp focus their research on other [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) not included in this list. 
+**Note:** The following collections are suggested opportunities for research. Applicants are welcome to focus their research on other [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) not included in this list.
 
 *[Pete](https://archiveswest.orbiscascade.org/ark:/80444/xv39807) and [Conte Candoli](https://archiveswest.orbiscascade.org/ark:/80444/xv92407) Collections*
-- Pete and Conte Candoli were jazz trumpeters. The collections include original music manuscripts, arrangements, musical scores, correspondence, newspaper clippings, clothing, and photographs.
+- Pete and Conte Candoli were jazz trumpeters. These collections include original music manuscripts, arrangements, musical scores, correspondence, newspaper clippings, clothing, and photographs.
 
 *[Buddy Tate Collection](https://archiveswest.orbiscascade.org/ark:/80444/xv22534)*
 - Buddy Tate was a jazz tenor saxophonist and clarinetist. This collection includes band books, performance suits, photographs, and ephemera.
@@ -78,11 +81,17 @@ Applicants must submit:
 *[Doc Cheatham Collection](https://archiveswest.orbiscascade.org/ark:/80444/xv94027)*
 - Doc Cheatham was a jazz trumpet player. This collection contains photographs, autobiography, manuscript scores, audiotapes, clothing, and miscellaneous items.
 
+<div class="text-center">
+<a href="https://www.ijc.uidaho.edu/" class="btn btn-payette-blue my-2 mx-1"><span class="fas fa-guitar"></span> View all jazz collections</a>
+</div>
+
 ---
 
 {:#past}
 ### Past Projects
 
-- [Leonard Feather Blindfold Tests](https://www.lib.uidaho.edu/digital/blindfold/)
+*[Leonard Feather Blindfold Tests](https://www.lib.uidaho.edu/digital/blindfold/)*
+- A digital collection of transcribed interviews between Leonard Feather and renown jazz artists.
 
-- [Oral History Interviews with Lynn "Doc" Skinner](https://www.lib.uidaho.edu/digital/jazzfest/history.html)
+*[Oral History Interviews with Lynn "Doc" Skinner](https://www.lib.uidaho.edu/digital/jazzfest/history.html)*
+- A digital essay presenting a series of oral history interviews conducted with Doc Skinner, an influential figure in the history of the Lionel Hampton Jazz Festival.
