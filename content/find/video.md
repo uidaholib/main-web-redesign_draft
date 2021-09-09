@@ -20,4 +20,4 @@ The library subscribes to several streaming video platforms which can be accesse
 - <a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank" rel="noopener">Safari: O'Reilly's Learning Platform</a> - In addition to ebooks, Safari has a wide selection of videos and online courses for learning about tech topics. First-time users must enter a U of I email address to set up an account with Safari, after which they can log into the platform directly.
 
 If you have any questions or encounter issues, please <a href="{{ '/help/' | relative_url }}">contact a librarian</a>.
-For requests to view a streaming video from another provider or licensing questions, please email Jodi Haire at <haire@uidaho.edu>.
+For requests to view a streaming video from another provider or licensing questions, please email John Adams at <jjadams@uidaho.edu>.
