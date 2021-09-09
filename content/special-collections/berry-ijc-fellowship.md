@@ -52,7 +52,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="clearwater" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
-**Applications are due Sunday, October 3rd** by the midnight and a decision will be announced within two weeks of the deadline.
+**Applications are due Sunday, October 3rd** by midnight and a decision will be announced within two weeks of the deadline.
 
 ---
 
