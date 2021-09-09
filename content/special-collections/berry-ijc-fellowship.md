@@ -9,9 +9,9 @@ permalink: /special-collections/berry-ijc-fellowship.html
     <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
-    <a href="#collections" class="btn btn-secondary btn-sm my-2 mx-1">IJC Collections</a>
+    <a href="#coll" class="btn btn-secondary btn-sm my-2 mx-1">IJC Collections</a>
     <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-clearwater my-2 mx-1">
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-info my-2 mx-1">
     <span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
@@ -28,11 +28,11 @@ permalink: /special-collections/berry-ijc-fellowship.html
 The University of Idaho Library invites students from any discipline at the University of Idaho to apply for the Berry International Jazz Collections Fellowship. 
 This program funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific research project. 
 Research should focus on the primary sources in the IJC, and applicants are encouraged to think creatively about the format of their research output. 
-[Past projects](#past) have taken the form of digital collections, oral histories, and digital essays created with guidance of Library staff.
+[Past projects](#past) have taken the form of digital collections, oral histories, and digital essays created with the guidance of Library staff.
 
 The applicant may base their research on any [IJC collection](https://www.ijc.uidaho.edu/). 
 Not sure where to begin? 
-See the the abbreviated [list of collections](#collections) below for project ideas.
+See the the abbreviated [list of collections](#coll) below for project ideas.
 
 The fellowship begins in the fall 2021 semester and will conclude with an exhibition of the student’s work at the Lionel Hampton Jazz Festival in February 2022 as part of the Library’s International Jazz Collection exhibits. 
 
@@ -50,7 +50,7 @@ Applicants must submit:
 3. A letter of support from a U of I faculty member. (The faculty member may assist the student in preparing the application, but the application must be the student's own work.)
 
 {:.text-center}
-{% include feature/button.html color="clearwater" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
+{% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
 **Applications are due Sunday, October 3rd** by midnight and a decision will be announced within two weeks of the deadline.
 
@@ -67,7 +67,7 @@ Applicants must submit:
 
 ---
 
-{:#collections}
+{:#coll}
 ### IJC Sample Collections
 
 **Note:** The following collections are suggested opportunities for research. Applicants are welcome to focus their research on other [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) not included in this list.
@@ -87,11 +87,32 @@ Applicants must submit:
 
 ---
 
-{:#past}
+{:#past .pb-2}
 ### Past Projects
 
-*[Leonard Feather Blindfold Tests](https://www.lib.uidaho.edu/digital/blindfold/)*
-- A digital collection of transcribed interviews between Leonard Feather and renown jazz artists.
+{% capture blindfold %}
+A digital collection of transcribed interviews between Leonard Feather and renown jazz artists.
+<br>
+**2019 Fellow: Mitchell Gibbs**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/blindfold/" color="outline-payette-blue" %}
+{% endcapture %}
 
-*[Oral History Interviews with Lynn "Doc" Skinner](https://www.lib.uidaho.edu/digital/jazzfest/history.html)*
-- A digital essay presenting a series of oral history interviews conducted with Doc Skinner, an influential figure in the history of the Lionel Hampton Jazz Festival.
+{% capture skinner %}
+A digital essay presenting a series of oral history interviews conducted with Doc Skinner, an influential figure in the history of the Lionel Hampton Jazz Festival.
+<br>
+**2020 Fellow: Spencer Manning**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/jazzfest/history.html" color="outline-payette-blue" %}
+{% endcapture %}
+
+<div class="row">
+<div class="col-md-6">
+{% include feature/card.html centered=true text=blindfold header="Leonard Feather Blindfold Tests" img="https://www.lib.uidaho.edu/media/ijc/lester-young-blindfold-test.jpg" alt="image of Lester Young playing the saxophone" %}
+</div>
+<div class="col-md-6">
+{% include feature/card.html centered=true text=skinner header='Oral History Interviews with Lynn "Doc" Skinner' img="https://www.lib.uidaho.edu/media/ijc/doc-skinner-lionel-hampton.jpg" alt="image of Doc Skinner and Lionel Hampton on stage" %}
+</div>
+<div>
