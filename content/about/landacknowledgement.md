@@ -6,8 +6,8 @@ layout: page-narrow
 ---
 
 <div class="text-center mb-2">
-<a href="#statement" class="btn btn-secondary my-2 mx-1">U of I Land Acknowledgement Statement</a>
-<a href="#resources" class="btn btn-secondary my-2 mx-1">Resources</a>
+<a href="#statement" class="btn btn-outline-pride-gold my-2 mx-1">U of I Land Acknowledgement Statement</a>
+<a href="#resources" class="btn btn-outline-pride-gold my-2 mx-1">Resources</a>
 </div>
 
 {:#statement}
@@ -26,7 +26,8 @@ U of I recognizes that it is our academic responsibility to build relationships 
 ## Tribal Relations Resources
 
 {:.pt-3}
-#### U of I Special Collections
+### U of I Special Collections
+
 [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) has several collections relating to tribal relations in Idaho: 
 
 {%- assign collections = site.data.spec_collections_master -%}
@@ -37,7 +38,8 @@ U of I recognizes that it is our academic responsibility to build relationships 
 {% endfor %}
 
 {:.pt-3}
-#### Native Land Digital
+### Native Land Digital
+
 [Native Land Digital](https://native-land.ca/) is a Canadian not-for-profit organization that is Indigenous-led, with an Indigenous Executive Director and Board of Directors who oversee and direct the organization. 
 They strive to create and foster conversations about the history of colonialism, Indigenous ways of knowing, and settler-Indigenous relations, through educational resources such as the map and [Territory Acknowledgement Guide](https://native-land.ca/resources/territory-acknowledgement/).
 

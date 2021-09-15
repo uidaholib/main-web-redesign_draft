@@ -1,5 +1,5 @@
 ---
-title: Diversity, Equity, and Inclusion (DEI) Resources
+title: Diversity, Equity, and Inclusion Resources
 layout: page
 section: About
 permalink: /about/dei-resources.html
@@ -13,11 +13,7 @@ table-id: "#dei-database"
 Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. 
 Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
 
-<div class="text-center mb-2">
-<a href="#spec" class="btn btn-secondary my-2 mx-1">Special Collections</a>
-<a href="#exhibits" class="btn btn-secondary my-2 mx-1">Featured Exhibits</a>
-<a href="#databases" class="btn btn-secondary my-2 mx-1">Databases</a>
-</div>
+--------
 
 {:.pt-3 #spec}
 ## Special Collections
@@ -28,23 +24,7 @@ Browse all [DEI-related special collections]({{ "diversity, equity, and inclusio
 
 {% include feature/carousel.html slides="dei" %}
 
----
-
-{:.pt-4 #exhibits}
-## Featured Library Exhibit:
-
-{% for e in exhibits %}
-
-{:.pt-3}
-### {{ e.title }}
-
-{% include feature/figure.html img=e.image_src alt=e.image_alt %}
-
-{{ e.description }}
-
-{% endfor %}
-
----
+--------
 
 {:.pt-4 #databases}
 ## Databases:

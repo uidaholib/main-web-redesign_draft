@@ -1,22 +1,25 @@
 ---
-title: Diversity, Equity, and Inclusion (DEI) at U of I Library 
+title: Inclusion, Diversity, Equity, and Accessibility at U of I Library 
 section: About
 permalink: /about/dei.html
 layout: page-narrow
 ---
 
-The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles" (University of Idaho [Diversity and Inclusion Statement](https://www.uidaho.edu/diversity)). 
+<blockquote class="blockquote my-4">
+  <p class="mb-0">The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles."</p>
+  <p class="blockquote-footer">University of Idaho <a href="https://www.uidaho.edu/diversity" class="alert-link">Diversity and Inclusion Statement</a></p>
+</blockquote>
 
 The University of Idaho Library affirms these values and is committed to actively welcoming, centering, and prioritizing diverse perspectives and experiences - including those from historically marginalized backgrounds - in our services, programs, spaces, and workforce. 
 
 <div class="text-center mb-2">
-<a href="{{ '/about/dei-resources.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">DEI Resources</a>
-<a href="{{ '/about/landacknowledgment.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">U of I Land Acknowledgement</a>
+<a href="{{ '/about/dei-resources.html' | relative_url }}" class="btn btn-outline-pride-gold my-2 mx-1">DEI Resources</a>
+<a href="{{ '/about/landacknowledgment.html' | relative_url }}" class="btn btn-outline-pride-gold my-2 mx-1">U of I Land Acknowledgement</a>
 </div>
 <div class="text-center mb-4">
-<a href="#committee" class="btn btn-secondary my-2 mx-1">U of I Library DEI Committee</a>
-<a href="{{ '/about/commitment-to-act-against-racism.html' | relative_url }}" class="btn btn-secondary my-2 mx-1">Commitment to Act Against Racism</a>
-<a href="#feedback" class="btn btn-secondary my-2 mx-1">Feedback</a>
+<a href="#committee" class="btn btn-outline-pride-gold my-2 mx-1">U of I Library IDEA Committee</a>
+<a href="{{ '/about/commitment-to-act-against-racism.html' | relative_url }}" class="btn btn-outline-pride-gold my-2 mx-1">Commitment to Act Against Racism</a>
+<a href="#feedback" class="btn btn-outline-pride-gold my-2 mx-1">Feedback</a>
 </div>
 
 {% include feature/figure.html img="https://digital.lib.uidaho.edu/digital/iiif/pg2/1002/full/pct:70/0/default.jpg" alt="Photograph of University of Idaho Class of 1899" caption="University of Idaho Class of 1899, including first African American student to graduate from the U of I, Jennie Eva Hughes Smith" %}
@@ -36,12 +39,12 @@ We define inclusion as an environment where all members of our University and br
 
 For more information, please see our [Diversity, Equity, and Inclusion resources]({{ '/about/dei-resources.html' | relative_url }}) and [Land Acknowledgement information]({{ '/about/landacknowledgment.html' | relative_url }}).
 
----
+------------
 
 {:#committee}
-## U of I Library DEI Committee
+## U of I Library IDEA Committee
 
-The Library's Diversity, Equity, and Inclusion (DEI) Committee is charged with overseeing efforts in the Library that lead to concrete progress in the areas of justice, diversity, equity, inclusion, and accessibility.
+The Library's Inclusion, Diversity, Equity, and Accessibility (IDEA) Committee is charged with overseeing efforts in the Library that lead to concrete progress in the areas of justice, diversity, equity, inclusion, and accessibility.
 
 At the start of each new academic year (July), the Chair and the Dean or their designee will determine a committee agenda for the year which includes at least one specific area of focus with associated deliverables. This agenda should be crafted to maximize the impact of the committee's work.
 

@@ -5,8 +5,8 @@ permalink: /about/commitment-to-act-against-racism.html
 layout: page-narrow
 ---
 
-{:.mt-2}
-#### Dear members of the University of Idaho community:
+{:.mt-4 .h4}
+## Dear members of the University of Idaho community:
 
 <div class="mt-2 ml-3" markdown="1">
 Like many of you, I have been deeply affected by the brutal murders of George Floyd, Ahmaud Arbery, and Breonna Taylor and the protests that have transpired since those killings. 
@@ -33,4 +33,5 @@ As we move forward, please help us in making this a moment for real, positive ch
 
 {:.ml-5}
 **Ben Hunter**<br>
-*Dean, University Libraries*
+*Dean, University Libraries*<br>
+June, 2020
