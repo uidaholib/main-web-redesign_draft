@@ -1,18 +1,11 @@
 {% assign liaisons = site.data.about_liaisons %}
 {%- assign people = site.data.about_directory -%}
 <script>
-    /* featured researchers */
+    /* featured liaisons */
     var researchers = [
         // img, college, name, email, vivo, departments
-        {% for l in liaisons %}[
-            {% assign p = people | where: "email",l.email | first %}
-            "{{ p.headshot | default: 'tower_icon_gold.png' }}",
-            "{{ l.college }}",
-            "{{ l.librarian }}",
-            "{{ l.email }}",
-            "{{ p.vivo }}",
-            "{{ l.departments }}"
-        ]{% unless forloop.last %},{% endunless %}{% endfor %}
+        {% for l in liaisons %}[ {% assign p = people | where: "email",l.email | first %}"{{ p.headshot | default: 'tower_icon_gold.png' }}","{{ l.college }}","{{ l.librarian }}","{{ l.email }}","{{ p.vivo }}","{{ l.departments }}" ]{% unless forloop.last %},{% endunless %}
+        {% endfor %}
     ];
     var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
     var featuredCard = '<a href="http://vivo.nkn.uidaho.edu/individual/' + featuredResearcher[4] + '"> <img class="card-img-top" src="{{ site.lib-media }}/headshots/' + featuredResearcher[0] + '" alt="' + featuredResearcher[2] + 'portrait"></a>' +
