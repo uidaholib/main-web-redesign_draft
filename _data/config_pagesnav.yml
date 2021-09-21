@@ -96,8 +96,6 @@ About:
         url: /about/welcome.html      
       - name: Recognizing our Faculty
         url: /recognitions/
-      - name: Featured Faculty
-        url: /recognitions/featured-faculty.html
   - subsection: Visit
     link: /about/visit.html
 
