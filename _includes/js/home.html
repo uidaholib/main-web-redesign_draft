@@ -8,7 +8,7 @@
         {% endfor %}
     ];
     var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
-    var featuredCard = '<a href="http://vivo.nkn.uidaho.edu/individual/' + featuredResearcher[4] + '"> <img class="card-img-top" src="{{ site.lib-media }}/headshots/' + featuredResearcher[0] + '" alt="' + featuredResearcher[2] + 'portrait"></a>' +
+    var featuredCard = '<a href="http://vivo.nkn.uidaho.edu/individual/' + featuredResearcher[4] + '"> <img class="img-fluid" src="{{ site.lib-media }}/headshots/' + featuredResearcher[0] + '" alt="' + featuredResearcher[2] + 'portrait"></a>' +
     '<div class="card-body"> <h4 class="card-title"><a href="http://vivo.nkn.uidaho.edu/individual/' + featuredResearcher[4] + '">' + featuredResearcher[2] + '</a></h4>' +
     '<p class="card-text"><strong>Liaison to ' + featuredResearcher[1] + '</strong><br>' +  featuredResearcher[5] + '</p>' + 
     '<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic=' + encodeURIComponent(featuredResearcher[1]) + '&person=' + encodeURIComponent(featuredResearcher[2]) + '&email=' + encodeURIComponent(featuredResearcher[3]) + '" target="_blank" rel="noopener" class="btn btn-clearwater ">Request Meeting</a></div>';
