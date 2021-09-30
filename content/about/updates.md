@@ -18,6 +18,7 @@ The University of Idaho Library is committed to serving the research and learnin
 This guide provides important information about changes to library access and services to help keep our community healthy.
 
 For the most up-to-date information about the University's response, please visit [U of I Coronavirus page](https://www.uidaho.edu/vandal-health-clinic/coronavirus). 
+All visitors are expected to abide by the [Healthy Vandal Pledge](https://www.uidaho.edu/vandal-health-clinic/coronavirus/healthy-vandal-pledge).
 
 ### Building Access and Hours 
 {:.h4}
