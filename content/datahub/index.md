@@ -5,7 +5,7 @@ permalink: /datahub/
 layout: page
 ---
 
-{% include feature/alert.html text="<span class='h5'>New space opening Fall 2021!</span>" color="success" align="center" %}
+{% include feature/alert.html text="<span class='h5'>New space opening Spring 2022!</span>" color="success" align="center" %}
 
 The U of I Library Data Hub is a new location and service providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
 
