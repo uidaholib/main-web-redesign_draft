@@ -12,6 +12,7 @@ permalink: /collections/physical.html
 <div class="row justify-content-center">
     {% for c in collections %}
     {% if c.category contains 'physical' %}
+    {% unless c.hidden == "true" %}
     <div class="col-md-5">
             <div class="card my-2">
                 <div class="card-header text-center">
@@ -25,6 +26,7 @@ permalink: /collections/physical.html
                 </div>
             </div>
         </div>
+    {% endunless %}
     {% endif %}
     {% endfor %}
 </div>
