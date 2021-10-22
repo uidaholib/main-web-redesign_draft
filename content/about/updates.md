@@ -10,6 +10,18 @@ chat-widget: true
 
 ----------
 
+{% capture fines %}
+## Late Fees Discontinued
+
+The library will no longer collect late fees or fines for items in our general collection as part of our <a href="{{ site.lib-media }}/about/library_strategic_plan_2021.pdf">commitment to equitable access to information and student affordability</a>.
+
+Some items in the library, such as <a href="{{ '/services/reserve/policies.html' | relative_url }}">print Course Reserves</a> or U of I Multimedia equipment, are exceptions to this policy and will continue to accrue late fees. 
+In addition, the library will continue assessing lost item fees to patrons. 
+
+See [Borrowing Policies]({{ '/services/borrow/#fines' | relative_url }}) for more information.
+{% endcapture %}
+{% include feature/card.html text=fines %}
+
 {% capture opening %}
 ## Fall 2021 Opening Guide
 {:.mb-4}
@@ -48,13 +60,13 @@ All visitors are expected to abide by the [Healthy Vandal Pledge](https://www.ui
 - Meetings, classes, workshops and events may still be happening in person, but situations may change quickly, so be sure to check the U of I Library website regularly for updates.
 - The Map Room is currently open from 8am – 5pm, Monday through Friday. Due to expected renovations within the Map Room, the room is subject to close without notice. To request help accessing maps, please contact <rattebur@uidaho.edu>.
 
-### Borrowing and Fines
+### Borrowing
 {:.h4}
 
-- Regular borrowing, lending periods, and fines have resumed for locally-owned items.
+- Regular borrowing and lending periods have resumed for locally-owned items.
 - [Curbside delivery]({{ '/services/distance.html#curbside-delivery' | relative_url }}) is available for all patrons.
 - [Summit and Interlibrary Loan (ILL)]({{ '/services/ill/' | relative_url }}) borrowing and lending has resumed. Please keep in mind that delivery may be delayed due to lending library closures, materials quarantine, or shipping issues. 
-- *We will continue to be flexible with fines.* Please email [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) if you need help with upcoming or accrued library fines. 
+- Please email [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) if have any questions about borrowing! 
 
 {% endcapture %}
 {% include feature/card.html text=opening %}
