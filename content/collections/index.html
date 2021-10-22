@@ -14,6 +14,7 @@ lazyload: true
 
 <div class="row justify-content-center">
     {% for c in collections %}
+    {% unless c.hidden == "true" %}
         <div class="col-md-4">
             <div class="card my-2">
                 <div class="card-header text-center">
@@ -29,5 +30,6 @@ lazyload: true
                 </div>
             </div>
         </div>
+    {% endunless %}
     {% endfor %}
 </div>
