@@ -7,22 +7,19 @@ lazyload: true
 ---
 
 Leganto is a new product from the U of I Library that simplifies and improves course reading lists. 
-It integrates with BBLearn to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.  
+It integrates with Canvas to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.
 
-Feedback from instructors shows that Leganto is easy to use, and has significant benefits for teaching and learning.   
-
+Feedback from instructors shows that Leganto is intuitive to use with a low barrier to entry, and has significant benefits for teaching and learning.
 These benefits include: 
 
 - Reduced workload for instructors 
     - Reading lists can be saved and reused across semesters 
     - Ability to create multiple reading lists in draft form allows instructors to work at their own pace 
     - Autonomy in developing, changing, updating, and saving course lists 
-
 - Improved student experience 
     - Centrally located course materials 
     - Affordable, equitable access to library-purchased materials 
     - Interactive platform increases student engagement 
-
 - Seamless library integration and support 
     - Add library subscriptions, open education resources, popular media, and multimedia 
     - Get expert support for help with copyright, accessibility, and other questions 
@@ -30,15 +27,83 @@ These benefits include:
 
 ## Getting Started
 
-Leganto is intuitive and easy to use, with a very low barrier to entry. 
-To get started using Leganto, we need to activate your BBLearn course and then you can begin adding, editing, saving, and customizing your reading lists.  
+To get started using Leganto, we need to activate your Canvas course and then you can begin adding, editing, saving, and customizing your reading lists.
 
-Follow the instructions in the steps below to [activate Leganto](#leganto-activate), learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.  
+Follow the instructions in the steps below to activate Leganto, learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
+
+<div class="card my-3" id="leganto-canvas">
+    <div class="card-header">
+        <h6 class="card-title mb-0">
+            <a data-toggle="collapse" href="#collapseCanvas">How to Activate Leganto in Canvas <span class="fas fa-chevron-down smalltxt"></span></a>
+        </h6>
+    </div>
+    <div id="collapseCanvas" class="collapse">
+        <div class="card-body" markdown="1">
+
+### 1. Let the library know your Course ID number
+
+- From within your Canvas course, navigate to "Settings" and the "Course Details" tab. Your course ID number is in the SIS ID field. 
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas1.png" alt="canvas course details screenshot" border=true %}
+
+- Copy and paste the Course ID (in the example above, 202100_123LIB) and email it to <libreserve@uidaho.edu>.
+- If you don't see a SIS ID number (common for Independent Study of Idaho classes), please contact CETL (<cetl@uidaho.edu>) to request one manually be assigned. Make sure to let them know your course name and code. 
+
+### 2. Add the "Library Resource List" link to your Canvas content
+
+In Canvas a resource list can be added as a [stand-alone Module](#{{ 'A. Add as stand-alone module' | slugify }}) or can be [added to an existing Module](#{{ 'B. Add to an existing module' | slugify }}). 
+
+#### A. Add as stand-alone module
+
+- Navigate to the "Modules"
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas2.png" alt="canvas modules screenshot" border=true %}
+
+- Click "Create a New Module" *or* click the "+ Module" button in upper right corner.
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas3.png" alt="canvas new module screenshot" border=true %}
+
+- You can title the Module anything you want.
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas4.png" alt="canvas module title screenshot" border=true %}
+
+- Once the module is created, click the "+" sign in the module's title bar.
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas5.png" alt="canvas module plus sign screenshot" border=true %}
+
+- Under the "Add" dropdown, select "External Tool."
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas6.png" alt="canvas add dropdown screenshot" border=true %}
+
+- Select the "Library Resource List" option. This will add the link to your new module. 
+- Once the link is added and clicked on, all reading lists associated with your course should show up.
+- For your students to see the list you will need to make sure the module and the list are not hidden.
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas7.png" alt="canvas hidden view screenshot" border=true %}
+
+#### B. Add to an existing module
+
+- Click the "+" sign next to the module where you would like the Library Resources List.
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas8.png" alt="canvas modules screenshot" border=true %}
+
+- Under the "Add" dropdown, select "External Tool."
+
+{% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas9.png" alt="canvas add dropdown screenshot" border=true %}
+
+- Select the "Library Resource List" option. This will add the link to your new module. 
+- Once the link is added and clicked on, all reading lists associated with your course should show up. 
+- For your students to see the list, you will need to make sure the module and the list are not hidden.
+
+</div>
+</div>
+</div> 
+
 
 <div class="card my-3" id="leganto-activate">
     <div class="card-header">
         <h6 class="card-title mb-0">
-            <a data-toggle="collapse" href="#collapseHowToSteps">How to Activate Leganto <span class="fas fa-chevron-down smalltxt"></span></a>
+            <a data-toggle="collapse" href="#collapseHowToSteps">How to Activate Leganto in BBLearn <span class="fas fa-chevron-down smalltxt"></span></a>
         </h6>
     </div>
     <div id="collapseHowToSteps" class="collapse">
