@@ -37,6 +37,6 @@ The HBR [500 articles](http://www.ala.org/rusa/sites/ala.org.rusa/files/content/
 HBR requests that faculty wishing to use these articles for course reserves [register as an educator and set up an online coursepack for students](https://hbsp.harvard.edu/home/). 
 HBR will then provide free digital desk copies to instructors as well as teaching notes for HBR cases. 
 
-HBR articles are somewhat less restricted, but neither libraries nor instructors are permitted to direct link to these materials from Leganto or BBLearn. 
+HBR articles are somewhat less restricted, but neither libraries nor instructors are permitted to direct link to these materials from Leganto or Canvas/BBLearn. 
 Instead, students need to search for the articles themselves.
 Our [Accessing Harvard Business Review](/services/reserve/hbr.html) page provides instructions for students that can be referenced in your reading lists.
