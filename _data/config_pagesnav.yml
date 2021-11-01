@@ -211,7 +211,7 @@ Find:
   - subsection: DVDs & Streaming Video
     link: /find/video.html
     subpages: 
-      - name: DVDs & Streaming Video
+      - name: Streaming Video
         url: /find/video.html
       - name: DVDs
         url: /find/dvds.html     
