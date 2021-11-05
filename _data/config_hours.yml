@@ -23,14 +23,14 @@ default:
 ####
 breaks:   
   # thanksgiving 
-  - start: "2021-11-22"
-    end: "2021-11-26"
+  - start: "2021-11-21"
+    end: "2021-11-27"
     mon: "Open 8am &#8211; 6pm"
     tue: "Open 8am &#8211; 6pm"
     wed: "Open 8am &#8211; 6pm"
     thu: "Closed"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Closed"
+    fri: "Open 12pm &#8211; 6pm"
+    sat: "Open 12pm &#8211; 6pm"
     sun: "Open 12pm &#8211; 6pm"
   # winter 1
   - start: "2021-12-19"
@@ -39,9 +39,9 @@ breaks:
     tue: "Open 8am &#8211; 6pm"
     wed: "Open 8am &#8211; 6pm"
     thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
+    fri: "Closed"
     sat: "Closed"
-    sun: "Open 8am &#8211; 6pm"
+    sun: "Open 12pm &#8211; 6pm"
   # winter 2
   - start: "2022-01-02"
     end: "2022-01-09"
@@ -50,7 +50,7 @@ breaks:
     wed: "Open 8am &#8211; 6pm"
     thu: "Open 8am &#8211; 6pm"
     fri: "Open 8am &#8211; 6pm"
-    sat: "Open 8am &#8211; 6pm"
+    sat: "Open 12pm &#8211; 6pm"
     sun: "Open 12pm &#8211; 6pm"       
   # spring break
   - start: "2022-03-14"
