@@ -1,35 +1,38 @@
 ---
-title: Leganto
+title: Leganto - Integrated Course Reserves
 section: Services
 permalink: /services/reserve/leganto.html
 layout: page
 lazyload: true
 ---
 
-Leganto is a new product from the U of I Library that simplifies and improves course reading lists. 
-It integrates with Canvas to allow instructors the ability to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.
+<img class="img-fluid rounded w-75" src="{{ site.lib-media }}/reserves/leganto_postcard_cr.jpg" alt="students reading on laptops">
+{:.text-center}
+
+Leganto is the U of I Library's integrated course reserves platform that helps make course materials more accessible to students.
+Embedded directly into your Canvas course and connected to the library's resources, Leganto allows instructors to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.
 
 Feedback from instructors shows that Leganto is intuitive to use with a low barrier to entry, and has significant benefits for teaching and learning.
 These benefits include: 
 
-- Reduced workload for instructors 
+- **Reduced workload for instructors**
     - Reading lists can be saved and reused across semesters 
     - Ability to create multiple reading lists in draft form allows instructors to work at their own pace 
     - Autonomy in developing, changing, updating, and saving course lists 
-- Improved student experience 
+- **Improved student experience**
     - Centrally located course materials 
     - Affordable, equitable access to library-purchased materials 
     - Interactive platform increases student engagement 
-- Seamless library integration and support 
+- **Seamless library integration and support**
     - Add library subscriptions, open education resources, popular media, and multimedia 
     - Get expert support for help with copyright, accessibility, and other questions 
     - "Cite It" feature allows direct import for readings wherever, whenever 
 
 ## Getting Started
 
-To get started using Leganto, we need to activate your Canvas course and then you can begin adding, editing, saving, and customizing your reading lists.
+To get started using Leganto, first the library will need to activate your Canvas course, then you can begin adding, editing, saving, and customizing your reading lists.
 
-Follow the instructions in the steps below to activate Leganto, learn how to [add and edit reading lists](https://vandalsuidaho.sharepoint.com/:p:/s/LIB/ETdlmBTdc_NKg0HCntxftoAB1PhiTOAVNqYEcL7P7ZtHiA?e=Icw4Pg&CID=2c4147c9-5993-a50b-69b8-d458d8b8324b), or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
+Follow the instructions below, watch our [Leganto workshop video](https://web.microsoftstream.com/video/219071fd-0496-4b9e-901d-23d6bd06ee05){:target="_blank" rel="noopener"}, or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
 
 <div class="card my-3" id="leganto-canvas">
     <div class="card-header">
@@ -99,7 +102,7 @@ In Canvas a resource list can be added as a [stand-alone Module](#{{ 'A. Add as 
 </div>
 </div> 
 
-
+<!--
 <div class="card my-3" id="leganto-activate">
     <div class="card-header">
         <h6 class="card-title mb-0">
@@ -146,6 +149,7 @@ To view your list as a student would see it, please visit the [public reserves p
 </div>
 </div>
 </div> 
+-->
 
 -----------
 
