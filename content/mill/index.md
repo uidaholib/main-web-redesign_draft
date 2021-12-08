@@ -10,7 +10,8 @@ layout: page
 <div class="alert alert-info text-center" role="alert">
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Fall Hours</h4>
 <p class="h5">Mon and Wed, 8:00am - 8:00pm<br>
-Tue, Thurs, and Fri, 8:00am - 5:00pm
+Tue, Thurs, and Fri, 8:00am - 5:00pm<br>
+<strong>Closed Dec 20th - Jan 2nd</strong>
 </p>
 </div>
 
