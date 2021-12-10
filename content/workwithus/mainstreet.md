@@ -1,16 +1,18 @@
 ---
 title: Main Street Video Project Fellowship
-section: Fellowships
-permalink: /fellowships/mainstreetvideo.html
+section: Work with Us
+permalink: /opportunities/fellowships/mainstreetvideo.html
 layout: page
 ---
-{% assign fellowship = site.data.fellowships | where_exp: 'item', 'item.title == page.title' %}
+{% assign fellowship = site.data.fellowships | where_exp: 'item', 'item.title == page.title' | first %}
 
 ## {{page.title}}
 
-**Deadline:** {{fellowship.elgible}}
+{% if f.status == 'open' %}{% include feature/button.html text="Apply Now!" link=f.application-link color="success btn-lg float-right" %}{%endif %}
 
-**Who is Eligible:** {{fellowship.elgible}}
+**Deadline:** {{fellowship.deadline}}
+
+**Who is Eligible:** {{fellowship.eligible_full}}
 
 **Fellowship Amount:** {% if fellowship.amount.size > 5 %} {{fellowship.amount}}{% else %} ${{fellowship.amount}}{% endif %}
 
@@ -18,4 +20,6 @@ layout: page
 
 **Call for Application:** The material collected by this project is rife for scholarly interpretation and digression. We invite students at U of I to apply for a $2500 fellowship that will fund the research and production of an original piece of digital scholarship using the oral history interview collection. This work will be published as part of the online project and featured on the library's main website. Digital scholarship specialists at the library will support the fellows to enhance their work with interactive and multi-modal features. 
 
-**How to Apply:** 
+{% if f.status == 'open' %}**How to Apply:** 
+
+{% include feature/button.html text="Apply Now!" link=f.application-link color="success btn-lg" %}{%endif %}

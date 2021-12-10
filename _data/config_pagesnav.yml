@@ -44,7 +44,7 @@ About:
       - name: Journal and Database Review (2019)
         url: /review/
   - subsection: Fellowships
-    link: /fellowships/
+    link: /opportunities/fellowships/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
@@ -98,6 +98,8 @@ About:
         url: /about/welcome.html      
       - name: Recognizing our Faculty
         url: /recognitions/
+  - subsection: Work with Us
+    link: /opportunities/
   - subsection: Visit
     link: /about/visit.html
 
@@ -180,17 +182,13 @@ COVID-19:
   - subsection: << About
     link: /about/    
 # Fellowships Seciton
-Fellowships:
-  - parent: Fellowships
-    stub: /fellowships/
-  - subsection: Overview
-    link: /fellowships/index.html
-  - subsection: Currently Open Fellowships
-    link: /fellowships/open.html
-  - subsection: Fellowship Supported Projects
-    link: /fellowships/projects.html
-  - subsection: Current and Past Fellows
-    link: /fellowships/fellows.html
+Work with Us:
+  - parent: Work with Us
+    stub: /opportunities/
+  - subsection: Work with Us
+    stub: /opportunities/
+  - subsection: Fellowship Opportunties
+    link: /opportunities/fellowships/
   - subsection: << About
     link: /about/    
 
