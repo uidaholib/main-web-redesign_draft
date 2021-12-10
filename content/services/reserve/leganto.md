@@ -10,7 +10,7 @@ lazyload: true
 {:.text-center}
 
 Leganto is the U of I Library's integrated course reserves platform that helps make course materials more accessible to students.
-Embedded directly into your Canvas course and connected to the library's resources, Leganto allows instructors to easily add, edit, and customize reading lists, so that students can access all their course materials in one place.
+Embedded directly into your Canvas course and connected to the library's resources, Leganto allows instructors to easily create and customize reading lists, so that students can access all their course materials in one place.
 
 Feedback from instructors shows that Leganto is intuitive to use with a low barrier to entry, and has significant benefits for teaching and learning.
 These benefits include: 
