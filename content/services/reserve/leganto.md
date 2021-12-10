@@ -30,9 +30,11 @@ These benefits include:
 
 ## Getting Started
 
-To get started using Leganto, first the library will need to activate your Canvas course, then you can begin adding, editing, saving, and customizing your reading lists.
+To get started using Leganto the library will need to activate your Canvas course--please follow the instructions below.
+Once activated, you will be ready to [add, edit, save, and customize reading lists in Canvas]({{ site.lib-media }}/reserves/leganto_reading_list.pdf){:target="_blank" rel="noopener"}.
 
-Follow the instructions below, watch our [Leganto workshop video](https://web.microsoftstream.com/video/219071fd-0496-4b9e-901d-23d6bd06ee05){:target="_blank" rel="noopener"}, or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
+To learn more watch our [Leganto workshop video](https://web.microsoftstream.com/video/219071fd-0496-4b9e-901d-23d6bd06ee05){:target="_blank" rel="noopener"}, read our [curating a reading list guide]({{ site.lib-media }}/reserves/leganto_reading_list.pdf){:target="_blank" rel="noopener"}, or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
+For general help with Canvas, please check [CETL's excellent support resources](https://www.webpages.uidaho.edu/cetl/canvas-transition.asp){:target="_blank" rel="noopener"}.
 
 <div class="card my-3" id="leganto-canvas">
     <div class="card-header">
