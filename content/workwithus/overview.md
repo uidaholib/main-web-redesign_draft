@@ -7,11 +7,17 @@ layout: page
 
 Come work with us! The University of Idaho Libraries employs student workers, student fellows, full-time staff, and library faculty across a range of responsibilities and disciplines.
 
-### Student Positions
+## Student Positions
 
 The University of Idaho Libraries depends heavily on student workers for both front of house and back of house positions. Student positions are part-time, with hours ranging between 8-20 hours per week that can be scheduled around classes and on evenings and weekends. Student positions are filled on a rolling basis, as needed, and work-study can be applied to most library student jobs. 
 
 For more information and a list of available jobs, please visit <https://www.uidaho.edu/handshake> or contact the Information Desk at [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu). 
+
+## Staff and Faculty Positions
+
+Library staff and faculty positions are full-time, benefits eligible. Our libraries are proud to offer a collaborative, interdisciplinary work environment with competitive benefits, including tuition assistance ($5/credit).
+
+For more information and instructions to apply, visit <https://uidaho.peopleadmin.com/>
 
 ## Fellowships
 
@@ -20,11 +26,6 @@ The library offers a variety of fellowships for faculty and students. An overvie
 <a class="btn btn-pride-gold" href="{{ '/opportunities/fellowships/' | relative_url }}" alt="link to fellowships page">View All Fellowships</a>
 
 
-### Staff and Faculty Positions
-
-Library staff and faculty positions are full-time, benefits eligible. Our libraries are proud to offer a collaborative, interdisciplinary work environment with competitive benefits, including tuition assistance ($5/credit).
-
-For more information and instructions to apply, visit <https://uidaho.peopleadmin.com/>
 
 
 

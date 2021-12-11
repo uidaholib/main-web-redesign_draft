@@ -1,5 +1,5 @@
 ---
-title: "Library Seed Grant"
+title: Library Seed Grant
 section: Work with Us
 permalink: /opportunities/fellowships/libseed.html
 layout: page
@@ -19,6 +19,6 @@ layout: page
 
 **Description:** {{f.description}}
 
-{% if f.status == 'open' %}**How to Apply:** 
+**How to Apply:** 
 
-{% include feature/button.html text="Apply Now!" link=f.application-link color="success btn-lg" %}{%endif %}
+Please contact Dean Ben Hunter at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu) to inquire about a possible grant. 

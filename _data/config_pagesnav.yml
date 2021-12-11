@@ -186,9 +186,13 @@ Work with Us:
   - parent: Work with Us
     stub: /opportunities/
   - subsection: Work with Us
-    stub: /opportunities/
+    link: /opportunities/
   - subsection: Fellowship Opportunties
     link: /opportunities/fellowships/
+  - subsection: Main Street Video Project Fellowship
+    link: /opportunities/fellowships/mainstreetvideo.html
+  - subsection: Library Seed Grant
+    link: /opportunities/fellowships/libseed.html
   - subsection: << About
     link: /about/    
 
