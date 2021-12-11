@@ -60,3 +60,8 @@ It is a good idea to add lazyload to modal images and other large images that st
 # Robots / noindex
 
 If you need a page to have the `<meta name="robots" content="noindex" />` meta tag, add `noindex: true` to the front matter.
+
+# Sprint issue tracking
+
+- [drive folder](https://drive.google.com/open?id=1NTIBOM0k35Vn7QgKjK3EbGbxg3u2F3LK)
+- [problem sheet](https://docs.google.com/spreadsheets/d/1YfBYW0g12v-_bgvRN9o8TwQSp_L__sEuxyHYISh_RXw/edit?usp=sharing)
