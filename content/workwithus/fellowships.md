@@ -1,5 +1,5 @@
 ---
-title: Fellowship Opportunties
+title: Fellowship Opportunities
 section: Work with Us
 permalink: /opportunities/fellowships/
 layout: page
