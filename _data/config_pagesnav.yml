@@ -43,6 +43,8 @@ About:
         url: /about/elsevier.html
       - name: Journal and Database Review (2019)
         url: /review/
+  - subsection: Fellowships
+    link: /opportunities/fellowships/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
@@ -96,6 +98,8 @@ About:
         url: /about/welcome.html      
       - name: Recognizing our Faculty
         url: /recognitions/
+  - subsection: Work with Us
+    link: /opportunities/
   - subsection: Visit
     link: /about/visit.html
 
@@ -177,7 +181,20 @@ COVID-19:
     link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
   - subsection: << About
     link: /about/    
-
+# Fellowships Seciton
+Work with Us:
+  - parent: Work with Us
+    stub: /opportunities/
+  - subsection: Work with Us
+    link: /opportunities/
+  - subsection: Fellowship Opportunties
+    link: /opportunities/fellowships/
+  - subsection: Main Street Video Project Fellowship
+    link: /opportunities/fellowships/mainstreetvideo.html
+  - subsection: Library Seed Grant
+    link: /opportunities/fellowships/libseed.html
+  - subsection: << About
+    link: /about/    
 
 ###########
 # Find Section
