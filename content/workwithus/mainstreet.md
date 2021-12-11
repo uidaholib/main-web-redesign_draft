@@ -6,10 +6,6 @@ layout: page
 ---
 {% assign fellowship = site.data.fellowships | where_exp: 'item', 'item.title == page.title' | first %}
 
-## {{page.title}}
-
-{% if f.status == 'open' %}{% include feature/button.html text="Apply Now!" link=f.application-link color="success btn-lg float-right" %}{%endif %}
-
 **Deadline:** {{fellowship.deadline}}
 
 **Who is Eligible:** {{fellowship.eligible_full}}
