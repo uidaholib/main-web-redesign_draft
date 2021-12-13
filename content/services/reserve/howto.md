@@ -92,7 +92,7 @@ Fill out online <a href="request.html">Request Form</a> or come to the library's
 
 #### Submitting materials in electronic format
 
-- MSWord, ASCII, or PDF files acceptable
+- PDF files acceptable
 - File size is important: reduce size by scanning from clean copy (original preferred)
 - Complete bibliographic citation (author, title, vol., no., mo., yr, pp.) required for copyright compliance
 - Send to: <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>
@@ -101,7 +101,7 @@ Fill out online <a href="request.html">Request Form</a> or come to the library's
 
 - Original copy is preferred or clean, single-sided copies (no marks, lines) to avoid large file size
 - Supply a copy of the title page and the verso of the title page, required for copyright compliance.
-- Send to: Reserve Coordinator, Univ. Library, MS 2350
+- Please drop off materials at the main U of I Library Circulation Desk.
 
 #### Successive Use
 

@@ -11,9 +11,11 @@ layout: page
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
 
-Course Reserves are electronic and library-only resources selected by instructors to support student learning. Reserve items generally have shorter loan periods to ensure all users have access to the material.
+Course Reserves are electronic and library resources selected by instructors to support student learning. 
+Reserve items generally have shorter loan periods to ensure all users have access to the material.
+These items can be compiled into a single reading list accessible directly in Canvas LMS for you and your students via our [integrated reserves platform Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
 
-Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>, phone (208) 885-7299, or ask at the Circulation desk.
+Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>, phone (208) 885-6495, or ask at the Circulation desk.
 
 {% capture instr %}
 <p class="text-center">
