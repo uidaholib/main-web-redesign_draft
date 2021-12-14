@@ -5,7 +5,8 @@ All dependencies for library and digital websites are maintained here so that ve
 Frameworks, libraries, and packages:
 
 - Bootstrap, https://getbootstrap.com/
-- jQuery, https://jquery.com/
+- Bootstrap Icons, https://icons.getbootstrap.com/
+- jQuery, https://jquery.com/ (most recent version should always be renamed "jquery-latest.min.js")
 - Datatables, https://datatables.net/
 - Fontawesome, https://fontawesome.com/
 - jQuery.Lazyload, http://www.appelsiini.net/projects/lazyload
@@ -14,6 +15,7 @@ Frameworks, libraries, and packages:
 - Leaflet, https://leafletjs.com/
 - leaflet-fusesearch, https://github.com/naomap/leaflet-fusesearch
 - Lightgallery, https://github.com/sachinchoolur/lightGallery
+- lazysizes, https://github.com/aFarkas/lazysizes
 
 Data:
 
