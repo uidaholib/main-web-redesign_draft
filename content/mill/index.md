@@ -8,7 +8,6 @@ layout: page
 <img src="{{ 'technology-computer-chips-gigabyte-2.jpg' | prepend: '/mill/' | prepend: site.lib-media }}" class="img-fluid rounded" alt="image of circuit board with computer chip">
 
 <div class="alert alert-info text-center" role="alert">
-<p class="h5"><strong>Closed Dec 20th - Jan 2nd</strong></p>
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Spring Hours</h4>
 <p class="h5">Monday - Friday, 8am - 5pm</p>
 </div>
