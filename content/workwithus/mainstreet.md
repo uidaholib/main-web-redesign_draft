@@ -18,6 +18,10 @@ layout: page
 
 **Call for Application:** The material collected by this project is rife for scholarly interpretation and digression. We invite students at U of I to apply for a $2000 fellowship that will fund the research and production of an original piece of digital scholarship using the oral history interview collection. This work will be published as part of the online project and featured on the library's main website. Digital scholarship specialists at the library will support the fellows to enhance their work with interactive and multi-modal features. 
 
+Check out the video below for previews of the collection!
+
 **How to Apply:** 
 
 {% include feature/button.html text="Submit an Application!" link=fellowship.application_link color="success btn-lg" target="true" %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVs2-8j8bh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
