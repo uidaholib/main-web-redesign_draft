@@ -7,6 +7,8 @@ permalink: /about/hours.html
 
 <hr>
 
+{% include feature/alert.html color="info" text="Hours are subject to change due to special circumstances, including staffing outages due to COVID. Please call 208-885-6559 with questions." %}
+
 <!-- building hours -->
 <h2 class="my-3" id="building-hours"><i class="fas fa-university"></i> Building Hours</h2>
 
@@ -305,21 +307,24 @@ permalink: /about/hours.html
               <td>January 8 - 9</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
-<!--
+
             <tr class="table-secondary">
-              <td><h3>Spring Closures</h3></td>
+              <td><h3 id="{{ 'Spring Reduced Hours' | slugify }}">Spring Reduced Hours</h3></td>
               <td></td>
             <tr>
             <tr>
-              <td>February 15 - Presidents Day</td>
-              <td>Closed</td>
+              <td>January 17 - Martin Luther King Jr. Day</td>
+              <td>12:00pm - 2:00am</td>
             </tr>
--->
           
-            <tr class="table-secondary" id="springbreak">
-              <td><h3>Spring Recess</h3></td>
+            <tr class="table-secondary">
+              <td><h3 id="{{ 'Spring Recess' | slugify }}">Spring Recess</h3></td>
               <td></td>
             <tr>
+            <tr>
+              <td>March 12 - 13</td>
+              <td>12:00pm - 6:00pm</td>
+            </tr>
             <tr>
               <td>March 14 - 18</td>
               <td>8:00am - 6:00pm</td>

@@ -23,37 +23,37 @@ default:
 ####
 breaks:   
   # thanksgiving 
-  - start: "2021-11-21"
-    end: "2021-11-27"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Closed"
-    fri: "Open 12pm &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm"
+#  - start: "2021-11-21"
+#    end: "2021-11-27"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Closed"
+#    fri: "Open 12pm &#8211; 6pm"
+#    sat: "Open 12pm &#8211; 6pm"
+#    sun: "Open 12pm &#8211; 6pm"
   # winter 1
-  - start: "2021-12-19"
-    end: "2021-12-23"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Closed"
-    sat: "Closed"
-    sun: "Open 12pm &#8211; 6pm"
+#  - start: "2021-12-19"
+#    end: "2021-12-23"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Open 8am &#8211; 6pm"
+#    fri: "Closed"
+#    sat: "Closed"
+#    sun: "Open 12pm &#8211; 6pm"
   # winter 2
-  - start: "2022-01-02"
-    end: "2022-01-09"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm"       
+#  - start: "2022-01-02"
+#    end: "2022-01-09"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Open 8am &#8211; 6pm"
+#    fri: "Open 8am &#8211; 6pm"
+#    sat: "Open 12pm &#8211; 6pm"
+#    sun: "Open 12pm &#8211; 6pm"       
   # spring break
-  - start: "2022-03-14"
+  - start: "2022-03-12"
     end: "2022-03-19"
     mon: "Open 8am &#8211; 6pm"
     tue: "Open 8am &#8211; 6pm"
@@ -61,7 +61,7 @@ breaks:
     thu: "Open 8am &#8211; 6pm"
     fri: "Open 8am &#8211; 6pm"
     sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 8pm" 
+    sun: "Open 12pm &#8211; 6pm" 
  # summer break
   - start: "2021-05-16"
     end: "2021-08-22"
@@ -81,8 +81,8 @@ breaks:
 # 
 ####
 specials:
-  - dates: ["2021-07-05"]
-    message: "Open 12pm &#8211; 5pm"  
+  - dates: ["2022-01-17"]
+    message: "Open 12pm &#8211; 2am"  
 ####
 #
 # Closed dates (single dates when closed)
