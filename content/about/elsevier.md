@@ -3,6 +3,7 @@ title: Elsevier Journals Contract Change
 section: About
 permalink: /about/elsevier.html
 layout: page
+noindex: true
 ---
 
 {:.mt-4 .h5}

@@ -36,13 +36,13 @@ About:
         url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
-    subpages:
-      - name: Overview 
-        url: /about/journalcancellations.html
-      - name: Elsevier Journals Contract Change 
-        url: /about/elsevier.html
-      - name: Journal and Database Review (2019)
-        url: /review/
+#    subpages:
+#      - name: Overview 
+#        url: /about/journalcancellations.html
+#      - name: Elsevier Journals Contract Change 
+#        url: /about/elsevier.html
+#      - name: Journal and Database Review (2019)
+#        url: /review/
   - subsection: Fellowships
     link: /opportunities/fellowships/
   - subsection: Floor Maps
