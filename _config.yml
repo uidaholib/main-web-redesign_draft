@@ -22,6 +22,11 @@ lib-media: https://www.lib.uidaho.edu/media
 # main url, used to point at server even when on dev server
 liburl: https://www.lib.uidaho.edu
 
+# Updates collection
+collections:
+  updates:
+    sort_by: order
+    
 # Build data tables
 # these tables significantly increase build time 
 # switch to true as necessary to generate the assets
