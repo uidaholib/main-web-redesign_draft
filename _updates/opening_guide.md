@@ -15,6 +15,7 @@ All visitors are expected to abide by the [Healthy Vandal Pledge](https://www.ui
 - The library is open to all patrons: U of I students, faculty, and staff, as well as community patrons.
 - Please check our [hours]({{ '/about/hours.html' | relative_url }}) for the most up-to-date opening times.
 - Hours are subject to change due to special circumstances, including staffing outages due to COVID. Please call 208-885-6559 with questions.
+- The Library has resumed swipe-in access from midnight to 2 am Sundays through Thursdays. A VandalCard is required. When entering, use the card swipe on the left-hand side of the foyer. If your card does not swipe, ring the doorbell or knock to notify circulation staff. You will need to show your card at the front door to gain access.
 
 ### Mask Wearing and Social Distancing
 {:.h4}
