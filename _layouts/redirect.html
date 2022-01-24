@@ -4,6 +4,7 @@
         <meta http-equiv="refresh" content="{{ page.refresh | default: 1 }}; url={{ page.redirect | absolute_url }}">
         <title>{% if page.title %}{{ page.title }} - {% endif %}Page moved</title>
         <meta name="robots" content="noindex" />
+        {% include google-analytics.html %}
     </head>
     <body>
         <p>This page has moved: <a href="{{ page.redirect | absolute_url }}">{{ page.redirect | absolute_url }}</a>.<br>Please update your bookmarks!</p>
