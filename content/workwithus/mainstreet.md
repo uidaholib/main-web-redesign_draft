@@ -22,6 +22,6 @@ Check out the video below for previews of the collection!
 
 **How to Apply:** 
 
-{% include feature/button.html text="Submit an Application!" link=fellowship.application_link color="success btn-lg" target="true" %}
+Applications now closed. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NVs2-8j8bh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
