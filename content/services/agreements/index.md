@@ -50,4 +50,5 @@ A publish and read agreement is another type of transformative agreement where o
 
 ## Current Read and Publish Agreements
 
+- [Elsevier]({{ '/services/agreements/elsevier.html' | relative_url }})
 - [Company of Biologists]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
