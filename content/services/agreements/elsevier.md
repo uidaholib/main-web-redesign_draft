@@ -14,4 +14,5 @@ In 2021, the U of I Library entered into a Read and Publish agreement with [Else
 
 **Requirements:**
 
-- To qualify for free open access publishing under our Read and Publish agreement with the Elsevier, a U of I author must be listed as the corresponding author and they must indicate their affiliation with U of I during the submission process. 
+- To qualify for discounted open access publishing under our Read and Publish agreement with the Elsevier, a U of I author must be listed as the corresponding author and they must indicate their affiliation with U of I during the submission process. 
+- More information including a list of eligible journals can be found on [Elsevier's website](https://www.elsevier.com/open-access/agreements/university-of-idaho).
