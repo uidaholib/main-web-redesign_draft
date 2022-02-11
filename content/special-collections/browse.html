@@ -13,7 +13,7 @@ chat-widget-spec: true
 
 <div class="row mt-3">
     <div class="col-md-12">
-        <p>Browse over 1,400 record groups held by Special Collections using the buttons and search box below. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0" target="_blank" rel="noopener">Archives West</a>.</p>
+        <p>Browse over 1,400 record groups held by Special Collections using the buttons and search box below. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search.php?r=idu" target="_blank" rel="noopener">Archives West</a>.</p>
         <hr>
         <p class="text-center h4"><strong>Sort by Collection Strengths: </strong>{% for c in cats %}<a href="{{ c.category | prepend: '/special-collections/browse.html#' | relative_url }}" class="btn btn-payette-blue m-1">{{ c.display_name }}</a>{% endfor %}</p>
     </div>

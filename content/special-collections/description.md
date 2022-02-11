@@ -20,7 +20,7 @@ Special Collections and Archives specializes in archival materials that document
 Our holdings contain over 25,000 linear feet of rare, unique, and valuable materials. 
 
 These materials are available for research use by faculty, staff, students, visiting scholars, and the public in the Special Collections [Reading Room](/special-collections/plan.html). 
-Most collections are described by finding aids hosted on [Archives West](https://archiveswest.orbiscascade.org/search/results.aspx?t=i&q=idu&p=0), a searchable repository of archival finding aids from throughout the Northwest.
+Most collections are described by finding aids hosted on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu), a searchable repository of archival finding aids from throughout the Northwest.
 You can explore a list of all our collections on the [Browse Collections](/special-collections/browse.html) page.
 
 {:#strengths}

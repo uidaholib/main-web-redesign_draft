@@ -17,10 +17,9 @@ For more on what a finding aid is, please see our [FAQ](/special-collections/faq
 <div class="card my-3">
 <div class="card-body text-center">
 <p class="mb-1">Search our finding aids on Archives West</p>
-<form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search/results.aspx" method="get">
+<form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search.php" method="get">
     <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
-    <input id="t" name="t" type="hidden" value="k">
-    <input id="c" name="c" type="hidden" value="ntd">
+    <input id="r" name="r" type="hidden" value="idu">
     <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
 </form>
 </div>
