@@ -3,7 +3,7 @@
 # only builds if speccoll-build is true
 ---
 {%- if site.speccoll-build == true or jekyll.environment == "production" -%}
-{%- assign items = site.data.spec_collections_master -%}
+{%- assign items = site.data.spec_collections_main -%}
 { "objects" : [
 {%- for i in items -%}[{{ i.id | jsonify }},{{ i.title | jsonify }},{{ i.type | jsonify }},{{ i.number | jsonify }},{{ i.group | jsonify }},{% if i.finding_aid_link %}{{ i.finding_aid_link | jsonify }}{% else %}""{% endif %},{% if i.digital_collection %}{{ i.digital_collection | jsonify }}{% else %}""{% endif %},{% if i.paragraph %}{{ i.paragraph | jsonify }}{% else %}""{% endif %},{% if i.subject %}{{ i.subject | jsonify }}{% else %}""{% endif %}]{% unless forloop.last %},{% endunless %}
 {% endfor %}

@@ -180,7 +180,7 @@ spec_carousel.csv
 
 spec_categories.csv
 
-spec_collections_master.csv
+spec_collections_main.csv
 
 spec_faq.csv
 

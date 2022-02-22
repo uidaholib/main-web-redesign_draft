@@ -30,11 +30,9 @@ U of I recognizes that it is our academic responsibility to build relationships 
 
 [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) has several collections relating to tribal relations in Idaho: 
 
-{%- assign collections = site.data.spec_collections_master -%}
+{%- assign collections = site.data.spec_collections_main | where: 'dei_category','Native American/Indigenous' -%}
 {% for c in collections %}
-{% if c.dei_category == "Native American/Indigenous" %}
 - [{{ c.title }}]({{ c.finding_aid_link }}){:target="_blank" rel="noopener"}
-{% endif %}
 {% endfor %}
 
 {:.pt-3}

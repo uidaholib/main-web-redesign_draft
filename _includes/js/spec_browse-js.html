@@ -1,4 +1,4 @@
-{%- assign items = site.data.spec_collections_master | where_exp: 'item','item.id' -%}
+{%- assign items = site.data.spec_collections_main | where_exp: 'item','item.id' -%}
 <script>
     
 function makeCard(obj) {

@@ -20,7 +20,7 @@ Archival collections created by or related to underrepresented communities in Id
 Interested in seeing more? 
 Browse all [DEI-related special collections]({{ "diversity, equity, and inclusion (dei)" | escape | prepend: "/special-collections/browse.html#" | relative_url }}).
 
-{% assign slides = site.data.spec_collections_master | where: "dei_carousel", "true" %}
+{% assign slides = site.data.spec_collections_main | where: "dei_carousel", "true" %}
 {% include feature/carousel.html slides=slides %}
 
 --------
