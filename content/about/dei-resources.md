@@ -8,8 +8,6 @@ carousel: true
 table-id: "#dei-database"
 ---
 
-{%- assign exhibits = site.data.dei_exhibits | where: "current", "true" -%}
-
 Whether you're looking for archival resources, books, or databases, the Library offers a variety of diverse resources. 
 Browse featured items below, or contact [Reference Services](mailto:libref@uidaho.edu) for help finding a specific resource.
 
@@ -22,7 +20,8 @@ Archival collections created by or related to underrepresented communities in Id
 Interested in seeing more? 
 Browse all [DEI-related special collections]({{ "diversity, equity, and inclusion (dei)" | escape | prepend: "/special-collections/browse.html#" | relative_url }}).
 
-{% include feature/carousel.html slides="dei" %}
+{% assign slides = site.data.spec_collections_master | where: "dei_carousel", "true" %}
+{% include feature/carousel.html slides=slides %}
 
 --------
 

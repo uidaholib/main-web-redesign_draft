@@ -1,18 +1,13 @@
-{%- if include.slides == "dei" -%}
-{%- assign slides = site.data.spec_collections_master | where: "dei_carousel", "true" %}
-{%- else -%}
-{%- assign slides = include.slides -%}
-{%- endif -%}
 <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
     <ol class="carousel-indicators">
-        {% for slide in slides %}
+        {% for slide in include.slides %}
         <li data-target="#index-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
         {% endfor %}
     </ol>
 
     <div class="carousel-inner">
         
-    {% for slide in slides %}
+    {% for slide in include.slides %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
         <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{{ slide.image-src | prepend: site.liburl }}" alt="{{ slide.image-alt }}">
         <div class="carousel-caption d-none d-md-block px-3 mb-3">
