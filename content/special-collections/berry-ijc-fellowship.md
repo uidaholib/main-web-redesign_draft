@@ -108,11 +108,23 @@ A digital essay presenting a series of oral history interviews conducted with Do
 {% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/jazzfest/history.html" color="outline-payette-blue" %}
 {% endcapture %}
 
-<div class="row">
+{% capture fitzgerald %}
+A digital exhibit celebrating Fitzgerald's fashion and style through her clothing, photographs, and album covers.
+<br>
+**2021 Fellow: Destiny Angel-Hubble**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/ella-fitzgerald/" color="outline-payette-blue" %}
+{% endcapture %}
+
+<div class="row justify-content-center">
 <div class="col-md-6">
-{% include feature/card.html centered=true text=blindfold header="Leonard Feather Blindfold Tests" img="https://www.lib.uidaho.edu/media/ijc/lester-young-blindfold-test.jpg" alt="image of Lester Young playing the saxophone" %}
+{% include feature/card.html centered=true text=fitzgerald header='Ella Fitzgerald Collection' img="https://www.lib.uidaho.edu/media/digital/small/ella-fitzgerald.jpg" alt="image of Ella Fitzgerald's turquoise high-heeled shoes" %}
 </div>
 <div class="col-md-6">
 {% include feature/card.html centered=true text=skinner header='Oral History Interviews with Lynn "Doc" Skinner' img="https://www.lib.uidaho.edu/media/ijc/doc-skinner-lionel-hampton.jpg" alt="image of Doc Skinner and Lionel Hampton on stage" %}
+</div>
+<div class="col-md-6">
+{% include feature/card.html centered=true text=blindfold header="Leonard Feather Blindfold Tests" img="https://www.lib.uidaho.edu/media/ijc/lester-young-blindfold-test.jpg" alt="image of Lester Young playing the saxophone" %}
 </div>
 <div>
