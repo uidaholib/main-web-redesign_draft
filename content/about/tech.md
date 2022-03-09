@@ -5,14 +5,14 @@ section: About
 permalink: /about/tech.html
 ---
 
-University of Idaho Library's website is built using modern static web technologies following the [lib-STATIC](https://lib-static.github.io/) methodology. 
+University of Idaho Library's website is built using modern static web technologies following the [lib-Static](https://lib-static.github.io/) methodology. 
 Our development stack is powered by open source tools and libraries, including [Jekyll static generator](https://jekyllrb.com/), [Bootstrap 4](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/), [DataTables](https://datatables.net/), [lazysizes](https://github.com/aFarkas/lazysizes), [lightGallery](http://sachinchoolur.github.io/lightGallery/), and many others.
 Project code is managed on GitHub.
 
 Our site content is created using plain text files and data spreadsheets, which are rendered into the final web pages using modular template elements.
 Everything is hosted on a basic server with no databases or server-side language, a simple and sustainable infrastructure that still provides high performance access to users.
 
-The lib-STATIC methodology enables more agile and responsive development of our website, involving librarians at every level of design and deployment.
+The lib-Static methodology enables more agile and responsive development of our website, involving librarians at every level of design and deployment.
 
 [Website Feedback](https://uidaho.co1.qualtrics.com/jfe/form/SV_eqZdsQyel8sKBAG?source_link=https://www.lib.uidaho.edu/about/tech.html){:.btn .btn-outline-pride-gold}
 
