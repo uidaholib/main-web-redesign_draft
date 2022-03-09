@@ -10,7 +10,7 @@ permalink: /special-collections/strong-fellowship.html
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_5sFwZAyOSK7FuHY" class="btn btn-info my-2 mx-1">
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_4SdH7ndNhdJDw7Y" class="btn btn-info my-2 mx-1">
     <span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
@@ -33,7 +33,7 @@ The deliverables from the fellowship will be materials such as finding aids that
 
 The award includes a $4,500 student fellowship paid as a bi-weekly stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc. 
 
-For an example project, please see ["Local League of Women Voters Papers Processed"](https://harvester.lib.uidaho.edu/posts/2021/07/03/erin-geslani-2021-strong-fellow.html) highlighting the work of Erin Geslani, the 2021 recipient of the Gary E. and Carolyn J. Strong Special Collections Fellowship.
+For an example project please see ["Local League of Women Voters Papers Processed"](https://harvester.lib.uidaho.edu/posts/2021/07/03/erin-geslani-2021-strong-fellow.html) on the Idaho Harvester blog, highlighting the work of Erin Geslani, the 2021 recipient of the Gary E. and Carolyn J. Strong Special Collections Fellowship.
 
 ---
 
