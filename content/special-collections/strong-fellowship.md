@@ -18,7 +18,7 @@ permalink: /special-collections/strong-fellowship.html
 **Questions?** Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
 
 {:.text-center}
-**_DEADLINE: April 9, 2021_**
+**_DEADLINE: April 8, 2022_**
 
 ---
 
@@ -33,6 +33,8 @@ The deliverables from the fellowship will be materials such as finding aids that
 
 The award includes a $4,500 student fellowship paid as a bi-weekly stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc. 
 
+For an example project, please see ["Local League of Women Voters Papers Processed"](https://harvester.lib.uidaho.edu/posts/2021/07/03/erin-geslani-2021-strong-fellow.html) highlighting the work of Erin Geslani, the 2021 recipient of the Gary E. and Carolyn J. Strong Special Collections Fellowship.
+
 ---
 
 {:#process}
@@ -45,9 +47,9 @@ Applicants must submit:
 4. (Required only if proposing a project not detailed below) A summary of no more than 300 words detailing the proposed project and outlining how it increases the visibility and use of previously unprocessed collections in the U of I Library's Special Collections & Archives.
 
 {:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_5sFwZAyOSK7FuHY" %}
+{% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_4SdH7ndNhdJDw7Y" %}
 
-**Applications are due Friday, April 9th** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due Friday, April 8th** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 ---
 
@@ -77,9 +79,6 @@ Applicants must submit:
 *Bunker Hill Mining Company records*
 - Approximately 12 boxes, a good portion are binders with proposals, field sheets, field notes; assay maps; some photographs; ledgers; and a shaft progress report work up sheet. The fellow will be responsible for processing (rehousing and organizing), describing (creating a finding aid), and creating a digital collection from a selection of the materials.
 
-*League of Women Voters-Moscow records*
-- 4 accessions, 16.5 cubic feet total, This collection has a significant run of their local newsletter which would lend itself well to a digital collection. The fellow will be responsible for processing (rehousing and organizing), describing (creating a finding aid), and creating a digital collection from a selection of the materials.
-
 ---
 
-Questions about the fellowship and the application process should be directed to Ben Hunter, Dean of University Libraries, [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu) 
+Questions about the fellowship and the application process should be directed to Ben Hunter, Dean of University Libraries, [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
