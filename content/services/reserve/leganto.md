@@ -146,7 +146,7 @@ Here's what the display should look like:
 {% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/leganto6.png" alt="leganto screenshot" %}
 
 *Note:* When instructors enter BBLearn's "Student Preview" mode, reading lists will not display correctly.
-To view your list as a student would see it, please visit the [public reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) on the library's website.
+To view your list as a student would see it, please visit the [public reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/readinglist/searchlists) on the library's website.
 
 </div>
 </div>

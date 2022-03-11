@@ -6,7 +6,7 @@ layout: page
 ---
 
 <p class="text-center">
-    <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
+    <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/readinglist/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
     <a href="{{ '/services/reserve/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="far fa-question-circle"></span> Reserves FAQ</a>
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
@@ -24,13 +24,10 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 </p>
 <ul>
     <li>
+        <a href="howto.html">How to put materials on in-library reserve, Controlled Digital Lending, and Electric reserve</a>
+    </li>
+    <li>
         <a href="policies.html">Reserve policies</a>
-    </li>
-    <li>
-        <a href="howto.html#inlib">How to put materials on in-library reserve</a>
-    </li>
-    <li>
-        <a href="howto.html#electronic">How to put materials on Electronic reserve</a>
     </li>
     <li>
         <a href="fairuse.html">Copyright and fair use</a>
