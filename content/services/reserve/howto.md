@@ -7,7 +7,7 @@ layout: page
 
 <div class="text-center">
   <a href="#in-library-reserves" class="btn btn-secondary btn-sm my-2"><span class="fas fa-book"></span> In-Library</a>
-  <a href="#in-library-reserves" class="btn btn-secondary btn-sm my-2"><span class="fas fa-book"></span> Controlled Digital Lending</a>
+  <a href="#controlled-digital-lending" class="btn btn-secondary btn-sm my-2"><span class="fas fa-book"></span> Controlled Digital Lending</a>
   <a href="#electronic-reserves" class="btn btn-secondary btn-sm my-2"><span class="fas fa-cloud-upload-alt"></span> Electronic</a>
   <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater btn-sm my-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </div>
