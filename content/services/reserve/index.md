@@ -4,9 +4,8 @@ section: Services
 permalink: /services/reserve/
 layout: page
 ---
-
 <p class="text-center">
-    <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/readinglist/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
+    <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
     <a href="{{ '/services/reserve/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="far fa-question-circle"></span> Reserves FAQ</a>
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>

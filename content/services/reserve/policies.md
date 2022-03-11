@@ -24,7 +24,7 @@ The following guidelines apply to materials placed on reserve.
 
 ## Access
 
-- Visit the [Course Reserve Listings](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/readinglist/searchlists) and look for your course by instructor, term, or subject.
+- Visit the [Course Reserve Listings](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and look for your course by instructor, term, or subject.
 - Click on the course name to view a list of all items on reserve.
 - To access electronic reserve items, students will have to sign in using their NetID.
 

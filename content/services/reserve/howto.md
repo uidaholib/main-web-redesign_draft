@@ -70,7 +70,7 @@ What this means for U of I students:
 
 - CDL books are like print books, meaning only one person can use them at a time—plan ahead 
 - If someone else is using the CDL book you need, sign up on the waitlist: you'll be notified when the item becomes available 
-- To find CDL books, visit the library's [Course Reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/readinglist/searchlists) or use the Reading List link in Canvas 
+- To find CDL books, visit the library's [Course Reserves page](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) or use the Reading List link in Canvas 
 
 ### Request Process
 
