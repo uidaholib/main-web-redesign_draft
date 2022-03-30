@@ -19,7 +19,7 @@ We are committed to creating a welcoming, supportive, and engaging environment f
 		<span class="fas fa-user"></span> Contact</a>
 </div>
 	
-Use the calendar below or the <a href="http://libcal.uidaho.edu/calendar/workshops/">list view</a> to find up coming events. 
+Use the calendar below or the <a href="https://libcal.uidaho.edu/calendar/workshops/">list view</a> to find up coming events. 
 Please click on the title to get full details and register. 
 **Schedule is listed in Pacific Time Zone!**
 
