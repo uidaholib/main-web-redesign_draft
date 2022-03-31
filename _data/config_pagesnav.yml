@@ -217,8 +217,8 @@ Find:
         url: /find/lc.html
       - name: Finding eBooks
         url: /find/ebooks.html
-      - name: Request a Book
-        url: /find/request.html
+#      - name: Request a Book
+#        url: /find/request.html
   - subsection: Data
     link: /find/data.html
   - subsection: Digital Collections
@@ -271,8 +271,10 @@ Find:
         url: /find/localnewspapers.html
       - name: The Argonaut
         url: /find/argonaut.html
+  - subsection: Purchase Request
+    link: /find/request.html
   - subsection: Research Guides
-    link: http://libguides.uidaho.edu/index.php?
+    link: https://libguides.uidaho.edu/    
   - subsection: Theses & Dissertations
     link: /find/etds.html
   - subsection: U of I Research & Expertise (VIVO)
