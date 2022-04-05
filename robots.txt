@@ -2,4 +2,7 @@ User-agent: *
 Disallow: /old/
 Disallow: /backup/
 Disallow: /secure/
+Disallow: /queered/
+Allow: /queered/index.html
+Allow: /queered/about.html
 Sitemap: https://www.lib.uidaho.edu/sitemap.xml
