@@ -26,7 +26,25 @@ liburl: https://www.lib.uidaho.edu
 collections:
   updates:
     sort_by: order
-    
+
+# set some defaults
+defaults: 
+  - 
+    scope: 
+      path: "content/special-collections/t-abraham/"
+    values:
+      noindex: true
+  - 
+    scope: 
+      path: "content/special-collections/histphoto/"
+    values:
+      noindex: true
+  - 
+    scope: 
+      path: "content/special-collections/old/"
+    values:
+      noindex: true
+      
 # Build data tables
 # these tables significantly increase build time 
 # switch to true as necessary to generate the assets
