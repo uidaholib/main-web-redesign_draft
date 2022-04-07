@@ -1,5 +1,8 @@
 # Law library 
 
+new primoVE vid = "01ALLIANCE_UID:UID_LAW"
+below is old primo.
+ 
 Has a catalog search box embedded on their home page, 
 https://www.uidaho.edu/law/library
 
@@ -106,7 +109,7 @@ function newLawSearch() {
     <input id="lawSearch" type="search" placeholder="Search the catalog ..." aria-label="Search Law Library catalog">
     <button type="submit" id="law-search-button">Go</button>
     <br>
-    <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID_LAW&amp;tab=everything&amp;search_scope=everything&amp;sortby=rank&amp;mode=advanced" id="law-advanced-search">Advanced Search</a>
+    <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID_LAW&tab=everything&search_scope=everything&sortby=rank&mode=advanced" id="law-advanced-search">Advanced Search</a>
     <input type="hidden" name="vid" value="UID_LAW">
     <input type="hidden" name="tab" value="everything">
     <input type="hidden" name="search_scope" value="everything">
