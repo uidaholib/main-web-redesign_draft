@@ -8,9 +8,17 @@ layout: page-narrow
 Transformative publishing agreements are contracts negotiated by libraries and publishers that seek to change the scholarly communications landscape by moving away from subscription-based models (pay-to-read) towards models focused on open access (pay-to-publish), often by including open access publishing fees (also called article processing charges or APCs) in the contract.
 
 <div class="text-center align-content-center mb-3">
-<a href="#{{ 'Transformative Publishing Agreements FAQ' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-2"><span class="fas fa-question"></span> FAQ</a>
 <a href="#{{ 'Current Read and Publish Agreements' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-2"><span class="fas fa-list"></span> Current Agreements</a>
+<a href="#{{ 'Transformative Publishing Agreements FAQ' | slugify }}" class="btn btn-outline-pride-gold btn-sm my-2"><span class="fas fa-question"></span> FAQ</a>
 </div>
+
+-------
+
+## Current Read and Publish Agreements
+
+- [Cambridge University Press]({{ '/services/agreements/cambridge.html' | relative_url }})
+- [Company of Biologists]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
+- [Elsevier]({{ '/services/agreements/elsevier.html' | relative_url }})
 
 -------
 
@@ -45,10 +53,3 @@ Any open access article published under a read and publish agreement is paid for
 A publish and read agreement is another type of transformative agreement where only open access publishing fees (APCs) are included in the contract; reading subscription-based articles is included at no additional charge.
 
 {% include feature/alert.html text="Do you have a suggestion for a Transformative Publishing Agreement? Email Jessica Martinez at <jessicamartinez@uidaho.edu>" align="center" color="info" %}
-
--------------
-
-## Current Read and Publish Agreements
-
-- [Elsevier]({{ '/services/agreements/elsevier.html' | relative_url }})
-- [Company of Biologists]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
