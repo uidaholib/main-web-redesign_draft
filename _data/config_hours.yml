@@ -53,18 +53,18 @@ breaks:
 #    sat: "Open 12pm &#8211; 6pm"
 #    sun: "Open 12pm &#8211; 6pm"       
   # spring break
-  - start: "2022-03-12"
-    end: "2022-03-19"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm" 
+#  - start: "2022-03-12"
+#    end: "2022-03-19"
+#    mon: "Open 8am &#8211; 6pm"
+#    tue: "Open 8am &#8211; 6pm"
+#    wed: "Open 8am &#8211; 6pm"
+#    thu: "Open 8am &#8211; 6pm"
+#    fri: "Open 8am &#8211; 6pm"
+#    sat: "Open 12pm &#8211; 6pm"
+#    sun: "Open 12pm &#8211; 6pm" 
  # summer break
-  - start: "2021-05-16"
-    end: "2021-08-22"
+  - start: "2022-05-15"
+    end: "2022-08-20"
     mon: "Open 8am &#8211; 8pm"
     tue: "Open 8am &#8211; 8pm"
     wed: "Open 8am &#8211; 8pm"
@@ -91,5 +91,5 @@ specials:
 # 
 ####
 closed:
-  dates: [ "2021-09-06","2021-12-24","2021-12-25","2021-12-26","2021-12-27","2021-12-28","2021-12-29","2021-12-30","2021-12-31","2022-01-01"]
+  dates: [ "2022-05-30","2022-06-19","2022-06-20","2022-07-04"]
   message: "Closed"
