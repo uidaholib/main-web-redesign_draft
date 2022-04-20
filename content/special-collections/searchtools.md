@@ -8,7 +8,7 @@ chat-widget-spec: true
 
 Use these tools to discover finding aids, collections, and items in Special Collections.
 
-{% assign tools = site.data.spec_searchtools %}
+{% assign tools = site.data.spec_searchtools | sort: 'title' %}
 
 <div class="row py-3 justify-content-center">
 {% for t in tools %}
