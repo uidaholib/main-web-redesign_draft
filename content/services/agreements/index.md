@@ -52,4 +52,4 @@ Any open access article published under a read and publish agreement is paid for
 
 A publish and read agreement is another type of transformative agreement where only open access publishing fees (APCs) are included in the contract; reading subscription-based articles is included at no additional charge.
 
-{% include feature/alert.html text="Do you have a suggestion for a Transformative Publishing Agreement? Email Jessica Martinez at <jessicamartinez@uidaho.edu>" align="center" color="info" %}
+{% include feature/alert.html text="Do you have questions or a suggestion for a Transformative Publishing Agreement? Email Samantha Thompson-Franklin at <sthompsonfranklin@uidaho.edu>" align="center" color="info" %}
