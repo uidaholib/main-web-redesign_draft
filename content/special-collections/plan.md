@@ -111,7 +111,8 @@ Our materials and our Reading Room are available to everyone! There are two ways
     <div class="card">
         <div class="card-body">
           <h3>Open Hours</h3>
-          <p>Tuesday - Friday between 10:00am to 2:00pm in the Reading Room on the Library's <a href=" {{ '/about/maps.html#lg=1&slide=0' | relative_url }}">first floor</a>.</p>
+          <p>Semester hours are Tuesday - Friday between 10:00am to 2:00pm in the Reading Room on the Library's <a href=" {{ '/about/maps.html#lg=1&slide=0' | relative_url }}">first floor</a>.</p>
+          <p>During the summer the Reading Room is open by appointment only.</p>
           <p>Everyone is welcome to come in and view materials! </p>
         </div>
     </div>
