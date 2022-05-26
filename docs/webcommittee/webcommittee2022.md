@@ -2,29 +2,43 @@
 
 ## June Meeting
 
-> 2022-06-02, Zoom
+> 2022-06-02, 1pm, Zoom
+
+All library folks are invited to join Web Committee 2022 first meeting. We will review what has happened in the last year, follow up on previous discussions, look at potential future projects, and have open discussion for feedback, ideas, and strategies.
 
 ### 2021/22 Review and Updates
 
-Major projects:
+Projects:
 
+- [Publishing Agreements](https://www.lib.uidaho.edu/services/agreements/) (Jylisa, Jessica, Evan, others)
+- [IDEA section refining](https://www.lib.uidaho.edu/about/dei.html) (Olivia, Michelle)
 - New footer (ideas from IDEA committee, follow up from web committee feedback, Olivia, Evan)
+- Back to the top button (at bottom of every page)
+- Removing Covid sections and modifications (reopen room bookings, remove alerts, moving relevant content into new permanent homes, Updates section)
+- [Studio pages](https://www.lib.uidaho.edu/studio/) + ["Loanable Equipment"](https://www.lib.uidaho.edu/studio/loanable.html) (Hanwen)
 - VPOD brute force login attack (week of sustained traffic shut down our server until we managed to get it mitigated)
 - "Featured Subject Librarian" replaces featured researcher on home page
 - ["Updates" page](https://www.lib.uidaho.edu/about/updates.html), created from collection of markdown stubs. Actual regular update announcements! (follow up from last years discussion)
+- [Work with Us](https://www.lib.uidaho.edu/opportunities/) / Fellowships (Devin)
 - LibGuides Party (Perri)
 
 New content:
 
-- distance ed --> off campus access
-- studio pages with Hanwen
-- workshops iCal import to university calendar 
-- ebook guide migrate to website
+- Style clean up, "SPEC" to "Spec"; "UI" to "U of I"
+- [microfilm list table](https://www.lib.uidaho.edu/find/microfilm.html)
+- draft [DataHub](https://www.lib.uidaho.edu/datahub/)
+- distance ed --> off campus access (re committee discussions)
+- OAPF updates (Jylisa)
+- Spec research lists updates, hist-photo
+- update [LC book locations](https://www.lib.uidaho.edu/find/lc.html)
+- [Finding ebooks](https://www.lib.uidaho.edu/find/ebooks.html) - ebook guide migrate to website (Rami)
 - new instruction modules to web
-- tweak libapps template + add chat
-- CDL updates to reserves
-- Book request form to resource request form 
-- PrimoVE links find and replace 
+- Updates to Spec pages (Michelle, Olivia)
+- Update libapps template + add chat
+- [Tech page](https://www.lib.uidaho.edu/about/tech.html)
+- Streaming video clean up
+- Reserves updates - CDL, Leganto, BBLearn to Canvas
+- Book request --> Purchase request form, more visible, guidelines (Rami)
 
 New digital collections:
 
@@ -41,6 +55,7 @@ Stats:
 
 - 2021-06-01 - 2022-05-26: 477 commits, 109,773 lines of code changed.
 - Direct contributors: Evan, Jylisa, Olivia, Hanwen, Michelle, Devin, Bruce.
+- Tons of people sending in updates, tweaks, edits (Kelly, Kristin, Rami, others)
 - <https://github.com/uidaholib/main-web-redesign_draft/graphs/contributors>
 
 Analytics notes:
