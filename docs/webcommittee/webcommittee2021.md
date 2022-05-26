@@ -116,3 +116,65 @@ Possible sprint topic areas:
     - [Data management](https://github.com/uidaholib/main-web-redesign_draft/issues/468)) - Jeremy
 - [Update Studio pages](https://github.com/uidaholib/main-web-redesign_draft/issues/470) 
     - Hanwen et al. working on scholarship looking at other sites for ideas. 
+
+----------
+
+## Summer Sprint Meetings
+
+Each sprint meeting is intended to be a short, focused session looking at a specific topic on the library website. 
+Hopefully this will provide opportunity to gather ideas, feedback, and move some projects forward. 
+Feel free to join any that interest you!
+
+### Profiles
+
+> July 8, 1:30pm
+
+Enhance, rethink directory pages -- the website has contact information with library folks in a wide variety of forms, how can we streamline and clarify this to get users to contacts they need quickly. Explore possibility of faculty profile pages (mirroring main UofI site), normalized titles, pronouns, and pronunciation helpers.
+
+- CV link?
+- office
+- liaisons to services? yes in server nav
+- directory by department
+- divide by faculty staff vs deparment? --> by department
+- pronouns - inline with name, small font, in ()
+- pronoucation helper
+- explore meta tags for contacts
+
+- index of people by department
+- departments page - to data?
+- options for recording voice - windows "voice recorder"
+
+Examples: 
+
+- https://www.uidaho.edu/class/music/faculty/music-education
+- https://www.uidaho.edu/class/music/faculty/brass/sean-butterfield
+- https://www.uidaho.edu/cbe/our-people/accounting-faculty/lei-dong
+- https://www.uidaho.edu/caa/programs/interior-architecture-and-design/our-people/miranda-anderson
+- https://library.kzoo.edu/about/staff/
+
+https://github.com/uidaholib/main-web-redesign_draft/issues/466
+
+### Workshop Resources Enhance
+
+> July 15, 1:30pm
+
+Enhance workshop resources pages -- now that we have *a lot* of content on the workshop resources page, how can we make it more useable, better highlight video tutorials, and potentially connect with Instruction pages and curated Guides? 
+
+- Workshop resources enhancements, https://github.com/uidaholib/main-web-redesign_draft/issues/455
+- Topics of instruction suggest something new, https://github.com/uidaholib/main-web-redesign_draft/issues/469
+
+- label "Resources" does that make sense?
+    - "training", "materials"
+- types of resources
+    - video, playlist, session recording, website, slides, handouts
+    - record for series? GSE
+    - do we want to include curated Guides?
+    - categories / subjects / tags? (GSE?) --> match up to Topics of Instruction
+    - include external training sources (endnote, WoS, ArcGIS)  
+        - helpful to curate, but maybe better some where else?
+- randomize display?
+- should profile pages pull in listings of resources?
+
+- profiles link to workshop resources and topics of instructions
+- suggestion something new, different form, pretty open ended
+- dropdown on topics of instruction, too long complicated
