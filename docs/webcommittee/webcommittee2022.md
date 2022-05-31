@@ -56,6 +56,7 @@ New digital collections:
 - [Leo Ames Papers](https://www.lib.uidaho.edu/digital/ames/)
 - [Richard W. Dodson Collection of Science Fiction](https://www.lib.uidaho.edu/digital/dodson/)
 - [Camas Prairie Railroad Time Tables](https://www.lib.uidaho.edu/digital/cprr/)
+- [Harry Webb Marsh Collection](https://www.lib.uidaho.edu/digital/marsh/)
 
 Stats:
 
