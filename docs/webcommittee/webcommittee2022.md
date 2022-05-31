@@ -10,15 +10,15 @@ All library folks are invited to join Web Committee 2022 first meeting. We will 
 
 Projects:
 
-- [Publishing Agreements](https://www.lib.uidaho.edu/services/agreements/) (Jylisa, Jessica, Evan, others)
-- [IDEA section refining](https://www.lib.uidaho.edu/about/dei.html) (Olivia, Michelle)
-- New footer (ideas from IDEA committee, follow up from web committee feedback, Olivia, Evan)
-- Back to the top button (at bottom of every page)
-- Removing Covid sections and modifications (reopen room bookings, remove alerts, moving relevant content into new permanent homes, Updates section)
-- [Studio pages](https://www.lib.uidaho.edu/studio/) + ["Loanable Equipment"](https://www.lib.uidaho.edu/studio/loanable.html) (Hanwen)
-- VPOD brute force login attack (week of sustained traffic shut down our server until we managed to get it mitigated)
-- "Featured Subject Librarian" replaces featured researcher on home page
+- More [IDEA section refining](https://www.lib.uidaho.edu/about/dei.html) (Olivia, Michelle)
+- Final removing Covid sections and modifications (reopen room bookings, remove alerts, moving relevant content into new permanent homes, Updates section)
 - ["Updates" page](https://www.lib.uidaho.edu/about/updates.html), created from collection of markdown stubs. Actual regular update announcements! (follow up from last years discussion)
+- New footer (ideas from IDEA committee, follow up from web committee feedback, Olivia, Evan)
+- "Featured Subject Librarian" replaces featured researcher on home page
+- Back to the top button (at bottom of every page)
+- [Publishing Agreements](https://www.lib.uidaho.edu/services/agreements/) (Jylisa, Jessica, Evan, others)
+- Updated [Studio pages](https://www.lib.uidaho.edu/studio/) + ["Loanable Equipment"](https://www.lib.uidaho.edu/studio/loanable.html) (Hanwen)
+- VPOD brute force login attack (week of sustained traffic shut down our server until we managed to get it mitigated)
 - [Work with Us](https://www.lib.uidaho.edu/opportunities/) / Fellowships (Devin)
 - LibGuides Party (Perri)
 
@@ -26,19 +26,20 @@ New content:
 
 - Style clean up, "SPEC" to "Spec"; "UI" to "U of I"
 - [microfilm list table](https://www.lib.uidaho.edu/find/microfilm.html)
-- draft [DataHub](https://www.lib.uidaho.edu/datahub/)
+- draft [DataHub](https://www.lib.uidaho.edu/datahub/) (Jeremy)
 - distance ed --> off campus access (re committee discussions)
 - OAPF updates (Jylisa)
-- Spec research lists updates, hist-photo
+- Spec research lists updates, hist-photo (Michelle, Amy, Courtney)
 - update [LC book locations](https://www.lib.uidaho.edu/find/lc.html)
 - [Finding ebooks](https://www.lib.uidaho.edu/find/ebooks.html) - ebook guide migrate to website (Rami)
 - new instruction modules to web
 - Updates to Spec pages (Michelle, Olivia)
-- Update libapps template + add chat
-- [Tech page](https://www.lib.uidaho.edu/about/tech.html)
-- Streaming video clean up
-- Reserves updates - CDL, Leganto, BBLearn to Canvas
-- Book request --> Purchase request form, more visible, guidelines (Rami)
+- Add active chat to LibApps (Jessica M)
+- Update LibApps template (Evan)
+- [Tech page](https://www.lib.uidaho.edu/about/tech.html) (Evan)
+- Streaming video clean up (Rami)
+- Reserves updates - CDL, Leganto, BBLearn to Canvas (Kelly, Kristin)
+- Book request --> Purchase request form, more visible, guidelines (Rami, re Faculty meeting discussion)
 
 New digital collections:
 
@@ -78,7 +79,8 @@ Web archive:
 
 Discussion:
 
-- PrimoVE launch
+- PrimoVE launch, lots of links to replace!
 - Library re-org --> website re-org
-- Open pages
+- Open pages re-org
 - Main U of I site changing platforms and redesign coming... 
+- Directories and profile pages
