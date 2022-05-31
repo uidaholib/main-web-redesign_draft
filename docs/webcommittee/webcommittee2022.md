@@ -50,6 +50,12 @@ New digital collections:
 - [Idaho Bach Festival Archive](https://www.lib.uidaho.edu/digital/bach-festival/) (with Miranda Wilson) 
 - [Black History at U of I](https://www.lib.uidaho.edu/blackhistory/) (with BHRL)
 - [Ella Fitzgerald Collection](https://www.lib.uidaho.edu/blackhistory/) (with Destiny Angel-Hubble, 2021 Berry International Jazz Fellow)
+- [Campus Artwork](https://www.lib.uidaho.edu/digital/campusart/)
+- [George W. Tabor Photographs](https://www.lib.uidaho.edu/digital/tabor/)
+- [Hal Riegger Papers](https://www.lib.uidaho.edu/digital/riegger/)
+- [Leo Ames Papers](https://www.lib.uidaho.edu/digital/ames/)
+- [Richard W. Dodson Collection of Science Fiction](https://www.lib.uidaho.edu/digital/dodson/)
+- [Camas Prairie Railroad Time Tables](https://www.lib.uidaho.edu/digital/cprr/)
 
 Stats:
 
