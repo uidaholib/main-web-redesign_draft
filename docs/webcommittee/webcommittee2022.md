@@ -8,7 +8,7 @@ All library folks are invited to join Web Committee 2022 first meeting. We will 
 
 ### 2021/22 Review and Updates
 
-Projects:
+Some 2021/22 Projects:
 
 - More [IDEA section refining](https://www.lib.uidaho.edu/about/dei.html) (Olivia, Michelle)
 - Final removing Covid sections and modifications (reopen room bookings, remove alerts, moving relevant content into new permanent homes, Updates section)
@@ -22,7 +22,7 @@ Projects:
 - [Work with Us](https://www.lib.uidaho.edu/opportunities/) / Fellowships (Devin)
 - LibGuides Party (Perri)
 
-New content:
+Some other new content in 2021/22:
 
 - Style clean up, "SPEC" to "Spec"; "UI" to "U of I"
 - [microfilm list table](https://www.lib.uidaho.edu/find/microfilm.html)
@@ -41,7 +41,7 @@ New content:
 - Reserves updates - CDL, Leganto, BBLearn to Canvas (Kelly, Kristin)
 - Book request --> Purchase request form, more visible, guidelines (Rami, re Faculty meeting discussion)
 
-New digital collections:
+New digital collections in 2021/22:
 
 - [HWHI Archive](https://www.lib.uidaho.edu/digital/hwhi/) (with Sean Williams)
 - [LRCDP collection](https://www.lib.uidaho.edu/digital/lrcdp/) (with Brian Kelly, Ann Ulliman)
@@ -77,10 +77,16 @@ Web archive:
 
 > Present: 
 
-Discussion:
+News items:
 
 - PrimoVE launch, lots of links to replace!
+- Main U of I site changing platforms and redesign coming... 
+
+Discussion:
+
+- Directories and profile pages
+
+Future projects:
+
 - Library re-org --> website re-org
 - Open pages re-org
-- Main U of I site changing platforms and redesign coming... 
-- Directories and profile pages
