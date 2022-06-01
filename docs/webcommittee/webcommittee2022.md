@@ -50,7 +50,7 @@ New digital collections in 2021/22:
 - [Main Street Video](https://www.lib.uidaho.edu/digital/mainstreet/)
 - [Idaho Bach Festival Archive](https://www.lib.uidaho.edu/digital/bach-festival/) (with Miranda Wilson) 
 - [Black History at U of I](https://www.lib.uidaho.edu/blackhistory/) (with BHRL)
-- [Ella Fitzgerald Collection](https://www.lib.uidaho.edu/blackhistory/) (with Destiny Angel-Hubble, 2021 Berry International Jazz Fellow)
+- [Ella Fitzgerald Collection](https://www.lib.uidaho.edu/digital/ella-fitzgerald/) (with Destiny Angel-Hubble, 2021 Berry International Jazz Fellow)
 - [Campus Artwork](https://www.lib.uidaho.edu/digital/campusart/)
 - [George W. Tabor Photographs](https://www.lib.uidaho.edu/digital/tabor/)
 - [Hal Riegger Papers](https://www.lib.uidaho.edu/digital/riegger/)
