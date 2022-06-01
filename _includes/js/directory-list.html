@@ -1,6 +1,7 @@
 <script src="{{ '/assets/js/list.min.js' | relative_url }}"></script>
 <script>
     /* Fisher-Yates shuffle https://bost.ocks.org/mike/shuffle/ */
+    /*
     function shuffle(array) {
         var m = array.length, t, i;
         while (m) {
@@ -11,6 +12,7 @@
         }
         return array;
     }
+    */
     // add items
     var listDocs = [
         // id,last_name,first_name,pronouns,title,rank,status,department,office,email,phone,liaison_title,liaison_college,liaison_departments,vivo_id,cv_filename,image,image_small,image_thumb,pronunciation_audio,headshot
@@ -28,7 +30,7 @@
         {% endfor %}
     ];
     // shuffle items
-    shuffle(listDocs);
+    //shuffle(listDocs);
 
     // setup list.js options and item template
     var listOptions = {
@@ -69,6 +71,7 @@
     var filterRadios = document.querySelectorAll('input[name="filterRadio"]');
     filterRadios.forEach(radio => radio.addEventListener('click', filterByType));
     
+    /*
     // add random shuffle
     function shuffleList() {
         shuffle(listDocs);
@@ -79,6 +82,7 @@
     }
     var shuffleListBtn = document.getElementById("list_shuffle");
     shuffleListBtn.addEventListener("click", shuffleList);
+    */
 
     /* get query string */
     document.addEventListener('DOMContentLoaded', function(event) {

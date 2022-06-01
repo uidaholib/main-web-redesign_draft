@@ -9,28 +9,37 @@ custom-foot: js/directory-list.html
 <div id="documentList">
     <div class="input-group mb-3">
         <input type="text" id="listSearch" class="form-control form-control-lg search" aria-label="Text input to filter list" placeholder="Filter...">
-        <button class="btn btn-lg btn-outline-secondary dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseListOptions" aria-expanded="false" aria-controls="collapseListOptions">options</button>
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseListOptions" aria-expanded="false" aria-controls="collapseListOptions">Options</button>
+        </div>
         <div class="collapse w-100" id="collapseListOptions">
             <div class="card card-body">
-                <p>Sort by:</p>
-                <p>
-                    <input type="radio" class="btn-check" name="sort_list" id="list_shuffle" autocomplete="off" checked>
-                    <label class="btn btn-outline-info m-1" for="list_shuffle">Random</label>
-                    <input type="radio" class="btn-check sort" name="sort_list" id="list_title" autocomplete="off" data-sort="name">
-                    <label class="btn btn-outline-info m-1" for="list_title">Name</label>
-                    <input type="radio" class="btn-check sort" name="sort_list" id="list_type" autocomplete="off" data-sort="department">
-                    <label class="btn btn-outline-info m-1" for="list_type">Department</label>
-                </p>
-                <p>View item types:</p>
-                <p>
-                    <input type="radio" class="btn-check" name="filterRadio" id="filter-all" autocomplete="off" value="show-all" checked>
-                    <label class="btn btn-outline-primary m-1" for="filter-all">All</label>
-                    {% assign types = site.data.about_people | map: 'department' | compact | uniq %}
+                <div>Sort by:</div>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-info m-1 active" for="list_title">
+                        <input type="radio" class="sort" name="sort_list" id="list_title" autocomplete="off" data-sort="name" checked>
+                        Name
+                    </label>
+                    <label class="btn btn-outline-info m-1" for="list_type">
+                        <input type="radio" class="sort" name="sort_list" id="list_type" autocomplete="off" data-sort="department">
+                        Department
+                    </label>
+                </div>
+                <div>View Department:</div>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                    
+                    <label class="btn btn-outline-primary m-1" for="filter-all">
+                        <input type="radio" class="btn-check" name="filterRadio" id="filter-all" autocomplete="off" value="show-all" checked>
+                        All
+                    </label>
+                    {% assign types = site.data.about_people | map: 'department' | compact | uniq | sort %}
                     {% for t in types %}
-                    <input type="radio" class="btn-check" name="filterRadio" id="filter-{{ t | slugify }}" autocomplete="off" value="{{ t }}">
-                    <label class="btn btn-outline-primary m-1" for="filter-{{ t | slugify }}">{{ t }}</label>
+                    <label class="btn btn-outline-primary m-1" for="filter-{{ t | slugify }}">
+                        <input type="radio" class="btn-check" name="filterRadio" id="filter-{{ t | slugify }}" autocomplete="off" value="{{ t }}">
+                        {{ t }}
+                    </label>
                     {% endfor %}
-                </p>
+                </div>
             </div>
         </div>
     </div>
