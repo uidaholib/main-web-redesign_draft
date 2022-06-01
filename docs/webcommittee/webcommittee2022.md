@@ -57,6 +57,7 @@ New digital collections in 2021/22:
 - [Leo Ames Papers](https://www.lib.uidaho.edu/digital/ames/)
 - [Richard W. Dodson Collection of Science Fiction](https://www.lib.uidaho.edu/digital/dodson/)
 - [Harry Webb Marsh Collection](https://www.lib.uidaho.edu/digital/marsh/)
+- [Camas Prairie Railroad Time Tables](https://www.lib.uidaho.edu/digital/camasrailroad/)
 
 Stats:
 
