@@ -34,18 +34,17 @@
 
     // setup list.js options and item template
     var listOptions = {
-        valueNames: [ 
-            'name',
-            'title',
-            'department'
-        ],
         item: function(values) {
             var card = `<div class="col">
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h3 class="card-title"><a class="name" href="{{ '/about/people/' | relative_url }}${values.id}.html">${values.name}</a></h3>
-                        <p class="card-text"><strong class="title">${values.title}</strong></p>
-                        <p class="card-text"><span class="department">${values.department}</span></p>
+                        <h3 class="card-title h4"><a href="{{ '/about/people/' | relative_url }}${values.id}.html">${values.name}</a> — <small>${values.title}</small></h3>
+                        <ul>
+                            ${ values.rank ? '<li><span class="">' + values.rank + '</span></li>' : '' }
+                            <li>department: ${values.department}</li>
+                            <li>email: <a href="mailto:${values.email}">${values.email}</a></li>
+                            <li>phone: ${values.phone}</li>
+                        </ul>
                     </div>
                 </div>
             </div>`;
