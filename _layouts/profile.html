@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% capture full_name %}{{ page.first_name }} {{ page.last_name }}{% endcapture %}
+<div class="container-fluid pt-2 pb-1" id="page-title">
+    <div class="container">
+        <h2>People</h2>
+    </div>
+</div>
+<div class="split-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-8 px-0">
+                <!-- page nav button -->
+                <button id="mobilePageNav" class="btn btn-secondary d-md-none col-sm-12 px-0 rounded-0" type="button">
+                    MENU <span class="fas fa-chevron-down"></span>
+                </button>
+                <!-- page nav / sidebar -->
+                {% include people-nav.html %}
+
+            </div>
+            <div class="col-4 px-0 d-block d-md-none">
+                <!-- ask us button -->
+                <button id="askUsButtonMobile" class="btn btn-pride-gold d-md-none col-sm-12 px-0 rounded-0" type="button" data-toggle="modal" data-target="#askUsModal">
+                Ask Us</button>
+            </div>
+            <!-- page -->
+            <div class="page-block col-md-9 col-xs-12">
+
+                <div class="py-2 pl-md-5">
+                    <!-- bread crumbs -->
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="{{ '/' | relative_url }}"><span class="fas fa-home"></span><span class="sr-only">Home</span></a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="{{ '/about/directory.html' | relative_url }}">People</a>
+                        </li>
+                        <li class="breadcrumb-item active">{{ full_name }}</li>
+                    </ul>
+                    <!-- breadcrumbs schema -->
+                    <script type="application/ld+json">{"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "item": { "@id": "{{ "/" | absolute_url }}", "name": "{{ site.title }}", "image": "{{ '/images/ui_library_horizontal.png' | prepend: site.lib-media }}" } },{ "@type": "ListItem", "position": 2, "item": { "@id": "{{ '/about/directory.html' | absolute_url }}", "name": "People" } },{ "@type": "ListItem", "position": 3, "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ full_name }}", "image": "{{ site.lib-media }}/headshots/{{ page.image }}" } }] }</script>
+                    <!-- page content -->
+                    <main id="maincontent" role="main">
+                        <h1>{{ full_name }} {% if page.pronouns or page.pronunciation_audio %}<small>{% if page.pronouns %} ({{ page.pronouns }}) {% endif %}{% if page.pronunciation_audio %}<span ></span>{% endif %}</small>{% endif %}</h1>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="h3">{{ page.title }}</p>
+                                {% if page.liaison_title %}<p class="h4">{{ page.liaison_title }}</p>{% endif %}
+                                <p class="h4">{{ page.rank }}</p>
+                                <hr>
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td>email</td>
+                                            <td><a href="mailto:{{ page.email }}">{{ page.email }}</a></td>
+                                        </tr>
+                                        {% if page.phone %}<tr>
+                                            <td>phone</td>
+                                            <td>{{ page.phone }}</td>
+                                        </tr>{% endif %}
+                                        {% if page.office %}<tr>
+                                            <td>office</td>
+                                            <td>{{ page.office }}</td>
+                                        </tr>{% endif %}
+                                        <tr>
+                                            <td>department</td>
+                                            <td>{{ page.department }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>mailing address</td>
+                                            <td>University of Idaho Library<br>
+                                                875 Perimeter Drive MS 2350<br> Moscow, ID 83844-2350</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="text-center">
+                                    {% if page.vivo_id %}<a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ page.vivo_id }}" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">View VIVO profile</a>{% endif %}
+                                    {% if page.cv_filename %}<a href="{{ page.cv_filename }}" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Curriculum Vitae</a>{% endif %}
+
+                                </p>
+                            </div>
+                            <div class="col-md-3 p-4">
+                                <img src="{{ site.lib-media }}/headshots/{{ page.headshot | default: 'tower_icon_gold.png' }}" class="img-fluid" alt="portrait of {{ full_name }}">
+                            </div>
+
+                        </div>
+                        
+                    </main>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
