@@ -18,9 +18,9 @@ Some 2021/22 Projects:
 - Back to the top button (at bottom of every page)
 - [Publishing Agreements](https://www.lib.uidaho.edu/services/agreements/) (Jylisa, Jessica, Evan, others)
 - Updated [Studio pages](https://www.lib.uidaho.edu/studio/) + ["Loanable Equipment"](https://www.lib.uidaho.edu/studio/loanable.html) (Hanwen)
-- VPOD brute force login attack (week of sustained traffic shut down our server until we managed to get it mitigated)
 - [Work with Us](https://www.lib.uidaho.edu/opportunities/) / Fellowships (Devin)
 - LibGuides Party (Perri)
+- VPOD brute force login attack (week of sustained traffic shut down our server until we managed to get it mitigated, lots of work with Reclaim Host sys admins)
 
 Some other new content in 2021/22:
 
@@ -71,6 +71,7 @@ Analytics notes:
 - 04-01-2021 - 04-01-2022 vs 04-01-2020 - 04-01-2021:
     - very large spike 05-2021 - 06-2021... accompanied by 83,036% spike in users from Indonesia (63,000 more visitors than usual).
     - outside of suspicious spike, very close to the same.
+    - following long term trend of 1% less desktop, 1% more mobile users.
 
 Web archive:
 
@@ -79,18 +80,31 @@ Web archive:
 
 ### Discussion, Ideas, Feedback
 
-> Present: 
+> Present: Wikle, Williamson, Doney, Attebury, Kenyon, Kersting-Lark, Thompson, Dobbins, Martinez, and Thompson-Franklin.
 
 News items:
 
 - PrimoVE launch, lots of links to replace!
 - Main U of I site changing platforms and redesign coming... 
 
-Discussion:
-
-- Directories and profile pages
-
 Future projects:
 
 - Library re-org --> website re-org
-- Open pages re-org
+    - Open pages re-org email discussion chain.
+    - Hold off on major projects until more clarity on library re-org, since the website reflects our focus areas and organization. (group says yes!)
+
+Discussion:
+
+- Directories 
+    - pronouns on directory? --> clutter table, but fine on cards
+    - headshots on directory? --> no, too much clutter and too many non-photos
+    - give names: "last, first" or "first last"? --> keep "last, first". sorting is too confusing other way.
+    - table vs. card list -->
+        - table is compact, information dense. less mobile friendly.
+        - cards require more scrolling, more mobile friendly, more "modern" look. 
+        - people still like table, but also understand mobile friendly-ness of cards... 
+- Profile pages
+    - update options with form
+    - not a lot of interest in adding more content beyond basics
+    - headshots to square 
+    - "Full Professor" should be "Professor"
