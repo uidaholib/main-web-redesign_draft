@@ -13,7 +13,7 @@
             {% if i.rank %}rank: {{ i.rank | jsonify }},{% endif %}
             {% if i.liaison_title %}liaison: {{ i.liaison_title | jsonify }},{% endif %}
             {% if i.liaison_departments %}subject: {{ i.liaison_departments | split: ";" | jsonify }},{% endif %}
-            status: "{{ i.status }}",
+            status: {{ i.status | split: ";" | jsonify }},
             department: "{{ i.department }}", 
             email: "{{ i.email }}",
             phone: "{{ i.phone }}",
