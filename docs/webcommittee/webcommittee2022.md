@@ -96,15 +96,19 @@ Future projects:
 Discussion:
 
 - Directories 
+    - examples: [UNT libraries](https://library.unt.edu/people/), [U of Arkansas](https://libraries.uark.edu/about/personnel/). Lots of anti-examples...
+    - want to avoid un-useability of U of I department directories, and many other libraries. Provide info in heads up, easy to browse and access way. 
+    - table vs. card list -->
+        - table is compact, information dense. but less mobile friendly.
+        - cards more "modern" look, more mobile friendly, but require more scrolling.
+        - people still like table, but also understand mobile friendly-ness of cards... 
     - pronouns on directory? --> clutter table, but fine on cards
     - headshots on directory? --> no, too much clutter and too many non-photos
     - give names: "last, first" or "first last"? --> keep "last, first". sorting is too confusing other way.
-    - table vs. card list -->
-        - table is compact, information dense. less mobile friendly.
-        - cards require more scrolling, more mobile friendly, more "modern" look. 
-        - people still like table, but also understand mobile friendly-ness of cards... 
 - Profile pages
-    - update options with form
-    - not a lot of interest in adding more content beyond basics
+    - modeled on main U of I examples ([Sean](https://www.uidaho.edu/class/music/faculty/brass/sean-butterfield), [Vanessa](https://www.uidaho.edu/class/music/faculty/woodwind/vanessa-sielert), [Dev](https://www.uidaho.edu/engr/departments/chbe/our-people/faculty/dev-shrestha)), but less clutter.
+    - options for pronouns and pronunciation audio (re: last years web committee and IDEA committee). 
+    - update options with form to streamline updates
+    - any additional features or content? --> not a lot of interest in adding more content beyond basics
     - headshots to square 
     - "Full Professor" should be "Professor"
