@@ -9,6 +9,7 @@ custom-foot: js/directory-list.html
 <div id="documentList" class="row">
     <div class="col-md-4 order-md-2 mb-3">
         <input type="text" id="listSearch" class="form-control form-control-lg search mb-3" aria-label="Text input to filter list" placeholder="Search...">
+        <!--
         <p class="mb-0"><strong>Department:</strong></p>
         <div class="btn-group-toggle mb-2" data-toggle="buttons">
             <label class="btn btn-sm btn-outline-clearwater m-1" for="filter-all">
@@ -22,25 +23,25 @@ custom-foot: js/directory-list.html
                 {{ t }}
             </label>
             {% endfor %}
-        </div>
+        </div>-->
 
-        <select class="custom-select mb-2 border-pride-gold" aria-label="Filter list by Department">
+        <select id="departmentSelect" name="department" data-field="department" class="custom-select mb-2 filter-option border-pride-gold" aria-label="Filter list by Department">
             <option value="show-all" selected>Filter by Department</option>
             {% assign departments = site.data.about_people | map: 'department' | compact | uniq | sort %}
             {% for d in departments %}
             <option value="{{ d }}">{{ d }}</option>
             {% endfor %}
         </select>
-        <select class="custom-select mb-2" aria-label="Filter list by Position/Role">
-            <option selected>Filter by Position/Role</option>
+        <select id="statusSelect" name="status" data-field="status" class="custom-select mb-2 filter-option" aria-label="Filter list by Position/Role">
+            <option value="show-all" selected>Filter by Position/Role</option>
             {% assign status = site.data.about_people | map: 'status' | compact | uniq | sort %}
             {% for s in status %}
             <option value="{{ s }}">{{ s }}</option>
             {% endfor %}
         </select>
-        <select class="custom-select mb-2" aria-label="Filter list by Subject Area">
-            <option selected>Filter by Subject Liaison</option>
-            {% assign subjects = site.data.about_people | map: 'liaison_departments' | join: ";" | split: ";" | compact | uniq | sort %}
+        <select id="subjectSelect" name="subject" data-field="subject" class="custom-select mb-2 filter-option" aria-label="Filter list by Subject Area">
+            <option value="show-all" selected>Filter by Subject Liaison</option>
+            {% assign subjects = site.data.about_people | map: 'liaison_departments' | compact | join: ";" | split: ";" | uniq | sort %}
             {% for l in subjects %}
             <option value="{{ l }}">{{ l }}</option>
             {% endfor %}

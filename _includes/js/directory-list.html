@@ -24,6 +24,8 @@
             title: {{ i.title | jsonify }}, 
             {% if i.rank %}rank: {{ i.rank | jsonify }},{% endif %}
             {% if i.liaison_title %}liaison: {{ i.liaison_title | jsonify }},{% endif %}
+            {% if i.liaison_departments %}subject: {{ i.liaison_departments | split: ";" | jsonify }},{% endif %}
+            status: "{{ i.status }}",
             department: "{{ i.department }}", 
             email: "{{ i.email }}",
             phone: "{{ i.phone }}",
@@ -58,6 +60,7 @@
     // init list.js
     var documentList = new List('documentList', listOptions, listDocs);
 
+    /*
     // setup filter function
     function filterByType() {
         var filterType = document.querySelector('input[name="filterRadio"]:checked').value;
@@ -72,6 +75,24 @@
     // add filters to radio
     var filterRadios = document.querySelectorAll('input[name="filterRadio"]');
     filterRadios.forEach(radio => radio.addEventListener('click', filterByType));
+*/
+
+    function filterByValue(field, option) {
+        if (option == "show-all") {
+            documentList.filter();
+        } else {
+            documentList.filter(function(item) { 
+                if (item.values()[field] == option) { return true; } else { return false } 
+            });
+        }
+    }
+
+    var filterSelects = document.querySelectorAll(".filter-option");
+    filterSelects.forEach( s => { 
+        s.addEventListener('change', (event) => {
+            filterByValue(s.dataset.field,event.target.value);
+        });
+    });
     
     /*
     // add random shuffle
