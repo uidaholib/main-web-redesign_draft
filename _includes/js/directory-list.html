@@ -23,6 +23,7 @@
             name: "{{ i.last_name }}, {{ i.first_name }}", 
             title: {{ i.title | jsonify }}, 
             {% if i.rank %}rank: {{ i.rank | jsonify }},{% endif %}
+            {% if i.liaison_title %}liaison: {{ i.liaison_title | jsonify }},{% endif %}
             department: "{{ i.department }}", 
             email: "{{ i.email }}",
             phone: "{{ i.phone }}",
@@ -35,15 +36,17 @@
     // setup list.js options and item template
     var listOptions = {
         item: function(values) {
-            var card = `<div class="col">
+            var card = `<div class="">
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h3 class="card-title h4"><a href="{{ '/about/people/' | relative_url }}${values.id}.html">${values.name}</a> — <small>${values.title}</small></h3>
+                        <h3 class="card-title h4 mb-0"><a href="{{ '/about/people/' | relative_url }}${values.id}.html">${values.name}</a></h3>
+                        <p>${values.title}</p>
                         <ul>
-                            ${ values.rank ? '<li><span class="">' + values.rank + '</span></li>' : '' }
-                            <li>department: ${values.department}</li>
+                            ${ values.liaison ? '<li><strong>' + values.liaison + '</strong></li>' : '' }
+                            ${ values.rank ? '<li><strong>' + values.rank + '</strong></li>' : '' }
+                            <li>department: <strong>${values.department}</strong></li>
                             <li>email: <a href="mailto:${values.email}">${values.email}</a></li>
-                            <li>phone: ${values.phone}</li>
+                            <li>phone: <strong>${values.phone}</strong></li>
                         </ul>
                     </div>
                 </div>
