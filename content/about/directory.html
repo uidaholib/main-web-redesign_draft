@@ -3,10 +3,13 @@ title: Staff Directory
 layout: page
 section: About
 permalink: /about/directory.html
-table-id: "#directory"
+# table-id: "#directory"
+custom-foot: "js/directory-table.html"
 ---
 {% assign people = site.data.about_people %}
 <p>Search and sort the table below to find library staff members. More information about faculty members can also be found on our <a href="librarians.html">librarians page</a>.</p>
+
+<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
 
 <table id="directory" class="table table-striped">
     <thead>
