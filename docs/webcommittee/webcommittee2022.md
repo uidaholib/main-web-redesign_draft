@@ -68,6 +68,10 @@ Stats:
 
 Analytics notes:
 
+- 04-01-2021 - 04-01-2022 vs 04-01-2020 - 04-01-2021:
+    - very large spike 05-2021 - 06-2021... accompanied by 83,036% spike in users from Indonesia (63,000 more visitors than usual).
+    - outside of suspicious spike, very close to the same.
+
 Web archive:
 
 - [2021-05](https://web.archive.org/web/20210510223522/https://www.lib.uidaho.edu/)
