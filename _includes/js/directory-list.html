@@ -69,6 +69,12 @@
         });
     });
 
+    // add count when filtering
+    var listCount = document.getElementById("listCount");
+    documentList.on('updated', () => { 
+        listCount.innerHTML = documentList.visibleItems.length;
+    });
+
     /* get query string */
     document.addEventListener('DOMContentLoaded', function(event) {
         var queryString = new URLSearchParams(window.location.search);

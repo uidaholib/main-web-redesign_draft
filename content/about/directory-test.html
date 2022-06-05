@@ -31,7 +31,8 @@ custom-foot: js/directory-list.html
             <option value="{{ l }}">{{ l }}</option>
             {% endfor %}
         </select>
-        
+        {% assign listSize = site.data.about_people | size %}
+        <div class="mb-2"><small>Displaying <span id="listCount">{{ listSize }}</span> of {{ listSize }}</small></div>
     </div>
     <div class="col-md-8 list order-md-1"></div>
     
