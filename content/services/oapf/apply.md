@@ -5,17 +5,16 @@ permalink: /services/oapf/apply.html
 layout: page
 ---
 
-<!--<div class="alert alert-primary text-center" role="alert">
-  The U of I - OAPF has awarded its entire allocation for funding period #1. The OAPF application for funding period #2 will open in January 2022. 
-    <a href="{{ '/services/oapf/funded.html' | relative_url }}" class="alert-link">Explore our funded articles</a> to see this year's impact so far!
+<div class="alert alert-primary text-center" role="alert">
+  The U of I - OAPF has awarded its entire allocation for FY 2022. <a href="{{ '/services/oapf/funded.html' | relative_url }}" class="alert-link">Explore our funded articles</a> to see this year's impact!
     Please contact <a href="mailto:jylisadoney@uidaho.edu" class="alert-link">Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions.
-</div>-->
+</div>
 
-{% include feature/alert.html align="center" text="The FY 2022 U of I – OAPF application for funding period #2 will open on Monday, January 10 at 9:00am. Applications are accepted on a first come, first served basis." %}
+<!--{% include feature/alert.html align="center" text="The FY 2022 U of I – OAPF application for funding period #2 will open on Monday, January 10 at 9:00am. Applications are accepted on a first come, first served basis." %}-->
 
 Potential applicants are strongly encouraged to speak with [Jylisa Doney](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
 
-<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_8uYiu8Fda711B5A" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>
+<!--<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_8uYiu8Fda711B5A" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
        
 In FY 2022, the total allocation will be split into two funding periods:
 
