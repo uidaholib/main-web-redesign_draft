@@ -4,8 +4,8 @@ section: Services
 permalink: /services/oapf/
 layout: page
 ---
-{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href="{{ '/services/oapf/funded.html' | relative_url }}" class="alert-link">Explore our funded articles</a> to see this year's impact!
-    Please contact <a href="mailto:jylisadoney@uidaho.edu" class="alert-link">Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
+{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact!
+Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
 
 <!--{% include feature/alert.html align="center" text="The FY 2022 U of I – OAPF application for funding period #2 will open on Monday, January 10 at 9:00am. Applications are accepted on a first come, first served basis." %}-->
 
