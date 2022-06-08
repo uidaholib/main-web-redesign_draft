@@ -7,7 +7,7 @@
           <h4><a href="{{ '/about/liaisons.html' | relative_url }}">Featured Subject Librarian</a></h4>
           <p class="card-text"><a href="{{ '/help/research.html' | relative_url }}">Get help with your Research!</a></p>
           <div id="featuredResearcher" class="mx-auto"></div>
-          {% assign liaisons = site.data.about_liaisons %}
+          {% assign liaisons = site.data.about_liaisons | where_exp: 'l','l.email != "libref@uidaho.edu"' %}
           {%- assign people = site.data.about_directory -%}
           <script>
               /* featured librarians */
