@@ -91,7 +91,9 @@ Please try to document filename and data source if fleshing out this section!
 
 **Current files and notes:**
 
-about_directory.csv - people directory table
+about_people.csv - full data for directory
+
+about_directory.csv - old people directory table
 
 about_floor_maps.csv - list of floor maps and floor info
 
