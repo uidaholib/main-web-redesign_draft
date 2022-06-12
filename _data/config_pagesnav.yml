@@ -55,13 +55,13 @@ About:
     link: /mylibrary/
   - subsection: People
     link: /about/directory.html
-    subpages:
-      - name: Directory 
-        url: /about/directory.html
-      - name: Faculty Librarians 
-        url: /about/librarians.html
-      - name: Subject Liaisons 
-        url: /about/liaisons.html
+#    subpages:
+#      - name: Directory 
+#        url: /about/directory.html
+#      - name: Faculty Librarians 
+#        url: /about/librarians.html
+#      - name: Subject Liaisons 
+#        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
     subpages:
@@ -410,7 +410,9 @@ Services:
       - name: Research Assistance
         url: /help/research.html
       - name: Chat & Text
-        url: /help/chat.html         
+        url: /help/chat.html
+  - subsection: Subject Liaisons 
+    link: /about/liaisons.html       
   - subsection: The MILL
     link: /mill/
   - subsection: The Studio
