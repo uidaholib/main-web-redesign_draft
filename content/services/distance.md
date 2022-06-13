@@ -33,7 +33,7 @@ Our [Off-Campus Access guide](https://libguides.uidaho.edu/Distance_Education) p
 ## Online Resources 
 
 The library has tons of materials you can access online. 
-Check our [library catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&sortby=rank&mode=advanced) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az.php?) for scholarly and scientific articles.
+Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az.php?) for scholarly and scientific articles.
 
 To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas/BBLearn. 
 
@@ -45,7 +45,7 @@ Our [Interlibrary Loan (ILL) office]({{ '/services/ill/' | relative_url }}) can 
 
 - ILL service can provide electronic copies of materials held by other libraries across the world. To get started you will need to [create a profile in our ILLiad system](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll) used to make requests.
 - [Document delivery service]({{ '/services/ill/docdelivery.html' | relative_url }}) provides electronic access to journal articles and book chapters from the U of I Library's print collection. Like ILL, requests are made through our [ILLiad system](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll).
-- [Digitization requests]({{ '/services/ill/docdelivery.html#digitization-requests' | relative_url }}) can be made from the [library's catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID) by clicking on "Digitization Request" from a print item's record.
+- [Digitization requests]({{ '/services/ill/docdelivery.html#digitization-requests' | relative_url }}) can be made from the [library's catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) by clicking on "Digitization Request" from a print item's record.
 
 Don't hesitate to contact <libill@uidaho.edu> with any questions!
 
@@ -53,7 +53,7 @@ Don't hesitate to contact <libill@uidaho.edu> with any questions!
 
 Patrons can request locally-owned physical items from the U of I Library and pick them up curbside.
 
-To request an item, navigate to the [library's online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) and search for a title. 
+To request an item, navigate to the [library's online catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) and search for a title. 
 Then use the "request" link to place your "Curbside Pick Up". 
 You'll receive an email when your item is ready, with a link to reserve a pick up time slot during open hours, Monday to Friday. 
 
