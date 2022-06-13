@@ -7,41 +7,21 @@ chat-widget: true
 ---
 {% include js/primosearch.js%}
 
-<p>You can use this page to search and browse for journals and magazines by title and subject.</p>
+<p>The library subscribes to almost ten thousand periodicals in print and online. Content contained in these resources can be discovered in our <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID">online catalog</a> as part of any search. The options below allow you to search and browse for specific journals and magazines (rather than individual articles).</p>
 
-<div class="card">
+<div class="card mb-4 searchcontainer">
   <div class="card-body">
-    <form name="searchForm" method="get" target="_self" action="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" onsubmit="searchPrimo()" style="margin: 0 1%;z-index: 1;">
-      <label style="margin-right:5px"> Search </label>
-      <select id="primoFieldTemp" class="EXLSelectTag fixed">
-        <option class="EXLSelectedOption" selected="selected" id="scope_anyall1" value="any" style="display:block">
-          All Fields</option>
-        <option class="EXLSelectOption" id="scope_titleall1" value="title" style="display:block">
-          in the title</option>
-
-        <option class="EXLSelectOption" id="scope_suball1" value="sub" style="display:block">
-          in subject</option>
-        <option class="EXLSelectOption" id="scope_lsr06all1" value="issn" style="display:block">
-          ISSN</option>
-      </select>
-      <label> for Journals containing: </label>
-
-      <input type="hidden" name="pfilter" value="pfilter,exact,journals,AND">
-      <input type="hidden" name="tab" value="default_tab">
-      <input type="hidden" name="search_scope" value="everything">
-      <input type="hidden" name="vid" value="UID">
-      <input type="hidden" name="mode" value="advanced">
-      <input type="hidden" name="offset" value="0">
-      <input id="primoQuery" type="hidden" name="query">
-      <input id="primoQueryTemp" onkeypress="return searchPrimoEvent(event)" type="text" name="queryTemp" value="" class="form-control-inline form-control-lg col-md-8 mb-sm-1 " placeholder="Search for journals ...">
-      <input id="goButton_dash" class="btn btn-pride-gold btn-lg mb-2 col-md-2 mx-xs-auto col-sm-4" title="Search" type="submit" value="Go" alt="Search">
-      <div class="col-md-2 hidden-xs">
-        <a id="popover2" class="pull-left " data-container="body" data-toggle="popover" data-placement="top" data-content="This search box searches the library catalog for journals only." style="color:#962676;cursor:pointer;font-size:12px;margin-top:-4px; padding-left:6px;" data-original-title="" title="">
-          <span class="fas fa-info-sign"></span>
-        </a>
-
-      </div>
+    <script>
+      function primo_search() {
+          var query = document.getElementById("primo-search").value;
+          window.open("https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced&query=any,contains," + encodeURIComponent(query), "_self" );
+      }
+    </script>
+    <form class="form-row justify-content-center mt-3" role="search" onsubmit="primo_search(); return false;">
+        <div class="col-10 col-md-6"><input id="primo-search" class="form-control form-control-lg mb-2" type="search" placeholder="Search for Journals ..." aria-label="Search for Journals"></div>
+        <div class="col-10 col-md-2"><button class="btn btn-lg btn-pride-gold text-dark w-100 mb-2" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Catalog</span></button></div>
     </form>
+    <div class="text-center"><a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced" class="text-white">Advanced Search</a></div>
   </div>
 </div>
 
@@ -51,73 +31,73 @@ chat-widget: true
   <h4 class="col-md-12 mt-3">Browse journals by subject</h4>
   <ul class="col-md-5 col-11 offset-1">
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Agriculture,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Agriculture</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Agriculture,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Agriculture</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astronomy,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Astronomy</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Astronomy,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Astronomy</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Astrophysics,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Astrophysics</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Astrophysics,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Astrophysics</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Archaeology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Archaeology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Archaeology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Archaeology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Architecture,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Architecture</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Architecture,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Architecture</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Anthropology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Anthropology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Anthropology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Anthropology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Art,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Art</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Art,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Art</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Biology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Biology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Biology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Biology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Botany,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Botany</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Botany,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Botany</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Business,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Business</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Business,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Business</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Chemistry,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Chemistry</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Chemistry,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Chemistry</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Communications,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Communications</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Communications,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Communications</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Composition,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Composition</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Composition,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Composition</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Computer+Science,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Computer Science</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Computer+Science,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Computer Science</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Criminology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Criminology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Criminology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Criminology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Dance,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Dance</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Dance,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Dance</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Drama,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Drama</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Drama,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Drama</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Earth+Sciences,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Earth Sciences</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Earth+Sciences,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Earth Sciences</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Economics,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Economics</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Economics,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Economics</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Environmental,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Environmental</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Environmental,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Environmental</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Education,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Education</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Education,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Education</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Engineering,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Engineering</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Engineering,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Engineering</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,English,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">English</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,English,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">English</a>
     </li>
 
 
@@ -126,73 +106,73 @@ chat-widget: true
   <ul class="col-md-5 col-11 offset-1">
 
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Film,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Film</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Film,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Film</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Forestry,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Forestry</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Forestry,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Forestry</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Government,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Government</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Government,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Government</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Health,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Health</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Health,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Health</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,History,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">History</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,History,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">History</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Journalism,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Journalism</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Journalism,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Journalism</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Library+Science,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Library Science</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Library+Science,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Library Science</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Literature,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Literature</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Literature,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Literature</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Law,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Law</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Law,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Law</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Mathematics,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Mathematics</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Mathematics,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Mathematics</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Medicine,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Medicine</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Medicine,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Medicine</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Music,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Music</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Music,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Music</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Philosophy,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Philosophy</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Philosophy,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Philosophy</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Physics,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Physics</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Physics,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Physics</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Political+Science,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Political Science</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Political+Science,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Political Science</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Psychology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Psychology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Psychology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Psychology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Reference,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Reference</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Reference,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Reference</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Religion,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Religion</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Religion,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Religion</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Science,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Science</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Science,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Science</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Social+Science,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Social Science</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Social+Science,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Social Science</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Sociology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Sociology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Sociology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Sociology</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Statistics,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Statistics</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Statistics,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Statistics</a>
     </li>
     <li>
-      <a href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?query=sub,contains,Technology,AND&pfilter=pfilter,exact,journals,AND&tab=default_tab&search_scope=everything&vid=UID&mode=advanced&offset=0">Technology</a>
+      <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Technology,AND&pfilter=rtype,exact,journals,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">Technology</a>
     </li>
   </ul>
 
@@ -200,8 +180,9 @@ chat-widget: true
 
 <hr >
 
-<p class="text-center">
-  <strong>Looking for more journals and serials?</strong><br>
-  Check out <a href="https://uidaho.idm.oclc.org/login?url=http://www.ulrichsweb.serialssolutions.com/">Ulrichsweb Global Serials Directory</a> for a listing of over 300,000 periodicals.</p>
+<p>
+  Looking for more journals and serials?
+  Check out <a href="https://uidaho.idm.oclc.org/login?url=http://www.ulrichsweb.serialssolutions.com/">Ulrichsweb Global Serials Directory</a> for a listing of over 300,000 periodicals.
+</p>
   
-<p class="text-center"><a href="agreement.html" class="text-secondary">Conditions of Use and Licensing Restrictions for Electronic Resources</a></p>
+<p>Please note our <a href="{{ '/find/agreement.html' | relative_url }}">Conditions of Use and Licensing Restrictions for Electronic Resources</a>.</p>
