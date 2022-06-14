@@ -68,7 +68,7 @@ For the most up-to-date information about the University's response, please visi
 {:.h4}
 
 - Curbside delivery remains available for both U of I and community patrons. 
-    - To request an item, navigate to the library's [online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID) and search for a title. Then use the "Request" link to place your request. You'll receive an email when your item is ready, with a link to reserve a pick up time slot during our open hours, Monday to Friday.
+    - To request an item, navigate to the library's [online catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) and search for a title. Then use the "Request" link to place your request. You'll receive an email when your item is ready, with a link to reserve a pick up time slot during our open hours, Monday to Friday.
 - Please note that due to staffing and safety protocols it may take two or more business days from the time you place your request to receive your items! Contact us at [libcirc@uidaho.edu](mailto:libcirc@uidaho.edu) with questions.
 
 ### Fines and Borrowing Periods

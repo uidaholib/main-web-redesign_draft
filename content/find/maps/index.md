@@ -20,8 +20,8 @@ The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relativ
 
 ## Map Resources
 
-The U of I Library has many types of maps and atlases available for use which can be found by using the [library's catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID). 
-Using an [advanced search](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=UID&mode=advanced) will allow you to limit your results to maps.
+The U of I Library has many types of maps and atlases available for use which can be found by using the [library's catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID). 
+Using an [advanced search](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced) will allow you to limit your results to maps.
 
 However, not all maps at the U of I Library have been cataloged. 
 A paper index located in the map room can help find additional items. 

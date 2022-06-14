@@ -5,7 +5,7 @@ permalink: /find/ebooks.html
 layout: page-narrow
 ---
 
-The Library subscribes to almost 900,000 ebooks all discoverable in our [online catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID). 
+The Library subscribes to almost 900,000 ebooks all discoverable in our [online catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID). 
 Look for the "Resource Type" filter on the left side of your search results to limit the items to "ebooks".
 
 Unlike print books, you can't browse these resources on shelves--so accessing ebooks is a little different. 
