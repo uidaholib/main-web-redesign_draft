@@ -15,8 +15,8 @@ Our library catalog reflects a mixture of current and past practices for descrip
 Harmful or offensive language may occur for several reasons including:  
 
 - We use Library of Congress Subject Headings to enable standardized searching and access across our holdings and those of our fellow consortium members. Changes to LOC Subject Headings require extensive review and undergo editorial and approval processes. Sometimes these headings can only be changed by legislative action. Given the difficulty of the process, some of these headings continue to use outdated language.
+- Descriptive information containing harmful or offensive language has been transcribed directly from the materials themselves, in the interest of accurately reflecting the author's original intent.
 - Some derogatory terms that were historically used to describe oppressed people have been reclaimed and used by authors and creators from those communities. Conversely, terms historically used by the communities they are describing have fallen out of use or favor in the communities, in lieu of different terms. 
-- Descriptive information containing harmful or offensive language has been transcribed directly from the materials themselves, in the interest of accurately reflecting the author's original intent. 
 
 Going forward, the University of Idaho Library will work to implement practices to address harmful language as part of our routine work. 
 We commit to remediating these issues by implementing better descriptive processes for our records and collections. 
@@ -27,3 +27,5 @@ We encourage Library users to provide feedback to help us address this issue.
 In our catalog you can use the "Report a Problem" link to bring a specific record to our attention.
 On our main website, please use the "Website Feedback" link found in the footer of every page.
 For further information, please contact the Library Dean, Ben Hunter, at <bhunter@uidaho.edu> or 208-885-5858. 
+
+*Statement adopted June 2022.*
