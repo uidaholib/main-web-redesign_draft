@@ -5,49 +5,69 @@ section: Help
 permalink: /help/research.html
 custom-foot: js/research-assistance.html
 ---
-{% assign liaisons = site.data.about_liaisons %}
-{% assign people = site.data.about_directory %}
+{%- assign liaisons = site.data.about_people | where_exp: "p","p.liaison_title" -%}
 
 <p>Librarians can help you efficiently and effectively search and use library resources and other information sources. Each college at U of I has a designated subject librarian who is ready to help with all your research and library questions.</p>
 
-<p>To request a Zoom consultation with a librarian, please find your subject liaison below and click the "Request Meeting" button to get in touch. If you are unsure or need more immediate assistance, contact our <a href="{{ '/help/' | relative_url }}">Reference Desk</a> and we will make sure your questions get answered.</p>
+<p>To request a consultation with a librarian, please find your subject liaison below and click the "Request Meeting" button to get in touch. If you are unsure or need immediate assistance, contact our <a href="{{ '/help/' | relative_url }}">Reference Desk</a> and we will make sure your questions get answered.</p>
 
 <label for="selectCollege">Select College:</label>
 <select id="selectCollege" class="custom-select custom-select-lg mb-3">
     <option selected value="reset">All</option>
-    {% assign colleges = liaisons | map: "college" | uniq %}
+    <option value="{{ 'General / Beginner' | slugify }}">General / Beginner</option>
+    {% assign colleges = liaisons | map: "liaison_college" | uniq | sort %}
     {%- for c in colleges -%}
     <option value="{{ c | slugify }}">{{ c }}</option>
     {% endfor %}
 </select>
 
 <div class="row">
-{% for l in liaisons %}
-<div class="col-md-6 mb-2 liaison-card {{ l.college | slugify }}">
-    <div class="card">
-        <div class="card-header">
-            {{ l.college }}
-        </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-4">
-                    {% assign p = people | where: "email",l.email | first %}
-                    {% assign headshot = p.headshot | default: "tower_icon_gold.png" %}
-                    <img class="img-fluid rounded" src="{{ headshot | prepend: '/headshots/' | prepend: site.lib-media }}" alt="{{ l.librarian }}">
-                </div>
-                <div class="col-8">
-                    <h5>{{ l.librarian }}</h5>
-                    <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
-                    <p class="card-text"><strong>Departments:</strong><br>{{ l.departments }}</p>
-                </div>
+    <div class="col-md-6 mb-2 liaison-card {{ 'General / Beginner' | slugify }}">
+        <div class="card">
+            <div class="card-header">
+                General / Beginner
             </div>
-            <div class="text-center mt-2">
-                <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ l.college | url_encode }}&person={{ l.librarian | url_encode}}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid rounded" src="{{ site.lib-media }}/directory/tower_icon_gold.png" alt="Gold Tower Logo">
+                    </div>
+                    <div class="col-8">
+                        <h5>Reference Desk</h5>
+                        <div><a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a></div>
+                        <p class="card-text">Unsure of where to start, uncertain of your college, or have general questions about this service? Reference would be happy to help you get started!</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic=General&person=Reference&email={{ 'libref@uidaho.edu' | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-{% endfor %}
+    {% for l in liaisons %}
+    <div class="col-md-6 mb-2 liaison-card {{ l.liaison_college | slugify }}">
+        <div class="card">
+            <div class="card-header">
+                {{ l.liaison_college }}
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid rounded" src="{{ site.lib-media }}{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.liaison_title }}">
+                    </div>
+                    <div class="col-8">
+                        <h5>{{ l.first_name }} {{ l.last_name }}</h5>
+                        <div><a href="mailto:{{ l.email }}">{{ l.email }}</a></div>
+                        <p class="card-text"><strong>Departments:</strong><br>{{ l.liaison_departments }}</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic={{ l.liaison_college | url_encode }}&person={{ l.last_name | url_encode }}&email={{ l.email | url_encode }}" target="_blank" rel="noopener" class="btn btn-outline-clearwater">Request Meeting</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>
 
 <div class="mt-3">

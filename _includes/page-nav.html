@@ -2,13 +2,13 @@
 <div id="sidebar" class="py-3 border-right d-none d-md-block pl-3">
     <nav id="page-nav">
         <ul class="list-unstyled components">
-            {% for sub in page-nav[page.section] %}{% unless sub.parent %}
+            {% for sub in page-nav[include.section] %}{% unless sub.parent %}
             {% if sub.subpages %}{% assign urls = sub.subpages | map: "url" %}
             <li class="border-bottom py-2 pl-1 pr-4">
                 <a href="#{{ sub.subsection | slugify }}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.subsection }}</a>
-                <ul class="collapse {% unless page.url contains 'liaisons' %}{% if urls contains page.url %} show{% endif %}{% endunless %} list-unstyled" id="{{ sub.subsection | slugify }}">
+                <ul class="collapse {% if urls contains page.url %} show{% endif %} list-unstyled" id="{{ sub.subsection | slugify }}">
                     {% for p in sub.subpages %}
-                    <li class="pl-3 mt-1 {% unless p.url == '/about/liaisons.html' %}{% if p.url == page.url %} active{% endif %}{% endunless %}">
+                    <li class="pl-3 mt-1 {% if p.url == page.url %} active{% endif %}">
                         <a href="{{ p.url | relative_url }}">{{ p.name }}</a>
                     </li>
                     {% endfor %}

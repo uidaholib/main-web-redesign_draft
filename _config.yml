@@ -54,6 +54,15 @@ all-collections-build: false
 speccoll-build: false
 spec_books-build: false
 
+# cb page gen
+page_gen:
+  # generate profile pages
+  - data: 'about_people'
+    template: 'profile'
+    name: 'id'
+    dir: 'about/people'
+    filter: 'id'
+
 #compress CSS output
 sass:
   style: compressed

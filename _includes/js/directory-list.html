@@ -1,0 +1,90 @@
+<script src="{{ '/assets/js/list.min.js' | relative_url }}"></script>
+<script>
+
+    // add items
+    var listDocs = [
+        // id,last_name,first_name,pronouns,title,rank,status,department,office,email,phone,liaison_title,liaison_college,liaison_departments,vivo_id,cv_filename,image,image_small,image_thumb,pronunciation_audio,headshot
+        {% assign listDocs = site.data.about_people | sort: 'last_name' %}
+        {% for i in listDocs %}
+        { 
+            id: "{{ i.id }}",
+            name: "{{ i.last_name }}, {{ i.first_name }}", 
+            title: {{ i.title | jsonify }}, 
+            {% if i.rank %}rank: {{ i.rank | jsonify }},{% endif %}
+            {% if i.liaison_title %}liaison: {{ i.liaison_title | jsonify }},{% endif %}
+            {% if i.liaison_departments %}subject: {{ i.liaison_departments | split: ";" | jsonify }},{% endif %}
+            status: {{ i.status | split: ";" | jsonify }},
+            department: "{{ i.department }}", 
+            email: "{{ i.email }}",
+            phone: "{{ i.phone }}",
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+
+    // setup list.js options and item template
+    var listOptions = {
+        item: function(values) {
+            var card = `<div class="">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title h4 mb-0"><a href="{{ '/about/people/' | relative_url }}${values.id}.html">${values.name}</a></h3>
+                        <p>${values.title}</p>
+                        <ul>
+                            ${ values.liaison ? '<li><strong>' + values.liaison + '</strong></li>' : '' }
+                            ${ values.rank ? '<li><strong>' + values.rank + '</strong></li>' : '' }
+                            <li>department: <strong>${values.department}</strong></li>
+                            <li>email: <a href="mailto:${values.email}">${values.email}</a></li>
+                            <li>phone: <strong>${values.phone}</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>`;
+            return card;
+        }
+
+    };
+    // init list.js
+    var documentList = new List('documentList', listOptions, listDocs);
+
+    // filter function
+    function filterByValue(field, option) {
+        // reset other filters 
+        filterSelects.forEach( s => { if (field != s.dataset.field) { s.value = "show-all"; } });
+        // filter on new selection
+        if (option == "show-all") {
+            documentList.filter();
+        } else {
+            documentList.filter(function(item) { 
+                if (item.values()[field] && item.values()[field].includes(option)) { return true; } else { return false } 
+            });
+        }
+    }
+
+    // select filter selects
+    var filterSelects = document.querySelectorAll(".filter-option");
+    // add listeners
+    filterSelects.forEach( s => { 
+        s.addEventListener('change', (event) => {
+            filterByValue(s.dataset.field,event.target.value);
+        });
+    });
+
+    // add count when filtering
+    var listCount = document.getElementById("listCount");
+    documentList.on('updated', () => { 
+        listCount.innerHTML = documentList.visibleItems.length;
+    });
+
+    /* get query string */
+    document.addEventListener('DOMContentLoaded', function(event) {
+        var queryString = new URLSearchParams(window.location.search);
+        // ?search=
+        if (queryString.has("search")) { 
+            var searchOption = queryString.get("search");
+            document.getElementById("listSearch").value = searchOption;
+            documentList.search(searchOption);
+        }
+
+    });
+
+</script>

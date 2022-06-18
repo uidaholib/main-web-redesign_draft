@@ -1,102 +1,99 @@
 ---
 title: Subject Liaisons
-section: About
+section: Services
 permalink: /about/liaisons.html
 layout: page
-table-id: "#liaisonsTable"
 ---
 
-<div class="row">
-	
-	<div class="col-md-7 align-self-center">
-		<p>Each U of I College has a librarian assigned as a subject liaison. Find your liaison using the table below, or click on the topics to learn more about what library liaisons can do for you.</p>
-	</div>
+<p>Each U of I College has a librarian assigned as a subject liaison. Find your liaison using the table below, or click on the topics to learn more about what library liaisons can do for you.</p>
 
-	<div class="col-md-5 align-self-center">
-		<div class="accordion" id="accordionGroup">
-		
-			<div class="card">
-				<div class="card-header">
-					<h6 class="card-title mb-0">
-						<a data-toggle="collapse" href="#collapse1">Working with Students <span class="fas fa-chevron-down smalltxt"></span></a>
-					</h6>
-				</div>
-				<div id="collapse1" class="collapse" data-parent="#accordionGroup">
-					<div class="card-body">
-						<p>
-							Liaisons teach <strong>subject-specific classroom sessions</strong> at the request of faculty. 
-							Most incoming first-year students receive some library instruction through English 102, but these sessions cannot cover all the subject databases and other resources they may need for research over the next several years. 
-							Instruction sessions with liaisons are invaluable for high-quality student research.
-						</p>
-						<p>
-							They also conduct <strong>one-on-one research sessions</strong> with students for specific subjects or assignments through the <a href="{{ '/help/research.html' | relative_url }}">Research Assistance Program</a>.
-						</p>
-					</div>
-				</div>
-			</div> 
+<div class="accordion mb-3" id="accordionGroup">
 
-			<div class="card">
-				<div class="card-header">
-					<h6 class="card-title mb-0">
-						<a data-toggle="collapse" href="#collapse2">Working with Faculty <span class="fas fa-chevron-down smalltxt"></span></a>
-					</h6>
-				</div>
-				<div id="collapse2" class="collapse" data-parent="#accordionGroup">
-					<div class="card-body">
-						<p>Liaisons work with faculty <strong>to create research assignments</strong> that maximize students acquisition of research skills.</p>
-					</div>
-				</div>
-			</div> 
-
-			<div class="card">
-				<div class="card-header">
-					<h6 class="card-title mb-0">
-						<a data-toggle="collapse" href="#collapse3">Collection Building <span class="fas fa-chevron-down smalltxt"></span></a>
-					</h6>
-				</div>
-				<div id="collapse3" class="collapse" data-parent="#accordionGroup">
-					<div class="card-body">
-						<p>
-							Liaisons select and purchase books, multimedia materials and other items for the library in their assigned subject areas. 
-							To request that the library purchase materials, send requests directly to the appropriate subject liaisons listed below or use the online <a href="{{ '/find/request.html' | relative_url }}">resource purchase request form</a>.
-						</p>
-					</div>
-				</div>
-			</div> 
-
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse1">Working with Students <span class="fas fa-chevron-down smalltxt"></span></a>
+			</h6>
 		</div>
-	</div>
+		<div id="collapse1" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				<p>
+					Liaisons teach <strong>subject-specific classroom sessions</strong> at the request of faculty. 
+					Most incoming first-year students receive some library instruction through English 102, but these sessions cannot cover all the subject databases and other resources they may need for research over the next several years. 
+					Instruction sessions with liaisons are invaluable for high-quality student research.
+				</p>
+				<p>
+					They also conduct <strong>one-on-one research sessions</strong> with students for specific subjects or assignments through the <a href="{{ '/help/research.html' | relative_url }}">Research Assistance Program</a>.
+				</p>
+			</div>
+		</div>
+	</div> 
+
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse2">Working with Faculty <span class="fas fa-chevron-down smalltxt"></span></a>
+			</h6>
+		</div>
+		<div id="collapse2" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				<p>Liaisons work with faculty <strong>to create research assignments</strong> that maximize students acquisition of research skills.</p>
+			</div>
+		</div>
+	</div> 
+
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse3">Collection Building <span class="fas fa-chevron-down smalltxt"></span></a>
+			</h6>
+		</div>
+		<div id="collapse3" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				<p>
+					Liaisons select and purchase books, multimedia materials and other items for the library in their assigned subject areas. 
+					To request that the library purchase materials, send requests directly to the appropriate subject liaisons listed below or use the online <a href="{{ '/find/request.html' | relative_url }}">resource purchase request form</a>.
+				</p>
+			</div>
+		</div>
+	</div> 
 
 </div>
+	
 
-<h3>Find your Liaison</h3>
-{% assign liaisons = site.data.about_liaisons %}
-<table id="liaisonsTable" class="table table-striped table-hover">
-	<thead>
-		<tr>
-			<th scope="col">College</th>
-			<th scope="col">Departments</th>
-			<th scope="col">Librarian</th>
-		</tr>	
-	</thead>
-	<tfoot>
-		<tr>
-			<th scope="col">College</th>
-			<th scope="col">Departments</th>
-			<th scope="col">Librarian</th>
-		</tr>	
-	</tfoot>
-	<tbody>
+<h2>Find your Liaison</h2>
+{% assign liaisons = site.data.about_people | where_exp: "p","p.liaison_title" | sort: "liaison_college" %}
+
+<div id="liaison-list">
+	<input type="text" id="listSearch" class="form-control form-control-lg search mb-3" aria-label="Text input to filter list" placeholder="Search...">
+
+	<div class="list">
 	{% for l in liaisons %}
-	<tr>
-		<td>{{ l.college }}</td>
-		<td>{{ l.departments }}
-		</td>
-		<td>{{ l.librarian }}<br>
-			<a href="mailto:{{ l.email }}">{{ l.email }}</a><br>
-			{{ l.phone }}
-		</td>
-	</tr>
+		<div class="row mx-1 mb-3 p-3 border rounded">
+			<div class="col-md-5 listCollege">
+				<h3 class="h4">{{ l.liaison_college }}</h3>
+				<p><strong>Departments:</strong><br> {{ l.liaison_departments }}</p>
+			</div>
+			<div class="col-md-4 listLiaison">
+				<p class="h5">{{ l.first_name }} {{ l.last_name }}</p>
+				<p><a href="mailto:{{ l.email }}">{{ l.email }}</a><br>
+				{{ l.phone }}</p>
+			</div>
+			<div class="col-md-3">
+				<a href="{{ '/about/people/' | relative_url }}{{ l.id }}.html" title="view full profile of {{ l.liaison_title }}">
+					<img class="img-fluid rounded" src="{{ site.lib-media }}{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.last_name }}">
+				</a>
+			</div>
+		</div>
 	{% endfor %}
-	</tbody>
-</table>
+	</div>
+</div>
+
+<script src="{{ '/assets/js/list.min.js' | relative_url }}"></script>
+<script> 
+// init list.js
+var options = {
+  valueNames: [ 'listCollege', 'listLiaison' ]
+};
+var documentList = new List('liaison-list', options);
+</script>

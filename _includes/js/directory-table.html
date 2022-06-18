@@ -1,0 +1,31 @@
+<script src="{{ '/assets/datatables/datatables.min.js' | relative_url }}"></script>
+<script>
+    // init data tables
+    var table = $('#directory').DataTable({        
+        "paging": false,
+        dom: '<"row"<"#selectMenu.col-md-6"><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6">>'
+    });
+
+    // add department filter select
+    var selectMenu = `<select id="departmentSelect" class="custom-select form-control mb-2" aria-label="Filter list by Department">
+         <option value="all" selected>Filter by Department</option>
+         {% assign departments = site.data.about_people | map: 'department' | compact | uniq | sort %}
+         {% for i in departments %}<option value="{{ i }}">{{ i }}</option>
+         {% endfor %}
+      </select>`;
+    document.getElementById("selectMenu").innerHTML = selectMenu;
+
+    // set up filter by department dropdown
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var collectionFilter = document.getElementById("departmentSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[2] == collectionFilter; }
+        }
+    );
+    /* Add event listeners to departmentSelect */
+    $('#departmentSelect').change( function() {
+        table.draw();
+    });
+</script>
