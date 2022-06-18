@@ -1,6 +1,7 @@
 ---
 title: Spring 2022 Opening Guide
 date: 2022-03-01
+display: false
 ---
 
 The University of Idaho Library is committed to serving the research and learning needs of our campus community while also minimizing the risk of novel coronavirus (COVID-19) for U of I students, staff, faculty, and library personnel. 

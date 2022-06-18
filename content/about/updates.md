@@ -7,7 +7,7 @@ chat-widget: true
 ---
 
 ----------
-{% assign updates = site.updates | reverse %}
+{% assign updates = site.updates | where_exp: "u","u.display != false" | reverse %}
 {% for u in updates %}
 <div class="card mb-3">
     <div class="card-body">

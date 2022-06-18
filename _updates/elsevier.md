@@ -9,5 +9,5 @@ Additionally, this new contract includes open access provisions that secure a di
 
 This investment in our researchers and our students is an important step toward the university's goal of reaching R1 research classification, and does so without requiring additional funding for the Library's collections budget.
 
-All content can be found by searching the [Library's catalog](https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&sortby=rank&vid=UID). 
+All content can be found by searching the [Library's catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID). 
 For more information, please contact Ben Hunter, Dean of University Libraries, at <bhunter@uidaho.edu>.
