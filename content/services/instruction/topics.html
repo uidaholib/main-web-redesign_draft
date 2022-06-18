@@ -75,7 +75,7 @@ custom-foot: js/topics-filter.html
                                 <div class="card">
                                     <img class="card-img-top img-fluid" src="{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% elsif p.headshot %}/headshots/{{ p.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="photo of {{ p.last_name }}">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title"><a target="_blank" rel="noopener" href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo_id }}" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
+                                        <h5 class="card-title"><a target="_blank" rel="noopener" href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
                                         <p class="card-text">{{ p.title }}</p>
                                     </div>
                                 </div>
