@@ -4,19 +4,18 @@ section: Services
 permalink: /services/oapf/
 layout: page
 ---
-{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact!
-Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
+<!--{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact! Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}-->
 
-<!--{% include feature/alert.html align="center" text="The FY 2022 U of I – OAPF application for funding period #2 will open on Monday, January 10 at 9:00am. Applications are accepted on a first come, first served basis." %}-->
+{% include feature/alert.html align="center" text="The FY 2023 U of I – OAPF application for funding period #1 will open on Monday, August 1 at 9:00am. Applications are accepted on a first come, first served basis. Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
 
 The University of Idaho - Open Access Publishing Fund (OAPF) supports U of I authors in their efforts to publish in open access journals.
 
-During FY 2022, the [U of I Library](https://www.lib.uidaho.edu/), [Office of the Provost](https://www.uidaho.edu/provost), [Office of Research and Economic Development](https://www.uidaho.edu/research), and David and Julie Levine have partnered and allocated a combined total of $35,000 to pay or reimburse article processing charges (APCs) in eligible open access journals.
+During FY 2023, the [U of I Library](https://www.lib.uidaho.edu/), [Office of the Provost](https://www.uidaho.edu/provost), and [Office of Research and Economic Development](https://www.uidaho.edu/research) have partnered and allocated a combined total of $30,000 to pay or reimburse article processing charges (APCs) in eligible open access journals.
 
 The total allocation will be split into two funding periods:
 
-- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2021 and December 31, 2021
-- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2022 and June 15, 2022
+- Funding Period #1 = $15,000: Articles accepted for publication between July 1, 2022 and December 31, 2022
+- Funding Period #2 = $15,000: Articles accepted for publication between January 1, 2023 and June 16, 2023
 
 U of I affiliated authors may apply for funding multiple times until their author cap is met or funds are exhausted. Applications are accepted on a first come, first served basis during each funding period, until funds are exhausted or the end of the funding period.
 
