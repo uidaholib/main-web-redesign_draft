@@ -5,17 +5,16 @@ permalink: /services/oapf/eligibility.html
 layout: page
 ---
 
-{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact!
-Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
+<!--{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact! Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}-->
 
-<!--{% include feature/alert.html align="center" text="The FY 2022 U of I – OAPF application for funding period #2 will open on Monday, January 10 at 9:00am. Applications are accepted on a first come, first served basis." %}-->
+{% include feature/alert.html align="center" text="The FY 2023 U of I – OAPF application for funding period #1 will open on Monday, August 1 at 9:00am. Applications are accepted on a first come, first served basis. Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
 
 Potential applicants are strongly encouraged to speak with [Jylisa Doney](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the eligibility criteria.
 
-In FY 2022, the total allocation will be split into two funding periods:
+In FY 2023, the total allocation will be split into two funding periods:
 
-- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2021 and December 31, 2021
-- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2022 and June 15, 2022
+- Funding Period #1 = $15,000: Articles accepted for publication between July 1, 2022 and December 31, 2022
+- Funding Period #2 = $15,000: Articles accepted for publication between January 1, 2023 and June 16, 2023
 
 U of I affiliated authors may apply for funding multiple times until their author cap is met or funds are exhausted. 
 Applications are accepted on a first come, first served basis during each funding period, until funds are exhausted or the end of the funding period.
@@ -24,8 +23,8 @@ Applications are accepted on a first come, first served basis during each fundin
 #### Articles
 
 - Must be accepted for publication before submitting an OAPF application
-  - To qualify for Funding Period #1: Official invoices and receipts must have issue dates and payment dates between July 1, 2021 and December 31, 2021
-  - To qualify for Funding Period #2: Official invoices and receipts must have issue dates and payment dates between January 1, 2022 and June 15, 2022
+  - To qualify for Funding Period #1: Official invoices and receipts must have issue dates and payment dates between July 1, 2022 and December 31, 2022
+  - To qualify for Funding Period #2: Official invoices and receipts must have issue dates and payment dates between January 1, 2023 and June 16, 2023
 - Funding per article is capped at $2000.00
 
 #### Journals
@@ -74,7 +73,7 @@ Authors with sufficient funding from grants or contracts are encouraged to use t
 {% include feature/card.html header="Author Criteria" text=author %}
 
 {% capture documentation %}
-U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:jylisadoney@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. In FY 2022, documentation (including official invoices and receipts) must have issue dates and payment dates between July 1, 2021 and December 31, 2021 to qualify for Funding Period #1, or issue and payment dates between January 1, 2022 and June 15, 2022 to qualify for Funding Period #2.
+U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:jylisadoney@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. In FY 2023, documentation (including official invoices and receipts) must have issue dates and payment dates between July 1, 2022 and December 31, 2022 to qualify for Funding Period #1, or issue and payment dates between January 1, 2023 and June 16, 2023 to qualify for Funding Period #2.
     
 Invoices or receipts with issue dates or payment dates that have been changed (including, but not limited to: reissued invoices, credit notes, etc.) do not meet the U of I – OAPF’s documentation requirements.
 
