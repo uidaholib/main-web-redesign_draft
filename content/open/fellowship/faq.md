@@ -7,7 +7,7 @@ layout: page
 
 **What is the time commitment?**
 
-Faculty fellows will work over the course of a semester to find, create, and adapt OER for a current or upcoming University of Idaho course. Fellows meet throughout the semester with the Open Education Librarian, as well as other Library faculty as different kinds of expertise are required. Fellows should expect to spend 10-15 hours a month working on their Think Open Fellowships. 
+Faculty fellows will work over the course of one to two semesters to find, create, and adapt OER for a current or upcoming University of Idaho course. Fellows meet throughout their fellowship with the Open Education Librarian, as well as other Library faculty as different kinds of expertise are required. 
 
 **Which courses are eligible for this project?**
 
