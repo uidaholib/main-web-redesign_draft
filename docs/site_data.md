@@ -97,7 +97,7 @@ about_directory.csv - old people directory table
 
 about_floor_maps.csv - list of floor maps and floor info
 
-about_liaisons.csv - liaison list
+about_liaisons.csv - old liaison list
 
 about_recognitions-bookplates.csv - faculty bookplate list
 
