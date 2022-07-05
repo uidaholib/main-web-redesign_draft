@@ -4,7 +4,7 @@ section: About
 permalink: /about/librarians.html
 layout: page
 ---
-{% assign people = site.data.about_people | where_exp: 'p', 'p.vivo_id' %}
+{% assign people = site.data.about_people | where_exp: 'p','p.id' | where_exp: 'p', 'p.vivo_id' %}
 <div class="row">
     {% for p in people %}
     <div class="col-6 col-md-4 col-lg-3 mb-2">
