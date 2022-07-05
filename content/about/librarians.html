@@ -4,14 +4,14 @@ section: About
 permalink: /about/librarians.html
 layout: page
 ---
-{% assign people = site.data.about_people | where_exp: 'p','p.id' | where_exp: 'p', 'p.vivo_id' %}
+{% assign people = site.data.about_people | where_exp: 'p','p.id' | where_exp: 'p', 'p.status contains "Faculty"' %}
 <div class="row">
     {% for p in people %}
     <div class="col-6 col-md-4 col-lg-3 mb-2">
         <div class="card">
             <img class="card-img-top img-fluid" src="{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% elsif p.headshot %}/headshots/{{ p.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="{{ p.name }}">
             <div class="card-body text-center">
-                <h5 class="card-title"><a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ p.vivo_id }}" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
+                <h5 class="card-title"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
                 <p class="card-text">{{ p.title }}</p>
             </div>
         </div>
