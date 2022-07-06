@@ -5,11 +5,11 @@ permalink: /services/oapf/apply.html
 layout: page
 ---
 
-<!--{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact! Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}-->
+<!--{% include feature/alert.html align="center" text="The U of I - OAPF has awarded its entire allocation for FY 2022. <a href='/services/oapf/funded.html' class='alert-link'>Explore our funded articles</a> to see this year's impact! Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa (Doney) Kenyon</a>, U of I - OAPF Fund Manager, with any questions." %}-->
 
-{% include feature/alert.html align="center" text="The FY 2023 U of I – OAPF application for funding period #1 will open on Monday, August 1 at 9:00am. Applications are accepted on a first come, first served basis. Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa Doney</a>, U of I - OAPF Fund Manager, with any questions." %}
+{% include feature/alert.html align="center" text="The FY 2023 U of I – OAPF application for funding period #1 will open on Monday, August 1 at 9:00am. Applications are accepted on a first come, first served basis. Please contact <a href='mailto:jylisadoney@uidaho.edu' class='alert-link'>Jylisa (Doney) Kenyon</a>, U of I - OAPF Fund Manager, with any questions." %}
 
-Potential applicants are strongly encouraged to speak with [Jylisa Doney](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
+Potential applicants are strongly encouraged to speak with [Jylisa (Doney) Kenyon](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
 
 <!--<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9nOMT8mG65Vq9CK" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
        
