@@ -27,7 +27,7 @@ Tools for article access and discovery on the web:
 
 {% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener" class="btn btn-success">{{ t.title }}</a>{% endif %}
 {% endcapture %}
-{% include bootstrap/card.md header=t.title text=text %}
+{% include feature/card.html header=t.title text=text %}
 
 {% endfor %}
 

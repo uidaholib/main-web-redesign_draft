@@ -8,7 +8,7 @@ noindex: true
 
 For the most up-to-date information on the University of Idaho's response to COVID-19, please visit the link below: 
 
-{% include bootstrap/button.md text="Official University COVID-19 Webpage" link="https://www.uidaho.edu/vandal-health-clinic/coronavirus" color="outline-pride-gold btn-lg mb-4" %}
+{% include feature/button.html text="Official University COVID-19 Webpage" link="https://www.uidaho.edu/vandal-health-clinic/coronavirus" color="outline-pride-gold btn-lg mb-4" %}
 
 The following pages are made available to assist in using library resources during the worldwide response to the COVID-19 pandemic. 
 Use the links below for more information about the library's response and resources, as well as further information about COVID-19.
