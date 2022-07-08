@@ -10,7 +10,7 @@ layout: page-narrow
 Think Open Fellowships are now accepting applications for the 2022-2023 academic year!
 Click below to apply:
 
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e3x9ETiYwrBQI06" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
 
 ## Call for Applications
 
