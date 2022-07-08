@@ -1,5 +1,5 @@
 ---
-title: "Past Think Open Fellows"
+title: "Think Open Fellows"
 section: Think Open
 permalink: /open/fellowship/past.html
 layout: page
@@ -13,9 +13,9 @@ layout: page
     {% endfor %}
 </div>
 
+{% for y in years %}
 <hr> 
 
-{% for y in years %}
 <h2 id="{{ y }}-fellows">{{ y }} Fellows</h2>
 {% assign cohort = fellows | where: 'year',y %}
 <div class="row">        
@@ -24,23 +24,21 @@ layout: page
         <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
             <div class="card-body">
                 <h4 class="card-title">
-                    {% if f.id %}<a href="{{ f.id }}" target="_blank" rel="noopener">{% endif %}
+                    {% if f.profile-link %}<a href="{{ f.profile-link }}" target="_blank" rel="noopener">{% endif %}
                         <strong>{{ f.name }}</strong>
-                    {% if f.id %}</a>{% endif %}
+                    {% if f.profile-link %}</a>{% endif %}
                 </h4>
                 <p class="card-text">
-                    {{ f.displaytype | upcase }}<br>
+                    {{ f.type | upcase }}<br>
                     {% if f.discipline %}{{ f.discipline }}<br>{% endif %}
                     {% if f.course %}<strong>Course Title:</strong> {{ f.course }}<br>{% endif %}
                     {% if f.students-impacted %}<strong>Students Impacted:</strong> {{ f.students-impacted }}<br>{% endif %}
-                    {% if f.impact %}<strong>Estimated Minimum Savings:</strong> {{ f.impact }}{% endif %}
+                    {% if f.money-saved %}<strong>Estimated Minimum Savings:</strong> {{ f.money-saved }}{% endif %}
                 </p>
             </div>
         </div>   
     </div>
     {% endfor %}
 </div>
-
-<hr>
 
 {% endfor %}

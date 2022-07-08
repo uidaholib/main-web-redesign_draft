@@ -1,72 +1,72 @@
 ---
-title: "Think Open Fellowship"
+title: "Current Think Open Fellows"
 section: Think Open
 permalink: /open/fellowship/current.html
 layout: page
 ---
-{% assign fellows = site.data.open_thinkopenfellows %}
-<p>Current fellows include: </p>
 
-<h3>Faculty</h3>
+<h2>Faculty</h2>
 
 <div class="row">
-    {% for fellow in fellows %}
-    {% if fellow.year == "2021" and fellow.type == "faculty" %}
-    <div class="col-md-6 col-lg-4 my-1">
+    {% assign faculty = site.data.open_thinkopenfellows | where: 'year','2021' | where: 'type','Faculty' %}
+    {% for fellow in faculty %}
+    <div class="col-md-6 col-lg-4 mb-2">
         <div class="card" id="researcher-{{ fellow.name | slugify }}">
-            {% if fellow.image%}
-            <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="{{ fellow.name }} headshot">
-        {%endif%}
+            {% if fellow.image %}
+            <img class="card-img-top" src="{{ site.lib-media }}/open/thinkopen/{{ fellow.image }}" alt="portrait of {{ fellow.name }}">
+            {% endif %}
             <div class="card-body">
-                <h4 class="card-title">
-                    <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
-                </h4>
+                <h3 class="card-title">
+                    <a href="{{ fellow.profile-link }}">{{ fellow.name }}</a>
+                </h3>
                 <p class="card-text">
                     {{ fellow.type | upcase }}
                     <br><strong>{{ fellow.discipline }}</strong>
                 </p>
-                <h5>Project</h5>
+                <h4>Project</h4>
                 <p class="card-text">
                     {{ fellow.topic }}
                     <br>
                     <strong>Students Impacted:</strong> {{ fellow.students-impacted }}
                 </p>
-                <a href="{{ fellow.id }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
+                <a href="{{ fellow.profile-link }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
             </div>
         </div>   
-    </div>{%endif%}
+    </div>
     {% endfor %}
 </div>
 
 <hr>
 
-<h3 class="my-2">Graduate Students</h3>
+{% assign grads = site.data.open_thinkopenfellows | where: 'year','2021' | where: 'type','Graduate Student' %}
+{% if grads != empty %}
+<h2 class="my-2">Graduate Students</h2>
 
 <div class="row">
-{% for fellow in fellows %}
-    {% if fellow.year == "2021" and fellow.type == "gradstudent" %}
-    <div class="col-md-6 col-lg-4 my-1">
+    {% for fellow in grads %}
+    <div class="col-md-6 col-lg-4 mb-2">
         <div class="card" id="researcher-{{ fellow.name | slugify }}">
-        {% if fellow.image%}
-            <img class="card-img-top" src="{{ fellow.image | prepend: '/open/thinkopen/' | prepend: site.lib-media }}" alt="{{ fellow.name }} headshot">
-        {%endif%}
+            {% if fellow.image %}
+            <img class="card-img-top" src="{{ site.lib-media }}/open/thinkopen/{{ fellow.image }}" alt="portrait of {{ fellow.name }}">
+            {% endif %}
             <div class="card-body">
-                <h4 class="card-title">
-                    <a href="{{ fellow.id }}"> {{ fellow.name }}</a>
-                </h4>
+                <h3 class="card-title">
+                    <a href="{{ fellow.profile-link }}">{{ fellow.name }}</a>
+                </h3>
                 <p class="card-text">
                     {{ fellow.type | upcase }}
                     <br><strong>{{ fellow.discipline }}</strong>
                 </p>
-                <h5>Project</h5>
+                <h4>Project</h4>
                 <p class="card-text">
                     {{ fellow.topic }}
                     <br>
                     <strong>Students Impacted:</strong> {{ fellow.students-impacted }}
                 </p>
+                <a href="{{ fellow.profile-link }}" class="btn btn-clearwater" target="_blank" rel="noopener">View Profile</a>
             </div>
         </div>   
     </div>
-    {%endif%}
-{% endfor %}
+    {% endfor %}
 </div>
+{% endif %}
