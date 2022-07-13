@@ -5,11 +5,9 @@ permalink: /opportunities/fellowships/libseed.html
 layout: page
 ---
 
-
-{% assign f = site.data.fellowships | where_exp: 'item', 'item.title contains "Seed"' | first %}
+{% assign f = site.data.opportunities_fellowships | where_exp: 'item', 'item.title contains "Seed"' | first %}
 
 {% if f.status == 'open' %}{% include feature/button.html text="Apply Now!" link=f.application-link color="success btn-lg float-right" %}{%endif %}
-
 
 **Deadline:** {{f.deadline}}
 

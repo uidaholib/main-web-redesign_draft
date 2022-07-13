@@ -9,7 +9,7 @@ The library offers fellowships for undergrads, graduate students, and faculty me
 
 Open fellowships are bordered in green and have an Open Now button at the top. If you have any questions about library fellowships generally, please contact Devin Becker at [dbecker@uidaho.edu](mailto:dbecker@uidaho.edu)
 
-{% assign fellowships = site.data.fellowships | sort: 'status' | reverse %}
+{% assign fellowships = site.data.opportunities_fellowships | sort: 'status' | reverse %}
 {% for f in fellowships %}
 {% include feature/fellowship-card.html %}
 {% endfor %}

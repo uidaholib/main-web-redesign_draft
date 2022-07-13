@@ -4,7 +4,7 @@ section: Work with Us
 permalink: /opportunities/fellowships/mainstreetvideo.html
 layout: page
 ---
-{% assign fellowship = site.data.fellowships | where_exp: 'item', 'item.title == page.title' | first %}
+{% assign fellowship = site.data.opportunities_fellowships | where_exp: 'item', 'item.title == page.title' | first %}
 
 **Deadline:** {{fellowship.deadline}}
 

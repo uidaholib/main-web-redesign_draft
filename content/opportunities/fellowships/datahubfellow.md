@@ -5,8 +5,6 @@ permalink: /opportunities/fellowships/datahubfellow.html
 layout: page
 ---
 
-{% assign fellowship = site.data.fellowships | where_exp: 'item', 'item.title == page.title' | first %}
-
 Julie and David Levine Library Fellowship Fellowship
 Deadline: January 25, 2022
 
