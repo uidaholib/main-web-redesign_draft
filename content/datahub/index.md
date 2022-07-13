@@ -8,18 +8,17 @@ lazyload: true
 
 {% include feature/alert.html text="<span class='h5'>New space opening Fall 2022!</span>" color="success" align="center" %}
 
-The U of I Library Data Hub is a new location and service providing year-round co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
+{% include feature/carousel.html slides=site.data.datahub_carousel %}
 
-Building on the Library’s long history of curating and disseminating data collections under programs such as INSIDE Idaho, the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. 
+<div class="alert alert-info text-center mt-3 mb-3" role="alert">
+<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
+<p>Librarian assistance is available Monday - Friday, 11am - 3pm</p>
+</div>
+
+The **U of I Library Data Hub** is a new location and service providing year-round co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
+
+Building on the Library's long history of curating and disseminating data collections under programs such as [INSIDE Idaho](https://insideidaho.org/), the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. 
 It is located in the Map Room, where specialized equipment, staff, and space is available to all U of I Library patrons.
-
-Librarian assistance is available during the following hours:
-
-Monday:     11am to 3pm  
-Tuesday:    11am to 3pm  
-Wednesday:  11am to 3pm  
-Thursday:   11am to 3pm  
-Friday:     11am to 3pm  
 
 ## Data Hub Features
 
