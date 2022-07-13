@@ -9,7 +9,7 @@
         
     {% for slide in include.slides %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{{ slide.image-src | prepend: site.liburl }}" alt="{{ slide.image-alt }}">
+        <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{% unless slide.image-src contains 'http' %}{{ site.liburl }}{% endunless %}{{ slide.image-src }}" alt="{{ slide.image-alt }}">
         <div class="carousel-caption d-none d-md-block px-3 mb-3">
             <div class="row">
                 <div class="col-12">
@@ -20,7 +20,9 @@
                 </div>
                 <div class="col-md-4">
                     <p>
+                    {% if slide.link %}
                     <a class="btn btn-outline-pride-gold" href="{{ slide.link | relative_url }}">{{ slide.link-text }}</a>
+                    {% endif %}
                     {% if slide.link2 %}
                     <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 | relative_url }}">{{ slide.link2-text }}</a>{% endif %}
                     </p>
@@ -35,7 +37,8 @@
                     </div>
                     <div class="col-md-12">
                         <p class="text-center">
-                        <a class="btn btn-outline-pride-gold" href="{{ slide.link }}">{{ slide.link-text }}</a>
+                        {% if slide.link %}
+                        <a class="btn btn-outline-pride-gold" href="{{ slide.link }}">{{ slide.link-text }}</a>{% endif %}
                         {% if slide.link2 %}
                         <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 }}">{{ slide.link2-text }}</a>{% endif %}
                         </p>
