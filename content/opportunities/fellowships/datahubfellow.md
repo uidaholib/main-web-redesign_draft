@@ -1,5 +1,5 @@
 ---
-title:  Julie and David Levine Library Fellowship
+title:  Julie and David Levine Data Hub Fellowship
 section: Work with Us
 permalink: /opportunities/fellowships/datahubfellow.html
 layout: page-narrow
