@@ -22,7 +22,7 @@ layout: page
 
 ### International Libraries:
 
-- <a href="https://uidaho.idm.oclc.org/login?url=http://newfirstsearch.oclc.org/done=http://db.lib.uidaho.edu/databases/;dbname=WorldCat;FSIP" target="_blank" rel="noopener">WorldCat</a>, an online database that searches the catalogs of 36,000 libraries worldwide
+- <a href="https://www.worldcat.org/" target="_blank" rel="noopener">WorldCat</a>, an online database that searches the catalogs of 36,000 libraries worldwide
 - <a href="https://www.loc.gov/" target="_blank" rel="noopener">Library of Congress</a>
 - <a href="http://www.nal.usda.gov/" target="_blank" rel="noopener">National Agriculture Library</a>, access to full book catalog and Agricola article database (1985-present)
 - <a href="http://www.bl.uk/" target="_blank" rel="noopener">British Library</a>
