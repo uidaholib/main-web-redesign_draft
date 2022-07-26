@@ -34,8 +34,8 @@ Faculty teaching high enrollment courses are especially encouraged to apply, as 
 
 ## Apply
 
-**Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022, notified early August 2022**
-**Spring Semester Deadline, for courses in Spring 2023 or later: Apply by November 31st, 2022, notified early December 2022**
+**Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022**
+**Spring Semester Deadline, for courses in Spring 2023 or later: Apply by November 31st, 2022**
 
 {:.btn .btn-lg .btn-pride-gold .ml-3}
 [Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY)
