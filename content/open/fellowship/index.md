@@ -29,8 +29,8 @@ Faculty can apply to transform _any_ course in this fellowship program. Facult
 
 For Academic Year 2022-2023 we are excited to announce a new rolling deadline format. Please apply by the following dates for consideration for the semester noted:
 
-**Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022, notified early August**
-**Spring Semester Deadline, for courses in Spring 2023 or later: Apply by November 31st, 2022, notified early December**
+**Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022**
+**Spring Semester Deadline, for courses in Spring 2023 or later: Apply by November 31st, 2022**
 
 {:.btn .btn-lg .btn-pride-gold .ml-3}
 [Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY)
