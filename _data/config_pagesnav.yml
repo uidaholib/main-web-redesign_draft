@@ -111,7 +111,7 @@ Hours:
     link: /about/hours.html#semester
   - subsection: Summer Hours
     link: /about/hours.html#summer
-  - subsection: Reference Desk
+  - subsection: Reference and Information Desk
     link: /about/hours.html#reference
   - subsection: Interlibrary Loan
     link: /about/hours.html#ill
@@ -403,7 +403,7 @@ Services:
   - subsection: Reference Services
     link: /help/
     subpages:
-      - name: Reference Desk
+      - name: Reference and Information Desk
         url: /help/
       - name: Research Assistance
         url: /help/research.html

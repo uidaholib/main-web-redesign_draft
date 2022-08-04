@@ -61,7 +61,7 @@ INSIDE Idaho serves as a comprehensive geospatial data digital library, providin
             <p class="card-text"><em>Please note:</em> the Map Room is being remodeled summer 2021 to provide space for the new <a href="{{ '/datahub/' | relative_url }}">Data Hub</a> service point.</p>
             <h5 class="card-title">Need help with maps?</h5>
             <p class="card-text">Please contact Government Documents Librarian <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a> if you have questions about print maps or the Map Room--or GIS Librarian <a href="bgodfrey@uidaho.edu">Bruce Godfrey</a> for questions about digital maps and Geographic Information Services (GIS).</p>
-            <p class="card-text">You can also always <a href="{{ '/help/' | relative_url}}">ask the reference desk</a> or connect with your <a href="{{ '/help/research.html' | relative_url }}">subject librarian</a>!</p>
+            <p class="card-text">You can also always <a href="{{ '/help/' | relative_url}}">ask Reference Services</a> or connect with your <a href="{{ '/help/research.html' | relative_url }}">subject librarian</a>!</p>
         </div>
     </div>
 </div>
