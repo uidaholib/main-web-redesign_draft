@@ -2,7 +2,7 @@
 
 We use fontawesome free, and all free icons are currently loaded via CSS + webfonts. 
 
-- ["regular" & "free" icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
+- ["regular" & "free" icons](https://fontawesome.com/v5/search?q=message&m=free&s=solid%2Cregular%2Cbrands)
 - [fontawesome cheatsheet](https://fontawesome.com/cheatsheet)
 
 Add icons in span, `<span class="fas fa-stroopwafel"></span>` (rather than `<i>`), and be sure to add accessibility features.
