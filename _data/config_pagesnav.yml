@@ -570,30 +570,21 @@ The Studio:
 # Think Open Section
 Think Open:
   - parent: Think Open 
-    stub: /open/
+    stub: /open/fellowship/
   - subsection: Think Open Home 
-    link: /open/
-  - subsection: Think Open Fellowship Program
     link: /open/fellowship/
-    subpages: 
-      - name: About
-        url: /open/fellowship/
-      - name: Call for Fellows
-        url: /open/fellowship/call.html
-      - name: FAQ
-        url: /open/fellowship/faq.html
-      - name: Current Fellows
-        url: /open/fellowship/current.html
-      - name: Past Fellows
-        url: /open/fellowship/past.html
+  - subsection: Call for Fellows
+    link: /open/fellowship/call.html
+  - subsection: About the Fellowship
+    link: /open/fellowship/about.html
+  - subsection: Current Fellows
+    link: /open/fellowship/current.html
+  - subsection: Past Fellows
+    link: /open/fellowship/past.html
   - subsection: Why Think Open
     link: /open/why.html
   - subsection: OER Resources
     link: /open/oer_resources.html
-  - subsection: Open Access Publishing Fund
-    link: /services/oapf/ 
-  - subsection: Library Faculty OA Resolution
-    link: https://www.lib.uidaho.edu/media/about/UIdahoLibrary_OpenAccessResolution.pdf
 
 # GIS Day
 GIS Day:

@@ -1,7 +1,7 @@
 ---
 title: "Think Open Fellowship Program"
 section: Think Open
-permalink: /open/fellowship/
+permalink: /open/fellowship/about.html
 layout: page
 --- 
 
