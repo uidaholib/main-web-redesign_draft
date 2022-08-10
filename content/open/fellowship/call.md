@@ -14,7 +14,9 @@ Click below to apply:
 
 ## Call for Applications
 
-Think Open Fellowships are designed to support faculty in adopting Open Educational Resources (OER) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date Think Open Fellows have saved University of Idaho students over $500,000.
+Think Open Fellowships are designed to support faculty in adopting Open Educational Resources (OER) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. 
+
+The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date, Think Open Fellows have saved University of Idaho students over $500,000.
 
 ### Eligibility
 
