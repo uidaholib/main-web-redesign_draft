@@ -21,12 +21,8 @@ Applications are accepted on a first come, first served basis during each fundin
 #### Articles
 
 - Must be accepted for publication before submitting an OAPF application
-  - To qualify for Funding Period #1: 
-    - Articles must have acceptance dates between July 1, 2022 and December 31, 2022
-    - Official invoices and receipts must have issue dates and payment dates between July 1, 2022 and December 31, 2022
-  - To qualify for Funding Period #2: 
-    - Articles must have acceptance dates between January 1, 2023 and June 16, 2023
-    - Official invoices and receipts must have issue dates and payment dates between January 1, 2023 and June 16, 2023
+  - To qualify for Funding Period #1: Official invoices and receipts must have issue dates and payment dates between July 1, 2022 and December 31, 2022
+  - To qualify for Funding Period #2: Official invoices and receipts must have issue dates and payment dates between January 1, 2023 and June 16, 2023
 - Funding per article is capped at $2000.00
 
 #### Journals
