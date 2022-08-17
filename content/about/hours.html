@@ -7,8 +7,6 @@ permalink: /about/hours.html
 
 <hr>
 
-{% include feature/alert.html color="info" text="Hours are subject to change due to special circumstances, including staffing outages due to COVID. Please call 208-885-6559 with questions." %}
-
 <!-- building hours -->
 <h2 class="my-3" id="building-hours"><i class="fas fa-university"></i> Building Hours</h2>
 
@@ -70,14 +68,15 @@ permalink: /about/hours.html
 
 </div>
 
-<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances. If a holiday is not listed in <a href="#reduced">reduced hours</a>, the Library will be open.</p>
+{% capture text %}
+<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances, including staffing storages. If a holiday is not listed in <a href="#reduced">reduced hours</a>, the Library will be open. Please call 208-885-6559 with questions.</p>
+{% endcapture %}
+{% include feature/alert.html color="info" text=text %}
 
 <hr>
 
 <!-- reference desk hours -->
 <h2 class="my-3" id="reference"><i class="fas fa-info-circle"></i> Reference and Information Desk Hours</h2>
-
-{% include feature/alert.html text="Instant help is available online via our <a href='/help/chat.html' class='alert-link'>Chat service</a> 24 hours a day, 7 days a week!" color="success" align="center" %}
 
 <div class="row">
 
@@ -114,6 +113,8 @@ permalink: /about/hours.html
   </div>
 
 </div>
+
+{% include feature/alert.html text="Instant help is available online via our <a href='/help/chat.html' class='alert-link'>Chat service</a> 24 hours a day, 7 days a week!" color="success" align="center" %}
 
 <p>U of I librarians are available to <a href="{{ '/help/' | relative_url }}">help via chat, text, or email</a> during Reference and Information Desk hours. Meetings with a librarian are also available by appointment during regular hours, please email <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a> to set up a time. Even when the Reference and Information Desk is closed, <a href="{{ '/help/chat.html' | relative_url }}">Chat help</a> from librarians from other academic libraries is available 24 hours a day, 7 days a week, all year-round!</p>
 
@@ -261,7 +262,11 @@ permalink: /about/hours.html
               <td></td>
             </tr>
             <tr>
-              <td>September 6 - Labor Day</td>
+              <td>September 4</td>
+              <td>12:00pm - 12:00am</td>
+            </tr>
+            <tr>
+              <td>September 5 - Labor Day</td>
               <td>Closed</td>
             </tr>
           
@@ -270,19 +275,19 @@ permalink: /about/hours.html
               <td></td>
             </tr>
             <tr>
-              <td>November 20 - 21</td>
+              <td>November 19 - 20</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>November 22 - 24</td>
+              <td>November 21 - 23</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>November 25 - Thanksgiving</td>
+              <td>November 24 - Thanksgiving</td>
               <td>Closed</td>
             </tr>
             <tr>
-              <td>November 26 - 27</td>
+              <td>November 25 - 26</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
           
@@ -291,27 +296,23 @@ permalink: /about/hours.html
               <td></td>
             </tr>
             <tr>
-              <td>December 18 - 19</td>
+              <td>December 17 - 18</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>December 20 - 23</td>
+              <td>December 19 - 22</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>December 24 - January 1</td>
+              <td>December 23 - January 2</td>
               <td>Closed</td>
             </tr>
             <tr>
-              <td>January 2</td>
-              <td>12:00pm - 6:00pm</td>
-            </tr>
-            <tr>
-              <td>January 3 - 7</td>
+              <td>January 3 - 6</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>January 8 - 9</td>
+              <td>January 7 - 8</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
 
@@ -320,12 +321,12 @@ permalink: /about/hours.html
               <td></td>
             <tr>
             <tr>
-              <td>January 17 - Martin Luther King Jr. Day</td>
-              <td>12:00pm - 2:00am</td>
+              <td>January 15 - 16 - Martin Luther King Jr. Day</td>
+              <td>12:00pm - 12:00am</td>
             </tr>
             <tr>
-              <td>February 21</td>
-              <td>12:00pm - 2:00am</td>
+              <td>February 19 - 20 - President's Day</td>
+              <td>12:00pm - 12:00am</td>
             </tr>
           
             <tr class="table-secondary">
@@ -333,15 +334,15 @@ permalink: /about/hours.html
               <td></td>
             <tr>
             <tr>
-              <td>March 12 - 13</td>
+              <td>March 11 - 12</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>March 14 - 18</td>
+              <td>March 13 - 17</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>March 19</td>
+              <td>March 18</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
 
@@ -359,11 +360,11 @@ permalink: /about/hours.html
               <td></td>
             <tr>
             <tr>
-              <td>May 30 - Memorial Day</td>
+              <td>May 29 - Memorial Day</td>
               <td>Closed</td>
             </tr>
             <tr>
-              <td>June 19 and 20 - Juneteenth</td>
+              <td>June 19 - Juneteenth</td>
               <td>Closed</td>
             </tr>
             <tr>
