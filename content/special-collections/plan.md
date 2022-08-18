@@ -136,7 +136,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
           <ul>
           <li>Name and preferred method of communication</li>
           <li>Topic of research</li>
-          <li>Collection(s) of interest. Links to where you've identified the collection is very helpful.</li>
+          <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
           <li>Preferred days and times for a visit</li>
           </ul>
           <p>We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
