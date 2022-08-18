@@ -70,7 +70,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment using our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>. We ask for <strong>at least two business days of notice</strong> so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
+            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment. We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
           </div>
           <!--end card-body-->
         </div>
@@ -103,24 +103,43 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
  ---
 
 {:#hours}
-## Current Hours
+## Hours and Appointments
 
-Our materials and our Reading Room are available to everyone! There are two ways to visit us in-person:
+Everyone is welcome to visit our Reading Room and view our materials!
 
 <div class="card-deck my-4">
     <div class="card">
         <div class="card-body">
-          <h3>Open Hours</h3>
-          <p>Semester hours are Tuesday - Friday between 10:00am to 2:00pm in the Reading Room on the Library's <a href=" {{ '/about/maps.html#lg=1&slide=0' | relative_url }}">first floor</a>.</p>
-          <p>During the summer the Reading Room is open by appointment only.</p>
-          <p>Everyone is welcome to come in and view materials! </p>
+          <h3>Reading Room Hours</h3>
+          <table class="table table-hover">
+          <tbody>
+            <tr>
+              <td>Monday, Wednesday, Friday</td>
+              <td>10:00am - 2:00pm</td>
+            </tr>
+            <tr>
+              <td>Tuesday, Thursday</td>
+              <td>1:00pm - 5:00pm</td>
+            </tr>
+            <tr>
+              <td>Summer</td>
+              <td>By appointment only</td>
+            </tr>
+            </tbody>
+          </table>
         </div>
     </div>
     <div class="card">
         <div class="card-body">
           <h3>Make an Appointment</h3>
-            <p>To schedule an appointment, fill out our <a href="https://forms.office.com/r/SjqtcHZ3Kn">Appointment Request Form</a>.</p> 
-            <p>We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
+          <p>To set up a research appointment, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>. Including the following information is appreciated:</p>
+          <ul>
+          <li>Name and preferred method of communication</li>
+          <li>Topic of research</li>
+          <li>Collection(s) of interest. Links to where you've identified the collection is very helpful.</li>
+          <li>Preferred days and times for a visit</li>
+          </ul>
+          <p>We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
         </div>
     </div>
 </div>
