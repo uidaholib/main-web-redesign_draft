@@ -30,7 +30,7 @@ Proper citation of all Special Collections materials is required. Preferred word
 Turnaround time is approximately 1-6 weeks but is dependent on the size of the request, equipment, and staff availability.
 Offsite requests: scans/files will be delivered electronically through document sharing sites. Orders may be saved to CDs, DVDs, or thumb drives and mailed for additional charges.
 
-### Reproduction and Use Fees
+### Reproduction Fees
 
 #### Scanning Fees:
 
@@ -45,21 +45,7 @@ Offsite requests: scans/files will be delivered electronically through document 
 
 **Idaho sales tax will be added to all requests from patrons in Idaho.**
 
-#### Use Fees:
-
-Requests for permission to use archival material in print media and publications, film/video productions, digital works, and other uses must be granted by the Head of Special Collections through the Application for Permission to Use Form. You may request the form by emailing <libspec@uidaho.edu>.
-
-|**Type of Use**|**Non-Commercial**|**Commercial**|
-|-------------|:----------:|:-------------------:|
-|Scholarly print publications|$10.00|$50.00|
-|Exhibits and displays|$15.00|$100.00|
-|Television, film, digital, and websites|$75.00|$150.00|
-|Advertising|$125.00|$175.00|
-{: .table .table-striped}
-
-**Fees may be determined based on scope or size of a project and is ultimately at the discretion of the Head of Special Collections.**
-
-Reproduction and use fees may be waived for university-sponsored projects, including but not limited to student projects, alumni/donor relations, university marketing, office decoration, etc. Fees may be waived for requests from State and Federal agencies and non-profits on a case-by-case basis.
+Reproduction fees may be waived for university-sponsored projects, including but not limited to student projects, alumni/donor relations, university marketing, office decoration, etc. Fees may be waived for requests from State and Federal agencies and non-profits on a case-by-case basis.
 
 #### Payment and Delivery
 
@@ -71,6 +57,8 @@ Reproduction and use fees may be waived for university-sponsored projects, inclu
 ### Copyright Restrictions
 
 The copyright law of the United States (Title 17, USC) governs the making of photocopies or other reproductions of copyrighted materials. Under certain conditions specified in the law, archives and libraries are authorized to furnish a photocopy or reproduction. One of these specified conditions is that the photocopy or reproduction is not to be "used for any purpose other than private study, scholarship or research." If a user later uses a photocopy or reproduction for purposes in excess of "fair use," they may be liable for copyright infringement. This institution reserves the right to refuse a copying order if, in its judgment, fulfillment of the order would involve violation of copyright law.
+
+Requests for permission to use archival material in print media and publications, film/video productions, digital works, and other uses must be granted by the Head of Special Collections through the Application for Permission to Use Form. You may request the form by emailing <libspec@uidaho.edu>.
 
 -----------
 
