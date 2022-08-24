@@ -14,7 +14,9 @@ Click below to apply:
 
 ## Call for Applications
 
-Think Open Fellowships are designed to support faculty in adopting Open Educational Resources (OER) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date Think Open Fellows have saved University of Idaho students over $500,000.
+Think Open Fellowships are designed to support faculty in adopting Open Educational Resources (OER) in the courses they teach. The Think Open Fellowship program is intended to reduce barriers to student success by supporting the use of low or no‐cost course materials in place of traditional textbooks. 
+
+The program’s goal is to improve student success by adopting, creating, and using open educational resources at the University of Idaho. To date, Think Open Fellows have saved University of Idaho students over $500,000.
 
 ### Eligibility
 
@@ -31,6 +33,16 @@ Think Open Fellows are required to:
 * Deliver a syllabus that uses only open or other low-cost materials (less than $30 total).
 
 Faculty teaching high enrollment courses are especially encouraged to apply, as well as those hoping to improve historically marginalized representations in their curriculums. 
+
+### FAQ
+
+**What is the time commitment?**
+
+Faculty fellows will work over the course of one to two semesters to find, create, and adapt OER for a current or upcoming University of Idaho course. Fellows meet throughout their fellowship with the Open Education Librarian, as well as other Library faculty as different kinds of expertise are required. 
+
+**Which courses are eligible for this project?**
+
+Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quality representation of marginalized identities in their course materials.
 
 ## Apply
 
