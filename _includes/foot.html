@@ -8,8 +8,11 @@
 {% if page.lazyload == true %}<script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async></script>{% endif %}
 {% if layout.gallery == true or page.gallery == true %}{% include js/gallery-js.html %}{% endif %}
 {% if page.layout == "page" or page.layout == "page-narrow" %}{% include js/page-sidebar.js %}{% endif %}
-{% if page.chat-widget == true %}{% include lib-chat-widget.html %}{% endif %}
-{% if page.chat-widget-spec == true %}{% include lib-chat-widget-spec.html %}{% endif %}
+{% if page.chat-widget %}
+    {% if page.chat-widget == "spec" %}{% include lib-chat-widget-spec.html %}
+    {% elsif page.chat-widget == "datahub" %}{% include lib-chat-widget-datahub.html %}
+    {% else %}{% include lib-chat-widget.html %}{% endif %}
+{% endif %}
 {% if page.table-id %}{% include js/table-basic.js %}{% endif %}
 {% if page.carousel == true %}{% include js/carousel.html %}{% endif %}
 {% if page.custom-foot or layout.custom-foot %}

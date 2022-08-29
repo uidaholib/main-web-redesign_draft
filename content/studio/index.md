@@ -4,6 +4,10 @@ section: The Studio
 permalink: /studio/
 layout: page
 ---
+<div class="alert alert-info text-center" role="alert">
+<h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
+<p class="h5">Monday - Thursday, 9am - 9pm; Friday, 9am - 7pm; Saturday - Sunday, 12pm - 5pm</p>
+</div>
 
 Located on the second floor of the Library, the Studio offers dedicated space to U of I-affiliated students, staff, and faculty to record, edit, or digitize audiovisual content.
 Faculty and staff can capture high-quality video lectures and instructional videos using the eGlass, One Button Studio, and other [equipment]({{ '/studio/equipment.html' | relative_url }}). 
