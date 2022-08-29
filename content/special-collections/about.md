@@ -78,7 +78,7 @@ We're available 8am - 5pm, Monday - Friday to answer inquiries via email, chat, 
     <tbody>
     {% for a in people %}
     <tr>
-       <td class="name">{{ a.name }}</td>
+       <td class="name">{{ a.last_name }}, {{ a.first_name }}</td>
        <td class="title center">{{ a.title }}</td>
        <td class="contact"><a href="mailto:{{ p.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
     </tr>
