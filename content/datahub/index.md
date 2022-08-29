@@ -4,6 +4,7 @@ section: Data Hub
 permalink: /datahub/
 layout: page
 lazyload: true
+chat-widget: datahub
 ---
 
 {% include feature/alert.html text="<span class='h5'>New space opening Fall 2022!</span>" color="success" align="center" %}
