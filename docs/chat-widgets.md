@@ -17,8 +17,11 @@ Since Chat is currently 24/7 coop, Ask Us and other links point to `/help/chat.h
 To add proactive chat to a page, use the the front matter: 
 `chat-widget: true`
 
-To add SPEC chat to a page, use the front matter:
-`chat-widget-spec: true`
+To add Spec chat to a page, use the front matter:
+`chat-widget: spec`
+
+To add Data Hub chat to a page, use the front matter:
+`chat-widget: datahub`
 
 ## Code
 
