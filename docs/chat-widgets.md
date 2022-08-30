@@ -8,6 +8,7 @@ These are actively deployed (as titled on Chat Widgets page):
 - "Proactive Widget Floating" (on /find/, articles, books, journals, etc)
 - "Primo Widget" (on Primo)
 - "SPEC Proactive Widget Floating" (on /special-collections/, index, searchtools. Does NOT fall back to 24/7 chat)
+- "Data Hub Proactive Widget Floating" (on /datahub/. Does NOT fall back to 24/7 chat)
 
 When making updates to the offline message, etc, please try to keep these all in sync. 
 They are each a bit different use case, but most of the text updates should apply to all. 
@@ -28,4 +29,4 @@ To add Data Hub chat to a page, use the front matter:
 Chat widgets code is in "_includes/lib-chat-widget.html" and "_includes/lib-chat-widget-spec.html".
 The `async` value is added to the script tag to improve loading time.
 
-The includes are added in "foot.html" by checking for te `chat-widget` front matter option.
+The includes are added in "foot.html" by checking for the `chat-widget` front matter option.

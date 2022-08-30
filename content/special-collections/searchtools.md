@@ -3,7 +3,6 @@ title: Search Tools
 layout: page
 section: Special Collections
 permalink: /special-collections/searchtools.html
-chat-widget: spec
 ---
 
 Use these tools to discover finding aids, collections, and items in Special Collections.
