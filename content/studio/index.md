@@ -6,7 +6,9 @@ layout: page
 ---
 <div class="alert alert-info text-center" role="alert">
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
-<p class="h5">Monday - Thursday, 9am - 9pm; Friday, 9am - 7pm; Saturday - Sunday, 12pm - 5pm</p>
+<p class="h5">Monday - Thursday, 9am - 9pm</p>
+<p class="h5">Friday, 9am - 7pm</p>
+<p class="h5">Saturday - Sunday, 12pm - 5pm</p>
 </div>
 
 Located on the second floor of the Library, the Studio offers dedicated space to U of I-affiliated students, staff, and faculty to record, edit, or digitize audiovisual content.
