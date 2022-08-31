@@ -5,14 +5,12 @@ permalink: /find/accesstools.html
 layout: page 
 ---
 
-{% include feature/alert.html color="info" text="*Please note:* The Library's proxy server URL changed in 2020. If you are having difficulty accessing resources saved in a reference manager or other access tool you may need to update the links. See <a href='https://www.lib.uidaho.edu/proxy404.html' class='alert-link'>Proxy 404</a> for details." %}
-
 Did you know that many academic articles behind a paywall have a free [open access](https://sparcopen.org/open-access/) version available?
 Did you know that you can connect external tools to your library account for seamless access to our subscriptions?
  
 This curated list of tools goes beyond our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) to help you access resources using both U of I library subscriptions *and* open access repositories so that you can get articles in the fastest and simplest way possible. 
 If we don’t have access, please put in a request with [Interlibrary Loan]({{ '/services/ill/' | relative_url }}). 
-As always, don’t hesitate to contact a [reference librarian]({{ '/help/' | relative_url }}) with any questions!
+As always, don't hesitate to contact a [reference librarian]({{ '/help/' | relative_url }}) with any questions!
 
 Tools for article access and discovery on the web:
 {% for t in site.data.find_access-tools %}
