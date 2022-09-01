@@ -364,14 +364,14 @@ Services:
   - subsection: Data Management
     link: /services/data/
     subpages:
-      - name: Data Home
+      - name: Data Services
         url: /services/data/
-      - name: Data Management
-        url: /services/data/data-management/
+      - name: Data Management Guide
+        url: /services/data/data-management/        
       - name: DOI Service
         url: /services/data/dois.html
       - name: Contact / Help
-        url: /services/data/data-management/#contact
+        url: /datahub/#people
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -598,52 +598,6 @@ GIS Day:
     link: /find/geospatial/    
 
 # Guide sections
-Data Management Guide:
-  - parent: Data Services
-    stub: /services/data/
-  - subsection: Intro and Contents
-    link: /services/data/data-management/index.html#home
-  - subsection: Data Management Planning
-    link: /services/data/data-management/index.html#planning
-    subpages:
-      - name: Why Manage Your Data?
-        url: /services/data/data-management/index.html#why
-      - name: Funding Agency Guidelines
-        url: /services/data/data-management/index.html#guidelines
-      - name: Data Planning Checklist
-        url: /services/data/data-management/index.html#checklists
-      - name: Example DMPs
-        url: /services/data/data-management/index.html#examples
-  - subsection: Data Documentation &amp; Metadata
-    link: /services/data/data-management/index.html#metadata
-    subpages:
-      - name: What is Metadata?
-        url: /services/data/data-management/index.html#whatis
-      - name: Commonly Used Standards
-        url: /services/data/data-management/index.html#standards
-      - name: Best Practices
-        url: /services/data/data-management/index.html#bestpractices
-  - subsection: Data Sharing &amp; Preservation
-    link: /services/data/data-management/index.html#storing
-    subpages:
-      - name: File Formats
-        url: /services/data/data-management/index.html#formats
-      - name: File and Folder Naming
-        url: /services/data/data-management/index.html#naming
-      - name: Storing (Short-Term)
-        url: /services/data/data-management/index.html#storing_short
-      - name: Storing (Long-Term)
-        url: /services/data/data-management/index.html#depositing
-  - subsection: Copyright &amp; Intellectual Property
-    link: /services/data/data-management/index.html#copyright_ip
-  - subsection: Data Citation
-    link: /services/data/data-management/index.html#citation
-  - subsection: Contact Us
-    link: /services/data/data-management/index.html#contact
-  - subsection: Acknowledgements
-    link: /services/data/data-management/index.html#acknowledgements
-  - subsection: << Data Services Home
-    link: /services/data/
 Copyright Guide:
   - parent: Copyright
     stub: /copyright/
