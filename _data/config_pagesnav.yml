@@ -364,9 +364,9 @@ Services:
   - subsection: Data Management
     link: /services/data/
     subpages:
-      - name: Data Home
+      - name: Data Services
         url: /services/data/
-      - name: Data Management
+      - name: Data Management Guide
         url: /services/data/data-management/        
       - name: DOI Service
         url: /services/data/dois.html
