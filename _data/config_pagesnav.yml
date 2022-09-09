@@ -537,8 +537,6 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: About the MILL
-    link: /mill/about.html 
   - subsection: Tools & Tech
     link: /mill/tools.html
   - subsection: Newsletter
@@ -546,11 +544,11 @@ MILL:
   - subsection: FAQ
     link: /mill/faq.html
   - subsection: Reserve 3d Printers
-    link: https://libcal.uidaho.edu/reserve/3dprinters   
-  - subsection: The Studio A/V Lab
-    link: /studio/
+    link: https://libcal.uidaho.edu/reserve/3dprinters
   - subsection: Workshops
-    link: /services/workshops/    
+    link: /services/workshops/
+  - subsection: Meet the Team
+    link: /mill/about.html   
 
 # The Studio Section
 The Studio:
