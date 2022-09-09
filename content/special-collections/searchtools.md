@@ -7,7 +7,7 @@ permalink: /special-collections/searchtools.html
 
 Use these tools to discover finding aids, collections, and items in Special Collections.
 
-{% assign tools = site.data.spec_searchtools | sort: 'title' %}
+{% assign tools = site.data.spec_searchtools %}
 
 <div class="row py-3 justify-content-center">
 {% for t in tools %}
