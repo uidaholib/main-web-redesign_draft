@@ -11,7 +11,7 @@ The library also provides copyright expertise and guidance to the university com
 
 <div class="text-center">
 	<a href="guide.html" class="btn btn-outline-pride-gold m-1" >View Our Copyright Guide </a>
-	<a href="mailto:khenrich@uidaho.edu" class="btn btn-outline-pride-gold m-1">Email Copyright Librarian Kristin Henrich</a>
+	<a href="/about/people/khenrich.html" class="btn btn-outline-pride-gold m-1">Contact Copyright Librarian Kristin Henrich</a>
 </div>
 
 ---------
@@ -20,8 +20,5 @@ The library also provides copyright expertise and guidance to the university com
 
 The University of Idaho is committed to respecting the rights of copyright holders and complying with copyright law.
 
-For further information about copyright, please consult the University of Idaho Faculty Staff Handbook
-<a href="http://www.webpages.uidaho.edu/fsh/5300.html">section 5300</a> and
-<a href="http://www.webpages.uidaho.edu/fsh/6580.html">section 6580</a>. You can also contact
-a <a href="mailto:khenrich@uidaho.edu">Copyright Librarian Kristin Henrich</a>, or the
-<a href="http://www.uidaho.edu/general-counsel.aspx">University's Office of General Counsel</a> at (208) 885-6125.
+For further information about copyright, please consult the University of Idaho Faculty Staff Handbook <a href="http://www.webpages.uidaho.edu/fsh/5300.html">section 5300</a> and <a href="http://www.webpages.uidaho.edu/fsh/6580.html">section 6580</a>. 
+You can also contact the Library's Copyright Librarian, <a href="mailto:khenrich@uidaho.edu">Kristin Henrich</a>, or consult the <a href="https://www.uidaho.edu/general-counsel">University's Office of General Counsel</a>.
