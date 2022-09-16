@@ -1,0 +1,22 @@
+---
+# generate hours data in json
+---
+{%- assign hours = site.data.config_hours -%}
+{%- assign days = "sun;mon;tue;wed;thu;fri;sat" | split: ";" -%}
+{ "hours": 
+    {
+
+        "default_hours": { {% for d in days %}"{{ d }}": {{ hours.default[d] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %} },
+        "special_hours": {
+            {% for b in hours.breaks %}
+            "break{{ forloop.index }}": {
+                "start_date": "{{ b.start }}",
+                "end_date": "{{ b.end }}",
+                "break_hours": [ {% for d in days %}{{ b[d] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %} ]
+            }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        },
+        "closed_dates": {{ hours.closed.dates | jsonify }}
+    }
+
+}
