@@ -2,7 +2,7 @@
 
 Hours are loaded on every page using the file "/assets/js/hours.js".
 
-Hours.js is generated from data in the file "_data/hours.yml".
+Hours.js is generated from data in the file "_data/config_hours.yml".
 Normal operating hours, breaks, special hours, and closed days are described in the yml data. 
 The necessary format is described in the comments.
 Dates include the full year so that special dates can be set out in advance.

@@ -1,88 +1,177 @@
 ####
 #
 # Default open hours
-# must include display messages for mon,tue,wed,thu,fri,sat,sun 
+# must include open and close keys for mon,tue,wed,thu,fri,sat,sun 
+# the open key should = false if closed
 #
 ####
 default: 
   # fall 2022
-  mon: "Open 6am &#8211; 2am"
-  tue: "Open 6am &#8211; 2am"
-  wed: "Open 6am &#8211; 2am"
-  thu: "Open 6am &#8211; 2am"
-  fri: "Open 6am &#8211; 8pm"
-  sat: "Open 12pm &#8211; 6pm"
-  sun: "Open 12pm &#8211; 2am"
+  mon: 
+    open: 6am
+    close: 2am
+  tue: 
+    open: 6am
+    close: 2am  
+  wed: 
+    open: 6am
+    close: 2am  
+  thu: 
+    open: 6am
+    close: 2am  
+  fri: 
+    open: 6am
+    close: 8pm
+  sat: 
+    open: 12pm
+    close: 6pm  
+  sun: 
+    open: 12pm
+    close: 2am  
 ####
 #
 # Breaks open hours (longer term hours that apply to extended periods)
 # each break is one list item,
 # must include values for start and end (iso date format),
-# and display messages mon,tue,wed,thu,fri,sat,sun
+# and open and close keys for mon,tue,wed,thu,fri,sat,sun
+# the open key should = false if closed
 #
 ####
 breaks:   
   # thanksgiving 
   - start: "2022-11-19"
     end: "2022-11-26"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Closed"
-    fri: "Open 12pm &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm"
+    mon: 
+      open: 8am
+      close: 6pm
+    tue: 
+      open: 8am
+      close: 6pm    
+    wed: 
+      open: 8am
+      close: 6pm    
+    thu: 
+      open: false
+      close: false
+      # message: "Closed - Happy Thanksgiving!"
+    fri: 
+      open: 12pm
+      close: 6pm    
+    sat: 
+      open: 12pm
+      close: 6pm    
+    sun: 
+      open: 12pm
+      close: 6pm    
   # winter 1
   - start: "2022-12-17"
     end: "2022-12-23"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Closed"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm"
+    mon:
+      open: 8am
+      close: 6pm
+    tue: 
+      open: 8am
+      close: 6pm    
+    wed: 
+      open: 8am
+      close: 6pm    
+    thu: 
+      open: 8am
+      close: 6pm    
+    fri: 
+      open: false
+      close: false
+    sat: 
+      open: 12pm
+      close: 6pm    
+    sun:
+      open: 12pm
+      close: 6pm    
   # winter 2
   - start: "2023-01-02"
     end: "2023-01-08"
-    mon: "Closed"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm"       
+    mon: 
+      open: false
+      close: false    
+    tue: 
+      open: 8am
+      close: 6pm     
+    wed: 
+      open: 8am
+      close: 6pm     
+    thu: 
+      open: 8am
+      close: 6pm     
+    fri: 
+      open: 8am
+      close: 6pm     
+    sat: 
+      open: 12pm
+      close: 6pm     
+    sun: 
+      open: 12pm
+      close: 6pm           
   # spring break
   - start: "2023-03-11"
     end: "2023-03-18"
-    mon: "Open 8am &#8211; 6pm"
-    tue: "Open 8am &#8211; 6pm"
-    wed: "Open 8am &#8211; 6pm"
-    thu: "Open 8am &#8211; 6pm"
-    fri: "Open 8am &#8211; 6pm"
-    sat: "Open 12pm &#8211; 6pm"
-    sun: "Open 12pm &#8211; 6pm" 
+    mon:
+      open: 8am
+      close: 6pm      
+    tue: 
+      open: 8am
+      close: 6pm    
+    wed: 
+      open: 8am
+      close: 6pm    
+    thu: 
+      open: 8am
+      close: 6pm      
+    fri: 
+      open: 8am
+      close: 6pm      
+    sat: 
+      open: 12pm
+      close: 6pm      
+    sun: 
+      open: 12pm
+      close: 6pm      
   # summer break
   - start: "2022-05-15"
     end: "2022-08-21"
-    mon: "Open 8am &#8211; 8pm"
-    tue: "Open 8am &#8211; 8pm"
-    wed: "Open 8am &#8211; 8pm"
-    thu: "Open 8am &#8211; 8pm"
-    fri: "Open 8am &#8211; 8pm"
-    sat: "Closed"
-    sun: "Open 12pm &#8211; 8pm"     
+    mon: 
+      open: 8am
+      close: 8pm 
+    tue: 
+      open: 8am
+      close: 8pm    
+    wed: 
+      open: 8am
+      close: 8pm    
+    thu: 
+      open: 8am
+      close: 8pm    
+    fri: 
+      open: 8am
+      close: 8pm    
+    sat: 
+      open: false
+      close: false   
+    sun:      
+      open: 12pm
+      close: 8pm    
 ####
 #
 # Special dates (hours that apply to single dates)
 # each specials is a list item, 
 # must include a list of dates (iso date format),
-# plus a display message
+# open and close keys or a display message
 # 
 ####
 specials:
   - dates: ["2022-09-04","2023-01-15","2023-01-16","2023-02-19","2023-02-20"]
-    message: "Open 12pm &#8211; 12am"   
+    open: 12pm
+    close: 12am
+    # message: "Open 12pm &#8211; 12am"   
 ####
 #
 # Closed dates (single dates when closed)
