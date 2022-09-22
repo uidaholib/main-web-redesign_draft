@@ -63,8 +63,8 @@ lazyload: true
 
     <h3 class="h4">Wednesday, Nov 16th, 2022</h3>
 
-    <p>Keynote featuring <a href="https://coloradomtn.edu/faculty/seidl-dara/">Dr. Dara Seidl</a>. Full program TBA!</p>
-<!--
+    <p><em>Draft schedule is subject to change!</em></p>
+
     <div class="px-2">
         {% assign events = site.data.gisday_schedule %}
         {% for e in events %}
@@ -88,7 +88,7 @@ lazyload: true
             </div>{% endif %}
         </div>
         {% endfor %}
-
+<!--
         <h3 class="h4 mt-4">Thursday, Nov 18th, 2021</h3>
 
         <div class="row border rounded py-3 justify-content-end">
@@ -148,10 +148,10 @@ lazyload: true
 <div id="sponsors" class="my-3"> 
     <h2>Sponsors</h2>
 
-    <p>Each year a variety of entities generously provide financial contributions to help make this a successful event. The current list recognizes our 2019 supporters.</p>
+    <p>Each year a variety of entities generously provide financial contributions to help make this a successful event. The current list recognizes our 2022 supporters.</p>
 
     <div class="row justify-content-center mx-md-4 my-4 text-center">
-        {% assign sponsors = site.data.gisday_sponsors %}
+        {% assign sponsors = site.data.gisday_sponsors | where: "active",true %}
         {% for s in sponsors %}
         <div class="col-6 col-md-4 p-3 p-md-5">
             <a href="{{ s.link }}" title="{{ s.sponsor }}">
