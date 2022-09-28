@@ -471,6 +471,10 @@ Special Collections:
         url: /special-collections/uibibliography.html
       - name: Book Collections List
         url: /special-collections/books.html
+      - name: Collections Data Table
+        url: /special-collections/data.html
+      - name: Finding Aids
+        url: /special-collections/findingaids.html                
       - name: Genealogical Resources
         url: /special-collections/genealogicalresources.html       
       - name: Idaho Biographical Index

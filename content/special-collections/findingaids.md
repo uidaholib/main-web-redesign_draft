@@ -6,13 +6,7 @@ permalink: /special-collections/findingaids.html
 ---
 
 A finding aid is a detailed description and inventory of an archival collection. Similar to a Table of Contents or Index in a book, an archival finding aid is meant to tell you what is inside a given box or folder of an archival collection, so you can find what you’re looking for more quickly.
-The box below searches the Archives West database, which hosts finding aids from the University of Idaho as well as other organizations throughout the Pacific Northwest.
-
-Not all of our collections have finding aids written for them, so we suggest using this resource in tandem with [Browse Collections](/special-collections/browse.html) and our [Digital Collections](https://www.lib.uidaho.edu/digital/).
-
-If you find a collection that you'd like to view in person, please [send us](mailto:libspec@uidaho.edu) the collection's title or a URL link to the collection’s finding aid, and as much detail as possible about which box(es), folder(s), or item(s) you would like to view. 
-In some cases, digital reproductions of materials are available or can become available. 
-For more on what a finding aid is, please see our [FAQ](/special-collections/faq.html) page.
+The box below searches the [Archives West](https://archiveswest.orbiscascade.org/) database, which hosts finding aids from the University of Idaho as well as other organizations throughout the Pacific Northwest.
 
 <div class="card my-3">
 <div class="card-body text-center">
@@ -20,7 +14,13 @@ For more on what a finding aid is, please see our [FAQ](/special-collections/faq
 <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search.php" method="get">
     <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
     <input id="r" name="r" type="hidden" value="idu">
-    <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search" aria-hidden="true"></i> Archives West</button>
+    <button id="searchSubmit" class="btn btn-outline-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search" aria-hidden="true"></i> Archives West</button>
 </form>
 </div>
 </div>
+
+Not all of our collections have finding aids written for them, so we suggest using this resource in tandem with [Browse Collections](/special-collections/browse.html) and our [Digital Collections](https://www.lib.uidaho.edu/digital/).
+
+If you find a collection that you'd like to view in person, please [send us](mailto:libspec@uidaho.edu) the collection's title or a URL link to the collection’s finding aid, and as much detail as possible about which box(es), folder(s), or item(s) you would like to view. 
+In some cases, digital reproductions of materials are available or can become available. 
+For more on what a finding aid is, please see our [FAQ](/special-collections/faq.html) page.
