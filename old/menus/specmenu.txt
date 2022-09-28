@@ -37,10 +37,10 @@
                      
                     </ul>
 </small>
-<a type="button" id="aids" class="btn btn-default find-button2" href="/special-collections/searchtools.html">Search Tools</a>
+<a type="button" id="aids" class="btn btn-default find-button2" href="/special-collections/researchtools.html">Research Tools</a>
 <small id="aidlist" style="display:none">
 <ul class="listsidenav" >
-<li id="tools"><a  href="/special-collections/searchtools.html">Tools Index</a></li>
+<li id="tools"><a  href="/special-collections/researchtools.html">Tools Index</a></li>
 
                                     
                       <li><a href="/special-collections/histphoto/">Photo Search</a></li>

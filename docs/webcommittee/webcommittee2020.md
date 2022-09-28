@@ -45,7 +45,7 @@ Major redesigns:
 New content:
 
 - Proactive LibChat on Find pages (Jessica, Ref)
-- SPEC search tools
+- SPEC research tools
     - [Collections](https://www.lib.uidaho.edu/special-collections/searchall.html)
     - [HistPhoto (migrated)](https://www.lib.uidaho.edu/special-collections/histphoto/)
     - [Idaho Biographical Index](https://www.lib.uidaho.edu/special-collections/idahobio.html)

@@ -115,7 +115,7 @@ Hours:
     link: /about/hours.html#reference
   - subsection: Interlibrary Loan
     link: /about/hours.html#ill
-  - subsection: Special Collections
+  - subsection: Special Collections & Archives
     link: /about/hours.html#special
   - subsection: Curriculum Center
     link: /about/hours.html#curriculum    
@@ -309,7 +309,7 @@ Collections:
     stub: /collections/
   - subsection: Collections Home
     link: /collections/
-  - subsection: Special Collections
+  - subsection: Special Collections & Archives
     link: /special-collections/
   - subsection: Digital
     link: /collections/digital.html
@@ -449,10 +449,49 @@ Services:
 Special Collections:
   - parent: Special Collections
     stub: /special-collections/
-  - subsection: Special Collections Home
+  - subsection: Special Collections & Archives
     link: /special-collections/
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
+  - subsection: Collections
+    url: /special-collections/description.html
+    subpages:
+      - name: Descriptions
+        url: /special-collections/description.html
+      - name: Browse
+        url: /special-collections/browse.html
+  - subsection: Research Tools
+    link: /special-collections/researchtools.html
+  - subsection: Other Research Tools
+    url: /special-collections/accessions.html
+    subpages:
+      - name: Accessions List
+        url: /special-collections/accessions.html
+      - name: Bibliography of U of I History
+        url: /special-collections/uibibliography.html
+      - name: Book Collections List
+        url: /special-collections/books.html
+      - name: Genealogical Resources
+        url: /special-collections/genealogicalresources.html       
+      - name: Idaho Biographical Index
+        url: /special-collections/idahobio.html
+      - name: Idaho Telephone and Business Directories
+        url: /special-collections/directories.html 
+      - name: Non-Idaho Telephone and Business Directories
+        url: /special-collections/non-idaho-directories.html 
+      - name: Terry Abraham Web Archive
+        url: /special-collections/t-abraham/
+  - subsection: Instruction
+    link: /special-collections/instruction.html
+  - subsection: Fellowships
+    link: /special-collections/berry-ijc-fellowship.html
+    subpages:
+      - name: Berry IJC Fellowship
+        url: /special-collections/berry-ijc-fellowship.html
+      - name: Strong Spec Fellowship
+        url: /special-collections/strong-fellowship.html
+  - subsection: Idaho Harvester Blog
+    link: "https://harvester.lib.uidaho.edu/"
   - subsection: About
     link: /special-collections/about.html
     subpages:
@@ -462,46 +501,6 @@ Special Collections:
         url: /special-collections/policies.html
       - name: Donations
         url: /special-collections/donations.html
-      - name: Berry IJC Fellowship
-        url: /special-collections/berry-ijc-fellowship.html
-      - name: Strong Spec Fellowship
-        url: /special-collections/strong-fellowship.html
-  - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
-      - name: Collection Data
-        url: /special-collections/data.html
-  - subsection: Search Tools
-    link: /special-collections/searchtools.html
-  - subsection: Instruction
-    link: /special-collections/instruction.html
-  - subsection: Idaho Harvester Blog
-    link: "https://harvester.lib.uidaho.edu/"
-  - subsection: Research Resources
-    url:
-    subpages:
-      - name: Accessions List
-        url: /special-collections/accessions.html
-      - name: Book Collections List
-        url: /special-collections/books.html       
-      - name: Finding Aids
-        url: /special-collections/findingaids.html
-      - name: Idaho Biographical Index
-        url: /special-collections/idahobio.html
-      - name: Terry Abraham Web Archive
-        url: /special-collections/t-abraham/
-      - name: Bibliography of U of I History
-        url: /special-collections/uibibliography.html
-      - name: Genealogical Resources
-        url: /special-collections/genealogicalresources.html
-      - name: Idaho Telephone and Business Directories
-        url: /special-collections/directories.html        
-      - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html
   - subsection: FAQ
     link: /special-collections/faq.html
 
