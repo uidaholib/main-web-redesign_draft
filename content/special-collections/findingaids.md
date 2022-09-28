@@ -20,7 +20,7 @@ For more on what a finding aid is, please see our [FAQ](/special-collections/faq
 <form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search.php" method="get">
     <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
     <input id="r" name="r" type="hidden" value="idu">
-    <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search"></i> Archives West</button>
+    <button id="searchSubmit" class="btn btn-pride-gold ml-2 mt-2" type="submit"><i class="fas fa-search" aria-hidden="true"></i> Archives West</button>
 </form>
 </div>
 </div>
