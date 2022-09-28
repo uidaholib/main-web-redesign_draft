@@ -461,7 +461,7 @@ Special Collections:
       - name: Browse
         url: /special-collections/browse.html
   - subsection: Research Tools
-    link: /special-collections/researchtools.html
+    link: /special-collections/searchtools.html
   - subsection: Other Research Tools
     url: /special-collections/accessions.html
     subpages:

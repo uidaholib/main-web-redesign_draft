@@ -33,7 +33,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/researchtools.html' | relative_url }}">Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
+            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->

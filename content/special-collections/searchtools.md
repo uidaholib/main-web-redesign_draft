@@ -2,7 +2,7 @@
 title: Research Tools
 layout: page
 section: Special Collections
-permalink: /special-collections/researchtools.html
+permalink: /special-collections/searchtools.html
 ---
 
 Use these tools to discover finding aids, collections, and items in Special Collections.
