@@ -64,21 +64,4 @@ Applicants must submit:
 
 ---
 
-{:#potential}
-### Potential Projects
-
-*Potlatch Logging Company collection of photos, slides, brochures, etc.*
-- Variety of materials from the Potlatch collection; includes photography of Lewiston sawmill modernization, press materials for The Last Sawlog Drive, forest appraisements, and much more. The fellow will be responsible for processing (rehousing and organizing), describing (creating a finding aid), and creating a digital collection from a selection of the materials.
-
-*Women in Natural Resources records*
-- Women in Natural Resources was a University of Idaho publication that focused on women natural resources fields. Materials in the collection include office files, as well as several copies of the magazine. The fellow will be responsible for processing (rehousing and organizing) and describing (creating a finding aid) for the collection. They will also create a digital collection featuring all the issues of the Women in Natural Resources.
-
-*Palouse Empire Science Fiction Association records*
-- This collection is approximately 8 cubic feet and consists of records and ephemera from science fiction conventions and fandoms in the Pacific Northwest, including MosCon. Materials include photographs, program books, and other memorabilia. The MosCon programs have already been digitized, but there may be other materials of interest that could be added to a digital collection or used for blog posts. The fellow would be responsible for processing (rehousing and organizing) and describing (creating a finding aid) for the collection, as well as identifying and digitizing materials to be used for a digital collection or series of blog posts they will write.
-
-*Bunker Hill Mining Company records*
-- Approximately 12 boxes, a good portion are binders with proposals, field sheets, field notes; assay maps; some photographs; ledgers; and a shaft progress report work up sheet. The fellow will be responsible for processing (rehousing and organizing), describing (creating a finding aid), and creating a digital collection from a selection of the materials.
-
----
-
 Questions about the fellowship and the application process should be directed to Ben Hunter, Dean of University Libraries, [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
