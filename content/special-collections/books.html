@@ -1,5 +1,5 @@
 ---
-title: Book Collections List
+title: Book Collections
 layout: page
 section: Special Collections
 permalink: /special-collections/books.html
@@ -7,57 +7,20 @@ custom-foot: "js/spec_books.html"
 # the data necessary for this table is generated only if site.spec_books-build is true
 ---
 
-<p>This table lists over 39,000 books and periodicals held in Spec book collections.</p>
+<p>We have about 24,000 rare and unique books and university theses in our book collections. These include books written by specific authors, such as Ezra Pound, Sir Walter Scott, and Mark Twain, university theses and dissertations, and State of Idaho publications.</p>
 
-<div class="form-group row justify-content-end">
-    <label for="collectionSelect" class="col-sm-2 col-form-label text-right">Book Collection:</label>
-    <div class="color-sm-3">
-        <select id="collectionSelect" class="custom-select form-control">
-            <option value="all" selected>All</option>
-            <option value="Caxton">Caxton Collection</option>
-            <option value="Day-NW">Day-Northwest Collection</option>
-            <option value="Day2">Day Rare Books</option>
-            <option value="Idaho">Idaho Documents</option>
-            <option value="IJC">International Jazz Collection</option>
-            <option value="Pound">Ezra Pound Collection</option>
-            <option value="Pres">President's Collection</option>
-            <option value="SciFi">Science Fiction Collection</option>
-            <option value="Scott">Sir Walter Scott Collection</option>
-            <option value="Spec">Rare Books Collection</option>
-            <option value="Stonewall">Stonewall Collection</option>
-            <option value="Twain">Mark Twain Collection</option>
-        </select>
+<div class="card mb-4 searchcontainer">
+    <div class="card-body">
+        <script>
+        function primo_search() {
+            var query = document.getElementById("primo-search").value;
+            window.open("https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?,AND&tab=SPECAW_Slot&search_scope=MyInst_and_CI&vid=01ALLIANCE_UID:UID&mfacet=location_code,include,1851–13656590001851–uithesis,1&mfacet=location_code,include,1851–13656590001851–uispec,1&mode=advanced&query=any,contains," + encodeURIComponent(query), "_self" );
+        }
+        </script>
+        <form class="form-row justify-content-center mt-4" role="search" onsubmit="primo_search(); return false;">
+            <div class="col-10 col-md-6"><input id="primo-search" class="form-control form-control-lg mb-2" type="search" placeholder="Search Special Collections ..." aria-label="Search Special Collections"></div>
+            <div class="col-10 col-md-2"><button class="btn btn-lg btn-pride-gold text-dark w-100 mb-2" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Catalog</span></button></div>
+        </form>
+        <div class="text-center"><a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced" class="text-white">Advanced Search</a></div>
     </div>
-</div>
-
-<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
-<style>
-    #item-table_filter label, #item-table_filter input { font-size: 20px; font-weight: bold; }
-</style>
-
-<div class="table-responsive-md">
-    <table id="item-table" class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col" >Title</th>
-                <th scope="col" >Author</th>
-                <th scope="col" >Call Number</th>
-                <th scope="col">Group</th>
-                <th scope="col">Date</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th scope="col" >Title</th>
-                <th scope="col" >Author</th>
-                <th scope="col" >Call Number</th>
-                <th scope="col">Group</th>
-                <th scope="col">Date</th>
-            </tr>
-        </tfoot>
-    </table>
-</div>
-
-<hr> 
-
-<p>Clicking the Excel / CSV buttons above will export the current subset of filtered items from the table.</p>
+  </div>
