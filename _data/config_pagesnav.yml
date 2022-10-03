@@ -453,26 +453,26 @@ Special Collections:
     link: /special-collections/
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
-  - subsection: Collections
-    url: /special-collections/description.html
     subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
-  - subsection: Research Tools
+      - name: Requesting Materials
+        url: /special-collections/requesting-materials.html
+      - name: Reading Room
+        url: /special-collections/reading-room.html
+      - name: Hours and Appointments
+        url: /special-collections/hours-appointments.html            
+      - name: Getting Here
+        url: /special-collections/getting-here.html            
+  - subsection: Collections
+    link: /special-collections/description.html
+  - subsection: Primary Research Tools
     link: /special-collections/searchtools.html
   - subsection: Other Research Tools
     url: /special-collections/accessions.html
     subpages:
-      - name: Accessions List
-        url: /special-collections/accessions.html
       - name: Bibliography of U of I History
         url: /special-collections/uibibliography.html
-      - name: Book Collections List
+      - name: Book Collections
         url: /special-collections/books.html
-      - name: Collections Data Table
-        url: /special-collections/data.html
       - name: Finding Aids
         url: /special-collections/findingaids.html                
       - name: Genealogical Resources
@@ -505,10 +505,17 @@ Special Collections:
         url: /special-collections/policies.html
       - name: Donations
         url: /special-collections/donations.html
+      - name: Glossary
+        url: /special-collections/glossary.html        
   - subsection: FAQ
     link: /special-collections/faq.html
-
-
+    subpages:
+      - name: General Information
+        url: /special-collections/faq-general-information.html
+      - name: Research
+        url: /special-collections/faq-research.html
+      - name: Research (drop down option)
+        url: /special-collections/faq-research-dropdown.html
 ##########
 # Independent sections
 #
