@@ -11,10 +11,11 @@ Frameworks, libraries, and packages:
 - Fontawesome, https://fontawesome.com/
 - jQuery.Lazyload, http://www.appelsiini.net/projects/lazyload
 - jQuery.mousewheel, https://github.com/jquery/jquery-mousewheel
-- Lunr.js search, 
+- Lunr.js search, https://lunrjs.com/
 - Leaflet, https://leafletjs.com/
 - leaflet-fusesearch, https://github.com/naomap/leaflet-fusesearch
 - Lightgallery, https://github.com/sachinchoolur/lightGallery
+- Spotlight gallery, https://github.com/nextapps-de/spotlight
 - lazysizes, https://github.com/aFarkas/lazysizes
 
 Data:
