@@ -13,13 +13,11 @@ This investment in our researchers and students is an important step toward the 
 
 Input from members of our campus community has always been vital to our evaluative process and any feedback you may have on these proposed cancellations is appreciated and will be used in making our final decisions.
 
-The first set of cancellations ​comes from a variety of publishers and providers. 
-Our proposed list of cancellations is available for review by downloading the [à la carte cancellations spreadsheet]({{ site.lib-media }}/about/2022_proposed_journal_cuts_alcarte.xlsx). 
+The first set of cancellations ​came from a variety of publishers and providers and has been finalized after collecting feedback.
+
+Our second (and final) list of cancellations are from the publisher Wiley, and can be reviewed by downloading the [proposed Wiley cancellations spreadsheet]({{ site.lib-media }}/about/2022_proposed_journal_cuts_Wiley.xlsx). 
 This list was determined using subscriptions prices, usage statistics, and resulting cost per use metrics. 
 Please share your feedback on these titles by September 21 using the survey link below.
-
-The second ​round of cancellations ​will come from our Wiley journal package. 
-A list of proposed ​Wiley title cancellations will be available at this page in the coming weeks.
 
 Any journals that are cancelled will remain available via [Interlibrary Loan]({{ '/services/ill/' | relative_url }}). 
 If we do cancel something that you would like us to keep, the journal will be rated highly in future discussions as funding becomes available. 
