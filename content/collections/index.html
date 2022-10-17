@@ -22,7 +22,7 @@ lazyload: true
                 </div>
                 <div class="card-body text-center">
                     {% if c.link %}<a href="{{ c.link | relative_url }}">{% endif %}
-                        <img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="{{ site.lib-media }}/collections/{{ c.img }}" alt="Card image">
+                        <img class="card-img{% unless forloop.index < 4 %} lazyload{% endunless %}" {% unless forloop.index < 4 %}data-{% endunless %}src="{{ site.lib-media }}/collections/{{ c.img }}" alt="{{ c.collection }}">
                     {% if c.link %}</a>{% endif %}
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
