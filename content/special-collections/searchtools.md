@@ -1,11 +1,11 @@
 ---
-title: Primary Research Tools
+title: Research Tools
 layout: page
 section: Special Collections
 permalink: /special-collections/searchtools.html
 ---
 
-Use these tools to discover finding aids, collections, and archival materials in Special Collections.
+Use these tools to discover finding aids, collections, and items in Special Collections.
 
 {% assign tools = site.data.spec_searchtools %}
 

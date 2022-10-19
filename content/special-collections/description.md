@@ -1,5 +1,5 @@
 ---
-title: Collections
+title: Description of the Collections
 layout: page
 section: Special Collections
 permalink: /special-collections/description.html
@@ -19,7 +19,8 @@ permalink: /special-collections/description.html
 Special Collections and Archives specializes in archival materials that document the history and culture of Idaho and the University of Idaho. 
 Our holdings contain over 25,000 linear feet of rare, unique, and valuable materials. 
 
-These materials are available to faculty, staff, students, visiting scholars, and community members. Most collections are described by finding aids hosted on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu), a searchable repository of archival finding aids from across the Northwest.
+These materials are available for research use by faculty, staff, students, visiting scholars, and the public in the Special Collections [Reading Room](/special-collections/plan.html). 
+Most collections are described by finding aids hosted on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu), a searchable repository of archival finding aids from throughout the Northwest.
 
 {:#types}
 ### Collection Types

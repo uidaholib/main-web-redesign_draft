@@ -5,11 +5,19 @@ section: Special Collections
 permalink: /special-collections/plan.html
 ---
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/lumber189.jpg" alt="reading room tables" %}
-
+<div class="row">
+<div class="col-md-6" markdown="1">
 The Special Collections Reading Room welcomes all researchers! Since archival materials are non-circulating, you'll need to view our materials in our Reading Room, located on the [first floor](/about/maps.html) of the library. If you are unable to come to the Reading Room in person, please [contact us](mailto:libspec@uidaho.edu) to discuss options for digital reproductions of materials.
-
-
+<div class="text-center">
+  <a href="#hours" class="btn btn-outline-payette-blue m-1">Hours</a>
+  <a href="#rules" class="btn btn-outline-payette-blue m-1">Reading Room</a>
+  <a href="#directions" class="btn btn-outline-payette-blue m-1">Directions</a>
+</div>
+</div>
+<div class="col-md-6">
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/space/lumber189.jpg" alt="reading room tables" %}
+</div>
+</div>
 
 <div class="row justify-content-center">
   <div class="col-md-8 my-4">
@@ -25,7 +33,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Primary Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
+            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
           </div>
           <!--end card-body-->
@@ -179,4 +187,4 @@ You can find information about parking on the University of Idaho Parking and Tr
 
 ## More questions? 
 
-[Contact us](/special-collections/about.html)!
+Head over to our [FAQ page](/special-collections/faq.html) or [contact us](/special-collections/about.html)!
