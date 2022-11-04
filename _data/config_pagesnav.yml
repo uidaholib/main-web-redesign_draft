@@ -463,10 +463,8 @@ Special Collections:
   - subsection: Research Tools
     link: /special-collections/searchtools.html
   - subsection: Other Research Tools
-    url: /special-collections/accessions.html
+    url: 
     subpages:
-      - name: Accessions List
-        url: /special-collections/accessions.html
       - name: Bibliography of U of I History
         url: /special-collections/uibibliography.html
       - name: Book Collections List
