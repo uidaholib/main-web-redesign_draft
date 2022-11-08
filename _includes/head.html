@@ -27,9 +27,35 @@
 {% if page.table-id %}<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">{% endif %}
 {% if layout.gallery == true or page.gallery == true %}<link rel="stylesheet" href="{{ '/assets/lightgallery/css/lightgallery.min.css' | relative_url }}" type="text/css">{%- endif -%}
 <link rel="stylesheet" href="{{ '/assets/css/main.css?v=22.8' | relative_url }}" type="text/css">
-
-<!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
 <style>
-/* temp styles to avoid caching issues */
+    /* inline critical fonts for performance */
+    @font-face {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src:    url('{{ "/assets/fonts/PublicSans-Regular.woff2" | relative_url }}') format('woff2'),
+                url('{{ "/assets/fonts/PublicSans-Regular.woff" | relative_url }}') format('woff');
+    }
+    @font-face {
+        font-family: 'Public Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src:    url('{{ "/assets/fonts/PublicSans-Italic.woff2" | relative_url }}') format('woff2'),
+                url('{{ "/assets/fonts/PublicSans-Italic.woff" | relative_url }}') format('woff');
+    }
+    @font-face {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src:    url('{{ "/assets/fonts/PublicSans-Bold.woff2" | relative_url }}') format('woff2'),
+                url('{{ "/assets/fonts/PublicSans-Bold.woff" | relative_url }}') format('woff');
+    }
+    body {
+        font-family: 'Public Sans', sans-serif;
+    }
 
 </style>
+<!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
