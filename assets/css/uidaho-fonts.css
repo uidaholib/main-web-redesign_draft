@@ -1,34 +1,37 @@
+---
+# generate font css for UofI fonts
+---
 @font-face {
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src:    url('{{ "/assets/fonts/PublicSans-Regular.woff2" | relative_url }}') format('woff2'),
-            url('{{ "/assets/fonts/PublicSans-Regular.woff" | relative_url }}') format('woff');
+    src: url('{{ "/assets/fonts/PublicSans-Regular.woff" | relative_url }}') format('woff');
+    // src: url('{{ "/assets/fonts/PublicSans-Regular.woff2" | relative_url }}') format('woff2'), url('{{ "/assets/fonts/PublicSans-Regular.woff" | relative_url }}') format('woff');
 }
 @font-face {
     font-family: 'Public Sans';
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src:    url('{{ "/assets/fonts/PublicSans-Italic.woff2" | relative_url }}') format('woff2'),
-            url('{{ "/assets/fonts/PublicSans-Italic.woff" | relative_url }}') format('woff');
+    src: url('{{ "/assets/fonts/PublicSans-Italic.woff" | relative_url }}') format('woff');
+    // src: url('{{ "/assets/fonts/PublicSans-Italic.woff2" | relative_url }}') format('woff2'), url('{{ "/assets/fonts/PublicSans-Italic.woff" | relative_url }}') format('woff');
 }
 @font-face {
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src:    url('{{ "/assets/fonts/PublicSans-Bold.woff2" | relative_url }}') format('woff2'),
-            url('{{ "/assets/fonts/PublicSans-Bold.woff" | relative_url }}') format('woff');
+    src: url('{{ "/assets/fonts/PublicSans-Bold.woff" | relative_url }}') format('woff');
+    // src: url('{{ "/assets/fonts/PublicSans-Bold.woff2" | relative_url }}') format('woff2'), url('{{ "/assets/fonts/PublicSans-Bold.woff" | relative_url }}') format('woff');
 }
 @font-face {
     font-family: 'Public Sans';
     font-style: italic;
     font-weight: 700;
     font-display: swap;
-    src:    url('{{ "/assets/fonts/PublicSans-BoldItalic.woff2" | relative_url }}') format('woff2'),
-            url('{{ "/assets/fonts/PublicSans-BoldItalic.woff" | relative_url }}') format('woff');
+    src: url('{{ "/assets/fonts/PublicSans-BoldItalic.woff" | relative_url }}') format('woff');
+    // src: url('{{ "/assets/fonts/PublicSans-BoldItalic.woff2" | relative_url }}') format('woff2'), url('{{ "/assets/fonts/PublicSans-BoldItalic.woff" | relative_url }}') format('woff');
 }
 body {
     font-family: 'Public Sans', sans-serif;
