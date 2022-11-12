@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // base variables
-$base-font-family: ""; 
+$base-font-family: 'Public Sans', sans-serif; 
 $base-font-size:   1.15rem;
 $text-color:       #111;
 $light-text-color: #fdfdfd;
@@ -64,4 +64,4 @@ $theme-colors: map-merge(
     @import "base", "header", "footer", "custom";
 }
 
-@import "libapps";
+@import "uidaho-fonts", "libapps";
