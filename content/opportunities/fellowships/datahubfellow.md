@@ -36,6 +36,7 @@ Applicants may select from projects listed below that they find interesting or m
 
 To Apply, please visit the form linked below to submit a letter of interest of no more than 500 words describing your proposed project, and how your previous experience, education, and/or training prepares you for the work of this fellowship, as well as a copy of your current CV or resume.
 
-[Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3eKC1sBFN3PvFNc){:.btn .btn-lg .btn-outline-pride-gold}
+<!--
+[Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3eKC1sBFN3PvFNc){:.btn .btn-lg .btn-outline-pride-gold}-->
 
 Please contact Jeremy Kenyon (<jkenyon@uidaho.edu>) if you have any questions about the application process or the fellowship.
