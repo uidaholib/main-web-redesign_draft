@@ -7,7 +7,7 @@ layout: page
 
 {% include oapf-alert.html %}
 
-Potential applicants are strongly encouraged to speak with [Jylisa (Doney) Kenyon](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
+Potential applicants are strongly encouraged to speak with [Jylisa Kenyon](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
 
 <!--<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9nOMT8mG65Vq9CK" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
        
