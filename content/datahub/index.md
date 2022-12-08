@@ -7,9 +7,6 @@ lazyload: true
 chat-widget: datahub
 ---
 
-{% capture fellow %}Work with the Data Hub--> the <a href="/opportunities/fellowships/datahubfellow.html" class="alert-link">Julie and David Levine Fellowship</a> is accepting applications until Nov 21st!{% endcapture %}
-{% include feature/alert.html text=fellow align="center" color="success" %}
-
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
 <div class="alert alert-info mt-3 mb-3" role="alert">
