@@ -113,12 +113,12 @@ Everyone is welcome to visit our Reading Room and view our materials!
           <table class="table table-hover">
           <tbody>
             <tr>
-              <td>Monday, Wednesday, Friday</td>
+              <td>Monday, Thursday, Friday</td>
               <td>10:00am - 2:00pm</td>
             </tr>
             <tr>
-              <td>Tuesday, Thursday</td>
-              <td>1:00pm - 5:00pm</td>
+              <td>Tuesday, Wednesday</td>
+              <td>12:00pm - 5:00pm</td>
             </tr>
             <tr>
               <td>Summer</td>
