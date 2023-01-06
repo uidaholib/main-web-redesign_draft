@@ -5,7 +5,7 @@ section: Special Collections
 permalink: /special-collections/description.html
 ---
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 black and white panoramic photograph of the University of Idaho campus, featuring rolling hills and the College Gothic style administration building" %}
 
 <div class="pb-3 text-center">
     <a href="#types" class="btn btn-outline-payette-blue m-1">
