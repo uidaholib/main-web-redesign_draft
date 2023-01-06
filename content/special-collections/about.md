@@ -76,7 +76,7 @@ We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone,
     <tbody>
     {% for a in people %}
     <tr>
-       <td class="name"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html">{{ a.last_name }}, {{ a.first_name }}</a></td>
+       <td class="name"><a href="{{ '/about/people/' | relative_url }}{{ a.id }}.html">{{ a.last_name }}, {{ a.first_name }}</a></td>
        <td class="title center">{{ a.title }}</td>
        <td class="contact"><a href="mailto:{{ p.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
     </tr>
