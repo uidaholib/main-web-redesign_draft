@@ -523,6 +523,8 @@ Data Hub:
     link: /find/geospatial/
   - subsection: <i class="fas fa-share-square"></i> Find Data
     link: /find/data.html
+  - subsection: <i class="fas fa-share-square"></i> Workshops & Events
+    link: /services/workshops/    
 #  - subsection: About the Data Hub
 #    link: /datahub/about.html
 #  - subsection: Tools & Tech
