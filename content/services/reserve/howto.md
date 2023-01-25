@@ -63,8 +63,8 @@ By creating a digital surrogate of physical items, we can ["loan legally acquire
 
 What this means for U of I instructors: 
 
-- Each course may be allotted up to 2 books, equaling a total of no more than 800 pages, to be digitized as CDL items. 
-- We can only provide a digitized or physical version of a book: not both at the same time. 
+- Each course may be allotted no more than 800 pages to be digitized as CDL items. 
+- We can only provide a digitized or physical version of a book: not both at the same time, unless the library has acquired more than one copy of the book. 
 
 What this means for U of I students: 
 
