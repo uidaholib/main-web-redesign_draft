@@ -61,7 +61,15 @@ It is a good idea to add lazyload to modal images and other large images that st
 
 If you need a page to have the `<meta name="robots" content="noindex" />` meta tag, add `noindex: true` to the front matter.
 
-# Sprint issue tracking
+# Extensions on server
+
+The server restricts requests with a known extension list, so any url with non-typical extensions (e.g. .md, .ipynb, .stl) will get redirected to 404.
+If you need to share these types of files from the server, zip them, and share the zip file. 
+If it is a new format necessary for the site (e.g. font type), ask ITS to add it to the allowed list.
+
+-----------
+
+# Sprint issue tracking (old!)
 
 - [drive folder](https://drive.google.com/open?id=1NTIBOM0k35Vn7QgKjK3EbGbxg3u2F3LK)
 - [problem sheet](https://docs.google.com/spreadsheets/d/1YfBYW0g12v-_bgvRN9o8TwQSp_L__sEuxyHYISh_RXw/edit?usp=sharing)
