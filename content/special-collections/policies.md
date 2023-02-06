@@ -8,12 +8,21 @@ permalink: /special-collections/policies.html
 We have several policies guiding the access and use of our materials. 
 
 <div class="text-center mb-2">
+    <a href="#{{ 'Donation Policy' | slugify }}" class="btn btn-secondary my-2 mx-1">Donation Policy</a>
     <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction & Use</a>
     <a href="#citation" class="btn btn-secondary my-2 mx-1">Citations</a>
     <a href="#{{ 'Offensive Material in Archival Collections' | slugify }}" class="btn btn-secondary my-2 mx-1">Offensive Content</a>
 </div>
 
 ----------------------
+
+## Donation Policy
+
+Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
+
+1. [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
+2. Deed of Gift PDF
+
 
 ## Reproduction Requests 
 
@@ -25,7 +34,7 @@ Please check with staff before scanning or photographing any materials. Staff wi
 
 Proper citation of all Special Collections materials is required. Preferred wording:
 
-*[Description of item], [collection title], [Collection number], Special Collections and Archives, University of Idaho Library, Moscow, ID.*
+*Author, Description or "Title of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID.*
 
 Turnaround time is approximately 1-6 weeks but is dependent on the size of the request, equipment, and staff availability.
 Offsite requests: scans/files will be delivered electronically through document sharing sites. Orders may be saved to CDs, DVDs, or thumb drives and mailed for additional charges.
