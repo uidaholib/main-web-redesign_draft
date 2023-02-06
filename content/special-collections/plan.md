@@ -181,7 +181,7 @@ The Reading Room is reserved for the use of Special Collections and Archives mat
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
 For directions to the library, see our [directions page](/about/directions.html). 
-For a wider campus map, see [campus maps](https://www.uidaho.edu/infrastructure/facilities/aes/campus-maps). 
+For a wider campus map, see [campus maps](https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-maps). 
 
 You can find information about parking on the University of Idaho Parking and Transportation Services [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors).
 
