@@ -20,8 +20,8 @@ We have several policies guiding the access and use of our materials.
 
 Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
 
-1. [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
-2. Deed of Gift PDF
+- [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
+- [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf)
 
 
 ## Reproduction Requests 
@@ -34,7 +34,7 @@ Please check with staff before scanning or photographing any materials. Staff wi
 
 Proper citation of all Special Collections materials is required. Preferred wording:
 
-*Author, Description or "Title of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID.*
+*Author, Description or Title of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID.*
 
 Turnaround time is approximately 1-6 weeks but is dependent on the size of the request, equipment, and staff availability.
 Offsite requests: scans/files will be delivered electronically through document sharing sites. Orders may be saved to CDs, DVDs, or thumb drives and mailed for additional charges.
@@ -103,7 +103,7 @@ Users are solely responsible for ensuring that they are observing Fair Use as de
 
 ### Still have questions?
 
-Feel free to review our [Reproductions & Use Policy](/special-collections/policies.html#reproduction-requests) or [contact us](/special-collections/about.html) and we can help!
+Feel free to review our [Reproductions & Use Policy](#reproduction-requests) or [contact us](/special-collections/about.html) and we can help!
 
 -----------------
 
