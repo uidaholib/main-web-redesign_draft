@@ -21,7 +21,7 @@ We have several policies guiding the access and use of our materials.
 Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
 
 - [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
-- [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf)
+- [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
 
 
 ## Reproduction Requests 
