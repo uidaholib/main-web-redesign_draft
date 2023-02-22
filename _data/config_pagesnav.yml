@@ -113,12 +113,18 @@ Hours:
     link: /about/hours.html#summer
   - subsection: Reference and Information Desk
     link: /about/hours.html#reference
+  - subsection: Curriculum Center
+    link: /about/hours.html#curriculum
+  - subsection: Data Hub
+    link: /about/hours.html#datahub
   - subsection: Interlibrary Loan
     link: /about/hours.html#ill
-  - subsection: Special Collections & Archives
+  - subsection: MILL
+    link: /about/hours.html#mill
+  - subsection: Special Collections Reading Room
     link: /about/hours.html#special
-  - subsection: Curriculum Center
-    link: /about/hours.html#curriculum    
+  - subsection: Studio
+    link: /about/hours.html#studio  
   - subsection: Reduced Hours &amp; Closures
     link: /about/hours.html#reduced
   - subsection: << About
