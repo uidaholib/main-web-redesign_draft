@@ -31,10 +31,10 @@ custom-foot: "js/directory-table.html"
     <tbody>
     {% for p in people %}
     <tr>
-       <td class="name"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html">{{ p.last_name }}, {{ p.first_name }}</a></td>
-       <td class="title center">{{ p.title | replace: ';', '<br>' }}<br>{{ p.rank }}</td>
-       <td class="department center">{{ p.department }}</td>
-       <td class="contact"><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
+       <td><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html">{{ p.last_name }}, {{ p.first_name }}</a></td>
+       <td>{{ p.title | replace: ';', '<br>' }}<br>{{ p.rank }}</td>
+       <td>{{ p.department }}</td>
+       <td><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
     </tr>
     {% endfor %}
     </tbody>
