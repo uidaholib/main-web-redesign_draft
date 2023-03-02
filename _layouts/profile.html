@@ -65,8 +65,11 @@ layout: default
                         {% if page.pronouns %}<div class="ml-3">pronouns: {{ page.pronouns }}</div>{% endif %}
                         <div class="row mt-4">
                             <div class="col-md-7">
-                                
-                                <p class="h3"><strong>{{ page.title }}</strong></p>
+                                {% assign titles = page.title | split: ";" %} 
+                                {% for t in titles %}
+                                {% if forloop.first %}<p class="h3"><strong>{{ t }}</strong></p>
+                                {% else %}<p class="h4">{{ t }}</p>{% endif %}
+                                {% endfor %}
                                 {% if page.liaison_title %}<p class="h4">{{ page.liaison_title }}</p>{% endif %}
                                 {% if page.rank %}<p class="h4">{{ page.rank }}</p>{% endif %}
                                 <hr>
