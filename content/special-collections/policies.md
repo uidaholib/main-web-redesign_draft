@@ -9,8 +9,8 @@ We have several policies guiding the access and use of our materials.
 
 <div class="text-center mb-2">
     <a href="#{{ 'Donation Policy' | slugify }}" class="btn btn-secondary my-2 mx-1">Donation Policy</a>
-    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction & Use</a>
-    <a href="#citation" class="btn btn-secondary my-2 mx-1">Citations</a>
+    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction & Copyright</a>
+    <a href="#{{ 'Citing Materials' | slugify }}" class="btn btn-secondary my-2 mx-1">Citing Materials</a>
     <a href="#{{ 'Offensive Material in Archival Collections' | slugify }}" class="btn btn-secondary my-2 mx-1">Offensive Content</a>
 </div>
 
@@ -23,103 +23,154 @@ Any potential donation of historic materials should be discussed with the depart
 - [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
 - [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
 
+----------------------
 
 ## Reproduction Requests 
 
-We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues, or due to the condition, size, or format of the materials.
+Patrons may request physical or digital copies of materials held by Special Collections and Archives. Generally, copies are provided free of charge, within reason. Reproduction requests that total less than 25 pages, require a low resolution for scanning, are easily handled in a flatbed scanner, and are in stable condition should be provided at no charge. Items that are bound may require equipment not immediately available in Special Collections and Archives and may delay fulfillment of a request. 
 
-Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collection does not surrender its own right to publish such material or grant permission to others to do so. Application for permission to use images is available upon request.
+When a reproduction request exceeds the parameters listed above, it may be appropriate to assess a reproduction fee. Again, a $25 fee will be assessed in half-hour increments. Examples of reproduction requests that may necessitate a fee include scanning very large or fragile items, duplicating audio or video materials, or scanning numerous photograph negatives.  
 
-Please check with staff before scanning or photographing any materials. Staff will assist to ensure proper handling of materials. We provide two computers, two flatbed scanners, and a digital camera stand for patron use. Cell phones with cameras and digital cameras are welcome to use under existing lighting (no flash). Personal scanners are permitted with staff approval.
+An estimate of probable reproduction fees will be provided to a patron in advance of any work being completed. In general, if the time needed to complete a request exceeds the estimate, Special Collections and Archives representatives should not assess any additional fee. Consultation will be done with the Head of the department.
 
-Proper citation of all Special Collections materials is required. Preferred wording:
+Special Collections and Archives representatives retain the right to refuse any individual research or reproduction request that interferes with their normal duties. While customer service of great concern to the department, it is not a research firm and cannot accommodate all requests due to staffing limitations.
 
-*Author, Description or Title of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID.*
+----------------------
 
-Turnaround time is approximately 1-6 weeks but is dependent on the size of the request, equipment, and staff availability.
-Offsite requests: scans/files will be delivered electronically through document sharing sites. Orders may be saved to CDs, DVDs, or thumb drives and mailed for additional charges.
+## Copyright Practices
 
-### Reproduction Fees
+The issue of copyright ownership is frequently raised in the course of normal use of collection materials. The vast majority of content in the archives was not produced by Special Collections and Archives, and therefore original copyright does not lie with the department. In limited cases copyrights may have been formally transferred to the department by the donor. Additionally, some material may not reside in the public domain based upon its age. In all cases, department representatives will consult the Head of the department regarding copyright. It is the patron's personal responsibility to locate the copyright owner and secure permissions to reproduce any materials gathered from Spec in the course of their research.  
 
-#### Scanning Fees:
+For materials originally produced by the University of Idaho or an employee in the course of their work, a formal request for approval to reproduce will be submitted through the [Office of Technology Transfer](https://www.uidaho.edu/research/ott).  
 
-|**Material Type**|**Resolution**|**Price per item/page**|
-|-------------|:----------:|-------------------:|
-|Print materials up to 12"x17"|Low|$1.00|
-|Photographs and negative|High|$8.00|
-|Print material over 12"x17"|High|$16.00|
-|Oversized maps or architectural drawings|High|$20.00|
-|Media duplication|N/A|$15.00 (CD and DVD)|
-{: .table .table-striped}
+When reproductions of materials are provided to a patron, the following language will accompany the transfer, in email, in a digital document included in the transfer file or flash drive, or as a printed note along with physical copies.   
 
-**Idaho sales tax will be added to all requests from patrons in Idaho.**
+*"Nearly all materials may be legally protected by copyright laws, even if they were never published or registered with a copyright office. This means that material within this archive may be copyright protected. Though most archival research is personal or scholarly - and so falls into the category of "Fair Use" - it's important to understand how copyright works and how you can use copyrighted materials. The copyright holder must license the work or give permission to anyone who wants to reproduce, adapt, distribute, display, or transmit it. To be cautious, assume that all creative works - including audio and video recordings, photographs and images, even documents, writing drafts, drawings and sketches - are copyright protected, unless you can prove otherwise. To re-use copyrighted material in your own work, you may need to seek a license or permission to use the work from the copyright holder. It is the responsibility of the user to determine if their intentions fall within Fair Use, who holds the copyright, and how to obtain permissions. The University of Idaho Library is not liable for any violations of the law by users. (Language adapted from University Libraries at University of Colorado Boulder)."*
 
-Reproduction fees may be waived for university-sponsored projects, including but not limited to student projects, alumni/donor relations, university marketing, office decoration, etc. Fees may be waived for requests from State and Federal agencies and non-profits on a case-by-case basis.
+ The legal exception of Fair Use under copyright law allows for the reproduction of copyrighted works under certain conditions. In general, patron requests can be judged against the following criteria:
+<div class="row">
+  <div class="col-md-12">
+    <div class="card my-2" >
+      <div class="card-body">
+        <h3 class="card-title">MORE LIKELY to be Fair Use:</h3>
+        <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+            <td>Purpose & Character of Use</td>
+            <td>If the work created is: 
+                    <li> Educational </li>
+                    <li> Transformative </li>
+                    <li> Non-profit</li></td>
+            </tr>
+            <tr>
+              <td>Purpose & Character of Original Material</td>
+              <td>If the archival material used is: 
+                    <li> Factual </li>
+                    <li> Non-fiction </li>
+                    <li> News </li>
+                    <li> Published </li></td>
+            </tr>            
+            <tr>
+              <td>Amount of Original Material Used</td>
+              <td>If intended to take from original material: 
+                    <li> A small amount </li>
+                    <li> Only as much as necessary </li></td>
+            </tr>
+            <tr>
+              <td>Effect of Use on Potential Market</td>
+              <td>If:                    
+                    <li> Use has no significant effect on the market </li>
+                    <li> Few copies of work are made/distributed </li>
+                    <li> Access to work is restricted (to class use, to private server, etc.) </li>
+                    <li> Original work is no longer sold, in print, or distrusted </li></td>
+            </tr>         
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>  
 
-#### Payment and Delivery
+<div class="row">
+  <div class="col-md-12">
+    <div class="card my-2" >
+      <div class="card-body">
+        <h3 class="card-title">LESS LIKELY to be Fair Use:</h3>
+        <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+            <td>Purpose & Character of Use</td>
+            <td>If the work created is: 
+                    <li> Commercial entertainment </li>
+                    <li> Verbatim (untransformed) </li>
+                    <li> From original </li>
+                    <li> Profit-generating </li></td>
+            </tr>
+            <tr>
+              <td>Purpose & Character of Original Material</td>
+              <td>If the archival material used is: 
+                    <li> Creative </li>
+                    <li> Fiction </li>
+                    <li> Entertainment </li>
+                    <li> Unpublished </li></td>
+            </tr>            
+            <tr>
+              <td>Amount of Original Material Used</td>
+              <td>If intended to take from original material: 
+                    <li> A large amount or entire work </li>
+                    <li> More than necessary for educational purposes </li></td>
+            </tr>
+            <tr>
+              <td>Effect of Use on Potential Market</td>
+              <td>If:                    
+                    <li> Work prevents sales of original </li>
+                    <li> Work is made broadly available to public </li>
+                    <li> Access to work is restricted (to class use, to private server, etc.) </li>
+                    <li> Owner/creator of original work requests that users license the material </li></td>
+            </tr>         
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>  
+</div>  
 
-- **PLEASE DO NOT PRE-PAY.** Discuss with Special Collections staff first before payment is made. 
-- An additional $5.00 handling fee is added to orders that must be shipped or mailed
-- Payments can be made by credit card or a check made payable to U of I Library Special Collections
-- Rush order availability will be determined by staff and may include additional fees 
+If you have questions about copyright or our copyright policies, please contact <libspec@uidaho.edu>.
 
-### Copyright Restrictions
 
-The copyright law of the United States (Title 17, USC) governs the making of photocopies or other reproductions of copyrighted materials. Under certain conditions specified in the law, archives and libraries are authorized to furnish a photocopy or reproduction. One of these specified conditions is that the photocopy or reproduction is not to be "used for any purpose other than private study, scholarship or research." If a user later uses a photocopy or reproduction for purposes in excess of "fair use," they may be liable for copyright infringement. This institution reserves the right to refuse a copying order if, in its judgment, fulfillment of the order would involve violation of copyright law.
+----------------------
 
-Requests for permission to use archival material in print media and publications, film/video productions, digital works, and other uses must be granted by the Head of Special Collections through the Application for Permission to Use Form. You may request the form by emailing <libspec@uidaho.edu>.
+## Citing Materials 
 
------------
+Primary sources obtained from Special Collections and Archives should be cited appropriately. Citation formats vary depending upon the discipline, but in general should include author or creator's name, title of the work or specific item, date of publication or production, publication information, collection title, box and folder number, or photograph number, and the name of the repository. 
 
-## Citation 
+Please use the following formats when citing archival materials from Special Collections and archives.  
 
-Do I need to cite materials I found in the archive?
+##### *FOR PHOTOS:* 
 
-Yes. Primary sources and other archival materials are still subject to the same intellectual property rights, copyright, and trademark laws in the United States. The best way to avoid plagiarism is to use your own words and cite all of your sources! 
+Photographer, "Title," date. Collection name, object ID. University of Idaho Library Special Collections and Archives, Moscow, ID. 
 
-### How do I cite archival sources?
+##### *FOR DOCUMENTS:*
 
-If your professor or publisher does not require a specific citation style, here is a [general guide](https://libguides.uidaho.edu/citing).
-
-Citations should lead your readers directly to the original sources you have consulted and should include as much identifying information as possible. Citations should include:
-
-- author or creator's name
-- title of the work or specific item
-- date
-- publication information
-- collection title
-- box and folder number, or photograph number
-- repository (name of the archive that houses the materials)
-
-Here’s an example from one of our [collections](https://archiveswest.orbiscascade.org/ark:/80444/xv119445/op=fstyle.aspx?t=k&q=): 
-
-"Three men and loaded gun rack inside tent," undated. Priest Lake Museum Association Photographs, photo #17-01-26. University of Idaho Library, Special Collections and Archives, Moscow, Idaho. 
-
-### Do I need to obtain permission to publish materials from your collections?
-
-Yes, you do need to obtain permission to publish materials from our collections, and we cannot always grant permission. When we accept materials, we agree to house them, but the original owner retains copyright and intellectual property of the materials. For this reason, we cannot grant or deny permission to publish or otherwise distribute materials if we do not hold the copyright to them. If the materials fall under the legal category of public domain, you may publish or distribute them freely.
-
-Users are solely responsible for ensuring that they are observing Fair Use as defined in the United States Copyright Act.
-
-### Still have questions?
-
-Feel free to review our [Reproductions & Use Policy](#reproduction-requests) or [contact us](/special-collections/about.html) and we can help!
+Author, Description or "Title" of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID. 
 
 -----------------
 
 ## Offensive Material in Archival Collections 
 
-Archival collections can contain language and materials from history that reference beliefs, norms, and values that are no longer (or never were) consistent with those of the University of Idaho. The University of Idaho Library, Special Collections and Archives Department works to describe our collections in an inclusive way that is respectful to the communities they represent (created by, created for, created about) and warn users about collections containing materials that may be offensive. We do this by: 
+Archival collections can contain language and materials from history that reference beliefs, norms, and values that are no longer (or never were) consistent with those of the University of Idaho. Special Collections and Archives works to describe collections in an inclusive way that is respectful to the communities they represent (created by, created for, created about) and warn users about collections containing materials that may be offensive. This is done by: 
 
-- Flagging discriminatory or offensive content included by creators 
-- Removing or changing discriminatory language used by previous archivists in describing collections 
-- Using inclusive, non-discriminatory language in our current descriptive practice 
-- Committing to a culture of ongoing discussion and continued learning 
-- Aligning our efforts with Library diversity, equity, and inclusion initiatives 
+- Flagging discriminatory or offensive content included by creators.
+- Removing or changing discriminatory language used by previous archivists in describing collections. 
+- Using inclusive, non-discriminatory language in our current descriptive practice.
+- Committing to a culture of ongoing discussion and continued learning.
+- Aligning our efforts with Library diversity, equity, and inclusion initiatives.
 
-We notify users when we are aware that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection’s "About" page. 
+Users are notified when it is known that a collection contains language or imagery that may be offensive. If a collection has such materials a note will be added in the finding aid or on a digital collection's "About" page. 
 
-We flag content containing: 
+Content is flagged when it contains:
 
 - Racial slurs 
 - Derogatory or dehumanizing language 
@@ -128,25 +179,25 @@ We flag content containing:
 - Sexually explicit images 
 - Images depicting gore, violence, or other graphic or offensive content 
 
-Due to the vast amount of material we hold, we will not be able to flag all offensive content in our collections. If you find something that you think should be flagged or changed, please contact us at <libspec@uidaho.edu> and we will review the material and address it according to our policy. 
+Due to the vast amount of material held by this repository, not all offensive content can be flagged in advance of patron usage. If a patron believes something should be flagged or changed, they may contact <libspec@uidaho.edu> for review. 
 
-### Non-Discriminatory Language 
+### Non-Discriminatory Language
 
-We recognize a difference between creator-supplied and archivist-supplied language. We do not edit language used by a creator in order to maintain an accurate representation of the historical materials and the voices they represent. However, we do edit offensive and discriminatory language used by past archivists when describing materials. To make this distinction clear, we work to include contextual information in our finding aids and digital collections explaining when such language is creator-supplied versus archivist-supplied. 
+We recognize a difference between creator-supplied and archivist-supplied language. We do not edit language used by a creator in order to maintain an accurate representation of the historical materials and the voices they represent. However, we do edit offensive and discriminatory language used by past archivists when describing materials. To make this distinction clear, we work to include contextual information in our finding aids and digital collections explaining when such language is creator-supplied versus archivist-supplied.
 
-When we edit archivist-supplied language, these changes are noted in the "Processing Note" of the finding aid or on a digital collection’s home page. These notes serve two purposes: 
+When we edit archivist-supplied language, these changes are noted in the "Processing Note" of the finding aid or on a digital collection's home page. These notes serve two purposes:
 
-- to document the history of that individual finding aid or digital collection 
-- to document the broader history of archival descriptive practices and how they may have changed over time 
+- to document the history of that individual finding aid or digital collection
+- to document the broader history of archival descriptive practices and how they may have changed over time
 
 ### Current Descriptive Practices 
 
-We work to describe newly processed collections using inclusive and non-discriminatory language. We have adopted many suggestions set forth in [*Archives for Black Lives in Philadelphia: Anti-Racist Description Resources*](https://archivesforblacklives.files.wordpress.com/2019/10/ardr_final.pdf) and [*Protocols for Native American Archival Materials*](https://www2.archivists.org/groups/native-american-archives-section/protocols-for-native-american-archival-materials-information-and-resources-page) to ensure we limit the use of terms and descriptions that may be offensive. Suggestions we have adopted include, but are not limited to: 
+Following current descriptive best practices, newly processed collections should use inclusive and non-discriminatory language. The following priorities have been set by Special Collections and Archives, informed by the work of peers in the industry.
 
-- Using active language to "embed responsibility" in our archival descriptions 
-- Prioritizing the "humanity of an individual before their identity/ies" 
-- Describing records to support usability by all information-seekers, not just academic researchers 
-- Respecting and upholding any restrictions to materials made by a community, especially those that "describe and represent esoteric, ceremonial or religious knowledge" important to the community 
-- Adding notices of offensive content or dissenting perspectives in descriptions such as "The [tribal name] finds information in this work inaccurate or disrespectful" as applicable 
+- Using active language to "embed responsibility" in our archival descriptions.
+- Prioritizing the "humanity of an individual before their identity/ies". 
+- Describing records to support usability by all information-seekers, not just academic researchers. 
+- Respecting and upholding any restrictions to materials made by a community, especially those that "describe and represent esoteric, ceremonial or religious knowledge" important to the community. 
+- Adding notices of offensive content or dissenting perspectives in descriptions such as "The [tribal name] finds information in this work inaccurate or disrespectful" as applicable. 
 
-If you have questions about this policy please contact <libspec@uidaho.edu> or (208) 885-0845.
+If you have questions about this policy, please contact <libspec@uidaho.edu>.
