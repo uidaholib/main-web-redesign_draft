@@ -47,98 +47,114 @@ When reproductions of materials are provided to a patron, the following language
 
 *"Nearly all materials may be legally protected by copyright laws, even if they were never published or registered with a copyright office. This means that material within this archive may be copyright protected. Though most archival research is personal or scholarly - and so falls into the category of "Fair Use" - it's important to understand how copyright works and how you can use copyrighted materials. The copyright holder must license the work or give permission to anyone who wants to reproduce, adapt, distribute, display, or transmit it. To be cautious, assume that all creative works - including audio and video recordings, photographs and images, even documents, writing drafts, drawings and sketches - are copyright protected, unless you can prove otherwise. To re-use copyrighted material in your own work, you may need to seek a license or permission to use the work from the copyright holder. It is the responsibility of the user to determine if their intentions fall within Fair Use, who holds the copyright, and how to obtain permissions. The University of Idaho Library is not liable for any violations of the law by users. (Language adapted from University Libraries at University of Colorado Boulder)."*
 
- The legal exception of Fair Use under copyright law allows for the reproduction of copyrighted works under certain conditions. In general, patron requests can be judged against the following criteria:
-<div class="row">
-  <div class="col-md-12">
-    <div class="card my-2" >
-      <div class="card-body">
-        <h3 class="card-title">MORE LIKELY to be Fair Use:</h3>
-        <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-            <td>Purpose & Character of Use</td>
-            <td>If the work created is: 
-                    <li> Educational </li>
-                    <li> Transformative </li>
-                    <li> Non-profit</li></td>
-            </tr>
-            <tr>
-              <td>Purpose & Character of Original Material</td>
-              <td>If the archival material used is: 
-                    <li> Factual </li>
-                    <li> Non-fiction </li>
-                    <li> News </li>
-                    <li> Published </li></td>
-            </tr>            
-            <tr>
-              <td>Amount of Original Material Used</td>
-              <td>If intended to take from original material: 
-                    <li> A small amount </li>
-                    <li> Only as much as necessary </li></td>
-            </tr>
-            <tr>
-              <td>Effect of Use on Potential Market</td>
-              <td>If:                    
-                    <li> Use has no significant effect on the market </li>
-                    <li> Few copies of work are made/distributed </li>
-                    <li> Access to work is restricted (to class use, to private server, etc.) </li>
-                    <li> Original work is no longer sold, in print, or distrusted </li></td>
-            </tr>         
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>  
+The legal exception of Fair Use under copyright law allows for the reproduction of copyrighted works under certain conditions. In general, patron requests can be judged against the following criteria:
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="card my-2" >
-      <div class="card-body">
-        <h3 class="card-title">LESS LIKELY to be Fair Use:</h3>
-        <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-            <td>Purpose & Character of Use</td>
-            <td>If the work created is: 
-                    <li> Commercial entertainment </li>
-                    <li> Verbatim (untransformed) </li>
-                    <li> From original </li>
-                    <li> Profit-generating </li></td>
-            </tr>
-            <tr>
-              <td>Purpose & Character of Original Material</td>
-              <td>If the archival material used is: 
-                    <li> Creative </li>
-                    <li> Fiction </li>
-                    <li> Entertainment </li>
-                    <li> Unpublished </li></td>
-            </tr>            
-            <tr>
-              <td>Amount of Original Material Used</td>
-              <td>If intended to take from original material: 
-                    <li> A large amount or entire work </li>
-                    <li> More than necessary for educational purposes </li></td>
-            </tr>
-            <tr>
-              <td>Effect of Use on Potential Market</td>
-              <td>If:                    
-                    <li> Work prevents sales of original </li>
-                    <li> Work is made broadly available to public </li>
-                    <li> Access to work is restricted (to class use, to private server, etc.) </li>
-                    <li> Owner/creator of original work requests that users license the material </li></td>
-            </tr>         
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>  
-</div>  
+<div class="card my-4" >
+  <div class="card-body">
+    <h3 class="card-title">MORE LIKELY to be Fair Use:</h3>
+    <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
+    <table class="table table-hover">
+      <tbody>
+        <tr>
+          <td>Purpose & Character of Use</td>
+          <td>If the work created is:
+            <ul>
+              <li> Educational </li>
+              <li> Transformative </li>
+              <li> Non-profit</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Purpose & Character of Original Material</td>
+          <td>If the archival material used is: 
+            <ul>
+              <li> Factual </li>
+              <li> Non-fiction </li>
+              <li> News </li>
+              <li> Published </li>
+            </ul>
+          </td>
+        </tr>            
+        <tr>
+          <td>Amount of Original Material Used</td>
+          <td>If intended to take from original material: 
+            <ul>
+              <li> A small amount </li>
+              <li> Only as much as necessary </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Effect of Use on Potential Market</td>
+          <td>If:
+            <ul>                
+              <li> Use has no significant effect on the market </li>
+              <li> Few copies of work are made/distributed </li>
+              <li> Access to work is restricted (to class use, to private server, etc.) </li>
+              <li> Original work is no longer sold, in print, or distrusted </li>
+            </ul>
+          </td>
+        </tr>         
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card my-4" >
+  <div class="card-body">
+    <h3 class="card-title">LESS LIKELY to be Fair Use:</h3>
+    <p><small>Content adapted from Amy Dygent, "Copyright services and the university," Society of American Archivists Annual Meeting 2020.</small></p>
+    <table class="table table-hover">
+      <tbody>
+        <tr>
+          <td>Purpose & Character of Use</td>
+          <td>If the work created is: 
+            <ul>
+              <li> Commercial entertainment </li>
+              <li> Verbatim (untransformed) </li>
+              <li> From original </li>
+              <li> Profit-generating </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Purpose & Character of Original Material</td>
+          <td>If the archival material used is:
+            <ul>
+              <li> Creative </li>
+              <li> Fiction </li>
+              <li> Entertainment </li>
+              <li> Unpublished </li>
+            </ul>
+          </td>
+        </tr>            
+        <tr>
+          <td>Amount of Original Material Used</td>
+          <td>If intended to take from original material: 
+            <ul>
+              <li> A large amount or entire work </li>
+              <li> More than necessary for educational purposes </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Effect of Use on Potential Market</td>
+          <td>If:
+            <ul>               
+              <li> Work prevents sales of original </li>
+              <li> Work is made broadly available to public </li>
+              <li> Access to work is restricted (to class use, to private server, etc.) </li>
+              <li> Owner/creator of original work requests that users license the material </li>
+            </ul>
+          </td>
+        </tr>         
+      </tbody>
+    </table>
+  </div>
+</div>
 
 If you have questions about copyright or our copyright policies, please contact <libspec@uidaho.edu>.
-
 
 ----------------------
 
