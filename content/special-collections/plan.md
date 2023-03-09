@@ -148,31 +148,25 @@ Everyone is welcome to visit our Reading Room and view our materials!
 {:#rules}
 ## Reading Room Rules
 
-The Reading Room is reserved for the use of Special Collections and Archives materials. We ask that you please adhere to the following guidelines when visiting:
+The department maintains a Reading Room on the first floor of the library where patrons are welcome to visit during regular hours, or make an appointment in advance, to review materials housed in the archives. The following rules are established to ensure the safety and preservation of collections as well as the quality of the experience for patrons.  
 
-### Space
+- Materials must be handled with extreme care to ensure their preservation. Turn pages carefully, make no marks on the materials, rest no books or other objects on the face or surface of items used. Restrictions may be set to protect fragile or damaged materials. 
 
-- All personal items (backpacks, coats, purses, books, and other personal articles) are not to be kept at the research tables. Storage space is available in the cubbies along the side of the room.
-- Please be courteous and set cell phones and other sound devices to quiet mode.
-- Please respect fellow researchers and be mindful of noise and space.
-- Before leaving, straighten all papers and folders inside boxes. Return all materials to staff. As a security measure, the department reserves the right to inspect all research materials and personal articles.
-- Please use outcards to preserve the existing order and arrangement of all unbound materials. Please use one box and one folder out at a time. Notify a staff member if material is found out of order.
+- All personal items (backpacks, coats, purses, books, and other personal articles) should be kept near the patron's seat and out of the path of others in the room. Storage space is available in the cubbies along the side of the room. 
 
-### Equipment
+- Noise should be kept to a minimum. Set cell phones and other sound devices to quiet mode. Phone calls should be taken outside of the Reading Room.  
 
-- Laptops, notebooks, and pencils are allowed at research tables. Pens are not allowed.
-- We provide two computers, two flatbed scanners, and digital camera stand for use by researchers (please check with staff before scanning or photographing any materials).
-- Cell phones with cameras, digital cameras, and scanners are permitted with staff approval.
+- Before leaving, straighten all papers and folders inside boxes. Return all materials to staff.  
 
-### Accident Prevention
+- Use care to preserve the order of the materials in a box. Mixing up papers and folders is detrimental to collections. Ask for "outcards" -- paper slips used like bookmarks -- from staff if needed.  
 
-- All food and beverages are prohibited.
-- Materials must be handled with extreme care to ensure their preservation. Turn pages carefully, make no marks on the materials, rest no books or other objects on the face or surface of items used. Restrictions may be set to protect fragile or damaged materials.
+- Laptops, notebooks, and pencils are allowed at research tables. Pens are not allowed. 
 
-### Reproductions
+- We provide the necessary technology for searching our digital catalogs, as well as scanning or otherwise digitizing materials. Please check with staff before scanning or photographing any items. 
 
-- We reserve the right to deny a reproduction request because of copyright regulations, privacy rights, donor-imposed regulations or other rights related issues.
-- Permission to examine Special Collections holdings is granted for reference purposes only. This does not include permission to publish, exhibit, broadcast or electronically disseminate the materials consulted by the researcher. Permission for these uses must be obtained by separate agreement and possible payment of fees with the department of Special Collections and Archives. In giving permission to copy, quote from, or publish, Special Collections does not surrender its own right to publish such material or grant permission to others to do so.
+- Cell phones with cameras, digital cameras, and scanners are permitted with staff approval. 
+
+- All food and beverages are prohibited at the worktables and around collections. Closed containers may be stored inside of bags or in storage cubbies.  
 
 ---
 
