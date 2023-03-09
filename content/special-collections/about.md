@@ -1,9 +1,17 @@
 ---
-title: About Special Collections and Archives
+title: About Special Collections & Archives
 layout: page
 section: Special Collections
 permalink: /special-collections/about.html
 ---
+
+<div class="py-3 text-center">
+    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Browse Collections</a>
+    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-edit"></span> Plan Your Visit</a>
+    <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> Policies</a>
+    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-gift"></span> Donate</a>
+    <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> FAQ</a>
+</div>
 
 <div class="row pt-3">
 <div class="col-md-6" markdown="1">
@@ -25,15 +33,6 @@ Learn more about the strengths and focus of our holdings on the [Description of 
 You can view our physical materials by visiting our [Reading Room](/special-collections/plan.html). 
 Many items have been digitized and can be discovered in the [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/) and the [Idaho Harvester](https://harvester.lib.uidaho.edu/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu).
-
-<div class="py-3 text-center">
-    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Browse Collections</a>
-    <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-edit"></span> Plan Your Visit</a>
-    <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> Policies</a>
-    <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-gift"></span> Donate</a>
-    <a href="{{ '/special-collections/faq.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> FAQ</a>
-    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU3fn1ZT2uFVAhbeq68ZolZtUQ0FVNEdKVEIyVFhaUFFWTlgxN1pUVjE3Qy4u" class="btn btn-secondary my-2 mx-1"><span class="fas fa-comments"></span> Give Us Feedback</a>
-</div>
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23VSOWiUOZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
