@@ -36,15 +36,15 @@ We chose to feature these databases as we believe that they challenge our existi
 <table id="dei-database" class="table table-hover">
     <thead>
        <tr>
-          <th>Resource</th>
-          <th>Description</th>
+          <th scope="col">Resource</th>
+          <th scope="col">Description</th>
        </tr>
     </thead>
     <tbody>
     {% for r in resources %}
     {%- assign descriptions = r.description | split: "." -%}
     <tr>
-       <td scope="row">
+       <td>
             <a href="{{ r.link }}" 
             class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="{{ r.name }} Overview">{{ r.name }}</a><div class="d-none">{{ r.name }}</div>
         </td>

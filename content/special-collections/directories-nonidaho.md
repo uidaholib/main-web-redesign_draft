@@ -15,11 +15,11 @@ A list of telephone and business directories from neighboring states held in Spe
 <table id="directories" class="table table-striped">
     <thead>
         <tr>
-            <th>City</th>
-            <th>State</th>
-            <th>Phonebook Dates</th>
-            <th>City Directory Dates</th>
-            <th>Notes</th>
+            <th scope="column">City</th>
+            <th scope="column">State</th>
+            <th scope="column">Phonebook Dates</th>
+            <th scope="column">City Directory Dates</th>
+            <th scope="column">Notes</th>
         </tr>
     </thead>
     <tbody>

@@ -28,11 +28,11 @@ To download the filtered data click the Excel / CSV button below, or <a href="{{
 <table id="all-collections" class="table table-striped">
 	<thead>
 		<tr>
-			<th>Title</th>
-			<th>Group Type</th>
-			<th>Group Number</th>
-			<th>Finding Aid</th>
-			<th>Digital Collection</th>
+			<th scope="column">Title</th>
+			<th scope="column">Group Type</th>
+			<th scope="column">Group Number</th>
+			<th scope="column">Finding Aid</th>
+			<th scope="column">Digital Collection</th>
 		</tr>
 	</thead>
 	<tfoot>
@@ -48,7 +48,7 @@ To download the filtered data click the Excel / CSV button below, or <a href="{{
 	{%- assign items = site.data.spec_collections_main -%}
 	{%- for item in items -%}
 	<tr>
-		<td class="title">{{ item.title }}</td>
+		<th scope="row" class="title">{{ item.title }}</th>
 		<td class="grouptype">{{ item.type }}</td>
 		<td class="groupnumber">{{ item.number | prepend: '0000' | slice: -4, 4 }}</td>
 		<td class="finding-aid">{% if item.finding_aid_link %}<small><a target="_blank" rel="noopener" href="{{ item.finding_aid_link }}">Finding Aid <span class="fas fa-external-link-alt"></span></a></small>{% endif %}</td>

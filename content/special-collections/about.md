@@ -67,15 +67,15 @@ We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone,
 <table class="table table-striped">
     <thead>
        <tr>
-          <th>Name</th>
-          <th>Title</th>
-          <th>Contact Info</th>
+          <th scope="column">Name</th>
+          <th scope="column">Title</th>
+          <th scope="column">Contact Info</th>
        </tr>
     </thead>
     <tbody>
     {% for a in people %}
     <tr>
-       <td class="name"><a href="{{ '/about/people/' | relative_url }}{{ a.id }}.html">{{ a.last_name }}, {{ a.first_name }}</a></td>
+       <th scope="row" class="name"><a href="{{ '/about/people/' | relative_url }}{{ a.id }}.html">{{ a.last_name }}, {{ a.first_name }}</a></th>
        <td class="title center">{{ a.title }}</td>
        <td class="contact"><a href="mailto:{{ p.email }}">{{ a.email }}</a><br>{{ a.phone }}</td>
     </tr>

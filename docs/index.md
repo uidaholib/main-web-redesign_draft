@@ -16,6 +16,7 @@ Adding `table-id:` to yml front matter will load basic datatables dependencies a
 The table should be added to the page content, with the `id` on the `<table>` element.
 By default it is not paginated. 
 Add `table-paginate: true` to yml front matter to add datatables pagination feature.
+Add `scope="column"` to the `<th>` elements in the columns of `<thead>`, and add `<th scope="row">` to appropriate value in each row.
 
 # Foot and custom-foot
 

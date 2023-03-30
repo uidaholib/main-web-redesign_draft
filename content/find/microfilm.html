@@ -26,20 +26,12 @@ custom-foot: "js/find_microfilm.html"
 <table id="microfilm" class="table table-striped">
 	<thead>
 		<tr>
-			<th>City</th>
-			<th>County</th>
-			<th>Title</th>
-			<th>Dates</th>
+			<th scope="column">City</th>
+			<th scope="column">County</th>
+			<th scope="column">Title</th>
+			<th scope="column">Dates</th>
 		</tr>
 	</thead>
-	<tfoot>
-		<tr>
-			<th>City</th>
-			<th>County</th>
-			<th>Title</th>
-			<th>Dates</th>
-		</tr>
-	</tfoot>
 	<tbody>
     {% for n in newspapers %}
     <tr>
