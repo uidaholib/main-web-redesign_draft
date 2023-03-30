@@ -5,10 +5,14 @@ section: Special Collections
 permalink: /special-collections/donations.html
 ---
 
-Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications to Special Collections in the University of Idaho Library. 
-Collections that may be accepted include those relating to the history, culture, and environment of Idaho and the Pacific Northwest, University history and memorabilia, and personal papers or memorabilia of jazz musicians and critics.
+Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 panoramic photograph of the University of Idaho campus" %}
+- [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
+- [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
+
+Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications to Special Collections in the University of Idaho Library.
+
+--------
 
 ## Monetary Support
 

@@ -113,12 +113,18 @@ Hours:
     link: /about/hours.html#summer
   - subsection: Reference and Information Desk
     link: /about/hours.html#reference
+  - subsection: Curriculum Center
+    link: /about/hours.html#curriculum
+  - subsection: Data Hub
+    link: /about/hours.html#datahub
   - subsection: Interlibrary Loan
     link: /about/hours.html#ill
-  - subsection: Special Collections & Archives
+  - subsection: MILL
+    link: /about/hours.html#mill
+  - subsection: Special Collections Reading Room
     link: /about/hours.html#special
-  - subsection: Curriculum Center
-    link: /about/hours.html#curriculum    
+  - subsection: Studio
+    link: /about/hours.html#studio  
   - subsection: Reduced Hours &amp; Closures
     link: /about/hours.html#reduced
   - subsection: << About
@@ -451,8 +457,6 @@ Special Collections:
     stub: /special-collections/
   - subsection: Special Collections & Archives
     link: /special-collections/
-  - subsection: Plan Your Visit
-    link: /special-collections/plan.html
   - subsection: Collections
     url: /special-collections/description.html
     subpages:
@@ -483,6 +487,8 @@ Special Collections:
         url: /special-collections/non-idaho-directories.html 
       - name: Terry Abraham Web Archive
         url: /special-collections/t-abraham/
+  - subsection: Plan Your Visit
+    link: /special-collections/plan.html
   - subsection: Instruction
     link: /special-collections/instruction.html
   - subsection: Fellowships
@@ -499,10 +505,10 @@ Special Collections:
     subpages:
       - name: About
         url: /special-collections/about.html
-      - name: Policies
-        url: /special-collections/policies.html
       - name: Donations
         url: /special-collections/donations.html
+      - name: Policies
+        url: /special-collections/policies.html
   - subsection: FAQ
     link: /special-collections/faq.html
 
@@ -523,6 +529,8 @@ Data Hub:
     link: /find/geospatial/
   - subsection: <i class="fas fa-share-square"></i> Find Data
     link: /find/data.html
+  - subsection: <i class="fas fa-share-square"></i> Workshops & Events
+    link: /services/workshops/    
 #  - subsection: About the Data Hub
 #    link: /datahub/about.html
 #  - subsection: Tools & Tech

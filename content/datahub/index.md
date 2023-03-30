@@ -15,8 +15,11 @@ chat-widget: datahub
 Visit us in the Map Room (Library 107), chat online (icon in lower right), or call (208) 885-7724</p>
 </div>
 
-The U of I Library Data Hub is a new dedicated space and service point providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
+The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
 Located in the Library's [Map Room (First Floor, Rm 107)](/about/maps.html#lg=1&slide=0), the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.
+
+Students, faculty, and staff are invited to get help with topics such as GIS, Git, R, Python, Excel, and data-related tools and information resources.
+Collaborative work areas with large displays are available for consultations and general use, as well as powerful desktop computer workstations.
 
 Building on the Library's long history of curating and disseminating data collections under programs such as [INSIDE Idaho](https://insideidaho.org/), the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. 
 With collaborative work areas focused on data analysis and visualization, a service desk staffed by librarians, and other campus units encouraged to collocate (including [RCDS](https://www.iids.uidaho.edu/rcds.php) and [Statistical Consulting](https://www.uidaho.edu/sci/mathstat/centers/scc)), the Data Hub is a central place to connect with geospatial and data sciences support.

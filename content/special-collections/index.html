@@ -6,15 +6,34 @@ section: Special Collections
 lazyload: true
 ---
 
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/spec/carousel/spec_crop2.jpg" alt="1917 black and white panoramic photograph of the University of Idaho campus, featuring rolling hills and the College Gothic style administration building" %}
 
 <p>Special Collections and Archives is a department within the University of Idaho Library that specializes in the acquisition, preservation, and accessibility of archival research materials that document the history and culture of Idaho and the University of Idaho.</p>
 
 <p>Our materials freely accessible to the campus community and the public. Here's how to find materials: </p>
 
+<div class="card mb-4 searchcontainer">
+  <div class="card-body">
+    <div class="text-center">
+    <div class="text-white"> Search our <a href="https://www.lib.uidaho.edu/special-collections/faq.html#research" target="_blank" rel="noopener">finding aids</a> on Archives West</div>
+      <script>
+      function primo_search() {
+          var query = document.getElementById("primo-search").value;
+          window.open("https://archiveswest.orbiscascade.org/search.php?r=idu&q=" + encodeURIComponent(query), "_self" );
+      }
+      </script>
+      <form class="form-row justify-content-center mt-4" role="search" onsubmit="primo_search(); return false;">
+          <div class="col-10 col-md-6"><input id="primo-search" class="form-control form-control-lg mb-2" type="search" placeholder="Search Archives West ..." aria-label="Search Archives West"></div>
+          <div class="col-10 col-md-2"><button class="btn btn-lg btn-pride-gold text-dark w-100 mb-2" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Archives West</span></button></div>
+      </form>
+    </div>
+  </div>
+</div>
+
 <div class="card-deck my-4">
   <div class="card">
     <div class="card-body">
-      <h2 class="h4">Find Materials Remotely</h2>
+      <h2 class="h4">Start Your Search Online</h2>
       <ul >
         <li><a href="{{ '/special-collections/searchtools.html' | relative_url }}">Research Tools</a></li>
         <li><a href="{{ '/special-collections/about.html#contact' | relative_url }}">Ask Us!</a></li>
@@ -35,24 +54,6 @@ lazyload: true
       <h2 class="h4">Contact Us</h2>
       <p>Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
         Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br></p>
-    </div>
-  </div>
-</div>
-
-<div class="card mb-4 searchcontainer">
-  <div class="card-body">
-    <div class="text-center">
-    <div class="text-white"> Search our <a href="https://www.lib.uidaho.edu/special-collections/faq.html#research" target="_blank" rel="noopener">finding aids</a> on Archives West</div>
-      <script>
-      function primo_search() {
-          var query = document.getElementById("primo-search").value;
-          window.open("https://archiveswest.orbiscascade.org/search.php?r=idu&q=" + encodeURIComponent(query), "_self" );
-      }
-      </script>
-      <form class="form-row justify-content-center mt-4" role="search" onsubmit="primo_search(); return false;">
-          <div class="col-10 col-md-6"><input id="primo-search" class="form-control form-control-lg mb-2" type="search" placeholder="Search Archives West ..." aria-label="Search Archives West"></div>
-          <div class="col-10 col-md-2"><button class="btn btn-lg btn-pride-gold text-dark w-100 mb-2" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Archives West</span></button></div>
-      </form>
     </div>
   </div>
 </div>
