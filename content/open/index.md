@@ -5,11 +5,11 @@ permalink: /open/fellowship/
 layout: page
 ---
 
+## **The Think Open Fellowship program has saved students over $500,000 in textbook costs since its inception in 2017!**
+{:.h3}
 
-
-### **The Think Open Fellowship program has saved students over $500,000 in textbook costs since its inception in 2017!**  
-
-#### Faculty and Graduate Students with teaching appointments are eligible for awards of $1,200 to support the transition of an upcoming University of Idaho course to open materials. Applications for the fellowship are now rolling, so [apply today](/open/fellowship/call.html)!
+Faculty and Graduate Students with teaching appointments are eligible for awards of $1,200 to support the transition of an upcoming University of Idaho course to open materials. Applications for the fellowship are now rolling, so [apply today](/open/fellowship/call.html)!
+{:.h4}
 
 {% include feature/button.html text="Become a ThinkOpen Fellow!" color="pride-gold" link="/open/fellowship/call.html" size="lg mt-3" centered="true" %}
 {% include feature/button.html text="See Current Fellows" color="outline-pride-gold" link="/open/fellowship/current.html" size="lg mb-3" centered="true" %}
@@ -29,7 +29,3 @@ layout: page
 <p class="text-muted text-center"><a href="/about/people/marcosv.html">Open Education Librarian Marco Seiferle-Valencia</a></p>
 </div>
 </div>
-
-
-
-
