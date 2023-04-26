@@ -8,14 +8,14 @@ layout: page
 {% assign cats = faq | map: "category" | uniq %}
 
 <div class="text-center py-3">
-{% for c in cats %}<a href="#{{ c | slugify }}" class="btn btn-secondary btn-sm my-2" >{{ c }}</a>
+{% for c in cats %}<a href="#faq-{{ c | slugify }}" class="btn btn-secondary btn-sm my-2" >{{ c }}</a>
 {% endfor %}
 </div>
 
 <hr>
 
 {% for c in cats %}
-## {{ c }} 
+<h2 id="faq-{{ c| slugify }}">{{ c }}</h2>
 
 {% assign section = faq | where: "category", c %}
 {% assign id = forloop.index %}

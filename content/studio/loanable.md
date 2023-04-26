@@ -14,11 +14,11 @@ You may also want to explore equipment available at [The Studio A/V Lab space]({
 {% assign categories = tools | map: 'category' | uniq | sort %}
 <div class="row">
 <div class="col-12 mb-3 text-center">
-{% for c in categories %}<a href="#{{ c | slugify }}" class="btn btn-sm btn-outline-pride-gold m-2">{{ c }}</a>{% endfor %}
+{% for c in categories %}<a href="#equ-{{ c | slugify }}" class="btn btn-sm btn-outline-pride-gold m-2">{{ c }}</a>{% endfor %}
 </div>
 {% for c in categories %}
 <div class="col-12">
-<h2 id="{{ c | slugify }}" class="my-4">{{ c }}</h2>
+<h2 id="equ-{{ c | slugify }}" class="my-4">{{ c }}</h2>
 </div>
 {% assign set = tools | where: 'category', c %}
 {% for t in set %}
