@@ -8,20 +8,10 @@ permalink: /special-collections/policies.html
 We have several policies guiding the access and use of our materials. 
 
 <div class="text-center mb-2">
-    <a href="#{{ 'Donation Policy' | slugify }}" class="btn btn-secondary my-2 mx-1">Donation Policy</a>
     <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction & Copyright</a>
     <a href="#{{ 'Citing Materials' | slugify }}" class="btn btn-secondary my-2 mx-1">Citing Materials</a>
     <a href="#{{ 'Offensive Material in Archival Collections' | slugify }}" class="btn btn-secondary my-2 mx-1">Offensive Content</a>
 </div>
-
-----------------------
-
-## Donation Policy
-
-Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
-
-- [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
-- [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
 
 ----------------------
 
