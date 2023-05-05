@@ -2,14 +2,11 @@
 title: Maps
 section: Find
 permalink: /find/maps/
-layout: page
+layout: page-narrow
 ---
 
-<div class="row">
-<div class="col-md-8" markdown="1">
-
 Whether you are looking for the most up-to-date [geospatial information]({{ '/find/geospatial/' | relative_url }}) or a unique visual aid for a history presentation, the University of Idaho Library Cartographic Collections have a number of resources for you to use!
-The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107 on the Library's first floor</a>, open Monday through Friday 8 am to 5 pm, with weekend hours available by appointment.
+The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107 on the Library's first floor</a>.
 
 <div class="text-center">
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://libguides.uidaho.edu/Map_Resources">Map Resources Guide</a>
@@ -17,6 +14,9 @@ The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relativ
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/historicalmaps/">Idaho Historical Maps Collection</a>
     <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/aerial/">Idaho Historical Aerial Photographs</a>
 </div>
+
+Please contact Government Documents Librarian <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a> if you have questions about print maps or the Map Room--or GIS Librarian <a href="bgodfrey@uidaho.edu">Bruce Godfrey</a> for questions about digital maps and Geographic Information Services (GIS).
+You can also always <a href="{{ '/help/' | relative_url}}">ask Reference Services</a>!
 
 ## Map Resources
 
@@ -49,20 +49,3 @@ Many images have been digitized and can be discovered through the [Idaho Histori
 
 [INSIDE Idaho](https://www.insideidaho.org) is the official geospatial data clearinghouse for the State of Idaho. 
 INSIDE Idaho serves as a comprehensive geospatial data digital library, providing access to, and a context within which to use, geospatial data and information by, for, and about Idaho.
-
-</div>
-<div class="col-md-4">
-    <div class="card">
-        <div class="card-header">
-            The Map Room
-        </div>
-        <div class="card-body">
-            <p class="card-text">The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107</a> with <strong>hours are Monday through Friday 8 a.m. to 5 p.m.</strong> (weekend hours available by appointment).</p>
-            <p class="card-text"><em>Please note:</em> the Map Room is being remodeled summer 2021 to provide space for the new <a href="{{ '/datahub/' | relative_url }}">Data Hub</a> service point.</p>
-            <h5 class="card-title">Need help with maps?</h5>
-            <p class="card-text">Please contact Government Documents Librarian <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a> if you have questions about print maps or the Map Room--or GIS Librarian <a href="bgodfrey@uidaho.edu">Bruce Godfrey</a> for questions about digital maps and Geographic Information Services (GIS).</p>
-            <p class="card-text">You can also always <a href="{{ '/help/' | relative_url}}">ask Reference Services</a> or connect with your <a href="{{ '/help/research.html' | relative_url }}">subject librarian</a>!</p>
-        </div>
-    </div>
-</div>
-</div>
