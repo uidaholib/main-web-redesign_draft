@@ -109,7 +109,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
 <div class="card-deck my-4">
     <div class="card">
         <div class="card-body">
-          <h3>Reading Room Hours</h3>
+          <h3>Semester Room Hours</h3>
           <table class="table table-hover">
           <tbody>
             <tr>
@@ -120,9 +120,18 @@ Everyone is welcome to visit our Reading Room and view our materials!
               <td>Tuesday, Wednesday</td>
               <td>12:00pm - 5:00pm</td>
             </tr>
+            </tbody>
+          </table>
+          <h3>Summer Hours</h3>
+          <table class="table table-hover">
+          <tbody>
             <tr>
-              <td>Summer</td>
-              <td>By appointment only</td>
+              <td>Tuesday - Thursday</td>
+              <td>10:00am - 2:00pm</td>
+            </tr>
+            <tr>
+              <td>or by appointment</td>
+              <td></td>
             </tr>
             </tbody>
           </table>
