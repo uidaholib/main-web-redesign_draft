@@ -128,7 +128,7 @@ A digital exhibit featuring photographs, newspaper articles, letters, clothing, 
 
 <div class="row justify-content-center">
 <div class="col-md-6">
-{% include feature/card.html centered=true text=cheatham header="Doc Cheatham Collection" img="https://www.lib.uidaho.edu/media/ijc/cheatham.jpg" alt="image of Doc Cheatham playing the trumpet in front of a window" %}
+{% include feature/card.html centered=true text=cheatham header="Doc Cheatham Collection" img="https://www.lib.uidaho.edu/media/ijc/cheatham.jpg" alt="image of Doc Cheatham playing the trumpet" %}
 </div>
 <div class="col-md-6">
 {% include feature/card.html centered=true text=fitzgerald header='Ella Fitzgerald Collection' img="https://www.lib.uidaho.edu/media/digital/small/ella-fitzgerald.jpg" alt="image of Ella Fitzgerald's turquoise high-heeled shoes" %}
