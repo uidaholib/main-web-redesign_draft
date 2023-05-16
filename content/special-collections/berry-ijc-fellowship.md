@@ -109,7 +109,7 @@ A digital essay presenting a series of oral history interviews conducted with Do
 {% endcapture %}
 
 {% capture fitzgerald %}
-A digital exhibit celebrating Fitzgerald's fashion and style through her clothing, photographs, and album covers.
+A digital collection celebrating Fitzgerald's fashion and style through her clothing, photographs, and album covers.
 <br>
 **2021 Fellow: Destiny Angel-Hubble**
 <br>
@@ -117,7 +117,19 @@ A digital exhibit celebrating Fitzgerald's fashion and style through her clothin
 {% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/ella-fitzgerald/" color="outline-payette-blue" %}
 {% endcapture %}
 
+{% capture cheatham %}
+A digital exhibit featuring photographs, newspaper articles, letters, clothing, and jazz charts of trumpeter Adolphus Anthony "Doc" Cheatham (1905-1997).
+<br>
+**2022 Fellow: Esther David**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/cheatham/" color="outline-payette-blue" %}
+{% endcapture %}
+
 <div class="row justify-content-center">
+<div class="col-md-6">
+{% include feature/card.html centered=true text=cheatham header="Doc Cheatham Collection" img="https://www.lib.uidaho.edu/media/ijc/cheatham.jpg" alt="image of Doc Cheatham playing the trumpet in front of a window" %}
+</div>
 <div class="col-md-6">
 {% include feature/card.html centered=true text=fitzgerald header='Ella Fitzgerald Collection' img="https://www.lib.uidaho.edu/media/digital/small/ella-fitzgerald.jpg" alt="image of Ella Fitzgerald's turquoise high-heeled shoes" %}
 </div>
