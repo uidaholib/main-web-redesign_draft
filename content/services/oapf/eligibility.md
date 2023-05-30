@@ -7,7 +7,7 @@ layout: page
 
 {% include oapf-alert.html %}
 
-Potential applicants are strongly encouraged to speak with [Jylisa Kenyon](mailto:jylisadoney@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the eligibility criteria.
+Potential applicants are strongly encouraged to speak with [Kristin Henrich](mailto:khenrich@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the eligibility criteria.
 
 In FY 2023, the total allocation will be split into two funding periods:
 
@@ -71,7 +71,7 @@ Authors with sufficient funding from grants or contracts are encouraged to use t
 {% include feature/card.html header="Author Criteria" text=author %}
 
 {% capture documentation %}
-U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:jylisadoney@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. In FY 2023, documentation (including official invoices and receipts) must have issue dates and payment dates between July 1, 2022 and December 31, 2022 to qualify for Funding Period #1, or issue and payment dates between January 1, 2023 and June 16, 2023 to qualify for Funding Period #2.
+U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:khenrich@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. In FY 2023, documentation (including official invoices and receipts) must have issue dates and payment dates between July 1, 2022 and December 31, 2022 to qualify for Funding Period #1, or issue and payment dates between January 1, 2023 and June 16, 2023 to qualify for Funding Period #2.
     
 Invoices or receipts with issue dates or payment dates that have been changed (including, but not limited to: reissued invoices, credit notes, etc.) do not meet the U of I – OAPF’s documentation requirements.
 
@@ -89,5 +89,5 @@ Funded authors must also deposit a copy of their funded article in the U of I in
 <div class="text-center mb-3">
   <a href="apply.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-check"></span> Apply</a>
   <a href="faq.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-question"></span> FAQ</a>
-  <a href="mailto:jylisadoney@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
+  <a href="mailto:khenrich@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
 </div>
