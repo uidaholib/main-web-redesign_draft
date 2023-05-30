@@ -1,182 +1,29 @@
 ---
-title: Departments
+title: Library Units
 section: About
 permalink: /about/departments.html
 layout: page
 ---
 
-<div class="row text-center">
-
-  <div class="col-md-6">
-
-    <div class="card my-4">
-      <div class="card-header">
-        <h3 class="card-title mb-0">Administrative Services</h3>
-      </div>
-
-      <div class="card-body">
-
-        <h4>
-          <a href="welcome.html">Office of the Dean</a>
-        </h4>
-        <p>
-          <a href="mailto:samm@uidaho.edu">Samm Green</a>, <a href="tel:+1-208-885-6534"
-            class="font-weight-normal">(208) 885-6534</a></p>
-
-        <hr>
-
-        <h4>Fiscal Officer</h4>
-        <p>
-          <a href="mailto:brittanyg@uidaho.edu">Brittany Gunderson</a>, <a href="tel:+1-208-885-5732"
-            class="font-weight-normal">(208) 885-5732</a></p>
-
-        <hr>
-
-        <h4>Communications/Marketing</h4>
-        <p>
-          <a href="mailto:cbarnhart@uidaho.edu">Cynthia Barnhart</a>, <a href="tel:+1-208-885-6355"
-            class="font-weight-normal">(208) 885-6355</a></p>
-
-        <hr>
-
-        <h4>
-          <a href="{{ '/giving/' | relative_url }}">Giving</a>
-        </h4>
-        <p>
-          <a href="tel:+1-208-885-6534" class="font-weight-normal">(208) 885-6534</a></p>
-      </div>
-    </div>
-
-    <div class="card my-4">
-      <div class="card-header">
-        <h3 class="card-title mb-0">
-          <a href="{{ '/services/dds.html' | relative_url }}">Data and Digital Services</a>
-        </h3>
-      </div>
-
-      <div class="card-body">
-        <h4>
-          <a href="{{ '/services/data/' | relative_url }}">Data Services</a>
-        </h4>
-        <p>
-          <a href="mailto:jkenyon@uidaho.edu">Jeremy Kenyon</a>, <a href="tel:+1-208-885-7955"
-            class="font-weight-normal">(208) 885-7955</a></p>
-        <h4>
-          <a href="https://cdil.lib.uidaho.edu/">Digital Scholarship</a>
-        </h4>
-        <p>
-          <a href="mailto:dbecker@uidaho.edu">Devin Becker</a>, <a href="tel:+1-208-885-7040"
-            class="font-weight-normal">(208) 885-7040</a></p>
-        <h4>
-          <a href="https://www.lib.uidaho.edu/digital/">Digital Libraries</a>
-        </h4>
-        <p>
-          <a href="mailto:omwikle@uidaho.edu">Olivia Wikle</a>, <a href="tel:+1-208-885-9086"
-            class="font-weight-normal">(208) 885-9086</a></p>
-        <h4>
-          <a href="{{ '/find/geospatial/' | relative_url }}">GIS</a>
-        </h4>
-        <p>
-          <a href="mailto:bgodfrey@uidaho.edu">Bruce Godfrey</a>, <a href="tel:+1-208-292-1407"
-            class="font-weight-normal">(208) 292-1407</a></p>
-        <h4>
-          <a href="{{ '/services/scholarly/' | relative_url }}">Scholarly Communications</a>
-        </h4>
-      </div>
-    </div>
-
-    <div class="card my-4">
-      <div class="card-header">
-        <h3 class="card-title mb-0">Technical Services</h3>
-      </div>
-      <div class="card-body">
-        <h4>Acquisitions</h4>
-        <p>
-          <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a>, <a href="tel:+1-208-885-2503"
-            class="font-weight-normal">(208) 885-2503</a></p>
-        <h4>Cataloging and Collections</h4>
-        <p>
-          <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a>, <a href="tel:+1-208-885-2503"
-            class="font-weight-normal">(208) 885-2503</a></p>
-        <h4>Marking, Mending and Mail</h4>
-        <p>
-          <!--<a href="mailto:macnaughton@uidaho.edu">James MacNaughton</a>,--> 
-          <a href="tel:+1-208-885-6495"
-            class="font-weight-normal">(208) 885-6495</a></p>
-        <h4>Serials and e-Resources</h4>
-        <p>
-          <a href="mailto:clintonj@uidaho.edu">Clinton Johnson</a>, <a href="tel:+1-208-885-2512"
-            class="font-weight-normal">(208) 885-2512</a></p>
-      </div>
-    </div>
-
+{% for u in site.data.about_units.units %}
+<div class="card mb-3">
+  <h2 class="card-header">{{ u.title }}</h2>
+  <div class="card-body">
+    {% if u.head %}{% assign head_info = site.data.about_people | where: 'id',u.head | first %}
+    <p>Unit head: <a href="{{ '/about/people' | relative_url }}{{ u.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a></p>{% endif %}
+    <p>
+      <ul>
+        {% for a in u.areas %}
+        <li>
+          {%- if a.link -%}<a href="{{ a.link | relative_url }}">{{ a.name }}</a>{% else %}{{ a.name }}{%- endif -%}
+          {%- if a.head -%}{%- assign head_info = site.data.about_people | where: 'id',a.head | first -%}, <a href="{{ '/about/people' | relative_url }}{{ u.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a>{%- endif -%}
+          {%- if a.email -%}, <a href="mailto:{{ a.email }}">{{ a.email }}</a>{%- endif -%}
+          {%- if a.phone -%}, {{ a.phone }}{%- endif -%}</li>
+        {% endfor %}
+      </ul>
+    </p>
   </div>
-  <div class="col-md-6">
-
-    <img class="d-none d-sm-block img-fluid mt-4" alt="U of I library tower" src="https://www.lib.uidaho.edu/images/outsidelib.jpg">
-
-    <div class="card my-4">
-      <div class="card-header">
-        <h3 class="card-title mb-0">
-          <a href="{{ '/special-collections/' | relative_url }}">Special Collections and Archives</a>
-        </h3>
-      </div>
-      <div class="card-body">
-        <p><a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>, <a href="tel:+1-208-885-0845" class="font-weight-normal">(208) 885-0845</a></p>
-      </div>
-    </div>
-
-    <div class="card my-4">
-      <div class="card-header">
-        <h3 class="card-title mb-0">User and Research Services</h3>
-      </div>
-
-      <div class="card-body">
-        <h4>Circulation</h4>
-        <p>
-          <a href="mailto:libcirc@uidaho.edu">libcirc@uidaho.edu</a>, <a href="tel:+1-208-885-6559"
-            class="font-weight-normal">(208) 885-6559</a></p>
-        <h4>
-          <a href="{{ '/find/govdocs/' | relative_url }}">Government Documents</a>
-        </h4>
-        <p>
-          <a href="mailto:rattebur@uidaho.edu">rattebur@uidaho.edu</a>, <a href="tel:+1-208-885-2503"
-            class="font-weight-normal">(208) 885-2503</a></p>
-        <h4>
-          <a href="{{ '/services/curriculumcenter.html' | relative_url }}">Gary Strong Curriculum Center</a>
-        </h4>
-        <p>
-          <a href="mailto:curriculumcenter@uidaho.edu">curriculumcenter@uidaho.edu</a>, <a
-            href="tel:+1-208-885-7257" class="font-weight-normal">(208) 885-7257</a></p>
-        <h4>
-          <a href="{{ '/services/ill/' | relative_url }}">Interlibrary Loan (ILL)</a>
-        </h4>
-        <p>
-          <a href="mailto:libill@uidaho.edu">libill@uidaho.edu</a>, <a href="tel:+1-208-885-6843"
-            class="font-weight-normal">(208) 885-6843</a></p>
-        <h4>
-          <a href="{{ '/help/' | relative_url }}">Reference</a>
-        </h4>
-        <p>
-          <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a>, <a href="tel:+1-208-885-6584"
-            class="font-weight-normal">(208) 885-6584</a>
-          <br><span class="smalltxt">This department can help with locating library materials and doing research
-            using print and online sources,
-            as well as answer questions on all aspects of the library.</span>
-        </p>
-        <h4>
-          <a href="{{ '/services/reserve/' | relative_url }}">Reserves</a>
-        </h4>
-        <p>
-          <a href="mailto:libreserve@uidaho.edu">libreserves@uidaho.edu</a>, <a href="tel:+1-208-885-6495"
-            class="font-weight-normal">(208) 885-6495</a>
-          <br><span class="smalltxt">Contact this department if you are a faculty member who needs to place
-            materials on reserve (in the library
-            or electronically) or if you are a student with questions about accessing items on reserve.</span>
-        </p>
-      </div>
-    </div>
-
-  </div>
-
 </div>
+{% endfor %}
+
+    

@@ -1,0 +1,73 @@
+# data for Units page
+units:
+  - title: Administrative Services
+    areas:
+      - name: Dean, University of Idaho Libraries
+        head: bhunter
+      - name: Associate Dean Operations and Access
+        head: rattebur
+      - name: Associate Dean Research & Instruction
+        head: dbecker
+      - name: Assistant to the Dean
+        head: samm
+      - name: Fiscal Officer
+        head: brittnil
+      - name: Communications and Marketing 
+        head: cbarnhart
+      - name: Giving
+        head: hyeats
+  - title: Access and Engagement
+    head: jylisadoney
+    areas: 
+      - name: Access Services
+        email: libcirc@uidaho.edu
+      - name: Building
+        link: /about/hours.html   
+      - name: First Year Experience
+        link: /services/instruction/
+      - name: Gary Strong Curriculum Center
+        link: /services/curriculumcenter.html
+      - name: Reference
+        link: /help/
+        email: libref@uidaho.edu  
+  - title: Discovery and Acquisitions
+    areas:
+      - name: Acquisitions
+      - name: Cataloging and Collections
+      - name: Series and E-Resources
+      - name: Mail, Marking, and Mending
+      - name: Government Documents
+        link: /find/govdocs/
+      - name: Interlibrary Loan (ILL)
+        link: /services/ill/
+  - title: Digital Scholarship and Open Strategies
+    head: ewilliamson
+    areas:
+      - name: Center for Digital Inquiry and Learning
+        link: https://cdil.lib.uidaho.edu/
+      - name: Digital Collections
+        link: /digital/
+      - name: Think Open and OER
+        link: /open/fellowship/
+      - name: OA Publishing Fund
+        link: /services/oapf/
+      - name: Copyright
+        link: /copyright/
+  - title: Research and Experiential Learning
+    head: jkenyon
+    areas:
+      - name: Data Hub
+        link: /datahub/
+      - name: The MILL 
+        link: /mill/
+      - name: The Studio
+        link: /studio/
+      - name: Research Information System
+        link: https://vivo.nkn.uidaho.edu/vivo/
+  - title: Special Collections and Archives
+    head: dulce
+    areas:
+      - name: Reading Room
+        email: libspec@uidaho.edu
+        phone: (208) 885-0845
+        link: /special-collections/plan.html
