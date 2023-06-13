@@ -27,7 +27,7 @@ custom-foot: "js/directory-table.html"
        <th scope="row"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html">{{ p.last_name }}, {{ p.first_name }}</a></th>
        <td>{{ p.title | replace: ';', '<br>' }}<br>{{ p.rank }}</td>
        <td>{{ p.department }}</td>
-       <td><a href="mailto:{{ p.email }}">{{ p.email }}</a><br>{{ p.phone }}</td>
+       <td><a href="mailto:{{ p.email }}">{{ p.email }}</a>{% if p.phone %}<br>{{ p.phone }}{% endif %}</td>
     </tr>
     {% endfor %}
     </tbody>
