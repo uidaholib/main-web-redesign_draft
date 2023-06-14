@@ -10,13 +10,13 @@ layout: page
   <h2 class="card-header">{{ u.title }}</h2>
   <div class="card-body">
     {% if u.head %}{% assign head_info = site.data.about_people | where: 'id',u.head | first %}
-    <p>Unit head: <a href="{{ '/about/people' | relative_url }}{{ u.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a></p>{% endif %}
+    <p>Unit head: <a href="{{ '/about/people/' | relative_url }}{{ u.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a></p>{% endif %}
     <p>
       <ul>
         {% for a in u.areas %}
         <li>
           {%- if a.link -%}<a href="{{ a.link | relative_url }}">{{ a.name }}</a>{% else %}{{ a.name }}{%- endif -%}
-          {%- if a.head -%}{%- assign head_info = site.data.about_people | where: 'id',a.head | first -%}, <a href="{{ '/about/people' | relative_url }}{{ u.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a>{%- endif -%}
+          {%- if a.head -%}{%- assign head_info = site.data.about_people | where: 'id',a.head | first -%}, <a href="{{ '/about/people/' | relative_url }}{{ a.head }}.html">{{ head_info.first_name }} {{ head_info.last_name }}</a>{%- endif -%}
           {%- if a.email -%}, <a href="mailto:{{ a.email }}">{{ a.email }}</a>{%- endif -%}
           {%- if a.phone -%}, {{ a.phone }}{%- endif -%}</li>
         {% endfor %}
