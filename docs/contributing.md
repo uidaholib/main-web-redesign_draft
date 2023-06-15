@@ -45,7 +45,7 @@ Here are the steps:
     - give your PR a meaningful title
     - write in the comment box saying what the PR does. E.g. "this PR creates a new section for the new Data Hub service"
     - click the green "create pull request" button
-- Once the PR is open, Web Team will review it. You can email the Web Team with a link to the PR or tag them in the comments (i.e. @evanwill @owikle )
+- Once the PR is open, Web Team will review it. You can email the Web Team with a link to the PR or tag them in the comments (i.e. @evanwill )
 - Once reviewed, the Web Team will "Merge pull request" to add the commits to the "main" branch.
 - Once merged, Web Team will build and deploy the site to the live server
 
