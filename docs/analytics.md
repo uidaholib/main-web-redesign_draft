@@ -12,6 +12,32 @@ Or use our short cut Rake task:
 
 ## Set up
 
+In June 2022 we started collecting data in our new GA 4 property, connected to our existing UA property and tags.
+The older GA 3 / UA properties will stop collecting data as of July 1 2023.
+The GA 4 property includes a new interface and "measurement id". 
+
+The old tags should be updated to the new measurement id. 
+The "anonymize_ip" option is no longer necessary, as it is default in GA4.
+Cross domain tracking is no longer necessary for subdomains.
+
+GA4 tag to be used on all library web pages:
+
+```
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBKDZC8C7F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BBKDZC8C7F');
+</script>
+```
+
+https://developers.google.com/tag-platform/devguides/privacy
+
+## Old
+
 We use google analytics, using the newest implementation gtag.
 The same code snippet can be used on any library web page. 
 Looks like:
