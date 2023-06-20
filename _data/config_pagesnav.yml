@@ -187,7 +187,7 @@ COVID-19:
     link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
   - subsection: << About
     link: /about/    
-# Fellowships Seciton
+# Fellowships Section
 Work with Us:
   - parent: Work with Us
     stub: /opportunities/
@@ -434,6 +434,8 @@ Services:
         url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
+  - subsection: ORCID & Author Identifiers
+    link: /services/orcid.html
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections & Archives
