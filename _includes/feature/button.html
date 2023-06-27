@@ -16,5 +16,5 @@
 
 {%- endcomment -%}
 {% if include.centered %}<div class="text-center mb-3">{%- endif -%}
-<a class="btn{% if include.size %} btn-{{ include.size }}{% endif %} btn-{{ include.color | default: 'secondary' }}{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}" href="{{ include.link }}" {% if include.target %}target="_blank"{% endif %}>{{ include.text }}</a>
+<a class="btn{% if include.size %} btn-{{ include.size }}{% endif %} btn-{{ include.color | default: 'secondary' }}{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}" href="{{ include.link }}" {% if include.target %}target="_blank" rel="noopener"{% endif %}>{{ include.text }}</a>
 {% if include.centered %}</div>{%- endif -%}
