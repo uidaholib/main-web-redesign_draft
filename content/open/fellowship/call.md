@@ -7,10 +7,11 @@ layout: page-narrow
 
 <small>Sponsored by the University of Idaho Library</small>
 
-Think Open Fellowships are now accepting applications for the 2022-2023 academic year!
-Click below to apply:
+**Think Open Fellowships are currently closed as the program details are being revised. Please check back in Fall 2023!**
 
+<!--
 <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
+-->
 
 ## Call for Applications
 
@@ -44,6 +45,7 @@ Faculty fellows will work over the course of one to two semesters to find, creat
 
 Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quality representation of marginalized identities in their course materials.
 
+<!--
 ## Apply
 
 **Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022**
@@ -53,6 +55,7 @@ Faculty can apply to transform _any_ course in this fellowship program. Facult
 [Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY)
 
 Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by July of 2023.
+-->
 
 For questions contact Marco Seiferle-Valencia, Open Education Librarian, <marcosv@uidaho.edu>
 
