@@ -23,7 +23,7 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, & Inclusion
+  - subsection: Diversity, Equity, and Inclusion
     link: /about/dei.html
     subpages:
       - name: DEI at U of I Library 
@@ -89,7 +89,7 @@ About:
     link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
-  - subsection: Updates & News
+  - subsection: Updates and News
     link: /about/updates.html    
   - subsection: Welcome
     link: /about/welcome.html
@@ -125,7 +125,7 @@ Hours:
     link: /about/hours.html#special
   - subsection: Studio
     link: /about/hours.html#studio  
-  - subsection: Reduced Hours &amp; Closures
+  - subsection: Reduced Hours and Closures
     link: /about/hours.html#reduced
   - subsection: << About
     link: /about/
@@ -212,10 +212,10 @@ Find:
     link: /find/accesstools.html   
   - subsection: Board Games
     link: https://libguides.uidaho.edu/Games
-  - subsection: Books & eBooks
+  - subsection: Books and eBooks
     link: /find/books.html
     subpages:
-      - name: Books & eBooks
+      - name: Books and eBooks
         url: /find/books.html
       - name: Print Book Locations
         url: /find/lc.html
@@ -229,14 +229,14 @@ Find:
     link: /digital/
   - subsection: Diversity, Equity, and Inclusion Resources
     link: /about/dei-resources.html
-  - subsection: DVDs & Streaming Video
+  - subsection: DVDs and Streaming Video
     link: /find/video.html
     subpages: 
       - name: Streaming Video
         url: /find/video.html
       - name: DVDs
         url: /find/dvds.html     
-  - subsection: Encyclopedias & Reference Resources
+  - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
     link: /events/     
@@ -279,11 +279,11 @@ Find:
     link: /find/request.html
   - subsection: Research Guides
     link: https://libguides.uidaho.edu/    
-  - subsection: Theses & Dissertations
+  - subsection: Theses and Dissertations
     link: /find/etds.html
-  - subsection: U of I Research & Expertise (VIVO)
+  - subsection: U of I Research and Expertise (VIVO)
     link: https://vivo.nkn.uidaho.edu/vivo/    
-  - subsection: Unique & Archival Material
+  - subsection: Unique and Archival Material
     link: /special-collections/
 
 
@@ -295,7 +295,7 @@ Help:
     stub: /help/
   - subsection: Help Home
     link: /help/
-  - subsection: Chat & Text
+  - subsection: Chat and Text
     link: /help/chat.html    
   - subsection: FAQ
     link: https://libanswers.uidaho.edu/
@@ -315,7 +315,7 @@ Collections:
     stub: /collections/
   - subsection: Collections Home
     link: /collections/
-  - subsection: Special Collections & Archives
+  - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Digital
     link: /collections/digital.html
@@ -363,7 +363,7 @@ Services:
         url: /services/reserve/faq.html
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: Data &amp; Digital Services
+  - subsection: Data and Digital Services
     link: /services/dds.html
   - subsection: "Data Hub: Geospatial and Data Sciences Support"
     link: /datahub/    
@@ -413,7 +413,7 @@ Services:
         url: /help/
       - name: Research Assistance
         url: /help/research.html
-      - name: Chat & Text
+      - name: Chat and Text
         url: /help/chat.html
   - subsection: Subject Liaisons 
     link: /about/liaisons.html       
@@ -434,11 +434,11 @@ Services:
         url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
-  - subsection: ORCID & Author Identifiers
+  - subsection: ORCID and Author Identifiers
     link: /services/orcid.html
   - subsection: Room Reservations
     link: /services/rooms.html
-  - subsection: Special Collections & Archives
+  - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: "Think Open"
     link: /open/fellowship/
@@ -457,7 +457,7 @@ Services:
 Special Collections:
   - parent: Special Collections
     stub: /special-collections/
-  - subsection: Special Collections & Archives
+  - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Collections
     url: /special-collections/description.html
@@ -533,11 +533,11 @@ Data Hub:
     link: /find/geospatial/
   - subsection: <i class="fas fa-share-square"></i> Find Data
     link: /find/data.html
-  - subsection: <i class="fas fa-share-square"></i> Workshops & Events
+  - subsection: <i class="fas fa-share-square"></i> Workshops and Events
     link: /services/workshops/    
 #  - subsection: About the Data Hub
 #    link: /datahub/about.html
-#  - subsection: Tools & Tech
+#  - subsection: Tools and Tech
 #    link: /datahub/tools.html
 #  - subsection: News
 #    link: /datahub/news.html
@@ -550,7 +550,7 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: Tools & Tech
+  - subsection: Tools and Tech
     link: /mill/tools.html
   - subsection: Newsletter
     link: /mill/news.html

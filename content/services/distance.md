@@ -39,7 +39,7 @@ To use the library off-campus, you'll need to log in to our catalog or databases
 
 Stuck? [Ask us for help]({{ '/help/' | relative_url }}) or see if your question is answered in the [Off-Campus Access guide](https://libguides.uidaho.edu/Distance_Education).
 
-## Interlibrary Loan, Document Delivery, & Digitization Requests
+## Interlibrary Loan, Document Delivery, and Digitization Requests
 
 Our [Interlibrary Loan (ILL) office]({{ '/services/ill/' | relative_url }}) can help you get electronic access to materials the library doesn't own or digitize physical materials from our print collections. 
 
@@ -60,8 +60,8 @@ You'll receive an email when your item is ready, with a link to reserve a pick u
 Please note that it may take two or more business days from the time you place your request to receive your items! 
 Contact us at <libcirc@uidaho.edu> with questions.
 
-## Special Collections & Archives
+## Special Collections and Archives
 
-Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
+Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
 The rest of our holdings can be searched via [Archives West finding aids](https://archiveswest.orbiscascade.org/search.php?r=idu) or the [Special Collections website]({{ '/special-collections/browse.html' | relative_url }}). 
 For assistance with finding and accessing this material, please contact our Special Collections staff via email <libspec@uidaho.edu>.

@@ -4,7 +4,7 @@
     <div style="padding-top:10px;">
 	  <div style="float:right;font-family:Georgia, serif;">
 		<a style="font-size:18px;color: #B06048;
-    font-weight: bold;" href="http://www.lib.uidaho.edu/special-collections/index.html">Special Collections & Archives</a>
+    font-weight: bold;" href="http://www.lib.uidaho.edu/special-collections/index.html">Special Collections and Archives</a>
 		<p style="font-size:12px;margin-top:2px;">For more information, email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>
           </div>  
 	  <div style="float:left;margin-left:10px;">    

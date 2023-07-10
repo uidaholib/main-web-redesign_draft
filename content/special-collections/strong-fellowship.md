@@ -25,7 +25,7 @@ permalink: /special-collections/strong-fellowship.html
 {:#call}
 ### Call for Applications
 
-The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections & Archives. The fellowship occurs during the summer for a period of six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
+The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections and Archives. The fellowship occurs during the summer for a period of six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
 
 Applicants may select from projects listed below that they find interesting, and/or may submit a proposal for a different project which forwards the goals of increasing the visibility and use of previously unprocessed collections in the U of I Library's Special Collections and Archives. The activities of the fellow will be focused on processing and digitizing previously unprocessed accessions. University of Idaho Library personnel will assist and guide the work; applicants are not required to have experience in creating digital collections. 
 
@@ -43,7 +43,7 @@ The 2021 recipient of the Strong Fellowship, Erin Geslani, organized a previousl
 Applicants must submit: 
 
 1. A letter of no more than 300 words detailing interest in this fellowship and previous experience, education, and/or training that prepare the applicant for the work of this project. 
-2. A summary of no more than 300 words detailing the proposed project and outlining how it increases the visibility and use of previously unprocessed collections in the U of I Library's Special Collections & Archives. 
+2. A summary of no more than 300 words detailing the proposed project and outlining how it increases the visibility and use of previously unprocessed collections in the U of I Library's Special Collections and Archives. 
 3. A current resume or CV. 
 4. A letter of support from a U of I faculty member.
 
@@ -76,7 +76,7 @@ Applicants must submit:
 3. University of Idaho Photo Services materials
     - *Wide variety of campus life photos from the 1980s-1990s.*
 4. Wildlife Resources Department records
-    - *Correspondence, memos, lantern slides, film & glass negatives.*
+    - *Correspondence, memos, lantern slides, film and glass negatives.*
 5. Idaho State Climate Laboratory Observation records
     - *Meteorological observations and other records from 1978-1992.*
 6. Chales Wellner papers

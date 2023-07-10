@@ -1,5 +1,5 @@
 ---
-title: About Special Collections & Archives
+title: About Special Collections and Archives
 layout: page
 section: Special Collections
 permalink: /special-collections/about.html

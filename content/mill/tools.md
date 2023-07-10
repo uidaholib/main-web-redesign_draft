@@ -1,5 +1,5 @@
 ---
-title: "MILL Tools & Tech"
+title: "MILL Tools and Tech"
 section: MILL
 permalink: /mill/tools.html
 layout: page

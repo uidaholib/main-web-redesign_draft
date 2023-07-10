@@ -99,12 +99,12 @@ For the most up-to-date information about the University's response, please visi
 
 - The [Gary Strong Curriculum Center]({{ '/services/curriculumcenter.html' | relative_url }}) will reopen with limited hours, Monday through Friday 10:00am - 3:00pm.
 
-### Special Collections & Archives
+### Special Collections and Archives
 {:.h4}
 
-- [Special Collections & Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
-- Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via [Archives West](https://archiveswest.orbiscascade.org/) or the [Special Collections website]({{ '/special-collections/' | relative_url }}).  
-- Please see [Reading Room Rules]({{ '/special-collections/plan.html' | relative_url }}) for additional details of Special Collections & Archives reopening plans and guidelines.
+- [Special Collections and Archives]({{ '/special-collections/' | relative_url }}) and its Reading Room are by appointment only.
+- Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via [Archives West](https://archiveswest.orbiscascade.org/) or the [Special Collections website]({{ '/special-collections/' | relative_url }}).  
+- Please see [Reading Room Rules]({{ '/special-collections/plan.html' | relative_url }}) for additional details of Special Collections and Archives reopening plans and guidelines.
 
 ## Community Visitors/Non-UI Affiliated Visitors
 {: .my-4}

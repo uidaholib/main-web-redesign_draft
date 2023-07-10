@@ -25,7 +25,7 @@ Most collections are described by finding aids hosted on [Archives West](https:/
 {:#types}
 ### Collection Types
 
-Materials housed in Special Collections & Archives typically fall into one of three categories, based on the format of the physical items: [manuscript collections](/special-collections/browse.html#mg), [photograph collections](/special-collections/browse.html#pg), and [book collections](/special-collections/browse.html#books).
+Materials housed in Special Collections and Archives typically fall into one of three categories, based on the format of the physical items: [manuscript collections](/special-collections/browse.html#mg), [photograph collections](/special-collections/browse.html#pg), and [book collections](/special-collections/browse.html#books).
 
 <div class="row">
 {% assign physical = cats | where: 'type','physical' %}

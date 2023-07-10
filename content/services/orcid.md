@@ -1,5 +1,5 @@
 ---
-title: ORCID & Author Identifiers
+title: ORCID and Author Identifiers
 section: Services
 permalink: /services/orcid.html
 layout: page

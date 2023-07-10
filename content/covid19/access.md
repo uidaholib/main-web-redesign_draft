@@ -53,6 +53,6 @@ Please note that due to staffing and safety protocols it may take two or more bu
 
 To use the library off-campus, you'll need to log in to our catalog or databases with your VandalID, the same credentials you use to access email and BBLearn. Stuck? [Ask us for help](https://www.lib.uidaho.edu/help/chat.html) or see if your question is answered in this [guide for off-campus students](https://libguides.uidaho.edu/c.php?g=363086&p=2453098).     
 
-### Special Collections & Archives  
+### Special Collections and Archives 
 
-Many of the unique materials held by Special Collections & Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
+Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). The rest of our holdings can be searched via Archives West or the [Special Collections website](https://www.lib.uidaho.edu/special-collections/). For assistance with finding and accessing this material, please contact our Special Collections staff via email (<libspec@uidaho.edu>).
