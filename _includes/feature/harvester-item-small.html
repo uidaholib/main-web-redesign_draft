@@ -1,0 +1,16 @@
+{% comment %}
+    This displays the most recent Harvester post preview by grabbing the JS info from the blog site.
+    Requires the file https://harvester.lib.uidaho.edu/assets/harvester-post.js
+    to be generated on the blog, containing the harvesterPost variable.
+{%- endcomment -%}
+<div id="blog-preview" class="text-center my-3"></div>
+<script src="https://harvester.lib.uidaho.edu/assets/harvester-post.js"></script>
+<script>
+var blogPreview = `<figure class="figure mx-3">
+        <a href="${harvesterPost.link}" title="${harvesterPost.title}"><img class="figure-img img-fluid rounded" alt="blog post feature" src="${harvesterPost.image_small}"></a>
+        <figcaption>
+            <a class="h5 mt-3" href="${harvesterPost.link}">${harvesterPost.title}</a>
+        </figcaption>
+    </figure>`;
+document.getElementById("blog-preview").innerHTML = blogPreview;
+</script>
