@@ -20,7 +20,7 @@ This is why **Summit is our preferred method for requesting materials that the U
 		</div>
 		<div id="collapseOne" class="collapse" data-parent="#accordion">
 			<div class="card-body">
-				<p>Summit requesting is mainly for books, although many Alliance libraries also lend special materials like DVDs and CDs. Books have a loan period of <strong>42 days</strong>, while media materials check out for **6 days**. Renewals are not allowed for any materials requested through Summit.</p>
+				<p>Summit requesting is mainly for books, although many Alliance libraries also lend special materials like DVDs and CDs. Books have a loan period of <strong>42 days</strong>, while media materials check out for <strong>6 days</strong>. Renewals are not allowed for any materials requested through Summit.</p>
 				<p>
 					<ol>
 						<li>First locate the item you want in Primo using the U of I and Summit (no articles) search option.</li>
@@ -42,7 +42,7 @@ This is why **Summit is our preferred method for requesting materials that the U
 		</div>
 		<div id="collapseTwo" class="collapse" data-parent="#accordion">
 			<div class="card-body">
-				<p>Summit materials typically arrive in **3-5 business days** for all on-campus pickup locations. Off-campus patrons can expect their materials to arrive by mail within <strong>8-10 days</strong>.</p>
+				<p>Summit materials typically arrive in <strong>3-5 business days</strong> for all on-campus pickup locations. Off-campus patrons can expect their materials to arrive by mail within <strong>8-10 days</strong>.</p>
 				<p>Summit items are routed to the various participating libraries using a dedicated courier service. We usually receive our daily courier shipments in the early afternoon, excluding weekends and holidays.</p>
 			</div>
 		</div>
