@@ -16,7 +16,7 @@ Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potentia
 
 ## Monetary Support
 
-Although monetary support is not required when gifting materials, it enables timely processing and helps underwrite the costs of long-term high security storage. Such funds are used to organize, maintain, and care for our collections so that they may be preserved and made available for future generations.
+Monetary support is not required when gifting archival materials. Financial contributions do enable timely processing and helps underwrite the costs of long-term high security storage. Such funds are used to organize, maintain, and care for our collections so that they may be preserved and made available for future generations.
 
 Gift funds may be used to honor an individual, a family, a company, or an organization, and the Library will work with donors to employ appropriate means to publicly acknowledge donations. 
 If interested in making a monetary gift to Special Collections and Archives, please contact Dulce Kersting-Lark, department Head, at <dulce@uidaho.edu> or call 208-885-1309. To discuss setting up endowments or bequests, please contact Ben Hunter, Dean of University of Idaho Libraries, at <bhunter@uidaho.edu> or call (208) 885-5858. 
