@@ -14,5 +14,5 @@ The floor maps are described in "_data/about_floor_maps.csv" (which is used to g
 ## helpful
 
 ```
-for f in *.jpg; do magick "$f" -resize 400x "${f%.jpg}_sm.jpg"; done
+for f in *.jpg; do magick "$f" -resize 400x "${f%.jpg}_md.jpg"; done
 ```
