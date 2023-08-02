@@ -22,11 +22,11 @@ layout: page
 
 The University of Idaho is a member organization of ORCID. Our partnership provides several benefits:
 
-- U of I researchers can connect their ORCID accounts with their U of I accounts to permit the sharing of scholarly information between the systems. **To connect your U of I and ORCID accounts, visit [orcid.uidaho.edu](https://orcid.uidaho.edu).**
-
 - U of I researchers can log in to the ORCID system using the U of I NetID and password. 
 
 - U of I administrative units can create software integrations to connect U of I systems to ORCID
+
+- U of I researchers can connect their ORCID accounts with their U of I accounts to permit the sharing of scholarly information between the systems. **To connect your U of I and ORCID accounts, you will soon be able to visit orcid.uidaho.edu to enable the library and research office to push grants data to your ORCID account.**
 
 Having connected the systems, we will able to update your ORCID and institutional scholarly records (both internally and through the VIVO/Esploro system) automatically, reducing the workload on you and on staff who manage these systems.  
 
