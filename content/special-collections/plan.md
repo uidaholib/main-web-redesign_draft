@@ -111,15 +111,15 @@ Everyone is welcome to visit our Reading Room and view our materials!
         <div class="card-body">
           <h3>Semester Room Hours</h3>
           <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>Monday, Thursday, Friday</td>
-              <td>10:00am - 2:00pm</td>
-            </tr>
-            <tr>
-              <td>Tuesday, Wednesday</td>
-              <td>12:00pm - 5:00pm</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Monday, Wednesday, Friday</td>
+                <td>9:00am - 1:00pm</td>
+              </tr>
+              <tr>
+                <td>Tuesday, Thursday</td>
+                <td>12:00pm - 4:00pm</td>
+              </tr>
             </tbody>
           </table>
           <h3>Summer Hours</h3>
