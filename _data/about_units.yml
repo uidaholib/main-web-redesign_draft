@@ -14,8 +14,8 @@ units:
         head: brittnil
       - name: Communications and Marketing 
         head: cbarnhart
-      - name: Giving
-        head: hyeats
+      #- name: Giving
+      #  head: hyeats
   - title: Access and Engagement
     head: jylisadoney
     areas: 
