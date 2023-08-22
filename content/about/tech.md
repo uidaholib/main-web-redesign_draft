@@ -27,6 +27,10 @@ Any improvements we make to better structure and markup information are intended
 To do this, we carry out accessibility audits as part of our regular design process, using [Lighthouse](https://developer.chrome.com/docs/lighthouse/accessibility/scoring/) and other accessibility and performance audit services to assess our site in an ongoing manner.
 The relative simplicity of our static web approach and semantic markup lends itself to good accessibility and the ability to quickly fix issues.
 
+The library also makes available subscription content from numerous vendors using technology outside of our management.
+To evaluate those platforms' accessibility, we review their VPAT information. 
+Please visit our [VPATs and Accessibility Statements guide](https://libguides.uidaho.edu/vpats) for more information.
+
 For campus wide information, please see [University of Idaho Web Accessibility](https://www.uidaho.edu/brand-resource-center/ucm/web-and-digital/web-accessibility).
 
 Here are some accessibility resources relevant to library websites that we use as guides for our development:
