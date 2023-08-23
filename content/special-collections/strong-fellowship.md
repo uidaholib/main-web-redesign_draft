@@ -18,7 +18,7 @@ permalink: /special-collections/strong-fellowship.html
 **Questions?** Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
 {:.text-center}
-**_DEADLINE: April 7, 2023_**
+**_Check back in Spring 2024 for the next application opportunity._**
 
 ---
 
@@ -50,7 +50,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" %}
 
-**Applications are due Friday, April 7th** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 ---
 
