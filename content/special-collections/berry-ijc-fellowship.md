@@ -19,7 +19,7 @@ permalink: /special-collections/berry-ijc-fellowship.html
 **Questions?** Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
 
 {:.text-center}
-**_DEADLINE: November 28, 2022_**
+**_Check back in October 2023 for the next application opportunity._**
 
 ---
 
