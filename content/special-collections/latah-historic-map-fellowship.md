@@ -18,7 +18,7 @@ permalink: /special-collections/latah-historic-map-fellowship.html
 **Questions?** Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
 {:.text-center}
-**_DEADLINE: August 7, 2023_**
+**_Application process closed._**
 
 ---
 
@@ -52,7 +52,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOUJVTTExWTNVOEZFQUJISUNYSEFRUUtZTS4u" %}
 
-**Applications are due Monday, August 7th** by midnight and a decision will be announced within two weeks of the deadline.
+**Applications are due** by midnight and a decision will be announced within two weeks of the deadline.
 
 ---
 
