@@ -1,0 +1,259 @@
+---
+title: "Course Marking"
+section: Think Open
+permalink: /open/course-marking.html
+layout: page-narrow
+---
+
+**Course Marking is Coming to the University of Idaho!**
+
+In 2021, the Idaho State Board of Education passed the Instructional Material Access and Affordability Policy. This policy requires universities around the state to make meaningful progress towards the State’s goals for transparency around course material costs and lays out specific tactics and requirements for doing so.
+
+In keeping with the mandates of this memo, U of I is required to develop and implement course marking strategies so that students can easily identify reliably zero and low-cost courses.  A special cross-University committee was convened by the University of Idaho Library and the Vice Provost for Academic Initiatives in early 2023, with the overall charge of building a culture of Open on campus, and a specific focus on implementing the state’s required course marking as soon as feasible. The Open Campus committee contains representatives from the Library, CETL, Student Advising, The Registrar, and the VandalStore. 
+
+Instructors will begin reporting their course materials costs in Spring 2024 for application to courses listed and taught in Fall 2024. In Fall 2024, students will be able to browse the class schedule using Zero and Very Low Cost categories as facets, and limit their registration selections to courses in those categories.
+
+-------------
+
+## FAQ
+
+### Why are we doing Course Marking?
+
+Textbook costs might seem like a drop in the bucket of financial burdens
+that many students face, but they are one expense where individual
+instructors and faculty can make a difference. This difference shows not
+just in course affordability, but in student academic success. Research
+[shows](https://link.springer.com/article/10.1007/s11423-016-9434-9)
+that students in courses which have Zero or Very Low Cost course
+materials have higher test scores and lower DFW rates compared to
+students using a traditional, high-cost textbook.
+
+In addition to the positive impact on academic success, retention, and
+persistence, course marking meets our institutional and statewide goals.
+Course marking fulfills part of the mandate set forth by the Idaho State
+Board of Education in their [2021 Instructional Material Access and
+Affordability
+policy](https://boardofed.idaho.gov/board-policies-rules/board-policies/higher-education-affairs-section-iii/iii-u-instructional-materials-access-and-affordability/)
+and algins with the University of Idaho's [strategic
+plan](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/provost/StrategicPlan/2023-annual-report.pdf).
+
+### Where did Course Marking come from?
+
+Nationally, marking affordable courses has been on the rise for a number
+of years. Oregon was the first state to enact course marking legislation
+in 2015 (Oregon House Bill 2871), followed by California (2016),
+Washington (2017), Texas (2017), Colorado (2018), Virginia (2019), and
+Louisiana (2019).
+
+The Idaho State Board of Education enacted course marking legislation as
+part of their governing policies and procedures in June 2021, under the
+Instructional Material Access and Affordability policy. That policy can
+be viewed at [III.U. – Instructional Material Access and Affordability
+06-2021](https://boardofed.idaho.gov/board-policies-rules/board-policies/higher-education-affairs-section-iii/iii-u-instructional-materials-access-and-affordability/).
+
+### Who served on the Course Marking team?
+
+-   Marco Seiferle-Valencia, Libraries
+-   Kristin Henrich, Libraries
+-   Beth Ropski, Student Advising
+-   Lindsay Brown, Registrar
+-   Tricia Durgin, VandalStore
+-   Brian Smentkowski, Center for Excellence in Teaching and Learning
+
+### Who else is doing course marking?
+
+Institutions in seven states have implemented affordable course markings
+as a result of legislation: Oregon, California, Washington, Texas,
+Colorado, Virginia, and Louisiana. Beyond these institutions, systems
+such as the University System of Georgia, the Connecticut State College
+and University System, City University of New York, and State University
+of New York have implemented course marking projects.
+
+Within Idaho, our sister institutions are in the process of implementing
+their own course marking systems. In developing the plan for UI, the
+Course Marking Team consulted materials shared by the above
+institutions, in addition to material from [Marking Open and Affordable
+Courses: Best Practices and Case
+Studies](https://uta.pressbooks.pub/markingopenandaffordablecourses/),
+edited by Sarah Hare, Jessica Kirschner, and Michelle Reed.
+
+### What does "course materials" mean?
+
+Course materials are defined as primary required teaching and learning
+content: textbooks and their equivalents, literary texts, digital
+learning platforms, homework systems, etc.
+
+Other supplies, such as clickers, lab safety equipment, art supplies,
+required calculators and other technology, etc. are not considered
+course materials for the purpose of course marking. In other words, a
+course that requires a clicker or lab safety gear can still be marked as
+an affordable course if it utilizes otherwise free or low cost material.
+Technology and supplies are frequently reusable. A clicker or graphing
+calculator is generally acquired once and used repeatedly, such that
+once a student has these tools, they don\'t need to buy them again.
+
+"Recommended" materials are not addressed by this project because they
+are optional and students may acquire or not without negatively
+impacting their ability to succeed in the course, according to their own
+preferences and needs.
+
+### What does Zero Cost mean? What about Very Low Cost?
+
+**Zero cost** -- Students who take a zero cost course should expect to be
+able to access all required materials for the course for zero cost
+during the whole term. This can be achieved by courses using the
+following types of materials:
+
+-   Openly licensed textbooks
+-   OER (open educational resources)
+-   Freely available content such as materials in the public domain
+-   Licensed materials may be used in cases where Library course
+    reserves can provide resources that allow for an unlimited number of
+    simultaneous users.
+    - *Important Note: Not all current Library Digital Course Reserves will meet or be able to meet this standard due to materials having different simultaneous user policies.*
+
+**Very low cost** -- the materials cost less than $30 at full MSRP.
+
+-   This category is for courses that have a cost of less than $30 for
+    the full, msrp, non-discounted price of a new textbook.
+    -   Used texts -- or inclusive access/automatic charge costs --
+        should **not** be used to qualify a text for this category. The
+        full price of the text, purchased new at the Vandal Bookstore or
+        comparable retailer, is the determining price.
+
+### How do I calculate the cost of my course materials?
+
+Course material costs are calculated using the full price of the text,
+purchased new at the VandalStore or another comparable textbook
+retailer.
+
+If you're happy with the course textbook you currently use, look up the
+price online or [contact the VandalStore](http://vandalstore@uidaho.edu)
+for assistance. Report that price to your course scheduler so they can
+designate the appropriate category in the registration system. If your
+course materials are less than \$30, your course will receive a Very Low
+Cost course designation. If your course materials are \$0, your course
+will receive a Zero Cost course designation.
+
+If your course materials are higher than \$30, your course will not
+receive any course cost designation at this time. If you want to find a
+lower cost version of the text you use and are happy with, you have
+options! [Contact the U of I Libraries](https://www.lib.uidaho.edu/help/) and we'll be
+happy to work with you to find a lower cost replacement using open
+educational resources (OER), library-owned licenses, or another
+high-quality solution.
+
+### Why don't used books count for course marking?
+
+Used book prices should **not** be used to qualify a course for a Zero
+or Very Low Cost course designation. The full price of the textbook,
+purchased new at the Vandal Bookstore or comparable retailer, is the
+determining price.
+
+The aim of Course Marking is to clearly identify courses that use Zero
+Cost and Very Low Cost course resources without having to deploy the
+range of strategies students often use to navigate course materials cost
+complexity. Those options, including used and rentals often available at
+a lower price, remain available to students, for both low cost and
+unmarked courses. Used copies may not be available in sufficient
+quantity to meet course enrollment, and used prices are subject to wide
+variability, making it impossible to assure students enrolling in a
+low-cost course that they can find a used copy at a compliant price.
+Similarly, rentals are a part of the very complexity we\'re trying to
+help students navigate. With Course Marking, we want to identify courses
+that are affordable by design, rather than by skill at finding the
+cheapest possible version.
+
+### What about inclusive access?
+
+Inclusive access, day one access, or automatic charge costs should
+**not** be used to qualify a course for a Zero or Very Low Cost course
+designation. The full price of the textbook, purchased new at the Vandal
+Bookstore or comparable retailer, is the determining price.
+
+When a faculty member adopts an Inclusive Access digital textbook, they
+eliminate, or severely
+restrict, students' typical range of options for accessing course
+materials. For example, with
+traditional textbooks, students generally have multiple options for
+accessing the materials, including
+purchasing or renting new or used versions from the bookstore or other
+retailers, sharing with
+fellow students, or checking out reserve copies from the library.
+Comparatively, courses that use
+Inclusive Access digital textbooks typically leave students only one
+option for accessing course
+materials (although at a discounted rate). Further, it is often
+impossible for a student who does not
+purchase the required Inclusive Access digital textbook to participate
+and succeed in the course
+because homework sets, quizzes and other assessments are embedded within
+the digital materials.
+
+### I just post everything on Canvas so students can access it for free. Why don't my courses have a Zero Cost designation?
+
+In order for your courses to be marked as Zero Cost in the registration
+system, you need to report "no material required" to your department's
+course scheduler when you turn in your syllabus. Making sure Zero Cost
+courses are effectively and accurately marked in the registration system
+ensures that our students can make informed choices about their
+financial burden. We'd also encourage you to reach out to the [librarian
+in your discipline](https://www.lib.uidaho.edu/about/liaisons.html) to
+ensure that the materials you're posting on Canvas are
+copyright-compliant and accessible for students using screen-readers or
+other adaptive technology solutions.
+
+### What is the technical process behind course marking? What do I need to do as an instructor?
+
+Each instructor will need to identify the course material costs for each
+course they are teaching. This is as simple as looking up the new price
+of the textbook online! Then, instructors will report each course's
+course materials cost to their course schedulers. Instructors will work
+directly with their department's course schedulers to report their
+course costs as part of the registration process.
+
+### When is course marking being implemented?
+
+Course marking is in development for deployment in Spring 2024 for Fall
+2024 courses.
+
+### What can I do to lower my course materials cost?
+
+There are a variety of strategies for reducing costs of required course
+materials. Publishers may be willing to directly negotiate a lower cost,
+particularly if enrollment is high. VandalStore staff may be able to
+identify lower cost versions of a book (such as unbound versions) or
+source enough previous editions to meet enrollment. U of I Libraries
+provides a number of resources to develop lower cost course materials,
+including providing support in [identifying open educational resources
+(OER)](https://www.lib.uidaho.edu/open/oer_resources.html), identifying
+library-licensed content suitable for meeting learning objectives, and
+providing [hosted library course
+reserves](https://www.lib.uidaho.edu/services/reserve/). U of I Libraries
+also [provides
+funding](https://www.lib.uidaho.edu/open/fellowship/call.html) for
+instructors who choose to implement OER in their courses, with awards
+for OER adoption to OER development, and provides an open publishing
+platform, [Pressbooks](https://uidaho.pressbooks.pub/), for instructors
+interested in adapting or developing their own OER.
+
+Many instructors have reduced and even eliminated costs for their course
+materials. Of course, there are courses that require expensive materials
+in order to meet learning objectives. Eliminating or reducing cost where
+possible enables students to afford more costly content when it\'s
+assigned. When costly materials are required, instructors are encouraged
+to provide students with information about the lowest cost ways of
+accessing that content, as many already do.
+
+### What do I do if my course is incorrectly labelled?
+
+Let us know by emailing the Course Marking Team at
+<coursemarking@uidaho.edu> with enough information to look into it!
+We\'ll review and work with you to ensure your course is correctly
+marked as quickly as possible.
+
+How can I provide feedback or ask questions about course marking?
+
+To share comments, suggestions, request an information or training
+session, and to report bugs, please email the Course Marking team at
+<coursemarking@uidaho.edu>.
