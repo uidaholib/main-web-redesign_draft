@@ -16,6 +16,7 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 
 ## Current Agreements
 
+- [Association for Computing Machinery (Read and Publish)]({{ '/services/agreements/acm.html' | relative_url }})
 - [Cambridge University Press (Read and Publish)]({{ '/services/agreements/cambridge.html' | relative_url }})
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
