@@ -1,5 +1,5 @@
 ---
-title: Cambridge University Press Read and Publish Agreement
+title: New Read and Publish Agreement
 date: 2023-09-01
 ---
 
