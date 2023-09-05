@@ -26,7 +26,7 @@ For complete information, please check our <a href="https://libcal.uidaho.edu/">
                 </div>
                 <div class="col-md-9">
                     <div class="card-body">
-                        <p class="card-text">{{ r.description | markdownify }}</p>
+                        {{ r.description | markdownify }}
                         {% if r.link %}<a href="{{ r.link }}" class="btn btn-primary">Book {{ r.type }}</a>{% endif %}
                     </div>
                 </div>
