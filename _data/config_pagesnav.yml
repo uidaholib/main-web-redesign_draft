@@ -558,6 +558,8 @@ MILL:
     link: /mill/faq.html
   - subsection: Reserve 3D Printers
     link: https://libcal.uidaho.edu/reserve/3dprinters
+  - subsection: Reserve Glowforge
+    link: https://libcal.uidaho.edu/reserve/laser    
   - subsection: Workshops
     link: /services/workshops/
   - subsection: Meet the Team
