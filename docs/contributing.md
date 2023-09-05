@@ -51,10 +51,10 @@ Here are the steps:
 
 ## Deploying site
 
-In general, the Web Team (Olivia and Evan) will deploy site to the live server.
+In general, the Web Team (Evan) will deploy site to the live server.
 In emergency / urgent situations when main Web Team is not available, fall backs are available to deploy with access to the server.
 Try:
 
-1. Olivia, Evan
+1. Evan
 2. Devin
-3. Kevin, Klytie
+3. Klytie, Kevin, Andrew
