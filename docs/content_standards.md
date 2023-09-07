@@ -52,6 +52,9 @@ Tips for Editing in Visual Studio Code:
 
 ## Links
 
+Don't use "click here" style links!
+Always put links over descriptive meaningful text.
+
 For security and performance reasons all links with `target="_blank"` attribute should also have the attribute `rel="noopener"`.
 For example, `<a href="" target="_blank" rel="noopener">link</a>`
 
