@@ -11,7 +11,7 @@ In 2021, the Idaho State Board of Education passed the Instructional Material Ac
 
 In keeping with the mandates of this memo, U of I is required to develop and implement course marking strategies so that students can easily identify reliably zero and low-cost courses.  A special cross-University committee was convened by the University of Idaho Library and the Vice Provost for Academic Initiatives in early 2023, with the overall charge of building a culture of Open on campus, and a specific focus on implementing the state’s required course marking as soon as feasible. The Open Campus committee contains representatives from the Library, CETL, Student Advising, The Registrar, and the VandalStore. 
 
-Instructors will begin reporting their course materials costs in Spring 2024 for application to courses listed and taught in Fall 2024. In Fall 2024, students will be able to browse the class schedule using Zero and Very Low Cost categories as facets, and limit their registration selections to courses in those categories.
+Instructors may begin reporting their course materials costs during scheduling in spring of 2024, for application to courses listed and taught in starting Fall 2024. In Fall 2024, students will be able to browse the class schedule using Zero and Very Low Cost categories as facets, and, if desired, limit their registration selections to courses in those categories.
 
 -------------
 
