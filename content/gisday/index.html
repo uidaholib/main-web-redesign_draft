@@ -177,7 +177,7 @@ lazyload: true
         {% assign sponsors = site.data.gisday_sponsors | where: "active",true %}
         {% for s in sponsors %}
         <div class="col-6 col-md-4 p-3 p-md-5">
-            <a href="{{ s.link }}" title="{{ s.sponsor }}">
+            <a href="{{ s.link }}" title="{{ s.sponsor }}" target="_blank" rel="noopener">
                 <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid">
             </a>
         </div>
