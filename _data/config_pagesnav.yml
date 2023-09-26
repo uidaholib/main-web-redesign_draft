@@ -405,7 +405,9 @@ Services:
   - subsection: Off-Campus Access
     link: /services/distance.html  
   - subsection: Publishing Agreements
-    link: /services/agreements/        
+    link: /services/agreements/
+  - subsection: Pressbooks
+    link: https://uidaho.pressbooks.pub/about/      
   - subsection: Reference Services
     link: /help/
     subpages:
@@ -441,7 +443,7 @@ Services:
   - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: "Think Open"
-    link: /open/fellowship/
+    link: /open/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -583,23 +585,33 @@ The Studio:
 # Think Open Section
 Think Open:
   - parent: Think Open 
-    stub: /open/fellowship/
+    stub: /open/
   - subsection: Think Open Home 
+    link: /open/
+  - subsection: Think Open Fellowship
     link: /open/fellowship/
-  - subsection: Call for Fellows
-    link: /open/fellowship/call.html
-  - subsection: About the Fellowship
-    link: /open/fellowship/about.html
-  - subsection: Current Fellows
-    link: /open/fellowship/current.html
-  - subsection: Past Fellows
-    link: /open/fellowship/past.html
+  - subsection: OA Publishing Fund
+    link: /services/oapf/
+  - subsection: Pressbooks
+    link: https://uidaho.pressbooks.pub/about/      
   - subsection: Why Think Open
     link: /open/why.html
   - subsection: OER Resources
     link: /open/oer_resources.html
   - subsection: Course Marking
     link: /open/course-marking.html
+Think Open Fellowship:
+  - parent: Think Open
+    stub: /open/
+  - subsection: Think Open Fellowship
+    link: /open/fellowship/
+  - subsection: Call for Fellows
+    link: /open/fellowship/call.html
+  - subsection: Think Open Fellows
+    link: /open/fellowship/fellows.html
+  - subsection: << Think Open
+    link: /open/
+
 
 # GIS Day
 GIS Day:
