@@ -239,7 +239,9 @@ Find:
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
-    link: /events/     
+    link: /events/
+  - subsection: Equipment Loans
+    link: /studio/loanable.html    
   - subsection: Geospatial Resources
     link: /find/geospatial/
     subpages:
@@ -249,8 +251,6 @@ Find:
         url: /find/geospatial/software.html
       - name: GIS Day
         url: /gisday/
-  - subsection: Equipment Loans
-    link: /studio/loanable.html 
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
