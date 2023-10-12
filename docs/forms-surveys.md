@@ -27,8 +27,9 @@ Please list pages and form names with owner, links, and any helpful info.
     - instruction request, https://uidaho.co1.qualtrics.com/jfe/form/SV_d5NQ5VRSqnjOPRj 
     - feedback form, https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU3fn1ZT2uFVAhbeq68ZolZtUQ0FVNEdKVEIyVFhaUFFWTlgxN1pUVjE3Qy4u
 - Reserves
-    - instructor reserve request, https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5
-    - student driven reserves, https://uidaho.co1.qualtrics.com/jfe/form/SV_2fAeteEt4JjRHaB
+    - reserves request, https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2
+    - Old: instructor reserve request, https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5
+    - Old: student driven reserves, https://uidaho.co1.qualtrics.com/jfe/form/SV_2fAeteEt4JjRHaB
 - MILL ()
     - suggestion box, https://uidaho.co1.qualtrics.com/SE/?SID=SV_eJxEYnCmi9c5W2p
 - Open ()

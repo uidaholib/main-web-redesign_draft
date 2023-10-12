@@ -18,7 +18,7 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 
 {% capture instr %}
 <p class="text-center">
-    <a href="https://uidaho.co1.qualtrics.com/SE/?SID=SV_eeBCJQcWfBsTwI5" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
         <span class="fas fa-link"></span> Instructor Reserve Request Form</a>
 </p>
 <ul>
@@ -42,7 +42,7 @@ Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uida
 {% capture student %}
 <p>As a part of our efforts to help reduce student costs, the library accepts requests from students to place required books on reserve. To request materials, please fill out this form:</p>
 <p class="text-center">
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_2fAeteEt4JjRHaB" class="btn btn-payette-blue my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Student Reserves Request Form</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-payette-blue my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Student Reserves Request Form</a>
 </p>
 <p>Requested books must be designated as required in the course syllabus. Requested titles may not include supplemental readings or books recommended for course research projects or further reading.
 <br>For more information about this program, contact <a href="mailto:marcosv@uidaho.edu">Marco Seiferle-Valencia</a>.</p>{% endcapture %}
