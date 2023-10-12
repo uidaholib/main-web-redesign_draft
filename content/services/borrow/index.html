@@ -68,143 +68,19 @@ layout: page
   <table class="table table-bordered my-3">
     <thead>
       <tr>
-        <th colspan="4" class="font-weight-bold text-center">LOAN PERIODS FOR BOOKS IN THE UI MAIN STACKS</th>
+        <th scope="col">Type of Material</th>
+        <th scope="col">Loan Period</th>
+        <th scope="col">Renewals</th>
       </tr>
     </thead>
     <tbody>
+      {% for m in site.data.services_loan_periods %}
       <tr>
-        <td><b>Status</b></td>
-        <td><b>Loan Period</b></td>
-        <td><b>Renewals</b></td>
-        <td><b>Special Notes</b></td>
+        <td>{{ m.material }}</td>
+        <td>{{ m.loan_period }}</td>
+        <td>{{ m.renewal }}</td>
       </tr>
-      <tr>
-        <td>Undergraduates; Guest Patrons</td>
-        <td>12 weeks</td>
-        <td>Yes</td>
-        <td>After a two-week loan period, all books can be recalled for use by others.</td>
-      </tr>
-      <tr>
-        <td>Faculty; Staff; Graduate Students</td>
-        <td>120 days</td>
-        <td>Two renewals allotted during a single loan period</td>
-        <td>Does not include Browsing books, A/V</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="table-responsive my-3">
-  <table class="table table-bordered my-3">
-    <thead>
-      <tr>
-        <th colspan="3" class="font-weight-bold text-center">LOAN PERIODS FOR OTHER MATERIALS IN THE UI MAIN STACKS</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Type of Material</b></td>
-        <td><b>Loan Period</b></td>
-        <td><b>Renewals</b></td>
-      </tr>
-      <tr>
-        <td>Browsing Books</td>
-        <td>6 weeks</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-      <tr>
-        <td>Board Games</td>
-        <td>5 days</td>
-        <td>1 renewal</td>
-      </tr>
-      <tr>
-        <td>CDs/DVDs/LPs</td>
-        <td>2 weeks</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-        <td>US Government Documents</td>
-        <td>12 weeks</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-        <td>Magazines and Journals</td>
-        <td>library use only (1 day loan by special arrangement only)</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-        <td>Microfilm/microfiche</td>
-        <td>library use only</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-        <td>Newspapers</td>
-        <td>library use only</td>
-        <td>no renewals</td>
-      </tr>
-      <tr>
-        <td>Reference Books/Maps/Atlases</td>
-        <td>library use only</td>
-        <td>no renewals</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="table-responsive my-3">
-  <table class="table table-bordered my-3">
-    <thead>
-      <tr>
-        <th colspan="3" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="{{ '/services/ill/summit.html' | relative_url }}" target="_blank" rel="noopener">SUMMIT MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Type of Material</b></td>
-        <td><b>Loan Period</b></td>
-        <td><b>Renewals</b></td>
-      </tr>
-      <tr>
-        <td>Summit Books</td>
-        <td>12 weeks</td>
-        <td>1 renewal</td>
-      </tr>
-      <tr>
-        <td>Summit DVDs/CDs</td>
-        <td>12 weeks</td>
-        <td>1 renewal</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="table-responsive my-3">
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th colspan="4" class="font-weight-bold text-center">LOAN PERIODS FOR <a href="{{ '/services/ill/' | relative_url }}" target="_blank" rel="noopener">INTERLIBRARY LOAN MATERIALS</a> (NOT AVAILABLE TO GUESTS)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Type of Material</b></td>
-        <td><b>Loan Period</b></td>
-        <td><b>Renewals</b></td>
-        <td><b>Special Notes</b></td>
-      </tr>
-      <tr>
-        <td>ILL Books</td>
-        <td>4 weeks <em>on average</em> (see note)</td>
-        <td>2 weeks <em>on average</em> (unless the lending library denies the renewal)</td>
-        <td>Due dates and renewals are set by the lending institution, so loan periods may vary.</td>
-      </tr>
-      <tr>
-        <td>ILL DVDs/CDs</td>
-        <td>2 weeks <em>on average</em> (see note)</td>
-        <td>2 weeks <em>on average</em> (unless the lending library denies the renewal)</td>
-        <td>Due dates and renewals are set by the lending institution, so loan periods may vary.</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
