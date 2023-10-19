@@ -1,6 +1,7 @@
 ---
 title: Late Fees Discontinued
 date: 2021-10-22
+display: false
 ---
 
 The library will no longer collect late fees or fines for items in our general collection as part of our <a href="{{ site.lib-media }}/about/library_strategic_plan_2021.pdf">commitment to equitable access to information and student affordability</a>.
