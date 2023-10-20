@@ -21,6 +21,7 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
+- [Royal Society of Chemistry (RSC Gold)]({{ '/services/agreements/rsc.html' | relative_url }})
 
 -------
 

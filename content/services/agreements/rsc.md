@@ -1,5 +1,5 @@
 ---
-title: Royal Society of Chemistry (RSC Gold) Read and Publish Agreement
+title: Royal Society of Chemistry (RSC Gold) Agreement
 section: Services
 permalink: /services/agreements/rsc.html
 layout: page-narrow
