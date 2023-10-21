@@ -19,15 +19,14 @@ To make a reserves request, stop by the library and fill out a reserves request 
 
 {% capture instr %}
 ### Loan periods
-
-- 3 hours, 1 day, 3 day for print reserve. If instructor does not specify loan period, the default is 1 day.
+- 3 hours, 1 day, or 3 days for print reserve. Default loan period is 1 day.
+- Controlled Digital Lending items loan digitally for 3 hours.
 
 ### Fines
+- $2 per hour for overdue items, maximum $20, for print reserve.
+- Electronic resources have no fines or fees.
 
-- $2 per hour for overdue items, maximum $20, for print reserve. Electronic resources have no fines or fees.
-
-### Access
-
+### Access to Reserves
 - Visit the [Course Reserve Listings](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and look for your course by instructor, term, or subject.
 - Click on the course name to view a list of all items on reserve.
 - To access electronic reserve items, students will have to sign in using their NetID.
