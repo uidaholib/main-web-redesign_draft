@@ -11,21 +11,17 @@ layout: page
 </p>
 
 Course Reserves are resources selected by instructors to support student learning. 
-Reserve items have shorter loan periods to ensure all users have access to the material.
+Reserve items have shorter loan periods to ensure all users have access to the resources. 
 These items can be compiled into a single reading list accessible directly in Canvas via [Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
 
 To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
 
-{% capture instr %}
-<p class="text-center">
-
-</p>{% endcapture %}
-{% include feature/card.html header="General Information" text=instr %}
-
 {% include feature/card.html header="Reserve Policies" text='
 ## Course reserves
 
-- Faculty may place readings on reserve to supplement assigned readings for their courses. These readings must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
+- Instructors may place textbooks, videos, readings, and more on reserve for use by students in their course. The resulting reading list will be reused for following semesters for the same class and instructor unless otherwise requested.
+- Students may request books or other resources that are used for coursework be placed on reserve.
+- These resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
 
 ## Loan periods
 
@@ -33,7 +29,7 @@ To make a reserves request, stop by the library and fill out a reserves request 
 
 ## Fines
 
-- $2 per hour or partial hour for overdue items, maximum $20, for print reserve.
+- $2 per hour for overdue items, maximum $20, for print reserve. Electronic resources have no fines or fees.
 
 ## Access
 
@@ -46,7 +42,9 @@ To make a reserves request, stop by the library and fill out a reserves request 
 ## General
 
 - ### How can I put items on reserve?
-    - Stop by the library and fill out a reserves request form, fill out the [online form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu).
+    - Stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu).
+- ### Will the library buy resources for my course?
+    - The library will consider purchasing **only*** mandatory resources for courses if they are not currently owned. Each purchase, from physical books to electronic resources like streaming videos and eBooks, will be decided on based on cost and availability. Purchase requests can be made through the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2) or by [emailing Reserves directly](mailto:libreserve@uidaho.edu).
 - ### How do I access materials from off-campus?
     - Check the [Accessing Library Resources Off-Campus](https://www.lib.uidaho.edu/services/distance.html) guide.
 - ### Can Harvard Business Review content be put on reserve?
