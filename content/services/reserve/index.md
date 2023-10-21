@@ -14,15 +14,13 @@ Course Reserves are resources selected by instructors to support student learnin
 Reserve items have shorter loan periods to ensure all users have access to the resources. 
 These items can be compiled into a single reading list accessible directly in Canvas via [Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
 
+**Instructors** may place textbooks, videos, readings, and more on reserve for use by students in their course. The resulting reading list will be reused for following semesters for the same class and instructor unless otherwise requested.
+**Students** may request books or other resources that are used for coursework be placed on reserve.
+All resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
+
 To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
 
 {% capture instr %}
-### Course reserves
-
-- Instructors may place textbooks, videos, readings, and more on reserve for use by students in their course. The resulting reading list will be reused for following semesters for the same class and instructor unless otherwise requested.
-- Students may request books or other resources that are used for coursework be placed on reserve.
-- These resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
-
 ### Loan periods
 
 - 3 hours, 1 day, 3 day for print reserve. If instructor does not specify loan period, the default is 1 day.
@@ -37,7 +35,7 @@ To make a reserves request, stop by the library and fill out a reserves request 
 - Click on the course name to view a list of all items on reserve.
 - To access electronic reserve items, students will have to sign in using their NetID.
 {% endcapture %}
-{% include feature/card.html header="Policies and Information" text=instr %}
+{% include feature/card.html header="Policies" text=instr %}
 
 ## Frequently Asked Questions
 
