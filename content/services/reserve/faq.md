@@ -1,5 +1,5 @@
 ---
-title: Reserves - Frequently Asked Questions
+title: Reserves - Policies and Frequently Asked Questions
 section: Services
 permalink: /services/reserve/faq.html
 layout: page

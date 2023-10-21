@@ -6,41 +6,80 @@ layout: page
 ---
 <p class="text-center">
     <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
-    <a href="{{ '/services/reserve/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="far fa-question-circle"></span> Reserves FAQ</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-outline-pride-gold my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span>Reserve Request Form</a>
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
 
 Course Reserves are resources selected by instructors to support student learning. 
 Reserve items have shorter loan periods to ensure all users have access to the material.
-These items can be compiled into a single reading list accessible directly in Canvas via our [integrated reserves platform Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
+These items can be compiled into a single reading list accessible directly in Canvas via [Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
 
-Contact Reserves by email <a href="mailto:libreserve@uidaho.edu">libreserve@uidaho.edu</a>, or ask at the Circulation desk.
+To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
 
 {% capture instr %}
 <p class="text-center">
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-payette-blue my-2" target="_blank" rel="noopener">
-        <span class="fas fa-link"></span>Reserve Request Form</a>
-</p>
-<ul>
-    <li>
-        <a href="howto.html">How to put materials on in-library reserve, Controlled Digital Lending, and Electric reserve</a>
-    </li>
-    <li>
-        <a href="policies.html">Reserve policies</a>
-    </li>
-    <li>
-        <a href="fairuse.html">Copyright and fair use</a>
-    </li>
-    <li>
-        <a href="https://www.lib.uidaho.edu/pdf/studentMaterialsPermission.pdf" target="_blank" rel="noopener">Permission to use student papers</a> [PDF]</li>
-</ul>{% endcapture %}
+
+</p>{% endcapture %}
 {% include feature/card.html header="General Information" text=instr %}
 
-{% include feature/card.html header="Related Links" text='
-- <a href="https://www.uidaho.edu/schedule/">Course Times/Location</a>
-- <a href="https://www.vandalstore.com/SelectTermDept.aspx">Textbooks</a>
-- <a href="https://www.uidaho.edu/registrar/classes/finals">Final Exams</a>
-- <a href="https://www.uidaho.edu/current-students/academic-support/asp/tcs">Tutoring and Academic Success Programs</a>
-- <a href="http://www.uidaho.edu/class/english/writingcenter">Writing Center</a>
-- <a href="/help/research.html">Get Help With Research</a>
+{% include feature/card.html header="Reserve Policies" text='
+## Course reserves
+
+- Faculty may place readings on reserve to supplement assigned readings for their courses. These readings must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
+
+## Loan periods
+
+- 3 hours, 1 day, 3 day for print reserve. If instructor does not specify loan period, the default is 1 day.
+
+## Fines
+
+- $2 per hour or partial hour for overdue items, maximum $20, for print reserve.
+
+## Access
+
+- Visit the [Course Reserve Listings](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and look for your course by instructor, term, or subject.
+- Click on the course name to view a list of all items on reserve.
+- To access electronic reserve items, students will have to sign in using their NetID.
+' %}
+
+{% include feature/card.html header="Frequently Asked Questions" text='
+## General
+
+- ### How can I put items on reserve?
+    - Stop by the library and fill out a reserves request form, fill out the [online form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu).
+- ### How do I access materials from off-campus?
+    - Check the [Accessing Library Resources Off-Campus](https://www.lib.uidaho.edu/services/distance.html) guide.
+- ### Can Harvard Business Review content be put on reserve?
+    - No, they cannot be linked via Leganto or Canvas. Instructors must ensure that the Library has access to the desired article, and students must search for articles themselves.
+- ### How do students find Harvard Business Review content?
+    - Some HBR resources are available through the [Business Source Premier](https://uidaho.idm.oclc.org/login?url=https://search.ebscohost.com/login.aspx?site=bsi) and [ABI/INFORM Global](https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/abiglobal?accountid=14551) databases. Students must be logged in to access full-text articles.
+- ### When should I submit my requests and reading lists?
+    - All submissions for course reserves, including for scanning and general reading list submission, should be sent to the Library as soon as possible, preferably before the semester of use.
+- ### Where can I learn more about Leganto?
+    - Contact reserves [via email](mailto:libreserve) or by stopping by the circulation desk. Questions about or issues with Canvas should be direct to the [Center for Excellence in Teaching and Learning (CETL)](https://www.webpages.uidaho.edu/cetl/index.asp).
+
+## Scanning
+
+- ### What are the requirements for scans?
+    - Scans are required to be clean and run through OCR software. If scans are not suitable for use, they will need to be re-done by Library staff. Staff will be in contact if the original text is needed for re-scanning.
+- ### How quickly will scans be processed?
+    Scanning will be done by order of receipt, within a week for articles/book chapters. Further information on Controlled Digital Lending scanning can be found in the CDL section of this FAQ.
+
+## Copyright
+
+- ### What do I need to know about copyright with reserves?
+    - Please [access our Copyright Guide](https://www.lib.uidaho.edu/copyright/guide.html), and direct any questions to the [reserves email](libreserve@uidaho.edu), or [Kristin Henrich](mailto:khenrich@uidaho.edu), the Copyright and Open Scholarship Librarian.
+- ### Why do I need written permission to use students' work or any unpublished work that is not my own?
+    - The Family Educational Rights and Privacy Act of 1974 (FERPA) protects any use of student papers without their written permission. You can use the [Library's Student Materials Permission Form](https://www.lib.uidaho.edu/pdf/studentMaterialsPermission.pdf) to obtain this permission.
+
+## Controlled Digital Lending
+
+- ### What is Controlled Digital Lending and how does it work for reserves?
+    - Controlled Digital Lending (CDL) is a way of providing digital access to books that are currently available only in a physical format, when the library is unable to find a licensing option for an existing e-book or e-resource. Library-owned books are scanned fully by staff and added to our catalog for use in reserves. Requests for CDL can be denied at the discretion of Library staff.
+- ### How much can I ask to be scanned for CDL?
+    - No more than 2 books for a total of no more than 800 pages can be requested for CDL by an instructor in a semester. Condition of the book and ability of staff may affect if books are able to be scanned.
+- ### How long will CDL scanning take?
+    - Scanning will take **at least** two weeks. Due to the time it takes to scan CDL items, requests should be submitted as promptly as possible.
+- ### How do students access CDL items?
+    - CDL scans will be available in the corresponding course reading list hosted on [Leganto](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists). Users must be logged in. Access is limited to one user for three hours; a waitlist is available if the resource is in use and users will be notified when it is available.
 ' %}
