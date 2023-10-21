@@ -16,7 +16,6 @@ These items can be compiled into a single reading list accessible directly in Ca
 
 To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
 
-{% include feature/card.html header="Reserve Policies" text='
 ## Course reserves
 
 - Instructors may place textbooks, videos, readings, and more on reserve for use by students in their course. The resulting reading list will be reused for following semesters for the same class and instructor unless otherwise requested.
@@ -36,10 +35,8 @@ To make a reserves request, stop by the library and fill out a reserves request 
 - Visit the [Course Reserve Listings](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and look for your course by instructor, term, or subject.
 - Click on the course name to view a list of all items on reserve.
 - To access electronic reserve items, students will have to sign in using their NetID.
-' %}
 
-{% include feature/card.html header="Frequently Asked Questions" text='
-## General
+## Frequently Asked Questions
 
 - ### How can I put items on reserve?
     - Stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu).
@@ -56,28 +53,22 @@ To make a reserves request, stop by the library and fill out a reserves request 
 - ### Where can I learn more about Leganto?
     - Contact reserves [via email](mailto:libreserve) or by stopping by the circulation desk. Questions about or issues with Canvas should be direct to the [Center for Excellence in Teaching and Learning (CETL)](https://www.webpages.uidaho.edu/cetl/index.asp).
 
-## Scanning
-
-- ### What are the requirements for scans?
+- ### Scanning: What are the requirements for scans?
     - Scans are required to be clean and run through OCR software. If scans are not suitable for use, they will need to be re-done by Library staff. Staff will be in contact if the original text is needed for re-scanning.
-- ### How quickly will scans be processed?
+- ### Scanning: How quickly will scans be processed?
     Scanning will be done by order of receipt, within a week for articles/book chapters. Further information on Controlled Digital Lending scanning can be found in the CDL section of this FAQ.
 
-## Copyright
-
-- ### What do I need to know about copyright with reserves?
+- ### Copyright: What do I need to know about copyright with reserves?
     - Please [access our Copyright Guide](https://www.lib.uidaho.edu/copyright/guide.html), and direct any questions to the [reserves email](libreserve@uidaho.edu), or [Kristin Henrich](mailto:khenrich@uidaho.edu), the Copyright and Open Scholarship Librarian.
-- ### Why do I need written permission to use students' work or any unpublished work that is not my own?
+- ### Copyright: Why do I need written permission to use students' work or any unpublished work that is not my own?
     - The Family Educational Rights and Privacy Act of 1974 (FERPA) protects any use of student papers without their written permission. You can use the [Library's Student Materials Permission Form](https://www.lib.uidaho.edu/pdf/studentMaterialsPermission.pdf) to obtain this permission.
 
-## Controlled Digital Lending
-
-- ### What is Controlled Digital Lending and how does it work for reserves?
+- ### Controlled Digital Lending: What is Controlled Digital Lending and how does it work for reserves?
     - Controlled Digital Lending (CDL) is a way of providing digital access to books that are currently available only in a physical format, when the library is unable to find a licensing option for an existing e-book or e-resource. Library-owned books are scanned fully by staff and added to our catalog for use in reserves. Requests for CDL can be denied at the discretion of Library staff.
-- ### How much can I ask to be scanned for CDL?
+- ### Controlled Digital Lending: How much can I ask to be scanned for CDL?
     - No more than 2 books for a total of no more than 800 pages can be requested for CDL by an instructor in a semester. Condition of the book and ability of staff may affect if books are able to be scanned.
-- ### How long will CDL scanning take?
+- ### Controlled Digital Lending: How long will CDL scanning take?
     - Scanning will take **at least** two weeks. Due to the time it takes to scan CDL items, requests should be submitted as promptly as possible.
-- ### How do students access CDL items?
+- ### Controlled Digital Lending: How do students access CDL items?
     - CDL scans will be available in the corresponding course reading list hosted on [Leganto](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists). Users must be logged in. Access is limited to one user for three hours; a waitlist is available if the resource is in use and users will be notified when it is available.
 ' %}
