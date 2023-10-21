@@ -10,11 +10,7 @@ layout: page
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
 
-Course Reserves are resources selected by instructors to support student learning. 
-Reserve items have shorter loan periods to ensure all users have access to the resources. 
-These items can be compiled into a single reading list accessible directly in Canvas via [Leganto]({{ '/services/reserve/leganto.html' | relative_url }}).
-
-**Instructors** may place textbooks, videos, readings, and more on reserve for use by students in their course. The resulting reading list will be reused for following semesters for the same class and instructor unless otherwise requested.
+**Instructors** may place textbooks, videos, readings, and more on reserve for use by students in their course.
 **Students** may request books or other resources that are used for coursework be placed on reserve.
 All resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
 
