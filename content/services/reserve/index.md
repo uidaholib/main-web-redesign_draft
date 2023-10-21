@@ -6,7 +6,7 @@ layout: page
 ---
 <p class="text-center">
     <a href="https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-book"></span> Course Reserves Listings</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-outline-pride-gold my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span>Reserve Request Form</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2" class="btn btn-outline-pride-gold my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Reserve Request Form</a>
     <a href="mailto:libreserve@uidaho.edu" class="btn btn-outline-clearwater m-2"><span class="fas fa-envelope"></span> Email Reserves</a>
 </p>
 
@@ -37,8 +37,9 @@ To make a reserves request, stop by the library and fill out a reserves request 
 - Click on the course name to view a list of all items on reserve.
 - To access electronic reserve items, students will have to sign in using their NetID.
 {% endcapture %}
-{% include feature/card.html header="Reserve Policies" text=instr %}
+{% include feature/card.html header="Policies and Information" text=instr %}
 
+## Frequently Asked Questions
 
 {% assign faq = site.data.services_reserves_faq | where_exp: "c", "c.category != 'Leganto FAQ'" %}
 {% assign cats = faq | map: "category" | uniq %}
@@ -46,7 +47,7 @@ To make a reserves request, stop by the library and fill out a reserves request 
 <hr>
 
 {% for c in cats %}
-<h2 id="faq-{{ c| slugify }}">{{ c }}</h2>
+<h3 id="faq-{{ c| slugify }}">{{ c }}</h3>
 
 {% assign section = faq | where: "category", c %}
 {% assign id = forloop.index %}
