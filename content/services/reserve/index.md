@@ -33,12 +33,13 @@ To make a reserves request, stop by the library and fill out a reserves request 
 {% endcapture %}
 {% include feature/card.html header="Policies" text=instr %}
 
+------
+
 ## Frequently Asked Questions
+------
 
 {% assign faq = site.data.services_reserves_faq | where_exp: "c", "c.category != 'Leganto FAQ'" %}
 {% assign cats = faq | map: "category" | uniq %}
-
-<hr>
 
 {% for c in cats %}
 <h3 id="faq-{{ c| slugify }}">{{ c }}</h3>
