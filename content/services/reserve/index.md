@@ -1,7 +1,7 @@
 ---
 title: Course Reserves
 section: Services
-permalink: /services/reserve/
+permalink: /services/reserve.html
 layout: page
 ---
 <p class="text-center">
