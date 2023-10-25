@@ -1,8 +1,5 @@
 <style>
 #archive-alert { 
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -16,6 +13,7 @@
     background: none;
 }
 #btn-close {
+    float: right;
     color: #111;
     width: 16px;
     height: 16px;
@@ -25,21 +23,17 @@
     background-color: white;
 }
 
-
 </style>
 <script>
     var alertMessage = document.createElement("div");
     alertMessage.setAttribute('id','archive-alert');
     alertMessage.setAttribute('role','alert');
-    alertMessage.innerHTML = `<strong><a href="https://www.lib.uidaho.edu/special-collections/t-abraham/">Terry Abraham Web Archive</a></strong><br>
-                    Please note: this archived page is preserved for historical reference. The content is not maintained, is out of date, and may not display as originally intended. 
-                    <button title="dismiss" aria-label="close" type="button" id="btn-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-</svg></button>`;
-    document.body.appendChild(alertMessage);
+    alertMessage.innerHTML = `<button title="dismiss" aria-label="close" type="button" id="btn-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg></button>
+        <strong><a href="https://www.lib.uidaho.edu/special-collections/t-abraham/">Terry Abraham Web Archive</a></strong><br>
+        Please note: this archived page is preserved for historical reference. The content is not maintained, is out of date, and may not display as originally intended.`;
+    document.body.prepend(alertMessage);
     document.getElementById('btn-close').addEventListener('click', function (e) { 
         document.getElementById('archive-alert').style.display = "none"; 
     });
-
 
 </script>
