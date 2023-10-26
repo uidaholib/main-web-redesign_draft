@@ -407,7 +407,7 @@ Services:
   - subsection: Publishing Agreements
     link: /services/agreements/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
+    link: https://uidaho.pressbooks.pub/      
   - subsection: Reference Services
     link: /help/
     subpages:
@@ -591,7 +591,7 @@ Think Open:
   - subsection: OA Publishing Fund
     link: /services/oapf/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
+    link: https://uidaho.pressbooks.pub/      
   - subsection: Why Think Open
     link: /open/why.html
   - subsection: OER Resources
