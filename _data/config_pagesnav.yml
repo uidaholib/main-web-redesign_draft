@@ -407,7 +407,7 @@ Services:
   - subsection: Publishing Agreements
     link: /services/agreements/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/      
+    link: https://uidaho.pressbooks.pub/about/      
   - subsection: Reference Services
     link: /help/
     subpages:
@@ -436,7 +436,7 @@ Services:
         url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
-  - subsection: ORCID and Author Identifiers
+  - subsection: ORCID @ UIdaho
     link: /services/orcid.html
   - subsection: Room Reservations
     link: /services/rooms.html
@@ -488,7 +488,9 @@ Special Collections:
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
       - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html
+        url: /special-collections/non-idaho-directories.html 
+      - name: Terry Abraham Web Archive
+        url: /special-collections/t-abraham/
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction
@@ -591,7 +593,7 @@ Think Open:
   - subsection: OA Publishing Fund
     link: /services/oapf/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/      
+    link: https://uidaho.pressbooks.pub/about/      
   - subsection: Why Think Open
     link: /open/why.html
   - subsection: OER Resources
