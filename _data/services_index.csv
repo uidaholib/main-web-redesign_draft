@@ -2,7 +2,7 @@ service,description,link
 Borrow/Renew - Library Account Information,Learn more about your library account and our loan policies.,/services/borrow/
 Center for Digital Inquiry and Learning (CDIL),"Center for Digital Inquiry and Learning (CDIL) is a collaboration between the College of Letters, Arts and Social Sciences (CLASS) and the University of Idaho Library. Its purpose is to advance digital scholarship opportunities at the University of Idaho.",https://cdil.lib.uidaho.edu/
 Copyright,"Find out general information on copyright law for teaching and research, as well as library copyright policies.",/copyright/
-Course Reserves,"Browse and Search our course reserves listings by instructor, department and/or course number. Or learn how to put materials on reserve for your own classes.",/services/reserve.html
+Course Reserves,"Browse and Search our course reserves listings by instructor, department and/or course number. Or learn how to put materials on reserve for your own classes.",/services/reserve/
 Data and Digital Services (DDS),"Data and Digital Services is a department in the library with expertise in geospatial resources, scholarly communications, data management, web design, digital archiving, and other digitally-focused enterprises.",/services/dds.html
 Data Management,"Resources and guidance on data usage, data management, data visualization, and geospatial data.",/services/data/
 Data Hub: Geospatial and Data Sciences Support,"Space and service providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.",/datahub/

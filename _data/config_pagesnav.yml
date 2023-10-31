@@ -343,7 +343,7 @@ Services:
       - name: Copyright Guide
         url: /copyright/guide.html
   - subsection: Course Reserves
-    link: /services/reserve.html
+    link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
   - subsection: Data and Digital Services
