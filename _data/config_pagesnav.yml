@@ -363,8 +363,6 @@ Services:
         url: /services/reserve/faq.html
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: Data and Digital Services
-    link: /services/dds.html
   - subsection: "Data Hub: Geospatial and Data Sciences Support"
     link: /datahub/    
   - subsection: Data Management
@@ -402,27 +400,6 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
-  - subsection: Off-Campus Access
-    link: /services/distance.html  
-  - subsection: Publishing Agreements
-    link: /services/agreements/
-  - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
-  - subsection: Reference Services
-    link: /help/
-    subpages:
-      - name: Reference and Information Desk
-        url: /help/
-      - name: Research Assistance
-        url: /help/research.html
-      - name: Chat and Text
-        url: /help/chat.html
-  - subsection: Subject Liaisons 
-    link: /about/liaisons.html       
-  - subsection: The MILL
-    link: /mill/
-  - subsection: The Studio
-    link: /studio/  
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
@@ -436,12 +413,33 @@ Services:
         url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
+  - subsection: Off-Campus Access
+    link: /services/distance.html
   - subsection: ORCID @ UIdaho
-    link: /services/orcid.html
+    link: /services/orcid.html    
+  - subsection: Publishing Agreements
+    link: /services/agreements/
+  - subsection: Pressbooks
+    link: https://uidaho.pressbooks.pub/about/      
+  - subsection: Reference Services
+    link: /help/
+    subpages:
+      - name: Reference and Information Desk
+        url: /help/
+      - name: Research Assistance
+        url: /help/research.html
+      - name: Chat and Text
+        url: /help/chat.html
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections and Archives
-    link: /special-collections/
+    link: /special-collections/    
+  - subsection: Subject Liaisons 
+    link: /about/liaisons.html       
+  - subsection: The MILL
+    link: /mill/
+  - subsection: The Studio
+    link: /studio/
   - subsection: "Think Open"
     link: /open/
   - subsection: Workshops
