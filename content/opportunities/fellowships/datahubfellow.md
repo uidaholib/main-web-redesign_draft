@@ -5,7 +5,7 @@ permalink: /opportunities/fellowships/datahubfellow.html
 layout: page-narrow
 ---
 
-**Deadline:** November 21, 2022
+**Deadline:** November 24, 2023
 
 **Who is Eligible:** Graduate Students currently enrolled in a University of Idaho program
 
@@ -17,7 +17,7 @@ layout: page-narrow
 
 This program funds one student each year to work with the faculty and staff at the Library to support the operations of the University of Idaho Library's [Data Hub](/datahub/), a center for geospatial and data sciences support. The Data Hub is intended to provide curricular and co-curricular support in areas such as geographic information systems, data sciences, quantitative data analysis and visualization, and research data management.
 
-The fellowship occurs during the Spring 2023 semester with exact dates to be negotiated with the successful applicant. The fellow should plan to spend approximately 10-15 hours per week on the project. Eligible applicants must be enrolled in the spring semester.
+The fellowship occurs during the Spring semester with exact dates to be negotiated with the successful applicant. The fellow should plan to spend approximately 10-15 hours per week on the project. Eligible applicants must be enrolled in the spring semester.
 
 In addition to helping with the operation of the Data Hub, fellows will select or propose a project which forwards the goals of increasing the availability of collections or services in support of the U of I Library's Data Hub.
 
@@ -36,7 +36,6 @@ Applicants may select from projects listed below that they find interesting or m
 
 To Apply, please visit the form linked below to submit a letter of interest of no more than 500 words describing your proposed project, and how your previous experience, education, and/or training prepares you for the work of this fellowship, as well as a copy of your current CV or resume.
 
-<!--
-[Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3eKC1sBFN3PvFNc){:.btn .btn-lg .btn-outline-pride-gold}-->
+[Application Form](https://uidaho.co1.qualtrics.com/jfe/form/SV_3eKC1sBFN3PvFNc){:.btn .btn-lg .btn-outline-pride-gold}
 
-Please contact Jeremy Kenyon (<jkenyon@uidaho.edu>) if you have any questions about the application process or the fellowship.
+Please contact Bruce Godfrey (<bgodfrey@uidaho.edu>) if you have any questions about the application process or the fellowship.
