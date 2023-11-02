@@ -28,7 +28,7 @@ Longer government publications and theses/dissertations may take 2 to 3 weeks to
 ## Digitization Policies
 
 The library invites you to place digitization requests for physical materials. 
-However, all requests will be completed in compliance with [copyright and fair use guidelines](https://www.lib.uidaho.edu/services/reserve/fairuse.html). 
+However, all requests will be completed in compliance with [copyright and fair use guidelines](/copyright/guide.html#whatisfairuse). 
 
 While requests are evaluated on a case-by-case basis, in general we will *not* be able to digitize: 
 
