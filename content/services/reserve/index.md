@@ -11,7 +11,7 @@ layout: page
 </p>
 
 **Instructors** may place textbooks and other resources on reserve for use by students in their course.
-**Students** may request books or other resources that are used for coursework be placed on reserve.
+**Students** may request textbooks or other resources that are used for coursework be placed on reserve.
 
 All Course Reserves resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
 
