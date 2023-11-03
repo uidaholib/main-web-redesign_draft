@@ -36,7 +36,7 @@ To make a reserves request, stop by the library and fill out a reserves request 
 ------
 
 ## Frequently Asked Questions
-------
+{:.mb-4}
 
 {% assign faq = site.data.services_reserves_faq | where_exp: "c", "c.category != 'Leganto FAQ'" %}
 {% assign cats = faq | map: "category" | uniq %}
