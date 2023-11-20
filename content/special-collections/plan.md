@@ -19,6 +19,9 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 </div>
 </div>
 
+<hr>
+{% include feature/alert.html color="warning" text="All requests must be made 48 hours prior to research appointments. In most cases 6 boxes of materials can be pulled per visit." %}
+
 <div class="row justify-content-center">
   <div class="col-md-8 my-4">
     <h4>How to Request Materials:</h4>
@@ -69,7 +72,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
           <div class="card-body">
-            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment. We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
+            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment. We ask for 48 hours of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
           </div>
           <!--end card-body-->
         </div>
@@ -147,7 +150,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
           <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
           <li>Preferred days and times for a visit</li>
           </ul>
-          <p>We ask for at least two business days of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
+          <p>We ask for at least 48 hours of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
         </div>
     </div>
 </div>
@@ -157,7 +160,11 @@ Everyone is welcome to visit our Reading Room and view our materials!
 {:#rules}
 ## Reading Room Rules
 
-The department maintains a Reading Room on the first floor of the library where patrons are welcome to visit during regular hours, or make an appointment in advance, to review materials housed in the archives. The following rules are established to ensure the safety and preservation of collections as well as the quality of the experience for patrons.  
+The department maintains a Reading Room on the first floor of the library where patrons are welcome to visit during regular hours, or make an appointment in advance, to review materials housed in the archives. The following rules are established to ensure the safety and preservation of collections as well as the quality of the experience for patrons.
+
+- For appointments, material requests must be made 48 hours in advance.
+
+- In most cases 6 boxes of materials are pulled per visit.
 
 - Materials must be handled with extreme care to ensure their preservation. Turn pages carefully, make no marks on the materials, rest no books or other objects on the face or surface of items used. Restrictions may be set to protect fragile or damaged materials. 
 
