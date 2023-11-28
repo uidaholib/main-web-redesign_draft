@@ -7,14 +7,8 @@ layout: page-narrow
 
 <small>Sponsored by the University of Idaho Library</small>
 
-** Think Open Fellowships are currently accepting applicatons for the 23-24 academic year! <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener"> Click here to apply!</a> **
-
-<!--
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
-
-Marco version:
-** Think Open Fellowships are currently accepting applicatons for the 23-24 academic year! <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener"> Click here to apply!</a> **
--->
+**Think Open Fellowships are currently accepting applications for the 23-24 academic year!**
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Click here to apply!</a>
 
 ## Call for Applications
 
@@ -50,13 +44,12 @@ Faculty fellows will work over the course of one to two semesters to find, creat
 
 Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quality representation of marginalized identities in their course materials.
 
-
 ## Apply
 
-** Think Open Fellowships are currently accepting applicatons for the 23-24 academic year! <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener"> Click here to apply!</a> **
+To apply, please visit the form linked below to submit your course information and proposal. 
+
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Fellows Application</a>
 
 Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by July of 2024.
--->
 
 For questions contact Marco Seiferle-Valencia, Open Education Librarian, <marcosv@uidaho.edu>
-
