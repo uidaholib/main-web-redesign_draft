@@ -11,24 +11,23 @@ permalink: /special-collections/berry-ijc-fellowship.html
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#coll" class="btn btn-secondary btn-sm my-2 mx-1">IJC Collections</a>
     <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-info my-2 mx-1">
-    <span class="fas fa-edit"></span> Submit an Application</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
 {:.text-center}
 **Questions?** Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
 
-{:.text-center}
-**_Check back in October 2023 for the next application opportunity._**
-
 ---
 
 {:#call}
 ### Call for Applications
+
 The University of Idaho Library invites students from any discipline at the University of Idaho to apply for the Berry International Jazz Collections Fellowship. 
 This program funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific research project. 
 Research should focus on the primary sources in the IJC, and applicants are encouraged to think creatively about the format of their research output. 
 [Past projects](#past) have taken the form of digital collections, oral histories, physical archival exhibits, and digital essays created with the guidance of Library staff.
+
+*In 2023/24 we are particularly encouraging applications from fellows who would be interested in helping [CDIL](https://cdil.lib.uidaho.edu/) to re-envisioning the [IJC digital collections website](https://www.ijc.uidaho.edu/) overall, with opportunities to improve design, interpretative content, and descriptive metadata.*
 
 The applicant may base their research on any [IJC collection](https://www.ijc.uidaho.edu/). 
 Not sure where to begin? 
@@ -52,7 +51,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
-**Applications are due Monday, November 28th** by midnight and a decision will be announced within two weeks of the deadline.
+**Applications are due Monday, January 15th, 2024** by midnight and a decision will be announced within two weeks of the deadline.
 
 ---
 
