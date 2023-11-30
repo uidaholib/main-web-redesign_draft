@@ -33,7 +33,7 @@ The applicant may base their research on any [IJC collection](https://www.ijc.ui
 Not sure where to begin? 
 See the the abbreviated [list of collections](#coll) below for project ideas.
 
-The fellowship begins in the spring 2023 semester and will conclude with an exhibition of the student's work at the Lionel Hampton Jazz Festival in April 2023 as part of the Library's International Jazz Collection exhibits. 
+The fellowship begins in the spring 2024 semester and will conclude with an exhibition of the student's work at the Lionel Hampton Jazz Festival in April 2024 as part of the Library's International Jazz Collection exhibits. 
 
 The fellow should plan to spend approximately 10-15 hours per week between January and April in order to accomplish the goals of the project. 
 This award includes a $4,000 student fellowship given as a stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc.
