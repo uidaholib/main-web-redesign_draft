@@ -7,7 +7,7 @@ layout: page
 
 {% include oapf-alert.html %}
 
-Potential applicants are strongly encouraged to speak with [Kristin Henrich](mailto:khenrich@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the eligibility criteria.
+Potential applicants are strongly encouraged to speak with [Marco Seiferle-Valencia](mailto:marcosv@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the eligibility criteria.
 
 U of I affiliated authors may apply for funding multiple times until their author cap is met or funds are exhausted. 
 Applications are accepted on a first come, first served basis during each funding period, until funds are exhausted or the end of the funding period.
@@ -64,7 +64,7 @@ Authors with sufficient funding from grants or contracts are encouraged to use t
 {% include feature/card.html header="Author Criteria" text=author %}
 
 {% capture documentation %}
-U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:khenrich@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. 
+U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:marcosv@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library’s Fiscal Officer. 
 Invoices or receipts with issue dates or payment dates that have been changed (including, but not limited to: reissued invoices, credit notes, etc.) do not meet the U of I – OAPF’s documentation requirements.
 
 {% endcapture %}
@@ -81,5 +81,5 @@ Funded authors must also deposit a copy of their funded article in the U of I in
 <div class="text-center mb-3">
   <a href="apply.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-check"></span> Apply</a>
   <a href="faq.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-question"></span> FAQ</a>
-  <a href="mailto:khenrich@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
+  <a href="mailto:marcosv@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
 </div>

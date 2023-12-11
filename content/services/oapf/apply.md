@@ -7,7 +7,7 @@ layout: page
 
 {% include oapf-alert.html %}
 
-Potential applicants are strongly encouraged to speak with [Kristin Henrich](mailto:khenrich@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
+Potential applicants are strongly encouraged to speak with [Marco Seiferle-Valencia](mailto:marcosv@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
 
 <!--
 <p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1AMSwrtF5tWGeaO" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
@@ -21,7 +21,7 @@ Applicants must be current U of I affiliates throughout the application, award, 
 
 {% capture application %}
 - Review the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }})
-  - Reach out to the [U of I - OAPF Fund Manager](mailto:khenrich@uidaho.edu) or a [library liaison]({{ '/about/liaisons.html' | relative_url }}) with any questions
+  - Reach out to the [U of I - OAPF Fund Manager](mailto:marcosv@uidaho.edu) or a [library liaison]({{ '/about/liaisons.html' | relative_url }}) with any questions
 - Submit an application
   - Upon submission, applicants will receive a confirmation email with a copy of their application
 
@@ -37,7 +37,7 @@ Applicants must be current U of I affiliates throughout the application, award, 
 {% include feature/card.html header="Award Process" text=award %}
 
 {% capture payment %}
-U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:khenrich@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library's Fiscal Officer. 
+U of I - OAPF funding is contingent upon providing proper documentation to the <a href="mailto:marcosv@uidaho.edu">U of I - OAPF Fund Manager</a> and the Library's Fiscal Officer. 
 Documentation differs based on the preferred method of payment, as detailed below:
       
 - Option 1: U of I - OAPF pays the invoice
@@ -53,5 +53,5 @@ Invoices or receipts with issue dates or payment dates that have been changed (i
 <div class="text-center mb-3">
     <a href="eligibility.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-list"></span> Eligibility</a>
     <a href="faq.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-question"></span> FAQ</a> 
-    <a href="mailto:khenrich@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a> 
+    <a href="mailto:marcosv@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a> 
 </div>

@@ -22,7 +22,7 @@ U of I affiliated authors may apply for funding multiple times until their autho
   <a href="eligibility.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-list"></span> Eligibility</a>
   <a href="apply.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-check"></span> Apply</a>
   <a href="faq.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-question"></span> FAQ</a>
-  <a href="mailto:khenrich@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
+  <a href="mailto:marcosv@uidaho.edu" class="btn btn-secondary btn-sm my-2"><span class="fas fa-user"></span> Contact</a>
 </div>
 
 {% capture history %}
