@@ -12,7 +12,7 @@
               /* featured librarians */
               var researchers = [
                   // img, college, name, email, vivo, departments
-                  {% for l in people %}[ "{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
+                  {% for l in people %}[ "{% if l.image %}/directory/{{ l.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
                   {% endfor %}
               ];
               var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
