@@ -7,12 +7,13 @@
           <h3><a href="{{ '/about/liaisons.html' | relative_url }}">Featured Subject Librarian</a></h3>
           <p class="card-text"><a href="{{ '/help/research.html' | relative_url }}">Get help with your Research!</a></p>
           <div id="featuredResearcher" class="mx-auto"></div>
-          {%- assign people = site.data.about_people | where_exp: "p","p.liaison_title" -%}
+          {%- assign liaisons = site.data.about_liaisons -%}
           <script>
               /* featured librarians */
               var researchers = [
                   // img, college, name, email, vivo, departments
-                  {% for l in people %}[ "{% if l.image %}/directory/{{ l.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
+                  {% for l in liaisons %}{% assign liaison = site.data.about_people | where: 'id', l.id | first %}
+                  [ "{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
                   {% endfor %}
               ];
               var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();

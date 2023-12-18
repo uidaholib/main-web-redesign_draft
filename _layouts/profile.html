@@ -70,7 +70,8 @@ layout: default
                                 {% if forloop.first %}<p class="h3"><strong>{{ t }}</strong></p>
                                 {% else %}<p class="h4">{{ t }}</p>{% endif %}
                                 {% endfor %}
-                                {% if page.liaison_title %}<p class="h4">{{ page.liaison_title }}</p>{% endif %}
+                                {% assign liaison = site.data.about_liaisons | where: 'id', page.id | map: 'liaison_title' | join: '; ' %}
+                                {% if liaison %}<p class="h4">{{ liaison }}</p>{% endif %}
                                 {% if page.rank %}<p class="h4">{{ page.rank }}</p>{% endif %}
                                 <hr>
                                 <table class="table table-borderless">
