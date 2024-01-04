@@ -16,6 +16,7 @@ For more information and a list of available jobs, please visit [U of I Handshak
 ## Staff and Faculty Positions
 
 Library staff and faculty positions are full-time, benefits eligible. Our libraries are proud to offer a collaborative, interdisciplinary work environment with competitive benefits, including tuition assistance ($5/credit).
+See curent job openings here [U of I Library Faculty Job Opportunities](/opportunities/faculty.html).
 
 For more information and instructions to apply, visit the [U of I Jobs Portal](https://uidaho.peopleadmin.com/).
 
