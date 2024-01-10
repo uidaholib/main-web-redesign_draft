@@ -4,16 +4,9 @@ section: Work with Us
 permalink: /opportunities/faculty.html
 layout: page-narrow
 ---
-<br>
-This spring, The University of Idaho Library will be seeking three exciting new positions! 
 
-- Digital Archivist 
-- Archivist & Special Collections Librarian
-- Open Publishing Librarian 
-<br>
-
+{% capture library %}
 ## Our Library
-
 
 Candidates will join an innovative workplace with an opportunity to develop new roles in a recently reorganized library. These positions will be establishing new programs, working with leading technology and collaborating together to rethink how we organize data at the library.
 
@@ -34,8 +27,10 @@ Our faculty regularly contribute articles to the Moscow-Pullman Daily News and L
 Regarding special collections, we are a proud member of the [Orbis Cascade Alliance](https://www.orbiscascade.org/), a consortium of 39 colleges and universities across Oregon, Washington, and Idaho. In addition to special collections highlighted in our [central repository](https://www.lib.uidaho.edu/digital/), we engage with the community through [The Harvester](https://harvester.lib.uidaho.edu/), a blog and working collection of unique archival materials where our archivists can expand on smaller histories and how they relate to the archive as a whole. 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside of the library's Center for Digital Inquiry and Learning" %}
-<br>
 
+{% endcapture %}
+
+{% capture university %}
 ## The University
 
 Candidates will enter the university at an exciting point in its nearly 130 year old lifespan, with the second largest enrollment in recorded history in fall 2023. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by the U.S. News and World Report and second in the nation. 
@@ -49,8 +44,9 @@ In addition to being the leading research institution in the state, the universi
 As a faculty member, you will have access to our competitive, affordable [benefit program](https://www.uidaho.edu/human-resources/benefits) as well as our many [perks and discounts](https://www.uidaho.edu/human-resources/benefits/core-benefits/perks)!
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_02.jpg" caption="The University of Idaho library building" %}
-<br>
+{% endcapture %}
 
+{% capture community %}
 ## Our Community
 
 Moscow is located in north Idaho, just 10 minutes away from Pullman, Washington (home to another major university) and an hour and half from Spokane and Coeur d’Alene. The University of Idaho is at the heart of the community, and Moscow benefits from a diverse workforce and community commitment to education. The town’s nickname is the “Heart of the Arts,” and for good reason. 
@@ -66,19 +62,67 @@ Visual and performing arts are easy to find, be it a photography display at the 
 {% include feature/video.html objectid="https://youtube.com/watch?v=QGahQKWJFns" width="100" ratio="16x9" %}
 
 Finally, read [this guide](https://moscowchamber.com/) written by the Moscow Chamber of Commerce detailing the city’s wonderful dining and recreation options.
-<br>
+{% endcapture %}
+
+This spring, The University of Idaho Library will be seeking three exciting new positions! 
+
+- [Digital Archivist](http://uidaho.peopleadmin.com/hr/postings/43233) 
+- [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/hr/postings/43227)
+- [O]pen Publishing Librarian](http://uidaho.peopleadmin.com/hr/postings/43224)
+
+
+<div class="accordion mb-3" id="accordionGroup">
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse1">Our Library <span class="fas fa-chevron-down float-right smalltxt"></span></a>
+			</h6>
+		</div>
+		<div id="collapse1" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				{{ library | markdownify }}
+			</div>
+		</div>
+	</div> 
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse2">Our University<span class="fas fa-chevron-down float-right smalltxt"></span></a>
+			</h6>
+		</div>
+		<div id="collapse2" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				{{ university | markdownify }}
+			</div>
+		</div>
+	</div> 
+	<div class="card">
+		<div class="card-header">
+			<h6 class="card-title mb-0">
+				<a data-toggle="collapse" href="#collapse3">Our Community <span class="fas fa-chevron-down float-right smalltxt"></span></a>
+			</h6>
+		</div>
+		<div id="collapse3" class="collapse" data-parent="#accordionGroup">
+			<div class="card-body">
+				{{ community | markdownify }}
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 ## Apply!
 
 If you, or someone you know would be interested in these positions, please follow these links to the applications. 
 
 
-{% include feature/button.html text="Digital Archivist" link="https://example.com" color="info" size="lg" %}
+{% include feature/button.html text="Digital Archivist" link="http://uidaho.peopleadmin.com/hr/postings/43233" color="info" size="lg" %}
 
-{% include feature/button.html text="Archivist & Special Collections Librarian" link="https://example.com" color="info" size="lg" %}
+{% include feature/button.html text="Archivist & Special Collections Librarian" link="http://uidaho.peopleadmin.com/hr/postings/43227" color="info" size="lg" %}
 
 {% include feature/button.html text="Open Publishing Librarian
-" link="https://example.com" color="info" size="lg" %}
+" link="http://uidaho.peopleadmin.com/hr/postings/43224" color="info" size="lg" %}
 
 
 If you have any questions about these positions, please reach out to us at `general library email?` or call (208) 885-6534.
