@@ -41,6 +41,7 @@ layout: page
         <td>
             {% if r.file %}<a href="{{ '/media/gisday/' | append: r.file | absolute_url }}" target="_blank" rel="noopener" class="d-block"><span class="fas fa-file"></span> PDF</a>{% endif %}
             {% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" class="d-block"><span class="fas fa-link"></span> Website</a>{% endif %}
+            {% if r.video %}<a href="{{ r.video }}" target="_blank" rel="noopener" class="d-block"><span class="fas fa-video"></span> Video</a>{% endif %}
         </td>
     </tr>
     {% endfor %}
