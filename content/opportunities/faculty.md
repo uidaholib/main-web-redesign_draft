@@ -5,19 +5,19 @@ permalink: /opportunities/faculty.html
 layout: page-narrow
 ---
 
-This spring, The University of Idaho Library will be seeking three exciting new positions! 
+This spring, the University of Idaho Library will be seeking three exciting new positions! 
 
 [Digital Archivist](http://uidaho.peopleadmin.com/hr/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3} 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/hr/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
 [Open Publishing Librarian](http://uidaho.peopleadmin.com/hr/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
+
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
 ## Why Work at the University of Idaho?
 
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
-
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
 ## Our Library
 
@@ -31,7 +31,7 @@ The library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidah
 
 The library offers a range of [innovative student and faculty fellowships opportunities](https://www.lib.uidaho.edu/opportunities/fellowships/), utilizing library collections and expertise to develop projects and research. Fellowship areas of focus include open access publishing, digital scholarship, GIS, and faculty development and are designed to encourage institutional growth and interdepartmental collaboration. 
 
-We are committed to engaging with and being in service to our community. In fall 2023, our [Special Collections](https://www.lib.uidaho.edu/special-collections/) department collaborated with the Latah Historical Society to host an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) at the [Kenworthy](https://www.kenworthy.org/), our nearly 100 year old art house theater in town. 
+We are committed to engaging with and being of service to our community. In fall 2023, our [Special Collections](https://www.lib.uidaho.edu/special-collections/) department collaborated with the Latah County Historical Society to host an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) at our local theater. 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside CDIL" %}
 
@@ -77,7 +77,7 @@ Finally, read [this guide](https://moscowchamber.com/) written by the Moscow Cha
 
 ## Apply!
 
-If you, or someone you know would be interested in these positions, please follow these links to the applications. 
+If you, or someone you know would be interested in these positions, please follow these links to the applications. __Note:__ If you are interested in more than one of these positions, multiple applications will not be regarded negatively.
 
 [Digital Archivist](http://uidaho.peopleadmin.com/hr/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3} 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/hr/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
