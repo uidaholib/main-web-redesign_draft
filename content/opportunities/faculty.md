@@ -7,15 +7,15 @@ layout: page-narrow
 
 This spring, The University of Idaho Library will be seeking three exciting new positions! 
 
-[Digital Archivist](http://uidaho.peopleadmin.com/hr/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3} 
-[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/hr/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
-[Open Publishing Librarian](http://uidaho.peopleadmin.com/hr/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
+[Digital Archivist](http://uidaho.peopleadmin.com/hr/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3} 
+[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/hr/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
+[Open Publishing Librarian](http://uidaho.peopleadmin.com/hr/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
 
 ## Why Work at the University of Idaho?
 
-[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .m-3}
-[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .m-3}
-[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .m-3}
+[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
+[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
+[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
@@ -25,13 +25,13 @@ Candidates will join an innovative workplace with an opportunity to develop new 
 
 Candidates will join a dynamic staff and faculty group that have decades of experience with the University of Idaho as well as many talented individuals who have been hired over the last year as digital, data and research specialists. The library is also diligent about developing and promoting internally, with three internal candidates hired for positions since fall of 2023. 
 
-The library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) has designed and maintained [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collections and exhibit websites, driven by metadata and powered by modern static web technology. The department has showcased CollectionBuilder at the Global Digital Humanities Symposium, Code4Lib and the DLF forum and has been utilized by hundreds of academic and cultural institutions. Visit our [CollectionBuilder Examples](https://collectionbuilder.github.io/cb-examples/) site to see more.
+The library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) has designed and maintained [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collections and exhibit websites, driven by metadata and powered by modern static web technology. The department has showcased CollectionBuilder at the Global Digital Humanities Symposium, Code4Lib and the DLF Forum and has been utilized by hundreds of academic and cultural institutions. Visit our [CollectionBuilder Examples](https://collectionbuilder.github.io/cb-examples/) site to see more.
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Capmbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
 
 The library offers a range of [innovative student and faculty fellowships opportunities](https://www.lib.uidaho.edu/opportunities/fellowships/), utilizing library collections and expertise to develop projects and research. Fellowship areas of focus include open access publishing, digital scholarship, GIS, and faculty development and are designed to encourage institutional growth and interdepartmental collaboration. 
 
-We are committed to engaging with and being in service to our community. In fall 2023, our [Special Collections](https://www.lib.uidaho.edu/special-collections/) department collaborated with the Latah Historical Society to host an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) at the Kenworthy, our nearly 100 year old art house theater in town. 
+We are committed to engaging with and being in service to our community. In fall 2023, our [Special Collections](https://www.lib.uidaho.edu/special-collections/) department collaborated with the Latah Historical Society to host an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) at the [Kenworthy](https://www.kenworthy.org/), our nearly 100 year old art house theater in town. 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside CDIL" %}
 
@@ -49,7 +49,7 @@ In addition to being the leading research institution in the state, the universi
 
 <sub>Watch this tour of our campus:</sub>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 mb-3">
     <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -57,11 +57,11 @@ As a faculty member, you will have access to our competitive, affordable [benefi
 
 ## Our Community
 
-Moscow is located in north Idaho, just 10 minutes away from Pullman, Washington (home to another major university) and an hour and half from Spokane and Coeur d’Alene. The University of Idaho is at the heart of the community, and Moscow benefits from a diverse workforce and community commitment to education. The town’s nickname is the “Heart of the Arts,” and for good reason.
+Moscow is located in north Idaho, just 10 minutes away from Pullman, Washington (home to [another major university](https://wsu.edu/)) and an hour and half from Spokane and Coeur d’Alene. The University of Idaho is at the heart of the community, and Moscow benefits from a diverse workforce and community commitment to education. The town’s nickname is the “Heart of the Arts,” and for good reason.
 
 <sub>Watch this video on Moscow community:</sub>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 mb-3">
     <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/55a3v1KHA7Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -69,7 +69,7 @@ Visual and performing arts are easy to find, be it a photography display at the 
 
 <sub>Watch this video on recreation in Moscow:</sub>
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 mb-3">
     <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
