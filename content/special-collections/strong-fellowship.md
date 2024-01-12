@@ -10,8 +10,8 @@ permalink: /special-collections/strong-fellowship.html
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
-    <a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" class="btn btn-info my-2 mx-1">
-    <span class="fas fa-edit"></span> Submit an Application</a>
+    <!--<a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" class="btn btn-info my-2 mx-1">
+    <span class="fas fa-edit"></span> Submit an Application</a>-->
 </div>
 
 {:.text-center}
@@ -47,8 +47,9 @@ Applicants must submit:
 3. A current resume or CV. 
 4. A letter of support from a U of I faculty member.
 
+<!--
 {:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" %}
+{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" %}-->
 
 **Applications are due** by the end of the day and a decision will be announced within two weeks of the deadline.
 
