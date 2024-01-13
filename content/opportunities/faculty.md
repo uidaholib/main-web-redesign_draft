@@ -11,13 +11,13 @@ This spring, the University of Idaho Library will be seeking three exciting new 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
 [Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
-
 ## Why Work at the University of Idaho?
 
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
+
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
 ## Our Library
 
@@ -82,7 +82,7 @@ Finally, read [this guide](https://moscowchamber.com/) written by the Moscow Cha
 
 ## Apply!
 
-If you, or someone you know would be interested in these positions, please follow these links to the applications:
+If you, or someone you know would be interested in these positions, please follow these links to the applications: 
 
 [Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3} 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
