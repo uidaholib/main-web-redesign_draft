@@ -11,21 +11,23 @@ This spring, the University of Idaho Library will be seeking three exciting new 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
 [Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
 
+The University of Idaho Library is starting 2024 in an exciting place: a successful reorganization and strong support from the university community and administration means that we are poised to welcome three new tenure-track faculty members into our ranks. 
+We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
+If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
+
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
+
 ## Why Work at the University of Idaho?
 
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
-
 ## Our Library
-
-The University of Idaho Library is starting 2024 in an exciting place: a successful reorganization and strong support from the university community and administration means that we are poised to welcome three new tenure-track faculty members into our ranks. 
 
 Candidates will join an innovative and energetic workplace with an opportunity to develop new roles, establish new programs, work with cutting-edge technology, and collaborate to reimagine data organization at the library. The dynamic staff and faculty group at the University of Idaho boasts decades of experience, enhanced by the recent addition of many talented digital, data, and research specialists.  
 
-Our Library faculty regularly publish in top journals, present internationally at important venues, and receive significant grants from agencies including the National Endowment for the Humanities and the Institution for Museum and Library Services. Just as important, our employees are interesting, supportive, kind people dedicated to serving our community while maintaining a healthy work-life balance.  
+Our Library faculty regularly publish in top journals, present internationally at important venues, and receive significant grants from agencies including the National Endowment for the Humanities and the Institution for Museum and Library Services (over one million in the last five years). Just as important, our employees are interesting, supportive, kind people dedicated to serving our community while maintaining a healthy work-life balance.  
 
 The U of I Library is well connected in the region as a proud member of the [Orbis Cascade Alliance](https://www.orbiscascade.org/), a consortium of 39 colleges and universities across Oregon, Washington, and Idaho. We also stay connected with our academic partners throughout the state as members of the newly established [Network of Idaho Academic Libraries](https://idahoacademiclibraries.org/).  
 
@@ -40,11 +42,11 @@ This innovative tool powers our [Digital Collections](https://www.lib.uidaho.edu
 
 Our new Digital Archivist and Archivist and Special Collections Librarian will join a department committed to community engagement. Our Special Collections and Archives faculty regularly contribute articles to regional publications including the Moscow-Pullman Daily News and Lewiston Tribune. We also engage with the community through [The Harvester](https://harvester.lib.uidaho.edu/), a blog and working collection of unique archival materials where our archivists can expand on smaller histories and how they relate to the archive as a whole. 
 
-We also partner with local and regional groups to bring history to different audiences. For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event.”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) This unique event was held at the [Kenworthy](https://www.kenworthy.org/), our town's nearly century-old art house theater. 
+We also partner with local and regional groups to bring history to different audiences. For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event.”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) 
 
 There’s so much more to say about the U of I Library (our student engagement programs are really top notch, we collaborate across campus for almost everything we do, and so much more!), but you’d probably like to know a bit more about the University of Idaho.
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
 ## Our University
 
@@ -89,4 +91,4 @@ If you, or someone you know would be interested in these positions, please follo
 [Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
 
 We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
-If you have any questions about these positions, please reach out to Dean Ben Hunter <bhunter@uidaho.edu>.
+If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
