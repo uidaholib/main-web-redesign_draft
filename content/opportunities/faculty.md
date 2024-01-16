@@ -30,11 +30,11 @@ Our Library faculty regularly publish in top journals, present internationally a
 
 The U of I Library is well connected in the region as a proud member of the [Orbis Cascade Alliance](https://www.orbiscascade.org/), a consortium of 39 colleges and universities across Oregon, Washington, and Idaho. We also stay connected with our academic partners throughout the state as members of the newly established [Network of Idaho Academic Libraries](https://idahoacademiclibraries.org/).  
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Capmbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Campbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
 
 Our new Open Publishing Librarian will come into a program with enormous potential. For example, the Library’s recent collaboration with Dr. Sydney Freeman helped produce [The Seminal History and Prospective Future of Blacks at the University of Idaho](https://uidaho.pressbooks.pub/blackhistory/), a book that was produced in both electronic and print formats, and accompanied by campus events, a travelling exhibition, and an extensive [digital collection](https://www.lib.uidaho.edu/blackhistory/).  
 
-That project uses [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collections and exhibit websites developed at the Library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/).
+That digital collection uses [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collections and exhibit websites developed at the Library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/).
 This innovative tool powers our [Digital Collections](https://www.lib.uidaho.edu/digital/) and scholarship projects, and has been showcased at events like the Global Digital Humanities Symposium, Code4Lib, and the DLF Forum. It has been used by hundreds of academic and cultural institutions, some of which you can explore in our [CollectionBuilder Examples](https://collectionbuilder.github.io/cb-examples/) site. 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside CDIL" %}
@@ -45,7 +45,7 @@ We also partner with local and regional groups to bring history to diverse audie
 For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) that highlighted a unique story in Moscow’s past. 
 Our archive also collaborates to make materials more accessible through exhibitions and displays, like with the [Barnard Stockbridge Museum](https://www.barnardstockbridge.com/) in Wallace, Idaho. 
 
-There’s so much more to say about the U of I Library (our student engagement programs are really top notch, we collaborate across campus for almost everything we do, and so much more!), but you’d probably like to know a bit more about the University of Idaho.
+There’s so much more to say about the U of I Library (our student engagement programs are top notch, we collaborate across campus for almost everything we do, we have some amazing workshop series, and so much more!), but you’d probably like to know a bit more about the University of Idaho.
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
