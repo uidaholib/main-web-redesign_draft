@@ -5,23 +5,22 @@ permalink: /opportunities/faculty.html
 layout: page-narrow
 ---
 
-This spring, the University of Idaho Library will be seeking three exciting new positions! 
+The University of Idaho Library is starting 2024 in an exciting place: a successful reorganization and strong support from the university community and administration means that we are poised to welcome three new tenure-track faculty positions to our team!
 
 [Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3} 
 [Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
 [Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
 
-The University of Idaho Library is starting 2024 in an exciting place: a successful reorganization and strong support from the university community and administration means that we are poised to welcome three new tenure-track faculty members into our ranks. 
 We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
-If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
-
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
+If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?
 
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
+
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
 ## Our Library
 
@@ -42,7 +41,9 @@ This innovative tool powers our [Digital Collections](https://www.lib.uidaho.edu
 
 Our new Digital Archivist and Archivist and Special Collections Librarian will join a department committed to community engagement. Our Special Collections and Archives faculty regularly contribute articles to regional publications including the Moscow-Pullman Daily News and Lewiston Tribune. We also engage with the community through [The Harvester](https://harvester.lib.uidaho.edu/), a blog and working collection of unique archival materials where our archivists can expand on smaller histories and how they relate to the archive as a whole. 
 
-We also partner with local and regional groups to bring history to different audiences. For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event.”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) 
+We also partner with local and regional groups to bring history to diverse audiences. 
+For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) that highlighted a unique story in Moscow’s past. 
+Our archive also collaborates to make materials more accessible through exhibitions and displays, like with the [Barnard Stockbridge Museum](https://www.barnardstockbridge.com/) in Wallace, Idaho. 
 
 There’s so much more to say about the U of I Library (our student engagement programs are really top notch, we collaborate across campus for almost everything we do, and so much more!), but you’d probably like to know a bit more about the University of Idaho.
 
