@@ -51,7 +51,7 @@ There’s so much more to say about the U of I Library (our student engagement p
 
 ## Our University
 
-Candidates will enter the university at an exciting point in its nearly 130 year old lifespan, with the second largest enrollment in recorded history in fall 2023. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by the U.S. News and World Report and second in the nation. 
+Candidates will enter the university at an exciting point in its over 130 year old lifespan, with the previous two years seeing the two largest first-year student classes in university history. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation. Furthermore, in 2025 we expect to be the [first university in Idaho](https://www.chronicle.com/article/carnegie-is-changing-how-it-classifies-r1-institutions-will-your-university-make-the-cut?sra=true) to achieve the highest level of classification for research activitiy (R1) as determined by the Carnegie Classification. 
 
 In addition to being the leading research institution in the state, the university is also a land-grant institution, with [46 extension centers](https://www.uidaho.edu/extension/directory/counties) in 42 of Idaho’s 44 counties. These centers support researchers, educators, and specialists in the disciplines of forestry and natural resources, horticulture, aquaculture, and much more, in a long-standing effort to empower youth and develop communities across Idaho. 
 
