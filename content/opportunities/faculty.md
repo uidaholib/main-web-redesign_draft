@@ -51,7 +51,7 @@ There’s so much more to say about the U of I Library (our student engagement p
 
 ## Our University
 
-Candidates will enter the university at an exciting point in its over 130 year old lifespan, with the previous two years seeing the two largest first-year student classes in university history. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation. Furthermore, in 2025 we expect to be the [first university in Idaho](https://www.chronicle.com/article/carnegie-is-changing-how-it-classifies-r1-institutions-will-your-university-make-the-cut?sra=true) to achieve the highest level of classification for research activitiy (R1) as determined by the Carnegie Classification. 
+Candidates will enter the university at an exciting point in its over 130 year old lifespan, with the previous two years seeing the two largest first-year student classes in university history. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation. Furthermore, in 2025 we expect to be the [first university in Idaho](https://www.chronicle.com/article/carnegie-is-changing-how-it-classifies-r1-institutions-will-your-university-make-the-cut?sra=true) to achieve the highest level of classification for research activity (R1) as determined by the Carnegie Classification. 
 
 In addition to being the leading research institution in the state, the university is also a land-grant institution, with [46 extension centers](https://www.uidaho.edu/extension/directory/counties) in 42 of Idaho’s 44 counties. These centers support researchers, educators, and specialists in the disciplines of forestry and natural resources, horticulture, aquaculture, and much more, in a long-standing effort to empower youth and develop communities across Idaho. 
 
@@ -81,7 +81,7 @@ Visual and performing arts are easy to find, be it a photography display at the 
     <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Finally, read [this guide](https://moscowchamber.com/) written by the Moscow Chamber of Commerce detailing the city’s wonderful dining and recreation options.
+Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
 
 ## Apply!
 
