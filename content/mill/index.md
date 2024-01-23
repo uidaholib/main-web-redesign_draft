@@ -9,7 +9,7 @@ layout: page
 
 <div class="alert alert-info text-center" role="alert">
 <h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
-<p class="h5">Monday - Friday, 8am - 5pm</p>
+<p class="h5">Monday - Friday, 8am - 6pm</p>
 </div>
 
 <p class="text-center">
