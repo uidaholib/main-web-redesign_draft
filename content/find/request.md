@@ -22,7 +22,6 @@ To request a book or resource to add to our collections, please click the button
 
 ### One-Time Purchase Requests (Books, Ebooks, DVDs, etc.)
 
-- The appropriate subject specialist will review your request.
 - Requests will be considered if they can be found at a reasonable cost.
 - Indicate in the form if you would like the item held for you once it arrives. If we are able to purchase your request, you'll receive an email once it is ready.
 
