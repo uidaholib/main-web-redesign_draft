@@ -672,9 +672,9 @@ Copyright Guide:
 # VERSO Section
 VERSO:
   - parent: VERSO
-    stub: /verso/about.html
+    stub: /verso/
   - subsection: About Verso
-    link: /verso/about.html
+    link: /verso/
   - subsection: Editing Your Profile
     link: /verso/profile.html
   - subsection: FAQ

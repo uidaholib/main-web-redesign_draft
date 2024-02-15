@@ -14,8 +14,8 @@ Frequently asked questions at the MILL. Learn more by clicking the questions!
             <a data-toggle="collapse" href="#collapse{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down"></span></a>
         </h6>
     </div>
-    <div id="collapse{{ forloop.index }}" class="collapse show">
-        <div class="card-body">{{ q.answer }}</div>
+    <div id="collapse{{ forloop.index }}" class="collapse">
+        <div class="card-body">{{ q.answer | markdownify }}</div>
     </div>
 </div> 
 {% endfor %}

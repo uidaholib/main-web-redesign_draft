@@ -1,14 +1,17 @@
 ---
-title: VERSO (Vandal Expertise, Research, and Scholarship Online)
+title: VERSO 
 section: VERSO
 permalink: /verso/
 layout: page
 ---
 
+{:.mt-0}
+### (Vandal Expertise, Research, and Scholarship Online)
+
 <p class="text-center">
-    <a href="{{ '/verso/profile.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-tools"></span> Profile Editing Instructions</a>
     <a href="{{ '/verso/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-question"></span> FAQ</a>
-    <a href="https://libcal.uidaho.edu/reserve/laser" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-exclamation"></span> Report a Problem</a>
+    <a href="{{ '/verso/profile.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-tools"></span> Profile Editing Instructions</a>
+    <a href="https://forms.office.com/r/Kef7ziHzHy" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-exclamation"></span> Report a Problem</a>
 </p>
 
 VERSO (Vandal Expertise, Research, and Scholarship Online) preserves and provides access to the research and creative output of the University of Idaho's faculty, students and staff.
