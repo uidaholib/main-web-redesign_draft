@@ -15,9 +15,11 @@ layout: page
 
 All Course Reserves resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
 
+To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
+
 ### Course-Marking Updates
 
-The Library prioritizes purchasing unlimited access, DRM-free (Digital Rights Management-free) licenses to maximize access to materials and support zero-cost markings for courses. Decisions are based on cost and license access number (1-person, 3-person, unlimited). All classes regardless of format are eligible for eBooks being purchased.
+The Library prioritizes purchasing unlimited access, DRM-free (Digital Rights Management-free) licenses to maximize access to materials and support zero-cost marking for courses. Decisions to purchase are based on cost and license access number (1-person, 3-person, unlimited). All classes regardless of format are eligible for eBook purchases.
 
 eBook purchases are based on cost:  
 - The first $200 of a license cost are covered by the one-time fund for reserves  
@@ -29,8 +31,6 @@ And on eligibility:
 - After five turn-away notifications, we will purchase another license  
 - If there are an additional five turn-away notifications, a third license will be purchased  
 - A maximum of three licenses will be purchased 
-
-To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
 
 {% capture instr %}
 ### Loan periods
