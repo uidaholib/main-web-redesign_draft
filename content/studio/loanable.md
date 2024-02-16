@@ -10,7 +10,7 @@ The library offers various equipment for students, faculty, and staff to use in 
 
 You may also want to explore equipment available at [The Studio A/V Lab space]({{ '/studio/' | relative_url }})!
 
-{% assign tools = site.data.find_equipment | where_exp: "t","t.loan" %}
+{% assign tools = site.data.find_loanequipment | where_exp: "t","t.loan" %}
 {% assign categories = tools | map: 'category' | uniq | sort %}
 <div class="row">
 <div class="col-12 mb-3 text-center">
