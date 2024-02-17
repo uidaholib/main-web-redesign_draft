@@ -28,9 +28,10 @@ You may also want to explore equipment available at [The Studio A/V Lab space]({
             {{ t.item }}
         </div>
         <div class="card-body">
-            <p class="card-text">{{ t.description }}</p>
-            <!--
-            {% if t.booking_link %}<a href="{{ l }}" class="btn btn-primary btn-sm m-2" target="_blank" rel="noopener">Reserve</a>{% endif %}-->
+            <p class="card-text">{{ t.contains }}</p>
+            {% if t.model %}<p class="card-text">{{ t.model }}</p>{% endif %}
+            <p class="card-text">Fine: {{ t.fine }}, Max Fine: {{ t.max_fine }}</p>
+            <p class="card-text">Replacement Cost: {{ t.replace }}</p>
         </div>
     </div>
 </div>

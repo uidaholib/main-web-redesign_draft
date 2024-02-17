@@ -1,4 +1,4 @@
-item,category,contains,model,loan,fine,max fine,replacement cost in ALMA,quantity
+item,category,contains,model,loan,fine,max_fine,replace,quantity
 ThinkPad T14 Laptop,Laptops,"Contains: Laptop, charger with adapter, laptop sleeve, outer bag","Model: ThinkPad T14 (14")",3 weeks or Semester-long,$5/day,$70.00,$1475.00,28
 Canon Vixia Video Camera,Video Equipment,"Contains: Video camera with 2 SD cards, lens cap, lens hood, remote, microphone with support brace, 4 batteries, wall charger, microUSB to USB transfer cord",Model: VIXIA HF G20 HD Camcorder,3 Days,$5/day,$70.00,$500.00,1
 Canon DSLR Camera Kit,Photography Equipment,"Contains: DSLR camera with SD card, lens, battery, battery charger, small tripod","Model: Canon EOS 4000d digital camera, Canon EF-S 18-55mm f/3.5-5.6 IS II Lens",3 Days,$5/day,$70.00,$500.00,1
