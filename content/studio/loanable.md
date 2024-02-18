@@ -30,7 +30,7 @@ You may also want to explore equipment available at [The Studio A/V Lab space]({
         <div class="card-body">
             <p class="card-text">{{ t.contains }}</p>
             {% if t.model %}<p class="card-text">{{ t.model }}</p>{% endif %}
-            <p class="card-text">Fine: {{ t.fine }}, Max Fine: {{ t.max_fine }}</p>
+            <p class="card-text">Fine Rate: {{ t.fine }}, Max Fine: {{ t.max_fine }}</p>
             <p class="card-text">Replacement Cost: {{ t.replace }}</p>
         </div>
     </div>
