@@ -6,9 +6,11 @@ layout: page
 lazyload: true
 ---
 
-The library offers various equipment for students, faculty, and staff to use in or outside of the library building. 
+The library offers various equipment for students, faculty, and staff to use in or outside of the library building.
+Overdue equipment do generate fines and have variable replacement costs. Fine rates, maximum fines, and replacement costs are outlined below.
+Please reach out to [Circulation](mailto:libcirc@uidaho.edu) with any questions or concerns regarding replacement costs and fines.
 
-You may also want to explore equipment available at [The Studio A/V Lab space]({{ '/studio/' | relative_url }})!
+You may also want to explore equipment available at [The Studio A/V Lab space]({{ '/studio/' | relative_url }}).
 
 {% assign tools = site.data.find_loanequipment | where_exp: "t","t.loan" %}
 {% assign categories = tools | map: 'category' | uniq | sort %}
