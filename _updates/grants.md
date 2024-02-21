@@ -1,6 +1,7 @@
 ---
 title: Library Receives National Leadership Grants
 date: 2022-09-02
+archive: true
 ---
 
 The U of I Library received two $250,000 National Leadership Grants this month from the [Institute for Museum and Library Services](https://www.imls.gov/). 

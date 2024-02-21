@@ -1,6 +1,7 @@
 ---
 title: Wiley Journals Return to Library
 date: 2023-01-13
+archive: true
 ---
 
 The Library and Wiley publishing have restored online access to over 1,300 academic journals lost in 2020 when budget cuts necessitated cancellations. The multi-year contract includes access from 1997 to present for Wiley's full portfolio of journals. The investment is an important step toward the university's goal of reaching R1 research classification and does not require significant additional funding for the collections budget.

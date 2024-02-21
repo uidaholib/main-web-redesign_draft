@@ -1,6 +1,7 @@
 ---
 title: Faculty Job Opportunities
 date: 2024-01-12
+archive: true
 ---
 
 The Library is excited to announce the search for three new faculty librarian positions!
