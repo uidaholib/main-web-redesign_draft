@@ -14,7 +14,7 @@ layout: page
     <a href="https://forms.office.com/r/Kef7ziHzHy" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-exclamation"></span> Report a Problem</a>
 </p>
 
-VERSO (Vandal Expertise, Research, and Scholarship Online) preserves and provides access to the research and creative output of the University of Idaho's faculty, students and staff.
+[VERSO (Vandal Expertise, Research, and Scholarship Online)](https://verso.uidaho.edu/) preserves and provides access to the research and creative output of the University of Idaho's faculty, students and staff.
 
 VERSO serves as both the research information management (RIM) system for the university and as the Institutional Repository (IR). 
 
