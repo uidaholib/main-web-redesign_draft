@@ -1,16 +1,14 @@
 ---
 title: "Think Open Fellowship"
-section: Think Open
+section: Think Open Fellowship
 permalink: /open/fellowship/call.html
 layout: page-narrow
 ---
 
 <small>Sponsored by the University of Idaho Library</small>
 
-Think Open Fellowships are now accepting applications for the 2022-2023 academic year!
-Click below to apply:
-
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Application</a>
+**Think Open Fellowships are currently accepting applications for the 23-24 academic year!**
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Click here to apply!</a>
 
 ## Call for Applications
 
@@ -26,11 +24,13 @@ Think Open Fellows are required to:
 
 * Commit to using an open textbook or affordable alternative (total costs less than $30) for a upcoming course that currently uses a traditional publisher's textbook.
 
-* Agree to share the resources and content they create on the Think Open OER Commons group.
+* Agree to share the resources, content, or syllabi they create on the Think Open OER Commons group.
 
 * Work with the Open Education Librarian and other University of Idaho Librarians to identify and create open educational resources that support the instructor's course goals.
 
-* Deliver a syllabus that uses only open or other low-cost materials (less than $30 total).
+* Deliver a syllabus that uses only Open or, for situations without good Open options, other low-cost materials (less than $30 total).
+
+* Record a brief (5 minutes) video presentation on their project or syllabus for sharing on the Think Open Website. 
 
 Faculty teaching high enrollment courses are especially encouraged to apply, as well as those hoping to improve historically marginalized representations in their curriculums. 
 
@@ -46,13 +46,10 @@ Faculty can apply to transform _any_ course in this fellowship program. Facult
 
 ## Apply
 
-**Fall Semester Deadline, for courses in Fall 2022 or later: Apply by July 31st, 2022**
-**Spring Semester Deadline, for courses in Spring 2023 or later: Apply by November 31st, 2022**
+To apply, please visit the form linked below to submit your course information and proposal. 
 
-{:.btn .btn-lg .btn-pride-gold .ml-3}
-[Click Here to Apply](https://uidaho.co1.qualtrics.com/jfe/form/SV_3juylnsYytDntNY)
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Fellows Application</a>
 
-Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by July of 2023.
+Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by July of 2024.
 
 For questions contact Marco Seiferle-Valencia, Open Education Librarian, <marcosv@uidaho.edu>
-

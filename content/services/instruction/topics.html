@@ -73,7 +73,7 @@ custom-foot: js/topics-filter.html
                             {% assign p = people-table | where: 'email',i | first %}
                             <div class="col-6 col-sm-4 mb-2">
                                 <div class="card">
-                                    <img class="card-img-top img-fluid" src="{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% elsif p.headshot %}/headshots/{{ p.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="photo of {{ p.last_name }}">
+                                    <img class="card-img-top img-fluid" src="{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="photo of {{ p.last_name }}">
                                     <div class="card-body text-center">
                                         <h5 class="card-title"><a target="_blank" rel="noopener" href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
                                         <p class="card-text">{{ p.title }}</p>

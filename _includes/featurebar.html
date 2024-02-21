@@ -7,12 +7,13 @@
           <h3><a href="{{ '/about/liaisons.html' | relative_url }}">Featured Subject Librarian</a></h3>
           <p class="card-text"><a href="{{ '/help/research.html' | relative_url }}">Get help with your Research!</a></p>
           <div id="featuredResearcher" class="mx-auto"></div>
-          {%- assign people = site.data.about_people | where_exp: "p","p.liaison_title" -%}
+          {%- assign liaisons = site.data.about_liaisons -%}
           <script>
               /* featured librarians */
               var researchers = [
                   // img, college, name, email, vivo, departments
-                  {% for l in people %}[ "{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
+                  {% for l in liaisons %}{% assign liaison = site.data.about_people | where: 'id', l.id | first %}
+                  [ "{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
                   {% endfor %}
               ];
               var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
@@ -28,7 +29,7 @@
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4">
       <div class="card m-2">
         <div class="card-body">
           <div id="api_upc_cid4884_iid3479"></div><script async type="text/javascript" src="https://api3.libcal.com/api_events.php?iid=3479&m=upc&cid=4884&audience=&c=&d=&l=5&simple=ul_date&context=object&format=js"> </script>
@@ -41,10 +42,19 @@
       </div>
     </div>
     
-    <div class="col-md-4 d-none d-md-block">
-      <div class="card m-2 mx-auto" style="max-width: 368px;">
+    <div class="col-md-4 mb-4">
+      <div class="card m-2 mx-auto text-center" style="max-width: 368px;">
         <div class="card-body">
-          <a class="twitter-timeline" data-width="368" data-height="650" href="https://twitter.com/UofILibrary/lists/ui-library-tweets?ref_src=twsrc%5Etfw">A Twitter List by UofILibrary</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          <h3><a href="https://harvester.lib.uidaho.edu/">Idaho Harvester</a></h3>
+          <p class="card-text">Read the latest posts featuring unique materials and stories from Special Collections and Archives!</p>
+
+          {% include feature/harvester-item-small.html %}
+
+          <div class="text-center">
+            <a class="btn btn-outline-pride-gold" href="https://harvester.lib.uidaho.edu/">Visit the Idaho Harvester</a>
+          </div>
+
         </div>
       </div>
     </div>

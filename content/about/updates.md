@@ -1,5 +1,5 @@
 ---
-title: Library Updates & News
+title: Library Updates and News
 layout: page
 section: About
 permalink: /about/updates.html

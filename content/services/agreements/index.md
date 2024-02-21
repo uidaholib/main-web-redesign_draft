@@ -16,10 +16,13 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 
 ## Current Agreements
 
+- [Association for Computing Machinery (Read and Publish)]({{ '/services/agreements/acm.html' | relative_url }})
 - [Cambridge University Press (Read and Publish)]({{ '/services/agreements/cambridge.html' | relative_url }})
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
+- [Microbiology Society (Publish and Read)]({{ '/services/agreements/micro-bio.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
+- [Royal Society of Chemistry (RSC Gold)]({{ '/services/agreements/rsc.html' | relative_url }})
 
 -------
 
@@ -53,4 +56,4 @@ Any open access article published under a read and publish agreement is paid for
 
 A publish and read agreement is another type of transformative agreement where only open access publishing fees (APCs) are included in the contract; reading subscription-based articles is included at no additional charge.
 
-{% include feature/alert.html text="Do you have questions or a suggestion for a Transformative Publishing Agreement? Email Samantha Thompson-Franklin at <sthompsonfranklin@uidaho.edu>" align="center" color="info" %}
+{% include feature/alert.html text="Do you have questions or a suggestion for a Transformative Publishing Agreement? Please get in touch at <lib-erm@uidaho.edu>" align="center" color="info" %}

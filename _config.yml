@@ -19,6 +19,8 @@ baseurl:
 
 # directory for all media assets
 lib-media: https://www.lib.uidaho.edu/media
+# libobjects server url
+lib-objects: https://objects.lib.uidaho.edu
 # main url, used to point at server even when on dev server
 liburl: https://www.lib.uidaho.edu
 
@@ -29,11 +31,6 @@ collections:
 
 # set some defaults
 defaults: 
-  - 
-    scope: 
-      path: "content/special-collections/t-abraham/"
-    values:
-      noindex: true
   - 
     scope: 
       path: "content/special-collections/histphoto/"

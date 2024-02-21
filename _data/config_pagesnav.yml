@@ -23,7 +23,7 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, & Inclusion
+  - subsection: Diversity, Equity, and Inclusion
     link: /about/dei.html
     subpages:
       - name: DEI at U of I Library 
@@ -89,7 +89,7 @@ About:
     link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
-  - subsection: Updates & News
+  - subsection: Updates and News
     link: /about/updates.html    
   - subsection: Welcome
     link: /about/welcome.html
@@ -125,7 +125,7 @@ Hours:
     link: /about/hours.html#special
   - subsection: Studio
     link: /about/hours.html#studio  
-  - subsection: Reduced Hours &amp; Closures
+  - subsection: Reduced Hours and Closures
     link: /about/hours.html#reduced
   - subsection: << About
     link: /about/
@@ -193,6 +193,8 @@ Work with Us:
     stub: /opportunities/
   - subsection: Work with Us
     link: /opportunities/
+  - subsection: Faculty Job Openings
+    link: /opportunities/faculty.html
   - subsection: Fellowship Opportunities
     link: /opportunities/fellowships/
   - subsection: Library Seed Grant
@@ -211,11 +213,11 @@ Find:
   - subsection: Access Tools
     link: /find/accesstools.html   
   - subsection: Board Games
-    link: https://libguides.uidaho.edu/Games
-  - subsection: Books & eBooks
+    link: https://www.lib.uidaho.edu/games/
+  - subsection: Books and eBooks
     link: /find/books.html
     subpages:
-      - name: Books & eBooks
+      - name: Books and eBooks
         url: /find/books.html
       - name: Print Book Locations
         url: /find/lc.html
@@ -229,17 +231,19 @@ Find:
     link: /digital/
   - subsection: Diversity, Equity, and Inclusion Resources
     link: /about/dei-resources.html
-  - subsection: DVDs & Streaming Video
+  - subsection: DVDs and Streaming Video
     link: /find/video.html
     subpages: 
       - name: Streaming Video
         url: /find/video.html
       - name: DVDs
         url: /find/dvds.html     
-  - subsection: Encyclopedias & Reference Resources
+  - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
-    link: /events/     
+    link: /events/
+  - subsection: Equipment Loans
+    link: /studio/loanable.html    
   - subsection: Geospatial Resources
     link: /find/geospatial/
     subpages:
@@ -249,8 +253,6 @@ Find:
         url: /find/geospatial/software.html
       - name: GIS Day
         url: /gisday/
-  - subsection: Equipment Loans
-    link: /studio/loanable.html 
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
@@ -279,11 +281,11 @@ Find:
     link: /find/request.html
   - subsection: Research Guides
     link: https://libguides.uidaho.edu/    
-  - subsection: Theses & Dissertations
+  - subsection: Theses and Dissertations
     link: /find/etds.html
-  - subsection: U of I Research & Expertise (VIVO)
+  - subsection: U of I Research and Expertise (VIVO)
     link: https://vivo.nkn.uidaho.edu/vivo/    
-  - subsection: Unique & Archival Material
+  - subsection: Unique and Archival Material
     link: /special-collections/
 
 
@@ -295,7 +297,7 @@ Help:
     stub: /help/
   - subsection: Help Home
     link: /help/
-  - subsection: Chat & Text
+  - subsection: Chat and Text
     link: /help/chat.html    
   - subsection: FAQ
     link: https://libanswers.uidaho.edu/
@@ -315,7 +317,7 @@ Collections:
     stub: /collections/
   - subsection: Collections Home
     link: /collections/
-  - subsection: Special Collections & Archives
+  - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Digital
     link: /collections/digital.html
@@ -344,27 +346,8 @@ Services:
         url: /copyright/guide.html
   - subsection: Course Reserves
     link: /services/reserve/
-    subpages:
-      - name: Home
-        url: /services/reserve/
-      - name: Course Listings
-        url: https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists
-      - name: Policies
-        url: /services/reserve/policies.html
-      - name: Request form
-        url: /services/reserve/request.html
-      - name: How To
-        url: /services/reserve/howto.html
-      - name: Leganto
-        url: /services/reserve/leganto.html
-      - name: Copyright/Fair Use
-        url: /services/reserve/fairuse.html
-      - name: FAQs
-        url: /services/reserve/faq.html
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: Data &amp; Digital Services
-    link: /services/dds.html
   - subsection: "Data Hub: Geospatial and Data Sciences Support"
     link: /datahub/    
   - subsection: Data Management
@@ -402,25 +385,6 @@ Services:
         url: /services/ill/docdelivery.html
       - name: Other Libraries
         url: /services/ill/other.html
-  - subsection: Off-Campus Access
-    link: /services/distance.html  
-  - subsection: Publishing Agreements
-    link: /services/agreements/        
-  - subsection: Reference Services
-    link: /help/
-    subpages:
-      - name: Reference and Information Desk
-        url: /help/
-      - name: Research Assistance
-        url: /help/research.html
-      - name: Chat & Text
-        url: /help/chat.html
-  - subsection: Subject Liaisons 
-    link: /about/liaisons.html       
-  - subsection: The MILL
-    link: /mill/
-  - subsection: The Studio
-    link: /studio/  
   - subsection: OA Publishing Fund
     link: /services/oapf/
     subpages:
@@ -434,12 +398,35 @@ Services:
         url: /services/oapf/funded.html
       - name: FAQ
         url: /services/oapf/faq.html
+  - subsection: Off-Campus Access
+    link: /services/distance.html
+  - subsection: ORCID @ UIdaho
+    link: /services/orcid.html    
+  - subsection: Publishing Agreements
+    link: /services/agreements/
+  - subsection: Pressbooks
+    link: https://uidaho.pressbooks.pub/about/      
+  - subsection: Reference Services
+    link: /help/
+    subpages:
+      - name: Reference and Information Desk
+        url: /help/
+      - name: Research Assistance
+        url: /help/research.html
+      - name: Chat and Text
+        url: /help/chat.html
   - subsection: Room Reservations
     link: /services/rooms.html
-  - subsection: Special Collections & Archives
-    link: /special-collections/
+  - subsection: Special Collections and Archives
+    link: /special-collections/    
+  - subsection: Subject Liaisons 
+    link: /about/liaisons.html       
+  - subsection: The MILL
+    link: /mill/
+  - subsection: The Studio
+    link: /studio/
   - subsection: "Think Open"
-    link: /open/fellowship/
+    link: /open/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -455,7 +442,7 @@ Services:
 Special Collections:
   - parent: Special Collections
     stub: /special-collections/
-  - subsection: Special Collections & Archives
+  - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Collections
     url: /special-collections/description.html
@@ -531,11 +518,11 @@ Data Hub:
     link: /find/geospatial/
   - subsection: <i class="fas fa-share-square"></i> Find Data
     link: /find/data.html
-  - subsection: <i class="fas fa-share-square"></i> Workshops & Events
+  - subsection: <i class="fas fa-share-square"></i> Workshops and Events
     link: /services/workshops/    
 #  - subsection: About the Data Hub
 #    link: /datahub/about.html
-#  - subsection: Tools & Tech
+#  - subsection: Tools and Tech
 #    link: /datahub/tools.html
 #  - subsection: News
 #    link: /datahub/news.html
@@ -548,7 +535,7 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: Tools & Tech
+  - subsection: Tools and Tech
     link: /mill/tools.html
   - subsection: Newsletter
     link: /mill/news.html
@@ -556,6 +543,8 @@ MILL:
     link: /mill/faq.html
   - subsection: Reserve 3D Printers
     link: https://libcal.uidaho.edu/reserve/3dprinters
+  - subsection: Reserve Glowforge
+    link: https://libcal.uidaho.edu/reserve/laser    
   - subsection: Workshops
     link: /services/workshops/
   - subsection: Meet the Team
@@ -579,21 +568,33 @@ The Studio:
 # Think Open Section
 Think Open:
   - parent: Think Open 
-    stub: /open/fellowship/
+    stub: /open/
   - subsection: Think Open Home 
+    link: /open/
+  - subsection: Think Open Fellowship
     link: /open/fellowship/
-  - subsection: Call for Fellows
-    link: /open/fellowship/call.html
-  - subsection: About the Fellowship
-    link: /open/fellowship/about.html
-  - subsection: Current Fellows
-    link: /open/fellowship/current.html
-  - subsection: Past Fellows
-    link: /open/fellowship/past.html
+  - subsection: OA Publishing Fund
+    link: /services/oapf/
+  - subsection: Pressbooks
+    link: https://uidaho.pressbooks.pub/about/      
   - subsection: Why Think Open
     link: /open/why.html
   - subsection: OER Resources
     link: /open/oer_resources.html
+  - subsection: Course Marking
+    link: /open/course-marking.html
+Think Open Fellowship:
+  - parent: Think Open
+    stub: /open/
+  - subsection: Think Open Fellowship
+    link: /open/fellowship/
+  - subsection: Call for Fellows
+    link: /open/fellowship/call.html
+  - subsection: Think Open Fellows
+    link: /open/fellowship/fellows.html
+  - subsection: << Think Open
+    link: /open/
+
 
 # GIS Day
 GIS Day:

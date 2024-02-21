@@ -1,0 +1,44 @@
+---
+title: "Think Open Fellows"
+section: Think Open Fellowship
+permalink: /open/fellowship/fellows.html
+layout: page
+---
+
+{% assign fellows = site.data.open_thinkopenfellows %}
+{% assign years = fellows | map: 'year' | uniq | sort | reverse %}
+<div class="">
+    {% for y in years %}
+    <a href="#{{ y }}-fellows" class="btn btn-sm btn-outline-pride-gold m-2" >{{ y }}</a>
+    {% endfor %}
+</div>
+
+{% for y in years %}
+<hr> 
+
+<h2 id="{{ y }}-fellows">{{ y }} Fellows</h2>
+{% assign cohort = fellows | where: 'year',y %}
+<div class="row">        
+    {% for f in cohort %}
+    <div class="col-md-4 my-1">
+        <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
+            <div class="card-body">
+                <h4 class="card-title">
+                    {% if f.profile-link %}<a href="{{ f.profile-link }}" target="_blank" rel="noopener">{% endif %}
+                        <strong>{{ f.name }}</strong>
+                    {% if f.profile-link %}</a>{% endif %}
+                </h4>
+                <p class="card-text">
+                    {{ f.type | upcase }}<br>
+                    {% if f.discipline %}{{ f.discipline }}<br>{% endif %}
+                    {% if f.course %}<strong>Course Title:</strong> {{ f.course }}<br>{% endif %}
+                    {% if f.students-impacted %}<strong>Students Impacted:</strong> {{ f.students-impacted }}<br>{% endif %}
+                    {% if f.money-saved %}<strong>Estimated Minimum Savings:</strong> {{ f.money-saved }}{% endif %}
+                </p>
+            </div>
+        </div>   
+    </div>
+    {% endfor %}
+</div>
+
+{% endfor %}

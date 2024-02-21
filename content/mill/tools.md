@@ -1,5 +1,5 @@
 ---
-title: "MILL Tools & Tech"
+title: "MILL Tools and Tech"
 section: MILL
 permalink: /mill/tools.html
 layout: page
@@ -17,7 +17,7 @@ We have a number of different tools available for use by students, faculty, and 
             {{ t.name }}
         </div>
         <div class="card-body">
-            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3" src="{{ t.image | prepend: '/mill/' | prepend: site.lib-media }}"></div>{% endif %}
+            {% if t.image %}<div class="text-center"><img class="img-fluid mb-3" src="{{ t.image | prepend: '/mill/' | prepend: site.lib-media }}" alt="{{ t.image_alt }}"></div>{% endif %}
             <p class="card-text">{{ t.description }}</p>
             {% if t.link %}<a href="{{ t.link }}" class="btn btn-primary">{{ t.link_text }}</a>{% endif %}
         </div>

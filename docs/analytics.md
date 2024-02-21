@@ -2,13 +2,13 @@
 
 Analytics is only included when building with "JEKYLL_ENV=production".
 By default, Jekyll is in the development ENV, and analytics will not be added.
-Paste this command into Git Bash or Terminal: 
+Use our short cut Rake task:
+
+`rake deploy` 
+
+or paste this command into Git Bash or Terminal: 
 
 `JEKYLL_ENV=production jekyll build`
-
-Or use our short cut Rake task: 
-
-`rake deploy`
 
 ## Set up
 

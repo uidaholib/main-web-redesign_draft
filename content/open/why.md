@@ -53,7 +53,7 @@ Some open textbooks:
 
 Open textbooks are one type of **open educational resource** (OER). Examples of other OER can include media such as video or audio, courseware, quizes, or syllabi. OER are defined as “teaching, learning, and research resources that reside in the public domain or have been released under an intellectual property license that permits their free use and re-purposing by others” ([Hewlett Foundation](http://www.hewlett.org/programs/education/open-educational-resources)).
 
-Open educational resources created collaboratively with students & faculty:
+Open educational resources created collaboratively with students and faculty:
 
 * [The Open Anthology of Earlier American Literature](https://openamlit.pressbooks.com/)
 * [Murder Madness and Mayhem](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Murder_Madness_and_Mayhem)

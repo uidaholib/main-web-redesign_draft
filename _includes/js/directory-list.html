@@ -3,7 +3,7 @@
 
     // add items
     var listDocs = [
-        // id,last_name,first_name,pronouns,title,rank,status,department,office,email,phone,liaison_title,liaison_college,liaison_departments,vivo_id,cv_filename,image,image_small,image_thumb,pronunciation_audio,headshot
+        // id,last_name,first_name,pronouns,title,rank,status,department,office,email,phone,liaison_title,liaison_college,liaison_departments,vivo_id,cv_filename,image,image_small,image_thumb,pronunciation_audio
         {% assign listDocs = site.data.about_people | where_exp: 'p','p.id' | sort: 'last_name' %}
         {% for i in listDocs %}
         { 

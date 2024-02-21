@@ -5,7 +5,7 @@ section: Help
 permalink: /help/research.html
 custom-foot: js/research-assistance.html
 ---
-{%- assign liaisons = site.data.about_people | where_exp: "p","p.liaison_title" -%}
+{% assign liaisons = site.data.about_liaisons | sort: "liaison_college" %}
 
 <p>Librarians can help you efficiently and effectively search and use library resources and other information sources. Each college at U of I has a designated subject librarian who is ready to help with all your research and library questions.</p>
 
@@ -50,10 +50,11 @@ custom-foot: js/research-assistance.html
             <div class="card-header">
                 {{ l.liaison_college }}
             </div>
+            {% assign liaison = site.data.about_people | where: 'id', l.id | first %}
             <div class="card-body">
                 <div class="row">
                     <div class="col-4">
-                        <img class="img-fluid rounded" src="{{ site.lib-media }}{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.liaison_title }}">
+                        <img class="img-fluid rounded" src="{{ site.lib-media }}{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.liaison_title }}">
                     </div>
                     <div class="col-8">
                         <h5>{{ l.first_name }} {{ l.last_name }}</h5>
@@ -68,8 +69,4 @@ custom-foot: js/research-assistance.html
         </div>
     </div>
     {% endfor %}
-</div>
-
-<div class="mt-3">
-    <small>Looking for the older contact forms? Try <a href="{{ '/help/rap.html' | relative_url }}">Research Assistance Program</a> and <a href="{{ '/help/frap.html' | relative_url }}">Faculty Assistance Program</a>.</small>
 </div>

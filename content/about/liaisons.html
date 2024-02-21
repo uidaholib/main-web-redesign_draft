@@ -62,7 +62,7 @@ layout: page
 	
 
 <h2>Find your Liaison</h2>
-{% assign liaisons = site.data.about_people | where_exp: "p","p.liaison_title" | sort: "liaison_college" %}
+{% assign liaisons = site.data.about_liaisons | sort: "liaison_college" %}
 
 <div id="liaison-list">
 	<input type="text" id="listSearch" class="form-control form-control-lg search mb-3" aria-label="Text input to filter list" placeholder="Search...">
@@ -74,14 +74,15 @@ layout: page
 				<h3 class="h4">{{ l.liaison_college }}</h3>
 				<p><strong>Departments:</strong><br> {{ l.liaison_departments }}</p>
 			</div>
+			{% assign liaison = site.data.about_people | where: 'id', l.id | first %}
 			<div class="col-md-4 listLiaison">
 				<p class="h5">{{ l.first_name }} {{ l.last_name }}</p>
 				<p><a href="mailto:{{ l.email }}">{{ l.email }}</a><br>
-				{{ l.phone }}</p>
+				{{ liaison.phone }}</p>
 			</div>
 			<div class="col-md-3">
 				<a href="{{ '/about/people/' | relative_url }}{{ l.id }}.html" title="view full profile of {{ l.liaison_title }}">
-					<img class="img-fluid rounded" src="{{ site.lib-media }}{% if l.image %}/directory/{{ l.image }}{% elsif l.headshot %}/headshots/{{ l.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.last_name }}">
+					<img class="img-fluid rounded" src="{{ site.lib-media }}{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="portrait of {{ l.last_name }}">
 				</a>
 			</div>
 		</div>

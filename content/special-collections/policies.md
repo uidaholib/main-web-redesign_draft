@@ -8,7 +8,7 @@ permalink: /special-collections/policies.html
 We have several policies guiding the access and use of our materials. 
 
 <div class="text-center mb-2">
-    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction & Copyright</a>
+    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction and Copyright</a>
     <a href="#{{ 'Citing Materials' | slugify }}" class="btn btn-secondary my-2 mx-1">Citing Materials</a>
     <a href="#{{ 'Offensive Material in Archival Collections' | slugify }}" class="btn btn-secondary my-2 mx-1">Offensive Content</a>
 </div>

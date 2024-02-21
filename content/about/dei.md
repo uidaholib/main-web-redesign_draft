@@ -29,50 +29,24 @@ We individually and collectively take decisive action to engage in addressing an
 
 {% capture text %}
 The University of Idaho Library defines diversity, equity, and inclusion as the following:
+
 - **Diversity**: The University of Idaho Library acknowledges and welcomes the presences of differences. 
 We are committed to taking decisive actions to eliminate discrimination, marginalization, and exclusion based on differences in race, ethnicity, gender, gender identity and expression, sexual orientation, age, socioeconomic status, ability, neurotype, religion, national origin, military status, height, weight, language, and political perspective.
 - **Equity**: The University of Idaho Library takes decisive actions to ensure that all Library users have the tools, services, resources, and safe spaces they need to be successful, regardless of background, status, beliefs, or identity.
 - **Inclusion**: The University of Idaho Library takes decisive actions to promote an inclusive, respectful, and safe environment by listening and responding to the needs of our Library users and Library personnel. 
 We define inclusion as an environment where all members of our University and broader community - especially those from historically marginalized backgrounds - feel valued, respected, safe, and welcome.
+
 {% endcapture %}
 {% include feature/card.html text=text %}
-
-For more information, please see our [Diversity, Equity, and Inclusion resources]({{ '/about/dei-resources.html' | relative_url }}) and [Land Acknowledgement information]({{ '/about/landacknowledgment.html' | relative_url }}).
 
 ------------
 
 {:#committee}
-## U of I Library IDEA Committee
+## U of I Library IDEA Team
 
-The Library's Inclusion, Diversity, Equity, and Accessibility (IDEA) Committee is charged with overseeing efforts in the Library that lead to concrete progress in the areas of justice, diversity, equity, inclusion, and accessibility.
+The Library's Inclusion, Diversity, Equity, and Accessibility (IDEA) Team is charged with overseeing efforts in the Library that lead to concrete progress in the areas of justice, diversity, equity, inclusion, and accessibility.
 
-At the start of each new academic year (July), the Chair and the Dean or their designee will determine a committee agenda for the year which includes at least one specific area of focus with associated deliverables. This agenda should be crafted to maximize the impact of the committee's work.
-
-Additionally, the committee will:
-
-- create and implement plans for continuous improvement of library diversity, equity, and inclusion efforts;
-- serve as a resource to library personnel in the evaluation of existing and emerging programs and services in the library framework through the lens of justice, equity, diversity, and inclusion;
-- provide support and coaching for library personnel using DEI Questions for Reflection and Analysis to evaluate services and programs;
-- pursue proactive and integrated opportunities for collaborative programming; and
-- develop and integrate other tasks or opportunities for meaningful justice, equity, diversity, and inclusion in response to local or national movements.
-
-### Committee Membership
-
-Membership on the committee consists of six individuals that represent all library departments (see list below). 
-Both faculty and staff are eligible and encouraged to serve on this committee. 
-All appointments are made by the Dean or the Dean's designee.
-
-- User & Research Services (two positions)
-- Technical Services
-- Data & Digital Services
-- Special Collections & Archives
-- At-large (any area)
-
-Terms are renewable staggered two-year appointments that start and end on July 1 each year. 
-The committee chooses the chair or co-chairs who is/are responsible for convening meetings, setting agendas, and regularly communicating with library leadership and all library employees. 
-While the chair(s) can be either faculty or staff, the duties of that position will typically more aligned with faculty responsibilities.
-
-With the permission of the dean, the committee may form short-term taskforce(s) which include individuals not on the DEI Committee in order to complete specific well-defined tasks.
+A reasonable annual goal for the IDEA Team is set by Library leadership after obtaining feedback from all Library faculty and staff. In addition to annual goals, the IDEA Team coordinates with all other Units and Teams to ensure that meaningful IDEA work is infused throughout the work of Units and Teams throughout the Library.
 
 ---
 

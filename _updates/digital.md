@@ -1,0 +1,11 @@
+---
+title: Digital Collections Migration
+date: 2024-01-01
+---
+
+Warning: [Digital Collections](https://www.lib.uidaho.edu/digital/) work in progress! 
+
+Behind the scenes we are migrating our digital repository system to bring better performance and comprehensive search to our unique collections. 
+You will be seeing improved collection sites deployed already--however, some links pointing to our old repository platform (containing digital.lib.uidaho.edu) may be broken and centralized search will not available until our migration is complete.
+
+Please excuse any disruptions through March 2024 as we complete this process!

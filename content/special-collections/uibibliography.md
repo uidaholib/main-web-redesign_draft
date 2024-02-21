@@ -7,7 +7,7 @@ permalink: /special-collections/uibibliography.html
 
 Established in 1889, the University of Idaho is the state's land-grant research university and has a rich and varied story to tell. The place to start learning about the path that has led us to where we are today is the three comprehensive histories of the University of Idaho. Most recently, published in conjunction with the 125th anniversary, *The University of Idaho: Campus History Series* written by Professor of History Katherine G. Aiken and former Head of Special Collections and Archives Erin Passehl Stoddart, is a pictorial volume featuring over 200 photographs from UI Library Special Collections and Archives. Published in 1989, Keith Petersen's *This Crested Hill* is the official centennial pictorial history with an excellent narrative and bibliography. Rafe Gibb's *Beacon for Mountain and Plain* is an older work written by the University's long-time Director of Information.
 
-Special Collections & Archives holds many [other materials](https://www.lib.uidaho.edu/special-collections/browse) about the University's history than those listed here, some of which are also located online in our [Digital Collections](https://www.lib.uidaho.edu/digital/). 
+Special Collections and Archives holds many [other materials](https://www.lib.uidaho.edu/special-collections/browse) about the University's history than those listed here, some of which are also located online in our [Digital Collections](https://www.lib.uidaho.edu/digital/). 
 
 ## University
 

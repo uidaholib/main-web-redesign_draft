@@ -31,7 +31,7 @@ With collaborative work areas focused on data analysis and visualization, a serv
 <div class="border rounded mt-3">
     <div class="row no-gutters">
         <div class="col-md-3 p-3">
-            {% capture image_src %}{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% elsif p.headshot %}/headshots/{{ p.headshot }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}{% endcapture %}
+            {% capture image_src %}{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}{% endcapture %}
             <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ image_src }}" class="lazyload img-fluid rounded" alt="portrait of {{ p.last_name }}">
         </div>
         <div class="col-md-9 p-3">

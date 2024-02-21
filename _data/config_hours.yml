@@ -6,7 +6,7 @@
 #
 ####
 default: 
-  # fall 2022
+  # fall 2023
   mon: 
     open: 6am
     close: 2am
@@ -39,8 +39,8 @@ default:
 ####
 breaks:   
   # thanksgiving 
-  - start: "2022-11-19"
-    end: "2022-11-26"
+  - start: "2023-11-19"
+    end: "2023-11-25"
     mon: 
       open: 8am
       close: 6pm
@@ -49,7 +49,7 @@ breaks:
       close: 6pm    
     wed: 
       open: 8am
-      close: 6pm    
+      close: 4pm    
     thu: 
       open: false
       close: false
@@ -64,8 +64,8 @@ breaks:
       open: 12pm
       close: 6pm    
   # winter 1
-  - start: "2022-12-17"
-    end: "2022-12-23"
+  - start: "2023-12-16"
+    end: "2023-12-21"
     mon:
       open: 8am
       close: 6pm
@@ -79,8 +79,8 @@ breaks:
       open: 8am
       close: 6pm    
     fri: 
-      open: false
-      close: false
+      open: 8am
+      close: 6pm
     sat: 
       open: 12pm
       close: 6pm    
@@ -88,11 +88,11 @@ breaks:
       open: 12pm
       close: 6pm    
   # winter 2
-  - start: "2023-01-02"
-    end: "2023-01-08"
+  - start: "2024-01-02"
+    end: "2024-01-07"
     mon: 
-      open: false
-      close: false    
+      open: 8am
+      close: 6pm    
     tue: 
       open: 8am
       close: 6pm     
@@ -112,8 +112,8 @@ breaks:
       open: 12pm
       close: 6pm           
   # spring break
-  - start: "2023-03-11"
-    end: "2023-03-18"
+  - start: "2024-03-09"
+    end: "2024-03-16"
     mon:
       open: 8am
       close: 6pm      
@@ -137,7 +137,7 @@ breaks:
       close: 6pm      
   # summer break
   - start: "2023-05-14"
-    end: "2023-08-21"
+    end: "2023-08-19"
     mon: 
       open: 8am
       close: 8pm 
@@ -168,7 +168,7 @@ breaks:
 # 
 ####
 specials:
-  - dates: ["2022-09-04","2023-01-15","2023-01-16","2023-02-19","2023-02-20"]
+  - dates: ["2023-09-03","2024-01-15","2024-02-19"]
     open: 12pm
     close: 12am
   - dates: ["2022-12-06"]
@@ -183,5 +183,5 @@ specials:
 # 
 ####
 closed:
-  dates: [ "2023-09-04","2022-12-24","2022-12-25","2022-12-26","2022-12-27","2022-12-28","2022-12-29","2022-12-30","2022-12-31","2023-01-01","2023-05-29","2023-06-19","2023-07-04"]
+  dates: [ "2023-09-04","2023-12-22","2023-12-23","2023-12-24","2023-12-25","2023-12-26","2023-12-27","2023-12-28","2023-12-29","2023-12-30","2023-12-31","2024-01-01","2024-05-27","2024-06-19","2024-07-04"]
   message: "Closed"

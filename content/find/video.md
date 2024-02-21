@@ -20,4 +20,4 @@ Platforms include:
 - <a href="https://uidaho.idm.oclc.org/login?url=https://www.oreilly.com/library-access/?email=^u" target="_blank" rel="noopener">Safari: O'Reilly's Learning Platform</a> - In addition to ebooks, Safari has a wide selection of videos and online courses for learning about tech topics. First-time users must enter a U of I email address to set up an account with Safari, after which they can log into the platform directly.
 
 If you have any questions or encounter issues, please <a href="{{ '/help/' | relative_url }}">contact a librarian</a>.
-For requests to view a streaming video from another provider or licensing questions, please email Samantha Thompson-Franklin at <lib-erm@uidaho.edu>.
+For requests to view a streaming video from another provider or licensing questions, please email <lib-erm@uidaho.edu>.
