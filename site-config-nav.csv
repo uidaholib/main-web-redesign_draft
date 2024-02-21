@@ -1,4 +1,10 @@
 ---
 # generate list of pages in page nav
 ---
-title,level,section,url
+title,url,section,parent
+{%- assign pagesnav = site.data.config_pagesnav -%}
+{% capture sections %}{% for i in pagesnav %}{{ i[0] }}{% unless forloop.last %};{% endunless %}{% endfor %}{%- endcapture -%}
+{%- assign sections = sections | split: ';' -%}
+{%- for s in sections -%}{% assign pages = pagesnav[s] %}{% for p in pages %}
+{{ p.parent | default: p.subsection | remove: ',' }},{{ p.stub | default: p.link | absolute_url }},{{ s }},{% if p.subpages %}{% for sp in p.subpages %}
+{{ sp.name }},{{ sp.url | absolute_url }},{{ s }},{{ p.subsection | remove: ',' }}{% endfor %}{% endif %}{% endfor %}{% endfor %}
