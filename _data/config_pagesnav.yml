@@ -51,8 +51,8 @@ About:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
-  - subsection: My Library Stories
-    link: /mylibrary/
+  #- subsection: My Library Stories
+  #  link: /mylibrary/
   - subsection: People
     link: /about/directory.html
 #    subpages:
@@ -147,10 +147,10 @@ My Library:
     stub: /about/
   - subsection: My Library Stories
     link: /mylibrary/
-  - subsection: Submit Your Story
-    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
-  - subsection: Subscribe to Newsletters
-    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
+  #- subsection: Submit Your Story
+  #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
+  #- subsection: Subscribe to Newsletters
+  #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
   - subsection: Library Giving
     link: /giving/
   - subsection: << About
