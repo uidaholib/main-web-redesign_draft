@@ -5,7 +5,7 @@ permalink: /verso/faq.html
 layout: page
 ---
 
-Frequently asked questions at the MILL. Learn more by clicking the questions!
+Frequently asked questions on VERSO. Learn more by clicking the questions!
 
 {% for q in site.data.verso_faq %}
 <div class="card my-3">
