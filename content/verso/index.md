@@ -29,7 +29,7 @@ Questions? Email [lib-verso@uidaho.edu](mailto:lib-verso@uidaho.edu) or [fill ou
 
 ### Release Timeline
 
-##### Fall 2024 
+##### Fall 2023 
 
 - Migrate data from VIVO
 - Establish single-sign-on and other system features 
