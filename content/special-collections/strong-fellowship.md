@@ -86,7 +86,7 @@ Applicants must submit:
     - *Correspondence, memos, lantern slides, film and glass negatives.*
 6. Idaho State Climate Laboratory Observation records
     - *Meteorological observations and other records from 1978-1992.*
-7. Chales Wellner papers
+7. Charles Wellner papers
     - *Correspondence, reports, publications, and other papers from U of I alumnus dedicated to forestry.*
 8. Bessie Olmstead Storm papers
     - *Personal papers and keepsakes of U of I alumna dated 1912-2006.*
