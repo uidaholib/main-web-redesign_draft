@@ -23,7 +23,7 @@ layout: page
 <div class="card my-3">
     <div class="card-header">
         <h6 class="card-title mb-0">
-            <a data-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
+            <a data-bs-toggle="collapse" href="#collapse{{ id }}{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
         </h6>
     </div>
     <div id="collapse{{ id }}{{ forloop.index }}" class="collapse">

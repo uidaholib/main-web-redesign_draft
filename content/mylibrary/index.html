@@ -21,7 +21,7 @@ gallery: true
     <div id="mylibrary-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
         <ol class="carousel-indicators">
             {% for slide in slides %}
-            <li data-target="#mylibrary-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+            <li data-bs-target="#mylibrary-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
             {% endfor %}
         </ol>
         <div class="carousel-inner">

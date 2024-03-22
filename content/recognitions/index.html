@@ -13,14 +13,14 @@ permalink: /recognitions/
 {% for y in years %}
 <div class="card my-3">
     <div class="card-header" id="recognitions{{ y }}">
-        <button class="btn btn-link btn-block text-left text-body collapsed" data-toggle="collapse" data-target="#collapse{{ y }}" aria-expanded="false" aria-controls="collapse{{ y }}"><h5 class="mb-0">{{ y }} <span class="fas fa-chevron-down smalltxt"></span></h5></button>
+        <button class="btn btn-link btn-block text-start text-body collapsed" data-bs-toggle="collapse" data-bs-target="#collapse{{ y }}" aria-expanded="false" aria-controls="collapse{{ y }}"><h5 class="mb-0">{{ y }} <span class="fas fa-chevron-down smalltxt"></span></h5></button>
     </div>
     <div id="collapse{{ y }}" class="collapse" aria-labelledby="recognitions{{ y }}" >
         <div class="card-body">
             {% assign promos = site.data.about_recognitions-bookplates | where_exp: "item","item.year == y" %}
             {% for p in promos %}{%- if p.book -%}
             <p><strong>{{ p.faculty }}</strong>, {{ p.rank-promotion }}</p>
-            <ul class="ml-2">
+            <ul class="ms-2">
                 <li>{{ p.book }}</li>
             </ul>
             {% endif %}{% endfor %}

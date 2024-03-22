@@ -13,10 +13,10 @@ noindex: true
 {% for q in faqs %}
   <div class="card my-2">
     <div class="card-header">
-      <h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#faq{{ forloop.index }}" onclick="$('span.fa-chevron-down').removeClass('fa-chevron-up',700);$(this).find('span').toggleClass('fa-chevron-up',700);">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+      <h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#faq{{ forloop.index }}" onclick="$('span.fa-chevron-down').removeClass('fa-chevron-up',700);$(this).find('span').toggleClass('fa-chevron-up',700);">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a></h5>
     </div> <!--end card-header-->
 
-    <div id="faq{{ forloop.index }}" class="collapse" data-parent="#faqAccordion">
+    <div id="faq{{ forloop.index }}" class="collapse" data-bs-parent="#faqAccordion">
       <div class="card-body">
         <p>{{ q.answer }}</p>
       </div> <!--end card-body-->

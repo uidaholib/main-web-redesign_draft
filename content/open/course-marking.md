@@ -22,7 +22,7 @@ Instructors may begin reporting their course materials costs during scheduling i
 <div class="card my-3">
     <div class="card-header">
         <h3 class="h6 card-title mb-0">
-            <a data-toggle="collapse" href="#collapse{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
+            <a data-bs-toggle="collapse" href="#collapse{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
         </h3>
     </div>
     <div id="collapse{{ forloop.index }}" class="collapse">

@@ -29,12 +29,12 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Search Our Collections
+            <a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseOne"> 1. Search Our Collections
               <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
-        <div id="collapseOne" class="collapse" data-parent="#accordion">
+        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
             <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
               <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
@@ -47,12 +47,12 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Search Our Digital Collections
+            <a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseTwo"> 2. Search Our Digital Collections
               <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
             <p> Our 
               <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and <a href="https://harvester.lib.uidaho.edu/">Idaho Harvester Blog</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online.</p>
@@ -65,12 +65,12 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Make an Appointment or Visit Open Hours
+            <a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseThree"> 3. Make an Appointment or Visit Open Hours
               <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
             <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment. We ask for 48 hours of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
           </div>
@@ -82,12 +82,12 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
       <div class="card mt-3 mb-2">
         <div class="card-header">
           <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour"> 4. Fill Out a Registration Form Upon Arrival
+            <a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFour"> 4. Fill Out a Registration Form Upon Arrival
               <span class="fas fa-chevron-down "></span>
             </a>
           </h5>
         </div>
-        <div id="collapseFour" class="collapse" data-parent="#accordion">
+        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
             <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
               understand and will abide by the <a href="{{ '/special-collections/plan.html#rules' | relative_url }}">Reading Room Rules</a> (see below) for using Special Collections and Archives materials. </p>
