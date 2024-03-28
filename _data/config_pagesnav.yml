@@ -386,26 +386,28 @@ Services:
       - name: Other Libraries
         url: /services/ill/other.html
   - subsection: OA Publishing Fund
-    link: /services/oapf/
+    link: /open/oapf/
     subpages:
       - name: OA Publishing Fund
-        url: /services/oapf/
+        url: /open/oapf/
       - name: Eligibility
-        url: /services/oapf/eligibility.html
+        url: /open/oapf/eligibility.html
       - name: Apply
-        url: /services/oapf/apply.html
+        url: /open/oapf/apply.html
       - name: Funded Articles
-        url: /services/oapf/funded.html
+        url: /open/oapf/funded.html
       - name: FAQ
-        url: /services/oapf/faq.html
+        url: /open/oapf/faq.html
   - subsection: Off-Campus Access
     link: /services/distance.html
+  - subsection: Open at U of I
+    link: /open/
   - subsection: ORCID @ UIdaho
     link: /services/orcid.html    
   - subsection: Publishing Agreements
     link: /services/agreements/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
+    link: /open/pressbooks.html      
   - subsection: Reference Services
     link: /help/
     subpages:
@@ -425,8 +427,8 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: "Think Open"
-    link: /open/
+  - subsection: Think Open
+    link: /open/fellowship/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -565,35 +567,40 @@ The Studio:
   - subsection: Studio FAQ
     link: /studio/faq.html
 
-# Think Open Section
-Think Open:
-  - parent: Think Open 
+# Open at U of I Section
+Open at U of I:
+  - parent: Open at U of I
     stub: /open/
-  - subsection: Think Open Home 
+  - subsection: Open Home
     link: /open/
   - subsection: Think Open Fellowship
     link: /open/fellowship/
+    subpages:
+      - name: About the Fellowship
+        url: /open/fellowship/
+      - name: Call for Fellows
+        url: /open/fellowship/call.html
+      - name: Think Open Fellows
+        url: /open/fellowship/fellows.html
   - subsection: OA Publishing Fund
-    link: /services/oapf/
+    link: /open/oapf/
+    subpages:
+      - name: About the Fund
+        url: /open/oapf/
+      - name: Eligibility
+        url: /open/oapf/eligibility.html
+      - name: Apply
+        url: /open/oapf/apply.html
+      - name: Funded Articles
+        url: /open/oapf/funded.html
+      - name: FAQ
+        url: /open/oapf/faq.html
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
-  - subsection: Why Think Open
-    link: /open/why.html
+    link: /open/pressbooks.html
+  - subsection: Course Marking
+    link: /open/course-marking.html  
   - subsection: OER Resources
     link: /open/oer_resources.html
-  - subsection: Course Marking
-    link: /open/course-marking.html
-Think Open Fellowship:
-  - parent: Think Open
-    stub: /open/
-  - subsection: Think Open Fellowship
-    link: /open/fellowship/
-  - subsection: Call for Fellows
-    link: /open/fellowship/call.html
-  - subsection: Think Open Fellows
-    link: /open/fellowship/fellows.html
-  - subsection: << Think Open
-    link: /open/
 
 
 # GIS Day
