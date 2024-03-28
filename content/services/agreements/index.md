@@ -23,6 +23,7 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 - [Microbiology Society (Publish and Read)]({{ '/services/agreements/micro-bio.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
 - [Royal Society of Chemistry (RSC Gold)]({{ '/services/agreements/rsc.html' | relative_url }})
+- [Springer/Nature (Read and Publish Agreement)]({{ '/services/agreements/springer.html' | relative_url }})
 
 -------
 
