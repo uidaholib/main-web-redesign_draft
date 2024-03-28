@@ -1,6 +1,6 @@
 ---
 title: "Course Marking"
-section: Think Open
+section: Open at U of I
 permalink: /open/course-marking.html
 layout: page-narrow
 ---

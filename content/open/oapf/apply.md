@@ -1,7 +1,7 @@
 ---
 title: Application and Award Process
-section: Services
-permalink: /services/oapf/apply.html
+section: Open at U of I
+permalink: /open/oapf/apply.html
 layout: page
 ---
 

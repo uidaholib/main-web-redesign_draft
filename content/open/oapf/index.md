@@ -1,7 +1,7 @@
 ---
 title: University of Idaho - Open Access Publishing Fund
-section: Services
-permalink: /services/oapf/
+section: Open at U of I
+permalink: /open/oapf/
 layout: page
 ---
 

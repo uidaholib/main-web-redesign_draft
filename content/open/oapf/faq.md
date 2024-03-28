@@ -1,7 +1,7 @@
 ---
 title: Open Access Publishing Fund FAQs
-section: Services
-permalink: /services/oapf/faq.html
+section: Open at U of I
+permalink: /open/oapf/faq.html
 layout: page
 ---
 

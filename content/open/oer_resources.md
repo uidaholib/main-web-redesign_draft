@@ -1,6 +1,6 @@
 ---
 title: "OER Resources"
-section: Think Open
+section: Open at U of I
 permalink: /open/oer_resources.html
 layout: page
 ---
