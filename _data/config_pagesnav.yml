@@ -387,17 +387,6 @@ Services:
         url: /services/ill/other.html
   - subsection: OA Publishing Fund
     link: /open/oapf/
-    subpages:
-      - name: OA Publishing Fund
-        url: /open/oapf/
-      - name: Eligibility
-        url: /open/oapf/eligibility.html
-      - name: Apply
-        url: /open/oapf/apply.html
-      - name: Funded Articles
-        url: /open/oapf/funded.html
-      - name: FAQ
-        url: /open/oapf/faq.html
   - subsection: Off-Campus Access
     link: /services/distance.html
   - subsection: Open at U of I
