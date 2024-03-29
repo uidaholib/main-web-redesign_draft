@@ -47,10 +47,12 @@ units:
         link: https://cdil.lib.uidaho.edu/
       - name: Digital Collections
         link: /digital/
-      - name: Think Open and OER
+      - name: Open @ U of I
+        link: /open/
+      - name: Think Open Fellowship
         link: /open/fellowship/
       - name: OA Publishing Fund
-        link: /services/oapf/
+        link: /open/oapf/
       - name: Copyright
         link: /copyright/
   - title: Research and Experiential Learning

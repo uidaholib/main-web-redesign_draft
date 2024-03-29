@@ -7,7 +7,7 @@ layout: page
 
 {% include oapf-alert.html %}
 
-Potential applicants are strongly encouraged to speak with [Marco Seiferle-Valencia](mailto:marcosv@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }}).
+Potential applicants are strongly encouraged to speak with [Marco Seiferle-Valencia](mailto:marcosv@uidaho.edu), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/open/oapf/eligibility.html' | relative_url }}).
 
 <!--
 <p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1AMSwrtF5tWGeaO" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
@@ -20,7 +20,7 @@ In FY 2024, the total allocation will be split into two funding periods:
 Applicants must be current U of I affiliates throughout the application, award, and payment/reimbursement process. Cases in which an applicant leaves or graduates from the U of I during the award or payment/reimbursement process will be referred to the Dean of Libraries for review and final decision.
 
 {% capture application %}
-- Review the [eligibility criteria]({{ '/services/oapf/eligibility.html' | relative_url }})
+- Review the [eligibility criteria]({{ '/open/oapf/eligibility.html' | relative_url }})
   - Reach out to the [U of I - OAPF Fund Manager](mailto:marcosv@uidaho.edu) or a [library liaison]({{ '/about/liaisons.html' | relative_url }}) with any questions
 - Submit an application
   - Upon submission, applicants will receive a confirmation email with a copy of their application
