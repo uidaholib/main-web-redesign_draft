@@ -5,7 +5,7 @@ permalink: /services/agreements/springer.html
 layout: page-narrow
 ---
 
-In January 2024, the U of I Library, as a member of Lyrarsis, entered into a [Read and Publish agreement with Springer/Nature](https://www.springernature.com/gp/open-research/oa-agreements/lyrasis).
+In January 2024, the U of I Library, as a member of Lyrasis, entered into a [Read and Publish agreement with Springer/Nature](https://www.springernature.com/gp/open-research/oa-agreements/lyrasis).
 
 ## Benefits for U of I affiliates:
 
