@@ -5,13 +5,12 @@ permalink: /opportunities/faculty.html
 layout: page-narrow
 ---
 
-The University of Idaho Library is starting 2024 in an exciting place: a successful reorganization and strong support from the university community and administration means that we are poised to welcome three new tenure-track faculty positions to our team!
+The University of Idaho Library features a dynamic team of [faculty librarians](https://www.lib.uidaho.edu/about/librarians.html). 
+We regularly advertise new career opportunities via the [university's job portal](https://uidaho.peopleadmin.com/).
 
-[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3} 
-[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}
-[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-5}
+<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}-->
 
-We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
+There are no listings at this time, but please check back!
 If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?
@@ -83,6 +82,7 @@ Visual and performing arts are easy to find, be it a photography display at the 
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
 
+<!--
 ## Apply!
 
 If you, or someone you know would be interested in these positions, please follow these links to the applications: 
@@ -93,3 +93,4 @@ If you, or someone you know would be interested in these positions, please follo
 
 We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
 If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
+-->
