@@ -418,13 +418,8 @@ Services:
     link: /studio/
   - subsection: Think Open
     link: /open/fellowship/
-  - subsection: Workshops
-    link: /services/workshops/
-    subpages:
-      - name: Workshops
-        url: /services/workshops/
-      - name: Resources
-        url: /services/workshops/resources.html
+  - subsection: Tutorials
+    link: /tutorials/
 
 
 ##########
@@ -591,6 +586,23 @@ Open at U of I:
   - subsection: OER Resources
     link: /open/oer_resources.html
 
+# Tutorials Section
+Tutorials:
+  - parent: Tutorials
+    stub: /tutorials/
+  - subsection: Tutorials Home
+    link: /tutorials/
+  - subsection: Research Guides
+    link: https://libguides.uidaho.edu/
+  - subsection: H5P Tutorials
+    link: https://h5p.uidaholib.org/
+  - subsection: Workshops
+    link: /tutorials/workshops/
+    subpages:
+      - name: Workshop Calendar
+        url: /tutorials/workshops/
+      - name: Workshop Resources
+        url: /tutorials/workshops/resources.html
 
 # GIS Day
 GIS Day:
