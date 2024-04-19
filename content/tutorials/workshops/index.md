@@ -1,7 +1,7 @@
 ---
 title: Workshops &amp; Learning Opportunities
-section: Services
-permalink: /services/workshops/
+section: Tutorials
+permalink: /tutorials/workshops/
 layout: page
 ---
 
