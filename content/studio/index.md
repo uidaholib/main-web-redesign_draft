@@ -15,8 +15,7 @@ Located on the second floor of the Library, the Studio offers dedicated space to
 Faculty and staff can capture high-quality video lectures and instructional videos using the eGlass, One Button Studio, and other [equipment]({{ '/studio/equipment.html' | relative_url }}). 
 Any students, staff, and faculty can use the Studio to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
-To use the Studio, please access the booking calendar link below to reserve a time. 
-At the time of your appointment, please bring your Vandal card to the Circulation Desk on the library's first floor to check out the Studio key. 
+To use the Studio, please access the booking calendar link below to reserve a time. Reservations must be made eight hours in advance. At the time of your appointment, please bring your Vandal card to the Circulation Desk on the library's first floor to check out the Studio key. 
 
 First-time users are welcome to use the space. If interested in receiving an orientation with a staff member, please fill out the [request an orientation form](https://uidaho.co1.qualtrics.com/jfe/form/SV_87Ybp5wTfqm9Cqa) to schedule a meeting.
 
