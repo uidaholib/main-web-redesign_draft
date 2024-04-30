@@ -104,7 +104,7 @@ layout: default
                                 {{ page.description | markdownify }}
                                 {% endif %}
                                 <p class="text-center">
-                                    {% if page.vivo_id %}<a href="http://vivo.nkn.uidaho.edu/vivo/individual/{{ page.vivo_id }}" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener">View VIVO profile</a>{% endif %}
+                                    {% if page.verso_id %}<a href="https://verso.uidaho.edu/esploro/profile/{{ page.verso_id }}" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener">View VERSO profile</a>{% endif %}
                                     {% if page.cv_filename %}<a href="{% if page.cv_filename contains 'http' %}{{ page.cv_filename }}{% else %}{{ site.lib-media }}/directory/cv/{{ page.cv_filename }}{% endif %}" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener">Curriculum Vitae</a>{% endif %}
                                 </p>
                             </div>
