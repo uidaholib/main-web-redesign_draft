@@ -16,10 +16,10 @@ permalink: /special-collections/strong-fellowship.html
 </div>
 
 {:.text-center}
-**Questions?** Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
+**This application is now *closed.***
 
 {:.text-center}
-**_DEADLINE: April 10, 2024_**
+*Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
 ---
 
