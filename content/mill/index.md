@@ -11,7 +11,7 @@ layout: page
 <!--<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p class="h5">Monday - Friday, 8am - 6pm</p>-->
 <h2 class="alert-heading h4"><span class="fas fa-clock"></span> Summer Hours</h2>
-<p class="h5">By appointment: Please contact [Jessica Fleener](/about/people/jkfleener.html) (<jkfleener@uidaho.edu>)</p>
+<p class="h5" markdown="1">By appointment: Please contact [Jessica Fleener](/about/people/jkfleener.html) (<jkfleener@uidaho.edu>)</p>
 <p>Please note the MILL space is under renovation this summer--please visit at our temporary location in the Data Hub / Map Room (Library 107)!</p>
 </div>
 
