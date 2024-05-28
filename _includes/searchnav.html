@@ -6,10 +6,18 @@
         }
     </script>
     <div class="container">
-        <form class="form-inline row justify-content-end pt-2" role="search" onsubmit="primo_search(); return false;">
-            <input id="primo-search" class="form-control form-control-lg col-md-6 col-sm-10 col-10 p-2 me-md-2" type="search" placeholder="Search the catalog ..." aria-label="Search Library Catalog">
-            <button class="btn btn-lg my-2 my-sm-1 col-md-1 col-2 p-2 btn-pride-gold text-dark" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Catalog</span></button>
-            <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced" class="col-md-1 text-end">Advanced Search</a>
+        <form class="pt-2" role="search" onsubmit="primo_search(); return false;">
+            <div class="row g-2 justify-content-end">
+                <div class="col-10 col-md-6">
+                    <input id="primo-search" class="form-control form-control-lg" type="search" placeholder="Search the catalog ..." aria-label="Search Library Catalog">
+                </div>
+                <div class="col-2 col-md-1">
+                    <button class="btn btn-lg btn-pride-gold text-dark w-100" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search Catalog</span></button>
+                </div>
+                <div class="col-12 col-md-1">
+                    <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced" class="col-md-1 text-end">Advanced Search</a>
+                </div>
+            </div>
         </form>
 
         <div class="pt-1">
@@ -33,7 +41,7 @@
                         <a class="nav-link px-2" href="{{ '/services/ill/' | relative_url }}" >ILL</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link px-2 h5">|</span>
+                        <span class="nav-link px-2 text-white">|</span>
                     </li>
                     <li class="nav-item">
                         <a id="databasesButtonNav" class="nav-link px-2" href="https://libguides.uidaho.edu/az.php"> Databases A-Z</a>
