@@ -9,10 +9,6 @@ custom-foot: js/topics-filter.html
 {% assign people = expertise | map: "person" | compact | join: ";" | split: ";" | uniq | sort %}
 {% assign people-table = site.data.about_people %}
 
-<style>
-    #instructorList { width: initial; }
-</style>
-
 <p>Library faculty teach class sessions on how to search efficiently and effectively for information. We provide general orientation to library research in freshman composition classes, but we also tailor class sessions for specific assignments in other courses. To request a librarian led session on a specific topic area, please click a topic below and follow the "Request Instruction" link to our form.</p>
 
 <div class="text-center mb-3">
@@ -23,7 +19,7 @@ custom-foot: js/topics-filter.html
     <button id="research" class="filter m-2 btn btn-outline-clearwater font-weight-bold">Research</button>
     <button id="writing" class="filter m-2 btn btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
     
-    <select id="instructorList" class="form-select m-2" >
+    <select id="instructorList" class="form-select m-2 d-inline-block" style="width:auto;" aria-label="Filter by Instructor">
         <option value="">Filter by Instructor</option>
         {% for person in people %}
         <option value="{{ person }}">{{ person }}</option>{% endfor %}
@@ -35,10 +31,8 @@ custom-foot: js/topics-filter.html
     <div class="col-md-8 text-center">
         <div class="input-group input-group-lg">
             <input type="text" class="form-control form-control-lg" id="quicksearch" placeholder="Search ... " aria-label="Search"> 
-            <div class="input-group-append">
-                <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton">Search</button>
-                <button id="reset" class="btn btn-outline-secondary">Reset</button>
-            </div>
+            <button class="btn btn-pride-gold" type="button" title="Filter items" alt="Search" id="goButton">Search</button>
+            <button id="reset" class="btn btn-outline-secondary">Reset</button>
         </div>
     </div>
 </div>
