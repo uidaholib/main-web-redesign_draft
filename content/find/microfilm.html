@@ -16,7 +16,7 @@ custom-foot: "js/find_microfilm.html"
 	<div class="">
 		<select id="groupSelect" class="custom-select form-control">
 			<option value="all">All</option>
-			{% assign counties = newspapers | map: 'county' | uniq %}
+			{% assign counties = newspapers | map: 'county' | uniq | sort %}
 			{% for c in counties %}
 			<option value="{{ c }}">{{ c }}</option>
 			{% endfor %}
