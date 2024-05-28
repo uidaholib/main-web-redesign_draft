@@ -6,15 +6,15 @@ layout: page
 custom-foot: "js/find_microfilm.html"
 ---
 {% assign newspapers = site.data.find_microfilm %}
-<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/assets/bootstrap5/datatables/datatables.min.css' | relative_url }}">
 
 <p>This page provides an alphabetical list of Idaho newspapers on microfilm in our collections. However, please note that most microfilm can be discovered in our <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&mode=advanced">main online catalog</a>. Patrons can also search <a href="https://uidaho.newspapers.com/papers/">Newspapers.com</a> for historic newspapers that have been digitized. <a>Note:</a> This must be done <i>on campus</i>.</p>
 <p>To download the filtered data click the Excel / CSV button.</p>
 
-<div class="form-group row justify-content-end">
+<div class="row justify-content-end mb-2">
 	<label for="groupSelect" class="col-sm-3 col-form-label text-end">Filter by County:</label>
-	<div class="">
-		<select id="groupSelect" class="custom-select form-control">
+	<div class="col-sm-3">
+		<select id="groupSelect" class="form-select form-control">
 			<option value="all">All</option>
 			{% assign counties = newspapers | map: 'county' | uniq %}
 			{% for c in counties %}

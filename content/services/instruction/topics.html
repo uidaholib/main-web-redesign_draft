@@ -23,7 +23,7 @@ custom-foot: js/topics-filter.html
     <button id="research" class="filter m-2 btn btn-outline-clearwater font-weight-bold">Research</button>
     <button id="writing" class="filter m-2 btn btn-outline-pride-gold font-weight-bold">Writing & Citing</button>
     
-    <select id="instructorList" class="custom-select m-2" >
+    <select id="instructorList" class="form-select m-2" >
         <option value="">Filter by Instructor</option>
         {% for person in people %}
         <option value="{{ person }}">{{ person }}</option>{% endfor %}

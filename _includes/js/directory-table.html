@@ -7,7 +7,7 @@
     });
 
     // add department filter select
-    var selectMenu = `<select id="departmentSelect" class="custom-select form-control mb-2" aria-label="Filter list by Department">
+    var selectMenu = `<select id="departmentSelect" class="form-select mb-2" aria-label="Filter list by Department">
          <option value="all" selected>Filter by Department</option>
          {% assign departments = site.data.about_people | map: 'department' | compact | uniq | sort %}
          {% for i in departments %}<option value="{{ i }}">{{ i }}</option>

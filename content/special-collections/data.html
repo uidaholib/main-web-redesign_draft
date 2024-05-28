@@ -6,15 +6,15 @@ permalink: /special-collections/data.html
 custom-foot: "js/spec_collection_data.html"
 ---
 
-<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/assets/bootstrap5/datatables/datatables.min.css' | relative_url }}">
 
 <p>A list of over 1,400 record groups held by Special Collections can be browsed in the table below, with basic sort, filter, and search functions. For more advanced search of finding aid contents, please use <a href="https://archiveswest.orbiscascade.org/search.php?r=idu" target="_blank" rel="noopener">Archives West</a>.<br>
 To download the filtered data click the Excel / CSV button below, or <a href="{{ '/assets/data/spec_collections.csv' | relative_url }}">download Full Spec Collections CSV</a></p>
 
-<div class="form-group row justify-content-end">
-	<label for="groupSelect" class="col-sm-2 col-form-label text-end">Filter Collections:</label>
-	<div class="">
-		<select id="groupSelect" class="custom-select form-control">
+<div class="row justify-content-end mb-2">
+	<label for="groupSelect" class="col-sm-3 col-form-label text-end">Filter Collections:</label>
+	<div class="col-sm-3">
+		<select id="groupSelect" class="form-select form-control">
 			<option value="all">All Groups</option>
 			<option value="PG">Photo Groups Only</option>
 			<option value="MG">Manuscript Groups Only</option>
