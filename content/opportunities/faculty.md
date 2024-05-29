@@ -57,8 +57,8 @@ In addition to being the leading research institution in the state, the universi
 
 <small>Watch this tour of our campus:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 As a faculty member, you will have access to our competitive, affordable [benefit program](https://www.uidaho.edu/human-resources/benefits) as well as our many [perks and discounts](https://www.uidaho.edu/human-resources/benefits/core-benefits/perks)!
@@ -69,16 +69,16 @@ Moscow is located in north Idaho, just 10 minutes away from Pullman, Washington 
 
 <small>Watch this video on Moscow community:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/55a3v1KHA7Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/55a3v1KHA7Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Visual and performing arts are easy to find, be it a photography display at the [Moscow Food Co-op](https://www.moscowfood.coop/), a classic film at the [Kenworthy Performing Arts Centre](https://www.kenworthy.org/), or a Saturday night musical performance at [Hunga Dunga Brewing Company](https://www.hungadungabrewing.com/). There are enough outdoor recreation opportunities to keep every hiker, [mountain biker](https://mambatrails.org/), and angler happy. Moscow’s summers are particularly special, with a nationally recognized [Farmers Market](https://www.ci.moscow.id.us/197/Community-Events-Division-Moscow-Farmers) each weekend and a number of community festivals throughout the season.  
 
 <small>Watch this video on recreation in Moscow:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
