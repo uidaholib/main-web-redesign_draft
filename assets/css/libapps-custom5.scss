@@ -1,0 +1,65 @@
+---
+# generate CSS for LibApps bootstrap 5 
+---
+@charset "utf-8";
+
+// base variables
+$base-font-family: 'Public Sans', sans-serif; 
+$base-font-size:   1.15rem;
+$text-color:       #111;
+$light-text-color: #fdfdfd;
+
+$background-color: #fdfdfd;
+$nav-background: #e8e8e8; //#CBCCD0;
+$link-color:      #191919;
+
+$grey-color:       #808080;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$black-color:       #191919;
+$black-color-light: lighten($black-color, 40%);
+$black-color-dark:  darken($black-color, 25%);
+
+// Width of the content area
+$content-width:    1800px;
+$on-palm:          576px;
+$on-laptop:        768px;
+$on-desktop:       992px;
+$on-jumbo:        1200px;
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+/* set up theme color variables from config_theme-colors.csv */
+{% assign tcolors = site.data.config_theme-colors | where_exp: "item","item.color != nil" %} 
+{% for tcolor in tcolors %}
+${{ tcolor.color_class }}: {{ tcolor.color }};
+{% endfor %}
+/* add colors to theme with _theme-colors to create btn, btn-outline, text color, bg, and border */
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    {% for tcolor in tcolors %}
+    "{{ tcolor.color_class }}": ${{ tcolor.color_class }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ),
+  $theme-colors
+);
+
+@import "theme-colors", "page";
+
+#libapps-custom {
+    @import "base", "header", "footer", "custom";
+}
+
+@import "libapps";

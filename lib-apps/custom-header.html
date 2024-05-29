@@ -1,21 +1,25 @@
-<!-- Last build date: 2022-08-15 -->
+<!-- Last build date: 2024-05-28 -->
 <div id="libapps-custom">
     
 <div id="top-bar" class="container-fluid">
     <div class="row">
         <!-- link to UI -->
-        <div class="col d-none d-md-block pt-1">
+        <div class="col-md-4 d-none d-md-block pt-1">
             <a id="topbar-ui-home" href="https://www.uidaho.edu" target="_blank" rel="noopener">University of Idaho</a>
         </div>
         <!-- hours -->
-        <div class="col text-md-center pt-1 text-sm-left">
+        <div class="col-8 col-md-4 text-md-center pt-1 text-sm-start">
             <a id="topbar-hours" href="https://www.lib.uidaho.edu/about/hours.html">
                 <span class="fas fa-clock" aria-hidden="true"></span><span class="sr-only">Hours: </span>
                 <span id="timedisp"></span>
             </a>
         </div>
         <!-- lib info -->
-        <div class="col text-end pt-1 ">
+        <div class="col-4 text-end pt-1 ">
+            <a id="topbar-rooms" class="d-none d-md-inline-block me-3" href="https://www.lib.uidaho.edu/services/rooms.html" >
+                <span class="fas fa-door-open" aria-hidden="true"></span> Book a Room</a>   
+            <a id="topbar-account" class="d-none d-md-inline-block me-3" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" title="Link to your Catalog/Primo Account">
+                <span class="fas fa-sign-in-alt" aria-hidden="true"></span> Account</a>                
             <a id="topbar-help" href="https://www.lib.uidaho.edu/help/">
                 <span class="far fa-question-circle" aria-hidden="true"></span> Help</a>
         </div>
@@ -30,9 +34,9 @@
             <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library [logo]" ></a>
         </div>
         <!-- quick nav -->
-        <div class="col-3 float-right text-end d-none d-md-block">
+        <div class="col-3 float-end text-end d-none d-md-block">
             <!-- ask a librarian button -->
-            <a id="askUsButton" href="https://www.lib.uidaho.edu/help/" class="btn btn-lg btn-ask text-body"><strong><span class="far fa-comment-dots" aria-hidden="true"></span> Ask Us</strong></a>
+            <button id="askUsButton" type="button" class="btn btn-lg btn-ask text-body" data-bs-toggle="modal" data-bs-target="#askUsModal"><strong><span class="far fa-comment-dots" aria-hidden="true"></span> Ask Us</strong></button>
         </div>
     </div>
 </div>
