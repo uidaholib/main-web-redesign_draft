@@ -71,3 +71,4 @@ In Canvas a resource list can be added as a [stand-alone Module](#{{ 'A. Add as 
 - Select the "Library Resource List" option. This will add the link to your new module. 
 - Once the link is added and clicked on, all reading lists associated with your course should show up. 
 - For your students to see the list, you will need to make sure the module and the list are not hidden.
+- Please note, the reading list will not display for instructors when they use the "Student View" feature of Canvas.
