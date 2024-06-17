@@ -12,7 +12,7 @@ U of I Moscow is located on the homelands of the Nimiipuu (Nez Perce), Palus (Pa
 We extend gratitude to the indigenous people that call this place home, since time immemorial. 
 U of I recognizes that it is our academic responsibility to build relationships with the indigenous people to ensure integrity of tribal voices.
 
-{% include feature/figure.html img="https://cdm17254.contentdm.oclc.org/digital/iiif/cities/121/full/pct:70/0/default.jpg" alt="Image of Moscow, Idaho" caption="View of Moscow, Idaho from Picnic Point above the Tamarack Ski Lodge east of Moscow Mountain" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/dei/cities-121-lg.jpg" alt="Image of Moscow, Idaho" caption="View of Moscow, Idaho from Picnic Point above the Tamarack Ski Lodge east of Moscow Mountain" %}
 
 ---
 
