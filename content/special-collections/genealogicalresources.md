@@ -7,7 +7,7 @@ layout: page
 
 A bibliography of genealogical sources at the University of Idaho Library. For more questions about these sources or where to find them, please [contact](https://www.lib.uidaho.edu/special-collections/about/contact) Special Collections. 
 
-{% include feature/figure.html img="https://digital.lib.uidaho.edu/digital/api/singleitem/image/ott/597/default.jpg" alt="Genesee Pioneer Niels J. Visby and Family" %}
+{% include feature/figure.html img="https://objects.lib.uidaho.edu/ott/small/ott597_sm.jpg" alt="Genesee Pioneer Niels J. Visby and Family" %}
 
 ## Digital Sources
 

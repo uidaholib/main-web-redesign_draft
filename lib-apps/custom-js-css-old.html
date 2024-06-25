@@ -1,0 +1,49 @@
+<!-- libapps pages already have full meta tags and markup so don't add more here, just style or css and analytics
+and it already loads jquery, font awesome 4.7, Bootstrap v3.3.7 -->
+<!-- Last build date: 2023-06-19 -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBKDZC8C7F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BBKDZC8C7F');
+</script>
+
+<!-- load fontawesome 5 to match UI style -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<!-- load UI fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- load custom css, includes UI styles, and prefixed bootstrap 4 -->
+<link rel="stylesheet" href="https://www.lib.uidaho.edu/assets/css/libapps-custom.css" type="text/css">
+
+<style>
+/* match container to UI sizes */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+/* fix lib guides odd sizing */
+.s-lib-side-borders {
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+/* fix issues with fontawesome 4.7 to 5 conversion */
+.fa-external-link:before{content:"\f35d";}
+.fa-twitter, .fa-twitter-square, .fa-facebook, .fa-facebook-square {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa.fa-square-o.fa-stack-2x { display: none; }
+/* fix skip to content hiding */
+.s-lc-skiplink { top: -60px; }
+</style>
+
