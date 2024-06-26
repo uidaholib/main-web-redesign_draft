@@ -1,5 +1,5 @@
 ---
-title: ORCID @ UIdaho
+title: ORCID at U of I
 section: Services
 permalink: /services/orcid.html
 layout: page

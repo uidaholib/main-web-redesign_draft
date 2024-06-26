@@ -391,7 +391,7 @@ Services:
     link: /services/distance.html
   - subsection: Open at U of I
     link: /open/
-  - subsection: ORCID @ UIdaho
+  - subsection: ORCID 
     link: /services/orcid.html    
   - subsection: Publishing Agreements
     link: /services/agreements/
@@ -416,8 +416,8 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: "Think Open"
-    link: /open/
+  - subsection: Think Open
+    link: /open/fellowship/
   - subsection: VERSO
     link: /verso/
   - subsection: Workshops
