@@ -416,8 +416,10 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: Think Open
-    link: /open/fellowship/
+  - subsection: "Think Open"
+    link: /open/
+  - subsection: VERSO
+    link: /verso/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -662,3 +664,14 @@ Copyright Guide:
     link: /copyright/guide.html#acknowledgements
   - subsection: Services
     link: /services/
+
+# VERSO Section
+VERSO:
+  - parent: VERSO
+    stub: /verso/
+  - subsection: About Verso
+    link: /verso/
+  - subsection: Editing Your Profile
+    link: /verso/profile.html
+  - subsection: FAQ
+    link: /verso/faq.html
