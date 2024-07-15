@@ -595,7 +595,11 @@ Tutorials:
   - subsection: Research Guides
     link: https://libguides.uidaho.edu/
   - subsection: H5P Tutorials
-    link: https://h5p.uidaholib.org/
+    link: https://h5p.uidaholib.org/  
+  - subsection: Articulate Tutorials
+    link: /tutorials/articulate.html
+  - subsection: Library YouTube Channel
+    link: https://www.youtube.com/user/UofILibrary
   - subsection: Workshops
     link: /tutorials/workshops/
     subpages:
