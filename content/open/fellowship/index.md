@@ -1,6 +1,6 @@
 ---
 title: "Think Open Fellowship"
-section: Think Open Fellowship
+section: Open at U of I
 permalink: /open/fellowship/
 layout: page
 ---
@@ -19,9 +19,7 @@ Contact [Open Education Librarian Marco Seiferle-Valencia](/about/people/marcosv
 
 {% include feature/button.html text="Think Open Fellows" color="outline-pride-gold" link="/open/fellowship/fellows.html" centered="true" %}
 
-{% include feature/button.html text="Why Think Open" color="outline-dark" link="/open/why.html" centered="true" %}
-
-{% include feature/button.html text="Open Educational Resources" color="outline-dark" link="/open/oer_resources.html" centered="true" %}
+{% include feature/button.html text="Open Educational Resources" color="outline-pride-gold" link="/open/oer_resources.html" centered="true" %}
 
 </div>
 <div class="col-md-5 p-4">

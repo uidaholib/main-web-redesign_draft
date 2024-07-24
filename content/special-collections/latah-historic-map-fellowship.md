@@ -15,10 +15,10 @@ permalink: /special-collections/latah-historic-map-fellowship.html
 </div>
 
 {:.text-center}
-**Questions?** Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
+**This application is now *closed.***
 
 {:.text-center}
-**_Application process closed._**
+*Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
 ---
 

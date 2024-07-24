@@ -6,6 +6,7 @@ table-id: "#resources"
 layout: page
 ---
 {% assign resources = site.data.services_workshops_resources %}
+{% assign materials = "slides,website,handout,video,playlist,code" | split: ',' %}
 
 <p>Slides and additional materials from past workshops and events are shared on this page. Also, see our <a href="{{ '/gisday/repository.html' | relative_url }}">GIS Day Repository</a>.</p>
 
@@ -25,7 +26,9 @@ layout: page
         <td>{{ r.date }}</td>
         <td>{{ r.description }}<br>
             Presenter: {{ r.instructor }}</td>
-        <td>{{ r.materials }}</td>
+        <td>
+            {% for m in materials %}{% if r[m] %}<a href="{{ r[m] }}" target="_blank" rel="noopener"><span class="fas {% if m == 'slides' or m == 'handout' %}fa-file{% elsif m == 'video' or m == 'playlist' %}fa-film{% elsif m == 'code' or m == 'website' %}fa-link{% endif %}"></span>{{ m | capitalize }}</a><br>{% endif %}{% endfor %}
+        </td>
     </tr>
     {% endfor %}
     </tbody>

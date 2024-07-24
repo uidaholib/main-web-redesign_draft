@@ -1,7 +1,7 @@
 ---
 title: Eligibility and Guidelines
-section: Services
-permalink: /services/oapf/eligibility.html
+section: Open at U of I
+permalink: /open/oapf/eligibility.html
 layout: page
 ---
 

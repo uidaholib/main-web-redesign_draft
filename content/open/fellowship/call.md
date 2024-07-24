@@ -1,6 +1,6 @@
 ---
 title: "Think Open Fellowship"
-section: Think Open Fellowship
+section: Open at U of I
 permalink: /open/fellowship/call.html
 layout: page-narrow
 ---
