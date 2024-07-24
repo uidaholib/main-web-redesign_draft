@@ -5,17 +5,21 @@ permalink: /gisday/index.html
 layout: full-width-page
 lazyload: true
 ---
-
 <style>
-#jumbo-feature {
-    background-image: url('{{ "/gisday/gis-day23-overview-banner.jpg" | prepend: site.lib-media }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    .jumbotron {
+        padding: 4rem 2rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+    }  
+    #jumbo-feature {
+        background-image: url('{{ "/gisday/gis-day23-overview-banner.jpg" | prepend: site.lib-media }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
-
-<div class="jumbotron" id="jumbo-feature">
+<div class="jumbotron border" id="jumbo-feature">
     <div class="row">
         <div class="col-md-4">
             <div class="card">
@@ -32,7 +36,6 @@ lazyload: true
             </div>
         </div>
     </div>
-
 </div>
 
 {% capture done %}This year's GIS Day is complete, check back fall 2024 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
