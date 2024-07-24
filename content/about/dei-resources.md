@@ -40,7 +40,7 @@ We chose to feature these databases as we believe that they challenge our existi
           <th scope="col">Description</th>
        </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
     {% for r in resources %}
     {%- assign descriptions = r.description | split: "." -%}
     <tr>

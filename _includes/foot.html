@@ -13,7 +13,7 @@
     {% elsif page.chat-widget == "datahub" %}{% include lib-chat-widget-datahub.html %}
     {% else %}{% include lib-chat-widget.html %}{% endif %}
 {% endif %}
-{% if page.table-id %}{% include js/table-basic.js %}{% endif %}
+{% if page.table-id %}{% include js/table-basic-js.html %}{% endif %}
 {% if page.carousel == true %}{% include js/carousel.html %}{% endif %}
 {% if page.custom-foot or layout.custom-foot %}
 {%- assign page_feet = page.custom-foot | split: ";" -%}

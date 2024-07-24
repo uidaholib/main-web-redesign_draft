@@ -471,9 +471,7 @@ Special Collections:
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
       - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html 
-      - name: Terry Abraham Web Archive
-        url: /special-collections/t-abraham/
+        url: /special-collections/non-idaho-directories.html
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction

@@ -21,7 +21,7 @@ custom-foot: "js/directory-table.html"
        </tr>
     </thead>
     
-    <tbody>
+    <tbody class="table-group-divider">
     {% for p in people %}
     <tr>
        <th scope="row"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html">{{ p.last_name }}, {{ p.first_name }}</a></th>

@@ -22,7 +22,7 @@ A list of telephone and business directories from neighboring states held in Spe
             <th scope="column">Notes</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
     {% for a in directories %}
         <tr>
             <td>{{ a.city }}</td>
