@@ -2,122 +2,116 @@
 title: Digital Object Identifier (DOI) Service
 section: Services
 permalink: /services/data/dois.html
-
 layout: page
 ---
+	
+<div id="accordion">
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseOne">What is a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+		<div class="card-body">
+			<p>A <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifier (DOI)</a> is an unique, alphanumeric string of characters used to persistently identify an electronic object, such as an article, book, or dataset. The standard is managed by the <a href="http://www.doi.org/index.html">International DOI Foundation</a>.</p>
+			<p >A DOI is not a URL, but provides a persistent link to the digital item on the web using a <em>resolver service</em>. Adding a DOI to the resolver's URL will redirect a browser to the current landing page describing the digital object. This helps ensure your citation will not become a broken link.</p> 
+			<p >For example, the DOI <code>10.1002/jwmg.72</code> can be resolved at the URL <a href="http://doi.org/10.1002/jwmg.72">http://doi.org/10.1002/jwmg.72</a></p>
+		</div>
+	</div>
+	</div>
 
-<div class="row">
-	<div class="col-md-12">
-			
-		<div id="accordion">
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseOne">What is a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-			<div class="card-body">
-				<p>A <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifier (DOI)</a> is an unique, alphanumeric string of characters used to persistently identify an electronic object, such as an article, book, or dataset. The standard is managed by the <a href="http://www.doi.org/index.html">International DOI Foundation</a>.</p>
-				<p >A DOI is not a URL, but provides a persistent link to the digital item on the web using a <em>resolver service</em>. Adding a DOI to the resolver's URL will redirect a browser to the current landing page describing the digital object. This helps ensure your citation will not become a broken link.</p> 
-				<p >For example, the DOI <code>10.1002/jwmg.72</code> can be resolved at the URL <a href="http://doi.org/10.1002/jwmg.72">http://doi.org/10.1002/jwmg.72</a></p>
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseTwo">Why use a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+		<div class="card-body">
+			<p >While the use of DOI is common for academic journal articles, there is a growing demand to issue DOI for datasets. Potential benefits include:
+			<ul>
+				<li>Greater exposure and discoverability - DOI metadata is ingested by search engines and indexes.</li>
+				<li>Increased citation - authoritative references to the object are simplified.</li>
+				<li>Better measurement of impact - DOI citations can be consistently tracked in scholarly networks.</li>
+				<li>Funding requirements - agency guidelines may require a persistent identifier to meet data sharing policies.</li>
+			</ul></p>
+		</div>
+	</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseThree">Can you issue me a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+		<div class="card-body">
+			<p >Yes!</p> 
+			<p >If you have a dataset or other digital object that would benefit from a persistent identifier, University of Idaho's <a href="https://www.northwestknowledge.net/">Northwest Knowledge Network (NKN)</a> is able to issue DOI using the <a href="http://ezid.cdlib.org/learn/">EZID</a> service.</p> 
+			<p >DOI are subject to these guidelines:
+				<ol>
+					<li>The digital object is <strong>publicly available on the web</strong> and will be <strong>managed for long term persistent access</strong>. This assumes a stable repository with appropriate capacity to store the items.</li>
+					<li>You will provide <strong>quality metadata</strong> with enough information for the public to understand and make "meaningful use" of the digital object.</li>
+					<li>The DOI will reference an up-to-date <strong>landing page</strong> with full information about the digital object, rather than a direct download link to the object.</li>
+				</ol></p>
+			<p >If your dataset is hosted in the NKN data repository, these criteria are met! For questions or other use cases, please contact <a href="mailto:jkenyon@uidaho.edu">Jeremy Kenyon</a>) to obtain a DOI.</p>
+		</div>
+	</div>
+	</div>
+
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFour">Required metadata <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+		<div class="card-body">
+				<p >At minimum DOI require the mandatory fields of the <a href="http://schema.datacite.org/">DataCite Metadata Schema</a>. This includes: 
+				<dl>
+					<dt>Location URL</dt>
+					<dd>The current location (URL) of the identified object, preferably a landing page with full descriptive information and access to the object.</dd>
+					<dt>Creator</dt>
+					<dd>The main researchers involved in producing the data, or the authors of the publication in priority order. Each name may be a corporate, institutional, or personal name. In personal names list family name before given name, as in: Shakespeare, William.  Non-roman names should be transliterated.  Feel free to ask about the best practice for doing this.</dd>
+					<dt>Title</dt>
+					<dd>A name or title by which the data or publication is known</dd>
+					<dt>Publisher</dt>
+					<dd>A holder of the data (e.g., an archive) or the institution which submitted the work. In the case of datasets, the publisher is the entity primarily responsible for making the data available to the research community.</dd>
+					<dt>Publication year</dt>
+					<dd>The year when the data was or will be made publicly available. If an embargo period is in effect, use the year when the embargo period ends.</dd>
+					<dt>Resource type</dt>
+					<dd>The general type of the data: Audiovisual, Collection, Dataset, Event, Image, InteractiveResource, Model, PhysicalObject, Service, Software, Sound, Text, Workflow, Other.</dd>
+				</dl>
+				</p>
 			</div>
 		</div>
-		</div>
+	</div>
 
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseTwo">Why use a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFive">How to cite data with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseFive" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
-				<p >While the use of DOI is common for academic journal articles, there is a growing demand to issue DOI for datasets. Potential benefits include:
+				<p >Citing datasets is essential for reproducable research, ensuring sources can be validated, creators get credit, and impact can be measured. DOI help create unambiguous citations to datasets. As with traditional resources, data citations should include the information necessary to identify and locate the source, generally including Creator, Publication Year, Title, Publisher, and Identifier.</p> 
+				<p>For example:</p>
 				<ul>
-					<li>Greater exposure and discoverability - DOI metadata is ingested by search engines and indexes.</li>
-					<li>Increased citation - authoritative references to the object are simplified.</li>
-					<li>Better measurement of impact - DOI citations can be consistently tracked in scholarly networks.</li>
-					<li>Funding requirements - agency guidelines may require a persistent identifier to meet data sharing policies.</li>
-				</ul></p>
+				<li>Engott, J.A., 2015, Mean annual water-budget components for the Island of Oahu, Hawaii, for average climate conditions, 1978-2007 rainfall and 2010 land cover: U.S. Geological Survey data release, http://doi.org/10.5066/F7XP72ZX.</li>  
+				</ul>
+				<p>For more information visit <a href="https://www.datacite.org/cite-your-data.html">DataCite</a>, <a href="http://www.dcc.ac.uk/resources/how-guides/cite-datasets">Digital Curation Centre</a>, or <a href="https://www2.usgs.gov/datamanagement/describe/citation.php">USGS data citation</a>.</p>
 			</div>
 		</div>
-		</div>
+	</div>
 
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseThree">Can you issue me a DOI? <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+	<div class="card my-2">
+		<div class="card-header">
+			<h2 class="mb-0 h5"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseSix">Example dataset with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h2>
+		</div>
+		<div id="collapseSix" class="collapse" data-bs-parent="#accordion">		
 			<div class="card-body">
-				<p >Yes!</p> 
-				<p >If you have a dataset or other digital object that would benefit from a persistent identifier, University of Idaho's <a href="https://www.northwestknowledge.net/">Northwest Knowledge Network (NKN)</a> is able to issue DOI using the <a href="http://ezid.cdlib.org/learn/">EZID</a> service.</p> 
-				<p >DOI are subject to these guidelines:
-					<ol>
-						<li>The digital object is <strong>publicly available on the web</strong> and will be <strong>managed for long term persistent access</strong>. This assumes a stable repository with appropriate capacity to store the items.</li>
-						<li>You will provide <strong>quality metadata</strong> with enough information for the public to understand and make "meaningful use" of the digital object.</li>
-						<li>The DOI will reference an up-to-date <strong>landing page</strong> with full information about the digital object, rather than a direct download link to the object.</li>
-					</ol></p>
-				<p >If your dataset is hosted in the NKN data repository, these criteria are met! For questions or other use cases, please contact <a href="mailto:jkenyon@uidaho.edu">Jeremy Kenyon</a>) to obtain a DOI.</p>
+				<p >The basic life cycle for a DOI is outlined below using a dataset from University of Idaho researchers as an example. Most of these steps are completed by the EZID service or repository stewards, but illustrate how a DOI works in the background. 
+				<ol>
+				<li>Researchers deposited a dataset in the <a href="https://www.northwestknowledge.net/data-search">data repository</a> hosted by NKN.</li>
+				<li>NKN registered the metadata and current <a href="https://www.northwestknowledge.net/doi?doi=10.7923/G42Z13FR">landing page</a> with EZID, which automatically issues a unique identifier <code>doi:10.7923/G42Z13FR</code>. The DOI consists of the NKN prefix (<code>10.7923</code>), the NKN "shoulder" (<code>/G4</code>), plus a random unique string called the remainder (<code>KW5CXT</code>). The complete information recorded by EZID is represented at the <a href="http://ezid.cdlib.org/id/doi:10.7923/G42Z13FR">Identifier Details</a> page.</li>
+				<li>EZID registers the information with resolver services. The identifier can then be resolved by adding it to the <a href="http://www.doi.org/">DOI URL</a> or by using other resolver services. To cite the data set, use the link: <a href="http://doi.org/10.7923/G42Z13FR">http://doi.org/10.7923/G42Z13FR</a></li>
+				<li>Going forward, the NKN repository will update the Location URL in EZID as needed ensuring that existing citations will not be broken, even if the web accessible location changes. Remember, DOIs are not magic! Ensuring the DOI is <em>persistent</em> requires active maintenance by the steward of the digital item.</p></li>
+				</ol>
+				</p>
 			</div>
-		</div>
-		</div>
-
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFour">Required metadata <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseFour" class="collapse" data-bs-parent="#accordion">
-			<div class="card-body">
-					<p >At minimum DOI require the mandatory fields of the <a href="http://schema.datacite.org/">DataCite Metadata Schema</a>. This includes: 
-					<dl>
-						<dt>Location URL</dt>
-						<dd>The current location (URL) of the identified object, preferably a landing page with full descriptive information and access to the object.</dd>
-						<dt>Creator</dt>
-						<dd>The main researchers involved in producing the data, or the authors of the publication in priority order. Each name may be a corporate, institutional, or personal name. In personal names list family name before given name, as in: Shakespeare, William.  Non-roman names should be transliterated.  Feel free to ask about the best practice for doing this.</dd>
-						<dt>Title</dt>
-						<dd>A name or title by which the data or publication is known</dd>
-						<dt>Publisher</dt>
-						<dd>A holder of the data (e.g., an archive) or the institution which submitted the work. In the case of datasets, the publisher is the entity primarily responsible for making the data available to the research community.</dd>
-						<dt>Publication year</dt>
-						<dd>The year when the data was or will be made publicly available. If an embargo period is in effect, use the year when the embargo period ends.</dd>
-						<dt>Resource type</dt>
-						<dd>The general type of the data: Audiovisual, Collection, Dataset, Event, Image, InteractiveResource, Model, PhysicalObject, Service, Software, Sound, Text, Workflow, Other.</dd>
-					</dl>
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFive">How to cite data with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseFive" class="collapse" data-bs-parent="#accordion">
-				<div class="card-body">
-					<p >Citing datasets is essential for reproducable research, ensuring sources can be validated, creators get credit, and impact can be measured. DOI help create unambiguous citations to datasets. As with traditional resources, data citations should include the information necessary to identify and locate the source, generally including Creator, Publication Year, Title, Publisher, and Identifier.</p> 
-					<p>For example:</p>
-					<ul>
-					<li>Engott, J.A., 2015, Mean annual water-budget components for the Island of Oahu, Hawaii, for average climate conditions, 1978-2007 rainfall and 2010 land cover: U.S. Geological Survey data release, http://doi.org/10.5066/F7XP72ZX.</li>  
-					</ul>
-					<p>For more information visit <a href="https://www.datacite.org/cite-your-data.html">DataCite</a>, <a href="http://www.dcc.ac.uk/resources/how-guides/cite-datasets">Digital Curation Centre</a>, or <a href="https://www2.usgs.gov/datamanagement/describe/citation.php">USGS data citation</a>.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="card my-2">
-			<div class="card-header">
-				<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseSix">Example dataset with DOI <span class="fas fa-chevron-down smalltxt"></span></a></h5>
-			</div>
-			<div id="collapseSix" class="collapse" data-bs-parent="#accordion">		
-				<div class="card-body">
-					<p >The basic life cycle for a DOI is outlined below using a dataset from University of Idaho researchers as an example. Most of these steps are completed by the EZID service or repository stewards, but illustrate how a DOI works in the background. 
-					<ol>
-					<li>Researchers deposited a dataset in the <a href="https://www.northwestknowledge.net/data-search">data repository</a> hosted by NKN.</li>
-					<li>NKN registered the metadata and current <a href="https://www.northwestknowledge.net/doi?doi=10.7923/G42Z13FR">landing page</a> with EZID, which automatically issues a unique identifier <code>doi:10.7923/G42Z13FR</code>. The DOI consists of the NKN prefix (<code>10.7923</code>), the NKN "shoulder" (<code>/G4</code>), plus a random unique string called the remainder (<code>KW5CXT</code>). The complete information recorded by EZID is represented at the <a href="http://ezid.cdlib.org/id/doi:10.7923/G42Z13FR">Identifier Details</a> page.</li>
-					<li>EZID registers the information with resolver services. The identifier can then be resolved by adding it to the <a href="http://www.doi.org/">DOI URL</a> or by using other resolver services. To cite the data set, use the link: <a href="http://doi.org/10.7923/G42Z13FR">http://doi.org/10.7923/G42Z13FR</a></li>
-					<li>Going forward, the NKN repository will update the Location URL in EZID as needed ensuring that existing citations will not be broken, even if the web accessible location changes. Remember, DOIs are not magic! Ensuring the DOI is <em>persistent</em> requires active maintenance by the steward of the digital item.</p></li>
-					</ol>
-					</p>
-				</div>
-			</div>
-		</div>
 		</div>
 	</div>
 

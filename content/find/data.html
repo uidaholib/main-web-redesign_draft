@@ -9,24 +9,22 @@ chat-widget: true
 
 <p>If you're looking for subject specific data, it's best to contact your <a href="{{'/about/liaisons.html' | relative_url }}">library liaison</a>.</p>
 
-<h3>Data Resources at the U of I Library</h3>
-
 <p class="text-center">
     <a href="{{'/services/data/data-management/' | relative_url}}" class="btn btn-outline-pride-gold my-2">Data Management Guide</a>
     <a href="{{'/datahub/' | relative_url}}" class="btn btn-outline-pride-gold my-2">Data Hub: Geospatial and Data Sciences Support</a>
 </p>
 
-<h3>Data by Type</h3>
+<h2>Data by Type</h2>
 
-<div id="accordion">
-    <div class="card">
-        <div class="card-header">
-            <a class="card-link dropdown-toggle" data-bs-toggle="collapse" href="#collapseOne">
+<div class="accordion mb-3" id="accordionData">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Idaho Data
-            </a>
-        </div>
-        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-            <div class="card-body">
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionData">
+          <div class="accordion-body">
                 <ul>
                     <li>
                         <a href="http://www.indicatorsnorthwest.org/">Indicators Idaho</a> Data presented at Indicators Idaho come from a wide range of public sources. At the federal level, these sources include the U.S. Census Bureau, U.S. Bureau of Labor Statistics, U.S. Bureau of Economic Analysis, and U.S. Bureau of Indian Affairs, to name just a few. Some of our indicators – such as teen birth rates and mothers who receive late or no prenatal care – come from state sources.
@@ -57,11 +55,14 @@ chat-widget: true
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-header dropdown-toggle"> <a class="card-link" data-bs-toggle="collapse" href="#collapseTwo">Human
-                Dimensions/Demography Data</a> </div>
-        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-            <div class="card-body">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Human
+                Dimensions/Demography Data
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionData">
+          <div class="accordion-body">
                 <ul>
                     <li>
                         <a href="http://www.census.gov/">US Census Bureau</a>
@@ -91,10 +92,13 @@ chat-widget: true
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header dropdown-toggle"> <a class="card-link" data-bs-toggle="collapse" href="#collapseThree">Climate Data</a> </div>
-        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-            <div class="card-body">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Climate Data</button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionData">
+      <div class="accordion-body">
                 <ul>
                     <li>
                         <a href="http://www.ncdc.noaa.gov/">National Centers for Environmental Information (NCEI)</a>
@@ -118,10 +122,13 @@ chat-widget: true
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header"> <a class="card-link dropdown-toggle" data-bs-toggle="collapse" href="#collapseFour">Soil, Vegetation, and Land Use Data</a> </div>
-        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
-            <div class="card-body">
+    
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Soil, Vegetation, and Land Use Data</button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionData">
+          <div class="accordion-body">
                 <ul>
                     <li>
                         <a href="https://www.fia.fs.fed.us/tools-data/">Forestry Inventory and Analysis National Program (USFS)</a>
@@ -157,10 +164,13 @@ chat-widget: true
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-header dropdown-toggle"> <a class="card-link" data-bs-toggle="collapse" href="#collapseFive">Geospatial Data</a> </div>
-        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
-            <div class="card-body">
+    
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Geospatial Data</button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionData">
+          <div class="accordion-body">
                 <ul>
                     <li>
                         <a href="https://www.insideidaho.org/">INSIDE Idaho</a>
@@ -195,108 +205,7 @@ chat-widget: true
     </div>
 </div>
 
-
-<h2 class="mt-4">Data Software, Workshops, and Guides</h2>
-
-<h3>Software</h3>
-
-<dl>
-    <dt><a href="https://openrefine.org/" target="_blank" rel="noopener">OpenRefine</a></dt>
-    <dd>OpenRefine is a free, open source application for manipulating all types of data files. See our <a href="https://evanwill.github.io/openrefine-b/">OpenRefine workshop</a>.</dd>
-    <dt><a href="https://public.tableau.com/en-us/s/" target="_blank" rel="noopener">Tableau Public</a></dt>
-    <dd>Tableau Public is free data visualization software to help you analyze and present your data.</dd>
-</dl>
-
-<hr>
-
-<h4>Workshops/Tutorials</h4>
-
-<div class="row">
-
-    <div class="col-md-7">
-        <h5><a href="{{'/services/workshops/' | relative_url}}" rel="noopener">Library Workshops</a></h5>
-        <p>The University of Idaho Library offers a number of workshops on data analysis, visualization, and software.</p>
-
-        <p>Below are some resources related to past workshops:</p>
-        <ul>
-            <li><a href="https://evanwill.github.io/hey-api/" target="_blank">Intro to Web APIs</a></li>
-            <li><a href="https://jylisadoney.github.io/intro-excel/" target="_blank">Introduction to Excel: Tips, Tricks,
-                    and Strategies</a></li>
-            <li><a href="{{ site.lib-media }}/workshops/UIdaho_Jupyter_workshop.pdf" target="_blank">Introducing
-                    Jupyter Notebook for Python and R</a></li>
-            <li><a href="{{ site.lib-media }}/workshops/UIdaho_DataViz101_workshop.pdf" target="_blank">Data
-                    Visualization 101: Concepts and Tools</a></li>
-        </ul>
-    </div>
-
-    <div class="col-md-4 offset-md-1 text-center">
-        <a href="https://libcal.uidaho.edu/calendar/workshops/?t=d&q=data&cid=4884&cal=4884" class="btn btn-clearwater m-2">Upcoming Data Workshops</a>
-        <a href="{{'/services/workshops/resources.html' | relative_url}}" class="btn btn-secondary m-2">All Workshops</a>
-    </div>
-
-</div>
-
-<hr>
-
-<h4>Guides by Subject:</h4>
-
-
-    <ul>
-          <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363229&p=2452947" target="_blank" rel="noopener">Bioregional Planning/Building Sustainable Communities</a>
-        </li>
-        <li>
-                <a href="https://libguides.uidaho.edu/c.php?g=363095&p=2453237#s-lg-box-7480027" target="_blank" rel="noopener">Climate Data</a>
-            </li>
-        <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363247&p=2453679" target="_blank" rel="noopener">Environmental Sciences</a>
-        </li>
-        <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363115&p=2453769" target="_blank" rel="noopener">Fisheries and Aquaculture</a>
-        </li>
-        <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363092&p=2453729" target="_blank" rel="noopener">Forest Fire Sciences</a>
-        </li>
-        <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363192&p=2453255" target="_blank" rel="noopener">Geography</a>
-        </li>
-        <li>
-            <a href="https://libguides.uidaho.edu/c.php?g=363095&p=2453237" target="_blank" rel="noopener">Geological Sciences</a>
-        </li>
-        <li>
-            <a href="{{'services/geospatial/' | relative_url }}" target="_blank" rel="noopener">Geospatial Data</a>
-        </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=858495&p=6150706" target="_blank" rel="noopener">International Studies</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363083&p=2453053" target="_blank" rel="noopener">Natural Resources & Society</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363202&p=2453061" target="_blank" rel="noopener">Political Science</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=726988&p=5400731" target="_blank" rel="noopener">Psychology</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363276&p=2453767" target="_blank" rel="noopener">Social Science</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363089&p=2453449" target="_blank" rel="noopener">Sociology</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363165&p=2453734" target="_blank" rel="noopener">Statistical Sciences</a>
-    </li>
-    <li>
-        <a href="https://libguides.uidaho.edu/c.php?g=363118&p=2453194" target="_blank" rel="noopener">Wildlife Sciences, Management, and Conservation Biology</a>
-    </li>
-</ul>
-
-<hr>
-
-<hr>
-
-<h3 class="my-3">How to Cite a Dataset</h3>
+<h2 class="my-3">How to Cite a Dataset</h2>
 
 <p>If you are following a particular style, try to form the citation according to the general rules of that style. &nbsp;If in doubt, it is better to provide more information than less.</p>
 <p>The general parts of a data citation are:</p>
