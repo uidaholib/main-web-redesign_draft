@@ -59,3 +59,7 @@
 .embed-responsive-10by6::before{
     padding-top:64.5%
 }
+// fix custom outline btn contrasts
+.btn-outline-primary, .btn-outline-pride-gold, .btn-outline-clearwater {
+    color: #191919;
+}
