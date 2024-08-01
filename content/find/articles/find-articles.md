@@ -1,7 +1,7 @@
 ---
 title: How to Find Articles
-section: Tutorials
-permalink: /tutorials/find-articles.html
+section: Find
+permalink: /find/articles/find-articles.html
 layout: page
 lazyload: true
 ---

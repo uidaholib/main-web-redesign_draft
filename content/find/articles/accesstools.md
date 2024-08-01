@@ -1,7 +1,7 @@
 --- 
 title: Article Access Tools 
 section: Find 
-permalink: /find/accesstools.html 
+permalink: /find/articles/accesstools.html 
 layout: page 
 ---
 

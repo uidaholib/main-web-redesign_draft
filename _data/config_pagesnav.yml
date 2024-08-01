@@ -210,8 +210,11 @@ Find:
     stub: /find/
   - subsection: Articles
     link: /find/articles.html
-  - subsection: Access Tools
-    link: /find/accesstools.html   
+    subpages: 
+      - name: Find Articles Tutorials
+        url: /find/articles/find-articles.html
+      - name: Article Access Tools
+        url: /find/articles/accesstools.html 
   - subsection: Board Games
     link: https://www.lib.uidaho.edu/games/
   - subsection: Books and eBooks
@@ -221,6 +224,8 @@ Find:
         url: /find/books.html
       - name: Print Book Locations
         url: /find/lc.html
+      - name: Finding Books Tutorial
+        url: /find/books/find-books.html
       - name: Finding eBooks
         url: /find/ebooks.html
 #      - name: Request a Book
