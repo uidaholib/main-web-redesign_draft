@@ -16,7 +16,7 @@ Any patron who wishes to use the Studio must agree to the Terms of Use:
 - Abide by our policies, including [Library Code of Conduct]({{ '/about/policies.html#conduct' | relative_url }}), <a href="https://www.uidaho.edu/governance/policy/policies/fsh/2/2300" target="_blank" rel="noopener">University of Idaho Student Code of Conduct</a>, and <a href="https://www.uidaho.edu/governance/policy/policies/apm/30/12" target="_blank" rel="noopener">University of Idaho’s Acceptable Use of Technology Resources Policy</a>.  
 - Please cancel your reservation if you can no longer make it to your appointment. Use the cancellation link in your confirmation email or call the library at 208-885-6559.
 
-Failure to follow the Terms of Use may result in a written warning or, if repeated pattern in behavior, revoked Studio access privileges (for one month, one semester, etc.) at staff's discretion.
+Failure to follow the Terms of Use may result in a written warning or, if repeated pattern in behavior, revoked Studio access privileges at staff's discretion.
 
 ## Fines and Fees
             
