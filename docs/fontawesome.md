@@ -12,7 +12,7 @@ Add icons in span, `<span class="fas fa-stroopwafel"></span>` (rather than `<i>`
 - https://fontawesome.com/how-to-use/accessibility
 - CSS + webfonts version, need to add aria labels manually. 
     - decorative icons: add `aria-hidden` to element, e.g. `<span class="fas fa-camera-retro" aria-hidden="true"></span>`
-    - semantic icons: add `aria-hidden` and a `title` to element, plus add description with `class="sr-only"`.
+    - semantic icons: add `aria-hidden` and a `title` to element, plus add description with `class="visually-hidden"`.
 - JS + SVG version adds accessibility aria labels automatically. If the icon has semantic meaning, add a `title=` attribute to the fa `<span>`.
 
 ## Loading options

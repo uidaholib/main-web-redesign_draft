@@ -30,7 +30,7 @@ layout: default
                     <!-- bread crumbs -->
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="{{ '/' | relative_url }}"><span class="fas fa-home"></span><span class="sr-only">Home</span></a>
+                            <a href="{{ '/' | relative_url }}"><span class="fas fa-home"></span><span class="visually-hidden">Home</span></a>
                         </li>
                         <li class="breadcrumb-item">
                             <a href="{{ '/about/directory.html' | relative_url }}">People</a>
@@ -50,7 +50,7 @@ layout: default
                                     <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"></path>
                                     <path d="M8.707 11.182A4.486 4.486 0 0 0 10.025 8a4.486 4.486 0 0 0-1.318-3.182L8 5.525A3.489 3.489 0 0 1 9.025 8 3.49 3.49 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"></path>
                                 </svg>
-                                <span class="sr-only">play pronunciation audio</span>
+                                <span class="visually-hidden">play pronunciation audio</span>
                             </button>
                             <script> 
                                 var audioElement = new Audio('{{ site.lib-media }}/directory/audio/{{ page.pronunciation_audio }}');
