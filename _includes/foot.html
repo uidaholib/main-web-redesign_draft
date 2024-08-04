@@ -4,7 +4,7 @@
 <!-- analytics events -->
 {% include google-analytics-events.html %}
 <!-- load other js -->
-<script src="{{ '/assets/js/hours.js?v=24.06.26' | relative_url }}" async></script>
+{% include js/current-hours-js.html %}
 {% if page.lazyload == true %}<script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async></script>{% endif %}
 {% if layout.gallery == true or page.gallery == true %}<script src="{{ '/assets/js/spotlight.bundle.js' | relative_url }}" ></script>{% endif %}
 {% if page.layout == "page" or page.layout == "page-narrow" %}{% include js/page-sidebar-js.html %}{% endif %}
