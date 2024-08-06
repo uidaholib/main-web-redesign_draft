@@ -8,16 +8,16 @@ layout: page-narrow
 The University of Idaho Library features a dynamic team of [faculty librarians](https://www.lib.uidaho.edu/about/librarians.html). 
 We regularly advertise new career opportunities via the [university's job portal](https://uidaho.peopleadmin.com/).
 
-<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}-->
+<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}-->
 
 There are no listings at this time, but please check back!
 If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?
 
-[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
-[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
-[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
+[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
+[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
+[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
@@ -87,9 +87,9 @@ Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/)
 
 If you, or someone you know would be interested in these positions, please follow these links to the applications: 
 
-[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3} 
-[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
-[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
+[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3} 
+[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
+[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
 
 We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
 If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
