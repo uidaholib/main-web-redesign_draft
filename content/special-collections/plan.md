@@ -40,50 +40,54 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 
 Everyone is welcome to visit our Reading Room and view our materials!
 
-<div class="card-deck my-4">
-    <div class="card">
-        <div class="card-body">
-          <h3>Semester Room Hours</h3>
-          <table class="table table-hover">
-            <tbody>
-              <tr>
-                <td>Monday, Wednesday, Friday</td>
-                <td>9:00am - 1:00pm</td>
-              </tr>
-              <tr>
-                <td>Tuesday, Thursday</td>
-                <td>12:00pm - 4:00pm</td>
-              </tr>
-            </tbody>
-          </table>
-          <h3>Summer Hours</h3>
-          <table class="table table-hover">
+<div class="row row-cols-1 row-cols-md-2 gy-4 gx-4 align-items-stretch">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3>Semester Room Hours</h3>
+        <table class="table table-hover">
           <tbody>
             <tr>
-              <td>Tuesday - Thursday</td>
-              <td>9:00am - 12:00pm</td>
+              <td>Monday, Wednesday, Friday</td>
+              <td>9:00am - 1:00pm</td>
             </tr>
             <tr>
-              <td>or by appointment</td>
-              <td></td>
+              <td>Tuesday, Thursday</td>
+              <td>12:00pm - 4:00pm</td>
             </tr>
-            </tbody>
-          </table>
-        </div>
+          </tbody>
+        </table>
+        <h3>Summer Hours</h3>
+        <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td>Tuesday - Thursday</td>
+            <td>9:00am - 12:00pm</td>
+          </tr>
+          <tr>
+            <td>or by appointment</td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="card">
-        <div class="card-body">
-          <h3>Make an Appointment</h3>
-          <p>To set up a research appointment, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>. Including the following information is appreciated:</p>
-          <ul>
-          <li>Name and preferred method of communication</li>
-          <li>Topic of research</li>
-          <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
-          <li>Preferred days and times for a visit</li>
-          </ul>
-          <p>We ask for at least 48 hours of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
-        </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3>Make an Appointment</h3>
+        <p>To set up a research appointment, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>. Including the following information is appreciated:</p>
+        <ul>
+        <li>Name and preferred method of communication</li>
+        <li>Topic of research</li>
+        <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
+        <li>Preferred days and times for a visit</li>
+        </ul>
+        <p>We ask for at least 48 hours of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
+      </div>
     </div>
+  </div>
 </div>
 
 ---
