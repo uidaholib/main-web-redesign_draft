@@ -8,15 +8,19 @@ permalink: /special-collections/findingaids.html
 A finding aid is a detailed description and inventory of an archival collection. Similar to a Table of Contents or Index in a book, an archival finding aid is meant to tell you what is inside a given box or folder of an archival collection, so you can find what you’re looking for more quickly.
 The box below searches the [Archives West](https://archiveswest.orbiscascade.org/) database, which hosts finding aids from the University of Idaho as well as other organizations throughout the Pacific Northwest.
 
-<div class="card my-3">
-<div class="card-body text-center">
-<p class="mb-1">Search our finding aids on Archives West</p>
-<form class="form-inline justify-content-center" action="https://archiveswest.orbiscascade.org/search.php" method="get">
-    <input id="searchValue" class="form-control mt-2" name="q" type="text"> 
-    <input id="r" name="r" type="hidden" value="idu">
-    <button id="searchSubmit" class="btn btn-outline-pride-gold ms-2 mt-2" type="submit"><i class="fas fa-search" aria-hidden="true"></i> Archives West</button>
-</form>
-</div>
+<div class="card mb-4 searchcontainer">
+  <div class="card-body">
+    <div class="text-center">
+      <div class="text-white"> Search our finding aids on Archives West</div>
+      <form class="mt-4" role="search" action="https://archiveswest.orbiscascade.org/search.php" method="get">
+        <div class="row g-2 justify-content-center">
+          <div class="col-10 col-md-6"><input id="searchValue" class="form-control form-control-lg mb-2" name="q" type="search" placeholder="Search Archives West ..." aria-label="Search Archives West"></div>
+          <input id="r" name="r" type="hidden" value="idu">
+          <div class="col-10 col-md-2"><button class="btn btn-lg btn-pride-gold text-dark w-100 mb-2" type="submit"><span class="fas fa-search"></span><span class="visually-hidden">Search Archives West</span></button></div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 Not all of our collections have finding aids written for them, so we suggest using this resource in tandem with [Browse Collections](/special-collections/browse.html) and our [Digital Collections](https://www.lib.uidaho.edu/digital/).
