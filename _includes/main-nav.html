@@ -3,8 +3,8 @@
 
         <div class="collapse navbar-collapse ">
 
-            <ul id="main-nav-sections" class="navbar-nav mr-auto">
-                <li class="nav-item mr-2 {% if page.url contains '/find/' %} active{% endif %}">
+            <ul id="main-nav-sections" class="navbar-nav me-auto">
+                <li class="nav-item me-2 {% if page.url contains '/find/' %} active{% endif %}">
                     <a class="nav-link" href="{{ '/find/' | relative_url }}">
                         <span class="fas fa-book-open" aria-hidden="true"></span> Find</a>
                 </li>
@@ -27,8 +27,8 @@
             </ul>
 
             <div class="dropdown">
-                <button id="bigMenu" class="btn btn-outline-secondary btn-lg dropdown-toggle text-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    MENU <span class="fas fa-bars ml-1"></span>
+                <button id="bigMenu" class="btn btn-outline-secondary btn-lg dropdown-toggle text-dark" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MENU <span class="fas fa-bars ms-1"></span>
                 </button>
                 {%include bigdropdown.html %}
             </div>

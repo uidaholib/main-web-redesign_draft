@@ -37,9 +37,9 @@ The MILL is an evolving space, and we’d love to hear from you – please use [
         <div class="card-body text-center">
             <p class="card-text">Find us on social media:</p>
             <div class="text-center display-4">
-                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank" rel="noopener"><span class="fab fa-facebook"></span><span class="sr-only">Facebook </span></a>
-                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank" rel="noopener"><span class="fab fa-instagram"></span><span class="sr-only">Instagram </span></a>
-                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" target="_blank" rel="noopener"><span class="fab fa-youtube-square"></span><span class="sr-only">YouTube </span></a>
+                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank" rel="noopener"><span class="fab fa-facebook"></span><span class="visually-hidden">Facebook </span></a>
+                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank" rel="noopener"><span class="fab fa-instagram"></span><span class="visually-hidden">Instagram </span></a>
+                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" target="_blank" rel="noopener"><span class="fab fa-youtube-square"></span><span class="visually-hidden">YouTube </span></a>
             </div>
         </div>
     </div>

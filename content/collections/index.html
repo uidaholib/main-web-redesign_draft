@@ -18,7 +18,7 @@ lazyload: true
         <div class="col-md-4">
             <div class="card my-2">
                 <div class="card-header text-center">
-                    <h5 class="card-title font-weight-bold mb-0">{% if c.link %}<a href="{{ c.link | relative_url }}">{{ c.collection }}</a>{% else %}{{ c.collection }}{% endif %}</h5>
+                    <h2>{% if c.link %}<a href="{{ c.link | relative_url }}">{{ c.collection }}</a>{% else %}{{ c.collection }}{% endif %}</h2>
                 </div>
                 <div class="card-body text-center">
                     {% if c.link %}<a href="{{ c.link | relative_url }}">{% endif %}

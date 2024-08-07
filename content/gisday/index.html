@@ -5,17 +5,21 @@ permalink: /gisday/index.html
 layout: full-width-page
 lazyload: true
 ---
-
 <style>
-#jumbo-feature {
-    background-image: url('{{ "/gisday/gis-day23-overview-banner.jpg" | prepend: site.lib-media }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    .jumbotron {
+        padding: 4rem 2rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+    }  
+    #jumbo-feature {
+        background-image: url('{{ "/gisday/gis-day23-overview-banner.jpg" | prepend: site.lib-media }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
-
-<div class="jumbotron" id="jumbo-feature">
+<div class="jumbotron border" id="jumbo-feature">
     <div class="row">
         <div class="col-md-4">
             <div class="card">
@@ -32,7 +36,6 @@ lazyload: true
             </div>
         </div>
     </div>
-
 </div>
 
 {% capture done %}This year's GIS Day is complete, check back fall 2024 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
@@ -100,7 +103,7 @@ lazyload: true
             </div>
             <div class="col-md-6">
                 <p>{{ e.description }}
-                {% if e.description_full %}<br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <i class="fas fa-caret-down"></i></button>{% endif %}</p>
+                {% if e.description_full %}<br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <i class="fas fa-caret-down"></i></button>{% endif %}</p>
             </div>
             {% if e.description_full %}<div class="col-md-10 collapse" id="collapse{{ forloop.index }}">
                 <div class="card card-body ">
@@ -125,7 +128,7 @@ lazyload: true
             </div>
             <div class="col-md-6">
                 <p>Special topics workshop taking you hands on with a geodesign process and climate change. Please <a href="https://libcal.uidaho.edu/event/8424570">register on the workshop event page</a>!
-                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-toggle="collapse" data-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
+                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
             </div>
             <div class="col-md-10 collapse" id="collapseWorkshop">
                 <div class="card card-body ">
@@ -182,7 +185,7 @@ lazyload: true
     </div>
 
     <div class="text-center m-3">
-        <button type="button" class="btn btn-outline-pride-gold" data-toggle="modal" data-target="#sponsorDetails">
+        <button type="button" class="btn btn-outline-pride-gold" data-bs-toggle="modal" data-bs-target="#sponsorDetails">
             <h3 class="m-2">Become a Sponsor</h3>
         </button>
     </div>
@@ -193,9 +196,7 @@ lazyload: true
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="sponsorLabel">Sponsor GIS Day @ University of Idaho</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please use one of the following options to make a donation:</p>

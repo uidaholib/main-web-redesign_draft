@@ -8,7 +8,7 @@ layout: page-narrow
 {:.mt-4 .h4}
 ## Dear members of the University of Idaho community:
 
-<div class="mt-2 ml-3" markdown="1">
+<div class="mt-2 ms-3" markdown="1">
 Like many of you, I have been deeply affected by the brutal murders of George Floyd, Ahmaud Arbery, and Breonna Taylor and the protests that have transpired since those killings. 
 These events have led to a moment of reckoning for our nation, and it is now clear that we as individuals must effect the change that is needed. 
 To be silent, to not act, is to be complicit in the continuance of structures and systems that rely on violence and oppression to silence the voices of people of color. 
@@ -31,7 +31,7 @@ It’s raw and it’s painful.
 As we move forward, please help us in making this a moment for real, positive change. 
 </div>
 
-{:.ml-5}
+{:.ms-5}
 **Ben Hunter**<br>
 *Dean, University Libraries*<br>
 June, 2020

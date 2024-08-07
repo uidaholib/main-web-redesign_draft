@@ -34,7 +34,7 @@ You can view our physical materials by visiting our [Reading Room](/special-coll
 Many items have been digitized and can be discovered in the [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/) and the [Idaho Harvester](https://harvester.lib.uidaho.edu/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu).
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23VSOWiUOZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -44,20 +44,24 @@ and finding aids can be searched on [Archives West](https://archiveswest.orbisca
 
 We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone, or in-person.
 
-<div class="card-deck my-4">
-    <div class="card">
-        <div class="card-body text-center">
-            Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
-            Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
-            Visit our <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room</a> during <a href="{{ 'special-collections/plan.html#hours' | relative_url }}">walk-in hours.</a>
+<div class="row row-cols-md-2 gx-5 gy-3 align-items-stretch">
+    <div class="col">
+        <div class="card h-100 mb-3">
+            <div class="card-body text-center">
+                Phone: <a href="tel:+1-208-885-0845">(208) 885-0845</a><br> 
+                Email: <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a><br>
+                Visit our <a href="{{ '/about/maps.html#first-floor' | relative_url }}">Reading Room</a> during <a href="{{ 'special-collections/plan.html#hours' | relative_url }}">walk-in hours.</a>
+            </div>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body text-center">
-        Special Collections and Archives<br>
-        <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=university+of+idaho+library+83844&amp;ie=UTF8&amp;ll=46.735272,-117.014952&amp;spn=0.024177,0.055275&amp;z=14&amp;iwloc=A">University of Idaho Library</a><br>
-        875 Perimeter Drive MS 2350 <br>
-        Moscow, ID 83844-2350
+    <div class="col">
+        <div class="card h-100 mb-3">
+            <div class="card-body text-center">
+            Special Collections and Archives<br>
+            <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=university+of+idaho+library+83844&amp;ie=UTF8&amp;ll=46.735272,-117.014952&amp;spn=0.024177,0.055275&amp;z=14&amp;iwloc=A">University of Idaho Library</a><br>
+            875 Perimeter Drive MS 2350 <br>
+            Moscow, ID 83844-2350
+            </div>
         </div>
     </div>
 </div>

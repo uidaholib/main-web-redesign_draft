@@ -1,4 +1,5 @@
 ---
+# not used as of 2024-08!
 # generate hours js from _data/hours.yml 
 ---
 {%- assign hours = site.data.config_hours -%}

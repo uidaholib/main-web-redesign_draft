@@ -5,10 +5,14 @@ permalink: /about/dei.html
 layout: page-narrow
 ---
 
-<blockquote class="blockquote my-4">
-  <p class="mb-0">The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles."</p>
-  <p class="blockquote-footer">University of Idaho <a href="https://www.uidaho.edu/diversity" class="alert-link">Diversity and Inclusion Statement</a></p>
-</blockquote>
+<figure class="my-4">
+  <blockquote class="blockquote">
+    <p>The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles."</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    University of Idaho <a href="https://www.uidaho.edu/diversity">Diversity and Inclusion Statement</a>
+  </figcaption>
+</figure>
 
 The University of Idaho Library affirms these values and is committed to actively welcoming, centering, and prioritizing diverse perspectives and experiences - including those from historically marginalized backgrounds - in our services, programs, spaces, and workforce. 
 

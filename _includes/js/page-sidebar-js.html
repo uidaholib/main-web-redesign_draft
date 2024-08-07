@@ -1,0 +1,14 @@
+<script>
+    // toggle side nav on mobile
+    var navBtn = document.getElementById("mobilePageNav");
+    var sideBar = document.getElementById("sidebar");
+    navBtn.addEventListener('click', e => { 
+        if(sideBar.classList.contains("d-block")){
+            sideBar.classList.remove("d-block");
+            sideBar.classList.add("d-none");
+        } else {
+            sideBar.classList.remove("d-none");
+            sideBar.classList.add("d-block");
+        }
+    });
+</script> 

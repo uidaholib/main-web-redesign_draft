@@ -7,8 +7,8 @@ layout: page-narrow
 
 This fall the University of Idaho Library, in collaboration with the [Office of Alumni Relations](https://www.uidaho.edu/alumni), is inviting all U of I alums to contribute to the new Vandal Family Photo Album.
 
-<div class="embed-responsive embed-responsive-16by9 mb-4">
-  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/V2qcxreZ84E?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-4">
+  <iframe  width="560" height="315" src="https://www.youtube-nocookie.com/embed/V2qcxreZ84E?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 __*And we need your help!*__

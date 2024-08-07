@@ -1,5 +1,5 @@
 ---
-# generate CSS for LibApps 
+# generate custom CSS for LibApps bootstrap 5 
 ---
 @charset "utf-8";
 
@@ -59,8 +59,6 @@ $theme-colors: map-merge(
 );
 @import "theme-colors", "theme-utilities";
 {% endif %}
-
-@import "boot4";
 
 @import "page";
 

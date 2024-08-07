@@ -22,83 +22,14 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 <hr>
 {% include feature/alert.html color="warning" text="All requests must be made 48 hours prior to research appointments. In most cases 6 boxes of materials can be pulled per visit." %}
 
-<div class="row justify-content-center">
-  <div class="col-md-8 my-4">
+<div class="row justify-content-center my-4">
+  <div class="col-md-8">
     <h4>How to Request Materials:</h4>
-    <div id="accordion">
-      <div class="card mt-3 mb-2">
-        <div class="card-header">
-          <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne"> 1. Search Our Collections
-              <span class="fas fa-chevron-down "></span>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseOne" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p> To request materials for viewing, please visit our <a href="{{ '/special-collections/searchtools.html' | relative_url }}">Research Tools</a> or <a href="{{ '/special-collections/browse.html' | relative_url }}">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at
-              <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845. </p>
-          </div>
-          <!--end card-body-->
-        </div>
-        <!--end collapse-->
-      </div>
-      <!--end card-->
-      <div class="card mt-3 mb-2">
-        <div class="card-header">
-          <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"> 2. Search Our Digital Collections
-              <span class="fas fa-chevron-down "></span>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p> Our 
-              <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and <a href="https://harvester.lib.uidaho.edu/">Idaho Harvester Blog</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online.</p>
-          </div>
-          <!--end card-body-->
-        </div>
-        <!--end collapse-->
-      </div>
-      <!--end card-->
-      <div class="card mt-3 mb-2">
-        <div class="card-header">
-          <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> 3. Make an Appointment or Visit Open Hours
-              <span class="fas fa-chevron-down "></span>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p>Visit our Reading Room during <a href="{{ '/special-collections/plan.html#hours' | relative_url }}">open hours</a> or schedule an appointment. We ask for 48 hours of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.</p>
-          </div>
-          <!--end card-body-->
-        </div>
-        <!--end collapse-->
-      </div>
-      <!--end card-->
-      <div class="card mt-3 mb-2">
-        <div class="card-header">
-          <h5 class="mb-0">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour"> 4. Fill Out a Registration Form Upon Arrival
-              <span class="fas fa-chevron-down "></span>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseFour" class="collapse" data-parent="#accordion">
-          <div class="card-body">
-            <p>When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers
-              understand and will abide by the <a href="{{ '/special-collections/plan.html#rules' | relative_url }}">Reading Room Rules</a> (see below) for using Special Collections and Archives materials. </p>
-          </div>
-          <!--end card-body-->
-        </div>
-        <!--end collapse-->
-      </div>
-      <!--end card-->
-    </div>
-    <!--end accordion-->
+    {% include feature/accordion.html 
+    title1="1. Search Our Collections" text1='To request materials for viewing, please visit our <a href="/special-collections/searchtools.html">Research Tools</a> or <a href="/special-collections/browse.html">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845.'
+    title2="2. Search Our Digital Collections" text2='Our <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and <a href="https://harvester.lib.uidaho.edu/">Idaho Harvester Blog</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online.'
+    title3="3. Make an Appointment or Visit Open Hours" text3='Visit our Reading Room during <a href="/special-collections/plan.html#hours">open hours</a> or schedule an appointment. We ask for 48 hours of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.'
+    title4="4. Fill Out a Registration Form Upon Arrival" text4='When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers understand and will abide by the <a href="/special-collections/plan.html#rules">Reading Room Rules</a> (see below) for using Special Collections and Archives materials.' %}
   </div>
 </div>
 
@@ -109,50 +40,54 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
 
 Everyone is welcome to visit our Reading Room and view our materials!
 
-<div class="card-deck my-4">
-    <div class="card">
-        <div class="card-body">
-          <h3>Semester Room Hours</h3>
-          <table class="table table-hover">
-            <tbody>
-              <tr>
-                <td>Monday, Wednesday, Friday</td>
-                <td>9:00am - 1:00pm</td>
-              </tr>
-              <tr>
-                <td>Tuesday, Thursday</td>
-                <td>12:00pm - 4:00pm</td>
-              </tr>
-            </tbody>
-          </table>
-          <h3>Summer Hours</h3>
-          <table class="table table-hover">
+<div class="row row-cols-1 row-cols-md-2 gy-4 gx-4 align-items-stretch">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3>Semester Room Hours</h3>
+        <table class="table table-hover">
           <tbody>
             <tr>
-              <td>Tuesday - Thursday</td>
-              <td>9:00am - 12:00pm</td>
+              <td>Monday, Wednesday, Friday</td>
+              <td>9:00am - 1:00pm</td>
             </tr>
             <tr>
-              <td>or by appointment</td>
-              <td></td>
+              <td>Tuesday, Thursday</td>
+              <td>12:00pm - 4:00pm</td>
             </tr>
-            </tbody>
-          </table>
-        </div>
+          </tbody>
+        </table>
+        <h3>Summer Hours</h3>
+        <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td>Tuesday - Thursday</td>
+            <td>9:00am - 12:00pm</td>
+          </tr>
+          <tr>
+            <td>or by appointment</td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="card">
-        <div class="card-body">
-          <h3>Make an Appointment</h3>
-          <p>To set up a research appointment, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>. Including the following information is appreciated:</p>
-          <ul>
-          <li>Name and preferred method of communication</li>
-          <li>Topic of research</li>
-          <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
-          <li>Preferred days and times for a visit</li>
-          </ul>
-          <p>We ask for at least 48 hours of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
-        </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3>Make an Appointment</h3>
+        <p>To set up a research appointment, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>. Including the following information is appreciated:</p>
+        <ul>
+        <li>Name and preferred method of communication</li>
+        <li>Topic of research</li>
+        <li>Collection(s) of interest. If possible, include links to where you’ve identified the collection online. </li>
+        <li>Preferred days and times for a visit</li>
+        </ul>
+        <p>We ask for at least 48 hours of notice so we may do any preparatory searching and retrieving in advance. We are open to appointments Monday-Friday 9am-4pm depending on staff availability.</p>
+      </div>
     </div>
+  </div>
 </div>
 
 ---

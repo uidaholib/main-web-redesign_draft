@@ -8,16 +8,16 @@ layout: page-narrow
 The University of Idaho Library features a dynamic team of [faculty librarians](https://www.lib.uidaho.edu/about/librarians.html). 
 We regularly advertise new career opportunities via the [university's job portal](https://uidaho.peopleadmin.com/).
 
-<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .mb-3}-->
+<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}-->
 
 There are no listings at this time, but please check back!
 If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?
 
-[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
-[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-3}
-[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .btn-block .mb-5}
+[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
+[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
+[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
@@ -56,8 +56,8 @@ In addition to being the leading research institution in the state, the universi
 
 <small>Watch this tour of our campus:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 As a faculty member, you will have access to our competitive, affordable [benefit program](https://www.uidaho.edu/human-resources/benefits) as well as our many [perks and discounts](https://www.uidaho.edu/human-resources/benefits/core-benefits/perks)!
@@ -68,16 +68,16 @@ Moscow is located in north Idaho, just 10 minutes away from Pullman, Washington 
 
 <small>Watch this video on Moscow community:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/55a3v1KHA7Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/55a3v1KHA7Q?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Visual and performing arts are easy to find, be it a photography display at the [Moscow Food Co-op](https://www.moscowfood.coop/), a classic film at the [Kenworthy Performing Arts Centre](https://www.kenworthy.org/), or a Saturday night musical performance at [Hunga Dunga Brewing Company](https://www.hungadungabrewing.com/). There are enough outdoor recreation opportunities to keep every hiker, [mountain biker](https://mambatrails.org/), and angler happy. Moscow’s summers are particularly special, with a nationally recognized [Farmers Market](https://www.ci.moscow.id.us/197/Community-Events-Division-Moscow-Farmers) each weekend and a number of community festivals throughout the season.  
 
 <small>Watch this video on recreation in Moscow:</small>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-    <iframe title="Campus tour video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ratio ratio-16x9 mb-3">
+    <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/QGahQKWJFns?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
@@ -87,9 +87,9 @@ Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/)
 
 If you, or someone you know would be interested in these positions, please follow these links to the applications: 
 
-[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3} 
-[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
-[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .btn-block .m-3}
+[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3} 
+[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
+[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
 
 We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
 If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.

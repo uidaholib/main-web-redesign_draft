@@ -33,7 +33,7 @@ noindex: false
                 <th>Title</th>
                 <th>Year</th>
             </thead>
-            <tbody>
+            <tbody class="table-group-divider">
             {% for paper in site.data.spec_tabraham-files %}
             <tr>
                 <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | relative_url }}" target="_blank" rel="noopener">{{ paper.title }}</a></td>

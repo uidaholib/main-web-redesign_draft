@@ -1,0 +1,29 @@
+<script>
+    // function to fetch the libcal hours json
+    async function fetchHoursJson() {
+        const libcalUrl = "https://libcal.uidaho.edu/api_hours_today.php?iid=3479&lid=7368&format=json&systemTime=0";
+        try {
+            const response = await fetch(libcalUrl);
+            if (!response.ok) {
+                throw new Error(`Response status: ${response.status}`);
+            }
+            const json = await response.json();
+            displayHours(json);
+        } catch (error) {
+            console.error(error.message);
+        }
+    }
+    // function to parse libcal json and add to topbar
+    function displayHours(json) {
+        const mainHours = json["locations"].find(item => item.lid == 7368);
+        if(mainHours) {
+            const display = document.getElementById("timedisp");
+            if (mainHours != "Closed") { 
+                display.innerHTML = "Open " + mainHours.rendered;
+            } else {
+                display.innerHTML = "Closed";
+            }
+        }
+    }
+    fetchHoursJson();
+</script>

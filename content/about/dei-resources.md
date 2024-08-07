@@ -40,7 +40,7 @@ We chose to feature these databases as we believe that they challenge our existi
           <th scope="col">Description</th>
        </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
     {% for r in resources %}
     {%- assign descriptions = r.description | split: "." -%}
     <tr>
@@ -48,7 +48,7 @@ We chose to feature these databases as we believe that they challenge our existi
             <a href="{{ r.link }}" 
             class="btn btn-outline-pride-gold" role="button" target="_blank" rel="noopener" title="{{ r.name }} Overview">{{ r.name }}</a><div class="d-none">{{ r.name }}</div>
         </td>
-       <td class="description">{{ descriptions[0] }}. <a data-toggle="collapse" href="#{{ r.name | slugify }}" aria-expanded="false" aria-controls="{{ r.name | slugify }}">[more...]</a><p id="{{ r.name | slugify }}" class="collapse pt-3">{{ descriptions[1] }}.</p></td>
+       <td class="description">{{ descriptions[0] }}. <a data-bs-toggle="collapse" href="#{{ r.name | slugify }}" aria-expanded="false" aria-controls="{{ r.name | slugify }}">[more...]</a><p id="{{ r.name | slugify }}" class="collapse pt-3">{{ descriptions[1] }}.</p></td>
     </tr>
     {% endfor %}
     </tbody>

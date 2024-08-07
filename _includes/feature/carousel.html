@@ -1,64 +1,74 @@
-<div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
-    <ol class="carousel-indicators">
+<div id="index-carousel" class="carousel slide" >
+    <div class="carousel-indicators">
         {% for slide in include.slides %}
-        <li data-target="#index-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+        <button type="button" data-bs-target="#index-carousel" data-bs-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active" aria-current="true"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
         {% endfor %}
-    </ol>
+    </div>
 
     <div class="carousel-inner">
         
-    {% for slide in include.slides %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{% unless slide.image-src contains 'http' %}{{ site.liburl }}{% endunless %}{{ slide.image-src }}" alt="{{ slide.image-alt }}">
-        <div class="carousel-caption d-none d-md-block px-3 mb-3">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-left">{{ slide.title }}</h2>
-                </div>
-                <div class="col-md-8">
-                    <p class="mb-2 text-left slide-paragraph">{{ slide.paragraph }}</p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                    {% if slide.link %}
-                    <a class="btn btn-outline-pride-gold" href="{{ slide.link | relative_url }}">{{ slide.link-text }}</a>
-                    {% endif %}
-                    {% if slide.link2 %}
-                    <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 | relative_url }}">{{ slide.link2-text }}</a>{% endif %}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="d-md-none pt-4 pb-5">
-            <div class="container">
+        {% for slide in include.slides %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img {% unless forloop.first %}class="lazyload" data-{% endunless %}src="{% unless slide.image-src contains 'http' %}{{ site.liburl }}{% endunless %}{{ slide.image-src }}" alt="{{ slide.image-alt }}">
+            <div class="carousel-caption d-none d-md-block px-3 mb-3">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-center">{{ slide.title }}</h2>
+                        <h2 class="text-start">{{ slide.title }}</h2>
                     </div>
-                    <div class="col-md-12">
-                        <p class="text-center">
+                    <div class="col-md-8">
+                        <p class="mb-2 text-start slide-paragraph">{{ slide.paragraph }}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
                         {% if slide.link %}
-                        <a class="btn btn-outline-pride-gold" href="{{ slide.link }}">{{ slide.link-text }}</a>{% endif %}
+                        <a class="btn btn-outline-pride-gold" href="{{ slide.link | relative_url }}">{{ slide.link-text }}</a>
+                        {% endif %}
                         {% if slide.link2 %}
-                        <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 }}">{{ slide.link2-text }}</a>{% endif %}
+                        <a class="btn btn-outline-clearwater me-2 mt-md-2 mt-sm-0" href="{{ slide.link2 | relative_url }}">{{ slide.link2-text }}</a>{% endif %}
                         </p>
                     </div>
                 </div>
             </div>
+            <div class="d-md-none pt-4 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-center">{{ slide.title }}</h2>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="text-center">
+                            {% if slide.link %}
+                            <a class="btn btn-outline-pride-gold" href="{{ slide.link }}">{{ slide.link-text }}</a>{% endif %}
+                            {% if slide.link2 %}
+                            <a class="btn btn-outline-clearwater me-2 mt-md-2 mt-sm-0" href="{{ slide.link2 }}">{{ slide.link2-text }}</a>{% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    {% endfor %}
+        {% endfor %}
     
     </div>
 
-    <a class="carousel-control-prev" href="#index-carousel" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#index-carousel" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    <button type="button" id="carousel-pause-btn" class="btn btn-link" title="Pause carousel" aria-label="Pause carousel"><span id="carousel-pause" class="far fa-pause-circle text-white"></span></button>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      
+    <button type="button" class="carousel-control-prev" data-bs-target="#index-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-target="#index-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    <button type="button" id="carousel-pause-btn" class="btn btn-link" title="Pause carousel" aria-label="Pause carousel"><span id="carousel-pause-icon" class="far fa-pause-circle text-white"></span></button>
   
 </div>
