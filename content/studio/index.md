@@ -5,7 +5,7 @@ permalink: /studio/
 layout: page
 ---
 <div class="alert alert-success text-center" role="alert">
-  The Studio has moved to the first floor Room 122, next to the information desk!
+  The Studio has moved to Room 122, next to the information desk!
 </div>
 
 <div class="alert alert-info text-center" role="alert">
