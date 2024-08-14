@@ -9,12 +9,12 @@ layout: page
 </div>
 
 <div class="alert alert-info text-center" role="alert">
-<!--<h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
+<h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
 <p class="h5">Monday - Thursday, 9am - 9pm<br>
 Friday, 9am - 7pm<br>
-Saturday - Sunday, 12pm - 5pm</p>-->
-<h4 class="alert-heading"><span class="fas fa-clock"></span> Summer Hours</h4>
-<p class="h5">Monday - Friday, 9am - 6pm</p>
+Saturday - Sunday, 12pm - 5pm</p>
+<!--<h4 class="alert-heading"><span class="fas fa-clock"></span> Summer Hours</h4>
+<p class="h5">Monday - Friday, 9am - 6pm</p>-->
 </div>
 
 Located on the first floor of the Library, the Studio offers dedicated space to students, staff, and faculty to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
