@@ -425,16 +425,10 @@ Services:
     link: /studio/
   - subsection: Think Open
     link: /open/fellowship/
+  - subsection: Tutorials
+    link: /tutorials/
   - subsection: VERSO
     link: /verso/
-  - subsection: Workshops
-    link: /services/workshops/
-    subpages:
-      - name: Workshops
-        url: /services/workshops/
-      - name: Resources
-        url: /services/workshops/resources.html
-
 
 ##########
 # SPEC section
@@ -680,3 +674,20 @@ VERSO:
     link: /verso/profile.html
   - subsection: FAQ
     link: /verso/faq.html
+
+# Tutorials Section
+Tutorials:
+  - parent: Tutorials
+    stub: /tutorials/
+  - subsection: Tutorials Home
+    link: /tutorials/
+  - subsection: Browse Tutorials
+    link: /tutorials/browse
+  - subsection: Research Guides
+    link: https://libguides.uidaho.edu/
+  - subsection: Library YouTube Channel
+    link: https://www.youtube.com/user/UofILibrary
+  - subsection: Workshop Calendar
+    link: /tutorials/workshops/
+  - subsection: Workshop Resources
+    link: /tutorials/workshops/resources.html 
