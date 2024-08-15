@@ -1,0 +1,33 @@
+---
+title: Workshop Resources
+section: Tutorials
+permalink: /tutorials/workshops/resources.html
+table-id: "#resources"
+layout: page
+---
+{% assign resources = site.data.services_workshops_resources %}
+
+<p>Slides and additional materials from past workshops and events are shared on this page. Also, see our <a href="{{ '/gisday/repository.html' | relative_url }}">GIS Day Repository</a>.</p>
+
+<table id="resources" class="table table-striped" data-order='[[1,"desc"]]'>
+    <thead>
+        <tr>
+            <th scope="column">Title</th>
+            <th scope="column">Date</th>
+            <th scope="column">Description</th>
+            <th scope="column">Materials</th>    
+        </tr>
+    </thead>
+    <tbody>
+    {% for r in resources %}
+    <tr>
+        <th scope="row">{{ r.title }}</th>
+        <td>{{ r.date }}</td>
+        <td>{{ r.description }}<br>
+            Presenter: {{ r.instructor }}</td>
+        <td>{{ r.materials }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>													
+			
