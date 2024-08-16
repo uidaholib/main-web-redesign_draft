@@ -32,13 +32,6 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       </td>
     </tr>
     <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">AE</td>
-      <td width="400" height="12">Encyclopedias</td>
-      <td width="14" height="12" align="center"></td>
-    </tr>
-    <tr>
       <td width="36" height="12">
         <b>
           <a name="B">B</a>
@@ -53,28 +46,18 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="20" height="12"></td>
       <td width="48" height="12">B</td>
       <td width="400" height="12">Philosophy</td>
-      <td width="14" height="12" align="center"></td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">BF</td>
       <td width="400" height="12">Psychology</td>
-      <td width="14" height="12" align="center"></td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">BJ</td>
-      <td width="400" height="12">Ethics</td>
-      <td width="14" height="12" align="center"></td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">BL-BX</td>
-      <td width="400" height="12">Religion</td>
-      <td width="14" height="12" align="center"></td>
+      <td width="400" height="12">Religions, Mythologies</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -91,86 +74,42 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="20" height="12"></td>
       <td width="48" height="12">CC</td>
       <td width="400" height="12">Archaeology</td>
-      <td width="14" height="12" align="center"></td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
-      <td width="48" height="12">CS</td>
-      <td width="400" height="12">Genealogy</td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">CT</td>
-      <td width="400" height="12">Biography</td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DA</td>
-      <td width="400" height="12">Great Britain
-      </td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DC</td>
-      <td width="400" height="12">France</td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DD</td>
-      <td width="400" height="12">Germany</td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DF</td>
-      <td width="400" height="12">Greece</td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DK</td>
-      <td width="400" height="12">Russia, Poland
-      </td>
-    </tr>
-    <tr>
-      <td width="36" height="12"></td>
-      <td width="20" height="12"></td>
-      <td width="48" height="12">DP</td>
-      <td width="400" height="12">Spain, Portugal
-      </td>
+      <td width="48" height="12">DA-DR</td>
+      <td width="400" height="12">Europe</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">DS</td>
-      <td width="400" height="12">Asia</td>
+      <td width="400" height="12">Asia, Middle East</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">DT</td>
       <td width="400" height="12">Africa</td>
-      <td width="14" height="12" align="center"></td>
+    </tr>
+    <tr>
+      <td width="36" height="12"></td>
+      <td width="20" height="12"></td>
+      <td width="48" height="12">DU</td>
+      <td width="400" height="12">Australia, Pacific Islands</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">E</td>
-      <td width="400" height="12">U.S. (general)
-      </td>
-      <td width="14" height="12" align="center"></td>
+      <td width="400" height="12">Indigenous History, General U.S. History</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">F</td>
-      <td width="400" height="12">U.S. (states), Canada, Latin America</td>
-      <td width="14" height="12" align="center"></td>
+      <td width="400" height="12">U.S. (States), Canada, Mexico, Central and South America</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -181,50 +120,48 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="603" height="12" colspan="3">
         <b>Geography, Anthropology, Recreation</b>
       </td>
-      <td width="14" height="12" align="center"></td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
-      <td width="48" height="12">G</td>
-      <td width="400" height="12">Geography (general)
-      </td>
-      <td width="14" height="12" align="center"></td>
+      <td width="48" height="12">GB</td>
+      <td width="400" height="12">Geography, Water Resources</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">GC</td>
       <td width="400" height="12">Oceanography</td>
-      <td width="14" height="12" align="center"></td>
+    </tr>
+    <tr>
+      <td width="36" height="12"></td>
+      <td width="20" height="12"></td>
+      <td width="48" height="12">GE</td>
+      <td width="400" height="12">Environmental Studies</td>
+    </tr>
+    <tr>
+      <td width="36" height="12"></td>
+      <td width="20" height="12"></td>
+      <td width="48" height="12">GF</td>
+      <td width="400" height="12">Human Ecology, Conservation</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">GN</td>
       <td width="400" height="12">Anthropology</td>
-      <td width="14" height="12" align="center"></td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
-      <td width="48" height="12">GR</td>
-      <td width="400" height="12">Folklore</td>
-      <td width="14" height="12" align="center"></td>
+      <td width="48" height="12">GR-GT</td>
+      <td width="400" height="12">Folklore, Culture, Customs</td>
     </tr>
     <tr>
       <td width="36" height="12"></td>
       <td width="20" height="12"></td>
       <td width="48" height="12">GV</td>
-      <td width="400" height="12">Physical Education, Recreation</td>
-      <td width="14" height="12" align="center"></td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">&nbsp;</td>
-      <td width="400" height="12">&nbsp;</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Sports, Dance, Games, Outdoor Recreation</td>
     </tr>
   </tbody>
 </table>
@@ -251,52 +188,50 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HA</td>
-      <td width="400" height="12">Statistics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">HB</td>
+      <td width="400" height="12">Economics</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HB</td>
-      <td width="400" height="12">Economics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">HD</td>
+      <td width="400" height="12">Labor and Industry</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">HE</td>
-      <td width="400" height="12">Communications</td>
+      <td width="400" height="12">Communications, Broadcasting</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HF-HJ</td>
-      <td width="400" height="12">Business, Finance, Accounting</td>
+      <td width="48" height="12">HF-HG</td>
+      <td width="400" height="12">Commerce, Finance, Banking</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HM-HN</td>
+      <td width="48" height="12">HM</td>
       <td width="400" height="12">Sociology</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">HQ</td>
-      <td width="400" height="12">Family, Marriage, Women</td>
+      <td width="400" height="12">Women's Studies, Gender Studies, Sexuality</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HS-HV</td>
-      <td width="400" height="12">Societies, Communities, Crime</td>
+      <td width="48" height="12">HT</td>
+      <td width="400" height="12">Communities, Social Organization</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">HX</td>
-      <td width="400" height="12">Socialism, Communism</td>
+      <td width="48" height="12">HV</td>
+      <td width="400" height="12">Social Services, Criminal Justice</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -309,25 +244,6 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       </td>
     </tr>
     <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">JK</td>
-      <td width="400" height="12">Political Science - U.S.</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">JS</td>
-      <td width="400" height="12">Local Government</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">JX</td>
-      <td width="400" height="12">International Relations</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
       <td width="36" height="12">
         <b>
           <a name="K">K</a>
@@ -336,20 +252,6 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="603" height="12" colspan="3">
         <b>Law</b>
       </td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">K</td>
-      <td width="400" height="12">Law (general)</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">KF</td>
-      <td width="400" height="12">Law of the U.S.</td>
       <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
@@ -366,16 +268,14 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">LA</td>
-      <td width="400" height="12">History of Education</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">LB</td>
+      <td width="400" height="12">Elementary, Secondary, Higher Education</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">LB</td>
-      <td width="400" height="12">Theory &amp; Practice</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">LC</td>
+      <td width="400" height="12">Social Aspects of Education</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -392,22 +292,19 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">M</td>
-      <td width="400" height="12">Scores</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Sheet Music</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">ML</td>
-      <td width="400" height="12">Literature on Music</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Music Literature</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">MT</td>
-      <td width="400" height="12">Musical Instruction</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Music Instruction and Study</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -425,28 +322,24 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">NA</td>
       <td width="400" height="12">Architecture</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">NB</td>
-      <td width="400" height="12">Sculpture</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">NC</td>
-      <td width="400" height="12">Drawing</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Drawing, Graphic Arts, Illustration</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">ND</td>
       <td width="400" height="12">Painting</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="36" height="12">&nbsp;</td>
+      <td width="20" height="12">&nbsp;</td>
+      <td width="48" height="12">NK</td>
+      <td width="400" height="12">Textile Arts, Ceramics, Metalwork, Interior Design</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -462,23 +355,14 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">P</td>
-      <td width="400" height="12">Linguistics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PA</td>
-      <td width="400" height="12">Classical Language and Linguistics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Classical Languages and Literature</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PC</td>
       <td width="400" height="12">Romance Languages</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
@@ -490,37 +374,25 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PF</td>
-      <td width="400" height="12">German Language</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">PG</td>
-      <td width="400" height="12">Slavic Languages and Literature</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">PJ</td>
-      <td width="400" height="12">Oriental Languages and Literature</td>
+      <td width="400" height="12">Germanic Languages</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PL</td>
-      <td width="400" height="12">Asian, African Languages and Literature</td>
+      <td width="400" height="12">Asian Languages and Literature</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PM</td>
-      <td width="400" height="12">American Indian Languages</td>
+      <td width="400" height="12">Indigenous American Languages</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PN</td>
-      <td width="400" height="12">Romance Literature</td>
+      <td width="400" height="12">Film, Television, Theatre, Journalism</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
@@ -537,16 +409,8 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">PT</td>
-      <td width="400" height="12">German Literature</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">PZ</td>
       <td width="400" height="12">Children's Literature</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -562,86 +426,56 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">Q</td>
-      <td width="400" height="12">Science</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QA</td>
-      <td width="400" height="12">Mathematics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Mathematics, Statistics, Computer Science</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QB</td>
       <td width="400" height="12">Astronomy</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QC</td>
-      <td width="400" height="12">Physics</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Physics, Climate Science</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QD</td>
       <td width="400" height="12">Chemistry</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QE</td>
       <td width="400" height="12">Geology</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QH</td>
-      <td width="400" height="12">Ecology, Natural History</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Biology, Natural History, Conservation</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QK</td>
       <td width="400" height="12">Botany</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QL</td>
       <td width="400" height="12">Zoology</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">QM</td>
-      <td width="400" height="12">Human Anatomy</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">QP</td>
-      <td width="400" height="12">Physiology</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">QR</td>
-      <td width="400" height="12">Microbiology, Immunology, Virology</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Microbiology</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -650,23 +484,21 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
         </b>
       </td>
       <td width="606" height="12" colspan="3">
-        <b>Medicine (General)</b>
+        <b>Medicine</b>
       </td>
       <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">RC</td>
-      <td width="400" height="12">Internal Medicine</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">RA</td>
+      <td width="400" height="12">Public Health</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">RM</td>
-      <td width="400" height="12">Pharmacology, Nutrition, Physical Therapy</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="48" height="12">RC</td>
+      <td width="400" height="12">Neuroscience, Sports Medicine</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -682,44 +514,32 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">S</td>
-      <td width="400" height="12">Conservation of Natural Resources</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">SB</td>
-      <td width="400" height="12">Plant Culture, Landscape Architecture</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Plant/Crop Science, Landscape Architecture, Gardening</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">SD</td>
       <td width="400" height="12">Forestry</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">SF</td>
       <td width="400" height="12">Animal Science</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">SH</td>
-      <td width="400" height="12">Fish and Fisheries</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Fisheries, Aquaculture</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">SK</td>
-      <td width="400" height="12">Hunting, Wildlife Management</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Wildlife Studies</td>
     </tr>
   </tbody>
 </table>
@@ -746,39 +566,26 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">TA</td>
-      <td width="400" height="12">Engineering (general), Civil Engineering</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">TC</td>
-      <td width="400" height="12">Hydraulic Engineering</td>
+      <td width="48" height="12">TA-TC</td>
+      <td width="400" height="12">Engineering, Infrastructure</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TD</td>
-      <td width="400" height="12">Pollution, Environmental Engineering</td>
+      <td width="400" height="12">Water Quality, Environmental Technology</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">TJ</td>
-      <td width="400" height="12">Mechanical Engineering</td>
-    </tr>
-    <tr>
-      <td width="36" height="12">&nbsp;</td>
-      <td width="20" height="12">&nbsp;</td>
-      <td width="48" height="12">TK</td>
-      <td width="400" height="12">Electrical Engineering</td>
+      <td width="48" height="12">TJ-TK</td>
+      <td width="400" height="12">Energy, Mechanical and Electrical Engineering</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TL</td>
-      <td width="400" height="12">Motor Vehicles, Aeronautics</td>
+      <td width="400" height="12">Transportation, Aeronautics, Space Exploration</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
@@ -790,26 +597,25 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TP</td>
-      <td width="400" height="12">Chemical Engineering</td>
+      <td width="400" height="12">Chemical Engineering, Biotechnology</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TR</td>
-      <td width="400" height="12">Photography</td>
+      <td width="400" height="12">Photography, Cinematography, Art Photography</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TT</td>
-      <td width="400" height="12">Crafts, Fashion</td>
+      <td width="400" height="12">Craft, CLothing, Fashion, Furniture</td>
     </tr>
     <tr>
       <td width="36" height="12">&nbsp;</td>
       <td width="20" height="12">&nbsp;</td>
       <td width="48" height="12">TX</td>
-      <td width="400" height="12">Home Economics, Nutrition</td>
-      <td width="14" height="12" align="center">&nbsp;</td>
+      <td width="400" height="12">Food, Nutrition, Cookbooks</td>
     </tr>
     <tr>
       <td width="36" height="12">
@@ -840,7 +646,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
         </b>
       </td>
       <td width="606" height="12" colspan="3">
-        <b>Bibliography and Library Science</b>
+        <b>Library and Information Science</b>
       </td>
       <td width="14" height="12" align="center">&nbsp;</td>
     </tr>
