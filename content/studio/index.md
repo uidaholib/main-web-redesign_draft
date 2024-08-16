@@ -9,11 +9,11 @@ layout: page
 </div>
 
 <div class="alert alert-info text-center" role="alert">
-<h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
+<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p class="h5">Monday - Thursday, 9am - 9pm<br>
 Friday, 9am - 7pm<br>
 Saturday - Sunday, 12pm - 5pm</p>
-<!--<h4 class="alert-heading"><span class="fas fa-clock"></span> Summer Hours</h4>
+<!--<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p class="h5">Monday - Friday, 9am - 6pm</p>-->
 </div>
 

@@ -10,11 +10,11 @@ chat-widget: datahub
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
 <div class="alert alert-info mt-3 mb-3" role="alert">
-<!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
+<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p>Librarian assistance is available Monday - Friday, 11am - 3pm.<br>
-Visit us in the Map Room (Library 107), chat online (icon in lower right), or call (208) 885-7724</p>-->
-<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
-<p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>
+Visit us in the Map Room (Library 107), chat online (icon in lower right), or call (208) 885-7724</p>
+<!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
+<p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
 
 The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
