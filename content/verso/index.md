@@ -16,6 +16,8 @@ layout: page
 
 [VERSO (Vandal Expertise, Research, and Scholarship Online)](https://verso.uidaho.edu/) preserves and provides access to the research and creative output of the University of Idaho's faculty, students and staff.
 
+If you would like to have your own VERSO researcher profile, you can request one be created for you by submitting a [new verso profile forms](https://uidaho.co1.qualtrics.com/jfe/form/SV_0rlPakZsYWSG4zc).
+
 {% include feature/alert.html text="We are currently in the early stages of harvesting and cleaning data for VERSO. More data will be added over the coming months, and research data will need to be cleaned and checked. Please see our [release timeline](#release-timeline) below for more information on the systems' development and [contact us](https://forms.office.com/r/Kef7ziHzHy) with any concerns." color="warning" %}
 
 VERSO serves as both a research information management (RIM) system for the university and as an Institutional Repository (IR) for U of I research outputs. 
