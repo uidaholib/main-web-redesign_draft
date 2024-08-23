@@ -12,10 +12,10 @@ Potential applicants are strongly encouraged to speak with [Marco Seiferle-Valen
 <!--
 <p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1AMSwrtF5tWGeaO" class="btn btn-lg btn-palouse-green my-2" target="_blank" rel="noopener"><span class="fas fa-link"></span> Apply Now</a></p>-->
        
-In FY 2024, the total allocation will be split into two funding periods:
+In FY 2025, the total allocation will be split into two funding periods:
 
-- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2023 and December 31, 2023 (now closed)
-- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2024 and June 16, 2024
+- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2024 and December 31, 2024 - Opens September 30th, 2024
+- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2025 and June 16, 2025
      
 Applicants must be current U of I affiliates throughout the application, award, and payment/reimbursement process. Cases in which an applicant leaves or graduates from the U of I during the award or payment/reimbursement process will be referred to the Dean of Libraries for review and final decision.
 
@@ -41,12 +41,9 @@ U of I - OAPF funding is contingent upon providing proper documentation to the <
 Documentation differs based on the preferred method of payment, as detailed below:
       
 - Option 1: U of I - OAPF pays the invoice
-  - Official invoice with an issue date between July 1, 2023 and December 31, 2023 (funding period #1) or between January 1, 2024 and June 16, 2024 (funding period #2)
 - Option 2: U of I - OAPF reimburses applicant for invoice payment
-  - Official invoice with an issue date between July 1, 2023 and December 31, 2023 (funding period #1) or between January 1, 2024 and June 16, 2024 (funding period #2)
-  - Official receipt with a payment date between July 1, 2023 and December 31, 2023 (funding period #1) or between January 1, 2024 and June 16, 2024 (funding period #2)
 
-Invoices or receipts with issue dates or payment dates that have been changed (including, but not limited to: reissued invoices, credit notes, etc.) do not meet the U of I - OAPF's documentation requirements.
+Invoices or receipts with issue dates or payment dates that have been changed (including, but not limited to: reissued invoices, credit notes, etc.) may not meet the U of I - OAPF's documentation requirements.
 {% endcapture %}
 {% include feature/card.html header="Payment and Reimbursement Process" text=payment %}
 
