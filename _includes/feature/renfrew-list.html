@@ -1,0 +1,4 @@
+<select onchange="location = this.value;">
+<option>Select a talk ...</option>{% for s in site.data.renfrew %}
+<option value="#{{s.date |slugify}}">{{s.date}} - {{s.title | truncatewords: 8}}</option>{% endfor %}
+</select>

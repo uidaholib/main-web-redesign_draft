@@ -427,9 +427,11 @@ Services:
     link: /open/fellowship/
   - subsection: VERSO
     link: /verso/
-  - subsection: Workshops
+  - subsection: Workshops and Events
     link: /services/workshops/
     subpages:
+      - name: Renfrew Colloquium
+        url: /renfrew/
       - name: Workshops
         url: /services/workshops/
       - name: Resources
