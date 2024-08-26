@@ -1,6 +1,6 @@
 ---
 title: Malcolm M. Renfrew Interdisciplinary Colloquium
-section: Renfrew
+section: Services
 permalink: /renfrew/
 layout: page
 ---
