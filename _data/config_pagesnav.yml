@@ -249,6 +249,11 @@ Find:
     link: /find/encyclopedias.html
   - subsection: Events
     link: /events/
+    subpages:
+      - name: Events Calendar
+        url: /events/
+      - name: Renfrew Colloquium
+        url: /events/renfrew.html
   - subsection: Equipment Loans
     link: /studio/loanable.html    
   - subsection: Geospatial Resources
@@ -427,11 +432,9 @@ Services:
     link: /open/fellowship/
   - subsection: VERSO
     link: /verso/
-  - subsection: Workshops and Events
+  - subsection: Workshops
     link: /services/workshops/
     subpages:
-      - name: Renfrew Colloquium
-        url: /renfrew/
       - name: Workshops
         url: /services/workshops/
       - name: Resources
