@@ -249,6 +249,11 @@ Find:
     link: /find/encyclopedias.html
   - subsection: Events
     link: /events/
+    subpages:
+      - name: Events Calendar
+        url: /events/
+      - name: Renfrew Colloquium
+        url: /events/renfrew.html
   - subsection: Equipment Loans
     link: /studio/loanable.html    
   - subsection: Geospatial Resources
