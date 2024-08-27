@@ -29,7 +29,7 @@ Applicants must be current U of I affiliates throughout the application, award, 
 {% include feature/card.html header="Application Process" text=application %}
 
 {% capture award %}
-1. The U of I - OAPF Fund Manager will use a <a href="{{ site.lib-media }}/oapf/RubricTemplate_UI-OAPF_FY22.pdf">standard rubric</a> to evaluate the application based on eligibility criteria and make a preliminary funding decision that is contingent upon receiving proper documentation
+1. The U of I - OAPF Fund Manager will use a <a href="{{ site.lib-media }}/oapf/RubricTemplate_UI-OAPF_FY21.pdf">standard rubric</a> to evaluate the application based on eligibility criteria and make a preliminary funding decision that is contingent upon receiving proper documentation
 2. Applicants will receive an email with their preliminary funding decision and a copy of the rubric
 3. Funded applicants will then email their official invoice (and receipt if seeking reimbursement) directly to the OAPF Fund Manager and the Library's Fiscal Officer
 
