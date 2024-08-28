@@ -9,14 +9,12 @@ layout: page
 
 The University of Idaho - Open Access Publishing Fund (OAPF) supports U of I authors in their efforts to publish in open access journals.
 
-During FY 2024, the [U of I Library](https://www.lib.uidaho.edu/), [Office of the Provost](https://www.uidaho.edu/provost), [Office of Research and Economic Development](https://www.uidaho.edu/research), and David and Julie Levine have partnered and allocated a combined total of $35,000 to pay or reimburse article processing charges (APCs) in eligible open access journals.
+The [U of I Library](https://www.lib.uidaho.edu/) in partnership with the [Office of the Provost](https://www.uidaho.edu/provost), [Office of Research and Economic Development](https://www.uidaho.edu/research), and David and Julie Levine have funds allocated to pay or reimburse article processing charges (APCs) in eligible open access journals.
 
-In FY 2024, the total allocation will be split into two funding periods:
+Each year applications are accepted on a first come, first served basis during two funding periods, until funds are exhausted or the end of the funding period.
+U of I affiliated authors may apply for funding multiple times until their author cap is met or funds are exhausted. 
 
-- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2023 and December 31, 2023
-- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2024 and June 16, 2024
-
-U of I affiliated authors may apply for funding multiple times until their author cap is met or funds are exhausted. Applications are accepted on a first come, first served basis during each funding period, until funds are exhausted or the end of the funding period.
+Please explore the pages below for full details.
 
 <div class="text-center mb-3">
   <a href="eligibility.html" class="btn btn-secondary btn-sm my-2"><span class="fas fa-list"></span> Eligibility</a>
