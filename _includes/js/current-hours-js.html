@@ -16,9 +16,9 @@
     // function to parse libcal json and add to topbar
     function displayHours(json) {
         const mainHours = json["locations"].find(item => item.lid == 7368);
-        if(mainHours) {
+        if(mainHours.rendered) {
             const display = document.getElementById("timedisp");
-            if (mainHours != "Closed") { 
+            if (mainHours.rendered != "Closed") { 
                 display.innerHTML = "Open " + mainHours.rendered;
             } else {
                 display.innerHTML = "Closed";
