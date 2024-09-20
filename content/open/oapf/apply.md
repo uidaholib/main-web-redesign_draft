@@ -14,8 +14,8 @@ Potential applicants are strongly encouraged to speak with [Leesa Love](https://
        
 In FY 2025, the total allocation will be split into two funding periods:
 
-- Funding Period #1 = $17,500: Articles accepted for publication between July 1, 2024 and December 31, 2024 - Opens September 30th, 2024
-- Funding Period #2 = $17,500: Articles accepted for publication between January 1, 2025 and June 16, 2025
+- Funding Period #1 = $15,000: Articles accepted for publication between July 1, 2024 and December 31, 2024 - Opens September 30th, 2024
+- Funding Period #2 = $15,000: Articles accepted for publication between January 1, 2025 and June 16, 2025
      
 Applicants must be current U of I affiliates throughout the application, award, and payment/reimbursement process. Cases in which an applicant leaves or graduates from the U of I during the award or payment/reimbursement process will be referred to the Dean of Libraries for review and final decision.
 
