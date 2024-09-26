@@ -1,6 +1,6 @@
 ---
 # generate list of all pages
 ---
-title,section,layout,permalink,url
-{% for p in site.html_pages %}{{ p.title | jsonify }},{{ p.section }},{{ p.layout }},{{ p.permalink }},{{ p.url }}
+title,section,layout,noindex,permalink,url
+{% for p in site.html_pages %}{{ p.title | jsonify }},{{ p.section }},{{ p.layout }},{{ p.noindex }},{{ p.permalink }},{{ p.url | absolute_url }}
 {% endfor %}
