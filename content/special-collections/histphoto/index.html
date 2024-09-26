@@ -10,10 +10,10 @@ noindex: false
 
 <p>The Historical Photograph Database consists of a table of over 90,000 images held by Special Collections that can be filtered, sorted, and exported below.</p>
 
-<div class="form-group row justify-content-end">
-    <label for="collectionSelect" class="col-sm-2 col-form-label text-right">Photo Group (PG):</label>
+<div class="row justify-content-end mb-2">
+    <label for="collectionSelect" class="col-sm-3 col-form-label text-end">Photo Group (PG):</label>
     <div class="color-sm-3">
-        <select id="collectionSelect" class="custom-select form-control">
+        <select id="collectionSelect" class="form-select form-control">
             <option value="all" selected>All</option>
             {%- assign options = site.data.spec_histphoto_dropdown -%}
             {% for i in options %}<option value="{{ i.value }}">{{ i.text }}</option>
@@ -22,7 +22,7 @@ noindex: false
     </div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="{{ '/assets/datatables/datatables.min.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/assets/bootstrap5/datatables/datatables.min.css' | relative_url }}">
 <style>
     #item-table_filter label, #item-table_filter input { font-size: 20px; font-weight: bold; }
 </style>

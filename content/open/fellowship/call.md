@@ -1,14 +1,17 @@
 ---
 title: "Think Open Fellowship"
-section: Think Open Fellowship
+section: Open at U of I
 permalink: /open/fellowship/call.html
 layout: page-narrow
 ---
 
 <small>Sponsored by the University of Idaho Library</small>
 
+**Think Open Fellowships are currently closed for the 2023-24 academic year.**
+
+<!--
 **Think Open Fellowships are currently accepting applications for the 23-24 academic year!**
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Click here to apply!</a>
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Click here to apply!</a>-->
 
 ## Call for Applications
 
@@ -48,7 +51,8 @@ Faculty can apply to transform _any_ course in this fellowship program. Facult
 
 To apply, please visit the form linked below to submit your course information and proposal. 
 
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Fellows Application</a>
+<!--
+<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Think Open Fellows Application</a>-->
 
 Fellowship work has a flexible start date, with the main requirement being that the majority of the fellowship work be completed by July of 2024.
 

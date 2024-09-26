@@ -1,5 +1,19 @@
 # Hours 
 
+The current hours are added to the topbar of every page using js fetching the hours for LibCal API. 
+
+The topbar of the default page layout has a span element with id `timedisp` saying "Hours".
+The JS is in includes/js/current-hours-js.html. 
+It hits the libcal hours api, gets a json response, parses it to find the correct opening hours, and puts it on the page. 
+If there is an error, the display will stay as a link to the main hours page.
+
+On the main hours page (about/hours.html), the top loads the hours using a LibCal embed. 
+The standard hours are written out below.  
+
+## old set up
+
+*legacy for reference*
+
 Hours are loaded on every page using the file "/assets/js/hours.js".
 
 Hours.js is generated from data in the file "_data/config_hours.yml".

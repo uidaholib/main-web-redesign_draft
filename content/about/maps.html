@@ -14,23 +14,30 @@ gallery: true
 	<a href="/find/lc.html" class="btn btn-payette-blue btn-sm my-2"><span class="fas fa-list"></span> Library of Congress Call Numbers</a>
 </div>
 
-<div id="lightgallery">
-	{% assign maps = site.data.about_floor_maps %}
-	{% for m in maps %}
-	<div class="card mb-3">
-		<div class="row no-gutter">
-			<div class="col-md-8">
-				<div class="card-body">
-					<h3 id="{{ m.name | slugify }}" class="h2 card-title">{{ m.name }}</h3>
-					<p class="card-text">{{ m.description }}</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<a href="{{ site.lib-media }}{{ m.img }}" title="{{ m.name }}" class="gallery-img">
-					<img src="{{ site.lib-media }}{{ m.img_md }}" class="card-img p-2" alt="map of {{ m.name }}">
-				</a>
+{% assign maps = site.data.about_floor_maps %}
+{% for m in maps %}
+<div class="card mb-3">
+	<div class="row no-gutter">
+		<div class="col-md-8">
+			<div class="card-body">
+				<h3 id="{{ m.name | slugify }}" class="h2 card-title">{{ m.name }}</h3>
+				<p class="card-text">{{ m.description }}</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<a href="{{ site.lib-media }}{{ m.img }}" title="{{ m.name }}" class="spotlight gallery-img" data-download="true" >
+				<img src="{{ site.lib-media }}{{ m.img_md }}" class="card-img p-2" alt="map of {{ m.name }}">
+			</a>
+		</div>
 	</div>
-	{% endfor %}
 </div>
+{% endfor %}
+
+<script>
+	// add trigger for gallery button
+	window.onload = (event) => {
+		var galleryBtn = document.getElementById('viewGalleryBtn');
+		var gallery = document.querySelectorAll('.gallery-img');
+		galleryBtn.addEventListener('click', e => { Spotlight.show(gallery); });
+	};
+</script>

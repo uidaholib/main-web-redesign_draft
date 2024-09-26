@@ -1,6 +1,6 @@
 ---
 title: "Think Open Fellowship"
-section: Think Open Fellowship
+section: Open at U of I
 permalink: /open/fellowship/
 layout: page
 ---
@@ -19,9 +19,7 @@ Contact [Open Education Librarian Marco Seiferle-Valencia](/about/people/marcosv
 
 {% include feature/button.html text="Think Open Fellows" color="outline-pride-gold" link="/open/fellowship/fellows.html" centered="true" %}
 
-{% include feature/button.html text="Why Think Open" color="outline-dark" link="/open/why.html" centered="true" %}
-
-{% include feature/button.html text="Open Educational Resources" color="outline-dark" link="/open/oer_resources.html" centered="true" %}
+{% include feature/button.html text="Open Educational Resources" color="outline-pride-gold" link="/open/oer_resources.html" centered="true" %}
 
 </div>
 <div class="col-md-5 p-4">
@@ -37,14 +35,11 @@ Contact [Open Education Librarian Marco Seiferle-Valencia](/about/people/marcosv
 
 The University of Idaho Library’s **Think Open Fellowship** is an opportunity to equalize access to educational materials in your classroom and save your students money by supporting the use of low or no-cost course materials in place of traditional costly course materials. 
 
-**Think Open Fellowships are currently accepting applications for the 23-24 academic year!**
-<a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U" title="Think Open Fellows Application" class="btn btn-outline-pride-gold" target="_blank" rel="noopener">Click here to apply!</a>
-
 Think Open Fellowship Awards are intended to achieve any combination of the following goals:
 
 1. Lower the cost of college attendance for students and contribute to their retention, progression, and graduation.
 
-2. Support faculty and gradute students who are interested in contributing new disciplinary content or knowledge in the form of an Open textbook or resource.
+2. Support faculty and graduate students who are interested in contributing new disciplinary content or knowledge in the form of an Open textbook or resource.
 
 3. Pilot unique approaches in University of Idaho courses for textbook transformation including adopting and adapting existing resources, co-creating Open Educational Resources (OER) with students, and identifying materials available from the U of I Library.
 
@@ -62,6 +57,3 @@ This fellowship awards $1,200 to selected faculty and graduate students. Fellows
 * Deliver a final syllabus for their course that uses Open or other low-cost materials (less than $30).
 
 Faculty can apply to transform _any_ course in this fellowship program. Faculty teaching [Idaho GEM courses](http://coursetransfer.idaho.gov/GEMsearch.aspx), high enrollment courses, and [dual-enrollment courses](https://dualcredit.uidaho.edu/) are especially encouraged to apply. The Think Open Program also welcomes applications from faculty hoping to increase quality representation of marginalized identities in their course materials.
-
-{:.text-center}
-[Think Open Fellowship Application](https://uidaho.co1.qualtrics.com/jfe/form/SV_3vBrgaxCdamGn7U){:.btn .btn-lg .btn-outline-pride-gold}

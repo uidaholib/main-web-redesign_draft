@@ -5,17 +5,17 @@
             <a id="topbar-ui-home" href="https://www.uidaho.edu" target="_blank" rel="noopener">University of Idaho</a>
         </div>
         <!-- hours -->
-        <div class="col-8 col-md-4 text-md-center pt-1 text-sm-left">
+        <div class="col-8 col-md-4 text-md-center pt-1 text-sm-start">
             <a id="topbar-hours" href="{{ '/about/hours.html' | relative_url }}">
-                <span class="fas fa-clock" aria-hidden="true"></span><span class="sr-only">Hours: </span>
-                <span id="timedisp"></span>
+                <span class="fas fa-clock" aria-hidden="true"></span>
+                <span id="timedisp">Hours</span>
             </a>
         </div>
         <!-- lib info -->
-        <div class="col-4 text-right pt-1 ">
-            <a id="topbar-rooms" class="d-none d-md-inline-block mr-3" href="{{ '/services/rooms.html' | relative_url }}" >
+        <div class="col-4 text-end pt-1 ">
+            <a id="topbar-rooms" class="d-none d-md-inline-block me-3" href="{{ '/services/rooms.html' | relative_url }}" >
                 <span class="fas fa-door-open" aria-hidden="true"></span> Book a Room</a>   
-            <a id="topbar-account" class="d-none d-md-inline-block mr-3" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" title="Link to your Catalog/Primo Account">
+            <a id="topbar-account" class="d-none d-md-inline-block me-3" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" title="Link to your Catalog/Primo Account">
                 <span class="fas fa-sign-in-alt" aria-hidden="true"></span> Account</a>                
             <a id="topbar-help" href="{{ '/help/' | relative_url }}">
                 <span class="far fa-question-circle" aria-hidden="true"></span> Help</a>

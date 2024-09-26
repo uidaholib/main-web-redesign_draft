@@ -16,9 +16,9 @@ This is why **Summit is our preferred method for requesting materials that the U
 <div id="accordion" class="my-4">
 	<div class="card my-2">
 		<div class="card-header">
-			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">Requesting Summit Items <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+			<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseOne">Requesting Summit Items <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-		<div id="collapseOne" class="collapse" data-parent="#accordion">
+		<div id="collapseOne" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
 				<p>Summit requesting is mainly for books, although many Alliance libraries also lend special materials like DVDs and CDs. Books have a loan period of <strong>42 days</strong>, while media materials check out for <strong>6 days</strong>. Renewals are not allowed for any materials requested through Summit.</p>
 				<p>
@@ -38,9 +38,9 @@ This is why **Summit is our preferred method for requesting materials that the U
 	</div>
 	<div class="card my-2">
 		<div class="card-header">
-			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">Summit Delivery <span class="fas fa-chevron-down smalltxt"></span></a></h5>
+			<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseTwo">Summit Delivery <span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-		<div id="collapseTwo" class="collapse" data-parent="#accordion">
+		<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
 				<p>Summit materials typically arrive in <strong>3-5 business days</strong> for all on-campus pickup locations. Off-campus patrons can expect their materials to arrive by mail within <strong>8-10 days</strong>.</p>
 				<p>Summit items are routed to the various participating libraries using a dedicated courier service. We usually receive our daily courier shipments in the early afternoon, excluding weekends and holidays.</p>
@@ -49,9 +49,9 @@ This is why **Summit is our preferred method for requesting materials that the U
 	</div>
 	<div class="card my-2">
 		<div class="card-header">
-			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">Checking Out Summit Materials<span class="fas fa-chevron-down smalltxt"></span></a></h5>
+			<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseThree">Checking Out Summit Materials<span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-		<div id="collapseThree" class="collapse" data-parent="#accordion">
+		<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
 				<p>Once the U of I Library receives your requested Summit item, an automated email will be sent by the circulation desk alerting you to pick the material up. The email will also indicate which pickup location your item is available at.</p>
 				<p>If you need to change the pickup location for a request that has already been submitted or has arrived, please contact Circulation at (208) 885-6559, or by email at <a href="mailto:libcirc@uidaho.edu">libcirc@uidaho.edu</a>.</p>
@@ -61,9 +61,9 @@ This is why **Summit is our preferred method for requesting materials that the U
 	</div>
 	<div class="card my-2">
 		<div class="card-header">
-			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">Returning Summit Materials<span class="fas fa-chevron-down smalltxt"></span></a></h5>
+			<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFour">Returning Summit Materials<span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-		<div id="collapseFour" class="collapse" data-parent="#accordion">
+		<div id="collapseFour" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
 				<p>Summit materials should be returned to the same location where you checked them out. The item needs to be returned on or before the due date, with the bookstrap or label still attached. </p>
 				<p>Off-campus patrons can return Summit materials to the U of I Library through the mail. However you may want to use a form of delivery that provides tracking, since you are responsible for the item until the library actually receives it.</p>
@@ -78,9 +78,9 @@ This is why **Summit is our preferred method for requesting materials that the U
 	</div>
 	<div class="card my-2">
 		<div class="card-header">
-			<h5 class="mb-0"><a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">Visiting Patron Accounts<span class="fas fa-chevron-down smalltxt"></span></a></h5>
+			<h5 class="mb-0"><a class="collapsed card-link" data-bs-toggle="collapse" href="#collapseFive">Visiting Patron Accounts<span class="fas fa-chevron-down smalltxt"></span></a></h5>
 		</div>
-		<div id="collapseFive" class="collapse" data-parent="#accordion">
+		<div id="collapseFive" class="collapse" data-bs-parent="#accordion">
 			<div class="card-body">
 				<p><strong>U of I Patrons</strong></p>
 				<p>Eligible U of I patrons can visit the circulation desk at any of the other <a href="https://www.orbiscascade.org/member/">Summit member libraries</a> and ask to be adopted as a Summit Visiting Patron. You will need to present your U of I Vandal Card and be able to log in to your library account to verify eligibility. Some libraries also require a second form of photo ID such as a driver's license.</p>

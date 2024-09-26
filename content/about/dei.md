@@ -5,10 +5,14 @@ permalink: /about/dei.html
 layout: page-narrow
 ---
 
-<blockquote class="blockquote my-4">
-  <p class="mb-0">The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles."</p>
-  <p class="blockquote-footer">University of Idaho <a href="https://www.uidaho.edu/diversity" class="alert-link">Diversity and Inclusion Statement</a></p>
-</blockquote>
+<figure class="my-4">
+  <blockquote class="blockquote">
+    <p>The University of Idaho "welcomes and respects all people. Diversity and inclusion are the core of our community and we embrace them as our guiding principles."</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    University of Idaho <a href="https://www.uidaho.edu/diversity">Diversity and Inclusion Statement</a>
+  </figcaption>
+</figure>
 
 The University of Idaho Library affirms these values and is committed to actively welcoming, centering, and prioritizing diverse perspectives and experiences - including those from historically marginalized backgrounds - in our services, programs, spaces, and workforce. 
 
@@ -22,7 +26,7 @@ The University of Idaho Library affirms these values and is committed to activel
 <a href="#feedback" class="btn btn-outline-pride-gold my-2 mx-1">Feedback</a>
 </div>
 
-{% include feature/figure.html img="https://digital.lib.uidaho.edu/digital/iiif/pg2/1002/full/pct:70/0/default.jpg" alt="Photograph of University of Idaho Class of 1899" caption="University of Idaho Class of 1899, including first African American student to graduate from the U of I, Jennie Eva Hughes Smith" %}
+{% include feature/figure.html img="https://objects.lib.uidaho.edu/pg2/small/pg21002_sm.jpg" alt="Photograph of University of Idaho Class of 1899" caption="University of Idaho Class of 1899, including first African American student to graduate from the U of I, Jennie Eva Hughes Smith" %}
 
 University of Idaho Library personnel work to recognize the explicit and implicit biases which prevent us from providing the services, collections, programs, and safe spaces that reflect and promote the diverse environment that we strive to create. 
 We individually and collectively take decisive action to engage in addressing and counteracting our personal and organizational biases.

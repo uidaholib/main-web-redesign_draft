@@ -20,7 +20,7 @@ Open fellowships are bordered in green and have an Open Now button at the top. I
         <p><strong>Deadline:</strong> {{f.deadline}} | <strong>Fellowship Amount:</strong>{% if f.amount.size > 5 %} {{f.amount}}{% else %} ${{f.amount}}{% endif %} | <strong>Library Sponsor:</strong> {{ f.sponsor }}</p>
         <p><strong>Who is Eligible:</strong> {% assign eligible = f.eligible | split: ";" %}{% for e in eligible %}<span class="btn btn-outline-info btn-sm mx-2">{{ e | strip | capitalize }}</span>{% endfor %}</p>
         <p class="my-3">{{ f.description }}</p>
-        <p class="text-right"><a class="btn btn-outline-pride-gold" href="{{ f.link }}">More Information and Application Instructions</a></p>
+        <p class="text-end"><a class="btn btn-outline-pride-gold" href="{{ f.link }}">More Information and Application Instructions</a></p>
     </div>
 </div>
 {% endfor %}

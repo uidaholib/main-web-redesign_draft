@@ -12,7 +12,7 @@ custom-foot: js/research-assistance.html
 <p>To request a consultation with a librarian, please find your subject liaison below and click the "Request Meeting" button to get in touch. If you are unsure or need immediate assistance, contact our <a href="{{ '/help/' | relative_url }}">Reference and Information Desk</a> and we will make sure your questions get answered.</p>
 
 <label for="selectCollege">Select College:</label>
-<select id="selectCollege" class="custom-select custom-select-lg mb-3">
+<select id="selectCollege" class="form-select form-select-lg mb-3">
     <option selected value="reset">All</option>
     <option value="{{ 'General / Beginner' | slugify }}">General / Beginner</option>
     {% assign colleges = liaisons | map: "liaison_college" | uniq | sort %}

@@ -7,15 +7,19 @@ layout: page
 
 Frequently asked questions at the MILL. Learn more by clicking the questions!
 
-{% for q in site.data.mill_faq %}
-<div class="card my-3">
-    <div class="card-header">
-        <h6 class="card-title mb-0">
-            <a data-toggle="collapse" href="#collapse{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down"></span></a>
-        </h6>
+<div class="accordion mb-3" id="accordion">
+    {% for q in site.data.mill_faq %}
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading{{ forloop.index }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="{% if include.open == true %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
+            {{ q.question }}
+        </button>
+      </h2>
+      <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ forloop.index }}" data-bs-parent="#accordion{{ id }}">
+        <div class="accordion-body">
+            {{ q.answer | markdownify }}
+        </div>
+      </div>
     </div>
-    <div id="collapse{{ forloop.index }}" class="collapse">
-        <div class="card-body">{{ q.answer }}</div>
-    </div>
-</div> 
-{% endfor %}
+    {% endfor %}
+</div>

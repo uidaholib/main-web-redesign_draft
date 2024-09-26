@@ -5,24 +5,28 @@ permalink: /gisday/index.html
 layout: full-width-page
 lazyload: true
 ---
-
 <style>
-#jumbo-feature {
-    background-image: url('{{ "/gisday/gis-day23-overview-banner.jpg" | prepend: site.lib-media }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    .jumbotron {
+        padding: 4rem 2rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+    }  
+    #jumbo-feature {
+        background-image: url('{{ "/gisday/gis-day24-banner-overview.jpg" | prepend: site.lib-media }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
-
-<div class="jumbotron" id="jumbo-feature">
+<div class="jumbotron border" id="jumbo-feature">
     <div class="row">
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
                     <img class="img-fluid" src="{{ '/gisday/gis-day-logo-black.png' | prepend: site.lib-media }}" alt="GIS Day">
-                    <h2 class="h5"><em>GeoAI: Where Artificial and Location Intelligence Meet</em></h2>
-                    <p class="h3">November 15, 2023</p>
+                    <h2 class="h5"><em>Mapping Minds, Shaping the World: 25 Years of GIS Day</em></h2>
+                    <p class="h3">November 20, 2024</p>
                     <p class="h5">Clearwater Room <em>(and Online!)</em><br>
                         Idaho Student Union Building<br>
                         University of Idaho<br>
@@ -32,11 +36,10 @@ lazyload: true
             </div>
         </div>
     </div>
-
 </div>
-
+{% capture open %}Planning for this year's GIS Day is underway! Check back for our call for short talks, plan to join us Nov 20th, and contact Bruce Godfrey (<bgodfrey@uidaho.edu>{:.alert-link}) with any questions.{% endcapture %}
 {% capture done %}This year's GIS Day is complete, check back fall 2024 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
-{% include feature/alert.html color="secondary" text=done %}
+{% include feature/alert.html color="success" text=open %}
 
 <div class="row">
     <div class="col-md-2">
@@ -49,11 +52,12 @@ lazyload: true
         </div>
     </div>
     <div class="col-md-9">
-        <p class="lead"><a target="_blank" rel="noopener" href="https://www.gisday.com/">GIS Day</a> @ University of Idaho is a free event that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses. This year's theme is <em>GeoAI: Where Artificial and Location Intelligence Meet</em>, featuring keynote speaker <a href="https://www.public.asu.edu/~wenwenl1/">Dr. Wenwen Li (ASU)</a> to explore this vital topic. The sessions will take place on Wednesday, Nov 15th, 2023 as a hybrid event hosted at Clearwater / Whitewater room of the Idaho Student Union Building and streaming live via Zoom.</p>
+        <p class="lead"><a target="_blank" rel="noopener" href="https://www.gisday.com/">GIS Day</a> @ University of Idaho is a free event that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses. This year's theme is <em>Mapping Minds, Shaping the World: 25 Years of GIS Day</em>, exploring "how combining human creativity with technology helps us discover hidden trends, support sustainable growth, and make smarter decisions using the power of location data". The sessions will take place on Wednesday, Nov 20th, 2024 as a hybrid event hosted at Clearwater / Whitewater room of the Idaho Student Union Building and streaming live via Zoom.</p>
         <p>Please contact Bruce Godfrey (<a href="mailto:bgodfrey@uidaho.edu">bgodfrey@uidaho.edu</a>) with any questions.</p>
     </div>
 </div>
 
+<!--
 <div class="card mb-4">
     <div class="card-body">
         <h3 id="keynote" class="h4 mb-3"><em>2023 Keynote Presentation</em></h3>
@@ -74,18 +78,20 @@ lazyload: true
         </div>
     </div>
 </div>
+-->
 
 <hr class="my-4">
 
 <div id="schedule" class="my-3">
     <h2>Schedule of Events</h2>
 
-    <p>GIS Day @ U of I 2023 is a hybrid event taking place on November 15th in the Clearwater / Whitewater room (on the second floor of the <a href="https://goo.gl/maps/DjakJQegm8R7qYx7A" target="_blank" rel="noopener">Idaho Student Union Building</a>) and live streaming via Zoom. Times are given in <strong>Pacific Time (PST)</strong>. Please <a href="#register">register</a> to receive the Zoom link.</p>
+    <p>GIS Day @ U of I 2024 is a hybrid event taking place on November 20th in the Clearwater / Whitewater room (on the second floor of the <a href="https://goo.gl/maps/DjakJQegm8R7qYx7A" target="_blank" rel="noopener">Idaho Student Union Building</a>) and live streaming via Zoom. Times are given in <strong>Pacific Time (PST)</strong>. Please <a href="#register">register</a> to receive the Zoom link.</p>
 
-    <h3 class="h4">Wednesday, Nov 15th, 2023</h3>
+    <h3 class="h4">Wednesday, Nov 20th, 2023</h3>
 
-    <p>Full Schedule TBA! <strong>Draft schedule is subject to change.</strong></p>
+    <p>Full Schedule TBA! Events take place approximately from 9:00am to 3:00pm, with a break for lunch. <strong>Draft schedule is subject to change.</strong></p>
 
+    <!--
     <div class="px-2">
         {% assign events = site.data.gisday_schedule %}
         {% for e in events %}
@@ -100,7 +106,7 @@ lazyload: true
             </div>
             <div class="col-md-6">
                 <p>{{ e.description }}
-                {% if e.description_full %}<br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <i class="fas fa-caret-down"></i></button>{% endif %}</p>
+                {% if e.description_full %}<br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">Details <i class="fas fa-caret-down"></i></button>{% endif %}</p>
             </div>
             {% if e.description_full %}<div class="col-md-10 collapse" id="collapse{{ forloop.index }}">
                 <div class="card card-body ">
@@ -110,6 +116,7 @@ lazyload: true
         </div>
         {% endfor %}
     </div>
+-->
 
 <!--
         <h3 class="h4 mt-4">Thursday, Nov 18th, 2021</h3>
@@ -125,7 +132,7 @@ lazyload: true
             </div>
             <div class="col-md-6">
                 <p>Special topics workshop taking you hands on with a geodesign process and climate change. Please <a href="https://libcal.uidaho.edu/event/8424570">register on the workshop event page</a>!
-                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-toggle="collapse" data-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
+                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
             </div>
             <div class="col-md-10 collapse" id="collapseWorkshop">
                 <div class="card card-body ">
@@ -151,11 +158,12 @@ lazyload: true
     <div class="row align-items-center">
         
         <div class="col-md-6">
-            <p>To participate in GIS Day 2023, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>
+            <p>Coming soon! Check back in September 2024.</p>
+            <!--<p>To participate in GIS Day 2024, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>-->
         </div>
         <div class="col-md-6">
             <p class="text-center">
-                <a class="btn btn-lg btn-outline-palouse-green" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener"><i class="fas fa-link"></i> Registration Form</a>
+                <!--<a class="btn btn-lg btn-outline-palouse-green" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener"><i class="fas fa-link"></i> Registration Form</a>-->
             </p>
         </div>
 
@@ -182,7 +190,7 @@ lazyload: true
     </div>
 
     <div class="text-center m-3">
-        <button type="button" class="btn btn-outline-pride-gold" data-toggle="modal" data-target="#sponsorDetails">
+        <button type="button" class="btn btn-outline-pride-gold" data-bs-toggle="modal" data-bs-target="#sponsorDetails">
             <h3 class="m-2">Become a Sponsor</h3>
         </button>
     </div>
@@ -193,9 +201,7 @@ lazyload: true
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="sponsorLabel">Sponsor GIS Day @ University of Idaho</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please use one of the following options to make a donation:</p>
@@ -244,8 +250,8 @@ lazyload: true
         <li>Lisa Jones (Plant Science)</li>
         <li>Jason Karl (Forest, Rangeland, and Fire Sciences)</li>
         <li>Jylisa Kenyon (Library)</li>
-        <li>Felix Liao (Earth & Spatial Sciences)</li>
-        <li>Evan Williamson (Library)</li>
+        <li>Norman Lee (Library)</li>
+        <li>Evan Peter Williamson (Library)</li>
     </ul>
 
 </div>

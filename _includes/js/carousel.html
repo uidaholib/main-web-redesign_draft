@@ -1,14 +1,20 @@
-<script src="{{ '/assets/js/ofi.min.js' | relative_url }}"></script>
 <script>
-    $(function () { objectFitImages() });
+    /* init carousel */
+    var carousel = new bootstrap.Carousel('#index-carousel', 
+        { ride: 'carousel', interval: 25000, pause: 'false' }
+    );
     /* carousel pause button */
-    $("#carousel-pause-btn").click(function () {
-        if($("#carousel-pause").hasClass("fa-pause-circle")){
-            $("#index-carousel").carousel("pause");
-            $("#carousel-pause").removeClass("fa-pause-circle").addClass("fa-play-circle");
+    var carouselPauseBtn = document.getElementById("carousel-pause-btn");
+    var carouselPauseIcon = document.getElementById("carousel-pause-icon");
+    carouselPauseBtn.addEventListener('click',  (e) => { 
+        if(carouselPauseIcon.classList.contains("fa-pause-circle")){
+            carousel.pause();
+            carouselPauseIcon.classList.remove("fa-pause-circle");
+            carouselPauseIcon.classList.add("fa-play-circle");
         } else {
-            $("#index-carousel").carousel("cycle");
-            $("#carousel-pause").removeClass("fa-play-circle").addClass("fa-pause-circle");
+            carouselPauseIcon.classList.remove("fa-play-circle");
+            carouselPauseIcon.classList.add("fa-pause-circle");
+            carousel.cycle();
         }
     });
 </script>

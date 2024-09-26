@@ -10,30 +10,31 @@ permalink: /special-collections/strong-fellowship.html
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
+    <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
     <!--<a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" class="btn btn-info my-2 mx-1">
     <span class="fas fa-edit"></span> Submit an Application</a>-->
 </div>
 
 {:.text-center}
-**Questions?** Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
+**This application is now *closed.***
 
 {:.text-center}
-**_Check back in Spring 2024 for the next application opportunity._**
+*Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
 ---
 
 {:#call}
 ### Call for Applications
 
-The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections and Archives. The fellowship occurs during the summer for a period of six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
+The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library’s Special Collections & Archives. The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
 
-Applicants may select from projects listed below that they find interesting, and/or may submit a proposal for a different project which forwards the goals of increasing the visibility and use of previously unprocessed collections in the U of I Library's Special Collections and Archives. The activities of the fellow will be focused on processing and digitizing previously unprocessed accessions. University of Idaho Library personnel will assist and guide the work; applicants are not required to have experience in creating digital collections. 
+Applicants may select from projects listed below that they find interesting, and/or may submit a proposal for a different project which forwards the goals of increasing the visibility and use of previously unprocessed collections in the U of I Library’s Special Collections and Archives. The activities of the fellow will be focused on processing and digitizing previously unprocessed accessions. University of Idaho Library personnel will assist and guide the work; applicants are not required to have experience in creating digital collections.  
 
-The deliverables from the fellowship will be materials such as finding aids that assist in discovery and use of the collection, a digital collection hosted by the U of I Library, or a multi-modal interpretative essay that uses embedded digital items (images, PDFs, videos, etc.) from the fellow's research to introduce their research and describe their experience on the fellowship. All deliverables will be made publicly available through the U of I Library webpage. 
+The deliverables from the fellowship will be materials such as finding aids that assist in discovery and use of the collection, a digital collection hosted by the U of I Library, or a multi-modal interpretative essay that uses embedded digital items (images, PDFs, videos, etc.) from the fellow’s research to introduce their research and describe their experience on the fellowship. All deliverables will be made publicly available through the U of I Library webpage. 
 
 The award includes a $4,500 student fellowship and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc. 
 
-The 2021 recipient of the Strong Fellowship, Erin Geslani, organized a previously unprocessed collection of materials from the [League of Women Voters of Moscow](https://archiveswest.orbiscascade.org/ark:/80444/xv211561). You can read about her work on the [Idaho Harvester blog](https://harvester.lib.uidaho.edu/posts/2021/07/02/local-issues-tackled-by-the-league-of-women-voters-of-moscow.html). A 2022 recipient, Floriana Tulli, worked with the [Women in Natural Resources collection](https://www.lib.uidaho.edu/digital/winr/) to create a finding aid, conduct oral history interviews, and writings about her experience.  
+Since 2021, Strong Fellowship recipients have improved access to a variety of collections, including the [League of Women Voters of Moscow records](https://archiveswest.orbiscascade.org/ark:80444/xv211561), the [Women in Natural Resources collection](https://archiveswest.orbiscascade.org/ark:80444/xv702668), the [Palouse Science Fiction Association collection](https://archiveswest.orbiscascade.org/ark:80444/xv334160), and the [Lyle J. Reed collection](https://archiveswest.orbiscascade.org/ark:80444/xv425711) related to the Old Time Fiddle Festival.     
 
 ---
 
@@ -47,11 +48,14 @@ Applicants must submit:
 3. A current resume or CV. 
 4. A letter of support from a U of I faculty member.
 
+<div class="text-center mb-2 pt-3">
+    <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
+</div>
 <!--
 {:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" %}-->
+{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/r/3UbunAida7" %}-->
 
-**Applications are due** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due Wednesday, April 10th** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 ---
 
@@ -60,7 +64,7 @@ Applicants must submit:
 
 - Application materials are clearly written and demonstrate the applicant's understanding of the nature and purpose of the project, how it relates to other work in the field, and it includes a plan for accomplishing project goals. 
 - Project forwards the goals of increasing the visibility and use of the University of Idaho's Special Collections and Archives. 
-- Proposed project allows student to take intellectual ownership and can be reasonably completed in the allotted time period. 
+- Proposed project allows student to take intellectual ownership and can be reasonably completed in the allotted time. 
 - Proposed project provides an opportunity for the student to advance their thesis or dissertation work, or develop a new skill set.  
 - Student is prepared for the project (coursework, experience, interest and ability to navigate and use primary sources, etc.) 
 - Faculty member has submitted supportive recommendation. 
@@ -70,25 +74,25 @@ Applicants must submit:
 {:#potential}
 ### Potential Projects:
 
-1. Virginia Wicks papers
+1. Calvin Warnick papers
+    - *Civil engineering professor at U of I, founding director of the Water Resources Research Institute; papers related to professional work and personal research.*
+2. Virginia Wicks papers
     - *Famed jazz publicist for musicians including Nat Cole, Dizzy Gillespie, and Ella Fitzgerald.*
-2. Alumni Association records
+3. Alumni Association records
     - *Scrapbooks, photos, and class histories spanning 1910-2000.*
-3. University of Idaho Photo Services materials
+4. University of Idaho Photo Services materials
     - *Wide variety of campus life photos from the 1980s-1990s.*
-4. Wildlife Resources Department records
+5. Wildlife Resources Department records
     - *Correspondence, memos, lantern slides, film and glass negatives.*
-5. Idaho State Climate Laboratory Observation records
+6. Idaho State Climate Laboratory Observation records
     - *Meteorological observations and other records from 1978-1992.*
-6. Chales Wellner papers
+7. Charles Wellner papers
     - *Correspondence, reports, publications, and other papers from U of I alumnus dedicated to forestry.*
-7. Bill London papers
-    - *Correspondence, research notes, writings and more from local author and community activist.*
-8. Lyle J. Reed collection
-    - *Oldtime Fiddlers Contest recordings, scrapbooks, clippings, and playlists.*
-9. Bessie Olmstead Storm papers
+8. Bessie Olmstead Storm papers
     - *Personal papers and keepsakes of U of I alumna dated 1912-2006.*
+9. Idaho Conservation League records
+    - *incorporate recently donated materials into existing ICL collection.*  
 
 ---
 
-Questions about the fellowship and the application process should be directed to Dulce Kertsing-Lark, Head of Special Collections and Archives, [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
+Interested students are strongly encouraged to discuss their proposals with the Head of Special Collections and Archives, Dulce Kersting-Lark, as they are developing their application materials. Dulce can be reached at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).

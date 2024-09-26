@@ -1,6 +1,7 @@
 ---
 title: GIS Day Recordings Available
 date: 2024-01-10
+archive: true
 ---
 
 Recordings of the presentations from [GIS Day @ University of Idaho](https://www.lib.uidaho.edu/gisday/) 2023 are now available. 

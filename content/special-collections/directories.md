@@ -17,7 +17,7 @@ table-paginate: true
 <th>Business Directory</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr >
 <td>Aberdeen</td>
 <td><p>1957, 1959, 1960, 1967, 1969, 1972, 1973,1976, 1977, 1981,1982, 1985-1988,1990/1991-</p>

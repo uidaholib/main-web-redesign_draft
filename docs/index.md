@@ -30,7 +30,8 @@ The "foot.html" include will add an include in the foot section to the page.
 # Links
 
 For security and performance reasons all links with `target="_blank"` attribute should also have the attribute `rel="noopener"`.
-For example, `<a href="" target="_blank" rel="noopener">link</a>`
+For example, `<a href="" target="_blank" rel="noopener">link</a>`.
+However, for accessibility using `target="_blank"` should be avoided!
 
 See https://web.dev/external-anchors-use-rel-noopener/
 
@@ -40,7 +41,7 @@ For example, `<a class="btn btn-primary" href="https://example.com">Link</a>`.
 
 If `<a>` tags are used to trigger interactivity on the page, for example opening a modal, then they SHOULD have `role="button"` for accessibility purposes. 
 For example, `<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Link</a>`.
-In these cases it might make more sense to replace the `<a>` with a `<button>` element.
+In most cases these uses of `<a>` should be replaced with a `<button>` element instead!
 
 # www.lib.uidaho.edu vs. lib.uidaho.edu
 
@@ -52,7 +53,7 @@ It seems that if you try to load an image using "lib.uidaho.edu" it loads insecu
 # Lazy load
 
 To lazyload images on a page, add `lazyload: true` to yml front matter. 
-This will add `lazysizes.min.js` to the foot ([lazysizes docs](https://github.com/aFarkas/lazysizes). 
+This will add `lazysizes.min.js` to the foot ([lazysizes docs](https://github.com/aFarkas/lazysizes)). 
 
 For images that should be lazy loaded, add `class="lazyload"` and replace "src" with `data-src`.
 
@@ -65,7 +66,7 @@ If you need a page to have the `<meta name="robots" content="noindex" />` meta t
 # Extensions on server
 
 The server restricts requests with a known extension list, so any url with non-typical extensions (e.g. .md, .ipynb, .stl) will get redirected to 404.
-If you need to share these types of files from the server, zip them, and share the zip file. 
+If you need to share these types of files from the server, zip them, and share the zip file (or put them on the libobjects server).
 If it is a new format necessary for the site (e.g. font type), ask ITS to add it to the allowed list.
 
 -----------

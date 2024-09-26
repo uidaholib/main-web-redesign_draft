@@ -8,8 +8,11 @@ layout: page
 ![room with tables, computers, 3d printers, and craft projects around]({{ site.lib-media }}/mill/mill_02.jpg){:.img-fluid .rounded}
 
 <div class="alert alert-info text-center" role="alert">
-<h4 class="alert-heading"><span class="fas fa-clock"></span> Semester Hours</h4>
+<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p class="h5">Monday - Friday, 8am - 6pm</p>
+<!--<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Summer Hours</h2>
+<p class="h5" markdown="1">By appointment: Please contact [Jessica Fleener](/about/people/jkfleener.html) (<jkfleener@uidaho.edu>)</p>
+<p>Please note the MILL space is under renovation this summer--please visit at our temporary location in the Data Hub / Map Room (Library 107)!</p>-->
 </div>
 
 <p class="text-center">
@@ -34,9 +37,9 @@ The MILL is an evolving space, and we’d love to hear from you – please use [
         <div class="card-body text-center">
             <p class="card-text">Find us on social media:</p>
             <div class="text-center display-4">
-                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank" rel="noopener"><span class="fab fa-facebook"></span><span class="sr-only">Facebook </span></a>
-                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank" rel="noopener"><span class="fab fa-instagram"></span><span class="sr-only">Instagram </span></a>
-                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" target="_blank" rel="noopener"><span class="fab fa-youtube-square"></span><span class="sr-only">YouTube </span></a>
+                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank" rel="noopener"><span class="fab fa-facebook"></span><span class="visually-hidden">Facebook </span></a>
+                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank" rel="noopener"><span class="fab fa-instagram"></span><span class="visually-hidden">Instagram </span></a>
+                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" target="_blank" rel="noopener"><span class="fab fa-youtube-square"></span><span class="visually-hidden">YouTube </span></a>
             </div>
         </div>
     </div>

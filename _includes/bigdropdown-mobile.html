@@ -1,16 +1,14 @@
 <!-- mobile menu button -->
-<button id="mobileMenu" type="button" class="btn btn-lg btn-outline-pride-gold mr-2" data-toggle="modal" data-target="#mobilemenu">
+<button id="mobileMenu" type="button" class="btn btn-lg btn-outline-pride-gold me-2" data-bs-toggle="modal" data-bs-target="#mobilemenu">
     <span class="fas fa-bars"></span>
-    <span class="sr-only">Main Menu</span>
+    <span class="visually-hidden">Main Menu</span>
 </button>
 <!-- mobile menu modal -->
 <div class="modal fade" id="mobilemenu" tabindex="-1" role="dialog" aria-labelledby="askLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 
@@ -18,26 +16,26 @@
                     <div class="col-12 text-center">
                         <ul id="mobilemenu-sections" class="list-unstyled ">
                             <li class="mx-2 mb-3">
-                                <a class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="{{ '/find/' | relative_url }}">
+                                <a class="btn btn-lg btn-outline-pride-gold my-3 rounded-0 mx-auto popular" href="{{ '/find/' | relative_url }}">
                                     <span class="fas fa-book-open"></span> Find</a>
                             </li>
                             <li class="mx-2 mb-3">
-                                <a class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="{{ '/services/' | relative_url }}">
+                                <a class="btn btn-lg btn-outline-pride-gold my-3 rounded-0 mx-auto popular" href="{{ '/services/' | relative_url }}">
                                     <span class="fas fa-wrench"></span> Services</a>
                             </li>
                             <li class="mx-2 mb-3">
-                                <a class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="{{ '/collections/' | relative_url }}">
+                                <a class="btn btn-lg btn-outline-pride-gold my-3 rounded-0 mx-auto popular" href="{{ '/collections/' | relative_url }}">
                                     <span class="fas fa-th-large"></span> Collections</a>
                             </li>
                             <li class="mx-2 mb-3">
-                                <a class="btn btn-lg btn-outline-pride-gold my-3 btn-block rounded-0 mx-auto popular" href="{{ '/about/' | relative_url }}">
+                                <a class="btn btn-lg btn-outline-pride-gold my-3 rounded-0 mx-auto popular" href="{{ '/about/' | relative_url }}">
                                     <span class="fas fa-map-marker-alt"></span> About</a>
                             </li>
                         </ul>
                         
                         <hr>
 
-                        <div class="row text-left">
+                        <div class="row text-start">
                             <div class="col-6">
                                 <h6 class="mt-3">
                                     <a id="mobilemenu-account" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID">
@@ -83,10 +81,10 @@
                         <hr>
 
                         <h3>Top Resources</h3>
-                        <a id="mobilemenu-asp" class="btn btn-lg btn-outline-secondary my-3 btn-block rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph&defaultdb=f5h&defaultdb=ufh">Academic Search Premier</a>
-                        <a id="mobilemenu-jstor" class="btn btn-lg btn-outline-secondary my-3 btn-block rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://www.jstor.org/">JSTOR</a>
-                        <a id="mobilemenu-wos" class="btn btn-lg btn-outline-secondary my-3 btn-block rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://www.webofscience.com/wos/woscc/basic-search">Web of Science</a>
-                        <a id="mobilemenu-gscholar" class="btn btn-lg btn-outline-secondary my-3 btn-block rounded-0 mx-auto popular" href="https://scholar.google.com">Google Scholar</a>
+                        <a id="mobilemenu-asp" class="btn btn-lg btn-outline-secondary my-3 rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph&defaultdb=f5h&defaultdb=ufh">Academic Search Premier</a>
+                        <a id="mobilemenu-jstor" class="btn btn-lg btn-outline-secondary my-3 rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://www.jstor.org/">JSTOR</a>
+                        <a id="mobilemenu-wos" class="btn btn-lg btn-outline-secondary my-3 rounded-0 mx-auto popular" href="https://uidaho.idm.oclc.org/login?url=https://www.webofscience.com/wos/woscc/basic-search">Web of Science</a>
+                        <a id="mobilemenu-gscholar" class="btn btn-lg btn-outline-secondary my-3 rounded-0 mx-auto popular" href="https://scholar.google.com">Google Scholar</a>
                         <h6 class="mt-1">
                             <a id="mobilemenu-az" href="https://libguides.uidaho.edu/az.php"><span class="fas fa-file"></span> All Databases</a>
                         </h6>

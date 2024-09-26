@@ -55,6 +55,6 @@ In general, the Web Team (Evan) will deploy site to the live server.
 In emergency / urgent situations when main Web Team is not available, fall backs are available to deploy with access to the server.
 Try:
 
-1. Evan
-2. Devin
-3. Klytie, Kevin, Andrew
+1. Evan, Andrew
+2. Maryelizabeth
+3. Kevin, Devin

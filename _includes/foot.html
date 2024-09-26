@@ -1,19 +1,19 @@
 <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
 <script src="{{ '/assets/js/jquery-latest.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/bootstrap5/bootstrap.bundle.min.js' | relative_url }}"></script>
 <!-- analytics events -->
 {% include google-analytics-events.html %}
 <!-- load other js -->
-<script src="{{ '/assets/js/hours.js?v=23.11.16' | relative_url }}" async></script>
+{% include js/current-hours-js.html %}
 {% if page.lazyload == true %}<script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async></script>{% endif %}
-{% if layout.gallery == true or page.gallery == true %}{% include js/gallery-js.html %}{% endif %}
-{% if page.layout == "page" or page.layout == "page-narrow" %}{% include js/page-sidebar.js %}{% endif %}
+{% if layout.gallery == true or page.gallery == true %}<script src="{{ '/assets/js/spotlight.bundle.js' | relative_url }}" ></script>{% endif %}
+{% if page.layout == "page" or page.layout == "page-narrow" %}{% include js/page-sidebar-js.html %}{% endif %}
 {% if page.chat-widget %}
     {% if page.chat-widget == "spec" %}{% include lib-chat-widget-spec.html %}
     {% elsif page.chat-widget == "datahub" %}{% include lib-chat-widget-datahub.html %}
     {% else %}{% include lib-chat-widget.html %}{% endif %}
 {% endif %}
-{% if page.table-id %}{% include js/table-basic.js %}{% endif %}
+{% if page.table-id %}{% include js/table-basic-js.html %}{% endif %}
 {% if page.carousel == true %}{% include js/carousel.html %}{% endif %}
 {% if page.custom-foot or layout.custom-foot %}
 {%- assign page_feet = page.custom-foot | split: ";" -%}

@@ -20,9 +20,11 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 - [Cambridge University Press (Read and Publish)]({{ '/services/agreements/cambridge.html' | relative_url }})
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
+- [MDPI Institutional Open Access Program]({{ '/services/agreements/mdpi.html' | relative_url }})
 - [Microbiology Society (Publish and Read)]({{ '/services/agreements/micro-bio.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
 - [Royal Society of Chemistry (RSC Gold)]({{ '/services/agreements/rsc.html' | relative_url }})
+- [Springer/Nature (Read and Publish Agreement)]({{ '/services/agreements/springer.html' | relative_url }})
 
 -------
 
@@ -40,7 +42,7 @@ The current pay-to-read scholarly communication model is financially unsustainab
 Transformative publishing agreements undertaken by libraries and other institutions seek to shift scholarly publishing towards a more equitable model by focusing a larger share of their financial investment on open access models (pay-to-publish), which make research freely available to anyone, anywhere, rather than subscription-based models (pay-to-read), which disproportionately limit access to research and scholarship. 
 
 Transformative publishing agreements are just one way the U of I Library supports open access models of scholarly communication. 
-Another is the University of Idaho – [Open Access Publishing Fund (U of I – OAPF)]({{ '/services/oapf/' | relative_url }}), which supports U of I authors in their efforts to publish in open access journals by paying article processing charges (APCs). 
+Another is the University of Idaho – [Open Access Publishing Fund (U of I – OAPF)]({{ '/open/oapf/' | relative_url }}), which supports U of I authors in their efforts to publish in open access journals by paying article processing charges (APCs). 
 
 Changing the scholarly communication landscape will be challenging and require everyone involved in research and scholarship to work together, and the U of I Library remains committed to pursuing opportunities that serve both the reading and open access publishing needs of our affiliates.  
 

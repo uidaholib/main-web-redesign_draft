@@ -51,8 +51,8 @@ About:
     link: /giving/
   - subsection: Hours
     link: /about/hours.html
-  - subsection: My Library Stories
-    link: /mylibrary/
+  #- subsection: My Library Stories
+  #  link: /mylibrary/
   - subsection: People
     link: /about/directory.html
 #    subpages:
@@ -147,10 +147,10 @@ My Library:
     stub: /about/
   - subsection: My Library Stories
     link: /mylibrary/
-  - subsection: Submit Your Story
-    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
-  - subsection: Subscribe to Newsletters
-    link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
+  #- subsection: Submit Your Story
+  #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_bygOGggIZfz0hc9
+  #- subsection: Subscribe to Newsletters
+  #  link: https://uidaho.co1.qualtrics.com/jfe/form/SV_6EUJk9uGaNXk7Gd
   - subsection: Library Giving
     link: /giving/
   - subsection: << About
@@ -210,8 +210,13 @@ Find:
     stub: /find/
   - subsection: Articles
     link: /find/articles.html
-  - subsection: Access Tools
-    link: /find/accesstools.html   
+    subpages:
+      - name: Articles
+        url: /find/articles.html
+      - name: Finding Articles Tutorials
+        url: /find/find-articles.html  
+      - name: Access Tools
+        url: /find/accesstools.html   
   - subsection: Board Games
     link: https://www.lib.uidaho.edu/games/
   - subsection: Books and eBooks
@@ -219,6 +224,8 @@ Find:
     subpages:
       - name: Books and eBooks
         url: /find/books.html
+      - name: Finding Books Tutorial
+        url: /find/find-books.html  
       - name: Print Book Locations
         url: /find/lc.html
       - name: Finding eBooks
@@ -242,6 +249,11 @@ Find:
     link: /find/encyclopedias.html
   - subsection: Events
     link: /events/
+    subpages:
+      - name: Events Calendar
+        url: /events/
+      - name: Renfrew Colloquium
+        url: /events/renfrew.html
   - subsection: Equipment Loans
     link: /studio/loanable.html    
   - subsection: Geospatial Resources
@@ -283,8 +295,8 @@ Find:
     link: https://libguides.uidaho.edu/    
   - subsection: Theses and Dissertations
     link: /find/etds.html
-  - subsection: U of I Research and Expertise (VIVO)
-    link: https://vivo.nkn.uidaho.edu/vivo/    
+  - subsection: VERSO (Vandal Expertise, Research, and Scholarship Online)
+    link: https://verso.uidaho.edu/esploro/?institution=01ALLIANCE_UID   
   - subsection: Unique and Archival Material
     link: /special-collections/
 
@@ -386,26 +398,17 @@ Services:
       - name: Other Libraries
         url: /services/ill/other.html
   - subsection: OA Publishing Fund
-    link: /services/oapf/
-    subpages:
-      - name: OA Publishing Fund
-        url: /services/oapf/
-      - name: Eligibility
-        url: /services/oapf/eligibility.html
-      - name: Apply
-        url: /services/oapf/apply.html
-      - name: Funded Articles
-        url: /services/oapf/funded.html
-      - name: FAQ
-        url: /services/oapf/faq.html
+    link: /open/oapf/
   - subsection: Off-Campus Access
     link: /services/distance.html
-  - subsection: ORCID @ UIdaho
+  - subsection: Open at U of I
+    link: /open/
+  - subsection: ORCID 
     link: /services/orcid.html    
   - subsection: Publishing Agreements
     link: /services/agreements/
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
+    link: /open/pressbooks.html      
   - subsection: Reference Services
     link: /help/
     subpages:
@@ -425,8 +428,10 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: "Think Open"
-    link: /open/
+  - subsection: Think Open
+    link: /open/fellowship/
+  - subsection: VERSO
+    link: /verso/
   - subsection: Workshops
     link: /services/workshops/
     subpages:
@@ -471,9 +476,7 @@ Special Collections:
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
       - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html 
-      - name: Terry Abraham Web Archive
-        url: /special-collections/t-abraham/
+        url: /special-collections/non-idaho-directories.html
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction
@@ -565,35 +568,40 @@ The Studio:
   - subsection: Studio FAQ
     link: /studio/faq.html
 
-# Think Open Section
-Think Open:
-  - parent: Think Open 
+# Open at U of I Section
+Open at U of I:
+  - parent: Open at U of I
     stub: /open/
-  - subsection: Think Open Home 
+  - subsection: Open Home
     link: /open/
   - subsection: Think Open Fellowship
     link: /open/fellowship/
+    subpages:
+      - name: About the Fellowship
+        url: /open/fellowship/
+      - name: Call for Fellows
+        url: /open/fellowship/call.html
+      - name: Think Open Fellows
+        url: /open/fellowship/fellows.html
   - subsection: OA Publishing Fund
-    link: /services/oapf/
+    link: /open/oapf/
+    subpages:
+      - name: About the Fund
+        url: /open/oapf/
+      - name: Eligibility
+        url: /open/oapf/eligibility.html
+      - name: Apply
+        url: /open/oapf/apply.html
+      - name: Funded Articles
+        url: /open/oapf/funded.html
+      - name: FAQ
+        url: /open/oapf/faq.html
   - subsection: Pressbooks
-    link: https://uidaho.pressbooks.pub/about/      
-  - subsection: Why Think Open
-    link: /open/why.html
+    link: /open/pressbooks.html
+  - subsection: Course Marking
+    link: /open/course-marking.html  
   - subsection: OER Resources
     link: /open/oer_resources.html
-  - subsection: Course Marking
-    link: /open/course-marking.html
-Think Open Fellowship:
-  - parent: Think Open
-    stub: /open/
-  - subsection: Think Open Fellowship
-    link: /open/fellowship/
-  - subsection: Call for Fellows
-    link: /open/fellowship/call.html
-  - subsection: Think Open Fellows
-    link: /open/fellowship/fellows.html
-  - subsection: << Think Open
-    link: /open/
 
 
 # GIS Day
@@ -666,3 +674,14 @@ Copyright Guide:
     link: /copyright/guide.html#acknowledgements
   - subsection: Services
     link: /services/
+
+# VERSO Section
+VERSO:
+  - parent: VERSO
+    stub: /verso/
+  - subsection: About Verso
+    link: /verso/
+  - subsection: Editing Your Profile
+    link: /verso/profile.html
+  - subsection: FAQ
+    link: /verso/faq.html

@@ -10,21 +10,21 @@ custom-foot: js/directory-list.html
     <div class="col-md-4 order-md-2 mb-3">
         <input type="text" id="listSearch" class="form-control form-control-lg search mb-3" aria-label="Text input to filter list" placeholder="Search...">
 
-        <select id="departmentSelect" name="department" data-field="department" class="custom-select mb-2 filter-option border-pride-gold" aria-label="Filter list by Department">
+        <select id="departmentSelect" name="department" data-field="department" class="form-select mb-2 filter-option border-pride-gold" aria-label="Filter list by Department">
             <option value="show-all" selected>Filter by Department</option>
             {% assign departments = people | map: 'department' | compact | uniq | sort %}
             {% for d in departments %}
             <option value="{{ d }}">{{ d }}</option>
             {% endfor %}
         </select>
-        <select id="statusSelect" name="status" data-field="status" class="custom-select mb-2 filter-option border-clearwater" aria-label="Filter list by Position/Role">
+        <select id="statusSelect" name="status" data-field="status" class="form-select mb-2 filter-option border-clearwater" aria-label="Filter list by Position/Role">
             <option value="show-all" selected>Filter by Position/Role</option>
             {% assign status = people | map: 'status' | compact | join: ";" | split: ";" | uniq | sort %}
             {% for s in status %}
             <option value="{{ s }}">{{ s }}</option>
             {% endfor %}
         </select>
-        <select id="subjectSelect" name="subject" data-field="subject" class="custom-select mb-2 filter-option border-palouse-green" aria-label="Filter list by Subject Area">
+        <select id="subjectSelect" name="subject" data-field="subject" class="form-select mb-2 filter-option border-palouse-green" aria-label="Filter list by Subject Area">
             <option value="show-all" selected>Filter by Subject Liaison</option>
             {% assign subjects = people | map: 'liaison_departments' | compact | join: ";" | split: ";" | uniq | sort %}
             {% for l in subjects %}

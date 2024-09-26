@@ -15,7 +15,10 @@ permalink: /special-collections/berry-ijc-fellowship.html
 </div>
 
 {:.text-center}
-**Questions?** Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
+**This application is now *closed.***
+
+{:.text-center}
+*Questions?* Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
 
 ---
 

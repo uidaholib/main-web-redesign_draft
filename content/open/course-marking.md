@@ -1,6 +1,6 @@
 ---
 title: "Course Marking"
-section: Think Open
+section: Open at U of I
 permalink: /open/course-marking.html
 layout: page-narrow
 ---
@@ -17,16 +17,20 @@ Instructors may begin reporting their course materials costs during scheduling i
 
 ## Course Marking FAQ
 
-{% assign faq = site.data.open_course_marking_faq %}
-{% for q in faq %}
-<div class="card my-3">
-    <div class="card-header">
-        <h3 class="h6 card-title mb-0">
-            <a data-toggle="collapse" href="#collapse{{ forloop.index }}">{{ q.question }} <span class="fas fa-chevron-down smalltxt"></span></a>
-        </h3>
+<div class="accordion mb-3" id="accordion">
+    {% for q in site.data.open_course_marking_faq %}
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="heading{{ forloop.index }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="{% if include.open == true %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
+            {{ q.question }}
+        </button>
+      </h3>
+      <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ forloop.index }}" data-bs-parent="#accordion{{ id }}">
+        <div class="accordion-body">
+            {{ q.answer | markdownify }}
+        </div>
+      </div>
     </div>
-    <div id="collapse{{ forloop.index }}" class="collapse">
-        <div class="card-body">{{ q.answer | markdownify }}</div>
-    </div>
-</div> 
-{% endfor %}
+    {% endfor %}
+</div>
+
