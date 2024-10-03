@@ -37,9 +37,9 @@ lazyload: true
         </div>
     </div>
 </div>
-{% capture open %}Planning for this year's GIS Day is underway! Check back for our call for short talks, plan to join us Nov 20th, and contact Bruce Godfrey (<bgodfrey@uidaho.edu>{:.alert-link}) with any questions.{% endcapture %}
+{% capture open %}[Registration for GIS Day 2024](https://uidaho.co1.qualtrics.com/jfe/form/SV_9QY1ccj4zcEJrro){:.alert-link} is open!{% endcapture %}
 {% capture done %}This year's GIS Day is complete, check back fall 2024 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
-{% include feature/alert.html color="success" text=open %}
+{% include feature/alert.html color="success" text=open align="center" %}
 
 <div class="row">
     <div class="col-md-2">
@@ -57,29 +57,6 @@ lazyload: true
     </div>
 </div>
 
-<!--
-<div class="card mb-4">
-    <div class="card-body">
-        <h3 id="keynote" class="h4 mb-3"><em>2023 Keynote Presentation</em></h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="m-1 p-3 border rounded border-clearwater">
-                    <h3 class="h2">Wenwen Li</h3> 
-                    <h4 class="h5">School of Geographical Sciences and Urban Planning <br>Arizona State University</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <h3>GeoAI for Science and the Science of GeoAI</h3>
-                <p>AI, especially deep learning, has transformed many science and engineering disciplines because of its outstanding capabilities in learning and extracting new patterns and knowledge in a data-driven manner. Geospatial science is an ideal domain to extensively apply and further boost AI research because of its vast availability of diverse big data, intriguing and complex human-environmental interactions, as well as its central role in enabling location-based analysis. In less than a decade, we have witnessed a rapidly growing interest and progress of GeoAI research -- the transdisciplinary expansion of AI in geography and its sibling domains in spatial, environmental, and urban sciences. This talk will explore the trending research in GeoAI and discuss how the science of GeoAI can be advanced. It will also cover how GeoAI can advance scientific discovery, using the tracking of Arctic environmental change as a use study.</p>
-                <h4 class="h5">Presenter Bio</h4>
-                <p>Wenwen Li is a Professor in the School of Geographical Sciences and Urban Planning at Arizona State University. Her research interest is geographic information science with a focus on developing integrated and smart cyberinfrastructure to revolutionize knowledge discovery in environmental and social sciences. In recent years, she has been pioneering the integration of AI with geospatial sciences, and have developed a series of spatial explicit GeoAI models for environmental analysis. Dr. Li's research was funded by multiple funding agencies. She was the recipient of the US National Science Foundation's early CAREER Award and Mid-Career Advancement Award. She is also a Fellow of the American Association of Geography (AAG) and a Fellow of University Consortium of Geographic Information Science.</p>
-
-            </div>
-        </div>
-    </div>
-</div>
--->
-
 <hr class="my-4">
 
 <div id="schedule" class="my-3">
@@ -89,9 +66,8 @@ lazyload: true
 
     <h3 class="h4">Wednesday, Nov 20th, 2023</h3>
 
-    <p>Full Schedule TBA! Events take place approximately from 9:00am to 3:00pm, with a break for lunch. <strong>Draft schedule is subject to change.</strong></p>
+    <p><strong>Draft schedule is subject to change.</strong></p>
 
-    <!--
     <div class="px-2">
         {% assign events = site.data.gisday_schedule %}
         {% for e in events %}
@@ -116,35 +92,6 @@ lazyload: true
         </div>
         {% endfor %}
     </div>
--->
-
-<!--
-        <h3 class="h4 mt-4">Thursday, Nov 18th, 2021</h3>
-
-        <div class="row border rounded py-3 justify-content-end">
-            <div class="col-md-2">
-                <strong>2:00 pm - 5:30 pm</strong><br>
-                Library, Second Floor Classroom and Zoom
-            </div>
-            <div class="col-md-4">
-                <h4>Using GeoDesign to create future climate stories</h4>
-                Dan Cronan and Katherine Hegewisch (University of Idaho)
-            </div>
-            <div class="col-md-6">
-                <p>Special topics workshop taking you hands on with a geodesign process and climate change. Please <a href="https://libcal.uidaho.edu/event/8424570">register on the workshop event page</a>!
-                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
-            </div>
-            <div class="col-md-10 collapse" id="collapseWorkshop">
-                <div class="card card-body ">
-                    <p>Geodesign attempts to answer the question, "How do we get from now to the best possible future?".</p>
-                    <p>In this workshop, we will walk through a condensed version of a geodesign process to tell a climate data story for a study area in a changing climate. We will identify how different scenarios of change in the population, land use, and climate of a region can lead to different future landuse and landcover possibilities.</p>
-                    <p>Specifically, participants will use an online <a href="https://geoplanner.arcgis.com/">ESRI geo planning tool</a> to run several models of future scenarios to inform their climate data stories for a specific local area. Participants will prepare input layers for the ESRI tool using the QGIS open-source tool with climate projections downloaded from the <a href="https://climatetoolbox.org/">Climate Toolbox (ClimateToolbox.org)</a>. Participants will set scenario assumptions for change and impact modelling in the ESRI tool and visualize the results in different geospatial layers on a map. Afterwards, participants will share their climate stories with the group.</p>
-                    <p>The workshop will be offered as a hybrid event, meeting both in person and via Zoom. Please visit the <a href="https://libcal.uidaho.edu/event/8424570">workshop event page to register</a>. Registration is free and open to everyone.</p>
-                </div>
-            </div>
-        </div>
-    
-    -->
 
     <div class="alert alert-info mt-4 h5 text-center">Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">GIS Day @ U of I Repository page</a></div>
 
@@ -158,12 +105,11 @@ lazyload: true
     <div class="row align-items-center">
         
         <div class="col-md-6">
-            <p>Coming soon! Check back in September 2024.</p>
-            <!--<p>To participate in GIS Day 2024, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>-->
+            <p>To participate in GIS Day 2024, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9QY1ccj4zcEJrro" target="_blank" rel="noopener">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>
         </div>
         <div class="col-md-6">
             <p class="text-center">
-                <!--<a class="btn btn-lg btn-outline-palouse-green" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener"><i class="fas fa-link"></i> Registration Form</a>-->
+                <a class="btn btn-lg btn-outline-palouse-green" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9QY1ccj4zcEJrro" target="_blank" rel="noopener"><i class="fas fa-link"></i> Registration Form</a>
             </p>
         </div>
 
