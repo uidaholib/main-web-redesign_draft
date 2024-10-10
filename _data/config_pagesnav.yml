@@ -563,6 +563,12 @@ The Studio:
     link: /studio/equipment.html
   - subsection: Loanable Equipment
     link: /studio/loanable.html
+  - subsection: Tutorials
+    subpages: 
+      - name: Recording and Editing a Podcast Episode
+        url: /studio/podcasting.html
+      - name: Teaching with eGlass
+        url: /studio/eglass.html    
   - subsection: Terms of Use
     link: /studio/termsofuse.html
   - subsection: Studio FAQ
