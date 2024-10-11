@@ -33,7 +33,7 @@ Our [Off-Campus Access guide](https://libguides.uidaho.edu/Distance_Education) p
 ## Online Resources 
 
 The library has tons of materials you can access online. 
-Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az.php?) for scholarly and scientific articles.
+Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az/databases?) for scholarly and scientific articles.
 
 To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas/BBLearn. 
 
