@@ -1,16 +1,12 @@
 ---
-title: GIS Day Recordings Available
-date: 2024-01-10
-archive: true
+title: GIS Day Call for Short Talks and Registration!
+date: 2024-10-14
+#archive: true
 ---
 
-Recordings of the presentations from [GIS Day @ University of Idaho](https://www.lib.uidaho.edu/gisday/) 2023 are now available. 
-Check out the videos on YouTube:
+GIS Day @ U of I 2024 is coming up Nov 20th, with this year marking the 25th anniversary of the event!
 
-- Keynote: [GeoAI for Science and the Science of GeoAI](https://youtu.be/MgHuBakVdrM), Wenwen Li (School of Geographical Sciences and Urban Planning, Arizona State University)
-- [Short Talks Morning](https://youtu.be/71AH3u_J9tQ)
-- Special Topics: [Revolutionizing Disaster Response: Unleashing the Power of GeoAI and Big Sensor Data](https://youtu.be/WzCC9PNijZs), Qunying Huang (Spatial Computing and Data Mining Lab, University of Wisconsin-Madison)
-- [Short Talks Afternoon One](https://youtu.be/IyncFVCvsbg)
-- [Short Talks Afternoon Two](https://youtu.be/rcoE18PPYcM)
-
-Find all the past slides, websites, and recordings on the [GIS Day repository page](https://www.lib.uidaho.edu/gisday/repository.html)
+The [call for short talks is open](https://uidaho.co1.qualtrics.com/jfe/form/SV_25FghGKR4L7yULA) now--please submit by Oct 25th. The presentations are ten minute talks highlighting geospatial-related work, we are always hoping for a broad interdisciplinary mix of topics and methods.
+ 
+For details on the call or to register for GIS Day, please check the page:
+<https://www.lib.uidaho.edu/gisday/>
