@@ -1,6 +1,6 @@
 ---
 title: Digital Collections Migration
-date: 2024-02-01
+date: 2024-09-01
 ---
 
 Warning: [Digital Collections](https://www.lib.uidaho.edu/digital/) work in progress! 
