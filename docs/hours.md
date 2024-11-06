@@ -4,8 +4,13 @@ The current hours are added to the topbar of every page using js fetching the ho
 
 The topbar of the default page layout has a span element with id `timedisp` saying "Hours".
 The JS is in includes/js/current-hours-js.html. 
-It hits the libcal hours api, gets a json response, parses it to find the correct opening hours, and puts it on the page. 
+It hits the libcal hours api, gets a json response, parses it to find the correct opening hours (Main Library), and puts it on the page. 
 If there is an error, the display will stay as a link to the main hours page.
+If the "status" set in LibCal Hours is "open" or "24hours", the javascript will use the "rendered" value from the json and add it to the page with `Open ` in front (e.g. resulting in "Open 9am - 10pm" or "Open 24 Hours"). 
+Otherwise, it will just directly use the "rendered" value. 
+For "closed" status, this will be "Closed". 
+For "text" status, this will be the message.
+If you add a note/message in LibCal Hours, the message will be added directly to the "rendered"--so for display purposes, start your message with a dash or other deliminator (e.g. message = `- Due to Power Outage`, will have rendered "Closed - Due to Power Outage").
 
 On the main hours page (about/hours.html), the top loads the hours using a LibCal embed. 
 The standard hours are written out below.  
