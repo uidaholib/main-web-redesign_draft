@@ -9,6 +9,7 @@ Any potential donation of historic materials should be discussed with the depart
 
 - [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
 - [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
+- [Archives Transfer Form]({{ site.lib-media }}/spec/Archives_transfer form_2024.pdf).
 
 Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications to Special Collections in the University of Idaho Library.
 
