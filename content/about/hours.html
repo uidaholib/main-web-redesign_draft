@@ -13,7 +13,8 @@ custom-foot: js/hours-js.html
 </div>
 
 {% capture text %}
-<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances. The current hours are displayed above. The sections below list the general semester, summer, and <a href="#reduced">reduced hours</a>, and may not reflect temporary changes or special circumstances. Please call 208-885-6559 with questions.</p>
+<p><em>Please note,</em> during normal academic year hours on Sunday through Thursday, the 3rd and 4th floors close at midnight. The 1st and 2nd floors remain open until 2am.</p>
+<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances. The current hours are displayed above. The sections below list the general semester, summer, and <a class="alert-link" href="#reduced">reduced hours</a>, and may not reflect temporary changes or special circumstances. Please call 208-885-6559 with questions.</p>
 {% endcapture %}
 {% include feature/alert.html color="info" text=text %}
 
@@ -33,7 +34,10 @@ custom-foot: js/hours-js.html
           <tbody>
             <tr>
               <td>Monday - Thursday</td>
-              <td>6:00am - 2:00am</td>
+              <td>
+                6:00am - 2:00am<br>
+                <small><em>3rd and 4th floors close at 12am</em></small>
+              </td>
             </tr>
             <tr>
               <td>Friday</td>
@@ -45,7 +49,10 @@ custom-foot: js/hours-js.html
             </tr>
             <tr>
               <td>Sunday</td>
-              <td>12:00pm - 2:00am</td>
+              <td>
+                12:00pm - 2:00am<br>
+                <small><em>3rd and 4th floors close at 12am</em></small>
+              </td>
             </tr>         
           </tbody>
         </table>
