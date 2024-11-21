@@ -11,7 +11,7 @@ Come work with us! The University of Idaho Library employs student workers, stud
 
 The University of Idaho Library depends heavily on student workers for both front of house and back of house positions. Student positions are part-time, with hours ranging between 8-20 hours per week that can be scheduled around classes and on evenings and weekends. Student positions are filled on a rolling basis, as needed, and work-study can be applied to most library student jobs. 
 
-For more information and a list of available jobs, please visit [U of I Handshake](https://www.uidaho.edu/handshake) or contact the Information Desk at <libcirc@uidaho.edu>. 
+For more information and a list of available jobs, please visit [U of I Handshake](https://uidaho.joinhandshake.com/login) or contact the Information Desk at <libcirc@uidaho.edu>. 
 
 ## Staff and Faculty Positions
 
