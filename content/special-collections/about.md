@@ -34,10 +34,6 @@ You can view our physical materials by visiting our [Reading Room](/special-coll
 Many items have been digitized and can be discovered in the [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/) and the [Idaho Harvester](https://harvester.lib.uidaho.edu/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu).
 
-<div class="ratio ratio-16x9">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23VSOWiUOZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
 ---
 
 ## Contact
