@@ -6,7 +6,7 @@ layout: page
 lazyload: true
 ---
 
-The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress system. 
+The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress (LOC) system. 
 This means you will find books on our shelves organized by their LOC call numbers. 
 Below is a chart providing an overview of where the LOC classes are located on the library floors.
 They start with class "A" on the fourth floor and winding through the shelves all the way down to class "Z" on the second floor.
