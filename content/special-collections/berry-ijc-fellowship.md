@@ -15,7 +15,7 @@ permalink: /special-collections/berry-ijc-fellowship.html
 </div>
 
 {:.text-center}
-**This application is now *closed.***
+**This application is open.**
 
 {:.text-center}
 *Questions?* Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
@@ -29,8 +29,6 @@ The University of Idaho Library invites students from any discipline at the Univ
 This program funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific research project. 
 Research should focus on the primary sources in the IJC, and applicants are encouraged to think creatively about the format of their research output. 
 [Past projects](#past) have taken the form of digital collections, oral histories, physical archival exhibits, and digital essays created with the guidance of Library staff.
-
-*In 2023/24 we are particularly encouraging applications from fellows who would be interested in helping [CDIL](https://cdil.lib.uidaho.edu/) to re-envisioning the [IJC digital collections website](https://www.ijc.uidaho.edu/) overall, with opportunities to improve design, interpretative content, and descriptive metadata.*
 
 The applicant may base their research on any [IJC collection](https://www.ijc.uidaho.edu/). 
 Not sure where to begin? 
@@ -54,7 +52,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
-**Applications are due Monday, January 15th, 2024** by midnight and a decision will be announced within two weeks of the deadline.
+**Applications are due Monday, January 21th, 2025** by midnight and a decision will be announced within two weeks of the deadline.
 
 ---
 
@@ -91,6 +89,15 @@ Applicants must submit:
 
 {:#past .pb-2}
 ### Past Projects
+
+{% capture coltrane %}
+A digital collection exploring Alice Coltrane's contributions to jazz spiritualism, showcasing a rare oral history recording from the U of I Leonard Feather Collection.
+<br>
+**2024 Fellow: Irene Koreski**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/coltrane/" color="outline-payette-blue" %}
+{% endcapture %}
 
 {% capture blindfold %}
 A digital collection of transcribed interviews between Leonard Feather and renown jazz artists.
@@ -129,6 +136,9 @@ A digital exhibit featuring photographs, newspaper articles, letters, clothing, 
 {% endcapture %}
 
 <div class="row justify-content-center">
+<div class="col-md-6">
+{% include feature/card.html centered=true text=coltrane header="Alice Coltrane, Jazz Spiritualism" img="https://objects.lib.uidaho.edu/coltrane/alice_09.jpg" alt="Poster from 1982 concert by Alice Coltrane, wife of John Coltrane, at the UCLA Center for the Performing Arts for a fund raiser for the refurbishment of Royce Hall." %}
+</div>
 <div class="col-md-6">
 {% include feature/card.html centered=true text=cheatham header="Doc Cheatham Collection" img="https://www.lib.uidaho.edu/media/ijc/cheatham.jpg" alt="image of Doc Cheatham playing the trumpet" %}
 </div>
