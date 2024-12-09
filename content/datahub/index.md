@@ -12,7 +12,7 @@ chat-widget: datahub
 <div class="alert alert-info mt-3 mb-3" role="alert">
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p>Librarian assistance is available Monday - Friday, 11am - 3pm.<br>
-Visit us in the Map Room (Library 107), chat online (icon in lower right), visit our <a href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, or call (208) 885-7724</p>
+Visit us in the Map Room (Library 107), chat online (icon in lower right), join our <a href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
