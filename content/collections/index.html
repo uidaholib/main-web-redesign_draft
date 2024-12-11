@@ -8,9 +8,7 @@ lazyload: true
 
 {% assign collections = site.data.collections_index %}
 
-{% include collections-sm-nav.html %}
-
-<p class="py-3">The University of Idaho Library facilitates access to many diverse collections. Explore collections that span a variety of topics and formats, including <a href="{{ '/collections/physical.html' | relative_url }}">physical</a> and <a href="{{ '/collections/digital.html' | relative_url }}">digital</a> campus resources as well as collections that preserve and document <a href="{{ '/collections/idaho.html' | relative_url }}">Idaho's</a> past.</p>
+<p class="py-3">The University of Idaho Library facilitates access to many diverse collections. Explore collections that span a variety of topics and formats, including physical and digital campus resources as well as collections that preserve and document Idaho's past.</p>
 
 <div class="row justify-content-center">
     {% for c in collections %}
