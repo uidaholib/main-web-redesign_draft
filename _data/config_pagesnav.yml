@@ -64,40 +64,40 @@ About:
 #        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
-    subpages:
-      - name: Policies
-        url: /about/policies.html
-      - name: Code of Conduct
-        url: /about/policies.html#conduct
-      - name: Circulation
-        url: /about/policies.html#circulation
-      - name: Fines 
-        url: /about/policies.html#fines
-      - name: Cell Phone 
-        url: /about/policies.html#cellphone
-      - name: Food and Drink 
-        url: /about/policies.html#foodanddrink
-      - name: Reserve 
-        url: /about/policies.html#reserve
-      - name: Group Study Rooms
-        url: /about/policies.html#groupstudyrooms
-      - name: Lockers and Carrels
-        url: /about/policies.html#lockerscarrels
-      - name: Collection Management
-        url: /about/policies.html#collmanage
-  - subsection: Reports and Statistics
-    link: /about/statistics.html
+    #subpages:
+    #  - name: Policies
+    #    url: /about/policies.html
+    #  - name: Code of Conduct
+    #    url: /about/policies.html#conduct
+    #  - name: Circulation
+    #    url: /about/policies.html#circulation
+    #  - name: Fines 
+    #    url: /about/policies.html#fines
+    #  - name: Cell Phone 
+    #    url: /about/policies.html#cellphone
+    #  - name: Food and Drink 
+    #    url: /about/policies.html#foodanddrink
+    #  - name: Reserve 
+    #    url: /about/policies.html#reserve
+    #  - name: Group Study Rooms
+    #    url: /about/policies.html#groupstudyrooms
+    #  - name: Lockers and Carrels
+    #    url: /about/policies.html#lockerscarrels
+    #  - name: Collection Management
+    #    url: /about/policies.html#collmanage
+  # - subsection: Reports and Statistics
+  #   link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
   - subsection: Updates and News
     link: /about/updates.html    
   - subsection: Welcome
     link: /about/welcome.html
-    subpages:
-      - name: Welcome
-        url: /about/welcome.html      
-      - name: Recognizing our Faculty
-        url: /recognitions/
+    #subpages:
+    #  - name: Welcome
+    #    url: /about/welcome.html      
+    #  - name: Recognizing our Faculty
+    #    url: /recognitions/
   - subsection: Work with Us
     link: /opportunities/
   - subsection: Visit
@@ -239,12 +239,7 @@ Find:
   - subsection: Diversity, Equity, and Inclusion Resources
     link: /about/dei-resources.html
   - subsection: DVDs and Streaming Video
-    link: /find/video.html
-    subpages: 
-      - name: Streaming Video
-        url: /find/video.html
-      - name: DVDs
-        url: /find/dvds.html     
+    link: /find/video.html   
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
@@ -350,11 +345,9 @@ Services:
       - name: Data Services
         url: /services/data/
       - name: Data Management Guide
-        url: /services/data/data-management/        
+        url: https://www.lib.uidaho.edu/services/data/data-management/        
       - name: DOI Service
         url: /services/data/dois.html
-      - name: Contact / Help
-        url: /datahub/#people
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
