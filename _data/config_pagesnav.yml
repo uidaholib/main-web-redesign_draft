@@ -23,17 +23,6 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, and Inclusion
-    link: /about/dei.html
-    subpages:
-      - name: DEI at U of I Library 
-        url: /about/dei.html
-      - name: Against Racism
-        url: /about/commitment-to-act-against-racism.html
-      - name: Land Acknowledgment Information
-        url: /about/landacknowledgment.html
-      - name: DEI Resources 
-        url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
 #    subpages:
@@ -236,8 +225,6 @@ Find:
     link: /find/data.html
   - subsection: Digital Collections
     link: /digital/
-  - subsection: Diversity, Equity, and Inclusion Resources
-    link: /about/dei-resources.html
   - subsection: DVDs and Streaming Video
     link: /find/video.html   
   - subsection: Encyclopedias and Reference Resources
