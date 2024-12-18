@@ -47,9 +47,9 @@ The legal exception of Fair Use under copyright law allows for the reproduction 
           <td>Purpose & Character of Use</td>
           <td>If the work created is:
             <ul>
-              <li> Educational </li>
-              <li> Transformative </li>
-              <li> Non-profit</li>
+              <li>Educational </li>
+              <li>Transformative </li>
+              <li>Non-profit</li>
             </ul>
           </td>
         </tr>
@@ -57,10 +57,10 @@ The legal exception of Fair Use under copyright law allows for the reproduction 
           <td>Purpose & Character of Original Material</td>
           <td>If the archival material used is: 
             <ul>
-              <li> Factual </li>
-              <li> Non-fiction </li>
-              <li> News </li>
-              <li> Published </li>
+              <li>Factual </li>
+              <li>Non-fiction </li>
+              <li>News </li>
+              <li>Published </li>
             </ul>
           </td>
         </tr>            
@@ -68,8 +68,8 @@ The legal exception of Fair Use under copyright law allows for the reproduction 
           <td>Amount of Original Material Used</td>
           <td>If intended to take from original material: 
             <ul>
-              <li> A small amount </li>
-              <li> Only as much as necessary </li>
+              <li>A small amount </li>
+              <li>Only as much as necessary </li>
             </ul>
           </td>
         </tr>
@@ -77,10 +77,10 @@ The legal exception of Fair Use under copyright law allows for the reproduction 
           <td>Effect of Use on Potential Market</td>
           <td>If:
             <ul>                
-              <li> Use has no significant effect on the market </li>
-              <li> Few copies of work are made/distributed </li>
-              <li> Access to work is restricted (to class use, to private server, etc.) </li>
-              <li> Original work is no longer sold, in print, or distrusted </li>
+              <li>Use has no significant effect on the market </li>
+              <li>Few copies of work are made/distributed </li>
+              <li>Access to work is restricted (to class use, to private server, etc.) </li>
+              <li>Original work is no longer sold, in print, or distrusted </li>
             </ul>
           </td>
         </tr>         
@@ -152,11 +152,13 @@ Primary sources obtained from Special Collections and Archives should be cited a
 
 Please use the following formats when citing archival materials from Special Collections and Archives.  
 
-##### *FOR PHOTOS:* 
+### *FOR PHOTOS:*
+{:.h5}
 
 Photographer, "Title," date. Collection name, object ID. University of Idaho Library Special Collections and Archives, Moscow, ID. 
 
-##### *FOR DOCUMENTS:*
+### *FOR DOCUMENTS:*
+{:.h5}
 
 Author, Description or "Title" of item, date. Collection name, collection number, box, folder. University of Idaho Library Special Collections and Archives, Moscow, ID. 
 
