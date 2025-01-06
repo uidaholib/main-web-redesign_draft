@@ -62,7 +62,7 @@ We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone,
     </div>
 </div>
 
-{% assign people = site.data.about_people | where: 'department','Special Collections and Archives'| sort: 'rank' %}
+{% assign people = site.data.about_people | where: 'department', 'Special Collections and Archives' | sort: 'last_name' %}
 
 <table class="table table-striped">
     <thead>
