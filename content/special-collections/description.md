@@ -19,7 +19,7 @@ Materials housed in Special Collections and Archives typically fall into one of 
 
 {% assign collection_groups = site.data.spec_collection_groups %}
 <div class="row">{% for c in collection_groups %}
-<div class="col-md-4">{% capture text %}{{ c.description }} 
+<div class="col-md-6">{% capture text %}{{ c.description }} 
 
 <a href="{{ c.link }}" class="btn btn-outline-payette-blue">Browse {{ c.display_name }} Collections</a>{% endcapture %}{% include feature/card.html header=c.display_name text=text %}
 </div>{% endfor %}
