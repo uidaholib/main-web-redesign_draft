@@ -7,6 +7,11 @@ lazyload: true
 chat-widget: datahub
 ---
 
+<div class ="alert alert-success" role="alert">
+<h2 class="alert-heading h5">Computer Science Assistance Center moves to Data Hub!</h2>
+<p>Previously located in the Janssen Engineering Building (JEB) Room 211, the Computer Science Assistance Center (CSAC) is a community computer science space open to all students taking computer science courses. It is staffed by CS majors who can help with coursework Monday-Friday during fall and spring semester. For more information, and to view the CSAC tutoring schedule, visit <a href="https://www.uidaho.edu/engr/departments/cs/student-services">the CS Department Student Services page.</a></p>
+</div>
+
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
 <div class="alert alert-info mt-3 mb-3" role="alert">
