@@ -21,7 +21,6 @@ A bibliography of genealogical sources at the University of Idaho Library. For m
 ## Print Sources
 
 - [City directories and phone books]({{ '/special-collections/directories.html' | relative_url }})
-- [Browse all collections held by Special Collections]({{ '/special-collections/browse.html' | relative_url }})
 - University of Idaho General Catalog (also sometimes called the Bulletin).  This is the Course Catalog, which also lists general information about the University and all of the Colleges, Professors, and in the earliest editions, Students, Degrees Granted, and Alumni. There is a complete set for patrons to browse in the Reading Room. [Idaho LB2342.86.I2U5](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/m1uotc/CP71136052900001451)
 - Commencement programs, also available for various University branches [Idaho LD2317.U55](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71131054610001451)
 

@@ -23,17 +23,6 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, and Inclusion
-    link: /about/dei.html
-    subpages:
-      - name: DEI at U of I Library 
-        url: /about/dei.html
-      - name: Against Racism
-        url: /about/commitment-to-act-against-racism.html
-      - name: Land Acknowledgment Information
-        url: /about/landacknowledgment.html
-      - name: DEI Resources 
-        url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
 #    subpages:
@@ -236,8 +225,6 @@ Find:
     link: /find/data.html
   - subsection: Digital Collections
     link: /digital/
-  - subsection: Diversity, Equity, and Inclusion Resources
-    link: /about/dei-resources.html
   - subsection: DVDs and Streaming Video
     link: /find/video.html   
   - subsection: Encyclopedias and Reference Resources
@@ -425,33 +412,22 @@ Special Collections:
   - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
+    link: /special-collections/description.html
   - subsection: Research Tools
     link: /special-collections/searchtools.html
   - subsection: Other Research Tools
     url: 
     subpages:
       - name: Bibliography of U of I History
-        url: /special-collections/uibibliography.html
-      - name: Book Collections List
-        url: /special-collections/books.html
-      - name: Collections Data Table
-        url: /special-collections/data.html
-      - name: Finding Aids
-        url: /special-collections/findingaids.html                
+        url: /special-collections/uibibliography.html              
       - name: Genealogical Resources
         url: /special-collections/genealogicalresources.html       
       - name: Idaho Biographical Index
         url: /special-collections/idahobio.html
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
-      - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html
+      - name: Historic Newspapers
+        url: /find/microfilm.html
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction
@@ -463,8 +439,6 @@ Special Collections:
         url: /special-collections/berry-ijc-fellowship.html
       - name: Strong Spec Fellowship
         url: /special-collections/strong-fellowship.html
-      - name: Latah Historic Sites Fellowship
-        url: /special-collections/latah-historic-map-fellowship.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About

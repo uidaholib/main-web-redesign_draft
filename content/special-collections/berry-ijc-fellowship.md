@@ -15,7 +15,7 @@ permalink: /special-collections/berry-ijc-fellowship.html
 </div>
 
 {:.text-center}
-**This application is open.**
+**This application is currently closed.**
 
 {:.text-center}
 *Questions?* Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
@@ -34,10 +34,9 @@ The applicant may base their research on any [IJC collection](https://www.ijc.ui
 Not sure where to begin? 
 See the the abbreviated [list of collections](#coll) below for project ideas.
 
-The fellowship begins in the spring 2025 semester and will conclude with an exhibition of the student's work at the Lionel Hampton Jazz Festival in April 2025 as part of the Library's International Jazz Collection exhibits. 
+The fellowship will conclude with an exhibition of the student's work at the Lionel Hampton Jazz Festival as part of the Library's International Jazz Collection exhibits. 
 
-The fellow should plan to spend approximately 10-15 hours per week between January and April in order to accomplish the goals of the project. 
-This award includes a $4,000 student fellowship given as a stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc.
+The fellow should plan to spend approximately 10-15 hours per week between January and April in order to accomplish the goals of the project. This award includes a $4,000 student fellowship given as a stipend and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc.
 
 ---
 
@@ -52,7 +51,7 @@ Applicants must submit:
 {:.text-center}
 {% include feature/button.html color="info" text="Submit an Application" link="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" %}
 
-**Applications are due Monday, January 21th, 2025** by midnight and a decision will be announced within two weeks of the deadline.
+**The next Berry IJC Fellowship period is currently pending**.
 
 ---
 

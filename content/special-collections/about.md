@@ -6,7 +6,7 @@ permalink: /special-collections/about.html
 ---
 
 <div class="py-3 text-center">
-    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Browse Collections</a>
+    <a href="{{ '/special-collections/description.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Collection Types</a>
     <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-edit"></span> Plan Your Visit</a>
     <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> Policies</a>
     <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-gift"></span> Donate</a>
@@ -62,7 +62,7 @@ We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone,
     </div>
 </div>
 
-{% assign people = site.data.about_people | where: 'department','Special Collections and Archives'| sort: 'rank' %}
+{% assign people = site.data.about_people | where: 'department', 'Special Collections and Archives' | sort: 'last_name' %}
 
 <table class="table table-striped">
     <thead>
