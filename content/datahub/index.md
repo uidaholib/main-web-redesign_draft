@@ -9,7 +9,7 @@ chat-widget: datahub
 
 <div class ="alert alert-success" role="alert">
 <h2 class="alert-heading h5">Computer Science Assistance Center moves to Data Hub!</h2>
-<p>Previously located in the Janssen Engineering Building (JEB) Room 211, the Computer Science Assistance Center (CSAC) is a community computer science space open to all students taking computer science courses. It is staffed by CS majors who can help with coursework Monday-Friday during fall and spring semester. For more information, and to view the CSAC tutoring schedule, visit <a href="https://www.uidaho.edu/engr/departments/cs/student-services">the CS Department Student Services page.</a></p>
+<p>Previously located in the Janssen Engineering Building (JEB), the Computer Science Assistance Center (CSAC) is a community computer science space open to all students taking computer science courses. It is staffed by CS majors who can help with coursework Monday-Friday during the semester. For more information, and to view the CSAC tutoring schedule, visit the <a class="alert-link" href="https://www.uidaho.edu/engr/departments/cs/student-services">CS Department Student Services page</a>.</p>
 </div>
 
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
@@ -17,7 +17,7 @@ chat-widget: datahub
 <div class="alert alert-info mt-3 mb-3" role="alert">
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p>Librarian assistance is available Monday - Friday, 11am - 3pm.<br>
-Visit us in the Map Room (Library 107), chat online (icon in lower right), join our <a href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
+Visit us in the Map Room (Library 107), chat online (icon in lower right), join our <a class="alert-link" href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
