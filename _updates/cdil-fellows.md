@@ -1,6 +1,6 @@
 ---
 title: Apply now for CDIL Student Fellowships!
-date: 2024-01-17
+date: 2025-01-17
 #archive: true
 ---
 
