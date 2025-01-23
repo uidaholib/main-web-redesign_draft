@@ -13,7 +13,7 @@ Instructors began reporting their course materials costs during scheduling in sp
 
 To learn more about course marking and utilizing open course materials at U of I, explore the FAQs below and visit our pressbook, [Open at the University of Idaho Library](https://uidaho.pressbooks.pub/OpenatUIdaho/).
 
-For help determining if your course would qualify for a Zero or Low Cost marking in the catalog, check out our [U of I Cost Labeling Tool](https://www.lib.uidaho.edu/instruction/cost-labeling-tool/).
+For help determining if your course would qualify for a Zero or Low Cost marking in the catalog, check out our [U of I Course Cost Labeling Tool](https://www.lib.uidaho.edu/instruction/cost-labeling-tool/).
 
 -------------
 
