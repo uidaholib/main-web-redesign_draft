@@ -5,15 +5,15 @@ permalink: /giving/
 layout: page-narrow
 ---
 
-<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://www.givecampus.com/campaigns/3269/donations/new?pdesignation=LibraryDeansExcellenceFund" target="_blank" rel="noopener">Make a Gift!</a>
+<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" target="_blank" rel="noopener">Make a Gift!</a>
 
 ## Contribute to the largest library in Idaho!
 
 Since 1892, the University of Idaho Library has grown from a single classroom located in the University Administration Building to become the largest library in the state of Idaho, providing access to millions of resources and materials for U of I students, faculty, and alumni, as well as Idaho citizens.
 
-<img src="https://www.lib.uidaho.edu/images/libclouds.png" class="img-fluid mb-3" alt="University of Idaho Library">
+<img src="{{ site.lib-media }}/carousel/LibraryClockTower_car.jpg" class="img-fluid mb-3" alt="University of Idaho Library">
 
-We now house <a href="https://www.lib.uidaho.edu/pdf/stats.pdf">well over a million books</a> and almost ten thousand print and online periodical subscriptions. Additionally, we continue, as we have for over a century now, to serve as an official regional depository of U.S. federal government publications, making <a href="https://libguides.uidaho.edu/Documents">almost two million government documents</a> available to the public.
+We now house well over a million books and almost ten thousand print and online periodical subscriptions. Additionally, we continue, as we have for over a century now, to serve as an official regional depository of U.S. federal government publications, making <a href="https://libguides.uidaho.edu/Documents">almost two million government documents</a> available to the public.
 
 --------
 
@@ -33,7 +33,7 @@ Donors help us develop our collections, fund our programs, build our departments
 - Explore <a href="ways.html">ways to give</a>.
 - Discover how you can <a href="endowments.html">target your giving.</a>
 
-Or simply make a gift online using <a href="https://www.givecampus.com/campaigns/3269/donations/new?pdesignation=LibraryDeansExcellenceFund" target="_blank" rel="noopener">U of I Giving</a> and ensure the designation "Library Dean's Excellence Fund" is selected.
+Or simply make a gift online using <a href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" target="_blank" rel="noopener">U of I Giving</a> and ensure the designation "Library Dean's Excellence Fund" is selected.
 
 We thank you for your interest and for your support of the University of Idaho Library.
 
