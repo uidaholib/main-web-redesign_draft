@@ -5,7 +5,7 @@ section: Special Collections
 permalink: /special-collections/donations.html
 ---
 
-Any potential donation of historic materials should be discussed with the department's staff in advance of the gift. Donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
+Any potential donation of historical materials should be discussed with the department's staff in advance of the gift. External (non-University) donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
 
 - [Deed of Gift online form](https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOTk3OFhTNlNPSTRINEY2SlFaSkdaVlQ3OS4u).
 - [Deed of Gift PDF]({{ site.lib-media }}/spec/spec_deed_of_gift.pdf).
@@ -59,11 +59,11 @@ Forms:
 
 --------
 
-## Internal Transfers
+### Internal Transfers
 
-### Transfer of Records to Special Collections and Archives
+#### Transfer of Records to Special Collections and Archives from University of Idaho partners
 
-The following requirements shall be met before any transfer of records to the Library Special Collections and Archives department:
+The following requirements shall be met before any transfer of University of Idaho records to the Library Special Collections and Archives department:
 
 - An initial consultation with Special Collections and Archives to discuss scope of collection
 - Detailed and accurate labeling of record boxes/folders/enclosures

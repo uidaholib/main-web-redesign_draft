@@ -29,7 +29,7 @@ This tutorial will show you how to find articles in the U of I Library. The data
 
 - Type keywords **earworms music brain** in the search box. This is the same as using the Boolean phrase **earworms AND music AND brain** because the database automatically puts an AND in all capital letters between each word. 
 
-- Click search after typing the keywords.
+- Click the magnifying glass after typing the keywords.
 
 {% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/searchscreen.jpg" alt="Academic Search Premier search screen" caption="Academic Search Premier search screen" %}
 
@@ -37,17 +37,11 @@ This tutorial will show you how to find articles in the U of I Library. The data
 
 {% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/resultspage.jpg" alt="Results page" caption="Results page" %}
 
-- Refine results by navigating to the "Refine Results" and "Limit To" sections to add filters to the search results. Check the box to narrow down the search to "Peer-Reviewed" journals and choose a specific date range if necessary.
+- Refine results by choosing the appropriate filters under the search bar. Check the "Peer Reviewed" box to narrow the search to peer-reviewed sources and select a specific date range if necessary.
 
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/refine.jpg" alt="Academic Search Premier search screen" caption="Academic Search Premier search screen" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/filters.jpg" alt="Academic Search Premier filters" caption="Academic Search Premier filters" %}
 
-- The icons in the result list indicate what kind of publication the article is from. 
-
-  - <img src="https://www.lib.uidaho.edu/media/tutorials/periodical.jpg" alt="Periodical" width="50" height="50" /> In Academic Search Premier, periodical means popular magazine. 
-
-  - <img src="https://www.lib.uidaho.edu/media/tutorials/academicjournal.jpg" alt="Academic journal" width="50" height="50" /> Academic journal means a journal that publishes peer-reviewed scholarly articles.
-
-  - <img src="https://www.lib.uidaho.edu/media/tutorials/news.jpg" alt="News" width="50" height="50" /> News means articles that have been published in a newspaper.
+- You might find various types of publications in Academic Search Premier. For example, an academic journal is a journal that publishes peer-reviewed scholarly articles, while news means articles that have been published in a newspaper.
 
 - Find similar articles by clicking relevant subject terms to pull up all the other articles tagged with that term.
 

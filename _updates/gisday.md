@@ -1,7 +1,7 @@
 ---
 title: GIS Day Registration Open!
 date: 2024-10-25
-#archive: true
+archive: true
 ---
 
 [GIS Day @ U of I 2024](https://www.lib.uidaho.edu/gisday/) is coming up Nov 20th, with this year marking the 25th anniversary of the event!

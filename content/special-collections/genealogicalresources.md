@@ -5,7 +5,7 @@ permalink: /special-collections/genealogicalresources.html
 layout: page
 ---
 
-A bibliography of genealogical sources at the University of Idaho Library. For more questions about these sources or where to find them, please [contact](https://www.lib.uidaho.edu/special-collections/about/contact) Special Collections. 
+A bibliography of genealogical sources at the University of Idaho Library. For more questions about these sources or where to find them, please [contact](https://www.lib.uidaho.edu/special-collections/about.html#contact) Special Collections. 
 
 {% include feature/figure.html img="https://objects.lib.uidaho.edu/ott/small/ott597_sm.jpg" alt="Genesee Pioneer Niels J. Visby and Family" %}
 
@@ -16,13 +16,12 @@ A bibliography of genealogical sources at the University of Idaho Library. For m
 - [Search all digital collections](https://www.lib.uidaho.edu/digital/)
 - [Sanborn Fire Insurance Maps](https://www.loc.gov/collections/sanborn-maps) or [access it if you have a university account](https://digitalsanbornmaps.proquest.com/) (available for university accounts only)
 - Many histories and directories are online at the [Internet Archive](https://archive.org/)
-- The [U.S. Population Census data from 1790 to 1930](http://archive.org/details/us_census) provided by the Internet Archive and [for 1940](http://1940census.archives.gov/) through the U.S. National Archives. 
+- The [U.S. Population Census data from 1790 to 1930](http://archive.org/details/us_census) provided by the Internet Archive; census data from [1940](http://1940census.archives.gov/) and [1950](https://www.archives.gov/research/census/1950) are available through the U.S. National Archives. 
 
 ## Print Sources
 
 - [City directories and phone books]({{ '/special-collections/directories.html' | relative_url }})
-- [Browse all collections held by Special Collections]({{ '/special-collections/browse.html' | relative_url }})
-- University of Idaho General Catalog – **Also sometimes called the Bulletin**.  This is the Course Catalog, which also lists general information about the University and all of the Colleges, Professors, and in the earliest editions, Students, Degrees Granted, and Alumni. There is a complete set for patrons to browse in the Reading Room. [Idaho LB2342.86.I2U5](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/m1uotc/CP71136052900001451)
+- University of Idaho General Catalog (also sometimes called the Bulletin).  This is the Course Catalog, which also lists general information about the University and all of the Colleges, Professors, and in the earliest editions, Students, Degrees Granted, and Alumni. There is a complete set for patrons to browse in the Reading Room. [Idaho LB2342.86.I2U5](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/m1uotc/CP71136052900001451)
 - Commencement programs, also available for various University branches [Idaho LD2317.U55](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71131054610001451)
 
 ## A Few Local and Regional Sources
@@ -39,7 +38,7 @@ A bibliography of genealogical sources at the University of Idaho Library. For m
     - [1915-1918](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71154957070001451)
     - [1918-1919](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71101259080001451)
     - [1919-1921](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71101247900001451)
-- The Daily star-mirror, Moscow, Idaho, an index of marriages, divorces, births and deaths. [Day-NW F754.M6W57 1998 v.1-2](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP7197707860001451)
+- The Daily Star-Mirror, Moscow, Idaho, an index of marriages, divorces, births and deaths. [Day-NW F754.M6W57 1998 v.1-2](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP7197707860001451)
 - Genesee news, items extracted from a Genesee, Latah County, Idaho newspaper, a weekly which came out each Friday, concerning births, deaths, marriages, wedding anniversaries, and other items of interest to genealogists. [Day-NW F754.G4W574 1995 v.1-5](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP7197706610001451)
 - Births, deaths, and marriages found in the Genesee advertiser and the Genesee news, Genesee (Latah County) Idaho, 1888 through 1899. [Day-NW F754.G4W57 1998](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71102163820001451)
 - Catholic Church records of the Pacific Northwest.[Day-NW F880.C37](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/f/175rl2u/CP71110687060001451)

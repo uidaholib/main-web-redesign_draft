@@ -23,17 +23,6 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, and Inclusion
-    link: /about/dei.html
-    subpages:
-      - name: DEI at U of I Library 
-        url: /about/dei.html
-      - name: Against Racism
-        url: /about/commitment-to-act-against-racism.html
-      - name: Land Acknowledgment Information
-        url: /about/landacknowledgment.html
-      - name: DEI Resources 
-        url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
 #    subpages:
@@ -64,40 +53,40 @@ About:
 #        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
-    subpages:
-      - name: Policies
-        url: /about/policies.html
-      - name: Code of Conduct
-        url: /about/policies.html#conduct
-      - name: Circulation
-        url: /about/policies.html#circulation
-      - name: Fines 
-        url: /about/policies.html#fines
-      - name: Cell Phone 
-        url: /about/policies.html#cellphone
-      - name: Food and Drink 
-        url: /about/policies.html#foodanddrink
-      - name: Reserve 
-        url: /about/policies.html#reserve
-      - name: Group Study Rooms
-        url: /about/policies.html#groupstudyrooms
-      - name: Lockers and Carrels
-        url: /about/policies.html#lockerscarrels
-      - name: Collection Management
-        url: /about/policies.html#collmanage
-  - subsection: Reports and Statistics
-    link: /about/statistics.html
+    #subpages:
+    #  - name: Policies
+    #    url: /about/policies.html
+    #  - name: Code of Conduct
+    #    url: /about/policies.html#conduct
+    #  - name: Circulation
+    #    url: /about/policies.html#circulation
+    #  - name: Fines 
+    #    url: /about/policies.html#fines
+    #  - name: Cell Phone 
+    #    url: /about/policies.html#cellphone
+    #  - name: Food and Drink 
+    #    url: /about/policies.html#foodanddrink
+    #  - name: Reserve 
+    #    url: /about/policies.html#reserve
+    #  - name: Group Study Rooms
+    #    url: /about/policies.html#groupstudyrooms
+    #  - name: Lockers and Carrels
+    #    url: /about/policies.html#lockerscarrels
+    #  - name: Collection Management
+    #    url: /about/policies.html#collmanage
+  # - subsection: Reports and Statistics
+  #   link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
   - subsection: Updates and News
     link: /about/updates.html    
   - subsection: Welcome
     link: /about/welcome.html
-    subpages:
-      - name: Welcome
-        url: /about/welcome.html      
-      - name: Recognizing our Faculty
-        url: /recognitions/
+    #subpages:
+    #  - name: Welcome
+    #    url: /about/welcome.html      
+    #  - name: Recognizing our Faculty
+    #    url: /recognitions/
   - subsection: Work with Us
     link: /opportunities/
   - subsection: Visit
@@ -236,15 +225,8 @@ Find:
     link: /find/data.html
   - subsection: Digital Collections
     link: /digital/
-  - subsection: Diversity, Equity, and Inclusion Resources
-    link: /about/dei-resources.html
   - subsection: DVDs and Streaming Video
-    link: /find/video.html
-    subpages: 
-      - name: Streaming Video
-        url: /find/video.html
-      - name: DVDs
-        url: /find/dvds.html     
+    link: /find/video.html   
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
@@ -322,24 +304,6 @@ Help:
 
 
 ##########
-# Collections Section
-#
-Collections:
-  - parent: Collections
-    stub: /collections/
-  - subsection: Collections Home
-    link: /collections/
-  - subsection: Special Collections and Archives
-    link: /special-collections/
-  - subsection: Digital
-    link: /collections/digital.html
-  - subsection: Physical
-    link: /collections/physical.html
-  - subsection: Idaho
-    link: /collections/idaho.html
-
-
-##########
 # Services Section
 #
 Services:
@@ -368,11 +332,9 @@ Services:
       - name: Data Services
         url: /services/data/
       - name: Data Management Guide
-        url: /services/data/data-management/        
+        url: https://www.lib.uidaho.edu/services/data/data-management/        
       - name: DOI Service
         url: /services/data/dois.html
-      - name: Contact / Help
-        url: /datahub/#people
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -450,33 +412,22 @@ Special Collections:
   - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
+    link: /special-collections/description.html
   - subsection: Research Tools
     link: /special-collections/searchtools.html
   - subsection: Other Research Tools
     url: 
     subpages:
       - name: Bibliography of U of I History
-        url: /special-collections/uibibliography.html
-      - name: Book Collections List
-        url: /special-collections/books.html
-      - name: Collections Data Table
-        url: /special-collections/data.html
-      - name: Finding Aids
-        url: /special-collections/findingaids.html                
+        url: /special-collections/uibibliography.html              
       - name: Genealogical Resources
         url: /special-collections/genealogicalresources.html       
       - name: Idaho Biographical Index
         url: /special-collections/idahobio.html
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
-      - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html
+      - name: Historic Newspapers
+        url: /find/microfilm.html
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction
@@ -488,8 +439,6 @@ Special Collections:
         url: /special-collections/berry-ijc-fellowship.html
       - name: Strong Spec Fellowship
         url: /special-collections/strong-fellowship.html
-      - name: Latah Historic Sites Fellowship
-        url: /special-collections/latah-historic-map-fellowship.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About

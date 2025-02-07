@@ -63,5 +63,5 @@ Contact us at <libcirc@uidaho.edu> with questions.
 ## Special Collections and Archives
 
 Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
-The rest of our holdings can be searched via [Archives West finding aids](https://archiveswest.orbiscascade.org/search.php?r=idu) or the [Special Collections website]({{ '/special-collections/browse.html' | relative_url }}). 
+The rest of our holdings can be searched via [Archives West finding aids](https://archiveswest.orbiscascade.org/search.php?r=idu). 
 For assistance with finding and accessing this material, please contact our Special Collections staff via email <libspec@uidaho.edu>.

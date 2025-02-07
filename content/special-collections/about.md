@@ -6,7 +6,7 @@ permalink: /special-collections/about.html
 ---
 
 <div class="py-3 text-center">
-    <a href="{{ '/special-collections/browse.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Browse Collections</a>
+    <a href="{{ '/special-collections/description.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-search"></span> Collection Types</a>
     <a href="{{ '/special-collections/plan.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-edit"></span> Plan Your Visit</a>
     <a href="{{ '/special-collections/policies.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-question"></span> Policies</a>
     <a href="{{ '/special-collections/donations.html' | relative_url }}" class="btn btn-secondary my-2 mx-1"><span class="fas fa-gift"></span> Donate</a>
@@ -33,10 +33,6 @@ Learn more about the strengths and focus of our holdings on the [Description of 
 You can view our physical materials by visiting our [Reading Room](/special-collections/plan.html). 
 Many items have been digitized and can be discovered in the [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/) and the [Idaho Harvester](https://harvester.lib.uidaho.edu/),
 and finding aids can be searched on [Archives West](https://archiveswest.orbiscascade.org/search.php?r=idu).
-
-<div class="ratio ratio-16x9">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23VSOWiUOZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 ---
 
@@ -66,7 +62,7 @@ We're available 9am - 5pm, Monday - Friday to answer inquiries via email, phone,
     </div>
 </div>
 
-{% assign people = site.data.about_people | where: 'department','Special Collections and Archives'| sort: 'rank' %}
+{% assign people = site.data.about_people | where: 'department', 'Special Collections and Archives' | sort: 'last_name' %}
 
 <table class="table table-striped">
     <thead>
