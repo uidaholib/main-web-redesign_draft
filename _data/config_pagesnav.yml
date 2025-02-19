@@ -215,8 +215,6 @@ Find:
         url: /find/books.html
       - name: Finding Books Tutorial
         url: /find/find-books.html  
-      - name: Print Book Locations
-        url: /find/lc.html
       - name: Finding eBooks
         url: /find/ebooks.html
 #      - name: Request a Book
