@@ -5,6 +5,13 @@ section: Special Collections
 permalink: /special-collections/donations.html
 ---
 
+<div class="text-center">
+  <a href="#donations" class="btn btn-outline-payette-blue m-1">Donations</a>
+  <a href="#internal-transfers" class="btn btn-outline-payette-blue m-1">Internal Transfers</a>
+  <a href="#monetary-support" class="btn btn-outline-payette-blue m-1">Monetary Support</a>
+</div>
+
+{:#donations}
 ## Donations
 
 Any potential donation of historical materials should be discussed with the department's staff in advance of the gift. External (non-University) donors are required to complete a Deed of Gift form. Having accurate and thorough documentation of donations is beneficial for our repository as well as for researchers. This form can be completed online or downloaded and filled out as a PDF.
@@ -16,6 +23,7 @@ Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potentia
 
 --------
 
+{:#internal}
 ## Internal Transfers
 
 ### Transfer of Records to Special Collections and Archives from University of Idaho partners
@@ -69,6 +77,7 @@ Forms:
 
 --------
 
+{:#monetary}
 ## Monetary Support
 
 Monetary support is not required when gifting archival materials. Financial contributions do enable timely processing and helps underwrite the costs of long-term high security storage. Such funds are used to organize, maintain, and care for our collections so that they may be preserved and made available for future generations.
