@@ -1,9 +1,10 @@
 ---
-title: New Digital Collections from Fellowship Projects
-date: 2024-10-01
+title: New Digital Collections Launched
+date: 2025-02-10
 ---
 
-This year's Gary E. and Carolyn J. Strong Special Collections Fellows have released new digital collections:
+The Library's Digital Collections Team is excited to share several new projects that make fascinating materials from the archives accessible on the web:
 
-- Kate Morrison worked on the processing the "[Plant, Soil, and Entomological Sciences records](https://harvester.lib.uidaho.edu/posts/2024/09/02/establishment-of-agricultural-research-at-the-university-of-idaho.html)" and developed a digital collection highlighting [unique entomological photographs](https://www.lib.uidaho.edu/digital/pses/).
-- Brian Tibayan, worked on processing the WWAMI records collection, and created the [WWAMI Scrapbook digital exhibit](https://www.lib.uidaho.edu/digital/wwami/) to showcase some of the interesting materials related to the establishment of the medical program in Idaho.
+- The [Senator James McClure Collection](https://www.lib.uidaho.edu/digital/jam/), developed in recognition of his 100th birthday, includes a selection of materials from the University of Idaho Special Collections and Archives that reflect the life and career of Senator McClure.
+- [Raycide Mosher Civil War Letters](https://www.lib.uidaho.edu/digital/mosher/) present a collection of letters written by Union soldier Raycide Mosher to his Michigan family between 1864 and 1865.
+- [Latah Legacy Collection](https://www.lib.uidaho.edu/digital/latahlegacy/) makes available the Latah County Historical Society's long running journal publication, the *Latah Legacy*. The issues feature articles, reviews, resources, and events that explore the post-colonization history of the region and document the organization's history.
