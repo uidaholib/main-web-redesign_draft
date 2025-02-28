@@ -20,25 +20,4 @@ Failure to follow the Terms of Use may result in a written warning or, if repeat
 
 ## Fines and Fees
             
-<table class="table table-bordered">
-<thead class="thead-light">
-    <tr>
-    <th scope="col">ITEM</th>
-    <th scope="col">LOAN PERIOD</th>
-    <th scope="col">FINE RATE</th>
-    <th scope="col">REPLACEMENT COST</th>
-    </tr>
-</thead>
-<tbody>{% assign items = site.data.find_equipment | where_exp: 'i','i.loan' %}
-    {% for item in items %}
-    <tr>
-    <td><strong>{{ item.item }}</strong></td>
-    <td>{{ item.loan }}</td>
-    <td>{{ item.fine }}</td>
-    <td>{{ item.replacement_cost }}</td>
-    </tr>
-    {% endfor %}
-</tbody>
-</table>
-
-
+For multimedia equipment fines and fees, please refer to the [LOAN PERIODS FOR UI LIBRARY MULTIMEDIA (NOT AVAILABLE TO GUESTS)](https://www.lib.uidaho.edu/services/borrow/){:target="_blank" rel="noopener"} section.
