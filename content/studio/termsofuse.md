@@ -20,4 +20,4 @@ Failure to follow the Terms of Use may result in a written warning or, if repeat
 
 ## Fines and Fees
             
-For multimedia equipment fines and fees, please refer to the [LOAN PERIODS FOR UI LIBRARY MULTIMEDIA (NOT AVAILABLE TO GUESTS)](https://www.lib.uidaho.edu/services/borrow/){:target="_blank" rel="noopener"} section.
+For multimedia equipment fines and fees, please refer to the [LOAN PERIODS FOR UI LIBRARY MULTIMEDIA (NOT AVAILABLE TO GUESTS)](https://www.lib.uidaho.edu/services/borrow/#multimedia) section.
