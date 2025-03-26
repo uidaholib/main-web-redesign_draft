@@ -11,10 +11,7 @@ permalink: /special-collections/plastino-fellowship.html
     <a href="#mechanics" class="btn btn-secondary btn-sm my-2 mx-1">Fellowship Mechanics</a>
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">Application Process</a>
     <a href="#about" class="btn btn-secondary btn-sm my-2 mx-1">Information about Ben J. Plastino</a>
-    
-    <a href=" https://forms.office.com/r/RfLQi1UcHU" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-    <!--<a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUQUc3WkQ0N0JIUlVZMUpNSEtCWklaWVVNVS4u" class="btn btn-info my-2 mx-1">
-    <span class="fas fa-edit"></span> Submit an Application</a>-->
+    <!--<a href="https://forms.office.com/r/RfLQi1UcHU" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>-->
 </div>
 
 {:.text-center}
@@ -90,12 +87,10 @@ Applicants must submit:
 
 3. A letter of support from a U of I faculty member.
 
+<!--
 <div class="text-center mb-2 pt-3">
     <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-</div>
-<!--
-{:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/r/RfLQi1UcHU" %}-->
+</div>-->
 
 **Applications are due Friday, March 21st** by the end of the day and a decision will be announced within two weeks of the deadline.
 

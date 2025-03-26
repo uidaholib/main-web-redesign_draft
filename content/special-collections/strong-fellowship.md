@@ -10,15 +10,13 @@ permalink: /special-collections/strong-fellowship.html
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
     <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
-    <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-    <!--<a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUNDJJSTVMSk1NMzFHUjZEVFpGTTJUV1Q4Ui4u" class="btn btn-info my-2 mx-1">
-    <span class="fas fa-edit"></span> Submit an Application</a>-->
+    <!--<a href="https://forms.office.com/r/3UbunAida7" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>-->
 </div>
 
 {:.text-center}
 *Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
 
----
+------
 
 {:#call}
 ### Call for Applications
@@ -33,7 +31,7 @@ The award includes a $4,500 student fellowship and up to $500 in research funds 
 
 Since 2021, Strong Fellowship recipients have improved access to a variety of collections, including the [League of Women Voters of Moscow records](https://archiveswest.orbiscascade.org/ark:80444/xv211561), the [Women in Natural Resources collection](https://archiveswest.orbiscascade.org/ark:80444/xv702668), the [Palouse Science Fiction Association collection](https://archiveswest.orbiscascade.org/ark:80444/xv334160), and the [Lyle J. Reed collection](https://archiveswest.orbiscascade.org/ark:80444/xv425711) related to the Old Time Fiddle Festival, the [Plant, Soil, and Entomological Sciences records](https://www.lib.uidaho.edu/digital/pses/), and the [WWAMI records](https://archiveswest.orbiscascade.org/ark:80444/xv759233).     
 
----
+------
 
 {:#process}
 ### Application Process
@@ -41,31 +39,22 @@ Since 2021, Strong Fellowship recipients have improved access to a variety of co
 Applicants must submit: 
 
 1. A letter of no more than 500 words that addresses each of the following questions: 
-
     - What interests you in this fellowship?  
-
     - Which of the available projects listed below would you like to work on and why?  
-
     - What previous experience, education, and/or training do you have that will contribute to the success of this project? 
-
-    - How will you accomplish the work of the fellowship during 6 to 8 weeks over the summer? What timeline would you follow? 
-
+    - How will you accomplish the work of the fellowship during 6 to 8 weeks over the summer? What timeline would you follow?
     - What learning outcomes do you hope to gain through this fellowship? 
-
 2. A current resume or CV.
-
 3. A letter of support from a U of I faculty member.
 
+<!--
 <div class="text-center mb-2 pt-3">
     <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-</div>
-<!--
-{:.text-center}
-{% include feature/button.html color="info" text="Submit an Application" link="https://forms.office.com/r/3UbunAida7" %}-->
+</div>-->
 
 **Applications are due Friday, March 21st** by the end of the day and a decision will be announced within two weeks of the deadline.
 
----
+------
 
 {:#criteria}
 ### Applications will be judged on the following criteria:
@@ -73,26 +62,20 @@ Applicants must submit:
 Applications will be judged on the following criteria: 
 
 - Application materials are clearly written and demonstrate the applicant's understanding of the nature and purpose of the project, how it relates to other work in the field, and it includes a plan for accomplishing project goals. 
-
 - Proposed project allows student to take intellectual ownership and can be reasonably completed in the allotted time. 
-
 - Proposed project provides an opportunity for the student to advance their thesis or dissertation work, or develop a new skill set.  
-
 - Student is prepared for the project (coursework, experience, interest and ability to navigate and use primary sources, etc.) 
-
 - Faculty member has submitted supportive recommendation. 
 
----
+------
 
 {:#potential}
 ### Potential Projects:
 
 - Rehouse, arrange, and describe 16 cubic feet of aerial photographs from Potlatch Corporation.   
-
 - Rehouse, arrange, and describe 8 cubic feet of records from Ken Hungerford and the Wildlife Resources Department.  
-
 - Inventory and describe large donation of historic photos from Nez Perce-Clearwater National Forest.   
 
----
+------
 
 Interested students are strongly encouraged to discuss their proposals with the Head of Special Collections and Archives, Dulce Kersting-Lark, as they are developing their application materials. Dulce can be reached at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
