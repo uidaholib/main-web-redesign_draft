@@ -10,7 +10,7 @@ Leganto is the U of I Library's integrated course reserves platform that helps m
 Embedded directly into your Canvas course and connected to the library's resources, Leganto allows instructors to easily create and customize reading lists, so that students can access all their course materials in one place.
 
 Information for instructors can be found at the [ExLibris Leganto Guide](https://exlibris.libguides.com/c.php?g=1004425&p=9997893) or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
-For general help with Canvas, please check [CETL's excellent support resources](https://www.webpages.uidaho.edu/cetl/canvas-transition.asp).
+For general help with Canvas, please check [CETL's excellent support resources](https://www.webpages.uidaho.edu/cetl/canvas-support.asp).
 
 ## How to Activate Leganto in Canvas
 
