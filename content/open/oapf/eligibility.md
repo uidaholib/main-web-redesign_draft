@@ -41,7 +41,7 @@ Open access membership fees, such as PeerJ Memberships, will be considered on a 
 {% capture author %}
 #### Authors
 
-- Current U of I faculty, staff, researchers, and enrolled students are eligible to apply for the OAPF
+- Current U of I faculty, staff, researchers, and enrolled students, as well as emeritus faculty, are eligible to apply for the OAPF
 - Funding per author is capped at $3000.00 per fiscal year
 - Authors may apply for funding multiple times until their cap is met or funds are exhausted
 
