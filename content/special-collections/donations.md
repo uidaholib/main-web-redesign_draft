@@ -7,8 +7,8 @@ permalink: /special-collections/donations.html
 
 <div class="text-center">
   <a href="#donations" class="btn btn-outline-payette-blue m-1">Donations</a>
-  <a href="#internal-transfers" class="btn btn-outline-payette-blue m-1">Internal Transfers</a>
-  <a href="#monetary-support" class="btn btn-outline-payette-blue m-1">Monetary Support</a>
+  <a href="#internal" class="btn btn-outline-payette-blue m-1">Internal Transfers</a>
+  <a href="#monetary" class="btn btn-outline-payette-blue m-1">Monetary Support</a>
 </div>
 
 {:#donations}
