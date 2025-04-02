@@ -18,7 +18,6 @@ If you have any questions, please don't hesitate to reach out to <library@uidaho
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
-[Apply](#apply){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
@@ -76,7 +75,7 @@ Visual and performing arts are easy to find, be it a photography display at the 
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
 
-## Apply
+## Apply!
 
 If you, or someone you know would be interested in this position, please follow the link below to the application: 
 
