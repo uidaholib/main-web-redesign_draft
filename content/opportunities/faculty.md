@@ -8,9 +8,9 @@ layout: page-narrow
 The University of Idaho Library features a dynamic team of [faculty librarians](https://www.lib.uidaho.edu/about/librarians.html). 
 We regularly advertise new career opportunities via the [university's job portal](https://uidaho.peopleadmin.com/).
 
-<!--[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}-->
+[Instruction and User Services Librarian](https://uidaho.peopleadmin.com/postings/47851/){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}
 
-There are no listings at this time, but please check back!
+<!--There are no listings at this time, but please check back!-->
 If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?
@@ -18,39 +18,33 @@ If you have any questions, please don't hesitate to reach out to <library@uidaho
 [Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
 [Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
 [Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
+[Apply](#apply){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
 ## Our Library
 
-Candidates will join an innovative and energetic workplace with an opportunity to develop new roles, establish new programs, work with cutting-edge technology, and collaborate to reimagine data organization at the library. The dynamic staff and faculty group at the University of Idaho boasts decades of experience, enhanced by the recent addition of many talented digital, data, and research specialists.  
+Candidates will join an innovative and energetic workplace with an opportunity to engage in impactful librarianship, research, service, and outreach. The dynamic staff and faculty group at the University of Idaho boasts decades of experience, which has been enhanced by the recent addition of many talented user services, digital, archival, data, and research specialists. 
 
-Our Library faculty regularly publish in top journals, present internationally at important venues, and receive significant grants from agencies including the National Endowment for the Humanities and the Institution for Museum and Library Services (over $1 million in awards in recent years). Just as important, our employees are interesting, supportive, kind people dedicated to serving our community while maintaining a healthy work-life balance.  
+Our Library faculty regularly publish in top journals, present internationally at important venues, and receive significant grants from agencies including the National Endowment for the Humanities and the Institution for Museum and Library Services (over $1 million in awards in recent years). Just as important, our employees are interesting, supportive, kind people dedicated to serving our community while maintaining a healthy work-life balance.   
 
 The U of I Library is well connected in the region as a proud member of the [Orbis Cascade Alliance](https://www.orbiscascade.org/), a consortium of 39 colleges and universities across Oregon, Washington, and Idaho. We also stay connected with our academic partners throughout the state as members of the newly established [Network of Idaho Academic Libraries](https://idahoacademiclibraries.org/).  
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Campbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
-Our new Open Publishing Librarian will come into a program with enormous potential. For example, the Library’s recent collaboration with Dr. Sydney Freeman helped produce [The Seminal History and Prospective Future of Blacks at the University of Idaho](https://uidaho.pressbooks.pub/blackhistory/), a book that was produced in both electronic and print formats, and accompanied by campus events, a travelling exhibition, and an extensive [digital collection](https://www.lib.uidaho.edu/blackhistory/).  
-
-That digital collection uses [CollectionBuilder](https://collectionbuilder.github.io/), an open source framework for creating digital collections and exhibit websites developed at the Library’s [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/).
-This innovative tool powers our [Digital Collections](https://www.lib.uidaho.edu/digital/) and scholarship projects, and has been showcased at events like the Global Digital Humanities Symposium, Code4Lib, and the DLF Forum. It has been used by hundreds of academic and cultural institutions, some of which you can explore in our [CollectionBuilder Examples](https://collectionbuilder.github.io/cb-examples/) site. 
+The new Instruction and User Services Librarian will join our Access & Engagement Unit, which is committed to providing point-of-need reference, research, circulation, and course reserves services to patrons. They will also join the First Year Experience Team and collaborate with colleagues to develop and offer information literacy sessions as well as connect and support students as they transition to collegiate studies and research. The day-to-day work of Access & Engagement often informs faculty research and scholarship and in spring 2025, faculty members in this unit co-facilitated a roundtable at ACRL on information literacy instruction in high school dual enrollment programs and will present at LILAC on [cooperative virtual reference](https://www.lilacconference.com/events/2025/librarians-without-borders-opportunity-and-hesitancy-in-cooperative-virtual-reference).
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside CDIL" %}
 
-Our new Digital Archivist and Archivist and Special Collections Librarian will join a department committed to community engagement. Our Special Collections and Archives faculty regularly contribute articles to regional publications including the Moscow-Pullman Daily News and Lewiston Tribune. We also engage with the community through [The Harvester](https://harvester.lib.uidaho.edu/), a blog and working collection of unique archival materials where our archivists can expand on smaller histories and how they relate to the archive as a whole. 
+Faculty and staff in this unit also create and facilitate events and opportunities that foster a sense of community for our students, such as Library mini golf and [Hit the Book(s) Club](https://libguides.uidaho.edu/bookclub). These opportunities often arise through partnerships with campus offices and centers, including Housing & Residence Life, the International Programs Office, and the Center for Disability Access and Resources. 
 
-We also partner with local and regional groups to bring history to diverse audiences. 
-For example, last fall we partnered with the Latah County Historical Society to organize an archival [“unboxing event”](https://www.lmtribune.com/northwest/long-awaited-unboxing-of-psychiana-s-prized-find-a-diary/article_c24b3eb1-089a-5b19-9891-ae2e4734a954.html) that highlighted a unique story in Moscow’s past. 
-Our archive also collaborates to make materials more accessible through exhibitions and displays, like with the [Barnard Stockbridge Museum](https://www.barnardstockbridge.com/) in Wallace, Idaho. 
+There’s so much more to say about the U of I Library (our archival holdings, digital collections, and data and geospatial services are top notch; we collaborate across campus for almost everything we do; we have some amazing workshop series; and so much more!), but you’d probably like to know a bit more about the University of Idaho. 
 
-There’s so much more to say about the U of I Library (our student engagement programs are top notch, we collaborate across campus for almost everything we do, we have some amazing workshop series, and so much more!), but you’d probably like to know a bit more about the University of Idaho.
-
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
+{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Campbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
 
 ## Our University
 
-Candidates will enter the university at an exciting point in its over 130 year old lifespan, with the previous two years seeing the two largest first-year student classes in university history. For the fourth year in a row, the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation. Furthermore, in 2025 we expect to be the [first university in Idaho](https://www.chronicle.com/article/carnegie-is-changing-how-it-classifies-r1-institutions-will-your-university-make-the-cut?sra=true) to achieve the highest level of classification for research activity (R1) as determined by the Carnegie Classification. 
+Candidates will enter the university at an exciting point in its over 130-year old lifespan, with the previous three years seeing the three largest first-year student classes in university history. [For the fifth year in a row](https://www.uidaho.edu/news/usnwr), the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation among public colleges. Furthermore, in 2025 we became the [first and only university in Idaho](https://www.uidaho.edu/ui/ucm/carnegie-r1) to achieve the highest level of classification for research activity (R1) as determined by the Carnegie Classification.
 
 In addition to being the leading research institution in the state, the university is also a land-grant institution, with [46 extension centers](https://www.uidaho.edu/extension/directory/counties) in 42 of Idaho’s 44 counties. These centers support researchers, educators, and specialists in the disciplines of forestry and natural resources, horticulture, aquaculture, and much more, in a long-standing effort to empower youth and develop communities across Idaho. 
 
@@ -82,15 +76,10 @@ Visual and performing arts are easy to find, be it a photography display at the 
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
 
-<!--
-## Apply!
+## Apply
 
-If you, or someone you know would be interested in these positions, please follow these links to the applications: 
+If you, or someone you know would be interested in this position, please follow the link below to the application: 
 
-[Digital Archivist](http://uidaho.peopleadmin.com/postings/43233){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3} 
-[Archivist & Special Collections Librarian](http://uidaho.peopleadmin.com/postings/43227){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
-[Open Publishing Librarian](http://uidaho.peopleadmin.com/postings/43224){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3}
+[Instruction and User Services Librarian](https://uidaho.peopleadmin.com/postings/47851/){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3} 
 
-We see these as dynamic, complimentary roles, and welcome candidates to apply to more than one posting matching their experiences.
-If you have any questions about these positions, please don't hesitate to reach out to our team at <library@uidaho.edu>.
--->
+If you have any questions about this position, please don't hesitate to reach out to our team at <library@uidaho.edu>.
