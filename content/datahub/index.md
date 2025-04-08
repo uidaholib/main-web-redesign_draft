@@ -14,28 +14,32 @@ chat-widget: datahub
 
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
+<div class="row">
+<div class="col-lg-6">
 <div class="alert alert-info mt-3 mb-3" role="alert">
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> Data Hub Semester Hours</h2>
-<p>Librarian assistance is available:
-    <ul>
-        <li>Monday - Friday, 11am - 3pm</li>
-    </ul>
-Visit in the Map Room (Library 107), chat online (icon in lower right), join our <a class="alert-link" href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
+<p>Librarian assistance is available:</p>
+<ul>
+    <li>Monday - Friday, 11am - 3pm</li>
+</ul>
+<p>Visit in the Map Room (Library 107), chat online (icon in lower right), join our <a class="alert-link" href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
-
+</div>
+<div class="col-lg-6">
 <div class="alert alert-info mt-3 mb-3" role="alert">
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> CSAC Semester Hours</h2>
-<p>Assistance with CS courses is available:
-    <ul>
-        <li>Mon - 11am - 12pm, 1:30pm - 4pm</li>
-        <li>Tue - 11am - 6pm</li>
-        <li>Wed - 11am - 12pm, 1:30pm - 6pm</li>
-        <li>Thu - 11am - 3pm</li>
-        <li>Fri - 11am - 12pm, 1:30pm - 4pm</li>
-    </ul>
-Visit in the Map Room (Library 107).</p>
+<p class="mb-3">Assistance with CS courses is available:</p>
+<ul>
+    <li>Monday - 11am - 12pm, 1:30pm - 4pm</li>
+    <li>Tuesday - 11am - 6pm</li>
+    <li>Wednesday - 11am - 12pm, 1:30pm - 6pm</li>
+    <li>Thursday - 11am - 3pm</li>
+    <li>Friday - 11am - 12pm, 1:30pm - 4pm</li>
+</ul>
+</div>
+</div>
 </div>
 
 The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.

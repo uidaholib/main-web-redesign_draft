@@ -4,18 +4,6 @@ section: The Studio
 permalink: /studio/
 layout: page
 ---
-<!--<div class="alert alert-success text-center" role="alert">
-  The Studio has moved to Room 122, next to the information desk!
-</div>
-
-<div class="alert alert-info text-center" role="alert">
-<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
-<p class="h5">Monday - Thursday, 9am - 9pm<br>
-Friday, 9am - 7pm<br>
-Saturday - Sunday, 12pm - 5pm</p>
-<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Summer Hours</h2>
-<p class="h5">Monday - Friday, 9am - 6pm</p>
-</div>-->
 
 Located on the first floor of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
