@@ -4,11 +4,11 @@ section: The Studio
 permalink: /studio/
 layout: page
 ---
-<div class="alert alert-success text-center" role="alert">
+<!--<div class="alert alert-success text-center" role="alert">
   The Studio has moved to Room 122, next to the information desk!
 </div>
 
-<!--<div class="alert alert-info text-center" role="alert">
+<div class="alert alert-info text-center" role="alert">
 <h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
 <p class="h5">Monday - Thursday, 9am - 9pm<br>
 Friday, 9am - 7pm<br>
@@ -17,10 +17,9 @@ Saturday - Sunday, 12pm - 5pm</p>
 <p class="h5">Monday - Friday, 9am - 6pm</p>
 </div>-->
 
-Located on the first floor of the Library, the Studio offers dedicated space to students, staff, and faculty to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
-Faculty and staff can capture high-quality video lectures and instructional videos using the [eGlass](https://eglass.io/){:target="_blank" rel="noopener"} and other [Studio equipment]({{ '/studio/equipment.html' | relative_url }}). 
+Located on the first floor of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
-To use the Studio, please access the booking calendar link below to reserve a time. Reservations must be made eight hours in advance. At the time of your appointment, please bring your Vandal card to the Circulation Desk to check out the Studio key. 
+To use the Studio, please access the booking calendar link below to reserve a time. Reservations must be made eight hours in advance. At the time of your appointment, please bring your Vandal card to the Circulation Desk to check out the Studio key.
 
 First-time users are welcome to use the space. If interested in receiving an orientation with a staff member, please fill out the [request an orientation form](https://uidaho.co1.qualtrics.com/jfe/form/SV_87Ybp5wTfqm9Cqa){:target="_blank" rel="noopener"} to schedule a meeting.
 
