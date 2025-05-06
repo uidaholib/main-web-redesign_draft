@@ -16,7 +16,7 @@
     - "border" = use "true" to add a rounded border
 
 {%- endcomment -%}
-<div class="text-center">
+<div class="text-center mt-4 mb-5">
     <figure class="figure mx-3{% if include.float %} float-{{ include.float }}{% endif %}{% if include.width %} w-{{ include.width }}{% endif %}{% if include.border == true %} border rounded{% endif %}">
         <img class="figure-img img-fluid rounded lazyload" alt="{{ figure.alt | escape }}" data-src="{{ include.img }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E">
         {% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{% endif %}
