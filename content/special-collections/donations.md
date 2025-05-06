@@ -5,10 +5,10 @@ section: Special Collections
 permalink: /special-collections/donations.html
 ---
 
-<div class="text-center">
-  <a href="#donations" class="btn btn-outline-payette-blue m-1">Donations</a>
-  <a href="#internal" class="btn btn-outline-payette-blue m-1">Internal Transfers</a>
-  <a href="#monetary" class="btn btn-outline-payette-blue m-1">Monetary Support</a>
+<div class="text-center mb-2 pt-3">
+    <a href="#donations" class="btn btn-secondary btn-sm my-2 mx-1">Donations</a>
+    <a href="#internal" class="btn btn-secondary btn-sm my-2 mx-1">Internal Transfers</a>
+    <a href="#monetary" class="btn btn-secondary btn-sm my-2 mx-1">Monetary Support</a>
 </div>
 
 {:#donations}
