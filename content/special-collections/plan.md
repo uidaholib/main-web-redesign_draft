@@ -62,7 +62,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
         <tbody>
           <tr>
             <td>Tuesday - Thursday</td>
-            <td>9:00am - 12:00pm</td>
+            <td>9:00am - 1:00pm</td>
           </tr>
           <tr>
             <td>or by appointment</td>
