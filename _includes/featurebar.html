@@ -12,14 +12,15 @@
               /* featured librarians */
               var researchers = [
                   // img, college, name, email, vivo, departments
+                  [ "/directory/joe_headshot2.jpg", "Liaison to the University", "Joe \"Reference\" Vandal", "libref@uidaho.edu", "/help/", "Got questions? Just ask us!"],
                   {% for l in liaisons %}{% assign liaison = site.data.about_people | where: 'id', l.id | first %}
-                  [ "{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","{{ l.id }}","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
+                  [ "{% if liaison.image %}/directory/{{ liaison.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}","{{ l.liaison_title }}","{{ l.first_name }} {{ l.last_name }}","{{ l.email }}","/about/people/{{ l.id }}.html","{{ l.liaison_departments }}" ]{% unless forloop.last %},{% endunless %}
                   {% endfor %}
               ];
               var featuredResearcher = researchers.sort(function() { return 0.5 - Math.random() }).pop();
-              var featuredCard = `<a href="{{ '/about/people/' | relative_url }}${ featuredResearcher[4]}.html"><img class="img-fluid rounded" src="{{ site.lib-media }}${featuredResearcher[0]}" alt="portrait of ${featuredResearcher[2]}"></a>
+              var featuredCard = `<a href="${ featuredResearcher[4]}"><img class="img-fluid rounded" src="{{ site.lib-media }}${featuredResearcher[0]}" alt="portrait of ${featuredResearcher[2]}"></a>
               <div class="card-body"> 
-                <h4 class="card-title"><a href="{{ '/about/people/' | relative_url }}${featuredResearcher[4]}.html">${featuredResearcher[2]}</a></h4>
+                <h4 class="card-title"><a href="${featuredResearcher[4]}">${featuredResearcher[2]}</a></h4>
                 <p class="card-text"><strong>${featuredResearcher[1]}</strong><br>${featuredResearcher[5]}</p> 
                 <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_1GJiDTJ7po0bDk9?topic=${encodeURIComponent(featuredResearcher[1])}&person=${encodeURIComponent(featuredResearcher[2])}&email=${encodeURIComponent(featuredResearcher[3])}" target="_blank" rel="noopener" class="btn btn-outline-pride-gold">Request Meeting</a>
               </div>`;
