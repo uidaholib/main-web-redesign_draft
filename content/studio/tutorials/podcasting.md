@@ -74,7 +74,7 @@ After finishing your editing, go to **Tracks > Mix > Mix and Render to New Track
 ## 4. Exporting
 {:.h3}
 
-To export, go to **File > Export > Export as WAV**.
+Go to **File > Export > Export as WAV** to export the uncompressed, best quality file, or **File > Export > Export as MP3** to export the compressed, smaller-sized file optimized for sharing.
 
 {% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/podcasting_export.png" alt="Export" caption="Export" %}
 
