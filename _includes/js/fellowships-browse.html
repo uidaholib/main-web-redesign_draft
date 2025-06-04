@@ -1,0 +1,153 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all control elements
+    const viewToggleButtons = document.querySelectorAll('.view-toggle');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const browseItems = document.querySelectorAll('.browse-item');
+    const searchInput = document.getElementById('browseSearch');
+    const searchBtn = document.getElementById('searchBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const noResults = document.getElementById('noResults');
+    const itemCount = document.getElementById('itemCount');
+
+    let currentView = 'all';
+    let currentFilter = 'all';
+    let currentSearchTerm = '';
+
+    // View toggle functionality
+    viewToggleButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            viewToggleButtons.forEach(btn => {
+                btn.classList.remove('active', 'btn-pride-gold');
+                btn.classList.add('btn-outline-pride-gold');
+            });
+            this.classList.remove('btn-outline-pride-gold');
+            this.classList.add('active', 'btn-pride-gold');
+            
+            currentView = this.dataset.view;
+            applyFilters();
+        });
+    });
+
+    // Filter functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentFilter = this.dataset.filter;
+            applyFilters();
+        });
+    });
+
+    // Search functionality
+    function performSearch() {
+        currentSearchTerm = searchInput.value.toLowerCase().trim();
+        applyFilters();
+    }
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    // Reset functionality
+    resetBtn.addEventListener('click', function() {
+        searchInput.value = '';
+        currentSearchTerm = '';
+        currentFilter = 'all';
+        currentView = 'all';
+        
+        // Reset active buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('[data-filter="all"]').classList.add('active');
+        
+        viewToggleButtons.forEach(btn => {
+            btn.classList.remove('active', 'btn-pride-gold');
+            btn.classList.add('btn-outline-pride-gold');
+        });
+        document.querySelector('[data-view="all"]').classList.remove('btn-outline-pride-gold');
+        document.querySelector('[data-view="all"]').classList.add('active', 'btn-pride-gold');
+        
+        applyFilters();
+    });
+
+    // Apply filters and search
+    function applyFilters() {
+        let visibleCount = 0;
+
+        browseItems.forEach(item => {
+            const itemType = item.dataset.type;
+            const fellowshipType = item.dataset.fellowship;
+            const searchData = item.dataset.search;
+            
+            // Check view match
+            let viewMatch = false;
+            if (currentView === 'all') {
+                viewMatch = true;
+            } else if (currentView === 'people' && itemType === 'person') {
+                viewMatch = true;
+            } else if (currentView === 'projects' && itemType === 'project') {
+                viewMatch = true;
+            }
+            
+            // Check filter match
+            const filterMatch = currentFilter === 'all' || fellowshipType === currentFilter;
+            
+            // Check search match
+            const searchMatch = currentSearchTerm === '' || searchData.includes(currentSearchTerm);
+            
+            if (viewMatch && filterMatch && searchMatch) {
+                item.style.display = 'block';
+                visibleCount++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        // Show/hide no results message
+        if (visibleCount === 0) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
+
+        // Update item count
+        const totalItems = browseItems.length;
+        itemCount.textContent = `${visibleCount} of ${totalItems} items`;
+        if (currentView === 'people') {
+            itemCount.textContent = `${visibleCount} of ${totalItems} fellows`;
+        } else if (currentView === 'projects') {
+            itemCount.textContent = `${visibleCount} of ${totalItems} projects`;
+        }
+    }
+
+    // Prevent modal from opening when clicking external link
+    document.querySelectorAll('.browse-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+            // If clicked element is a link or button, don't open modal
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('a')) {
+                e.stopPropagation();
+                return false;
+            }
+        });
+    });
+
+    // Real-time search as user types (debounced)
+    let searchTimeout;
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            currentSearchTerm = this.value.toLowerCase().trim();
+            applyFilters();
+        }, 300);
+    });
+
+    // Initialize count on page load
+    applyFilters();
+});
+</script>

@@ -1,0 +1,572 @@
+---
+title: Fellowship Programs
+section: Fellowships
+permalink: /fellowships/
+layout: full-width-page
+custom-foot: js/fellowships-browse.html
+---
+{% assign all_fellows = site.data.fellowships %}
+<div class="container-fluid">
+
+    <!-- Hero Section -->
+    <section class="pt-2 pb-5">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7">
+                    <p class="lead my-5">Since 2017, the University of Idaho Library has supported over 80 students and
+                        faculty through fellowship programs that foster experiential learning and real-world impact. Our
+                        fellows have created innovative digital scholarship projects, developed open educational
+                        resources that save students hundreds of thousands of dollars in textbook costs, and built
+                        digital collections that preserve and share Idaho's cultural heritage.</p>
+                    <p>From undergraduate students to seasoned faculty, these fellowships provide hands-on experience
+                        with cutting-edge research methods while producing tangible outputs that benefit the university
+                        and broader community.</p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+
+                        <a href="#impact" class="btn btn-pride-gold btn-lg">See Our Impact</a>
+                        <a href="#programs" class="btn btn-outline-pride-gold btn-lg">View Fellowship Programs</a>
+                        <a href="#browse" class="btn btn-outline-success btn-lg">Explore Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h5 class="text-center mb-3">Featured Fellowship Projects</h5>
+                    
+                    <!-- Group projects by project name and site to eliminate duplicates -->
+                    {% assign projects_with_sites = all_fellows | where_exp: "item", "item.site != nil and item.site != '' and item.project_image != nil" %}
+                    {% assign unique_projects = projects_with_sites | group_by: "project" %}
+                    {% assign featured_projects = unique_projects | sample: 30 %}
+                    
+                    <div id="featuredProjectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            {% for project_group in featured_projects %}
+                            {% assign project = project_group.items[0] %}
+                            {% assign contributors = project_group.items %}
+                            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                <a href="{{ project.site }}" target="_blank" class="text-decoration-none">
+                                    <div class="card shadow-sm h-100" style="cursor: pointer;">
+                                        {% if project.project_image %}
+                                        <img src="{{ project.project_image }}" class="card-img-top" style="height: 200px; object-fit: cover;" alt="{{ project.project }}">
+                                        {% else %}
+                                        <div class="bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                                            <i class="fas fa-project-diagram fa-3x text-muted"></i>
+                                        </div>
+                                        {% endif %}
+                                        <div class="card-body d-flex flex-column">
+                                            <h6 class="card-title text-dark">{{ project.project }}</h6>
+                                            <p class="card-text small text-muted flex-grow-1">{{ project.description | truncatewords: 15 }}</p>
+                                            <div class="mt-auto">
+                                                <small class="text-muted">
+                                                    {% if contributors.size > 1 %}
+                                                        <strong>{{ contributors.size }} Contributors:</strong><br>
+                                                        {% for contributor in contributors limit: 2 %}
+                                                            {{ contributor.firstname }} {{ contributor.lastname }}{% unless forloop.last %}, {% endunless %}
+                                                        {% endfor %}
+                                                        {% if contributors.size > 2 %} & {{ contributors.size | minus: 2 }} more{% endif %}
+                                                    {% else %}
+                                                        <strong>{{ project.firstname }} {{ project.lastname }}</strong>
+                                                    {% endif %}
+                                                    <br>{{ project.year }} • {{ project.fellowship | remove: "Fellowship" | strip }}
+                                                </small>
+                                                <div class="text-end mt-2">
+                                                    <small class="text-pride-gold">
+                                                        <i class="fas fa-external-link-alt"></i> View Project
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#featuredProjectsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#featuredProjectsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+<!-- Impact Statistics -->
+<section id="impact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Program Impact</h2>
+
+        
+        {% assign total_fellows = all_fellows | size %}
+        {% assign think_open_fellows = all_fellows | where: "fellowship", "ThinkOpen Fellowship" %}
+        {% assign total_students_impacted = think_open_fellows | map: "students_impacted" | compact | map: "size" %}
+        {% assign total_savings = think_open_fellows | map: "students_savings" | compact %}
+
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <div class="display-4 text-pride-gold mb-2">{{ total_fellows }}</div>
+                        <h5>Total Fellows</h5>
+                        <p class="text-muted">Since 2017</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        {% assign unique_projects = all_fellows | map: "project" | compact | uniq | size %}
+                        <div class="display-4 text-clearwater mb-2">{{ unique_projects }}</div>
+                        <h5>Unique Projects</h5>
+                        <p class="text-muted">Digital collections, websites, OER</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        {% assign students_total = 0 %}
+                        {% for fellow in think_open_fellows %}
+                        {% if fellow.students_impacted %}
+                        {% assign num = fellow.students_impacted | plus: 0 %}
+                        {% assign students_total = students_total | plus: num %}
+                        {% endif %}
+                        {% endfor %}
+                        <div class="display-4 text-palouse-green mb-2">{{ students_total }}</div>
+                        <h5>Students Impacted</h5>
+                        <p class="text-muted">Through OER initiatives</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        {% assign savings_total = 0 %}
+                        {% for fellow in think_open_fellows %}
+                        {% if fellow.students_savings %}
+                        {% assign savings_clean = fellow.students_savings | remove: "$" | remove: "," | plus: 0 %}
+                        {% assign savings_total = savings_total | plus: savings_clean %}
+                        {% endif %}
+                        {% endfor %}
+                        <div class="display-4 text-wild-rose mb-2">${{ savings_total | divided_by: 1000 }}K+</div>
+                        <h5>Student Savings</h5>
+                        <p class="text-muted">In textbook costs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Fellowship Programs Overview -->
+<section id="programs" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+        <h2 class="">Fellowship Opportunities</h2>
+<p class="h5 col-lg-8 offset-lg-2">The library offers fellowships for undergrads, graduate students, and faculty members at the University of Idaho. Fellowships vary in amount, timeframe, and objectives, but each looks to use library collections and/or librarian expertise to help fellows develop projects and research. See below for a list of fellowships offered by the library. </p>
+    </div>
+
+        {% assign active_fellowships = site.data.opportunities_fellowships %}
+
+        <div class="row">
+            {% for fellowship in active_fellowships %}
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            {% if fellowship.link %}
+                            <a href="{{ fellowship.link }}" class="text-decoration-none">{{ fellowship.title }}</a>
+                            {% else %}
+                            {{ fellowship.title }}
+                            {% endif %}
+                        </h5>
+                        <p class="card-text flex-grow-1">{{ fellowship.description | truncatewords: 25 }}</p>
+
+                        <div class="mt-auto">
+                            <div class="row text-center mb-3">
+                                <div class="col-6">
+                                    <small class="text-muted d-block">Eligible</small>
+                                    <small><strong>{{ fellowship.eligible }}</strong></small>
+                                </div>
+                                <div class="col-6">
+                                    <small class="text-muted d-block">Award</small>
+                                    <small><strong>{{ fellowship.amount }}</strong></small>
+                                </div>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                {% if fellowship.link %}
+                                <a href="{{ fellowship.link }}" class="btn btn-outline-pride-gold btn-sm">Learn More</a>
+                                {% endif %}
+                                {% if fellowship.application_link %}
+                                <a href="{{ fellowship.application_link }}" class="btn btn-pride-gold btn-sm">Apply
+                                    Now</a>
+                                {% endif %}
+                            </div>
+
+                            {% if fellowship.deadline and fellowship.deadline != "Rolling" %}
+                            <div class="text-center mt-2">
+                                <small class="text-muted"><i class="fas fa-calendar"></i> Deadline: {{
+                                    fellowship.deadline }}</small>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+<!-- Browse Fellows and Projects -->
+<section id="browse" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Explore Fellows and Their Work</h2>
+
+        <!-- Filter Controls -->
+        <div class="text-center mb-4">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                        <button class="view-toggle btn btn-pride-gold active" data-view="all">All</button>
+                        <button class="view-toggle btn btn-outline-pride-gold" data-view="people">Fellows</button>
+                        <button class="view-toggle btn btn-outline-pride-gold" data-view="projects">Projects</button>
+                    </div>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                        <button class="filter-btn btn btn-outline-clearwater active" data-filter="all">All
+                            Types</button>
+                        <button class="filter-btn btn btn-outline-clearwater" data-filter="digital-scholarship">CDIL</button>
+                        <button class="filter-btn btn btn-outline-palouse-green" data-filter="thinkopen">Think Open</button>
+                        <button class="filter-btn btn btn-outline-wild-rose" data-filter="jazz-collections">Berry Fellowship</button>
+                        <button class="filter-btn btn btn-outline-secondary" data-filter="special-collections">Strong Fellowship</button>
+                        <button class="filter-btn btn btn-outline-pride-gold" data-filter="plastino">Plastino Fellowship</button>
+                        <button class="filter-btn btn btn-outline-info" data-filter="levine">Levine Fellowship</button>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="browseSearch"
+                            placeholder="Search by name, project, or keyword...">
+                        <button class="btn btn-pride-gold" type="button" id="searchBtn">Search</button>
+                        <button class="btn btn-outline-secondary" type="button" id="resetBtn">Reset</button>
+                    </div>
+                    <div class="text-center mt-2">
+                        <small class="text-muted" id="itemCount">Loading...</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create unique lists for people and projects -->
+        {% assign all_fellows = site.data.fellowships %}
+        {% assign unique_people = all_fellows | group_by: "full name" %}
+        {% assign unique_projects = all_fellows | group_by: "project" %}
+
+        <!-- Fellows Grid -->
+        <div class="row" id="browseGrid">
+
+            <!-- People Cards -->
+            {% for person_group in unique_people %}
+            {% assign person = person_group.items[0] %}
+            {% assign person_projects = person_group.items %}
+            {% assign fellowship_type = "" %}
+            {% if person.fellowship contains "CDIL" %}
+            {% assign fellowship_type = "digital-scholarship" %}
+            {% elsif person.fellowship contains "ThinkOpen" %}
+            {% assign fellowship_type = "thinkopen" %}
+            {% elsif person.fellowship contains "Berry" or person.fellowship contains "Jazz" %}
+            {% assign fellowship_type = "jazz-collections" %}
+            {% elsif person.fellowship contains "Strong" or person.fellowship contains "Special" %}
+            {% assign fellowship_type = "special-collections" %}
+            {% elsif person.fellowship contains "Plastino" %}
+            {% assign fellowship_type = "plastino" %}
+            {% elsif person.fellowship contains "Levine" %}
+            {% assign fellowship_type = "levine" %}
+            {% else %}
+            {% assign fellowship_type = "other" %}
+            {% endif %}
+
+            <div class="col-lg-4 col-md-6 mb-4 browse-item person-item" data-type="person"
+                data-fellowship="{{ fellowship_type }}"
+                data-search="{{ person.firstname | downcase }} {{ person.lastname | downcase }} {{ person.department | downcase }} {% for proj in person_projects %}{{ proj.project | downcase }} {{ proj.description | downcase }}{% endfor %}">
+                <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
+                    data-bs-target="#personModal{{ forloop.index }}" style="cursor: pointer;">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            {% if person.image_thumb %}
+                            <img src="{{ person.image_thumb }}" class="rounded-circle me-3"
+                                style="width: 60px; height: 60px; object-fit: cover;"
+                                alt="{{ person.firstname }} {{ person.lastname }}">
+                            {% else %}
+                            <div class="bg-light rounded-circle me-3 d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-user fa-lg text-muted"></i>
+                            </div>
+                            {% endif %}
+                            <div class="flex-grow-1">
+                                <h6 class="card-title mb-1">{{ person.firstname }} {{ person.lastname }}</h6>
+                                <small class="text-muted">{{ person.status }} • {{ person.department }}</small>
+                            </div>
+                            <div class="text-end">
+                                <i class="fas fa-user text-pride-gold"></i>
+                            </div>
+                        </div>
+
+                        {% if person_projects.size > 1 %}
+                        <p class="card-text small mb-2"><strong>{{ person_projects.size }} Projects:</strong></p>
+                        <ul class="list-unstyled small">
+                            {% for proj in person_projects limit: 3 %}
+                            <li class="mb-1">• {{ proj.project }}</li>
+                            {% endfor %}
+                            {% if person_projects.size > 3 %}
+                            <li class="text-muted">... and {{ person_projects.size | minus: 3 }} more</li>
+                            {% endif %}
+                        </ul>
+                        {% else %}
+                        <p class="card-text small">{{ person_projects[0].project }}</p>
+                        {% endif %}
+
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <span
+                                class="badge bg-{% case fellowship_type %}{% when 'digital-scholarship' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'jazz-collections' %}wild-rose{% when 'special-collections' %}secondary{% when 'plastino' %}pride-gold{% when 'levine' %}info{% else %}secondary{% endcase %}">
+                                {{ person.fellowship | remove: "Fellowship" | strip }}
+                            </span>
+                            {% assign years = person_projects | map: "year" | uniq | sort %}
+                            <small class="text-muted">{{ years | join: ", " }}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Person Details -->
+            <div class="modal fade" id="personModal{{ forloop.index }}" tabindex="-1"
+                aria-labelledby="personModal{{ forloop.index }}Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="personModal{{ forloop.index }}Label">{{ person.firstname }} {{
+                                person.lastname }}</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    {% if person.image_thumb %}
+                                    <img src="{{ person.image_thumb }}" class="img-fluid rounded mb-3"
+                                        alt="{{ person.firstname }} {{ person.lastname }}">
+                                    {% endif %}
+                                    <h6>{{ person.firstname }} {{ person.lastname }}</h6>
+                                    <p class="text-muted">{{ person.status }} in {{ person.department }}</p>
+                                    {% if person.professional %}
+                                    <a href="{{ person.professional }}" target="_blank"
+                                        class="btn btn-outline-secondary btn-sm">
+                                        <i class="fas fa-user"></i> Fellow's Profile
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>Fellowship Projects</h6>
+                                    {% for proj in person_projects %}
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <h6 class="card-title mb-1">{{ proj.project }}</h6>
+                                                <small class="text-muted">{{ proj.year }}</small>
+                                            </div>
+                                            {% if proj.project_image %}
+                                            <img src="{{ proj.project_image }}" class="img-fluid rounded mb-2"
+                                                style="max-height: 150px;" alt="{{ proj.project }}">
+                                            {% endif %}
+                                            <p class="card-text small">{{ proj.description }}</p>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <span class="badge bg-secondary">{{ proj.fellowship | remove:
+                                                    "Fellowship" | strip }}</span>
+                                                {% if proj.site %}
+                                                <a href="{{ proj.site }}" target="_blank"
+                                                    class="btn btn-sm btn-outline-pride-gold">
+                                                    <i class="fas fa-external-link-alt"></i> View Project
+                                                </a>
+                                                {% endif %}
+                                            </div>
+                                            {% if proj.students_impacted %}
+                                            <div class="mt-2">
+                                                <small class="text-success">
+                                                    <i class="fas fa-users"></i> {{ proj.students_impacted }} students
+                                                    impacted
+                                                    {% if proj.students_savings %} • {{ proj.students_savings }} saved{%
+                                                    endif %}
+                                                </small>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            <!-- Project Cards -->
+            {% for project_group in unique_projects %}
+            {% assign project = project_group.items[0] %}
+            {% assign project_people = project_group.items %}
+            {% assign fellowship_type = "" %}
+            {% if project.fellowship contains "CDIL" %}
+            {% assign fellowship_type = "digital-scholarship" %}
+            {% elsif project.fellowship contains "ThinkOpen" %}
+            {% assign fellowship_type = "thinkopen" %}
+            {% elsif project.fellowship contains "Berry" or project.fellowship contains "Jazz" %}
+            {% assign fellowship_type = "jazz-collections" %}
+            {% elsif project.fellowship contains "Strong" or project.fellowship contains "Special" %}
+            {% assign fellowship_type = "special-collections" %}
+            {% elsif project.fellowship contains "Plastino" %}
+            {% assign fellowship_type = "plastino" %}
+            {% elsif project.fellowship contains "Levine" %}
+            {% assign fellowship_type = "levine" %}
+            {% else %}
+            {% assign fellowship_type = "other" %}
+            {% endif %}
+
+            <div class="col-lg-4 col-md-6 mb-4 browse-item project-item" data-type="project"
+                data-fellowship="{{ fellowship_type }}"
+                data-search="{{ project.project | downcase }} {{ project.description | downcase }} {% for person in project_people %}{{ person.firstname | downcase }} {{ person.lastname | downcase }}{% endfor %}">
+                <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
+                    data-bs-target="#projectModal{{ forloop.index }}" style="cursor: pointer;">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start mb-3">
+                            {% if project.project_image %}
+                            <img src="{{ project.project_image }}" class="rounded me-3"
+                                style="width: 60px; height: 60px; object-fit: cover;" alt="{{ project.project }}">
+                            {% else %}
+                            <div class="bg-light rounded me-3 d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-project-diagram fa-lg text-muted"></i>
+                            </div>
+                            {% endif %}
+                            <div class="flex-grow-1">
+                                <h6 class="card-title mb-1">{{ project.project }}</h6>
+                                {% if project_people.size > 1 %}
+                                <small class="text-muted">{{ project_people.size }} contributors</small>
+                                {% else %}
+                                <small class="text-muted">{{ project_people[0].firstname }} {{
+                                    project_people[0].lastname }}</small>
+                                {% endif %}
+                            </div>
+                            <div class="text-end">
+                                <i class="fas fa-project-diagram text-clearwater"></i>
+                            </div>
+                        </div>
+
+                        <p class="card-text small">{{ project.description | truncatewords: 15 }}</p>
+
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <span
+                                class="badge bg-{% case fellowship_type %}{% when 'digital-scholarship' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'jazz-collections' %}wild-rose{% when 'special-collections' %}secondary{% when 'plastino' %}pride-gold{% when 'levine' %}info{% else %}secondary{% endcase %}">
+                                {{ project.fellowship | remove: "Fellowship" | strip }}
+                            </span>
+                            {% assign years = project_people | map: "year" | uniq | sort %}
+                            <small class="text-muted">{{ years | join: ", " }}</small>
+                        </div>
+
+                        {% if project.site %}
+                        <div class="mt-2">
+                            <i class="fas fa-external-link-alt text-pride-gold"></i>
+                            <small class="text-pride-gold">View Project</small>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Project Details -->
+            <div class="modal fade" id="projectModal{{ forloop.index }}" tabindex="-1"
+                aria-labelledby="projectModal{{ forloop.index }}Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="projectModal{{ forloop.index }}Label">{{ project.project }}</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    {% if project.project_image %}
+                                    <img src="{{ project.project_image }}" class="img-fluid rounded mb-3"
+                                        alt="{{ project.project }}">
+                                    {% endif %}
+
+                                    <p>{{ project.description }}</p>
+
+                                    {% if project.students_impacted %}
+                                    <div class="alert alert-success">
+                                        <strong>Impact:</strong> {{ project.students_impacted }} students impacted
+                                        {% if project.students_savings %} • {{ project.students_savings }} in savings{%
+                                        endif %}
+                                    </div>
+                                    {% endif %}
+
+                                    {% if project.site %}
+                                    <a href="{{ project.site }}" target="_blank" class="btn btn-pride-gold mb-3">
+                                        <i class="fas fa-external-link-alt"></i> View Project
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Project Contributors</h6>
+                                    {% for person in project_people %}
+                                    <div class="card mb-2">
+                                        <div class="card-body p-2">
+                                            <div class="d-flex align-items-center">
+                                                {% if person.image_thumb %}
+                                                <img src="{{ person.image_thumb }}" class="rounded-circle me-2"
+                                                    style="width: 40px; height: 40px; object-fit: cover;"
+                                                    alt="{{ person.firstname }} {{ person.lastname }}">
+                                                {% else %}
+                                                <div class="bg-light rounded-circle me-2 d-flex align-items-center justify-content-center"
+                                                    style="width: 40px; height: 40px;">
+                                                    <i class="fas fa-user text-muted"></i>
+                                                </div>
+                                                {% endif %}
+                                                <div class="flex-grow-1">
+                                                    <small class="fw-bold">{{ person.firstname }} {{ person.lastname
+                                                        }}</small>
+                                                    <br><small class="text-muted">{{ person.status }} • {{ person.year
+                                                        }}</small>
+                                                </div>
+                                            </div>
+                                            {% if person.professional %}
+                                            <a href="{{ person.professional }}" target="_blank"
+                                                class="btn btn-sm btn-outline-secondary mt-1">
+                                                Profile
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="text-center mt-4" style="display: none;">
+            <p class="text-muted">No fellows or projects match your search criteria.</p>
+        </div>
+    </div>
+</section>
+
+</div>
