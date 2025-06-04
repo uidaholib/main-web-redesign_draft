@@ -33,7 +33,7 @@ About:
 #      - name: Journal and Database Review (2019)
 #        url: /review/
   - subsection: Fellowships
-    link: /opportunities/fellowships/
+    link: /fellowships/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
@@ -176,7 +176,7 @@ COVID-19:
     link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
   - subsection: << About
     link: /about/    
-# Fellowships Section
+# Work with Us Section
 Work with Us:
   - parent: Work with Us
     stub: /opportunities/
@@ -185,11 +185,29 @@ Work with Us:
   - subsection: Faculty Job Openings
     link: /opportunities/faculty.html
   - subsection: Fellowship Opportunities
-    link: /opportunities/fellowships/
-  - subsection: Library Seed Grant
-    link: /opportunities/fellowships/libseed.html
+    link: /fellowships/
   - subsection: << About
     link: /about/    
+
+Fellowships:
+  - parent: Fellowships
+    stub: /fellowships/
+  - subsection: Fellowship Programs
+    link: /fellowships/
+  - subsection: CDIL Fellowships
+    link: https://cdil.lib.uidaho.edu/fellowships/
+  - subsection: Berry IJC Fellowship
+    link: /special-collections/berry-ijc-fellowship.html
+  - subsection: Gary E. and Carolyn J. Strong Special Collections Fellowship
+    link: /special-collections/strong-fellowship.html
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/datahubfellow.html
+  - subsection: Ben J. Plastino Collection Fellowship
+    link: /special-collections/plastino-fellowship.html
+  - subsection: One-Time and Inactive Fellowships
+    link: /fellowships/inactive.html
+  - subsection: << About Us
+    link: /about/
 
 ###########
 # Find Section

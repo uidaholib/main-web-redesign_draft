@@ -10,6 +10,7 @@ permalink: /special-collections/latah-historic-map-fellowship.html
     <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
     <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
+    <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
     <!--<a href="https://forms.office.com/pages/responsepage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNUOUJVTTExWTNVOEZFQUJISUNYSEFRUUtZTS4u" class="btn btn-info my-2 mx-1">
     <span class="fas fa-edit"></span> Submit an Application</a>-->
 </div>
@@ -63,5 +64,31 @@ Applicants must submit:
 -   Application materials are clearly written and demonstrate the applicant's understanding of the nature and purpose of the project, how the project would be a benefit to their education, and it includes a plan for accomplishing project goals.
 -   Student is prepared for the project (coursework, experience, interest and ability to navigate and use primary sources, etc.)
 -   Faculty member has submitted supportive recommendation.
+
+---
+
+{:#past .pb-2}
+### Past Projects
+
+{% capture latah_sites %}
+Translated a printed map of historic sites, created by the Latah Preservation Commission, into a digital map. The original map did not include any photos, so the digital collection created through this project adds significant depth to the resource by providing both contemporary and historic photos of each location.
+<br>
+**2023 Fellow: Cameron Nielsen, Theatre**
+<br>
+{:.pt-2}
+{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/latahsites/" color="outline-payette-blue" %}
+{% endcapture %}
+
+<div class="row justify-content-center">
+<div class="col-md-8">
+{% include feature/card.html centered=true text=latah_sites header="Latah County Historic Sites Digital Map" img="https://www.lib.uidaho.edu/digital/latahsites/assets/img/banner.jpg" alt="Latah County historic sites digital map interface" %}
+</div>
+</div>
+
+---
+
+## About the Latah Preservation Commission
+
+The [Latah Preservation Commission](https://latahcountyid.gov/commissions/#gsc.tab=0) is a citizen commission dedicated to documenting and protecting the historic built environment of Latah County. Their work helps preserve the cultural heritage and history of the region for future generations.
 
 ---

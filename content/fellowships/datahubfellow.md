@@ -1,7 +1,7 @@
 ---
 title:  Julie and David Levine Data Hub Fellowship
-section: Work with Us
-permalink: /opportunities/fellowships/datahubfellow.html
+section: Fellowships
+permalink: /fellowships/datahubfellow.html
 layout: page-narrow
 ---
 

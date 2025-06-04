@@ -1,7 +1,7 @@
 ---
 title: Main Street Video Project Fellowship
-section: Work with Us
-permalink: /opportunities/fellowships/mainstreetvideo.html
+section: Fellowships
+permalink: /fellowships/mainstreetvideo.html
 layout: page-narrow
 ---
 {% assign fellowship = site.data.opportunities_fellowships | where_exp: 'item', 'item.title == page.title' | first %}

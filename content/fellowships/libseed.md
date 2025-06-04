@@ -1,7 +1,7 @@
 ---
 title: Library Seed Grant
-section: Work with Us
-permalink: /opportunities/fellowships/libseed.html
+section: Fellowships
+permalink: /fellowships/libseed.html
 layout: page-narrow
 ---
 
