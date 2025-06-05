@@ -126,11 +126,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Prevent modal from opening when clicking external link
+    // Handle fellowship badge clicks
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('fellowship-filter-badge')) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const filterType = e.target.dataset.filter;
+            
+            // Update filter buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            const targetFilterButton = document.querySelector(`[data-filter="${filterType}"]`);
+            if (targetFilterButton) {
+                targetFilterButton.classList.add('active');
+            }
+            
+            // Clear search
+            searchInput.value = '';
+            currentSearchTerm = '';
+            
+            // Set current filter and apply
+            currentFilter = filterType;
+            applyFilters();
+            
+            // Scroll to browse section
+            document.getElementById('browse').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+
+    // Prevent modal from opening when clicking external link or fellowship badge
     document.querySelectorAll('.browse-card').forEach(card => {
         card.addEventListener('click', function(e) {
-            // If clicked element is a link or button, don't open modal
-            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('a')) {
+            // If clicked element is a link, button, or fellowship badge, don't open modal
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
+                e.target.closest('a') || e.target.classList.contains('fellowship-filter-badge')) {
                 e.stopPropagation();
                 return false;
             }
@@ -147,7 +179,107 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 300);
     });
 
-    // Initialize count on page load
+    // Generate carousel with random projects
+    function generateRandomCarousel() {
+        const fellowshipDataElement = document.getElementById('fellowshipData');
+        const carousel = document.getElementById('featuredProjectsCarousel');
+        
+        if (!fellowshipDataElement || !carousel) return;
+        
+        try {
+            const allProjects = JSON.parse(fellowshipDataElement.textContent);
+            const carouselInner = carousel.querySelector('.carousel-inner');
+            
+            // Shuffle all projects and take first 6
+            const shuffledProjects = [...allProjects];
+            for (let i = shuffledProjects.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledProjects[i], shuffledProjects[j]] = [shuffledProjects[j], shuffledProjects[i]];
+            }
+            
+            const selectedProjects = shuffledProjects.slice(0, 6);
+            
+            // Generate carousel items
+            carouselInner.innerHTML = '';
+            selectedProjects.forEach((project, index) => {
+                const contributorText = project.contributors.length > 1 
+                    ? `<strong>${project.contributors.length} Contributors:</strong><br>
+                       ${project.contributors.slice(0, 2).map(c => `${c.firstname} ${c.lastname}`).join(', ')}
+                       ${project.contributors.length > 2 ? ` & ${project.contributors.length - 2} more` : ''}`
+                    : `<strong>${project.contributors[0].firstname} ${project.contributors[0].lastname}</strong>`;
+                
+                const carouselItem = document.createElement('div');
+                carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+                carouselItem.innerHTML = `
+                    <a href="${project.site}" target="_blank" class="text-decoration-none">
+                        <div class="card shadow-sm h-100" style="cursor: pointer;">
+                            ${project.project_image 
+                                ? `<img src="${project.project_image}" class="card-img-top" style="height: 200px; object-fit: cover;" alt="${project.project}">`
+                                : `<div class="bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                                     <i class="fas fa-project-diagram fa-3x text-muted"></i>
+                                   </div>`
+                            }
+                            <div class="card-body d-flex flex-column">
+                                <h6 class="card-title text-dark">${project.project}</h6>
+                                <p class="card-text small text-muted flex-grow-1">${project.description ? project.description.split(' ').slice(0, 15).join(' ') + (project.description.split(' ').length > 15 ? '...' : '') : ''}</p>
+                                <div class="mt-auto">
+                                    <small class="text-muted">
+                                        ${contributorText}
+                                        <br>${project.year} • ${project.fellowship.replace('Fellowship', '').trim()}
+                                    </small>
+                                    <div class="text-end mt-2">
+                                        <small class="text-pride-gold">
+                                            <i class="fas fa-external-link-alt"></i> View Project
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `;
+                carouselInner.appendChild(carouselItem);
+            });
+            
+        } catch (error) {
+            console.error('Error generating carousel:', error);
+        }
+    }
+
+    // Check for URL parameters and apply fellowship filter
+    function checkURLParameters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const fellowship = urlParams.get('fellowship');
+        
+        if (fellowship) {
+            // Find matching filter button
+            const targetFilterButton = document.querySelector(`[data-filter="${fellowship}"]`);
+            if (targetFilterButton) {
+                // Clear search
+                searchInput.value = '';
+                currentSearchTerm = '';
+                
+                // Update filter buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                targetFilterButton.classList.add('active');
+                
+                // Set current filter and apply
+                currentFilter = fellowship;
+                applyFilters();
+                
+                // Scroll to browse section after a brief delay
+                setTimeout(() => {
+                    document.getElementById('browse').scrollIntoView({ 
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }, 100);
+            }
+        }
+    }
+
+    // Initialize count on page load, generate random carousel, and check URL parameters
     applyFilters();
+    generateRandomCarousel();
+    checkURLParameters();
 });
 </script>
