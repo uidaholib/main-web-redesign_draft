@@ -570,7 +570,7 @@ custom-foot: js/fellowships-browse.html
 
                                     <p>{{ project.description }}</p>
 
-                                    {% if project.students_impacted %}
+                                    {% if project.students_impacted and project.student_savings %}
                                     <div class="alert alert-success">
                                         <strong>Impact:</strong> {{ project.students_impacted }} students impacted
                                         {% if project.students_savings %} • {{ project.students_savings }} in savings{%
