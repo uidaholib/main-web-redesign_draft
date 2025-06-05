@@ -266,10 +266,27 @@ custom-foot: js/fellowships-browse.html
         <div class="text-center mb-4">
             <div class="row justify-content-center">
                 <div class="col-md-10">
-                    <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <button class="view-toggle btn btn-pride-gold active" data-view="all">All</button>
-                        <button class="view-toggle btn btn-outline-pride-gold" data-view="people">Fellows</button>
-                        <button class="view-toggle btn btn-outline-pride-gold" data-view="projects">Projects</button>
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
+                        <!-- View Type Toggle -->
+                        <div class="btn-group" role="group" aria-label="View type selection">
+                            <button class="view-toggle btn btn-pride-gold active" data-view="all">All</button>
+                            <button class="view-toggle btn btn-outline-pride-gold" data-view="people">Fellows</button>
+                            <button class="view-toggle btn btn-outline-pride-gold" data-view="projects">Projects</button>
+                        </div>
+                        
+                        <!-- Fellows Filter -->
+                        <div class="btn-group fellow-filters" role="group" aria-label="Fellow type filter" style="display: none;">
+                            <button class="fellow-filter btn btn-outline-secondary active" data-fellow-type="all">All Fellows</button>
+                            <button class="fellow-filter btn btn-outline-secondary" data-fellow-type="student">Students</button>
+                            <button class="fellow-filter btn btn-outline-secondary" data-fellow-type="faculty">Faculty</button>
+                        </div>
+                        
+                        <!-- Projects Filter -->
+                        <div class="btn-group project-filters" role="group" aria-label="Project type filter" style="display: none;">
+                            <button class="project-filter btn btn-outline-secondary active" data-project-type="all">All Projects</button>
+                            <button class="project-filter btn btn-outline-secondary" data-project-type="student">Student Projects</button>
+                            <button class="project-filter btn btn-outline-secondary" data-project-type="faculty">Faculty Projects</button>
+                        </div>
                     </div>
 
                     <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
@@ -334,6 +351,7 @@ custom-foot: js/fellowships-browse.html
 
             <div class="col-lg-4 col-md-6 mb-4 browse-item person-item" data-type="person"
                 data-fellowship="{{ fellowship_type }}"
+                data-person-type="{% if person.status contains 'student' or person.status contains 'Student' or person.status contains 'Graduate' or person.status contains 'Undergraduate' %}student{% else %}faculty{% endif %}"
                 data-search="{{ person.firstname | downcase }} {{ person.lastname | downcase }} {{ person.department | downcase }} {% for proj in person_projects %}{{ proj.project | downcase }} {{ proj.description | downcase }}{% endfor %}">
                 <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
                     data-bs-target="#personModal{{ forloop.index }}" style="cursor: pointer;">
@@ -482,6 +500,7 @@ custom-foot: js/fellowships-browse.html
 
             <div class="col-lg-4 col-md-6 mb-4 browse-item project-item" data-type="project"
                 data-fellowship="{{ fellowship_type }}"
+                data-project-type="{% assign has_student = false %}{% assign has_faculty = false %}{% for person in project_people %}{% if person.status contains 'student' or person.status contains 'Student' or person.status contains 'Graduate' or person.status contains 'Undergraduate' %}{% assign has_student = true %}{% else %}{% assign has_faculty = true %}{% endif %}{% endfor %}{% if has_student and has_faculty %}mixed{% elsif has_student %}student{% else %}faculty{% endif %}"
                 data-search="{{ project.project | downcase }} {{ project.description | downcase }} {% for person in project_people %}{{ person.firstname | downcase }} {{ person.lastname | downcase }}{% endfor %}">
                 <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
                     data-bs-target="#projectModal{{ forloop.index }}" style="cursor: pointer;">
