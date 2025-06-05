@@ -155,7 +155,9 @@ custom-foot: js/fellowships-browse.html
 <p class="h5 col-lg-8 offset-lg-2">The library offers fellowships for undergrads, graduate students, and faculty members at the University of Idaho. Fellowships vary in amount, timeframe, and objectives, but each looks to use library collections and/or librarian expertise to help fellows develop projects and research. See below for a list of fellowships offered by the library. </p>
     </div>
 
-        {% assign active_fellowships = site.data.opportunities_fellowships %}
+        {% assign all_fellowships = site.data.opportunities_fellowships %}
+        {% assign active_fellowships = all_fellowships | where: "active", "yes" %}
+        {% assign inactive_fellowships = all_fellowships | where: "active", "no" %}
 
         <div class="row">
             {% for fellowship in active_fellowships %}
@@ -193,7 +195,7 @@ custom-foot: js/fellowships-browse.html
                                 {% endif %}
                             </div>
 
-                            {% if fellowship.deadline and fellowship.deadline != "Rolling" %}
+                            {% if fellowship.deadline and fellowship.deadline != "Inactive" %}
                             <div class="text-center mt-2">
                                 <small class="text-muted"><i class="fas fa-calendar"></i> Deadline: {{
                                     fellowship.deadline }}</small>
@@ -205,6 +207,52 @@ custom-foot: js/fellowships-browse.html
             </div>
             {% endfor %}
         </div>
+
+        <!-- One-time and Currently Inactive Fellowships -->
+           <!-- I've made these disappear for now ...  -->
+        {% if inactive_fellowships.size > 0 %}
+        <div class="mt-5 d-none">
+            <h3 class="text-center mb-4">One-time and Currently Inactive Fellowships</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <ul class="list-unstyled">
+                        {% for fellowship in inactive_fellowships %}
+                        <li class="mb-3 pb-3 border-bottom">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-2">
+                                        {% if fellowship.link %}
+                                        <a href="{{ fellowship.link }}" class="text-decoration-none">{{ fellowship.title }}</a>
+                                        {% else %}
+                                        {{ fellowship.title }}
+                                        {% endif %}
+                                    </h6>
+                                    <p class="text-muted small mb-2">{{ fellowship.description | truncatewords: 20 }}</p>
+                                    <div class="d-flex gap-3 text-muted small">
+                                        {% if fellowship.eligible %}
+                                        <span><strong>Eligible:</strong> {{ fellowship.eligible }}</span>
+                                        {% endif %}
+                                        {% if fellowship.amount %}
+                                        <span><strong>Award:</strong> {{ fellowship.amount }}</span>
+                                        {% endif %}
+                                        {% if fellowship.type %}
+                                        <span><strong>Type:</strong> {{ fellowship.type | capitalize }}</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% if fellowship.deadline %}
+                                <div class="text-end">
+                                    <small class="text-muted">{{ fellowship.deadline }}</small>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </section>
 
