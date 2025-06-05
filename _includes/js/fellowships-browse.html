@@ -20,6 +20,38 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentProjectType = 'all';
     let currentSearchTerm = '';
 
+    // Function to update URL parameters
+    function updateURLParameters() {
+        const url = new URL(window.location);
+        
+        // Clear existing parameters
+        url.searchParams.delete('view');
+        url.searchParams.delete('fellowship');
+        url.searchParams.delete('fellow-type');
+        url.searchParams.delete('project-type');
+        url.searchParams.delete('search');
+        
+        // Add current parameters if they're not default values
+        if (currentView !== 'all') {
+            url.searchParams.set('view', currentView);
+        }
+        if (currentFilter !== 'all') {
+            url.searchParams.set('fellowship', currentFilter);
+        }
+        if (currentFellowType !== 'all' && currentView === 'people') {
+            url.searchParams.set('fellow-type', currentFellowType);
+        }
+        if (currentProjectType !== 'all' && currentView === 'projects') {
+            url.searchParams.set('project-type', currentProjectType);
+        }
+        if (currentSearchTerm !== '') {
+            url.searchParams.set('search', currentSearchTerm);
+        }
+        
+        // Update URL without reloading the page
+        window.history.replaceState({}, '', url);
+    }
+
     // View toggle functionality
     viewToggleButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -37,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             fellowFiltersGroup.style.display = currentView === 'people' ? 'inline-flex' : 'none';
             projectFiltersGroup.style.display = currentView === 'projects' ? 'inline-flex' : 'none';
             
+            updateURLParameters();
             applyFilters();
         });
     });
@@ -47,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
             fellowFilters.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             currentFellowType = this.dataset.fellowType;
+            updateURLParameters();
             applyFilters();
         });
     });
@@ -57,6 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             projectFilters.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             currentProjectType = this.dataset.projectType;
+            updateURLParameters();
             applyFilters();
         });
     });
@@ -69,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
             
             currentFilter = this.dataset.filter;
+            updateURLParameters();
             applyFilters();
         });
     });
@@ -76,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Search functionality
     function performSearch() {
         currentSearchTerm = searchInput.value.toLowerCase().trim();
+        updateURLParameters();
         applyFilters();
     }
 
@@ -116,6 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fellowFiltersGroup.style.display = 'none';
         projectFiltersGroup.style.display = 'none';
         
+        updateURLParameters();
         applyFilters();
     });
 
@@ -234,6 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Set current filter and apply
             currentFilter = filterType;
+            updateURLParameters();
             applyFilters();
             
             // Scroll to browse section
@@ -262,6 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(() => {
             currentSearchTerm = this.value.toLowerCase().trim();
+            updateURLParameters();
             applyFilters();
         }, 300);
     });
@@ -332,35 +372,88 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Check for URL parameters and apply fellowship filter
+    // Check for URL parameters and apply all filters
     function checkURLParameters() {
         const urlParams = new URLSearchParams(window.location.search);
+        const view = urlParams.get('view');
         const fellowship = urlParams.get('fellowship');
+        const fellowType = urlParams.get('fellow-type');
+        const projectType = urlParams.get('project-type');
+        const search = urlParams.get('search');
         
+        let shouldScrollToBrowse = false;
+        
+        // Set view filter
+        if (view && ['people', 'projects'].includes(view)) {
+            currentView = view;
+            viewToggleButtons.forEach(btn => {
+                btn.classList.remove('active', 'btn-pride-gold');
+                btn.classList.add('btn-outline-pride-gold');
+            });
+            const targetViewButton = document.querySelector(`[data-view="${view}"]`);
+            if (targetViewButton) {
+                targetViewButton.classList.remove('btn-outline-pride-gold');
+                targetViewButton.classList.add('active', 'btn-pride-gold');
+            }
+            
+            // Show appropriate sub-filters
+            fellowFiltersGroup.style.display = view === 'people' ? 'inline-flex' : 'none';
+            projectFiltersGroup.style.display = view === 'projects' ? 'inline-flex' : 'none';
+            
+            shouldScrollToBrowse = true;
+        }
+        
+        // Set fellowship filter
         if (fellowship) {
-            // Find matching filter button
             const targetFilterButton = document.querySelector(`[data-filter="${fellowship}"]`);
             if (targetFilterButton) {
-                // Clear search
-                searchInput.value = '';
-                currentSearchTerm = '';
-                
-                // Update filter buttons
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 targetFilterButton.classList.add('active');
-                
-                // Set current filter and apply
                 currentFilter = fellowship;
-                applyFilters();
-                
-                // Scroll to browse section after a brief delay
-                setTimeout(() => {
-                    document.getElementById('browse').scrollIntoView({ 
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }, 100);
+                shouldScrollToBrowse = true;
             }
+        }
+        
+        // Set fellow type filter
+        if (fellowType && ['student', 'faculty'].includes(fellowType)) {
+            const targetFellowButton = document.querySelector(`[data-fellow-type="${fellowType}"]`);
+            if (targetFellowButton) {
+                fellowFilters.forEach(btn => btn.classList.remove('active'));
+                targetFellowButton.classList.add('active');
+                currentFellowType = fellowType;
+                shouldScrollToBrowse = true;
+            }
+        }
+        
+        // Set project type filter
+        if (projectType && ['student', 'faculty'].includes(projectType)) {
+            const targetProjectButton = document.querySelector(`[data-project-type="${projectType}"]`);
+            if (targetProjectButton) {
+                projectFilters.forEach(btn => btn.classList.remove('active'));
+                targetProjectButton.classList.add('active');
+                currentProjectType = projectType;
+                shouldScrollToBrowse = true;
+            }
+        }
+        
+        // Set search term
+        if (search) {
+            searchInput.value = search;
+            currentSearchTerm = search.toLowerCase().trim();
+            shouldScrollToBrowse = true;
+        }
+        
+        // Apply filters if any were found
+        if (shouldScrollToBrowse) {
+            applyFilters();
+            
+            // Scroll to browse section after a brief delay
+            setTimeout(() => {
+                document.getElementById('browse').scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 100);
         }
     }
 
