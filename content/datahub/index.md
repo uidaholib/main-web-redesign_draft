@@ -7,11 +7,6 @@ lazyload: true
 chat-widget: datahub
 ---
 
-<div class ="alert alert-success" role="alert">
-<h2 class="alert-heading h5">Computer Science Assistance Center moves to Data Hub!</h2>
-<p>Previously located in the Janssen Engineering Building (JEB), the Computer Science Assistance Center (CSAC) is a community computer science space open to all students taking computer science courses. It is staffed by CS majors who can help with coursework Monday-Friday during the semester.</p>
-</div>
-
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
 <div class="row">
