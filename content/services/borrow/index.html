@@ -95,82 +95,60 @@ layout: page
       <tr>
         <td scope="col">Item</td>
         <td scope="col">Loan Period</td>
-        <td scope="col">Fine Rate</td>
-        <td scope="col">Replacement Cost</td>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td>Video Cameras</td>
+        <td>3 days</td>
+      </tr>
+      <tr>
         <td>Portable Green Screen</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$110</td>
       </tr>
       <tr>
         <td>Portable Light Kit</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$140</td>
       </tr>
       <tr>
         <td>Canon VIXIA HF G20, circulating</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$700</td>
       </tr>
       <tr>
         <td>Canon VIXIA HF G20, permanent hold</td>
         <td>3 hours in-library</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$700</td>
       </tr>
       <tr>
         <td>GoPro Hero</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$300</td>
       </tr>
       <tr>
         <td>Tripod</td>
         <td>3 days</td>
-        <td>Included in kit</td>
-        <td>$25</td>
       </tr>
       <tr>
         <td>TASCAM Field Recorder</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$100</td>
       </tr>
       <tr>
         <td>External Hard Drive</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$60</td>
       </tr>
       <tr>
         <td>32 GB microSD Card</td>
         <td>3 days</td>
-        <td>Included in kit</td>
-        <td></td>
       </tr>
       <tr>
         <td>SM57 Microphone</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$100</td>
       </tr>
       <tr>
         <td>Microphone stand</td>
         <td>3 days</td>
-        <td>Included in kit</td>
-        <td>$20</td>
       </tr>
       <tr>
         <td>Miscellaneous accessories</td>
         <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>Priced individually</td>
       </tr>
     </tbody>
   </table>
@@ -180,9 +158,32 @@ layout: page
 
 <h3 id="fines">Fines</h3>
 
-<p>The library no longer collects late fees or fines for items in our general collection as part of our <a href="{{ site.lib-media }}/about/library_strategic_plan_2021.pdf">commitment to equitable access to information and student affordability</a>.</p>
+<p>The library no longer collects late fees or fines for items in our general collection as part of our commitment to equitable access to information and student affordability.</p>
 <p>Some items in the library, such as <a href="{{ '/services/reserve/' | relative_url }}">print Course Reserves</a> or U of I Multimedia equipment, are exceptions to this policy and will continue to accrue late fees. In addition, the library will continue assessing lost item fees to patrons. Items move into lost status when they have not been returned 15 days after the assigned due date, at which time patrons are charged a $100 fee ($80 replacement item cost and $20 processing fee).</p>
 <p>If you have questions about which items have late fees and which don't, or want to supply your own replacement copy, please contact our Access Services/Circulation Desk at 208-885-6559 and we'd be happy to assist you.</p>
+
+<div class="table-responsive my-3">
+  <table class="table table-bordered my-3">
+    <thead>
+      <tr>
+        <th scope="col">Item Type</th>
+        <th scope="col">Cost per Day</th>
+        <th scope="col">Fine Cap</th>
+        <th scope="col">Replacement Fee</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in site.data.services_loan_fees %}
+      <tr>
+        <td>{{ i.item }}</td>
+        <td>{{ i.per_day }}</td>
+        <td>{{ i.fine_cap }}</td>
+        <td>{{ i.replacement_fee }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 <hr >
 
