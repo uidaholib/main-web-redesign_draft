@@ -49,5 +49,5 @@ Any patron who wishes to use the Studio must agree to the Terms of Use:
 - **Loss of Privileges:** Violating the terms of use may result in suspension or permanent loss of access to the studio.
 
 ## Fines and Fees
-            
+
 For multimedia equipment fines and replacement costs, please refer to the [Fines and Late Fees](https://www.lib.uidaho.edu/services/borrow/#fines) policies.
