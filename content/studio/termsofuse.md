@@ -43,5 +43,5 @@ Any patron who wishes to use the Studio must agree to the Terms of Use:
 
 ## Fines and Fees
             
-For multimedia equipment fines and fees, please refer to the [LOAN PERIODS FOR UI LIBRARY MULTIMEDIA (NOT AVAILABLE TO GUESTS)](https://www.lib.uidaho.edu/services/borrow/#multimedia) section.
+For multimedia equipment fines and fees, please refer to the [Fines and Late Fees](https://www.lib.uidaho.edu/services/borrow/#fines) section.
 
