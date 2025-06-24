@@ -185,29 +185,17 @@ Work with Us:
   - subsection: Faculty Job Openings
     link: /opportunities/faculty.html
   - subsection: Fellowship Opportunities
-    link: /fellowships/
+    link: /fellowships/opportunities.html
   - subsection: << About
     link: /about/    
 
 Fellowships:
   - parent: Fellowships
     stub: /fellowships/
-  - subsection: Fellowship Programs
+  - subsection: Fellowship
     link: /fellowships/
-  - subsection: CDIL Fellowships
-    link: https://cdil.lib.uidaho.edu/fellowships/
-  - subsection: Berry IJC Fellowship
-    link: /special-collections/berry-ijc-fellowship.html
-  - subsection: Gary E. and Carolyn J. Strong Special Collections Fellowship
-    link: /special-collections/strong-fellowship.html
-  - subsection: Julie and David Levine Data Hub Fellowship
-    link: /fellowships/datahubfellow.html
-  - subsection: Lynn and Dennis Baird Fellowship
-    link: /fellowships/baird.html  
-  - subsection: Ben J. Plastino Collection Fellowship
-    link: /special-collections/plastino-fellowship.html
-  - subsection: One-Time and Inactive Fellowships
-    link: /fellowships/inactive.html
+  - subsection: Fellowship Opportunities
+    link: /fellowships/opportunities.html
   - subsection: << About Us
     link: /about/
 
@@ -342,8 +330,8 @@ Services:
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "Data Hub: Geospatial and Data Sciences Support"
-    link: /datahub/    
+  - subsection: "DataHub: Geospatial and Data Sciences Support"
+    link: /datahub/   
   - subsection: Data Management
     link: /services/data/
     subpages:
@@ -484,6 +472,8 @@ Data Hub:
     stub: /datahub/
   - subsection: Data Hub
     link: /datahub/
+  - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
+    url: /fellowships/datahubfellow.html 
   - subsection: <i class='fas fa-share-square'></i> Data Services
     link: /services/data/
   - subsection: <i class="fas fa-share-square"></i> Geospatial Resources

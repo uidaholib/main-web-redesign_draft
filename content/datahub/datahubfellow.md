@@ -1,6 +1,6 @@
 ---
-title:  Julie and David Levine Data Hub Fellowship
-section: Fellowships
+title:  Julie and David Levine DataHub Fellowship
+section: Services
 permalink: /fellowships/datahubfellow.html
 layout: page-narrow
 ---
