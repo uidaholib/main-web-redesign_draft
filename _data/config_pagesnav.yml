@@ -517,7 +517,9 @@ The Studio:
       - name: Recording and Editing a Podcast Episode
         url: /studio/podcasting.html
       - name: Teaching with eGlass
-        url: /studio/eglass.html    
+        url: /studio/eglass.html  
+      - name: Podcast/Voiceover Recording Using RØDECaster Pro II
+        url: /studio/rodecaster.html   
   - subsection: Terms of Use
     link: /studio/termsofuse.html
   - subsection: Studio FAQ
