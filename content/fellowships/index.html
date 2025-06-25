@@ -156,32 +156,19 @@ custom-foot: js/fellowships-browse.html
         <div class="text-center mb-4">
             <div class="row justify-content-center">
                 <div class="col-md-10">
+                    <!-- View Type Toggle -->
                     <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
-                        <!-- View Type Toggle -->
                         <div class="btn-group" role="group" aria-label="View type selection">
                             <button class="view-toggle btn btn-pride-gold active" data-view="all">All</button>
                             <button class="view-toggle btn btn-outline-pride-gold" data-view="people">Fellows</button>
                             <button class="view-toggle btn btn-outline-pride-gold" data-view="projects">Projects</button>
                         </div>
-                        
-                        <!-- Fellows Filter -->
-                        <div class="btn-group fellow-filters" role="group" aria-label="Fellow type filter" style="display: none;">
-                            <button class="fellow-filter btn btn-outline-secondary active" data-fellow-type="all">All Fellows</button>
-                            <button class="fellow-filter btn btn-outline-secondary" data-fellow-type="student">Students</button>
-                            <button class="fellow-filter btn btn-outline-secondary" data-fellow-type="faculty">Faculty</button>
-                        </div>
-                        
-                        <!-- Projects Filter -->
-                        <div class="btn-group project-filters" role="group" aria-label="Project type filter" style="display: none;">
-                            <button class="project-filter btn btn-outline-secondary active" data-project-type="all">All Projects</button>
-                            <button class="project-filter btn btn-outline-secondary" data-project-type="student">Student Projects</button>
-                            <button class="project-filter btn btn-outline-secondary" data-project-type="faculty">Faculty Projects</button>
-                        </div>
                     </div>
 
                     <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <button class="filter-btn btn btn-outline-clearwater active" data-filter="all">All
-                            Types</button>
+                        <button class="filter-btn btn btn-outline-clearwater active" data-filter="all">All Types</button>
+                        <button class="filter-btn btn btn-outline-secondary" data-filter="student">Student</button>
+                        <button class="filter-btn btn btn-outline-secondary" data-filter="faculty">Faculty</button>
                         <button class="filter-btn btn btn-outline-clearwater" data-filter="cdil">CDIL</button>
                         <button class="filter-btn btn btn-outline-palouse-green" data-filter="thinkopen">Think Open</button>
                         <button class="filter-btn btn btn-outline-wild-rose" data-filter="berry">Berry Fellowship</button>
@@ -282,8 +269,8 @@ custom-foot: js/fellowships-browse.html
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
                             <span
-                                class="badge bg-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
-                                data-filter="{{ fellowship_type }}" style="cursor: pointer;" title="Click to filter by this fellowship type">
+                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
+                                data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
                                 {{ person.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
                             </span>
                             {% assign years = person_projects | map: "year" | uniq | sort %}
@@ -334,7 +321,7 @@ custom-foot: js/fellowships-browse.html
                                             {% endif %}
                                             <p class="card-text small">{{ proj.description }}</p>
                                             <div class="d-flex align-items-center justify-content-between">
-                                                <span class="badge bg-secondary text-dark">{{ proj.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}</span>
+                                                <span class="border p-1 small border-dark rounded">{{ proj.fellowship }}</span>
                                                 {% if proj.site %}
                                                 <a href="{{ proj.site }}" target="_blank"
                                                     class="btn btn-sm btn-outline-pride-gold">
@@ -423,8 +410,8 @@ custom-foot: js/fellowships-browse.html
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
                             <span
-                                class="badge bg-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
-                                data-filter="{{ fellowship_type }}" style="cursor: pointer;" title="Click to filter by this fellowship type">
+                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
+                                data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
                                 {{ project.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
                             </span>
                             {% assign years = project_people | map: "year" | uniq | sort %}

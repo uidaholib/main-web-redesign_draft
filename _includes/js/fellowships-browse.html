@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get all control elements
     const viewToggleButtons = document.querySelectorAll('.view-toggle');
     const filterButtons = document.querySelectorAll('.filter-btn');
-    const fellowFilters = document.querySelectorAll('.fellow-filter');
-    const projectFilters = document.querySelectorAll('.project-filter');
-    const fellowFiltersGroup = document.querySelector('.fellow-filters');
-    const projectFiltersGroup = document.querySelector('.project-filters');
     const browseItems = document.querySelectorAll('.browse-item');
     const searchInput = document.getElementById('browseSearch');
     const searchBtn = document.getElementById('searchBtn');
@@ -16,8 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let currentView = 'all';
     let currentFilter = 'all';
-    let currentFellowType = 'all';
-    let currentProjectType = 'all';
     let currentSearchTerm = '';
 
     // Function to update URL parameters
@@ -26,9 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Clear existing parameters
         url.searchParams.delete('view');
-        url.searchParams.delete('fellowship');
-        url.searchParams.delete('fellow-type');
-        url.searchParams.delete('project-type');
+        url.searchParams.delete('filter');
         url.searchParams.delete('search');
         
         // Add current parameters if they're not default values
@@ -36,13 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             url.searchParams.set('view', currentView);
         }
         if (currentFilter !== 'all') {
-            url.searchParams.set('fellowship', currentFilter);
-        }
-        if (currentFellowType !== 'all' && currentView === 'people') {
-            url.searchParams.set('fellow-type', currentFellowType);
-        }
-        if (currentProjectType !== 'all' && currentView === 'projects') {
-            url.searchParams.set('project-type', currentProjectType);
+            url.searchParams.set('filter', currentFilter);
         }
         if (currentSearchTerm !== '') {
             url.searchParams.set('search', currentSearchTerm);
@@ -65,32 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             currentView = this.dataset.view;
             
-            // Show/hide appropriate sub-filters
-            fellowFiltersGroup.style.display = currentView === 'people' ? 'inline-flex' : 'none';
-            projectFiltersGroup.style.display = currentView === 'projects' ? 'inline-flex' : 'none';
-            
-            updateURLParameters();
-            applyFilters();
-        });
-    });
-
-    // Fellow type filter functionality
-    fellowFilters.forEach(button => {
-        button.addEventListener('click', function() {
-            fellowFilters.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-            currentFellowType = this.dataset.fellowType;
-            updateURLParameters();
-            applyFilters();
-        });
-    });
-
-    // Project type filter functionality
-    projectFilters.forEach(button => {
-        button.addEventListener('click', function() {
-            projectFilters.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-            currentProjectType = this.dataset.projectType;
             updateURLParameters();
             applyFilters();
         });
@@ -129,18 +89,10 @@ document.addEventListener('DOMContentLoaded', function() {
         currentSearchTerm = '';
         currentFilter = 'all';
         currentView = 'all';
-        currentFellowType = 'all';
-        currentProjectType = 'all';
         
         // Reset active buttons
         filterButtons.forEach(btn => btn.classList.remove('active'));
         document.querySelector('[data-filter="all"]').classList.add('active');
-        
-        fellowFilters.forEach(btn => btn.classList.remove('active'));
-        document.querySelector('[data-fellow-type="all"]').classList.add('active');
-        
-        projectFilters.forEach(btn => btn.classList.remove('active'));
-        document.querySelector('[data-project-type="all"]').classList.add('active');
         
         viewToggleButtons.forEach(btn => {
             btn.classList.remove('active', 'btn-pride-gold');
@@ -148,10 +100,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         document.querySelector('[data-view="all"]').classList.remove('btn-outline-pride-gold');
         document.querySelector('[data-view="all"]').classList.add('active', 'btn-pride-gold');
-        
-        // Hide sub-filters
-        fellowFiltersGroup.style.display = 'none';
-        projectFiltersGroup.style.display = 'none';
         
         updateURLParameters();
         applyFilters();
@@ -204,26 +152,32 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // Check filter match
-            const filterMatch = currentFilter === 'all' || fellowshipType === currentFilter;
-            
-            // Check fellow type match (only for people)
-            let fellowTypeMatch = true;
-            if (itemType === 'person' && currentView === 'people' && currentFellowType !== 'all') {
-                fellowTypeMatch = personType === currentFellowType;
-            }
-            
-            // Check project type match (only for projects)
-            let projectTypeMatch = true;
-            if (itemType === 'project' && currentView === 'projects' && currentProjectType !== 'all') {
-                projectTypeMatch = projectType === currentProjectType || 
-                                 (currentProjectType === 'student' && projectType === 'mixed') ||
-                                 (currentProjectType === 'faculty' && projectType === 'mixed');
+            let filterMatch = false;
+            if (currentFilter === 'all') {
+                filterMatch = true;
+            } else if (currentFilter === 'student') {
+                // Show students for people, student projects for projects
+                if (itemType === 'person' && personType === 'student') {
+                    filterMatch = true;
+                } else if (itemType === 'project' && (projectType === 'student' || projectType === 'mixed')) {
+                    filterMatch = true;
+                }
+            } else if (currentFilter === 'faculty') {
+                // Show faculty for people, faculty projects for projects
+                if (itemType === 'person' && personType === 'faculty') {
+                    filterMatch = true;
+                } else if (itemType === 'project' && (projectType === 'faculty' || projectType === 'mixed')) {
+                    filterMatch = true;
+                }
+            } else {
+                // Fellowship type filter
+                filterMatch = fellowshipType === currentFilter;
             }
             
             // Check search match
             const searchMatch = currentSearchTerm === '' || searchData.includes(currentSearchTerm);
             
-            if (viewMatch && filterMatch && fellowTypeMatch && projectTypeMatch && searchMatch) {
+            if (viewMatch && filterMatch && searchMatch) {
                 item.style.display = 'block';
                 visibleCount++;
             } else {
@@ -376,9 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function checkURLParameters() {
         const urlParams = new URLSearchParams(window.location.search);
         const view = urlParams.get('view');
-        const fellowship = urlParams.get('fellowship');
-        const fellowType = urlParams.get('fellow-type');
-        const projectType = urlParams.get('project-type');
+        const filter = urlParams.get('filter');
         const search = urlParams.get('search');
         
         let shouldScrollToBrowse = false;
@@ -396,42 +348,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 targetViewButton.classList.add('active', 'btn-pride-gold');
             }
             
-            // Show appropriate sub-filters
-            fellowFiltersGroup.style.display = view === 'people' ? 'inline-flex' : 'none';
-            projectFiltersGroup.style.display = view === 'projects' ? 'inline-flex' : 'none';
-            
             shouldScrollToBrowse = true;
         }
         
-        // Set fellowship filter
-        if (fellowship) {
-            const targetFilterButton = document.querySelector(`[data-filter="${fellowship}"]`);
+        // Set filter
+        if (filter) {
+            const targetFilterButton = document.querySelector(`[data-filter="${filter}"]`);
             if (targetFilterButton) {
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 targetFilterButton.classList.add('active');
-                currentFilter = fellowship;
-                shouldScrollToBrowse = true;
-            }
-        }
-        
-        // Set fellow type filter
-        if (fellowType && ['student', 'faculty'].includes(fellowType)) {
-            const targetFellowButton = document.querySelector(`[data-fellow-type="${fellowType}"]`);
-            if (targetFellowButton) {
-                fellowFilters.forEach(btn => btn.classList.remove('active'));
-                targetFellowButton.classList.add('active');
-                currentFellowType = fellowType;
-                shouldScrollToBrowse = true;
-            }
-        }
-        
-        // Set project type filter
-        if (projectType && ['student', 'faculty'].includes(projectType)) {
-            const targetProjectButton = document.querySelector(`[data-project-type="${projectType}"]`);
-            if (targetProjectButton) {
-                projectFilters.forEach(btn => btn.classList.remove('active'));
-                targetProjectButton.classList.add('active');
-                currentProjectType = projectType;
+                currentFilter = filter;
                 shouldScrollToBrowse = true;
             }
         }
