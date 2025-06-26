@@ -70,7 +70,6 @@ layout: page
         </div>
 
         <!-- One-time and Currently Inactive Fellowships -->
-           <!-- I've made these disappear for now ...  -->
         {% if inactive_fellowships.size > 0 %}
         <div class="mt-5">
             <h3 class="text-center mb-4">One-time and Currently Inactive Fellowships</h3>
@@ -88,24 +87,9 @@ layout: page
                                         {{ fellowship.title }}
                                         {% endif %}
                                     </h4>
-                                    <p class="text-muted small mb-2">{{ fellowship.description | truncatewords: 20 }}</p>
-                                    <div class="d-flex gap-3 text-muted small">
-                                        {% if fellowship.eligible %}
-                                        <span><strong>Eligible:</strong> {{ fellowship.eligible }}</span>
-                                        {% endif %}
-                                        {% if fellowship.amount %}
-                                        <span><strong>Award:</strong> {{ fellowship.amount }}</span>
-                                        {% endif %}
-                                        {% if fellowship.type %}
-                                        <span><strong>Type:</strong> {{ fellowship.type | capitalize }}</span>
-                                        {% endif %}
-                                    </div>
+                                    <p class="text-muted small mb-2">{{ fellowship.description }}</p>
                                 </div>
-                                {% if fellowship.deadline %}
-                                <div class="text-end">
-                                    <small class="text-muted">{{ fellowship.deadline }}</small>
-                                </div>
-                                {% endif %}
+                                
                             </div>
                         </li>
                         {% endfor %}
