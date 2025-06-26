@@ -1,0 +1,391 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all control elements
+    const viewToggleButtons = document.querySelectorAll('.view-toggle');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const browseItems = document.querySelectorAll('.browse-item');
+    const searchInput = document.getElementById('browseSearch');
+    const searchBtn = document.getElementById('searchBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const noResults = document.getElementById('noResults');
+    const itemCount = document.getElementById('itemCount');
+
+    let currentView = 'all';
+    let currentFilter = 'all';
+    let currentSearchTerm = '';
+
+    // Function to update URL parameters
+    function updateURLParameters() {
+        const url = new URL(window.location);
+        
+        // Clear existing parameters
+        url.searchParams.delete('view');
+        url.searchParams.delete('filter');
+        url.searchParams.delete('search');
+        
+        // Add current parameters if they're not default values
+        if (currentView !== 'all') {
+            url.searchParams.set('view', currentView);
+        }
+        if (currentFilter !== 'all') {
+            url.searchParams.set('filter', currentFilter);
+        }
+        if (currentSearchTerm !== '') {
+            url.searchParams.set('search', currentSearchTerm);
+        }
+        
+        // Update URL without reloading the page
+        window.history.replaceState({}, '', url);
+    }
+
+    // View toggle functionality
+    viewToggleButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            viewToggleButtons.forEach(btn => {
+                btn.classList.remove('active', 'btn-pride-gold');
+                btn.classList.add('btn-outline-pride-gold');
+            });
+            this.classList.remove('btn-outline-pride-gold');
+            this.classList.add('active', 'btn-pride-gold');
+            
+            currentView = this.dataset.view;
+            
+            updateURLParameters();
+            applyFilters();
+        });
+    });
+
+    // Filter functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentFilter = this.dataset.filter;
+            updateURLParameters();
+            applyFilters();
+        });
+    });
+
+    // Search functionality
+    function performSearch() {
+        currentSearchTerm = searchInput.value.toLowerCase().trim();
+        updateURLParameters();
+        applyFilters();
+    }
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    // Reset functionality
+    resetBtn.addEventListener('click', function() {
+        searchInput.value = '';
+        currentSearchTerm = '';
+        currentFilter = 'all';
+        currentView = 'all';
+        
+        // Reset active buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('[data-filter="all"]').classList.add('active');
+        
+        viewToggleButtons.forEach(btn => {
+            btn.classList.remove('active', 'btn-pride-gold');
+            btn.classList.add('btn-outline-pride-gold');
+        });
+        document.querySelector('[data-view="all"]').classList.remove('btn-outline-pride-gold');
+        document.querySelector('[data-view="all"]').classList.add('active', 'btn-pride-gold');
+        
+        updateURLParameters();
+        applyFilters();
+    });
+
+    // Randomize the order of visible cards
+    function randomizeCardOrder() {
+        const browseGrid = document.getElementById('browseGrid');
+        const visibleItems = Array.from(browseItems).filter(item => item.style.display !== 'none');
+        
+        // Shuffle the visible items using Fisher-Yates algorithm
+        for (let i = visibleItems.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [visibleItems[i], visibleItems[j]] = [visibleItems[j], visibleItems[i]];
+        }
+        
+        // Remove all items from the grid
+        browseItems.forEach(item => {
+            if (item.parentNode) {
+                item.parentNode.removeChild(item);
+            }
+        });
+        
+        // Re-add items in the new randomized order, maintaining hidden items at the end
+        const hiddenItems = Array.from(browseItems).filter(item => item.style.display === 'none');
+        
+        visibleItems.forEach(item => browseGrid.appendChild(item));
+        hiddenItems.forEach(item => browseGrid.appendChild(item));
+    }
+
+    // Apply filters and search
+    function applyFilters() {
+        let visibleCount = 0;
+
+        browseItems.forEach(item => {
+            const itemType = item.dataset.type;
+            const fellowshipType = item.dataset.fellowship;
+            const personType = item.dataset.personType;
+            const projectType = item.dataset.projectType;
+            const searchData = item.dataset.search;
+            
+            // Check view match
+            let viewMatch = false;
+            if (currentView === 'all') {
+                viewMatch = true;
+            } else if (currentView === 'people' && itemType === 'person') {
+                viewMatch = true;
+            } else if (currentView === 'projects' && itemType === 'project') {
+                viewMatch = true;
+            }
+            
+            // Check filter match
+            let filterMatch = false;
+            if (currentFilter === 'all') {
+                filterMatch = true;
+            } else if (currentFilter === 'student') {
+                // Show students for people, student projects for projects
+                if (itemType === 'person' && personType === 'student') {
+                    filterMatch = true;
+                } else if (itemType === 'project' && (projectType === 'student' || projectType === 'mixed')) {
+                    filterMatch = true;
+                }
+            } else if (currentFilter === 'faculty') {
+                // Show faculty for people, faculty projects for projects
+                if (itemType === 'person' && personType === 'faculty') {
+                    filterMatch = true;
+                } else if (itemType === 'project' && (projectType === 'faculty' || projectType === 'mixed')) {
+                    filterMatch = true;
+                }
+            } else {
+                // Fellowship type filter
+                filterMatch = fellowshipType === currentFilter;
+            }
+            
+            // Check search match
+            const searchMatch = currentSearchTerm === '' || searchData.includes(currentSearchTerm);
+            
+            if (viewMatch && filterMatch && searchMatch) {
+                item.style.display = 'block';
+                visibleCount++;
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        // Randomize the order of visible cards
+        randomizeCardOrder();
+
+        // Show/hide no results message
+        if (visibleCount === 0) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
+
+        // Update item count
+        const totalItems = browseItems.length;
+        itemCount.textContent = `${visibleCount} of ${totalItems} items`;
+        if (currentView === 'people') {
+            itemCount.textContent = `${visibleCount} of ${totalItems} fellows`;
+        } else if (currentView === 'projects') {
+            itemCount.textContent = `${visibleCount} of ${totalItems} projects`;
+        }
+    }
+
+    // Handle fellowship badge clicks
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('fellowship-filter-badge')) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const filterType = e.target.dataset.filter;
+            
+            // Update filter buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            const targetFilterButton = document.querySelector(`[data-filter="${filterType}"]`);
+            if (targetFilterButton) {
+                targetFilterButton.classList.add('active');
+            }
+            
+            // Clear search
+            searchInput.value = '';
+            currentSearchTerm = '';
+            
+            // Set current filter and apply
+            currentFilter = filterType;
+            updateURLParameters();
+            applyFilters();
+            
+            // Scroll to browse section
+            document.getElementById('browse').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+
+    // Prevent modal from opening when clicking external link or fellowship badge
+    document.querySelectorAll('.browse-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+            // If clicked element is a link, button, or fellowship badge, don't open modal
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
+                e.target.closest('a') || e.target.classList.contains('fellowship-filter-badge')) {
+                e.stopPropagation();
+                return false;
+            }
+        });
+    });
+
+    // Real-time search as user types (debounced)
+    let searchTimeout;
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            currentSearchTerm = this.value.toLowerCase().trim();
+            updateURLParameters();
+            applyFilters();
+        }, 300);
+    });
+
+    // Generate carousel with random projects
+    function generateRandomCarousel() {
+        const fellowshipDataElement = document.getElementById('fellowshipData');
+        const carousel = document.getElementById('featuredProjectsCarousel');
+        
+        if (!fellowshipDataElement || !carousel) return;
+        
+        try {
+            const allProjects = JSON.parse(fellowshipDataElement.textContent);
+            const carouselInner = carousel.querySelector('.carousel-inner');
+            
+            // Shuffle all projects and take first 6
+            const shuffledProjects = [...allProjects];
+            for (let i = shuffledProjects.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledProjects[i], shuffledProjects[j]] = [shuffledProjects[j], shuffledProjects[i]];
+            }
+            
+            const selectedProjects = shuffledProjects.slice(0, 6);
+            
+            // Generate carousel items
+            carouselInner.innerHTML = '';
+            selectedProjects.forEach((project, index) => {
+                const contributorText = project.contributors.length > 1 
+                    ? `<strong>${project.contributors.length} Contributors:</strong><br>
+                       ${project.contributors.slice(0, 2).map(c => `${c.firstname} ${c.lastname}`).join(', ')}
+                       ${project.contributors.length > 2 ? ` & ${project.contributors.length - 2} more` : ''}`
+                    : `<strong>${project.contributors[0].firstname} ${project.contributors[0].lastname}</strong>`;
+                
+                const carouselItem = document.createElement('div');
+                carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+                carouselItem.innerHTML = `
+                    <a href="${project.site}" target="_blank" class="text-decoration-none">
+                        <div class="card shadow-sm h-100" style="cursor: pointer;">
+                            ${project.project_image 
+                                ? `<img src="${project.project_image}" class="card-img-top" style="height: 200px; object-fit: cover;" alt="${project.project}">`
+                                : `<div class="bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                                     <i class="fas fa-project-diagram fa-3x text-muted"></i>
+                                   </div>`
+                            }
+                            <div class="card-body d-flex flex-column">
+                                <p class="h6 card-title text-dark">${project.project}</p>
+                                <p class="card-text small text-muted flex-grow-1">${project.description ? project.description.split(' ').slice(0, 15).join(' ') + (project.description.split(' ').length > 15 ? '...' : '') : ''}</p>
+                                <div class="mt-auto">
+                                    <small class="text-muted">
+                                        ${contributorText}
+                                        <br>${project.year} • ${project.fellowship.replace('Fellowship', '').trim()}
+                                    </small>
+                                    <div class="text-end mt-2">
+                                        <small class="text-pride-gold">
+                                            <i class="fas fa-external-link-alt"></i> View Project
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `;
+                carouselInner.appendChild(carouselItem);
+            });
+            
+        } catch (error) {
+            console.error('Error generating carousel:', error);
+        }
+    }
+
+    // Check for URL parameters and apply all filters
+    function checkURLParameters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const view = urlParams.get('view');
+        const filter = urlParams.get('filter');
+        const search = urlParams.get('search');
+        
+        let shouldScrollToBrowse = false;
+        
+        // Set view filter
+        if (view && ['people', 'projects'].includes(view)) {
+            currentView = view;
+            viewToggleButtons.forEach(btn => {
+                btn.classList.remove('active', 'btn-pride-gold');
+                btn.classList.add('btn-outline-pride-gold');
+            });
+            const targetViewButton = document.querySelector(`[data-view="${view}"]`);
+            if (targetViewButton) {
+                targetViewButton.classList.remove('btn-outline-pride-gold');
+                targetViewButton.classList.add('active', 'btn-pride-gold');
+            }
+            
+            shouldScrollToBrowse = true;
+        }
+        
+        // Set filter
+        if (filter) {
+            const targetFilterButton = document.querySelector(`[data-filter="${filter}"]`);
+            if (targetFilterButton) {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                targetFilterButton.classList.add('active');
+                currentFilter = filter;
+                shouldScrollToBrowse = true;
+            }
+        }
+        
+        // Set search term
+        if (search) {
+            searchInput.value = search;
+            currentSearchTerm = search.toLowerCase().trim();
+            shouldScrollToBrowse = true;
+        }
+        
+        // Apply filters if any were found
+        if (shouldScrollToBrowse) {
+            applyFilters();
+            
+            // Scroll to browse section after a brief delay
+            setTimeout(() => {
+                document.getElementById('browse').scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 100);
+        }
+    }
+
+    // Initialize count on page load, generate random carousel, and check URL parameters
+    applyFilters();
+    generateRandomCarousel();
+    checkURLParameters();
+});
+</script>

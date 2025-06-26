@@ -1,29 +1,14 @@
 ---
-title: Berry IJC Fellowship
-layout: page-narrow
+title: Berry International Jazz Collections Fellowship
+layout: fellowship
 section: Special Collections
 permalink: /special-collections/berry-ijc-fellowship.html
----
-
-<div class="text-center mb-2 pt-3">
-    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
-    <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
-    <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
-    <a href="#coll" class="btn btn-secondary btn-sm my-2 mx-1">IJC Collections</a>
-    <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_e98kkFZo4Qb2YoS" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-</div>
-
-{:.text-center}
-**This application is currently closed.**
-
-{:.text-center}
-*Questions?* Contact Ben Hunter, Dean of University Libraries, at [bhunter@uidaho.edu](mailto:bhunter@uidaho.edu)
-
+contact_name: Ben Hunter, Dean of University Libraries
+contact_email: bhunter@uidaho.edu
 ---
 
 {:#call}
-### Call for Applications
+## Call for Applications
 
 The University of Idaho Library invites students from any discipline at the University of Idaho to apply for the Berry International Jazz Collections Fellowship. 
 This program funds one student each year to collaborate with the faculty and staff at the University of Idaho Library to increase the visibility and use of the [International Jazz Collections (IJC)](https://www.ijc.uidaho.edu/) through work on a specific research project. 
@@ -56,7 +41,7 @@ Applicants must submit:
 ---
 
 {:#criteria}
-### Applications will be judged on the following criteria:
+## Application Criteria
 
 - Application materials are clearly written and demonstrate the applicant's understanding of the nature and purpose of the project, how it relates to other work in the field, and it includes a plan for accomplishing project goals.
 - The project forwards the goals of increasing the visibility and use of the University of Idaho's International Jazz Collections (IJC).
@@ -83,71 +68,3 @@ Applicants must submit:
 <div class="text-center">
 <a href="https://www.ijc.uidaho.edu/" class="btn btn-payette-blue my-2 mx-1"><span class="fas fa-guitar"></span> View all jazz collections</a>
 </div>
-
----
-
-{:#past .pb-2}
-### Past Projects
-
-{% capture coltrane %}
-A digital collection exploring Alice Coltrane's contributions to jazz spiritualism, showcasing a rare oral history recording from the U of I Leonard Feather Collection.
-<br>
-**2024 Fellow: Irene Koreski**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/coltrane/" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture blindfold %}
-A digital collection of transcribed interviews between Leonard Feather and renown jazz artists.
-<br>
-**2019 Fellow: Mitchell Gibbs**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/blindfold/" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture skinner %}
-A digital essay presenting a series of oral history interviews conducted with Doc Skinner, an influential figure in the history of the Lionel Hampton Jazz Festival.
-<br>
-**2020 Fellow: Spencer Manning**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/jazzfest/history.html" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture fitzgerald %}
-A digital collection celebrating Fitzgerald's fashion and style through her clothing, photographs, and album covers.
-<br>
-**2021 Fellow: Destiny Angel-Hubble**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/ella-fitzgerald/" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture cheatham %}
-A digital exhibit featuring photographs, newspaper articles, letters, clothing, and jazz charts of trumpeter Adolphus Anthony "Doc" Cheatham (1905-1997).
-<br>
-**2022 Fellow: Esther David**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/cheatham/" color="outline-payette-blue" %}
-{% endcapture %}
-
-<div class="row justify-content-center">
-<div class="col-md-6">
-{% include feature/card.html centered=true text=coltrane header="Alice Coltrane, Jazz Spiritualism" img="https://objects.lib.uidaho.edu/coltrane/alice_09.jpg" alt="Poster from 1982 concert by Alice Coltrane, wife of John Coltrane, at the UCLA Center for the Performing Arts for a fund raiser for the refurbishment of Royce Hall." %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=cheatham header="Doc Cheatham Collection" img="https://www.lib.uidaho.edu/media/ijc/cheatham.jpg" alt="image of Doc Cheatham playing the trumpet" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=fitzgerald header='Ella Fitzgerald Collection' img="https://www.lib.uidaho.edu/media/digital/small/ella-fitzgerald.jpg" alt="image of Ella Fitzgerald's turquoise high-heeled shoes" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=skinner header='Oral History Interviews with Lynn "Doc" Skinner' img="https://www.lib.uidaho.edu/media/ijc/doc-skinner-lionel-hampton.jpg" alt="image of Doc Skinner and Lionel Hampton on stage" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=blindfold header="Leonard Feather Blindfold Tests" img="https://www.lib.uidaho.edu/media/ijc/lester-young-blindfold-test.jpg" alt="image of Lester Young playing the saxophone" %}
-</div>
-<div>

@@ -1,13 +1,10 @@
 ---
 title: Ben J. Plastino Collection Fellowship
-layout: page-narrow
+layout: fellowship
 section: Special Collections
 permalink: /special-collections/plastino-fellowship.html
+show_past_projects: false
 ---
-
-<div class="text-center mb-2 pt-3">
-    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
-    <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
     <a href="#mechanics" class="btn btn-secondary btn-sm my-2 mx-1">Fellowship Mechanics</a>
     <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">Application Process</a>
     <a href="#about" class="btn btn-secondary btn-sm my-2 mx-1">Information about Ben J. Plastino</a>

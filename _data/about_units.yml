@@ -57,7 +57,7 @@ units:
   - title: Research and Experiential Learning
     head: jkenyon
     areas:
-      - name: Data Hub
+      - name: DataHub
         link: /datahub/
       - name: The MILL 
         link: /mill/
