@@ -1,6 +1,6 @@
 ---
 title: Julie and David Levine Data Hub Fellowship
-section: Services
+section: Fellowships
 permalink: /fellowships/levine.html
 layout: fellowship
 contact_name: Bruce Godfrey
