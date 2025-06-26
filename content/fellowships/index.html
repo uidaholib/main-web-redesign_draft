@@ -147,6 +147,17 @@ custom-foot: js/fellowships-browse.html
     </div>
 </section>
 
+<!-- Student Savings Info Modal -->
+<div class="modal fade" id="savingsInfoModal" tabindex="-1" aria-labelledby="savingsInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="mb-0"><small>This is a very conservative estimate of savings related to the adoption of Open Textbooks. The estimated cost savings over time number is calculated by taking the initial student savings for the course used, multiplying it a maximum of 3 times (indicating that it was likely used in subsequent classes) while applying a 40% decay rate to the calculation to account for changes in textbook price, reductions in students, and other inputs that might reduce the impact.</small></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Browse Fellows and Projects -->
 <section id="browse" class="py-5 bg-light">
@@ -512,14 +523,4 @@ custom-foot: js/fellowships-browse.html
 
 </div>
 
-<!-- Student Savings Info Modal -->
-<div class="modal fade" id="savingsInfoModal" tabindex="-1" aria-labelledby="savingsInfoModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
-                <p class="mb-0"><small>This is a very conservative estimate of savings related to the adoption of Open Textbooks. The estimated cost savings over time number is calculated by taking the initial student savings for the course used, multiplying it a maximum of 3 times (indicating that it was likely used in subsequent classes) while applying a 75% decay rate to the calculation.</small></p>
-            </div>
-        </div>
-    </div>
-</div>
+
