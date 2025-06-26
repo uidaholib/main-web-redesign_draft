@@ -194,7 +194,7 @@ custom-foot: js/fellowships-browse.html
 
         <!-- Create unique lists for people and projects -->
         {% assign all_fellows = site.data.fellowships %}
-        {% assign unique_people = all_fellows | group_by: "full name" %}
+        {% assign unique_people = all_fellows | group_by: "full-name" %}
         {% assign projects_with_names = all_fellows | where_exp: "item", "item.project != nil and item.project != ''" %}
         {% assign unique_projects = projects_with_names | group_by: "project" %}
 
