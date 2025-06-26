@@ -192,10 +192,26 @@ Work with Us:
 Fellowships:
   - parent: Fellowships
     stub: /fellowships/
-  - subsection: Fellowship
+  - subsection: Fellowships Home
     link: /fellowships/
   - subsection: Fellowship Opportunities
     link: /fellowships/opportunities.html
+  - subsection: CDIL Faculty Development Fellowship
+    link: /opportunities/fellowships/cdil-faculty-development.html
+  - subsection: CDIL Graduate Student Fellowship
+    link: /fellowships/cdil-graduate.html
+  - subsection: CDIL Undergraduate Fellowship
+    link: /fellowships/cdil-undergraduate.html
+  - subsection: Berry International Jazz Collections Fellowship
+    link: /special-collections/berry-ijc-fellowship.html
+  - subsection: Gary and Carolyn Strong Fellowship
+    link: /special-collections/strong-fellowship.html
+  - subsection: Ben J. Plastino Fellowship
+    link: /special-collections/plastino-fellowship.html
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/levine.html
+  - subsection: Lynn and Dennis Baird Fellowship
+    link: /fellowships/baird.html
   - subsection: << About Us
     link: /about/
 
@@ -441,7 +457,7 @@ Special Collections:
   - subsection: Fellowships
     link: /special-collections/berry-ijc-fellowship.html
     subpages:
-      - name: Berry IJC Fellowship
+      - name: Berry International Jazz Collections Fellowship
         url: /special-collections/berry-ijc-fellowship.html
       - name: Strong Spec Fellowship
         url: /special-collections/strong-fellowship.html
