@@ -1,28 +1,15 @@
 ---
-title: Gary E. and Carolyn J. Strong Special Collections Fellowship
-layout: page-narrow
+title: Gary and Carolyn Strong Special Collections Fellowship
+layout: fellowship
 section: Special Collections
 permalink: /special-collections/strong-fellowship.html
+contact_name: Dulce Kersting-Lark, Head of Special Collections and Archives
+contact_email: dulce@uidaho.edu
+deadline: March 21st
 ---
 
-<div class="text-center mb-2 pt-3">
-    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
-    <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
-    <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
-    <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
-    <!--<a href="https://forms.office.com/r/3UbunAida7" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>-->
-</div>
-
-{:.text-center}
-**This application is currently closed.**
-
-{:.text-center}
-*Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
-
-------
-
 {:#call}
-### Call for Applications
+## Call for Applications
 
 The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections & Archives. The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
 
@@ -34,10 +21,10 @@ The award includes a $4,500 student fellowship and up to $500 in research funds 
 
 Since 2021, Strong Fellowship recipients have improved access to a variety of collections, including the [League of Women Voters of Moscow records](https://archiveswest.orbiscascade.org/ark:80444/xv211561), the [Women in Natural Resources collection](https://archiveswest.orbiscascade.org/ark:80444/xv702668), the [Palouse Science Fiction Association collection](https://archiveswest.orbiscascade.org/ark:80444/xv334160), and the [Lyle J. Reed collection](https://archiveswest.orbiscascade.org/ark:80444/xv425711) related to the Old Time Fiddle Festival, the [Plant, Soil, and Entomological Sciences records](https://www.lib.uidaho.edu/digital/pses/), and the [WWAMI records](https://archiveswest.orbiscascade.org/ark:80444/xv759233).     
 
-------
+---
 
 {:#process}
-### Application Process
+## How to Apply
 
 Applicants must submit: 
 
@@ -57,10 +44,10 @@ Applicants must submit:
 
 **Applications are due Friday, March 21st** by the end of the day and a decision will be announced within two weeks of the deadline.
 
-------
+---
 
 {:#criteria}
-### Applications will be judged on the following criteria:
+## Application Criteria
 
 Applications will be judged on the following criteria: 
 
@@ -70,15 +57,13 @@ Applications will be judged on the following criteria:
 - Student is prepared for the project (coursework, experience, interest and ability to navigate and use primary sources, etc.) 
 - Faculty member has submitted supportive recommendation. 
 
-------
+---
 
 {:#potential}
-### Potential Projects:
+## Potential Projects
 
 - Rehouse, arrange, and describe 16 cubic feet of aerial photographs from Potlatch Corporation.   
 - Rehouse, arrange, and describe 8 cubic feet of records from Ken Hungerford and the Wildlife Resources Department.  
 - Inventory and describe large donation of historic photos from Nez Perce-Clearwater National Forest.   
-
-------
 
 Interested students are strongly encouraged to discuss their proposals with the Head of Special Collections and Archives, Dulce Kersting-Lark, as they are developing their application materials. Dulce can be reached at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).

@@ -2,22 +2,8 @@
 title: CDIL Undergraduate Fellowship
 section: Fellowships
 permalink: /fellowships/cdil-undergraduate.html
-layout: page-narrow
+layout: fellowship
 ---
-
-<div class="text-center mb-2 pt-3">
-    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
-    <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
-    <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
-    <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
-    <a href="https://cdil.lib.uidaho.edu/fellowships/undergradfellow.html" class="btn btn-info my-2 mx-1"><span class="fas fa-external-link-alt"></span> Learn More</a>
-</div>
-
-{:.text-center}
-**This application is currently closed.**
-
-{:.text-center}
-*Questions?* Contact the [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) at [cdil@uidaho.edu](mailto:cdil@uidaho.edu)
 
 ---
 
