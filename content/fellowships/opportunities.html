@@ -57,9 +57,13 @@ layout: page
                             </div>
 
                             {% if fellowship.deadline and fellowship.deadline != "Inactive" %}
+                            {% assign current_year = 'now' | date: "%Y" %}
+                            {% assign open_date_full = current_year | append: "-" | append: fellowship.date-open %}
+                            {% assign closed_date_full = current_year | append: "-" | append: fellowship.date-closed %}
                             <div class="text-center mt-2">
                                 <small class="text-muted"><i class="fas fa-calendar"></i> Deadline: {{
-                                    fellowship.deadline }}</small>
+                                    fellowship.deadline }}{% if fellowship.date-open and fellowship.date-closed %}
+                                    ({{ open_date_full | date: "%B %d" }} - {{ closed_date_full | date: "%B %d" }}){% endif %}</small>
                             </div>
                             {% endif %}
                         </div>
@@ -185,11 +189,11 @@ function updateOpportunitiesPageStatus() {
         let badge = card.querySelector('.fellowship-status-badge');
         if (badge) {
           if (status.isOpen) {
-            badge.className = 'fellowship-status-badge badge ms-2 bg-success';
+            badge.className = 'fellowship-status-badge btn btn-xs ms-2 p-1 btn-success';
             badge.textContent = 'OPEN';
             badge.title = status.reason;
           } else {
-            badge.className = 'fellowship-status-badge badge ms-2 bg-secondary';
+            badge.className = 'fellowship-status-badge btn btn-xs ms-2 p-1 btn-secondary';
             badge.textContent = 'CLOSED';
             badge.title = status.reason;
           }

@@ -88,7 +88,7 @@ custom-foot: js/fellowships-browse.html
         {% assign total_fellows = all_fellows | size %}
         {% assign think_open_fellows = all_fellows | where: "fellowship", "ThinkOpen Fellowship" %}
         {% assign total_students_impacted = think_open_fellows | map: "students_impacted" | compact | map: "size" %}
-        {% assign total_savings = think_open_fellows | map: "students_savings" | compact %}
+        {% assign total_savings = think_open_fellows | map: "estimated-cost-savings-over-time" | compact %}
 
         <div class="row text-center">
             <div class="col-md-3 mb-4">
@@ -131,13 +131,14 @@ custom-foot: js/fellowships-browse.html
                     <div class="card-body">
                         {% assign savings_total = 0 %}
                         {% for fellow in think_open_fellows %}
-                        {% if fellow.students_savings %}
-                        {% assign savings_clean = fellow.students_savings | remove: "$" | remove: "," | plus: 0 %}
+                        {% if fellow.estimated-cost-savings-over-time %}
+                        {% assign savings_clean = fellow.estimated-cost-savings-over-time | remove: "$" | remove: "," | plus: 0 %}
                         {% assign savings_total = savings_total | plus: savings_clean %}
                         {% endif %}
                         {% endfor %}
-                        <div class="display-4 text-wild-rose mb-2">${{ savings_total | divided_by: 1000 }}K+</div>
-                        <h3 class="h5">Student Savings</h3>
+                        <div class="display-4 text-wild-rose mb-2">${{ savings_total | divided_by: 1000 | round }}K+</div>
+                        <h3 class="h5">Student Savings <sup>
+                            <i class="fas fa-info-circle text-muted" data-bs-toggle="modal" data-bs-target="#savingsInfoModal" style="font-size: 0.6em; cursor: help;"></i></sup></h3>
                         <p class="text-muted">In textbook costs</p>
                     </div>
                 </div>
@@ -509,4 +510,16 @@ custom-foot: js/fellowships-browse.html
     </div>
 </section>
 
+</div>
+
+<!-- Student Savings Info Modal -->
+<div class="modal fade" id="savingsInfoModal" tabindex="-1" aria-labelledby="savingsInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="mb-0"><small>This is a very conservative estimate of savings related to the adoption of Open Textbooks. The estimated cost savings over time number is calculated by taking the initial student savings for the course used, multiplying it a maximum of 3 times (indicating that it was likely used in subsequent classes) while applying a 75% decay rate to the calculation.</small></p>
+            </div>
+        </div>
+    </div>
 </div>

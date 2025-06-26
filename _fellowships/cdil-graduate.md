@@ -1,5 +1,5 @@
 ---
-title: CDIL Graduate Fellowship
+title: CDIL Graduate Student Fellowship
 section: Fellowships
 permalink: /fellowships/cdil-graduate.html
 layout: fellowship
