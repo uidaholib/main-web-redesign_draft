@@ -12,7 +12,7 @@ gallery: true
 - Position your mouth 2-6 inches away from the microphone (about a fist width) for optimal sound capture.
 - The microphone uses a cardioid polar pattern, which picks up sound best from the front. Always speak or sing into the end (not the side) of the microphone for optimal results. 
 
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/microphone_end.png" alt="A silhouette of a person speaking into the end of a microphone." caption="Speak into the end of a microphone." width="50%" %}</li>
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/microphone_end.png" alt="A silhouette of a person speaking into the end of a microphone." caption="Speak into the end of a microphone." width="50%" %}
 
 ## Gain Adjustment
 {:.h3}
