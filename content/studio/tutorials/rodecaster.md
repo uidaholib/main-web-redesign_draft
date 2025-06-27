@@ -88,7 +88,7 @@ Once you've transferred or uploaded your files (e.g., to OneDrive), eject and un
 ## Quick Tips & Troubleshooting
 {:.h3}
 
-- Low levels? Recheck the mic connection and slowly raise the fader from the unity gain line. Be sure to also check out [Tips on Microphone Technique]({{ '/studio/mictechnique.html' | relative_url }})
+- Low levels? Recheck the mic connection and slowly raise the fader from the unity gain line. Be sure to also check out [Tips on Microphone Technique]({{ '/studio/mictechnique.html' | relative_url }}).
 - Flash drive not detected? Unplug and reconnect or try a different port.
 - Returning later? Save a copy of your work elsewhere. Files saved on the flash drive will be deleted periodically.
 
