@@ -518,8 +518,10 @@ The Studio:
         url: /studio/podcasting.html
       - name: Teaching with eGlass
         url: /studio/eglass.html  
-      - name: Podcast/Voiceover Recording Using RØDECaster Pro II
+      - name: Voiceover Recording Using RØDECaster Pro II
         url: /studio/rodecaster.html   
+      - name: Tips on Microphone Technique
+        url: /studio/mictechnique.html   
   - subsection: Terms of Use
     link: /studio/termsofuse.html
   - subsection: Studio FAQ
