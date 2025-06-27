@@ -12,22 +12,22 @@ In this tutorial, we will cover the basics of using RØDECaster Pro II to record
 ## 1. Getting Started: Power & Setup
 {:.h3}
 <ol start="1">
- <li>Press the red Power button located on the rear panel of the RØDECaster Pro II to turn on RØDECaster Pro II.
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rode_power.png" alt="Red Power button on RØDECaster Pro II" caption="Red Power button on RØDECaster Pro II" %}
+ <li>Press the red Power button <img src="https://www.lib.uidaho.edu/media/studio/rode_power.png" alt="Red Power button on RØDECaster Pro II" width="10%"> located on the rear panel of the RØDECaster Pro II to turn on RØDECaster Pro II.
+
+<img align="right" src="https://www.lib.uidaho.edu/media/studio/unity_gain.png" alt="unity gain" caption="A close-up of RØDECaster Pro II with unity gain line" width="30%" ></li>
 Push faders up to the thick white line—this is called unity gain (0 dB gain or no change to the input signal's level).
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/unity_gain.png" alt="unity gain" caption="A close-up of RØDECaster Pro II with unity gain line" %}</li>
+
  <li>Put on the headphones and speak at your natural recording volume and distance from the mic. Watch the level meter on the touchscreen go up and down (Note that the level meter on the touchscreen does not include the minus signs):
+ <img align="right" src="https://www.lib.uidaho.edu/media/studio/level_meter.png" alt="Level meter" width="6%">
   <ul>
    <li>Aim for peaks between –6 (dBFS) and –3 (dBFS)</li>
    <li>Average around –12 (dBFS) to –15 (dBFS)</li>
   </ul>
 Adjust your fader up or down if needed to stay within this range. (Make note of the labels of mics and headphones that are color-coded: pink and green on channel 1 and 2)
 
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/level_meter.png" alt="Level meter" caption="Level meter" %}
-
 Use the knob to adjust the headphones volume to a comfortable level. 
  
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rode_headphone_volume.png" alt="Headphone knobs" caption="Headphone knobs" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rode_headphone_volume.png" alt="Headphone knobs" caption="Headphone knobs" width="50%" %}
 
 Repeat this process for each mic that you are using to record.
  </li>
@@ -35,17 +35,9 @@ Repeat this process for each mic that you are using to record.
 ## 2. Recording Audio
 {:.h3}
 <ol start="1">
- <li>To start the recording, press the REC button on the left of the touchscreen. 
-
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rec_green.png" alt="Green REC button" caption="Green REC button" %}
-
-The button turns red. A timer will appear on the touchscreen to show the elapsed time.
-
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rec_red.png" alt="Red REC button" caption="Red REC button" %}
+ <li>To start the recording, press the REC button on the left of the touchscreen. <img src="https://www.lib.uidaho.edu/media/studio/rec_green.png" alt="Green REC button" width="10%"><br> The button will turn red. <img src="https://www.lib.uidaho.edu/media/studio/rec_red.png" alt="Red REC button" width="10%"> A timer will appear on the touchscreen to show the elapsed time.
  </li>
- <li>To pause the recording, press REC once. The button turns orange. Press REC again to resume.
-
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rec_orange.png" alt="Orange REC button" caption="Orange REC button" %}
+ <li>To pause the recording, press REC once. The button will turn orange. <img src="https://www.lib.uidaho.edu/media/studio/rec_orange.png" alt="Orange REC button" width="10%"> Press REC again to resume.
  </li>
  <li>To stop the recording, press and hold the REC button until it turns green.</li>
 </ol>
@@ -54,11 +46,11 @@ The button turns red. A timer will appear on the touchscreen to show the elapsed
 <ol start="1">
  <li>Tap the Show icon (top left of the home screen). 
 
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/show_icon.png" alt="Show icon" caption="Show icon" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/show_icon.png" alt="Show icon" caption="Show icon" width="50%" %}
  </li>
  <li>Select Recordings to view a list of files.
  
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rode_recordings.png" alt="Recordings" caption="Recordings" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/rode_recordings.png" alt="Recordings" caption="Recordings" width="25%" %}
  </li>
  <li>Tap the file with the highest number (usually the most recent), then tap the Play icon to listen.
  </li>
@@ -70,7 +62,7 @@ The button turns red. A timer will appear on the touchscreen to show the elapsed
  <li>Your recording is saved on a USB flash drive labeled “Studio” (with USB-C and USB-A connector).</li>
  <li>On the touchscreen, tap the home icon on the top right corner to return to the default home screen, then tap the flash drive icon on the top middle of the screen, then tap Eject.</li>
 </ul>
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/flash_drive_icon.png" alt="Flash drive icon on the touchscreen" caption="Flash drive icon on the touchscreen" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/flash_drive_icon.png" alt="Flash drive icon on the touchscreen" caption="Flash drive icon on the touchscreen" width="25%" %}
 
  <li>Transfer Files to a Computer
   <ul>
@@ -78,7 +70,7 @@ The button turns red. A timer will appear on the touchscreen to show the elapsed
    <li>If you are using the Studio iMac computer, plug the flash drive into a blue port on the Anker Data Hub.</li>
   </ul>
  </li>
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/blue_port.png" alt="Blue ports on the Anker Data Hub" caption="Blue ports on the Anker Data Hub" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/blue_port.png" alt="Blue ports on the Anker Data Hub" caption="Blue ports on the Anker Data Hub" width="25%" %}
  </li>
  <li>Locate Your Files
   <ul>
