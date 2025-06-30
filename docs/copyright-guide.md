@@ -10,7 +10,7 @@ The University of Idaho is committed to respecting the rights of copyright holde
 
 This website provides information and educational tools to assist faculty, staff, and students in making informed decisions regarding appropriate uses of copyrighted materials. Please visit the links on the left for specific information.
 
-For further information about copyright, please consult the University of Idaho Faculty Staff Handbook [section 5300](http://www.webpages.uidaho.edu/fsh/5300.html) and [section 6580](http://www.webpages.uidaho.edu/fsh/6580.html). You can also contact [Copyright Librarian Kristin Henrich](/about/people/khenrich.html), or the [University's Office of General Counsel](https://www.uidaho.edu/general-counsel).
+For further information about copyright, please consult the University of Idaho Faculty Staff Handbook [section 5300](https://www.uidaho.edu/governance/policy/policies/fsh/5/5300) and [section 6580](https://www.uidaho.edu/governance/policy/policies/fsh/6/6580). You can also contact [Copyright Librarian Kristin Henrich](/about/people/khenrich.html), or the [University's Office of General Counsel](https://www.uidaho.edu/general-counsel).
 
 {% endcapture %}
 {% include feature/card.html text=policy header="University of Idaho Copyright Policy" %}
