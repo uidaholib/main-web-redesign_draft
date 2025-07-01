@@ -1,5 +1,5 @@
 ---
-title: Podcast/Voiceover Recording Using RØDECaster Pro II
+title: Podcast and Voiceover Recording Using RØDECaster Pro II
 section: The Studio
 permalink: /studio/rodecaster.html
 layout: page
