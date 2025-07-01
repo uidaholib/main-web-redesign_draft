@@ -10,26 +10,24 @@ layout: fellowship
 {:#call}
 ### Call for Applications
 
-The CDIL Undergraduate Summer Fellowship Program provides a stipend for a student currently enrolled as an undergraduate at the University of Idaho to work on the development of CDIL-related digital projects, be they projects related to CDIL connected faculty or that of the student's own creation.
+The Center for Digital Inquiry and Learning invites undergraduate students currently enrolled in any major to work with CDIL staff on digital scholarship projects over the course of a summer. 
 
 This fellowship offers **$2,500** to support undergraduate students in developing innovative digital scholarship projects during a 10-week summer program.
 
-**Eligibility:** Undergraduates currently enrolled in a University of Idaho program
+### About CDIL
 
-**Number Available:** 1
+The [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) supports innovative digital scholarship across the University of Idaho campus. CDIL collaborates with faculty, students, and staff to develop digital projects that advance research, teaching, and learning.
 
-**Deadline:** Spring
-
-**Timeframe:** Late Spring - Summer (10 Weeks)
+For more information about CDIL and their fellowship programs, visit [https://cdil.lib.uidaho.edu/fellowships/](https://cdil.lib.uidaho.edu/fellowships/).
 
 ---
 
 {:#process}
 ## How to Apply
 
-To apply for the CDIL Undergraduate Fellowship, please visit the CDIL fellowship application page. Applications are typically due in the spring for summer fellowships.
+To apply for the CDIL Undergraduate Student Fellowship, please fill out our application form, which will be available on this page from January 15 to March 15 each year. 
 
-Undergraduate students are encouraged to discuss their project ideas with CDIL staff and potential faculty mentors before submitting an application.
+Undergraduate students are encouraged to discuss their project ideas with CDIL staff and potential faculty mentors before submitting an application. Email us at cdil@uidaho.edu. 
 
 For more information and to begin the application process, visit: [https://cdil.lib.uidaho.edu/fellowships/undergradfellow.html](https://cdil.lib.uidaho.edu/fellowships/undergradfellow.html)
 
@@ -46,80 +44,6 @@ Applications are evaluated based on:
 - Potential for learning and skill development
 - Alignment with CDIL's mission and capabilities
 - Quality of faculty mentorship and support
-
----
-
-{:#past .pb-2}
-### Past Projects
-
-{% capture closure %}
-2018 CDIL Undergraduate fellow Denessy Rodriguez ('19 Sociology & Anthropology) spent her fellowship developing a visual essay entitled "Closure of Syringa." This StoryMap powered essay details the closing of the Syringa Mobile Home park against a backdrop of national trends and data.
-<br>
-**2018 Fellow: Denessy Rodriguez, Culture, Society and Justice**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="http://www.arcgis.com/apps/Cascade/index.html?appid=cd897eb9ea4c4544af3e1972ec924745" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture rephotography %}
-Rephotography project documenting prominent sites from the University of Idaho Campus, comparing historical and contemporary views of significant campus locations.
-<br>
-**2019 Fellow: Rylee Robertson, Business and Economics**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://uidaho.maps.arcgis.com/apps/Cascade/index.html?appid=a459d05f5e2c4b5c9cd9e535e0c4afaa" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture shards %}
-This project presents the poem and musical composition "What Glass Shards Are Called," a collaboration between poet Emmy Newman and composer Samson Matthews, showcasing interdisciplinary creative work.
-<br>
-**2020 Fellow: Samson Matthews, Lionel Hampton School of Music**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://www.lib.uidaho.edu/digital/shards/" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture ghana %}
-An active database of music and dance from across Ghana, created in collaboration with international partners to preserve and share cultural heritage.
-<br>
-**2021 Fellow: Liam Marchant, Lionel Hampton School of Music**
-<br>
-{:.pt-2}
-{% include feature/button.html text="View Project" link="https://ghanamusicdance.org/" color="outline-payette-blue" %}
-{% endcapture %}
-
-{% capture oral_history %}
-Work on transcription and process for several oral history collections, contributing to the preservation and accessibility of community voices and stories.
-<br>
-**2024 Fellow: Dakota Steffen, History**
-{% endcapture %}
-
-{% capture latah_work %}
-Work on the Latah County Oral History Collection, helping to preserve and organize local historical narratives and community memories.
-<br>
-**2023 Fellow: Grace Gardiner, Culture, Society and Justice**
-{% endcapture %}
-
-<div class="row justify-content-center">
-<div class="col-md-6">
-{% include feature/card.html centered=true text=closure header="Closure of Syringa" img="https://cdil.lib.uidaho.edu/images/syringa-storymap.jpg" alt="Syringa Mobile Home park StoryMap" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=rephotography header="University of Idaho: Then and Now" img="https://cdil.lib.uidaho.edu/images/ui-rephotography.jpg" alt="Campus rephotography project" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=shards header="What Glass Shards Are Called" img="https://www.lib.uidaho.edu/digital/shards/assets/img/shards-banner.jpg" alt="Collaborative poetry and music project" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=ghana header="Ghana Music and Dance Initiative" img="https://ghanamusicdance.org/assets/img/banner.jpg" alt="Ghana cultural heritage database" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=oral_history header="Oral History Collections Work" img="https://cdil.lib.uidaho.edu/images/oral-history-thumb.jpg" alt="Oral history collection materials" %}
-</div>
-<div class="col-md-6">
-{% include feature/card.html centered=true text=latah_work header="Latah County Oral History Collection" img="https://cdil.lib.uidaho.edu/images/latah-oral-history.jpg" alt="Latah County historical materials" %}
-</div>
-</div>
 
 ---
 
@@ -158,11 +82,3 @@ CDIL Undergraduate Fellows have created diverse projects including:
 - **Cultural Heritage Projects** - Preserving and presenting community traditions
 - **Historical Documentation** - Digitizing and organizing archival materials
 - **Creative Collaborations** - Interdisciplinary artistic and scholarly work
-
----
-
-## About CDIL
-
-The [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) supports innovative digital scholarship across the University of Idaho campus. CDIL collaborates with faculty, students, and staff to develop digital projects that advance research, teaching, and learning.
-
-For more information about CDIL and their fellowship programs, visit [https://cdil.lib.uidaho.edu/fellowships/](https://cdil.lib.uidaho.edu/fellowships/).

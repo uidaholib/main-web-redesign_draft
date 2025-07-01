@@ -3,8 +3,6 @@ title: Library Seed Grant
 section: Fellowships
 permalink: /fellowships/libseed.html
 layout: fellowship
-contact_name: Dean Ben Hunter
-contact_email: bhunter@uidaho.edu
 show_past_projects: false
 ---
 

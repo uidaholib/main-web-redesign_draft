@@ -2,9 +2,7 @@
 title: Berry International Jazz Collections Fellowship
 layout: fellowship
 section: Special Collections
-permalink: /special-collections/berry-ijc-fellowship.html
-contact_name: Ben Hunter, Dean of University Libraries
-contact_email: bhunter@uidaho.edu
+permalink: /fellowships/berry-ijc-fellowship.html
 ---
 
 {:#call}

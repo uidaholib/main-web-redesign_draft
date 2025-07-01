@@ -203,11 +203,9 @@ Fellowships:
   - subsection: CDIL Undergraduate Fellowship
     link: /fellowships/cdil-undergraduate.html
   - subsection: Berry International Jazz Collections Fellowship
-    link: /special-collections/berry-ijc-fellowship.html
+    link: /fellowships/berry-ijc-fellowship.html
   - subsection: Gary and Carolyn Strong Fellowship
-    link: /special-collections/strong-fellowship.html
-  - subsection: Ben J. Plastino Fellowship
-    link: /special-collections/plastino-fellowship.html
+    link: /fellowships/strong-fellowship.html
   - subsection: Julie and David Levine Data Hub Fellowship
     link: /fellowships/levine.html
   - subsection: Lynn and Dennis Baird Fellowship
@@ -458,11 +456,11 @@ Special Collections:
     link: /special-collections/berry-ijc-fellowship.html
     subpages:
       - name: Berry International Jazz Collections Fellowship
-        url: /special-collections/berry-ijc-fellowship.html
+        url: /fellowships/berry-ijc-fellowship.html
       - name: Strong Spec Fellowship
-        url: /special-collections/strong-fellowship.html
+        url: /fellowships/strong-fellowship.html
       - name: Ben J. Plastino Fellowship
-        url: /special-collections/plastino-fellowship.html
+        url: /fellowships/plastino-fellowship.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About

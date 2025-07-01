@@ -3,14 +3,12 @@ title: Julie and David Levine Data Hub Fellowship
 section: Fellowships
 permalink: /fellowships/levine.html
 layout: fellowship
-contact_name: Bruce Godfrey
-contact_email: bgodfrey@uidaho.edu
 ---
 
 {:#call}
 ## Call for Applications
 
-This program funds one student each year to work with the faculty and staff at the Library to support the operations of the University of Idaho Library's [Data Hub](/datahub/), a center for geospatial and data sciences support. The Data Hub is intended to provide curricular and co-curricular support in areas such as geographic information systems, data sciences, quantitative data analysis and visualization, and research data management.
+The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Julie and David Levine Data Hub Fellowship. 
 
 The fellowship occurs during the Spring semester with exact dates to be negotiated with the successful applicant. The fellow should plan to spend approximately 10-15 hours per week on the project. Eligible applicants must be enrolled in the spring semester.
 

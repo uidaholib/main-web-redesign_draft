@@ -1,17 +1,16 @@
 ---
 title: Gary and Carolyn Strong Special Collections Fellowship
 layout: fellowship
-section: Special Collections
-permalink: /special-collections/strong-fellowship.html
-contact_name: Dulce Kersting-Lark, Head of Special Collections and Archives
-contact_email: dulce@uidaho.edu
-deadline: March 21st
+section: Fellowships
+permalink: /fellowships/strong-fellowship.html
 ---
 
 {:#call}
 ## Call for Applications
 
-The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections & Archives. The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
+The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship.
+
+ The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
 
 Applicants with an interest in working with archival materials, as a scholar or as a professional, are encouraged to apply for this hands-on learning opportunity. The activities of the fellow will be focused on processing and digitizing previously uncatalogued donations. University of Idaho Library personnel will assist and guide the work; applicants are not required to have experience in arranging archival material or creating digital collections.  
 

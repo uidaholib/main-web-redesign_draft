@@ -32,7 +32,7 @@ For more information about CDIL and their fellowship programs, visit [https://cd
 {:#process}
 ## How to Apply
 
-To apply for the CDIL Faculty Development Fellowship, please contact the [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) directly. Applications are considered on a rolling basis.
+To apply for the CDIL Faculty Development Fellowship, please email CDIL staff directly at cdil@uidaho.edu. Applications are considered on a rolling basis.
 
 Faculty members interested in developing digital scholarship skills are encouraged to discuss their learning goals with CDIL staff before applying.
 
