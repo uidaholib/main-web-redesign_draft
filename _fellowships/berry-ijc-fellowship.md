@@ -1,7 +1,7 @@
 ---
 title: Berry International Jazz Collections Fellowship
 layout: fellowship
-section: Special Collections
+section: Fellowships
 permalink: /fellowships/berry-ijc-fellowship.html
 ---
 
