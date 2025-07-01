@@ -1,24 +1,26 @@
 question,answer
-What can I do in the Studio? ,"Below is an example list of usage of the Studio:
+The Studio supports a wide range of recording, editing, and digitization projects. Examples include:
 
 - Record
-    - Lectures and instructional videos 
-    - Voice-over narrations for videos and slideshows
-    - Individual or group interviews 
+    - Lectures or instructional videos 
+    - Voice-over narration for videos or slideshows
+    - Individual or group interviews
     - Podcasts 
 - Edit
     - Multi-track audio mixing
-    - Short, documentary, and narrative films
-    - Videos (creative, informational, instructional)
+    - Short films, documentaries, or narrative videos
+    - Creative, informational, or instructional videos
 - Digitize
-    - Analog audio recording (cassette tape, reel-to-reel tape, vinyl record) to digital format
-    - Analog video recording (VHS tape, DVD) to digital format
+    - Convert analog audio (cassette tapes, reel-to-reel tapes, vinyl records) to digital formats
+    - Convert analog video (VHS tapes, DVDs) to digital formats
 
-Patrons who wish to use the Studio equipment for digitization must abide by copyright law. Please refer to the <a href=""https://www.lib.uidaho.edu/copyright/guide.html"" target=""_blank"" rel=""noopener"">Copyright Guide</a> for more information on appropriate uses of copyrighted materials. Also, note that the digitization equipment is used by Center for Digital Inquiry and Learning (CDIL) more frequently, and their projects often take priority, so a general studio booking won’t guarantee that the digitization equipment will be present in the studio. Please contact CDIL for equipment availability."
-How can I access the Studio as a first-time user?,"Reservation is required to use the Studio. You can book the room up to two weeks in advance using our reservation system LibCal on the Studio homepage. Same-day reservations may be possible but are not guaranteed. Please cancel your reservation if no longer needed to allow others to use the space.
+Patrons using the Studio for digitization must follow copyright laws. For details, please see our <a href="https://www.lib.uidaho.edu/copyright/guide.html" target="_blank" rel="noopener">Copyright Guide</a>. Please note that digitization equipment is often used by the Center for Digital Inquiry and Learning (CDIL), and their projects may take priority. A general Studio booking does not guarantee digitization equipment will be available. Please contact CDIL directly to confirm availability.
+How can I access the Studio as a first-time user?,"A reservation is required to use the Studio. You can reserve the space up to two weeks in advance through our online system, <a href="https://libcal.uidaho.edu/reserve/AV" target="_blank" rel="noopener">LibCal</a>, available on the Studio homepage. Same-day reservations may be available but are not guaranteed.
 
-You will receive a confirmation email after you have made a reservation. Then, bring your Vandal Card to the library at the time of your reservation. The staff at the Circulation Desk will check out the Studio key for you. Return the key by the end of your reserved session time."
-What audio software and equipment is available in the Studio?,"We currently have the following audio software installed on the iMac:
+If your plans change, please cancel your reservation to free up the space for others.
+
+After booking, you will receive a confirmation email. At the time of your reservation, bring your Vandal Card to the Library Circulation Desk to check out the Studio key. The key must be returned to the Circulation Desk by the end of your reserved session."
+What audio software and equipment is available in the Studio?,"Audio Software Installed on the Studio iMac:
 
 - <a href=""https://support.apple.com/guide/logicpro/welcome/mac"" target=""_blank"" rel=""noopener"">Logic Pro X</a> - Professional Digital Audio Workspace with default sample libraries & plugins, and preset preferences to interact with the MIDI keyboard and MOTU audio interface. Best for recording and editing.
 - <a href=""https://support.apple.com/guide/mainstage/welcome/mac"" target=""_blank"" rel=""noopener"">MainStage</a> - Live Performance software in companion to Logic Pro. 
@@ -29,9 +31,21 @@ What audio software and equipment is available in the Studio?,"We currently have
 - <a href=""https://www.image-line.com/fl-studio-learning/"" target=""_blank"" rel=""noopener"">FL Studio</a> - Digital audio workstation featuring a graphical user interface with a pattern-based music sequencer.
 - <a href=""https://www.avid.com/sibelius/learn-and-support"" target=""_blank"" rel=""noopener"">Sibelius</a> - Music composition and notation software with sophisticated features like AI-powered accelerators, advanced options for markup and layout, Cloud Publishing, and the ability to work across any device.
 
-We also have equipment available to record audio in the Studio. Already set up for easy use are two SM58 microphones, MPK Mini MIDI keyboard, and a Focusrite audio interface with 1/4"" input. These options should suffice for podcasts, single track recordings, simple MIDI input, and simple video voiceover. 
+Audio Recording Equipment Available in the Studio:
+- Two Shure SM58 microphones
+- MPK Mini MIDI keyboard
+- Focusrite audio interface with 1/4" input
+- RØDECaster Pro II production console
+- WhisperRoom sound isolation booth
 
-The Studio is currently optimized with light sound paneling to record podcasts, short films, and interviews. Other audio recording is possible, but do not expect the same outcome as a recording booth or soundproofed room. Certain musical instruments are allowed as long as volumes are kept at an appropriate level. No percussive instruments whatsoever."
+These setups are ideal for:
+- Podcasts
+- Single or multi-track recordings
+- Basic MIDI input
+- Voiceovers
+- Music recordings
+
+Need help getting started? Instructions are available in the Studio, or you can contact Library staff for assistance."
 What video software and equipment is available in the Studio?,"We have the following video software installed on the iMac:
 
 - <a href=""https://creativecloud.adobe.com/cc/learn/app/premiere-pro?locale=en"" target=""_blank"" rel=""noopener"">Adobe Premiere</a> - Professional video editing.
