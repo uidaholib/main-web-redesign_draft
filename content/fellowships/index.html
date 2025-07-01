@@ -3,6 +3,7 @@ title: Fellowship Programs
 section: Fellowships
 permalink: /fellowships/
 layout: full-width-page
+lazyload: true
 custom-foot: js/fellowships-browse.html
 ---
 {% assign all_fellows = site.data.fellowships %}
@@ -247,7 +248,7 @@ custom-foot: js/fellowships-browse.html
                     <div class="card-body">
                         <div class="d-flex align-items-center mb-3">
                             {% if person.image_thumb %}
-                            <img src="{{ person.image_thumb }}" class="rounded-circle me-3"
+                            <img data-src="{{ person.image_thumb }}" class="lazyload rounded-circle me-3"
                                 style="width: 60px; height: 60px; object-fit: cover;"
                                 alt="{{ person.firstname }} {{ person.lastname }}">
                             {% else %}
@@ -306,7 +307,7 @@ custom-foot: js/fellowships-browse.html
                             <div class="row">
                                 <div class="col-md-4">
                                     {% if person.image_thumb %}
-                                    <img src="{{ person.image_thumb }}" class="img-fluid rounded mb-3"
+                                    <img data-src="{{ person.image_thumb }}" class="lazyload img-fluid rounded mb-3"
                                         alt="{{ person.firstname }} {{ person.lastname }}">
                                     {% endif %}
                                     <h4 class="h6">{{ person.firstname }} {{ person.lastname }}</h4>
@@ -328,7 +329,7 @@ custom-foot: js/fellowships-browse.html
                                                 <small class="text-muted">{{ proj.year }}</small>
                                             </div>
                                             {% if proj.project_image %}
-                                            <img src="{{ proj.project_image }}" class="img-fluid rounded mb-2"
+                                            <img data-src="{{ proj.project_image }}" class="lazyload img-fluid rounded mb-2"
                                                 style="max-height: 150px;" alt="{{ proj.project }}">
                                             {% endif %}
                                             <p class="card-text small">{{ proj.description }}</p>
@@ -396,7 +397,7 @@ custom-foot: js/fellowships-browse.html
                     <div class="card-body">
                         <div class="d-flex align-items-start mb-3">
                             {% if project.project_image %}
-                            <img src="{{ project.project_image }}" class="rounded me-3"
+                            <img data-src="{{ project.project_image }}" class="lazyload rounded me-3"
                                 style="width: 60px; height: 60px; object-fit: cover;" alt="{{ project.project }}">
                             {% else %}
                             <div class="bg-light rounded me-3 d-flex align-items-center justify-content-center"
@@ -453,7 +454,7 @@ custom-foot: js/fellowships-browse.html
                             <div class="row">
                                 <div class="col-md-8">
                                     {% if project.project_image %}
-                                    <img src="{{ project.project_image }}" class="img-fluid rounded mb-3"
+                                    <img data-src="{{ project.project_image }}" class="lazyload img-fluid rounded mb-3"
                                         alt="{{ project.project }}">
                                     {% endif %}
 
@@ -480,7 +481,7 @@ custom-foot: js/fellowships-browse.html
                                         <div class="card-body p-2">
                                             <div class="d-flex align-items-center">
                                                 {% if person.image_thumb %}
-                                                <img src="{{ person.image_thumb }}" class="rounded-circle me-2"
+                                                <img data-src="{{ person.image_thumb }}" class="lazyload rounded-circle me-2"
                                                     style="width: 40px; height: 40px; object-fit: cover;"
                                                     alt="{{ person.firstname }} {{ person.lastname }}">
                                                 {% else %}
