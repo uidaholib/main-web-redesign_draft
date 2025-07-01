@@ -9,7 +9,6 @@ layout: page-narrow
 {% assign application_open = false %}
 
 {% comment %} Use CSV data as primary source, page front matter as override {% endcomment %}
-{% if fellowship_data %}
   {% assign award_amount = page.award_amount | default: fellowship_data.amount %}
   {% assign eligible_full = page.eligible_full | default: fellowship_data.eligible_full %}
   {% assign application_link = page.application_link | default: fellowship_data.application_link %}
@@ -19,17 +18,7 @@ layout: page-narrow
   {% assign sponsor = page.sponsor | default: fellowship_data.sponsor %}
   {% assign number_available = page.number_available | default: fellowship_data.number %}
   {% assign fellowship_description = page.description | default: fellowship_data.description %}
-{% else %}
-  {% comment %} Fallback to page data if no CSV match {% endcomment %}
-  {% assign award_amount = page.award_amount %}
-  {% assign eligible_full = page.eligible_full %}
-  {% assign application_link = page.application_link %}
-  {% assign deadline = page.deadline %}
-  {% assign timeframe = page.timeframe %}
-  {% assign sponsor = page.sponsor %}
-  {% assign number_available = page.number_available %}
-  {% assign fellowship_description = page.description %}
-{% endif %}
+
 
 <div class="text-center mb-2 pt-3">
     <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
