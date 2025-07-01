@@ -7,7 +7,7 @@ lazyload: true
 gallery: true
 ---
 
-In this tutorial, we will cover the basics of using the open-source software [Audacity](https://www.audacityteam.org/){:target="_blank" rel="noopener"} to record and edit a podcast.
+In this tutorial, we will cover the basics of using the open-source software [Audacity](https://www.audacityteam.org/){:target="_blank" rel="noopener"} and audio interface Scarlett 18i20 in the Studio to record and edit a podcast.
 
 ## 1. Preparation
 {:.h3}
