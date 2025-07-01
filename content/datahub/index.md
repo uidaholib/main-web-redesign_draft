@@ -1,6 +1,6 @@
 ---
 title: "Data Hub: Geospatial and Data Sciences Support"
-section: Data Hub
+section: Services
 permalink: /datahub/
 layout: page
 lazyload: true

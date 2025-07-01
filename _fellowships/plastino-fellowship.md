@@ -1,25 +1,9 @@
 ---
 title: Ben J. Plastino Collection Fellowship
-layout: page-narrow
-section: Special Collections
-permalink: /special-collections/plastino-fellowship.html
----
-
-<div class="text-center mb-2 pt-3">
-    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
-    <a href="#potential" class="btn btn-secondary btn-sm my-2 mx-1">Potential Projects</a>
-    <a href="#mechanics" class="btn btn-secondary btn-sm my-2 mx-1">Fellowship Mechanics</a>
-    <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">Application Process</a>
-    <a href="#about" class="btn btn-secondary btn-sm my-2 mx-1">Information about Ben J. Plastino</a>
-    <!--<a href="https://forms.office.com/r/RfLQi1UcHU" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>-->
-</div>
-
-{:.text-center}
-**This application is currently closed.**
-
-{:.text-center}
-*Questions?* Contact Dulce Kersting-Lark, Head of Special Collections and Archives, at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).
-
+layout: fellowship
+section: Fellowships
+permalink: /fellowships/plastino-fellowship.html
+show_past_projects: false
 ---
 
 {:#call}

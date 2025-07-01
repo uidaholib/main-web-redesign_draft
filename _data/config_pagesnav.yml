@@ -33,7 +33,7 @@ About:
 #      - name: Journal and Database Review (2019)
 #        url: /review/
   - subsection: Fellowships
-    link: /opportunities/fellowships/
+    link: /fellowships/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
@@ -176,7 +176,7 @@ COVID-19:
     link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
   - subsection: << About
     link: /about/    
-# Fellowships Section
+# Work with Us Section
 Work with Us:
   - parent: Work with Us
     stub: /opportunities/
@@ -185,11 +185,33 @@ Work with Us:
   - subsection: Faculty Job Openings
     link: /opportunities/faculty.html
   - subsection: Fellowship Opportunities
-    link: /opportunities/fellowships/
-  - subsection: Library Seed Grant
-    link: /opportunities/fellowships/libseed.html
+    link: /fellowships/opportunities.html
   - subsection: << About
     link: /about/    
+
+Fellowships:
+  - parent: Fellowships
+    stub: /fellowships/
+  - subsection: Fellowships Home
+    link: /fellowships/
+  - subsection: Fellowship Opportunities
+    link: /fellowships/opportunities.html
+  - subsection: CDIL Faculty Development Fellowship
+    link: /opportunities/fellowships/cdil-faculty-development.html
+  - subsection: CDIL Graduate Student Fellowship
+    link: /fellowships/cdil-graduate.html
+  - subsection: CDIL Undergraduate Fellowship
+    link: /fellowships/cdil-undergraduate.html
+  - subsection: Berry International Jazz Collections Fellowship
+    link: /fellowships/berry-ijc-fellowship.html
+  - subsection: Gary and Carolyn Strong Fellowship
+    link: /fellowships/strong-fellowship.html
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/levine.html
+  - subsection: Lynn and Dennis Baird Fellowship
+    link: /fellowships/baird.html
+  - subsection: << About Us
+    link: /about/
 
 ###########
 # Find Section
@@ -322,8 +344,8 @@ Services:
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "Data Hub: Geospatial and Data Sciences Support"
-    link: /datahub/    
+  - subsection: "DataHub: Geospatial and Data Sciences Support"
+    link: /datahub/   
   - subsection: Data Management
     link: /services/data/
     subpages:
@@ -433,12 +455,12 @@ Special Collections:
   - subsection: Fellowships
     link: /special-collections/berry-ijc-fellowship.html
     subpages:
-      - name: Berry IJC Fellowship
-        url: /special-collections/berry-ijc-fellowship.html
+      - name: Berry International Jazz Collections Fellowship
+        url: /fellowships/berry-ijc-fellowship.html
       - name: Strong Spec Fellowship
-        url: /special-collections/strong-fellowship.html
+        url: /fellowships/strong-fellowship.html
       - name: Ben J. Plastino Fellowship
-        url: /special-collections/plastino-fellowship.html
+        url: /fellowships/plastino-fellowship.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About
@@ -464,6 +486,8 @@ Data Hub:
     stub: /datahub/
   - subsection: Data Hub
     link: /datahub/
+  - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
+    url: /fellowships/datahubfellow.html 
   - subsection: <i class='fas fa-share-square'></i> Data Services
     link: /services/data/
   - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
