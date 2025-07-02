@@ -549,7 +549,9 @@ The Studio:
   - subsection: Terms of Use
     link: /studio/termsofuse.html
   - subsection: Studio FAQ
-    link: /studio/faq.html
+    link: /studio/faq.html  
+  - subsection: Support & Troubleshooting
+    link: /studio/troubleshooting.html
 
 # Open at U of I Section
 Open at U of I:
