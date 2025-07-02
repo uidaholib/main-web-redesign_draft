@@ -27,7 +27,7 @@ The August 25, 2022 Office of Science and Technology Policy memorandum "Ensuring
 - **Effective**: October 1, 2025 (12-month embargo eliminated)
 - **Repository**: [NSF Public Access Repository (NSF-PAR)](https://par.nsf.gov/)
 - **Requirements**: Immediate deposit of final accepted manuscripts and data
-- **Support**: [Listen and Learn webinar series](https://www.nsf.gov/public-access) and [NSF Public Access Initiative](https://www.nsf.gov/public-access)
+- Support can be found at the [NSF Public Access Initiative pages](https://www.nsf.gov/public-access)
 
 **Department of Energy (DOE)**
 - **Effective**: December 31, 2025
@@ -36,11 +36,12 @@ The August 25, 2022 Office of Science and Technology Policy memorandum "Ensuring
 
 **National Aeronautics and Space Administration (NASA)**
 - **Effective**: December 31, 2025 (Science Mission Directorate implemented September 2022)
-- **Repository**: [PubSpace collection](https://sti.nasa.gov/public-access/) within NASA Technical Report Server
-- **Partnership**: CHORUS collaboration for streamlined submissions
+- [2023 Implementation Plan](https://www.nasa.gov/wp-content/uploads/2021/12/nasa-ocs-public-access-plan-may-2023.pdf)
+- **Support**: Info/support available via the [NASA Public Access Site](https://sti.nasa.gov/public-access/)
+- **Repository**: Publications can be deposited into the [PubSpace collection](https://ntrs.nasa.gov/collections/pubspace)
 
 **Department of Defense (DOD)**
-- **Implementation Plan**:  [December 2024 PDF release](https://discover.dtic.mil/wp-content/uploads/2024/12/DoD_PublicAccessPlan_Dec_2024.pdf)
+- [Implementation Plan - December 2024 PDF release](https://discover.dtic.mil/wp-content/uploads/2024/12/DoD_PublicAccessPlan_Dec_2024.pdf)
 - **Timeline**: Full implementation by December 31, 2025
 
 **Additional Agencies Implementing Policies**
