@@ -43,7 +43,7 @@ layout: page
 
 **Prohibited Costs**: Fees specifically for PubMed Central submission are NOT allowable expenses. This mostly applies to paying third party vendors. 
 
-**Cost-Effective Compliance**: Many researchers can achieve compliance through repository deposit without paying Article Processing Charges (APCs). These costs can be covered with NIH funding. The Library also offers its Open Access Publishing Fund to assist researchers with APC costs associated with publishing in open access journals. 
+**Cost-Effective Compliance**: Many researchers can achieve compliance through repository deposit without paying Article Processing Charges (APCs). These costs can be covered with NIH funding. The Library also offers its [Open Access Publishing Fund](/open/oapf/) to assist researchers with APC costs associated with publishing in open access journals. 
 
 ### Enforcement and Consequences
 

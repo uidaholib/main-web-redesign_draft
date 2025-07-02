@@ -585,10 +585,10 @@ Open at U of I:
     link: /open/course-marking.html  
   - subsection: OER Resources
     link: /open/oer_resources.html
-  - subsection: Federal Public Access Requirements
+  - subsection: Federal Grant Requirements
     link: /open/federal-requirements/
     subpages:
-      - name: Overview
+      - name: Public Access Overview
         url: /open/federal-requirements/
       - name: NIH Public Access Requirements
         url: /open/federal-requirements/nih.html
