@@ -40,7 +40,7 @@ The August 25, 2022 Office of Science and Technology Policy memorandum "Ensuring
 - **Partnership**: CHORUS collaboration for streamlined submissions
 
 **Department of Defense (DOD)**
-- **Implementation Plan**: Released December 2024
+- **Implementation Plan**:  [December 2024 PDF release](https://discover.dtic.mil/wp-content/uploads/2024/12/DoD_PublicAccessPlan_Dec_2024.pdf)
 - **Timeline**: Full implementation by December 31, 2025
 
 **Additional Agencies Implementing Policies**
