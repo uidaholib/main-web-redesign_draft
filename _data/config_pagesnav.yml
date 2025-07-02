@@ -585,6 +585,15 @@ Open at U of I:
     link: /open/course-marking.html  
   - subsection: OER Resources
     link: /open/oer_resources.html
+  - subsection: Federal Public Access Requirements
+    link: /open/federal-requirements/
+    subpages:
+      - name: Overview
+        url: /open/federal-requirements/
+      - name: NIH Public Access Requirements
+        url: /open/federal-requirements/nih.html
+      - name: Federal Agency Public Access Requirements
+        url: /open/federal-requirements/full.html
 
 
 # GIS Day
