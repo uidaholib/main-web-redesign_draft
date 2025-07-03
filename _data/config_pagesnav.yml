@@ -256,8 +256,6 @@ Find:
         url: /events/
       - name: Renfrew Colloquium
         url: /events/renfrew.html
-  - subsection: Equipment Loans
-    link: /studio/loanable.html    
   - subsection: Geospatial Resources
     link: /find/geospatial/
     subpages:
@@ -534,8 +532,6 @@ The Studio:
     link: /studio/
   - subsection: Studio Equipment
     link: /studio/equipment.html
-  - subsection: Loanable Equipment
-    link: /studio/loanable.html
   - subsection: Tutorials
     subpages: 
       - name: Recording and Editing a Podcast Episode

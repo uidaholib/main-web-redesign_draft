@@ -16,8 +16,6 @@ First-time users are welcome to use the space. If interested in receiving an ori
 <div class="text-center my-4">
 <a class="btn btn-outline-pride-gold m-2" href="https://libcal.uidaho.edu/booking/AV" target="_blank" rel="noopener">Reserve the Studio</a>
 <a class="btn btn-outline-pride-gold m-2" href="https://vandalsuidaho-my.sharepoint.com/:w:/g/personal/hanwendong_uidaho_edu/EZe6R_SuDnZCm2xK7vepWwsBbKSxVMyrv34ANJF66OFxSw?e=VHFEqq" target="_blank" rel="noopener">User Guide</a>
-<a class="btn btn-outline-pride-gold m-2" href="{{ '/studio/faq.html' | relative_url }}">Studio FAQ</a>
-<a class="btn btn-outline-pride-gold m-2" href="{{ '/studio/termsofuse.html' | relative_url }}">Terms of Use</a>
 </div>
 <div class="text-center mb-3">
 <img class="img-fluid" src="{{ '/rooms/studio.jpg' | prepend: site.lib-media }}" alt="woman in front of recording equipment and computer">
