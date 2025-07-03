@@ -9,6 +9,8 @@ layout: page
 
 **The NIH eliminated its 12-month embargo period on July 1, 2025, requiring immediate public access to all NIH-funded research publications.** This accelerated timeline means these requirements are currently in effect for all NIH grants, including those awarded before July 2025.
 
+The NIH provides [an FAQ regarding the policy](https://grants.nih.gov/faqs#/public-access-policy) that can answer specific questions. Below is an overview of the policy's requirements.  
+
 ### Core Requirements
 
 **Zero Embargo Policy**: All Author Accepted Manuscripts (AAMs) must be publicly available in PubMed Central immediately upon the Official Date of Publication. This applies to manuscripts accepted for publication on or after July 1, 2025, regardless of submission date.
@@ -21,20 +23,33 @@ layout: page
 
 ### Compliance Pathways
 
-**Method A - Journal Agreements**: Some journals have agreements with the National Library of Medicine for automatic manuscript deposit. Check the [journal list](https://pmc.ncbi.nlm.nih.gov/journals/) for participating publishers.
+The NIH provides a [chart that is helpful for understanding submission methods](https://grants.nih.gov/policy-and-compliance/policy-topics/public-access/submitting-pubmed-central) and responsibilities. 
 
-**Method B - Publisher Submission**: Publishers like SAGE and AAAS submit manuscripts on behalf of authors without additional fees.
+There are several ways to comply with the requirements:
 
-**Method C - Author Self-Submission**: Use the [NIH Manuscript Submission System (NIHMS)](https://www.nihms.nih.gov/) to deposit manuscripts directly.
+**1. Author Self-Submission**: Use the [NIH Manuscript Submission System (NIHMS)](https://www.nihms.nih.gov/) to deposit Author Accepted Manuscripts manuscripts directly. This is most reliable method of submission for individual contributors. 
 
-**Method D - Publisher NIHMS**: Some publishers submit directly to NIHMS on behalf of authors.
+**2. Automatic Deposits Via Journal Agreements**: Some journals have agreements with the National Library of Medicine for automatic manuscript deposit. 
+- Check the [journal list](https://pmc.ncbi.nlm.nih.gov/journals/) for participating publishers. 
+- The NIH recommends reviewing the specific journal record to confirm that the Release Delay is 0 months (Immediate Release) and the Agreement Status is Active. 
+
+**3. Selective Deposits Via Journal Agreements**:
+Some Journals also have "Selective Deposits"
+- Check [NIH's list of Publishers following this method](https://pmc.ncbi.nlm.nih.gov/about/selectivedeposit/). 
+- These are often "Hybrid" journals that charge processing fees for articles. 
+    - The Library has "[transformative agreements](/services/agreements/)" in place with some publishers to pay for these APCs via our subscriptions. 
+    - *Note: The Library's OAPF does not pay for APC charges in "Hybrid" journals.*
+
+**4. Publisher Submission to NIHMS**: Some publishers submit directly to NIHMS on behalf of authors.
 
 ### Critical Implementation Details
 
 **Funding Acknowledgment**: Include required statement in all manuscripts:
-> "This manuscript is the result of funding in whole or in part by the National Institutes of Health (NIH). It is subject to the NIH Public Access Policy. Through acceptance of this federal funding, NIH has been given a right to make this manuscript publicly available in PubMed Central upon the Official Date of Publication, as defined by NIH."
 
-**Publisher Policy Conflicts**: Major publishers including Elsevier and Springer Nature maintain embargo periods conflicting with NIH policy. See [this Authors Alliance FAQ for Authors](ttps://www.authorsalliance.org/2025/06/06/the-nih-public-access-policy-qa-for-authors/) for more information. 
+{:.ms-3}
+*This manuscript is the result of funding in whole or in part by the National Institutes of Health (NIH). It is subject to the NIH Public Access Policy. Through acceptance of this federal funding, NIH has been given a right to make this manuscript publicly available in PubMed Central upon the Official Date of Publication, as defined by NIH.*
+
+**Publisher Policy Conflicts**: Major publishers including Elsevier and Springer Nature currently maintain embargo periods conflicting with NIH policy. See [this Authors Alliance FAQ for Authors](ttps://www.authorsalliance.org/2025/06/06/the-nih-public-access-policy-qa-for-authors/) for more information. 
 
 
 ### Budget and Cost Considerations
