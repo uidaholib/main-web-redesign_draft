@@ -8,15 +8,29 @@ layout: page
 Frequently asked questions at the Studio. 
 Learn more by clicking the questions!
 
-{% assign id = "1" %}
+{% assign faq = site.data.studio_faq %}
+{% assign cats = faq | map: "category" | uniq %}
+
+<div class="text-center py-3">
+{% for c in cats %}<a href="#faq-{{ c | slugify }}" class="btn btn-secondary btn-sm my-2" >{{ c }}</a>
+{% endfor %}
+</div>
+
+<hr>
+
+{% for c in cats %}
+<h2 id="faq-{{ c | slugify }}">{{ c }}</h2>
+
+{% assign section = faq | where: "category", c %}
+{% assign id = forloop.index %}
 <div class="accordion mb-3" id="accordion{{ id }}">
-    {% for q in site.data.studio_faq %}
+    {% for q in section %}
     <div class="accordion-item">
-      <h2 class="accordion-header" id="heading{{ id }}_{{ forloop.index }}">
+      <h4 class="accordion-header" id="heading{{ id }}_{{ forloop.index }}">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ id }}_{{ forloop.index }}" aria-expanded="{% if include.open == true %}true{% else %}false{% endif %}" aria-controls="collapse{{ id }}_{{ forloop.index }}">
             {{ q.question }}
         </button>
-      </h2>
+      </h4>
       <div id="collapse{{ id }}_{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ id }}_{{ forloop.index }}" data-bs-parent="#accordion{{ id }}">
         <div class="accordion-body">
             {{ q.answer | markdownify }}
@@ -25,3 +39,4 @@ Learn more by clicking the questions!
     </div>
     {% endfor %}
 </div>
+{% endfor %}
