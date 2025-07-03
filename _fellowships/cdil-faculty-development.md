@@ -1,7 +1,7 @@
 ---
 title: CDIL Faculty Development Fellowship
 section: Fellowships
-permalink: /opportunities/fellowships/cdil-faculty-development.html
+permalink: /fellowships/cdil-faculty-development.html
 layout: fellowship
 ---
 
