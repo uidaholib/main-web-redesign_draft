@@ -4,9 +4,7 @@ section: The Studio
 permalink: /studio/
 layout: page
 ---
-<div class="alert alert-info" role="alert">
-  The Studio is currently undergoing renovations and will be unavailable for reservations until July 5. We apologize for the inconvenience and appreciate your understanding.
-</div>
+
 Located on the first floor of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
 To use the Studio, please access the booking calendar link below to reserve a time. At the time of your appointment, please bring your Vandal card to the Circulation Desk to check out the Studio key.
