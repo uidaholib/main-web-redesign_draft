@@ -8,7 +8,8 @@ permalink: /special-collections/policies.html
 We have several policies guiding the access and use of our materials. 
 
 <div class="text-center mb-2">
-    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction and Copyright</a>
+    <a href="#{{ 'Reproduction Requests' | slugify }}" class="btn btn-secondary my-2 mx-1">Reproduction Requests</a>
+    <a href="#{{ 'Copyright Information' | slugify }}" class="btn btn-secondary my-2 mx-1">Copyright Information</a>
     <a href="#{{ 'Citing Materials' | slugify }}" class="btn btn-secondary my-2 mx-1">Citing Materials</a>
     <a href="#{{ 'Offensive Material in Archival Collections' | slugify }}" class="btn btn-secondary my-2 mx-1">Offensive Content</a>
 </div>
@@ -27,7 +28,7 @@ Special Collections and Archives representatives retain the right to refuse any 
 
 ----------------------
 
-## Copyright Practices
+## Copyright Information
 
 The issue of copyright ownership is frequently raised in the course of normal use of collection materials. The vast majority of content in the archives was not produced by Special Collections and Archives, and therefore original copyright does not lie with the department. In limited cases, copyright may have been formally transferred to the department by the donor. Additionally, some material may or may not reside in the public domain based upon its age. In all cases, department representatives will consult the Head of the department regarding copyright. It is the patron's personal responsibility to locate the copyright owner and secure permissions to reproduce any materials gathered from Spec in the course of their research.  
 
