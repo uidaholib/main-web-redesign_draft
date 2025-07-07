@@ -61,7 +61,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
         <table class="table table-hover">
         <tbody>
           <tr>
-            <td>Tuesday - Thursday</td>
+            <td>Tuesday, Wednesday, Thursday</td>
             <td>9:00am - 1:00pm</td>
           </tr>
           <tr>
