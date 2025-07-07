@@ -1,5 +1,5 @@
 ---
-title: "Studio Equipment"
+title: Equipment
 section: The Studio
 permalink: /studio/equipment.html
 layout: page

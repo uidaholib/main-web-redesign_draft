@@ -1,11 +1,11 @@
 ---
-title: Studio Terms of Use
+title: Terms of Use
 section: The Studio
 permalink: /studio/termsofuse.html
 layout: page
 ---
  
-Any patron who wishes to use the Studio must agree to the Terms of Use: 
+<p class="py-3">Any patron who wishes to use the Studio must agree to the Terms of Use:</p>
 
 ## General Use & Eligibility
 

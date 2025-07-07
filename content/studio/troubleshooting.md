@@ -5,7 +5,7 @@ permalink: /studio/troubleshooting.html
 layout: page
 ---
  
-We want your time in the Studio to be productive and stress-free. Below are quick fixes for common issues you might encounter.
+<p class="py-3">We want your time in the Studio to be productive and stress-free. Below are quick fixes for common issues you might encounter.</p>
 
 {% assign id = "1" %}
 <div class="accordion mb-3" id="accordion{{ id }}">

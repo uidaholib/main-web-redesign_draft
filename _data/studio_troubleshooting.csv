@@ -1,14 +1,14 @@
 question,answer
 Scarlett 18i20 is not showing up in audio settings or not recognized as the input/output device,"
 - Check the Furman M-8X power conditioner (located below the Scarlett 18i20). Turn it on if it's off. 
-- Check the Scarlett 18i20 unit. Ensure it’s powered on.
+- Check the Scarlett 18i20 unit. Turn it on if it's off.
 - If the Scarlett 18i20 still does not appear in the audio settings,
     - Check the USB cable connection (Type A to Type C) between the Scarlett 18i20 and the iMac. Make sure it’s securely connected at both ends.
     - Unplug and reconnect the cable, especially if the connection feels loose.
 - If the issue persists, restart the iMac."
 The sound is not coming out from the speakers/monitors connected to the iMac,"Change the iMac's Audio Output from iMac Speakers to Scarlett 18i20. Follow the instructions in 'Scarlett 18i20 is not showing up in audio settings or not recognized as the input/output device'."
 The iMac is running very slow,"The system memory may be low. Restart the iMac to refresh system performance."
-No Sound from the Microphone,"- Make sure the microphone is plugged in to Scarlett 18i20 securely.
+No sound is coming out from the microphone,"- Make sure the microphone is plugged in to Scarlett 18i20 securely.
 - Check the input settings on the iMac and make sure that the correct microphone is selected.
 - Open your recording software and verify audio levels are active.
 - Still no sound? Try restarting the software or iMac."

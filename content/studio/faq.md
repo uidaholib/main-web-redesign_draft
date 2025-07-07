@@ -1,23 +1,19 @@
 ---
-title: Studio FAQ
+title: FAQ
 section: The Studio
 permalink: /studio/faq.html
 layout: page
 ---
 
-Frequently asked questions at the Studio. 
-Learn more by clicking the questions!
-
 {% assign faq = site.data.studio_faq %}
 {% assign cats = faq | map: "category" | uniq %}
 
+<p class="py-3">Frequently asked questions at the Studio. Learn more by clicking the questions!</p>
+
 <div class="text-center py-3">
 {% for c in cats %}<a href="#faq-{{ c | slugify }}" class="btn btn-secondary btn-sm my-2" >{{ c }}</a>
-{% endfor %}
-</div>
-
+{% endfor %}</div>
 <hr>
-
 {% for c in cats %}
 <h2 id="faq-{{ c | slugify }}">{{ c }}</h2>
 

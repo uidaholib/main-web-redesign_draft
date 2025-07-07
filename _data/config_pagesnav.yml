@@ -530,21 +530,13 @@ The Studio:
     stub: /studio/
   - subsection: The Studio Home
     link: /studio/
-  - subsection: Studio Equipment
+  - subsection: Equipment
     link: /studio/equipment.html
-  - subsection: Tutorials
-    subpages: 
-      - name: Recording and Editing a Podcast Episode
-        url: /studio/podcasting.html
-      - name: Teaching with eGlass
-        url: /studio/eglass.html  
-      - name: Voiceover Recording Using RØDECaster Pro II
-        url: /studio/rodecaster.html   
-      - name: Tips on Microphone Technique
-        url: /studio/mictechnique.html   
+  - subsection: Tutorials & How-To Guides
+    link: /studio/tutorials.html
   - subsection: Terms of Use
     link: /studio/termsofuse.html
-  - subsection: Studio FAQ
+  - subsection: FAQ
     link: /studio/faq.html  
   - subsection: Support & Troubleshooting
     link: /studio/troubleshooting.html
