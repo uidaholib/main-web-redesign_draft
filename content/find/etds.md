@@ -5,9 +5,9 @@ permalink: /find/etds.html
 layout: page
 ---
 
-Print, microfilm, and electronic theses and dissertations (ETD) in our collections can be discovered in the <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?pfilter=rtype,exact,dissertations,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">main library catalog</a>. To find digital full-text thesis and dissertations from U of I *and* around the world, use <a href="https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/pqdtglobal/index?accountid=14551" target="_blank" rel="noopener">ProQuest's Dissertations & Theses Global</a> database. All U of I ETD since 2012 are also available in our open access <a href="https://verso.uidaho.edu/esploro/search/collections/UI-Theses-and-Dissertations/etds?institution=01ALLIANCE_UID" target="_blank" rel="noopener">Theses and Dissertations Collection in VERSO</a>.
+Print, microfilm, and electronic theses and dissertations (ETD) in our collections can be discovered in the <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?pfilter=rtype,exact,dissertations,AND&tab=Everything&search_scope=DN_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced">main library catalog</a>. To find digital full-text thesis and dissertations from U of I *and* around the world, use <a href="https://uidaho.idm.oclc.org/login?url=https://search.proquest.com/pqdtglobal/index?accountid=14551" >ProQuest's Dissertations & Theses Global</a> database. All U of I ETD since 2012 are also available in our open access <a href="https://verso.uidaho.edu/esploro/search/collections/UI-Theses-and-Dissertations/etds?institution=01ALLIANCE_UID" >Theses and Dissertations Collection in VERSO</a>.
 
-If you are looking for information about submitting your own ETD at U of I, please see <a href="https://www.uidaho.edu/cogs/resources/student-resources/thesis-dissertation" target="_blank" rel="noopener">COGS Thesis and Dissertation Resources</a>.
+If you are looking for information about submitting your own ETD at U of I, please see <a href="https://www.uidaho.edu/cogs/resources/student-resources/thesis-dissertation" >COGS Thesis and Dissertation Resources</a>.
 
 <div class="card mb-4 searchcontainer">
     <div class="card-body">

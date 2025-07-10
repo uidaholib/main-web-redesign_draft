@@ -15,8 +15,8 @@ layout: page
 <p class="text-center">
     <a href="{{ '/verso/faq.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-question"></span> FAQ</a>
     <a href="{{ '/verso/profile.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-tools"></span> Profile Editing Instructions</a>
-    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_0rlPakZsYWSG4zc" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-tools"></span> Request a VERSO profile</a>
-    <a href="https://forms.office.com/r/Kef7ziHzHy" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-exclamation"></span> Report a Problem</a>
+    <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_0rlPakZsYWSG4zc" class="btn btn-outline-pride-gold m-2"><span class="fas fa-tools"></span> Request a VERSO profile</a>
+    <a href="https://forms.office.com/r/Kef7ziHzHy" class="btn btn-outline-pride-gold m-2"><span class="fas fa-exclamation"></span> Report a Problem</a>
 </p>
 
 

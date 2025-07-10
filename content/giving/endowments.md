@@ -5,11 +5,11 @@ layout: page-narrow
 permalink: /giving/endowments.html
 ---
 
-Growing existing endowments is an excellent way to support library activities. Below are endowments that are either fully endowed or growing, grouped by how the funds are designated for use. To contribute to an endowment online, visit the <a href="https://giving.uidaho.edu/forms/donate" target="_blank" rel="noopener">University of Idaho Giving form</a> and search for the endowment name in designation field. All Library funds can be found in the Giving form by selecting the "Library" category.
+Growing existing endowments is an excellent way to support library activities. Below are endowments that are either fully endowed or growing, grouped by how the funds are designated for use. To contribute to an endowment online, visit the <a href="https://giving.uidaho.edu/forms/donate">University of Idaho Giving form</a> and search for the endowment name in designation field. All Library funds can be found in the Giving form by selecting the "Library" category.
 
 These funds support [Faculty Development](#faculty-development), [Library Materials](#library-materials), [Special Collections and Archives](#special-collections-and-archives), [Student Awards](#student-awards), [Strategic Priorities](#strategic-priorities), and [Technology and Innovation](#technology-and-innovation).
 
-<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/forms/donate" target="_blank" rel="noopener">Make a Gift!</a>
+<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/forms/donate">Make a Gift!</a>
 
 ---------
 

@@ -95,4 +95,4 @@ Once you've transferred or uploaded your files (e.g., to OneDrive), eject and un
 ## Learn More
 {:.h3}
 
-For advanced settings and troubleshooting, visit: [https://rode.com/en-us/user-guides/rodecaster-pro-ii](https://rode.com/en-us/user-guides/rodecaster-pro-ii){:target="_blank" rel="noopener"}
+For advanced settings and troubleshooting, visit: [https://rode.com/en-us/user-guides/rodecaster-pro-ii](https://rode.com/en-us/user-guides/rodecaster-pro-ii).

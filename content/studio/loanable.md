@@ -31,7 +31,7 @@ You may also want to explore equipment available at [The Studio A/V Lab space]({
             {% if t.image %}<div class="text-center"><img class="img-fluid mb-3 lazyload" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.lib-media }}/studio/{{ t.image }}" alt="product image of {{ t.item }}"></div>{% endif %}
             <p class="card-text">{{ t.description }}</p>
             <!--
-            {% if t.booking_link %}<a href="{{ l }}" class="btn btn-primary btn-sm m-2" target="_blank" rel="noopener">Reserve</a>{% endif %}-->
+            {% if t.booking_link %}<a href="{{ l }}" class="btn btn-primary btn-sm m-2" >Reserve</a>{% endif %}-->
         </div>
     </div>
 </div>

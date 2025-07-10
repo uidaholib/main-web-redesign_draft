@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const carouselItem = document.createElement('div');
                 carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
                 carouselItem.innerHTML = `
-                    <a href="${project.site}" target="_blank" class="text-decoration-none">
+                    <a href="${project.site}" class="text-decoration-none">
                         <div class="card shadow-sm h-100" style="cursor: pointer;">
                             ${project.project_image 
                                 ? `<img src="${project.project_image}" class="card-img-top" style="height: 200px; object-fit: cover;" alt="${project.project}">`

@@ -11,7 +11,7 @@ For more information on giving options and ensuring your gift is used exactly th
 
 Cash gifts are always encouraged and the simplest way to make a gift to the University of Idaho Library. They can be directed to any area of your choice, and can be for outright expenditures, or added to an <a href="endowments.html">existing endowment</a>.
 
-<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" target="_blank" rel="noopener">Make a Gift!</a>
+<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" >Make a Gift!</a>
 
 ## Planned Giving
 
@@ -19,7 +19,7 @@ There are many different ways to make a planned gift to the University of Idaho 
 charitable trusts, gift annuities, pooled income funds, and life insurance. They also offer unique tax advantages.
 Many donors find planned gifts are an ideal way to support a cause that is important to them, while meeting their
 income needs and/or providing for family members. For more information about planned gifts, contact
-<a href="https://www.uidaho.edu/giving" target="_blank" rel="noopener">University of Idaho Giving</a>.
+<a href="https://www.uidaho.edu/giving" >University of Idaho Giving</a>.
 
 ## In-kind Gifts (Materials and Personal Collections)
 
@@ -110,7 +110,7 @@ In 1962, W. C. Cheney, an inventor from Seattle, WA presented President Theophil
         <h2>History of the W. C. Cheney Americana Collection 1900-1960</h2>
             <p>In March 1961, W. C. Cheney wrote to University of Idaho President D.R. Theophilus offering a significant -
               and unusual - gift.  University of Idaho Reports, June 1962
-              <a target="_blank" rel="noopener" href="{{ site.lib-media }}/about/timecapsule/UI_Reports.pdf">announces</a> the gift. </p>
+              <a  href="{{ site.lib-media }}/about/timecapsule/UI_Reports.pdf">announces</a> the gift. </p>
             <p>In his sixties when he wrote to President Theophilus, W. C. Cheney had operated a machine shop in Seattle,
               Washington for most of his life. A machinist by vocation who specialized in manufacturing custom-built torches,
               Cheney's avocations were astronomy and history. As an amateur astronomer, he built his own observatory and
@@ -142,7 +142,7 @@ In 1962, W. C. Cheney, an inventor from Seattle, WA presented President Theophil
               during World War II) he recorded history as it was being made - the landing of Charles Lindbergh in Paris
               in 1927;the stock market crash of 1929;the "blood, sweat and tears" speech of Winston Churchill in World
               War II;the bombing of Pearl Harbor," writes Rafe Gibbs in
-              <a target="_blank" rel="noopener" href="{{ site.lib-media }}/about/timecapsule/Gibbsmerged.pdf">his history of the University of Idaho,
+              <a  href="{{ site.lib-media }}/about/timecapsule/Gibbsmerged.pdf">his history of the University of Idaho,
                 <em>Beacon for Mountain and Plain</em>
               </a>. </p>
           </div>
@@ -165,7 +165,7 @@ In 1962, W. C. Cheney, an inventor from Seattle, WA presented President Theophil
               'TILL 2010." After their receipt, the barrels were stored in the basement of the University of Idaho Library
               where they remained undisturbed until February 2010 when Library staff began processing the collection. </p>
             <p>
-              <a target="_blank" rel="noopener" href="{{ site.lib-media }}/about/timecapsule/TimeCapDocs.pdf">Documentation and letters between Cheney, Gibbs and Theophilus</a>.</p>
+              <a  href="{{ site.lib-media }}/about/timecapsule/TimeCapDocs.pdf">Documentation and letters between Cheney, Gibbs and Theophilus</a>.</p>
           </div>
           <!--end column-->
           <div class="col-md-4 align-self-center">

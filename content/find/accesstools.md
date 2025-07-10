@@ -23,7 +23,7 @@ Tools for article access and discovery on the web:
 {% capture text %}
 {{ t.description }}
 
-{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener" class="btn btn-success">{{ t.title }}</a>{% endif %}
+{% if t.link %}<a href="{{ t.link }}" class="btn btn-success">{{ t.title }}</a>{% endif %}
 {% endcapture %}
 {% include feature/card.html header=t.title text=text %}
 

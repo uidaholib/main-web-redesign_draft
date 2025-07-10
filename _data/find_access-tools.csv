@@ -2,11 +2,11 @@ title,description,type,link
 Open Access Button,"When you encounter an article behind a paywall that the library doesn't subscribe to, the Open Access Button can quickly check for a freely available version. Furthermore, if the article is not found in their indexes, it will mediate the process of requesting an open copy from the author. In fact, most major publishers permit authors to [post a copy of the article in institutional repositories](https://blog.openaccessbutton.org/making-more-research-open-access-one-paper-at-a-time-25b95cd36c8f). Try it on the website or install the browser extension.",Access,https://openaccessbutton.org/
 Unpaywall,"Unpaywall uses [DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier) to match an article behind a paywall with a freely available version from an index of nearly 25 million free scholarly articles maintained by nonprofit [Our Research](https://ourresearch.org). Unpaywall crawls tens of thousands of hosting locations, including institutional and disciplinary repositories, academic journal websites, and more. Install the browser extension to check for open versions of any article.",Access,https://unpaywall.org/products/extension
 CORE Discovery,"CORE Discovery browser extension searches OA resources to connect users to freely accessible versions of research behind paywalls. CORE is a research-driven global aggregator that harvests research outputs and offers the largest dataset of open metadata and full text in the world. Their free browser extension allows you to efficiently use the power of this data to discover open research.",Access,https://core.ac.uk/services/discovery/
-Connect Google Scholar to U of I Library,"<a href=""https://scholar.google.com/"" target=""_blank"" rel=""noopener"">Google Scholar</a> is probably the largest index of academic literature on the web. While it is not well curated and has some issues, it is often a remarkably valuable and easy to use tool. 
+Connect Google Scholar to U of I Library,"<a href=""https://scholar.google.com/"" >Google Scholar</a> is probably the largest index of academic literature on the web. While it is not well curated and has some issues, it is often a remarkably valuable and easy to use tool. 
 Linking your U of I Library account makes it possible to check our subscriptions for full text access directly on Google Scholar searches.
 
-- Sign in to <a href=""https://scholar.google.com/"" target=""_blank"" rel=""noopener"">Google Scholar</a> with your Gmail / Google account (link in upper right corner).
-- Go to your <a href=""https://scholar.google.com/scholar_settings"" target=""_blank"" rel=""noopener"">Settings</a> (accessible from the menu button in the upper left corner).
+- Sign in to <a href=""https://scholar.google.com/"" >Google Scholar</a> with your Gmail / Google account (link in upper right corner).
+- Go to your <a href=""https://scholar.google.com/scholar_settings"" >Settings</a> (accessible from the menu button in the upper left corner).
 - Click on ""Library links"".
 - Type ""Idaho"" in the search box, select both ""University of Idaho - U of Idaho - View it"" and ""Open WorldCat - Library Search"" from the list, and click on ""Save"".
 - Now your Google Scholar search results will show a link ""U of Idaho - View it"" to access full text items in our subscriptions. <em>Note: Scholar can only cross-check some of our holdings so may not comprehensively list access options.</em>",Access,
@@ -22,7 +22,7 @@ So, say you find an article via Google that asks for you to sign in to access it
 
 **Try it out!**
 
-- From off-campus, go to this <a target=""_blank"" rel=""noopener"" href=""http://dx.doi.org/10.1002/jwmg.72"">article's website</a>, then click on the UIdaho Library Log-in bookmarklet.
+- From off-campus, go to this <a  href=""http://dx.doi.org/10.1002/jwmg.72"">article's website</a>, then click on the UIdaho Library Log-in bookmarklet.
 - Enter your U of I credentials, then click Submit. You should return to the page with access to the article!
 
 **Problems?**

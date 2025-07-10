@@ -67,7 +67,7 @@ custom-foot: js/topics-filter.html
                                 <div class="card">
                                     <img class="card-img-top img-fluid" src="{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}" alt="photo of {{ p.last_name }}">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title"><a target="_blank" rel="noopener" href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
+                                        <h5 class="card-title"><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h5>
                                         <p class="card-text">{{ p.title }}</p>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ custom-foot: js/topics-filter.html
                         {% endif %}
                     </div>
                     <div class="modal-footer">
-                        <a target="_blank" rel="noopener" class="btn btn-lg btn-pride-gold" href='https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ e.subject | url_encode }}{% if e.emails %}&person={{ e.person | url_encode }}&email={{ e.emails | url_encode }}{% endif %}'>Request Instruction</a>
+                        <a class="btn btn-lg btn-pride-gold" href='https://uidaho.co1.qualtrics.com/jfe/form/SV_cYXmpZeggR7zCex?topic={{ e.subject | url_encode }}{% if e.emails %}&person={{ e.person | url_encode }}&email={{ e.emails | url_encode }}{% endif %}'>Request Instruction</a>
                     </div>
                 </div>
             </div>

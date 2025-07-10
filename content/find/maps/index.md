@@ -9,10 +9,10 @@ Whether you are looking for the most up-to-date [geospatial information]({{ '/fi
 The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107 on the Library's first floor</a>.
 
 <div class="text-center">
-    <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://libguides.uidaho.edu/Map_Resources">Map Resources Guide</a>
-    <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.insideidaho.org/">INSIDE Idaho</a>
-    <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/historicalmaps/">Idaho Historical Maps Collection</a>
-    <a class="btn btn-secondary btn-sm mb-2" target="_blank" rel="noopener" href="https://www.lib.uidaho.edu/digital/aerial/">Idaho Historical Aerial Photographs</a>
+    <a class="btn btn-secondary btn-sm mb-2" href="https://libguides.uidaho.edu/Map_Resources">Map Resources Guide</a>
+    <a class="btn btn-secondary btn-sm mb-2" href="https://www.insideidaho.org/">INSIDE Idaho</a>
+    <a class="btn btn-secondary btn-sm mb-2" href="https://www.lib.uidaho.edu/digital/historicalmaps/">Idaho Historical Maps Collection</a>
+    <a class="btn btn-secondary btn-sm mb-2" href="https://www.lib.uidaho.edu/digital/aerial/">Idaho Historical Aerial Photographs</a>
 </div>
 
 Please contact Government Documents Librarian <a href="mailto:rattebur@uidaho.edu">Rami Attebury</a> if you have questions about print maps or the Map Room--or GIS Librarian <a href="bgodfrey@uidaho.edu">Bruce Godfrey</a> for questions about digital maps and Geographic Information Services (GIS).

@@ -5,7 +5,7 @@ permalink: /giving/
 layout: page-narrow
 ---
 
-<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" target="_blank" rel="noopener">Make a Gift!</a>
+<a class="btn btn-lg btn-outline-pride-gold mb-4" href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2">Make a Gift!</a>
 
 ## Contribute to the largest library in Idaho!
 
@@ -33,7 +33,7 @@ Donors help us develop our collections, fund our programs, build our departments
 - Explore <a href="ways.html">ways to give</a>.
 - Discover how you can <a href="endowments.html">target your giving.</a>
 
-Or simply make a gift online using <a href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2" target="_blank" rel="noopener">U of I Giving</a> and ensure the designation "Library Dean's Excellence Fund" is selected.
+Or simply make a gift online using <a href="https://giving.uidaho.edu/campaigns/library-deans-excellence-fund-2">U of I Giving</a> and ensure the designation "Library Dean's Excellence Fund" is selected.
 
 We thank you for your interest and for your support of the University of Idaho Library.
 

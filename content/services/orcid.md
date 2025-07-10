@@ -5,7 +5,7 @@ permalink: /services/orcid.html
 layout: page
 ---
 
-[ORCID](https://www.orcid.org){:target="_blank" rel="noopener"} is a non-profit organization, operating since 2010. An ORCID ID is a 16-digit numerical code issued by ORCID to assist authors with asserting ownership of their work and disambiguating themselves from others in the scholarly record. 
+[ORCID](https://www.orcid.org) is a non-profit organization, operating since 2010. An ORCID ID is a 16-digit numerical code issued by ORCID to assist authors with asserting ownership of their work and disambiguating themselves from others in the scholarly record. 
 
 ## ORCID Resources
 
@@ -13,18 +13,18 @@ layout: page
     - {% include feature/button.html color="primary my-3" text="Learn How to Set Up and Manage Your ORCID" link="https://support.orcid.org/hc/en-us" target=true  %}
 
 - **Using ORCID to Generate a BioSketch** -  NSF and NIH have mechanisms for connecting your ORCID to their systems in order to facilitate SciENcv biosketch generation.
-    - {% include feature/button.html color="primary my-3" text="Generate a SciENcv BioSketch with ORCID" link="https://www.lib.uidaho.edu/media/orcid/NIH_ORCID_ScienCV_Instructions.pdf" target=true  %}
+    - {% include feature/button.html color="primary my-3" text="Generate a SciENcv BioSketch with ORCID" link="https://www.lib.uidaho.edu/media/orcid/NIH_ORCID_ScienCV_Instructions.pdf" %}
 
 - **Connect Your ORCID ID with U of I Systems** - The Library and Research Office, with the help of RCDS, have created a tool to connect your ORCID ID with Library Systems. This will allow those with access to update your research funding and affiliations data in university systems by pulling down information from ORCID and to update your ORCID iD with research funding and affiliations data from VERAS and other research data systems on campus.
-    - {% include feature/button.html color="warning my-3" text="Connect your ORCID data with U of I" link="https://orcid.uidaho.edu/" target=true  %}
+    - {% include feature/button.html color="warning my-3" text="Connect your ORCID data with U of I" link="https://orcid.uidaho.edu/" %}
 
 
 <div class="row">
 <div class="col-md-6 p-3 mt-3">
 <h2>ORCID Overview and Author Identifiers</h2>
-<p>Identifiers are an increasingly important component in online research information management. Identifiers are assigned to researchers to help distinguish between different people with similar names. This is made more difficult when researchers move between different institutions, different positions, and sometimes even different fields. The most commonly used identifier is <a href="https://www.orcid.org" target="_blank">ORCID</a>.</p>
+<p>Identifiers are an increasingly important component in online research information management. Identifiers are assigned to researchers to help distinguish between different people with similar names. This is made more difficult when researchers move between different institutions, different positions, and sometimes even different fields. The most commonly used identifier is <a href="https://www.orcid.org">ORCID</a>.</p>
 
-{% include feature/button.html color="outline-primary my-3" text="An Overview of ORCID for Researchers" link="https://info.orcid.org/researchers/" target=true  %}
+{% include feature/button.html color="outline-primary my-3" text="An Overview of ORCID for Researchers" link="https://info.orcid.org/researchers/" %}
 
 </div>
 <div class="col-md-6 p-3">
@@ -52,7 +52,7 @@ Having connected the systems, we will able to update your ORCID and institutiona
 
 Starting in 2023, the federal government is requiring the use of researcher unique identifiers. This is intended to make research information management easier for agencies and for institutions. ORCID is the most likely tool to be used for this purpose. NSF and NIH have mechanisms for connecting your ORCID to their systems in order to facilitate SciENcv biosketch generation.
 
-[NIH/ORCID SciENcv BioSketch Instructions](https://www.lib.uidaho.edu/media/orcid/NIH_ORCID_ScienCV_Instructions.pdf){:target="_blank" rel="noopener" .btn .btn-lg .btn-primary}
+[NIH/ORCID SciENcv BioSketch Instructions](https://www.lib.uidaho.edu/media/orcid/NIH_ORCID_ScienCV_Instructions.pdf){:.btn .btn-lg .btn-primary}
 
 For assistance, please contact Jeremy Kenyon ([jkenyon@uidaho.edu](mailto:jkenyon@uidaho.edu)) at the University of Idaho Library.  
 

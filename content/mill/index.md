@@ -17,8 +17,8 @@ layout: page
 <p class="text-center">
     <a href="{{ '/mill/tools.html' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-tools"></span> Equipment</a>
     <a href="{{ '/services/workshops/' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-calendar"></span> Workshops</a>
-    <a href="https://libcal.uidaho.edu/reserve/3dprinters" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-print"></span> Reserve 3D Printer</a>
-    <a href="https://libcal.uidaho.edu/reserve/laser" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener"><span class="fas fa-print"></span> Reserve Glowforge</a>
+    <a href="https://libcal.uidaho.edu/reserve/3dprinters" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-print"></span> Reserve 3D Printer</a>
+    <a href="https://libcal.uidaho.edu/reserve/laser" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-print"></span> Reserve Glowforge</a>
 </p>
 
 The Making, Innovating, Learning Laboratory (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
@@ -36,9 +36,9 @@ The MILL is an evolving space, and we’d love to hear from you – please use [
         <div class="card-body text-center">
             <p class="card-text">Find us on social media:</p>
             <div class="text-center display-4">
-                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" target="_blank" rel="noopener"><span class="fab fa-facebook"></span><span class="visually-hidden">Facebook </span></a>
-                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" target="_blank" rel="noopener"><span class="fab fa-instagram"></span><span class="visually-hidden">Instagram </span></a>
-                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" target="_blank" rel="noopener"><span class="fab fa-youtube-square"></span><span class="visually-hidden">YouTube </span></a>
+                <a href="https://www.facebook.com/uidahomill/" title="Facebook Link" ><span class="fab fa-facebook"></span><span class="visually-hidden">Facebook </span></a>
+                <a href="https://www.instagram.com/uidahomill/?hl=en" title="Instagram Link" ><span class="fab fa-instagram"></span><span class="visually-hidden">Instagram </span></a>
+                <a href="https://youtube.com/playlist?list=PL3MdArvT5LVecz_8O4WYdgRe01bIbUQMz" title="YouTube Link" ><span class="fab fa-youtube-square"></span><span class="visually-hidden">YouTube </span></a>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ lazyload: true
 gallery: true
 ---
 
-In this tutorial, we will cover the basics of using the open-source software [Audacity](https://www.audacityteam.org/){:target="_blank" rel="noopener"} and audio interface Scarlett 18i20 in the Studio to record and edit a podcast.
+In this tutorial, we will cover the basics of using the open-source software [Audacity](https://www.audacityteam.org/) and audio interface Scarlett 18i20 in the Studio to record and edit a podcast.
 
 ## 1. Preparation
 {:.h3}
@@ -78,4 +78,4 @@ Go to **File > Export > Export as WAV** to export the uncompressed, best quality
 
 {% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/studio/podcasting_export.png" alt="Export" caption="Export" %}
 
-Once exported, your episode is ready to be uploaded to a podcast hosting service like [Libsyn](https://libsyn.com/){:target="_blank" rel="noopener"}, [Spotify for Podcasters](https://podcasters.spotify.com/){:target="_blank" rel="noopener"}, or [Podbean](https://www.podbean.com/){:target="_blank" rel="noopener"}.
+Once exported, your episode is ready to be uploaded to a podcast hosting service like [Libsyn](https://libsyn.com/), [Spotify for Podcasters](https://podcasters.spotify.com/), or [Podbean](https://www.podbean.com/).
