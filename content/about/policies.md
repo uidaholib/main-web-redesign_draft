@@ -94,18 +94,17 @@ Please see [Course Reserves]({{ '/services/reserve/' | relative_url }}) for full
 First floor group study rooms and third floor individual study rooms are <a href="{{ '/services/rooms.html' | relative_url }}">available for reservation</a>.
 Please see <a href="https://libcal.uidaho.edu/">LibCal Reservations page</a> for full room policies.
 
-## Study Lockers and Carrels
+### Study Lockers and Carrels
 {:#lockerscarrels}
 
 Study lockers are available to all U of I students on a first come, first served basis. The lockers are assigned for one semester only. The assignment may be renewed if there is no waiting list. A $3.00 key deposit is collected when a key is issued and refunded when the key is returned.
-<a href="https://www.lib.uidaho.edu/pdf/lockerapp.pdf">Locker applications are available online</a> and at the Circulation Desk.
 
-Study carrels are available to U of I graduate students who have an approved thesis or dissertation topic and who do not have an assigned office, desk or carrel elsewhere on campus. Carrels are assigned on a first come, first served basis. A $10.00 key deposit is collected when a key is issued and refunded when the key is returned.
-<a href="https://www.lib.uidaho.edu/pdf/carrelapp.pdf">Carrel applications are available online</a> and at the Circulation Desk. Every semester, a student with an assigned carrel must check in with the circulation desk to determine if the reservation will continue or if the student no longer needs the room. 
+Study carrels are available to U of I graduate students who have an approved thesis or dissertation topic and who do not have an assigned office, desk or carrel elsewhere on campus. Carrels are assigned on a first come, first served basis. A $10.00 key deposit is collected when a key is issued and refunded when the key is returned. 
+Every semester, a student with an assigned carrel must check in with the circulation desk to determine if the reservation will continue or if the student no longer needs the room. 
 
-If all the carrels are booked, students may fill out an application and be placed on the waitlist. 
+For more information, to reserve a study carrel, or to be added to the wait list, please email <a href='mailto:libcirc@uidaho.edu'>libcirc@uidaho.edu</a>.
 
-Students assigned to a locker or carrel must abide by all library rules regarding food, drink, and conduct, and may not use lockers or carrels to store items that could be hazardous or detrimental to other patrons or the collections. The University does not allow space heaters inside any university buildings, <a href="https://www.uidaho.edu/infrastructure/facilities/ues/electric-heater-policy">only radiant heaters</a>. Students are only allowed access to the carrels during library open hours. Any food items kept in the locker or carrel must be stored in sealed containers. All items must fit within the locker or carrel provided, and library items kept within lockers or carrels must be checked out to the assigned student.
+Students assigned to a locker or carrel must abide by all library rules regarding food, drink, and conduct, and may not use lockers or carrels to store items that could be hazardous or detrimental to other patrons or the collections. The University does not allow space heaters inside any university buildings. Students are only allowed access to the carrels during library open hours. Any food items kept in the locker or carrel must be stored in sealed containers. All items must fit within the locker or carrel provided, and library items kept within lockers or carrels must be checked out to the assigned student.
 
 ## Collection Management
 {:#collmanage}
