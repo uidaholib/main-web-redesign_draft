@@ -20,6 +20,7 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 - [Cambridge University Press (Read and Publish)]({{ '/services/agreements/cambridge.html' | relative_url }})
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
+- [IOP Science/Institute of Physics]({{ 'services/agreements/institute_of_physics.html' | relative_url }})
 - [MDPI Institutional Open Access Program]({{ '/services/agreements/mdpi.html' | relative_url }})
 - [Microbiology Society (Publish and Read)]({{ '/services/agreements/micro-bio.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
