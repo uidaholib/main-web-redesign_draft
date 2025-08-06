@@ -24,7 +24,6 @@ Once activated, you will be ready to [add, edit, save, and customize reading lis
 {% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas1.png" alt="canvas course details screenshot" border=true %}
 
 - Copy and paste the Course ID (in the example above, 202100_123LIB) and email it to <libreserve@uidaho.edu>.
-- If you don't see a SIS ID number (common for Independent Study of Idaho classes), please contact CETL (<cetl@uidaho.edu>) to request one manually be assigned. Make sure to let them know your course name and code. 
 
 ### 2. Add the "Library Resource List" link to your Canvas content
 
