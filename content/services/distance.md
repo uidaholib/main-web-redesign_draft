@@ -13,7 +13,7 @@ The sections below list a variety of ways you can access library resources onlin
 Need help finding articles, starting your research, or have other library questions? 
 We are online ready to answer your questions from anywhere.
 
-Visit the [Reference Services Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
+Visit the [Information and Research Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
 Just [ask us]({{ '/help/' | relative_url }})!
 
 <div class="text-center mb-2">
@@ -61,6 +61,12 @@ University of Idaho patrons in CdA can return their materials to the [Molstead L
 
 ### Boise Students
 University of Idaho patrons in Boise have the option of picking up and dropping off books at the College of Law Boise. 
+
+## Course Reserves
+
+[Course Reserves]({{ '/services/reserve/' | relative_url }}) is a free Library service that helps students access required and recommended course materials, including books, articles, DVDs, ebooks, and streaming video. Instructors and students can [fill out the online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2) to request that textbooks or other resources used for courses be placed on reserve.
+
+Browse the current [Course Reserves Listings (Leganto)](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and contact <libreserve@uidaho.edu> with any questions.
 
 ## Special Collections and Archives
 
