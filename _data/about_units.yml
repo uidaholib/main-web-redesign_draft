@@ -39,7 +39,7 @@ units:
       - name: Mail, Marking, and Mending
       - name: Government Documents
         link: /find/govdocs/
-      - name: Interlibrary Loan (ILL)
+      - name: Resource Sharing
         link: /services/ill/
   - title: Digital Scholarship and Open Strategies
     head: ewilliamson
@@ -63,7 +63,7 @@ units:
         link: /mill/
       - name: The Studio
         link: /studio/
-      - name: Research Information System
+      - name: VERSO Research Information System
         link: https://verso.uidaho.edu/esploro/?institution=01ALLIANCE_UID
   - title: Special Collections and Archives
     head: dulce
