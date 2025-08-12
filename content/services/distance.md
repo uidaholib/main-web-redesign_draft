@@ -51,8 +51,8 @@ Off-campus students, staff, and faculty can request to have print books mailed t
 
 You should receive a mailing label along with books you receive from the library. Use the label to mail the book back to us when you are finished with it. If you don't have a mailing label, please return books to the following address: 
 
-University of Idaho Library Circulation
-875 Perimeter Dr MS 2350
+University of Idaho Library Circulation  
+875 Perimeter Dr MS 2350  
 Moscow ID  83844-2350
 
 ### Coeur d'Alene Students
