@@ -377,8 +377,6 @@ Services:
         url: /services/ill/summit.html
       - name: Document Delivery
         url: /services/ill/docdelivery.html
-      - name: Other Libraries
-        url: /services/ill/other.html
   - subsection: OA Publishing Fund
     link: /open/oapf/
   - subsection: Off-Campus Access
