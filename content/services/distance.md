@@ -39,9 +39,9 @@ To use the library off-campus, you'll need to log in to our catalog or databases
 
 Stuck? [Ask us for help]({{ '/help/' | relative_url }}).
 
-## Rapido/Interlibrary Loan
+## Interlibrary Loan
 
-[Rapido/Interlibrary Loan]({{ '/services/ill/' | relative_url }}), our resource sharing service, can help help you get electronic access to materials the library doesn't own or request chapters and articles from the physical materials available in our collections. Resource sharing is free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
+[Interlibrary Loan]({{ '/services/ill/' | relative_url }}), our resource sharing service, can help help you get electronic access to materials the library doesn't own or request chapters and articles from the physical materials available in our collections. Interlibrary Loan is free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
 
 Don't hesitate to contact <libill@uidaho.edu> with any questions!
 
