@@ -205,9 +205,9 @@ Fellowships:
   - subsection: CDIL Undergraduate Fellowship
     link: /fellowships/cdil-undergraduate.html
   - subsection: Berry International Jazz Collections Fellowship
-    link: /fellowships/berry-ijc-fellowship.html
+    link: /fellowships/berry-ijc.html
   - subsection: Gary and Carolyn Strong Fellowship
-    link: /fellowships/strong-fellowship.html
+    link: /fellowships/strong.html
   - subsection: Julie and David Levine Data Hub Fellowship
     link: /fellowships/levine.html
   - subsection: Lynn and Dennis Baird Fellowship
@@ -449,11 +449,11 @@ Special Collections:
     link: /special-collections/berry-ijc-fellowship.html
     subpages:
       - name: Berry International Jazz Collections Fellowship
-        url: /fellowships/berry-ijc-fellowship.html
+        url: /fellowships/berry-ijc.html
       - name: Strong Spec Fellowship
-        url: /fellowships/strong-fellowship.html
+        url: /fellowships/strong.html
       - name: Ben J. Plastino Fellowship
-        url: /fellowships/plastino-fellowship.html
+        url: /fellowships/plastino.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About
@@ -480,7 +480,7 @@ Data Hub:
   - subsection: Data Hub
     link: /datahub/
   - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
-    url: /fellowships/datahubfellow.html 
+    url: /fellowships/levine.html 
   - subsection: <i class='fas fa-share-square'></i> Data Services
     link: /services/data/
   - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
