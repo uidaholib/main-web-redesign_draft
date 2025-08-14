@@ -3,9 +3,10 @@ title: CDIL Faculty Development Fellowship
 section: Fellowships
 permalink: /fellowships/cdil-faculty-development.html
 layout: fellowship
+show_past_projects: true
 ---
 
----
+
 
 {:#call}
 ### Call for Applications

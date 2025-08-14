@@ -2,7 +2,7 @@
 title: Ben J. Plastino Collection Fellowship
 layout: fellowship
 section: Fellowships
-permalink: /fellowships/plastino-fellowship.html
+permalink: /fellowships/plastino.html
 show_past_projects: false
 ---
 

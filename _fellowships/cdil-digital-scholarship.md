@@ -3,6 +3,7 @@ title: CDIL Digital Scholarship Fellowship
 section: Fellowships
 permalink: /fellowships/cdil-digital-scholarship.html
 layout: fellowship
+show_past_projects: true
 ---
 
 {:#call}

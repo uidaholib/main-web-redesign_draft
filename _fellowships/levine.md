@@ -3,6 +3,7 @@ title: Julie and David Levine Data Hub Fellowship
 section: Fellowships
 permalink: /fellowships/levine.html
 layout: fellowship
+show_past_projects: true
 ---
 
 {:#call}

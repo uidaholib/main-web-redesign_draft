@@ -3,9 +3,10 @@ title: CDIL Undergraduate Fellowship
 section: Fellowships
 permalink: /fellowships/cdil-undergraduate.html
 layout: fellowship
+show_past_projects: true
 ---
 
----
+
 
 {:#call}
 ### Call for Applications
