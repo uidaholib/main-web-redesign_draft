@@ -257,7 +257,7 @@ Find:
       - name: Renfrew Colloquium
         url: /events/renfrew.html
   - subsection: Equipment Loans
-    link: https://libcal.uidaho.edu/equipment/
+    link: /find/equipment-loans.html
   - subsection: Geospatial Resources
     link: /find/geospatial/
     subpages:
