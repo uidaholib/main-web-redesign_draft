@@ -4,6 +4,7 @@ section: Services
 permalink: /datahub/
 layout: page
 lazyload: true
+carousel: true
 chat-widget: datahub
 ---
 
