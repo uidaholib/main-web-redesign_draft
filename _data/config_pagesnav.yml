@@ -368,6 +368,8 @@ Services:
       #  url: /services/instruction/engl102.html
       - name: Instructor Evaluation
         url: /services/instruction/instructor_eval.html
+  - subsection: Interlibrary Loan
+    link: /services/ill/
   - subsection: OA Publishing Fund
     link: /open/oapf/
   - subsection: Off-Campus Access
@@ -389,8 +391,6 @@ Services:
         url: /help/research.html
       - name: Chat and Text
         url: /help/chat.html
-  - subsection: Resource Sharing / Rapido
-    link: /services/ill/
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections and Archives
