@@ -1,5 +1,5 @@
 ---
-title: Rapido Resource Sharing / Interlibrary Loan
+title: Interlibrary Loan / Rapido Resource Sharing 
 section: Services
 permalink: /services/ill/
 layout: page
@@ -7,11 +7,14 @@ layout: page
 
 The University of Idaho Library uses Rapido for resource sharing services. This allows U of I patrons to request materials that are not owned by the U of I Library. Resource sharing is free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
 
-Turnaround time for physical loan requests is typically 5-14 days, while electronic articles or book chapters are usually received within 1-2 days. Patrons are notified by email once their item arrives (physical items) or is available for download (electronic items). Some items are more readily available than others, so we can't guarantee the receipt or delivery time of any requested item. 
+Turnaround time for physical loan requests is typically 5-14 days, while electronic articles or book chapters are usually received within 1-2 days. Patrons are notified by email once their item arrives (physical items) or is available for download (electronic items). Some items are more readily available than others, so we can't guarantee the receipt or delivery time of any requested item.
+
+If you have questions, please contact the ILL Office at <libill@uidaho.edu> or (208) 885-6843, or check our immediate [Library Help options]({{ '/help/' | relative_url }}).
 
 ## Requesting Items 
 
-Items not owned by the U of I Library can be requested via the library’s catalog once you have signed in. You can monitor the status of requests in your library account. 
+Once you are signed in to the [library’s catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID), items not owned by the U of I Library can be requested via the form available in relevant search results or the "Blank Request Form" available in the menu. 
+You can monitor the status of requests in your [library account](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID). 
 
 ## Lending Periods 
 
@@ -32,28 +35,26 @@ Circulation Desk
 Moscow, ID 83844-2350 
 ```
 
-## Visiting Patron Accounts
+---------
 
-Patrons of Orbis Cascade Alliance member libraries can request Summit Visiting accounts at any other member library.
+## Additional Information
 
-**U of I Patrons**
+{% assign section = site.data.services_ill_faq %}
+{% assign id = "Ill" %}
+<div class="accordion mb-3" id="accordion{{ id }}">
+    {% for q in section %}
+    <div class="accordion-item">
+      <h3 class="accordion-header" id="heading{{ id }}_{{ forloop.index }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ id }}_{{ forloop.index }}" aria-expanded="{% if include.open == true %}true{% else %}false{% endif %}" aria-controls="collapse{{ id }}_{{ forloop.index }}">
+            {{ q.question }}
+        </button>
+      </h3>
+      <div id="collapse{{ id }}_{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ id }}_{{ forloop.index }}" data-bs-parent="#accordion{{ id }}">
+        <div class="accordion-body">
+            {{ q.answer | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+</div>
 
-Eligible U of I patrons can visit the circulation desk at any of the other Orbis Cascade Alliance member libraries and ask to be adopted as a Summit Visiting Patron. You will need to present your U of I Vandal Card and be able to log in to your library account to verify eligibility. Some libraries also require a second form of photo ID such as a driver's license. 
-
-**Non-U of I Patrons from other Alliance libraries**
-
-To set up a Visiting Patron account at the U of I Library, bring your library ID to the circulation desk. Staff will ask you to verify your status with your institution by having you log in to your library account. A U of I Library account will then be created for you. 
-
-## Illiad 
-
-If Rapido is unable to find a partner library to fill your request, we will try expanding the search to even more libraries via ILLiad. You may be asked to register for an [ILLiad account](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll) to facilitate this expanded request. 
-
-## Document Delivery 
-
-Document Delivery provides electronic access to journal articles and book chapters from the U of I Library’s print collection. This service is available free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
-
-Please check the U of I Library’s online catalog for access to electronic journals and e-book collections prior to submitting a Document Delivery request. We may already have electronic access to the materials you need. 
-
-Document Delivery requests can be submitted through the catalog via a Digitization link. You will receive an automated email notice once the item has been scanned and posted to your ILLiad account. Delivery time is approximately 24-48 hours. 
-
-Document Delivery files remain accessible for 30 days after you receive the email notification and then are automatically deleted. You can also remove articles earlier by using the Delete button. 
