@@ -3,10 +3,9 @@ layout: page-narrow
 ---
 
 {% comment %} Get fellowship data from CSV - this is the primary data source {% endcomment %}
-{% assign fellowship_data = site.data.opportunities_fellowships | where: "title", page.title | first %}
+{% assign fellowship_data = site.data.fellowships_descriptions | where: "title", page.title | first %}
 
 {% comment %} Application status will be determined by JavaScript {% endcomment %}
-{% assign application_open = false %}
 
 {% comment %} Use CSV data as primary source, page front matter as override {% endcomment %}
   {% assign award_amount = page.award_amount | default: fellowship_data.amount %}
@@ -19,6 +18,9 @@ layout: page-narrow
   {% assign number_available = page.number_available | default: fellowship_data.number %}
   {% assign fellowship_description = page.description | default: fellowship_data.description %}
 
+{% if application_link %}
+    <a href="{{ application_link }}" class="w-100 btn btn-info my-2 p-2 sticky-top" id="app-link"><span class="fas fa-edit"></span> Submit an Application</a>
+    {% endif %}
 
 <div class="text-center mb-2 pt-3">
     <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
@@ -27,9 +29,7 @@ layout: page-narrow
     {% if page.show_past_projects != false %}
     <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
     {% endif %}
-    {% if application_link %}
-    <a href="{{ application_link }}" class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-    {% endif %}
+    
 </div>
 
 {% comment %} Application Status Indicator - Controlled by JavaScript {% endcomment %}
@@ -176,22 +176,21 @@ layout: page-narrow
             <p><em>Showing {{ unique_projects.size | at_most: 12 }} of {{ unique_projects.size }} past projects.</em></p>
         </div>
         {% endif %}
-    {% else %}
-        <p>Past project information is being updated. Check back soon!</p>
+    
     {% endif %}
 </div>
 {% endif %}
 
 {% comment %} JavaScript for Fellowship Status Check {% endcomment %}
 <script>
-// Fellowship data from Jekyll/CSV
+// Fellowship data from CSV
 const fellowshipData = {
   {% if fellowship_data %}
   title: "{{ fellowship_data.title | escape }}",
   active: "{{ fellowship_data.active }}",
   dateOpen: "{{ fellowship_data.date-open }}",
   dateClosed: "{{ fellowship_data.date-closed }}",
-  deadline: "{{ fellowship_data.deadline | escape }}",
+  deadlineSeason: "{{ fellowship_data.deadline-season | escape }}",
   status: "{{ fellowship_data.status }}"
   {% else %}
   title: "{{ page.title | escape }}",
@@ -205,13 +204,12 @@ const fellowshipData = {
  * @returns {Object} - {isOpen: boolean, reason: string}
  */
 function checkFellowshipStatus(fellowship) {
-  // If fellowship is marked as inactive, it's closed
   if (fellowship.active !== "yes") {
     return { isOpen: false, reason: "Fellowship is currently inactive" };
   }
   
-  // If deadline is "Rolling", it's open (assuming active)
-  if (fellowship.deadline === "Rolling") {
+  // If deadline-season is "Rolling", it's open (assuming active)
+  if (fellowship.deadlineSeason === "Rolling") {
     return { isOpen: true, reason: "Rolling deadline" };
   }
   
@@ -257,6 +255,8 @@ function checkFellowshipStatus(fellowship) {
  */
 function updateFellowshipStatus() {
   const statusElement = document.getElementById('fellowship-status');
+  const appLinkElement = document.getElementById('app-link');
+  
   if (!statusElement) return;
   
   const status = checkFellowshipStatus(fellowshipData);
@@ -270,12 +270,22 @@ function updateFellowshipStatus() {
     if (status.reason && status.reason !== 'Rolling deadline') {
       message += `<br><small>${status.reason}</small>`;
     }
+    
+    // Show application link if it exists
+    if (appLinkElement) {
+      appLinkElement.style.display = 'inline-block';
+    }
   } else {
     alertClass = 'alert-secondary';
     icon = 'fas fa-times-circle';
     message = 'Applications are currently CLOSED.';
     if (status.reason) {
       message += `<br><small>${status.reason}</small>`;
+    }
+    
+    // Hide application link
+    if (appLinkElement) {
+      appLinkElement.style.display = 'none';
     }
   }
   

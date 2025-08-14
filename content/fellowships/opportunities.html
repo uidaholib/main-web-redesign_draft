@@ -15,7 +15,7 @@ layout: page
 <p >The library offers fellowships for undergrads, graduate students, and faculty members at the University of Idaho. Fellowships vary in amount, timeframe, and objectives, but each looks to use library collections and/or librarian expertise to help fellows develop projects and research. See below for a list of fellowships offered by the library. </p>
     </div>
 
-        {% assign all_fellowships = site.data.opportunities_fellowships %}
+        {% assign all_fellowships = site.data.fellowships_descriptions %}
         {% assign active_fellowships = all_fellowships | where: "active", "yes" %}
         {% assign inactive_fellowships = all_fellowships | where: "active", "no" %}
 
@@ -50,19 +50,19 @@ layout: page
                                 {% if fellowship.link %}
                                 <a href="{{ fellowship.link }}" class="btn btn-outline-pride-gold btn-sm">Learn More</a>
                                 {% endif %}
-                                {% if fellowship.application_link and fellowship.status != 'closed' %}
-                                <a href="{{ fellowship.application_link }}" class="btn btn-pride-gold btn-sm">Apply
+                                {% if fellowship.application_link %}
+                                <a href="{{ fellowship.application_link }}" class="btn btn-pride-gold btn-sm application-link">Apply
                                     Now</a>
                                 {% endif %}
                             </div>
 
-                            {% if fellowship.deadline and fellowship.deadline != "Inactive" %}
+                            {% if fellowship.deadline-season and fellowship.deadline-season != "Inactive" %}
                             {% assign current_year = 'now' | date: "%Y" %}
                             {% assign open_date_full = current_year | append: "-" | append: fellowship.date-open %}
                             {% assign closed_date_full = current_year | append: "-" | append: fellowship.date-closed %}
                             <div class="text-center mt-2">
                                 <small class="text-muted"><i class="fas fa-calendar"></i> Deadline: {{
-                                    fellowship.deadline }}{% if fellowship.date-open and fellowship.date-closed %}
+                                    fellowship.deadline-season }}{% if fellowship.date-open and fellowship.date-closed %}
                                     ({{ open_date_full | date: "%B %d" }} - {{ closed_date_full | date: "%B %d" }}){% endif %}</small>
                             </div>
                             {% endif %}
@@ -110,13 +110,13 @@ layout: page
 <script>
 // Fellowship status checking for opportunities page
 const fellowshipsData = [
-  {% for fellowship in site.data.opportunities_fellowships %}
+  {% for fellowship in site.data.fellowships_descriptions %}
   {
     title: "{{ fellowship.title | escape }}",
     active: "{{ fellowship.active }}",
     dateOpen: "{{ fellowship.date-open }}",
     dateClosed: "{{ fellowship.date-closed }}",
-    deadline: "{{ fellowship.deadline | escape }}",
+    deadlineSeason: "{{ fellowship.deadline-season | escape }}",
     status: "{{ fellowship.status }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -134,7 +134,7 @@ function checkFellowshipStatus(fellowship) {
   }
   
   // If deadline is "Rolling", it's open (assuming active)
-  if (fellowship.deadline === "Rolling") {
+  if (fellowship.deadlineSeason === "Rolling") {
     return { isOpen: true, reason: "Rolling deadline" };
   }
   
@@ -196,6 +196,16 @@ function updateOpportunitiesPageStatus() {
             badge.className = 'fellowship-status-badge btn btn-xs ms-2 p-1 btn-secondary';
             badge.textContent = 'CLOSED';
             badge.title = status.reason;
+          }
+        }
+        
+        // Show/hide application link based on status
+        const applicationLink = card.querySelector('.application-link');
+        if (applicationLink) {
+          if (status.isOpen) {
+            applicationLink.style.display = 'inline-block';
+          } else {
+            applicationLink.style.display = 'none';
           }
         }
       }
