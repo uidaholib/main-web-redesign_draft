@@ -3,7 +3,7 @@ title: Library Seed Grant
 section: Fellowships
 permalink: /fellowships/libseed.html
 layout: fellowship
-show_past_projects: false
+show_past_projects: true
 ---
 
 {:#call}
