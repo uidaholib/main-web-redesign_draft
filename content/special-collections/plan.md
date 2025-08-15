@@ -65,7 +65,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
             <td>9:00am - 1:00pm</td>
           </tr>
           <tr>
-            <td>or by appointment</td>
+            <td>By appointment only August 18-August 29, 2025. Semester hours will resume on September 1, 2025.</td>
             <td></td>
           </tr>
           </tbody>
