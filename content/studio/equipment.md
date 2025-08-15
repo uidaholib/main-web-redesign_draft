@@ -12,7 +12,7 @@ There are two types of equipment available:
 - In-Studio Equipment: Dedicated tools that stay in the space for your use during a reservation.
 - [Loanable Equipment]({{ '/find/equipment-loans.html' | relative_url }}): Select items can be checked out separately for use outside the Studio.
 
-For details about available software, recommended AV setups, and important guidelines, visit our [FAQ page]({{ '/studio/faq.html' | relative_url }}) and review the [Terms of Use]({{ '/studio/termsofuse.html' | relative_url }}).
+For details about available software and important guidelines, visit our [FAQ page]({{ '/studio/faq.html' | relative_url }}) and review the [Terms of Use]({{ '/studio/termsofuse.html' | relative_url }}).
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.location contains 'studio'" %}
 {% assign categories = tools | map: 'category' | uniq %}
