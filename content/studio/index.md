@@ -8,13 +8,9 @@ carousel: true
 ---
 {% include feature/carousel.html slides=site.data.studio_carousel %}
 
-<<<<<<< HEAD
-Located on the first floor (Room 122) of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
-=======
 <br>
 
-Located on the first floor of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
->>>>>>> 7e311cb543f5c428c28e3ee45343947709288ec9
+Located on the first floor (Room 122) of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
 The Podcasting Station makes it easy to capture clear, engaging conversations. The Editing Station gives you the tools to polish audio and video to perfection. And in the WhisperRoom, you can record in total quiet for the cleanest sound possible. Whether it’s your first project or your hundredth, the Studio is ready to help you bring your ideas to life.
 
