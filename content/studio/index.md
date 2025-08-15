@@ -9,6 +9,7 @@ carousel: true
 
 {% include feature/carousel.html slides=site.data.studio_carousel %}
 
+<br>
 
 Located on the first floor of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
