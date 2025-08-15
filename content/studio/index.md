@@ -3,6 +3,7 @@ title: The Studio - A/V Lab
 section: The Studio
 permalink: /studio/
 layout: page
+lazyload: true
 carousel: true
 ---
 
