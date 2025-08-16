@@ -387,7 +387,7 @@ Services:
   - subsection: Reference Services
     link: /help/
     subpages:
-      - name: Reference and Information Desk
+      - name: Research Help Desk
         url: /help/
       - name: Research Assistance
         url: /help/research.html
