@@ -50,20 +50,6 @@ a {
     }
 }
 
-/* tweak container size */
-.container {
-    @media (min-width: 576px) and (max-width: 768px){
-        max-width: 100%;
-        padding:inherit 10px;
-    }
-    @media (min-width: 768px) and (max-width: 900px){
-        max-width: 740px;
-    }
-    @media (min-width: 1400px){
-        max-width: 1300px;
-    }
-}
-
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
 	padding:6px;
