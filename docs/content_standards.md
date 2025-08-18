@@ -74,7 +74,7 @@ Button Color when linking to:
 
 - Database: btn-outline-pride-gold
 - Email: btn-outline-clearwater
-- Form: btn-payette-blue
+- Form: btn-palouse
 - Libguide: btn-clearwater
 - Search: btn-pride-gold
 

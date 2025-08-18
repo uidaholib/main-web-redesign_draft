@@ -95,7 +95,7 @@ custom-foot: js/fellowships-browse.html
             <div class="col-md-3 mb-4">
                 <div class="card border-0 bg-transparent">
                     <div class="card-body">
-                        <div class="display-4 text-payette-blue mb-2">{{ total_fellows }}</div>
+                        <div class="display-4 text-palouse mb-2">{{ total_fellows }}</div>
                         <h3 class="h5">Total Fellowships</h3>
                         <p class="text-muted">Since 2017</p>
                     </div>
@@ -121,7 +121,7 @@ custom-foot: js/fellowships-browse.html
                         {% assign students_total = students_total | plus: num %}
                         {% endif %}
                         {% endfor %}
-                        <div class="display-4 text-ponderosa-pine mb-2">{{ students_total }}</div>
+                        <div class="display-4 text-palouse mb-2">{{ students_total }}</div>
                         <h3 class="h5">Students Impacted</h3>
                         <p class="text-muted">Through OER initiatives</p>
                     </div>
@@ -137,7 +137,7 @@ custom-foot: js/fellowships-browse.html
                         {% assign savings_total = savings_total | plus: savings_clean %}
                         {% endif %}
                         {% endfor %}
-                        <div class="display-4 text-wild-rose mb-2">${{ savings_total | divided_by: 1000 | round }}K+</div>
+                        <div class="display-4 text-raspberry mb-2">${{ savings_total | divided_by: 1000 | round }}K+</div>
                         <h3 class="h5">Student Savings <sup>
                             <i class="fas fa-info-circle text-muted" data-bs-toggle="modal" data-bs-target="#savingsInfoModal" style="font-size: 0.6em; cursor: help;"></i></sup></h3>
                         <p class="text-muted">In textbook costs</p>
@@ -183,11 +183,11 @@ custom-foot: js/fellowships-browse.html
                         <button class="filter-btn btn btn-outline-secondary" data-filter="student">Student</button>
                         <button class="filter-btn btn btn-outline-secondary" data-filter="faculty">Faculty</button>
                         <button class="filter-btn btn btn-outline-clearwater" data-filter="cdil">CDIL</button>
-                        <button class="filter-btn btn btn-outline-palouse-green" data-filter="thinkopen">Think Open</button>
-                        <button class="filter-btn btn btn-outline-wild-rose" data-filter="berry">Berry Fellowship</button>
+                        <button class="filter-btn btn btn-outline-clearwater" data-filter="thinkopen">Think Open</button>
+                        <button class="filter-btn btn btn-outline-raspberry" data-filter="berry">Berry Fellowship</button>
                         <button class="filter-btn btn btn-outline-pride-gold" data-filter="strong">Strong Fellowship</button>
                         <button class="filter-btn btn btn-outline-garnet" data-filter="baird">Baird Fellowship</button>
-                        <button class="filter-btn btn btn-outline-payette-blue" data-filter="levine">Levine Fellowship</button>
+                        <button class="filter-btn btn btn-outline-palouse" data-filter="levine">Levine Fellowship</button>
                     </div>
 
                     <div class="input-group">
@@ -262,7 +262,7 @@ custom-foot: js/fellowships-browse.html
                                 <small class="text-muted">{{ person.status }} • {{ person.department }}</small>
                             </div>
                             <div class="text-end">
-                                <i class="fas fa-user text-payette-blue"></i>
+                                <i class="fas fa-user text-palouse"></i>
                             </div>
                         </div>
 
@@ -282,7 +282,7 @@ custom-foot: js/fellowships-browse.html
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
                             <span
-                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
+                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}clearwater{% when 'berry' %}raspberry{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
                                 data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
                                 {{ person.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
                             </span>
@@ -415,7 +415,7 @@ custom-foot: js/fellowships-browse.html
                                 {% endif %}
                             </div>
                             <div class="text-end">
-                                <i class="fas fa-project-diagram text-payette-blue"></i>
+                                <i class="fas fa-project-diagram text-palouse"></i>
                             </div>
                         </div>
 
@@ -423,7 +423,7 @@ custom-foot: js/fellowships-browse.html
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
                             <span
-                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
+                                class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}clearwater{% when 'berry' %}raspberry{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
                                 data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
                                 {{ project.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
                             </span>
@@ -433,8 +433,8 @@ custom-foot: js/fellowships-browse.html
 
                         {% if project.site %}
                         <div class="mt-2">
-                            <i class="fas fa-external-link-alt text-payette-blue"></i>
-                            <small class="text-payette-blue">View Project</small>
+                            <i class="fas fa-external-link-alt text-palouse"></i>
+                            <small class="text-palouse">View Project</small>
                         </div>
                         {% endif %}
                     </div>

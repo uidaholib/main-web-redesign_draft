@@ -65,5 +65,5 @@ Applicants must submit:
 - Doc Cheatham was a jazz trumpet player. This collection contains photographs, autobiography, manuscript scores, audiotapes, clothing, and miscellaneous items.
 
 <div class="text-center">
-<a href="https://www.ijc.uidaho.edu/" class="btn btn-payette-blue my-2 mx-1"><span class="fas fa-guitar"></span> View all jazz collections</a>
+<a href="https://www.ijc.uidaho.edu/" class="btn btn-palouse my-2 mx-1"><span class="fas fa-guitar"></span> View all jazz collections</a>
 </div>

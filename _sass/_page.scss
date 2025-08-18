@@ -31,6 +31,11 @@
     }
     li { border-color: #d5d5d5 !important; }
 }
+#page-nav .active {
+    background-color: #fff !important; 
+    border-right: 2px solid;
+    border-right-color: #191919 !important;
+}
 .page-block { 
     background: $background-color;
 }

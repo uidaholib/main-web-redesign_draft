@@ -24,7 +24,7 @@ custom-foot: js/directory-list.html
             <option value="{{ s }}">{{ s }}</option>
             {% endfor %}
         </select>
-        <select id="subjectSelect" name="subject" data-field="subject" class="form-select mb-2 filter-option border-palouse-green" aria-label="Filter list by Subject Area">
+        <select id="subjectSelect" name="subject" data-field="subject" class="form-select mb-2 filter-option border-clearwater" aria-label="Filter list by Subject Area">
             <option value="show-all" selected>Filter by Subject Liaison</option>
             {% assign subjects = people | map: 'liaison_departments' | compact | join: ";" | split: ";" | uniq | sort %}
             {% for l in subjects %}

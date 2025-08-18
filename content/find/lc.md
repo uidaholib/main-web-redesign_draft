@@ -17,7 +17,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Fourth Floor (A - G) 
 
-<a href="{{ '/about/maps.html#lg=1&slide=3' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 4th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=3' | relative_url }}" class="btn btn-sm btn-outline-palouse" ><span class="fas fa-map-marker-alt"></span> 4th Floor Map</a>
 
 <table>
   <tbody>
@@ -170,7 +170,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Third Floor (H - S)
 
-<a href="{{ '/about/maps.html#lg=1&slide=2' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 3th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=2' | relative_url }}" class="btn btn-sm btn-outline-palouse" ><span class="fas fa-map-marker-alt"></span> 3th Floor Map</a>
 
 <table>
   <tbody>
@@ -548,7 +548,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Second Floor (T - Z) 
 
-<a href="{{ '/about/maps.html#lg=1&slide=1' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 2th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=1' | relative_url }}" class="btn btn-sm btn-outline-palouse" ><span class="fas fa-map-marker-alt"></span> 2th Floor Map</a>
 
 <table>
   <tbody>

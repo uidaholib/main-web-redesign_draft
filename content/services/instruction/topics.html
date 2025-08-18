@@ -14,8 +14,8 @@ custom-foot: js/topics-filter.html
 <div class="text-center mb-3">
     
     Filter: 
-    <button id="data" class="filter m-2 btn btn-outline-wild-rose fw-bold" >Data & Computing</button>
-    <button id="find" class="filter m-2 btn btn-outline-palouse-green fw-bold">Finding Information</button>
+    <button id="data" class="filter m-2 btn btn-outline-raspberry fw-bold" >Data & Computing</button>
+    <button id="find" class="filter m-2 btn btn-outline-clearwater fw-bold">Finding Information</button>
     <button id="research" class="filter m-2 btn btn-outline-clearwater fw-bold">Research</button>
     <button id="writing" class="filter m-2 btn btn-outline-pride-gold fw-bold">Writing & Citing</button>
     
@@ -41,7 +41,7 @@ custom-foot: js/topics-filter.html
 
     {% for e in expertise %}
     <div class="mx-1 mx-md-2 mb-3 circle-button {{ e.catid }}">
-        <button class="fw-bold btn btn-circle btn-outline-{% case e.catid %}{% when 'data' %}wild-rose{% when 'find' %}palouse-green{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-bs-toggle="modal" data-bs-target="#{{ e.catid }}{{ forloop.index }}">
+        <button class="fw-bold btn btn-circle btn-outline-{% case e.catid %}{% when 'data' %}raspberry{% when 'find' %}clearwater{% when 'research' %}clearwater{% else %}pride-gold{% endcase %}" data-bs-toggle="modal" data-bs-target="#{{ e.catid }}{{ forloop.index }}">
             <span class="search-contents">{{ e.subject | upcase | truncatewords: 5 }}
                 <span class="d-none">{{ e.fullsubject }} {{ e.description }} {{ e.person }}</span>
             </span>

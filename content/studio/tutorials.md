@@ -24,7 +24,7 @@ lazyload: true
                     {% if c.link %}</a>{% endif %}
                     <hr>
                     <p class="card-text">{{ c.description }}</p>
-                    {% if c.link %}<a href="{{ c.link | relative_url }}" class="btn btn-payette-blue" >View Tutorial</a>{% endif %}
+                    {% if c.link %}<a href="{{ c.link | relative_url }}" class="btn btn-palouse" >View Tutorial</a>{% endif %}
                 </div>
             </div>
         </div>

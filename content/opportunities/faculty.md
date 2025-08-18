@@ -15,9 +15,9 @@ If you have any questions, please don't hesitate to reach out to <library@uidaho
 
 ## Why Work at the University of Idaho?
 
-[Our Library](#our-library){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
-[Our University](#our-university){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-3}
-[Our Community](#our-community){:.btn .btn-lg .btn-outline-palouse-green .w-100 .mb-5}
+[Our Library](#our-library){:.btn .btn-lg .btn-outline-clearwater .w-100 .mb-3}
+[Our University](#our-university){:.btn .btn-lg .btn-outline-clearwater .w-100 .mb-3}
+[Our Community](#our-community){:.btn .btn-lg .btn-outline-clearwater .w-100 .mb-5}
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_04.jpg" caption="The University of Idaho Library Building" %}
 
