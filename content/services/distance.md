@@ -28,7 +28,7 @@ Just [ask us]({{ '/help/' | relative_url }})!
 Trying to make sense of library resources can be confusing. 
 To help, we've created hundreds of [research guides](https://libguides.uidaho.edu/?b=s) that are tailored to U of I classes and subjects.
 
-Our [Off-Campus Access guide](https://libguides.uidaho.edu/Distance_Education) provides detailed information about how to find and access resources.
+Our [Distance Education guide](https://libguides.uidaho.edu/Distance_Education) provides detailed information about how to find and access resources.
 
 ## Online Resources 
 
