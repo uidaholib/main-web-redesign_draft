@@ -59,8 +59,8 @@ Funding is available for programs or projects that align with one or more of the
 
 6. **Commemorate American experiences**: This moment in history is an invitation to reexamine all aspects of our shared experiences. What other events, moments, people, and places should we commemorate, explore, or discuss? 
 
-{:# about}
-### About the Committtee for America250 at University of Idaho
+{:#about}
+### About the Committee for America250 at University of Idaho
 
 This committee has organized to support our institution, the University of Idaho, as it thoughtfully and meaningfully engages with the national effort to mark the semiquincentennial (or 250th anniversary) of the signing of the Declaration of Independence. We will draw on the expertise of our university colleagues and community partners to bring unique contributions to the broader state and national efforts. We will commit resources to elevating voices of the many people and communities who have been part of our region’s past and present. We will find ways to support colleagues as they organize annual programs so that they might incorporate America250 themes into their events or other activities. We will support student-led efforts to make the anniversary meaningful and productive.
 
