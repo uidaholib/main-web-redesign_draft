@@ -13,7 +13,7 @@ The sections below list a variety of ways you can access library resources onlin
 Need help finding articles, starting your research, or have other library questions? 
 We are online ready to answer your questions from anywhere.
 
-Visit the [Reference Services Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
+Visit the [Information and Research Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
 Just [ask us]({{ '/help/' | relative_url }})!
 
 <div class="text-center mb-2">
@@ -26,7 +26,7 @@ Just [ask us]({{ '/help/' | relative_url }})!
 ## Research Guides 
 
 Trying to make sense of library resources can be confusing. 
-To help, we've created hundreds of [research guides](https://libguides.uidaho.edu/?b=s) that are tailored to U of I classes and subjects.
+To help, we've created [research guides](https://libguides.uidaho.edu/?b=s) that are tailored to U of I classes and subjects.
 
 Our [Distance Education guide](https://libguides.uidaho.edu/Distance_Education) provides detailed information about how to find and access resources.
 
@@ -35,30 +35,38 @@ Our [Distance Education guide](https://libguides.uidaho.edu/Distance_Education) 
 The library has tons of materials you can access online. 
 Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az/databases?) for scholarly and scientific articles.
 
-To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas/BBLearn. 
+To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas. 
 
-Stuck? [Ask us for help]({{ '/help/' | relative_url }}) or see if your question is answered in the [Off-Campus Access guide](https://libguides.uidaho.edu/Distance_Education).
+Stuck? [Ask us for help]({{ '/help/' | relative_url }}).
 
-## Interlibrary Loan, Document Delivery, and Digitization Requests
+## Interlibrary Loan/Rapido Resource Sharing
 
-Our [Interlibrary Loan (ILL) office]({{ '/services/ill/' | relative_url }}) can help you get electronic access to materials the library doesn't own or digitize physical materials from our print collections. 
-
-- ILL service can provide electronic copies of materials held by other libraries across the world. To get started you will need to [create a profile in our ILLiad system](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll) used to make requests.
-- [Document delivery service]({{ '/services/ill/docdelivery.html' | relative_url }}) provides electronic access to journal articles and book chapters from the U of I Library's print collection. Like ILL, requests are made through our [ILLiad system](https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll).
-- [Digitization requests]({{ '/services/ill/docdelivery.html#digitization-requests' | relative_url }}) can be made from the [library's catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) by clicking on "Digitization Request" from a print item's record.
+[Interlibrary Loan/Rapido Resource Sharing]({{ '/services/ill/' | relative_url }}) can help help you get electronic access to materials the library doesn't own or request chapters and articles from the physical materials available in our collections. Resource sharing is free of charge to any currently-enrolled student, staff, or faculty member (current and emeritus) with a valid U of I account. 
 
 Don't hesitate to contact <libill@uidaho.edu> with any questions!
 
-## Curbside Delivery
+## Requesting and Returning Print Books
 
-Patrons can request locally-owned physical items from the U of I Library and pick them up curbside.
+Off-campus students, staff, and faculty can request to have print books mailed to their home address. To request a print book, log in to our catalog with your U of I Net ID account, find the book you're interested in, then click 'Get It'. Select 'Home Delivery' as your 'Pickup Location', then click 'Send'. It may take 2-3 weeks for the book to arrive.
 
-To request an item, navigate to the [library's online catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) and search for a title. 
-Then use the "request" link to place your "Curbside Pick Up". 
-You'll receive an email when your item is ready, with a link to reserve a pick up time slot during open hours, Monday to Friday. 
+You should receive a mailing label along with books you receive from the library. Use the label to mail the book back to us when you are finished with it. If you don't have a mailing label, please return books to the following address: 
 
-Please note that it may take two or more business days from the time you place your request to receive your items! 
-Contact us at <libcirc@uidaho.edu> with questions.
+University of Idaho Library Circulation  
+875 Perimeter Dr MS 2350  
+Moscow ID  83844-2350
+
+### Coeur d'Alene Students
+
+University of Idaho patrons in CdA can return their materials to the [Molstead Library](https://www.nic.edu/websites/default.aspx?dpt=38&pageId=6245) at North Idaho College at 1000 West Garden Avenue.  The library's hours can be found on their website. 
+
+### Boise Students
+University of Idaho patrons in Boise have the option of picking up and dropping off books at the College of Law Boise. 
+
+## Course Reserves
+
+[Course Reserves]({{ '/services/reserve/' | relative_url }}) is a free Library service that helps students access required and recommended course materials, including books, articles, DVDs, ebooks, and streaming video. Instructors and students can [fill out the online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2) to request that textbooks or other resources used for courses be placed on reserve.
+
+Browse the current [Course Reserves Listings (Leganto)](https://alliance-uidaho.alma.exlibrisgroup.com/leganto/public/01ALLIANCE_UID/searchlists) and contact <libreserve@uidaho.edu> with any questions.
 
 ## Special Collections and Archives
 
