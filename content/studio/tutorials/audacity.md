@@ -1,7 +1,7 @@
 ---
 title: Recording and Editing a Podcast Episode
 section: The Studio
-permalink: /studio/podcasting.html
+permalink: /studio/audacity.html
 layout: page
 lazyload: true
 gallery: true
