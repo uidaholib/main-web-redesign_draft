@@ -279,7 +279,7 @@ Find:
       - name: Circulation Policies
         url: /find/govdocs/circulation.html
   - subsection: Journals
-    link: /find/journals.html
+    link: https://alliance-uidaho.primo.exlibrisgroup.com/discovery/jsearch?vid=01ALLIANCE_UID:UID&lang=en
   - subsection: Maps
     link: /find/maps/
   - subsection: Newspapers
