@@ -14,7 +14,7 @@ Need help finding articles, starting your research, or have other library questi
 We are online ready to answer your questions from anywhere.
 
 Visit the [Information and Research Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
-Just [ask us]({{ '/help/' | relative_url }})!
+Just [ask us]({{ '/help/' | relative_url }})!
 
 <div class="text-center mb-2">
 <a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Reference and Research Help</a>
@@ -23,21 +23,21 @@ Just [ask us]({{ '/help/' | relative_url }})!
 {% endcapture %}
 {% include feature/card.html text=help header="Get Help Online!" %}
 
-## Research Guides 
+## Research Guides 
 
-Trying to make sense of library resources can be confusing. 
-To help, we've created [research guides](https://libguides.uidaho.edu/?b=s) that are tailored to U of I classes and subjects.
+Trying to make sense of library resources can be confusing. 
+To help, we've created [research guides](https://libguides.uidaho.edu/?b=s) that are tailored to U of I classes and subjects.
 
 Our [Distance Education guide](https://libguides.uidaho.edu/Distance_Education) provides detailed information about how to find and access resources.
 
-## Online Resources 
+## Online Resources 
 
-The library has tons of materials you can access online. 
-Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az/databases?) for scholarly and scientific articles.
+The library has tons of materials you can access online. 
+Check our [library catalog](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID) for e-books, articles, and more, or [browse our databases](https://libguides.uidaho.edu/az/databases?) for scholarly and scientific articles.
 
-To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas. 
+To use the library off-campus, you'll need to log in to our catalog or databases with your U of I Net ID account, the same credentials you use to access email and Canvas. 
 
-Stuck? [Ask us for help]({{ '/help/' | relative_url }}).
+Stuck? [Ask us for help]({{ '/help/' | relative_url }}).
 
 ## Interlibrary Loan/Rapido Resource Sharing
 
@@ -70,6 +70,6 @@ Browse the current [Course Reserves Listings (Leganto)](https://alliance-uidaho.
 
 ## Special Collections and Archives
 
-Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
+Many of the unique materials held by Special Collections and Archives are discoverable via our [digital collections](https://www.lib.uidaho.edu/digital/). 
 The rest of our holdings can be searched via [Archives West finding aids](https://archiveswest.orbiscascade.org/search.php?r=idu). 
-For assistance with finding and accessing this material, please contact our Special Collections staff via email <libspec@uidaho.edu>.
+For assistance with finding and accessing this material, please contact our Special Collections staff via email <libspec@uidaho.edu>.
