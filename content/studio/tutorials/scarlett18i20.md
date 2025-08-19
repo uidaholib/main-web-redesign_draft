@@ -1,5 +1,5 @@
 ---
-title: Scarlett 18i20 - Audiointerface Quick Guide
+title: Scarlett 18i20 - Audio Interface Quick Guide
 section: The Studio
 permalink: /studio/scarlett18i20.html
 layout: page
@@ -22,19 +22,19 @@ The quick guide below covers the basics of Scarlett 18i20 front panel.
 - Inputs 1 & 2 - For plugging in microphones or instruments. The Shure SM58 is connected to Input 1. 
 - Gain 1 & 2 - Adjusts the recording level for Inputs 1 & 2. 
 - INST - Turns Inputs 1 & 2 into high-impedance instrument inputs (e.g., guitar). Leave off unless plugging in an instrument directly. 
-- Inputs 3–8 & Gain 3–8 - Located on the back; use gain knobs here to adjust their levels.
+- Inputs 3-8 & Gain 3-8 - Located on the back; use gain knobs here to adjust their levels.
 
 ## Microphone Power & Sound Shaping 
 {:.h3}
-- 48V (Phantom Power) - Needed for condenser microphones. Two switches: one powers Inputs 1–4, the other powers Inputs 5–8. 
+- 48V (Phantom Power) - Needed for condenser microphones. Two switches: one powers Inputs 1-4, the other powers Inputs 5-8. 
 - PAD - Lowers input signal by 10 dB to prevent distortion from loud sources. 
 - AIR Mode - Adds brightness and presence to the sound; enabled via Focusrite Control. 
 
 ## Level Monitoring
 {:.h3}
 - Input Meters - LED bars show input level. Avoid hitting the red light (digital clipping). 
-- <img src="https://www.lib.uidaho.edu/media/studio/scarlett_usb_active_led.jpg" alt="USB active Icon" width="5%"> USB Active LED – Green light means connected to the computer. 
-- <img src="https://www.lib.uidaho.edu/media/studio/scarlett_locked_led.jpg" alt="Locked LED Icon" width="5%"> Locked LED – Shows the unit’s clock is synced properly. 
+- <img src="https://www.lib.uidaho.edu/media/studio/scarlett_usb_active_led.jpg" alt="USB active Icon" width="5%"> USB Active LED - Green light means connected to the computer. 
+- <img src="https://www.lib.uidaho.edu/media/studio/scarlett_locked_led.jpg" alt="Locked LED Icon" width="5%"> Locked LED - Shows the unit’s clock is synced properly. 
 - MIDI LED - Lights when receiving MIDI data. 
 
 ## Monitor & Output Controls
