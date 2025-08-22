@@ -16,7 +16,7 @@ chat-widget: datahub
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> Data Hub Semester Hours</h2>
 <p>Librarian assistance is available:</p>
 <ul>
-    <li>Monday - Friday, 11am - 3pm</li>
+    <li>Monday - Friday, 12pm - 3pm</li>
 </ul>
 <p>Visit in the Map Room (Library 107), chat online (icon in lower right), join our <a class="alert-link" href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
@@ -28,11 +28,7 @@ chat-widget: datahub
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> CSAC Semester Hours</h2>
 <p class="mb-3">Assistance with CS courses is available:</p>
 <ul>
-    <li>Monday - 11am - 12pm, 1:30pm - 4pm</li>
-    <li>Tuesday - 11am - 6pm</li>
-    <li>Wednesday - 11am - 12pm, 1:30pm - 6pm</li>
-    <li>Thursday - 11am - 3pm</li>
-    <li>Friday - 11am - 12pm, 1:30pm - 4pm</li>
+    <li>Hours comming soon!</li>
 </ul>
 </div>
 </div>
