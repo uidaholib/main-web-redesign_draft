@@ -19,6 +19,7 @@ layout: page
     <a href="{{ '/services/workshops/' | relative_url }}" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-calendar"></span> Workshops</a>
     <a href="https://libcal.uidaho.edu/reserve/3dprinters" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-print"></span> Reserve 3D Printer</a>
     <a href="https://libcal.uidaho.edu/reserve/laser" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-print"></span> Reserve Glowforge</a>
+    <a href="https://marketplace.uidaho.edu/C20272_ustores/web/store_main.jsp?STOREID=205" class="btn btn-outline-pride-gold m-2" ><span class="fas fa-tools"></span> MILL Marketplace</a>
 </p>
 
 The Making, Innovating, Learning Laboratory (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
@@ -27,9 +28,8 @@ Located on the [first floor of the library]({{ '/about/maps.html#lg=1&slide=0' |
 Are you ready to create? Join one of our [workshops]({{ '/services/workshops/' | relative_url }}), reserve our [3D printers](https://libcal.uidaho.edu/reserve/3dprinters), or just drop by to see what you can do in the space!
 
 Want to learn more? Get in touch with us by stopping in or <a href="mailto:jkfleener@uidaho.edu">sending us a message</a>. 
-To get our [newsletter]({{ '/mill/news.html' | relative_url }}) delivered to your inbox, sign up for our mailing list by emailing <a href="mailto:library-mill-join@uidaho.edu ">library-mill-join@uidaho.edu</a>.
 
-The MILL is an evolving space, and we’d love to hear from you – please use [our Suggestion Box](https://uidaho.co1.qualtrics.com/jfe/form/SV_7V3LDYRF0p8TFyK) to send any requests!
+<!---The MILL is an evolving space, and we’d love to hear from you – please use [our Suggestion Box](https://uidaho.co1.qualtrics.com/jfe/form/SV_7V3LDYRF0p8TFyK) to send any requests!-->
 
 <div class="card-group">
     <div class="card">
