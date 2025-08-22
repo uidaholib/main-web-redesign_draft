@@ -506,7 +506,7 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: Tools and Tech
+  - subsection: Equipment
     link: /mill/tools.html
   - subsection: Newsletter
     link: /mill/news.html
@@ -520,6 +520,8 @@ MILL:
     link: /services/workshops/
   - subsection: Meet the Team
     link: /mill/about.html
+  - subsection: MILL Marketplace
+    link: https://marketplace.uidaho.edu/C20272_ustores/web/store_main.jsp?STOREID=205
 
 # The Studio Section
 The Studio:
