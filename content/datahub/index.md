@@ -28,7 +28,7 @@ chat-widget: datahub
 <h2 class="alert-heading h5"><span class="fas fa-clock"></span> CSAC Semester Hours</h2>
 <p class="mb-3">Assistance with CS courses is available:</p>
 <ul>
-    <li>Hours comming soon!</li>
+    <li>Hours coming soon!</li>
 </ul>
 </div>
 </div>
