@@ -3,9 +3,13 @@ title: "Making, Innovating, and Learning Laboratory"
 section: MILL
 permalink: /mill/
 layout: page
+lazyload: true
+carousel: true
 ---
 
-![room with tables, computers, 3d printers, and craft projects around]({{ site.lib-media }}/mill/mill_02.jpg){:.img-fluid .rounded}
+{% include feature/carousel.html slides=site.data.mill_carousel %}
+
+<!---{% include feature/image.html img="https://www.lib.uidaho.edu/media/mill/picture_1.jpg;https://www.lib.uidaho.edu/media/mill/picture_2.jpg;https://www.lib.uidaho.edu/media/mill/picture_3.jpg" alt="the mill 1;the mill 2; the mill 3" %}--->
 
 <div class="alert alert-info text-center" role="alert">
 <h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
