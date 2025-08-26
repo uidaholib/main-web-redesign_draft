@@ -126,9 +126,9 @@ The department maintains a Reading Room on the first floor of the library where 
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
 For directions to the library, see our [directions page](/about/directions.html). 
-For a wider campus map, see [campus maps](https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-maps). 
+For a wider campus map, see [Campus planning and development page](https://www.uidaho.edu/leadership/finance-administration/campus-planning-development). 
 
-You can find information about parking on the University of Idaho Parking and Transportation Services [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors).
+You can find information about parking on the [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/parking).
 
 ## More questions? 
 

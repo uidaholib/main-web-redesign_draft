@@ -28,7 +28,7 @@ layout: page
 ## Noise & Conduct
 
 - **Noise Levels:** Be mindful of noise, especially if using amplified sound. The space is not soundproof.
-- **Respectful Conduct:** Patrons must behave in a manner consistent with [Library Code of Conduct](https://www.lib.uidaho.edu/about/policies.html#conduct), [University of Idaho Student Code of Conduct](https://www.uidaho.edu/governance/policy/policies/fsh/2/2300), and [University of Idaho’s Acceptable Use of Technology Resources Policy](https://www.uidaho.edu/governance/policy/policies/apm/30/12). Disruptive or unsafe behavior is prohibited.
+- **Respectful Conduct:** Patrons must behave in a manner consistent with [Library Code of Conduct](https://www.lib.uidaho.edu/about/policies.html#conduct), [University of Idaho Student Code of Conduct](https://www.uidaho.edu/policies/fsh/2/2300), and [University of Idaho’s Acceptable Use of Technology Resources Policy](www.uidaho.edu/policies/apm/30/12). Disruptive or unsafe behavior is prohibited.
 - **No Unauthorized Guests:** Only individuals involved in the production may be present in the studio during use.
 
 ## File Storage & Copyright

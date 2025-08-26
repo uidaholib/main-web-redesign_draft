@@ -43,9 +43,9 @@ There’s so much more to say about the U of I Library (our archival holdings, d
 
 ## Our University
 
-Candidates will enter the university at an exciting point in its over 130-year old lifespan, with the previous three years seeing the three largest first-year student classes in university history. [For the fifth year in a row](https://www.uidaho.edu/news/usnwr), the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation among public colleges. Furthermore, in 2025 we became the [first and only university in Idaho](https://www.uidaho.edu/ui/ucm/carnegie-r1) to achieve the highest level of classification for research activity (R1) as determined by the Carnegie Classification.
+Candidates will enter the university at an exciting point in its over 130-year old lifespan, with the previous three years seeing the three largest first-year student classes in university history. For the fifth year in a row, the university has been ranked as the “Best Value Public University in the West” by U.S. News and World Report and second in the nation among public colleges. Furthermore, in 2025 we became the [first and only university in Idaho](https://www.uidaho.edu/ui/carnegie-r1) to achieve the highest level of classification for research activity (R1) as determined by the Carnegie Classification.
 
-In addition to being the leading research institution in the state, the university is also a land-grant institution, with [46 extension centers](https://www.uidaho.edu/extension/directory/counties) in 42 of Idaho’s 44 counties. These centers support researchers, educators, and specialists in the disciplines of forestry and natural resources, horticulture, aquaculture, and much more, in a long-standing effort to empower youth and develop communities across Idaho. 
+In addition to being the leading research institution in the state, the university is also a land-grant institution, with [46 extension centers](https://www.uidaho.edu/extension) in 42 of Idaho’s 44 counties. These centers support researchers, educators, and specialists in the disciplines of forestry and natural resources, horticulture, aquaculture, and much more, in a long-standing effort to empower youth and develop communities across Idaho. 
 
 <small>Watch this tour of our campus:</small>
 
@@ -53,7 +53,7 @@ In addition to being the leading research institution in the state, the universi
     <iframe title="Campus tour video"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/kV8DIuy1iyE?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-As a faculty member, you will have access to our competitive, affordable [benefit program](https://www.uidaho.edu/human-resources/benefits) as well as our many [perks and discounts](https://www.uidaho.edu/human-resources/benefits/core-benefits/perks)!
+As a faculty member, you will have access to our competitive, affordable [benefit program](https://www.uidaho.edu/human-resources/benefits) as well as our many perks and discounts!
 
 ## Our Community
 

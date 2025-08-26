@@ -5,8 +5,6 @@ permalink: /mill/about.html
 layout: page
 ---
 
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/mill/mill_staff_2022-2.jpg" alt="group of smiling students in the maker space" %}
-
 The MILL is staffed by a friendly team of student employees each year, lead by MILL manager [Jessica Fleener](/about/people/jkfleener.html). 
 Want to join our team? 
 Please <a href="mailto:jkfleener@uidaho.edu">get in touch</a> about future opportunities!

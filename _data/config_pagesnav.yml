@@ -158,24 +158,7 @@ Review:
     link: /review/faq.html
   - subsection: << Journal Cancellations
     link: /about/journalcancellations.html
-# Covid 19 Section
-COVID-19:
-  - parent: COVID-19
-    stub: /covid19/
-  - subsection: Overview
-    link: /covid19/index.html
-  - subsection: Opening Guide
-    link: /covid19/impact.html
-  - subsection: Accessing Library Resources Off-Campus
-    link: /covid19/access.html
-  - subsection: COVID-19 Information Sources
-    link: /covid19/information-sources.html
-  - subsection: Library Resources to Pass the Time
-    link: /covid19/resources.html
-  - subsection: University Response and Updates
-    link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
-  - subsection: << About
-    link: /about/
+
 # Work with Us Section
 Work with Us:
   - parent: Work with Us
@@ -279,7 +262,7 @@ Find:
       - name: Circulation Policies
         url: /find/govdocs/circulation.html
   - subsection: Journals
-    link: /find/journals.html
+    link: https://alliance-uidaho.primo.exlibrisgroup.com/discovery/jsearch?vid=01ALLIANCE_UID:UID&lang=en
   - subsection: Maps
     link: /find/maps/
   - subsection: Newspapers
@@ -335,13 +318,8 @@ Services:
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
     link: https://cdil.lib.uidaho.edu/
-  - subsection: Copyright
-    link: /copyright/
-    subpages: 
-      - name: About
-        url: /copyright/
-      - name: Copyright Guide
-        url: /copyright/guide.html
+  - subsection: Copyright Guide
+    link: /copyright/guide.html
   - subsection: Course Reserves
     link: /services/reserve/
   - subsection: Curriculum Center
@@ -465,6 +443,8 @@ Special Collections:
         url: /special-collections/donations.html
       - name: Policies
         url: /special-collections/policies.html
+      - name: America250
+        url: /special-collections/america250.html  
   - subsection: FAQ
     link: /special-collections/faq.html
 
@@ -504,7 +484,7 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: Tools and Tech
+  - subsection: Equipment
     link: /mill/tools.html
   - subsection: Newsletter
     link: /mill/news.html
@@ -518,6 +498,8 @@ MILL:
     link: /services/workshops/
   - subsection: Meet the Team
     link: /mill/about.html
+  - subsection: MILL Marketplace
+    link: https://marketplace.uidaho.edu/C20272_ustores/web/store_main.jsp?STOREID=205
 
 # The Studio Section
 The Studio:

@@ -5,7 +5,7 @@ permalink: /about/landacknowledgment.html
 layout: page-narrow
 ---
 
-The University of Idaho's land acknowledgement statement was created by the [U of I Office of Tribal Relations](https://www.uidaho.edu/president/direct-reports/tribal-relations):
+The University of Idaho's land acknowledgement statement was created by the [U of I Office of Tribal Relations](https://www.uidaho.edu/tribal-relations):
 
 {:.lead .mx-5}
 U of I Moscow is located on the homelands of the Nimiipuu (Nez Perce), Palus (Palouse) and Schitsu’umsh (Coeur d’Alene) tribes. 
