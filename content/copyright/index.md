@@ -1,4 +1,6 @@
 ---
+# remove 
+noindex: true
 title: Copyright 
 layout: page-narrow
 section: Services

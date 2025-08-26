@@ -318,13 +318,8 @@ Services:
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
     link: https://cdil.lib.uidaho.edu/
-  - subsection: Copyright
-    link: /copyright/
-    subpages: 
-      - name: About
-        url: /copyright/
-      - name: Copyright Guide
-        url: /copyright/guide.html
+  - subsection: Copyright Guide
+    link: /copyright/guide.html
   - subsection: Course Reserves
     link: /services/reserve/
   - subsection: Curriculum Center
