@@ -41,7 +41,7 @@ Students, faculty, and staff are invited to get help with topics such as GIS, Gi
 Collaborative work areas with large displays are available for consultations and general use, as well as powerful desktop computer workstations.
 
 Building on the Library's long history of curating and disseminating data collections under programs such as [INSIDE Idaho](https://insideidaho.org/), the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. 
-With collaborative work areas focused on data analysis and visualization, a service desk staffed by librarians, and other campus units encouraged to collocate (including [RCDS](https://www.iids.uidaho.edu/rcds.php) and [Statistical Consulting](https://www.uidaho.edu/sci/mathstat/centers/scc)), the Data Hub is a central place to connect with geospatial and data sciences support.
+With collaborative work areas focused on data analysis and visualization, and a service desk staffed by librarians, the Data Hub is a central place to connect with geospatial and data sciences support.
 
 ## People
 

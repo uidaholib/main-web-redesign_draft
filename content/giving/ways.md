@@ -19,7 +19,7 @@ There are many different ways to make a planned gift to the University of Idaho 
 charitable trusts, gift annuities, pooled income funds, and life insurance. They also offer unique tax advantages.
 Many donors find planned gifts are an ideal way to support a cause that is important to them, while meeting their
 income needs and/or providing for family members. For more information about planned gifts, contact
-<a href="https://www.uidaho.edu/giving" >University of Idaho Giving</a>.
+<a href="https://www.uidaho.edu/give" >University of Idaho Giving</a>.
 
 ## In-kind Gifts (Materials and Personal Collections)
 
