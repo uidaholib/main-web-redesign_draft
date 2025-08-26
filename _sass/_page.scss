@@ -2,28 +2,7 @@
     styles for content pages, 
     providing split background look for sidebar nav
 */
-// section title 
-// this can be removed going forward!
-#page-title {
-    background: $black-color;
-    color: $light-text-color;
-}
-// page nav
-.split-background {
-    background: linear-gradient(
-        to right, 
-        $nav-background 0%,
-        $nav-background 50%,
-        $background-color 50%,
-        $background-color 100%
-    );
-    @include media-query($on-palm) {
-        background: $background-color;
-    }
-}
-#sidebar {
-    background: $nav-background;
-}
+
 #page-nav {
     font-size: $base-font-size * 1.05;
     a {
@@ -33,8 +12,8 @@
 }
 #page-nav .active {
     background-color: #fff !important; 
-    border-right: 2px solid;
-    border-right-color: #191919 !important;
+    border-left: 5px solid;
+    border-left-color: #008080 !important;
 }
 .page-block { 
     background: $background-color;
