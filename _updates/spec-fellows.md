@@ -1,7 +1,7 @@
 ---
 title: Special Collections Summer Fellowship Opportunities
 date: 2025-02-06
-#archive: true
+archive: true
 ---
 
 Applications are now open for two paid summer fellowships working with [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/).
