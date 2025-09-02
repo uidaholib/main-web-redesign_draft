@@ -18,7 +18,7 @@ chat-widget: datahub
 <ul>
     <li>Monday - Friday, 12pm - 3pm</li>
 </ul>
-<p>Visit in the Map Room (Library 107), chat online (icon in lower right), join our <a class="alert-link" href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
+<p>Visit in the Map Room (Library 107), chat online (icon in lower right), email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
@@ -35,7 +35,7 @@ chat-widget: datahub
 </div>
 
 The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
-Located in the Library's [Map Room (First Floor, Rm 107)](/about/maps.html#lg=1&slide=0), and accessible via our [Zoom room](https://uidaho.zoom.us/j/87655871511?from=addon), the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.
+Located in the Library's [Map Room (First Floor, Rm 107)](/about/maps.html#lg=1&slide=0), the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.
 
 Students, faculty, and staff are invited to get help with topics such as GIS, Git, R, Python, Excel, and data-related tools and information resources.
 Collaborative work areas with large displays are available for consultations and general use, as well as powerful desktop computer workstations.
