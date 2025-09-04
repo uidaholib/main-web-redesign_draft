@@ -13,11 +13,11 @@ units:
       - name: Fiscal Officer
         head: brittnil
       - name: Communications and Marketing 
-        head: cbarnhart
+        #head: cbarnhart
       #- name: Giving
       #  head: hyeats
   - title: Access and Engagement
-    head: jylisadoney
+    head: pnmartin
     areas: 
       - name: Access Services
         email: libcirc@uidaho.edu
@@ -31,6 +31,7 @@ units:
         link: /help/
         email: libref@uidaho.edu  
   - title: Discovery and Acquisitions
+    head: jylisadoney
     areas:
       - name: Acquisitions
       - name: Cataloging and Collections
@@ -38,7 +39,7 @@ units:
       - name: Mail, Marking, and Mending
       - name: Government Documents
         link: /find/govdocs/
-      - name: Interlibrary Loan (ILL)
+      - name: Interlibrary Loan / Resource Sharing
         link: /services/ill/
   - title: Digital Scholarship and Open Strategies
     head: ewilliamson
@@ -49,8 +50,6 @@ units:
         link: /digital/
       - name: Open @ U of I
         link: /open/
-      - name: Think Open Fellowship
-        link: /open/fellowship/
       - name: OA Publishing Fund
         link: /open/oapf/
       - name: Copyright
@@ -58,13 +57,13 @@ units:
   - title: Research and Experiential Learning
     head: jkenyon
     areas:
-      - name: Data Hub
+      - name: DataHub
         link: /datahub/
       - name: The MILL 
         link: /mill/
       - name: The Studio
         link: /studio/
-      - name: Research Information System
+      - name: VERSO Research Information System
         link: https://verso.uidaho.edu/esploro/?institution=01ALLIANCE_UID
   - title: Special Collections and Archives
     head: dulce

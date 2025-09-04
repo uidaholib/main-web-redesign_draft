@@ -11,8 +11,8 @@ noindex: false
 
 	<div class="col-md-7">
         <p>The Terry Abraham Web Archive preserves the writing, scholarship, and resources of Terry Abraham that were originally published on University of Idaho's early websites. The original web pages can be browsed in the table below.</p>
-        <p>Terry Abraham served as the head of Special Collections &amp; Archives for over 20 years, retiring in 2005. His work continues to be important to the library and the people that work here. More on Abraham can be found on the <a href="https://www.northwestanthropology.com/terry-abraham/" target="_blank" rel="noopener">Northwest Anthropology website</a> (<a href="https://perma.cc/B6LB-94LB">archived page</a>).
-        <p>Please note, the archived pages are out of date and may not display as originally intended. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive Wayback Machine.</a></p>
+        <p>Terry Abraham served as the head of Special Collections &amp; Archives for over 20 years, retiring in 2005. His work continues to be important to the library and the people that work here. More on Abraham can be found on the <a href="https://www.northwestanthropology.com/terry-abraham/" >Northwest Anthropology website</a> (<a href="https://perma.cc/B6LB-94LB">archived page</a>).
+        <p>Please note, the archived pages are out of date and may not display as originally intended. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" >Internet Archive Wayback Machine.</a></p>
     </div>
 
     <div class="col-md-5">
@@ -36,7 +36,7 @@ noindex: false
             <tbody class="table-group-divider">
             {% for paper in site.data.spec_tabraham-files %}
             <tr>
-                <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | relative_url }}" target="_blank" rel="noopener">{{ paper.title }}</a></td>
+                <td><a href="{{ '/special-collections/t-abraham/' | append: paper.file | relative_url }}" >{{ paper.title }}</a></td>
                 <td>{{ paper.year }}</td>
             </tr>
             {% endfor %}

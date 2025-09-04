@@ -23,17 +23,6 @@ About:
     link: /about/departments.html
   - subsection: Directions and Parking
     link: /about/directions.html
-  - subsection: Diversity, Equity, and Inclusion
-    link: /about/dei.html
-    subpages:
-      - name: DEI at U of I Library 
-        url: /about/dei.html
-      - name: Against Racism
-        url: /about/commitment-to-act-against-racism.html
-      - name: Land Acknowledgment Information
-        url: /about/landacknowledgment.html
-      - name: DEI Resources 
-        url: /about/dei-resources.html
   - subsection: Journal Cancellations
     link: /about/journalcancellations.html
 #    subpages:
@@ -44,7 +33,7 @@ About:
 #      - name: Journal and Database Review (2019)
 #        url: /review/
   - subsection: Fellowships
-    link: /opportunities/fellowships/
+    link: /fellowships/
   - subsection: Floor Maps
     link: /about/maps.html
   - subsection: Giving
@@ -64,40 +53,40 @@ About:
 #        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
-    subpages:
-      - name: Policies
-        url: /about/policies.html
-      - name: Code of Conduct
-        url: /about/policies.html#conduct
-      - name: Circulation
-        url: /about/policies.html#circulation
-      - name: Fines 
-        url: /about/policies.html#fines
-      - name: Cell Phone 
-        url: /about/policies.html#cellphone
-      - name: Food and Drink 
-        url: /about/policies.html#foodanddrink
-      - name: Reserve 
-        url: /about/policies.html#reserve
-      - name: Group Study Rooms
-        url: /about/policies.html#groupstudyrooms
-      - name: Lockers and Carrels
-        url: /about/policies.html#lockerscarrels
-      - name: Collection Management
-        url: /about/policies.html#collmanage
-  - subsection: Reports and Statistics
-    link: /about/statistics.html
+    #subpages:
+    #  - name: Policies
+    #    url: /about/policies.html
+    #  - name: Code of Conduct
+    #    url: /about/policies.html#conduct
+    #  - name: Circulation
+    #    url: /about/policies.html#circulation
+    #  - name: Fines 
+    #    url: /about/policies.html#fines
+    #  - name: Cell Phone 
+    #    url: /about/policies.html#cellphone
+    #  - name: Food and Drink 
+    #    url: /about/policies.html#foodanddrink
+    #  - name: Reserve 
+    #    url: /about/policies.html#reserve
+    #  - name: Group Study Rooms
+    #    url: /about/policies.html#groupstudyrooms
+    #  - name: Lockers and Carrels
+    #    url: /about/policies.html#lockerscarrels
+    #  - name: Collection Management
+    #    url: /about/policies.html#collmanage
+  # - subsection: Reports and Statistics
+  #   link: /about/statistics.html
   - subsection: Strategic Plan
     link: /about/stratplan.html
   - subsection: Updates and News
-    link: /about/updates.html    
+    link: /about/updates.html
   - subsection: Welcome
     link: /about/welcome.html
-    subpages:
-      - name: Welcome
-        url: /about/welcome.html      
-      - name: Recognizing our Faculty
-        url: /recognitions/
+    #subpages:
+    #  - name: Welcome
+    #    url: /about/welcome.html
+    #  - name: Recognizing our Faculty
+    #    url: /recognitions/
   - subsection: Work with Us
     link: /opportunities/
   - subsection: Visit
@@ -111,8 +100,8 @@ Hours:
     link: /about/hours.html#semester
   - subsection: Summer Hours
     link: /about/hours.html#summer
-  - subsection: Reference and Information Desk
-    link: /about/hours.html#reference
+  - subsection: Research Help Desk
+    link: /about/hours.html#research
   - subsection: Curriculum Center
     link: /about/hours.html#curriculum
   - subsection: Data Hub
@@ -169,25 +158,8 @@ Review:
     link: /review/faq.html
   - subsection: << Journal Cancellations
     link: /about/journalcancellations.html
-# Covid 19 Section
-COVID-19:
-  - parent: COVID-19
-    stub: /covid19/
-  - subsection: Overview
-    link: /covid19/index.html
-  - subsection: Opening Guide
-    link: /covid19/impact.html
-  - subsection: Accessing Library Resources Off-Campus
-    link: /covid19/access.html
-  - subsection: COVID-19 Information Sources
-    link: /covid19/information-sources.html
-  - subsection: Library Resources to Pass the Time
-    link: /covid19/resources.html
-  - subsection: University Response and Updates
-    link: https://www.uidaho.edu/vandal-health-clinic/coronavirus
-  - subsection: << About
-    link: /about/    
-# Fellowships Section
+
+# Work with Us Section
 Work with Us:
   - parent: Work with Us
     stub: /opportunities/
@@ -196,11 +168,35 @@ Work with Us:
   - subsection: Faculty Job Openings
     link: /opportunities/faculty.html
   - subsection: Fellowship Opportunities
-    link: /opportunities/fellowships/
-  - subsection: Library Seed Grant
-    link: /opportunities/fellowships/libseed.html
+    link: /fellowships/opportunities.html
   - subsection: << About
-    link: /about/    
+    link: /about/
+
+Fellowships:
+  - parent: Fellowships
+    stub: /fellowships/
+  - subsection: Fellowships Home
+    link: /fellowships/
+  - subsection: Fellowship Opportunities
+    link: /fellowships/opportunities.html
+  - subsection: CDIL Faculty Development Fellowship
+    link: /fellowships/cdil-faculty-development.html
+  - subsection: CDIL Graduate Student Fellowship
+    link: /fellowships/cdil-graduate.html
+  - subsection: CDIL Metadata Fellowship
+    link: /fellowships/cdil-metadata.html
+  - subsection: CDIL Undergraduate Fellowship
+    link: /fellowships/cdil-undergraduate.html
+  - subsection: Berry International Jazz Collections Fellowship
+    link: /fellowships/berry-ijc.html
+  - subsection: Gary and Carolyn Strong Fellowship
+    link: /fellowships/strong.html
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/levine.html
+  - subsection: Lynn and Dennis Baird Fellowship
+    link: /fellowships/baird.html
+  - subsection: << About Us
+    link: /about/
 
 ###########
 # Find Section
@@ -216,7 +212,7 @@ Find:
       - name: Finding Articles Tutorials
         url: /find/find-articles.html  
       - name: Access Tools
-        url: /find/accesstools.html   
+        url: /find/accesstools.html
   - subsection: Board Games
     link: https://www.lib.uidaho.edu/games/
   - subsection: Books and eBooks
@@ -226,8 +222,6 @@ Find:
         url: /find/books.html
       - name: Finding Books Tutorial
         url: /find/find-books.html  
-      - name: Print Book Locations
-        url: /find/lc.html
       - name: Finding eBooks
         url: /find/ebooks.html
 #      - name: Request a Book
@@ -236,15 +230,8 @@ Find:
     link: /find/data.html
   - subsection: Digital Collections
     link: /digital/
-  - subsection: Diversity, Equity, and Inclusion Resources
-    link: /about/dei-resources.html
   - subsection: DVDs and Streaming Video
     link: /find/video.html
-    subpages: 
-      - name: Streaming Video
-        url: /find/video.html
-      - name: DVDs
-        url: /find/dvds.html     
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
   - subsection: Events
@@ -255,7 +242,7 @@ Find:
       - name: Renfrew Colloquium
         url: /events/renfrew.html
   - subsection: Equipment Loans
-    link: /studio/loanable.html    
+    link: /find/equipment-loans.html
   - subsection: Geospatial Resources
     link: /find/geospatial/
     subpages:
@@ -275,7 +262,7 @@ Find:
       - name: Circulation Policies
         url: /find/govdocs/circulation.html
   - subsection: Journals
-    link: /find/journals.html
+    link: https://alliance-uidaho.primo.exlibrisgroup.com/discovery/jsearch?vid=01ALLIANCE_UID:UID&lang=en
   - subsection: Maps
     link: /find/maps/
   - subsection: Newspapers
@@ -292,11 +279,11 @@ Find:
   - subsection: Purchase Request
     link: /find/request.html
   - subsection: Research Guides
-    link: https://libguides.uidaho.edu/    
+    link: https://libguides.uidaho.edu/
   - subsection: Theses and Dissertations
     link: /find/etds.html
   - subsection: VERSO (Vandal Expertise, Research, and Scholarship Online)
-    link: https://verso.uidaho.edu/esploro/?institution=01ALLIANCE_UID   
+    link: https://verso.uidaho.edu/esploro/?institution=01ALLIANCE_UID
   - subsection: Unique and Archival Material
     link: /special-collections/
 
@@ -310,7 +297,7 @@ Help:
   - subsection: Help Home
     link: /help/
   - subsection: Chat and Text
-    link: /help/chat.html    
+    link: /help/chat.html
   - subsection: FAQ
     link: https://libanswers.uidaho.edu/
   - subsection: Off-Campus Access
@@ -319,24 +306,6 @@ Help:
     link: /help/research.html
   - subsection: Site Search
     link: /help/search.html
-
-
-##########
-# Collections Section
-#
-Collections:
-  - parent: Collections
-    stub: /collections/
-  - subsection: Collections Home
-    link: /collections/
-  - subsection: Special Collections and Archives
-    link: /special-collections/
-  - subsection: Digital
-    link: /collections/digital.html
-  - subsection: Physical
-    link: /collections/physical.html
-  - subsection: Idaho
-    link: /collections/idaho.html
 
 
 ##########
@@ -349,30 +318,23 @@ Services:
     link: /services/borrow/
   - subsection: CDIL (Digital Scholarship)
     link: https://cdil.lib.uidaho.edu/
-  - subsection: Copyright
-    link: /copyright/
-    subpages: 
-      - name: About
-        url: /copyright/
-      - name: Copyright Guide
-        url: /copyright/guide.html
+  - subsection: Copyright Guide
+    link: /copyright/guide.html
   - subsection: Course Reserves
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "Data Hub: Geospatial and Data Sciences Support"
-    link: /datahub/    
+  - subsection: "DataHub: Geospatial and Data Sciences Support"
+    link: /datahub/
   - subsection: Data Management
     link: /services/data/
     subpages:
       - name: Data Services
         url: /services/data/
       - name: Data Management Guide
-        url: /services/data/data-management/        
+        url: https://www.lib.uidaho.edu/services/data/data-management/
       - name: DOI Service
         url: /services/data/dois.html
-      - name: Contact / Help
-        url: /datahub/#people
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -388,15 +350,6 @@ Services:
         url: /services/instruction/instructor_eval.html
   - subsection: Interlibrary Loan
     link: /services/ill/
-    subpages:
-      - name: Interlibrary Loan
-        url: /services/ill/
-      - name: Summit
-        url: /services/ill/summit.html
-      - name: Document Delivery
-        url: /services/ill/docdelivery.html
-      - name: Other Libraries
-        url: /services/ill/other.html
   - subsection: OA Publishing Fund
     link: /open/oapf/
   - subsection: Off-Campus Access
@@ -404,15 +357,15 @@ Services:
   - subsection: Open at U of I
     link: /open/
   - subsection: ORCID 
-    link: /services/orcid.html    
+    link: /services/orcid.html
   - subsection: Publishing Agreements
     link: /services/agreements/
   - subsection: Pressbooks
-    link: /open/pressbooks.html      
+    link: /open/pressbooks.html
   - subsection: Reference Services
     link: /help/
     subpages:
-      - name: Reference and Information Desk
+      - name: Research Help Desk
         url: /help/
       - name: Research Assistance
         url: /help/research.html
@@ -421,9 +374,9 @@ Services:
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections and Archives
-    link: /special-collections/    
+    link: /special-collections/
   - subsection: Subject Liaisons 
-    link: /about/liaisons.html       
+    link: /about/liaisons.html
   - subsection: The MILL
     link: /mill/
   - subsection: The Studio
@@ -450,12 +403,7 @@ Special Collections:
   - subsection: Special Collections and Archives
     link: /special-collections/
   - subsection: Collections
-    url: /special-collections/description.html
-    subpages:
-      - name: Descriptions
-        url: /special-collections/description.html
-      - name: Browse
-        url: /special-collections/browse.html
+    link: /special-collections/description.html
   - subsection: Research Tools
     link: /special-collections/searchtools.html
   - subsection: Other Research Tools
@@ -463,33 +411,27 @@ Special Collections:
     subpages:
       - name: Bibliography of U of I History
         url: /special-collections/uibibliography.html
-      - name: Book Collections List
-        url: /special-collections/books.html
-      - name: Collections Data Table
-        url: /special-collections/data.html
-      - name: Finding Aids
-        url: /special-collections/findingaids.html                
       - name: Genealogical Resources
-        url: /special-collections/genealogicalresources.html       
+        url: /special-collections/genealogicalresources.html
       - name: Idaho Biographical Index
         url: /special-collections/idahobio.html
       - name: Idaho Telephone and Business Directories
         url: /special-collections/directories.html 
-      - name: Non-Idaho Telephone and Business Directories
-        url: /special-collections/non-idaho-directories.html
+      - name: Historic Newspapers
+        url: /find/microfilm.html
   - subsection: Plan Your Visit
     link: /special-collections/plan.html
   - subsection: Instruction
     link: /special-collections/instruction.html
   - subsection: Fellowships
-    link: /special-collections/berry-ijc-fellowship.html
+    link: /fellowships/berry-ijc.html
     subpages:
-      - name: Berry IJC Fellowship
-        url: /special-collections/berry-ijc-fellowship.html
+      - name: Berry International Jazz Collections Fellowship
+        url: /fellowships/berry-ijc.html
       - name: Strong Spec Fellowship
-        url: /special-collections/strong-fellowship.html
-      - name: Latah Historic Sites Fellowship
-        url: /special-collections/latah-historic-map-fellowship.html
+        url: /fellowships/strong.html
+      - name: Ben J. Plastino Fellowship
+        url: /fellowships/plastino.html
   - subsection: Idaho Harvester Blog
     link: "https://harvester.lib.uidaho.edu/"
   - subsection: About
@@ -501,6 +443,8 @@ Special Collections:
         url: /special-collections/donations.html
       - name: Policies
         url: /special-collections/policies.html
+      - name: America250
+        url: /special-collections/america250.html  
   - subsection: FAQ
     link: /special-collections/faq.html
 
@@ -515,6 +459,8 @@ Data Hub:
     stub: /datahub/
   - subsection: Data Hub
     link: /datahub/
+  - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
+    url: /fellowships/levine.html 
   - subsection: <i class='fas fa-share-square'></i> Data Services
     link: /services/data/
   - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
@@ -522,7 +468,7 @@ Data Hub:
   - subsection: <i class="fas fa-share-square"></i> Find Data
     link: /find/data.html
   - subsection: <i class="fas fa-share-square"></i> Workshops and Events
-    link: /services/workshops/    
+    link: /services/workshops/
 #  - subsection: About the Data Hub
 #    link: /datahub/about.html
 #  - subsection: Tools and Tech
@@ -538,7 +484,7 @@ MILL:
     stub: /mill/
   - subsection: The MILL Home
     link: /mill/
-  - subsection: Tools and Tech
+  - subsection: Equipment
     link: /mill/tools.html
   - subsection: Newsletter
     link: /mill/news.html
@@ -547,11 +493,13 @@ MILL:
   - subsection: Reserve 3D Printers
     link: https://libcal.uidaho.edu/reserve/3dprinters
   - subsection: Reserve Glowforge
-    link: https://libcal.uidaho.edu/reserve/laser    
+    link: https://libcal.uidaho.edu/reserve/laser
   - subsection: Workshops
     link: /services/workshops/
   - subsection: Meet the Team
-    link: /mill/about.html   
+    link: /mill/about.html
+  - subsection: MILL Marketplace
+    link: https://marketplace.uidaho.edu/C20272_ustores/web/store_main.jsp?STOREID=205
 
 # The Studio Section
 The Studio:
@@ -559,14 +507,16 @@ The Studio:
     stub: /studio/
   - subsection: The Studio Home
     link: /studio/
-  - subsection: Studio Equipment
+  - subsection: Equipment
     link: /studio/equipment.html
-  - subsection: Loanable Equipment
-    link: /studio/loanable.html
+  - subsection: Tutorials & How-To Guides
+    link: /studio/tutorials.html
   - subsection: Terms of Use
     link: /studio/termsofuse.html
-  - subsection: Studio FAQ
-    link: /studio/faq.html
+  - subsection: FAQ
+    link: /studio/faq.html  
+  - subsection: Support & Troubleshooting
+    link: /studio/troubleshooting.html
 
 # Open at U of I Section
 Open at U of I:
@@ -602,6 +552,15 @@ Open at U of I:
     link: /open/course-marking.html  
   - subsection: OER Resources
     link: /open/oer_resources.html
+  - subsection: Federal Grant Requirements
+    link: /open/federal-requirements/
+    subpages:
+      - name: Public Access Overview
+        url: /open/federal-requirements/
+      - name: NIH Public Access Requirements
+        url: /open/federal-requirements/nih.html
+      - name: Federal Agency Public Access Requirements
+        url: /open/federal-requirements/full.html
 
 
 # GIS Day
@@ -613,7 +572,7 @@ GIS Day:
   - subsection: Repository
     link: /gisday/repository.html
   - subsection: Geospatial Resources
-    link: /find/geospatial/    
+    link: /find/geospatial/
 
 # Guide sections
 Copyright Guide:

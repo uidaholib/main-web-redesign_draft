@@ -11,15 +11,14 @@ layout: page
   <div class="card-body">
     <div class="row">
       <div class="col-md-3">
-        <p class="text-center"><a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" class="btn btn-outline-pride-gold btn-lg my-2" target="_blank" rel="noopener"><span class="fas fa-sign-in-alt"></span> My Library Account</a></p>
+        <p class="text-center"><a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" class="btn btn-outline-pride-gold btn-lg my-2" ><span class="fas fa-sign-in-alt"></span> My Library Account</a></p>
       </div>
       <div class="col-md-9">
         <p>Log into your Library Account <em>(using your University of Idaho username and password)</em> to:</p>
         <ul>
           <li>Renew materials, review your loans, and make Summit requests online</li>
           <li>Access <a href="{{ '/find/articles.html' | relative_url }}">library databases</a> from anywhere in the world</li>
-          <li>Use <a href="{{ '/services/ill/index.html' | relative_url }}">Interlibrary Loan</a> and view your <a href="https://uidaho.idm.oclc.org/login?url=https://uidaho.illiad.oclc.org/illiad/illiad.dll">pending ILL requests</a></li>
-          <li>Use "Request" link on physical items to set up "Curbside Pick Up". You'll receive an email when your item is ready, with a link to reserve a pick up time slot during open hours, Monday to Friday (contact <a href="mailto:libcirc@uidaho.edu">libcirc@uidaho.edu</a> with questions!).</li>
+          <li>Use <a href="{{ '/services/ill/index.html' | relative_url }}">Interlibrary Loan / Rapido</a> and view your pending requests</li>
         </ul>
         <p>Offline, use your Vandal Card to check out and renew Books, DVDs, and other materials from the library</p>
       </div>
@@ -44,7 +43,7 @@ layout: page
 
 <p>Your Idaho Vandal ID card can be used as your library card to check out materials as well as to access your interlibrary loan account and other online materials. </p>
 
-<p>If you have a valid University of Idaho network username and password, you will also be able to access databases like JSTOR, Web of Science and Academic Search Premier <a href="{{ '/services/distance.html' | relative_url }}" target="_blank" rel="noopener">from off campus</a> by using your University of Idaho username and password.</p>
+<p>If you have a valid University of Idaho network username and password, you will also be able to access databases like JSTOR, Web of Science and Academic Search Premier <a href="{{ '/services/distance.html' | relative_url }}" >from off campus</a> by using your University of Idaho username and password.</p>
 
 <p><strong>Preferred Name:</strong> the Library circulation system used to check in and out materials can be updated to include a preferred name. Patrons interested in changing the name used on this system should inquire at the circulation desk or email <a href="mailto:libcirc@uidaho.edu">libcirc@uidaho.edu</a>. Please note campus systems that use the U of I single sign-on system will still display the legally registered name for your account.</p>
 
@@ -62,7 +61,7 @@ layout: page
 
 <h3 id="loanperiods">Loan Periods</h3>
 
-<p>Generally, cardholders can borrow an unlimited number of items. Loan periods will vary depending on your status and the type of material being borrowed.</p>
+<p>Generally, cardholders can borrow an unlimited number of items. Loan periods will vary depending on your status and the type of material being borrowed. Note, equipment can not be loaned to guest accounts.</p>
 
 <div class="table-responsive my-3">
   <table class="table table-bordered my-3">
@@ -85,103 +84,36 @@ layout: page
   </table>
 </div>
 
+<hr>
+
+<h3 id="fines">Fines and Late Fees</h3>
+
+<p>The library no longer collects late fees or fines for items in our general collection as part of our commitment to equitable access to information and student affordability.</p>
+<p>Some items in the library, such as <a href="{{ '/services/reserve/' | relative_url }}">print Course Reserves</a> or U of I Multimedia equipment, are exceptions to this policy and will continue to accrue late fees. In addition, the library will continue assessing lost item fees to patrons. Items move into lost status when they have not been returned 15 days after the assigned due date, at which time patrons are charged a $100 fee ($80 replacement item cost and $20 processing fee).</p>
+<p>If you have questions about which items have late fees and which don't, or want to supply your own replacement copy, please contact our Access Services/Circulation Desk at 208-885-6559 and we'd be happy to assist you.</p>
+
 <div class="table-responsive my-3">
-  <table class="table table-bordered">
+  <table class="table table-bordered my-3">
     <thead>
       <tr>
-        <th colspan="4" class="text-center">LOAN PERIODS FOR <a href="https://libguides.uidaho.edu/c.php?g=714161&p=5080696" target="_blank" rel="noopener">UI LIBRARY MULTIMEDIA</a> (NOT AVAILABLE TO GUESTS)</th>
+        <th scope="col">Item Type</th>
+        <th scope="col">Cost per Day</th>
+        <th scope="col">Fine Cap</th>
+        <th scope="col">Replacement Fee</th>
       </tr>
     </thead>
     <tbody>
+      {% for i in site.data.services_loan_fees %}
       <tr>
-        <td><b>Item</b></td>
-        <td><b>Loan Period</b></td>
-        <td><b>Fine Rate</b></td>
-        <td><b>Replacement Cost</b></td>
+        <td>{{ i.item }}</td>
+        <td>{{ i.per_day }}</td>
+        <td>{{ i.fine_cap }}</td>
+        <td>{{ i.replacement_fee }}</td>
       </tr>
-      <tr>
-        <td>Portable Green Screen</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$110</td>
-      </tr>
-      <tr>
-        <td>Portable Light Kit</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$140</td>
-      </tr>
-      <tr>
-        <td>Canon VIXIA HF G20, circulating</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$700</td>
-      </tr>
-      <tr>
-        <td>Canon VIXIA HF G20, permanent hold</td>
-        <td>3 hours in-library</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$700</td>
-      </tr>
-      <tr>
-        <td>GoPro Hero</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$300</td>
-      </tr>
-      <tr>
-        <td>Tripod</td>
-        <td>3 days</td>
-        <td>Included in kit</td>
-        <td>$25</td>
-      </tr>
-      <tr>
-        <td>TASCAM Field Recorder</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$100</td>
-      </tr>
-      <tr>
-        <td>External Hard Drive</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$60</td>
-      </tr>
-      <tr>
-        <td>32 GB microSD Card</td>
-        <td>3 days</td>
-        <td>Included in kit</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>SM57 Microphone</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>$100</td>
-      </tr>
-      <tr>
-        <td>Microphone stand</td>
-        <td>3 days</td>
-        <td>Included in kit</td>
-        <td>$20</td>
-      </tr>
-      <tr>
-        <td>Miscellaneous accessories</td>
-        <td>3 days</td>
-        <td>$10/hour 1st 3 hours; $2/hour each additional hour</td>
-        <td>Priced individually</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
-
-<hr>
-
-<h3 id="fines">Fines</h3>
-
-<p>The library no longer collects late fees or fines for items in our general collection as part of our <a href="{{ site.lib-media }}/about/library_strategic_plan_2021.pdf">commitment to equitable access to information and student affordability</a>.</p>
-<p>Some items in the library, such as <a href="{{ '/services/reserve/' | relative_url }}">print Course Reserves</a> or U of I Multimedia equipment, are exceptions to this policy and will continue to accrue late fees. In addition, the library will continue assessing lost item fees to patrons. Items move into lost status when they have not been returned 15 days after the assigned due date, at which time patrons are charged a $100 fee ($80 replacement item cost and $20 processing fee).</p>
-<p>If you have questions about which items have late fees and which don't, or want to supply your own replacement copy, please contact our Access Services/Circulation Desk at 208-885-6559 and we'd be happy to assist you.</p>
 
 <hr >
 
@@ -189,7 +121,7 @@ layout: page
 
 <p>Three options available for renewing:</p>
 <ul>
-  <li>Online at <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" target="_blank" rel="noopener">Your Library Account</a>, where you can also see what items are checked out to you and when they are due</li>
+  <li>Online at <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" >Your Library Account</a>, where you can also see what items are checked out to you and when they are due</li>
   <li>By telephone at <strong>(208) 885-6559</strong></li>
   <li>In person at the Circulation Desk (1st floor)</li>
 </ul>

@@ -1,14 +1,19 @@
 ---
-title: "Studio Equipment"
+title: Equipment
 section: The Studio
 permalink: /studio/equipment.html
 layout: page
 lazyload: true
 ---
 
-The Studio has dedicated equipment that stays in the space, as well as [loanable equipment](https://www.lib.uidaho.edu/studio/loanable.html) that can be checked out. 
-Some equipment is locked in the cabinet: please contact [Hanwen Dong](mailto:hanwendong@uidaho.edu) for access.
-More details about available software and AV setup can be found in our [FAQs]({{ '/studio/faq.html' | relative_url }}) and be sure to check our [terms of use]({{ '/studio/termsofuse.html' | relative_url }}).
+The Studio provides a wide range of equipment to support your audio and video projects.
+
+There are two types of equipment available:
+
+- In-Studio Equipment: Dedicated tools that stay in the space for your use during a reservation.
+- [Loanable Equipment]({{ '/find/equipment-loans.html' | relative_url }}): Select items can be checked out separately for use outside the Studio.
+
+For details about available software and important guidelines, visit our [FAQ page]({{ '/studio/faq.html' | relative_url }}) and review the [Terms of Use]({{ '/studio/termsofuse.html' | relative_url }}).
 
 {% assign tools = site.data.find_equipment | where_exp: "t","t.location contains 'studio'" %}
 {% assign categories = tools | map: 'category' | uniq %}

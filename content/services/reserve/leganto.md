@@ -10,7 +10,7 @@ Leganto is the U of I Library's integrated course reserves platform that helps m
 Embedded directly into your Canvas course and connected to the library's resources, Leganto allows instructors to easily create and customize reading lists, so that students can access all their course materials in one place.
 
 Information for instructors can be found at the [ExLibris Leganto Guide](https://exlibris.libguides.com/c.php?g=1004425&p=9997893) or contact [libreserve@uidaho.edu](mailto:libreserve@uidaho.edu) for personalized help.
-For general help with Canvas, please check [CETL's excellent support resources](https://www.webpages.uidaho.edu/cetl/canvas-transition.asp).
+For general help with Canvas, please check [CETL's excellent support resources](https://vandalsuidaho.sharepoint.com/sites/InsideUI-CETL).
 
 ## How to Activate Leganto in Canvas
 
@@ -23,8 +23,7 @@ Once activated, you will be ready to [add, edit, save, and customize reading lis
 
 {% include feature/figure-lazyload.html img="https://www.lib.uidaho.edu/media/reserves/canvas1.png" alt="canvas course details screenshot" border=true %}
 
-- Copy and paste the Course ID (in the example above, 202100_123LIB) and email it to <libreserve@uidaho.edu>.
-- If you don't see a SIS ID number (common for Independent Study of Idaho classes), please contact CETL (<cetl@uidaho.edu>) to request one manually be assigned. Make sure to let them know your course name and code. 
+- Copy and paste the Course ID (in the example above, "202100_123LIB") and email it to <libreserve@uidaho.edu>. In your email, please include your course information, including the course title and number (e.g. "HIST 3000, Digital History"), as well as the Course ID.
 
 ### 2. Add the "Library Resource List" link to your Canvas content
 

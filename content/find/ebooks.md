@@ -14,7 +14,7 @@ Most will allow you to view ebooks anywhere, on your computer, ereaders, and mob
 
 Keep in mind that not all books are available as ebooks.
 Ebook subscriptions are separate from our print book purchases.
-If you need digital access to items in our print collection, please explore our [document delivery and digitization services]({{ '/services/ill/docdelivery.html' | relative_url }}).
+If you need digital access to items in our print collection, look for the digitization request button on the catalog record.
 
 ## Accessing eBooks
 

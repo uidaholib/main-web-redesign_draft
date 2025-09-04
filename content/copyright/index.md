@@ -1,4 +1,6 @@
 ---
+# remove 
+noindex: true
 title: Copyright 
 layout: page-narrow
 section: Services
@@ -19,5 +21,5 @@ The library also provides copyright expertise and guidance to the university com
 
 The University of Idaho is committed to respecting the rights of copyright holders and complying with copyright law.
 
-For further information about copyright, please consult the University of Idaho Faculty Staff Handbook <a href="http://www.webpages.uidaho.edu/fsh/5300.html">section 5300</a> and <a href="http://www.webpages.uidaho.edu/fsh/6580.html">section 6580</a>. 
-You can also contact the Library's <a href="mailto:lib-copyright@uidaho.edu">copyright team</a>, or consult the <a href="https://www.uidaho.edu/general-counsel">University's Office of General Counsel</a>.
+For further information about copyright, please consult the University of Idaho Faculty Staff Handbook <a href="https://www.uidaho.edu/policies/fsh/5/5300">section 5300</a> and <a href="https://www.uidaho.edu/policies/fsh/6/6580">section 6580</a>. 
+You can also contact the Library's <a href="mailto:lib-copyright@uidaho.edu">copyright team</a>, or consult the <a href="https://www.uidaho.edu/leadership/general-counsel">University's Office of General Counsel</a>.

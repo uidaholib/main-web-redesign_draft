@@ -24,7 +24,7 @@ layout: page
         <div class="card mx-auto" id="researcher-{{ fellow.name | slugify }}">
             <div class="card-body">
                 <h4 class="card-title">
-                    {% if f.profile-link %}<a href="{{ f.profile-link }}" target="_blank" rel="noopener">{% endif %}
+                    {% if f.profile-link %}<a href="{{ f.profile-link }}">{% endif %}
                         <strong>{{ f.name }}</strong>
                     {% if f.profile-link %}</a>{% endif %}
                 </h4>

@@ -26,7 +26,7 @@ The Special Collections Reading Room welcomes all researchers! Since archival ma
   <div class="col-md-8">
     <h4>How to Request Materials:</h4>
     {% include feature/accordion.html 
-    title1="1. Search Our Collections" text1='To request materials for viewing, please visit our <a href="/special-collections/searchtools.html">Research Tools</a> or <a href="/special-collections/browse.html">browse our collections</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845.'
+    title1="1. Search Our Collections" text1='To request materials for viewing, please visit our <a href="/special-collections/searchtools.html">Research Tools</a> to find materials you want to view. If you have questions or need help using our websites, please contact us at <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or (208) 885-0845.'
     title2="2. Search Our Digital Collections" text2='Our <a href="https://www.lib.uidaho.edu/digital/">Digital Collections</a> and <a href="https://harvester.lib.uidaho.edu/">Idaho Harvester Blog</a> feature select digitized collections, curated online exhibits, and many other unique material held by Special Collections available to view online.'
     title3="3. Make an Appointment or Visit Open Hours" text3='Visit our Reading Room during <a href="/special-collections/plan.html#hours">open hours</a> or schedule an appointment. We ask for 48 hours of notice so we may do any preparatory searching and retrieving in advance. Appointments are dependent on staff availability.'
     title4="4. Fill Out a Registration Form Upon Arrival" text4='When you get here, you will be asked to fill out a Registration Form, acknowledging that all researchers understand and will abide by the <a href="/special-collections/plan.html#rules">Reading Room Rules</a> (see below) for using Special Collections and Archives materials.' %}
@@ -61,12 +61,8 @@ Everyone is welcome to visit our Reading Room and view our materials!
         <table class="table table-hover">
         <tbody>
           <tr>
-            <td>Tuesday - Thursday</td>
-            <td>9:00am - 12:00pm</td>
-          </tr>
-          <tr>
-            <td>or by appointment</td>
-            <td></td>
+            <td>Tuesday, Wednesday, Thursday</td>
+            <td>9:00am - 1:00pm</td>
           </tr>
           </tbody>
         </table>
@@ -126,9 +122,9 @@ The department maintains a Reading Room on the first floor of the library where 
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
 For directions to the library, see our [directions page](/about/directions.html). 
-For a wider campus map, see [campus maps](https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-maps). 
+For a wider campus map, see [Campus planning and development page](https://www.uidaho.edu/leadership/finance-administration/campus-planning-development). 
 
-You can find information about parking on the University of Idaho Parking and Transportation Services [Visitors Page](https://www.uidaho.edu/infrastructure/parking/visitors-community/visitors).
+You can find information about parking on the [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/parking).
 
 ## More questions? 
 

@@ -20,6 +20,7 @@ Transformative publishing agreements are contracts negotiated by libraries and p
 - [Cambridge University Press (Read and Publish)]({{ '/services/agreements/cambridge.html' | relative_url }})
 - [Company of Biologists (Read and Publish)]({{ '/services/agreements/company_of_biologists.html' | relative_url }})
 - [Elsevier (Read and Publish)]({{ '/services/agreements/elsevier.html' | relative_url }})
+- [IOP Science/Institute of Physics]({{ 'services/agreements/institute_of_physics.html' | relative_url }})
 - [MDPI Institutional Open Access Program]({{ '/services/agreements/mdpi.html' | relative_url }})
 - [Microbiology Society (Publish and Read)]({{ '/services/agreements/micro-bio.html' | relative_url }})
 - [Royal Society (OA Membership)]({{ '/services/agreements/royal-society.html' | relative_url }})
@@ -35,7 +36,7 @@ For more detailed information see [Transformative Agreements: A Primer](https://
 
 ### Why is the U of I Library Pursuing Transformative Publishing Agreements? 
 
-As a land grant university, the University of Idaho seeks to "shape the future through innovative thinking" and "expand the institution's intellectual and economic impact" ([Strategic Plan and Process | 2016-2025](https://www.uidaho.edu/provost/strategic-plan)). 
+As a land grant university, the University of Idaho seeks to "shape the future through innovative thinking" and "expand the institution's intellectual and economic impact" ([Strategic Plan and Process | 2016-2025](https://web.archive.org/web/20240707202920/https://www.uidaho.edu/provost/strategic-plan)). 
 One way that the U of I Library can contribute to this mission and vision is by supporting and advocating for new modes and economic models of scholarly communication. 
 
 The current pay-to-read scholarly communication model is financially unsustainable and unjust in how it limits access to publicly funded research and scholarship. 

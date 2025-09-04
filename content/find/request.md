@@ -10,7 +10,7 @@ The Library will honor requests as budgets permit and as the material is availab
 
 To request a book or resource to add to our collections, please click the button link below to access our survey form (requires U of I login):
 
-<div class="text-center my-5"><a class="btn btn-lg btn-outline-pride-gold" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU_fqNbbryglJtEEGdQNbjAtUQlBYR1BZU0dHMElZUFgyMVlYSDVCN0MzRS4u" target="_blank" rel="noopener">Resource Purchase Request Form</a></div>
+<div class="text-center my-5"><a class="btn btn-lg btn-outline-pride-gold" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIU_fqNbbryglJtEEGdQNbjAtUQlBYR1BZU0dHMElZUFgyMVlYSDVCN0MzRS4u">Resource Purchase Request Form</a></div>
 
 {% capture criteria %}
 ## General Criteria for Purchase Requests

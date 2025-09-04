@@ -1,4 +1,4 @@
-<!--  bs5 version, Last build date: 2024-05-28 -->
+<!--  bs5 version, Last build date: 2024-10-11 -->
 <div id="libapps-custom">
     
 <div id="top-bar" class="container-fluid">
@@ -10,8 +10,8 @@
         <!-- hours -->
         <div class="col-8 col-md-4 text-md-center pt-1 text-sm-start">
             <a id="topbar-hours" href="https://www.lib.uidaho.edu/about/hours.html">
-                <span class="fas fa-clock" aria-hidden="true"></span><span class="visually-hidden">Hours: </span>
-                <span id="timedisp"></span>
+                <span class="fas fa-clock" aria-hidden="true"></span>
+                <span id="timedisp">Hours</span>
             </a>
         </div>
         <!-- lib info -->
@@ -31,17 +31,17 @@
         <!-- logo -->
         <div class="col-9 py-2">
             <a id="banner-home" title="University of Idaho Library" href="https://www.lib.uidaho.edu/">
-            <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library [logo]" ></a>
+            <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library" ></a>
         </div>
         <!-- quick nav -->
         <div class="col-3 float-end text-end d-none d-md-block">
             <!-- ask a librarian button -->
-            <button id="askUsButton" type="button" class="btn btn-lg btn-ask text-body" data-bs-toggle="modal" data-bs-target="#askUsModal"><strong><span class="far fa-comment-dots" aria-hidden="true"></span> Ask Us</strong></button>
+            <a id="askUsButton" href="https://www.lib.uidaho.edu/help/" class="btn btn-lg btn-ask text-body"><strong><span class="far fa-comment-dots" aria-hidden="true"></span> Ask Us</strong></a>
         </div>
     </div>
 </div>
 
-<nav id="main-nav" class="navbar navbar-expand navbar-light px-4">
+<nav id="main-nav" class="d-none d-md-block navbar navbar-expand navbar-light px-4">
     <div class="container">
 
         <div class="collapse navbar-collapse">
@@ -68,9 +68,10 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid pt-2 pb-1" id="page-title">
+
+<div class="container-fluid pt-2 pb-1 bg-black-color" id="page-title">
     <div class="container">
-        <h2>Research Guides</h2>
+        <h2 class="text-white">Research Guides</h2>
     </div>
 </div>
 

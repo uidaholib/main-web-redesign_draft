@@ -1,30 +1,47 @@
 ---
 title: "Data Hub: Geospatial and Data Sciences Support"
-section: Data Hub
+section: Services
 permalink: /datahub/
 layout: page
 lazyload: true
+carousel: true
 chat-widget: datahub
 ---
 
 {% include feature/carousel.html slides=site.data.datahub_carousel %}
 
+<div class="row">
+<div class="col-lg-6">
 <div class="alert alert-info mt-3 mb-3" role="alert">
-<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h2>
-<p>Librarian assistance is available Monday - Friday, 11am - 3pm.<br>
-Visit us in the Map Room (Library 107), chat online (icon in lower right), visit our <a href="https://uidaho.zoom.us/j/87655871511?from=addon">Zoom room</a>, or call (208) 885-7724</p>
+<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Data Hub Semester Hours</h2>
+<p>Librarian assistance is available:</p>
+<ul>
+    <li>Monday - Friday, 12pm - 3pm</li>
+</ul>
+<p>Visit in the Map Room (Library 107), chat online (icon in lower right), email <a class="alert-link" href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>
 <!--<h2 class="alert-heading h5"><span class="fas fa-clock"></span> Summer Hours</h2>
 <p markdown="1">By appointment: Please contact [Jeremy Kenyon](/about/people/jkenyon.html) (<jkenyon@uidaho.edu>)</p>-->
 </div>
+</div>
+<div class="col-lg-6">
+<div class="alert alert-info mt-3 mb-3" role="alert">
+<h2 class="alert-heading h5"><span class="fas fa-clock"></span> CSAC Semester Hours</h2>
+<p class="mb-3">Assistance with CS courses is available:</p>
+<ul>
+    <li>Hours coming soon!</li>
+</ul>
+</div>
+</div>
+</div>
 
 The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management.
-Located in the Library's [Map Room (First Floor, Rm 107)](/about/maps.html#lg=1&slide=0), and accessible via our [Zoom room](https://uidaho.zoom.us/j/87655871511?from=addon), the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.
+Located in the Library's [Map Room (First Floor, Rm 107)](/about/maps.html#lg=1&slide=0), the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.
 
 Students, faculty, and staff are invited to get help with topics such as GIS, Git, R, Python, Excel, and data-related tools and information resources.
 Collaborative work areas with large displays are available for consultations and general use, as well as powerful desktop computer workstations.
 
 Building on the Library's long history of curating and disseminating data collections under programs such as [INSIDE Idaho](https://insideidaho.org/), the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. 
-With collaborative work areas focused on data analysis and visualization, a service desk staffed by librarians, and other campus units encouraged to collocate (including [RCDS](https://www.iids.uidaho.edu/rcds.php) and [Statistical Consulting](https://www.uidaho.edu/sci/mathstat/centers/scc)), the Data Hub is a central place to connect with geospatial and data sciences support.
+With collaborative work areas focused on data analysis and visualization, and a service desk staffed by librarians, the Data Hub is a central place to connect with geospatial and data sciences support.
 
 ## People
 

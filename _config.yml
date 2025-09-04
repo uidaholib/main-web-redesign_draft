@@ -24,10 +24,13 @@ lib-objects: https://objects.lib.uidaho.edu
 # main url, used to point at server even when on dev server
 liburl: https://www.lib.uidaho.edu
 
-# Updates collection
+# Collections
 collections:
   updates:
     sort_by: order
+  fellowships:
+    output: true
+    sort_by: title
 
 # set some defaults
 defaults: 
@@ -49,7 +52,7 @@ histphoto-build: false
 idahobio-build: false
 all-collections-build: false
 speccoll-build: false
-spec_books-build: false
+
 
 # cb page gen
 page_gen:

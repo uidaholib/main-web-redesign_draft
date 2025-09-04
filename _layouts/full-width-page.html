@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="container-fluid pt-2 pb-1" id="page-title">
+<div class="container-fluid pt-2 pb-1 bg-black-color" id="page-title">
     <div class="container">
-        <h2>{{ page.section }}</h2>
+        <h2 class="text-white">{{ page.section }}</h2>
     </div>
 </div>
 <div class="full-background">
-    <div class="container page-block" >
+    <div class="container page-block pb-2" >
         <div class="py-2 px-md-3">
             <!-- bread crumbs -->
             {% include breadcrumbs-page.html %}
@@ -16,6 +16,10 @@ layout: default
                 <h1>{{ page.title }}</h1>
                 {{ content }}
             </main>
+            <div class="text-end mt-5">
+                <a href="#banner-home" class="btn btn-outline-clearwater"><span class="fas fa-arrow-up"></span> Back to Top</a>
+            </div>
         </div>
+        
     </div>
 </div>

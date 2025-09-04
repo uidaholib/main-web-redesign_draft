@@ -5,7 +5,7 @@ permalink: /events/renfrew.html
 layout: page
 ---
 
-The University of Idaho Library is hosting the [Malcolm M. Renfrew Interdisciplinary Colloquium](https://www.uidaho.edu/class/mric/) for 2024-25. Presentations will be held on Tuesdays at 12:30pm on the first floor of the library, in the living room area to the right as you come in the entrance.
+The University of Idaho Library is hosting the [Malcolm M. Renfrew Interdisciplinary Colloquium](https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium) for 2024-25. Presentations will be held on Tuesdays at 12:30pm on the first floor of the library, in the living room area to the right as you come in the entrance.
  
 <div class="dropdown mb-3">
   <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">

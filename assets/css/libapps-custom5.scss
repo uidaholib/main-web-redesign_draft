@@ -60,10 +60,9 @@ $theme-colors: map-merge(
 @import "theme-colors", "theme-utilities";
 {% endif %}
 
-@import "page";
-
 #libapps-custom {
     @import "base", "header", "footer", "custom";
+    h2 { font-family: $base-font-family; }
 }
 
 @import "libapps";

@@ -3,33 +3,19 @@ title: The Studio - A/V Lab
 section: The Studio
 permalink: /studio/
 layout: page
+lazyload: true
+carousel: true
 ---
-<div class="alert alert-success text-center" role="alert">
-  The Studio has moved to Room 122, next to the information desk!
-</div>
+{% include feature/carousel.html slides=site.data.studio_carousel %}
 
-<div class="alert alert-info text-center" role="alert">
-<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Semester Hours</h2>
-<p class="h5">Monday - Thursday, 9am - 9pm<br>
-Friday, 9am - 7pm<br>
-Saturday - Sunday, 12pm - 5pm</p>
-<!--<h2 class="alert-heading h4"><span class="fas fa-clock"></span> Summer Hours</h2>
-<p class="h5">Monday - Friday, 9am - 6pm</p>-->
-</div>
+<br>
 
-Located on the first floor of the Library, the Studio offers dedicated space to students, staff, and faculty to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
-Faculty and staff can capture high-quality video lectures and instructional videos using the [eGlass](https://eglass.io/){:target="_blank" rel="noopener"} and other [Studio equipment]({{ '/studio/equipment.html' | relative_url }}). 
+Located on the first floor (Room 122) of the Library, the Studio offers dedicated space to students, staff, faculty, and the community to produce audiovisual content to support their teaching, learning, and creative pursuits at the University of Idaho. 
 
-To use the Studio, please access the booking calendar link below to reserve a time. Reservations must be made eight hours in advance. At the time of your appointment, please bring your Vandal card to the Circulation Desk to check out the Studio key. 
+The Podcasting Station makes it easy to capture clear, engaging conversations. The Editing Station gives you the tools to polish audio and video to perfection. And in the WhisperRoom, you can record in total quiet for the cleanest sound possible. Whether it’s your first project or your hundredth, the Studio is ready to help you bring your ideas to life.
 
-First-time users are welcome to use the space. If interested in receiving an orientation with a staff member, please fill out the [request an orientation form](https://uidaho.co1.qualtrics.com/jfe/form/SV_87Ybp5wTfqm9Cqa){:target="_blank" rel="noopener"} to schedule a meeting.
+To use the Studio, please access the booking calendar link below to reserve a time. At the time of your appointment, please bring your Vandal card to the Circulation Desk to check out the Studio key. First-time users are welcome to use the space. If interested in receiving an orientation with a staff member, please fill out the [request an orientation form](https://uidaho.co1.qualtrics.com/jfe/form/SV_87Ybp5wTfqm9Cqa) to schedule a meeting.
 
 <div class="text-center my-4">
-<a class="btn btn-outline-pride-gold m-2" href="https://libcal.uidaho.edu/booking/AV" target="_blank" rel="noopener">Reserve the Studio</a>
-<a class="btn btn-outline-pride-gold m-2" href="https://vandalsuidaho-my.sharepoint.com/:w:/g/personal/hanwendong_uidaho_edu/EZe6R_SuDnZCm2xK7vepWwsBbKSxVMyrv34ANJF66OFxSw?e=VHFEqq" target="_blank" rel="noopener">User Guide</a>
-<a class="btn btn-outline-pride-gold m-2" href="{{ '/studio/faq.html' | relative_url }}">Studio FAQ</a>
-<a class="btn btn-outline-pride-gold m-2" href="{{ '/studio/termsofuse.html' | relative_url }}">Terms of Use</a>
-</div>
-<div class="text-center mb-3">
-<img class="img-fluid" src="{{ '/rooms/studio.jpg' | prepend: site.lib-media }}" alt="woman in front of recording equipment and computer">
+<a class="btn btn-outline-pride-gold m-2" href="https://libcal.uidaho.edu/booking/AV">Reserve the Studio</a>
 </div>

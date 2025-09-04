@@ -1,41 +1,119 @@
-question,answer
-What can I do in the Studio? ,"Below is an example list of usage of the Studio:
+category,question,answer
+Getting Started,What kinds of projects can I work on in the Studio?,"The Studio supports a wide range of recording and editing projects. You can record lectures or instructional videos, voice-over narration for videos or slideshows, individual or group interviews, and podcasts. You can also edit multi-track audio mixes, short films, documentaries, narrative videos, and other creative, informational, or instructional video projects."
+Getting Started,When is the Studio open?,"The Studio is open during the Library’s regular building hours. It is closed on national holidays, may operate with adjusted hours for special events or other circumstances, and has limited hours during academic breaks. For the most up-to-date information, visit the <a href=""https://www.lib.uidaho.edu/about/hours.html"" >Library Hours page</a>."
+Getting Started,How do I access the Studio?,"A reservation is required to use the Studio. You can reserve the space up to two weeks in advance through our online system, <a href=""https://libcal.uidaho.edu/reserve/AV"" >LibCal</a>, available on the Studio homepage. Same-day reservations may be available but are not guaranteed.
 
-- Record
-    - Lectures and instructional videos 
-    - Voice-over narrations for videos and slideshows
-    - Individual or group interviews 
-    - Podcasts 
-- Edit
-    - Multi-track audio mixing
-    - Short, documentary, and narrative films
-    - Videos (creative, informational, instructional)
-- Digitize
-    - Analog audio recording (cassette tape, reel-to-reel tape, vinyl record) to digital format
-    - Analog video recording (VHS tape, DVD) to digital format
+After booking, you will receive a confirmation email. At the time of your reservation, bring your Vandal Card to the Library Circulation Desk to check out the Studio key. The key must be returned to the Circulation Desk by the end of your reserved session.
 
-Patrons who wish to use the Studio equipment for digitization must abide by copyright law. Please refer to the <a href=""https://www.lib.uidaho.edu/copyright/guide.html"" target=""_blank"" rel=""noopener"">Copyright Guide</a> for more information on appropriate uses of copyrighted materials. Also, note that the digitization equipment is used by Center for Digital Inquiry and Learning (CDIL) more frequently, and their projects often take priority, so a general studio booking won’t guarantee that the digitization equipment will be present in the studio. Please contact CDIL for equipment availability."
-How can I access the Studio as a first-time user?,"Reservation is required to use the Studio. You can book the room up to two weeks in advance using our reservation system LibCal on the Studio homepage. Same-day reservations may be possible but are not guaranteed. Please cancel your reservation if no longer needed to allow others to use the space.
+If your plans change, please cancel your reservation to free up the space for others."
+Getting Started,How long can I reserve the Studio for?,"Reservations are generally limited to two hours to ensure fair access for all users. You may book multiple sessions if needed, but extended reservations depend on availability."
+Getting Started,Can I book the Studio for group projects?,"Yes, the Studio can be used for group projects, such as interviews, podcasts, or collaborative video recordings. Please be considerate of space limitations, as the room is designed primarily for small groups.
 
-You will receive a confirmation email after you have made a reservation. Then, bring your Vandal Card to the library at the time of your reservation. The staff at the Circulation Desk will check out the Studio key for you. Return the key by the end of your reserved session time."
-What audio software and equipment is available in the Studio?,"We currently have the following audio software installed on the iMac:
+If you have questions about whether your group size or project setup is appropriate for the space, contact Library staff before making a reservation."
+Getting Started,Do I have to pay to use the Studio?,"The Studio is free for University of Idaho students, faculty, and staff. However, patrons are responsible for any damage to Studio equipment, lost or missing items, and fines for late returns of loanable equipment. For full details on fines and replacement costs, please see the <a href=""https://www.lib.uidaho.edu/studio/termsofuse.html"" >Studio terms of use</a>."
+Learning & Support,Is training available for using the Studio?,"Yes. Instructions are available in the Studio, and Library staff can provide assistance. If you need additional support or one-on-one help, please <a href=""https://uidaho.co1.qualtrics.com/jfe/form/SV_87Ybp5wTfqm9Cqa"" >contact us</a> in advance to arrange a consultation."
+Learning & Support,Are there resources to help me learn how to use the Studio and its equipment?,"Yes! Below are recommended guides and resources to help you with podcasting, audio production, filmmaking, and using Studio equipment:
 
-- <a href=""https://support.apple.com/guide/logicpro/welcome/mac"" target=""_blank"" rel=""noopener"">Logic Pro X</a> - Professional Digital Audio Workspace with default sample libraries & plugins, and preset preferences to interact with the MIDI keyboard and MOTU audio interface. Best for recording and editing.
-- <a href=""https://support.apple.com/guide/mainstage/welcome/mac"" target=""_blank"" rel=""noopener"">MainStage</a> - Live Performance software in companion to Logic Pro. 
-- <a href=""https://help.apple.com/garageband/mac/10.2"" target=""_blank"" rel=""noopener"">GarageBand</a> - Simple Digital Audio Workspace with less functions than Logic Pro, but approachable interface.
-- <a href=""https://helpx.adobe.com/audition/tutorials.html"" target=""_blank"" rel=""noopener"">Adobe Audition</a> - Professional audio file editing software.
-- <a href=""https://manual.audacityteam.org/man/tutorials_for_audacity.html"" target=""_blank"" rel=""noopener"">Audacity</a> - Simple audio file editing software.
+**Manuals and Guides**
+- <a href=""https://guides.lib.umich.edu/podcasting"" >Podcasting and Audio Storytelling Guide (University of Michigan Library)</a> - Basics of podcast production and audio storytelling
+- <a href=""https://manual.audacityteam.org/"" >Audacity Reference Manual</a> - Official tutorials and user guide for Audacity software
+- <a href=""https://www.studiobinder.com/blog/"" >The StudioBinder Blog</a> - Guides on video production, directing, producing, scriptwriting, and post-production
+- <a href=""https://www.learnaboutfilm.com/"" >Learn About Film</a> - Tutorials and practical advice for filmmakers
 
-We also have equipment available to record audio in the Studio. Already set up for easy use are two SM58 microphones, MPK Mini MIDI keyboard, and a Focusrite audio interface with 1/4"" input. These options should suffice for podcasts, single track recordings, simple MIDI input, and simple video voiceover. 
+**Studio Equipment Manuals**
+- <a href=""https://vandalsuidaho-my.sharepoint.com/:f:/g/personal/hanwendong_uidaho_edu/EkFiwTwWbhBMpMDLGAUtyg0BBUrhxE0vkAclId4P6XYEqA?e=1GeP2G"" >View manuals and brochures for Studio equipment</a> to learn how to set up and operate the tools available in the space.
 
-The Studio is currently optimized with light sound paneling to record podcasts, short films, and interviews. Other audio recording is possible, but do not expect the same outcome as a recording booth or soundproofed room. Certain musical instruments are allowed as long as volumes are kept at an appropriate level. No percussive instruments whatsoever."
-What video software and equipment is available in the Studio?,"We have the following video software installed on the iMac:
+**eBooks**
+- <a href=""https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/2vsn7u/alma996606589001851"" >The music producer's ultimate guide to FL Studio 21: from beginner to pro</a> - This comprehensive guide covers everything you need to make the most of FL Studio 21's powerful tools and features. You will learn the secrets to creating professional-sounding music, from creating chord progressions to tailoring your sounds to perfection with compression, equalization, and stereo width effects.
+- <a href=""https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/2vsn7u/alma996739748501851"" > Logic Pro: professional music production</a> - Using a project-based approach, this book shows you how to record audio and software instruments, create musical content, and build arrangements.
+- <a href=""https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/1km8i79/cdi_proquest_ebookcentral_EBC5148622"" >Introduction to Video Production: Studio, Field, and Beyond</a> -  Written in a clear, non-technical manner, *Introduction to Video Production* focuses on the fundamental principles and aesthetics of video production and the technologies used in both studio and field environments.
+"
+Learning & Support,Where can I find digital media assets for my project?,"If you need images, music, video, or other stock content for your audiovisual project, the resources below offer digital media assets you can use. Some are royalty-free, while others require attribution or have specific license terms. Always check the usage rights for any asset before including it in your work.
 
-- <a href=""https://creativecloud.adobe.com/cc/learn/app/premiere-pro?locale=en"" target=""_blank"" rel=""noopener"">Adobe Premiere</a> - Professional video editing.
-- <a href=""https://www.techsmith.com/learn/tutorials/camtasia/"" target=""_blank"" rel=""noopener"">Camtasia</a> - Video editing by creating tutorials and recording presentations via screencast.
-- <a href=""https://help.apple.com/imovie/mac/10.1/"" target=""_blank"" rel=""noopener"">iMovie</a> - Basic video editing.
+To learn more about Creative Commons licenses and copyright, visit the <a href=""https://www.lib.uidaho.edu/copyright/guide.html"" >U of I Library Copyright Guide</a> or attend one of our Library workshops on Creative Commons licensing.
 
-We also have equipment available to record video in the Studio, including a green screen, a black backdrop, and portable light."
-When is the Studio open?,"The Studio is open on Monday to Thursday from 9:00 AM to 9:00 PM, Friday from 9:00 AM to 7:00 PM, and Saturday and Sunday from 12:00 PM to 5:00 PM during fall and spring semesters, and Monday to Friday from 9:00 AM to 6:00 PM during summer. The Studio and the Library will be closed during national holidays, and the hours are subject to change for special circumstances. Please visit the <a href=""https://www.lib.uidaho.edu/about/hours.html"" target=""_blank"" rel=""noopener"">Library Hours page</a> for the most accurate and current hours.  "
-Do I have to pay to use the Studio?,"Using the Studio is free of charge for students, faculty, and staff at the University of Idaho. However, patrons are responsible for any damaged or lost equipment in the Studio and fines for late loanable equipment. Please refer to the fine rate and replacement cost section of the [Studio terms of use](https://www.lib.uidaho.edu/studio/termsofuse.html)."
-"I have other questions, comments, or feedback. Who do I contact?","Please contact Hanwen Dong, the Instructional Technology Librarian, at <hanwendong@uidaho.edu>."
+**Images**
+- <a href=""https://search.creativecommons.org/"" >Creative Commons Search</a> - Search Creative Commons licensed images
+- <a href=""https://www.flickr.com/creativecommons/"" >Flickr (Creative Commons license)</a> - Creative Commons photo sharing
+- <a href=""https://www.pexels.com/"" >Pexels</a> - Free stock photos
+- <a href=""https://pixabay.com/images/search/"" >Pixabay</a> - Free stock images and illustrations
+- <a href=""https://unsplash.com/"" >Unsplash</a> - Free high-quality stock photos
+- <a href=""https://www.freepik.com/popular-photos"" >Freepik</a> - Stock photos (check licensing terms)
+
+**Icons**
+- <a href=""https://www.flaticon.com/"" >Flaticon</a> - Free and premium icons
+- <a href=""https://freeicons.io/"" >Freeicons.io</a> - Free and premium icons
+- <a href=""https://www.freepik.com/search?type=icon"" >Freepik Icons</a> - Icon library (check licensing terms)
+
+**Audio (Music)**
+- <a href=""https://www.videvo.net/royalty-free-music/"" >Videvo Music Library</a> - Free royalty-free music
+- <a href=""https://freemusicarchive.org/home"" >Free Music Archive</a> - Free music for various uses
+- <a href=""https://freeplaymusic.com/"" >Freeplay Music</a> - Free and licensed music options
+
+**Audio (Sound Effects)**
+- <a href=""https://www.videvo.net/royalty-free-sound-effects/"" >Videvo Sound Effects</a> - Free sound effects
+- <a href=""https://studio.youtube.com/channel/UC4dc_y94y3J63FWvc7Ym2eg/music"" >YouTube Audio Library</a> - Free music and sound effects (Google account required)
+- <a href=""https://sound-effects.bbcrewind.co.uk/"" >BBC Sound Effects Library</a> - Archive of free sound effects
+
+**Video**
+- <a href=""https://www.pexels.com/videos/"" >Pexels Videos</a> - Free stock video clips
+- <a href=""https://www.videezy.com/"" >Videezy</a> - Free and premium video footage
+- <a href=""https://dareful.com/"" >Dareful</a> - High-quality 4K video clips
+
+**Motion Graphics**
+- <a href=""https://www.videvo.net/free-motion-graphics/"" >Videvo Motion Graphics</a> - Free animated elements
+
+**Important**: Some resources require attribution. Always review the license for each asset and credit the source when required.
+
+**Attribution Examples:**
+
+- *Image*: Photo by Jane Doe via Unsplash, used under Unsplash License
+- *Audio*: Music track ""Acoustic Breeze"" by Bensound, used under Creative Commons License
+- *Video*: Video footage by Dareful, used under Dareful License
+
+If you are unsure how to give proper credit, consult the licensing terms provided by the source or contact Library staff for assistance."
+Studio Tools & Equipment,Do I need to bring my own equipment?,"The Studio is equipped with audio and video recording tools, software, and accessories for most projects. However, you are welcome to bring your own equipment, such as instruments, microphones, cameras, or storage devices, as long as they are compatible with the space and do not require permanent installation."
+Studio Tools & Equipment,What audio software and equipment is available in the Studio?,"Audio Software Installed on the Studio iMac:
+
+- <a href=""https://support.apple.com/guide/logicpro/welcome/mac"" >Logic Pro X</a> - Professional digital audio workstation (DAW) with built-in sample libraries, plugins, and preset preferences for seamless use with the MIDI keyboard and MOTU audio interface. Ideal for recording and multi-track editing.
+- <a href=""https://support.apple.com/guide/mainstage/welcome/mac"" >MainStage</a> - Live performance software designed to complement Logic Pro.
+- <a href=""https://help.apple.com/garageband/mac/10.2"" >GarageBand</a> - Beginner-friendly DAW with simplified features for easy music creation.
+- <a href=""https://helpx.adobe.com/audition/tutorials.html"" >Adobe Audition</a> - Professional audio editing and restoration software.
+- <a href=""https://manual.audacityteam.org/man/tutorials_for_audacity.html"" >Audacity</a> - Simple, open-source tool for basic audio editing and recording.
+- <a href=""https://www.reaper.fm/userguide.php"" >REAPER</a> - Flexible, full-featured DAW for recording, editing, and mixing.
+- <a href=""https://www.image-line.com/fl-studio-learning/"" >FL Studio</a> - DAW with a pattern-based music sequencer and graphical interface for music production.
+- <a href=""https://www.avid.com/sibelius/learn-and-support"" >Sibelius</a> - Advanced music composition and notation software with AI-powered features, markup tools, and cloud publishing options.
+
+Audio Recording Equipment Available in the Studio:
+- Two Shure SM58 microphones
+- MPK Mini MIDI keyboard
+- Focusrite audio interface with 1/4 inch input
+- RØDECaster Pro II production console
+- WhisperRoom sound isolation booth
+- Studio subwoofer
+
+These setups are ideal for:
+- Podcasts
+- Single or multi-track recordings
+- Basic MIDI input
+- Voiceovers
+- Music recordings
+
+Need help getting started? Instructions are available in the Studio, or you can contact Library staff for assistance."
+Studio Tools & Equipment,What video software and equipment is available in the Studio?,"Video Software Installed on the Studio iMac:
+
+- <a href=""https://creativecloud.adobe.com/cc/learn/app/premiere-pro?locale=en"" >Adobe Premiere</a> - Professional video editing software for advanced projects.
+- <a href=""https://support.apple.com/guide/final-cut-pro/welcome/mac"" >Final Cut Pro</a> - Professional video editing software optimized for Mac users.
+- <a href=""https://www.techsmith.com/learn/tutorials/camtasia/"" >Camtasia</a> - Screen recording and video editing software, ideal for tutorials and presentations.
+- <a href=""https://help.apple.com/imovie/mac/10.1/"" >iMovie</a> - Beginner-friendly video editing with basic features.
+- <a href=""https://support.apple.com/guide/motion/welcome/mac"" >Motion</a> - Motion graphics software for creating animated visuals, titles, and effects.
+- <a href=""https://support.apple.com/guide/compressor/welcome/mac"" >Compressor</a> - Encoding and transcoding software for Final Cut Pro projects with customizable export options.
+
+We also have equipment available to loan, including cameras, tripods, a green screen, a black backdrop, and portable light."
+Usage Policies & Best Practices,Can I store personal files on the Studio computer?,"No. Files saved on the Studio iMac may be deleted at any time. Please bring an external storage device (USB drive or portable hard drive) or use cloud storage such as <a href=""https://onedrive.uidaho.edu/"" >OneDrive</a> to save your work during and after your session."
+Usage Policies & Best Practices,Can I play loud music in the Studio?,"No. The Studio is not a completely soundproof space. Please be mindful of your noise level while using the Library Studio. While the space supports creativity and collaboration, loud sounds—including conversations, music, and instruments—can disrupt others. We recommend using headphones for audio monitoring and keeping all volume levels reasonable.
+
+For isolated audio recording, you can use the WhisperRoom sound isolation booth, available inside the Studio.
+
+Thank you for your cooperation!"
+Contact & Feedback,"I have other questions, comments, or feedback. Who do I contact?","Please contact Hanwen Dong, the Instructional Technology Librarian, at <hanwendong@uidaho.edu>."

@@ -25,12 +25,12 @@ Helping is easy!
 
 **Step 1:** Scan your photos at home or have your photos scanned at any one of many local retailers such as Costco, Walmart, or Walgreens. Please scan at high quality (minimum 300 dpi).[^1]
 
-**Step 2:** Once you have your favorite photos scanned, upload them [using our online submission form](https://uidaho.co1.qualtrics.com/jfe/form/SV_6g6KAE6dc7GxkuF){:target="_blank" rel="noopener"}!
+**Step 2:** Once you have your favorite photos scanned, upload them [using our online submission form](https://uidaho.co1.qualtrics.com/jfe/form/SV_6g6KAE6dc7GxkuF)!
 
-<a class="btn btn-lg btn-outline-pride-gold" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_6g6KAE6dc7GxkuF" target="_blank" rel="noopener">Submit Your Photos!</a>
+<a class="btn btn-lg btn-outline-pride-gold" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_6g6KAE6dc7GxkuF">Submit Your Photos!</a>
 {:.text-center}
 
-[^1]: Check your scanner's manual or app guide to find how to set a high quality DPI. Check these how to tips from [PCmag](https://www.pcmag.com/news/get-organized-how-to-scan-your-old-photos){:target="_blank" rel="noopener"} or [Make Use Of](https://www.makeuseof.com/tag/best-ways-scan-old-photos/){:target="_blank" rel="noopener"}.
+[^1]: Check your scanner's manual or app guide to find how to set a high quality DPI. Check these how to tips from [PCmag](https://www.pcmag.com/news/get-organized-how-to-scan-your-old-photos) or [Make Use Of](https://www.makeuseof.com/tag/best-ways-scan-old-photos/).
 
 </div>
 

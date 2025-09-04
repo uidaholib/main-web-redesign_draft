@@ -13,7 +13,8 @@ custom-foot: js/hours-js.html
 </div>
 
 {% capture text %}
-<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances. The current hours are displayed above. The sections below list the general semester, summer, and <a href="#reduced">reduced hours</a>, and may not reflect temporary changes or special circumstances. Please call 208-885-6559 with questions.</p>
+<p><em>Please note,</em> during normal academic year hours on Sunday through Thursday, the 3rd and 4th floors close at midnight. The 1st and 2nd floors remain open until 2am.</p>
+<p>All hours are <strong>Pacific time</strong> and are subject to change for special circumstances. The current hours are displayed above. The sections below list the general semester, summer, and <a class="alert-link" href="#reduced">reduced hours</a>, and may not reflect temporary changes or special circumstances. Please call 208-885-6559 with questions.</p>
 {% endcapture %}
 {% include feature/alert.html color="info" text=text %}
 
@@ -28,12 +29,15 @@ custom-foot: js/hours-js.html
     <div class="card my-2" >
       <div class="card-body">
         <h3 class="card-title">Semester Hours</h3>
-        <p><small>August 18 - December 13, January 8 - May 10</small></p>
+        <p><small>August 25 - December 19, 2025 and January 8 - May 10, 2026</small></p>
         <table class="table table-hover">
           <tbody>
             <tr>
               <td>Monday - Thursday</td>
-              <td>6:00am - 2:00am</td>
+              <td>
+                6:00am - 2:00am<br>
+                <small><em>3rd and 4th floors close at 12am</em></small>
+              </td>
             </tr>
             <tr>
               <td>Friday</td>
@@ -45,7 +49,10 @@ custom-foot: js/hours-js.html
             </tr>
             <tr>
               <td>Sunday</td>
-              <td>12:00pm - 2:00am</td>
+              <td>
+                12:00pm - 2:00am<br>
+                <small><em>3rd and 4th floors close at 12am</em></small>
+              </td>
             </tr>         
           </tbody>
         </table>
@@ -57,7 +64,7 @@ custom-foot: js/hours-js.html
     <div class="card my-2" id="summer">
       <div class="card-body">
         <h3 class="card-title">Summer Hours</h3>
-        <p><small>May 10 - August 20</small></p>
+        <p><small>May 10 - August 24, 2025</small></p>
         <table class="table table-hover">
           <tbody>
             <tr>
@@ -83,7 +90,7 @@ custom-foot: js/hours-js.html
 <hr>
 
 <!-- reference desk hours -->
-<h3 class="my-3" id="reference"><i aria-hidden="true" class="fas fa-info-circle"></i> Reference and Information Desk Hours</h3>
+<h3 class="my-3" id="research"><i aria-hidden="true" class="fas fa-info-circle"></i> Research Help Desk Hours</h3>
 
 <div class="row">
 
@@ -98,8 +105,7 @@ custom-foot: js/hours-js.html
               <td>10:00am - 4:00pm</td>
             </tr>
           </tbody>
-        </table>
-                
+        </table>   
       </div>
     </div>
   </div>
@@ -108,13 +114,7 @@ custom-foot: js/hours-js.html
     <div class="card my-2">
       <div class="card-body">
         <h4 class="card-title">Summer Hours</h4>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>Please email <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a> to schedule an appointment.</td>
-            </tr>
-           </tbody>
-        </table>
+        <p>Please email <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a> to schedule an appointment.</p>
       </div>
     </div>
   </div>
@@ -123,7 +123,7 @@ custom-foot: js/hours-js.html
 
 {% include feature/alert.html text="Instant help is available online via our <a href='/help/chat.html' class='alert-link'>Chat service</a> 24 hours a day, 7 days a week!" color="success" align="center" %}
 
-<p>U of I librarians are available to <a href="{{ '/help/' | relative_url }}">help via chat, text, or email</a> during Reference and Information Desk hours. Meetings with a librarian are also available by appointment during regular hours, please email <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a> to set up a time. Even when the Reference and Information Desk is closed, <a href="{{ '/help/chat.html' | relative_url }}">Chat help</a> from librarians from other academic libraries is available 24 hours a day, 7 days a week, all year-round!</p>
+<p>U of I librarians are available to <a href="{{ '/help/' | relative_url }}">help via chat, text, or email</a> during Research Help Desk hours. Meetings with a librarian are also available by appointment during regular hours, please email <a href="mailto:libref@uidaho.edu">libref@uidaho.edu</a> to set up a time. Even when the Research Help Desk is closed, <a href="{{ '/help/chat.html' | relative_url }}">Chat help</a> from librarians from other academic libraries is available 24 hours a day, 7 days a week, all year-round!</p>
 
 <hr>
 
@@ -142,10 +142,6 @@ custom-foot: js/hours-js.html
               <td>Monday - Friday</td>
               <td>10:00am - 3:00pm <br><em>or by appointment</em></td>
             </tr>
-            <tr>
-              <td>Saturday - Sunday</td>
-              <td>Closed</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -161,10 +157,6 @@ custom-foot: js/hours-js.html
             <tr>
               <td>Monday - Thursday</td>
               <td>9:00am - 12:00pm <br><em>or by appointment</em></td>
-            </tr>
-            <tr>
-              <td>Friday - Sunday</td>
-              <td>Closed</td>
             </tr>
            </tbody>
         </table>
@@ -189,11 +181,7 @@ custom-foot: js/hours-js.html
           <tbody>
             <tr>
               <td>Monday - Friday</td>
-              <td>11:00am - 3:00pm</td>
-            </tr>
-            <tr>
-              <td>Saturday - Sunday</td>
-              <td>Closed</td>
+              <td>12:00pm - 3:00pm</td>
             </tr>
           </tbody>
         </table>
@@ -236,10 +224,6 @@ custom-foot: js/hours-js.html
               <td>Monday - Friday</td>
               <td>8:00am - 5:00pm</td>
             </tr>
-            <tr>
-              <td>Saturday - Sunday</td>
-              <td>Closed</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -265,10 +249,6 @@ custom-foot: js/hours-js.html
               <td>Monday - Friday</td>
               <td>8:00am - 6:00pm</td>
             </tr>
-            <tr>
-              <td>Saturday - Sunday</td>
-              <td>Closed</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -282,10 +262,10 @@ custom-foot: js/hours-js.html
         <table class="table table-hover">
           <tbody>
             <tr>
-              <td>By appointment<br>
-              Please contact Jessica Fleener <a href="mailto:jkfleener@uidaho.edu">jkfleener@uidaho.edu</a></td>
+              <td>Monday - Friday</td>
+              <td>9:00am - 4:00pm</td>
             </tr>
-           </tbody>
+          </tbody>
         </table>
       </div>
     </div>
@@ -328,8 +308,8 @@ custom-foot: js/hours-js.html
         <table class="table table-hover">
           <tbody>
             <tr>
-              <td>Tuesday - Thursday</td>
-              <td>9:00am - 12:00pm <br>or by appointment</td>
+              <td>Tuesday, Wednesday, Thursday</td>
+              <td>9:00am - 1:00pm <br>or by appointment</td>
             </tr>
             <tr>
               <td>Monday, Friday</td>
@@ -351,42 +331,10 @@ custom-foot: js/hours-js.html
 
 <div class="row">
 
-  <div class="col-md-6">
+  <div class="col">
     <div class="card my-2">
       <div class="card-body">
-        <h4 class="card-title">Semester Hours</h4>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>Monday - Thursday</td>
-              <td>9:00am - 9:00pm</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>9:00am - 7:00pm</td>
-            </tr>
-            <tr>
-              <td>Saturday - Sunday</td>
-              <td>12:00pm - 5:00pm</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="card my-2">
-      <div class="card-body">
-        <h4 class="card-title">Summer Hours</h4>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>Monday - Friday</td>
-              <td>9:00am - 6:00pm</td>
-            </tr>
-           </tbody>
-        </table>
+        <p>The Studio hours are the same as the Library building hours. Please make a reservation to use the space in our <a href="https://libcal.uidaho.edu/reserve/AV">Library booking system</a>.</p>
       </div>
     </div>
   </div>
@@ -396,7 +344,7 @@ custom-foot: js/hours-js.html
 <hr>
 
 <!-- reduced hours -->
-<h3 class="my-3" id="reduced"><i aria-hidden="true" class="far fa-calendar-times"></i> Reduced Hours and Closures</h3>
+<h3 class="my-3" id="reduced"><i aria-hidden="true" class="far fa-calendar-times"></i> Reduced Hours and Closures: Fall 2025 and Spring 2026</h3>
 
 <div class="row">
 
@@ -412,7 +360,7 @@ custom-foot: js/hours-js.html
               <td></td>
             </tr>
             <tr>
-              <td>September 1</td>
+              <td>August 31</td>
               <td>12:00pm - 12:00am</td>
             </tr>
             <tr>
@@ -425,23 +373,19 @@ custom-foot: js/hours-js.html
               <td></td>
             </tr>
             <tr>
-              <td>November 19</td>
+              <td>November 22 - 23</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>November 20 - 21</td>
+              <td>November 24 - 26</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>November 22</td>
-              <td>8:00am - 4:00pm</td>
-            </tr>
-            <tr>
-              <td>November 23 - Thanksgiving</td>
+              <td>November 27 - Thanksgiving</td>
               <td>Closed</td>
             </tr>
             <tr>
-              <td>November 24 - 25</td>
+              <td>November 28 - 29</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
           
@@ -450,53 +394,65 @@ custom-foot: js/hours-js.html
               <td></td>
             </tr>
             <tr>
-              <td>December 16 - 17</td>
+              <td>December 20 - 21</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>December 18 - 21</td>
+              <td>December 22 - 23</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>December 22 - January 1</td>
+              <td>December 24 - January 2</td>
               <td>Closed</td>
             </tr>
             <tr>
-              <td>January 2 - 5</td>
+              <td>January 3 - 4</td>
+              <td>12:00pm - 6:00pm</td>
+            </tr>
+            <tr>
+              <td>January 5 - 9</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>January 6 - 7</td>
+              <td>January 10 - 11</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
 
             <tr class="table-secondary">
               <td><h4 id="{{ 'Spring Reduced Hours' | slugify }}">Spring Reduced Hours</h4></td>
               <td></td>
+            </tr>
             <tr>
-            <tr>
-              <td>January 15 - Martin Luther King Jr. Day</td>
+              <td>January 18</td>
               <td>12:00pm - 12:00am</td>
             </tr>
             <tr>
-              <td>February 19 - President's Day</td>
+              <td>January 19 - Martin Luther King Jr. Day</td>
+              <td>12:00pm - 12:00am</td>
+            </tr>
+            <tr>
+              <td>February 15</td>
+              <td>12:00pm - 12:00am</td>
+            </tr>
+            <tr>
+              <td>February 16 - President's Day</td>
               <td>12:00pm - 12:00am</td>
             </tr>
           
             <tr class="table-secondary">
               <td><h4 id="{{ 'Spring Recess' | slugify }}">Spring Recess</h4></td>
               <td></td>
+            </tr>
             <tr>
-            <tr>
-              <td>March 9 - 10</td>
+              <td>March 14 - 15</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
             <tr>
-              <td>March 11 - 15</td>
+              <td>March 16 - 20</td>
               <td>8:00am - 6:00pm</td>
             </tr>
             <tr>
-              <td>March 16</td>
+              <td>March 21 - 22</td>
               <td>12:00pm - 6:00pm</td>
             </tr>
 
@@ -514,7 +470,7 @@ custom-foot: js/hours-js.html
               <td></td>
             <tr>
             <tr>
-              <td>May 27 - Memorial Day</td>
+              <td>May 25 - Memorial Day</td>
               <td>Closed</td>
             </tr>
             <tr>
@@ -522,7 +478,7 @@ custom-foot: js/hours-js.html
               <td>Closed</td>
             </tr>
             <tr>
-              <td>July 4 - Independence Day</td>
+              <td>July 3 - Independence Day (observed)</td>
               <td>Closed</td>
             </tr>
           </tbody>

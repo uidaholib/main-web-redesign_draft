@@ -7,6 +7,10 @@ layout: page
 
 ## Resources
 
+[University of Idaho Course Materials Options](https://www.lib.uidaho.edu/open/course-materials-infographic/)
+
+A quick guide on course materials options, including student costs, availability, and where to learn more.
+
 [Mason OER Metafinder](https://oer.deepwebaccess.com/oer/desktop/en/search.html)
 
 The MASON OER Metafinder performs a simultaneous search across 21 different sources of open educational materials. This is a great place to start looking!

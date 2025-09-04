@@ -27,7 +27,7 @@ layout: page
         <td>{{ r.description }}<br>
             Presenter: {{ r.instructor }}</td>
         <td>
-            {% for m in materials %}{% if r[m] %}<a href="{{ r[m] }}" target="_blank" rel="noopener"><span class="fas {% if m == 'slides' or m == 'handout' %}fa-file{% elsif m == 'video' or m == 'playlist' %}fa-film{% elsif m == 'code' or m == 'website' %}fa-link{% endif %}"></span>{{ m | capitalize }}</a><br>{% endif %}{% endfor %}
+            {% for m in materials %}{% if r[m] %}<a href="{{ r[m] }}"><span class="fas {% if m == 'slides' or m == 'handout' %}fa-file{% elsif m == 'video' or m == 'playlist' %}fa-film{% elsif m == 'code' or m == 'website' %}fa-link{% endif %}"></span>{{ m | capitalize }}</a><br>{% endif %}{% endfor %}
         </td>
     </tr>
     {% endfor %}

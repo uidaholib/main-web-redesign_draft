@@ -25,8 +25,8 @@ lazyload: true
             <div class="card">
                 <div class="card-body">
                     <img class="img-fluid" src="{{ '/gisday/gis-day-logo-black.png' | prepend: site.lib-media }}" alt="GIS Day">
-                    <h2 class="h5"><em>Mapping Minds, Shaping the World: 25 Years of GIS Day</em></h2>
-                    <p class="h3">November 20, 2024</p>
+                    <!--<h2 class="h5"><em>Mapping Minds, Shaping the World: 25 Years of GIS Day</em></h2>-->
+                    <p class="h3">November 19, 2025</p>
                     <p class="h5">Clearwater Room <em>(and Online!)</em><br>
                         Idaho Student Union Building<br>
                         University of Idaho<br>
@@ -37,9 +37,12 @@ lazyload: true
         </div>
     </div>
 </div>
-{% capture open %}Planning for this year's GIS Day is underway! Check back for our call for short talks, plan to join us Nov 20th, and contact Bruce Godfrey (<bgodfrey@uidaho.edu>{:.alert-link}) with any questions.{% endcapture %}
-{% capture done %}This year's GIS Day is complete, check back fall 2024 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
-{% include feature/alert.html color="success" text=open %}
+{% capture talks %}The [Call for GIS Day short talks](https://uidaho.co1.qualtrics.com/jfe/form/SV_25FghGKR4L7yULA){:.alert-link} is open! 
+We invite submissions from across the geospatial and GIS community for ten minute presentations highlighting your recent geospatial-related work, project, organization, or research. Please [submit using our form](https://uidaho.co1.qualtrics.com/jfe/form/SV_25FghGKR4L7yULA){:.alert-link} by Oct 25th!{% endcapture %}
+{% capture open %}[Registration for GIS Day 2025](){:.alert-link} is open!{% endcapture %}
+{% capture done %}This year's GIS Day is complete, check back fall 2025 for our next event! Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">Repository page</a>.{% endcapture %}
+{% capture save %}Save the date: GIS Day 2025 is November 19! Check back for call for presenters, schedule, and registration.{% endcapture %}
+{% include feature/alert.html color="info" text=save align="center" %}
 
 <div class="row">
     <div class="col-md-2">
@@ -52,44 +55,21 @@ lazyload: true
         </div>
     </div>
     <div class="col-md-9">
-        <p class="lead"><a target="_blank" rel="noopener" href="https://www.gisday.com/">GIS Day</a> @ University of Idaho is a free event that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses. This year's theme is <em>Mapping Minds, Shaping the World: 25 Years of GIS Day</em>, exploring "how combining human creativity with technology helps us discover hidden trends, support sustainable growth, and make smarter decisions using the power of location data". The sessions will take place on Wednesday, Nov 20th, 2024 as a hybrid event hosted at Clearwater / Whitewater room of the Idaho Student Union Building and streaming live via Zoom.</p>
+        <p class="lead"><a href="https://www.gisday.com/">GIS Day</a> @ University of Idaho is a free event made possible by the U of I Library, with support from <a href="#sponsors">our sponsors</a>, that brings together scholars, students, professionals, businesses, and the public to discuss geospatial technologies and demonstrate their many uses. The sessions will take place on Wednesday, Nov 19th, 2025 as a hybrid event hosted at Clearwater room of the Idaho Student Union Building and streaming live via Zoom.</p>
         <p>Please contact Bruce Godfrey (<a href="mailto:bgodfrey@uidaho.edu">bgodfrey@uidaho.edu</a>) with any questions.</p>
     </div>
 </div>
-
-<!--
-<div class="card mb-4">
-    <div class="card-body">
-        <h3 id="keynote" class="h4 mb-3"><em>2023 Keynote Presentation</em></h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="m-1 p-3 border rounded border-clearwater">
-                    <h3 class="h2">Wenwen Li</h3> 
-                    <h4 class="h5">School of Geographical Sciences and Urban Planning <br>Arizona State University</h4>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <h3>GeoAI for Science and the Science of GeoAI</h3>
-                <p>AI, especially deep learning, has transformed many science and engineering disciplines because of its outstanding capabilities in learning and extracting new patterns and knowledge in a data-driven manner. Geospatial science is an ideal domain to extensively apply and further boost AI research because of its vast availability of diverse big data, intriguing and complex human-environmental interactions, as well as its central role in enabling location-based analysis. In less than a decade, we have witnessed a rapidly growing interest and progress of GeoAI research -- the transdisciplinary expansion of AI in geography and its sibling domains in spatial, environmental, and urban sciences. This talk will explore the trending research in GeoAI and discuss how the science of GeoAI can be advanced. It will also cover how GeoAI can advance scientific discovery, using the tracking of Arctic environmental change as a use study.</p>
-                <h4 class="h5">Presenter Bio</h4>
-                <p>Wenwen Li is a Professor in the School of Geographical Sciences and Urban Planning at Arizona State University. Her research interest is geographic information science with a focus on developing integrated and smart cyberinfrastructure to revolutionize knowledge discovery in environmental and social sciences. In recent years, she has been pioneering the integration of AI with geospatial sciences, and have developed a series of spatial explicit GeoAI models for environmental analysis. Dr. Li's research was funded by multiple funding agencies. She was the recipient of the US National Science Foundation's early CAREER Award and Mid-Career Advancement Award. She is also a Fellow of the American Association of Geography (AAG) and a Fellow of University Consortium of Geographic Information Science.</p>
-
-            </div>
-        </div>
-    </div>
-</div>
--->
 
 <hr class="my-4">
 
 <div id="schedule" class="my-3">
     <h2>Schedule of Events</h2>
 
-    <p>GIS Day @ U of I 2024 is a hybrid event taking place on November 20th in the Clearwater / Whitewater room (on the second floor of the <a href="https://goo.gl/maps/DjakJQegm8R7qYx7A" target="_blank" rel="noopener">Idaho Student Union Building</a>) and live streaming via Zoom. Times are given in <strong>Pacific Time (PST)</strong>. Please <a href="#register">register</a> to receive the Zoom link.</p>
+    <p>GIS Day @ U of I 2025 is a hybrid event taking place on November 19th in the Clearwater room (<a href="https://goo.gl/maps/DjakJQegm8R7qYx7A">Idaho Student Union Building</a>) and live streaming via Zoom. Times are given in <strong>Pacific Time (PST)</strong>. Please <a href="#register">register</a> to receive the Zoom link.</p>
 
-    <h3 class="h4">Wednesday, Nov 20th, 2023</h3>
+    <h3 class="h4">Wednesday, Nov 19th, 2025</h3>
 
-    <p>Full Schedule TBA! Events take place approximately from 9:00am to 3:00pm, with a break for lunch. <strong>Draft schedule is subject to change.</strong></p>
+    <p><strong>TBA, check back for schedule and registration!</strong></p>
 
     <!--
     <div class="px-2">
@@ -116,34 +96,6 @@ lazyload: true
         </div>
         {% endfor %}
     </div>
--->
-
-<!--
-        <h3 class="h4 mt-4">Thursday, Nov 18th, 2021</h3>
-
-        <div class="row border rounded py-3 justify-content-end">
-            <div class="col-md-2">
-                <strong>2:00 pm - 5:30 pm</strong><br>
-                Library, Second Floor Classroom and Zoom
-            </div>
-            <div class="col-md-4">
-                <h4>Using GeoDesign to create future climate stories</h4>
-                Dan Cronan and Katherine Hegewisch (University of Idaho)
-            </div>
-            <div class="col-md-6">
-                <p>Special topics workshop taking you hands on with a geodesign process and climate change. Please <a href="https://libcal.uidaho.edu/event/8424570">register on the workshop event page</a>!
-                <br><button class="btn btn-sm btn-outline-palouse-green m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWorkshop" aria-expanded="false" aria-controls="collapseWorkshop">Details <i class="fas fa-caret-down"></i></button></p>
-            </div>
-            <div class="col-md-10 collapse" id="collapseWorkshop">
-                <div class="card card-body ">
-                    <p>Geodesign attempts to answer the question, "How do we get from now to the best possible future?".</p>
-                    <p>In this workshop, we will walk through a condensed version of a geodesign process to tell a climate data story for a study area in a changing climate. We will identify how different scenarios of change in the population, land use, and climate of a region can lead to different future landuse and landcover possibilities.</p>
-                    <p>Specifically, participants will use an online <a href="https://geoplanner.arcgis.com/">ESRI geo planning tool</a> to run several models of future scenarios to inform their climate data stories for a specific local area. Participants will prepare input layers for the ESRI tool using the QGIS open-source tool with climate projections downloaded from the <a href="https://climatetoolbox.org/">Climate Toolbox (ClimateToolbox.org)</a>. Participants will set scenario assumptions for change and impact modelling in the ESRI tool and visualize the results in different geospatial layers on a map. Afterwards, participants will share their climate stories with the group.</p>
-                    <p>The workshop will be offered as a hybrid event, meeting both in person and via Zoom. Please visit the <a href="https://libcal.uidaho.edu/event/8424570">workshop event page to register</a>. Registration is free and open to everyone.</p>
-                </div>
-            </div>
-        </div>
-    
     -->
 
     <div class="alert alert-info mt-4 h5 text-center">Content from past years' presentations, posters, and exhibits can be found in the <a href="{{ '/gisday/repository.html' | relative_url }}" class="alert-link">GIS Day @ U of I Repository page</a></div>
@@ -158,12 +110,13 @@ lazyload: true
     <div class="row align-items-center">
         
         <div class="col-md-6">
-            <p>Coming soon! Check back in September 2024.</p>
-            <!--<p>To participate in GIS Day 2024, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>-->
+            <p>Check back in Fall 2025!</p>
+            <!--
+            <p>To participate in GIS Day 2025, please register in advance to let us know if you will be attending in person or online. Visit the event <a href="">registration link</a> and fill in the form with your details. Information about how to join the sessions will be emailed to you a day before the event. Registration is free and open to all.</p>-->
         </div>
         <div class="col-md-6">
             <p class="text-center">
-                <!--<a class="btn btn-lg btn-outline-palouse-green" href="https://uidaho.co1.qualtrics.com/jfe/form/SV_cAb4tQJZvU4D2cu" target="_blank" rel="noopener"><i class="fas fa-link"></i> Registration Form</a>-->
+                <!--<a class="btn btn-lg btn-outline-palouse-green" href=""><i class="fas fa-link"></i> Registration Form</a>-->
             </p>
         </div>
 
@@ -176,13 +129,13 @@ lazyload: true
 <div id="sponsors" class="my-3"> 
     <h2>Sponsors</h2>
 
-    <p>Each year a variety of entities generously provide financial contributions to help make this a successful event. The current list recognizes our supporters.</p>
+    <p>Each year a variety of entities generously provide support to help make this a successful event. The list recognizes our supporters.</p>
 
     <div class="row justify-content-center mx-md-4 my-4 text-center">
         {% assign sponsors = site.data.gisday_sponsors | where: "active",true %}
         {% for s in sponsors %}
         <div class="col-6 col-md-4 p-3 p-md-5">
-            <a href="{{ s.link }}" title="{{ s.sponsor }}" target="_blank" rel="noopener">
+            <a href="{{ s.link }}" title="{{ s.sponsor }}">
                 <img src="{{ s.img | prepend: '/gisday/sponsors/' | prepend: site.lib-media }}" alt="{{ s.sponsor }}" class="img-fluid">
             </a>
         </div>
@@ -207,8 +160,8 @@ lazyload: true
                     <p>If you or your organization would like to become a sponsor of GIS Day at the University of Idaho please use one of the following options to make a donation:</p>
                     <ul class="list-group mb-2">
                         <li class="list-group-item"><strong>Online</strong><br>
-                            Go to <a target="_blank" rel="noopener" href="https://www.givecampus.com/campaigns/3269/donations/new">UIdaho Giving</a><br>
-                            Under "Designation" type in "GIS Day Fund" and fill out the required fields of the form
+                            Go to <a href="https://giving.uidaho.edu/campaigns/gis-day-fund-1">University of Idaho Giving</a><br>
+                            Click "Make a Gift", ensure the "GIS Day Fund" is selected, and use the form to make your donation. 
                         </li>
                         <li class="list-group-item"><strong>By phone</strong><br>
                             Call the University of Idaho Gift Administration Office at (208) 885-6796 and give with a credit card.<br>
@@ -249,8 +202,9 @@ lazyload: true
         <li>Bruce Godfrey - Chair (Library)</li>
         <li>Lisa Jones (Plant Science)</li>
         <li>Jason Karl (Forest, Rangeland, and Fire Sciences)</li>
-        <li>Jylisa Kenyon (Library)</li>
         <li>Norman Lee (Library)</li>
+        <li>Felix Liao (Earth and Spatial Sciences)</li>
+        <li>Seth Thompson (Library)</li>
         <li>Evan Peter Williamson (Library)</li>
     </ul>
 

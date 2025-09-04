@@ -1,6 +1,7 @@
 ---
 title: New Read and Publish Agreement
 date: 2024-05-09
+archive: true
 ---
 
 The U of I Library has entered into a new [Publish and Read agreement](https://www.lib.uidaho.edu/services/agreements/) with [MDPI Institutional Open Access Program](https://www.lib.uidaho.edu/services/agreements/mdpi.html).

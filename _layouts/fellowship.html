@@ -1,0 +1,301 @@
+---
+layout: page-narrow
+---
+
+{% comment %} Get fellowship data from CSV - this is the primary data source {% endcomment %}
+{% assign fellowship_data = site.data.fellowships_descriptions | where: "title", page.title | first %}
+
+{% comment %} Application status will be determined by JavaScript {% endcomment %}
+
+{% comment %} Use CSV data as primary source, page front matter as override {% endcomment %}
+  {% assign award_amount = page.award_amount | default: fellowship_data.amount %}
+  {% assign eligible_full = page.eligible_full | default: fellowship_data.eligible_full %}
+  {% assign application_link = page.application_link | default: fellowship_data.application_link %}
+  {% assign date-closed  = page.date-closed  | default: fellowship_data.date-closed %}
+  {% assign date-open  = page.date-open | default: fellowship_data.date-open %}
+  {% assign timeframe = page.timeframe | default: fellowship_data.timeframe %}
+  {% assign sponsor = page.sponsor | default: fellowship_data.sponsor %}
+  {% assign number_available = page.number_available | default: fellowship_data.number %}
+  {% assign fellowship_description = page.description | default: fellowship_data.description %}
+
+{% if application_link %}
+    <a href="{{ application_link }}" class="w-100 btn btn-info my-2 p-2 sticky-top" id="app-link"><span class="fas fa-edit"></span> Submit an Application</a>
+    {% endif %}
+
+<div class="text-center mb-2 pt-3">
+    <a href="#call" class="btn btn-secondary btn-sm my-2 mx-1">Call for Applications</a>
+    <a href="#process" class="btn btn-secondary btn-sm my-2 mx-1">How to Apply</a>
+    <a href="#criteria" class="btn btn-secondary btn-sm my-2 mx-1">Application Criteria</a>
+    {% if page.show_past_projects != false %}
+    <a href="#past" class="btn btn-secondary btn-sm my-2 mx-1">Past Projects</a>
+    {% endif %}
+    
+</div>
+
+{% comment %} Application Status Indicator - Controlled by JavaScript {% endcomment %}
+<div class="text-center mb-3" id="fellowship-status">
+    <div class="alert alert-secondary">
+        <strong><i class="fas fa-clock"></i> Checking application status...</strong>
+    </div>
+</div>
+
+{% comment %} Fellowship Quick Facts {% endcomment %}
+{% if award_amount or eligible_full or timeframe or number_available %}
+<div class="row mb-4">
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-info-circle"></i> Fellowship Details</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    {% if award_amount %}
+                    <dt class="col-sm-4">Award Amount:</dt>
+                    <dd class="col-sm-8">
+                        {% if award_amount contains "$" %}
+                            {{ award_amount }}
+                        {% else %}
+                            ${{ award_amount }}
+                        {% endif %}
+                    </dd>
+                    {% endif %}
+                    
+                    {% if eligible_full %}
+                    <dt class="col-sm-4">Eligibility:</dt>
+                    <dd class="col-sm-8">{{ eligible_full }}</dd>
+                    {% endif %}
+                    
+                    {% if timeframe %}
+                    <dt class="col-sm-4">Duration:</dt>
+                    <dd class="col-sm-8">{{ timeframe }}</dd>
+                    {% endif %}
+                    
+                    {% if date-open %}
+                    <dt class="col-sm-4">Application Period:</dt>
+                    <dd class="col-sm-8">
+    {% assign current_year = 'now' | date: "%Y" %}
+    {% assign open_date_full = current_year | append: "-" | append: date-open %}
+    {% assign closed_date_full = current_year | append: "-" | append: date-closed %}
+    {{ open_date_full | date: "%B %d" }} - {{ closed_date_full | date: "%B %d" }}
+</dd>
+                    {% endif %}
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% comment %} Contact Information {% endcomment %}
+<div class="text-center mb-4">
+    <em>Questions?</em> 
+    {% if page.contact_email and page.contact_name %}
+        Contact {{ page.contact_name }} at <a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a>
+    {% elsif sponsor == "CDIL" %}
+        Contact the <a href="https://cdil.lib.uidaho.edu/">Center for Digital Inquiry and Learning (CDIL)</a> at <a href="mailto:cdil@uidaho.edu">cdil@uidaho.edu</a>
+    {% elsif sponsor == "Spec" %}
+        Contact the Special Collections department at <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>
+    {% else %}
+        Contact the University of Idaho Library at <a href="mailto:library@uidaho.edu">library@uidaho.edu</a>
+    {% endif %}
+</div>
+
+<hr>
+
+{% comment %} Display fellowship description from CSV if available {% endcomment %}
+{% if fellowship_description and fellowship_description != "" %}
+<div class="mb-4">
+    <h3 id="call">Description</h3>
+    <p>{{ fellowship_description }}</p>
+</div>
+{% endif %}
+
+{{ content }}
+
+{% comment %} Past Projects Section {% endcomment %}
+{% if page.show_past_projects != false %}
+<div id="past" class="pb-2">
+    <hr>
+    <h3>Past Projects</h3>
+    
+    {% comment %} Get past recipients from fellowships.csv {% endcomment %}
+    {% assign past_recipients = site.data.fellowships | where: "fellowship", page.title %}
+    
+    {% if past_recipients.size > 0 %}
+        {% comment %} Group recipients by project to handle multiple fellows on same project {% endcomment %}
+        {% assign unique_projects = past_recipients | group_by: "project" %}
+        
+        <div class="row">
+            {% for project_group in unique_projects limit: 12 %}
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    {% assign first_recipient = project_group.items.first %}
+                    {% if first_recipient.project_image %}
+                    <img src="{{ first_recipient.project_image }}" class="card-img-top" alt="{{ first_recipient.project }}" style="height: 200px; object-fit: cover;">
+                    {% elsif first_recipient.image_thumb %}
+                    <img src="{{ first_recipient.image_thumb }}" class="card-img-top" alt="{{ first_recipient.full_name }}" style="height: 200px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body d-flex flex-column">
+                        {% if first_recipient.project %}
+                        <h5 class="card-title">{{ first_recipient.project }}</h5>
+                        {% else %}
+                        <h5 class="card-title">{{ first_recipient.full-name }}'s Project</h5>
+                        {% endif %}
+                        
+                        {% comment %} Display fellow(s) names {% endcomment %}
+                        <div class="card-text">
+                            {% if project_group.items.size == 1 %}
+                                <strong>{{ first_recipient.full-name }}</strong>
+                            {% elsif project_group.items.size == 2 %}
+                                <strong>{{ project_group.items[0].full-name }} & {{ project_group.items[1].full-name }}</strong>
+                            {% else %}
+                                <strong>{{ project_group.items[0].full-name }}{% for item in project_group.items offset: 1 limit: 2 %}, {{ item.full-name }}{% endfor %}{% if project_group.items.size > 3 %}, and {{ project_group.items.size | minus: 3 }} others{% endif %}</strong>
+                            {% endif %}
+                        </div>
+                        
+                        {% comment %} Show year and department from first recipient {% endcomment %}
+                        <p class="card-text"><small class="text-muted">{{ first_recipient.year }}{% if project_group.items.size > 1 and project_group.items[1].year != first_recipient.year %}-{{ project_group.items.last.year }}{% endif %} • {{ first_recipient.department }}</small></p>
+                        
+                        {% if first_recipient.description %}
+                        <p class="card-text flex-grow-1">{{ first_recipient.description | truncate: 150 }}</p>
+                        {% endif %}
+                        
+                        <div class="mt-auto">
+                            {% if first_recipient.site %}
+                            <a href="{{ first_recipient.site }}" class="btn btn-outline-payette-blue btn-sm">View Project</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        {% if unique_projects.size > 12 %}
+        <div class="text-center mt-3">
+            <p><em>Showing {{ unique_projects.size | at_most: 12 }} of {{ unique_projects.size }} past projects.</em></p>
+        </div>
+        {% endif %}
+    
+    {% endif %}
+</div>
+{% endif %}
+
+{% comment %} JavaScript for Fellowship Status Check {% endcomment %}
+<script>
+// Fellowship data from CSV
+const fellowshipData = {
+  {% if fellowship_data %}
+  title: "{{ fellowship_data.title | escape }}",
+  active: "{{ fellowship_data.active }}",
+  dateOpen: "{{ fellowship_data.date-open }}",
+  dateClosed: "{{ fellowship_data.date-closed }}",
+  deadlineSeason: "{{ fellowship_data.deadline-season | escape }}",
+  status: "{{ fellowship_data.status }}"
+  {% else %}
+  title: "{{ page.title | escape }}",
+  active: "no"
+  {% endif %}
+};
+
+/**
+ * Determines if a fellowship is currently accepting applications
+ * @param {Object} fellowship - Fellowship data object
+ * @returns {Object} - {isOpen: boolean, reason: string}
+ */
+function checkFellowshipStatus(fellowship) {
+  if (fellowship.active !== "yes") {
+    return { isOpen: false, reason: "Fellowship is currently inactive" };
+  }
+  
+  // If deadline-season is "Rolling", it's open (assuming active)
+  if (fellowship.deadlineSeason === "Rolling") {
+    return { isOpen: true, reason: "Rolling deadline" };
+  }
+  
+  // If status is explicitly set to "open", trust it
+  if (fellowship.status === "open") {
+    return { isOpen: true, reason: "Status set to open" };
+  }
+  
+  // Check date range if we have open and close dates
+  if (fellowship.dateOpen && fellowship.dateClosed) {
+    const today = new Date();
+    const currentYear = today.getFullYear();
+    
+    // Parse MM-DD format and assume current year
+    try {
+      const openDateStr = `${currentYear}-${fellowship.dateOpen}`;
+      const closeDateStr = `${currentYear}-${fellowship.dateClosed}`;
+      
+      const openDate = new Date(openDateStr);
+      const closeDate = new Date(closeDateStr);
+      
+      // If dates are valid
+      if (!isNaN(openDate.getTime()) && !isNaN(closeDate.getTime())) {
+        if (today >= openDate && today <= closeDate) {
+          return { isOpen: true, reason: `Open until ${fellowship.dateClosed}` };
+        } else if (today < openDate) {
+          return { isOpen: false, reason: `Opens on ${fellowship.dateOpen}` };
+        } else {
+          return { isOpen: false, reason: `Opens on ${fellowship.dateOpen}` };
+        }
+      }
+    } catch (e) {
+      console.warn('Error parsing fellowship dates:', e);
+    }
+  }
+  
+  // Default to closed if we can't determine status
+  return { isOpen: false, reason: "Application period not specified" };
+}
+
+/**
+ * Updates the fellowship status display on the page
+ */
+function updateFellowshipStatus() {
+  const statusElement = document.getElementById('fellowship-status');
+  const appLinkElement = document.getElementById('app-link');
+  
+  if (!statusElement) return;
+  
+  const status = checkFellowshipStatus(fellowshipData);
+  
+  let alertClass, icon, message;
+  
+  if (status.isOpen) {
+    alertClass = 'alert-success';
+    icon = 'fas fa-check-circle';
+    message = 'Applications are currently OPEN!';
+    if (status.reason && status.reason !== 'Rolling deadline') {
+      message += `<br><small>${status.reason}</small>`;
+    }
+    
+    // Show application link if it exists
+    if (appLinkElement) {
+      appLinkElement.style.display = 'inline-block';
+    }
+  } else {
+    alertClass = 'alert-secondary';
+    icon = 'fas fa-times-circle';
+    message = 'Applications are currently CLOSED.';
+    if (status.reason) {
+      message += `<br><small>${status.reason}</small>`;
+    }
+    
+    // Hide application link
+    if (appLinkElement) {
+      appLinkElement.style.display = 'none';
+    }
+  }
+  
+  statusElement.innerHTML = `
+    <div class="alert ${alertClass}">
+      <strong><i class="${icon}"></i> ${message}</strong>
+    </div>
+  `;
+}
+
+// Update status when page loads
+document.addEventListener('DOMContentLoaded', updateFellowshipStatus);
+</script>

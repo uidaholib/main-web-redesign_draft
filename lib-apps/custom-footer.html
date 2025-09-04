@@ -40,7 +40,7 @@
             <div class="col-12 col-lg-8">
                 <div class="text-end me-5">
                     <p><small><em>Bringing the world to Idaho ... and Idaho to the world.</em><br>
-                        <a href="https://www.uidaho.edu/privacy">U of I Privacy Standard</a> | 
+                        <a href="https://www.uidaho.edu/policies/privacy-statement">U of I Privacy Standard</a> | 
                         <a href="https://www.lib.uidaho.edu/about/tech.html#web-accessibility">Web Accessibility</a> 
                         <br>
                         © 2024 University of Idaho Library
@@ -54,7 +54,35 @@
     </div>
 </footer>
 
-<script src="https://www.lib.uidaho.edu/assets/js/hours.js"></script>
+<script>
+    // function to fetch the libcal hours json
+    async function fetchHoursJson() {
+        const libcalUrl = "https://libcal.uidaho.edu/api_hours_today.php?iid=3479&lid=7368&format=json&systemTime=0";
+        try {
+            const response = await fetch(libcalUrl);
+            if (!response.ok) {
+                throw new Error(`Response status: ${response.status}`);
+            }
+            const json = await response.json();
+            displayHours(json);
+        } catch (error) {
+            console.error(error.message);
+        }
+    }
+    // function to parse libcal json and add to topbar
+    function displayHours(json) {
+        const mainHours = json["locations"].find(item => item.lid == 7368);
+        if(mainHours.rendered) {
+            const display = document.getElementById("timedisp");
+            if (mainHours.rendered != "Closed") { 
+                display.innerHTML = "Open " + mainHours.rendered;
+            } else {
+                display.innerHTML = "Closed";
+            }
+        }
+    }
+    fetchHoursJson();
+</script>
 
 <div id="libchat_b626a09cc5d64f18563d41b599ffeba8"></div><script type="text/javascript" src="https://libanswers.uidaho.edu/load_chat.php?hash=b626a09cc5d64f18563d41b599ffeba8" async></script>
 

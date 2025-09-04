@@ -2,9 +2,9 @@
 layout: default
 ---
 {% capture full_name %}{{ page.first_name }} {{ page.last_name }}{% endcapture %}
-<div class="container-fluid pt-2 pb-1" id="page-title">
+<div class="container-fluid pt-2 pb-1 bg-black-color" id="page-title">
     <div class="container">
-        <h2>People</h2>
+        <h2 class="text-white">People</h2>
     </div>
 </div>
 <div class="split-background">
@@ -104,8 +104,8 @@ layout: default
                                 {{ page.description | markdownify }}
                                 {% endif %}
                                 <p class="text-center">
-                                    {% if page.verso_id %}<a href="https://verso.uidaho.edu/esploro/profile/{{ page.verso_id }}" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener">View VERSO profile</a>{% endif %}
-                                    {% if page.cv_filename %}<a href="{% if page.cv_filename contains 'http' %}{{ page.cv_filename }}{% else %}{{ site.lib-media }}/directory/cv/{{ page.cv_filename }}{% endif %}" class="btn btn-outline-pride-gold m-2" target="_blank" rel="noopener">Curriculum Vitae</a>{% endif %}
+                                    {% if page.verso_id %}<a href="https://verso.uidaho.edu/esploro/profile/{{ page.verso_id }}" class="btn btn-outline-pride-gold m-2" >View VERSO profile</a>{% endif %}
+                                    {% if page.cv_filename %}<a href="{% if page.cv_filename contains 'http' %}{{ page.cv_filename }}{% else %}{{ site.lib-media }}/directory/cv/{{ page.cv_filename }}{% endif %}" class="btn btn-outline-pride-gold m-2">Curriculum Vitae</a>{% endif %}
                                 </p>
                             </div>
                             <div class="col-md-5 p-2">

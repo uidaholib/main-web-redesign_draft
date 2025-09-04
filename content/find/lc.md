@@ -6,7 +6,7 @@ layout: page
 lazyload: true
 ---
 
-The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress system. 
+The University of Idaho Library, along with most academic libraries, classifies materials using the Library of Congress (LOC) system. 
 This means you will find books on our shelves organized by their LOC call numbers. 
 Below is a chart providing an overview of where the LOC classes are located on the library floors.
 They start with class "A" on the fourth floor and winding through the shelves all the way down to class "Z" on the second floor.
@@ -17,7 +17,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Fourth Floor (A - G) 
 
-<a href="{{ '/about/maps.html#lg=1&slide=3' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 4th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=3' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 4th Floor Map</a>
 
 <table>
   <tbody>
@@ -170,7 +170,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Third Floor (H - S)
 
-<a href="{{ '/about/maps.html#lg=1&slide=2' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 3th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=2' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 3th Floor Map</a>
 
 <table>
   <tbody>
@@ -548,7 +548,7 @@ For more information check our [Book Research Guide](https://libguides.uidaho.ed
 
 ## Second Floor (T - Z) 
 
-<a href="{{ '/about/maps.html#lg=1&slide=1' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" target="_blank" rel="noopener"><span class="fas fa-map-marker-alt"></span> 2th Floor Map</a>
+<a href="{{ '/about/maps.html#lg=1&slide=1' | relative_url }}" class="btn btn-sm btn-outline-ponderosa-pine" ><span class="fas fa-map-marker-alt"></span> 2th Floor Map</a>
 
 <table>
   <tbody>

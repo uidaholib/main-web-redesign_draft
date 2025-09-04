@@ -1,9 +1,0 @@
----
-# create spec master collections csv for download
-# only builds if speccoll-build is true 
----
-{%- if site.speccoll-build == true or jekyll.environment == "production" -%}
-{%- assign items = site.data.spec_collections_main -%}
-id,finding_aid_link,title,type,number,group,digital_collection,category,dei_category,description,subject
-{%- for i in items -%}"{{ i.id | escape }}","{{ i.title | escape }}","{{ i.type | escape }}","{{ i.number | escape }}","{{ i.group | escape }}","{{ i.finding_aid_link }}","{{ i.digital_collection }}","{{ i.category | escape }}","{{ i.dei | escape }}","{{ i.paragraph | escape }}","{{ i.subject | escape }}"
-{% endfor %}{% endif %}
