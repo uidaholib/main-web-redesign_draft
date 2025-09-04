@@ -8,7 +8,7 @@ Applications are now open for two paid summer fellowships working with [Special 
 These fellowships are opportunities to learn about archival research and practice while completing meaningful hands-on work to increase access to unique materials.
 For details about the experience and how to apply, please visit the fellowship pages:
 
-- [Ben J. Plastino Collection Fellowship](https://www.lib.uidaho.edu/special-collections/plastino-fellowship.html)
-- [Gary E. and Carolyn J. Strong Special Collections Fellowship](https://www.lib.uidaho.edu/special-collections/strong-fellowship.html)
+- [Ben J. Plastino Collection Fellowship](https://www.lib.uidaho.edu/fellowships/plastino.html)
+- [Gary E. and Carolyn J. Strong Special Collections Fellowship](https://www.lib.uidaho.edu/fellowships/strong.html)
 
 **Applications are due Friday, March 21st by the end of the day!**
