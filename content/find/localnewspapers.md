@@ -1,4 +1,5 @@
 ---
+# removed from nav! delete
 title: Local Newspapers
 section: Find
 permalink: /find/localnewspapers.html

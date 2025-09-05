@@ -267,15 +267,15 @@ Find:
     link: /find/maps/
   - subsection: Newspapers
     link: /find/newspapers.html
-    subpages:
-      - name: Newspapers
-        url: /find/newspapers.html
-      - name: Microfilm List
-        url: /find/microfilm.html
-      - name: Local Newspapers
-        url: /find/localnewspapers.html
-      - name: The Argonaut
-        url: /find/argonaut.html
+#    subpages:
+#      - name: Newspapers
+#        url: /find/newspapers.html
+#      - name: Microfilm List
+#        url: /find/microfilm.html
+#      - name: Local Newspapers
+#        url: /find/localnewspapers.html
+#      - name: The Argonaut
+#        url: /find/argonaut.html
   - subsection: Purchase Request
     link: /find/request.html
   - subsection: Research Guides
