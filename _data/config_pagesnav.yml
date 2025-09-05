@@ -23,7 +23,7 @@ About:
     link: /about/departments.html
   - subsection: Directions
     link: /about/directions.html
-  - subsection: Journal Cancellations
+  - subsection: Journal Review
     link: /about/journalcancellations.html
 #    subpages:
 #      - name: Overview 
@@ -328,17 +328,17 @@ Services:
     link: /services/data/
   - subsection: Instruction Services
     link: /services/instruction/
-    subpages:
-      - name: Instruction Home
-        url: /services/instruction/
-      - name: Topics of Instruction
-        url: /services/instruction/topics.html
-      - name: Request Form
-        url: /services/instruction/instrequest.html
+#    subpages:
+#      - name: Instruction Home
+#        url: /services/instruction/
+#      - name: Topics of Instruction
+#        url: /services/instruction/topics.html
+#      - name: Request Form
+#        url: /services/instruction/instrequest.html
       #- name: English 102
       #  url: /services/instruction/engl102.html
-      - name: Instructor Evaluation
-        url: /services/instruction/instructor_eval.html
+#      - name: Instructor Evaluation
+#        url: /services/instruction/instructor_eval.html
   - subsection: Interlibrary Loan
     link: /services/ill/
   - subsection: OA Publishing Fund
