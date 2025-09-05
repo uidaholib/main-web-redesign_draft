@@ -234,13 +234,13 @@ Find:
     link: /find/video.html
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
-  - subsection: Events
+  - subsection: Events and Workshops
     link: /events/
-    subpages:
-      - name: Events Calendar
-        url: /events/
-      - name: Renfrew Colloquium
-        url: /events/renfrew.html
+#    subpages:
+#      - name: Events Calendar
+#        url: /events/
+#      - name: Renfrew Colloquium
+#        url: /events/renfrew.html
   - subsection: Equipment Loans
     link: /find/equipment-loans.html
   - subsection: Geospatial Resources
@@ -379,12 +379,12 @@ Services:
   - subsection: VERSO
     link: /verso/
   - subsection: Workshops
-    link: /services/workshops/
-    subpages:
-      - name: Workshops
-        url: /services/workshops/
-      - name: Resources
-        url: /services/workshops/resources.html
+    link: /events/
+#    subpages:
+#      - name: Workshops
+#        url: /events/
+#      - name: Resources
+#        url: /services/workshops/resources.html
 
 
 ##########
@@ -463,7 +463,7 @@ Data Hub:
   - subsection: DOI Service
     link: /services/data/dois.html
   - subsection: Workshops and Events
-    link: /services/workshops/
+    link: /events/
   - subsection: Julie and David Levine Data Hub Fellowship
     link: /fellowships/levine.html 
 
@@ -485,7 +485,7 @@ MILL:
   - subsection: Reserve Glowforge
     link: https://libcal.uidaho.edu/reserve/laser
   - subsection: Workshops
-    link: /services/workshops/
+    link: /events/
   - subsection: Meet the Team
     link: /mill/about.html
   - subsection: MILL Marketplace
