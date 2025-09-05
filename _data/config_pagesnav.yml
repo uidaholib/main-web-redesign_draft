@@ -324,17 +324,10 @@ Services:
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "DataHub: Geospatial and Data Sciences Support"
+  - subsection: "Data Hub: Geospatial and Data Sciences Support"
     link: /datahub/
   - subsection: Data Management
     link: /services/data/
-    subpages:
-      - name: Data Services
-        url: /services/data/
-      - name: Data Management Guide
-        url: https://www.lib.uidaho.edu/services/data/data-management/
-      - name: DOI Service
-        url: /services/data/dois.html
   - subsection: Instruction Services
     link: /services/instruction/
     subpages:
@@ -457,26 +450,23 @@ Special Collections:
 Data Hub:
   - parent: Data Hub
     stub: /datahub/
-  - subsection: Data Hub
+  - subsection: Data Hub Home
     link: /datahub/
-  - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
-    url: /fellowships/levine.html 
-  - subsection: <i class='fas fa-share-square'></i> Data Services
+  - subsection: Data Services
     link: /services/data/
-  - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
+  - subsection: Data Management Guide
+    link: https://www.lib.uidaho.edu/services/data/data-management/
+  - subsection: Geospatial Resources
     link: /find/geospatial/
-  - subsection: <i class="fas fa-share-square"></i> Find Data
+  - subsection: Find Data
     link: /find/data.html
-  - subsection: <i class="fas fa-share-square"></i> Workshops and Events
+  - subsection: DOI Service
+    link: /services/data/dois.html
+  - subsection: Workshops and Events
     link: /services/workshops/
-#  - subsection: About the Data Hub
-#    link: /datahub/about.html
-#  - subsection: Tools and Tech
-#    link: /datahub/tools.html
-#  - subsection: News
-#    link: /datahub/news.html
-#  - subsection: FAQ
-#    link: /datahub/faq.html
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/levine.html 
+
 
 # MILL Section
 MILL:
