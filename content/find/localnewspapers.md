@@ -36,7 +36,7 @@ Please [get in touch]({{ '/help/' | relative_url }}) if you are unable to locate
 - Kamiah **Clearwater Progress**
 - Kellogg **Shoshone News-Press**
 - Ketchum **Idaho Mountain Express**
-- Kuna **Kuna Melba News**
+- Kuna **Meridian-Kuna Press**
 - Lewiston **Lewiston Morning Tribune**
 - Malad City **Idaho Enterprise**
 - McCall **Star-News**
