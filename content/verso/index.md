@@ -1,5 +1,5 @@
 ---
-title: VERSO 
+title: About VERSO 
 section: VERSO
 permalink: /verso/
 layout: page
