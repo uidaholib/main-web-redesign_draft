@@ -1,4 +1,5 @@
 ---
+# removed from nav! delete
 title: Directions
 section: About
 permalink: /about/directions.html

@@ -17,12 +17,12 @@ About:
     stub: /about/
   - subsection: About Home
     link: /about/
-  - subsection: Contact
+  - subsection: Contact and Directions
     link: /about/contact.html
   - subsection: Departments
     link: /about/departments.html
-  - subsection: Directions
-    link: /about/directions.html
+#  - subsection: Directions
+#    link: /about/directions.html
   - subsection: Journal Review
     link: /about/journalcancellations.html
 #    subpages:
