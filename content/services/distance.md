@@ -51,15 +51,16 @@ Off-campus students, staff, and faculty can request to have print books mailed t
 
 You should receive a mailing label along with books you receive from the library. Use the label to mail the book back to us when you are finished with it. If you don't have a mailing label, please return books to the following address: 
 
-University of Idaho Library Circulation  
-875 Perimeter Dr MS 2350  
+University of Idaho Library Circulation<br>
+875 Perimeter Dr MS 2350<br>
 Moscow ID  83844-2350
 
 ### Coeur d'Alene Students
 
-University of Idaho patrons in CdA can return their materials to the [Molstead Library](https://www.nic.edu/websites/default.aspx?dpt=38&pageId=6245) at North Idaho College at 1000 West Garden Avenue.  The library's hours can be found on their website. 
+University of Idaho patrons in CdA can return their materials to the [Molstead Library](https://www.nic.edu/library/) at North Idaho College at 1000 West Garden Avenue.  The library's hours can be found on their website. 
 
 ### Boise Students
+
 University of Idaho patrons in Boise have the option of picking up and dropping off books at the College of Law Boise. 
 
 ## Course Reserves
