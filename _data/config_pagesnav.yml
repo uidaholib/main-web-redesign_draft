@@ -333,10 +333,6 @@ Services:
 #        url: /services/instruction/
 #      - name: Topics of Instruction
 #        url: /services/instruction/topics.html
-#      - name: Request Form
-#        url: /services/instruction/instrequest.html
-      #- name: English 102
-      #  url: /services/instruction/engl102.html
 #      - name: Instructor Evaluation
 #        url: /services/instruction/instructor_eval.html
   - subsection: Interlibrary Loan
