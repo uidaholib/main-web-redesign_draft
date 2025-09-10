@@ -333,8 +333,6 @@ Services:
 #        url: /services/instruction/
 #      - name: Topics of Instruction
 #        url: /services/instruction/topics.html
-#      - name: Instructor Evaluation
-#        url: /services/instruction/instructor_eval.html
   - subsection: Interlibrary Loan
     link: /services/ill/
   - subsection: OA Publishing Fund
