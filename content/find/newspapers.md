@@ -7,7 +7,7 @@ layout: page
 
 The University of Idaho Library has a large collection of digital and print newspapers to use.
 
-To find newspaper articles, use the Library catalog's <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/npsearch?vid=01ALLIANCE_UID:UID&lang=en">Newspaper Article Search</a>.
+To find newspaper articles related to a topic, enter keywords in the Library catalog's <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/npsearch?vid=01ALLIANCE_UID:UID&lang=en">Newspaper Article Search</a>.
 
 To find a specific newspaper, visit the <a href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID" >Library Catalog</a>, search for the newspaper title, and on the left side of the search results screen, limit Resource Type to Newspapers.
 
@@ -41,7 +41,6 @@ We also have various Idaho, local, national, and international current and histo
 <a href="https://uidaho.idm.oclc.org/login?url=https://infoweb.newsbank.com/resources/?p=AMNEWS" class="btn btn-outline-pride-gold my-2" >America's News</a>
 <a href="https://uidaho.idm.oclc.org/login?url=https://search.ebscohost.com/login.asp?profile=ehost&defaultdb=n5h" class="btn btn-outline-pride-gold my-2" >Newspaper Source Plus</a>
 <a href="https://uidaho.idm.oclc.org/login?url=https://infotrac.galegroup.com/itweb/mosc00780?db=stnd" class="btn btn-outline-pride-gold my-2" >Gale OneFile</a>
-<a href="https://uidaho.idm.oclc.org/login?url=https://www.nexisuni.com" class="btn btn-outline-pride-gold my-2" >Nexis Uni</a>
 <a href="https://uidaho.idm.oclc.org/login?url=https://infoweb.newsbank.com/resources/search/nb?p=AMNEWS&t=favorite%3AIDAHO%21Idaho%20Statesman%2C%20The" class="btn btn-outline-pride-gold my-2" >Idaho Statesman</a>
 <a href="https://uidaho.idm.oclc.org/login?url=https://infoweb.newsbank.com/?db=EANX" class="btn btn-outline-pride-gold my-2" >Pacific Northwest Historical Newspapers Archive</a>
 <a href="https://www.lib.uidaho.edu/digital/argonaut/index.html" class="btn btn-outline-pride-gold my-2" >Argonaut Digital Collection</a>
@@ -67,50 +66,50 @@ Most older issues are on microfilm and can be viewed on one of the [microfilm re
 
 Please [get in touch]({{ '/help/' | relative_url }}) if you are unable to locate a newspaper or unable to find the title you are interested in.
 
-- Aberdeen **Aberdeen Times**
-- American Falls **Power County Press**
-- Arco **Arco Advertiser**
-- Blackfoot **Bingham News Chronicle**
-- Boise **Diversity** (located in Special Collections)
-- Boise **Idaho Catholic Register**
-- Boise **Idaho Statesman**
-- Bonners Ferry **Bonners Ferry Herald**
-- Buhl **Buhl Herald**
-- Challis **Challis Messenger**
-- Coeur d'Alene **Coeur d'Alene Press**
-- Cottonwood **Cottonwood Chronicle**
-- Council **Record Reporter**
-- Driggs **Teton Valley News**
-- Emmett **Messenger Index**
-- Fort Hall **Sho-Ban News** (classified as a periodical)
-- Grangeville **Idaho County Free Press**
-- Homedale **Owyhee Avalanche**
-- Idaho City **Idaho World**
-- Idaho Falls **Post Register**
-- Island Park **Island Park News**
-- Kamiah **Clearwater Progress**
-- Kellogg **Shoshone News-Press**
-- Ketchum **Idaho Mountain Express**
-- Kuna **Meridian-Kuna Press**
-- Lewiston **Lewiston Morning Tribune**
-- Malad City **Idaho Enterprise**
-- McCall **Star-News**
-- Montpelier **News-Examiner**
-- Moscow **Moscow-Pullman Daily News**
-- Moscow **University of Idaho Argonaut**
-- Mountain Home **Mountain Home News**
-- Nampa **Idaho Press-Tribune**
-- Nez Perce **Lewis County Herald**
-- Oldtown **Gem State Miner**
-- Orofino **Clearwater Tribune**
-- Payette **Independent-Enterprise**
-- Plummer **Coeur d'Alene Council Fires** (located in Special - Collections)
-- Pocatello **Idaho State Journal**
-- Rexburg **Standard Journal**
-- Rigby **Jefferson Star**
-- Salmon **Recorder Herald**
-- Sandpoint **Bonner County Daily Bee**
-- Soda Springs **Caribou County Sun**
-- St. Maries **St. Maries Gazette Record**
-- Twin Falls **Times-News**
-- Weiser **Weiser Signal American**
+- Aberdeen _Aberdeen Times_
+- American Falls _Power County Press_
+- Arco _Arco Advertiser_
+- Blackfoot _Bingham News Chronicle_
+- Boise _Diversity_ (located in Special Collections)
+- Boise _Idaho Catholic Register_
+- Boise _Idaho Statesman_
+- Bonners Ferry _Bonners Ferry Herald_
+- Buhl _Buhl Herald_
+- Challis _Challis Messenger_
+- Coeur d'Alene _Coeur d'Alene Press_
+- Cottonwood _Cottonwood Chronicle_
+- Council _Record Reporter_
+- Driggs _Teton Valley News_
+- Emmett _Messenger Index_
+- Fort Hall _Sho-Ban News_ (classified as a periodical)
+- Grangeville _Idaho County Free Press_
+- Homedale _Owyhee Avalanche_
+- Idaho City _Idaho World_
+- Idaho Falls _Post Register_
+- Island Park _Island Park News_
+- Kamiah _Clearwater Progress_
+- Kellogg _Shoshone News-Press_
+- Ketchum _Idaho Mountain Express_
+- Kuna _Meridian-Kuna Press_
+- Lewiston _Lewiston Morning Tribune_
+- Malad City _Idaho Enterprise_
+- McCall _Star-News_
+- Montpelier _News-Examiner_
+- Moscow _Moscow-Pullman Daily News_
+- Moscow _University of Idaho Argonaut_
+- Mountain Home _Mountain Home News_
+- Nampa _Idaho Press-Tribune_
+- Nez Perce _Lewis County Herald_
+- Oldtown _Gem State Miner_
+- Orofino _Clearwater Tribune_
+- Payette _Independent-Enterprise_
+- Plummer _Coeur d'Alene Council Fires_ (located in Special - Collections)
+- Pocatello _Idaho State Journal_
+- Rexburg _Standard Journal_
+- Rigby _Jefferson Star_
+- Salmon _Recorder Herald_
+- Sandpoint _Bonner County Daily Bee_
+- Soda Springs _Caribou County Sun_
+- St. Maries _St. Maries Gazette Record_
+- Twin Falls _Times-News_
+- Weiser _Weiser Signal American_

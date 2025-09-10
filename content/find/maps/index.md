@@ -29,7 +29,7 @@ If you have a specific geographic area or topic, the paper index can point you t
 Just [ask a reference librarian]({{ '/help/' | relative_url}}) if you have questions about using the index.
 
 In addition to the large print map collection, many digital map resources are made available through [Digital Initiatives]({{ '/digital/' | relative_url }}) and [Inside Idaho](https://www.insideidaho.org/).
-Many of our digital collections feature maps to explore geolocated items or [contain digitized archival maps](https://www.lib.uidaho.edu/digital/collections.html#maps) as part of their content, such as the [Idaho Historical Maps Collection](https://www.lib.uidaho.edu/digital/historicalmaps/).
+Many of our digital collections feature maps to explore geolocated items or [contain digitized archival maps](https://www.lib.uidaho.edu/digital/home/collections.html#maps) as part of their content, such as the [Idaho Historical Maps Collection](https://www.lib.uidaho.edu/digital/historicalmaps/).
 
 ## Topographic Maps
 

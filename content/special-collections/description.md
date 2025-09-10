@@ -33,6 +33,6 @@ Although our collections focus on the University of Idaho and cover a wide varie
 
 The International Jazz Collection (IJC) is the leading jazz archive in the Pacific Northwest. It features papers, photographs, audio/visual materials, and artifacts from jazz legends such as Lionel Hampton, Leonard Feather, Lee Morse, Dizzy Gillespie, and Ella Fitzgerald.
 
-Our collections feature a vast amount of information related to Idaho's forests, including lumber companies, forestry sciences, and the history of Idaho's forests. Several of these collections have been turned into [digital collections](https://www.lib.uidaho.edu/digital/collections.html#Forests).
+Our collections feature a vast amount of information related to Idaho's forests, including lumber companies, forestry sciences, and the history of Idaho's forests. Several of these collections have been turned into [digital collections](https://www.lib.uidaho.edu/digital/home/collections.html#Forests).
 
 Our collections feature an extensive amount of information related to Idaho's mining industry, including mining company records and photographs of mining towns and miners.
