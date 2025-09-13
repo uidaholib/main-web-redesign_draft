@@ -27,8 +27,8 @@ For further help, check the resources below and don't hesitate to contact the [D
 
 ## Data Resources
 
-<a href="https://www.lib.uidaho.edu/services/data/data-management/guide/citation/" class="btn btn-outline-pride-gold my-2">How to Cite Data</a>
-<a href="https://verso.uidaho.edu/esploro/search/collections/University-of-Idaho-Data-Repository/datacode?institution=01ALLIANCE_UID" class="btn btn-outline-pride-gold my-2">VERSO Data Repository</a>
-<a href="https://www.lib.uidaho.edu/services/data/data-management/" class="btn btn-outline-pride-gold my-2">Data Management Guide</a>
-<a href="{{'/datahub/' | relative_url }}" class="btn btn-outline-pride-gold my-2">Data Hub: Geospatial and Data Sciences Support</a>
+<a href="https://www.lib.uidaho.edu/services/data/data-management/guide/citation/" class="btn btn-outline-pride-gold m-2">How to Cite Data</a>
+<a href="https://verso.uidaho.edu/esploro/search/collections/University-of-Idaho-Data-Repository/datacode?institution=01ALLIANCE_UID" class="btn btn-outline-pride-gold m-2">VERSO Data Repository</a>
+<a href="https://www.lib.uidaho.edu/services/data/data-management/" class="btn btn-outline-pride-gold m-2">Data Management Guide</a>
+<a href="{{'/datahub/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Data Hub: Geospatial and Data Sciences Support</a>
 {:.text-center}
