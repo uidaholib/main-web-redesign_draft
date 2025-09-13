@@ -314,7 +314,7 @@ Services:
     stub: /services/  
   - subsection: Borrow/Renew
     link: /services/borrow/
-  - subsection: CDIL (Digital Scholarship)
+  - subsection: CDIL - Digital Scholarship
     link: https://cdil.lib.uidaho.edu/
   - subsection: Copyright Guide
     link: /copyright/guide.html
@@ -322,10 +322,10 @@ Services:
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "Data Hub: Geospatial and Data Sciences Support"
+  - subsection: "Data Services - Data Hub"
     link: /datahub/
-  - subsection: Data Management
-    link: /services/data/
+#  - subsection: Data Management
+#    link: /services/data/
   - subsection: Instruction Services
     link: /services/instruction/
 #    subpages:
@@ -440,10 +440,10 @@ Special Collections:
 Data Hub:
   - parent: Data Hub
     stub: /datahub/
-  - subsection: Data Hub Home
+  - subsection: "Data Services - Data Hub"
     link: /datahub/
-  - subsection: Data Services
-    link: /services/data/
+#  - subsection: Data Services
+#    link: /services/data/
   - subsection: Data Management Guide
     link: https://www.lib.uidaho.edu/services/data/data-management/
   - subsection: Geospatial Resources

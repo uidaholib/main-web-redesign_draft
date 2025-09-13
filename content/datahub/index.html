@@ -1,0 +1,71 @@
+---
+title: "Data Services"
+section: Data Hub
+permalink: /datahub/
+layout: page
+lazyload: true
+chat-widget: datahub
+---
+
+<div class="card my-2 border-huckleberry border-2 mb-3">
+	<div class="card-body">
+		<h2>Data Hub: Geospatial and Data Sciences Support</h2>
+		<p>The Data Hub provides specialized support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management. Visit us in the <a href="{{ '/about/maps.html#lg=1&slide=0' }}">Map Room (Library 107)</a>, chat online (icon in lower right), email <a href="mailto:lib-datahub@uidaho.edu">lib-datahub@uidaho.edu</a>, or call (208) 885-7724.</p>	
+		<div class="alert alert-info">
+			<h3 class="alert-heading h5"><span class="fas fa-clock"></span> Semester Hours</h3>
+			<ul>
+				<li>During the semester, Librarian assistance is available: Monday - Friday, 12pm - 3pm.</li>
+				<li>CSAC assistance with CS courses is available: hours coming soon!</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row mb-3">
+	<div class="col-lg-4">
+		<div class="card card-body mb-3 h-100 ">
+			<h3 class="h4">Data Management</h3>
+			<p>Our comprehensive guide covers the planning, documentation, metadata, data sharing, preservation, copyright, and citation of data - and we are here to help!</p>
+			<a href="https://www.lib.uidaho.edu/services/data/data-management/" class="btn btn-outline-pride-gold stretched-link">Visit Guide</a>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="card card-body mb-3 h-100 ">
+			<h3 class="h4">Geospatial Data</h3>
+			<p>From software to individual instruction, we have the expertise and materials to support geospatial research, including INSIDE Idaho, the geospatial data clearinghouse for the State of Idaho.</p>
+			<a href="{{ '/find/geospatial/' | relative_url }}" class="btn btn-outline-pride-gold stretched-link">GIS Resources</a>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="card card-body mb-3 h-100 ">
+			<h3 class="h4">Workshops</h3>
+			<p>The Data Hub partners with groups across campus to host sessions that develop the skills needed to work with data and conduct research.</p>
+			<a href="{{ '/events/' | relative_url }}" class="btn btn-outline-pride-gold stretched-link">Events Calendar</a>
+		</div>
+	</div>
+</div>
+
+<p>The U of I Library Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, data analysis and visualization, and research data management. Located in the Library's <a href="{{ '/about/maps.html#lg=1&slide=0' }}">Map Room (First Floor, Rm 107)</a>, the Data Hub features specialized equipment, staff, and collaborative space available to all U of I patrons.</p>
+
+<p>Students, faculty, and staff are invited to get help with topics such as GIS, Git, R, Python, Excel, and data-related tools and information resources. Collaborative work areas with large displays are available for consultations and general use, as well as powerful desktop computer workstations.</p>
+
+<p>Building on the Library's long history of curating and disseminating data collections under programs such as <a href="https://insideidaho.org/">INSIDE Idaho</a>, the Data Hub's mission is to strengthen students' knowledge, awareness, and techniques for accessing data and using it in transformative ways. With collaborative work areas focused on data analysis and visualization, and a service desk staffed by librarians, the Data Hub is a central place to connect with geospatial and data sciences support.</p>
+
+<h2>People</h2>
+
+{% for person in site.data.datahub_people %}
+{% assign p = site.data.about_people | where: 'id',person.id | first %}
+<div class="border rounded mt-3">
+    <div class="row no-gutters">
+        <div class="col-md-3 p-3">
+            {% capture image_src %}{{ site.lib-media }}{% if p.image %}/directory/{{ p.image }}{% else %}/directory/tower_icon_gold_sq.png{% endif %}{% endcapture %}
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ image_src }}" class="lazyload img-fluid rounded" alt="portrait of {{ p.last_name }}">
+        </div>
+        <div class="col-md-9 p-3">
+            <h3><a href="{{ '/about/people/' | relative_url }}{{ p.id }}.html" title="View the profile for {{ p.last_name }}">{{ p.first_name }} {{ p.last_name }}</a></h3>
+            <p class="h5">{{ person.datahub_title }} <br><a href="mailto:{{ p.email }}">{{ p.email }}</a></p>
+            <p>{{ person.datahub_description }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
