@@ -8,8 +8,8 @@ gallery: true
 ---
 
 When using the iMac, ensure that the default audio input and output are set to the Scarlett 18i20. To check this: 
-1. Open System Preferences → Sound. 
-2. Confirm that both Input and Output are set to Scarlett 18i20. 
+1. Open *System Preferences* → *Sound*. 
+2. Confirm that both *Input* and *Output* are set to *Scarlett 18i20*. 
 
 This setting also needs to be verified within any audio editing or playback software (e.g., Reaper, FL Studio) to ensure proper recording and playback. If Scarlett 18i20 is not showing up in audio settings or not recognized as the input/output device, follow the [trouble shooting guide](https://www.lib.uidaho.edu/studio/troubleshooting.html).
 
