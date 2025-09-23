@@ -15,6 +15,7 @@
 {% endif %}
 {% if page.table-id %}{% include js/table-basic-js.html %}{% endif %}
 {% if page.carousel == true %}{% include js/carousel.html %}{% endif %}
+{% if page.popovers == true %}{% include js/enable-popovers.html %}{% endif %}
 {% if page.custom-foot or layout.custom-foot %}
 {%- assign page_feet = page.custom-foot | split: ";" -%}
 {%- assign layout_feet = layout.custom-foot | split: ";" -%}
