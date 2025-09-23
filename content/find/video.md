@@ -26,12 +26,13 @@ For requests to view a streaming video from another provider or licensing questi
 DVDs are found on the second floor of the library and can be discovered in the library catalog.
 Use the search box below to find DVDs in our catalog. You can search by title, creator (director/writer), and subject.
 
+
 <div class="card mb-4 searchcontainer">
   <div class="card-body">
       <script>
       function primo_search() {
           var query = document.getElementById("primo-search").value;
-          window.open("https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?pfilter=rtype,exact,dvd_videos,AND&tab=UI_EResources_Slot&search_scope=MyInst_and_CI&vid=01ALLIANCE_UID:UID&mode=advanced&query=any,contains," + encodeURIComponent(query), "_self" ); }
+          window.open("https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?pfilter=rtype,exact,dvd_videos,AND&tab=UI_Summit_Slot&search_scope=NZ_PandUI_P&vid=01ALLIANCE_UID:UID&mfacet=tlevel,include,available_p,1&query=any,contains," + encodeURIComponent(query), "_self" ); }
       </script>
       <form class="mt-4" role="search" onsubmit="primo_search(); return false;">
         <div class="row g-2 justify-content-center">
