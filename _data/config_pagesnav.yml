@@ -450,8 +450,8 @@ Data Hub:
     link: /find/geospatial/
   - subsection: Find Data
     link: /find/data.html
-  - subsection: DOI Service
-    link: /services/data/dois.html
+#  - subsection: DOI Service
+#    link: /services/data/dois.html
   - subsection: Workshops and Events
     link: /events/
   - subsection: Julie and David Levine Data Hub Fellowship
