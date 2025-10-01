@@ -30,8 +30,8 @@ Please use the following address for returning materials:
 
 ```
 University of Idaho Library
-Circulation Desk 
-875 Perimeter Drive MS 2350 
+Interlibrary Loan
+875 Perimeter Drive MS 2357
 Moscow, ID 83844-2350 
 ```
 
