@@ -23,7 +23,7 @@ Applications are accepted on a first come, first served basis during each fundin
 
 - Must be listed in the <a href="https://doaj.org/">Directory of Open Access Journals</a> (DOAJ)
 - Must utilize peer-review
-- Must make articles fully open upon publication
+- Must make all articles fully open upon publication (hybrids do not qualify)
 
 #### Journal Publishers
 
