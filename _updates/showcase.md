@@ -1,6 +1,6 @@
 ---
 title: Library Fellowships Showcase
-date: 2025-11-13
+date: 2025-10-13
 ---
 
 Join us to learn about digital scholarship projects and fellowships at University of Idaho Library. Recent graduate student fellows from [CDIL](http://cdil.lib.uidaho.edu/) and [Special Collections](https://www.lib.uidaho.edu/special-collections/) will present their projects and experiences with time for audience Q&A, as well as an overview of unique digital scholarship projects completed in 2025.
