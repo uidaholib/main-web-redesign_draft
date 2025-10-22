@@ -59,3 +59,43 @@
 .btn-xs {
     font-size: .80625rem;
 }
+
+// header
+.bg-brand-grey {
+    background-color: hsla(0,0%,97%,.85);
+}
+
+#top-navigation-bar {
+    //height: 60px;
+}
+#header-title {
+
+}
+// new page heading
+.page-title {
+    font-size: 3.75rem;
+}
+
+// fix pride gold outlines
+.btn-outline-primary, .btn-outline-pride-gold {
+    color: #191919;
+}
+
+
+.arrow-link:after {
+    margin-left: .625rem;
+    display: inline;
+    background-color: currentColor;
+    position: relative;
+    z-index: 0;
+    height: 1.15em;
+    width: 1.15em;
+    -webkit-mask-size: 1.15em 1.15em;
+    mask-size: 1.15em 1.15em;
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2Zw0KICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCiAgICB2aWV3Qm94PSIwIDAgMjQgMTciDQogID4NCiAgICA8cGF0aCBzdHlsZT0iZmlsbDojZmZmIiBkPSJNMTUuNiAxNi44TDEzLjkyIDE1LjEyTDE5LjQ0IDkuNkgwVjcuMkgxOS40NEwxMy45MiAxLjY4TDE1LjYgMEwyNCA4LjRMMTUuNiAxNi44WiIgLz4NCiAgPC9zdmc+");
+    mask-image: url("data:image/svg+xml;base64,PHN2Zw0KICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCiAgICB2aWV3Qm94PSIwIDAgMjQgMTciDQogID4NCiAgICA8cGF0aCBzdHlsZT0iZmlsbDojZmZmIiBkPSJNMTUuNiAxNi44TDEzLjkyIDE1LjEyTDE5LjQ0IDkuNkgwVjcuMkgxOS40NEwxMy45MiAxLjY4TDE1LjYgMEwyNCA4LjRMMTUuNiAxNi44WiIgLz4NCiAgPC9zdmc+");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+}

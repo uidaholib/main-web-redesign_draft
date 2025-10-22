@@ -5,7 +5,7 @@ layout: default
 <div class="container px-lg-5 pt-4">
 
     <main id="maincontent" role="main">
-        <h1 class="display-2 fw-bold">{{ page.title }}</h1>
+        <h1 class="page-title">{{ page.title }}</h1>
         
         {% include breadcrumbs-page.html %}
 
@@ -21,7 +21,7 @@ layout: default
                         {% assign page-nav = site.data.config_pagesnav %}
                         {% for sub in page-nav[page.section] %}{% unless sub.parent %}
                         {% if sub.subpages %}{% assign urls = sub.subpages | map: "url" %}
-                        <li class="list-group-item">
+                        <li class="list-group-item py-3">
                             <a href="#nav-{{ sub.subsection | slugify }}" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{ sub.subsection }}</a>
                             <ul class="collapse {% if urls contains page.url %} show{% endif %} list-unstyled" id="nav-{{ sub.subsection | slugify }}">
                                 {% for p in sub.subpages %}
@@ -32,8 +32,16 @@ layout: default
                             </ul>
                         </li>
                         {% else %}
-                        <li class="list-group-item {% if sub.link == page.url %} active{% endif %}">
-                            <a href="{{ sub.link | relative_url }}">{{ sub.subsection }}</a>
+                        <li class="list-group-item py-3 {% if sub.link == page.url %} active{% endif %}">
+                            <a href="{{ sub.link | relative_url }}" class="w-100 d-flex justify-content-between">
+                                <span>{{ sub.subsection }}</span>
+                                {% unless sub.link == page.url %}
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor text-dark" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                </span>{% endunless %}
+                            </a>
                         </li>
                         {% endif %}{% endunless %}
                         {% endfor %}   

@@ -6,7 +6,6 @@ permalink: /about/updates.html
 chat-widget: true
 ---
 
-----------
 {% assign updates = site.updates | where_exp: "u","u.archive != true" | reverse %}
 {% for u in updates %}
 <div class="card mb-3">

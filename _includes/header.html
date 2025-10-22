@@ -1,49 +1,55 @@
 <header>
     <div class="container px-lg-5">
-        <div class="d-flex" style="background-color: hsla(0,0%,97%,.85)">
-            <div class="bg-pride-gold text-white pt-4 pb-3 px-2">
-                <!-- <img class="p-3" src="{{ site.lib-media }}/images/ui_library_white_horizontal.png" alt="University of Idaho Library" style="height:90px;">-->
-                 
-                <svg xmlns="http://www.w3.org/2000/svg" style="width:26px;height:51px" class="bi w-100" viewBox="0 0 26 51" fill="currentColor"><g clip-path="url(#clip0_2968_58176)"><path d="M1.52648 1.52648H24.4673V12.2305H19.8816V38.2305H24.4673V48.9346H1.52648V38.2305H6.11215V12.2368H1.52648V1.52648ZM0 0V13.7632H4.58567V36.704H0V50.4673H26V36.704H21.4143V13.7632H26V0H0Z"></path><path d="M7.64487 39.7636H3.0592V47.4085H22.9408V39.7636H18.3489V10.7044H22.9408V3.05957H3.0592V10.7044H7.64487V39.7636Z"></path></g><defs><clipPath id="clip0_2968_58176"><rect width="26" height="50.4673"></rect></clipPath></defs></svg>
-                
+        <div class="pb-3 border-bottom border-dark" id="top-navigation-bar">
+            <div class="d-flex">
+                <div class="bg-pride-gold text-white pt-4 pb-3 px-2">
+                    <!-- <img class="p-3" src="{{ site.lib-media }}/images/ui_library_white_horizontal.png" alt="University of Idaho Library" style="height:90px;">-->
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width:26px;height:51px" class="bi w-100" viewBox="0 0 26 51" fill="currentColor"><g clip-path="url(#clip0_2968_58176)"><path d="M1.52648 1.52648H24.4673V12.2305H19.8816V38.2305H24.4673V48.9346H1.52648V38.2305H6.11215V12.2368H1.52648V1.52648ZM0 0V13.7632H4.58567V36.704H0V50.4673H26V36.704H21.4143V13.7632H26V0H0Z"></path><path d="M7.64487 39.7636H3.0592V47.4085H22.9408V39.7636H18.3489V10.7044H22.9408V3.05957H3.0592V10.7044H7.64487V39.7636Z"></path></g><defs><clipPath id="clip0_2968_58176"><rect width="26" height="50.4673"></rect></clipPath></defs></svg>
+                    
+                </div>
+                <div class="ps-3 pt-3 flex-grow-1 align-self-start bg-brand-grey border-bottom shadow-sm">
+                    <div class="d-flex">
+                        <div class="">
+                            <h1 id="header-title">Library</h1>
+                        </div>
+                        <div class="ms-auto align-self-center">
+                            <ul class="list-inline text-uppercase fw-bold">
+                                <li class="list-inline-item">
+                                    <a class="nav-link" id="topbar-hours" href="{{ '/about/hours.html' | relative_url }}">
+                                        <span class="fas fa-clock" aria-hidden="true"></span>
+                                        <span id="timedisp">Hours</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" id="topbar-account" class="d-none d-md-inline-block me-3" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" title="Link to your Catalog/Primo Account">Account</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" id="topbar-help" href="{{ '/help/' | relative_url }}">Help</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ps-3">
+                            <button id="bigMenu" class="btn btn-lg btn-outline-dark rounded-0 border-0 border-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" aria-label="View navigation menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" fill="currentColor" viewBox="0 0 29 24"><path d="M2 2H27M2 12H27M2 22H27" stroke="currentColor" stroke-width="3" stroke-linecap="square"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="ps-3 pt-2">
-                <h1>Library</h1>
-            </div>
-            <div class="ms-auto ps-3 pt-3">
-                <ul class="list-inline text-uppercase fw-bold">
-                    <li class="list-inline-item">
-                        <a class="nav-link" id="topbar-hours" href="{{ '/about/hours.html' | relative_url }}">
-                            <span class="fas fa-clock" aria-hidden="true"></span>
-                            <span id="timedisp">Hours</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="nav-link" id="topbar-account" class="d-none d-md-inline-block me-3" href="https://alliance-uidaho.primo.exlibrisgroup.com/discovery/account?vid=01ALLIANCE_UID:UID" title="Link to your Catalog/Primo Account">Account</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="nav-link" id="topbar-help" href="{{ '/help/' | relative_url }}">Help</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="ps-3">
-                <button id="bigMenu" class="btn btn-lg btn-outline-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" aria-label="View navigation menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bi" fill="currentColor" viewBox="0 0 29 24"><path d="M2 2H27M2 12H27M2 22H27" stroke="currentColor" stroke-width="3" stroke-linecap="square"></path></svg>
-                </button>
-            </div>
-        </div>
-        <div class="d-flex">
-            <div class="bg-clearwater px-2"><div style="width:26px;"></div></div>
-            <div class="ps-3">
-                <ul class="list-inline text-uppercase fw-bold mb-0">
-                    <li class="list-inline-item text-clearwater">{{ page.section }}</li>
-                    <li class="list-inline-item">|</li>
-                    <li class="list-inline-item"><a href="{{ '/find/' | relative_url }}">Find</a></li>
-                    <li class="list-inline-item"><a href="{{ '/find/' | relative_url }}">Services</a></li>
-                    <li class="list-inline-item"><a href="{{ '/find/' | relative_url }}">Collections</a></li>
-                    <li class="list-inline-item"><a href="{{ '/find/' | relative_url }}">About</a></li>
-                    <li class="list-inline-item"><a href="{{ '/find/' | relative_url }}">Updates</a></li>
-                </ul>
+            <div class="d-flex">
+                <div class="bg-clearwater px-2"><div style="width:26px;"></div></div>
+                <div class="ps-3 align-self-center">
+                    <ul class="list-inline text-uppercase fw-bold mb-0">
+                        <li class="list-inline-item text-clearwater ms-2">{{ page.section }}</li>
+                        <li class="list-inline-item ms-2">|</li>
+                        {% unless page.section == 'Find' %}<li class="list-inline-item ms-2"><a href="{{ '/find/' | relative_url }}">Find</a></li>{% endunless %}
+                        {% unless page.section == 'Services' %}<li class="list-inline-item ms-2"><a href="{{ '/services/' | relative_url }}">Services</a></li>{% endunless %}
+                        {% unless page.section == 'Collections' %}<li class="list-inline-item ms-2"><a href="{{ '/collections/' | relative_url }}">Collections</a></li>{% endunless %}
+                        {% unless page.section == 'About' %}<li class="list-inline-item ms-2"><a href="{{ '/about/' | relative_url }}">About</a></li>{% endunless %}
+                        <li class="list-inline-item ms-2"><a href="{{ '/about/updates.html' | relative_url }}">Updates</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
