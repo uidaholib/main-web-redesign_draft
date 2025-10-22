@@ -1,7 +1,7 @@
 ---
-title: Literacies
+title: Library Literacies
 section: About
-permalink: /about/literaries.html
+permalink: /about/literacies.html
 layout: page-narrow
 ---
 
@@ -13,7 +13,7 @@ To clarify and amplify the distinct educational value that the Library provides 
 [Archival & Primary Source Literacy](#{{ 'Archival & Primary Source Literacy' | slugify }} ){:.btn .btn-outline-pride-gold .m-1}
 [Data Literacy](#data-literacy){:.btn .btn-outline-pride-gold .m-1}
 [Creative Technology & Digital Publishing Literacy](#{{ 'Creative Technology & Digital Publishing Literacy' | slugify }}){:.btn .btn-outline-pride-gold .m-1}
-{:.text-center}
+{:.text-center .my-4}
 
 ## Research Literacy
 
