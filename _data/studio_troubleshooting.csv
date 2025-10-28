@@ -13,3 +13,9 @@ No sound is coming out from the microphone.,"- Make sure the microphone is plugg
 - Open your recording software and verify audio levels are active.
 - Still no sound? Try restarting the software or iMac."
 The Studio computer keeps showing popups asking me to update the computer.,"If you see update popups on the Studio computer, please email <support@uidaho.edu> to let IT know that an update is due."
+When using the RØDECaster Pro II to record audio, the signal was being cutting out at the tail end of sentences.,"
+The noise gate is likely engaged. To disengage this, follow the steps below:
+1. From the main screen, press the square LED above the fader that the PodMic is currently assigned to.
+2. You should now see the microphone settings menu. You will then want to make sure that you are in the "advanced" menu, indicated by a green dot next to where it says "Advanced".
+3. Then you should see a few different icons in the right-hand side of the screen. Press on the icon that resembles a mountain with a horizontal dashed line.
+4. You should now be within the "Noise Gate" settings. To disable the noise gate, press the green button within the middle panel."
