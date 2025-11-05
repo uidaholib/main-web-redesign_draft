@@ -49,7 +49,11 @@ Don't hesitate to contact <libill@uidaho.edu> with any questions!
 
 Off-campus students, staff, and faculty can request to have print books mailed to their home address. To request a print book, log in to our catalog with your U of I Net ID account, find the book you're interested in, then click 'Get It'. Select 'Home Delivery' as your 'Pickup Location', then click 'Send'. It may take 2-3 weeks for the book to arrive.
 
-You should receive a mailing label along with books you receive from the library. Use the label to mail the book back to us when you are finished with it. If you don't have a mailing label, please return books to the following address: 
+You should receive a mailing label along with books you receive from the library. Use the label to mail the book back to us when you are finished with it. 
+
+Please note that labels are not pre-paid and you will need to get a paid postage label to return your items. We suggest media mail through the USPS for cost-savings. You can also return books to any [Orbis Cascade Alliance library](https://www.orbiscascade.org/about/members/) location.
+
+If you don't have a mailing label, please return books to the following address: 
 
 University of Idaho Library Circulation<br>
 875 Perimeter Dr MS 2350<br>
