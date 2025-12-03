@@ -15,7 +15,7 @@ Most collections are described by finding aids hosted on [Archives West](https:/
 
 ## Collection Types
 
-Materials housed in Special Collections and Archives typically fall into one of three categories, based on the origin and/or format of the physical items: [manuscript collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22PG+%22), [photograph collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22MG+%22), and [book collections](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&tab=SPECAW_Slot&search_scope=SPECAW).
+Materials housed in Special Collections and Archives typically fall into one of three categories, based on the origin and/or format of the physical items: [manuscript collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22MG+%22), [photograph collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22PG+%22), and [book collections](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&tab=SPECAW_Slot&search_scope=SPECAW).
 
 {% assign collection_groups = site.data.spec_collection_groups %}
 <div class="row">{% for c in collection_groups %}
