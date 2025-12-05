@@ -15,7 +15,7 @@ Potential applicants are strongly encouraged to speak with [Leesa Love](https://
 In FY 2026, the total allocation will be split into two funding periods:
 
 - Funding Period #1 = $12,500: Articles accepted for publication between July 1, 2025 and December 31, 2025 (Closed)
-- Funding Period #2 = $12,500: Articles accepted for publication between January 1, 2026 and June 16, 2026 - (Opens January 13)
+- Funding Period #2 = $12,500: Articles accepted for publication between January 1, 2026 and June 16, 2026 - (Opens January 12)
      
 Applicants must be current U of I affiliates throughout the application, award, and payment/reimbursement process. Cases in which an applicant leaves or graduates from the U of I during the award or payment/reimbursement process will be referred to the Dean of Libraries for review and final decision.
 
