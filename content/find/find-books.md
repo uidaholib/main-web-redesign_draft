@@ -50,14 +50,14 @@ This tutorial will show you how to find books in the U of I Library.
 
 {% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/accessebook.gif" alt="Access eBooks" caption="Access eBooks" %}
 
-## 4. Request Books via Summit
+## 4. Request Books via Interlibrary Loan
 {:.h3}
 
-- If a source has **Check Access Options** under its title, it means that the Library doesn’t have a copy. But we can likely get one via our Summit library program that allows you to borrow print materials and media from regional academic libraries. 
+- If a source has **Check Access Options** under its title, it means that the Library doesn’t have a copy. But we can likely get one via interlibrary loan that allows you to borrow print materials and media from regional academic libraries. 
 
-- When you’re signed-in to your library account, you will see the option to place a Summit request.
+- When you’re signed-in to your library account, you will see the option to place an interlibrary loan request.
 
-{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/summitrequest.gif" alt="Place Summit request" caption="Place Summit request" %}
+{% include feature/gallery-figure.html img="https://www.lib.uidaho.edu/media/tutorials/illrequest.jpg" alt="Place interlibrary loan request" caption="Place interlibrary loan request" %}
 
 {% capture text %}
 Don't hesitate to [contact the Library for additional assistance](https://www.lib.uidaho.edu/help/){:.alert-link} if you need help with finding books.{% endcapture %}

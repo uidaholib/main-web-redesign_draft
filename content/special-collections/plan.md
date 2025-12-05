@@ -64,10 +64,6 @@ Everyone is welcome to visit our Reading Room and view our materials!
             <td>Tuesday, Wednesday, Thursday</td>
             <td>9:00am - 1:00pm</td>
           </tr>
-          <tr>
-            <td>By appointment only August 18-August 29, 2025. Semester hours will resume on September 1, 2025.</td>
-            <td></td>
-          </tr>
           </tbody>
         </table>
       </div>
@@ -125,7 +121,7 @@ The department maintains a Reading Room on the first floor of the library where 
 ## Getting Here
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
-For directions to the library, see our [directions page](/about/directions.html). 
+For directions to the library, see our [Contacts page](/about/contact.html). 
 For a wider campus map, see [Campus planning and development page](https://www.uidaho.edu/leadership/finance-administration/campus-planning-development). 
 
 You can find information about parking on the [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/parking).

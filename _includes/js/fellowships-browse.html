@@ -195,14 +195,22 @@ document.addEventListener('DOMContentLoaded', function() {
             noResults.style.display = 'none';
         }
 
-        // Update item count
-        const totalItems = browseItems.length;
-        itemCount.textContent = `${visibleCount} of ${totalItems} items`;
+        // Update item count with correct totals based on view
+        let totalCount = 0;
+        let itemLabel = 'items';
+
         if (currentView === 'people') {
-            itemCount.textContent = `${visibleCount} of ${totalItems} fellows`;
+            totalCount = document.querySelectorAll('.person-item').length;
+            itemLabel = 'fellows';
         } else if (currentView === 'projects') {
-            itemCount.textContent = `${visibleCount} of ${totalItems} projects`;
+            totalCount = document.querySelectorAll('.project-item').length;
+            itemLabel = 'projects';
+        } else {
+            totalCount = browseItems.length;
+            itemLabel = 'items';
         }
+
+        itemCount.textContent = `${visibleCount} of ${totalCount} ${itemLabel}`;
     }
 
     // Handle fellowship badge clicks
@@ -237,14 +245,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Prevent modal from opening when clicking external link or fellowship badge
-    document.querySelectorAll('.browse-card').forEach(card => {
-        card.addEventListener('click', function(e) {
-            // If clicked element is a link, button, or fellowship badge, don't open modal
-            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
-                e.target.closest('a') || e.target.classList.contains('fellowship-filter-badge')) {
-                e.stopPropagation();
-                return false;
+    // Prevent modal from opening when clicking fellowship badge button
+    document.querySelectorAll('.fellowship-filter-badge').forEach(badge => {
+        badge.addEventListener('click', function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+
+    // Handle keyboard navigation for cards with role="button"
+    document.querySelectorAll('.browse-card[role="button"]').forEach(card => {
+        card.addEventListener('keydown', function(e) {
+            // Check if the target is the fellowship badge button
+            if (e.target.classList.contains('fellowship-filter-badge')) {
+                return; // Let the badge handle its own keyboard events
+            }
+
+            // Trigger click on Enter or Space
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
             }
         });
     });

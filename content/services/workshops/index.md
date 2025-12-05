@@ -1,4 +1,5 @@
 ---
+# removing from nav! delete
 title: Workshops &amp; Learning Opportunities
 section: Services
 permalink: /services/workshops/
@@ -26,5 +27,3 @@ Please click on the title to get full details and register.
 </div>
 
 Materials and information about past workshops can be found on our <a href="{{ '/services/workshops/resources.html' | relative_url }}">Resources page</a>.
-
-If you have any questions or feedback, please contact workshops coordinator <a href="mailto:ewilliamson@uidaho.edu">Evan Williamson</a>.

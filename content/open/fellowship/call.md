@@ -7,7 +7,7 @@ layout: page-narrow
 
 <small>Sponsored by the University of Idaho Library</small>
 
-**Think Open Fellowships are currently closed for the 2023-24 academic year.**
+**Think Open Fellowships are currently closed for the 2024-25 academic year.**
 
 <!--
 **Think Open Fellowships are currently accepting applications for the 23-24 academic year!**

@@ -3,7 +3,7 @@ title: Lynn and Dennis Baird Fellowship
 section: Fellowships
 permalink: /fellowships/baird.html
 layout: fellowship
-show_past_projects: false
+show_past_projects: true
 ---
 
 {:#call}

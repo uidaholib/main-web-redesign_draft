@@ -6,10 +6,11 @@ permalink: /help/
 chat-widget: true
 ---
 
+<p>Ask Us! Our librarians are here to help you with all your information needs.</p>
 <div class="row my-3">
   <div class="col-md-6">
-      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="{{ '/help/chat.html' | relative_url }}">
-      <span class="fas fa-comments" aria-hidden="true"></span> 24/7 Chat</a>
+      <button class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" data-bs-toggle="modal" data-bs-target="#chatModal">
+      <span class="fas fa-comments" aria-hidden="true"></span> 24/7 Chat</button>
       <p class="mt-0 text-center"><small>Chat with a librarian for instant help!</small></p>
   </div>
   <div class="col-md-6">
@@ -32,19 +33,34 @@ chat-widget: true
       <span class="fas fa-mobile-alt" aria-hidden="true"></span> Text</a>
       <p class="mt-0 text-center"><small>208-449-0841</small></p>
   </div>
-  
   <div class="col-md-6">
       <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="{{ '/help/research.html' | relative_url }}">
       <span class="fas fa-calendar-check" aria-hidden="true"></span> Meet</a>
       <p class="mt-0 text-center"><small>Arrange a research consultation with a subject librarian</small></p>
   </div>
 </div>
+<!-- Chat Modal -->
+<div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="chatModalLabel">Chat with a Librarian</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="libchat_6c41cb60adf7bdb49f9d69e8606c76ac"></div>
+                <script src="https://libanswers.uidaho.edu/load_chat.php?hash=6c41cb60adf7bdb49f9d69e8606c76ac" async></script>
+                {% include feature/alert.html text="Use the chat box above to connect with a reference librarian using our 24/7 LibChat service! Regular hours are staffed by U of I librarians--however, you may be chatting with a librarian from another academic library during peak service times or off-hours." color="info" %}
+            </div>
+        </div>
+    </div>
+</div>
 
 <hr>
 
 <h2>Reference Services</h2>
 
-<p>The library can be a confusing place. If you ever need help figuring out how to best use our many resources, feel free to contact our reference librarians by chat, text, email or appointment. Our website also offers <a href="https://libguides.uidaho.edu/index.php">research guides</a> for DIY help, check our <a href="https://libguides.uidaho.edu/gettingstarted">Getting Started on Research in the Library guide</a> for tips!</p>
+<p>The library can be a confusing place. If you ever need help figuring out how to best use our many resources, feel free to contact our reference librarians by chat, text, email, or appointment. Our website also offers <a href="https://libguides.uidaho.edu/">research guides</a> for DIY help, check our <a href="https://libguides.uidaho.edu/gettingstarted">Getting Started on Research in the Library guide</a> for tips!</p>
 
 <div class="row row-cols-1 row-cols-md-2 mb-4">
 
@@ -107,6 +123,10 @@ chat-widget: true
   </div>
 
 </div>
+
+<h3 id="text-reference">Text Reference</h3>
+
+<p>Text your questions to <a href="sms:208-449-0841">208-449-0841</a> and Librarians will respond during regular <a href="{{ '/about/hours.html#research' | relative_url }}">Research Help Desk hours</a>. Note, text reference is best suited to simple, fact-based questions--please use chat or email for more complex inquiries.</p>
 
 <h3 id="off-campus">Off-Campus Access</h3>
       
