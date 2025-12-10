@@ -3,11 +3,13 @@ title: "Think Open Fellowship"
 section: Open at U of I
 permalink: /open/fellowship/call.html
 layout: page-narrow
+# removed from nav
+# see /fellowships/thinkopen.html for preservation of data about the fellowship
 ---
 
-<small>Sponsored by the University of Idaho Library</small>
+{% include feature/alert.html text="The Think Open Fellowship program was sunset in 2025. Projects producing OER continue to be supported through the [CDIL Fellowship programs](https://cdil.lib.uidaho.edu/fellowships/). Check our [Fellowships page](/fellowships/?filter=thinkopen) to browse past projects." color="warning" %}
 
-**Think Open Fellowships are currently closed for the 2024-25 academic year.**
+<small>Sponsored by the University of Idaho Library</small>
 
 <!--
 **Think Open Fellowships are currently accepting applications for the 23-24 academic year!**

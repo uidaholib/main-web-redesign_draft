@@ -364,8 +364,6 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: Think Open
-    link: /open/fellowship/
   - subsection: VERSO
     link: /verso/
   - subsection: Workshops
@@ -504,15 +502,6 @@ Open at U of I:
     stub: /open/
   - subsection: Open Home
     link: /open/
-  - subsection: Think Open Fellowship
-    link: /open/fellowship/
-    subpages:
-      - name: About the Fellowship
-        url: /open/fellowship/
-      - name: Call for Fellows
-        url: /open/fellowship/call.html
-      - name: Think Open Fellows
-        url: /open/fellowship/fellows.html
   - subsection: OA Publishing Fund
     link: /open/oapf/
     subpages:
@@ -523,13 +512,15 @@ Open at U of I:
       - name: Apply
         url: /open/oapf/apply.html
       - name: Funded Articles
-        url: /open/oapf/funded.html
+        url: /open/oapf/funded.htmls
       - name: FAQ
         url: /open/oapf/faq.html
   - subsection: Pressbooks
     link: /open/pressbooks.html
   - subsection: Course Marking
-    link: /open/course-marking.html  
+    link: /open/course-marking.html
+  - subsection: Think Open Fellowship
+    link: /fellowships/thinkopen.html
   - subsection: OER Resources
     link: /open/oer_resources.html
   - subsection: Federal Grant Requirements

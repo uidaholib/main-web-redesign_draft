@@ -3,7 +3,11 @@ title: "Think Open Fellowship"
 section: Open at U of I
 permalink: /open/fellowship/
 layout: page
+# removed from nav
+# see /fellowships/thinkopen.html for preservation of data about the fellowship
 ---
+
+{% include feature/alert.html text="The Think Open Fellowship program was sunset in 2025. Projects producing OER continue to be supported through the [CDIL Fellowship programs](https://cdil.lib.uidaho.edu/fellowships/). Check our [Fellowships page](/fellowships/?filter=thinkopen) to browse past projects." color="warning" %}
 
 Librarians work across campus with faculty to integrate and implement open educational resources in classrooms, supporting better teaching and saving students money.
 Through the Think Open Fellowship, faculty and graduate students with teaching appointments are eligible for awards to support the transition of University of Idaho courses to open materials, or otherwise very low cost materials (defined by the state of Idaho as those materials with a total cost of less than $30).
