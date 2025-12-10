@@ -16,7 +16,7 @@ The Podcasting Station makes it easy to capture clear, engaging conversations. T
 
 To use the Studio, please use the booking calendar below to reserve a time. When you arrive for your appointment, bring your VandalCard to the Circulation Desk to check out the Studio key.
 
-If you have questions or would like to request a tour of the Studio, please contact us at <lib-studio@uidaho.edu>.
+If you have questions or would like to request an orientation to the Studio, please contact us at <lib-studio@uidaho.edu>.
 
 <div class="text-center my-4">
 <a class="btn btn-outline-pride-gold m-2" href="https://libcal.uidaho.edu/booking/AV">Reserve the Studio</a>
