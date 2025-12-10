@@ -5,6 +5,7 @@ permalink: /open/fellowship/call.html
 layout: page-narrow
 # removed from nav
 # see /fellowships/thinkopen.html for preservation of data about the fellowship
+noindex: true
 ---
 
 {% include feature/alert.html text="The Think Open Fellowship program was sunset in 2025. Projects producing OER continue to be supported through the [CDIL Fellowship programs](https://cdil.lib.uidaho.edu/fellowships/). Check our [Fellowships page](/fellowships/?filter=thinkopen) to browse past projects." color="warning" %}
