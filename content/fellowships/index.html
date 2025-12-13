@@ -7,6 +7,11 @@ lazyload: true
 custom-foot: js/fellowships-browse.html
 ---
 {% assign all_fellows = site.data.fellowships %}
+<style>
+    .btn-xs {
+    font-size: .80625rem;
+}
+</style>
 <div class="container-fluid">
 
     <!-- Hero Section -->
@@ -218,33 +223,35 @@ custom-foot: js/fellowships-browse.html
             {% for person_group in unique_people %}
             {% assign person = person_group.items[0] %}
             {% assign person_projects = person_group.items %}
-            {% assign fellowship_type = "" %}
-            {% if person.fellowship contains "CDIL" %}
-            {% assign fellowship_type = "cdil" %}
-            {% elsif person.fellowship contains "ThinkOpen" %}
-            {% assign fellowship_type = "thinkopen" %}
-            {% elsif person.fellowship contains "Berry" %}
-            {% assign fellowship_type = "berry" %}
-            {% elsif person.fellowship contains "Strong"  %}
-            {% assign fellowship_type = "strong" %}
-            {% elsif person.fellowship contains "Levine" %}
-            {% assign fellowship_type = "levine" %}
-            {% elsif person.fellowship contains "Plastino" %}
-            {% assign fellowship_type = "plastino" %}
-            {% elsif person.fellowship contains "Baird" %}
-            {% assign fellowship_type = "baird" %}
-            {% elsif person.fellowship contains "Wells" %}
-            {% assign fellowship_type = "wells" %}
-            {% else %}
             {% assign fellowship_type = "other" %}
-            {% endif %}
+            {% comment %}Check all fellowships for this person to find the most specific/recent one{% endcomment %}
+            {% for proj in person_projects %}
+                {% if proj.fellowship contains "Baird" %}
+                {% assign fellowship_type = "baird" %}
+                {% break %}
+                {% elsif proj.fellowship contains "Wells" %}
+                {% assign fellowship_type = "wells" %}
+                {% elsif proj.fellowship contains "Strong" %}
+                {% assign fellowship_type = "strong" %}
+                {% elsif proj.fellowship contains "Levine" %}
+                {% assign fellowship_type = "levine" %}
+                {% elsif proj.fellowship contains "Berry" %}
+                {% assign fellowship_type = "berry" %}
+                {% elsif proj.fellowship contains "ThinkOpen" and fellowship_type == "other" %}
+                {% assign fellowship_type = "thinkopen" %}
+                {% elsif proj.fellowship contains "CDIL" and fellowship_type == "other" %}
+                {% assign fellowship_type = "cdil" %}
+                {% elsif proj.fellowship contains "Plastino" and fellowship_type == "other" %}
+                {% assign fellowship_type = "plastino" %}
+                {% endif %}
+            {% endfor %}
 
             <div class="col-lg-4 col-md-6 mb-4 browse-item person-item" data-type="person"
                 data-fellowship="{{ fellowship_type }}"
                 data-person-type="{% if person.status contains 'student' or person.status contains 'Student' or person.status contains 'Graduate' or person.status contains 'Undergraduate' %}student{% else %}faculty{% endif %}"
                 data-search="{{ person.firstname | downcase }} {{ person.lastname | downcase }} {{ person.department | downcase }} {% for proj in person_projects %}{{ proj.project | downcase }} {{ proj.description | downcase }}{% endfor %}">
-                <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
-                    data-bs-target="#personModal{{ forloop.index }}" style="cursor: pointer;">
+                <div class="card h-100 shadow-sm browse-card" role="button" tabindex="0" data-bs-toggle="modal"
+                    data-bs-target="#personModal{{ forloop.index }}" aria-label="View details for {{ person.firstname }} {{ person.lastname }}">
                     <div class="card-body">
                         <div class="d-flex align-items-center mb-3">
                             {% if person.image_thumb %}
@@ -281,11 +288,11 @@ custom-foot: js/fellowships-browse.html
                         {% endif %}
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
-                            <span
+                            <button type="button"
                                 class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
-                                data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
+                                data-filter="{{ fellowship_type }}" style="font-size:.8 !important;" aria-label="View details for {{ person.firstname }} {{ person.lastname }}">
                                 {{ person.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
-                            </span>
+                            </button>
                             {% assign years = person_projects | map: "year" | uniq | sort %}
                             <small class="text-muted">{{ years | join: ", " }}</small>
                         </div>
@@ -392,8 +399,8 @@ custom-foot: js/fellowships-browse.html
                 data-fellowship="{{ fellowship_type }}"
                 data-project-type="{% assign has_student = false %}{% assign has_faculty = false %}{% for person in project_people %}{% if person.status contains 'student' or person.status contains 'Student' or person.status contains 'Graduate' or person.status contains 'Undergraduate' %}{% assign has_student = true %}{% else %}{% assign has_faculty = true %}{% endif %}{% endfor %}{% if has_student and has_faculty %}mixed{% elsif has_student %}student{% else %}faculty{% endif %}"
                 data-search="{{ project.project | downcase }} {{ project.description | downcase }} {% for person in project_people %}{{ person.firstname | downcase }} {{ person.lastname | downcase }}{% endfor %}">
-                <div class="card h-100 shadow-sm browse-card" data-bs-toggle="modal"
-                    data-bs-target="#projectModal{{ forloop.index }}" style="cursor: pointer;">
+                <div class="card h-100 shadow-sm browse-card" role="button" tabindex="0" data-bs-toggle="modal"
+                    data-bs-target="#projectModal{{ forloop.index }}" aria-label="View details for {{ project.project }}">
                     <div class="card-body">
                         <div class="d-flex align-items-start mb-3">
                             {% if project.project_image %}
@@ -422,11 +429,11 @@ custom-foot: js/fellowships-browse.html
                         <p class="card-text small">{{ project.description | truncatewords: 15 }}</p>
 
                         <div class="d-flex justify-content-between align-items-center mt-auto">
-                            <span
+                            <button type="button"
                                 class="btn btn-xs btn-{% case fellowship_type %}{% when 'cdil' %}clearwater{% when 'thinkopen' %}palouse-green{% when 'berry' %}wild-rose{% when 'strong' %}pride-gold{% when 'plastino' %}secondary{% when 'levine' %}info{% when 'baird' %}garnet{% else %}secondary{% endcase %} fellowship-filter-badge"
-                                data-filter="{{ fellowship_type }}" style="cursor: pointer; font-size:.8 !important;" title="Click to filter by this fellowship type">
+                                data-filter="{{ fellowship_type }}" style="font-size:.8 !important;" aria-label="View details for {{ project.project }}">
                                 {{ project.fellowship | remove: "Fellowship" | replace: "Gary and Carolyn Strong Special Collections", "Gary and Carolyn Strong" | replace: "Latah County Historic Sites Digital Map Project", "Latah County Historic Sites" | strip }}
-                            </span>
+                            </button>
                             {% assign years = project_people | map: "year" | uniq | sort %}
                             <small class="text-muted">{{ years | join: ", " }}</small>
                         </div>

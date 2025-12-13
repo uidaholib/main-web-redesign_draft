@@ -148,12 +148,25 @@ function checkFellowshipStatus(fellowship) {
     const today = new Date();
     const currentYear = today.getFullYear();
     
+    // Parse MM-DD format and assume current year
     try {
-      const openDateStr = `${currentYear}-${fellowship.dateOpen}`;
-      const closeDateStr = `${currentYear}-${fellowship.dateClosed}`;
+      // Split the date parts to avoid timezone issues
+      const [openMonth, openDay] = fellowship.dateOpen.split('-').map(Number);
+      const [closeMonth, closeDay] = fellowship.dateClosed.split('-').map(Number);
       
-      const openDate = new Date(openDateStr);
-      const closeDate = new Date(closeDateStr);
+      // Create dates in local timezone
+      const openDate = new Date(currentYear, openMonth - 1, openDay); // Month is 0-indexed
+      const closeDate = new Date(currentYear, closeMonth - 1, closeDay, 23, 59, 59, 999);
+      
+      /*// Debug logging
+      console.log('Fellowship date debug:');
+      console.log('Raw dateOpen:', fellowship.dateOpen);
+      console.log('Raw dateClosed:', fellowship.dateClosed);
+      console.log('Parsed open date:', openDate);
+      console.log('Parsed close date:', closeDate);
+      console.log('Today:', today);
+      console.log('Today >= openDate:', today >= openDate);
+      console.log('Today <= closeDate:', today <= closeDate);*/
       
       // If dates are valid
       if (!isNaN(openDate.getTime()) && !isNaN(closeDate.getTime())) {
@@ -162,7 +175,7 @@ function checkFellowshipStatus(fellowship) {
         } else if (today < openDate) {
           return { isOpen: false, reason: `Opens on ${fellowship.dateOpen}` };
         } else {
-          return { isOpen: false, reason: `Closed on ${fellowship.dateClosed}` };
+          return { isOpen: false, reason: `Deadline passed on ${fellowship.dateClosed}` };
         }
       }
     } catch (e) {

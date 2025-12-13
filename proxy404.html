@@ -26,39 +26,51 @@ chat-widget: true
     </div>
 
     <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="{{ '/help/chat.html' | relative_url }}">
-        <span class="fas fa-comments" aria-hidden="true"></span> 24/7 Chat</a>
-        <p class="mt-0 text-center"><small>Chat with a librarian for instant help!</small></p>
+      <button class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" data-bs-toggle="modal" data-bs-target="#chatModal">
+      <span class="fas fa-comments" aria-hidden="true"></span> 24/7 Chat</button>
+      <p class="mt-0 text-center"><small>Chat with a librarian for instant help!</small></p>
+  </div>
+  <div class="col-md-6">
+      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="#reference">
+      <span class="fas fa-user" aria-hidden="true"></span> Visit</a>
+      <p class="mt-0 text-center"><small><a href="/about/maps.html#second-floor">Second Floor</a> Research Help Desk</small></p>
+  </div>
+  <div class="col-md-6">
+      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="mailto:libref@uidaho.edu">
+      <span class="fas fa-envelope" aria-hidden="true"></span> Email</a>
+      <p class="mt-0 text-center"><small>Research Help: libref@uidaho.edu <br>General Library: libcirc@uidaho.edu</small></p>
+  </div>
+  <div class="col-md-6">
+      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="tel:208-885-6584">
+      <span class="fas fa-phone" aria-hidden="true"></span> Call</a>
+      <p class="mt-0 text-center"><small>Research Help: 208-885-6584 <br>General Library: 208-885-6534</small></p>
+  </div>
+  <div class="col-md-6">
+      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="sms:208-449-0841">
+      <span class="fas fa-mobile-alt" aria-hidden="true"></span> Text</a>
+      <p class="mt-0 text-center"><small>208-449-0841</small></p>
+  </div>
+  <div class="col-md-6">
+      <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="{{ '/help/research.html' | relative_url }}">
+      <span class="fas fa-calendar-check" aria-hidden="true"></span> Meet</a>
+      <p class="mt-0 text-center"><small>Arrange a research consultation with a subject librarian</small></p>
+  </div>
+  <!-- Chat Modal -->
+<div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="chatModalLabel">Chat with a Librarian</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="libchat_6c41cb60adf7bdb49f9d69e8606c76ac"></div>
+                <script src="https://libanswers.uidaho.edu/load_chat.php?hash=6c41cb60adf7bdb49f9d69e8606c76ac" async></script>
+                {% include feature/alert.html text="Use the chat box above to connect with a reference librarian using our 24/7 LibChat service! Regular hours are staffed by U of I librarians--however, you may be chatting with a librarian from another academic library during peak service times or off-hours." color="info" %}
+            </div>
+        </div>
     </div>
-    <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="/about/hours.html#research">
-        <span class="fas fa-user" aria-hidden="true"></span> Visit</a>
-        <p class="mt-0 text-center"><small><a href="/about/maps.html#second-floor">Second Floor</a> Research Help Desk</small></p>
-    </div>
-    <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="mailto:libref@uidaho.edu">
-        <span class="fas fa-envelope" aria-hidden="true"></span> Email</a>
-        <p class="mt-0 text-center"><small>libref@uidaho.edu</small></p>
-    </div>
-    <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="sms:208-449-0841">
-        <span class="fas fa-mobile-alt" aria-hidden="true"></span> Text</a>
-        <p class="mt-0 text-center"><small>208-449-0841</small></p>
-    </div>
-    <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="tel:208-885-6584">
-        <span class="fas fa-phone" aria-hidden="true"></span> Call</a>
-        <p class="mt-0 text-center"><small>Research Help: 208-885-6584 <br/>General Library: 208-885-6534</small></p>
-    </div>
-    <div class="col-md-6">
-        <a class="btn btn-lg btn-outline-pride-gold rounded-0 mx-auto popular" href="{{ '/help/research.html' | relative_url }}">
-        <span class="fas fa-calendar-check" aria-hidden="true"></span> Meet</a>
-        <p class="mt-0 text-center"><small>Arrange a research consultation with a subject librarian</small></p>
-    </div>
-
-    <div class="col-md-12">
-        <p class="px-3">Our librarians are here to help you with all your information needs.</p>
-    </div>
+</div>
 
 </div>
 

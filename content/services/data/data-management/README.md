@@ -1,3 +1,7 @@
+---
+permalink: /services/data/data-management/README.md
+---
+
 # Data Management Guide
 
 This section is built as a separate project: 

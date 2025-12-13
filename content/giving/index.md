@@ -47,5 +47,6 @@ Please <a href="mailto:librdean@uidaho.edu?subject=Subscription%20to%20Letters">
 
 Download past newsletter issues:
 
-{% for i in site.data.giving_newsletter %}
+{% assign newsletters = site.data.giving_newsletter | sort: "date" | reverse %}
+{% for i in newsletters %}
 - [{{ i.month }}]({{ site.lib-media }}/newsletter/{{ i.filename }}){% endfor %}

@@ -9,7 +9,7 @@ layout: page
 
 ## General Use & Eligibility
 
-- **Eligibility:** The studio is available to current U of I students, faculty, and staff with a valid ID.
+- **Eligibility:** The studio is available to current U of I students, faculty, and staff with a valid ID. Community members or others not affiliated with the U of I may request temporary short-term access by sending an email to <lib-studio@uidaho.edu>.
 - **Reservation Required:** Use of the studio requires a reservation made in advance via the [Library booking system](https://libcal.uidaho.edu/booking/AV).
 
 ## Access & Security

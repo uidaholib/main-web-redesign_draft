@@ -25,4 +25,4 @@ layout: page
     {% endfor %}
 </div>
 
-Still stuck? Don’t worry, we’re here to help! Reach out by sending an email to <hanwendong@uidaho.edu>. If staff are unavailable or you're working after hours, please document the issue by including details and photos if possible so we can follow up.
+Still stuck? Don’t worry, we’re here to help! Reach out by sending an email to <lib-studio@uidaho.edu>. If staff are unavailable or you're working after business hours, please document the issue by including details and photos if possible so we can follow up.

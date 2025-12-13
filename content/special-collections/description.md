@@ -15,7 +15,7 @@ Most collections are described by finding aids hosted on [Archives West](https:/
 
 ## Collection Types
 
-Materials housed in Special Collections and Archives typically fall into one of three categories, based on the origin and/or format of the physical items: [manuscript collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22PG+%22), [photograph collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22MG+%22), and [book collections](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&tab=SPECAW_Slot&search_scope=SPECAW).
+Materials housed in Special Collections and Archives typically fall into one of three categories, based on the origin and/or format of the physical items: [manuscript collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22MG+%22), [photograph collections](https://archiveswest.orbiscascade.org/search.php?r=idu&q=%22PG+%22), and [book collections](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/search?vid=01ALLIANCE_UID:UID&tab=SPECAW_Slot&search_scope=SPECAW).
 
 {% assign collection_groups = site.data.spec_collection_groups %}
 <div class="row">{% for c in collection_groups %}
@@ -33,6 +33,6 @@ Although our collections focus on the University of Idaho and cover a wide varie
 
 The International Jazz Collection (IJC) is the leading jazz archive in the Pacific Northwest. It features papers, photographs, audio/visual materials, and artifacts from jazz legends such as Lionel Hampton, Leonard Feather, Lee Morse, Dizzy Gillespie, and Ella Fitzgerald.
 
-Our collections feature a vast amount of information related to Idaho's forests, including lumber companies, forestry sciences, and the history of Idaho's forests. Several of these collections have been turned into [digital collections](https://www.lib.uidaho.edu/digital/collections.html#Forests).
+Our collections feature a vast amount of information related to Idaho's forests, including lumber companies, forestry sciences, and the history of Idaho's forests. Several of these collections have been turned into [digital collections](https://www.lib.uidaho.edu/digital/home/collections.html#Forests).
 
 Our collections feature an extensive amount of information related to Idaho's mining industry, including mining company records and photographs of mining towns and miners.

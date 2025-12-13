@@ -3,6 +3,7 @@ title: Malcolm M. Renfrew Interdisciplinary Colloquium
 section: Find
 permalink: /events/renfrew.html
 layout: page
+noindex: true
 ---
 
 The University of Idaho Library is hosting the [Malcolm M. Renfrew Interdisciplinary Colloquium](https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium) for 2024-25. Presentations will be held on Tuesdays at 12:30pm on the first floor of the library, in the living room area to the right as you come in the entrance.

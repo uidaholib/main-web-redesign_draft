@@ -3,7 +3,7 @@ Scarlett 18i20 is not showing up in audio settings or not recognized as the inpu
 - Check the Furman M-8X power conditioner (located below the Scarlett 18i20). Turn it on if it's off. 
 - Check the Scarlett 18i20 unit. Turn it on if it's off.
 - If the Scarlett 18i20 still does not appear in the audio settings,
-    - Check the USB cable connection (Type A to Type C) between the Scarlett 18i20 and the iMac. Make sure it’s securely connected at both ends.
+    - Check the USB cable connection (Type A to Type C) between the Scarlett 18i20 and the iMac. Make sure it's securely connected at both ends.
     - Unplug and reconnect the cable, especially if the connection feels loose.
 - If the issue persists, restart the iMac."
 The sound is not coming out from the speakers/monitors connected to the iMac.,"Change the iMac's Audio Output from iMac Speakers to Scarlett 18i20. Follow the instructions in ""Scarlett 18i20 is not showing up in audio settings or not recognized as the input/output device""."
@@ -12,3 +12,10 @@ No sound is coming out from the microphone.,"- Make sure the microphone is plugg
 - Check the input settings on the computer and make sure that the correct microphone is selected.
 - Open your recording software and verify audio levels are active.
 - Still no sound? Try restarting the software or iMac."
+The Studio computer keeps showing popups asking me to update the computer.,"If you see update popups on the Studio computer, please email <support@uidaho.edu> to let IT know that an update is due."
+"When using the RØDECaster Pro II to record audio, the signal was being cutting out at the tail end of sentences.","
+The noise gate is likely engaged. To disengage this, follow the steps below:
+1. From the main screen, press the square LED above the fader that the PodMic is currently assigned to.
+2. You should now see the microphone settings menu. You will then want to make sure that you are in the ""advanced"" menu, indicated by a green dot next to where it says ""Advanced"".
+3. Then you should see a few different icons in the right-hand side of the screen. Press on the icon that resembles a mountain with a horizontal dashed line.
+4. You should now be within the ""Noise Gate"" settings. To disable the noise gate, press the green button within the middle panel."

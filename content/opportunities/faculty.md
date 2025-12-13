@@ -8,9 +8,10 @@ layout: page-narrow
 The University of Idaho Library features a dynamic team of [faculty librarians](https://www.lib.uidaho.edu/about/librarians.html). 
 We regularly advertise new career opportunities via the [university's job portal](https://uidaho.peopleadmin.com/).
 
-[Instruction and User Services Librarian](https://uidaho.peopleadmin.com/postings/47851/){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}
+<!--[Instruction and User Services Librarian](https://uidaho.peopleadmin.com/postings/47851/){:.btn .btn-lg .btn-outline-pride-gold .w-100 .mb-3}-->
 
-<!--There are no listings at this time, but please check back!-->
+*There are no listings at this time, but please check back!*
+
 If you have any questions, please don't hesitate to reach out to <library@uidaho.edu>.
 
 ## Why Work at the University of Idaho?

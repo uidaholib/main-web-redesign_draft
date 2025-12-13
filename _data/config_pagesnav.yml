@@ -17,13 +17,13 @@ About:
     stub: /about/
   - subsection: About Home
     link: /about/
-  - subsection: Contact
+  - subsection: Contact and Directions
     link: /about/contact.html
   - subsection: Departments
     link: /about/departments.html
-  - subsection: Directions and Parking
-    link: /about/directions.html
-  - subsection: Journal Cancellations
+#  - subsection: Directions
+#    link: /about/directions.html
+  - subsection: Journal Review
     link: /about/journalcancellations.html
 #    subpages:
 #      - name: Overview 
@@ -234,13 +234,13 @@ Find:
     link: /find/video.html
   - subsection: Encyclopedias and Reference Resources
     link: /find/encyclopedias.html
-  - subsection: Events
+  - subsection: Events and Workshops
     link: /events/
-    subpages:
-      - name: Events Calendar
-        url: /events/
-      - name: Renfrew Colloquium
-        url: /events/renfrew.html
+#    subpages:
+#      - name: Events Calendar
+#        url: /events/
+#      - name: Renfrew Colloquium
+#        url: /events/renfrew.html
   - subsection: Equipment Loans
     link: /find/equipment-loans.html
   - subsection: Geospatial Resources
@@ -267,15 +267,15 @@ Find:
     link: /find/maps/
   - subsection: Newspapers
     link: /find/newspapers.html
-    subpages:
-      - name: Newspapers
-        url: /find/newspapers.html
-      - name: Microfilm List
-        url: /find/microfilm.html
-      - name: Local Newspapers
-        url: /find/localnewspapers.html
-      - name: The Argonaut
-        url: /find/argonaut.html
+#    subpages:
+#      - name: Newspapers
+#        url: /find/newspapers.html
+#      - name: Microfilm List
+#        url: /find/microfilm.html
+#      - name: Local Newspapers
+#        url: /find/localnewspapers.html
+#      - name: The Argonaut
+#        url: /find/argonaut.html
   - subsection: Purchase Request
     link: /find/request.html
   - subsection: Research Guides
@@ -296,8 +296,6 @@ Help:
     stub: /help/
   - subsection: Help Home
     link: /help/
-  - subsection: Chat and Text
-    link: /help/chat.html
   - subsection: FAQ
     link: https://libanswers.uidaho.edu/
   - subsection: Off-Campus Access
@@ -316,7 +314,7 @@ Services:
     stub: /services/  
   - subsection: Borrow/Renew
     link: /services/borrow/
-  - subsection: CDIL (Digital Scholarship)
+  - subsection: CDIL - Digital Scholarship
     link: https://cdil.lib.uidaho.edu/
   - subsection: Copyright Guide
     link: /copyright/guide.html
@@ -324,30 +322,17 @@ Services:
     link: /services/reserve/
   - subsection: Curriculum Center
     link: /services/curriculumcenter.html
-  - subsection: "DataHub: Geospatial and Data Sciences Support"
+  - subsection: "Data Services - Data Hub"
     link: /datahub/
-  - subsection: Data Management
-    link: /services/data/
-    subpages:
-      - name: Data Services
-        url: /services/data/
-      - name: Data Management Guide
-        url: https://www.lib.uidaho.edu/services/data/data-management/
-      - name: DOI Service
-        url: /services/data/dois.html
+#  - subsection: Data Management
+#    link: /services/data/
   - subsection: Instruction Services
     link: /services/instruction/
-    subpages:
-      - name: Instruction Home
-        url: /services/instruction/
-      - name: Topics of Instruction
-        url: /services/instruction/topics.html
-      - name: Request Form
-        url: /services/instruction/instrequest.html
-      #- name: English 102
-      #  url: /services/instruction/engl102.html
-      - name: Instructor Evaluation
-        url: /services/instruction/instructor_eval.html
+#    subpages:
+#      - name: Instruction Home
+#        url: /services/instruction/
+#      - name: Topics of Instruction
+#        url: /services/instruction/topics.html
   - subsection: Interlibrary Loan
     link: /services/ill/
   - subsection: OA Publishing Fund
@@ -364,13 +349,11 @@ Services:
     link: /open/pressbooks.html
   - subsection: Reference Services
     link: /help/
-    subpages:
-      - name: Research Help Desk
-        url: /help/
-      - name: Research Assistance
-        url: /help/research.html
-      - name: Chat and Text
-        url: /help/chat.html
+#    subpages:
+#      - name: Research Help Desk
+#        url: /help/
+#      - name: Research Assistance
+#        url: /help/research.html
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections and Archives
@@ -381,17 +364,15 @@ Services:
     link: /mill/
   - subsection: The Studio
     link: /studio/
-  - subsection: Think Open
-    link: /open/fellowship/
   - subsection: VERSO
     link: /verso/
   - subsection: Workshops
-    link: /services/workshops/
-    subpages:
-      - name: Workshops
-        url: /services/workshops/
-      - name: Resources
-        url: /services/workshops/resources.html
+    link: /events/
+#    subpages:
+#      - name: Workshops
+#        url: /events/
+#      - name: Resources
+#        url: /services/workshops/resources.html
 
 
 ##########
@@ -457,26 +438,23 @@ Special Collections:
 Data Hub:
   - parent: Data Hub
     stub: /datahub/
-  - subsection: Data Hub
+  - subsection: "Data Services - Data Hub"
     link: /datahub/
-  - subsection: <i class='fas fa-share-square'></i> Julie and David Levine DataHub Fellowship
-    url: /fellowships/levine.html 
-  - subsection: <i class='fas fa-share-square'></i> Data Services
-    link: /services/data/
-  - subsection: <i class="fas fa-share-square"></i> Geospatial Resources
+#  - subsection: Data Services
+#    link: /services/data/
+  - subsection: Data Management Guide
+    link: https://www.lib.uidaho.edu/services/data/data-management/
+  - subsection: Geospatial Resources
     link: /find/geospatial/
-  - subsection: <i class="fas fa-share-square"></i> Find Data
+  - subsection: Find Data
     link: /find/data.html
-  - subsection: <i class="fas fa-share-square"></i> Workshops and Events
-    link: /services/workshops/
-#  - subsection: About the Data Hub
-#    link: /datahub/about.html
-#  - subsection: Tools and Tech
-#    link: /datahub/tools.html
-#  - subsection: News
-#    link: /datahub/news.html
-#  - subsection: FAQ
-#    link: /datahub/faq.html
+#  - subsection: DOI Service
+#    link: /services/data/dois.html
+  - subsection: Workshops and Events
+    link: /events/
+  - subsection: Julie and David Levine Data Hub Fellowship
+    link: /fellowships/levine.html 
+
 
 # MILL Section
 MILL:
@@ -495,7 +473,7 @@ MILL:
   - subsection: Reserve Glowforge
     link: https://libcal.uidaho.edu/reserve/laser
   - subsection: Workshops
-    link: /services/workshops/
+    link: /events/
   - subsection: Meet the Team
     link: /mill/about.html
   - subsection: MILL Marketplace
@@ -524,15 +502,6 @@ Open at U of I:
     stub: /open/
   - subsection: Open Home
     link: /open/
-  - subsection: Think Open Fellowship
-    link: /open/fellowship/
-    subpages:
-      - name: About the Fellowship
-        url: /open/fellowship/
-      - name: Call for Fellows
-        url: /open/fellowship/call.html
-      - name: Think Open Fellows
-        url: /open/fellowship/fellows.html
   - subsection: OA Publishing Fund
     link: /open/oapf/
     subpages:
@@ -543,13 +512,15 @@ Open at U of I:
       - name: Apply
         url: /open/oapf/apply.html
       - name: Funded Articles
-        url: /open/oapf/funded.html
+        url: /open/oapf/funded.htmls
       - name: FAQ
         url: /open/oapf/faq.html
   - subsection: Pressbooks
     link: /open/pressbooks.html
   - subsection: Course Marking
-    link: /open/course-marking.html  
+    link: /open/course-marking.html
+  - subsection: Think Open Fellowship
+    link: /fellowships/thinkopen.html
   - subsection: OER Resources
     link: /open/oer_resources.html
   - subsection: Federal Grant Requirements
