@@ -1,9 +1,4 @@
----
-title: America250 at University of Idaho
-layout: page
-section: Special Collections
-permalink: /special-collections/america250.html
----
+
 
 ## Student-Led Program Grant
 

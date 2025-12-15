@@ -423,9 +423,7 @@ Special Collections:
       - name: Donations
         url: /special-collections/donations.html
       - name: Policies
-        url: /special-collections/policies.html
-      - name: America250
-        url: /special-collections/america250.html  
+        url: /special-collections/policies.html 
   - subsection: FAQ
     link: /special-collections/faq.html
 
