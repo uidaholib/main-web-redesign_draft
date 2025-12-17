@@ -27,7 +27,7 @@ carousel: true
 </p>
 
 The Making, Innovating, Learning Laboratory (the MILL) is a place to gather, explore, learn, and create new knowledge using state-of-the-art technology and other traditional forms of making. 
-Located on the [first floor of the library]({{ '/about/maps.html#lg=1&slide=0' | relative_url }}) and open to everyone on campus, the MILL is creative and inclusive, and we strive to facilitate the free and open exchange of ideas and knowledge between disciplines.
+Located on the [first floor of the library]({{ '/about/maps.html#first-floor' | relative_url }}) and open to everyone on campus, the MILL is creative and inclusive, and we strive to facilitate the free and open exchange of ideas and knowledge between disciplines.
 
 Are you ready to create? Join one of our [workshops]({{ '/events/' | relative_url }}), reserve our [3D printers](https://libcal.uidaho.edu/reserve/3dprinters), or just drop by to see what you can do in the space!
 

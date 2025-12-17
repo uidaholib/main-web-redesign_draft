@@ -6,7 +6,7 @@ layout: page-narrow
 ---
 
 Whether you are looking for the most up-to-date [geospatial information]({{ '/find/geospatial/' | relative_url }}) or a unique visual aid for a history presentation, the University of Idaho Library Cartographic Collections have a number of resources for you to use!
-The Map Room is located in <a href="{{ '/about/maps.html#lg=1&slide=0' | relative_url }}">room 107 on the Library's first floor</a>.
+The Map Room is located in <a href="{{ '/about/maps.html#first-floor' | relative_url }}">room 107 on the Library's first floor</a>.
 
 <div class="text-center">
     <a class="btn btn-secondary btn-sm mb-2" href="https://libguides.uidaho.edu/Map_Resources">Map Resources Guide</a>
