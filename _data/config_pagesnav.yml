@@ -510,7 +510,7 @@ Open at U of I:
       - name: Apply
         url: /open/oapf/apply.html
       - name: Funded Articles
-        url: /open/oapf/funded.htmls
+        url: /open/oapf/funded.html
       - name: FAQ
         url: /open/oapf/faq.html
   - subsection: Pressbooks
