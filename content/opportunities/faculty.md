@@ -32,12 +32,6 @@ The U of I Library is well connected in the region as a proud member of the [O
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_05.jpg" caption="Students at the MILL" %}
 
-The new Instruction and User Services Librarian will join our Access & Engagement Unit, which is committed to providing point-of-need reference, research, circulation, and course reserves services to patrons. They will also join the First Year Experience Team and collaborate with colleagues to develop and offer information literacy sessions as well as connect and support students as they transition to collegiate studies and research. The day-to-day work of Access & Engagement often informs faculty research and scholarship and in spring 2025, faculty members in this unit co-facilitated a roundtable at ACRL on information literacy instruction in high school dual enrollment programs and will present at LILAC on [cooperative virtual reference](https://www.lilacconference.com/events/2025/librarians-without-borders-opportunity-and-hesitancy-in-cooperative-virtual-reference).
-
-{% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2023_fac_03.jpg" caption="Students outside CDIL" %}
-
-Faculty and staff in this unit also create and facilitate events and opportunities that foster a sense of community for our students, such as Library mini golf and [Hit the Book(s) Club](https://libguides.uidaho.edu/bookclub). These opportunities often arise through partnerships with campus offices and centers, including Housing & Residence Life, the International Programs Office, and the Center for Disability Access and Resources. 
-
 There’s so much more to say about the U of I Library (our archival holdings, digital collections, and data and geospatial services are top notch; we collaborate across campus for almost everything we do; we have some amazing workshop series; and so much more!), but you’d probably like to know a bit more about the University of Idaho. 
 
 {% include feature/figure.html img="https://www.lib.uidaho.edu/media/faculty/spring_2024_fac_06.jpg" caption="Fellowship student Renae Campbell working with Asian American Comparative Collection  artifacts in the CDIL digital collections" %}
@@ -75,11 +69,3 @@ Visual and performing arts are easy to find, be it a photography display at the 
 </div>
 
 Finally, read [the Moscow Chamber of Commerce guide](https://moscowchamber.com/) detailing the city’s wonderful dining and recreation options.
-
-## Apply!
-
-If you, or someone you know would be interested in this position, please follow the link below to the application: 
-
-[Instruction and User Services Librarian](https://uidaho.peopleadmin.com/postings/47851/){:.btn .btn-lg .btn-outline-pride-gold .w-100 .m-3} 
-
-If you have any questions about this position, please don't hesitate to reach out to our team at <library@uidaho.edu>.
