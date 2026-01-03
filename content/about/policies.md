@@ -85,7 +85,7 @@ This policy is designed to create a welcoming atmosphere for all library users. 
 
 ### Bicycles
 
-Bicycles and scooters are not allowed inside the library. Patrons should secure these items at the bike racks located at the front entrance. Riding bicycles, scooters, skateboards, or roller skates/blades within the library is strictly prohibited.
+Bicycles and scooters are not allowed inside the library. Patrons should secure these items at the bike racks located at the front entrance. Patrons can check out bike locks for 3-hour periods (with renewals possible) at the circulation desk if needed. Riding bicycles, scooters, skateboards, or roller skates/blades within the library is strictly prohibited.
 
 ### Library Group Study Room Policies
 
