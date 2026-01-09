@@ -10,7 +10,7 @@ layout: page
 Potential applicants are strongly encouraged to speak with [Leesa Love](https://www.lib.uidaho.edu/about/people/llove.html), U of I - OAPF Fund Manager, or their [library liaison]({{ '/about/liaisons.html' | relative_url }}) to determine whether their application meets the [eligibility criteria]({{ '/open/oapf/eligibility.html' | relative_url }}).
 
 
-<!--<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9HPuhGRhpIduy7c" class="btn btn-lg btn-palouse-green my-2"><span class="fas fa-link"></span> Apply Now</a></p>-->
+<p class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_9HPuhGRhpIduy7c" class="btn btn-lg btn-palouse-green my-2"><span class="fas fa-link"></span> Apply Now</a></p>
        
 In FY 2026, the total allocation will be split into two funding periods:
 
