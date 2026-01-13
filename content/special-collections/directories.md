@@ -9,6 +9,19 @@ table-paginate: true
 
 *Updated 2016-07-05*
 
+
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h2 class="h5">Looking for Downwinder/RECA documentation?</h2>
+      <ul >
+        <li>If you are seeking supplemental proof of residence documentation for Radiation Exposure Compensation Act (RECA or "Downwinder") cases, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or call (208) 885-0845. Please include the name of the person you are seeking residence information for, the town in Idaho where they resided, and the year or date range you require documentation for.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 <table id="directories" class="table table-striped">
 <thead>
 <tr>
