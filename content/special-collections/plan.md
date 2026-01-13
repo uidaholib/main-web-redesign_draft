@@ -66,23 +66,6 @@ Everyone is welcome to visit our Reading Room and view our materials!
             </tr>
           </tbody>
         </table>
-        <h3>Winter Break Hours</h3>
-        <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>Dec. 15-19</td>
-              <td>By appointment only (<a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>)</td>
-            </tr>
-            <tr>
-              <td>Dec. 20-Jan. 4</td>
-              <td>Closed</td>
-            </tr>
-            <tr>
-              <td>Jan. 5-9, 12, 13</td>
-              <td>By appointment only (<a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a>)</td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </div>
