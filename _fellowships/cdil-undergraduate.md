@@ -6,49 +6,19 @@ layout: fellowship
 show_past_projects: true
 ---
 
-
-
 {:#call}
-### Call for Applications
+## Call for Applications
 
 The Center for Digital Inquiry and Learning invites undergraduate students currently enrolled in any major to work with CDIL staff on digital scholarship projects over the course of a summer. 
 
-This fellowship offers **$2,500** to support undergraduate students in developing innovative digital scholarship projects during a 10-week summer program.
+This fellowship offers **$2,500** to support undergraduate students during a 10-week summer program to work directly with CDIL staff to develop their own expertise and skills in digital scholarship via the creation, revision, or promotion of new or extant digital projects.
 
-### About CDIL
+### Expectations
 
-The [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) supports innovative digital scholarship across the University of Idaho campus. CDIL collaborates with faculty, students, and staff to develop digital projects that advance research, teaching, and learning.
+Fellows will be expected to work and meet at the CDIL and virtually while developing the project over the summer months (mid-May to mid-August). During the fall semester, the fellow will have the option to present their work in the CDIL, either as a traditional presentation, a workshop, or via a U of I Library online publication.
+The stipend is awarded in two intervals, with the majority provided up front and the rest after presentation of the project in the following semester. 
 
-For more information about CDIL and their fellowship programs, visit [https://cdil.lib.uidaho.edu/fellowships/](https://cdil.lib.uidaho.edu/fellowships/).
-
----
-
-{:#process}
-## How to Apply
-
-To apply for the CDIL Undergraduate Student Fellowship, please fill out our application form, which will be available on this page from January 15 to March 15 each year. 
-
-Undergraduate students are encouraged to discuss their project ideas with CDIL staff and potential faculty mentors before submitting an application. Email us at cdil@uidaho.edu. 
-
-For more information and to begin the application process, visit: [https://cdil.lib.uidaho.edu/fellowships/undergradfellow.html](https://cdil.lib.uidaho.edu/fellowships/undergradfellow.html)
-
----
-
-{:#criteria}
-### Selection Criteria
-
-Applications are evaluated based on:
-
-- Creativity and feasibility of the proposed digital project
-- Student's academic preparation and relevant coursework
-- Clear project timeline and deliverables for the 10-week period
-- Potential for learning and skill development
-- Alignment with CDIL's mission and capabilities
-- Quality of faculty mentorship and support
-
----
-
-## Learning Opportunities
+### Learning Opportunities
 
 CDIL Undergraduate Fellows gain hands-on experience in:
 
@@ -60,7 +30,7 @@ CDIL Undergraduate Fellows gain hands-on experience in:
 - **Collaboration** - Working with faculty, staff, and community partners
 - **Project Management** - Planning and executing complex digital projects
 
-## Skills Developed
+### Skills Developed
 
 Through the fellowship program, undergraduate students typically develop:
 
@@ -71,15 +41,31 @@ Through the fellowship program, undergraduate students typically develop:
 - Understanding of digital humanities methodologies
 - Experience with collaborative academic work
 
+### About CDIL
+
+The [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) supports innovative digital scholarship and open publishing across the University of Idaho campus. CDIL collaborates with faculty, students, and staff to develop digital projects that advance research, teaching, learning, and publishing.
+
 ---
 
-## Project Types
+{:#process}
+## How to Apply
 
-CDIL Undergraduate Fellows have created diverse projects including:
+To apply for the CDIL Undergraduate Student Fellowship, please fill out our application form, which will be available on this page from January 15 to March 15 each year.
+Using the form applicants provide a statement of interest and/or project description, as well as background information (150 words).
 
-- **Digital Exhibitions** - Online displays of research findings and cultural materials
-- **Interactive Maps** - GIS-based projects exploring spatial relationships
-- **Multimedia Essays** - Combining text, images, audio, and video
-- **Cultural Heritage Projects** - Preserving and presenting community traditions
-- **Historical Documentation** - Digitizing and organizing archival materials
-- **Creative Collaborations** - Interdisciplinary artistic and scholarly work
+Undergraduate students are encouraged to discuss their project ideas with CDIL staff and potential faculty mentors before submitting an application. Email us at <cdil@uidaho.edu>.
+
+---
+
+{:#criteria}
+## Selection Criteria
+
+Applications will be reviewed by a committee of staff and faculty connected to the CDIL. Finalists may be asked to interview and/or to provide additional references.
+Applications are evaluated based on:
+
+- Creativity and feasibility of the proposed digital project
+- Student's academic preparation and relevant coursework
+- Clear project timeline and deliverables for the 10-week period
+- Potential for learning and skill development
+- Alignment with CDIL's mission and capabilities
+- Quality of faculty mentorship and support
