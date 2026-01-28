@@ -7,7 +7,7 @@ The Research Help Desk and Writing Center are conducting a voluntary, IRB-approv
 survey of student perceptions of research and writing. The survey will take about 15
 minutes to complete. No risks are associated with this study.
 
-[>> click here to take the survey <<](https://uidaho.co1.qualtrics.com/jfe/form/SV_daPxOy95lrYOpaS)
+[Take the Survey](https://uidaho.co1.qualtrics.com/jfe/form/SV_daPxOy95lrYOpaS){:.btn .btn-lg .btn-outline-pride-gold}
 
 Who can participate?
 - Currently enrolled undergraduate students at the University of Idaho
