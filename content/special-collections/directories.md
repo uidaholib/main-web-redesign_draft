@@ -7,7 +7,7 @@ table-id: "#directories"
 table-paginate: true
 ---
 
-*Updated 2016-07-05*
+*Updated 2026-01-29*
 
 
 <div class="col">
@@ -15,12 +15,22 @@ table-paginate: true
     <div class="card-body">
       <h2 class="h5">Looking for Downwinder/RECA documentation?</h2>
       <ul >
-        <li>If you are seeking supplemental proof of residence documentation for Radiation Exposure Compensation Act (RECA or "Downwinder") cases, please email <a href="mailto:libspec@uidaho.edu">libspec@uidaho.edu</a> or call (208) 885-0845. Please include the name of the person you are seeking residence information for, the town in Idaho where they resided, and the year or date range you require documentation for.</li>
+        <li>If you are seeking supplemental proof of residence documentation for Radiation Exposure Compensation Act (RECA or "Downwinder") cases, please fill out this form: <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y2u8fpJXGUqyCwS4JgSIUxaSEHQ0MBFJmCa2EIVFmhNURUQ4RjZZMFEzVjVRSjNFOEhNSTRKNk9ITC4u">Request for Assistance with RECA Claim</a>. You will be asked to provide the name of the person making the RECA claim, the name of the person you are seeking residence information for, the town in Idaho where they resided, the year or date range you require documentation for, and how you are planning to file your claim (by mail or online portal).</li>
       </ul>
     </div>
   </div>
 </div>
 
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h2 class="h5">Interested in donating a directory?</h2>
+      <ul >
+        <li>Special Collections and Archives has a substantial collection of Idaho telephone books and city directories, but it is not complete! We have compiled a list on Google Sheets of items that are missing from our collections: <a href="https://docs.google.com/spreadsheets/d/1UQDXG5l3_Lv7MZkJU7IMkm41nFDzUOMZ2inOggoj6WE/edit?gid=0#gid=0">Idaho directories needed</a>. If you have a phone book or directory you'd like to donate (whether it's on this list or not), please see our <a href="https://www.lib.uidaho.edu/special-collections/donations.html">Donations</a> page for more information.</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <table id="directories" class="table table-striped">
 <thead>
@@ -127,9 +137,9 @@ table-paginate: true
 </tr>
 <tr >
 <td>Blackfoot</td>
-<td><p>1924, 1951, 1954, 1956-1958, 1960-1963, 1965, 1967-1968, 1970, 1972-1978, 1981-1982, 1984-1985, 1987/1988-</p>
+<td><p>1924, 1951, 1954, 1956-1958, 1960-1963, 1965, 1967-1968, 1970, 1972-1978, 1981-1982, 1984-1985, 1987/1988-1988/1989, 1990/1991-1995/1996, 1997/1998-2001/2002</p>
 <p>See also <strong>Idaho Falls</strong></p></td>
-<td>1960, 1971, 1973-1974, 1986-1987/1988,</td>
+<td>1960, 1971, 1973-1974, 1986-1987/1988</td>
 </tr>
 <tr >
 <td>Blanchard</td>
@@ -146,7 +156,7 @@ table-paginate: true
 <td>Boise</td>
 <td><p>1945, 1947, 1950-1952, 1953/1954, 1955-1959, 1961-1963, 1965-1970,</p>
 <p>1973-2003, 2004</p></td>
-<td><p>1934/1935, 1939/40, 1941, 1948, 1950, 1953, 1955-1976</p>
+<td><p>1934/1935, 1939/40, 1941, 1948, 1950, 1953, 1955-1976,</p>
 <p>1983</p></td>
 </tr>
 <tr >
@@ -213,9 +223,9 @@ table-paginate: true
 <td></td>
 </tr>
 <tr >
-<td>Canyon Counties (shelved in Caldwell)</td>
+<td>Canyon Counties</td>
 <td></td>
-<td>1930/1931,1936/1937</td>
+<td>1930/1931, 1936/1937</td>
 </tr>
 <tr >
 <td>Carey</td>
@@ -286,11 +296,11 @@ table-paginate: true
 </tr>
 <tr >
 <td>Coeur d’Alene</td>
-<td><p>1928-1930, 1947-1954,</p>
+<td><p>1930, 1947-1954,</p>
 <p>1956-1965, 1967-1970,</p>
 <p>1972-1978, 1981-1996, </p>
 <p>1998-2002, 2004/2005</p></td>
-<td><p>1912-13, 1947, 1952, 1955/1956 –</p>
+<td><p>1912-13, 1916-1917, 1947, 1952, 1955/1956 –</p>
 <p>1960, 1962-1964, 1970-1972, 1980-1984, 1987, 1989</p></td>
 </tr>
 <tr >
@@ -415,8 +425,8 @@ table-paginate: true
 </tr>
 <tr >
 <td>Elk City</td>
-<td><p>See Lewiston</p>
-<p>See also Cascade, McCall</p></td>
+<td><p>See <strong>Lewiston</strong></p>
+<p>See also <strong>Cascade, McCall</strong></p></td>
 <td></td>
 </tr>
 <tr >
@@ -517,7 +527,7 @@ table-paginate: true
 <td>Genesee</td>
 <td><p>1972 </p>
 <p>See <strong>Moscow</strong></p>
-<p>[Genesee Phone Directory, CD-ROM, Draft by Earl Bennett, 3/10/2006] filed with Moscow directories</p></td>
+<p>See also MG 5899 for informal directories.</p></td>
 <td></td>
 </tr>
 <tr >
@@ -689,7 +699,7 @@ table-paginate: true
 <p>1956-1963, 1965, 1967-1971, 1973-1979, 1981-2003, 2005</p></td>
 <td><p>1916/1916, 1929/1930, </p>
 <p>1952, 1957, 1960-1963</p>
-<p>1963, 1965-1966, 1971-1972, 1974-1976, 1982, 1984-1987</p></td>
+<p>1965-1966, 1971-1972, 1974-1976, 1982, 1984-1987</p></td>
 </tr>
 <tr >
 <td>Indian Valley</td>
@@ -833,8 +843,9 @@ table-paginate: true
 </tr>
 <tr >
 <td>Lewiston</td>
-<td><p>1920, 1921/1922, 1927, 1929, 1937, 1941, 1943, 1946, 1948-1949, 1952-1968, 1970-1982</p>
-<p>(There are some hard bound copies of directories published by Johnson Publishing Co.)</p></td>
+<td><p>1920, 1929, 1937, 1943, 1946, 1949, 1952-1965, 1967-1968, 1970-1978, 1981-1982, 1985, 1988-1994, 1996-1997, 2001, 2004</p>
+<p>(There are some hard bound copies of directories published by Johnson Publishing Co.)</p>
+<p>See also <strong>Moscow</strong></p></td>
 <td><p>1905 (Nez Perce County)</p>
 <p>1921/22, 1927, 1937, 1941, 1948, 1953, 1956 (Lewiston/Clarkston &amp; vic., Bailey’s Publishing Co.) 1958, 1959/60, 1961, 1962, 1964, 1965, 1966, 1968, 1972, 1974, 1976, 1977, 1979, 1980, 1982 (Lewiston/Clarkston &amp; vic., Johnson’s Publishing Co.)</p></td>
 </tr>
@@ -894,7 +905,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>McCall</td>
-<td>1968, 1975/1976-1976/1977, 1978/1979, 1985, 1988/1989, 1990/1991-1991/1992, 1996</td>
+<td>1968, 1975/1976-1976/1977, 1978/1979, 1985, 1988/1989, 1990/1991-1991/1992, 1996, 2004/2005</td>
 <td></td>
 </tr>
 <tr >
@@ -991,7 +1002,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>Mountain Home</td>
-<td>1953, 1956, 1958-1959, 1961, 1963, 1965, 1968-1970, 1972-1975, 1977-1979, 1981-1982, 1984, 1986, 197/1988-1992/1993, 1994/1995-1997, 1999-2001, 2003, 2005</td>
+<td>1953, 1956, 1958-1959, 1961, 1963, 1965, 1968-1970, 1972-1975, 1977-1979, 1981-1982, 1984, 1986, 1987/1988-1992/1993, 1994/1995-1997, 1999-2001, 2003, 2005</td>
 <td></td>
 </tr>
 <tr >
@@ -1044,7 +1055,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>Newport</td>
-<td>1990/1991, 1997, 1998, 2004/2005</td>
+<td>1998-1999</td>
 <td></td>
 </tr>
 <tr >
@@ -1123,7 +1134,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>Payette</td>
-<td>1943, 1949, 1952-1953, 1956, 1958-1966, 1968, 1969, 1972-1974, 1994/1995, 1999-2003, 2005</td>
+<td>1943, 1949, 1952-1953, 1956, 1958-1966, 1968, 1969, 1972-1975, 1978, 1981-1994/1995, 1999-2003, 2005</td>
 <td>1945, 1955, 1957</td>
 </tr>
 <tr >
@@ -1177,7 +1188,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>Pocatello</td>
-<td>1951-1959, 1961-1962, 1965, 19671972, 1974-1978, 1981-1995/1996, 1997/1998, 1999/2000-2001/2002</td>
+<td>1951-1959, 1961-1962, 1965, 1967-1972, 1974-1978, 1981-1995/1996, 1997/1998, 1999/2000-2001/2002</td>
 <td>1942, 1953, 1956-1957, 1960-1966, 1968, 1971-1972, 1977, 1981-1983</td>
 </tr>
 <tr >
@@ -1312,7 +1323,7 @@ table-paginate: true
 </tr>
 <tr >
 <td>Rupert</td>
-<td> 1957-1958, 1965, 1968-1973, 1976, 1981-1982</td>
+<td>1954, 1956, 1957-1958, 1965, 1968-1973, 1976, 1981-1982</td>
 <td>1959, 1971-1972, 1974, 1979,</td>
 </tr>
 <tr >
@@ -1530,13 +1541,13 @@ table-paginate: true
 </tr>
 <tr >
 <td>Waha</td>
-<td>See Nez Perce, Co/Lewiston</td>
+<td>See <strong>Nez Perce, Co/Lewiston</strong></td>
 <td></td>
 </tr>
 <tr >
 <td>Wallace</td>
 <td>See <strong>Kellogg</strong></td>
-<td>1962 (Mullin-Kille Co. and the Wallace Miner), 1924/25 (see <strong>Kellogg</strong>)</td>
+<td></td>
 </tr>
 <tr >
 <td>Weippe</td>
