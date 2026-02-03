@@ -16,7 +16,7 @@ Individuals who complete the course by April 28, 2026, will receive a $300 incen
 
 ### What is AI for Teaching and Learning: Higher Education?
 
-[AI for Teaching and Learning: Higher Education](https://careercatalyst.asu.edu/programs/teaching-learning-generative-ai/) is an asynchronous, online course developed by Arizona State University that explores generative AI in the context of higher education. The course provides an overview of how these systems function and examines their pedagogical implications, including considerations related to course design, assessment, academic integrity, and student learning.
+[AI for Teaching and Learning: Higher Education](https://careercatalyst.asu.edu/programs/teaching-learning-generative-ai/) is an asynchronous, online course developed by Arizona State University that explores generative AI in the context of higher education. The University of Idaho has purchased vouchers for this course, and there is no cost to individuals who sign up using the registration form above. The course provides an overview of how these systems function and examines their pedagogical implications, including considerations related to course design, assessment, academic integrity, and student learning.
 
 The course is designed to support faculty in developing informed perspectives and making intentional choices about how generative AI may fit within their teaching practices.
 
@@ -54,7 +54,7 @@ The course takes approximately six hours to complete and is delivered fully onli
 
 ### Is there an incentive for completing the course?
 
-Yes. Faculty who complete the course and submit the required documentation by April 28, 2026 will receive $300 in incentive pay, issued during UI11, the final pay period of the semester. Incentive funding is provided through the Strategic Plan Investment Grant Program.
+Yes. Faculty who complete the course and submit the required documentation by April 28, 2026 will receive $300 in incentive pay, issued during UI11, the final pay period of the semester. Incentive funding is provided through the Strategic Plan Investment Grant Program. To receive the incentive pay, complete the course and then [upload your certificate of completion to this form](https://uidaho.co1.qualtrics.com/jfe/form/SV_5BesPcZS8nBppLE). 
 
 ----------
 
