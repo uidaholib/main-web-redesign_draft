@@ -12,6 +12,8 @@ Unlike print books, you can't browse these resources on shelves--so accessing eb
 Ebook subscriptions are purchased from a wide variety of providers and each platform has slightly different features and functionality.
 Most will allow you to view ebooks anywhere, on your computer, ereaders, and mobile devices.
 
+Many downloaded ebooks have Digital Rights Management software (DRM) that prevents users from sharing files with others and may impose a time limit for use. These ebooks may require using the free [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) software or the free [Thorium Reader](https://connect.ebsco.com/s/article/EBSCO-eBooks-LCP-Thorium-Frequently-Asked-Questions) (Ebsco) to download the file.
+
 Keep in mind that not all books are available as ebooks.
 Ebook subscriptions are separate from our print book purchases.
 If you need digital access to items in our print collection, look for the digitization request button on the catalog record.
