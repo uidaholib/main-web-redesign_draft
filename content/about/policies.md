@@ -2,7 +2,7 @@
 title: Library Policies
 section: About
 permalink: /about/policies.html
-layout: page
+layout: page-narrow
 ---
 
 <div class="text-center">
@@ -109,4 +109,12 @@ Students assigned to a locker or carrel must abide by all library rules regardin
 
 The University of Idaho Library, as the state's flagship research library, connects our users with information, ideas, tools, and resources to support and advance research and scholarly activity. Our core values include the open, equitable, and efficient access to a diverse and interdisciplinary spectrum of information resources. We provide access to library materials in accordance with the principles of intellectual freedom outlined in the American Library Association's <a href="https://www.ala.org/advocacy/intfreedom/librarybill">Library Bill of Rights</a>, <a href="https://www.ala.org/advocacy/intfreedom/freedomreadstatement">Freedom to Read</a> statement, and <a href="https://www.ala.org/advocacy/intfreedom/freedomviewstatement">Freedom to View</a> statement. Academic freedom is also required and protected by the University of Idaho's Faculty Staff Handbook (<a href="https://www.uidaho.edu/policies/fsh/4/4000">FSH 4000</a>).
 
-As a research library, our collections are inclusive and comprehensive by design, and the resources selected for purchase are chosen to meet the curricular, research, and service mission of the University of Idaho.  Older materials that some may consider out of date or offensive often have relevance as historical artifacts in research that seeks to illuminate the evolution of an area of study and situate current thinking in context, and our policy as a research library is to retain such materials for these purposes. Current materials are selected for purchase by <a href="liaisons.html">subject liaisons</a>, who are informed by <a href="https://www.ala.org/tools/challengesupport/selectionpolicytoolkit/criteria">professional selection criteria and reviewing sources</a>. If you have questions about items in our collection, please contact the Dean of Libraries, Ben Hunter, at <a href="mailto:bhunter@uidaho.edu">bhunter@uidaho.edu</a>.
+As a research library, our collections are inclusive and comprehensive by design, and the resources selected for purchase are chosen to meet the curricular, research, and service mission of the University of Idaho. Older materials that some may consider out of date or offensive often have relevance as historical artifacts in research that seeks to illuminate the evolution of an area of study and situate current thinking in context, and our policy as a research library is to retain such materials for these purposes. Current materials are selected for purchase by <a href="liaisons.html">subject liaisons</a>, who are informed by <a href="https://www.ala.org/tools/challengesupport/selectionpolicytoolkit/criteria">professional selection criteria and reviewing sources</a>. 
+
+If you have questions about items in our collection, please contact the Dean of Libraries, Ben Hunter, at <a href="mailto:bhunter@uidaho.edu">bhunter@uidaho.edu</a>.
+
+### Degree Program Cost Estimation
+
+Degree programs often require new resources in the Library to meet the needs of teaching, research, and accreditation.
+Faculty proposing new academic programs should engage the Library early in the proposal process to ensure there is time to evaluate requirements.
+Please review the [Library Cost Estimation Requirements for New Degree Program Proposals policy]({{ '/about/program-cost-estimation.html' | relative_url }}) for details.
