@@ -315,7 +315,7 @@ Services:
   - subsection: CDIL - Digital Scholarship
     link: https://cdil.lib.uidaho.edu/
   - subsection: Copyright Guide
-    link: /copyright/guide.html
+    link: /copyright/
   - subsection: Course Reserves
     link: /services/reserve/
   - subsection: Curriculum Center
@@ -541,65 +541,6 @@ GIS Day:
   - subsection: Geospatial Resources
     link: /find/geospatial/
 
-# Guide sections
-Copyright Guide:
-  - parent: Copyright
-    stub: /copyright/
-  - subsection: U of I Copyright Policy
-    link: /copyright/guide.html#ui
-  - subsection: Contents
-    link: /copyright/guide.html#contents
-  - subsection: Copyright Basics
-    link: /copyright/guide.html#basics
-    subpages:
-      - name: What Is Copyright?
-        url: /copyright/guide.html#whatis
-      - name: Fair Use
-        url: /copyright/guide.html#whatisfairuse
-      - name: Orphan Works
-        url: /copyright/guide.html#orphan
-      - name: DMCA
-        url: /copyright/guide.html#dmca
-  - subsection: Teaching
-    link: /copyright/guide.html#teaching
-    subpages:
-      - name: Face-to-Face Instruction
-        url: /copyright/guide.html#face
-      - name: Distance Education/Virtual Instruction
-        url: /copyright/guide.html#virtual
-      - name: The TEACH Act
-        url: /copyright/guide.html#TEACH
-      - name: Library Resources
-        url: /copyright/guide.html#resources
-      - name: Media Resources
-        url: /copyright/guide.html#media
-      - name: Securing Permission
-        url: /copyright/guide.html#permission
-      - name: Plagiarism
-        url: /copyright/guide.html#plagiarism
-  - subsection: Research
-    link: /copyright/guide.html#research
-    subpages:
-      - name: Authors' Rights
-        url: /copyright/guide.html#authors
-      - name: Managing Your Rights
-        url: /copyright/guide.html#managing
-      - name: Open Access
-        url: /copyright/guide.html#openaccess
-      - name: Reversion of Rights
-        url: /copyright/guide.html#reversion
-      - name: Works for Hire
-        url: /copyright/guide.html#hire
-      - name: Theses/Dissertations
-        url: /copyright/guide.html#theses
-      - name: Sample Permission Letter
-        url: /copyright/guide.html#sample
-  - subsection: FAQ
-    link: /copyright/guide.html#faq
-  - subsection: Acknowledgements
-    link: /copyright/guide.html#acknowledgements
-  - subsection: Services
-    link: /services/
 
 # VERSO Section
 VERSO:

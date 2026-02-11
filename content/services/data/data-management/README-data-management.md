@@ -1,5 +1,5 @@
 ---
-permalink: /services/data/data-management/README.md
+permalink: /services/data/data-management/README-data-management.md
 ---
 
 # Data Management Guide
