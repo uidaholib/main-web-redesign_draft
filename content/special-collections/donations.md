@@ -23,7 +23,7 @@ Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potentia
 
 ### Faculty Papers Donation Guidelines
 
-- [Faculty Papers Donation Guidelines PDF]({{ site.lib-media }}/spec/Faculty Paper Guidelines.pdf).
+- [Faculty Papers Donation Guidelines PDF]({{ site.lib-media }}/spec/Faculty_Paper_Guidelines.pdf).
 
 Special Collections and Archives collects faculty papers to preserve the institutional history of our university. It is important to document how decisions were made, how policies evolved, and how the university functioned as an organization over time. Our primary focus is on materials that document your role in the university's governance, administration, and institutional life. We are most interested in materials that show how you contributed to shaping the university as an institution: your service on committees, leadership of programs or departments, involvement in policy development, and engagement in matters that affected the university community. These materials help future researchers understand how the University of Idaho operated, evolved, and responded to challenges over time. 
 
