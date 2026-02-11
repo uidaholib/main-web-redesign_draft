@@ -21,6 +21,142 @@ Any potential donation of historical materials should be discussed with the depa
 
 Please call (208) 885-0845 or email <libspec@uidaho.edu> to discuss any potential donations of archives, personal papers, photographs, and/or select publications to Special Collections in the University of Idaho Library.
 
+### Faculty Papers Donation Guidelines
+
+- [Faculty Papers Donation Guidelines PDF]({{ site.lib-media }}/spec/Faculty Paper Guidelines.pdf).
+
+Special Collections and Archives collects faculty papers to preserve the institutional history of our university. It is important to document how decisions were made, how policies evolved, and how the university functioned as an organization over time. Our primary focus is on materials that document your role in the university's governance, administration, and institutional life. We are most interested in materials that show how you contributed to shaping the university as an institution: your service on committees, leadership of programs or departments, involvement in policy development, and engagement in matters that affected the university community. These materials help future researchers understand how the University of Idaho operated, evolved, and responded to challenges over time. 
+
+We are also interested in discipline-specific scholarly materials when they align with the U of I's research strengths and regional collecting areas, such as environmental studies, natural resources, agriculture, and other fields central to the university's mission and the state's history. Scholarly, literary, and artistic work of national or international recognition or acclaim, produced during a faculty member's time at U of I, is also appropriate for our collection. Additionally, as a major historical repository for the state of Idaho, we collect materials about Idaho's history, culture, environment, and communities, regardless of academic discipline. Scholarly materials outside these areas are typically better preserved through disciplinary archives, research libraries, or professional organizations in your field. 
+
+The guidelines below will help you identify which materials from your career best align with the collecting interests of the university archive. We ask all prospective donors to schedule a consultation with an archivist in advance of transferring any materials. This helps both parties identify the most appropriate materials for acquisition by the archives. 
+
+Please contact us with questions or when you are ready to schedule a consultation with a Library archivist. 
+
+**University of Idaho Library, Special Collections and Archives**
+<libspec@uidaho.edu>
+**208.885.0845**
+
+#### Top Priorities
+
+<div class="text-center mb-2">
+    <a href="#institution" class="btn my-2 mx-1" style="background-color: #F1B300; border-color: #F1B300; color: black;">University of Idaho Institutional History</a>
+    <a href="#research" class="btn my-2 mx-1" style="background-color: #808080; border-color: #808080; color: white;">Scholarship Related to Major U of I Research Strengths</a>
+    <a href="#idaho" class="btn my-2 mx-1" style="background-color: #008080; border-color: #008080; color: white;">Scholarship Related to History of Idaho</a>
+</div>
+
+##### General Guidance: 
+
+Focus on materials that document your contributions to the university as an institution and your role in shaping its policies, programs, and community rather than routine activities. Consider what would help future researchers understand how the university functioned, made decisions, and evolved during your time here. When in doubt about correspondence, prioritize letters that involve substantive discussions about institutional matters, policy development, or significant university issues. For research materials related to the University of Idaho's strengths or to Idaho itself, include enough documentation that someone could understand your methods and approach. Materials that document the process, context, and unique observational record of research are valuable, while materials that duplicate the published scholarly record are not. Similarly, materials offering unique documentation of Idaho, like original observations, data, perspectives, or records not available elsewhere, are most valuable for our role as a state historical repository.
+
+{:#institution}
+##### Instructional History Collecting Guidance: 
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="background-color: #F1B300;">More Valuable</th>
+      <th style="background-color: #FBE8A6;">Less Valuable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Materials documenting institutional service, governance, and decision-making</td>
+      <td>Routine administrative paperwork like meeting agendas without your annotations</td>
+    </tr>
+    <tr>
+      <td>Correspondence about university policies or procedures</td>
+      <td>Duplicates of widely available publications</td>
+    </tr>
+    <tr>
+      <td>Administrative records for programs or departments, particularly from leadership</td>
+      <td>Routine office files like supply catalogs, mass mailings or promotional materials</td>
+    </tr>
+    <tr>
+      <td>Materials showing institutional change or disputes</td>
+      <td>Personal materials like financial records or correspondence unrelated to work</td>
+    </tr>
+  </tbody>
+</table>
+
+{:#research}
+##### Discipline-Specific Scholarship Collecting Guidance:
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="background-color: #808080; color: white;">More Valuable</th>
+      <th style="background-color: #D9D9D9;">Less Valuable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Original scholarly, literary, or artistic work of national or international significance</td>
+      <td>Published books and articles already available through the library</td>
+    </tr>
+    <tr>
+      <td>Teaching materials that represent innovative approaches, curriculum development, or course materials that document pedagogical evolution over time</td>
+      <td>Routine course materials such as standard syllabi, routine assignments and exams, and student work</td>
+    </tr>
+    <tr>
+      <td>Correspondence between peers about news or issues within the discipline</td>
+      <td>Correspondence about routine manuscript preparation</td>
+    </tr>
+    <tr>
+      <td>Documentation of particular research methods and approach</td>
+      <td>Subject files of copied sources</td>
+    </tr>
+    <tr>
+      <td>Field notebooks and research journals, or a sampling of photographs related to field research</td>
+    </tr>
+    <tr>
+      <td>Original data, measurements, and observations</td>
+    </tr>
+  </tbody>
+</table>
+
+{:#idaho}
+##### Idaho History Collecting Guidance:
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="background-color: #008080; color: white;">More Valuable</th>
+      <th style="background-color: #B3D9D9;">Less Valuable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Field notebooks and research journals, and a sampling of photographs related to field research</td>
+      <td>Published books and articles already available through the library</td>
+    </tr>
+    <tr>
+      <td>Original data, measurements, and observations</td>
+      <td>Correspondence about routine manuscript preparation</td>
+    </tr>
+    <tr>
+      <td>Primary sources such as diaries or personal papers acquired in the process of researching</td>
+      <td>Duplicate copies of widely available Idaho materials</td>
+    </tr>
+    <tr>
+      <td>Photos of Idaho, such as landscapes, communities, people, events, environmental conditions, or cultural life</td>
+      <td>Subject files of copied sources</td>
+    </tr>
+    <tr>
+      <td>Correspondence with Idaho residents, organizations, or institutions related to the research</td>
+    </tr>
+    <tr>
+      <td>Oral history recordings or transcripts with Idaho subjects</td>
+    </tr>
+    <tr>
+      <td>Materials documenting Idaho-specific events, policies, or controversies not widely available to the public</td>
+    </tr>
+    <tr>
+      <td>Maps, charts, or visual materials depicting Idaho geography, demographics, or other data not widely available to the public</td>
+    </tr>
+  </tbody>
+</table>
+
 --------
 
 {:#internal}
