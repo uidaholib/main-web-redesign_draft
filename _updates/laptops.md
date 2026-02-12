@@ -1,6 +1,7 @@
 --- 
 title: Fall 2025 Laptop Loaning
 date: 2025-08-04
+archive: true
 ---
 
 The Library has adopted all of the laptops previously loaned by the Student Technology Center (STC) and Dean of Students Office, increasing the number of laptops available at the library for semester loan up to 56. 
