@@ -31,9 +31,7 @@ Located on the [first floor of the library]({{ '/about/maps.html#first-floor' | 
 
 Are you ready to create? Join one of our [workshops]({{ '/events/' | relative_url }}), reserve our [3D printers](https://libcal.uidaho.edu/reserve/3dprinters), or just drop by to see what you can do in the space!
 
-Want to learn more? Get in touch with us by stopping in or <a href="mailto:jkfleener@uidaho.edu">sending us a message</a>. 
-
-<!---The MILL is an evolving space, and we’d love to hear from you – please use [our Suggestion Box](https://uidaho.co1.qualtrics.com/jfe/form/SV_7V3LDYRF0p8TFyK) to send any requests!-->
+Want to learn more? Get in touch with us by stopping in or <a href="mailto:jkfleener@uidaho.edu">sending us a message</a>.
 
 <div class="card-group">
     <div class="card">
