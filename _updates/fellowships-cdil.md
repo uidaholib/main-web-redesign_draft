@@ -1,6 +1,7 @@
 ---
 title: Apply now for CDIL Student Fellowships!
 date: 2026-01-19
+archive: true
 ---
 
 The [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) (CDIL) at University of Idaho is now accepting applications for our summer student fellowships! 
