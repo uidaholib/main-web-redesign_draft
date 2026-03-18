@@ -3,6 +3,8 @@ title: Library Policies
 section: About
 permalink: /about/policies.html
 layout: page
+search: true
+tags: Policies
 ---
 
 <div class="text-center">
