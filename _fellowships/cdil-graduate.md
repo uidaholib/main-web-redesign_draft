@@ -15,6 +15,16 @@ This fellowship offers **$4,000** to support graduate students during a 10-week 
 This is a flexible program guided by the interests and unique research of each fellow.
 Note that most fellows continue to work with CDIL staff over the course of the following year as well. 
 
+In the program, fellows can envision and build digital scholarship projects, pursue open publishing, and/or investigate digital humanities approaches, theories, and research.
+Experiences may include:
+
+- **Digital Project Development** - Learn to conceptualize and plan digital scholarship projects
+- **Data Visualization and Digital Storytelling** - Develop skills in creating compelling visual representations of research data
+- **Web Development** - Gain experience with modern web technologies for academic publishing
+- **Digital Archives and Collections** - Understand best practices for digital curation and preservation
+- **Collaborative Digital Scholarship** - Learn to work effectively in interdisciplinary digital teams
+- **Open Publishing and OER** - Explore platforms, tools, and approaches to impact scholarship and learning
+
 ### Expectations
 
 Fellows will be expected to work and meet at the CDIL and virtually while developing the project over the summer months (mid-May to mid-August). During the fall semester, the fellow will present their work in the CDIL, either as a traditional presentation, a workshop, or via a U of I Library online publication.
