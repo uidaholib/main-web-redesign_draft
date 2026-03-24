@@ -25,8 +25,7 @@ Once authenticated, all ebook collections allow you to read in your web browser.
 However, each platform has different terms for downloading, printing, and using ebooks on other devices. 
 Some subscriptions allow only a limited number of users to access the resource at the same time.
 
-Many downloaded ebooks have Digital Rights Management software (DRM) that prevents users from sharing files with others and may impose a time limit for use.
-These ebooks may require using the free [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) software to download the file.
+Many downloaded ebooks have Digital Rights Management software (DRM) that prevents users from sharing files with others and may impose a time limit for use. These ebooks may require using the free [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) software or the free [Thorium Reader](https://connect.ebsco.com/s/article/EBSCO-eBooks-LCP-Thorium-Frequently-Asked-Questions) (Ebsco) to download the file.
 
 {% capture instructions %}
 1. Start your search in the library's catalog ![catalog search box]({{ site.lib-media }}/find/Catalog19.png){:.img-fluid .mb-3}

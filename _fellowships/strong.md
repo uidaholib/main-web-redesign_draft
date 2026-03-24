@@ -9,9 +9,7 @@ show_past_projects: true
 {:#call}
 ## Call for Applications
 
-The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship.
-
- The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Though priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship. 
+The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Gary E. and Carolyn J. Strong Special Collections Fellowship. This program funds one student each year to work with the faculty and staff at the Library to increase the visibility and use of previously unprocessed collections in the University of Idaho Library's Special Collections and Archives. The fellowship occurs during the summer for six to eight weeks, with exact dates to be negotiated with the successful applicant. Thought priority is given to doctoral students, masters students may be selected. Eligible applicants must have plans to enroll in the fall semester after the fellowship.
 
 Applicants with an interest in working with archival materials, as a scholar or as a professional, are encouraged to apply for this hands-on learning opportunity. The activities of the fellow will be focused on processing and digitizing previously uncatalogued donations. University of Idaho Library personnel will assist and guide the work; applicants are not required to have experience in arranging archival material or creating digital collections.  
 
@@ -19,7 +17,7 @@ The deliverables from the fellowship will be materials such as finding aids that
 
 The award includes a $4,500 student fellowship and up to $500 in research funds to help cover the cost of materials and supplies, project-related travel expenses, etc. 
 
-Since 2021, Strong Fellowship recipients have improved access to a variety of collections, including the [League of Women Voters of Moscow records](https://archiveswest.orbiscascade.org/ark:80444/xv211561), the [Women in Natural Resources collection](https://archiveswest.orbiscascade.org/ark:80444/xv702668), the [Palouse Science Fiction Association collection](https://archiveswest.orbiscascade.org/ark:80444/xv334160), and the [Lyle J. Reed collection](https://archiveswest.orbiscascade.org/ark:80444/xv425711) related to the Old Time Fiddle Festival, the [Plant, Soil, and Entomological Sciences records](https://www.lib.uidaho.edu/digital/pses/), and the [WWAMI records](https://archiveswest.orbiscascade.org/ark:80444/xv759233).     
+Since 2021, Strong Fellowship recipients have improved access to a variety of collections, including the [League of Women Voters of Moscow records](https://archiveswest.orbiscascade.org/ark:80444/xv211561), the [Women in Natural Resources collection](https://archiveswest.orbiscascade.org/ark:80444/xv702668), the [Palouse Science Fiction Association collection](https://archiveswest.orbiscascade.org/ark:80444/xv334160), and the [Lyle J. Reed collection](https://archiveswest.orbiscascade.org/ark:80444/xv425711) related to the Old Time Fiddle Festival, the [Plant, Soil, and Entomological Sciences records](https://www.lib.uidaho.edu/digital/pses/), the [WWAMI records](https://archiveswest.orbiscascade.org/ark:80444/xv759233), the [Wildlife Resources Department records](https://archiveswest.orbiscascade.org/ark:80444/xv393839), and the [Nez Perce-Clearwater National Forest historic photos collection](https://archiveswest.orbiscascade.org/ark:80444/xv202997).
 
 ---
 
@@ -37,12 +35,11 @@ Applicants must submit:
 2. A current resume or CV.
 3. A letter of support from a U of I faculty member.
 
-<!--
 <div class="text-center mb-2 pt-3">
     <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
-</div>-->
+</div>
 
-**Applications are due Friday, March 21st** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due Monday, March 30th** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 ---
 
@@ -62,8 +59,11 @@ Applications will be judged on the following criteria:
 {:#potential}
 ## Potential Projects
 
-- Rehouse, arrange, and describe 16 cubic feet of aerial photographs from Potlatch Corporation.   
-- Rehouse, arrange, and describe 8 cubic feet of records from Ken Hungerford and the Wildlife Resources Department.  
-- Inventory and describe large donation of historic photos from Nez Perce-Clearwater National Forest.   
+- David Engerbretson papers, local flyfishing expert
+- Idaho Conservation League, organizational records
+- Potlatch Forest, Inc. aerial photographs
+- Idaho 4-H State Office records
+- Idaho Geological Survey records
+- Paul Conditt's papers, longtime U of I Librarian
 
 Interested students are strongly encouraged to discuss their proposals with the Head of Special Collections and Archives, Dulce Kersting-Lark, as they are developing their application materials. Dulce can be reached at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).

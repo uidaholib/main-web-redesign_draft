@@ -1,6 +1,7 @@
 ---
 title: Apply now for CDIL Student Fellowships!
 date: 2025-09-03
+archive: true
 ---
 
 Applications are currently open for two library fellowships:

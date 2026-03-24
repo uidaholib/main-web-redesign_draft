@@ -1,6 +1,7 @@
 --- 
 title: New Course Marking Initiative
 date: 2024-03-27
+archive: true
 ---
 
 Since early 2023, the Open Campus Committee has been focused on an exciting new development that promises to help students make informed choices about their class materials costs. Course materials cost marking is the practice of applying a label or other easily identifiable and searchable facet to classes listed in the class schedule. Starting Summer 2024, students will be able to easily browse Zero and Very Low Cost ($30 or less) classes in the class schedule. 

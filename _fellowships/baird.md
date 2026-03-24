@@ -9,9 +9,7 @@ show_past_projects: true
 {:#call}
 ## Call for Applications
 
-
 The University of Idaho Library invites graduate students from any discipline at the University of Idaho to apply for the Lynn and Dennis Baird Fellowship.
-
 
 This fellowship offers **$4,000** to support graduate students to engage with archival materials related to wilderness and environmental topics over the summer months. Each fellow will produce an archival or digital project that will contribute to the preservation and accessibility of these important historical resources.
 

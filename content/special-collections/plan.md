@@ -49,7 +49,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
           <tbody>
             <tr>
               <td>Monday, Wednesday, Friday</td>
-              <td>9:00am - 1:00pm</td>
+              <td>10:00am - 2:00pm</td>
             </tr>
             <tr>
               <td>Tuesday, Thursday</td>
@@ -59,11 +59,11 @@ Everyone is welcome to visit our Reading Room and view our materials!
         </table>
         <h3>Summer Hours</h3>
         <table class="table table-hover">
-        <tbody>
-          <tr>
-            <td>Tuesday, Wednesday, Thursday</td>
-            <td>9:00am - 1:00pm</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>Tuesday, Wednesday, Thursday</td>
+              <td>9:00am - 1:00pm</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -122,7 +122,7 @@ The department maintains a Reading Room on the first floor of the library where 
 
 We are located on the [first floor](/about/maps.html) of the University of Idaho Library. 
 For directions to the library, see our [Contacts page](/about/contact.html). 
-For a wider campus map, see [Campus planning and development page](https://www.uidaho.edu/leadership/finance-administration/campus-planning-development). 
+For a wider campus map, see the [Campus Directory Map](https://content-hub.uidaho.edu/api/public/content/6b614552efaa428986c8db8f89432d79?v=551a492c) or the [interactive online map](https://map.concept3d.com/?id=2155#!ct/91622,91623,91624,86486,91562,91645,91646,91647,91648,91649,91650,91651,91652?s/).
 
 You can find information about parking on the [University of Idaho Parking and Transportation Services](https://www.uidaho.edu/parking).
 

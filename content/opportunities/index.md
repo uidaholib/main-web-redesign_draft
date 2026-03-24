@@ -22,6 +22,6 @@ For more information and instructions to apply, visit the [U of I Jobs Portal](h
 
 ## Fellowships
 
-The library offers a variety of fellowships for faculty and students. An overview of our fellowship programs can be found on our [fellowships page](/opportunities/fellowships/). 
+The library offers a variety of fellowships for faculty and students. An overview of our fellowship programs can be found on our [fellowships page](/fellowships/). 
 
-<a class="btn btn-outline-pride-gold" href="{{ '/opportunities/fellowships/' | relative_url }}">View All Fellowships</a>
+<a class="btn btn-outline-pride-gold" href="{{ '/fellowships/' | relative_url }}">View All Fellowships</a>

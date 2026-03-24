@@ -9,15 +9,15 @@ show_past_projects: false
 {:#call}
 ### Call for Applications
 
-In partnership with the family of Ben J. Plastino, a lifelong Idahoan and prolific local journalist, the University of Idaho Library is pleased to offer one graduate student a paid fellowship opportunity during the summer of 2025.  
+In partnership with the family of Ben J. Plastino, a lifelong Idahoan and prolific local journalist, the University of Idaho Library is pleased to offer one graduate student a paid fellowship opportunity during the summer of 2026.  
 
 Plastino graduated from the University of Idaho in 1932 with a degree in journalism and went on to have a distinguished career that lasted more than fifty years. In 2024, his daughters Diane and Paula donated a curated collection of his writings and photographs to the Library's Special Collections and Archives to benefit researchers studying Idaho's history. Plastino's connections with policy makers in Idaho make the collection particularly valuable to scholars of the state's political history.  
 
-The Ben J. Plastino Collection is comprised of more than 1,000 news articles and opinion columns he contributed to Idaho newspapers, several dozen letters written between Plastino and various figures in Idaho politics, as well as approximately 40 photographs he took while working as a journalist. A basic catalogue of the collection can be found at [https://archiveswest.orbiscascade.org/ark:80444/xv470833](https://archiveswest.orbiscascade.org/ark:80444/xv470833).  
+The Ben J. Plastino Collection consists of more than 1,000 news articles and opinion columns he contributed to Idaho newspapers, several dozen letters written between Plastino and various figures in Idaho politics, as well as approximately 40 photographs he took while working as a journalist. A basic catalogue of the collection can be found at [https://archiveswest.orbiscascade.org/ark:80444/xv470833](https://archiveswest.orbiscascade.org/ark:80444/xv470833).  
 
-A digital collection of Plastino's writings will make access easier to researchers throughout Idaho and beyond. It will launch in mid-2025. To complement the individual articles and other materials, the intention of the Ben J. Plastino Collection Fellowship is to produce one or more essays which contextualize and highlight his contributions to Idaho's written history.  
+A digital collection of Plastino's writings, the [Ben J. Plastino Papers Collection](https://www.lib.uidaho.edu/digital/plastino/), launched in December 2025, making access easier to researchers throughout Idaho and beyond. To complement the articles and other materials, the Ben J. Plastino Collection Fellow will produce one or more essays to contextualize and highlight his contributions to Idaho's written history.  
 
-Applicants with an interest in political science, journalism, or the history of Idaho should propose a project that will serve to advise researchers on the collection's value. The exact parameters of the fellowship are flexible and intended to support the recipient's educational goals. Proposals that seek to illuminate the Ben J. Plastino Collection and define the scope and depth of the materials, for the benefit of future researchers and scholars, will be evaluated most favorably.      
+Applicants with an interest in political science, journalism, or the history of Idaho should propose a project that will serve to advise researchers on the collection's value. The exact parameters of the fellowship are flexible and intended to support the recipient's educational goals. Proposals that will illuminate the Ben J. Plastino Collection and define the scope and depth of the materials, for the benefit of future researchers and scholars, will be evaluated most favorably.      
 
 ---
 
@@ -30,24 +30,24 @@ Potential areas of focus might include, but are not limited to,
 
 - Consider the qualities that effective leaders employed to craft public policy and legislation, as reflected in Plastino's observations 
 
-- Evaluate how Plastino viewed the political careers and public policy impacts of various Idaho leaders like Governors Andrus, Evans, and Batt, or Idaho's Congressional delegation 
+- Evaluate how Plastino viewed the political careers and public policy impacts of various Idaho leaders such as governors Andrus, Evans, and Batt, or Idaho's congressional delegation 
 
 - Describe how the main issues and political philosophies covered in the collection are or are not relevant to Idahoans today 
 
-- Investigate how Federal policies impacted Idaho projects and legislation, in areas like wilderness management or nuclear energy, using Plastino's writings as a vantage point    
+- Investigate how federal policies impacted Idaho projects and legislation, in areas such as wilderness management or nuclear energy, using Plastino's writings as a vantage point    
 
 ---
 
 {:#mechanics}
 ### Fellowship Mechanics
 
-- Open to any University of Idaho graduate student enrolled in Spring 2025 and planning to return in Fall 2025 
+- Open to any University of Idaho graduate student enrolled in Spring 2026 and planning to return in Fall 2026
 
 - $4,500 award; $4,000 distributed at start of project and $500 distributed upon completion 
 
 - Produce one or more essays for the Ben Plastino digital collection that enhance user understanding of materials within the collection; total word count of writings should be between 4,000 and 5,000 
 
-- Project will be completed between May 15 and August 15, 2025, under the direction of department head of Special Collections and Archives 
+- Project will be completed between May 15 and August 15, 2026, under the direction of department head of Special Collections and Archives 
 
 - Work may be completed remotely, though some in-person work in Special Collections and Archives department may be required 
 
@@ -79,9 +79,11 @@ Applicants must submit:
     <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
 </div>-->
 
-**Applications are due Friday, March 21st** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due Friday, Friday, February 20th** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 Interested students are strongly encouraged to discuss their proposals with the Head of Special Collections and Archives, Dulce Kersting-Lark, as they are developing their application materials. Dulce can be reached at [dulce@uidaho.edu](mailto:dulce@uidaho.edu).  
+
+Link to application form: [Ben J. Plastino Fellowship - Fill out form](https://forms.office.com/r/RfLQi1UcHU)
 
 ---
 

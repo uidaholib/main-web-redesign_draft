@@ -18,11 +18,9 @@ This fellowship offers a **1 Course Reduction** (or monetary equivalent) to supp
 {:#process}
 ## How to Apply
 
-To apply for the CDIL Digital Scholarship Fellowship, please contact the [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) directly. Applications are considered on a rolling basis.
+To apply for the CDIL Digital Scholarship Fellowship, please contact the [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/) directly at <cdil@uidaho.edu>. Applications are considered on a rolling basis.
 
 Interested faculty are encouraged to discuss their project ideas with CDIL staff before submitting an application.
-
-For more information and to begin the application process, visit: [https://cdil.lib.uidaho.edu/fellowships/](https://cdil.lib.uidaho.edu/fellowships/)
 
 ---
 
