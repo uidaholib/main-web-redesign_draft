@@ -1,0 +1,169 @@
+###########
+# Library Hours Display
+#
+# the "live" hours are managed in libcal
+# this data is for creating the Hours page with the general hours and holiday closures
+# it is broken into "section", with each section having "boxes" which contain hours
+#
+hours: 
+# main library building
+  - section: Building Hours
+    boxes: 
+      - title: Semester Hours
+        note: August 25 - December 19, 2025 and January 8 - May 10, 2026
+        hours: 
+          - days: Monday - Thursday
+            times: 6:00am - 2:00am
+            note: 3rd and 4th floors close at 12am
+          - days: Friday
+            times: 6:00am - 8:00pm
+          - days: Saturday
+            times: 12:00pm - 6:00pm
+          - days: Sunday
+            times: 12:00pm - 2:00am
+            note: 3rd and 4th floors close at 12am
+      - title: Summer Hours
+        note: May 11 - August 24, 2026
+        hours: 
+          - days: Monday - Friday
+            times: 8:00am - 8:00pm
+          - days: Saturday
+            times: Closed
+          - days: Sunday
+            times: 12:00pm - 8:00pm
+# ref desk
+  - section: Research Help Desk
+    alert: Instant help from librarians is available online via our <a href='https://www.lib.uidaho.edu/help/' class='alert-link'>Chat service</a> 24 hours a day, 7 days a week!
+    boxes: 
+      - title: Semester Hours
+        hours: 
+          - days: Monday - Friday
+            times: 10:00am - 4:00pm
+            note: "U of I librarians available in person and <a href='https://www.lib.uidaho.edu/help/'>via chat, text, or email</a>"
+      - title: Summer Hours
+        note: Please email <a href='mailto:libref@uidaho.edu'>libref@uidaho.edu</a> to schedule an appointment.
+# Data Hub
+  - section: "Data Hub Help Desk"
+    note: Geospatial and Data Sciences Support
+    boxes: 
+      - title: Semester Hours
+        hours: 
+          - days: Monday - Friday
+            times: 12:00pm - 3:00pm
+      - title: Summer Hours
+        note: "By appointment, please contact Jeremy Kenyon <a href='mailto:jkenyon@uidaho.edu'>jkenyon@uidaho.edu</a>"
+# GSCC
+  - section: Gary Strong Curriculum Center
+    note: College of Education, Room 340
+    boxes: 
+      - title: Semester Hours
+        hours: 
+          - days: Monday - Friday
+            times: 10:00am - 3:00pm
+            note: or by appointment
+      - title: Summer Hours
+        hours: 
+          - days: Monday - Thursday
+            times: 9:00am - 12:00pm
+            note: or by appointment
+# MILL
+  - section: The MILL
+    note: Making, Innovating, and Learning Laboratory
+    boxes: 
+      - title: Semester Hours
+        hours: 
+          - days: Monday - Friday
+            times: 8:00am - 6:00pm
+      - title: Summer Hours
+        hours: 
+          - days: Monday - Friday
+            times: 9:00am - 4:00pm
+# Spec
+  - section: Special Collections Reading Room
+    note: "<a href='https://www.lib.uidaho.edu/special-collections/plan.html'>Appointments</a> are strongly encouraged!"
+    boxes: 
+      - title: Semester Hours
+        hours: 
+          - days: Monday, Wednesday, Friday
+            times: 10:00am - 2:00pm
+          - days: Tuesday, Thursday
+            times: 12:00pm - 4:00pm          
+      - title: Summer Hours
+        hours: 
+          - days: Tuesday, Wednesday, Thursday
+            times: 9:00am - 1:00pm
+            note: or by appointment
+          - days: Monday, Friday
+            times: "By <a href='https://www.lib.uidaho.edu/special-collections/plan.html'>appointment</a>, please contact <a href='mailto:libspec@uidaho.edu'>libspec@uidaho.edu</a>"
+# ILL
+  - section: "Interlibrary Loan"
+    boxes: 
+      - title: Office Hours
+        hours: 
+          - days: Monday - Friday
+            times: 8:00am - 7:00pm
+# Random holiday hours
+  - section: Reduced Hours and Closures
+    boxes: 
+      - title: Fall Reduced Hours
+        note: 2025
+        hours: 
+          - days: August 31
+            times: 12:00pm - 12:00am
+          - days: September 2 - Labor Day
+            times: Closed
+      - title: Fall Recess
+        note: 2025
+        hours: 
+          - days: November 22 - 23
+            times: 12:00pm - 6:00pm
+          - days: November 24 - 26
+            times: 8:00am - 6:00pm
+          - days: November 27 - Thanksgiving
+            times: Closed
+          - days: November 28 - 29
+            times: 12:00pm - 6:00pm
+      - title: Winter Intersession
+        note: 2025
+        hours: 
+          - days: December 20 - 21
+            times: 12:00pm - 6:00pm
+          - days: December 22 - 23
+            times: 8:00am - 6:00pm
+          - days: December 24 - January 2
+            times: Closed
+          - days: January 3 - 4
+            times: 12:00pm - 6:00pm
+          - days: January 5 - 9
+            times: 8:00am - 6:00pm
+          - days: January 10 - 11
+            times: 12:00pm - 6:00pm
+      - title: Spring Reduced Hours
+        note: 2026
+        hours: 
+          - days: January 18
+            times: 12:00pm - 12:00am
+          - days: January 19 - Martin Luther King Jr. Day
+            times: 12:00pm - 12:00am
+          - days: February 15
+            times: 12:00pm - 12:00am
+          - days: February 16 - President's Day
+            times: 12:00pm - 12:00am
+      - title: Spring Recess
+        note: 2026
+        hours: 
+          - days: March 14 - 15
+            times: 12:00pm - 6:00pm
+          - days: March 16 - 20
+            times: 8:00am - 6:00pm
+          - days: March 21 - 22
+            times: 12:00pm - 6:00pm
+      - title: Summer Closures
+        note: 2026
+        hours: 
+          - days: May 25 - Memorial Day
+            times: Closed
+          - days: June 19 - Juneteenth
+            times: Closed
+          - days: July 3 - Independence Day (observed)
+            times: Closed

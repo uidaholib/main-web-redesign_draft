@@ -21,8 +21,6 @@ About:
     link: /about/contact.html
   - subsection: Departments
     link: /about/departments.html
-#  - subsection: Directions
-#    link: /about/directions.html
   - subsection: Journal Review
     link: /about/journalcancellations.html
 #    subpages:
@@ -44,36 +42,8 @@ About:
   #  link: /mylibrary/
   - subsection: People
     link: /about/directory.html
-#    subpages:
-#      - name: Directory 
-#        url: /about/directory.html
-#      - name: Faculty Librarians 
-#        url: /about/librarians.html
-#      - name: Subject Liaisons 
-#        url: /about/liaisons.html
   - subsection: Policies
     link: /about/policies.html
-    #subpages:
-    #  - name: Policies
-    #    url: /about/policies.html
-    #  - name: Code of Conduct
-    #    url: /about/policies.html#conduct
-    #  - name: Circulation
-    #    url: /about/policies.html#circulation
-    #  - name: Fines 
-    #    url: /about/policies.html#fines
-    #  - name: Cell Phone 
-    #    url: /about/policies.html#cellphone
-    #  - name: Food and Drink 
-    #    url: /about/policies.html#foodanddrink
-    #  - name: Reserve 
-    #    url: /about/policies.html#reserve
-    #  - name: Group Study Rooms
-    #    url: /about/policies.html#groupstudyrooms
-    #  - name: Lockers and Carrels
-    #    url: /about/policies.html#lockerscarrels
-    #  - name: Collection Management
-    #    url: /about/policies.html#collmanage
   # - subsection: Reports and Statistics
   #   link: /about/statistics.html
   - subsection: Strategic Plan
@@ -92,32 +62,6 @@ About:
   - subsection: Visit
     link: /about/visit.html
 
-# special subsections of About
-Hours:
-  - parent: About
-    stub: /about/
-  - subsection: Semester Hours
-    link: /about/hours.html#semester
-  - subsection: Summer Hours
-    link: /about/hours.html#summer
-  - subsection: Research Help Desk
-    link: /about/hours.html#research
-  - subsection: Curriculum Center
-    link: /about/hours.html#curriculum
-  - subsection: Data Hub
-    link: /about/hours.html#datahub
-  - subsection: Interlibrary Loan
-    link: /about/hours.html#ill
-  - subsection: MILL
-    link: /about/hours.html#mill
-  - subsection: Special Collections Reading Room
-    link: /about/hours.html#special
-  - subsection: Studio
-    link: /about/hours.html#studio  
-  - subsection: Reduced Hours and Closures
-    link: /about/hours.html#reduced
-  - subsection: << About
-    link: /about/
 Giving:
   - parent: About
     stub: /about/
@@ -347,11 +291,6 @@ Services:
     link: /open/pressbooks.html
   - subsection: Reference Services
     link: /help/
-#    subpages:
-#      - name: Research Help Desk
-#        url: /help/
-#      - name: Research Assistance
-#        url: /help/research.html
   - subsection: Room Reservations
     link: /services/rooms.html
   - subsection: Special Collections and Archives
@@ -366,11 +305,6 @@ Services:
     link: /verso/
   - subsection: Workshops
     link: /events/
-#    subpages:
-#      - name: Workshops
-#        url: /events/
-#      - name: Resources
-#        url: /services/workshops/resources.html
 
 
 ##########
@@ -436,8 +370,6 @@ Data Hub:
     stub: /datahub/
   - subsection: "Data Services - Data Hub"
     link: /datahub/
-#  - subsection: Data Services
-#    link: /services/data/
   - subsection: Data Management Guide
     link: https://www.lib.uidaho.edu/services/data/data-management/
   - subsection: Geospatial Resources
