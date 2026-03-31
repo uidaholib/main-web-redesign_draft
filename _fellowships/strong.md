@@ -39,7 +39,7 @@ Applicants must submit:
     <a href="https://forms.office.com/r/3UbunAida7 " class="btn btn-info my-2 mx-1"><span class="fas fa-edit"></span> Submit an Application</a>
 </div>
 
-**Applications are due Monday, March 30th** by the end of the day and a decision will be announced within two weeks of the deadline.
+**Applications are due Wednesday, April 15th** by the end of the day and a decision will be announced within two weeks of the deadline.
 
 ---
 
