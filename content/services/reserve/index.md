@@ -15,7 +15,7 @@ layout: page
 
 All Course Reserves resources must comply with provisions in the U.S. Copyright Act and FERPA. If the nature, scope, or extent of copying is judged to exceed the fair use principles of the Copyright Act, the library will work with the professor to find alternative arrangements.
 
-To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu)
+To make a reserves request, stop by the library and fill out a reserves request form, fill out the [online request form](https://uidaho.co1.qualtrics.com/jfe/form/SV_d3UL6u0pxEGpZs2), or [email Reserves directly](mailto:libreserve@uidaho.edu).
 
 {% capture instr %}
 ### Loan periods
