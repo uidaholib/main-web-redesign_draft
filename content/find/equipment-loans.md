@@ -23,7 +23,8 @@ The library offers various equipment for students, faculty, and staff to use in 
   </div>
   <div class="col-md-8 p-2">
     <h3>{{ i.name }}</h3>
-    <p>{{ i.description }}{% if i.count %} <br>{{ i.count }} available.{% endif %}</p>
+    <p>{{ i.description }}</p>
+    {% if i.count or i.loan_period %}<p>{% if i.loan_period %}Loan period: {{ i.loan_period }}. {% endif %}{% if i.count %}{{ i.count }} available.{% endif %}</p>{% endif %}
   </div>
 </div>
 </div>
