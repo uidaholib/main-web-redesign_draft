@@ -31,7 +31,7 @@ We are informed by the philosophy that accessibility is essential to useability 
 Any improvements we make to better structure and markup information are intended to positively impact access for all users, on all devices, and to enable preservation for future users.
 *Following accessibility guidelines improves usability for everyone.*
 
-To do this, we carry out accessibility audits as part of our regular design process, using [Lighthouse](https://developer.chrome.com/docs/lighthouse/accessibility/scoring/) and other accessibility and performance audit services to assess our site in an ongoing manner.
+To do this, we carry out accessibility audits as part of our regular design process, using [Lighthouse](https://developer.chrome.com/docs/lighthouse/accessibility/scoring/), [WAVE Evaluation Tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh), and other accessibility and performance audit services to assess our site in an ongoing manner.
 The relative simplicity of our static web approach and semantic markup lends itself to good accessibility and the ability to quickly fix issues.
 
 The library also makes available subscription content from numerous vendors using technology outside of our management.
