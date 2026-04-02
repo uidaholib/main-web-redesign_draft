@@ -45,7 +45,7 @@ layout: page-narrow
     <div class="col-md-8 mx-auto">
         <div class="card">
             <div class="card-header">
-                <h5 class="mb-0"><i class="fas fa-info-circle"></i> Fellowship Details</h5>
+                <h2 class="h5 mb-0"><i class="fas fa-info-circle"></i> Fellowship Details</h2>
             </div>
             <div class="card-body">
                 <dl class="row mb-0">
@@ -116,7 +116,7 @@ layout: page-narrow
 {% if page.show_past_projects != false %}
 <div id="past" class="pb-2">
     <hr>
-    <h3>Past Projects</h3>
+    <h2>Past Projects</h2>
     
     {% comment %} Get past recipients from fellowships.csv {% endcomment %}
     {% assign past_recipients = site.data.fellowships | where: "fellowship", page.title %}
@@ -137,9 +137,9 @@ layout: page-narrow
                     {% endif %}
                     <div class="card-body d-flex flex-column">
                         {% if first_recipient.project %}
-                        <h5 class="card-title">{{ first_recipient.project }}</h5>
+                        <h3 class="h5 card-title">{{ first_recipient.project }}</h3>
                         {% else %}
-                        <h5 class="card-title">{{ first_recipient.full-name }}'s Project</h5>
+                        <h3 class="h5 card-title">{{ first_recipient.full-name }}'s Project</h3>
                         {% endif %}
                         
                         {% comment %} Display fellow(s) names {% endcomment %}
