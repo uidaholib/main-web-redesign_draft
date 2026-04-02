@@ -8,9 +8,10 @@ gallery: true
 ---	
 
 <div class="text-center align-content-center mb-3">
-	<a href="{{ site.lib-media }}/about/library_virtual_tour.pdf" class="btn btn-payette-blue btn-sm my-2"><span class="far fa-file-alt"></span> Virtual Tour PDF</a>
 	<button id="viewGalleryBtn" class="btn btn-payette-blue btn-sm my-2"><span class="far fa-images"></span> Map Gallery</button>
-	<a href="/find/lc.html" class="btn btn-payette-blue btn-sm my-2"><span class="fas fa-list"></span> Library of Congress Call Numbers</a>
+	<a href="/find/lc.html" class="btn btn-payette-blue btn-sm my-2"><span class="fas fa-list"></span> Book Locations (LOC Numbers)</a>
+	<a href="{{ site.lib-media }}/stackmaps/library_virtual_tour.pdf" class="btn btn-payette-blue btn-sm my-2"><span class="far fa-file-alt"></span> Virtual Tour PDF</a>
+	<a href="{{ '/services/rooms.html' | relative_url }}" class="btn btn-payette-blue btn-sm my-2"><span class="fas fa-door-open"></span> Book a Room</a>
 </div>
 
 {% assign maps = site.data.about_floor_maps %}
@@ -19,13 +20,18 @@ gallery: true
 	<div class="row no-gutter">
 		<div class="col-md-8">
 			<div class="card-body">
-				<h3 id="{{ m.name | slugify }}" class="h2 card-title">{{ m.name }}</h3>
+				<h2 id="{{ m.name | slugify }}" class="card-title">{{ m.name }}</h2>
 				<p class="card-text">{{ m.description }}</p>
+				<ul>
+					<li><strong>Services:</strong> {{ m.services }}</li>
+					<li><strong>Spaces:</strong> {{ m.spaces }}</li>
+					<li><strong>Collections:</strong> {{ m.collections }}</li>
+				</ul>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<a href="{{ site.lib-media }}{{ m.img }}" title="{{ m.name }}" class="spotlight gallery-img" data-download="true" >
-				<img src="{{ site.lib-media }}{{ m.img_md }}" class="card-img p-2" alt="map of {{ m.name }}">
+				<img src="{{ site.lib-media }}{{ m.img_md }}" class="card-img p-2" alt="map of {{ m.name }} highlighting services as described in the content">
 			</a>
 		</div>
 	</div>
