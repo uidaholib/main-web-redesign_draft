@@ -14,7 +14,7 @@ Need help finding articles, starting your research, or have other library questi
 We are online ready to answer your questions from anywhere.
 
 Visit the [Information and Research Help page]({{ '/help/' | relative_url }}) to connect with U of I librarians via chat, text, or email. 
-Just [ask us]({{ '/help/' | relative_url }})!
+Ask us!
 
 <div class="text-center mb-2">
 <a href="{{ '/help/' | relative_url }}" class="btn btn-outline-pride-gold m-2">Reference and Research Help</a>
