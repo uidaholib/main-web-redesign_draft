@@ -3,6 +3,8 @@ title: "MILL Newsletters"
 section: MILL
 permalink: /mill/news.html
 layout: page
+noindex: true
+# not in nav, pdfs
 ---
 
 *From the MILL* is the MILL’s newsletter, posted several times each semester. 
