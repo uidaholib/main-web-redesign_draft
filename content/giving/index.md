@@ -44,9 +44,3 @@ We thank you for your interest and for your support of the University of Idaho L
 Keep up to date with Library's tools, services, collections, and happenings with our monthly email newsletter, *Letters from the Library*.
 To subscribe, visit [U of I's Email Preferences page](https://www.uidaho.edu/newsroom/email-preferences), enter your information and scroll down to the "Library" section to select our communications.
 Please <a href="mailto:librdean@uidaho.edu?subject=Subscription%20to%20Letters">send us an email</a> with any questions.
-
-Download past newsletter issues:
-
-{% assign newsletters = site.data.giving_newsletter | sort: "date" | reverse %}
-{% for i in newsletters %}
-- [{{ i.month }}]({{ site.lib-media }}/newsletter/{{ i.filename }}){% endfor %}
