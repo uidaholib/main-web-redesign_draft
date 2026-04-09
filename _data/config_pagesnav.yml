@@ -187,13 +187,13 @@ Find:
     link: /find/equipment-loans.html
   - subsection: Geospatial Resources
     link: /find/geospatial/
-    subpages:
-      - name: Geospatial Home
-        url: /find/geospatial/
-      - name: Software
-        url: /find/geospatial/software.html
-      - name: GIS Day
-        url: /gisday/
+#    subpages:
+#      - name: Geospatial Home
+#        url: /find/geospatial/
+#      - name: Software
+#        url: /find/geospatial/software.html
+#      - name: GIS Day
+#        url: /gisday/
   - subsection: Gov. Documents
     link: /find/govdocs/
     subpages:
