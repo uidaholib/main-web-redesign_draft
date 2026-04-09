@@ -15,7 +15,7 @@ For general help with Canvas, please check [CETL's excellent support resources](
 ## How to Activate Leganto in Canvas
 
 To get started using Leganto the library will need to activate your Canvas course--please follow the instructions below.
-Once activated, you will be ready to [add, edit, save, and customize reading lists in Canvas]({{ site.lib-media }}/reserves/leganto_reading_list.pdf).
+Once activated, you will be ready to add, edit, save, and customize reading lists in Canvas.
 
 ### 1. Let the library know your Course ID number
 
