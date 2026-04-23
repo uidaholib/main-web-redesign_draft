@@ -35,7 +35,9 @@ Names:
 Email:
 
 - Check that emails are updated and consistent across site.
-- Code should be `<a href="mailto:username@uidaho.edu">Name</a>`
+- In markdown `<username@uidaho.edu>` will be converted into a email link.
+- In HTML should be `<a href="mailto:username@uidaho.edu">username@uidaho.edu</a>`
+- Consider if it should be an email link (which will open a email client for the user) or a link to the person's profile page giving users more contact options.
 
 Font Awesome Icons:
 
