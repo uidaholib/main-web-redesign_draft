@@ -1,0 +1,87 @@
+# =====================================================================
+# Zones — single source of truth for room categorization.
+# Referenced by rooms.csv via the `zone` column.
+# Colors are pulled from the U of I brand book (or supplemented when no
+# brand color is specified for a category).
+# =====================================================================
+# Each zone has:
+#   key:          short identifier used in rooms.csv (lowercase, no spaces)
+#   label:        human-readable name shown in the legend and zone tags
+#   color:        hex value used for SVG fill and CSS swatches
+#   brand_name:   the U of I brand color name (if applicable)
+#   description:  internal note about what belongs in this zone
+# =====================================================================
+
+service:
+  label: "Service Areas"
+  color: "#F1B300"
+  brand_name: "Pride Gold"
+  description: >
+    Service desks and staffed support points (Circulation, Research Help,
+    Tutoring, Writing Center, Interlibrary Loan, Special Collections).
+
+resources:
+  label: "Resources"
+  color: "#008080"
+  brand_name: "Clearwater"
+  description: >
+    Tools, equipment, and dedicated learning/research spaces (Studio,
+    Computer Labs, ITS Help Desk, Data Hub, Mill, CDIL, Reference).
+
+collab:
+  label: "Collaboration & Presentation"
+  color: "#9D99D1"
+  brand_name: "Lupine (tinted)"
+  description: >
+    Group-friendly spaces (Living Room, Fishbowl, Group Study Rooms,
+    Instruction Rooms, Gallery and Exhibit spaces).
+
+books:
+  label: "Books"
+  color: "#034441"
+  brand_name: "Palouse"
+  description: >
+    Main book stacks organized by Library of Congress call numbers.
+    Use for the primary monograph collection.
+
+periodicals:
+  label: "Periodicals"
+  color: "#999999"
+  brand_name: null
+  description: >
+    Bound print periodicals, current periodicals, newspapers, microforms,
+    and similar serial collections.
+
+individual:
+  label: "Individual Study"
+  color: "#D7003F"
+  brand_name: "Raspberry"
+  description: >
+    Quiet, individual-focused study areas — perimeter seating, study
+    carrels, and graduate carrels.
+
+restrooms:
+  label: "Restrooms"
+  color: "#AB4700"
+  brand_name: "Leather"
+  description: >
+    Restroom facilities. All listed restrooms on a floor are treated as
+    one navigation target in the UI.
+
+admin:
+  label: "Admin Areas"
+  color: "#AB4700"
+  brand_name: "Leather"
+  description: >
+    Library administrative offices, faculty/staff offices, conference
+    rooms used by staff. Visible on the map but typically not bookable
+    by patrons.
+
+nonpublic:
+  label: "Non-Public / Staff"
+  color: "#6a6a6a"
+  brand_name: null
+  description: >
+    Back-of-house spaces (mail rooms, facilities, staff lounges,
+    elevators, utility closets). Shown on the map for context but not
+    interactive in browse/tour by default.

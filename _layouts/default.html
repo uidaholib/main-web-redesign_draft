@@ -6,13 +6,13 @@
 
   <body>
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-    {% include top-bar.html %}
-    {% include banner.html %}
-    {% include main-nav.html %}
+     {% unless page.layout == 'floor-map' %}{% include top-bar.html %}
+   {% include banner.html %}
+    {% include main-nav.html %}{% endunless%}
     
     {{ content }}
     
-    {% include footer.html %}
+      {% unless page.layout == 'floor-map' %}{% include footer.html %}{% endunless %}
     {% include ask-us.html %}
     {% include foot.html %}
   </body>

@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>University of Idaho Library — Interactive Map</title>
+<style>
+  :root {
+    --pride-gold: #F1B300;
+    --steel: #323232;
+    --raspberry: #D7003F;
+    --lupine: #5E48FF;
+    --clearwater: #008080;
+    --leather: #AB4700;
+    --huckleberry: #261882;
+    --bg: #fafaf7;
+    --ink: #191919;
+    --muted: #6a6a6a;
+    --rule: #e3e3dc;
+    --panel: #ffffff;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: 'Public Sans', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  /* === Layout === */
+  .app {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .map-pane {
+    position: relative;
+    overflow: hidden;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+  }
+  .side-pane {
+    border-left: 1px solid var(--rule);
+    background: var(--panel);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* === Floor tabs (top of map area) === */
+  .floor-tabs {
+    display: flex;
+    gap: 2px;
+    padding: 16px 20px 0;
+    background: var(--bg);
+  }
+  .floor-tabs button {
+    background: #ebe9e0;
+    border: 1px solid transparent;
+    border-bottom: none;
+    padding: 10px 18px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+    transition: background 0.15s, color 0.15s;
+  }
+  .floor-tabs button:hover { color: var(--ink); }
+  .floor-tabs button.is-active {
+    background: var(--panel);
+    color: var(--ink);
+    border-color: var(--rule);
+    border-bottom: 1px solid var(--panel);
+    margin-bottom: -1px;
+    z-index: 2;
+  }
+
+  /* === SVG container === */
+  .svg-wrap {
+    flex: 1;
+    overflow: hidden;
+    padding: 0 20px 20px;
+    border-top: 1px solid var(--rule);
+    background: var(--panel);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .svg-wrap svg {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+  }
+
+  /* The SVG's built-in Color Key is hidden — we render our own in the side panel 
+  .svg-wrap svg #Color_Key { display: none; }*/
+
+  /* Text labels sit on top of rooms — let clicks fall through */
+  .svg-wrap svg #text text,
+  .svg-wrap svg #text tspan,
+  .svg-wrap svg [id$="-text"],
+  .svg-wrap svg [id$="_text"],
+  .svg-wrap svg #floor_xA0_vector,
+  .svg-wrap svg #floorvector,
+  .svg-wrap svg #RestroomIcons,
+  .svg-wrap svg #FishbowlRestroomIcons,
+  .svg-wrap svg #Title,
+  .svg-wrap svg #Subtitle {
+    pointer-events: none;
+  }
+
+  /* === Interactive room styling === */
+  .room {
+    cursor: pointer;
+    transition: filter 0.15s ease, opacity 0.15s ease;
+  }
+  .room:hover { filter: brightness(1.15); }
+  .room.is-selected {
+    outline: 3px solid var(--ink);
+    outline-offset: 1px;
+  }
+  .map-pane.has-selection .room:not(.is-selected) {
+    opacity: 0.45;
+  }
+
+  /* Tour pins */
+  .tour-pin {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  .tour-pin:hover { transform: scale(1.15); }
+  .tour-pin circle {
+    fill: var(--pride-gold);
+    stroke: var(--ink);
+    stroke-width: 1.2;
+  }
+  .tour-pin text {
+    font-weight: 800;
+    font-size: 11px;
+    fill: var(--ink);
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+  }
+  .tour-pin.is-active circle { fill: var(--raspberry); }
+  .tour-pin.is-active text { fill: white; }
+
+  /* === Tooltip === */
+  .tooltip {
+    position: fixed;
+    background: var(--ink);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    z-index: 100;
+    white-space: nowrap;
+  }
+  .tooltip.is-visible { opacity: 1; }
+
+  /* === Side pane === */
+  .side-header {
+    padding: 24px 24px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .side-header h1 {
+    margin: 0 0 4px;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .side-header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .modes {
+    display: flex;
+    border-bottom: 1px solid var(--rule);
+    background: #f4f4ee;
+  }
+  .modes button {
+    flex: 1;
+    background: none;
+    border: none;
+    padding: 12px 8px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .modes button.is-active {
+    color: var(--ink);
+    border-bottom-color: var(--pride-gold);
+    background: var(--panel);
+  }
+  .modes button:hover:not(.is-active) { color: var(--ink); }
+
+  /* Search */
+  .search-wrap {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .search-wrap input {
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: 14px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: white;
+  }
+  .search-wrap input:focus {
+    outline: 2px solid var(--pride-gold);
+    outline-offset: -1px;
+    border-color: var(--pride-gold);
+  }
+
+  /* Room list */
+  .room-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 0;
+  }
+  .room-list .group-label {
+    padding: 12px 24px 4px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .room-list button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 8px 24px;
+    font: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--ink);
+    border-left: 3px solid transparent;
+  }
+  .room-list button:hover { background: #f7f5ed; }
+  .room-list button.is-selected {
+    background: #fef6dc;
+    border-left-color: var(--pride-gold);
+    font-weight: 600;
+  }
+  .room-list .swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* Detail */
+  .detail {
+    padding: 20px 24px 32px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .detail .zone-tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white;
+    margin-bottom: 12px;
+  }
+  .detail h2 {
+    margin: 0 0 12px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  .detail p {
+    margin: 0 0 12px;
+    font-size: 15px;
+    color: #2a2a2a;
+  }
+  .detail .empty {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 14px;
+  }
+  .back-button {
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  .back-button:hover { background: #f7f5ed; }
+
+  /* Tour panel */
+  .tour-panel {
+    padding: 20px 24px 32px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .tour-panel .tour-step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--pride-gold);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .tour-controls {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .tour-controls button {
+    flex: 1;
+    padding: 10px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--ink);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .tour-controls button:disabled {
+    background: #c0c0bd;
+    cursor: not-allowed;
+  }
+  .tour-controls button.secondary {
+    background: white;
+    color: var(--ink);
+    border: 1px solid var(--rule);
+  }
+  .progress {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  /* Zone tag colors */
+  .zone-resources { background: var(--clearwater); }
+  .zone-collab { background: var(--lupine); }
+  .zone-service { background: var(--pride-gold); color: var(--ink); }
+  .zone-restrooms { background: var(--leather); }
+  .zone-nonpublic { background: #6a6a6a; }
+  .zone-individual { background: var(--raspberry); }
+  .zone-books { background: #034441; }
+  .zone-periodicals { background: #6a6a6a; }
+  .zone-study { background: var(--raspberry); }
+
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; grid-template-rows: 60vh 1fr; }
+    .side-pane { border-left: none; border-top: 1px solid var(--rule); }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <div class="map-pane" id="mapPane">
+    <nav class="floor-tabs" id="floorTabs">
+      <button data-floor="1" class="is-active">First Floor</button>
+      <button data-floor="2">Second Floor</button>
+    </nav>
+    <div class="svg-wrap" id="svgWrap"></div>
+  </div>
+
+  <aside class="side-pane">
+    <header class="side-header">
+      <h1 id="floorTitle">First Floor</h1>
+      <p id="floorSubtitle">Circulation, Genre Cubbies, Special Collections, and The Mill</p>
+    </header>
+
+    <nav class="modes">
+      <button data-mode="browse" class="is-active">Browse</button>
+      <button data-mode="tour">Take a Tour</button>
+    </nav>
+
+    <div id="browseView">
+      <div class="search-wrap">
+        <input type="search" id="search" placeholder="Search for a room or service…">
+      </div>
+      <div class="room-list" id="roomList"></div>
+    </div>
+
+    <div class="detail" id="detailView" hidden></div>
+    <div class="tour-panel" id="tourView" hidden></div>
+  </aside>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<!-- Inlined SVGs — hidden until the active floor is selected -->
+<div id="svgStore" hidden>
+  <div data-floor="1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.2 471.69">
+  <g id="zone-Service">
+    <rect id="Circulation" x="137.14" y="233.46" width="78" height="53.26" fill="#f1b300"/>
+    <rect id="Spec_Reading_Room" x="174.1" y="158.69" width="41.59" height="51.29" fill="#f1b300"/>
+    <rect id="InterLibrary_Loan" x="207.94" y="90.94" width="71.76" height="28.91" fill="#f1b300"/>
+  </g>
+  <g id="zone-Collaboration">
+    <polygon id="Living_Room" points="384.18 129.76 279.94 132.57 279.94 275.4 329.39 294.93 384.18 129.76" fill="#9d99d1"/>
+    <rect id="Group_Study_Rooms" x="64.76" y="288.48" width="38.78" height="54.2" fill="#9d99d1"/>
+    <path id="Group_Study_Area" d="M199.03,392.33c0-.07,7.13-.08,9.35-.03v-38.77h-85.8v61.67h49.91c-.85-.02-1.41-.05-1.42-.1-.41-3.24.01-6.47.2-9.71,0-.56-.01-1.11-.01-1.67,0,0,.03,0,.08,0,0-.1,0-.2,0-.3,0-.14,10-.02,10,0,0,.08,0,.16,0,.24.06,0,.12,0,.17,0v-.04c0-.05,3.69-.07,6.59-.06v-.04c0-.07,7.61-.08,9.55-.03.31,0,.8-.02,1.37-.02v-11.13Z" fill="#9d99d1"/>
+    <ellipse id="Fishbowl" cx="287.41" cy="360.94" rx="46.77" ry="49.2" fill="#9d99d1"/>
+    <polyline id="Instruction_Room_120" points="174.6 108.23 208.24 108.23 208.24 119.91 215.57 120.27 215.57 158.5 174.89 158.69 174.6 108.23" fill="none"/>
+    <rect id="Board_Games" x="317.65" y="215.28" width="30.2" height="19.74" fill="none"/>
+    <rect id="New_Books" x="282.91" y="212.34" width="29.48" height="24.86" fill="none"/>
+    <rect id="Current_Periodicals" x="315.19" y="171.57" width="48.2" height="19.13" fill="none"/>
+    <rect id="Graphic_Novels" x="285.24" y="189.41" width="32.42" height="20.33" fill="none"/>
+  </g>
+  <g id="zone-Resources">
+    <rect id="Studio" x="181.78" y="209.74" width="33.79" height="41.28" fill="teal"/>
+    <rect id="Computer_Lab" x="224.02" y="125.34" width="48.72" height="140.08" fill="teal"/>
+    <rect id="Mill" x="64.05" y="342.68" width="39.49" height="73.46" fill="teal"/>
+    <polygon id="DataHub" points="416.26 32.87 280.98 32.14 280.98 109.66 390.33 109.66 416.26 32.87" fill="teal"/>
+    <rect id="Library_Computer_2" x="170.98" y="301.3" width="7.98" height="4.2" fill="teal"/>
+    <path id="Reference_Collection" d="M170.68,310.88h-30.78v-3.25h30.78v3.25ZM173.04,309.25h-3.18v30.65h3.18v-30.65ZM170.68,338.45h-30.78v3.36h30.78v-3.36Z" fill="teal"/>
+    <rect id="Library_Computer_1" x="241.42" y="300.85" width="7.86" height="4.58" fill="teal"/>
+    <rect id="KIC_Scanner" x="279.94" y="300.85" width="8.63" height="4.38" fill="teal"/>
+    <rect id="ITS_Help_Desk" x="224.02" y="125.34" width="37.93" height="23.82" fill="none"/>
+  </g>
+  <g id="zone-NonPublic">
+    <rect id="MailRoom" x="137.14" y="91.94" width="37.44" height="107.03" fill="#b2ab9a"/>
+    <polyline id="Facilities" points="64.76 163.31 135.88 163.31 135.88 199.51 164.92 199.51 164.92 221.88 171.45 221.88 171.45 232.96 136.64 232.96 136.64 287.98 64.76 287.98 64.76 163.31" fill="#b2ab9a" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+  <g id="zone-Restrooms">
+    <rect id="Fishbowl_Restrooms" x="292.25" y="365.56" width="12.3" height="10.83" fill="#ab4700"/>
+    <polygon id="Womens" points="216 365.72 216 358.07 208.38 358.07 208.38 365.72 208.38 365.96 208.38 414.83 226.85 414.83 226.85 365.72 216 365.72" fill="#ab4700"/>
+    <polygon id="Mens" points="239.87 365.72 239.87 358.07 232.24 358.07 232.24 365.72 225.89 365.72 225.89 414.94 245.44 414.94 245.44 365.72 239.87 365.72" fill="#ab4700"/>
+    <g id="RestroomIcons">
+      <path d="M214.6,384.83c0,.22-.06.36-.2.52-.14.15-.21.2-.4.25-.21.06-.4.03-.6-.1-.33-.19-.47-.64-.31-1,.13-.28.41-.46.72-.46.24,0,.39.06.56.23.17.18.23.32.23.55Z" fill="#fff"/>
+      <path d="M216.04,388.98c0,.16-.1.3-.25.34-.11.03-.27-.02-.34-.12-.03-.04-.19-.53-.35-1.1s-.31-1.05-.32-1.08c0-.03-.04-.04-.1-.04-.05,0-.08,0-.08.01s.24.82.52,1.81c.29.99.52,1.81.52,1.81s-.22.01-.49.01h-.49v1.45c-.01,1.42-.01,1.45-.06,1.51-.13.18-.31.22-.5.13-.21-.11-.2-.03-.2-1.66v-1.43h-.22v1.43c0,1.56,0,1.54-.14,1.64-.09.07-.28.09-.38.04-.1-.05-.18-.14-.21-.24-.01-.05-.02-.64-.02-1.48v-1.39h-.49c-.27,0-.49,0-.49-.01,0,0,.98-3.42,1.04-3.6.01-.03,0-.04-.07-.04h-.08l-.25.86c-.39,1.31-.39,1.31-.48,1.4-.07.07-.1.08-.2.08-.21,0-.35-.14-.35-.33,0-.09.71-2.44.79-2.58.13-.26.44-.49.75-.54.17-.03,1.23-.03,1.4,0,.29.05.6.27.75.53.08.13.79,2.47.79,2.6Z" fill="#fff"/>
+      <path d="M223.45,392.25c-.5.89-1.6,1.52-2.88,1.52-1.75,0-3.17-1.15-3.17-2.56,0-.92.6-1.71,1.5-2.16l.05.63c-.53.37-.88.92-.88,1.53,0,1.12,1.12,2.02,2.5,2.02,1.2,0,2.2-.69,2.44-1.61l.45.62Z" fill="#fff"/>
+      <path d="M224.8,392.59c-.23.11-.54.04-.68-.14l-1.12-1.56h-2.73c-.45,0-.82-.26-.86-.62l-.15-2.07c-.02-.36.32-.67.77-.7.45-.02.83.26.86.62l.05.58h1.58c.21,0,.38.14.38.31s-.17.3-.38.31h-1.53l.02.51h2.11c.16,0,.32.07.41.19l1.44,2.01c.13.2.06.43-.17.54Z" fill="#fff"/>
+      <path d="M220.32,387.3c-.18.04-.24.04-.42,0-.18-.04-.28-.09-.41-.21-.29-.25-.28-.65,0-.91.35-.31.99-.29,1.3.05.36.4.12.94-.47,1.07Z" fill="#fff"/>
+      <path d="M241.42,393.2c-.44.79-1.41,1.34-2.55,1.34-1.55,0-2.8-1.02-2.8-2.27,0-.81.53-1.52,1.32-1.92l.04.56c-.47.33-.78.81-.78,1.36,0,.99.99,1.79,2.22,1.79,1.07,0,1.95-.61,2.16-1.42l.39.55Z" fill="#fff"/>
+      <path d="M242.61,393.51c-.21.1-.48.04-.6-.12l-.99-1.38h-2.42c-.39,0-.73-.23-.76-.55l-.13-1.83c-.02-.32.28-.6.68-.62.4-.02.73.23.76.55l.05.52h1.4c.19,0,.34.12.34.27s-.15.27-.34.28h-1.36l.02.46h1.87c.14,0,.28.06.36.17l1.27,1.78c.12.17.06.38-.15.48Z" fill="#fff"/>
+      <path d="M238.64,388.82c-.16.03-.21.03-.37,0-.16-.03-.25-.08-.37-.18-.25-.22-.25-.58,0-.81.31-.28.88-.26,1.15.05.32.35.11.84-.42.95Z" fill="#fff"/>
+      <path d="M232.9,384.68c-.19.05-.26.05-.45,0-.19-.05-.3-.12-.44-.27-.31-.33-.31-.87,0-1.21.38-.42,1.07-.38,1.4.07.39.53.13,1.25-.51,1.42Z" fill="#fff"/>
+      <path d="M234.79,387.54c0,1.42,0,1.53-.05,1.62-.14.26-.56.26-.68,0-.04-.09-.05-.22-.05-1.43v-1.33h-.17v3.62s-.01,3.62-.01,3.62l-.08.13c-.21.36-.8.31-.94-.07-.02-.05-.03-.77-.03-2.23v-2.15h-.17v2.07c0,1.38-.01,2.11-.03,2.21-.04.17-.14.3-.29.37-.13.06-.33.07-.45.01-.1-.05-.22-.17-.26-.28-.02-.05-.03-1.21-.03-3.69v-3.61h-.2v1.35c0,1.3,0,1.35-.06,1.44-.14.24-.54.22-.68-.02-.05-.09-.05-.18-.04-1.7,0-1.57,0-1.61.07-1.75.13-.32.39-.57.7-.69.15-.06.22-.06,1.21-.07,1.12,0,1.31,0,1.56.12.19.09.43.31.53.49.16.29.16.33.16,1.99Z" fill="#fff"/>
+    </g>
+    <g id="FishbowlRestroomIcons">
+      <path d="M293.61,369.71c0,.1-.02.16-.09.24-.06.07-.1.09-.18.11-.09.02-.18.01-.27-.04-.15-.09-.21-.29-.14-.45.06-.13.18-.21.32-.21.11,0,.18.03.25.11.08.08.1.14.1.25Z" fill="#fff"/>
+      <path d="M294.26,371.58c0,.07-.04.13-.11.15-.05.01-.12-.01-.15-.05-.01-.02-.08-.24-.16-.5s-.14-.48-.14-.49c0-.01-.02-.02-.04-.02-.02,0-.04,0-.04,0s.11.37.24.82c.13.45.24.82.24.82s-.1,0-.22,0h-.22v.65c0,.64,0,.65-.03.68-.06.08-.14.1-.22.06-.09-.05-.09-.01-.09-.75v-.65h-.1v.64c0,.7,0,.69-.06.74-.04.03-.13.04-.17.02-.04-.02-.08-.06-.09-.11,0-.02-.01-.29-.01-.67v-.63h-.22c-.12,0-.22,0-.22,0,0,0,.44-1.54.47-1.62,0-.02,0-.02-.03-.02h-.04l-.11.39c-.17.59-.17.59-.22.63-.03.03-.04.04-.09.04-.09,0-.16-.06-.16-.15,0-.04.32-1.1.35-1.16.06-.12.2-.22.34-.25.08-.01.55-.01.63,0,.13.02.27.12.34.24.04.06.36,1.11.36,1.17Z" fill="#fff"/>
+      <path d="M297.61,373.06c-.22.4-.72.69-1.3.69-.79,0-1.43-.52-1.43-1.15,0-.41.27-.77.67-.98l.02.29c-.24.17-.4.41-.4.69,0,.5.51.91,1.13.91.54,0,.99-.31,1.1-.72l.2.28Z" fill="#fff"/>
+      <path d="M298.22,373.21c-.11.05-.24.02-.3-.06l-.5-.71h-1.23c-.2,0-.37-.12-.39-.28l-.07-.93c0-.16.14-.3.35-.31.2,0,.37.12.39.28l.02.26h.71c.1,0,.17.06.17.14s-.08.14-.17.14h-.69v.23h.96c.07,0,.14.03.18.09l.65.91c.06.09.03.19-.08.25Z" fill="#fff"/>
+      <path d="M296.2,370.83c-.08.02-.11.02-.19,0-.08-.02-.13-.04-.19-.09-.13-.11-.13-.29,0-.41.16-.14.45-.13.59.02.16.18.05.43-.21.48Z" fill="#fff"/>
+      <path d="M303.91,373.14c-.2.36-.64.61-1.15.61-.7,0-1.27-.46-1.27-1.02,0-.37.24-.68.6-.86l.02.25c-.21.15-.35.37-.35.61,0,.45.45.81,1,.81.48,0,.88-.28.97-.64l.18.25Z" fill="#fff"/>
+      <path d="M304.45,373.28c-.09.04-.22.02-.27-.05l-.45-.62h-1.09c-.18,0-.33-.1-.34-.25l-.06-.83c0-.14.13-.27.31-.28.18,0,.33.1.34.25l.02.23h.63c.09,0,.15.06.15.12s-.07.12-.15.12h-.61v.21h.85c.06,0,.13.03.16.08l.57.8c.05.08.02.17-.07.22Z" fill="#fff"/>
+      <path d="M302.66,371.16c-.07.02-.1.02-.17,0-.07-.02-.11-.04-.16-.08-.11-.1-.11-.26,0-.37.14-.13.4-.12.52.02.14.16.05.38-.19.43Z" fill="#fff"/>
+      <path d="M300.07,369.53c-.09.02-.12.02-.2,0-.09-.02-.14-.05-.2-.12-.14-.15-.14-.39,0-.55.17-.19.48-.17.63.03.17.24.06.57-.23.64Z" fill="#fff"/>
+      <path d="M300.92,370.82c0,.64,0,.69-.02.73-.06.12-.25.12-.31,0-.02-.04-.02-.1-.02-.65v-.6h-.08v1.63s0,1.63,0,1.63l-.03.06c-.09.16-.36.14-.43-.03,0-.02-.01-.35-.01-1v-.97h-.08v.93c0,.62,0,.95-.01,1-.02.08-.06.13-.13.17-.06.03-.15.03-.2,0-.05-.02-.1-.08-.12-.12,0-.02-.01-.54-.01-1.67v-1.63h-.09v.61c0,.59,0,.61-.03.65-.07.11-.24.1-.31-.01-.02-.04-.02-.08-.02-.77,0-.71,0-.73.03-.79.06-.14.17-.26.32-.31.07-.03.1-.03.54-.03.51,0,.59,0,.7.05.09.04.19.14.24.22.07.13.07.15.07.9Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Color_Key">
+    <g>
+      <ellipse cx="450.99" cy="415.94" rx="6.97" ry="6.16" fill="teal"/>
+      <text transform="translate(352.58 418.42)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Resources</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="450.93" cy="435.78" rx="6.97" ry="6.16" fill="#a94925"/>
+      <text transform="translate(352.52 438.27)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Restrooms</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="451.22" cy="396.1" rx="6.97" ry="6.16" fill="#9c98ca"/>
+      <text id="Collaboration__x26___Presentation_Areas" transform="translate(351.89 393.58)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Collaboration &amp; </tspan><tspan x="0" y="10">Presentation Areas</tspan></text>
+    </g>
+    <text transform="translate(360.58 372.82)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="17" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Color Key</tspan></text>
+    <g>
+      <ellipse cx="450.93" cy="455.62" rx="6.97" ry="6.16" fill="#efb21d"/>
+      <text transform="translate(351.6 458.11)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Service Areas</tspan></text>
+    </g>
+  </g>
+  <g id="text">
+    <text transform="translate(176.2 200.7)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">121</tspan></text>
+    <text transform="translate(177.24 151.61)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">120</tspan></text>
+    <text transform="translate(237.65 115.86)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">109</tspan></text>
+    <text transform="translate(76.25 331.65)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">132</tspan></text>
+    <text transform="translate(78.28 304.82)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">131</tspan></text>
+    <text id="Collaborative_Work_and_Meeting_Spaces" transform="translate(8.44 307.78)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Reservable </tspan><tspan x="0" y="9.6">Group Study </tspan><tspan x="0" y="19.2">Rooms</tspan></text>
+    <text id="Group_Study_Areatext" transform="translate(127.53 384)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Group Study Area</tspan></text>
+    <text id="Reference_Coll" transform="translate(125.94 322.62)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Reference </tspan><tspan x="0" y="9.6">Collection</tspan></text>
+    <text transform="translate(143.31 299.53)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Library Computer</tspan></text>
+    <text id="Circulation-text" transform="translate(166.85 272.22)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Circulation</tspan></text>
+    <text id="TheFishbowl" transform="translate(255.41 334.86)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">The Fishbowl</tspan></text>
+    <text id="LibraryComputer-1" transform="translate(228.82 289.71)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Library </tspan><tspan x="0" y="8.4">Computer</tspan></text>
+    <text id="KICScanner-text" transform="translate(272.45 289.71)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">KIC </tspan><tspan x="0" y="8.4">Scanner</tspan></text>
+    <text transform="translate(333.17 315.18)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Library Entrance</tspan></text>
+    <text id="REadingroom" transform="translate(176.15 171.42)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">SPEC</tspan><tspan x="0" y="9.6">Reading</tspan><tspan x="0" y="19.2">Room</tspan></text>
+    <text id="LivingRoom-text" transform="translate(307.79 158.3)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Living Room</tspan></text>
+    <text id="newbooks" transform="translate(285.83 222.32)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">New </tspan><tspan x="0" y="9.6">Books</tspan></text>
+    <text id="Graphic_Novels-text" transform="translate(286.31 196.86)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Graphic </tspan><tspan x="0" y="9.6">Novels</tspan></text>
+    <text id="CurrentPer" transform="translate(317.27 179.73)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Current</tspan><tspan x="0" y="9.6">Periodicals</tspan></text>
+    <text id="Board_Games-text" transform="translate(319.43 222.3)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Board </tspan><tspan x="0" y="9.6">Games</tspan></text>
+    <text id="Interlibrary_Loan-text" transform="translate(211.19 106.74)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Interlibrary Loan</tspan></text>
+    <text id="Data_Hub_and_Map_Room-text" transform="translate(311.99 67.26)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Data Hub and </tspan><tspan x="0" y="9.6">Map Room</tspan></text>
+    <text id="Instruction_Room-text" transform="translate(176.67 133.79)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Instruction</tspan><tspan x="0" y="8.4">Room</tspan></text>
+    <text transform="translate(75.91 384.19)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">134</tspan></text>
+    <text id="The_MILL_-text" transform="translate(67.59 375.65)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">The Mill</tspan></text>
+    <text transform="translate(312.04 86.22)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">107</tspan></text>
+    <text id="The_Studio-text" transform="translate(189.89 225.39)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">The </tspan><tspan x="0" y="8.4">Studio</tspan></text>
+    <text id="StudentComputer_Lab_-_text" transform="translate(225.59 178.14)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Student </tspan><tspan x="0" y="9.6">Computer </tspan><tspan x="0" y="19.2">Lab</tspan></text>
+    <text id="ITSHelpDesk" transform="translate(225.59 139.02)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">ITS Help </tspan><tspan x="0" y="9.6">Desk</tspan></text>
+    <text id="Subtitle" transform="translate(0 48.95)" font-family="PublicSans-Light, &apos;Public Sans&apos;" font-size="14" font-weight="300"><tspan x="0" y="0">Circulation, Genre Cubbies, Graphic </tspan><tspan x="0" y="18">Novels, Special Collections Reading </tspan><tspan x="0" y="36">Room, and The Mill</tspan></text>
+    <text id="Presentation_Area__x28_Renfrew_x29_-text" transform="translate(285.24 256.1)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-weight="700"><tspan font-size="8"><tspan x="0" y="0">Presentation </tspan></tspan><tspan x="0" y="9.6" font-size="8">Area </tspan><tspan x="20.5" y="9.6" font-size="7">(Renfrew)</tspan></text>
+    <text id="Title" transform="translate(0 25.84)" font-family="PublicSans-Black, &apos;Public Sans&apos;" font-size="30" font-weight="800"><tspan x="0" y="0">First Floor</tspan></text>
+  </g>
+  <g id="floor_xA0_vector">
+    <polygon points="180.21 159.19 215.07 159.19 215.07 193.66 216.33 193.63 216.33 159.19 216.36 159.19 216.36 157.68 180.21 157.68 180.21 159.19"/>
+    <polygon points="282.01 91.42 281.12 91.42 280.23 91.42 208.24 91.42 207.47 91.42 206.71 91.42 206.71 106.71 175.68 106.71 175.68 106.21 174.1 106.21 174.1 202.26 175.68 202.26 175.68 108.23 206.71 108.23 207.24 108.23 207.24 120.21 207.74 120.21 207.74 120.71 215.07 120.71 215.07 152.08 216.33 152.08 216.33 120.71 273.46 120.71 273.46 119.35 208.25 119.35 208.25 108.23 208.24 108.23 208.24 93.45 280.23 93.45 280.23 130.92 282.01 130.92 282.01 121.39 289.52 121.44 289.52 120.44 282.01 120.39 282.01 91.42"/>
+    <polygon points="182.74 251.44 216.62 251.44 216.62 249.81 182.74 249.81 182.74 215.28 181.49 215.28 181.49 249.81 181.49 251.44 181.49 254.75 182.74 254.75 182.74 251.44"/>
+    <polygon points="215.07 245.49 215.57 245.49 216.33 245.49 216.33 199.18 215.07 199.18 215.07 209.5 180.71 209.5 180.71 210.5 215.07 210.5 215.07 245.49"/>
+    <polygon points="330.83 121.87 330.83 109.66 329.83 109.66 329.83 114.85 300.32 114.85 298.75 114.85 298.61 114.85 298.61 120.39 294.88 120.38 294.88 121.38 300.03 121.39 300.03 121.38 300.32 121.38 300.32 115.85 329.83 115.85 329.83 120.41 306.12 120.41 306.12 121.41 329.83 121.41 329.83 121.87 330.83 121.87"/>
+    <path d="M329.45,339.94c-2.1-4.7-4.9-9.04-8.3-12.92l-1.35-1.61,1.02-3.26.17-.44-23.51-9.29-.37.93,22.61,8.93-1.14,3.67.51.16,1,1.2h0c.08.1.16.19.25.29l.09.1h0c3.32,3.8,6.06,8.04,8.12,12.64,2.2,4.9,3.63,10.23,4.14,15.4.33,3.31.3,6.9-.09,10.39-.26,2.36-.87,7.88-3.69,14.16-1.66,3.68-3.41,6.2-5.11,8.63-1.47,2.1-3.48,4.99-6.79,8.2-2.53,2.46-5.34,4.65-8.36,6.51-3.55,2.19-7.55,4.01-11.26,5.1-2.13.63-4.32,1.1-6.51,1.41l.14.99c2.24-.31,4.48-.79,6.65-1.44,3.79-1.12,7.88-2.97,11.5-5.21,3.08-1.9,5.95-4.14,8.53-6.65,3.37-3.28,5.42-6.2,6.91-8.34,1.72-2.47,3.51-5.03,5.2-8.79,2.89-6.43,3.51-12.06,3.78-14.46.39-3.55.42-7.22.09-10.59-.52-5.28-1.98-10.72-4.22-15.71Z"/>
+    <path d="M282.46,428.86v-17.39h5.44v-1h-6.45v1h0v18.22l5.77,1.11-14.51,39.63-38.35-13.35,8.79-27.29,14.49,4.96,3.77-11.37-.95-.31h0s-5.51-1.97-5.51-1.97l-.34.94,5.54,1.98-3.14,9.46-13.55-4.63,3.13-9.7,3.69,1.32.34-.94-3.72-1.33.42-1.32h.14v-68.09h-14.97v12.18h1v-2.04h5.98v7.36h5.46v47.74h-16.6v-47.74h4.66v-1h-16.49v1h9.85v47.74h-16.72v-56.02h6.37v2.22h1v-2.72h-.5v-.5h-8.35v34.84h-9.61v11.02h-21v1.1h30.62v10.05h-104.4v-28.51h-1v28.51h-37.98v-71.07h37.98v29.05h1v-29.05h-.5v-.51h-38.48v-24.97h37.98v19.37h1v-21.15h-.5s0,0,0,0h-38.48v-26.69h37.98v22.35h1.15v-22.35h33.75v-15.62h22.59v-15.27h-1.11v14.27h-21.48v-17.6h21.98v-1h-21.98v-19.8h21.48v15.71h1v-15.71h12.33v-13.07h-6.52v-21.37h2.58l.5-.03v-1h-31.4v-35.16h.04v-71.13h36.95v-1.53h-38.73v71.61H63.22v255.6h1.54v-1h180.68s.84,0,.84,0l-13.14,40.81.33.11-.02.04,39.89,13.88.3-.87,14.94-40.79-6.11-1.17ZM135.88,163.31v36.19h29.04v22.37h6.52v11.07h-34.8v55.03h-71.88v-124.67h71.12Z"/>
+    <rect x="290.46" y="62.65" width="1" height="26.04"/>
+    <polygon points="298.96 54.35 298.96 79.9 299.96 79.9 299.96 53.85 299.46 53.85 299.46 53.35 290.59 53.35 290.59 47.09 281.98 47.09 281.98 32.87 415.5 32.87 390.78 107.73 318.1 107.73 318.1 87.7 299.75 87.7 299.75 108.66 317.1 108.66 317.1 108.73 390.45 108.73 329.17 294.31 306.06 285.18 305.69 286.11 328.86 295.26 328.85 295.28 329.17 295.38 329.2 295.4 329.2 295.4 329.8 295.59 416.74 32.3 415.79 31.99 415.74 32.14 281.98 32.14 281.98 31.9 280.98 31.9 280.98 82.17 281.98 82.17 281.98 57.05 290.59 57.05 290.59 54.35 298.96 54.35"/>
+    <polyline points="290.57 70.64 286.14 70.64 281.72 70.64" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="290.57 71.82 286.14 71.82 281.72 71.82" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="290.65 73 286.22 73 281.8 73" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="290.65 69.46 286.22 69.46 281.8 69.46" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="299.78 65.98 295.35 65.98 290.92 65.98" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="299.78 67.16 295.35 67.16 290.92 67.16" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="299.86 68.34 295.43 68.34 291 68.34" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="299.86 64.8 295.43 64.8 291 64.8" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <rect x="297.73" y="53.34" width="2.23" height="1.01"/>
+    <path d="M315.19,115.77v2.82s0,2.81,0,2.81M314.13,121.14v-2.81s0-2.82,0-2.82M317.3,121.27v-2.81s0-2.82,0-2.82M316.24,121.01v-2.81s0-2.82,0-2.82" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <path d="M320.97,108.61v3.4s0,3.38,0,3.38M319.92,115.08v-3.38s0-3.4,0-3.4M323.09,115.23v-3.38s0-3.4,0-3.4M322.03,114.92v-3.38s0-3.4,0-3.4" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <path d="M184.45,403.88v5.63s0,5.6,0,5.6M183.39,414.59v-5.6s0-5.63,0-5.63M186.57,414.85v-5.6s0-5.63,0-5.63M185.51,414.34v-5.6s0-5.63,0-5.63" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <path d="M251.46,463.13l-.23-.08,3.4-10.71-2.2-.78-3.42,10.78-.23-.08,3.42-10.78-7.59-2.71,2.12-6.73.23.08-2.05,6.49,10.02,3.57-3.47,10.95ZM246.56,461.54l-.23-.08,3.43-10.83.23.08-3.43,10.83ZM244.1,460.74l-.23-.08,3.44-10.83.23.08-3.44,10.83ZM256.83,445.25l-3.06-1.01,3.13-9.98v-.03s-.22-.08-.22-.08l-3.14,10.02-2.03-.67,3.13-10.01-.23-.08-3.12,9.95-.02.06-2.03-.67,3.13-10-.23-.08-3.13,10-2.03-.67,3.13-10-.23-.08-3.17,10.12-.04.12,10.07,3.34.07-.24Z"/>
+    <polygon id="FishobowlFacilities" points="307.8 364.26 292.04 364.26 279.71 364.26 279.71 401.88 296.04 401.88 302.28 382.24 285.14 382.03 284.93 376.38 292.25 376.38 292.25 366.35 306.88 366.35 307.8 364.26"/>
+    <line x1="287.9" y1="430.93" x2="281.96" y2="428.68" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="281.46" y1="464.99" x2="281.46" y2="447.9" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="260.06" y1="434.42" x2="263.84" y2="423.52" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="242.9" y1="428.97" x2="260.67" y2="434.42" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="239.6" y1="462.64" x2="281.62" y2="464.28" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="239.6" y1="463.46" x2="239.6" y2="440.21" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+</svg></div>
+  <div data-floor="2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472.42 491.02">
+  <g id="zone-Collaboration">
+    <rect id="Instruction_Room_212A" x="61.59" y="374.39" width="46.32" height="60.48" fill="#9d99d1"/>
+    <rect id="Group_Study_Area" x="76.07" y="328.36" width="158.64" height="33.36" fill="#9d99d1"/>
+  </g>
+  <g id="zone-NonPublic">
+    <rect id="Tutoring_Staff_Lounge" x="153.7" y="197.51" width="20.89" height="35.1" fill="#b2ab9a"/>
+    <polyline id="Library_Staff_Lounge" points="176.11 374.66 172.25 374.66 172.25 411.44 172.25 433.66 106.47 433.66 106.47 374.66 172.25 374.66" fill="#b2ab9a" stroke="#000" stroke-miterlimit="10"/>
+    <polygon id="Staff_Elevator" points="137.14 197.51 137.14 247.1 174.13 247.1 174.13 232.61 158.12 232.61 158.12 220.39 153.7 220.39 153.7 197.51 137.14 197.51" stroke="#000" stroke-miterlimit="10"/>
+    <rect id="Utility_Closet" x="303.59" y="89.92" width="12.35" height="25.85"/>
+  </g>
+  <g id="zone-Study">
+    <rect id="Individual_Study_Space" x="61.35" y="225.54" width="5.76" height="148.85" fill="#d7003f"/>
+  </g>
+  <g id="zone-Service">
+    <rect id="Vandal_Drop_In_Tutoring" x="291.03" y="213.59" width="75.12" height="71.52" fill="#f1b300"/>
+    <rect id="Research_Help_Desk" x="270.15" y="364.79" width="32.64" height="6" fill="#f1b300"/>
+    <rect id="Writing_Center" x="183.03" y="374.15" width="28.26" height="37.3" fill="#f1b300"/>
+  </g>
+  <g id="zone-Resources">
+    <rect id="Dual_Monitor_Student_Computer_Lab" x="317.67" y="40.55" width="43.2" height="95.52" fill="teal"/>
+    <polygon id="CDIL" points="173.25 285.45 173.25 247.1 137.14 247.1 137.14 285.45 123.7 285.45 123.7 323.27 175.13 323.27 175.13 285.45 173.25 285.45" fill="teal"/>
+    <rect id="Newspapers" x="144.05" y="178.81" width="33.38" height="4.62" fill="teal"/>
+    <rect id="Exhibit" x="250.57" y="385.4" width="6.09" height="42.91" fill="teal"/>
+    <rect id="DVDs" x="239.04" y="299.96" width="44.31" height="22.11" fill="teal"/>
+  </g>
+  <g id="zone-Books">
+    <rect id="Travel_Guides" x="283.83" y="350.39" width="25.92" height="5.76" fill="#034441"/>
+    <polygon id="Books_T_to_Z" points="67.83 177.59 67.83 213.29 72.63 213.29 72.63 309.35 115.49 309.35 115.49 276 126.63 275.92 126.63 188.94 112.69 188.86 112.62 177.59 67.83 177.59" fill="#034441"/>
+  </g>
+  <g id="zone-Periodicals">
+    <rect id="Periodicals_A_to_HC" x="291.03" y="23.99" width="73.68" height="11.52" fill="gray"/>
+    <rect id="Periodicals_TN_to_Z" x="141.99" y="101.51" width="37.68" height="72.48" fill="gray"/>
+    <rect id="Periodicals_QK_to_TN" x="183.03" y="101.51" width="44.64" height="220.56" fill="gray"/>
+    <rect id="Periodicals_N_to_QK" x="238.71" y="101.51" width="44.64" height="193.38" fill="gray"/>
+    <rect id="Periodicals_HD_to_N" x="300.87" y="142.79" width="60" height="62.4" fill="gray"/>
+  </g>
+  <g id="zone-Restrooms">
+    <polygon id="Mens" points="243.47 385.47 243.47 378.23 235.75 378.23 235.75 385.47 230.03 385.47 230.03 433.99 247.96 433.99 247.96 385.47 243.47 385.47" fill="#ab4700"/>
+    <polygon id="Womens" points="219.66 385.37 219.66 377.81 219.23 377.81 219.23 376.81 211.93 377.81 211.93 378.23 211.93 385.37 211.93 385.79 211.93 435.99 229.25 435.99 229.25 385.37 219.66 385.37" fill="#ab4700"/>
+    <g id="RestroomIcons">
+      <path d="M217.58,403.06c0,.22-.06.36-.2.52-.14.15-.21.2-.4.25-.21.06-.4.03-.6-.1-.33-.19-.47-.64-.31-1,.13-.28.41-.46.72-.46.24,0,.39.06.56.23.17.18.23.32.23.55Z" fill="#fff"/>
+      <path d="M219.02,407.21c0,.16-.1.3-.25.34-.11.03-.27-.02-.34-.12-.03-.04-.19-.53-.35-1.1s-.31-1.05-.32-1.08c0-.03-.04-.04-.1-.04-.05,0-.08,0-.08.01s.24.82.52,1.81c.29.99.52,1.81.52,1.81s-.22.01-.49.01h-.49v1.45c-.01,1.42-.01,1.45-.06,1.51-.13.18-.31.22-.5.13-.21-.11-.2-.03-.2-1.66v-1.43h-.22v1.43c0,1.56,0,1.54-.14,1.64-.09.07-.28.09-.38.04-.1-.05-.18-.14-.21-.24-.01-.05-.02-.64-.02-1.48v-1.39h-.49c-.27,0-.49,0-.49-.01,0,0,.98-3.42,1.04-3.6.01-.03,0-.04-.07-.04h-.08l-.25.86c-.39,1.31-.39,1.31-.48,1.4-.07.07-.1.08-.2.08-.21,0-.35-.14-.35-.33,0-.09.71-2.44.79-2.58.13-.26.44-.49.75-.54.17-.03,1.23-.03,1.4,0,.29.05.6.27.75.53.08.13.79,2.47.79,2.6Z" fill="#fff"/>
+      <path d="M226.44,410.48c-.5.89-1.6,1.52-2.88,1.52-1.75,0-3.17-1.15-3.17-2.56,0-.92.6-1.71,1.5-2.16l.05.63c-.53.37-.88.92-.88,1.53,0,1.12,1.12,2.02,2.5,2.02,1.2,0,2.2-.69,2.44-1.61l.45.62Z" fill="#fff"/>
+      <path d="M227.78,410.82c-.23.11-.54.04-.68-.14l-1.12-1.56h-2.73c-.45,0-.82-.26-.86-.62l-.15-2.07c-.02-.36.32-.67.77-.7.45-.02.83.26.86.62l.05.58h1.58c.21,0,.38.14.38.31s-.17.3-.38.31h-1.53l.02.51h2.11c.16,0,.32.07.41.19l1.44,2.01c.13.2.06.43-.17.54Z" fill="#fff"/>
+      <path d="M223.3,405.53c-.18.04-.24.04-.42,0-.18-.04-.28-.09-.41-.21-.29-.25-.28-.65,0-.91.35-.31.99-.29,1.3.05.36.4.12.94-.47,1.07Z" fill="#fff"/>
+      <path d="M244.4,411.43c-.44.79-1.41,1.34-2.55,1.34-1.55,0-2.8-1.02-2.8-2.27,0-.81.53-1.52,1.32-1.92l.04.56c-.47.33-.78.81-.78,1.36,0,.99.99,1.79,2.22,1.79,1.07,0,1.95-.61,2.16-1.42l.39.55Z" fill="#fff"/>
+      <path d="M245.59,411.74c-.21.1-.48.04-.6-.12l-.99-1.38h-2.42c-.39,0-.73-.23-.76-.55l-.13-1.83c-.02-.32.28-.6.68-.62.4-.02.73.23.76.55l.05.52h1.4c.19,0,.34.12.34.27s-.15.27-.34.28h-1.36l.02.46h1.87c.14,0,.28.06.36.17l1.27,1.78c.12.17.06.38-.15.48Z" fill="#fff"/>
+      <path d="M241.63,407.05c-.16.03-.21.03-.37,0-.16-.03-.25-.08-.37-.18-.25-.22-.25-.58,0-.81.31-.28.88-.26,1.15.05.32.35.11.84-.42.95Z" fill="#fff"/>
+      <path d="M235.88,402.91c-.19.05-.26.05-.45,0-.19-.05-.3-.12-.44-.27-.31-.33-.31-.87,0-1.21.38-.42,1.07-.38,1.4.07.39.53.13,1.25-.51,1.42Z" fill="#fff"/>
+      <path d="M237.77,405.77c0,1.42,0,1.53-.05,1.62-.14.26-.56.26-.68,0-.04-.09-.05-.22-.05-1.43v-1.33h-.17v3.62s-.01,3.62-.01,3.62l-.08.13c-.21.36-.8.31-.94-.07-.02-.05-.03-.77-.03-2.23v-2.15h-.17v2.07c0,1.38-.01,2.11-.03,2.21-.04.17-.14.3-.29.37-.13.06-.33.07-.45.01-.1-.05-.22-.17-.26-.28-.02-.05-.03-1.21-.03-3.69v-3.61h-.2v1.35c0,1.3,0,1.35-.06,1.44-.14.24-.54.22-.68-.02-.05-.09-.05-.18-.04-1.7,0-1.57,0-1.61.07-1.75.13-.32.39-.57.7-.69.15-.06.22-.06,1.21-.07,1.12,0,1.31,0,1.56.12.19.09.43.31.53.49.16.29.16.33.16,1.99Z" fill="#fff"/>
+    </g>
+  </g>
+  <g id="text">
+    <text id="Subtitle" font-family="PublicSans-Light, &apos;Public Sans&apos;" font-size="14" font-weight="300"><tspan x="0" y="54.54">Research Help Desk, Magazines &amp; </tspan><tspan x="0" y="72.54">Journals: Periodicals A-Z, DVDs, Books </tspan><tspan x="0" y="90.54">T-Z, Travel Guides, Drop-In Tutoring, and </tspan><tspan x="0" y="108.54">The Writing Center</tspan></text>
+    <text id="DualMonitor_Computer_Lab" transform="translate(321.35 48.28)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Dual </tspan><tspan x="0" y="8.4">Monitor </tspan><tspan x="0" y="16.8">Student </tspan><tspan x="0" y="25.2">Computer </tspan><tspan x="0" y="33.6">Lab</tspan></text>
+    <text id="CDIL-text" transform="translate(143.21 260.28)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Center </tspan><tspan x="6.7" y="8.4">for </tspan><tspan x=".2" y="16.8">Digital </tspan><tspan x="-.38" y="25.2">Inquiry </tspan><tspan x="5.35" y="33.6">and </tspan><tspan x="-3.39" y="42">Learning </tspan><tspan x=".95" y="50.4">(CDIL)</tspan></text>
+    <text transform="translate(76.31 187.24)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Books </tspan><tspan x="0" y="13">Z</tspan><tspan x="0" y="26">U</tspan><tspan x="0" y="39">TS</tspan><tspan x="0" y="52">TK</tspan><tspan x="0" y="65">TN</tspan><tspan x="0" y="78">TH</tspan><tspan x="0" y="91">TD</tspan><tspan x="0" y="104">TA</tspan><tspan x="0" y="117">T</tspan></text>
+    <text transform="translate(186.23 109)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Per QK</tspan><tspan x="0" y="30">QP</tspan><tspan x="0" y="60">R</tspan><tspan x="0" y="90">S</tspan><tspan x="0" y="120">SB</tspan><tspan x="0" y="150">SF</tspan><tspan x="0" y="180">TA</tspan><tspan x="0" y="210">TN</tspan></text>
+    <text transform="translate(253.91 109)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Per QK</tspan><tspan x="0" y="26">QD</tspan><tspan x="0" y="52">QA</tspan><tspan x="0" y="78">Q</tspan><tspan x="0" y="104">PS</tspan><tspan x="0" y="130">P</tspan><tspan x="0" y="156">NK</tspan><tspan x="0" y="182">N</tspan></text>
+    <text transform="translate(145.91 109)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Per Z</tspan><tspan x="0" y="22">TR</tspan><tspan x="0" y="44">TN</tspan></text>
+    <text transform="translate(305.75 150.28)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Per HD</tspan><tspan x="0" y="11">HG</tspan><tspan x="0" y="22">L</tspan><tspan x="0" y="33">ML</tspan><tspan x="0" y="44">N</tspan></text>
+    <text id="DVDs-text" transform="translate(253.04 314.5)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">DVDs</tspan></text>
+    <text id="Travel_Guide_Books" transform="translate(282.81 336.3)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Travel </tspan><tspan x="0" y="9.6">Guides</tspan></text>
+    <text id="Reference_x2F_Research_Help" transform="translate(270.24 379.26)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Research </tspan><tspan x="0" y="9.6">Help Desk</tspan></text>
+    <text transform="translate(259.36 409.02)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Exhibit</tspan><tspan x="0" y="9.6">Space</tspan></text>
+    <text transform="translate(114.48 370.66)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Gallery Space</tspan></text>
+    <text id="Newspaper-text" transform="translate(131.52 190.38)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Newspapers</tspan></text>
+    <text transform="translate(68.8 416.36)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">212A</tspan></text>
+    <text transform="translate(305.04 31.98)" fill="#fff" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Per AP - HC</tspan></text>
+    <text id="Tutoring" transform="translate(296.87 258.3)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Vandal Drop-In </tspan><tspan x="0" y="9.6">Tutoring</tspan></text>
+    <text id="InstructionRoom" transform="translate(66.66 398.12)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Instruction </tspan><tspan x="0" y="8.4">Room</tspan></text>
+    <text id="WritingCenter-text" transform="translate(184.02 388.54)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="7" font-weight="700"><tspan x="0" y="0">Writing</tspan><tspan x="1.03" y="8.4">Center</tspan></text>
+    <text id="Group_Study_Area-text" transform="translate(108.27 348.76)" font-family="PublicSans-Bold, &apos;Public Sans&apos;" font-size="8" font-weight="700"><tspan x="0" y="0">Group Study Area</tspan></text>
+    <text id="Title" transform="translate(0 25.84)" font-family="PublicSans-Black, &apos;Public Sans&apos;" font-size="30" font-weight="800"><tspan x="0" y="0">Second Floor</tspan></text>
+  </g>
+  <g id="Color_Key">
+    <g>
+      <text transform="translate(365.87 338.52)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Books</tspan></text>
+      <ellipse cx="465.45" cy="335.54" rx="6.97" ry="6.16" fill="#034441"/>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="394.1" rx="6.97" ry="6.16" fill="gray"/>
+      <text transform="translate(366.79 396.59)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Periodicals</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="413.63" rx="6.97" ry="6.16" fill="teal"/>
+      <text transform="translate(367.04 416.11)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Resources</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="452.67" rx="6.97" ry="6.16" fill="#efb21d"/>
+      <text transform="translate(366.12 455.16)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Service Areas</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="433.15" rx="6.97" ry="6.16" fill="#ab4700"/>
+      <text transform="translate(367.04 435.63)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Restrooms</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="374.58" rx="6.97" ry="6.16" fill="#d7003f"/>
+      <text transform="translate(366.54 377.07)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Individual Study</tspan></text>
+    </g>
+    <g>
+      <ellipse cx="465.45" cy="355.06" rx="6.97" ry="6.16" fill="#9c98ca"/>
+      <text transform="translate(366.12 352.55)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="8" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Collaboration &amp; </tspan><tspan x="0" y="10">Presentation Areas</tspan></text>
+    </g>
+    <text transform="translate(374.51 313.34)" font-family="PublicSansItalic-Black, &apos;Public Sans&apos;" font-size="17" font-variation-settings="&apos;wght&apos; 900" font-weight="800"><tspan x="0" y="0">Color Key</tspan></text>
+  </g>
+  <g id="floorvector">
+    <path d="M342.4,372.98c-.52-5.28-1.98-10.72-4.22-15.71-2.1-4.7-4.9-9.04-8.3-12.92l-1.35-1.61.12-.4c-.35,0-.7,0-1.05,0l-.3.95.51.16,1,1.2h0c.08.1.16.19.25.29l.09.1h0c3.32,3.8,6.06,8.04,8.12,12.64,2.2,4.9,3.63,10.23,4.14,15.4.33,3.31.3,6.9-.09,10.39-.26,2.36-.87,7.88-3.69,14.16-1.66,3.68-3.41,6.2-5.11,8.63-1.47,2.1-3.48,4.99-6.79,8.2-2.53,2.46-5.34,4.65-8.36,6.51-3.55,2.19-7.55,4.01-11.26,5.1-2.13.63-4.32,1.1-6.51,1.41l.14.99c2.24-.31,4.48-.79,6.65-1.44,3.79-1.12,7.88-2.97,11.5-5.21,3.08-1.9,5.95-4.14,8.53-6.65,3.37-3.28,5.42-6.2,6.91-8.34,1.72-2.47,3.51-5.03,5.2-8.79,2.89-6.43,3.51-12.06,3.78-14.46.39-3.55.42-7.22.09-10.59Z"/>
+    <path d="M285.19,448.18v-17.39h5.44v-1h-6.45v1h0v18.22l5.77,1.11-14.51,39.63-38.35-13.35,8.79-27.29,14.49,4.96,3.77-11.37-.95-.31h0s-5.51-1.97-5.51-1.97l-.34.94,5.54,1.98-3.14,9.46-13.55-4.63,3.13-9.7,3.69,1.32.34-.94-3.72-1.33.42-1.32h.14v-68.09h-14.97v12.18h1v-2.04h5.98v7.36h5.46v47.74h-16.6v-47.74h4.66v-1h-16.49v1h9.85v47.74h-16.72v-56.02h6.37v2.22h1v-2.72h-.5v-.5h-8.35v34.84h-9.61v11.02h-21v1.1h30.62v10.05h-104.4v-1.98c-.33.01-.66.03-1,.04v1.94h-37.09c-.01.95-.02,1.9-.03,2.85h179.82s.84,0,.84,0l-13.14,40.81.33.11-.02.04,39.89,13.88.3-.87,14.94-40.79-6.11-1.17Z"/>
+    <rect x="298.19" y="67.98" width="1" height="26.04"/>
+    <polyline points="298.3 75.97 293.87 75.97 289.45 75.97" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="298.3 77.15 293.87 77.15 289.45 77.15" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="298.38 78.33 293.95 78.33 289.53 78.33" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="298.38 74.79 293.95 74.79 289.53 74.79" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="307.51 71.3 303.08 71.3 298.65 71.3" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="307.51 72.48 303.08 72.48 298.65 72.48" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="307.59 73.66 303.16 73.66 298.73 73.66" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="307.59 74.79 303.16 74.79 298.73 74.79" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="192.18 423.2 192.18 428.83 192.18 434.43" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="191.12 433.92 191.12 428.32 191.12 422.69" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="194.3 434.17 194.3 428.57 194.3 422.94" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="193.24 433.66 193.24 428.06 193.24 422.43" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <path d="M254.19,482.45l-.23-.08,3.4-10.71-2.2-.78-3.42,10.78-.23-.08,3.42-10.78-7.59-2.71,2.12-6.73.23.08-2.05,6.49,10.02,3.57-3.47,10.95ZM249.29,480.86l-.23-.08,3.43-10.83.23.08-3.43,10.83ZM246.83,480.07l-.23-.08,3.44-10.83.23.08-3.44,10.83ZM259.56,464.57l-3.06-1.01,3.13-9.98v-.03s-.22-.08-.22-.08l-3.14,10.02-2.03-.67,3.13-10.01-.23-.08-3.12,9.95-.02.06-2.03-.67,3.13-10-.23-.08-3.13,10-2.03-.67,3.13-10-.23-.08-3.17,10.12-.04.12,10.07,3.34.07-.24Z"/>
+    <polyline points="136.72 176.63 136.72 173.23 136.72 99.45 288.87 99.45 288.87 22.31 366.43 22.31 365.24 285.51 345.05 285.51 299.74 428.46 284.18 430.78" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="136.72 173.23 62.25 172.78 62.25 434.2 70.4 434.2" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="288.87 60.82 307.59 60.82 307.59 94.02 298.19 94.02" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="193.77 411.44 193.77 417.07 193.77 422.67" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="192.71 422.67 192.71 417.07 192.71 411.44" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="195.88 422.67 195.88 417.07 195.88 411.44" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="194.83 422.67 194.83 417.07 194.83 411.44" stroke="#000" stroke-miterlimit="10" stroke-width=".25"/>
+    <polyline points="182.55 374.66 182.55 411.44 210.88 411.44" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="179.24" y1="411.44" x2="182.55" y2="411.44" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="175.13 294.82 175.13 323.27 123.7 323.27 123.7 294.82" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="123.7 288.92 123.7 285.45 137.27 285.45 137.14 247.1 173.7 247.1 173.7 285.28 175.13 285.28" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="211.29" y1="374.35" x2="191.46" y2="374.35" fill="#ab4700" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="211.38" y1="373.85" x2="211.38" y2="376.4" fill="#ab4700" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="182.02" y1="374.35" x2="185.62" y2="374.35" fill="#ab4700" stroke="#000" stroke-miterlimit="10"/>
+    <polyline points="153.7 197.51 174.59 197.51 174.59 225.54" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <line x1="106.47" y1="374.66" x2="73.91" y2="374.66" fill="none" stroke="#000" stroke-miterlimit="10"/>
+  </g>
+</svg></div>
+</div>
+
+<script>
+// ============================================================
+// ZONES — labels and accent colors
+// ============================================================
+const ZONES = {
+  resources:    { label: 'Resources',                   color: '#008080' },
+  collab:       { label: 'Collaboration & Presentation', color: '#9D99D1' },
+  service:      { label: 'Service Areas',               color: '#F1B300' },
+  restrooms:    { label: 'Restrooms',                   color: '#AB4700' },
+  nonpublic:    { label: 'Non-Public / Staff',          color: '#6a6a6a' },
+  individual:   { label: 'Individual Study',            color: '#D7003F' },
+  books:        { label: 'Books',                       color: '#034441' },
+  periodicals:  { label: 'Periodicals',                 color: '#999999' },
+  study:        { label: 'Individual Study',            color: '#D7003F' }
+};
+
+// ============================================================
+// FLOORS — title, subtitle, rooms, tour
+// ============================================================
+const FLOORS = {
+  1: {
+    title: 'First Floor',
+    subtitle: 'Circulation, Genre Cubbies, Special Collections, and The Mill',
+    rooms: [
+      // --- Service ---
+      { id: 'circulation', svgId: 'Circulation', name: 'Circulation Desk', zone: 'service',
+        blurb: 'The Circulation Desk is where you can check out materials and pick up course reserves with your Vandal ID.' },
+      { id: 'spec', svgId: 'Spec_Reading_Room', name: 'Special Collections Reading Room (121)', zone: 'service',
+        blurb: 'You can make an appointment with the Special Collections and Archives staff to access the unique and rare materials, including many primary sources, that are housed in Special Collections.' },
+      { id: 'ill', svgId: 'InterLibrary_Loan', name: 'Interlibrary Loan (109)', zone: 'service',
+        blurb: 'Request books and articles from other libraries when the U of I Library doesn\u2019t have them on hand.' },
+
+      // --- Resources ---
+      { id: 'studio', svgId: 'Studio', name: 'The Studio', zone: 'resources',
+        blurb: 'The Studio offers dedicated space to students, staff, and faculty to record, edit, and digitize audiovisual content to support their teaching, learning, and creative pursuits.' },
+      { id: 'computer-lab', svgId: 'Computer_Lab', name: 'Student Computer Lab', zone: 'resources',
+        blurb: 'Computer labs are located on the Library\u2019s first, second, and fourth floors. The labs offer specialized software such as MATLAB, MathCAD, SPSS, ArcGIS, Adobe Creative Suite, and other applications.' },
+      { id: 'its', svgId: 'ITS_Help_Desk', name: 'ITS Help Desk', zone: 'resources',
+        blurb: 'ITS staff can help you with your computer and printing needs.' },
+      { id: 'data-hub', svgId: 'DataHub', name: 'Data Hub & Map Room (107)', zone: 'resources',
+        blurb: 'Home to the physical portion of the university\u2019s map collection. The Data Hub is a dedicated service location providing co-curricular and research support in the areas of geographic information systems, data sciences, and data analysis.' },
+      { id: 'mill', svgId: 'Mill', name: 'The Mill (134)', zone: 'resources',
+        blurb: 'The Making, Innovating, and Learning Laboratory (AKA The Mill) is the library\u2019s makerspace. You can find tools and equipment here to make buttons, vinyl stickers, your own 3D prints, and so much more.' },
+      { id: 'reference', svgId: 'Reference_Collection', name: 'Reference Collection', zone: 'resources',
+        blurb: 'Quick-reference works (encyclopedias, dictionaries, handbooks) for in-library use.' },
+      { id: 'kic-scanner', svgId: 'KIC_Scanner', name: 'KIC Scanner', zone: 'resources',
+        blurb: 'A self-service scanner station for digitizing books and documents.' },
+      { id: 'lib-comp-1', svgId: 'Library_Computer_1', name: 'Library Computer (Reference area)', zone: 'resources' },
+      { id: 'lib-comp-2', svgId: 'Library_Computer_2', name: 'Library Computer (Entrance)', zone: 'resources' },
+
+      // --- Collab ---
+      { id: 'living-room', svgId: 'Living_Room', name: 'Living Room', zone: 'collab',
+        blurb: 'A casual, open seating area featuring the New Books and Graphic Novels collections, current periodicals, and a board-game library.' },
+      { id: 'fishbowl', svgId: 'Fishbowl', name: 'The Fishbowl', zone: 'collab',
+        blurb: 'A circular collaborative space near the entrance, often used for group conversations and quick meetings.' },
+      { id: 'instr-120', svgId: 'Instruction_Room_120', name: 'Instruction Room 120', zone: 'collab',
+        blurb: 'A reservable instruction space used for library workshops and class sessions.' },
+      { id: 'group-rooms', svgId: 'Group_Study_Rooms', name: 'Reservable Group Study Rooms (131, 132)', zone: 'collab',
+        blurb: 'Bookable group study rooms for collaborative work. Reserve in advance through the library website.' },
+      { id: 'group-area', svgId: 'Group_Study_Area', name: 'Open Group Study Area', zone: 'collab',
+        blurb: 'An open seating area for casual group study and conversation.' },
+      { id: 'board-games', svgId: 'Board_Games', name: 'Board Games', zone: 'collab',
+        blurb: 'A collection of board games available for use in the Living Room.' },
+      { id: 'new-books', svgId: 'New_Books', name: 'New Books', zone: 'collab',
+        blurb: 'A rotating display of recently acquired titles in the Living Room.' },
+      { id: 'graphic-novels', svgId: 'Graphic_Novels', name: 'Graphic Novels', zone: 'collab',
+        blurb: 'The library\u2019s graphic novels collection, located in the Living Room.' },
+      { id: 'current-per', svgId: 'Current_Periodicals', name: 'Current Periodicals', zone: 'collab',
+        blurb: 'Recent issues of magazines and journals, available in the Living Room.' },
+
+      // --- Restrooms ---
+      { id: 'restroom-w', svgId: 'Womens', name: 'Restrooms', zone: 'restrooms',
+        blurb: 'Accessible restrooms are located near the main staircase.' },
+      { id: 'restroom-m', svgId: 'Mens', name: 'Restrooms', zone: 'restrooms',
+        blurb: 'Accessible restrooms are located near the main staircase.' },
+      { id: 'restroom-fb', svgId: 'Fishbowl_Restrooms', name: 'Restrooms (Fishbowl)', zone: 'restrooms',
+        blurb: 'Restrooms inside the Fishbowl, near the entrance.' }
+    ],
+    tour: [
+      { stop: 1, roomId: 'circulation' },
+      { stop: 2, roomId: 'studio' },
+      { stop: 3, roomId: 'spec' },
+      { stop: 4, roomId: 'computer-lab' },
+      { stop: 5, roomId: 'its' },
+      { stop: 6, roomId: 'data-hub' },
+      { stop: 7, roomId: 'mill' }
+    ]
+  },
+
+  2: {
+    title: 'Second Floor',
+    subtitle: 'Research Help Desk, Magazines & Journals, DVDs, Travel Guides, Drop-In Tutoring, and the Writing Center',
+    rooms: [
+      // --- Service ---
+      { id: 'research-help', svgId: 'Research_Help_Desk', name: 'Research Help Desk', zone: 'service',
+        blurb: 'Librarians are available to help you with your questions about research, library resources, and more.' },
+      { id: 'tutoring', svgId: 'Vandal_Drop_In_Tutoring', name: 'Vandal Drop-In Tutoring', zone: 'service',
+        blurb: 'Tutoring & College Success offers drop-in tutoring at no additional cost to undergraduate students. No appointments are required and support is offered for a wide range of subjects.' },
+      { id: 'writing-center', svgId: 'Writing_Center', name: 'Writing Center', zone: 'service',
+        blurb: 'The Writing Center supports student writers across all disciplines and stages of the writing process.' },
+
+      // --- Resources ---
+      { id: 'dual-monitor', svgId: 'Dual_Monitor_Student_Computer_Lab', name: 'Dual Monitor Student Computer Lab', zone: 'resources',
+        blurb: 'Computer lab featuring dual-monitor workstations. Specialized software available includes MATLAB, MathCAD, SPSS, ArcGIS, and Adobe Creative Suite.' },
+      { id: 'cdil', svgId: 'CDIL', name: 'Center for Digital Inquiry and Learning (CDIL)', zone: 'resources',
+        blurb: 'The Center for Digital Inquiry and Learning (CDIL) works to advance digital scholarship opportunities at the University of Idaho.' },
+      { id: 'newspapers', svgId: 'Newspapers', name: 'Newspapers', zone: 'resources',
+        blurb: 'Current print newspapers from regional and national publications.' },
+
+      // --- Books ---
+      { id: 'books-tz', svgId: 'Books_T_to_Z', name: 'Main Stacks: Books T–Z', zone: 'books',
+        blurb: 'The Main Stacks are the University of Idaho Library\u2019s primary book collection. The books are organized using the Library of Congress system. The Main Stacks end on the second floor with T–Z, which includes the subjects: Technology, Engineering, Military Science, and Library Science.' },
+      { id: 'travel-guides', svgId: 'Travel_Guides', name: 'Travel Guides', zone: 'books',
+        blurb: 'Travel guides covering destinations around the world.' },
+
+      // --- Periodicals ---
+      { id: 'per-ap-hc', svgId: 'Periodicals_A_to_HC', name: 'Periodicals A–HC', zone: 'periodicals',
+        blurb: 'Bound print periodicals A–HC. Most periodicals are available electronically through the library databases, but our print periodicals are found on the second floor. Call numbers for periodicals start with "Per."' },
+      { id: 'per-hd-n', svgId: 'Periodicals_HD_to_N', name: 'Periodicals HD–N', zone: 'periodicals',
+        blurb: 'Bound print periodicals HD–N.' },
+      { id: 'per-n-qk', svgId: 'Periodicals_N_to_QK', name: 'Periodicals N–QK', zone: 'periodicals',
+        blurb: 'Bound print periodicals N–QK.' },
+      { id: 'per-qk-tn', svgId: 'Periodicals_QK_to_TN', name: 'Periodicals QK–TN', zone: 'periodicals',
+        blurb: 'Bound print periodicals QK–TN.' },
+      { id: 'per-tn-z', svgId: 'Periodicals_TN_to_Z', name: 'Periodicals TN–Z', zone: 'periodicals',
+        blurb: 'Bound print periodicals TN–Z.' },
+      { id: 'dvds', svgId: 'DVDs', name: 'DVDs', zone: 'periodicals',
+        blurb: 'The library has an extensive collection of DVDs and also offers streaming video for the classroom and personal use of the UI community. Holdings include feature films, TV series, concert films, documentaries, and more.' },
+
+      // --- Collab ---
+      { id: 'instr-212', svgId: 'Instruction_Room_212A', name: 'Instruction Room 212A', zone: 'collab',
+        blurb: 'A reservable instruction classroom for library workshops and class sessions.' },
+      { id: 'group-area', svgId: 'Group_Study_Area', name: 'Group Study Area / Gallery Space', zone: 'collab',
+        blurb: 'An open area for collaborative work that also serves as a rotating gallery space.' },
+      { id: 'exhibit', svgId: 'Exhibit', name: 'Exhibit Space', zone: 'collab',
+        blurb: 'Rotating exhibits highlighting library collections and campus scholarship.' },
+
+      // --- Individual ---
+      { id: 'study', svgId: 'Individual_Study_Space', name: 'Individual Study Space', zone: 'individual',
+        blurb: 'Quiet seating along the perimeter for individual study.' },
+
+      // --- Restrooms ---
+      { id: 'restroom-w', svgId: 'Womens', name: 'Restrooms', zone: 'restrooms',
+        blurb: 'Accessible restrooms are located near the central staircase.' },
+      { id: 'restroom-m', svgId: 'Mens', name: 'Restrooms', zone: 'restrooms',
+        blurb: 'Accessible restrooms are located near the central staircase.' }
+    ],
+    tour: [
+      { stop: 1, roomId: 'research-help' },
+      { stop: 2, roomId: 'tutoring' },
+      { stop: 3, roomId: 'dvds' },
+      { stop: 4, roomId: 'per-qk-tn' },
+      { stop: 5, roomId: 'cdil' },
+      { stop: 6, roomId: 'books-tz' }
+    ]
+  }
+};
+
+// ============================================================
+// STATE
+// ============================================================
+const state = {
+  floor: 1,
+  mode: 'browse',
+  selectedRoomId: null,
+  tourStep: 0
+};
+
+function currentFloor() { return FLOORS[state.floor]; }
+
+// ============================================================
+// SVG MOUNTING
+// ============================================================
+function mountFloor(floorNum) {
+  state.floor = floorNum;
+  state.selectedRoomId = null;
+  state.tourStep = 0;
+
+  // Pull SVG markup from store and mount
+  const stored = document.querySelector(`#svgStore [data-floor="${floorNum}"]`);
+  document.getElementById('svgWrap').innerHTML = stored.innerHTML;
+
+  // Update header
+  const f = currentFloor();
+  document.getElementById('floorTitle').textContent = f.title;
+  document.getElementById('floorSubtitle').textContent = f.subtitle;
+
+  // Update tab active state
+  document.querySelectorAll('#floorTabs button').forEach(btn => {
+    btn.classList.toggle('is-active', Number(btn.dataset.floor) === floorNum);
+  });
+
+  // Reset map highlight state
+  document.getElementById('mapPane').classList.remove('has-selection');
+
+  // Wire up rooms
+  bindRoomInteractions();
+
+  // Re-render side panel
+  if (state.mode === 'browse') {
+    document.getElementById('browseView').hidden = false;
+    document.getElementById('detailView').hidden = true;
+    document.getElementById('tourView').hidden = true;
+    renderRoomList();
+  } else {
+    document.getElementById('browseView').hidden = true;
+    document.getElementById('detailView').hidden = true;
+    document.getElementById('tourView').hidden = false;
+    renderTourView();
+  }
+
+  drawTourPins();
+}
+
+function bindRoomInteractions() {
+  currentFloor().rooms.forEach(room => {
+    const el = document.getElementById(room.svgId);
+    if (!el) return;
+
+    const targets = el.tagName === 'g'
+      ? el.querySelectorAll('rect, polygon, ellipse, path, polyline')
+      : [el];
+
+    targets.forEach(t => {
+      t.classList.add('room');
+      t.dataset.roomId = room.id;
+
+      t.addEventListener('mouseenter', e => showTooltip(e, room.name));
+      t.addEventListener('mousemove', moveTooltip);
+      t.addEventListener('mouseleave', hideTooltip);
+      t.addEventListener('click', () => selectRoom(room.id));
+    });
+  });
+}
+
+// ============================================================
+// TOOLTIP
+// ============================================================
+const tooltipEl = document.getElementById('tooltip');
+function showTooltip(e, text) {
+  tooltipEl.textContent = text;
+  tooltipEl.classList.add('is-visible');
+  moveTooltip(e);
+}
+function moveTooltip(e) {
+  tooltipEl.style.left = (e.clientX + 12) + 'px';
+  tooltipEl.style.top = (e.clientY + 12) + 'px';
+}
+function hideTooltip() {
+  tooltipEl.classList.remove('is-visible');
+}
+
+// ============================================================
+// SELECTION
+// ============================================================
+function selectRoom(roomId) {
+  state.selectedRoomId = roomId;
+
+  document.querySelectorAll('.room.is-selected').forEach(el => el.classList.remove('is-selected'));
+
+  const room = currentFloor().rooms.find(r => r.id === roomId);
+  if (room) {
+    const el = document.getElementById(room.svgId);
+    if (el) {
+      const targets = el.tagName === 'g'
+        ? el.querySelectorAll('rect, polygon, ellipse, path, polyline')
+        : [el];
+      targets.forEach(t => t.classList.add('is-selected'));
+    }
+  }
+
+  document.getElementById('mapPane').classList.toggle('has-selection', !!roomId);
+
+  if (state.mode === 'browse') {
+    showDetail(roomId);
+  }
+  updateRoomList();
+}
+
+function clearSelection() {
+  state.selectedRoomId = null;
+  document.querySelectorAll('.room.is-selected').forEach(el => el.classList.remove('is-selected'));
+  document.getElementById('mapPane').classList.remove('has-selection');
+  hideDetail();
+  updateRoomList();
+}
+
+// ============================================================
+// BROWSE: ROOM LIST + SEARCH
+// ============================================================
+function renderRoomList(filter = '') {
+  const list = document.getElementById('roomList');
+  const q = filter.trim().toLowerCase();
+  const rooms = currentFloor().rooms;
+
+  // Dedupe rooms with the same display name (e.g., the two "Restrooms" entries)
+  const seen = new Set();
+  const uniqueRooms = rooms.filter(r => {
+    const key = r.name + '|' + r.zone;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  const matches = uniqueRooms.filter(r =>
+    !q || r.name.toLowerCase().includes(q) || (r.blurb && r.blurb.toLowerCase().includes(q))
+  );
+
+  // Group by zone
+  const byZone = {};
+  matches.forEach(r => {
+    if (!byZone[r.zone]) byZone[r.zone] = [];
+    byZone[r.zone].push(r);
+  });
+
+  let html = '';
+  if (matches.length === 0) {
+    html = '<p style="padding:16px 24px;color:var(--muted);font-size:14px">No matches.</p>';
+  } else {
+    ['service', 'resources', 'books', 'periodicals', 'collab', 'individual', 'study', 'restrooms', 'nonpublic'].forEach(zoneKey => {
+      if (!byZone[zoneKey]) return;
+      html += `<div class="group-label">${ZONES[zoneKey].label}</div>`;
+      byZone[zoneKey].forEach(r => {
+        const sel = r.id === state.selectedRoomId ? 'is-selected' : '';
+        html += `<button class="${sel}" data-room-id="${r.id}">
+          <span class="swatch" style="background:${ZONES[r.zone].color}"></span>${r.name}
+        </button>`;
+      });
+    });
+  }
+
+  list.innerHTML = html;
+  list.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => selectRoom(btn.dataset.roomId));
+  });
+}
+
+function updateRoomList() {
+  const filter = document.getElementById('search').value;
+  renderRoomList(filter);
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  renderRoomList(e.target.value);
+});
+
+// ============================================================
+// DETAIL
+// ============================================================
+function showDetail(roomId) {
+  const room = currentFloor().rooms.find(r => r.id === roomId);
+  if (!room) return;
+
+  document.getElementById('browseView').hidden = true;
+  document.getElementById('detailView').hidden = false;
+
+  const zone = ZONES[room.zone];
+  const detail = document.getElementById('detailView');
+  detail.innerHTML = `
+    <button class="back-button" id="backBtn">← Back to list</button>
+    <span class="zone-tag zone-${room.zone}">${zone.label}</span>
+    <h2>${room.name}</h2>
+    ${room.blurb ? `<p>${room.blurb}</p>` : `<p class="empty">A space within the library. No detailed description available yet.</p>`}
+  `;
+
+  document.getElementById('backBtn').addEventListener('click', clearSelection);
+}
+
+function hideDetail() {
+  document.getElementById('detailView').hidden = true;
+  if (state.mode === 'browse') {
+    document.getElementById('browseView').hidden = false;
+  }
+}
+
+// ============================================================
+// TOUR
+// ============================================================
+function drawTourPins() {
+  const svg = document.querySelector('#svgWrap svg');
+  if (!svg) return;
+
+  svg.querySelectorAll('.tour-pin').forEach(p => p.remove());
+
+  if (state.mode !== 'tour') return;
+
+  const tour = currentFloor().tour;
+  tour.forEach(({ stop, roomId }) => {
+    const room = currentFloor().rooms.find(r => r.id === roomId);
+    if (!room) return;
+    const target = document.getElementById(room.svgId);
+    if (!target) return;
+
+    let bbox;
+    try { bbox = target.getBBox(); } catch (e) { return; }
+    const cx = bbox.x + bbox.width / 2;
+    const cy = bbox.y + bbox.height / 2;
+
+    const isActive = state.tourStep === stop;
+
+    const pin = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    pin.classList.add('tour-pin');
+    if (isActive) pin.classList.add('is-active');
+    pin.dataset.tourStop = stop;
+    pin.innerHTML = `
+      <circle cx="${cx}" cy="${cy}" r="9"></circle>
+      <text x="${cx}" y="${cy}">${stop}</text>
+    `;
+    pin.addEventListener('click', () => goToTourStop(stop));
+    svg.appendChild(pin);
+  });
+}
+
+function renderTourView() {
+  const view = document.getElementById('tourView');
+  const tour = currentFloor().tour;
+
+  if (state.tourStep === 0) {
+    view.innerHTML = `
+      <h2 style="margin:0 0 12px;font-size:20px;font-weight:800">Welcome</h2>
+      <p>This guided tour walks you through ${tour.length} key stops on the ${currentFloor().title.toLowerCase()}, drawn from the Library Virtual Tour.</p>
+      <p>Click a numbered pin on the map, or use the controls below to step through.</p>
+      <div class="tour-controls">
+        <button id="tourStart">Start tour</button>
+      </div>
+    `;
+    document.getElementById('tourStart').addEventListener('click', () => goToTourStop(1));
+    return;
+  }
+
+  const tourEntry = tour.find(t => t.stop === state.tourStep);
+  const room = currentFloor().rooms.find(r => r.id === tourEntry.roomId);
+  const zone = ZONES[room.zone];
+
+  view.innerHTML = `
+    <p class="progress">Stop ${state.tourStep} of ${tour.length}</p>
+    <span class="zone-tag zone-${room.zone}">${zone.label}</span>
+    <h2><span class="tour-step-num">${state.tourStep}</span>${room.name}</h2>
+    ${room.blurb ? `<p>${room.blurb}</p>` : ''}
+    <div class="tour-controls">
+      <button class="secondary" id="tourPrev" ${state.tourStep === 1 ? 'disabled' : ''}>← Previous</button>
+      <button id="tourNext" ${state.tourStep === tour.length ? 'disabled' : ''}>Next →</button>
+    </div>
+    ${state.tourStep === tour.length
+      ? '<p style="margin-top:16px;color:var(--muted);font-size:13px">You\u2019ve reached the end of this floor\u2019s tour. Switch floors to explore more.</p>'
+      : ''}
+  `;
+
+  const prev = document.getElementById('tourPrev');
+  const next = document.getElementById('tourNext');
+  if (prev) prev.addEventListener('click', () => goToTourStop(state.tourStep - 1));
+  if (next) next.addEventListener('click', () => goToTourStop(state.tourStep + 1));
+}
+
+function goToTourStop(n) {
+  state.tourStep = n;
+  if (n > 0) {
+    const tourEntry = currentFloor().tour.find(t => t.stop === n);
+    if (tourEntry) selectRoom(tourEntry.roomId);
+  }
+  drawTourPins();
+  renderTourView();
+}
+
+// ============================================================
+// MODE & FLOOR SWITCHING
+// ============================================================
+document.querySelectorAll('.modes button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const newMode = btn.dataset.mode;
+    if (newMode === state.mode) return;
+    state.mode = newMode;
+
+    document.querySelectorAll('.modes button').forEach(b =>
+      b.classList.toggle('is-active', b.dataset.mode === newMode));
+
+    if (newMode === 'browse') {
+      document.getElementById('tourView').hidden = true;
+      document.getElementById('browseView').hidden = false;
+      clearSelection();
+    } else {
+      document.getElementById('browseView').hidden = true;
+      document.getElementById('detailView').hidden = true;
+      document.getElementById('tourView').hidden = false;
+      state.tourStep = 0;
+      clearSelection();
+      renderTourView();
+    }
+    drawTourPins();
+  });
+});
+
+document.querySelectorAll('#floorTabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const target = Number(btn.dataset.floor);
+    if (target === state.floor) return;
+    mountFloor(target);
+  });
+});
+
+// ============================================================
+// INIT
+// ============================================================
+mountFloor(1);
+</script>
+</body>
+</html>

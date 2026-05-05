@@ -1,0 +1,231 @@
+{% comment %}
+  Floor Map Include
+  Accepts: include.floor (required) - floor number (1-4)
+  Renders the interactive SVG map + side panel for a single floor
+{% endcomment %}
+
+{% assign floor_num = include.floor | default: 1 %}
+{% assign floor_data = site.data.floors | where: "floor", floor_num | first %}
+{% assign floor_rooms = site.data.rooms | where: "floor", floor_num %}
+
+{% comment %} Generate CSS custom properties for zone colors {% endcomment %}
+<style id="zone-colors">
+:root {
+  {% for zone_pair in site.data.zones %}
+    {% assign zone_key = zone_pair[0] %}
+    {% assign zone = zone_pair[1] %}
+  --zone-{{ zone_key }}: {{ zone.color }};
+  {% endfor %}
+}
+</style>
+
+<div class="floor-map-container" data-floor="{{ floor_num }}">
+  <noscript>
+    <div class="alert alert-info m-3">
+      For an interactive experience with room search and a guided tour, please enable JavaScript.
+      The map below is fully zoomable using your device's standard pinch-to-zoom.
+    </div>
+  </noscript>
+
+  <div class="floor-map-app">
+    {% comment %} Map pane (left on desktop, full screen on mobile) {% endcomment %}
+    <div class="map-pane" id="map-pane-{{ floor_num }}">
+      <div class="svg-wrapper" id="svg-wrapper-{{ floor_num }}">
+        {% comment %} JavaScript will load and enhance the SVG with data attributes {% endcomment %}
+      </div>
+    </div>
+
+    {% comment %} Side pane (right on desktop, bottom sheet on mobile) {% endcomment %}
+    <div class="side-pane" id="side-pane-{{ floor_num }}">
+      {% comment %} Floor switcher {% endcomment %}
+      <div class="floor-switcher">
+        {% comment %} Desktop: tabs {% endcomment %}
+        <div class="floor-tabs d-none d-md-flex">
+          {% for floor in site.data.floors %}
+            {% assign floor_number = floor.floor %}
+            <button
+              class="floor-tab{% if floor_number == floor_num %} is-active{% endif %}"
+              data-floor="{{ floor_number }}"
+            >
+              Floor {{ floor_number }}
+            </button>
+          {% endfor %}
+        </div>
+
+        {% comment %} Mobile: dropdown {% endcomment %}
+        <div class="floor-dropdown d-md-none">
+          <label for="floor-select-{{ floor_num }}" class="visually-hidden">Select Floor</label>
+          <select id="floor-select-{{ floor_num }}" class="floor-select">
+            {% for floor in site.data.floors %}
+              {% assign floor_number = floor.floor %}
+              <option
+                value="{{ floor_number }}"
+                {% if floor_number == floor_num %}selected{% endif %}
+              >
+                {{ floor.title }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+
+      <div class="side-header d-none d-md-block">
+        <h1>{{ floor_data.title }}</h1>
+        <p>{{ floor_data.subtitle }}</p>
+      </div>
+
+      {% comment %} Mode tabs (Browse / Tour) {% endcomment %}
+      <div class="modes">
+        <button class="mode-btn is-active" data-mode="browse">Browse</button>
+        <button class="mode-btn" data-mode="tour">Tour</button>
+      </div>
+
+      {% comment %} Browse mode content {% endcomment %}
+      <div class="mode-content" data-mode-content="browse">
+        <div class="search-wrap">
+          <input
+            type="search"
+            id="room-search-{{ floor_num }}"
+            placeholder="Search rooms..."
+            aria-label="Search rooms"
+          >
+        </div>
+
+        <div class="room-list" id="room-list-{{ floor_num }}">
+          {% comment %} Show ALL rooms from all floors, grouped by floor {% endcomment %}
+          {% for floor_item in site.data.floors %}
+            {% assign floor_number = floor_item.floor %}
+            {% assign all_floor_rooms = site.data.rooms | where: "floor", floor_number %}
+
+            <div class="floor-group" data-floor="{{ floor_number }}">
+              <div class="floor-group-label">{{ floor_item.title }}</div>
+
+              {% assign zones_with_rooms = "" | split: "" %}
+              {% for room in all_floor_rooms %}
+                {% unless zones_with_rooms contains room.zone %}
+                  {% assign zones_with_rooms = zones_with_rooms | push: room.zone %}
+                {% endunless %}
+              {% endfor %}
+
+              {% for zone_key in zones_with_rooms %}
+                {% assign zone = site.data.zones[zone_key] %}
+                {% assign zone_rooms = all_floor_rooms | where: "zone", zone_key %}
+
+                {% for room in zone_rooms %}
+                  <button
+                    class="room-list-item"
+                    data-room-id="{{ room.room_id }}"
+                    data-svg-id="{{ room.svg_id }}"
+                    data-floor="{{ floor_number }}"
+                  >
+                    <span class="swatch" style="background-color: {{ zone.color }};"></span>
+                    {{ room.name }}
+                    <span class="room-floor-indicator">· Floor {{ floor_number }}</span>
+                  </button>
+                {% endfor %}
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% comment %} Tour mode content {% endcomment %}
+      <div class="mode-content" data-mode-content="tour" style="display: none;">
+        <div class="tour-view" id="tour-view-{{ floor_num }}">
+          <div class="tour-intro">
+            <p>Loading tour...</p>
+          </div>
+        </div>
+      </div>
+
+      {% comment %} Detail view (shown when a room is selected) {% endcomment %}
+      <div class="detail-view" id="detail-view-{{ floor_num }}" style="display: none;">
+        <button class="back-btn" aria-label="Back to browse">
+          <svg width="20" height="20" fill="currentColor">
+            <path d="M15 10H5M5 10l5-5M5 10l5 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Back to Browse
+        </button>
+
+        <div class="detail-content">
+          <span class="zone-tag" id="detail-zone-tag"></span>
+          <h2 id="detail-name"></h2>
+          <p class="room-number" id="detail-room-number"></p>
+          <p class="short-description" id="detail-short-desc"></p>
+          <p class="long-description" id="detail-long-desc"></p>
+
+          <div class="action-buttons" id="detail-actions">
+            <a href="#" class="btn btn-primary" id="detail-more-info" style="display: none;">Learn more</a>
+            <a href="#" class="btn btn-outline-primary" id="detail-action" style="display: none;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% comment %} Load JavaScript libraries (only once per page) {% endcomment %}
+{% unless page.floor_map_js_loaded %}
+  <script src="{{ '/assets/js/svg-pan-zoom.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/floor-map.js' | relative_url }}" defer></script>
+  {% assign page.floor_map_js_loaded = true %}
+{% endunless %}
+
+{% comment %} Store room data in JSON for ALL floors {% endcomment %}
+{% for floor_item in site.data.floors %}
+  {% assign json_floor_num = floor_item.floor %}
+  {% assign json_floor_rooms = site.data.rooms | where: "floor", json_floor_num %}
+  {% assign tour_stops = json_floor_rooms | where: "is_tour_stop", "TRUE" | sort: "tour_order" %}
+
+<script id="floor-{{ json_floor_num }}-data" type="application/json">
+{
+  "floor": {{ json_floor_num }},
+  "title": "{{ floor_item.title }}",
+  "svg_path": "{{ floor_item.svg_path | prepend: '/' | relative_url }}",
+  "tour_intro": "{{ floor_item.tour_intro | escape }}",
+  "rooms": [
+    {% for room in json_floor_rooms %}
+    {
+      "room_id": "{{ room.room_id }}",
+      "floor": {{ room.floor }},
+      "svg_id": "{{ room.svg_id }}",
+      "name": "{{ room.name }}",
+      "zone": "{{ room.zone }}",
+      "room_number": "{{ room.room_number }}",
+      "short_description": "{{ room.short_description | escape }}",
+      "long_description": "{{ room.long_description | escape }}",
+      "more_info_url": "{{ room.more_info_url }}",
+      "action_url": "{{ room.action_url }}",
+      "action_label": "{{ room.action_label }}",
+      "is_tour_stop": {{ room.is_tour_stop | jsonify }},
+      "tour_order": {{ room.tour_order | default: 0 }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "tour_stops": [
+    {% for stop in tour_stops %}
+    {
+      "room_id": "{{ stop.room_id }}",
+      "svg_id": "{{ stop.svg_id }}",
+      "tour_order": {{ stop.tour_order }},
+      "name": "{{ stop.name }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "zones": {
+    {% for zone_pair in site.data.zones %}
+      {% assign zone_key = zone_pair[0] %}
+      {% assign zone = zone_pair[1] %}
+    "{{ zone_key }}": {
+      "label": "{{ zone.label }}",
+      "color": "{{ zone.color }}"
+    },
+    {% endfor %}
+    "study": {
+      "label": "Individual Study",
+      "color": "#D7003F"
+    }
+  }
+}
+</script>
+{% endfor %}
