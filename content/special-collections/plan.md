@@ -44,7 +44,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h3>Semester Room Hours</h3>
+        <h3>Regular Semester Room Hours</h3>
         <table class="table table-hover">
           <tbody>
             <tr>
@@ -57,15 +57,26 @@ Everyone is welcome to visit our Reading Room and view our materials!
             </tr>
           </tbody>
         </table>
-        <h3>Summer Hours</h3>
+        <h3>Summer Hours 2026</h3>
         <table class="table table-hover">
           <tbody>
             <tr>
-              <td>Tuesday, Wednesday, Thursday</td>
-              <td>9:00am - 1:00pm</td>
+              <td>May 11-15</td>
+              <td>Mon-Fri, 10:00 AM - 2:00 PM</td>
+            </tr>
+            <tr>
+              <td>May 18-22</td>
+              <td>Appointment only</td>
+            </tr>
+            <tr>
+              <td>May 26 - August 14</td>
+              <td>Tues - Thurs, 10:00am - 2:00pm</td>
+            </tr>
+            <tr>
+              <td>Closed: May 25, June 19, July 3</td>
             </tr>
           </tbody>
-        </table>
+        </table> 
       </div>
     </div>
   </div>
