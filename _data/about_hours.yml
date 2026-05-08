@@ -10,7 +10,7 @@ hours:
   - section: Building Hours
     boxes: 
       - title: Semester Hours
-        note: August 25 - December 19, 2025 and January 8 - May 10, 2026
+        note: August 25 - December 19, 2025 and January 8 - May 16, 2026
         hours: 
           - days: Monday - Thursday
             times: 6:00am - 2:00am
@@ -23,14 +23,14 @@ hours:
             times: 12:00pm - 2:00am
             note: 3rd and 4th floors close at 12am
       - title: Summer Hours
-        note: May 11 - August 24, 2026
+        note: May 17 - August 24, 2026
         hours: 
           - days: Monday - Friday
-            times: 8:00am - 8:00pm
+            times: 8:00am - 7:00pm
           - days: Saturday
             times: Closed
           - days: Sunday
-            times: 12:00pm - 8:00pm
+            times: 12:00pm - 7:00pm
 # ref desk
   - section: Research Help Desk
     alert: Instant help from librarians is available online via our <a href='https://www.lib.uidaho.edu/help/' class='alert-link'>Chat service</a> 24 hours a day, 7 days a week!
