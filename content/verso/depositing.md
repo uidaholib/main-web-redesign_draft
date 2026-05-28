@@ -13,119 +13,81 @@ VERSO deposit*
 
 ### Quick Format Selection
 
-  Data Type                 Best Format                          Also Acceptable                     Avoid
-  ------------------------- ------------------------------------ ----------------------------------- -----------------------------------
-  **Spreadsheets/Tables**   CSV, TSV, JSON                       ODS                                 XLS, XLSX (include CSV version)
-  **Text Documents**        TXT (UTF-8), Markdown, PDF/A, HTML   ODT, LaTeX                          DOC, DOCX (export to PDF/A)
-  **Images**                TIFF, PNG                            JPEG 2000, JPEG (for derivatives)   GIF, proprietary RAW without TIFF
-  **Geospatial (Vector)**   GeoJSON, Shapefile                   KML, GML                            Proprietary geodatabases
-  **Geospatial (Raster)**   GeoTIFF, NetCDF                      ---                                 Proprietary formats
-  **Audio**                 WAV, FLAC, AIFF                      MP3 (for access copies)             Proprietary formats
-  **Video**                 MP4, MKV                             Uncompressed AVI                    Heavily compressed proprietary
-  **Code/Scripts**          Plain text (.py, .r, .m, etc.)       Jupyter notebooks, R Markdown       Compiled binaries without source
-  **Databases**             SQL dump, XML, JSON                  CSV + data dictionary               .mdb, .accdb without export
+| Data Type | Best Format | Also Acceptable | Avoid |
+|---|---|---|---|
+| **Spreadsheets/Tables** | CSV, TSV, JSON | ODS | XLS, XLSX; include CSV version |
+| **Text Documents** | TXT (UTF-8), Markdown, PDF/A, HTML | ODT, LaTeX | DOC, DOCX; export to PDF/A |
+| **Images** | TIFF, PNG | JPEG 2000, JPEG for derivatives | GIF, proprietary RAW without TIFF |
+| **Geospatial (Vector)** | GeoJSON, Shapefile | KML, GML | Proprietary geodatabases |
+| **Geospatial (Raster)** | GeoTIFF, NetCDF | — | Proprietary formats |
+| **Audio** | WAV, FLAC, AIFF | MP3 for access copies | Proprietary formats |
+| **Video** | MP4, MKV | Uncompressed AVI | Heavily compressed proprietary |
+| **Code/Scripts** | Plain text: `.py`, `.r`, `.m`, etc. | Jupyter notebooks, R Markdown | Compiled binaries without source |
+| **Databases** | SQL dump, XML, JSON | CSV + data dictionary | `.mdb`, `.accdb` without export |
 
 ### Deposit Checklist
 
 #### Before You Deposit
 
-□ Have you converted proprietary formats to open equivalents?
-
-□ Are all text files saved with UTF-8 encoding?
-
-□ Have you checked that compressed formats (JPEG, MP3) are only used for
+* Have you converted proprietary formats to open equivalents?
+* Are all text files saved with UTF-8 encoding?
+* Have you checked that compressed formats (JPEG, MP3) are only used for
 derivative/access copies?
-
-□ Are file and folder names descriptive and free of special characters?
-
-□ Have you organized files logically (e.g., separate folders for data,
+* Are file and folder names descriptive and free of special characters?
+* Have you organized files logically (e.g., separate folders for data,
 code, documentation)?
 
 #### Required Documentation
 
-□ **README file** (TXT or Markdown) explaining:
-
+* **README file** (TXT or Markdown) explaining:
 -   What the dataset contains
 -   File organization
 -   Software requirements
 -   Known limitations
 
-□ **Data dictionary or codebook** (for tabular data) documenting:
-
+* **Data dictionary or codebook** (for tabular data) documenting:
 -   Variable names and definitions
 -   Units and measurement scales
 -   Codes for categorical variables
 -   Missing data indicators
 
-□ **Methodology documentation** describing:
-
+* **Methodology documentation** describing:
 -   Data collection methods
 -   Processing or analysis steps
 -   Quality control procedures
 
-□ **Format documentation** (for specialized formats):
-
+* **Format documentation** (for specialized formats):
 -   Links to format specifications
 -   Required software or tools
 -   Version information
 
 #### For Code and Software Deposits
 
-□ Source code in plain text format
+* Source code in plain text format
+* README with installation and usage instructions
+* List of dependencies with version numbers
+* Example data or test cases
+* License information, such as MIT, GPL, or Apache
+* Environment documentation, such as `requirements.txt`, `environment.yml`, etc.
 
-□ README with installation and usage instructions
-
-□ List of dependencies with version numbers
-
-□ Example data or test cases
-
-□ License information (e.g., MIT, GPL, Apache)
-
-□ Environment documentation (requirements.txt, environment.yml, etc.)
 
 #### Compression and Packaging
 
-□ Multiple files packaged as ZIP or .tar.gz
-
-□ README included at the root level of the archive
-
-□ Already-compressed files (JPEG, MP3) not re-compressed
+* Multiple files packaged as ZIP or .tar.gz
+* README included at the root level of the archive
+* Already-compressed files (JPEG, MP3) not re-compressed
 
 ### Common Format Conversions
 
-  -----------------------------------------------------------------------
-  From (Proprietary)      To (Open Format)        How
-  ----------------------- ----------------------- -----------------------
-  Excel (.xls, .xlsx)     CSV                     File → Save As → CSV
-                                                  (UTF-8)\
-                                                  *Export each sheet
-                                                  separately*
+| From (Proprietary)     | To (Open Format) | How                                                                           |
+| ---------------------- | ---------------- | ----------------------------------------------------------------------------- |
+| Excel `.xls`, `.xlsx`  | CSV              | File → Save As → CSV UTF-8<br>*Export each sheet separately*                  |
+| Word `.doc`, `.docx`   | PDF/A or ODT     | File → Save As → PDF, select PDF/A<br>or Save As → OpenDocument Text          |
+| Photoshop `.psd`       | TIFF             | File → Export → Export As → TIFF<br>*Use LZW compression, lossless*           |
+| Access Database `.mdb` | SQL or CSV       | Export each table to CSV<br>Include data dictionary explaining relationships  |
+| SPSS `.sav`            | CSV + codebook   | File → Export → CSV<br>Create codebook from variable view                     |
+| Stata `.dta`           | CSV + codebook   | `export delimited using filename.csv`<br>Create codebook with variable labels |
 
-  Word (.doc, .docx)      PDF/A or ODT            File → Save As → PDF
-                                                  (select PDF/A)\
-                                                  or Save As →
-                                                  OpenDocument Text
-
-  Photoshop (.psd)        TIFF                    File → Export → Export
-                                                  As → TIFF\
-                                                  *Use LZW compression
-                                                  (lossless)*
-
-  Access Database (.mdb)  SQL or CSV              Export each table to
-                                                  CSV\
-                                                  Include data dictionary
-                                                  explaining
-                                                  relationships
-
-  SPSS (.sav)             CSV + codebook          File → Export → CSV\
-                                                  Create codebook from
-                                                  variable view
-
-  Stata (.dta)            CSV + codebook          export delimited using
-                                                  filename.csv\
-                                                  Create codebook with
-                                                  variable labels
-  -----------------------------------------------------------------------
 
 ### Format Selection Decision Tree
 
