@@ -24,6 +24,7 @@ VERSO deposit*
 | **Video** | MP4, MKV | Uncompressed AVI | Heavily compressed proprietary |
 | **Code/Scripts** | Plain text: `.py`, `.r`, `.m`, etc. | Jupyter notebooks, R Markdown | Compiled binaries without source |
 | **Databases** | SQL dump, XML, JSON | CSV + data dictionary | `.mdb`, `.accdb` without export |
+{:.table .table-bordered .table-hover .my-4}
 
 ### Deposit Checklist
 
@@ -40,26 +41,26 @@ code, documentation)?
 #### Required Documentation
 
 * **README file** (TXT or Markdown) explaining:
--   What the dataset contains
--   File organization
--   Software requirements
--   Known limitations
+    - What the dataset contains
+    - File organization
+    - Software requirements
+    - Known limitations
 
 * **Data dictionary or codebook** (for tabular data) documenting:
--   Variable names and definitions
--   Units and measurement scales
--   Codes for categorical variables
--   Missing data indicators
+    - Variable names and definitions
+    - Units and measurement scales
+    - Codes for categorical variables
+    - Missing data indicators
 
 * **Methodology documentation** describing:
--   Data collection methods
--   Processing or analysis steps
--   Quality control procedures
+    - Data collection methods
+    - Processing or analysis steps
+    - Quality control procedures
 
 * **Format documentation** (for specialized formats):
--   Links to format specifications
--   Required software or tools
--   Version information
+    - Links to format specifications
+    - Required software or tools
+    - Version information
 
 #### For Code and Software Deposits
 
@@ -69,7 +70,6 @@ code, documentation)?
 * Example data or test cases
 * License information, such as MIT, GPL, or Apache
 * Environment documentation, such as `requirements.txt`, `environment.yml`, etc.
-
 
 #### Compression and Packaging
 
@@ -87,52 +87,42 @@ code, documentation)?
 | Access Database `.mdb` | SQL or CSV       | Export each table to CSV<br>Include data dictionary explaining relationships  |
 | SPSS `.sav`            | CSV + codebook   | File → Export → CSV<br>Create codebook from variable view                     |
 | Stata `.dta`           | CSV + codebook   | `export delimited using filename.csv`<br>Create codebook with variable labels |
-
+{:.table .table-bordered .table-hover .my-4}
 
 ### Format Selection Decision Tree
 
 **Ask yourself:**
 
 1.  **Is there a discipline-specific standard for this data type?**
-    -   Yes → Use that standard (e.g., NetCDF for climate data, FASTA
-        for sequences)
-    -   No → Continue to question 2
+    - Yes → Use that standard (e.g., NetCDF for climate data, FASTA
+    for sequences)
+    - No → Continue to question 2
 2.  **Can the data be represented in plain text or structured text?**
-    -   Yes → Use CSV, JSON, XML, or TXT
-    -   No → Continue to question 3
+    - Yes → Use CSV, JSON, XML, or TXT
+    - No → Continue to question 3
 3.  **Is there an open standard for this file type?**
-    -   Yes → Use the open standard (e.g., ODS instead of XLS)
-    -   No → Continue to question 4
+    - Yes → Use the open standard (e.g., ODS instead of XLS)
+    - No → Continue to question 4
 4.  **Must you use a proprietary format?**
-    -   Include comprehensive documentation
-    -   Provide an open-format version if possible
-    -   Export key data to CSV or JSON
+    - Include comprehensive documentation
+    - Provide an open-format version if possible
+    - Export key data to CSV or JSON
 
 ### When in Doubt
 
-If you\'re uncertain about format choices for your deposit:
+If you're uncertain about format choices for your deposit:
 
--   **Check with your discipline.** Look at established repositories in
-    your field (e.g., GenBank, ICPSR, Dryad) to see what formats they
-    accept.
--   **Consult funder requirements.** Many funders specify preferred
-    formats in their data management policies.
--   **Contact Data Services.** We can help you identify appropriate
-    formats, perform conversions, and create documentation. Email us at
-    <lib-verso@uidaho.edu> or [schedule a
-    consultation](https://www.lib.uidaho.edu/services/data/data-management/guide/contact/).
+- **Check with your discipline.** Look at established repositories in your field (e.g., GenBank, ICPSR, Dryad) to see what formats they accept.
+- **Consult funder requirements.** Many funders specify preferred formats in their data management policies.
+- **Contact Data Services.** We can help you identify appropriate formats, perform conversions, and create documentation. Email us at <lib-verso@uidaho.edu> or [schedule a consultation](https://www.lib.uidaho.edu/services/data/data-management/guide/contact/).
 
 ### Resources
 
--   [Complete VERSO Open Formats Guide](#)
--   [U of I File Formats
-    Guide](https://www.lib.uidaho.edu/services/data/data-management/guide/sharing/formats/)
--   [FAIR Data
-    Principles](https://www.lib.uidaho.edu/services/data/data-management/guide/fair/)
--   [Data Documentation &
-    Metadata](https://www.lib.uidaho.edu/services/data/data-management/guide/documenting/)
--   [Library of Congress Recommended Formats
-    Statement](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml)
+- [Complete VERSO Open Formats Guide]({{ '/verso/formats.html' | relative_url }})
+- [U of I File Formats Guide](https://www.lib.uidaho.edu/services/data/data-management/guide/sharing/formats/)
+- [FAIR Data Principles](https://www.lib.uidaho.edu/services/data/data-management/guide/fair/)
+- [Data Documentation & Metadata](https://www.lib.uidaho.edu/services/data/data-management/guide/documenting/)
+- [Library of Congress Recommended Formats Statement](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml)
 
 ------------------------------------------------------------------------
 

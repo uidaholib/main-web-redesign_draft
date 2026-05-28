@@ -5,7 +5,7 @@ permalink: /verso/policies.html
 layout: page
 ---
 
-UI LIbrary Policies regarding VERSO. Learn more by clicking the topics!
+U of I LIbrary Policies regarding VERSO. Learn more by clicking the topics!
 
 <div class="accordion mb-3" id="accordion">
     {% for q in site.data.verso_policies %}
