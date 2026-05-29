@@ -144,10 +144,8 @@ See our [Commonly Used Metadata Standards](https://www.lib.uidaho.edu/services/d
 - Include a README file explaining the purpose, requirements, and usage
 - Specify software dependencies with version numbers
 - Include example data or test cases
-- Apply an appropriate [open source license](#)
+- Apply an appropriate open source license
 - Document the computing environment (e.g., using environment.yml,requirements.txt, or similar)
-
-See our guide on [Sharing Code and Software](#) for more detailed recommendations.
 
 #### Databases and Structured Data
 
