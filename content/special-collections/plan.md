@@ -73,7 +73,7 @@ Everyone is welcome to visit our Reading Room and view our materials!
               <td>Tues - Thurs, 10:00am - 2:00pm</td>
             </tr>
             <tr>
-              <td>Closed: May 25, June 19, July 3</td>
+              <td colspan="2">Closed: May 25, June 24-25, July 3</td>
             </tr>
           </tbody>
         </table> 
