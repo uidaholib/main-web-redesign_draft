@@ -91,7 +91,7 @@ hours:
       - title: Summer Hours
         hours: 
           - days: Tuesday, Wednesday, Thursday
-            times: 9:00am - 1:00pm
+            times: 10:00am - 3:00pm
             note: or by appointment
           - days: Monday, Friday
             times: "By <a href='https://www.lib.uidaho.edu/special-collections/plan.html'>appointment</a>, please contact <a href='mailto:libspec@uidaho.edu'>libspec@uidaho.edu</a>"
