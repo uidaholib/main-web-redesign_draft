@@ -66,6 +66,9 @@ hours:
           - days: Monday - Thursday
             times: 9:00am - 12:00pm
             note: or by appointment
+          - days: July 1 - August 10
+            times: By appointment
+            
 # MILL
   - section: The MILL
     note: Making, Innovating, and Learning Laboratory
