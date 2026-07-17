@@ -5,7 +5,9 @@ permalink: /find/equipment-loans.html
 layout: page
 ---
 
-The library offers various equipment for students, faculty, and staff to use in or outside of the library building. To check out any piece of equipment, please bring your Vandal card to the Circulation Desk on the library’s first floor and sign the U of I Library Loanable Equipment Lending User Agreement form. Equipment is subject to [late fines and replacement fees]({{ '/services/borrow/#fines' | relative_url }}). You may also want to explore equipment available at [The Studio A/V Lab space]({{ '/studio/' | relative_url }})!
+The library offers various equipment for students, faculty, and staff to use in or outside of the library building. To check out any piece of equipment, please bring your Vandal card to the Circulation Desk on the library’s first floor. Equipment is subject to [late fines and replacement fees]({{ '/services/borrow/#fines' | relative_url }}). You may also want to explore equipment available at [The Studio A/V Lab space]({{ '/studio/' | relative_url }})!
+
+Some items may be reserved in advance, please visit the [Bookable Tech Equipment Collection](https://alliance-uidaho.primo.exlibrisgroup.com/discovery/collectionDiscovery?vid=01ALLIANCE_UID:UID&collectionId=81345592150001851&lang=en) for listings.
 
 {% assign items = site.data.find_equipment-libcal %}
 {% assign categories = items | map: 'category' | uniq | sort %}
