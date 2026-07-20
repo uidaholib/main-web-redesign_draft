@@ -2,20 +2,20 @@ category,title,description,link
 Climate Data,National Centers for Environmental Information (NCEI),"This database provides information from the National Climatic Data Center, part of the U.S. Department of Commerce. Included are climatic data from major airport weather stations, precipitation data, storm data, and Monthly Climatic Data for the World.",https://www.ncei.noaa.gov/access
 Climate Data,IRI/Columbia Climate Data Library,,http://iridl.ldeo.columbia.edu/
 Climate Data,National Center for Atmospheric Research,,http://climatedataguide.ucar.edu/
-Geospatial Data,Data.gov - Geospatial,,https://catalog.data.gov/dataset/?metadata_type=geospatial
+Geospatial Data,Data.gov - Geospatial,,https://catalog.data.gov/?sort=relevance&q=&sort=relevance&spatial_filter=geospatial
 Geospatial Data,Oregon GEOHub,,https://geohub.oregon.gov/
 Geospatial Data,Montana State Library GeoInfo,,https://msl.mt.gov/geoinfo/
 Geospatial Data,Land Cover - US GAP Analysis Program,,https://www.usgs.gov/programs/gap-analysis-project
 Geospatial Data,INSIDE Idaho,,https://www.insideidaho.org/
 Geospatial Data,Nevada,,http://www.nbmg.unr.edu/Maps&amp;Data/VirtualClearinghouse.html
-Geospatial Data,Utah,,http://gis.utah.gov/
+Geospatial Data,Utah,,https://opendata.gis.utah.gov/
 Geospatial Data,Washington,,http://guides.lib.uw.edu/research/gis
-Geospatial Data,Wyoming,,http://www.uwyo.edu/wygisc/
+Geospatial Data,Wyoming,,https://data.geospatialhub.org/
 Human Dimensions / Demography Data,"US EPA - Land, Waste, and Cleanup",Resources relating to production and treatement of waste in the United States.,https://www.epa.gov/environmental-topics/land-waste-and-cleanup-topics
 Human Dimensions / Demography Data,US GAP Analysis - Protected Areas Database,"PAD-US is America's official national inventory of U.S. terrestrial and marine protected areas that are dedicated to the preservation of biological diversity and to other natural, recreation and cultural uses, managed for these purposes through legal or other effective means. PAD-US also includes the best available aggregation of federal land and marine areas provided directly by managing agencies, coordinated through the Federal Geographic Data Committee Federal Lands Working Group.",https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview
 Human Dimensions / Demography Data,NASA - Human Dimensions Data Directory,,https://www.earthdata.nasa.gov/topics/human-dimensions
 Human Dimensions / Demography Data,EOSDIS - Human Dimension Datasets,,https://www.earthdata.nasa.gov/topics/human-dimensions/data-access-tools#toc-human-dimensions-datasets
-Human Dimensions / Demography Data,Earth Institute - Socioeconomic Datasets,Data provided by NASA's Socioeconomic Data and Applications Center (SEDAC) enable users to identify critical relationships between humans and the environment. Explore the datasets and tools that you can use to transform Earth observations to actionable science.,https://www.earthdata.nasa.gov/centers/sedac-daac/data-access-tools
+Human Dimensions / Demography Data,Earth Institute - Socioeconomic Datasets,Data provided by NASA's Socioeconomic Data and Applications Center (SEDAC) enable users to identify critical relationships between humans and the environment. Explore the datasets and tools that you can use to transform Earth observations to actionable science.,https://www.earthdata.nasa.gov/topics/human-dimensions/socioeconomics/data-access-tools
 Human Dimensions / Demography Data,US Census Bureau,,http://www.census.gov/
 Human Dimensions / Demography Data,USDA Economic Research Service,"Food Use, Agriculture, Nutrition",http://www.ers.usda.gov/data-products.aspx
 Human Dimensions / Demography Data,Inter-University Consortium for Political and Social Research (ICPSR),,https://www.icpsr.umich.edu/icpsrweb/
@@ -33,5 +33,5 @@ Idaho Data,Economic Indicators of Idaho,Idaho Dept. of Commerce,http://commerce.
 "Soil, Vegetation, and Land Use Data",NASA - Biosphere Datasets,"Biosphere collections data include: vegetation condition and type, biomass measurements, habitat structure, and evaporative stress. Also includes environmental vairables such as temperature, precipitation, human impacts, thermal anomaly, and aquatic data.",https://www.earthdata.nasa.gov/data/catalog?science_keywords_h%5B0%5D%5Btopic%5D=Biosphere&science_keywords_h%5B1%5D%5Btopic%5D=Biosphere
 "Soil, Vegetation, and Land Use Data",NASA - Soils Datasets,"The Soil Collections archive contains data on the physical and chemical properties of soils, including: soil carbon and nitrogen, soil water-holding capacity, soil respiration, soil texture.",https://www.earthdata.nasa.gov/topics/land-surface/soils/data-access-tools
 "Soil, Vegetation, and Land Use Data",International Multiproxy Paleofire Database (NOAA),,http://www.ncdc.noaa.gov/paleo/impd/
-"Soil, Vegetation, and Land Use Data",Wood Hole Research Center Datasets,Datasets available include the National Biomass and Carbon Dataset 2000 (NBCD) and the Large-Scale Biosphere-Atmosphere Experiment (LBA).,http://whrc.org/publications-data/datasets/
+"Soil, Vegetation, and Land Use Data",NASA Earthdata,NASA's Earth Science Data Systems (ESDS) Program data catalog,https://www.earthdata.nasa.gov/data/catalog
 "Soil, Vegetation, and Land Use Data",LANDFIRE (USGS),,https://www.landfire.gov/
