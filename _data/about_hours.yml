@@ -10,18 +10,16 @@ hours:
   - section: Building Hours
     boxes: 
       - title: Semester Hours
-        note: August 25 - December 19, 2025 and January 8 - May 16, 2026
+        note: August 24 - December 18, 2026 and January 13 - May 18, 2026
         hours: 
           - days: Monday - Thursday
-            times: 6:00am - 2:00am
-            note: 3rd and 4th floors close at 12am
+            times: 7:00am - 12:00am
           - days: Friday
-            times: 6:00am - 8:00pm
+            times: 7:00am - 8:00pm
           - days: Saturday
             times: 12:00pm - 6:00pm
           - days: Sunday
-            times: 12:00pm - 2:00am
-            note: 3rd and 4th floors close at 12am
+            times: 12:00pm - 12:00am
       - title: Summer Hours
         note: May 17 - August 24, 2026
         hours: 
