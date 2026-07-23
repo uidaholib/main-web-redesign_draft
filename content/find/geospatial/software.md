@@ -45,10 +45,10 @@ Along with software, U of I students, faculty, and staff have access to Esri no-
             <div class="card-body">
                 <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview">ArcGIS Pro</a> is Esri's Windows-based desktop GIS.</p>
                 <p>
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-pro/3.6/ArcGISPro_36_197382.exe" class="btn btn-outline-pride-gold mx-1">Download Version 3.6</a>
-                    <a href="https://pro.arcgis.com/en/pro-app/3.6/get-started/arcgis-pro-system-requirements.htm" class="btn btn-outline-pride-gold my-2 mx-1">System Requirements Version 3.6</a>
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-pro/3.5/ArcGISPro_35_195271.exe" class="btn btn-outline-pride-gold mx-1">Download Version 3.5</a>
-                    <a href="https://pro.arcgis.com/en/pro-app/3.5/get-started/arcgis-pro-system-requirements.htm" class="btn btn-outline-pride-gold my-2 mx-1">System Requirements Version 3.5</a>
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-pro/3.7/ArcGISPro_37_199633.exe" class="btn btn-outline-pride-gold mx-1">Download v3.7</a>
+                    <a href="https://doc.esri.com/en/arcgis-pro/latest/get-started/arcgis-pro-system-requirements.html" class="btn btn-outline-pride-gold my-2 mx-1">System Requirements v3.7</a>
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-pro/3.6/ArcGISPro_36_197382.exe" class="btn btn-outline-pride-gold mx-1">Download v3.6</a>
+                    <a href="https://pro.arcgis.com/en/pro-app/3.6/get-started/arcgis-pro-system-requirements.htm" class="btn btn-outline-pride-gold my-2 mx-1">System Requirements v3.6</a>
                     <a href="{{ '/find/geospatial/esriauth.html#arcgispro' | relative_url }}" class="btn btn-outline-pride-gold mx-1">Authorize ArcGIS Pro</a>
                     <a href="https://support.uidaho.edu/TDClient/40/Portal/KB/ArticleDet?ID=226&utm_source=University+of+Idaho&utm_campaign=491e5e7fca-tdr-2022-08-15&utm_medium=email&utm_term=0_4153a2eec5-491e5e7fca-86709945" class="btn btn-outline-pride-gold my-2 mx-1">Remote Access Lab - Connection Guide</a>
                     <a href="https://pro.arcgis.com/en/pro-app/latest/get-started/run-pro-on-a-mac.htm" class="btn btn-outline-pride-gold mx-1">Run ArcGIS Pro on a Mac</a>
@@ -65,11 +65,11 @@ Along with software, U of I students, faculty, and staff have access to Esri no-
             <div class="card-body">
                 <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview">ArcGIS CityEngine</a> is desktop 3D modeling software for creating interactive and immersive urban environments.</p>
                 <p>
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-cityengine/2025.1/windows/ArcGIS_CityEngine_2025_1_198386.exe" 
-                    class="btn btn-outline-pride-gold my-2 mx-1">Windows</a>
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-cityengine/2025.1/linux/ArcGIS_CityEngine_2025_1_198387.tar.gz" 
-                    class="btn btn-outline-pride-gold">Linux</a>
-                    <a href="{{ '/find/geospatial/esriauth.html#arcgiscityengine' | relative_url }}" class="btn btn-outline-pride-gold">Authorize ArcGIS CityEngine</a>
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-cityengine/2026.0/windows/ArcGIS_CityEngine_2026_0_200547.exe" 
+                    class="btn btn-outline-pride-gold mx-1">Download v2026.0 (Windows)</a>
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-cityengine/2026.0/linux/ArcGIS_CityEngine_2026_0_200548.tar.gz" 
+                    class="btn btn-outline-pride-gold my-2 mx-1">Download v2026.0 (Linux)</a>
+                    <a href="{{ '/find/geospatial/esriauth.html#arcgiscityengine' | relative_url }}" class="btn btn-outline-pride-gold mx-1">Authorize ArcGIS CityEngine</a>
                 </p>
             </div>
         </div>
@@ -82,7 +82,7 @@ Along with software, U of I students, faculty, and staff have access to Esri no-
             <div class="card-body">
                 <p><a href="https://www.esri.com/en-us/arcgis/products/arcgis-drone2map/overview">ArcGIS Drone2Map</a> is a desktop app for your geographic information system (GIS) drone mapping needs.</p>
                 <p>
-                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-drone2map/2025.2/ArcGIS_Drone2Map_20252_198075.exe" class="btn btn-outline-pride-gold">Download ArcGIS Drone2Map</a>
+                    <a href="https://downloads.uidaho.edu/esriSoftware/arcgis-drone2map/2026.1/ArcGIS_Drone2Map_20261_200266.exe" class="btn btn-outline-pride-gold">Download v2026.1</a>
                     <a href="{{ '/find/geospatial/esriauth.html#arcgisdrone2map' | relative_url }}" class="btn btn-outline-pride-gold my-2">Authorize ArcGIS Drone2Map</a>
                 </p>
             </div>
