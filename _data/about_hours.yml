@@ -107,64 +107,58 @@ hours:
   - section: Reduced Hours and Closures
     boxes: 
       - title: Fall Reduced Hours
-        note: 2025
-        hours: 
-          - days: August 31
-            times: 12:00pm - 12:00am
-          - days: September 2 - Labor Day
+        note: 2026
+        hours:
+          - days: September 7 - Labor Day
             times: Closed
       - title: Fall Recess
-        note: 2025
+        note: 2026
         hours: 
-          - days: November 22 - 23
+          - days: November 21 - 22
             times: 12:00pm - 6:00pm
-          - days: November 24 - 26
+          - days: November 23 - 25
             times: 8:00am - 6:00pm
-          - days: November 27 - Thanksgiving
+          - days: November 26 - Thanksgiving
             times: Closed
-          - days: November 28 - 29
+          - days: November 27 - 29
             times: 12:00pm - 6:00pm
       - title: Winter Intersession
-        note: 2025
+        note: 2026-27
         hours: 
           - days: December 20 - 21
             times: 12:00pm - 6:00pm
           - days: December 22 - 23
             times: 8:00am - 6:00pm
-          - days: December 24 - January 2
+          - days: December 24 - January 1
             times: Closed
-          - days: January 3 - 4
+          - days: January 2 - 3
             times: 12:00pm - 6:00pm
-          - days: January 5 - 9
+          - days: January 4 - 8
             times: 8:00am - 6:00pm
-          - days: January 10 - 11
+          - days: January 9 - 12
             times: 12:00pm - 6:00pm
       - title: Spring Reduced Hours
-        note: 2026
+        note: 2027
         hours: 
-          - days: January 18
+          - days: January 18 - Martin Luther King Jr. Day
             times: 12:00pm - 12:00am
-          - days: January 19 - Martin Luther King Jr. Day
-            times: 12:00pm - 12:00am
-          - days: February 15
-            times: 12:00pm - 12:00am
-          - days: February 16 - President's Day
+          - days: February 15 - President's Day
             times: 12:00pm - 12:00am
       - title: Spring Recess
-        note: 2026
+        note: 2027
         hours: 
-          - days: March 14 - 15
+          - days: March 13 - 14
             times: 12:00pm - 6:00pm
-          - days: March 16 - 20
+          - days: March 15 - 19
             times: 8:00am - 6:00pm
-          - days: March 21 - 22
+          - days: March 20 - 21
             times: 12:00pm - 6:00pm
       - title: Summer Closures
-        note: 2026
+        note: 2027
         hours: 
-          - days: May 25 - Memorial Day
+          - days: May 31 - Memorial Day
             times: Closed
-          - days: June 19 - Juneteenth
+          - days: June 18 - Juneteenth (observed)
             times: Closed
-          - days: July 2 - 6 - Independence Day (observed)
+          - days: July 5 - Independence Day (observed)
             times: Closed
