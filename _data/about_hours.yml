@@ -125,9 +125,9 @@ hours:
       - title: Winter Intersession
         note: 2026-27
         hours: 
-          - days: December 20 - 21
+          - days: December 19 - 20
             times: 12:00pm - 6:00pm
-          - days: December 22 - 23
+          - days: December 21 - 23
             times: 8:00am - 6:00pm
           - days: December 24 - January 1
             times: Closed
