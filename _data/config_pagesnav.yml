@@ -382,6 +382,17 @@ Data Hub:
     link: /events/
   - subsection: Julie and David Levine Data Hub Fellowship
     link: /fellowships/levine.html 
+  - subsection: Artificial Intelligence
+    link: /datahub/ai-basics.html
+    subpages:
+      - name: AI Basics
+        url: /datahub/ai-basics.html
+      - name: U of I AI Guidance
+        url: /datahub/ai-guidance.html
+      - name: MindRouter
+        url: /datahub/mindrouter.html
+      - name: AI Examples
+        url: /datahub/ai-examples.html
 
 
 # MILL Section
