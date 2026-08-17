@@ -1,5 +1,9 @@
 # main-web-redesign_draft
 
+*This project is archived. Active development is in [uidaholib/mainweb-lib-uidaho](https://github.com/uidaholib/mainweb-lib-uidaho)* 
+
+2018 - 2026
+
 <https://www.lib.uidaho.edu>
 
 A jekyll project to build University of Idaho Library's main website.
